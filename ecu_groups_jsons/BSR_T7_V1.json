@@ -8,7 +8,7 @@
             {
                 "position": 1,
                 "mnemonic": "ID_NOM_DU_FOURNISSEUR",
-                "label_index": "5701",
+                "label_index": "@P5701",
                 "label_korean": "제조 업체명",
                 "group_id": "20854",
                 "req_frame_id": "62565",
@@ -38,7 +38,7 @@
             {
                 "position": 2,
                 "mnemonic": "ID_REFERENCE_MATERIEL",
-                "label_index": "1071",
+                "label_index": "@P1071",
                 "label_korean": "장치 부품 번호",
                 "group_id": "20854",
                 "req_frame_id": "62565",
@@ -60,7 +60,7 @@
             {
                 "position": 3,
                 "mnemonic": "ID_REFERENCE_COMPLEMENTAIRE_MATERIEL_BSR_BTC",
-                "label_index": "1634",
+                "label_index": "@P1634",
                 "label_korean": "장치 추가 참조 번호",
                 "group_id": "20854",
                 "req_frame_id": "62565",
@@ -82,7 +82,7 @@
             {
                 "position": 4,
                 "mnemonic": "ID_8D_VERSION_SOFT_TEL",
-                "label_index": "12396",
+                "label_index": "@P12396",
                 "label_korean": "차량에 트레일러 릴레이 장치의 존재",
                 "group_id": "20854",
                 "req_frame_id": "62565",
@@ -112,7 +112,7 @@
             {
                 "position": 1,
                 "mnemonic": "ID_NOM_DU_FOURNISSEUR",
-                "label_index": "5701",
+                "label_index": "@P5701",
                 "label_korean": "제조 업체명",
                 "group_id": "20854",
                 "req_frame_id": "62565",
@@ -142,7 +142,7 @@
             {
                 "position": 2,
                 "mnemonic": "ID_REFERENCE_MATERIEL",
-                "label_index": "1071",
+                "label_index": "@P1071",
                 "label_korean": "장치 부품 번호",
                 "group_id": "20854",
                 "req_frame_id": "62565",
@@ -164,7 +164,7 @@
             {
                 "position": 3,
                 "mnemonic": "ID_REFERENCE_COMPLEMENTAIRE_MATERIEL_BSR_BTC",
-                "label_index": "1634",
+                "label_index": "@P1634",
                 "label_korean": "장치 추가 참조 번호",
                 "group_id": "20854",
                 "req_frame_id": "62565",
@@ -186,7 +186,7 @@
             {
                 "position": 4,
                 "mnemonic": "ID_8D_VERSION_SOFT_TEL_2",
-                "label_index": "12396",
+                "label_index": "@P12396",
                 "label_korean": "차량에 트레일러 릴레이 장치의 존재",
                 "group_id": "20854",
                 "req_frame_id": "62565",
@@ -216,7 +216,7 @@
             {
                 "position": 1,
                 "mnemonic": "CFG_A4M_BSI_BSR_000",
-                "label_index": "12396",
+                "label_index": "@P12396",
                 "label_korean": "차량에 트레일러 릴레이 장치의 존재",
                 "group_id": "20873",
                 "req_frame_id": "62622",
@@ -246,7 +246,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_CMDE_ECLAIRAGE_FEUX_BROUILLARD_ARRIERES_VEHICULE_ET_REMORQUE",
-                "label_index": "25733",
+                "label_index": "@P25733",
                 "label_korean": "차량 및 트레일러 리어 안개등 점등 제어",
                 "group_id": "20860",
                 "req_frame_id": "62583",
@@ -262,13 +262,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "28766, 28793, 28812, 20595, 20598",
-                "help_korean": "BSI는 리어 안개등의 점등을 제어한다 .\n트레일러 릴레이 장치는 장착되어 있을 경우 트레일러의 리어 안개등 점등을 제어한다 .\n- 참고 : 안개등을 점등하기 위해서 반드시 전조등 하향 헤드램프를 켜야 한다 .\n트레일러 릴레이 장치는 트레일러 램프의 제어에 기여한다 (차량이 이 기능이 존재할 때)."
+                "help_code": "@P28766@\\+@T.@\\n@\\+@P28793@\\+@T.@\\n@\\+@P28812@\\+@T.@\\n@\\+@P20595@T (@P20598@T).",
+                "help_korean": "BSI는 리어 안개등의 점등을 제어한다.\n트레일러 릴레이 장치는 장착되어 있을 경우 트레일러의 리어 안개등 점등을 제어한다.\n참고 : 안개등을 점등하기 위해서 반드시 전조등 하향 헤드램프를 켜야 한다.\n트레일러 릴레이 장치는 트레일러 램프의 제어에 기여한다 (차량이 이 기능이 존재할 때)."
             },
             {
                 "position": 2,
                 "mnemonic": "MP_CDE_CLIGNO_GH_VEH_ET_REMORQUE",
-                "label_index": "1961",
+                "label_index": "@P1961@\\*@\\*",
                 "label_korean": "차량 및 트레일러 좌측 방향지시등 점등 제어",
                 "group_id": "20860",
                 "req_frame_id": "62583",
@@ -284,13 +284,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "28221, 28189, 28213",
+                "help_code": "@P28221@T.@\\n@P28189@T.@\\n@P28213@T.",
                 "help_korean": "엔진 릴레이 장치는 프론트 좌측 방향지시등 점등을 제어한다.\nBSI는 리어 좌측 방향 지시등의 점등을 제어한다.\n트레일러 릴레이 장치는 트레일러가 차량에 연결되었을 때 트레일러의 리어 좌측 방향지시등 점등을 제어한다."
             },
             {
                 "position": 3,
                 "mnemonic": "MP_CDE_CLIGNO_DT_VEH_ET_REMORQUE",
-                "label_index": "8722",
+                "label_index": "@P8722@\\*@\\*",
                 "label_korean": "차량 및 트레일러 우측 방향지시등 점등 제어",
                 "group_id": "20860",
                 "req_frame_id": "62583",
@@ -306,13 +306,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "28248, 28174, 28216",
+                "help_code": "@P28248@\\n@P28174@T.@\\n@P28216@T.",
                 "help_korean": "엔진 릴레이 장치는 프론트 우측 방향지시등의 점등을 제어한다\nBSI는 리어 좌측 방향지시등의 점등을 제어한다.\n트레일러 릴레이 장치는 트레일러가 차량에 연결되었을 때 트레일러의 리어 우측 방향지시등 점등을 제어한다."
             },
             {
                 "position": 4,
                 "mnemonic": "MP_CDE_FEUX_POSITION_DROIT_VEH_ET_REMORQUE",
-                "label_index": "14926",
+                "label_index": "@P14926@\\*@\\*",
                 "label_korean": "차량 및 트레일러 우측 미등 점등 제어",
                 "group_id": "20860",
                 "req_frame_id": "62583",
@@ -328,13 +328,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "28245, 28204, 28234, 20590, 20595, 20598",
-                "help_korean": "엔진 퓨즈 박스는 프론트 우측 미등 점등을 제어한다 .\nBSI는 리어 우측 방향 지시등의 점등을 제어한다 .\n트레일러 릴레이 장치는 트레일러가 차량에 연결되었을 때 트레일러의 리어 우측 미등 점등을 제어한다 .\n엔진 퓨즈 박스는 관련 구성품의 제어에 관여한다.\n트레일러 릴레이 장치는 트레일러 램프의 제어에 기여한다 (차량이 이 기능이 존재할 때)."
+                "help_code": "@P28245@\\+@T.@\\n@\\+@P28204@\\+@T.@\\n@\\+@P28234@\\+@T.@\\n@\\+@P20590@T.@\\n@\\+@P20595@T (@P20598@T).",
+                "help_korean": "엔진 퓨즈 박스는 프론트 우측 미등 점등을 제어한다.\nBSI는 리어 우측 방향 지시등의 점등을 제어한다.\n트레일러 릴레이 장치는 트레일러가 차량에 연결되었을 때 트레일러의 리어 우측 미등 점등을 제어한다.\n엔진 퓨즈 박스는 관련 구성품의 제어에 관여한다.\n트레일러 릴레이 장치는 트레일러 램프의 제어에 기여한다 (차량이 이 기능이 존재할 때)."
             },
             {
                 "position": 5,
                 "mnemonic": "MP_CDE_FEUX_POSITION_GAUCHE_VEH_ET_REMORQUE",
-                "label_index": "16743",
+                "label_index": "@P16743@\\*@\\*",
                 "label_korean": "차량 및 트레일러 좌측 미등 점등 제어",
                 "group_id": "20860",
                 "req_frame_id": "62583",
@@ -350,13 +350,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "28180",
+                "help_code": "@P28180@T.",
                 "help_korean": "엔진 릴레이 장치는 프론트 좌측 미등의 점등을 제어한다."
             },
             {
                 "position": 6,
                 "mnemonic": "MP_COMMANDE_ECLAIRAGE_FEUX_DE_RECUL",
-                "label_index": "16572",
+                "label_index": "@P16572",
                 "label_korean": "차량 및 트레일러 후진등 점등 제어",
                 "group_id": "20860",
                 "req_frame_id": "62583",
@@ -372,13 +372,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "11108",
+                "help_code": "@P11108",
                 "help_korean": "트레일러 릴레이 장치는 트레일러가 있을 때 트레일러의 후진등 점등을 제어한다"
             },
             {
                 "position": 7,
                 "mnemonic": "MP_COMMANDE_ECLAIRAGE_FEUX_STOP",
-                "label_index": "3168",
+                "label_index": "@P3168",
                 "label_korean": "트레일러와 차량에서 제동등 점등 명령",
                 "group_id": "20860",
                 "req_frame_id": "62583",
@@ -394,7 +394,7 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "15567",
+                "help_code": "@P15567",
                 "help_korean": "트레일러 릴레이 장치는 트레일러가 있을 때 트레일러의 제동등 점등을 제어한다"
             }
         ]
@@ -408,7 +408,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_CONTACT_PEDALE_FREIN",
-                "label_index": "24362",
+                "label_index": "@P24362",
                 "label_korean": "브레이크 페달 스위치",
                 "group_id": "20870",
                 "req_frame_id": "62613",
@@ -429,13 +429,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "1829",
+                "help_code": "@P1829",
                 "help_korean": "이 변수는 사용자가 브레이크 페달을 누를 때 \"눌러짐\" 값을 가진다"
             },
             {
                 "position": 2,
                 "mnemonic": "MP_INFO_PRESENCE_REMORQUE_6",
-                "label_index": "8399",
+                "label_index": "@P8399",
                 "label_korean": "트레일러 존재 정보",
                 "group_id": "20870",
                 "req_frame_id": "62613",
@@ -451,7 +451,7 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "7800",
+                "help_code": "@P7800",
                 "help_korean": "이 변수는 트레일러 전기 소켓이 차량에 연결되어 있을 때 \"존재\" 값을 가진다"
             }
         ]
@@ -465,7 +465,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_CMDE_ECLAIRAGE_FEUX_BROUILLARD_ARRIERES_VEHICULE_ET_REMORQUE",
-                "label_index": "25733",
+                "label_index": "@P25733",
                 "label_korean": "차량 및 트레일러 리어 안개등 점등 제어",
                 "group_id": "20860",
                 "req_frame_id": "62583",
@@ -481,13 +481,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "28766, 28793, 28812, 20595, 20598",
-                "help_korean": "BSI는 리어 안개등의 점등을 제어한다 .\n트레일러 릴레이 장치는 장착되어 있을 경우 트레일러의 리어 안개등 점등을 제어한다 .\n- 참고 : 안개등을 점등하기 위해서 반드시 전조등 하향 헤드램프를 켜야 한다 .\n트레일러 릴레이 장치는 트레일러 램프의 제어에 기여한다 (차량이 이 기능이 존재할 때)."
+                "help_code": "@P28766@\\+@T.@\\n@\\+@P28793@\\+@T.@\\n@\\+@P28812@\\+@T.@\\n@\\+@P20595@T (@P20598@T).",
+                "help_korean": "BSI는 리어 안개등의 점등을 제어한다.\n트레일러 릴레이 장치는 장착되어 있을 경우 트레일러의 리어 안개등 점등을 제어한다.\n참고 : 안개등을 점등하기 위해서 반드시 전조등 하향 헤드램프를 켜야 한다.\n트레일러 릴레이 장치는 트레일러 램프의 제어에 기여한다 (차량이 이 기능이 존재할 때)."
             },
             {
                 "position": 2,
                 "mnemonic": "MP_CDE_CLIGNO_GH_VEH_ET_REMORQUE",
-                "label_index": "1961",
+                "label_index": "@P1961@\\*@\\*",
                 "label_korean": "차량 및 트레일러 좌측 방향지시등 점등 제어",
                 "group_id": "20860",
                 "req_frame_id": "62583",
@@ -503,13 +503,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "28221, 28189, 28213",
+                "help_code": "@P28221@T.@\\n@P28189@T.@\\n@P28213@T.",
                 "help_korean": "엔진 릴레이 장치는 프론트 좌측 방향지시등 점등을 제어한다.\nBSI는 리어 좌측 방향 지시등의 점등을 제어한다.\n트레일러 릴레이 장치는 트레일러가 차량에 연결되었을 때 트레일러의 리어 좌측 방향지시등 점등을 제어한다."
             },
             {
                 "position": 3,
                 "mnemonic": "MP_CDE_CLIGNO_DT_VEH_ET_REMORQUE",
-                "label_index": "8722",
+                "label_index": "@P8722@\\*@\\*",
                 "label_korean": "차량 및 트레일러 우측 방향지시등 점등 제어",
                 "group_id": "20860",
                 "req_frame_id": "62583",
@@ -525,7 +525,7 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "28248, 28174, 28216",
+                "help_code": "@P28248@\\n@P28174@T.@\\n@P28216@T.",
                 "help_korean": "엔진 릴레이 장치는 프론트 우측 방향지시등의 점등을 제어한다\nBSI는 리어 좌측 방향지시등의 점등을 제어한다.\n트레일러 릴레이 장치는 트레일러가 차량에 연결되었을 때 트레일러의 리어 우측 방향지시등 점등을 제어한다."
             }
         ]

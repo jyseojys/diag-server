@@ -8,7 +8,7 @@
             {
                 "position": 1,
                 "mnemonic": "ID_REFERENCE_FOURNISSEUR",
-                "label_index": "633",
+                "label_index": "@P633",
                 "label_korean": "제조업체",
                 "group_id": "76604",
                 "req_frame_id": "230105",
@@ -34,7 +34,7 @@
             {
                 "position": 2,
                 "mnemonic": "ID_REFERENCE_PSA",
-                "label_index": "8615",
+                "label_index": "@P8615",
                 "label_korean": "PSA 부품 번호",
                 "group_id": "76604",
                 "req_frame_id": "230105",
@@ -56,7 +56,7 @@
             {
                 "position": 3,
                 "mnemonic": "ID_NUM_COMP_new_2",
-                "label_index": "5292",
+                "label_index": "@P5292",
                 "label_korean": "추가 번호",
                 "group_id": "76604",
                 "req_frame_id": "230105",
@@ -78,7 +78,7 @@
             {
                 "position": 4,
                 "mnemonic": "ID_VERSION_LOGICIEL_new_1",
-                "label_index": "8662",
+                "label_index": "@P8662@\\*",
                 "label_korean": "소프트웨어 버전",
                 "group_id": "76604",
                 "req_frame_id": "230105",
@@ -100,7 +100,7 @@
             {
                 "position": 5,
                 "mnemonic": "ID_MESS_DIAGNOSTIC",
-                "label_index": "2459",
+                "label_index": "@P2459",
                 "label_korean": "진단 이메일",
                 "group_id": "76604",
                 "req_frame_id": "230105",
@@ -122,7 +122,7 @@
             {
                 "position": 6,
                 "mnemonic": "ID_INDICE_MESS_DIAGNOSTIC",
-                "label_index": "11894",
+                "label_index": "@P11894",
                 "label_korean": "진단 메시지 시스템 인덱스 (변경)",
                 "group_id": "76604",
                 "req_frame_id": "230105",
@@ -144,7 +144,7 @@
             {
                 "position": 7,
                 "mnemonic": "ID_REF_CALIBRATION_new_1",
-                "label_index": "7014",
+                "label_index": "@P7014",
                 "label_korean": "캘리브레이션 버전",
                 "group_id": "76604",
                 "req_frame_id": "230105",
@@ -174,7 +174,7 @@
             {
                 "position": 1,
                 "mnemonic": "TEMPEVAPOARR",
-                "label_index": "4208",
+                "label_index": "@P4208",
                 "label_korean": "리어 증발기 센서 온도",
                 "group_id": "76606",
                 "req_frame_id": "230111",
@@ -190,13 +190,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "45942, 45234, 31870, 31871, 31872",
-                "help_korean": "RPO 13888에서 제조된 차량에는 해당되지 않음\n리어 에어 컨디셔닝 장치에 위치한\n- 증발기 센서에 의해 측정된 온도 일반적인 값 :\n-15분\n- 이상 에어컨 컴프레서 꺼짐 : 측정된 온도가 실내 온도에 가깝다.\n-에어컨 컴프레서가 작동하면, 온도가 13888과 0도 사이의 값에 도달하기 위해서 점진적으로 내려간다(외부 온도 약 6도에서)."
+                "help_code": "@F45942@\\*13888@\\n@\\n@P45234@\\+@P31870@T : @\\n@T-@P31871@T.@\\+@\\n@T-@P31872@\\*0@\\*6@\\*20@T.",
+                "help_korean": "RPO 13888에서 제조된 차량에는 해당되지 않음\n리어 에어 컨디셔닝 장치에 위치한 증발기 센서에 의해 측정된 온도일반적인 값 :\n-15분 이상 에어컨 컴프레서 꺼짐 : 측정된 온도가 실내 온도에 가깝다.\n-에어컨 컴프레서가 작동하면, 온도가 13888과 0도 사이의 값에 도달하기 위해서 점진적으로 내려간다(외부 온도 약 6도에서)."
             },
             {
                 "position": 2,
                 "mnemonic": "MP_CONSIGNE_VENTILATION",
-                "label_index": "13395",
+                "label_index": "@P13395",
                 "label_korean": "환기 기준 값",
                 "group_id": "76606",
                 "req_frame_id": "230111",
@@ -227,7 +227,7 @@
             {
                 "position": 3,
                 "mnemonic": "MP_POSITION_MOTEUR_MIXAGE_ARD",
-                "label_index": "31384",
+                "label_index": "@P31384",
                 "label_korean": "리어 우측 믹서 모터의 위치",
                 "group_id": "76607",
                 "req_frame_id": "230114",
@@ -243,7 +243,7 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "33691, 31875",
+                "help_code": "@P33691@T.@P31875",
                 "help_korean": "믹싱 플랩 위치.온도 세팅이 최대 값에서 최소 값으로 변할 때 믹싱 상태가 최대로 뜨거운 상태에서 최대로 차가운 상태로 변하는지 점검한다"
             }
         ]
@@ -257,7 +257,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_TOUCHE_ON_OFF",
-                "label_index": "7046",
+                "label_index": "@P7046",
                 "label_korean": "ON/OFF 버튼",
                 "group_id": "76608",
                 "req_frame_id": "230117",
@@ -276,13 +276,13 @@
                 "bit_mask": 8,
                 "bit_shift": 3,
                 "dynamic_arg": "",
-                "help_code": "7443",
+                "help_code": "@P7443",
                 "help_korean": "에어컨 작동 요청을 위한 작동 변수"
             },
             {
                 "position": 2,
                 "mnemonic": "MP_DEMANDE_TEMP_ARR",
-                "label_index": "7344",
+                "label_index": "@P7344",
                 "label_korean": "리어 온도 요청",
                 "group_id": "76608",
                 "req_frame_id": "230117",
@@ -298,13 +298,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "45234, 31870, 31871, 31872",
-                "help_korean": "리어 에어 컨디셔닝 장치에 위치한 증발기 센서에 의해 측정된 온도\n- 일반적인 값 :\n-15분\n- 이상 에어컨 컴프레서 꺼짐 : 측정된 온도가 실내 온도에 가깝다.\n-에어컨 컴프레서가 작동하면, 온도가 0과 6도 사이의 값에 도달하기 위해서 점진적으로 내려간다(외부 온도 약 20도에서)."
+                "help_code": "@P45234@\\+@\\n@P31870@T : @\\n@T-@P31871@T.@\\+@\\n@T-@P31872@\\*0@\\*6@\\*20@T.",
+                "help_korean": "리어 에어 컨디셔닝 장치에 위치한 증발기 센서에 의해 측정된 온도\n일반적인 값 :\n-15분 이상 에어컨 컴프레서 꺼짐 : 측정된 온도가 실내 온도에 가깝다.\n-에어컨 컴프레서가 작동하면, 온도가 0과 6도 사이의 값에 도달하기 위해서 점진적으로 내려간다(외부 온도 약 20도에서)."
             },
             {
                 "position": 3,
                 "mnemonic": "DEMANDEVENTILARR",
-                "label_index": "1984",
+                "label_index": "@P1984",
                 "label_korean": "리어 환기 요청",
                 "group_id": "76608",
                 "req_frame_id": "230117",
@@ -320,7 +320,7 @@
                 "bit_mask": 7,
                 "bit_shift": 0,
                 "dynamic_arg": "",
-                "help_code": "33691, 31875",
+                "help_code": "@P33691@T.@P31875",
                 "help_korean": "믹싱 플랩 위치.온도 세팅이 최대 값에서 최소 값으로 변할 때 믹싱 상태가 최대로 뜨거운 상태에서 최대로 차가운 상태로 변하는지 점검한다"
             }
         ]
@@ -334,7 +334,7 @@
             {
                 "position": 1,
                 "mnemonic": "CFG_ADF_CLIM_UNITETEMP_000",
-                "label_index": "10071",
+                "label_index": "@P10071",
                 "label_korean": "온도 단위",
                 "group_id": "76605",
                 "req_frame_id": "230108",

@@ -8,7 +8,7 @@
             {
                 "position": 1,
                 "mnemonic": "ID_NOM_DU_FOURNISSEUR",
-                "label_index": "5701",
+                "label_index": "@P5701",
                 "label_korean": "제조 업체명",
                 "group_id": "123995",
                 "req_frame_id": "372327",
@@ -38,7 +38,7 @@
             {
                 "position": 2,
                 "mnemonic": "ID_REFERENCE_MATERIEL",
-                "label_index": "1071",
+                "label_index": "@P1071",
                 "label_korean": "장치 부품 번호",
                 "group_id": "123995",
                 "req_frame_id": "372327",
@@ -60,7 +60,7 @@
             {
                 "position": 3,
                 "mnemonic": "ID_REFERENCE_COMPLEMENTAIRE_MATERIEL",
-                "label_index": "1634",
+                "label_index": "@P1634",
                 "label_korean": "장치 추가 참조 번호",
                 "group_id": "123995",
                 "req_frame_id": "372327",
@@ -82,7 +82,7 @@
             {
                 "position": 4,
                 "mnemonic": "ID_REFERENCE_LOGICIEL",
-                "label_index": "13263",
+                "label_index": "@P13263",
                 "label_korean": "소프트웨어 번호",
                 "group_id": "123996",
                 "req_frame_id": "372330",
@@ -104,7 +104,7 @@
             {
                 "position": 5,
                 "mnemonic": "ID_TRACABILITE_INDICE_EVOLUTION_EDITION",
-                "label_index": "24601",
+                "label_index": "@P24601",
                 "label_korean": "소프트웨어 버전",
                 "group_id": "123996",
                 "req_frame_id": "372330",
@@ -126,7 +126,7 @@
             {
                 "position": 6,
                 "mnemonic": "ID_DATE_TELECH",
-                "label_index": "21670",
+                "label_index": "@P21670",
                 "label_korean": "다운로딩 날짜",
                 "group_id": "123996",
                 "req_frame_id": "372330",
@@ -148,7 +148,7 @@
             {
                 "position": 7,
                 "mnemonic": "ID_NOMBRE_DE_TELECHARGEMENT",
-                "label_index": "24589",
+                "label_index": "@P24589",
                 "label_korean": "다운로드의 수",
                 "group_id": "123996",
                 "req_frame_id": "372330",
@@ -170,7 +170,7 @@
             {
                 "position": 8,
                 "mnemonic": "ID_TRACABILITE_DATE_FABRICATION",
-                "label_index": "14355",
+                "label_index": "@F14355",
                 "label_korean": "제조일자",
                 "group_id": "124000",
                 "req_frame_id": "372342",
@@ -192,7 +192,7 @@
             {
                 "position": 9,
                 "mnemonic": "ID_BIN_ETIQUETTE",
-                "label_index": "56055",
+                "label_index": "@P56055@T - @P52960@\\*BIN",
                 "label_korean": "트랙션 배터리 일련 번호 - 코드 BIN",
                 "group_id": "123999",
                 "req_frame_id": "372339",
@@ -222,7 +222,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_CAPACITE_RESTANTE",
-                "label_index": "63385",
+                "label_index": "@P63385",
                 "label_korean": "트랙션 배터리의 잔여 용량",
                 "group_id": "124036",
                 "req_frame_id": "372450",
@@ -232,7 +232,7 @@
                 "endian": "",
                 "factor": "0.10000000149011612",
                 "offset": "",
-                "unit": "[미번역_P64812]",
+                "unit": "64812",
                 "req_frame_hex": "22DA75",
                 "states": {},
                 "bit_mask": null,
@@ -332,7 +332,7 @@
             {
                 "position": 6,
                 "mnemonic": "MP_DEMANDE_REFROIDISSEMENT",
-                "label_index": "32020",
+                "label_index": "@P32020",
                 "label_korean": "트랙션 배터리 냉각 요청",
                 "group_id": "124041",
                 "req_frame_id": "372465",
@@ -357,8 +357,8 @@
             {
                 "position": 7,
                 "mnemonic": "MP_EVOLUTION_AUTO_DECHARGE",
-                "label_index": "64462",
-                "label_korean": "[미번역_P64462]",
+                "label_index": "@P64462",
+                "label_korean": "64462",
                 "group_id": "124042",
                 "req_frame_id": "372468",
                 "resp_frame_id": "372469",
@@ -379,7 +379,7 @@
             {
                 "position": 8,
                 "mnemonic": "MP_IMPEDANCE_BATTERIE",
-                "label_index": "55151",
+                "label_index": "@P55151",
                 "label_korean": "트랙션 배터리의 내부 저항",
                 "group_id": "124043",
                 "req_frame_id": "372471",
@@ -467,7 +467,7 @@
             {
                 "position": 12,
                 "mnemonic": "MP_TEMPS_CHARGE",
-                "label_index": "32426",
+                "label_index": "@F32426",
                 "label_korean": "충전 시간",
                 "group_id": "124047",
                 "req_frame_id": "372483",
@@ -511,8 +511,8 @@
             {
                 "position": 14,
                 "mnemonic": "MP_DATE_FABRICATION",
-                "label_index": "64699",
-                "label_korean": "[미번역_P64699]",
+                "label_index": "@P64699",
+                "label_korean": "64699",
                 "group_id": "124049",
                 "req_frame_id": "372489",
                 "resp_frame_id": "372490",
@@ -555,7 +555,7 @@
             {
                 "position": 16,
                 "mnemonic": "MP_DEBIT_ENERGIE",
-                "label_index": "54068",
+                "label_index": "@P54068",
                 "label_korean": "트랙션 배터리 에너지",
                 "group_id": "124050",
                 "req_frame_id": "372492",
@@ -577,7 +577,7 @@
             {
                 "position": 17,
                 "mnemonic": "MP_DEBIT_CAPACITE",
-                "label_index": "33064",
+                "label_index": "@P33064",
                 "label_korean": "트랙션 배터리 총용량",
                 "group_id": "124051",
                 "req_frame_id": "372495",
@@ -587,7 +587,7 @@
                 "endian": "",
                 "factor": "25.0",
                 "offset": "",
-                "unit": "[미번역_P64812]",
+                "unit": "64812",
                 "req_frame_hex": "22DA84",
                 "states": {},
                 "bit_mask": null,
@@ -631,7 +631,7 @@
                 "endian": "",
                 "factor": "25.0",
                 "offset": "",
-                "unit": "[미번역_P64812]",
+                "unit": "64812",
                 "req_frame_hex": "22E311",
                 "states": {},
                 "bit_mask": null,
@@ -673,7 +673,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_EQUILIBRAGE_CELLULE_1",
-                "label_index": "31966",
+                "label_index": "@P31966@\\*1@\\*@\\*",
                 "label_korean": "트랙션 배터리 컨트롤러 셀1 밸런싱",
                 "group_id": "124005",
                 "req_frame_id": "372357",
@@ -698,7 +698,7 @@
             {
                 "position": 2,
                 "mnemonic": "MP_EQUILIBRAGE_CELLULE_2",
-                "label_index": "31966",
+                "label_index": "@P31966@\\*2@\\*@\\*",
                 "label_korean": "트랙션 배터리 컨트롤러 셀2 밸런싱",
                 "group_id": "124005",
                 "req_frame_id": "372357",
@@ -720,7 +720,7 @@
             {
                 "position": 3,
                 "mnemonic": "MP_EQUILIBRAGE_CELLULE_3",
-                "label_index": "31966",
+                "label_index": "@P31966@\\*3@\\*@\\*",
                 "label_korean": "트랙션 배터리 컨트롤러 셀3 밸런싱",
                 "group_id": "124005",
                 "req_frame_id": "372357",
@@ -742,7 +742,7 @@
             {
                 "position": 4,
                 "mnemonic": "MP_EQUILIBRAGE_CELLULE_4",
-                "label_index": "31966",
+                "label_index": "@P31966@\\*4@\\*@\\*",
                 "label_korean": "트랙션 배터리 컨트롤러 셀4 밸런싱",
                 "group_id": "124005",
                 "req_frame_id": "372357",
@@ -764,7 +764,7 @@
             {
                 "position": 5,
                 "mnemonic": "MP_EQUILIBRAGE_CELLULE_5",
-                "label_index": "31966",
+                "label_index": "@P31966@\\*5@\\*@\\*",
                 "label_korean": "트랙션 배터리 컨트롤러 셀5 밸런싱",
                 "group_id": "124005",
                 "req_frame_id": "372357",
@@ -786,7 +786,7 @@
             {
                 "position": 6,
                 "mnemonic": "MP_EQUILIBRAGE_CELLULE_6",
-                "label_index": "31966",
+                "label_index": "@P31966@\\*6@\\*@\\*",
                 "label_korean": "트랙션 배터리 컨트롤러 셀6 밸런싱",
                 "group_id": "124005",
                 "req_frame_id": "372357",
@@ -808,7 +808,7 @@
             {
                 "position": 7,
                 "mnemonic": "MP_EQUILIBRAGE_CELLULE_7",
-                "label_index": "31966",
+                "label_index": "@P31966@\\*7@\\*@\\*",
                 "label_korean": "트랙션 배터리 컨트롤러 셀7 밸런싱",
                 "group_id": "124005",
                 "req_frame_id": "372357",
@@ -830,7 +830,7 @@
             {
                 "position": 8,
                 "mnemonic": "MP_EQUILIBRAGE_CELLULE_8",
-                "label_index": "31966",
+                "label_index": "@P31966@\\*8@\\*@\\*",
                 "label_korean": "트랙션 배터리 컨트롤러 셀8 밸런싱",
                 "group_id": "124005",
                 "req_frame_id": "372357",
@@ -852,7 +852,7 @@
             {
                 "position": 9,
                 "mnemonic": "MP_EQUILIBRAGE_CELLULE_9",
-                "label_index": "31966",
+                "label_index": "@P31966@\\*9@\\*@\\*",
                 "label_korean": "트랙션 배터리 컨트롤러 셀9 밸런싱",
                 "group_id": "124005",
                 "req_frame_id": "372357",
@@ -874,7 +874,7 @@
             {
                 "position": 10,
                 "mnemonic": "MP_EQUILIBRAGE_CELLULE_10",
-                "label_index": "31966",
+                "label_index": "@P31966@\\*10@\\*@\\*",
                 "label_korean": "트랙션 배터리 컨트롤러 셀10 밸런싱",
                 "group_id": "124005",
                 "req_frame_id": "372357",
@@ -896,7 +896,7 @@
             {
                 "position": 11,
                 "mnemonic": "MP_EQUILIBRAGE_CELLULE_11",
-                "label_index": "31966",
+                "label_index": "@P31966@\\*11@\\*@\\*",
                 "label_korean": "트랙션 배터리 컨트롤러 셀11 밸런싱",
                 "group_id": "124005",
                 "req_frame_id": "372357",
@@ -918,7 +918,7 @@
             {
                 "position": 12,
                 "mnemonic": "MP_EQUILIBRAGE_CELLULE_12",
-                "label_index": "31966",
+                "label_index": "@P31966@\\*12@\\*@\\*",
                 "label_korean": "트랙션 배터리 컨트롤러 셀12 밸런싱",
                 "group_id": "124005",
                 "req_frame_id": "372357",
@@ -943,7 +943,7 @@
             {
                 "position": 13,
                 "mnemonic": "MP_EQUILIBRAGE_CELLULE_13",
-                "label_index": "31966",
+                "label_index": "@P31966@\\*13@\\*@\\*",
                 "label_korean": "트랙션 배터리 컨트롤러 셀13 밸런싱",
                 "group_id": "124005",
                 "req_frame_id": "372357",
@@ -965,7 +965,7 @@
             {
                 "position": 14,
                 "mnemonic": "MP_EQUILIBRAGE_CELLULE_14",
-                "label_index": "31966",
+                "label_index": "@P31966@\\*14@\\*@\\*",
                 "label_korean": "트랙션 배터리 컨트롤러 셀14 밸런싱",
                 "group_id": "124005",
                 "req_frame_id": "372357",
@@ -987,7 +987,7 @@
             {
                 "position": 15,
                 "mnemonic": "MP_EQUILIBRAGE_CELLULE_15",
-                "label_index": "31966",
+                "label_index": "@P31966@\\*15@\\*@\\*",
                 "label_korean": "트랙션 배터리 컨트롤러 셀15 밸런싱",
                 "group_id": "124005",
                 "req_frame_id": "372357",
@@ -1009,7 +1009,7 @@
             {
                 "position": 16,
                 "mnemonic": "MP_EQUILIBRAGE_CELLULE_16",
-                "label_index": "31966",
+                "label_index": "@P31966@\\*16@\\*",
                 "label_korean": "트랙션 배터리 컨트롤러 셀16 밸런싱",
                 "group_id": "124005",
                 "req_frame_id": "372357",
@@ -1042,7 +1042,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_KILOMETRAGE_VEHICULE",
-                "label_index": "6315",
+                "label_index": "@P6315",
                 "label_korean": "차량 주행거리",
                 "group_id": "124028",
                 "req_frame_id": "372426",
@@ -1064,7 +1064,7 @@
             {
                 "position": 2,
                 "mnemonic": "MP_VITESSE_VEHICULE",
-                "label_index": "11138",
+                "label_index": "@P11138",
                 "label_korean": "차량 속도",
                 "group_id": "124010",
                 "req_frame_id": "372372",
@@ -1090,7 +1090,7 @@
             {
                 "position": 3,
                 "mnemonic": "MP_C_BATT_HT_FOURNIR_STOCKER_ENERGIE",
-                "label_index": "54100",
+                "label_index": "@P54100",
                 "label_korean": "트랙션 배터리의 에너지 공급 및 저장 용량",
                 "group_id": "124016",
                 "req_frame_id": "372390",
@@ -1112,7 +1112,7 @@
             {
                 "position": 4,
                 "mnemonic": "MP_ETAT_CHARGE_BATT_TRACTION",
-                "label_index": "21178",
+                "label_index": "@P21178",
                 "label_korean": "트랙션 배터리 충전 상태",
                 "group_id": "124006",
                 "req_frame_id": "372360",
@@ -1137,7 +1137,7 @@
             {
                 "position": 5,
                 "mnemonic": "MP_CALIBRAGE_CAPTEUR_ETAT_CHARGE_BATT_TRACTION",
-                "label_index": "54404",
+                "label_index": "@P54404",
                 "label_korean": "트랙션 배터리 충전 상태 센서의 캘리브레이션",
                 "group_id": "124015",
                 "req_frame_id": "372387",
@@ -1159,7 +1159,7 @@
             {
                 "position": 6,
                 "mnemonic": "MP_RAISONE_DERNIER_RESET_CALCULATEUR",
-                "label_index": "20542",
+                "label_index": "@P20542",
                 "label_korean": "ECU의 마지막 리셋을 위한 이유",
                 "group_id": "124019",
                 "req_frame_id": "372399",
@@ -1187,7 +1187,7 @@
             {
                 "position": 7,
                 "mnemonic": "MP_ETAT_ACTIVATION_FONCTION_CONTROLE_REPROGRAMMATION_CALCULATEUR",
-                "label_index": "62612",
+                "label_index": "@P62612",
                 "label_korean": "트랙션 배터리 ECU 재프로그래밍 점검 기능의 작동 상태",
                 "group_id": "124026",
                 "req_frame_id": "372420",
@@ -1212,7 +1212,7 @@
             {
                 "position": 8,
                 "mnemonic": "MP_ETAT_BATTERIE_TRACTION",
-                "label_index": "54095",
+                "label_index": "@P54095",
                 "label_korean": "트랙션 배터리 상태",
                 "group_id": "123993",
                 "req_frame_id": "372321",
@@ -1268,7 +1268,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_COMMANDE_RELAIS_PRECHARGE_BATT_TRACTION",
-                "label_index": "33158",
+                "label_index": "@P33158",
                 "label_korean": "트랙션 배터리 선충전 릴레이 제어",
                 "group_id": "124020",
                 "req_frame_id": "372402",
@@ -1294,7 +1294,7 @@
             {
                 "position": 2,
                 "mnemonic": "MP_ETAT_RELAIS_PRECHARGE_BATT_TRACTION",
-                "label_index": "33086",
+                "label_index": "@P33086",
                 "label_korean": "트랙션 배터리 선충전 릴레이 상태",
                 "group_id": "124003",
                 "req_frame_id": "372351",
@@ -1322,7 +1322,7 @@
             {
                 "position": 3,
                 "mnemonic": "MP_ETAT_CONTACTEUR_POSITIF_PUISSANCE_INTERNE_BATT_TRACTION",
-                "label_index": "54363",
+                "label_index": "@P54363",
                 "label_korean": "트랙션 배터리 내부 양극 전원 스위치 상태",
                 "group_id": "124002",
                 "req_frame_id": "372348",
@@ -1352,8 +1352,8 @@
             {
                 "position": 4,
                 "mnemonic": "MP_COMMANDE_POSITIVE_RELAIS_PRINCIPAL_BATT_TRACTION",
-                "label_index": "33747",
-                "label_korean": "트랙션 배터리 메인 릴레이 제어",
+                "label_index": "@P33747",
+                "label_korean": "트랙션 배터리 메인 릴레이 + 제어",
                 "group_id": "124023",
                 "req_frame_id": "372411",
                 "resp_frame_id": "372412",
@@ -1378,7 +1378,7 @@
             {
                 "position": 5,
                 "mnemonic": "MP_TENSION_CMD_NEGATIF_CONT_POS_BATT_TRACTION",
-                "label_index": "54590",
+                "label_index": "@P54590",
                 "label_korean": "트랙션 배터리 내부 양극 전원 스위치 음극 제어의 전압",
                 "group_id": "124029",
                 "req_frame_id": "372429",
@@ -1400,7 +1400,7 @@
             {
                 "position": 6,
                 "mnemonic": "MP_TENSION_CMD_NEGATIF_CONT_PRECH_BATT_TRACTION",
-                "label_index": "54582",
+                "label_index": "@P54582",
                 "label_korean": "트랙션 배터리 내부 전원 프리차지 스위치 음극 제어 전압",
                 "group_id": "124007",
                 "req_frame_id": "372363",
@@ -1422,8 +1422,8 @@
             {
                 "position": 7,
                 "mnemonic": "MP_TENSION_ALIMENTATION_CAN",
-                "label_index": "3920",
-                "label_korean": "공급 전압 ( CAN)",
+                "label_index": "@P3920",
+                "label_korean": "공급 전압 (+CAN)",
                 "group_id": "124017",
                 "req_frame_id": "372393",
                 "resp_frame_id": "372394",
@@ -1444,7 +1444,7 @@
             {
                 "position": 8,
                 "mnemonic": "MP_TENSION_CAPT_TEMPERATURE",
-                "label_index": "10033",
+                "label_index": "@P10033",
                 "label_korean": "온도 센서 전압",
                 "group_id": "124017",
                 "req_frame_id": "372393",
@@ -1466,7 +1466,7 @@
             {
                 "position": 9,
                 "mnemonic": "MP_TENSION_RETOUR_RELAIS_BATT_TRACTION",
-                "label_index": "30511",
+                "label_index": "@P30511",
                 "label_korean": "트랙션 배터리 스위치의 단자에서 전압",
                 "group_id": "124017",
                 "req_frame_id": "372393",
@@ -1488,7 +1488,7 @@
             {
                 "position": 10,
                 "mnemonic": "MP_TENSION_PRECHARGE_BATT_TRACTION",
-                "label_index": "54582",
+                "label_index": "@P54582",
                 "label_korean": "트랙션 배터리 내부 전원 프리차지 스위치 음극 제어 전압",
                 "group_id": "124017",
                 "req_frame_id": "372393",
@@ -1518,7 +1518,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_NUMERO_MODULE_BATT_TRACTION_TEMPERATURE_MAXIMALE",
-                "label_index": "33564",
+                "label_index": "@P33564",
                 "label_korean": "최대 온도에서 트랙션 배터리 모듈의 수",
                 "group_id": "124027",
                 "req_frame_id": "372423",
@@ -1540,7 +1540,7 @@
             {
                 "position": 2,
                 "mnemonic": "MP_NUMERO_MODULE_BATT_TRACTION_TEMPERATURE_MINIMALE",
-                "label_index": "33565",
+                "label_index": "@P33565",
                 "label_korean": "최저 온도에서 트랙션 배터리 모듈의 수",
                 "group_id": "124021",
                 "req_frame_id": "372405",
@@ -1562,7 +1562,7 @@
             {
                 "position": 3,
                 "mnemonic": "MP_TEMPERATURE_MAXIMALE_BATT_TRACTION",
-                "label_index": "32977",
+                "label_index": "@P32977",
                 "label_korean": "트랙션 배터리의 최대 온도",
                 "group_id": "124033",
                 "req_frame_id": "372441",
@@ -1584,7 +1584,7 @@
             {
                 "position": 4,
                 "mnemonic": "MP_TEMPERATURE_MOYENNE_BATT_TRACTION",
-                "label_index": "22611",
+                "label_index": "@P22611",
                 "label_korean": "트랙션 배터리의 평균 온도",
                 "group_id": "124012",
                 "req_frame_id": "372378",
@@ -1606,7 +1606,7 @@
             {
                 "position": 5,
                 "mnemonic": "MP_TEMPERATURE_MINIMALE_BATT_TRACTION",
-                "label_index": "32980",
+                "label_index": "@P32980",
                 "label_korean": "트랙션 배터리 최소 온도",
                 "group_id": "124030",
                 "req_frame_id": "372432",
@@ -1628,8 +1628,8 @@
             {
                 "position": 6,
                 "mnemonic": "MP_TEMPERATURE_MODULE_BATT_TRACTION",
-                "label_index": "32705",
-                "label_korean": "트랙션 배터리 모듈온도",
+                "label_index": "@P32705@\\*@\\*",
+                "label_korean": "트랙션 배터리 모듈 온도",
                 "group_id": "124034",
                 "req_frame_id": "372444",
                 "resp_frame_id": "372445",
@@ -1650,7 +1650,7 @@
             {
                 "position": 7,
                 "mnemonic": "MP_TEMPERATURE_MODULE_1",
-                "label_index": "32705",
+                "label_index": "@P32705@\\*1",
                 "label_korean": "트랙션 배터리 모듈1 온도",
                 "group_id": "124004",
                 "req_frame_id": "372354",
@@ -1672,7 +1672,7 @@
             {
                 "position": 8,
                 "mnemonic": "MP_TEMPERATURE_MODULE_2",
-                "label_index": "32705",
+                "label_index": "@P32705@\\*2",
                 "label_korean": "트랙션 배터리 모듈2 온도",
                 "group_id": "124004",
                 "req_frame_id": "372354",
@@ -1694,7 +1694,7 @@
             {
                 "position": 9,
                 "mnemonic": "MP_TEMPERATURE_MODULE_3",
-                "label_index": "32705",
+                "label_index": "@P32705@\\*3",
                 "label_korean": "트랙션 배터리 모듈3 온도",
                 "group_id": "124004",
                 "req_frame_id": "372354",
@@ -1716,7 +1716,7 @@
             {
                 "position": 10,
                 "mnemonic": "MP_TEMPERATURE_MODULE_4",
-                "label_index": "32705",
+                "label_index": "@P32705@\\*4",
                 "label_korean": "트랙션 배터리 모듈4 온도",
                 "group_id": "124004",
                 "req_frame_id": "372354",
@@ -1738,7 +1738,7 @@
             {
                 "position": 11,
                 "mnemonic": "MP_TEMPERATURE_MODULE_5",
-                "label_index": "32705",
+                "label_index": "@P32705@\\*5",
                 "label_korean": "트랙션 배터리 모듈5 온도",
                 "group_id": "124004",
                 "req_frame_id": "372354",
@@ -1760,7 +1760,7 @@
             {
                 "position": 12,
                 "mnemonic": "MP_TEMPERATURE_MODULE_6",
-                "label_index": "32705",
+                "label_index": "@P32705@\\*6",
                 "label_korean": "트랙션 배터리 모듈6 온도",
                 "group_id": "124004",
                 "req_frame_id": "372354",
@@ -1782,7 +1782,7 @@
             {
                 "position": 13,
                 "mnemonic": "MP_TEMPERATURE_MODULE_7",
-                "label_index": "32705",
+                "label_index": "@P32705@\\*7",
                 "label_korean": "트랙션 배터리 모듈7 온도",
                 "group_id": "124004",
                 "req_frame_id": "372354",
@@ -1804,7 +1804,7 @@
             {
                 "position": 14,
                 "mnemonic": "MP_TEMPERATURE_MODULE_8",
-                "label_index": "32705",
+                "label_index": "@P32705@\\*8",
                 "label_korean": "트랙션 배터리 모듈8 온도",
                 "group_id": "124004",
                 "req_frame_id": "372354",
@@ -1826,7 +1826,7 @@
             {
                 "position": 15,
                 "mnemonic": "MP_TEMPERATURE_EQUI_CELL_BATT_TRACTION",
-                "label_index": "25442",
+                "label_index": "@P25442",
                 "label_korean": "트랙션 배터리 셀 온도",
                 "group_id": "124014",
                 "req_frame_id": "372384",
@@ -1856,7 +1856,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_TENSION_ALIMENTATION_CALCULATEUR",
-                "label_index": "14064",
+                "label_index": "@P14064",
                 "label_korean": "제어 장치 공급 전압",
                 "group_id": "124035",
                 "req_frame_id": "372447",
@@ -1880,7 +1880,7 @@
             {
                 "position": 2,
                 "mnemonic": "MP_NUMERO_CELLULE_BATT_TRACTION_AYANT_TENSION_MAXIMALE",
-                "label_index": "33558",
+                "label_index": "@P33558",
                 "label_korean": "전압이 최대인 트랙션 배터리 셀의 수",
                 "group_id": "124031",
                 "req_frame_id": "372435",
@@ -1902,7 +1902,7 @@
             {
                 "position": 3,
                 "mnemonic": "MP_NUMERO_CELLULE_BATT_TRACTION_AYANT_TENSION_MINIMALE",
-                "label_index": "33559",
+                "label_index": "@P33559",
                 "label_korean": "전압이 최저인 트랙션 배터리 셀의 수",
                 "group_id": "124024",
                 "req_frame_id": "372414",
@@ -1924,7 +1924,7 @@
             {
                 "position": 4,
                 "mnemonic": "MP_TENSION_MOYENNE_CELLULES_BATT_TRACTION",
-                "label_index": "54347",
+                "label_index": "@P54347",
                 "label_korean": "트랙션 배터리 셀 평균 전압",
                 "group_id": "124011",
                 "req_frame_id": "372375",
@@ -1946,7 +1946,7 @@
             {
                 "position": 5,
                 "mnemonic": "MP_TENSION_BATT_TRACTION",
-                "label_index": "19805",
+                "label_index": "@P19805",
                 "label_korean": "트랙션 배터리 전압",
                 "group_id": "124032",
                 "req_frame_id": "372438",
@@ -1968,7 +1968,7 @@
             {
                 "position": 6,
                 "mnemonic": "MP_COURANT_BATT_TRACTION",
-                "label_index": "22376",
+                "label_index": "@P22376",
                 "label_korean": "트랙션 배터리의 전류",
                 "group_id": "124025",
                 "req_frame_id": "372417",
@@ -1990,7 +1990,7 @@
             {
                 "position": 7,
                 "mnemonic": "MP_TENSION_MESUREE_CELLULE_PLUS_FAIBLE_BATT_TRACTION",
-                "label_index": "54090",
+                "label_index": "@P54090",
                 "label_korean": "트랙션 배터리의 가장 낮은 셀에서 측정한 전압",
                 "group_id": "124018",
                 "req_frame_id": "372396",
@@ -2012,7 +2012,7 @@
             {
                 "position": 8,
                 "mnemonic": "MP_TENSION_MESUREE_CELLULE_PLUS_FORTE_BATT_TRACTION",
-                "label_index": "54104",
+                "label_index": "@P54104",
                 "label_korean": "트랙션 배터리의 가장 높은 셀에서 측정한 전압",
                 "group_id": "124009",
                 "req_frame_id": "372369",
@@ -2034,7 +2034,7 @@
             {
                 "position": 9,
                 "mnemonic": "MP_TENSION_CELLULE_1",
-                "label_index": "20171",
+                "label_index": "@P20171@\\*1",
                 "label_korean": "셀1의 전압",
                 "group_id": "124001",
                 "req_frame_id": "372345",
@@ -2056,7 +2056,7 @@
             {
                 "position": 10,
                 "mnemonic": "MP_TENSION_CELLULE_2",
-                "label_index": "20171",
+                "label_index": "@P20171@\\*2",
                 "label_korean": "셀2의 전압",
                 "group_id": "124001",
                 "req_frame_id": "372345",
@@ -2078,7 +2078,7 @@
             {
                 "position": 11,
                 "mnemonic": "MP_TENSION_CELLULE_3",
-                "label_index": "20171",
+                "label_index": "@P20171@\\*3",
                 "label_korean": "셀3의 전압",
                 "group_id": "124001",
                 "req_frame_id": "372345",
@@ -2100,7 +2100,7 @@
             {
                 "position": 12,
                 "mnemonic": "MP_TENSION_CELLULE_4",
-                "label_index": "20171",
+                "label_index": "@P20171@\\*4",
                 "label_korean": "셀4의 전압",
                 "group_id": "124001",
                 "req_frame_id": "372345",
@@ -2122,7 +2122,7 @@
             {
                 "position": 13,
                 "mnemonic": "MP_TENSION_CELLULE_5",
-                "label_index": "20171",
+                "label_index": "@P20171@\\*5",
                 "label_korean": "셀5의 전압",
                 "group_id": "124001",
                 "req_frame_id": "372345",
@@ -2144,7 +2144,7 @@
             {
                 "position": 14,
                 "mnemonic": "MP_TENSION_CELLULE_6",
-                "label_index": "20171",
+                "label_index": "@P20171@\\*6",
                 "label_korean": "셀6의 전압",
                 "group_id": "124001",
                 "req_frame_id": "372345",
@@ -2166,7 +2166,7 @@
             {
                 "position": 15,
                 "mnemonic": "MP_TENSION_CELLULE_7",
-                "label_index": "20171",
+                "label_index": "@P20171@\\*7",
                 "label_korean": "셀7의 전압",
                 "group_id": "124001",
                 "req_frame_id": "372345",
@@ -2188,7 +2188,7 @@
             {
                 "position": 16,
                 "mnemonic": "MP_TENSION_CELLULE_8",
-                "label_index": "20171",
+                "label_index": "@P20171@\\*8",
                 "label_korean": "셀8의 전압",
                 "group_id": "124001",
                 "req_frame_id": "372345",
@@ -2210,7 +2210,7 @@
             {
                 "position": 17,
                 "mnemonic": "MP_TENSION_CELLULE_9",
-                "label_index": "20171",
+                "label_index": "@P20171@\\*9",
                 "label_korean": "셀9의 전압",
                 "group_id": "124001",
                 "req_frame_id": "372345",
@@ -2232,7 +2232,7 @@
             {
                 "position": 18,
                 "mnemonic": "MP_TENSION_CELLULE_10",
-                "label_index": "20171",
+                "label_index": "@P20171@\\*10",
                 "label_korean": "셀10의 전압",
                 "group_id": "124001",
                 "req_frame_id": "372345",
@@ -2254,7 +2254,7 @@
             {
                 "position": 19,
                 "mnemonic": "MP_TENSION_CELLULE_11",
-                "label_index": "20171",
+                "label_index": "@P20171@\\*11",
                 "label_korean": "셀11의 전압",
                 "group_id": "124001",
                 "req_frame_id": "372345",
@@ -2276,7 +2276,7 @@
             {
                 "position": 20,
                 "mnemonic": "MP_TENSION_CELLULE_12",
-                "label_index": "20171",
+                "label_index": "@P20171@\\*12",
                 "label_korean": "셀12의 전압",
                 "group_id": "124001",
                 "req_frame_id": "372345",
@@ -2298,7 +2298,7 @@
             {
                 "position": 21,
                 "mnemonic": "MP_TENSION_CELLULE_13",
-                "label_index": "20171",
+                "label_index": "@P20171@\\*13",
                 "label_korean": "셀13의 전압",
                 "group_id": "124001",
                 "req_frame_id": "372345",
@@ -2320,7 +2320,7 @@
             {
                 "position": 22,
                 "mnemonic": "MP_TENSION_CELLULE_14",
-                "label_index": "20171",
+                "label_index": "@P20171@\\*14",
                 "label_korean": "셀14의 전압",
                 "group_id": "124001",
                 "req_frame_id": "372345",
@@ -2342,7 +2342,7 @@
             {
                 "position": 23,
                 "mnemonic": "MP_TENSION_CELLULE_15",
-                "label_index": "20171",
+                "label_index": "@P20171@\\*15",
                 "label_korean": "셀15의 전압",
                 "group_id": "124001",
                 "req_frame_id": "372345",
@@ -2364,7 +2364,7 @@
             {
                 "position": 24,
                 "mnemonic": "MP_TENSION_CELLULE_16",
-                "label_index": "20171",
+                "label_index": "@P20171@\\*16",
                 "label_korean": "셀16의 전압",
                 "group_id": "124001",
                 "req_frame_id": "372345",
@@ -2386,7 +2386,7 @@
             {
                 "position": 25,
                 "mnemonic": "MP_COURANT_DECHARGE_BATT_TRACTION",
-                "label_index": "25945",
+                "label_index": "@P25945",
                 "label_korean": "트랙션 배터리 임계 방전 전류",
                 "group_id": "124008",
                 "req_frame_id": "372366",
@@ -2408,7 +2408,7 @@
             {
                 "position": 26,
                 "mnemonic": "MP_COURANT_CHARGE_BATT_TRACTION",
-                "label_index": "25941",
+                "label_index": "@P25941",
                 "label_korean": "트랙션 배터리 임계 충전 전류",
                 "group_id": "124013",
                 "req_frame_id": "372381",
@@ -2430,7 +2430,7 @@
             {
                 "position": 27,
                 "mnemonic": "MP_TENSION_BAT_SERVITUDE_MESUREE_PAR_CALCULATEUR_BATT_TRACTION",
-                "label_index": "54352",
+                "label_index": "@P54352",
                 "label_korean": "트랙션 배터리 ECU에 의해 측정된 서비스 배터리의 전압",
                 "group_id": "124022",
                 "req_frame_id": "372408",
@@ -2452,7 +2452,7 @@
         ]
     },
     "MESURESPARAMETRES_7": {
-        "screen_title_korean": "[미번역_P64452]",
+        "screen_title_korean": "64452",
         "screen_label_index": "@P64452-POLUXDATA",
         "ecu_name": "BMS_L6_DEGRADED_VARB",
         "total_sensors": 2,
@@ -2512,7 +2512,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_VALEUR_SOHC_BATTERIE",
-                "label_index": "22516",
+                "label_index": "@P22516",
                 "label_korean": "트랙션 배터리의 건강 상태",
                 "group_id": "124053",
                 "req_frame_id": "372501",
@@ -2542,7 +2542,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_TENSION_CMD_NEGATIF_CONT_POS_BATT_TRACTION",
-                "label_index": "54590",
+                "label_index": "@P54590",
                 "label_korean": "트랙션 배터리 내부 양극 전원 스위치 음극 제어의 전압",
                 "group_id": "124029",
                 "req_frame_id": "372429",
@@ -2564,7 +2564,7 @@
             {
                 "position": 2,
                 "mnemonic": "MP_NUMERO_CELLULE_BATT_TRACTION_AYANT_TENSION_MAXIMALE",
-                "label_index": "33558",
+                "label_index": "@P33558",
                 "label_korean": "전압이 최대인 트랙션 배터리 셀의 수",
                 "group_id": "124031",
                 "req_frame_id": "372435",
@@ -2586,7 +2586,7 @@
             {
                 "position": 3,
                 "mnemonic": "MP_NUMERO_CELLULE_BATT_TRACTION_AYANT_TENSION_MINIMALE",
-                "label_index": "33559",
+                "label_index": "@P33559",
                 "label_korean": "전압이 최저인 트랙션 배터리 셀의 수",
                 "group_id": "124024",
                 "req_frame_id": "372414",
@@ -2608,7 +2608,7 @@
             {
                 "position": 4,
                 "mnemonic": "MP_TENSION_MOYENNE_CELLULES_BATT_TRACTION",
-                "label_index": "54347",
+                "label_index": "@P54347",
                 "label_korean": "트랙션 배터리 셀 평균 전압",
                 "group_id": "124011",
                 "req_frame_id": "372375",
@@ -2630,7 +2630,7 @@
             {
                 "position": 5,
                 "mnemonic": "MP_NUMERO_MODULE_BATT_TRACTION_TEMPERATURE_MAXIMALE",
-                "label_index": "33564",
+                "label_index": "@P33564",
                 "label_korean": "최대 온도에서 트랙션 배터리 모듈의 수",
                 "group_id": "124027",
                 "req_frame_id": "372423",
@@ -2652,7 +2652,7 @@
             {
                 "position": 6,
                 "mnemonic": "MP_NUMERO_MODULE_BATT_TRACTION_TEMPERATURE_MINIMALE",
-                "label_index": "33565",
+                "label_index": "@P33565",
                 "label_korean": "최저 온도에서 트랙션 배터리 모듈의 수",
                 "group_id": "124021",
                 "req_frame_id": "372405",
@@ -2674,7 +2674,7 @@
             {
                 "position": 7,
                 "mnemonic": "MP_KILOMETRAGE_VEHICULE",
-                "label_index": "6315",
+                "label_index": "@P6315",
                 "label_korean": "차량 주행거리",
                 "group_id": "124028",
                 "req_frame_id": "372426",
@@ -2696,7 +2696,7 @@
             {
                 "position": 8,
                 "mnemonic": "MP_VITESSE_VEHICULE",
-                "label_index": "11138",
+                "label_index": "@P11138",
                 "label_korean": "차량 속도",
                 "group_id": "124010",
                 "req_frame_id": "372372",
@@ -2722,7 +2722,7 @@
             {
                 "position": 9,
                 "mnemonic": "MP_ETAT_CHARGE_BATT_TRACTION",
-                "label_index": "21178",
+                "label_index": "@P21178",
                 "label_korean": "트랙션 배터리 충전 상태",
                 "group_id": "124006",
                 "req_frame_id": "372360",
@@ -2747,7 +2747,7 @@
             {
                 "position": 10,
                 "mnemonic": "MP_COURANT_BATT_TRACTION",
-                "label_index": "22376",
+                "label_index": "@P22376",
                 "label_korean": "트랙션 배터리의 전류",
                 "group_id": "124025",
                 "req_frame_id": "372417",
@@ -2769,7 +2769,7 @@
             {
                 "position": 11,
                 "mnemonic": "MP_TEMPERATURE_MAXIMALE_BATT_TRACTION",
-                "label_index": "32977",
+                "label_index": "@P32977",
                 "label_korean": "트랙션 배터리의 최대 온도",
                 "group_id": "124033",
                 "req_frame_id": "372441",
@@ -2791,7 +2791,7 @@
             {
                 "position": 12,
                 "mnemonic": "MP_TENSION_BAT_SERVITUDE_MESUREE_PAR_CALCULATEUR_BATT_TRACTION",
-                "label_index": "54352",
+                "label_index": "@P54352",
                 "label_korean": "트랙션 배터리 ECU에 의해 측정된 서비스 배터리의 전압",
                 "group_id": "124022",
                 "req_frame_id": "372408",
@@ -2813,7 +2813,7 @@
             {
                 "position": 13,
                 "mnemonic": "MP_TENSION_MESUREE_CELLULE_PLUS_FAIBLE_BATT_TRACTION",
-                "label_index": "54090",
+                "label_index": "@P54090",
                 "label_korean": "트랙션 배터리의 가장 낮은 셀에서 측정한 전압",
                 "group_id": "124018",
                 "req_frame_id": "372396",
@@ -2835,7 +2835,7 @@
             {
                 "position": 14,
                 "mnemonic": "MP_TENSION_MESUREE_CELLULE_PLUS_FORTE_BATT_TRACTION",
-                "label_index": "54104",
+                "label_index": "@P54104",
                 "label_korean": "트랙션 배터리의 가장 높은 셀에서 측정한 전압",
                 "group_id": "124009",
                 "req_frame_id": "372369",
@@ -2857,7 +2857,7 @@
             {
                 "position": 15,
                 "mnemonic": "MP_TEMPERATURE_MOYENNE_BATT_TRACTION",
-                "label_index": "22611",
+                "label_index": "@P22611",
                 "label_korean": "트랙션 배터리의 평균 온도",
                 "group_id": "124012",
                 "req_frame_id": "372378",
@@ -2879,7 +2879,7 @@
             {
                 "position": 16,
                 "mnemonic": "MP_TEMPERATURE_MINIMALE_BATT_TRACTION",
-                "label_index": "32980",
+                "label_index": "@P32980",
                 "label_korean": "트랙션 배터리 최소 온도",
                 "group_id": "124030",
                 "req_frame_id": "372432",
@@ -2901,7 +2901,7 @@
             {
                 "position": 17,
                 "mnemonic": "MP_COURANT_DECHARGE_BATT_TRACTION",
-                "label_index": "25945",
+                "label_index": "@P25945",
                 "label_korean": "트랙션 배터리 임계 방전 전류",
                 "group_id": "124008",
                 "req_frame_id": "372366",
@@ -2923,7 +2923,7 @@
             {
                 "position": 18,
                 "mnemonic": "MP_COURANT_CHARGE_BATT_TRACTION",
-                "label_index": "25941",
+                "label_index": "@P25941",
                 "label_korean": "트랙션 배터리 임계 충전 전류",
                 "group_id": "124013",
                 "req_frame_id": "372381",
@@ -2945,8 +2945,8 @@
             {
                 "position": 19,
                 "mnemonic": "MP_TEMPERATURE_MODULE_BATT_TRACTION",
-                "label_index": "32705",
-                "label_korean": "트랙션 배터리 모듈온도",
+                "label_index": "@P32705@\\*@\\*",
+                "label_korean": "트랙션 배터리 모듈 온도",
                 "group_id": "124034",
                 "req_frame_id": "372444",
                 "resp_frame_id": "372445",
@@ -2967,7 +2967,7 @@
             {
                 "position": 20,
                 "mnemonic": "MP_TEMPERATURE_EQUI_CELL_BATT_TRACTION",
-                "label_index": "25442",
+                "label_index": "@P25442",
                 "label_korean": "트랙션 배터리 셀 온도",
                 "group_id": "124014",
                 "req_frame_id": "372384",
@@ -2989,7 +2989,7 @@
             {
                 "position": 21,
                 "mnemonic": "MP_TENSION_ALIMENTATION_CALCULATEUR",
-                "label_index": "14064",
+                "label_index": "@P14064",
                 "label_korean": "제어 장치 공급 전압",
                 "group_id": "124035",
                 "req_frame_id": "372447",
@@ -3013,8 +3013,8 @@
             {
                 "position": 22,
                 "mnemonic": "MP_TENSION_ALIMENTATION_CAN",
-                "label_index": "3920",
-                "label_korean": "공급 전압 ( CAN)",
+                "label_index": "@P3920",
+                "label_korean": "공급 전압 (+CAN)",
                 "group_id": "124017",
                 "req_frame_id": "372393",
                 "resp_frame_id": "372394",
@@ -3035,7 +3035,7 @@
             {
                 "position": 23,
                 "mnemonic": "MP_ETAT_BATTERIE_TRACTION",
-                "label_index": "54095",
+                "label_index": "@P54095",
                 "label_korean": "트랙션 배터리 상태",
                 "group_id": "123993",
                 "req_frame_id": "372321",
@@ -3083,7 +3083,7 @@
             {
                 "position": 24,
                 "mnemonic": "MP_TENSION_BATT_TRACTION",
-                "label_index": "19805",
+                "label_index": "@P19805",
                 "label_korean": "트랙션 배터리 전압",
                 "group_id": "124032",
                 "req_frame_id": "372438",
@@ -3105,7 +3105,7 @@
             {
                 "position": 25,
                 "mnemonic": "MP_TENSION_CAPT_TEMPERATURE",
-                "label_index": "10033",
+                "label_index": "@P10033",
                 "label_korean": "온도 센서 전압",
                 "group_id": "124017",
                 "req_frame_id": "372393",
@@ -3127,7 +3127,7 @@
             {
                 "position": 26,
                 "mnemonic": "MP_TENSION_RETOUR_RELAIS_BATT_TRACTION",
-                "label_index": "30511",
+                "label_index": "@P30511",
                 "label_korean": "트랙션 배터리 스위치의 단자에서 전압",
                 "group_id": "124017",
                 "req_frame_id": "372393",
@@ -3149,7 +3149,7 @@
             {
                 "position": 27,
                 "mnemonic": "MP_TENSION_PRECHARGE_BATT_TRACTION",
-                "label_index": "54582",
+                "label_index": "@P54582",
                 "label_korean": "트랙션 배터리 내부 전원 프리차지 스위치 음극 제어 전압",
                 "group_id": "124017",
                 "req_frame_id": "372393",
@@ -3171,7 +3171,7 @@
             {
                 "position": 28,
                 "mnemonic": "MP_RAISONE_DERNIER_RESET_CALCULATEUR",
-                "label_index": "20542",
+                "label_index": "@P20542",
                 "label_korean": "ECU의 마지막 리셋을 위한 이유",
                 "group_id": "124019",
                 "req_frame_id": "372399",

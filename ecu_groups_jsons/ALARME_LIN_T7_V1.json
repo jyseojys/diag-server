@@ -8,7 +8,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_ID_FOURNISSEUR",
-                "label_index": "5701",
+                "label_index": "@P5701",
                 "label_korean": "제조 업체명",
                 "group_id": "61972",
                 "req_frame_id": "186209",
@@ -35,7 +35,7 @@
             {
                 "position": 2,
                 "mnemonic": "ID_REFERENCE_MATERIEL",
-                "label_index": "1071",
+                "label_index": "@P1071",
                 "label_korean": "장치 부품 번호",
                 "group_id": "61973",
                 "req_frame_id": "186212",
@@ -57,7 +57,7 @@
             {
                 "position": 3,
                 "mnemonic": "ID_REFERENCE_COMPLEMENTAIRE_MATERIEL",
-                "label_index": "1634",
+                "label_index": "@P1634",
                 "label_korean": "장치 추가 참조 번호",
                 "group_id": "61974",
                 "req_frame_id": "186215",
@@ -79,7 +79,7 @@
             {
                 "position": 4,
                 "mnemonic": "ID_VERSION_LOGICIEL_new_1",
-                "label_index": "8662",
+                "label_index": "@P8662@\\*",
                 "label_korean": "소프트웨어 버전",
                 "group_id": "61975",
                 "req_frame_id": "186218",
@@ -101,7 +101,7 @@
             {
                 "position": 5,
                 "mnemonic": "ID_REF_CALIBRATION_new_1",
-                "label_index": "7014",
+                "label_index": "@P7014",
                 "label_korean": "캘리브레이션 버전",
                 "group_id": "61975",
                 "req_frame_id": "186218",
@@ -123,7 +123,7 @@
             {
                 "position": 6,
                 "mnemonic": "ID_MESS_DIAGNOSTIC",
-                "label_index": "2459",
+                "label_index": "@P2459",
                 "label_korean": "진단 이메일",
                 "group_id": "61976",
                 "req_frame_id": "186221",
@@ -145,7 +145,7 @@
             {
                 "position": 7,
                 "mnemonic": "ID_80_MP_INDICE_MESS",
-                "label_index": "2225",
+                "label_index": "@P2225",
                 "label_korean": "메시지 인덱스",
                 "group_id": "61976",
                 "req_frame_id": "186221",
@@ -167,7 +167,7 @@
             {
                 "position": 8,
                 "mnemonic": "ID_TRACABILITE_DATE_FABRICATION",
-                "label_index": "14355",
+                "label_index": "@P14355",
                 "label_korean": "제조일자",
                 "group_id": "61978",
                 "req_frame_id": "186227",
@@ -189,7 +189,7 @@
             {
                 "position": 9,
                 "mnemonic": "ID_TRACABILITE_MP_NUM_SERIE_PIECE",
-                "label_index": "7592",
+                "label_index": "@P7592",
                 "label_korean": "부품 일련 번호",
                 "group_id": "61977",
                 "req_frame_id": "186224",
@@ -219,7 +219,7 @@
             {
                 "position": 1,
                 "mnemonic": "CFG_TMP_CONFIG_VOL_VEHIC_temp",
-                "label_index": "8890",
+                "label_index": "@P8890",
                 "label_korean": "내부 센서의 민감도",
                 "group_id": "61979",
                 "req_frame_id": "186230",
@@ -235,13 +235,13 @@
                 "bit_mask": 15,
                 "bit_shift": 0,
                 "dynamic_arg": "",
-                "help_code": "32555, 32556, 44716",
+                "help_code": "@P32555@T. @P32556@T. @P44716@\\*1@T.",
                 "help_korean": "내부 센서의 민감도를 정의하는 데 사용한다. 민감도는 차량 볼륨 및 시트 트림에 따라 다르다. 가장 낮은 감도에 해당하는 감도 1."
             },
             {
                 "position": 2,
                 "mnemonic": "MP_ETAT_SURVEILLANCE_VOLUM",
-                "label_index": "17551",
+                "label_index": "@P17551",
                 "label_korean": "내부 알람 모니터링의 상태",
                 "group_id": "61981",
                 "req_frame_id": "186236",
@@ -257,7 +257,7 @@
                 "bit_mask": 28,
                 "bit_shift": 2,
                 "dynamic_arg": "",
-                "help_code": "17509",
+                "help_code": "@P17509@T.",
                 "help_korean": "내부 알람의 상태를 나타낸다."
             }
         ]
@@ -271,7 +271,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_EFFRAC_VOLUM",
-                "label_index": "14065",
+                "label_index": "@P14065",
                 "label_korean": "내부 침입",
                 "group_id": "61982",
                 "req_frame_id": "186239",
@@ -287,7 +287,7 @@
                 "bit_mask": 64,
                 "bit_shift": 6,
                 "dynamic_arg": "",
-                "help_code": "17521, 17190",
+                "help_code": "@P17521@T. @\\n@P17190@T.",
                 "help_korean": "차량의 내부 감지를 알린다.\n실내 알람은 차량 내에 사람이 있는지를 감지하는 것이다."
             }
         ]

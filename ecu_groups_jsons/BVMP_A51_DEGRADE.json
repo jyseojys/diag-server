@@ -8,7 +8,7 @@
             {
                 "position": 1,
                 "mnemonic": "ID_NOM_DU_FOURNISSEUR",
-                "label_index": "5701",
+                "label_index": "@P5701",
                 "label_korean": "제조 업체명",
                 "group_id": "792",
                 "req_frame_id": "2376",
@@ -38,7 +38,7 @@
             {
                 "position": 2,
                 "mnemonic": "ID_REFERENCE_MATERIEL",
-                "label_index": "1071",
+                "label_index": "@P1071",
                 "label_korean": "장치 부품 번호",
                 "group_id": "792",
                 "req_frame_id": "2376",
@@ -60,7 +60,7 @@
             {
                 "position": 3,
                 "mnemonic": "ID_REFERENCE_COMPLEMENTAIRE_MATERIEL",
-                "label_index": "1634",
+                "label_index": "@P1634",
                 "label_korean": "장치 추가 참조 번호",
                 "group_id": "792",
                 "req_frame_id": "2376",
@@ -82,7 +82,7 @@
             {
                 "position": 4,
                 "mnemonic": "ID_REFERENCE_LOGICIEL",
-                "label_index": "13263",
+                "label_index": "@P13263",
                 "label_korean": "소프트웨어 번호",
                 "group_id": "793",
                 "req_frame_id": "2379",
@@ -104,7 +104,7 @@
             {
                 "position": 5,
                 "mnemonic": "ID_VERSION_LOGICIEL_new_1",
-                "label_index": "8662",
+                "label_index": "@P8662@\\*",
                 "label_korean": "소프트웨어 버전",
                 "group_id": "793",
                 "req_frame_id": "2379",
@@ -126,7 +126,7 @@
             {
                 "position": 6,
                 "mnemonic": "ID_TRACABILITE_INDICE_EVOLUTION_EDITION",
-                "label_index": "13235",
+                "label_index": "@P13235@\\*",
                 "label_korean": "소프트웨어 버전",
                 "group_id": "793",
                 "req_frame_id": "2379",
@@ -148,7 +148,7 @@
             {
                 "position": 7,
                 "mnemonic": "ID_80_MP_INDICE_MESS",
-                "label_index": "2225",
+                "label_index": "@P2225",
                 "label_korean": "메시지 인덱스",
                 "group_id": "792",
                 "req_frame_id": "2376",
@@ -178,7 +178,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_REGIME_MOTEUR",
-                "label_index": "7917",
+                "label_index": "@P7917",
                 "label_korean": "엔진 속도",
                 "group_id": "795",
                 "req_frame_id": "2385",
@@ -202,7 +202,7 @@
             {
                 "position": 2,
                 "mnemonic": "MP_TENSION_BATTERIE",
-                "label_index": "18263",
+                "label_index": "@P18263",
                 "label_korean": "배터리 전압",
                 "group_id": "794",
                 "req_frame_id": "2382",
@@ -226,7 +226,7 @@
             {
                 "position": 3,
                 "mnemonic": "MP_ETAT_EMBRAYAGE",
-                "label_index": "3868",
+                "label_index": "@P3868",
                 "label_korean": "클러치 상태",
                 "group_id": "794",
                 "req_frame_id": "2382",
@@ -258,7 +258,7 @@
             {
                 "position": 4,
                 "mnemonic": "MP_POSITION_LEVIER_VITESSES",
-                "label_index": "6721",
+                "label_index": "@P6721",
                 "label_korean": "기어 레버의 포지션",
                 "group_id": "794",
                 "req_frame_id": "2382",
@@ -309,7 +309,7 @@
             {
                 "position": 5,
                 "mnemonic": "MP_RAPPORT_ENGAGE_new",
-                "label_index": "14207",
+                "label_index": "@P14207",
                 "label_korean": "완전 누름 (킥 다운)",
                 "group_id": "794",
                 "req_frame_id": "2382",
@@ -328,13 +328,13 @@
                 "bit_mask": 1,
                 "bit_shift": 0,
                 "dynamic_arg": "",
-                "help_code": "11939",
+                "help_code": "@P11939",
                 "help_korean": "최대 부하 상태를 설명하는 가변 변수"
             },
             {
                 "position": 6,
                 "mnemonic": "MP_RAPPORT_ENGAGE",
-                "label_index": "9398",
+                "label_index": "@P9398",
                 "label_korean": "체결 기어",
                 "group_id": "794",
                 "req_frame_id": "2382",
@@ -397,8 +397,8 @@
             {
                 "position": 7,
                 "mnemonic": "MP_COMMANDE_VITESSES_VOLANT_DIRECTION_DROITE",
-                "label_index": "8031",
-                "label_korean": "우측 스티어링 휠 기어 시프트 스위치( )",
+                "label_index": "@P8031",
+                "label_korean": "우측 스티어링 휠 기어 시프트 스위치(+)",
                 "group_id": "794",
                 "req_frame_id": "2382",
                 "resp_frame_id": "2383",
@@ -424,7 +424,7 @@
             {
                 "position": 8,
                 "mnemonic": "MP_COMMANDE_VITESSES_VOLANT_DIRECTION_GAUCHE",
-                "label_index": "5767",
+                "label_index": "@P5767",
                 "label_korean": "좌측 스티어링 휠 기어 시프트 스위치(-)",
                 "group_id": "794",
                 "req_frame_id": "2382",
@@ -451,7 +451,7 @@
             {
                 "position": 9,
                 "mnemonic": "MP_REGIME_ENTREE_BOITE",
-                "label_index": "4175",
+                "label_index": "@P4175",
                 "label_korean": "변속기 입력 속도",
                 "group_id": "794",
                 "req_frame_id": "2382",
@@ -473,7 +473,7 @@
             {
                 "position": 10,
                 "mnemonic": "MP_VITESSE_VEHICULE",
-                "label_index": "7997",
+                "label_index": "@P7997",
                 "label_korean": "차량 속도",
                 "group_id": "794",
                 "req_frame_id": "2382",
@@ -507,7 +507,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_REGIME_MOTEUR",
-                "label_index": "7917",
+                "label_index": "@P7917",
                 "label_korean": "엔진 속도",
                 "group_id": "795",
                 "req_frame_id": "2385",
@@ -525,13 +525,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "5100",
+                "help_code": "@P5100",
                 "help_korean": "CAN을 통해서 엔진 ECU로부터 오는 정보"
             },
             {
                 "position": 2,
                 "mnemonic": "MP_COUPLE_MOTEUR_REEL_01",
-                "label_index": "11944",
+                "label_index": "@P11944",
                 "label_korean": "실제 엔진 토크",
                 "group_id": "795",
                 "req_frame_id": "2385",
@@ -547,13 +547,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "5100",
+                "help_code": "@P5100",
                 "help_korean": "CAN을 통해서 엔진 ECU로부터 오는 정보"
             },
             {
                 "position": 3,
                 "mnemonic": "MP_COUPLE_MOTEUR_CALCULE",
-                "label_index": "10017",
+                "label_index": "@P10017",
                 "label_korean": "계산된 엔진 토크",
                 "group_id": "795",
                 "req_frame_id": "2385",
@@ -569,13 +569,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "32653",
+                "help_code": "@P32653@\\*MA@T.",
                 "help_korean": "타입MA 제어형 수동 변속기 ECU에 의해서 제공되는 비율 기준 값."
             },
             {
                 "position": 4,
                 "mnemonic": "MP_ENFONCEMENT_PEDALE_ACCELERATEUR",
-                "label_index": "8354",
+                "label_index": "@P8354",
                 "label_korean": "가속 페달을 밟는다",
                 "group_id": "795",
                 "req_frame_id": "2385",
@@ -597,7 +597,7 @@
             {
                 "position": 5,
                 "mnemonic": "MP_TEMPERATURE_EAU_MOTEUR",
-                "label_index": "4789",
+                "label_index": "@P4789",
                 "label_korean": "엔진 냉각수 온도",
                 "group_id": "795",
                 "req_frame_id": "2385",
@@ -619,7 +619,7 @@
             {
                 "position": 6,
                 "mnemonic": "MP_SELECTEUR_PROGRAMME",
-                "label_index": "12807",
+                "label_index": "@P12807",
                 "label_korean": "셀렉터 상태를 프로그램한다",
                 "group_id": "795",
                 "req_frame_id": "2385",
@@ -646,7 +646,7 @@
             {
                 "position": 7,
                 "mnemonic": "MP_INFORMATION_FREIN_PRINCIPAL",
-                "label_index": "13267",
+                "label_index": "@P13267",
                 "label_korean": "메인 브레이크 정보",
                 "group_id": "795",
                 "req_frame_id": "2385",
@@ -671,7 +671,7 @@
             {
                 "position": 8,
                 "mnemonic": "MP_INFORMATION_FREIN_REDONDANT",
-                "label_index": "11224",
+                "label_index": "@P11224",
                 "label_korean": "백업 브레이크 정보",
                 "group_id": "795",
                 "req_frame_id": "2385",
@@ -696,7 +696,7 @@
             {
                 "position": 9,
                 "mnemonic": "MP_COMMANDE_AUTORISATION_DEMARRAGE",
-                "label_index": "13549",
+                "label_index": "@P13549",
                 "label_korean": "시동 승인 제어",
                 "group_id": "795",
                 "req_frame_id": "2385",
@@ -721,7 +721,7 @@
             {
                 "position": 10,
                 "mnemonic": "MP_PRESENCE_PLUS_APRES_CONTACT",
-                "label_index": "28381",
+                "label_index": "@P28381",
                 "label_korean": "키 ON 존재",
                 "group_id": "795",
                 "req_frame_id": "2385",
@@ -746,7 +746,7 @@
             {
                 "position": 11,
                 "mnemonic": "MP_ETAT_REVEIL_COMMD_DISTANCE",
-                "label_index": "16102",
+                "label_index": "@P16102",
                 "label_korean": "원격 제어 웨이크-업 라인 상태",
                 "group_id": "799",
                 "req_frame_id": "2397",
@@ -776,7 +776,7 @@
             {
                 "position": 12,
                 "mnemonic": "MP_ETAT_REVEIL_CALCULATEUR_a",
-                "label_index": "13316",
+                "label_index": "@P13316",
                 "label_korean": "ECU 작동 상태",
                 "group_id": "799",
                 "req_frame_id": "2397",
@@ -810,7 +810,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_COMPTEUR_VITESSE_01",
-                "label_index": "2988",
+                "label_index": "@P2988@\\*1",
                 "label_korean": "1 전기 속도계",
                 "group_id": "796",
                 "req_frame_id": "2388",
@@ -832,7 +832,7 @@
             {
                 "position": 2,
                 "mnemonic": "MP_COMPTEUR_VITESSE_02",
-                "label_index": "2988",
+                "label_index": "@P2988@\\*2",
                 "label_korean": "2 전기 속도계",
                 "group_id": "796",
                 "req_frame_id": "2388",
@@ -854,7 +854,7 @@
             {
                 "position": 3,
                 "mnemonic": "MP_COMPTEUR_VITESSE_03",
-                "label_index": "2988",
+                "label_index": "@P2988@\\*3",
                 "label_korean": "3 전기 속도계",
                 "group_id": "796",
                 "req_frame_id": "2388",
@@ -876,7 +876,7 @@
             {
                 "position": 4,
                 "mnemonic": "MP_COMPTEUR_VITESSE_04",
-                "label_index": "2988",
+                "label_index": "@P2988@\\*4",
                 "label_korean": "4 전기 속도계",
                 "group_id": "796",
                 "req_frame_id": "2388",
@@ -898,7 +898,7 @@
             {
                 "position": 5,
                 "mnemonic": "MP_COMPTEUR_VITESSE_05",
-                "label_index": "2988",
+                "label_index": "@P2988@\\*5",
                 "label_korean": "5 전기 속도계",
                 "group_id": "796",
                 "req_frame_id": "2388",
@@ -920,7 +920,7 @@
             {
                 "position": 6,
                 "mnemonic": "MP_COMPTEUR_MARCHE_ARRIERE_a",
-                "label_index": "11438",
+                "label_index": "@P11438",
                 "label_korean": "후진 기어 카운터",
                 "group_id": "796",
                 "req_frame_id": "2388",
@@ -950,7 +950,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_COMPTEUR_COMMANDE_VITESSE_AU_VOLANT",
-                "label_index": "3775",
+                "label_index": "@P3775",
                 "label_korean": "스티어링 휠 기어 시프트 스위치 카운터",
                 "group_id": "797",
                 "req_frame_id": "2391",
@@ -972,7 +972,7 @@
             {
                 "position": 2,
                 "mnemonic": "MP_COMPTEUR_SELECTEUR_RAPPORT",
-                "label_index": "1523",
+                "label_index": "@P1523",
                 "label_korean": "기어 레버 카운터",
                 "group_id": "797",
                 "req_frame_id": "2391",
@@ -1002,7 +1002,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_CONSIGNE_POSITION_ACTIONNEUR_DE_SELECTION",
-                "label_index": "9801",
+                "label_index": "@P9801",
                 "label_korean": "기어 선택 액츄에이터 포지션 기준 값",
                 "group_id": "798",
                 "req_frame_id": "2394",
@@ -1024,7 +1024,7 @@
             {
                 "position": 2,
                 "mnemonic": "MP_POSITION_ACTIONNEUR_DE_SELECTION",
-                "label_index": "9724",
+                "label_index": "@P9724",
                 "label_korean": "기어 선택 액츄에이터 정보",
                 "group_id": "798",
                 "req_frame_id": "2394",
@@ -1046,7 +1046,7 @@
             {
                 "position": 3,
                 "mnemonic": "MP_CONSIGNE_POSITION_ACTIONNEUR_DE_PASSAGE",
-                "label_index": "8513",
+                "label_index": "@P8513",
                 "label_korean": "기어 체결 액츄에이터 위치 기준 값",
                 "group_id": "798",
                 "req_frame_id": "2394",
@@ -1068,7 +1068,7 @@
             {
                 "position": 4,
                 "mnemonic": "MP_POSITION_ACTIONNEUR_PASSAGE",
-                "label_index": "6442",
+                "label_index": "@P6442",
                 "label_korean": "기어 체결 액츄에이터 포지션",
                 "group_id": "798",
                 "req_frame_id": "2394",
@@ -1090,7 +1090,7 @@
             {
                 "position": 5,
                 "mnemonic": "MP_CONSIGNE_POSITION_ACTIONNEUR_EMBRAYAGE",
-                "label_index": "14105",
+                "label_index": "@P14105",
                 "label_korean": "클러치 액츄에이터 위치 기준 값",
                 "group_id": "798",
                 "req_frame_id": "2394",
@@ -1112,7 +1112,7 @@
             {
                 "position": 6,
                 "mnemonic": "MP_POSITION_ACTIONNEUR_EMBRAYAGE",
-                "label_index": "9769",
+                "label_index": "@P9769",
                 "label_korean": "클러치 액츄에이터 포지션",
                 "group_id": "798",
                 "req_frame_id": "2394",
@@ -1134,7 +1134,7 @@
             {
                 "position": 7,
                 "mnemonic": "MP_COMMANDE_ACTIONNEUR_PASSAGE_PWM",
-                "label_index": "23492",
+                "label_index": "@P23492",
                 "label_korean": "기어 선택 액츄에이터 제어(PWM)",
                 "group_id": "798",
                 "req_frame_id": "2394",
@@ -1156,7 +1156,7 @@
             {
                 "position": 8,
                 "mnemonic": "MP_COMMANDE_ACTIONNEUR_SELECTION_PWM",
-                "label_index": "23229",
+                "label_index": "@P23229",
                 "label_korean": "기어 변속 액츄에이터 제어 (PWM)",
                 "group_id": "798",
                 "req_frame_id": "2394",
@@ -1178,7 +1178,7 @@
             {
                 "position": 9,
                 "mnemonic": "MP_ENG_RAPP",
-                "label_index": "12442",
+                "label_index": "@P12442",
                 "label_korean": "기어 체결 상태",
                 "group_id": "798",
                 "req_frame_id": "2394",
@@ -1209,7 +1209,7 @@
             {
                 "position": 10,
                 "mnemonic": "MP_CONSIGNE_RAPPORT",
-                "label_index": "9541",
+                "label_index": "@P9541",
                 "label_korean": "기어 기준 값",
                 "group_id": "798",
                 "req_frame_id": "2394",
@@ -1249,7 +1249,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_COMPTEUR_ENERGIE_NIVEAU_01",
-                "label_index": "6393",
+                "label_index": "@P6393@\\*1",
                 "label_korean": "레벨1 에너지 카운터",
                 "group_id": "800",
                 "req_frame_id": "2400",
@@ -1271,7 +1271,7 @@
             {
                 "position": 2,
                 "mnemonic": "MP_COMPTEUR_ENERGIE_NIVEAU_02",
-                "label_index": "6393",
+                "label_index": "@P6393@\\*2",
                 "label_korean": "레벨2 에너지 카운터",
                 "group_id": "800",
                 "req_frame_id": "2400",
@@ -1293,7 +1293,7 @@
             {
                 "position": 3,
                 "mnemonic": "MP_COMPTEUR_ENERGIE_NIVEAU_03",
-                "label_index": "6393",
+                "label_index": "@P6393@\\*3",
                 "label_korean": "레벨3 에너지 카운터",
                 "group_id": "800",
                 "req_frame_id": "2400",
@@ -1315,7 +1315,7 @@
             {
                 "position": 4,
                 "mnemonic": "MP_COMPTEUR_ENERGIE_SOMME",
-                "label_index": "9023",
+                "label_index": "@P9023",
                 "label_korean": "총 에너지 카운터",
                 "group_id": "800",
                 "req_frame_id": "2400",
@@ -1345,7 +1345,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_COMPTEUR_DE_CYCLES_EMBRAYAGE",
-                "label_index": "5167",
+                "label_index": "@P5167",
                 "label_korean": "클러치 사이클 카운터",
                 "group_id": "801",
                 "req_frame_id": "2403",
@@ -1375,8 +1375,8 @@
             {
                 "position": 1,
                 "mnemonic": "MP_COMPTEUR_RAPPORT_1",
-                "label_index": "7554",
-                "label_korean": "카운터비율\\*BSI로 부터 예상치 못한 재초기화 결함",
+                "label_index": "@P7554@\\*@P5208@\\*@T1",
+                "label_korean": "카운터비율1",
                 "group_id": "802",
                 "req_frame_id": "2406",
                 "resp_frame_id": "2407",
@@ -1397,8 +1397,8 @@
             {
                 "position": 2,
                 "mnemonic": "MP_COMPTEUR_RAPPORT_2",
-                "label_index": "7554",
-                "label_korean": "카운터비율우측 사이드 접촉 스위치상태",
+                "label_index": "@P7554@\\*@P5208@\\*@T2",
+                "label_korean": "카운터비율2",
                 "group_id": "802",
                 "req_frame_id": "2406",
                 "resp_frame_id": "2407",
@@ -1419,8 +1419,8 @@
             {
                 "position": 3,
                 "mnemonic": "MP_COMPTEUR_RAPPORT_3",
-                "label_index": "7554",
-                "label_korean": "카운터비율좌측 컨택 스위치상태",
+                "label_index": "@P7554@\\*@P5208@\\*@T3",
+                "label_korean": "카운터비율3",
                 "group_id": "802",
                 "req_frame_id": "2406",
                 "resp_frame_id": "2407",
@@ -1441,8 +1441,8 @@
             {
                 "position": 4,
                 "mnemonic": "MP_COMPTEUR_RAPPORT_4",
-                "label_index": "7554",
-                "label_korean": "카운터비율이 변수는 \"존재\"로 설정해야 한다",
+                "label_index": "@P7554@\\*@P5208@\\*@T4",
+                "label_korean": "카운터비율4",
                 "group_id": "802",
                 "req_frame_id": "2406",
                 "resp_frame_id": "2407",
@@ -1463,8 +1463,8 @@
             {
                 "position": 5,
                 "mnemonic": "MP_COMPTEUR_RAPPORT_5",
-                "label_index": "7554",
-                "label_korean": "카운터비율휠 공기압 센서초기화",
+                "label_index": "@P7554@\\*@P5208@\\*@T5",
+                "label_korean": "카운터비율5",
                 "group_id": "802",
                 "req_frame_id": "2406",
                 "resp_frame_id": "2407",
@@ -1485,7 +1485,7 @@
             {
                 "position": 6,
                 "mnemonic": "MP_COMPTEUR_MARCHE_ARRIERE",
-                "label_index": "11438",
+                "label_index": "@P11438",
                 "label_korean": "후진 기어 카운터",
                 "group_id": "802",
                 "req_frame_id": "2406",
@@ -1507,7 +1507,7 @@
             {
                 "position": 7,
                 "mnemonic": "MP_COMPTEUR_NEUTRE",
-                "label_index": "13360",
+                "label_index": "@P13360",
                 "label_korean": "중립 카운터",
                 "group_id": "802",
                 "req_frame_id": "2406",
@@ -1537,7 +1537,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_COMPTEUR_COMMANDES_DE_VITESSES_AU_VOLANT",
-                "label_index": "29260",
+                "label_index": "@P29260",
                 "label_korean": "스티어링 휠 기어 제어 카운터",
                 "group_id": "803",
                 "req_frame_id": "2409",
@@ -1559,7 +1559,7 @@
             {
                 "position": 2,
                 "mnemonic": "MP_COMPTEUR_LEVIER_VITESSES",
-                "label_index": "1523",
+                "label_index": "@P1523",
                 "label_korean": "기어 레버 카운터",
                 "group_id": "803",
                 "req_frame_id": "2409",
@@ -1589,7 +1589,7 @@
             {
                 "position": 1,
                 "mnemonic": "CA_TENSION_BATTERIE",
-                "label_index": "18263",
+                "label_index": "@P18263",
                 "label_korean": "배터리 전압",
                 "group_id": "804",
                 "req_frame_id": "2412",
@@ -1605,13 +1605,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "13015",
+                "help_code": "@P13015",
                 "help_korean": "볼트로 배터리 전압 측정"
             },
             {
                 "position": 2,
                 "mnemonic": "CA_ETAT_EMBRAYAGE",
-                "label_index": "3868",
+                "label_index": "@P3868",
                 "label_korean": "클러치 상태",
                 "group_id": "804",
                 "req_frame_id": "2412",
@@ -1632,13 +1632,13 @@
                 "bit_mask": 3,
                 "bit_shift": 0,
                 "dynamic_arg": "",
-                "help_code": "15932",
-                "help_korean": "가능한\n- 클러치 상태 : 슬리핑 / 클러치 체결 / 클러치 해제 / 동기화"
+                "help_code": "@P15932",
+                "help_korean": "가능한 클러치 상태 : 슬리핑 / 클러치 체결 / 클러치 해제 / 동기화"
             },
             {
                 "position": 3,
                 "mnemonic": "CA_RAPPORT_ENGAGE",
-                "label_index": "9398",
+                "label_index": "@P9398",
                 "label_korean": "체결 기어",
                 "group_id": "804",
                 "req_frame_id": "2412",
@@ -1674,13 +1674,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "4776",
-                "help_korean": "가능한\n- 기어 : 중립/기어비 1/기어비 2/기어비 3/기어비4/기어비 5/후진"
+                "help_code": "@P4776",
+                "help_korean": "가능한 기어 : 중립/기어비 1/기어비 2/기어비 3/기어비4/기어비 5/후진"
             },
             {
                 "position": 4,
                 "mnemonic": "CA_REGIME_ENTREE_BOITE",
-                "label_index": "8482",
+                "label_index": "@P8482",
                 "label_korean": "변속기 입력 속도",
                 "group_id": "804",
                 "req_frame_id": "2412",
@@ -1696,13 +1696,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "13584",
+                "help_code": "@P13584",
                 "help_korean": "분당 회전수로, 변속기 메인 샤프트의 회전 속도"
             },
             {
                 "position": 5,
                 "mnemonic": "CA_VITESSE_VEHICULE",
-                "label_index": "15603",
+                "label_index": "@P15603@\\*",
                 "label_korean": "차량 속도",
                 "group_id": "804",
                 "req_frame_id": "2412",
@@ -1720,13 +1720,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "9994",
+                "help_code": "@P9994",
                 "help_korean": "ABS ECU로부터 정보"
             },
             {
                 "position": 6,
                 "mnemonic": "CA_POSITION_CLE_DE_CONTACT",
-                "label_index": "6016",
+                "label_index": "@P6016",
                 "label_korean": "점화 키 위치",
                 "group_id": "804",
                 "req_frame_id": "2412",
@@ -1745,13 +1745,13 @@
                 "bit_mask": 3,
                 "bit_shift": 0,
                 "dynamic_arg": "",
-                "help_code": "29305, 29251, 15587",
-                "help_korean": "가능한\n- 키 위치 : 키 ON 전원 / 시동 모터 라인."
+                "help_code": "@P29305@T : @P29251@\\+@T/@\\+@P15587@T.",
+                "help_korean": "가능한 키 위치 : 키 ON 전원/시동 모터 라인."
             },
             {
                 "position": 7,
                 "mnemonic": "CA_PASSAGE_RAPPORT_EN_COURS",
-                "label_index": "10325",
+                "label_index": "@P10325",
                 "label_korean": "기어 변속 진행 중",
                 "group_id": "804",
                 "req_frame_id": "2412",
@@ -1770,13 +1770,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "4593",
-                "help_korean": "기어\n- 변속 진행 중 : 예/아니오"
+                "help_code": "@P4593",
+                "help_korean": "기어 변속 진행 중 : 예/아니오"
             },
             {
                 "position": 8,
                 "mnemonic": "CA_REGIME_MOTEUR",
-                "label_index": "7917",
+                "label_index": "@P7917",
                 "label_korean": "엔진 속도",
                 "group_id": "804",
                 "req_frame_id": "2412",
@@ -1792,13 +1792,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "2631",
+                "help_code": "@P2631",
                 "help_korean": "엔진 속도 정보, 엔진 ECU에 의해 제공"
             },
             {
                 "position": 9,
                 "mnemonic": "CA_TEMPERATURE_D_EAU_MOTEUR",
-                "label_index": "11092",
+                "label_index": "@P11092",
                 "label_korean": "엔진 냉각수 온도",
                 "group_id": "804",
                 "req_frame_id": "2412",
@@ -1814,13 +1814,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "13921",
+                "help_code": "@P13921",
                 "help_korean": "냉각수 온도 (엔진 ECU에 의해 제공)"
             },
             {
                 "position": 10,
                 "mnemonic": "CA_TEMPS_ECOULE_DEPUIS_APPARITION_PREMIER_DEFAUT",
-                "label_index": "5744",
+                "label_index": "@P5744",
                 "label_korean": "첫번째 결함이 발생한 후 경과된 시간",
                 "group_id": "804",
                 "req_frame_id": "2412",
@@ -1836,7 +1836,7 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "29281, 29238",
+                "help_code": "@P29281@T.@\\n@P29238@\\*0@\\*0@\\*0",
                 "help_korean": "결함은 결함을 삭제한 후 발생된 첫번째 결함에 따라 날짜를 매긴다.\n첫번째 결함을 위해, 관련된 상태의 값은 0시간 0분 0초 이다"
             }
         ]
@@ -1850,7 +1850,7 @@
             {
                 "position": 1,
                 "mnemonic": "CA_TENSION_BATTERIE",
-                "label_index": "18263",
+                "label_index": "@P18263",
                 "label_korean": "배터리 전압",
                 "group_id": "804",
                 "req_frame_id": "2412",
@@ -1866,13 +1866,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "13015",
+                "help_code": "@P13015",
                 "help_korean": "볼트로 배터리 전압 측정"
             },
             {
                 "position": 2,
                 "mnemonic": "CA_ETAT_EMBRAYAGE",
-                "label_index": "3868",
+                "label_index": "@P3868",
                 "label_korean": "클러치 상태",
                 "group_id": "804",
                 "req_frame_id": "2412",
@@ -1893,13 +1893,13 @@
                 "bit_mask": 3,
                 "bit_shift": 0,
                 "dynamic_arg": "",
-                "help_code": "15932",
-                "help_korean": "가능한\n- 클러치 상태 : 슬리핑 / 클러치 체결 / 클러치 해제 / 동기화"
+                "help_code": "@P15932",
+                "help_korean": "가능한 클러치 상태 : 슬리핑 / 클러치 체결 / 클러치 해제 / 동기화"
             },
             {
                 "position": 3,
                 "mnemonic": "CA_RAPPORT_ENGAGE",
-                "label_index": "9398",
+                "label_index": "@P9398",
                 "label_korean": "체결 기어",
                 "group_id": "804",
                 "req_frame_id": "2412",
@@ -1935,13 +1935,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "4776",
-                "help_korean": "가능한\n- 기어 : 중립/기어비 1/기어비 2/기어비 3/기어비4/기어비 5/후진"
+                "help_code": "@P4776",
+                "help_korean": "가능한 기어 : 중립/기어비 1/기어비 2/기어비 3/기어비4/기어비 5/후진"
             },
             {
                 "position": 4,
                 "mnemonic": "CA_REGIME_ENTREE_BOITE",
-                "label_index": "8482",
+                "label_index": "@P8482",
                 "label_korean": "변속기 입력 속도",
                 "group_id": "804",
                 "req_frame_id": "2412",
@@ -1957,13 +1957,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "13584",
+                "help_code": "@P13584",
                 "help_korean": "분당 회전수로, 변속기 메인 샤프트의 회전 속도"
             },
             {
                 "position": 5,
                 "mnemonic": "CA_VITESSE_VEHICULE",
-                "label_index": "15603",
+                "label_index": "@P15603@\\*",
                 "label_korean": "차량 속도",
                 "group_id": "804",
                 "req_frame_id": "2412",
@@ -1981,13 +1981,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "9994",
+                "help_code": "@P9994",
                 "help_korean": "ABS ECU로부터 정보"
             },
             {
                 "position": 6,
                 "mnemonic": "CA_POSITION_CLE_DE_CONTACT",
-                "label_index": "6016",
+                "label_index": "@P6016",
                 "label_korean": "점화 키 위치",
                 "group_id": "804",
                 "req_frame_id": "2412",
@@ -2006,13 +2006,13 @@
                 "bit_mask": 3,
                 "bit_shift": 0,
                 "dynamic_arg": "",
-                "help_code": "29305, 29251, 15587",
-                "help_korean": "가능한\n- 키 위치 : 키 ON 전원 / 시동 모터 라인."
+                "help_code": "@P29305@T : @P29251@\\+@T/@\\+@P15587@T.",
+                "help_korean": "가능한 키 위치 : 키 ON 전원/시동 모터 라인."
             },
             {
                 "position": 7,
                 "mnemonic": "CA_PASSAGE_RAPPORT_EN_COURS",
-                "label_index": "10325",
+                "label_index": "@P10325",
                 "label_korean": "기어 변속 진행 중",
                 "group_id": "804",
                 "req_frame_id": "2412",
@@ -2031,13 +2031,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "4593",
-                "help_korean": "기어\n- 변속 진행 중 : 예/아니오"
+                "help_code": "@P4593",
+                "help_korean": "기어 변속 진행 중 : 예/아니오"
             },
             {
                 "position": 8,
                 "mnemonic": "CA_REGIME_MOTEUR",
-                "label_index": "7917",
+                "label_index": "@P7917",
                 "label_korean": "엔진 속도",
                 "group_id": "804",
                 "req_frame_id": "2412",
@@ -2053,13 +2053,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "2631",
+                "help_code": "@P2631",
                 "help_korean": "엔진 속도 정보, 엔진 ECU에 의해 제공"
             },
             {
                 "position": 9,
                 "mnemonic": "CA_TEMPERATURE_D_EAU_MOTEUR",
-                "label_index": "11092",
+                "label_index": "@P11092",
                 "label_korean": "엔진 냉각수 온도",
                 "group_id": "804",
                 "req_frame_id": "2412",
@@ -2075,13 +2075,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "13921",
+                "help_code": "@P13921",
                 "help_korean": "냉각수 온도 (엔진 ECU에 의해 제공)"
             },
             {
                 "position": 10,
                 "mnemonic": "CA_TEMPS_ECOULE_DEPUIS_APPARITION_PREMIER_DEFAUT",
-                "label_index": "5744",
+                "label_index": "@P5744",
                 "label_korean": "첫번째 결함이 발생한 후 경과된 시간",
                 "group_id": "804",
                 "req_frame_id": "2412",
@@ -2097,13 +2097,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "29281, 29238",
+                "help_code": "@P29281@T.@\\n@P29238@\\*0@\\*0@\\*0",
                 "help_korean": "결함은 결함을 삭제한 후 발생된 첫번째 결함에 따라 날짜를 매긴다.\n첫번째 결함을 위해, 관련된 상태의 값은 0시간 0분 0초 이다"
             },
             {
                 "position": 11,
                 "mnemonic": "CA_ETAT_APPRENTISSAGE_ACTIONNEUR_BV",
-                "label_index": "15760",
+                "label_index": "@P15760",
                 "label_korean": "변속기 액츄에이터 프로그래밍 상태",
                 "group_id": "804",
                 "req_frame_id": "2412",
@@ -2140,7 +2140,7 @@
             {
                 "position": 1,
                 "mnemonic": "CA_TENSION_BATTERIE",
-                "label_index": "18263",
+                "label_index": "@P18263",
                 "label_korean": "배터리 전압",
                 "group_id": "804",
                 "req_frame_id": "2412",
@@ -2156,13 +2156,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "13015",
+                "help_code": "@P13015",
                 "help_korean": "볼트로 배터리 전압 측정"
             },
             {
                 "position": 2,
                 "mnemonic": "CA_ETAT_EMBRAYAGE",
-                "label_index": "3868",
+                "label_index": "@P3868",
                 "label_korean": "클러치 상태",
                 "group_id": "804",
                 "req_frame_id": "2412",
@@ -2183,13 +2183,13 @@
                 "bit_mask": 3,
                 "bit_shift": 0,
                 "dynamic_arg": "",
-                "help_code": "15932",
-                "help_korean": "가능한\n- 클러치 상태 : 슬리핑 / 클러치 체결 / 클러치 해제 / 동기화"
+                "help_code": "@P15932",
+                "help_korean": "가능한 클러치 상태 : 슬리핑 / 클러치 체결 / 클러치 해제 / 동기화"
             },
             {
                 "position": 3,
                 "mnemonic": "CA_RAPPORT_ENGAGE",
-                "label_index": "9398",
+                "label_index": "@P9398",
                 "label_korean": "체결 기어",
                 "group_id": "804",
                 "req_frame_id": "2412",
@@ -2225,13 +2225,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "4776",
-                "help_korean": "가능한\n- 기어 : 중립/기어비 1/기어비 2/기어비 3/기어비4/기어비 5/후진"
+                "help_code": "@P4776",
+                "help_korean": "가능한 기어 : 중립/기어비 1/기어비 2/기어비 3/기어비4/기어비 5/후진"
             },
             {
                 "position": 4,
                 "mnemonic": "CA_REGIME_ENTREE_BOITE",
-                "label_index": "8482",
+                "label_index": "@P8482",
                 "label_korean": "변속기 입력 속도",
                 "group_id": "804",
                 "req_frame_id": "2412",
@@ -2247,13 +2247,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "13584",
+                "help_code": "@P13584",
                 "help_korean": "분당 회전수로, 변속기 메인 샤프트의 회전 속도"
             },
             {
                 "position": 5,
                 "mnemonic": "CA_VITESSE_VEHICULE",
-                "label_index": "15603",
+                "label_index": "@P15603@\\*",
                 "label_korean": "차량 속도",
                 "group_id": "804",
                 "req_frame_id": "2412",
@@ -2271,13 +2271,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "9994",
+                "help_code": "@P9994",
                 "help_korean": "ABS ECU로부터 정보"
             },
             {
                 "position": 6,
                 "mnemonic": "CA_POSITION_CLE_DE_CONTACT",
-                "label_index": "6016",
+                "label_index": "@P6016",
                 "label_korean": "점화 키 위치",
                 "group_id": "804",
                 "req_frame_id": "2412",
@@ -2296,13 +2296,13 @@
                 "bit_mask": 3,
                 "bit_shift": 0,
                 "dynamic_arg": "",
-                "help_code": "29305, 29251, 15587",
-                "help_korean": "가능한\n- 키 위치 : 키 ON 전원 / 시동 모터 라인."
+                "help_code": "@P29305@T : @P29251@\\+@T/@\\+@P15587@T.",
+                "help_korean": "가능한 키 위치 : 키 ON 전원/시동 모터 라인."
             },
             {
                 "position": 7,
                 "mnemonic": "CA_PASSAGE_RAPPORT_EN_COURS",
-                "label_index": "10325",
+                "label_index": "@P10325",
                 "label_korean": "기어 변속 진행 중",
                 "group_id": "804",
                 "req_frame_id": "2412",
@@ -2321,13 +2321,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "4593",
-                "help_korean": "기어\n- 변속 진행 중 : 예/아니오"
+                "help_code": "@P4593",
+                "help_korean": "기어 변속 진행 중 : 예/아니오"
             },
             {
                 "position": 8,
                 "mnemonic": "CA_REGIME_MOTEUR",
-                "label_index": "7917",
+                "label_index": "@P7917",
                 "label_korean": "엔진 속도",
                 "group_id": "804",
                 "req_frame_id": "2412",
@@ -2343,13 +2343,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "2631",
+                "help_code": "@P2631",
                 "help_korean": "엔진 속도 정보, 엔진 ECU에 의해 제공"
             },
             {
                 "position": 9,
                 "mnemonic": "CA_TEMPERATURE_D_EAU_MOTEUR",
-                "label_index": "11092",
+                "label_index": "@P11092",
                 "label_korean": "엔진 냉각수 온도",
                 "group_id": "804",
                 "req_frame_id": "2412",
@@ -2365,13 +2365,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "13921",
+                "help_code": "@P13921",
                 "help_korean": "냉각수 온도 (엔진 ECU에 의해 제공)"
             },
             {
                 "position": 10,
                 "mnemonic": "CA_TEMPS_ECOULE_DEPUIS_APPARITION_PREMIER_DEFAUT",
-                "label_index": "5744",
+                "label_index": "@P5744",
                 "label_korean": "첫번째 결함이 발생한 후 경과된 시간",
                 "group_id": "804",
                 "req_frame_id": "2412",
@@ -2387,13 +2387,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "29281, 29238",
+                "help_code": "@P29281@T.@\\n@P29238@\\*0@\\*0@\\*0",
                 "help_korean": "결함은 결함을 삭제한 후 발생된 첫번째 결함에 따라 날짜를 매긴다.\n첫번째 결함을 위해, 관련된 상태의 값은 0시간 0분 0초 이다"
             },
             {
                 "position": 11,
                 "mnemonic": "CA_RAPPORT_A_ATTEINDRE",
-                "label_index": "13314",
+                "label_index": "@P13314",
                 "label_korean": "도달할 기어비",
                 "group_id": "804",
                 "req_frame_id": "2412",

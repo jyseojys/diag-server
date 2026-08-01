@@ -8,7 +8,7 @@
             {
                 "position": 1,
                 "mnemonic": "ID_NOM_DU_FOURNISSEUR",
-                "label_index": "5701",
+                "label_index": "@P5701",
                 "label_korean": "제조 업체명",
                 "group_id": "75297",
                 "req_frame_id": "226169",
@@ -38,7 +38,7 @@
             {
                 "position": 2,
                 "mnemonic": "ID_REFERENCE_MATERIEL",
-                "label_index": "1071",
+                "label_index": "@P1071",
                 "label_korean": "장치 부품 번호",
                 "group_id": "75297",
                 "req_frame_id": "226169",
@@ -60,7 +60,7 @@
             {
                 "position": 3,
                 "mnemonic": "ID_REFERENCE_COMPLEMENTAIRE_MATERIEL",
-                "label_index": "1634",
+                "label_index": "@P1634",
                 "label_korean": "장치 추가 참조 번호",
                 "group_id": "75297",
                 "req_frame_id": "226169",
@@ -82,7 +82,7 @@
             {
                 "position": 4,
                 "mnemonic": "ID_ZI_FILE",
-                "label_index": "3627",
+                "label_index": "@P3627",
                 "label_korean": "캘리브레이션 파일 번호",
                 "group_id": "75301",
                 "req_frame_id": "226181",
@@ -104,7 +104,7 @@
             {
                 "position": 5,
                 "mnemonic": "ID_TRACABILITE_INDICE_EVOLUTION_EDITION_CALIBRATION",
-                "label_index": "7413",
+                "label_index": "@P7413",
                 "label_korean": "캘리브레이션 에디션",
                 "group_id": "75301",
                 "req_frame_id": "226181",
@@ -126,7 +126,7 @@
             {
                 "position": 6,
                 "mnemonic": "ID_TRACABILITE_INDICE_EVOLUTION_EDITION",
-                "label_index": "24601",
+                "label_index": "@P24601",
                 "label_korean": "소프트웨어 버전",
                 "group_id": "75297",
                 "req_frame_id": "226169",
@@ -148,7 +148,7 @@
             {
                 "position": 7,
                 "mnemonic": "ID_MESS_DIAGNOSTIC",
-                "label_index": "2459",
+                "label_index": "@P2459",
                 "label_korean": "진단 이메일",
                 "group_id": "75297",
                 "req_frame_id": "226169",
@@ -170,7 +170,7 @@
             {
                 "position": 8,
                 "mnemonic": "ID_80_MP_INDICE_MESS",
-                "label_index": "2225",
+                "label_index": "@P2225",
                 "label_korean": "메시지 인덱스",
                 "group_id": "75297",
                 "req_frame_id": "226169",
@@ -192,7 +192,7 @@
             {
                 "position": 9,
                 "mnemonic": "ID_DATE_TELECH",
-                "label_index": "21670",
+                "label_index": "@P21670",
                 "label_korean": "다운로딩 날짜",
                 "group_id": "75301",
                 "req_frame_id": "226181",
@@ -214,7 +214,7 @@
             {
                 "position": 10,
                 "mnemonic": "ID_NOMBRE_DE_TELECHARGEMENT",
-                "label_index": "24589",
+                "label_index": "@P24589",
                 "label_korean": "다운로드의 수",
                 "group_id": "75301",
                 "req_frame_id": "226181",
@@ -236,7 +236,7 @@
             {
                 "position": 11,
                 "mnemonic": "ID_TRACABILITE_DATE_FABRICATION",
-                "label_index": "14355",
+                "label_index": "@F14355",
                 "label_korean": "제조일자",
                 "group_id": "75302",
                 "req_frame_id": "226184",
@@ -266,7 +266,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_VIN",
-                "label_index": "3241",
+                "label_index": "@F3241",
                 "label_korean": "차량의 일련번호 - 차대번호 코드",
                 "group_id": "75300",
                 "req_frame_id": "226178",
@@ -282,7 +282,7 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "33888",
+                "help_code": "@P33888",
                 "help_korean": "이 변수는 표시는 텔레메틱 장치에 입력된 차대번호 코드를 읽을 수 있도록 한다"
             }
         ]
@@ -296,7 +296,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_INTENSITE_LUMINEUSE",
-                "label_index": "53113",
+                "label_index": "@P53113",
                 "label_korean": "다기능 스크린 밝기",
                 "group_id": "75305",
                 "req_frame_id": "226193",
@@ -318,7 +318,7 @@
             {
                 "position": 2,
                 "mnemonic": "MP_INTENSITE_LUMINEUSE_DES_PUSHS",
-                "label_index": "53114",
+                "label_index": "@P53114",
                 "label_korean": "RCE 연결 오디오 시스템 버튼의 밝기",
                 "group_id": "75306",
                 "req_frame_id": "226196",
@@ -340,7 +340,7 @@
             {
                 "position": 3,
                 "mnemonic": "MP_COORDONNEE_ABSCISSE_ECRAN_TACTILE",
-                "label_index": "27218",
+                "label_index": "@P27218",
                 "label_korean": "터치 스크린에서 가로 좌표 누름",
                 "group_id": "75307",
                 "req_frame_id": "226199",
@@ -356,13 +356,13 @@
                 "bit_mask": 16773120,
                 "bit_shift": 12,
                 "dynamic_arg": "",
-                "help_code": "30999, 30968, 33645, 30970, 33645, 30964, 33645, 30966, 33645",
-                "help_korean": "포인트의 가로 좌표 값을 읽기\n- 위해서 터치스크린의 4 코너 중의 하나를 터치한다 :\n- 터치스크린의 우측 상단을\n- 누른다, 가로 좌표 값은 중간에 있을 것이다 : 94과 98%\n- 터치스크린의 좌측 상단을\n- 누른다, 가로 좌표 값은 중간에 있을 것이다 : 94과 98%\n- 터치스크린의 우측 하단을 누른다,\n- 포인트의 가로 좌표 값은 중간에 있을 것이다 : 94과 98%\n- 터치스크린의 좌측 하단을\n- 누른다, 가로 좌표 값은 중간에 있을 것이다 : 94과 98%"
+                "help_code": "@P30999@\\+@T:@\\n@\\+@T-@\\+@P30968@\\+@T:@\\+@P33645@\\*94@\\*98@\\n@\\+@T-@\\+@P30970@\\+@T:@\\+@P33645@\\*1@\\*4@\\n@\\+@T-@\\+@P30964@\\+@T:@\\+@P33645@\\*94@\\*98@\\n@\\+@T-@\\+@P30966@\\+@T:@\\+@P33645@\\*1@\\*4",
+                "help_korean": "포인트의 가로 좌표 값을 읽기 위해서 터치스크린의 4 코너 중의 하나를 터치한다:\n-터치스크린의 우측 상단을 누른다, 가로 좌표 값은 중간에 있을 것이다:94과 98%\n-터치스크린의 좌측 상단을 누른다, 가로 좌표 값은 중간에 있을 것이다:94과 98%\n-터치스크린의 우측 하단을 누른다, 포인트의 가로 좌표 값은 중간에 있을 것이다:94과 98%\n-터치스크린의 좌측 하단을 누른다, 가로 좌표 값은 중간에 있을 것이다:94과 98%"
             },
             {
                 "position": 4,
                 "mnemonic": "MP_COORDONNEE_ORDONNEE_ECRAN_TACTILE",
-                "label_index": "27221",
+                "label_index": "@P27221",
                 "label_korean": "터치 스크린에서 세로 좌표 누름",
                 "group_id": "75307",
                 "req_frame_id": "226199",
@@ -378,13 +378,13 @@
                 "bit_mask": 4095,
                 "bit_shift": 0,
                 "dynamic_arg": "",
-                "help_code": "31000, 30969, 33645, 30971, 33645, 30965, 33645, 30967, 33645",
-                "help_korean": "포인트의 세로 좌표 값을 읽기\n- 위해서 터치스크린의 4 코너 중의 하나를 터치한다 :\n- 터치스크린의 우측 상단을\n- 누른다, 세로 좌표 값은 중간에 있을 것이다 : 94과 98%\n- 터치 스크린의 좌측 상단을 누른다,\n- 포인트의 기본 값은 다음 사이에 있어야 한다 : 94과 98%\n- 터치스크린의 우측 하단을 누른다,\n- 포인트의 세로 좌표 값은 중간에 있을 것이다 : 94과 98%\n- 터치스크린의 좌측 하단을\n- 누른다, 세로 좌표 값은 중간에 있을 것이다 : 94과 98%"
+                "help_code": "@P31000@T :@\\+@\\n@T-@\\+@P30969@T :@\\+@P33645@\\*94@\\*98@\\+@\\n@T-@\\+@P30971@T :@\\+@P33645@\\*94@\\*98@\\+@\\n@T-@\\+@P30965@T :@\\+@P33645@\\*3@\\*7@\\+@\\n@T-@\\+@P30967@T :@\\+@P33645@\\*3@\\*7",
+                "help_korean": "포인트의 세로 좌표 값을 읽기 위해서 터치스크린의 4 코너 중의 하나를 터치한다 :\n-터치스크린의 우측 상단을 누른다, 세로 좌표 값은 중간에 있을 것이다 :94과 98%\n-터치 스크린의 좌측 상단을 누른다, 포인트의 기본 값은 다음 사이에 있어야 한다 :94과 98%\n-터치스크린의 우측 하단을 누른다, 포인트의 세로 좌표 값은 중간에 있을 것이다 :94과 98%\n-터치스크린의 좌측 하단을 누른다, 세로 좌표 값은 중간에 있을 것이다 :94과 98%"
             },
             {
                 "position": 5,
                 "mnemonic": "MP_ATT_DG_INFO_APPUI",
-                "label_index": "47972",
+                "label_index": "@P47972",
                 "label_korean": "터치 프레스의 정보",
                 "group_id": "75307",
                 "req_frame_id": "226199",
@@ -409,7 +409,7 @@
             {
                 "position": 6,
                 "mnemonic": "MP_DUREE_PILOTAGE",
-                "label_index": "59146",
+                "label_index": "@P59146",
                 "label_korean": "다기능 터치 스크린의 밝기가 제어되는 시간",
                 "group_id": "75306",
                 "req_frame_id": "226196",
@@ -439,7 +439,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_TYPE_AAS_BEEP",
-                "label_index": "52809",
+                "label_index": "@P52809",
                 "label_korean": "주차 지원 기능 신호음 유형",
                 "group_id": "75304",
                 "req_frame_id": "226190",
@@ -461,7 +461,7 @@
             {
                 "position": 2,
                 "mnemonic": "MP_FONCTION_ENTREE_AUDIO",
-                "label_index": "27205",
+                "label_index": "@P27205",
                 "label_korean": "오디오 입력 기능",
                 "group_id": "75308",
                 "req_frame_id": "226202",
@@ -480,13 +480,13 @@
                 "bit_mask": 4,
                 "bit_shift": 2,
                 "dynamic_arg": "",
-                "help_code": "33928, 33901",
+                "help_code": "@P33928@\\n@P33901",
                 "help_korean": "텔레메틱 시스템이 작동한 후로 외부 오디오 소스가 최소한 한번이라도 감지되었으면 변수 측정은 \"기능 작동\"으로 된다\n변수 측정은 진단기에 의해서 제로 리셋이 될때까지 \"기능 작동\"으로 남아 있는다"
             },
             {
                 "position": 3,
                 "mnemonic": "MP_FONCTION_APPAIRAGE_BLUETOOTH",
-                "label_index": "27202",
+                "label_index": "@P27202",
                 "label_korean": "블루투스 페어링 기능",
                 "group_id": "75308",
                 "req_frame_id": "226202",
@@ -506,13 +506,13 @@
                 "bit_mask": 8,
                 "bit_shift": 3,
                 "dynamic_arg": "",
-                "help_code": "33930, 33901",
+                "help_code": "@P33930@\\n@P33901",
                 "help_korean": "텔레메틱 시스템이 작동한 후로 전화가 최소한 한번이라도 연결되었다면 변수 측정은 \"기능 작동\"으로 된다\n변수 측정은 진단기에 의해서 제로 리셋이 될때까지 \"기능 작동\"으로 남아 있는다"
             },
             {
                 "position": 4,
                 "mnemonic": "MP_FONCTION_ACTIVITE_MICRO",
-                "label_index": "27222",
+                "label_index": "@P27222",
                 "label_korean": "마이크로폰 작동 기능",
                 "group_id": "75308",
                 "req_frame_id": "226202",
@@ -531,13 +531,13 @@
                 "bit_mask": 16,
                 "bit_shift": 4,
                 "dynamic_arg": "",
-                "help_code": "33929, 33901",
+                "help_code": "@P33929@\\n@P33901",
                 "help_korean": "텔레메틱 시스템이 작동한 후로 마이크로폰이 최소한 한번이라도 작동했다면 변수 측정은 \"기능 작동\"으로 된다\n변수 측정은 진단기에 의해서 제로 리셋이 될때까지 \"기능 작동\"으로 남아 있는다"
             },
             {
                 "position": 5,
                 "mnemonic": "MP_FONCTION_ACTIVITE_RADIO_NUMERIQUE",
-                "label_index": "27237",
+                "label_index": "@P27237",
                 "label_korean": "디지털 라디오 작동 기능",
                 "group_id": "75308",
                 "req_frame_id": "226202",
@@ -556,13 +556,13 @@
                 "bit_mask": 32,
                 "bit_shift": 5,
                 "dynamic_arg": "",
-                "help_code": "33906, 33901",
+                "help_code": "@P33906@\\n@P33901",
                 "help_korean": "텔레메틱 시스템이 작동한 후로 디지털 라디오가 최소한 한번이라도 작동했다면 변수 측정은 \"기능 작동\"으로 된다\n변수 측정은 진단기에 의해서 제로 리셋이 될때까지 \"기능 작동\"으로 남아 있는다"
             },
             {
                 "position": 6,
                 "mnemonic": "MP_FONCTION_ACTIVITE_RADIO",
-                "label_index": "27231",
+                "label_index": "@P27231",
                 "label_korean": "라디오 작동 기능",
                 "group_id": "75308",
                 "req_frame_id": "226202",
@@ -581,13 +581,13 @@
                 "bit_mask": 64,
                 "bit_shift": 6,
                 "dynamic_arg": "",
-                "help_code": "33902, 33901",
+                "help_code": "@P33902@\\n@P33901",
                 "help_korean": "텔레메틱 시스템이 작동한 후로 라디오가 최소한 한번이라도 작동했다면 변수 측정은 \"기능 작동\"으로 된다\n변수 측정은 진단기에 의해서 제로 리셋이 될때까지 \"기능 작동\"으로 남아 있는다"
             },
             {
                 "position": 7,
                 "mnemonic": "MP_FONCTION_ENTREE_USB",
-                "label_index": "27213",
+                "label_index": "@P27213",
                 "label_korean": "USB 입력 기능",
                 "group_id": "75308",
                 "req_frame_id": "226202",
@@ -606,13 +606,13 @@
                 "bit_mask": 128,
                 "bit_shift": 7,
                 "dynamic_arg": "",
-                "help_code": "33931, 33901",
+                "help_code": "@P33931@\\n@P33901",
                 "help_korean": "텔레메틱 시스템이 작동한 후로 USB 소스가 사용되었다면 변수 측정은 \"기능 작동\"으로 된다\n변수 측정은 진단기에 의해서 제로 리셋이 될때까지 \"기능 작동\"으로 남아 있는다"
             },
             {
                 "position": 8,
                 "mnemonic": "MP_NIVEAU_SIGNAL_RADIO_01",
-                "label_index": "48769",
+                "label_index": "@P48769",
                 "label_korean": "라디오 신호 레벨",
                 "group_id": "75309",
                 "req_frame_id": "226205",
@@ -628,13 +628,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "33910",
+                "help_code": "@P33910",
                 "help_korean": "라디오 신호 값이 높으면 높을수록, 수신이 더 잘된다"
             },
             {
                 "position": 9,
                 "mnemonic": "MP_NIVEAUX_SIGNAL_RADIO_NUMERIQUE",
-                "label_index": "32116",
+                "label_index": "@P32116",
                 "label_korean": "디지털 라디오 신호 레벨",
                 "group_id": "75309",
                 "req_frame_id": "226205",
@@ -650,13 +650,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "33910",
+                "help_code": "@P33910",
                 "help_korean": "라디오 신호 값이 높으면 높을수록, 수신이 더 잘된다"
             },
             {
                 "position": 10,
                 "mnemonic": "MP_ETAT_ENTREE_USB_01",
-                "label_index": "33952",
+                "label_index": "@P33952@\\*1",
                 "label_korean": "USB 입력 N° 1의 상태",
                 "group_id": "75310",
                 "req_frame_id": "226208",
@@ -689,7 +689,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_TOUCHE_MEDIA",
-                "label_index": "5608",
+                "label_index": "@P5608",
                 "label_korean": "미디어 버튼",
                 "group_id": "75311",
                 "req_frame_id": "226211",
@@ -714,7 +714,7 @@
             {
                 "position": 2,
                 "mnemonic": "MP_ETAT_TOUCHE_CLIMATISATION",
-                "label_index": "52812",
+                "label_index": "@P52812",
                 "label_korean": "에어컨 버튼의 상태",
                 "group_id": "75311",
                 "req_frame_id": "226211",
@@ -739,7 +739,7 @@
             {
                 "position": 3,
                 "mnemonic": "MP_TOUCHE_ON_OFF",
-                "label_index": "7046",
+                "label_index": "@P7046",
                 "label_korean": "ON/OFF 버튼",
                 "group_id": "75311",
                 "req_frame_id": "226211",

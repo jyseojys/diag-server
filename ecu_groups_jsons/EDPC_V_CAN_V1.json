@@ -8,7 +8,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_ID_FOURNISSEUR",
-                "label_index": "5701",
+                "label_index": "@P5701",
                 "label_korean": "제조 업체명",
                 "group_id": "58403",
                 "req_frame_id": "175502",
@@ -35,7 +35,7 @@
             {
                 "position": 2,
                 "mnemonic": "ID_REFERENCE_MATERIEL",
-                "label_index": "1071",
+                "label_index": "@P1071",
                 "label_korean": "장치 부품 번호",
                 "group_id": "58403",
                 "req_frame_id": "175502",
@@ -57,7 +57,7 @@
             {
                 "position": 3,
                 "mnemonic": "ID_REFERENCE_COMPLEMENTAIRE_MATERIEL",
-                "label_index": "1634",
+                "label_index": "@P1634",
                 "label_korean": "장치 추가 참조 번호",
                 "group_id": "58403",
                 "req_frame_id": "175502",
@@ -79,7 +79,7 @@
             {
                 "position": 4,
                 "mnemonic": "ID_VERSION_LOGICIEL_new_1",
-                "label_index": "8662",
+                "label_index": "@P8662@\\*",
                 "label_korean": "소프트웨어 버전",
                 "group_id": "58403",
                 "req_frame_id": "175502",
@@ -101,7 +101,7 @@
             {
                 "position": 5,
                 "mnemonic": "ID_MESS_DIAGNOSTIC",
-                "label_index": "2459",
+                "label_index": "@P2459",
                 "label_korean": "진단 이메일",
                 "group_id": "58403",
                 "req_frame_id": "175502",
@@ -123,7 +123,7 @@
             {
                 "position": 6,
                 "mnemonic": "ID_80_MP_INDICE_MESS",
-                "label_index": "2225",
+                "label_index": "@P2225",
                 "label_korean": "메시지 인덱스",
                 "group_id": "58403",
                 "req_frame_id": "175502",
@@ -153,7 +153,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_COMMUTATEUR_REGLAGE_RETROVISEURS",
-                "label_index": "16806",
+                "label_index": "@P16806",
                 "label_korean": "도어 미러 조정 스위치",
                 "group_id": "58405",
                 "req_frame_id": "175508",
@@ -175,13 +175,13 @@
                 "bit_mask": 240,
                 "bit_shift": 4,
                 "dynamic_arg": "",
-                "help_code": "15314",
+                "help_code": "@P15314",
                 "help_korean": "도어 미러 조정 스위치는 운전석 도어 스위치 패널에 위치해 있다"
             },
             {
                 "position": 2,
                 "mnemonic": "MP_COMMUTATEUR_SELECTION_RETROVISEURS",
-                "label_index": "16205",
+                "label_index": "@P16205",
                 "label_korean": "도어 미러 선택 스위치",
                 "group_id": "58405",
                 "req_frame_id": "175508",
@@ -202,13 +202,13 @@
                 "bit_mask": 15,
                 "bit_shift": 0,
                 "dynamic_arg": "",
-                "help_code": "4855",
+                "help_code": "@P4855",
                 "help_korean": "도어 미러 선택 스위치는 운전석 도어 스위치 패널에 위치해 있다"
             },
             {
                 "position": 3,
                 "mnemonic": "MP_REGLAGE_VERTICAL_RETROVISEUR_CONDUCTEUR",
-                "label_index": "10199",
+                "label_index": "@P10199",
                 "label_korean": "운전석 도어 미러 수직 조정",
                 "group_id": "58405",
                 "req_frame_id": "175508",
@@ -224,13 +224,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "42026, 41062, 41514",
+                "help_code": "@P42026@\\n@\\+@P41062@\\n@\\+@P41514",
                 "help_korean": "미러의 수직 각도를 명시한다\n각도는 미러 조정 스위치를 사용해서 조정할 수 있다\n이 변수는 차량이 후진 기어와 연계된 도어 미러를 장착하고 있을 경우에만 작동한다"
             },
             {
                 "position": 4,
                 "mnemonic": "MP_REG_HORIZONTALE_RETRO",
-                "label_index": "4818",
+                "label_index": "@P4818",
                 "label_korean": "운전석 도어 미러 수평 조정",
                 "group_id": "58405",
                 "req_frame_id": "175508",
@@ -246,13 +246,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "42994, 41062, 41514",
+                "help_code": "@P42994@\\n@\\+@P41062@\\n@\\+@P41514",
                 "help_korean": "미러의 수평 각도를 명시한다\n각도는 미러 조정 스위치를 사용해서 조정할 수 있다\n이 변수는 차량이 후진 기어와 연계된 도어 미러를 장착하고 있을 경우에만 작동한다"
             },
             {
                 "position": 5,
                 "mnemonic": "MP_TEMPERATURE_EXTERIEURE",
-                "label_index": "5253",
+                "label_index": "@P5253",
                 "label_korean": "외부 온도",
                 "group_id": "58405",
                 "req_frame_id": "175508",
@@ -268,13 +268,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "8552",
-                "help_korean": "외부 온도 센서는 -40°C 에서 80°C 사이의 온도를 측정할 수 있다"
+                "help_code": "@P8552@\\*40@\\*80",
+                "help_korean": "외부 온도 센서는 -40°C 에서 +80°C 사이의 온도를 측정할 수 있다"
             },
             {
                 "position": 6,
                 "mnemonic": "MP_TENSION_BATTERIE",
-                "label_index": "18263",
+                "label_index": "@P18263",
                 "label_korean": "배터리 전압",
                 "group_id": "58405",
                 "req_frame_id": "175508",
@@ -292,13 +292,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "4750",
+                "help_code": "@P4750",
                 "help_korean": "배터리 충전 상태를 확인하기 위해서 사용하는 변수"
             }
         ]
     },
     "MESUREPARAMETRE2": {
-        "screen_title_korean": "전동 윈도우 제어 운전자",
+        "screen_title_korean": "전동 윈도우 제어운전자",
         "screen_label_index": "@P2014-POLUXDATA@\\+@P4386-POLUXDATA",
         "ecu_name": "EDPC_V_CAN_V1",
         "total_sensors": 7,
@@ -306,7 +306,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_COMMUTATEUR_LEVE_VITRE_AVANT_GAUCHE",
-                "label_index": "16783",
+                "label_index": "@P16783",
                 "label_korean": "프론트 좌측 전동 윈도우 스위치",
                 "group_id": "58405",
                 "req_frame_id": "175508",
@@ -327,13 +327,13 @@
                 "bit_mask": 15,
                 "bit_shift": 0,
                 "dynamic_arg": "",
-                "help_code": "15325",
+                "help_code": "@P15325",
                 "help_korean": "프론트 좌측 전동 윈도우 스위치는 운전석 도어 스위치 패널에 위치해 있다"
             },
             {
                 "position": 2,
                 "mnemonic": "MP_COMMUTATEUR_LEVE_VITRE_AVANT_DROIT",
-                "label_index": "6133",
+                "label_index": "@P6133",
                 "label_korean": "프론트 우측 전동 윈도우 스위치",
                 "group_id": "58405",
                 "req_frame_id": "175508",
@@ -349,13 +349,13 @@
                 "bit_mask": 240,
                 "bit_shift": 4,
                 "dynamic_arg": "",
-                "help_code": "15654",
+                "help_code": "@P15654",
                 "help_korean": "프론트 우측 전동 윈도우 스위치는 운전석 도어 스위치 패널에 위치해 있다"
             },
             {
                 "position": 3,
                 "mnemonic": "MP_COMMUTATEUR_LEVE_VITRE_ARRIERE_GAUCHE",
-                "label_index": "16169",
+                "label_index": "@P16169@\\*",
                 "label_korean": "리어 좌측 전동 윈도우 스위치",
                 "group_id": "58405",
                 "req_frame_id": "175508",
@@ -371,13 +371,13 @@
                 "bit_mask": 15,
                 "bit_shift": 0,
                 "dynamic_arg": "",
-                "help_code": "6641",
+                "help_code": "@P6641",
                 "help_korean": "리어 좌측 전동 윈도우 스위치는 운전석 도어 스위치 패널에 위치해 있다"
             },
             {
                 "position": 4,
                 "mnemonic": "MP_COMMUTATEUR_LEVE_VITRE_ARRIERE_DROIT",
-                "label_index": "15662",
+                "label_index": "@P15662@\\*",
                 "label_korean": "리어 우측 전동 윈도우 스위치",
                 "group_id": "58405",
                 "req_frame_id": "175508",
@@ -393,13 +393,13 @@
                 "bit_mask": 240,
                 "bit_shift": 4,
                 "dynamic_arg": "",
-                "help_code": "6641",
+                "help_code": "@P6641",
                 "help_korean": "리어 좌측 전동 윈도우 스위치는 운전석 도어 스위치 패널에 위치해 있다"
             },
             {
                 "position": 5,
                 "mnemonic": "MP_COMMUTATEUR_VITRES_ARRIERES",
-                "label_index": "15364",
+                "label_index": "@P15364",
                 "label_korean": "리어 윈도우 스위치",
                 "group_id": "58405",
                 "req_frame_id": "175508",
@@ -415,13 +415,13 @@
                 "bit_mask": 2,
                 "bit_shift": 1,
                 "dynamic_arg": "",
-                "help_code": "16046",
+                "help_code": "@P16046",
                 "help_korean": "리어 윈도우 스위치는 리어 도어에 위치한 전동 윈도우 버튼을 차단하는 데 사용한다"
             },
             {
                 "position": 6,
                 "mnemonic": "MP_TENSION_BATTERIE",
-                "label_index": "18263",
+                "label_index": "@P18263",
                 "label_korean": "배터리 전압",
                 "group_id": "58405",
                 "req_frame_id": "175508",
@@ -439,13 +439,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "4750",
+                "help_code": "@P4750",
                 "help_korean": "배터리 충전 상태를 확인하기 위해서 사용하는 변수"
             },
             {
                 "position": 7,
                 "mnemonic": "MP_CONTACT_PORTE_OUVERTE",
-                "label_index": "13958",
+                "label_index": "@P13958",
                 "label_korean": "도어 열림 센서 (CPO) 상태",
                 "group_id": "58405",
                 "req_frame_id": "175508",
@@ -461,7 +461,7 @@
                 "bit_mask": 48,
                 "bit_shift": 4,
                 "dynamic_arg": "",
-                "help_code": "11768",
+                "help_code": "@P11768",
                 "help_korean": "이 변수는 407 SW와 세단에서는 기능하지 않는다"
             }
         ]
@@ -475,7 +475,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_TYPE_DIRECTION",
-                "label_index": "3209",
+                "label_index": "@P3209",
                 "label_korean": "스티어링 타입",
                 "group_id": "58407",
                 "req_frame_id": "175514",
@@ -501,7 +501,7 @@
                 "bit_mask": 3,
                 "bit_shift": 0,
                 "dynamic_arg": "",
-                "help_code": "42995, 42996",
+                "help_code": "@P42995@\\n@\\+@P42996",
                 "help_korean": "주행 타입은 차량에서 스티어링 휠의 위치를 명시한다\n위치가 \"결정되지 않음\"일 경우, 도어 모듈은 다운그레이드된 모드로 작동한다"
             }
         ]

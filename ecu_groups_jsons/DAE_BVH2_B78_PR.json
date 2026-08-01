@@ -8,7 +8,7 @@
             {
                 "position": 1,
                 "mnemonic": "ID_NOM_DU_FOURNISSEUR",
-                "label_index": "5701",
+                "label_index": "@P5701",
                 "label_korean": "제조 업체명",
                 "group_id": "12248",
                 "req_frame_id": "36745",
@@ -38,7 +38,7 @@
             {
                 "position": 2,
                 "mnemonic": "ID_REFERENCE_MATERIEL",
-                "label_index": "1071",
+                "label_index": "@P1071",
                 "label_korean": "장치 부품 번호",
                 "group_id": "12248",
                 "req_frame_id": "36745",
@@ -60,7 +60,7 @@
             {
                 "position": 3,
                 "mnemonic": "ID_REFERENCE_COMPLEMENTAIRE_MATERIEL",
-                "label_index": "1634",
+                "label_index": "@P1634",
                 "label_korean": "장치 추가 참조 번호",
                 "group_id": "12248",
                 "req_frame_id": "36745",
@@ -82,7 +82,7 @@
             {
                 "position": 4,
                 "mnemonic": "ID_ZI_FILE",
-                "label_index": "3627",
+                "label_index": "@P3627",
                 "label_korean": "캘리브레이션 파일 번호",
                 "group_id": "12249",
                 "req_frame_id": "36748",
@@ -104,7 +104,7 @@
             {
                 "position": 5,
                 "mnemonic": "ID_ZA_ZI_EDI_CALIB",
-                "label_index": "13766",
+                "label_index": "@P13766",
                 "label_korean": "캘리브레이션 버전",
                 "group_id": "12249",
                 "req_frame_id": "36748",
@@ -126,7 +126,7 @@
             {
                 "position": 6,
                 "mnemonic": "ID_TRACABILITE_INDICE_EVOLUTION_EDITION",
-                "label_index": "24601",
+                "label_index": "@P24601",
                 "label_korean": "소프트웨어 버전",
                 "group_id": "12248",
                 "req_frame_id": "36745",
@@ -148,7 +148,7 @@
             {
                 "position": 7,
                 "mnemonic": "ID_DATE_TELECH",
-                "label_index": "21670",
+                "label_index": "@P21670",
                 "label_korean": "다운로딩 날짜",
                 "group_id": "12249",
                 "req_frame_id": "36748",
@@ -170,7 +170,7 @@
             {
                 "position": 8,
                 "mnemonic": "ID_NOMBRE_DE_TELECHARGEMENT",
-                "label_index": "24589",
+                "label_index": "@P24589",
                 "label_korean": "다운로드의 수",
                 "group_id": "12249",
                 "req_frame_id": "36748",
@@ -230,7 +230,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_VITESSE_VEHICULE",
-                "label_index": "9267",
+                "label_index": "@P9267",
                 "label_korean": "차량 속도",
                 "group_id": "12250",
                 "req_frame_id": "36751",
@@ -250,13 +250,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "27278",
+                "help_code": "@P27278@T.",
                 "help_korean": "차량 속도는 kph로 보여진다."
             },
             {
                 "position": 2,
                 "mnemonic": "MP_ETAT_PLUS_APC",
-                "label_index": "872",
+                "label_index": "@P872",
                 "label_korean": "키 ON 상태",
                 "group_id": "12250",
                 "req_frame_id": "36751",
@@ -275,13 +275,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "27282",
+                "help_code": "@P27282@T.",
                 "help_korean": "키 ON 존재 감지."
             },
             {
                 "position": 3,
                 "mnemonic": "MP_COUPLE_VOLANT",
-                "label_index": "6403",
+                "label_index": "@P6403",
                 "label_korean": "스티어링 휠 토크",
                 "group_id": "12250",
                 "req_frame_id": "36751",
@@ -297,13 +297,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "37476",
+                "help_code": "@P37476@T.",
                 "help_korean": "스티어링 휠에 가해진 토크."
             },
             {
                 "position": 4,
                 "mnemonic": "MP_CONSIGNE_COUPLE_MOTEUR",
-                "label_index": "9177",
+                "label_index": "@P9177",
                 "label_korean": "엔진 토크 기준 값",
                 "group_id": "12250",
                 "req_frame_id": "36751",
@@ -325,7 +325,7 @@
             {
                 "position": 5,
                 "mnemonic": "MP_COUPLE_MOTEUR",
-                "label_index": "13664",
+                "label_index": "@P13664",
                 "label_korean": "엔진 토크",
                 "group_id": "12250",
                 "req_frame_id": "36751",
@@ -347,7 +347,7 @@
             {
                 "position": 6,
                 "mnemonic": "MP_TENSION_ALIMENTATION",
-                "label_index": "7080",
+                "label_index": "@P7080",
                 "label_korean": "공급 전압",
                 "group_id": "12250",
                 "req_frame_id": "36751",
@@ -363,13 +363,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "41345",
+                "help_code": "@F41345@T.",
                 "help_korean": "전동 파워 스티어링(DAE)의 단자에서 전압."
             },
             {
                 "position": 7,
                 "mnemonic": "MP_ASSISTANCE",
-                "label_index": "11269",
+                "label_index": "@P11269",
                 "label_korean": "파워 스티어링 상태",
                 "group_id": "12250",
                 "req_frame_id": "36751",
@@ -390,14 +390,14 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "41967",
+                "help_code": "@P41967@T.",
                 "help_korean": "스티어링 휠에 토크가 가해질 때 어시스턴스의 상태."
             },
             {
                 "position": 8,
                 "mnemonic": "MP_TEMPERATURE",
-                "label_index": "6717",
-                "label_korean": "ECU온도",
+                "label_index": "@P6717@\\*",
+                "label_korean": "ECU 온도",
                 "group_id": "12250",
                 "req_frame_id": "36751",
                 "resp_frame_id": "36752",
@@ -420,7 +420,7 @@
             {
                 "position": 9,
                 "mnemonic": "MP_SURCHAUFFE_MOTEUR_DAE",
-                "label_index": "14350",
+                "label_index": "@P14350",
                 "label_korean": "전동 파워 스티어링 모터의 과열",
                 "group_id": "12250",
                 "req_frame_id": "36751",
@@ -445,7 +445,7 @@
             {
                 "position": 10,
                 "mnemonic": "MP_ETAT_ACTIVATION_LOI_DE_CONDUITE",
-                "label_index": "5309",
+                "label_index": "@P5309",
                 "label_korean": "주행 패턴의 작동 상태",
                 "group_id": "12250",
                 "req_frame_id": "36751",
@@ -470,7 +470,7 @@
             {
                 "position": 11,
                 "mnemonic": "MP_ETAT_MOTEUR",
-                "label_index": "21607",
+                "label_index": "@P21607",
                 "label_korean": "엔진 상태",
                 "group_id": "12250",
                 "req_frame_id": "36751",
@@ -524,7 +524,7 @@
             {
                 "position": 12,
                 "mnemonic": "MP_ANGLE_VOLANT",
-                "label_index": "1274",
+                "label_index": "@P1274",
                 "label_korean": "스티어링 휠 앵글",
                 "group_id": "12250",
                 "req_frame_id": "36751",
@@ -548,7 +548,7 @@
             {
                 "position": 13,
                 "mnemonic": "MP_CONSIGNE_ANGLE_VOLANT_ENVOYEE_STATIONNEMENT_SEMI_AUTO",
-                "label_index": "35564",
+                "label_index": "@P35564",
                 "label_korean": "반자동 주차 시스템에 의해서 보내진 스티어링 휠 앵글 기준 값",
                 "group_id": "12251",
                 "req_frame_id": "36754",
@@ -570,7 +570,7 @@
             {
                 "position": 14,
                 "mnemonic": "MP_DIFFERENTES_DEMANDES_FONCTION_STATIONNEMENT_SEMI_AUTO",
-                "label_index": "35609",
+                "label_index": "@P35609",
                 "label_korean": "반자동 주차 기능의 다양한 요청",
                 "group_id": "12251",
                 "req_frame_id": "36754",
@@ -597,7 +597,7 @@
             {
                 "position": 15,
                 "mnemonic": "MP_CAUSE_DESACTIVATION_SYSTEME_STATIONNEMENT_SEMI_AUTO",
-                "label_index": "35599",
+                "label_index": "@P35599",
                 "label_korean": "반자동 주차 시스템의 차단 원인",
                 "group_id": "12251",
                 "req_frame_id": "36754",
@@ -628,7 +628,7 @@
             {
                 "position": 16,
                 "mnemonic": "MP_ETAT_VOYANT_DAE",
-                "label_index": "35597",
+                "label_index": "@P35597",
                 "label_korean": "전동 파워 스티어링 경고등 상태",
                 "group_id": "12251",
                 "req_frame_id": "36754",
@@ -655,7 +655,7 @@
             {
                 "position": 17,
                 "mnemonic": "MP_ETAT_DAE_SYSTEME_STATIONNEMENT_SEMI_AUTO",
-                "label_index": "35607",
+                "label_index": "@P35607",
                 "label_korean": "반자동 시스템을 위한 전동 파워 스티어링의 상태",
                 "group_id": "12251",
                 "req_frame_id": "36754",
@@ -682,7 +682,7 @@
             {
                 "position": 18,
                 "mnemonic": "MP_LEVIER_VITESSE_POSTITION_MARCHE_ARRIERE_R",
-                "label_index": "20807",
+                "label_index": "@P20807",
                 "label_korean": "후진 기어 위치에서 기어 레버",
                 "group_id": "12251",
                 "req_frame_id": "36754",
@@ -704,7 +704,7 @@
             {
                 "position": 19,
                 "mnemonic": "MP_VITESSE_VEHICULE_MESUREE_CAPTEURS_ROUES",
-                "label_index": "35595",
+                "label_index": "@P35595",
                 "label_korean": "휠 센서에 의해 측정된 차량 속도",
                 "group_id": "12251",
                 "req_frame_id": "36754",
@@ -726,7 +726,7 @@
             {
                 "position": 20,
                 "mnemonic": "MP_COUPLE_ASSISTANCE_DAE",
-                "label_index": "35592",
+                "label_index": "@P35592",
                 "label_korean": "전동 파워 스티어링 지원 토크",
                 "group_id": "12251",
                 "req_frame_id": "36754",
@@ -748,7 +748,7 @@
             {
                 "position": 21,
                 "mnemonic": "MP_COUPLE_MESURE_VOLANT_DIRECTION",
-                "label_index": "35594",
+                "label_index": "@P35594",
                 "label_korean": "스티어링 휠 측정 토크",
                 "group_id": "12251",
                 "req_frame_id": "36754",
@@ -770,7 +770,7 @@
             {
                 "position": 22,
                 "mnemonic": "MP_VITESSE_VOLANT_DE_DIRECTION",
-                "label_index": "7009",
+                "label_index": "@P7009",
                 "label_korean": "스티어링 휠의 회전 속도",
                 "group_id": "12251",
                 "req_frame_id": "36754",
@@ -794,7 +794,7 @@
             {
                 "position": 23,
                 "mnemonic": "MP_COUPLE_ACTIONNEUR_SYSTEME_STATIONNEMENT_SEMI_AUTOMATIQUE",
-                "label_index": "35602",
+                "label_index": "@P35602",
                 "label_korean": "반자동 주차 시스템 액츄에이터 토크",
                 "group_id": "12251",
                 "req_frame_id": "36754",
@@ -824,7 +824,7 @@
             {
                 "position": 1,
                 "mnemonic": "CA_KILOMETRAGE",
-                "label_index": "7845",
+                "label_index": "@P7845",
                 "label_korean": "주행거리",
                 "group_id": "12254",
                 "req_frame_id": "36763",
@@ -848,7 +848,7 @@
             {
                 "position": 2,
                 "mnemonic": "CA_VITESSE_VEHICULE",
-                "label_index": "9267",
+                "label_index": "@P9267",
                 "label_korean": "차량 속도",
                 "group_id": "12254",
                 "req_frame_id": "36763",
@@ -872,7 +872,7 @@
             {
                 "position": 3,
                 "mnemonic": "CA_COUPLE_VOLANT_DIRECTION",
-                "label_index": "37474",
+                "label_index": "@P37474",
                 "label_korean": "스티어링 휠 토크",
                 "group_id": "12254",
                 "req_frame_id": "36763",
@@ -896,7 +896,7 @@
             {
                 "position": 4,
                 "mnemonic": "CA_ANGLE_VOLANT",
-                "label_index": "1274",
+                "label_index": "@P1274",
                 "label_korean": "스티어링 휠 앵글",
                 "group_id": "12254",
                 "req_frame_id": "36763",
@@ -920,7 +920,7 @@
             {
                 "position": 5,
                 "mnemonic": "CA_CONSIGNE_COUPLE_MOTEUR_ELECTRIQUE_DAE",
-                "label_index": "37475",
+                "label_index": "@P37475",
                 "label_korean": "전동 파워 스티어링 전동 모터 토크 기준 값",
                 "group_id": "12254",
                 "req_frame_id": "36763",
@@ -942,7 +942,7 @@
             {
                 "position": 6,
                 "mnemonic": "CA_TENSION_ALIMENTATION",
-                "label_index": "7080",
+                "label_index": "@P7080",
                 "label_korean": "공급 전압",
                 "group_id": "12254",
                 "req_frame_id": "36763",
@@ -964,7 +964,7 @@
             {
                 "position": 7,
                 "mnemonic": "CA_TEMPERATURE_CALCULATEUR_DIRECTION_ASSISTEE",
-                "label_index": "1101",
+                "label_index": "@P1101",
                 "label_korean": "파워 스티어링 ECU의 온도",
                 "group_id": "12254",
                 "req_frame_id": "36763",
@@ -986,7 +986,7 @@
             {
                 "position": 8,
                 "mnemonic": "CA_SURCHAUFFE_DAE",
-                "label_index": "30879",
+                "label_index": "@P30879",
                 "label_korean": "전동 파워 스티어링의 과열",
                 "group_id": "12254",
                 "req_frame_id": "36763",
@@ -1011,7 +1011,7 @@
             {
                 "position": 9,
                 "mnemonic": "CA_ASSISTANCE",
-                "label_index": "27239",
+                "label_index": "@P27239",
                 "label_korean": "지원",
                 "group_id": "12254",
                 "req_frame_id": "36763",
@@ -1036,7 +1036,7 @@
             {
                 "position": 10,
                 "mnemonic": "CA_ETAT_PLUS_APC",
-                "label_index": "872",
+                "label_index": "@P872",
                 "label_korean": "키 ON 상태",
                 "group_id": "12254",
                 "req_frame_id": "36763",
@@ -1061,7 +1061,7 @@
             {
                 "position": 11,
                 "mnemonic": "CA_ETAT_MOTEUR",
-                "label_index": "21607",
+                "label_index": "@P21607",
                 "label_korean": "엔진 상태",
                 "group_id": "12254",
                 "req_frame_id": "36763",
@@ -1107,7 +1107,7 @@
             {
                 "position": 12,
                 "mnemonic": "DTC_SUPPLIER",
-                "label_index": "51246",
+                "label_index": "@P51246",
                 "label_korean": "제조사 결함 코드",
                 "group_id": "12254",
                 "req_frame_id": "36763",
@@ -1137,8 +1137,8 @@
             {
                 "position": 1,
                 "mnemonic": "AUTOCALIBRATION_DU_CAPTEUR_DE_COUPLE",
-                "label_index": "37474",
-                "label_korean": "스티어링\n- 휠 토크(오프셋)",
+                "label_index": "@P37474@T(@P18877@T)@T :",
+                "label_korean": "스티어링 휠 토크(오프셋) :",
                 "group_id": "12252",
                 "req_frame_id": "36757",
                 "resp_frame_id": "36758",

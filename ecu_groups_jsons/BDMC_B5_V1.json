@@ -8,7 +8,7 @@
             {
                 "position": 1,
                 "mnemonic": "ID_REFERENCE_FOURNISSEUR",
-                "label_index": "633",
+                "label_index": "@P633",
                 "label_korean": "제조업체",
                 "group_id": "72368",
                 "req_frame_id": "217392",
@@ -34,7 +34,7 @@
             {
                 "position": 2,
                 "mnemonic": "ID_REFERENCE_MATERIEL",
-                "label_index": "1071",
+                "label_index": "@P1071",
                 "label_korean": "장치 부품 번호",
                 "group_id": "72368",
                 "req_frame_id": "217392",
@@ -56,7 +56,7 @@
             {
                 "position": 3,
                 "mnemonic": "ID_REFERENCE_COMPLEMENTAIRE_MATERIEL",
-                "label_index": "1634",
+                "label_index": "@P1634",
                 "label_korean": "장치 추가 참조 번호",
                 "group_id": "72368",
                 "req_frame_id": "217392",
@@ -78,7 +78,7 @@
             {
                 "position": 4,
                 "mnemonic": "ID_TRACABILITE_INDICE_EVOLUTION_EDITION",
-                "label_index": "24601",
+                "label_index": "@P24601",
                 "label_korean": "소프트웨어 버전",
                 "group_id": "72368",
                 "req_frame_id": "217392",
@@ -100,7 +100,7 @@
             {
                 "position": 5,
                 "mnemonic": "ID_MESS_DIAGNOSTIC",
-                "label_index": "2459",
+                "label_index": "@P2459",
                 "label_korean": "진단 이메일",
                 "group_id": "72368",
                 "req_frame_id": "217392",
@@ -122,7 +122,7 @@
             {
                 "position": 6,
                 "mnemonic": "ID_80_MP_INDICE_MESS",
-                "label_index": "2225",
+                "label_index": "@P2225",
                 "label_korean": "메시지 인덱스",
                 "group_id": "72368",
                 "req_frame_id": "217392",
@@ -152,7 +152,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_CONFIG_BOITIER_MEMORISATION",
-                "label_index": "3206",
+                "label_index": "@P3206",
                 "label_korean": "메모리 제어 ECU의 설정",
                 "group_id": "72370",
                 "req_frame_id": "217398",
@@ -171,7 +171,7 @@
                 "bit_mask": 4,
                 "bit_shift": 2,
                 "dynamic_arg": "",
-                "help_code": "29247",
+                "help_code": "@P29247@T.",
                 "help_korean": "메모리 장치 설정을 확인하는데 사용되는 변수."
             }
         ]
@@ -185,7 +185,7 @@
             {
                 "position": 1,
                 "mnemonic": "DESCENTEREH",
-                "label_index": "9689",
+                "label_index": "@P9689",
                 "label_korean": "높이 조절 장치를 내린다",
                 "group_id": "72370",
                 "req_frame_id": "217398",
@@ -201,13 +201,13 @@
                 "bit_mask": 32,
                 "bit_shift": 5,
                 "dynamic_arg": "",
-                "help_code": "8647",
+                "help_code": "@P8647",
                 "help_korean": "운전석 시트 높이 조절장치를 내리기 위한 요청을 위해 작동하는 변수"
             },
             {
                 "position": 2,
                 "mnemonic": "MONTEEREH",
-                "label_index": "15412",
+                "label_index": "@P15412",
                 "label_korean": "높이 조절 장치를 올린다",
                 "group_id": "72370",
                 "req_frame_id": "217398",
@@ -223,13 +223,13 @@
                 "bit_mask": 16,
                 "bit_shift": 4,
                 "dynamic_arg": "",
-                "help_code": "7195",
+                "help_code": "@P7195",
                 "help_korean": "운전석 시트 높이 조절장치를 올리기 위한 요청을 위해 작동하는 변수"
             },
             {
                 "position": 3,
                 "mnemonic": "RECULGLIS",
-                "label_index": "3587",
+                "label_index": "@P3587",
                 "label_korean": "러너가 뒤쪽으로 이동한다",
                 "group_id": "72370",
                 "req_frame_id": "217398",
@@ -245,13 +245,13 @@
                 "bit_mask": 8,
                 "bit_shift": 3,
                 "dynamic_arg": "",
-                "help_code": "10793",
+                "help_code": "@P10793",
                 "help_korean": "운전석 시트 러너를 뒤쪽으로 이동하도록 요청하기 위해 작동하는 변수"
             },
             {
                 "position": 4,
                 "mnemonic": "AVANCEGLIS",
-                "label_index": "4514",
+                "label_index": "@P4514",
                 "label_korean": "러너가 앞쪽으로 이동한다",
                 "group_id": "72370",
                 "req_frame_id": "217398",
@@ -267,13 +267,13 @@
                 "bit_mask": 4,
                 "bit_shift": 2,
                 "dynamic_arg": "",
-                "help_code": "11587",
+                "help_code": "@P11587",
                 "help_korean": "운전석 시트 러너를 앞으로 움직이기 위한 요청을 위해 작동하는 변수"
             },
             {
                 "position": 5,
                 "mnemonic": "MP_DESCENTE_ASSISE",
-                "label_index": "9979",
+                "label_index": "@P9979",
                 "label_korean": "쿠션을 내린다",
                 "group_id": "72370",
                 "req_frame_id": "217398",
@@ -289,13 +289,13 @@
                 "bit_mask": 2,
                 "bit_shift": 1,
                 "dynamic_arg": "",
-                "help_code": "8958",
+                "help_code": "@P8958",
                 "help_korean": "운전석 시트 베이스를 내리기 위한 요청을 위해 작동하는 변수"
             },
             {
                 "position": 6,
                 "mnemonic": "MP_MONTEE_ASSISE",
-                "label_index": "4910",
+                "label_index": "@P4910",
                 "label_korean": "쿠션을 올린다",
                 "group_id": "72370",
                 "req_frame_id": "217398",
@@ -311,7 +311,7 @@
                 "bit_mask": 1,
                 "bit_shift": 0,
                 "dynamic_arg": "",
-                "help_code": "1835",
+                "help_code": "@P1835",
                 "help_korean": "운전석 시트 베이스를 올리기 위한 요청을 위해 작동하는 변수"
             }
         ]
@@ -325,7 +325,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_ETATCLAVIERMEMO",
-                "label_index": "6520",
+                "label_index": "@P6520",
                 "label_korean": "메모리 키패드 버튼",
                 "group_id": "72370",
                 "req_frame_id": "217398",
@@ -347,7 +347,7 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "42485, 42486",
+                "help_code": "@P42485@T.@\\n@P42486@T.",
                 "help_korean": "메모리 패널에서 버튼이 눌러졌는지를 확인하는데 사용하는 변수.\n메모리 버튼 1,2,3 및 M에서 누름이 표시될 수 있다."
             }
         ]
@@ -361,7 +361,7 @@
             {
                 "position": 1,
                 "mnemonic": "INCLAVDOSSIER",
-                "label_index": "2347",
+                "label_index": "@P2347",
                 "label_korean": "시트 등받이 앞쪽으로 기울임",
                 "group_id": "72370",
                 "req_frame_id": "217398",
@@ -377,13 +377,13 @@
                 "bit_mask": 1,
                 "bit_shift": 0,
                 "dynamic_arg": "",
-                "help_code": "9519",
+                "help_code": "@P9519",
                 "help_korean": "운전석 시트 등받이를 앞으로 움직이기 위한 요청을 위해 작동하는 변수"
             },
             {
                 "position": 2,
                 "mnemonic": "INCLARDOSSIER",
-                "label_index": "7668",
+                "label_index": "@P7668",
                 "label_korean": "시트 등받이 뒤쪽으로 기울임",
                 "group_id": "72370",
                 "req_frame_id": "217398",
@@ -399,7 +399,7 @@
                 "bit_mask": 2,
                 "bit_shift": 1,
                 "dynamic_arg": "",
-                "help_code": "11724",
+                "help_code": "@P11724",
                 "help_korean": "운전석 시트 등받이를 뒤로 움직이기 위한 요청을 위해 작동하는 변수"
             }
         ]
@@ -413,7 +413,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_RECUL_LOMB",
-                "label_index": "7021",
+                "label_index": "@P7021",
                 "label_korean": "요추 지지대 뒤쪽",
                 "group_id": "72370",
                 "req_frame_id": "217398",
@@ -429,13 +429,13 @@
                 "bit_mask": 8,
                 "bit_shift": 3,
                 "dynamic_arg": "",
-                "help_code": "14333",
+                "help_code": "@P14333",
                 "help_korean": "요추 지지대를 뒤쪽으로 이동하도록 요청하기 위해 작동하는 변수"
             },
             {
                 "position": 2,
                 "mnemonic": "MP_AVANCE_APPUIS_LOMBAIRES",
-                "label_index": "16261",
+                "label_index": "@P16261",
                 "label_korean": "요추 지지대를 위쪽으로 이동한다",
                 "group_id": "72370",
                 "req_frame_id": "217398",
@@ -451,7 +451,7 @@
                 "bit_mask": 4,
                 "bit_shift": 2,
                 "dynamic_arg": "",
-                "help_code": "9991",
+                "help_code": "@P9991",
                 "help_korean": "요추 지지대를 앞쪽으로 이동하도록 요청하기 위해 작동하는 변수"
             }
         ]
@@ -465,7 +465,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_COMMANDES_DEPORTEES_APPUIS_LOMBAIRES",
-                "label_index": "16100",
+                "label_index": "@P16100",
                 "label_korean": "요추 지지대 원격 제어",
                 "group_id": "72376",
                 "req_frame_id": "217416",
@@ -487,7 +487,7 @@
             {
                 "position": 2,
                 "mnemonic": "MP_COMMANDES_DEPORTEES_DOSSIER",
-                "label_index": "15122",
+                "label_index": "@P15122",
                 "label_korean": "시트 등받이 원격 제어",
                 "group_id": "72376",
                 "req_frame_id": "217416",
@@ -509,7 +509,7 @@
             {
                 "position": 3,
                 "mnemonic": "MP_COMMANDES_DEPORTEES_ASSISE",
-                "label_index": "14953",
+                "label_index": "@P14953",
                 "label_korean": "시트 쿠션 원격 제어",
                 "group_id": "72376",
                 "req_frame_id": "217416",
@@ -531,7 +531,7 @@
             {
                 "position": 4,
                 "mnemonic": "MP_COMMANDES_DEPORTEES_CLAVIER_MEMORISATION",
-                "label_index": "14599",
+                "label_index": "@P14599",
                 "label_korean": "메모리 키패드 원격 제어",
                 "group_id": "72376",
                 "req_frame_id": "217416",
@@ -561,7 +561,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_POSITION_ASSISE",
-                "label_index": "8989",
+                "label_index": "@P8989",
                 "label_korean": "시트 쿠션 위치",
                 "group_id": "72371",
                 "req_frame_id": "217401",
@@ -577,13 +577,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "29254, 29265",
+                "help_code": "@P29254@\\n@P29265",
                 "help_korean": "시트 베이스의 실제 위치를 확인하는 데 사용된다\n이 값은 포지션 센서가 정상적으로 작동하는지 점검하는 데 사용한다"
             },
             {
                 "position": 2,
                 "mnemonic": "MP_POSITION_GLISSIERE_C1",
-                "label_index": "8780",
+                "label_index": "@P8780",
                 "label_korean": "러너 위치",
                 "group_id": "72371",
                 "req_frame_id": "217401",
@@ -599,13 +599,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "29276, 29265",
+                "help_code": "@P29276@T.@\\n@P29265@T.",
                 "help_korean": "러너의 실제 위치를 확인하는데 사용된다.\n이 값은 포지션 센서가 정상적으로 작동하는지 점검하는 데 사용한다."
             },
             {
                 "position": 3,
                 "mnemonic": "MP_POSITION_REHAUSSE_C1",
-                "label_index": "13404",
+                "label_index": "@P13404",
                 "label_korean": "높이 조절장치 위치",
                 "group_id": "72371",
                 "req_frame_id": "217401",
@@ -621,7 +621,7 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "29244, 29265",
+                "help_code": "@P29244@T.@\\n@P29265@T.",
                 "help_korean": "시트 높이 조절장치의 실제 위치를 확인하는 데 사용된다.\n이 값은 포지션 센서가 정상적으로 작동하는지 점검하는 데 사용한다."
             }
         ]
@@ -635,7 +635,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_POSITION_DOSSIER",
-                "label_index": "12503",
+                "label_index": "@P12503",
                 "label_korean": "시트 등받이 위치",
                 "group_id": "72371",
                 "req_frame_id": "217401",
@@ -651,7 +651,7 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "29268, 29265",
+                "help_code": "@P29268@T.@\\n@P29265",
                 "help_korean": "시트 등받이의 현재 위치를 제공한다.\n이 값은 포지션 센서가 정상적으로 작동하는지 점검하는 데 사용한다"
             }
         ]
@@ -665,7 +665,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_C1_POS_HORIZONTALE_APPUI_LOMB",
-                "label_index": "11530",
+                "label_index": "@P11530",
                 "label_korean": "요추 지지대 수평 위치",
                 "group_id": "72371",
                 "req_frame_id": "217401",
@@ -681,7 +681,7 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "29294, 29265",
+                "help_code": "@P29294@\\n@P29265",
                 "help_korean": "요추 지지대의 현재 수평 위치를 확인하기 위해서 사용된다\n이 값은 포지션 센서가 정상적으로 작동하는지 점검하는 데 사용한다"
             }
         ]
@@ -695,7 +695,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_POSITION_ASSISE_M2",
-                "label_index": "8989",
+                "label_index": "@P8989",
                 "label_korean": "시트 쿠션 위치",
                 "group_id": "72373",
                 "req_frame_id": "217407",
@@ -711,13 +711,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "18936, 29265",
+                "help_code": "@P18936@\\*2@\\n@P29265",
                 "help_korean": "메모리2에서 저장된 시트 베이스 위치를 확인하는 데 사용된다\n이 값은 포지션 센서가 정상적으로 작동하는지 점검하는 데 사용한다"
             },
             {
                 "position": 2,
                 "mnemonic": "MP_POSITION_GLISSIERE_C3",
-                "label_index": "8780",
+                "label_index": "@P8780",
                 "label_korean": "러너 위치",
                 "group_id": "72373",
                 "req_frame_id": "217407",
@@ -733,13 +733,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "18934, 29265",
+                "help_code": "@P18934@\\*2@\\n@P29265",
                 "help_korean": "슬라이드 메모리2에 저정된 위치를 제공한다\n이 값은 포지션 센서가 정상적으로 작동하는지 점검하는 데 사용한다"
             },
             {
                 "position": 3,
                 "mnemonic": "MP_POSITION_REHAUSSE_M2",
-                "label_index": "12554",
+                "label_index": "@P12554",
                 "label_korean": "높이 조정장치 위치",
                 "group_id": "72373",
                 "req_frame_id": "217407",
@@ -755,7 +755,7 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "18884, 29265",
+                "help_code": "@P18884@\\*2@\\n@P29265",
                 "help_korean": "메모리2에서 저장된 높이 조절장치 위치를 확인하는 데 사용된다\n이 값은 포지션 센서가 정상적으로 작동하는지 점검하는 데 사용한다"
             }
         ]
@@ -769,7 +769,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_POSITION_DOSSIER_M1",
-                "label_index": "12503",
+                "label_index": "@P12503",
                 "label_korean": "시트 등받이 위치",
                 "group_id": "72372",
                 "req_frame_id": "217404",
@@ -785,7 +785,7 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "38376, 29265",
+                "help_code": "@P38376@\\*1@\\n@P29265",
                 "help_korean": "운전석 시트 등받이의 메모리1에서 위치를 나타낸다\n이 값은 포지션 센서가 정상적으로 작동하는지 점검하는 데 사용한다"
             }
         ]
@@ -799,7 +799,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_C2_POS_HORIZONTALE_APPUI_LOMB",
-                "label_index": "11530",
+                "label_index": "@P11530",
                 "label_korean": "요추 지지대 수평 위치",
                 "group_id": "72372",
                 "req_frame_id": "217404",
@@ -815,7 +815,7 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "44997, 29265",
+                "help_code": "@P44997@\\*1@\\n@P29265",
                 "help_korean": "메모리1에 저장된 요추 지지대 수평 위치를 확인하기 위해서 사용된다\n이 값은 포지션 센서가 정상적으로 작동하는지 점검하는 데 사용한다"
             }
         ]
@@ -829,7 +829,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_POSITION_ASSISE_M1",
-                "label_index": "8989",
+                "label_index": "@P8989",
                 "label_korean": "시트 쿠션 위치",
                 "group_id": "72372",
                 "req_frame_id": "217404",
@@ -845,13 +845,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "18936, 29265",
+                "help_code": "@P18936@\\*1@\\n@P29265",
                 "help_korean": "메모리1에서 저장된 시트 베이스 위치를 확인하는 데 사용된다\n이 값은 포지션 센서가 정상적으로 작동하는지 점검하는 데 사용한다"
             },
             {
                 "position": 2,
                 "mnemonic": "MP_POSITION_GLISSIERE_C2",
-                "label_index": "8780",
+                "label_index": "@P8780",
                 "label_korean": "러너 위치",
                 "group_id": "72372",
                 "req_frame_id": "217404",
@@ -867,13 +867,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "18934, 29265",
+                "help_code": "@P18934@\\*1@T.@\\n@P29265@T.",
                 "help_korean": "슬라이드 메모리1에 저정된 위치를 제공한다.\n이 값은 포지션 센서가 정상적으로 작동하는지 점검하는 데 사용한다."
             },
             {
                 "position": 3,
                 "mnemonic": "MP_POSITION_REHAUSSE_M1",
-                "label_index": "12554",
+                "label_index": "@P12554",
                 "label_korean": "높이 조정장치 위치",
                 "group_id": "72372",
                 "req_frame_id": "217404",
@@ -889,7 +889,7 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "18884, 29265",
+                "help_code": "@P18884@\\*1@T.@\\n@P29265@T.",
                 "help_korean": "메모리1에서 저장된 높이 조절장치 위치를 확인하는 데 사용된다.\n이 값은 포지션 센서가 정상적으로 작동하는지 점검하는 데 사용한다."
             }
         ]
@@ -903,7 +903,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_C3_POS_HORIZONTALE_APPUI_LOMB",
-                "label_index": "11530",
+                "label_index": "@P11530",
                 "label_korean": "요추 지지대 수평 위치",
                 "group_id": "72373",
                 "req_frame_id": "217407",
@@ -919,7 +919,7 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "44997, 29265",
+                "help_code": "@P44997@\\*2@\\n@P29265",
                 "help_korean": "메모리2에 저장된 요추 지지대 수평 위치를 확인하기 위해서 사용된다\n이 값은 포지션 센서가 정상적으로 작동하는지 점검하는 데 사용한다"
             }
         ]
@@ -933,7 +933,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_POSITION_DOSSIER_M2",
-                "label_index": "12503",
+                "label_index": "@P12503",
                 "label_korean": "시트 등받이 위치",
                 "group_id": "72373",
                 "req_frame_id": "217407",
@@ -949,7 +949,7 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "38376, 29265",
+                "help_code": "@P38376@\\*2@\\n@P29265",
                 "help_korean": "운전석 시트 등받이의 메모리2에서 위치를 나타낸다\n이 값은 포지션 센서가 정상적으로 작동하는지 점검하는 데 사용한다"
             }
         ]

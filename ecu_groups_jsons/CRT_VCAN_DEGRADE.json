@@ -8,7 +8,7 @@
             {
                 "position": 1,
                 "mnemonic": "ID_REF_FOURNISSEUR",
-                "label_index": "633",
+                "label_index": "@P633",
                 "label_korean": "제조업체",
                 "group_id": "20684",
                 "req_frame_id": "62055",
@@ -30,7 +30,7 @@
             {
                 "position": 2,
                 "mnemonic": "ID_REFERENCE_PSA",
-                "label_index": "8615",
+                "label_index": "@P8615",
                 "label_korean": "PSA 부품 번호",
                 "group_id": "20684",
                 "req_frame_id": "62055",
@@ -52,7 +52,7 @@
             {
                 "position": 3,
                 "mnemonic": "ID_NUM_COMP_new_2",
-                "label_index": "5292",
+                "label_index": "@P5292",
                 "label_korean": "추가 번호",
                 "group_id": "20684",
                 "req_frame_id": "62055",
@@ -74,7 +74,7 @@
             {
                 "position": 4,
                 "mnemonic": "ID_VERSION_LOGICIEL_new_1",
-                "label_index": "8662",
+                "label_index": "@P8662@\\*",
                 "label_korean": "소프트웨어 버전",
                 "group_id": "20684",
                 "req_frame_id": "62055",
@@ -96,7 +96,7 @@
             {
                 "position": 5,
                 "mnemonic": "ID_MESS_DIAGNOSTIC",
-                "label_index": "2459",
+                "label_index": "@P2459",
                 "label_korean": "진단 이메일",
                 "group_id": "20684",
                 "req_frame_id": "62055",
@@ -118,7 +118,7 @@
             {
                 "position": 6,
                 "mnemonic": "ID_80_MP_INDICE_MESS",
-                "label_index": "2225",
+                "label_index": "@P2225",
                 "label_korean": "메시지 인덱스",
                 "group_id": "20684",
                 "req_frame_id": "62055",
@@ -148,7 +148,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_TOUCHE_MENU_RT",
-                "label_index": "8036",
+                "label_index": "@P8036",
                 "label_korean": "메뉴 버튼",
                 "group_id": "20686",
                 "req_frame_id": "62061",
@@ -164,13 +164,13 @@
                 "bit_mask": 128,
                 "bit_shift": 7,
                 "dynamic_arg": "",
-                "help_code": "43248, 43249",
-                "help_korean": "메인 메뉴에 접속하는 데 사용된다 (다양한 라디오 전화 프로그램으로 접근한다 )."
+                "help_code": "@P43248@\\+@T (@P43249@\\+@T).",
+                "help_korean": "메인 메뉴에 접속하는 데 사용된다 (다양한 라디오 전화 프로그램으로 접근한다)."
             },
             {
                 "position": 2,
                 "mnemonic": "TOUCHE_TELEPHONE",
-                "label_index": "7088",
+                "label_index": "@P7088",
                 "label_korean": "전화 버튼",
                 "group_id": "20686",
                 "req_frame_id": "62061",
@@ -186,13 +186,13 @@
                 "bit_mask": 64,
                 "bit_shift": 6,
                 "dynamic_arg": "",
-                "help_code": "5038",
+                "help_code": "@P5038@T.",
                 "help_korean": "전화 기능을 위한 팝업 메뉴를 표시하기 위해서 또는 수신 통화를 위해 전화 응대에 사용한다."
             },
             {
                 "position": 3,
                 "mnemonic": "MP_TOUCHE_NAV",
-                "label_index": "14331",
+                "label_index": "@P14331",
                 "label_korean": "NAV 버튼",
                 "group_id": "20686",
                 "req_frame_id": "62061",
@@ -211,13 +211,13 @@
                 "bit_mask": 32,
                 "bit_shift": 5,
                 "dynamic_arg": "",
-                "help_code": "14163",
+                "help_code": "@P14163@T.",
                 "help_korean": "네비게이션 / 안내 기능 팝업 메뉴를 표시하는 데 사용한다."
             },
             {
                 "position": 4,
                 "mnemonic": "MP_TOUCHE_MODE",
-                "label_index": "12533",
+                "label_index": "@P12533",
                 "label_korean": "모드 버튼",
                 "group_id": "20686",
                 "req_frame_id": "62061",
@@ -233,13 +233,13 @@
                 "bit_mask": 16,
                 "bit_shift": 4,
                 "dynamic_arg": "",
-                "help_code": "9670",
+                "help_code": "@P9670@T.",
                 "help_korean": "스크린의 우측에 표시된 정보의 타입을 선택하는 데 사용한다 (라디오, 네비게이션/안내 등)."
             },
             {
                 "position": 5,
                 "mnemonic": "MP_TOUCHE_MAIN",
-                "label_index": "12742",
+                "label_index": "@P12742",
                 "label_korean": "메인 버튼",
                 "group_id": "20686",
                 "req_frame_id": "62061",
@@ -255,13 +255,13 @@
                 "bit_mask": 8,
                 "bit_shift": 3,
                 "dynamic_arg": "",
-                "help_code": "10857",
+                "help_code": "@P10857@T.",
                 "help_korean": "일반적인 정보를 표시하는 데 사용한다."
             },
             {
                 "position": 6,
                 "mnemonic": "MP_TOUCHE_MUSIC",
-                "label_index": "12472",
+                "label_index": "@P12472",
                 "label_korean": "MUSIC 버튼",
                 "group_id": "20686",
                 "req_frame_id": "62061",
@@ -277,13 +277,13 @@
                 "bit_mask": 4,
                 "bit_shift": 2,
                 "dynamic_arg": "",
-                "help_code": "14221",
+                "help_code": "@P14221@T.",
                 "help_korean": "현재 오디오 소스 팝업 메뉴를 표시하는 데 사용한다."
             },
             {
                 "position": 7,
                 "mnemonic": "TOUCHE_ESC",
-                "label_index": "4327",
+                "label_index": "@P4327",
                 "label_korean": "ESP 버튼",
                 "group_id": "20686",
                 "req_frame_id": "62061",
@@ -299,13 +299,13 @@
                 "bit_mask": 2,
                 "bit_shift": 1,
                 "dynamic_arg": "",
-                "help_code": "3263",
+                "help_code": "@P3263@T.",
                 "help_korean": "현재 작업을 취소하거나 또는 중복된 창을 삭제하는 데 사용한다."
             },
             {
                 "position": 8,
                 "mnemonic": "MP_TOUCHE_VALIDATION_MOLETTE",
-                "label_index": "3669",
+                "label_index": "@P3669",
                 "label_korean": "다이얼 확인 버튼",
                 "group_id": "20686",
                 "req_frame_id": "62061",
@@ -321,13 +321,13 @@
                 "bit_mask": 128,
                 "bit_shift": 7,
                 "dynamic_arg": "",
-                "help_code": "45062, 45063, 45064, 45065",
+                "help_code": "@P45062@T :@\\n@T- @P45063@T.@\\n@T- @P45064@T.@\\n@T- @P45065@T.",
                 "help_korean": "누른다 :\n- 현재 표시되는 기능의 명령 리스트(팝업 메뉴)에 접근한다.\n- 선택된 기능 또는 수정된 값을 확인한다.\n- 수정하기 위해서 \"조정\" 또는 \"리스트\" 타입 변수를 선택한다."
             },
             {
                 "position": 9,
                 "mnemonic": "MP_MOLETTE_DE_SELECTION",
-                "label_index": "12431",
+                "label_index": "@P12431",
                 "label_korean": "선택 다이얼",
                 "group_id": "20686",
                 "req_frame_id": "62061",
@@ -343,7 +343,7 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "45066, 45067, 45068, 45069",
+                "help_code": "@P45066@T :@\\n@T- @P45067@T.@\\n@T- @P45068@T.@\\n@T- @P45069@T.",
                 "help_korean": "회전한다 :\n- 스크린 주변으로 옮기고 기능을 선택한다.\n- \"조절\" 타입 변수로 선택 한 후, 값이 증가 또는 감소.\n- \"리스트\" 타입 변수로 리스트를 연 후, 값을 통해 스크롤한다."
             }
         ]

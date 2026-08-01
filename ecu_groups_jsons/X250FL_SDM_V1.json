@@ -8,7 +8,7 @@
             {
                 "position": 1,
                 "mnemonic": "ID_CODE_ISO",
-                "label_index": "13988",
+                "label_index": "@P13988",
                 "label_korean": "ISO 번호",
                 "group_id": "114363",
                 "req_frame_id": "343435",
@@ -30,7 +30,7 @@
             {
                 "position": 2,
                 "mnemonic": "ID_REFERENCE_MATERIEL",
-                "label_index": "1071",
+                "label_index": "@P1071",
                 "label_korean": "장치 부품 번호",
                 "group_id": "114363",
                 "req_frame_id": "343435",
@@ -52,7 +52,7 @@
             {
                 "position": 3,
                 "mnemonic": "ID_HARD",
-                "label_index": "12954",
+                "label_index": "@P12954",
                 "label_korean": "하드웨어 버전",
                 "group_id": "114363",
                 "req_frame_id": "343435",
@@ -74,7 +74,7 @@
             {
                 "position": 4,
                 "mnemonic": "ID_REFERENCE_LOGICIEL",
-                "label_index": "13263",
+                "label_index": "@P13263",
                 "label_korean": "소프트웨어 번호",
                 "group_id": "114359",
                 "req_frame_id": "343423",
@@ -96,7 +96,7 @@
             {
                 "position": 5,
                 "mnemonic": "ID_TRACABILITE_INDICE_EVOLUTION_EDITION",
-                "label_index": "13235",
+                "label_index": "@P13235@\\*",
                 "label_korean": "소프트웨어 버전",
                 "group_id": "114363",
                 "req_frame_id": "343435",
@@ -118,7 +118,7 @@
             {
                 "position": 6,
                 "mnemonic": "ID_DATE_TELECH",
-                "label_index": "21670",
+                "label_index": "@P21670",
                 "label_korean": "다운로딩 날짜",
                 "group_id": "114352",
                 "req_frame_id": "343402",
@@ -148,7 +148,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_COUGONCOND",
-                "label_index": "13835",
+                "label_index": "@P13835",
                 "label_korean": "운전석 에어백",
                 "group_id": "114347",
                 "req_frame_id": "343387",
@@ -170,7 +170,7 @@
             {
                 "position": 2,
                 "mnemonic": "MP_COUGONPASS1",
-                "label_index": "9846",
+                "label_index": "@P9846",
                 "label_korean": "승객석 에어백",
                 "group_id": "114344",
                 "req_frame_id": "343378",
@@ -192,7 +192,7 @@
             {
                 "position": 3,
                 "mnemonic": "MPPRETENSCOND1",
-                "label_index": "9674",
+                "label_index": "@P9674@\\*",
                 "label_korean": "운전석 프리텐셔너",
                 "group_id": "114300",
                 "req_frame_id": "343246",
@@ -214,7 +214,7 @@
             {
                 "position": 4,
                 "mnemonic": "MPRPRETENSPASS1",
-                "label_index": "13839",
+                "label_index": "@P13839@\\*",
                 "label_korean": "승객석 프리텐셔너",
                 "group_id": "114365",
                 "req_frame_id": "343441",
@@ -244,7 +244,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_COUGONCOND",
-                "label_index": "13835",
+                "label_index": "@P13835",
                 "label_korean": "운전석 에어백",
                 "group_id": "114347",
                 "req_frame_id": "343387",
@@ -266,7 +266,7 @@
             {
                 "position": 2,
                 "mnemonic": "MP_COUGONPASS1",
-                "label_index": "9846",
+                "label_index": "@P9846",
                 "label_korean": "승객석 에어백",
                 "group_id": "114344",
                 "req_frame_id": "343378",
@@ -288,7 +288,7 @@
             {
                 "position": 3,
                 "mnemonic": "MPPRETENSCOND1",
-                "label_index": "9674",
+                "label_index": "@P9674@\\*",
                 "label_korean": "운전석 프리텐셔너",
                 "group_id": "114300",
                 "req_frame_id": "343246",
@@ -310,7 +310,7 @@
             {
                 "position": 4,
                 "mnemonic": "MPRPRETENSPASS1",
-                "label_index": "13839",
+                "label_index": "@P13839@\\*",
                 "label_korean": "승객석 프리텐셔너",
                 "group_id": "114365",
                 "req_frame_id": "343441",
@@ -332,7 +332,7 @@
             {
                 "position": 5,
                 "mnemonic": "MP_PRTENPASSCEN",
-                "label_index": "40804",
+                "label_index": "@P40804",
                 "label_korean": "중앙 승객 프리텐셔너",
                 "group_id": "114301",
                 "req_frame_id": "343249",
@@ -362,7 +362,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_COUGONCOND2",
-                "label_index": "13835",
+                "label_index": "@P13835",
                 "label_korean": "운전석 에어백",
                 "group_id": "114289",
                 "req_frame_id": "343213",
@@ -378,13 +378,13 @@
                 "bit_mask": 1,
                 "bit_shift": 0,
                 "dynamic_arg": "",
-                "help_code": "28114, 28109, 28103",
-                "help_korean": "확인하기\n- 위해 사용하는 변수 :\n-차량에\n- 에어백의 장착 : � 예 �.\n-차량에서\n- 에어백의 부재 : � 아니오 �."
+                "help_code": "@F28114@\\n@T-@F28109@T : � @U25212-POLUXDATA@T �.@\\n@T-@F28103@T : � @U11624-POLUXDATA@T �.",
+                "help_korean": "확인하기 위해 사용하는 변수 :\n-차량에 에어백의 장착 : � 25212-POLUXDATA �.\n-차량에서 에어백의 부재 : � 11624-POLUXDATA �."
             },
             {
                 "position": 2,
                 "mnemonic": "MP_COUGONPASS2",
-                "label_index": "9846",
+                "label_index": "@P9846",
                 "label_korean": "승객석 에어백",
                 "group_id": "114289",
                 "req_frame_id": "343213",
@@ -400,8 +400,8 @@
                 "bit_mask": 4,
                 "bit_shift": 2,
                 "dynamic_arg": "",
-                "help_code": "4604, 28103, 4604, 28109, 11624",
-                "help_korean": "작동한 측면 우측 에어백\n-\n- 차량에서 에어백의 부재 : '작동한 측면 우측 에어백'.\n-\n- 차량에 에어백의 장착 : '아니오'."
+                "help_code": "@P4604@\\n@T - @P28103@T : '@P4604@T'.@\\n@T - @P28109@T : '@P11624@T'.",
+                "help_korean": "작동한 측면 우측 에어백\n- 차량에서 에어백의 부재 : '작동한 측면 우측 에어백'.\n- 차량에 에어백의 장착 : '아니오'."
             }
         ]
     },
@@ -414,7 +414,7 @@
             {
                 "position": 1,
                 "mnemonic": "MPPRETENSCOND",
-                "label_index": "9674",
+                "label_index": "@P9674@\\*",
                 "label_korean": "운전석 프리텐셔너",
                 "group_id": "114289",
                 "req_frame_id": "343213",
@@ -430,13 +430,13 @@
                 "bit_mask": 4,
                 "bit_shift": 2,
                 "dynamic_arg": "",
-                "help_code": "4604, 28068, 25212, 28108, 11624",
-                "help_korean": "작동한 측면 우측 에어백\n-\n- 차량에서 프리텐셔너의 존재 : '예'.\n-\n- 차량에서 프리텐셔너의 부재 : '아니오'."
+                "help_code": "@P4604@\\n@T - @P28068@T : '@P25212@T'.@\\n@T - @P28108@T : '@P11624@T'.",
+                "help_korean": "작동한 측면 우측 에어백\n- 차량에서 프리텐셔너의 존재 : '예'.\n- 차량에서 프리텐셔너의 부재 : '아니오'."
             },
             {
                 "position": 2,
                 "mnemonic": "MPPRETENSPASS",
-                "label_index": "13839",
+                "label_index": "@P13839@\\*",
                 "label_korean": "승객석 프리텐셔너",
                 "group_id": "114289",
                 "req_frame_id": "343213",
@@ -452,8 +452,8 @@
                 "bit_mask": 16,
                 "bit_shift": 4,
                 "dynamic_arg": "",
-                "help_code": "4604, 28068, 25212, 28108, 11624",
-                "help_korean": "작동한 측면 우측 에어백\n-\n- 차량에서 프리텐셔너의 존재 : '예'.\n-\n- 차량에서 프리텐셔너의 부재 : '아니오'."
+                "help_code": "@P4604@\\n@T - @P28068@T : '@P25212@T'.@\\n@T - @P28108@T : '@P11624@T'.",
+                "help_korean": "작동한 측면 우측 에어백\n- 차량에서 프리텐셔너의 존재 : '예'.\n- 차량에서 프리텐셔너의 부재 : '아니오'."
             }
         ]
     },
@@ -466,7 +466,7 @@
             {
                 "position": 1,
                 "mnemonic": "MPPRETENSCOND",
-                "label_index": "9674",
+                "label_index": "@P9674@\\*",
                 "label_korean": "운전석 프리텐셔너",
                 "group_id": "114289",
                 "req_frame_id": "343213",
@@ -482,13 +482,13 @@
                 "bit_mask": 4,
                 "bit_shift": 2,
                 "dynamic_arg": "",
-                "help_code": "4604, 28068, 25212, 28108, 11624",
-                "help_korean": "작동한 측면 우측 에어백\n-\n- 차량에서 프리텐셔너의 존재 : '예'.\n-\n- 차량에서 프리텐셔너의 부재 : '아니오'."
+                "help_code": "@P4604@\\n@T - @P28068@T : '@P25212@T'.@\\n@T - @P28108@T : '@P11624@T'.",
+                "help_korean": "작동한 측면 우측 에어백\n- 차량에서 프리텐셔너의 존재 : '예'.\n- 차량에서 프리텐셔너의 부재 : '아니오'."
             },
             {
                 "position": 2,
                 "mnemonic": "MPPRETENSPASS",
-                "label_index": "13839",
+                "label_index": "@P13839@\\*",
                 "label_korean": "승객석 프리텐셔너",
                 "group_id": "114289",
                 "req_frame_id": "343213",
@@ -504,13 +504,13 @@
                 "bit_mask": 16,
                 "bit_shift": 4,
                 "dynamic_arg": "",
-                "help_code": "4604, 28068, 25212, 28108, 11624",
-                "help_korean": "작동한 측면 우측 에어백\n-\n- 차량에서 프리텐셔너의 존재 : '예'.\n-\n- 차량에서 프리텐셔너의 부재 : '아니오'."
+                "help_code": "@P4604@\\n@T - @P28068@T : '@P25212@T'.@\\n@T - @P28108@T : '@P11624@T'.",
+                "help_korean": "작동한 측면 우측 에어백\n- 차량에서 프리텐셔너의 존재 : '예'.\n- 차량에서 프리텐셔너의 부재 : '아니오'."
             },
             {
                 "position": 3,
                 "mnemonic": "MP_PRTENPASSCEN1",
-                "label_index": "40804",
+                "label_index": "@P40804",
                 "label_korean": "중앙 승객 프리텐셔너",
                 "group_id": "114289",
                 "req_frame_id": "343213",
@@ -526,8 +526,8 @@
                 "bit_mask": 64,
                 "bit_shift": 6,
                 "dynamic_arg": "",
-                "help_code": "28114, 28068, 42503, 28108, 11624",
-                "help_korean": "확인하기\n- 위해 사용하는 변수 :\n-\n- 차량에서 프리텐셔너의 존재 : '예'.\n-\n- 차량에서 프리텐셔너의 부재 : '아니오'."
+                "help_code": "@F28114@\\n@T - @P28068@T : '@F42503@T'.@\\n@T - @P28108@T : '@F11624@T'.",
+                "help_korean": "확인하기 위해 사용하는 변수 :\n- 차량에서 프리텐셔너의 존재 : '예'.\n- 차량에서 프리텐셔너의 부재 : '아니오'."
             }
         ]
     },
@@ -540,7 +540,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_CONTACTEUR_CEINTURE_SECURITE_CONDUCTEUR",
-                "label_index": "24594",
+                "label_index": "@P24594",
                 "label_korean": "운전석 시트 벨트 스위치",
                 "group_id": "114289",
                 "req_frame_id": "343213",
@@ -556,13 +556,13 @@
                 "bit_mask": 64,
                 "bit_shift": 6,
                 "dynamic_arg": "",
-                "help_code": "4604, 45102, 45103",
-                "help_korean": "작동한 측면 우측 에어백\n-\n- 차량의 시트 벨트 스위치 존재: \"YES\"\n-\n- 차량의 시트벨트 스위치 없음: \"아니오\""
+                "help_code": "@P4604@\\n@T - @P45102@\\n@T - @P45103",
+                "help_korean": "작동한 측면 우측 에어백\n- 차량의 시트 벨트 스위치 존재: \"YES\"\n- 차량의 시트벨트 스위치 없음: \"아니오\""
             },
             {
                 "position": 2,
                 "mnemonic": "MP_ETAT_CONTACTEUR_CEINTURE_SECURITE_CONDUCTEUR",
-                "label_index": "8089",
+                "label_index": "@P8089",
                 "label_korean": "운전석 시트 벨트 스위치 상태",
                 "group_id": "114324",
                 "req_frame_id": "343318",
@@ -585,13 +585,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "23914",
+                "help_code": "@P23914@T.",
                 "help_korean": "시트 벨트 스위치의 체결 상태를 나타내는 변수."
             },
             {
                 "position": 3,
                 "mnemonic": "MP_ETAT_CONTACTEUR_CEINTURE_SECURITE_PASSAGER",
-                "label_index": "7782",
+                "label_index": "@P7782",
                 "label_korean": "승객석 시트 벨트 스위치 상태",
                 "group_id": "114325",
                 "req_frame_id": "343321",
@@ -610,13 +610,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "23914",
+                "help_code": "@P23914@T.",
                 "help_korean": "시트 벨트 스위치의 체결 상태를 나타내는 변수."
             },
             {
                 "position": 4,
                 "mnemonic": "MP_DETECTION_PASSAGER_AVANT",
-                "label_index": "62846",
+                "label_index": "@P62846",
                 "label_korean": "프론트 승객석 승객 감지 상태",
                 "group_id": "114334",
                 "req_frame_id": "343348",
@@ -643,7 +643,7 @@
             {
                 "position": 5,
                 "mnemonic": "MP_DETECTION_PASSAGER_AVANT_CENTRAL",
-                "label_index": "62813",
+                "label_index": "@P62813",
                 "label_korean": "프론트 중앙 승객석 승객 감지 상태",
                 "group_id": "114335",
                 "req_frame_id": "343351",
@@ -670,7 +670,7 @@
             {
                 "position": 6,
                 "mnemonic": "MP_ETAT_CONTACTEUR_CEINTURE_SECURITE_ARRIERE_CENTRALE",
-                "label_index": "63672",
+                "label_index": "@P63672",
                 "label_korean": "중앙 리어 승객석 시트 벨트 스위치",
                 "group_id": "114289",
                 "req_frame_id": "343213",
@@ -695,7 +695,7 @@
             {
                 "position": 7,
                 "mnemonic": "MP_ETAT_CONTACTEUR_CEINTURE_SECURITE_PASSAGER_ARRI�RE",
-                "label_index": "63680",
+                "label_index": "@P63680",
                 "label_korean": "리어 승객석 시트 벨트 스위치 설정 상태",
                 "group_id": "114289",
                 "req_frame_id": "343213",
@@ -720,7 +720,7 @@
             {
                 "position": 8,
                 "mnemonic": "MP_TEMOIN_NON_BOUCLAGE_CEINTURIES_IPC",
-                "label_index": "63676",
+                "label_index": "@P63676",
                 "label_korean": "계기판에서 전송한 시트 벨트 미착용 경고등의 상태",
                 "group_id": "114340",
                 "req_frame_id": "343366",
@@ -755,7 +755,7 @@
             {
                 "position": 1,
                 "mnemonic": "CA_TENSION_ALIMENTATION",
-                "label_index": "7080",
+                "label_index": "@P7080",
                 "label_korean": "공급 전압",
                 "group_id": "114368",
                 "req_frame_id": "343450",
@@ -777,7 +777,7 @@
             {
                 "position": 2,
                 "mnemonic": "CA_KILOMETRAGE",
-                "label_index": "7845",
+                "label_index": "@P7845",
                 "label_korean": "주행거리",
                 "group_id": "114368",
                 "req_frame_id": "343450",
@@ -801,7 +801,7 @@
             {
                 "position": 3,
                 "mnemonic": "CA_VITESSE_VEHICULE",
-                "label_index": "15603",
+                "label_index": "@P15603@\\*",
                 "label_korean": "차량 속도",
                 "group_id": "114368",
                 "req_frame_id": "343450",

@@ -8,7 +8,7 @@
             {
                 "position": 1,
                 "mnemonic": "ID_FOURNISSEUR",
-                "label_index": "5701",
+                "label_index": "@P5701",
                 "label_korean": "제조 업체명",
                 "group_id": "7877",
                 "req_frame_id": "23632",
@@ -30,7 +30,7 @@
             {
                 "position": 2,
                 "mnemonic": "ID_REFERENCE_MATERIEL",
-                "label_index": "1071",
+                "label_index": "@P1071",
                 "label_korean": "장치 부품 번호",
                 "group_id": "7878",
                 "req_frame_id": "23635",
@@ -52,7 +52,7 @@
             {
                 "position": 3,
                 "mnemonic": "ID_REFERENCE_COMPLEMENTAIRE_MATERIEL",
-                "label_index": "1634",
+                "label_index": "@P1634",
                 "label_korean": "장치 추가 참조 번호",
                 "group_id": "7879",
                 "req_frame_id": "23638",
@@ -74,7 +74,7 @@
             {
                 "position": 4,
                 "mnemonic": "ID_VERSION_DU_LOGICIEL",
-                "label_index": "8662",
+                "label_index": "@P8662@\\*",
                 "label_korean": "소프트웨어 버전",
                 "group_id": "7880",
                 "req_frame_id": "23641",
@@ -104,7 +104,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_DESIGNE_ETAT_CHARGE_BATTERIE_INTERNE_SIRENE_ALARME_EFFRACTION",
-                "label_index": "27776",
+                "label_index": "@P27776",
                 "label_korean": "침입 알람 사이렌 내부 배터리 충전 상태를 나타낸다",
                 "group_id": "7886",
                 "req_frame_id": "23659",
@@ -123,13 +123,13 @@
                 "bit_mask": 3,
                 "bit_shift": 0,
                 "dynamic_arg": "",
-                "help_code": "27776",
+                "help_code": "@P27776",
                 "help_korean": "침입 알람 사이렌 내부 배터리 충전 상태를 나타낸다"
             },
             {
                 "position": 2,
                 "mnemonic": "MP_EFFRACTION_COUPURE_COMMUNUCATION_SIRENE_ALARME_EFFRACTION",
-                "label_index": "27745",
+                "label_index": "@P27745",
                 "label_korean": "침입 알람 사이렌의 통신 차단에 의한 침입",
                 "group_id": "7885",
                 "req_frame_id": "23656",
@@ -145,13 +145,13 @@
                 "bit_mask": 128,
                 "bit_shift": 7,
                 "dynamic_arg": "",
-                "help_code": "27917",
+                "help_code": "@P27917",
                 "help_korean": "침입의 감지를 나타낸다"
             },
             {
                 "position": 3,
                 "mnemonic": "MP_EFFRACTION_COUPURE_ALIMENTATION_SIRENE_ALARME_EFFRACTION",
-                "label_index": "27812",
+                "label_index": "@P27812",
                 "label_korean": "침입 알람 사이렌으로 전원 차단에 의한 침입",
                 "group_id": "7885",
                 "req_frame_id": "23656",
@@ -167,7 +167,7 @@
                 "bit_mask": 32,
                 "bit_shift": 5,
                 "dynamic_arg": "",
-                "help_code": "27917",
+                "help_code": "@P27917",
                 "help_korean": "침입의 감지를 나타낸다"
             }
         ]
@@ -181,7 +181,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_DESIGNE_ETAT_CHARGE_BATTERIE_INTERNE_SIRENE_ALARME_EFFRACTION",
-                "label_index": "27776",
+                "label_index": "@P27776",
                 "label_korean": "침입 알람 사이렌 내부 배터리 충전 상태를 나타낸다",
                 "group_id": "7886",
                 "req_frame_id": "23659",
@@ -200,13 +200,13 @@
                 "bit_mask": 3,
                 "bit_shift": 0,
                 "dynamic_arg": "",
-                "help_code": "27776",
+                "help_code": "@P27776",
                 "help_korean": "침입 알람 사이렌 내부 배터리 충전 상태를 나타낸다"
             },
             {
                 "position": 2,
                 "mnemonic": "MP_EFFRACTION_COUPURE_COMMUNUCATION_SIRENE_ALARME_EFFRACTION",
-                "label_index": "27745",
+                "label_index": "@P27745",
                 "label_korean": "침입 알람 사이렌의 통신 차단에 의한 침입",
                 "group_id": "7885",
                 "req_frame_id": "23656",
@@ -222,13 +222,13 @@
                 "bit_mask": 128,
                 "bit_shift": 7,
                 "dynamic_arg": "",
-                "help_code": "27917",
+                "help_code": "@P27917",
                 "help_korean": "침입의 감지를 나타낸다"
             },
             {
                 "position": 3,
                 "mnemonic": "MP_EFFRACTION_COUPURE_ALIMENTATION_SIRENE_ALARME_EFFRACTION",
-                "label_index": "27812",
+                "label_index": "@P27812",
                 "label_korean": "침입 알람 사이렌으로 전원 차단에 의한 침입",
                 "group_id": "7885",
                 "req_frame_id": "23656",
@@ -244,13 +244,13 @@
                 "bit_mask": 32,
                 "bit_shift": 5,
                 "dynamic_arg": "",
-                "help_code": "27917",
+                "help_code": "@P27917",
                 "help_korean": "침입의 감지를 나타낸다"
             },
             {
                 "position": 4,
                 "mnemonic": "MP_EFFRACTION_ALIM_SIR",
-                "label_index": "48917",
+                "label_index": "@P48917",
                 "label_korean": "차량을 올려 침입",
                 "group_id": "7885",
                 "req_frame_id": "23656",
@@ -266,7 +266,7 @@
                 "bit_mask": 64,
                 "bit_shift": 6,
                 "dynamic_arg": "",
-                "help_code": "27917",
+                "help_code": "@P27917",
                 "help_korean": "침입의 감지를 나타낸다"
             }
         ]

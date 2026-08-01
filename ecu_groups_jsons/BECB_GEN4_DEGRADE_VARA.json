@@ -8,7 +8,7 @@
             {
                 "position": 1,
                 "mnemonic": "ID_NOM_DU_FOURNISSEUR",
-                "label_index": "5701",
+                "label_index": "@P5701",
                 "label_korean": "제조 업체명",
                 "group_id": "117451",
                 "req_frame_id": "352699",
@@ -38,7 +38,7 @@
             {
                 "position": 2,
                 "mnemonic": "ID_REFERENCE_MATERIEL",
-                "label_index": "1071",
+                "label_index": "@P1071",
                 "label_korean": "장치 부품 번호",
                 "group_id": "117451",
                 "req_frame_id": "352699",
@@ -60,7 +60,7 @@
             {
                 "position": 3,
                 "mnemonic": "ID_REFERENCE_COMPLEMENTAIRE_MATERIEL",
-                "label_index": "1634",
+                "label_index": "@P1634",
                 "label_korean": "장치 추가 참조 번호",
                 "group_id": "117451",
                 "req_frame_id": "352699",
@@ -82,7 +82,7 @@
             {
                 "position": 4,
                 "mnemonic": "ID_TRACABILITE_INDICE_EVOLUTION_EDITION",
-                "label_index": "13235",
+                "label_index": "@P13235@\\*",
                 "label_korean": "소프트웨어 버전",
                 "group_id": "117451",
                 "req_frame_id": "352699",
@@ -104,7 +104,7 @@
             {
                 "position": 5,
                 "mnemonic": "ID_TRACABILITE_DATE_FABRICATION",
-                "label_index": "16589",
+                "label_index": "@P16589",
                 "label_korean": "제조 일자",
                 "group_id": "117452",
                 "req_frame_id": "352702",
@@ -134,7 +134,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_TENSION_CIRCUIT_OUVERT_MAX",
-                "label_index": "63840",
+                "label_index": "@P63840",
                 "label_korean": "tension maximale du circuit ouvert de la batterie de servitude",
                 "group_id": "117444",
                 "req_frame_id": "352678",
@@ -156,7 +156,7 @@
             {
                 "position": 2,
                 "mnemonic": "MP_TENSION_CIRCUIT_OUVERT_MIN",
-                "label_index": "63839",
+                "label_index": "@P63839",
                 "label_korean": "tension minimale du circuit ouvert de la batterie de servitude",
                 "group_id": "117444",
                 "req_frame_id": "352678",
@@ -178,7 +178,7 @@
             {
                 "position": 3,
                 "mnemonic": "MP_TYPE_DE_TECHNO_BATTERIE",
-                "label_index": "17031",
+                "label_index": "@P17031",
                 "label_korean": "배터리 테크놀러지 타입",
                 "group_id": "117444",
                 "req_frame_id": "352678",
@@ -218,8 +218,8 @@
             {
                 "position": 4,
                 "mnemonic": "MP_CAPACITE_BATTERIE",
-                "label_index": "65297",
-                "label_korean": "[미번역_P65297]",
+                "label_index": "@P65297",
+                "label_korean": "65297",
                 "group_id": "117444",
                 "req_frame_id": "352678",
                 "resp_frame_id": "352679",
@@ -228,7 +228,7 @@
                 "endian": "",
                 "factor": "1.0",
                 "offset": "20.0",
-                "unit": "[미번역_P64812]",
+                "unit": "64812",
                 "req_frame_hex": "222100",
                 "states": {},
                 "bit_mask": null,
@@ -262,7 +262,7 @@
             {
                 "position": 6,
                 "mnemonic": "MP_BATTERIE_FOURNISSEUR",
-                "label_index": "17149",
+                "label_index": "@P17149",
                 "label_korean": "배터리 제조업체 명",
                 "group_id": "117444",
                 "req_frame_id": "352678",
@@ -284,7 +284,7 @@
             {
                 "position": 7,
                 "mnemonic": "MP_COURANT_BATTERIE",
-                "label_index": "49295",
+                "label_index": "@P49295",
                 "label_korean": "서비스 배터리 전류",
                 "group_id": "117448",
                 "req_frame_id": "352690",
@@ -330,7 +330,7 @@
             {
                 "position": 9,
                 "mnemonic": "MP_TEMPERATURE_BATTERIE",
-                "label_index": "27832",
+                "label_index": "@P27832",
                 "label_korean": "배터리의 온도",
                 "group_id": "117449",
                 "req_frame_id": "352693",
@@ -356,7 +356,7 @@
             {
                 "position": 10,
                 "mnemonic": "MP_ETAT_TEMPERATURE_BATTERIE",
-                "label_index": "62641",
+                "label_index": "@P62641",
                 "label_korean": "서비스 배터리 온도 상태",
                 "group_id": "117449",
                 "req_frame_id": "352693",
@@ -383,7 +383,7 @@
             {
                 "position": 11,
                 "mnemonic": "MP_VALEUR_ETAT_CHARGE_BATTERIE",
-                "label_index": "18073",
+                "label_index": "@P18073",
                 "label_korean": "배터리 충전 상태 레벨",
                 "group_id": "117450",
                 "req_frame_id": "352696",
@@ -405,7 +405,7 @@
             {
                 "position": 12,
                 "mnemonic": "MP_ETAT_CHARGE_BATTERIE",
-                "label_index": "61298",
+                "label_index": "@P61298",
                 "label_korean": "서비스 배터리 충전 상태",
                 "group_id": "117450",
                 "req_frame_id": "352696",
@@ -432,7 +432,7 @@
             {
                 "position": 13,
                 "mnemonic": "MP_ERREUR_ETAT_CHARGE_BATTERIE",
-                "label_index": "40777",
+                "label_index": "@P40777",
                 "label_korean": "배터리 충전 상태 값의 정확성",
                 "group_id": "117450",
                 "req_frame_id": "352696",
@@ -454,7 +454,7 @@
             {
                 "position": 14,
                 "mnemonic": "MP_ETAT_SANTE_BATTERIE",
-                "label_index": "21134",
+                "label_index": "@P21134",
                 "label_korean": "배터리의 건강 상태 측정",
                 "group_id": "117442",
                 "req_frame_id": "352672",
@@ -481,7 +481,7 @@
             {
                 "position": 15,
                 "mnemonic": "MP_VALEUR_ETAT_SANTE_BATTERIE",
-                "label_index": "51716",
+                "label_index": "@P51716",
                 "label_korean": "서비스 배터리의 건강 상태",
                 "group_id": "117442",
                 "req_frame_id": "352672",
@@ -508,7 +508,7 @@
             {
                 "position": 16,
                 "mnemonic": "MP_DEFAUT_TENSION_BATTERIE",
-                "label_index": "27741",
+                "label_index": "@P27741",
                 "label_korean": "서비스 배터리 전압",
                 "group_id": "117443",
                 "req_frame_id": "352675",
@@ -536,7 +536,7 @@
             {
                 "position": 17,
                 "mnemonic": "MP_DEFAUT_COURANT_BATTERIE",
-                "label_index": "49295",
+                "label_index": "@P49295",
                 "label_korean": "서비스 배터리 전류",
                 "group_id": "117443",
                 "req_frame_id": "352675",
@@ -565,7 +565,7 @@
             {
                 "position": 18,
                 "mnemonic": "MP_DEFAUT_TEMPERATURE_BATTERIE",
-                "label_index": "27832",
+                "label_index": "@P27832",
                 "label_korean": "배터리의 온도",
                 "group_id": "117443",
                 "req_frame_id": "352675",
@@ -593,7 +593,7 @@
             {
                 "position": 19,
                 "mnemonic": "MP_DEFAUT_TELECODAGE",
-                "label_index": "55019",
+                "label_index": "@P55019",
                 "label_korean": "설정",
                 "group_id": "117443",
                 "req_frame_id": "352675",
@@ -618,7 +618,7 @@
             {
                 "position": 20,
                 "mnemonic": "MP_DEFAUT_WATCHDOG",
-                "label_index": "14829",
+                "label_index": "@P14829@\\*(Watchdog)",
                 "label_korean": "제어 장치(Watchdog)",
                 "group_id": "117443",
                 "req_frame_id": "352675",
@@ -643,7 +643,7 @@
             {
                 "position": 21,
                 "mnemonic": "MP_DEFAUT_RAM",
-                "label_index": "63837",
+                "label_index": "@P63837@\\*RAM",
                 "label_korean": "메모리RAM",
                 "group_id": "117443",
                 "req_frame_id": "352675",
@@ -668,7 +668,7 @@
             {
                 "position": 22,
                 "mnemonic": "MP_DEFAUT_ROM",
-                "label_index": "63837",
+                "label_index": "@P63837@\\*ROM",
                 "label_korean": "메모리ROM",
                 "group_id": "117443",
                 "req_frame_id": "352675",
@@ -693,7 +693,7 @@
             {
                 "position": 23,
                 "mnemonic": "MP_TENSION_PRED_REDEMARRAGE",
-                "label_index": "31260",
+                "label_index": "@P31260",
                 "label_korean": "시동시 배터리 전압",
                 "group_id": "117445",
                 "req_frame_id": "352681",
@@ -715,7 +715,7 @@
             {
                 "position": 24,
                 "mnemonic": "MP_BAT_RINT_NORM",
-                "label_index": "61212",
+                "label_index": "@P61212",
                 "label_korean": "서비스 배터리의 내부 저항",
                 "group_id": "117445",
                 "req_frame_id": "352681",
@@ -759,8 +759,8 @@
             {
                 "position": 26,
                 "mnemonic": "MP_BAT_U_MIN",
-                "label_index": "27741",
-                "label_korean": "서비스 배터리 전압 (최소)",
+                "label_index": "@P27741@\\+@T(@P3923@T)",
+                "label_korean": "서비스 배터리 전압(최소)",
                 "group_id": "117445",
                 "req_frame_id": "352681",
                 "resp_frame_id": "352682",
@@ -781,8 +781,8 @@
             {
                 "position": 27,
                 "mnemonic": "MP_BAT_I_MAX",
-                "label_index": "49295",
-                "label_korean": "서비스 배터리 전류 (최대)",
+                "label_index": "@P49295@\\+@T(@P14177@T)",
+                "label_korean": "서비스 배터리 전류(최대)",
                 "group_id": "117445",
                 "req_frame_id": "352681",
                 "resp_frame_id": "352682",
@@ -797,13 +797,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "",
+                "help_code": "@TTBTsi la valeur du courant de la batterie de servitude (maximale) est invalide, un diagnostic de batterie doit �tre effectu� apr�s chaque reconnexion de la batterie",
                 "help_korean": "TBTsi la valeur du courant de la batterie de servitude (maximale) est invalide, un diagnostic de batterie doit �tre effectu� apr�s chaque reconnexion de la batterie"
             },
             {
                 "position": 28,
                 "mnemonic": "MP_BAT_AH_COUNTER",
-                "label_index": "31519",
+                "label_index": "@P31519",
                 "label_korean": "배터리 충전 및 방전 카운터",
                 "group_id": "117446",
                 "req_frame_id": "352684",
@@ -813,7 +813,7 @@
                 "endian": "",
                 "factor": "0.20000000298023224",
                 "offset": "-50.0",
-                "unit": "[미번역_P64812]",
+                "unit": "64812",
                 "req_frame_hex": "22D409",
                 "states": {},
                 "bit_mask": null,
@@ -825,7 +825,7 @@
             {
                 "position": 29,
                 "mnemonic": "MP_I_VEILLE_MINI",
-                "label_index": "32419",
+                "label_index": "@P32419",
                 "label_korean": "최소 대기 전류",
                 "group_id": "117446",
                 "req_frame_id": "352684",

@@ -8,7 +8,7 @@
             {
                 "position": 1,
                 "mnemonic": "PartNumber",
-                "label_index": "28154",
+                "label_index": "@P28154",
                 "label_korean": "부품 번호",
                 "group_id": "22176",
                 "req_frame_id": "66535",
@@ -30,7 +30,7 @@
             {
                 "position": 2,
                 "mnemonic": "Software_Version",
-                "label_index": "2358",
+                "label_index": "@P2358",
                 "label_korean": "소프트웨어 버전",
                 "group_id": "22175",
                 "req_frame_id": "66532",
@@ -52,7 +52,7 @@
             {
                 "position": 3,
                 "mnemonic": "Hardware_Version",
-                "label_index": "28760",
+                "label_index": "@P28760",
                 "label_korean": "하드웨어 버전",
                 "group_id": "22175",
                 "req_frame_id": "66532",
@@ -74,7 +74,7 @@
             {
                 "position": 4,
                 "mnemonic": "MP_NUM_SERIE",
-                "label_index": "12519",
+                "label_index": "@P12519@\\*",
                 "label_korean": "일련 번호",
                 "group_id": "22177",
                 "req_frame_id": "66538",
@@ -104,7 +104,7 @@
             {
                 "position": 1,
                 "mnemonic": "PartNumber_a",
-                "label_index": "28154",
+                "label_index": "@P28154",
                 "label_korean": "부품 번호",
                 "group_id": "22179",
                 "req_frame_id": "66544",
@@ -126,7 +126,7 @@
             {
                 "position": 2,
                 "mnemonic": "Software_Version_a",
-                "label_index": "2358",
+                "label_index": "@P2358",
                 "label_korean": "소프트웨어 버전",
                 "group_id": "22178",
                 "req_frame_id": "66541",
@@ -148,7 +148,7 @@
             {
                 "position": 3,
                 "mnemonic": "Hardware_Version_a",
-                "label_index": "28760",
+                "label_index": "@P28760",
                 "label_korean": "하드웨어 버전",
                 "group_id": "22178",
                 "req_frame_id": "66541",
@@ -170,7 +170,7 @@
             {
                 "position": 4,
                 "mnemonic": "MP_NUM_SERIE_a",
-                "label_index": "12519",
+                "label_index": "@P12519@\\*",
                 "label_korean": "일련 번호",
                 "group_id": "22180",
                 "req_frame_id": "66547",
@@ -200,7 +200,7 @@
             {
                 "position": 1,
                 "mnemonic": "THEFT_SENSOR",
-                "label_index": "28753",
+                "label_index": "@P28753",
                 "label_korean": "초음파 모듈 상태",
                 "group_id": "22167",
                 "req_frame_id": "66508",
@@ -216,13 +216,13 @@
                 "bit_mask": 1,
                 "bit_shift": 0,
                 "dynamic_arg": "",
-                "help_code": "37392",
+                "help_code": "@P37392",
                 "help_korean": "초음파 모듈의 작동 상태를 정의한다"
             },
             {
                 "position": 2,
                 "mnemonic": "THEFT_SENSOR_ENABLE",
-                "label_index": "28758",
+                "label_index": "@P28758",
                 "label_korean": "초음파 모듈의 감지",
                 "group_id": "22168",
                 "req_frame_id": "66511",
@@ -238,13 +238,13 @@
                 "bit_mask": 1,
                 "bit_shift": 0,
                 "dynamic_arg": "",
-                "help_code": "37364",
+                "help_code": "@P37364",
                 "help_korean": "초음파 모듈이 움직임을 감지하면 상태는 \"예\"이다"
             },
             {
                 "position": 3,
                 "mnemonic": "HORN_THEFT_HORN",
-                "label_index": "21338",
+                "label_index": "@P21338@T / @P25460",
                 "label_korean": "혼의 상태 / 알람",
                 "group_id": "22169",
                 "req_frame_id": "66514",
@@ -260,13 +260,13 @@
                 "bit_mask": 4,
                 "bit_shift": 2,
                 "dynamic_arg": "",
-                "help_code": "30342, 13485",
+                "help_code": "@P30342@T/@P13485",
                 "help_korean": "혼의 작동 상태를 정의한다/알람 사이렌"
             },
             {
                 "position": 4,
                 "mnemonic": "HORN_THEFT_HORN_ENABLE",
-                "label_index": "321",
+                "label_index": "@P321",
                 "label_korean": "혼 제어/알람",
                 "group_id": "22170",
                 "req_frame_id": "66517",
@@ -282,7 +282,7 @@
                 "bit_mask": 4,
                 "bit_shift": 2,
                 "dynamic_arg": "",
-                "help_code": "37363",
+                "help_code": "@P37363",
                 "help_korean": "혼 작동 또는 침입 알람 사이렌이 요청될 경우 상태는 \"예\"이다"
             }
         ]
@@ -296,7 +296,7 @@
             {
                 "position": 1,
                 "mnemonic": "CA_KM_APPARITION_2",
-                "label_index": "14471",
+                "label_index": "@P14471",
                 "label_korean": "주행 거리 보임",
                 "group_id": "22174",
                 "req_frame_id": "66529",
@@ -318,7 +318,7 @@
             {
                 "position": 2,
                 "mnemonic": "CA_TEMPS_ACCUMULE_DEPUIS_DEFAUT_PERMANENT",
-                "label_index": "13110",
+                "label_index": "@P13110",
                 "label_korean": "결함이 영구적으로 된 이후부터 누적된 시간",
                 "group_id": "22174",
                 "req_frame_id": "66529",
@@ -340,7 +340,7 @@
             {
                 "position": 3,
                 "mnemonic": "CA_NB_DE_COUPURE_DU_CONTACT_DEPUIS_DISPARITION_DU_DEFAUT",
-                "label_index": "2632",
+                "label_index": "@P2632",
                 "label_korean": "결함이 사라진 후 키를 ON한 횟수",
                 "group_id": "22174",
                 "req_frame_id": "66529",
@@ -362,7 +362,7 @@
             {
                 "position": 4,
                 "mnemonic": "CA_TEMPS_ECOULE_DEPUIS_PREMIERE_APPARITION_DU_DEFAUT",
-                "label_index": "13240",
+                "label_index": "@P13240",
                 "label_korean": "첫번째 결함이 발생한 이후 경과된 시간",
                 "group_id": "22174",
                 "req_frame_id": "66529",

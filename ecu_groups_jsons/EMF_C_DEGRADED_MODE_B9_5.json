@@ -8,8 +8,8 @@
             {
                 "position": 1,
                 "mnemonic": "STATPIL1",
-                "label_index": "3011",
-                "label_korean": "액츄에이터테스트",
+                "label_index": "@P3011@\\*",
+                "label_korean": "액츄에이터 테스트",
                 "group_id": "매핑_누락",
                 "req_frame_id": "",
                 "resp_frame_id": "",
@@ -47,7 +47,7 @@
             {
                 "position": 1,
                 "mnemonic": "ID_NOM_DU_FOURNISSEUR",
-                "label_index": "5701",
+                "label_index": "@P5701",
                 "label_korean": "제조 업체명",
                 "group_id": "138632",
                 "req_frame_id": "416239",
@@ -77,7 +77,7 @@
             {
                 "position": 2,
                 "mnemonic": "ID_REFERENCE_MATERIEL",
-                "label_index": "1071",
+                "label_index": "@P1071",
                 "label_korean": "장치 부품 번호",
                 "group_id": "138632",
                 "req_frame_id": "416239",
@@ -99,7 +99,7 @@
             {
                 "position": 3,
                 "mnemonic": "ID_REFERENCE_COMPLEMENTAIRE_MATERIEL",
-                "label_index": "1634",
+                "label_index": "@P1634",
                 "label_korean": "장치 추가 참조 번호",
                 "group_id": "138632",
                 "req_frame_id": "416239",
@@ -121,7 +121,7 @@
             {
                 "position": 4,
                 "mnemonic": "ID_TRACABILITE_INDICE_EVOLUTION_EDITION",
-                "label_index": "24601",
+                "label_index": "@P24601",
                 "label_korean": "소프트웨어 버전",
                 "group_id": "138632",
                 "req_frame_id": "416239",
@@ -143,7 +143,7 @@
             {
                 "position": 5,
                 "mnemonic": "ID_MESS_DIAGNOSTIC",
-                "label_index": "2459",
+                "label_index": "@P2459",
                 "label_korean": "진단 이메일",
                 "group_id": "138632",
                 "req_frame_id": "416239",
@@ -165,7 +165,7 @@
             {
                 "position": 6,
                 "mnemonic": "ID_80_MP_INDICE_MESS",
-                "label_index": "2225",
+                "label_index": "@P2225",
                 "label_korean": "메시지 인덱스",
                 "group_id": "138632",
                 "req_frame_id": "416239",
@@ -187,7 +187,7 @@
             {
                 "position": 7,
                 "mnemonic": "ID_TRACABILITE_NUMERO_DE_SERIE_PIECE",
-                "label_index": "7592",
+                "label_index": "@P7592",
                 "label_korean": "부품 일련 번호",
                 "group_id": "138633",
                 "req_frame_id": "416242",
@@ -217,7 +217,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_TOUCHE_ESC",
-                "label_index": "11397",
+                "label_index": "@P11397",
                 "label_korean": "\"ESC\" 키",
                 "group_id": "138644",
                 "req_frame_id": "416275",
@@ -236,13 +236,13 @@
                 "bit_mask": 128,
                 "bit_shift": 7,
                 "dynamic_arg": "",
-                "help_code": "44302, 44380",
-                "help_korean": "\"ESC\"키의 상태 변화를 나타낸다 . \"ESC\" 키는 오디오 시스템에 위치해 있다"
+                "help_code": "@P44302@\\+@T.@\\+@P44380",
+                "help_korean": "\"ESC\"키의 상태 변화를 나타낸다.\"ESC\" 키는 오디오 시스템에 위치해 있다"
             },
             {
                 "position": 2,
                 "mnemonic": "MP_TOUCHE_MODE_1",
-                "label_index": "6443",
+                "label_index": "@P6443",
                 "label_korean": "\"MODE\" 키",
                 "group_id": "138644",
                 "req_frame_id": "416275",
@@ -258,13 +258,13 @@
                 "bit_mask": 64,
                 "bit_shift": 6,
                 "dynamic_arg": "",
-                "help_code": "44303, 44382",
-                "help_korean": "\"MODE\" 키의 상태 변화를 나타낸다 . \"MODE\"키는 오디오 시스템에 위치해 있다"
+                "help_code": "@P44303@\\+@T.@\\+@P44382",
+                "help_korean": "\"MODE\" 키의 상태 변화를 나타낸다.\"MODE\"키는 오디오 시스템에 위치해 있다"
             },
             {
                 "position": 3,
                 "mnemonic": "MP_TOUCHE_MENU",
-                "label_index": "12697",
+                "label_index": "@P12697",
                 "label_korean": "메뉴 키",
                 "group_id": "138644",
                 "req_frame_id": "416275",
@@ -280,13 +280,13 @@
                 "bit_mask": 32,
                 "bit_shift": 5,
                 "dynamic_arg": "",
-                "help_code": "26326, 45308",
-                "help_korean": "\"메뉴\" 버튼의 상태에서 변화를 명시한다 . \"메뉴\" 키는 오디오 시스템에 위치해 있다"
+                "help_code": "@P26326@\\+@T.@\\+@P45308",
+                "help_korean": "\"메뉴\" 버튼의 상태에서 변화를 명시한다.\"메뉴\" 키는 오디오 시스템에 위치해 있다"
             },
             {
                 "position": 4,
                 "mnemonic": "MP_TOUCHE_OK_1",
-                "label_index": "10447",
+                "label_index": "@P10447",
                 "label_korean": "\"OK\" 키",
                 "group_id": "138644",
                 "req_frame_id": "416275",
@@ -302,13 +302,13 @@
                 "bit_mask": 16,
                 "bit_shift": 4,
                 "dynamic_arg": "",
-                "help_code": "37259, 45143",
-                "help_korean": "\"OK\" 버튼의 상태 변화를 나타낸다 . \"OK\" 버튼은 라디오에 위치해 있다"
+                "help_code": "@P37259@\\+@T.@\\+@P45143",
+                "help_korean": "\"OK\" 버튼의 상태 변화를 나타낸다.\"OK\" 버튼은 라디오에 위치해 있다"
             },
             {
                 "position": 5,
                 "mnemonic": "MP_TOUCHE_VERS_GAUCHE",
-                "label_index": "14542",
+                "label_index": "@P14542",
                 "label_korean": "\"왼쪽으로\" 키",
                 "group_id": "138644",
                 "req_frame_id": "416275",
@@ -324,13 +324,13 @@
                 "bit_mask": 8,
                 "bit_shift": 3,
                 "dynamic_arg": "",
-                "help_code": "44383, 44304",
-                "help_korean": "\"좌측으로\"키의 상태 변화를 나타낸다 . \"좌측으로\"키는 오디오 시스템에 위치해 있다"
+                "help_code": "@P44383@\\+@T.@\\+@P44304",
+                "help_korean": "\"좌측으로\"키의 상태 변화를 나타낸다.\"좌측으로\"키는 오디오 시스템에 위치해 있다"
             },
             {
                 "position": 6,
                 "mnemonic": "MP_TOUCHE_VERS_DROITE",
-                "label_index": "2953",
+                "label_index": "@P2953",
                 "label_korean": "\"오른쪽으로\" 키",
                 "group_id": "138644",
                 "req_frame_id": "416275",
@@ -346,13 +346,13 @@
                 "bit_mask": 4,
                 "bit_shift": 2,
                 "dynamic_arg": "",
-                "help_code": "44384, 45312",
-                "help_korean": "\"우측으로\"키의 상태 변화를 나타낸다 . \"오른쪽 방향\" 키는 오디오 시스템에 위치해 있다"
+                "help_code": "@P44384@\\+@T.@\\+@P45312",
+                "help_korean": "\"우측으로\"키의 상태 변화를 나타낸다.\"오른쪽 방향\" 키는 오디오 시스템에 위치해 있다"
             },
             {
                 "position": 7,
                 "mnemonic": "MP_TOUCHE_VERS_BAS",
-                "label_index": "5670",
+                "label_index": "@P5670",
                 "label_korean": "\"다운\" 키",
                 "group_id": "138644",
                 "req_frame_id": "416275",
@@ -368,13 +368,13 @@
                 "bit_mask": 2,
                 "bit_shift": 1,
                 "dynamic_arg": "",
-                "help_code": "42977, 42978",
-                "help_korean": "\"다운\" 버튼의 상태에서 변화를 명시한다 . \"다운\" 버튼은 라디오에 위치해 있다"
+                "help_code": "@P42977@\\+@T.@\\+@P42978",
+                "help_korean": "\"다운\" 버튼의 상태에서 변화를 명시한다.\"다운\" 버튼은 라디오에 위치해 있다"
             },
             {
                 "position": 8,
                 "mnemonic": "MP_TOUCHE_VERS_HAUT",
-                "label_index": "12162",
+                "label_index": "@P12162",
                 "label_korean": "위로 키",
                 "group_id": "138644",
                 "req_frame_id": "416275",
@@ -390,8 +390,8 @@
                 "bit_mask": 1,
                 "bit_shift": 0,
                 "dynamic_arg": "",
-                "help_code": "42979, 42980",
-                "help_korean": "\"업' 버튼의 상태에서 변화를 명시한다 .\n\"업\" 버튼은 라디오에 위치해 있다 ."
+                "help_code": "@P42979@\\+@T.@\\n@P42980@\\+@T.",
+                "help_korean": "\"업' 버튼의 상태에서 변화를 명시한다.\n\"업\" 버튼은 라디오에 위치해 있다."
             }
         ]
     },
@@ -404,7 +404,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_TOUCHE_ESC",
-                "label_index": "11397",
+                "label_index": "@P11397",
                 "label_korean": "\"ESC\" 키",
                 "group_id": "138644",
                 "req_frame_id": "416275",
@@ -423,13 +423,13 @@
                 "bit_mask": 128,
                 "bit_shift": 7,
                 "dynamic_arg": "",
-                "help_code": "44302, 44380",
-                "help_korean": "\"ESC\"키의 상태 변화를 나타낸다 . \"ESC\" 키는 오디오 시스템에 위치해 있다"
+                "help_code": "@P44302@\\+@T.@\\+@P44380",
+                "help_korean": "\"ESC\"키의 상태 변화를 나타낸다.\"ESC\" 키는 오디오 시스템에 위치해 있다"
             },
             {
                 "position": 2,
                 "mnemonic": "MP_TOUCHE_MODE_1",
-                "label_index": "6443",
+                "label_index": "@P6443",
                 "label_korean": "\"MODE\" 키",
                 "group_id": "138644",
                 "req_frame_id": "416275",
@@ -445,13 +445,13 @@
                 "bit_mask": 64,
                 "bit_shift": 6,
                 "dynamic_arg": "",
-                "help_code": "44303, 44382",
-                "help_korean": "\"MODE\" 키의 상태 변화를 나타낸다 . \"MODE\"키는 오디오 시스템에 위치해 있다"
+                "help_code": "@P44303@\\+@T.@\\+@P44382",
+                "help_korean": "\"MODE\" 키의 상태 변화를 나타낸다.\"MODE\"키는 오디오 시스템에 위치해 있다"
             },
             {
                 "position": 3,
                 "mnemonic": "MP_TOUCHE_MENU",
-                "label_index": "12697",
+                "label_index": "@P12697",
                 "label_korean": "메뉴 키",
                 "group_id": "138644",
                 "req_frame_id": "416275",
@@ -467,13 +467,13 @@
                 "bit_mask": 32,
                 "bit_shift": 5,
                 "dynamic_arg": "",
-                "help_code": "26326, 45308",
-                "help_korean": "\"메뉴\" 버튼의 상태에서 변화를 명시한다 . \"메뉴\" 키는 오디오 시스템에 위치해 있다"
+                "help_code": "@P26326@\\+@T.@\\+@P45308",
+                "help_korean": "\"메뉴\" 버튼의 상태에서 변화를 명시한다.\"메뉴\" 키는 오디오 시스템에 위치해 있다"
             },
             {
                 "position": 4,
                 "mnemonic": "MP_TOUCHE_OK_1",
-                "label_index": "10447",
+                "label_index": "@P10447",
                 "label_korean": "\"OK\" 키",
                 "group_id": "138644",
                 "req_frame_id": "416275",
@@ -489,13 +489,13 @@
                 "bit_mask": 16,
                 "bit_shift": 4,
                 "dynamic_arg": "",
-                "help_code": "37259, 45143",
-                "help_korean": "\"OK\" 버튼의 상태 변화를 나타낸다 . \"OK\" 버튼은 라디오에 위치해 있다"
+                "help_code": "@P37259@\\+@T.@\\+@P45143",
+                "help_korean": "\"OK\" 버튼의 상태 변화를 나타낸다.\"OK\" 버튼은 라디오에 위치해 있다"
             },
             {
                 "position": 5,
                 "mnemonic": "MP_TOUCHE_VERS_GAUCHE",
-                "label_index": "14542",
+                "label_index": "@P14542",
                 "label_korean": "\"왼쪽으로\" 키",
                 "group_id": "138644",
                 "req_frame_id": "416275",
@@ -511,13 +511,13 @@
                 "bit_mask": 8,
                 "bit_shift": 3,
                 "dynamic_arg": "",
-                "help_code": "44383, 44304",
-                "help_korean": "\"좌측으로\"키의 상태 변화를 나타낸다 . \"좌측으로\"키는 오디오 시스템에 위치해 있다"
+                "help_code": "@P44383@\\+@T.@\\+@P44304",
+                "help_korean": "\"좌측으로\"키의 상태 변화를 나타낸다.\"좌측으로\"키는 오디오 시스템에 위치해 있다"
             },
             {
                 "position": 6,
                 "mnemonic": "MP_TOUCHE_VERS_DROITE",
-                "label_index": "2953",
+                "label_index": "@P2953",
                 "label_korean": "\"오른쪽으로\" 키",
                 "group_id": "138644",
                 "req_frame_id": "416275",
@@ -533,13 +533,13 @@
                 "bit_mask": 4,
                 "bit_shift": 2,
                 "dynamic_arg": "",
-                "help_code": "44384, 45312",
-                "help_korean": "\"우측으로\"키의 상태 변화를 나타낸다 . \"오른쪽 방향\" 키는 오디오 시스템에 위치해 있다"
+                "help_code": "@P44384@\\+@T.@\\+@P45312",
+                "help_korean": "\"우측으로\"키의 상태 변화를 나타낸다.\"오른쪽 방향\" 키는 오디오 시스템에 위치해 있다"
             },
             {
                 "position": 7,
                 "mnemonic": "MP_TOUCHE_VERS_BAS",
-                "label_index": "5670",
+                "label_index": "@P5670",
                 "label_korean": "\"다운\" 키",
                 "group_id": "138644",
                 "req_frame_id": "416275",
@@ -555,13 +555,13 @@
                 "bit_mask": 2,
                 "bit_shift": 1,
                 "dynamic_arg": "",
-                "help_code": "42977, 42978",
-                "help_korean": "\"다운\" 버튼의 상태에서 변화를 명시한다 . \"다운\" 버튼은 라디오에 위치해 있다"
+                "help_code": "@P42977@\\+@T.@\\+@P42978",
+                "help_korean": "\"다운\" 버튼의 상태에서 변화를 명시한다.\"다운\" 버튼은 라디오에 위치해 있다"
             },
             {
                 "position": 8,
                 "mnemonic": "MP_TOUCHE_VERS_HAUT",
-                "label_index": "12162",
+                "label_index": "@P12162",
                 "label_korean": "위로 키",
                 "group_id": "138644",
                 "req_frame_id": "416275",
@@ -577,13 +577,13 @@
                 "bit_mask": 1,
                 "bit_shift": 0,
                 "dynamic_arg": "",
-                "help_code": "42979, 42980",
-                "help_korean": "\"업' 버튼의 상태에서 변화를 명시한다 .\n\"업\" 버튼은 라디오에 위치해 있다 ."
+                "help_code": "@P42979@\\+@T.@\\n@P42980@\\+@T.",
+                "help_korean": "\"업' 버튼의 상태에서 변화를 명시한다.\n\"업\" 버튼은 라디오에 위치해 있다."
             },
             {
                 "position": 9,
                 "mnemonic": "MP_FARC",
-                "label_index": "31657",
+                "label_index": "@P31657",
                 "label_korean": "충돌 위험 경고 기능",
                 "group_id": "138637",
                 "req_frame_id": "416254",

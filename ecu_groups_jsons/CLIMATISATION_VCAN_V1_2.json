@@ -8,7 +8,7 @@
             {
                 "position": 1,
                 "mnemonic": "ID_NOM_DU_FOURNISSEUR",
-                "label_index": "5701",
+                "label_index": "@P5701",
                 "label_korean": "제조 업체명",
                 "group_id": "114168",
                 "req_frame_id": "342850",
@@ -38,7 +38,7 @@
             {
                 "position": 2,
                 "mnemonic": "ID_REFERENCE_MATERIEL",
-                "label_index": "1071",
+                "label_index": "@P1071",
                 "label_korean": "장치 부품 번호",
                 "group_id": "114168",
                 "req_frame_id": "342850",
@@ -60,7 +60,7 @@
             {
                 "position": 3,
                 "mnemonic": "ID_REFERENCE_COMPLEMENTAIRE_MATERIEL",
-                "label_index": "1634",
+                "label_index": "@P1634",
                 "label_korean": "장치 추가 참조 번호",
                 "group_id": "114168",
                 "req_frame_id": "342850",
@@ -82,7 +82,7 @@
             {
                 "position": 4,
                 "mnemonic": "ID_TRACABILITE_INDICE_EVOLUTION_EDITION",
-                "label_index": "24601",
+                "label_index": "@P24601",
                 "label_korean": "소프트웨어 버전",
                 "group_id": "114168",
                 "req_frame_id": "342850",
@@ -104,7 +104,7 @@
             {
                 "position": 5,
                 "mnemonic": "ID_MESS_DIAGNOSTIC",
-                "label_index": "2459",
+                "label_index": "@P2459",
                 "label_korean": "진단 이메일",
                 "group_id": "114168",
                 "req_frame_id": "342850",
@@ -126,7 +126,7 @@
             {
                 "position": 6,
                 "mnemonic": "ID_INDICE_MESS_DIAGNOSTIC",
-                "label_index": "11894",
+                "label_index": "@P11894",
                 "label_korean": "진단 메시지 시스템 인덱스 (변경)",
                 "group_id": "114168",
                 "req_frame_id": "342850",
@@ -156,7 +156,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_TENSION_BATTERIE_e",
-                "label_index": "18263",
+                "label_index": "@P18263",
                 "label_korean": "배터리 전압",
                 "group_id": "114174",
                 "req_frame_id": "342868",
@@ -180,7 +180,7 @@
             {
                 "position": 2,
                 "mnemonic": "MP_SONDE_AIR_SOUFFLE_CONDUCTEUR",
-                "label_index": "3419",
+                "label_index": "@P3419",
                 "label_korean": "운전석쪽 블로어 공기 온도",
                 "group_id": "114174",
                 "req_frame_id": "342868",
@@ -196,13 +196,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "3340, 43684",
-                "help_korean": "블로어 공기 온도 센서에 의해 측정된 값 (프론트 좌측) .\n실내 온도 값이 6549도 또는 F70A 도 이고 결함 코드 B70A 또는 가 없을 경우, 차량은 실내 온도 센서가 장착되지 않았다,5-40."
+                "help_code": "@P3340@\\+@T.@\\n@P43684@\\*6549,5@\\*-40@\\*F70A@\\*B70A@T.",
+                "help_korean": "블로어 공기 온도 센서에 의해 측정된 값 (프론트 좌측).\n실내 온도 값이 6549도 또는 F70A 도 이고 결함 코드 B70A 또는 가 없을 경우, 차량은 실내 온도 센서가 장착되지 않았다,5-40."
             },
             {
                 "position": 2,
                 "mnemonic": "MP_SONDE_AIR_SOUFFLE_CONDUCTEUR",
-                "label_index": "3419",
+                "label_index": "@P3419",
                 "label_korean": "운전석쪽 블로어 공기 온도",
                 "group_id": "114174",
                 "req_frame_id": "342868",
@@ -218,13 +218,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "3340, 43684",
-                "help_korean": "블로어 공기 온도 센서에 의해 측정된 값 (프론트 좌측) .\n실내 온도 값이 6549도 또는 F70A 도 이고 결함 코드 B70A 또는 가 없을 경우, 차량은 실내 온도 센서가 장착되지 않았다,5-40."
+                "help_code": "@P3340@\\+@T.@\\n@P43684@\\*6549,5@\\*-40@\\*F70A@\\*B70A@T.",
+                "help_korean": "블로어 공기 온도 센서에 의해 측정된 값 (프론트 좌측).\n실내 온도 값이 6549도 또는 F70A 도 이고 결함 코드 B70A 또는 가 없을 경우, 차량은 실내 온도 센서가 장착되지 않았다,5-40."
             },
             {
                 "position": 3,
                 "mnemonic": "MP_SONDE_AIR_SOUFFLE_PASSAGER",
-                "label_index": "7487",
+                "label_index": "@P7487",
                 "label_korean": "승객석쪽 블로어 공기 온도",
                 "group_id": "114174",
                 "req_frame_id": "342868",
@@ -240,13 +240,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "5694, 43684",
+                "help_code": "@P5694@T.@\\n@P43684@\\*6549,5@\\*-40@\\*F70B@\\*B70B@T.",
                 "help_korean": "블로어 공기 온도 센서에 의해 측정된 값 (프론트 우측).\n실내 온도 값이 6549도 또는 F70B 도 이고 결함 코드 B70B 또는 가 없을 경우, 차량은 실내 온도 센서가 장착되지 않았다,5-40."
             },
             {
                 "position": 4,
                 "mnemonic": "MP_TEMPERATURE_EVAPORATEUR_CLIMATISATION",
-                "label_index": "3339",
+                "label_index": "@P3339",
                 "label_korean": "증발기 센서 온도",
                 "group_id": "114174",
                 "req_frame_id": "342868",
@@ -262,13 +262,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "31869, 31870, 31871",
-                "help_korean": "에어 컨디셔닝 장치에 위치한 증발기 센서에 의해 측정된 온도.\n- 일반적인 값 :\n-\n- 15분 이상 에어컨 컴프레서 꺼짐 : 측정된 온도가 실내 온도에 가깝다."
+                "help_code": "@P31869@T. @P31870@T :@\\n@T- @P31871@T.",
+                "help_korean": "에어 컨디셔닝 장치에 위치한 증발기 센서에 의해 측정된 온도. 일반적인 값 :\n- 15분 이상 에어컨 컴프레서 꺼짐 : 측정된 온도가 실내 온도에 가깝다."
             },
             {
                 "position": 5,
                 "mnemonic": "MP_CAPTEUR_ENSOLEILLEMENT_1",
-                "label_index": "7256",
+                "label_index": "@P7256",
                 "label_korean": "일광 센서",
                 "group_id": "114174",
                 "req_frame_id": "342868",
@@ -284,13 +284,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "31873, 31874",
+                "help_code": "@P31873@T.@\\n@P31874@\\*30@\\*50@T.",
                 "help_korean": "에어컨 일광 센서에 의해 실내에서 측정된 밝기 레벨'.\n서비스 센터에서, 손전등에 노출되면 밝기는 30에서 50% 사이에서 변한다."
             },
             {
                 "position": 6,
                 "mnemonic": "MP_VAL_TENSION_PULSEUR_AIR",
-                "label_index": "8377",
+                "label_index": "@P8377",
                 "label_korean": "에어 블로어 공급 전압",
                 "group_id": "114174",
                 "req_frame_id": "342868",
@@ -306,13 +306,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "13024",
+                "help_code": "@P13024",
                 "help_korean": "블로어 모터 셋팅 전압 값"
             },
             {
                 "position": 7,
                 "mnemonic": "MP_TENSION_RECOPIE_PULSEUR_AIR_1",
-                "label_index": "10165",
+                "label_index": "@P10165",
                 "label_korean": "에어 블로어 복사 전압",
                 "group_id": "114174",
                 "req_frame_id": "342868",
@@ -328,13 +328,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "14198",
-                "help_korean": "공급 전압과 비교해서 블로어 모터 세팅 전압의 보완 값 (공급 전압 = 블로어 모터 전압 블로어 복사 전압)"
+                "help_code": "@P14198",
+                "help_korean": "공급 전압과 비교해서 블로어 모터 세팅 전압의 보완 값 (공급 전압 = 블로어 모터 전압 + 블로어 복사 전압)"
             }
         ]
     },
     "MESUREPARAMETRE2": {
-        "screen_title_korean": "액츄에이터상태",
+        "screen_title_korean": "액츄에이터 상태",
         "screen_label_index": "@P4101-POLUXDATA@\\*",
         "ecu_name": "CLIMATISATION_VCAN_V1_2",
         "total_sensors": 4,
@@ -342,7 +342,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_POSITION_MOTEUR_PAS_A_PAS_RECYCLAGE_AIR",
-                "label_index": "5334",
+                "label_index": "@P5334",
                 "label_korean": "공기 재순환 모터 위치",
                 "group_id": "114175",
                 "req_frame_id": "342871",
@@ -361,13 +361,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "32782, 32783",
-                "help_korean": "실내 공기 재순환 플랩의 위치 .\n상태 변화의 요청이 없는 한 재순환 위치는 항상 \"재순환 또는 외부 공기\"에 위치하는지 점검한다"
+                "help_code": "@P32782@\\+@T.@\\n@P32783",
+                "help_korean": "실내 공기 재순환 플랩의 위치.\n상태 변화의 요청이 없는 한 재순환 위치는 항상 \"재순환 또는 외부 공기\"에 위치하는지 점검한다"
             },
             {
                 "position": 2,
                 "mnemonic": "MP_POS_MOT_REPA_AIR",
-                "label_index": "917",
+                "label_index": "@P917",
                 "label_korean": "공기 분배 모터의 위치",
                 "group_id": "매핑_누락",
                 "req_frame_id": "",
@@ -383,13 +383,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "32784, 32785",
+                "help_code": "@P32784@T.@\\n@P32785",
                 "help_korean": "분배 플랩 위치.\n차량에 의해 표시된 분배가 진단기에 표시된 값과 일치하는지 점검한다"
             },
             {
                 "position": 3,
                 "mnemonic": "MP_POSITION_MOTEUR_PAS_A_PAS_MIXAGE_COTE_CONDUCTEUR_5",
-                "label_index": "12837",
+                "label_index": "@P12837",
                 "label_korean": "운전석쪽 에어 믹싱 모터 위치",
                 "group_id": "114175",
                 "req_frame_id": "342871",
@@ -405,13 +405,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "33691, 31875",
-                "help_korean": "믹싱 플랩 위치 온도 세팅이 최대 값에서 최소 값으로 변할 때 믹싱 상태가 최대로 뜨거운 상태에서 최대로 차가운 상태로 변하는지 점검한다"
+                "help_code": "@P33691@\\+@P31875",
+                "help_korean": "믹싱 플랩 위치온도 세팅이 최대 값에서 최소 값으로 변할 때 믹싱 상태가 최대로 뜨거운 상태에서 최대로 차가운 상태로 변하는지 점검한다"
             },
             {
                 "position": 4,
                 "mnemonic": "MP_POSITION_MOTEUR_PAS_A_PAS_MIXAGE_COTE_PASSAGER_6",
-                "label_index": "8474",
+                "label_index": "@P8474",
                 "label_korean": "승객석쪽 에어 믹싱 모터 위치",
                 "group_id": "114175",
                 "req_frame_id": "342871",
@@ -427,8 +427,8 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "33691, 31875",
-                "help_korean": "믹싱 플랩 위치 온도 세팅이 최대 값에서 최소 값으로 변할 때 믹싱 상태가 최대로 뜨거운 상태에서 최대로 차가운 상태로 변하는지 점검한다"
+                "help_code": "@P33691@\\+@P31875",
+                "help_korean": "믹싱 플랩 위치온도 세팅이 최대 값에서 최소 값으로 변할 때 믹싱 상태가 최대로 뜨거운 상태에서 최대로 차가운 상태로 변하는지 점검한다"
             }
         ]
     },
@@ -441,7 +441,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_DEMANDE_AIR_CONDITIONNE_TOUCHE_AC_2",
-                "label_index": "9031",
+                "label_index": "@P9031",
                 "label_korean": "에어 컨디셔닝 요청 (AC)",
                 "group_id": "114176",
                 "req_frame_id": "342874",
@@ -457,13 +457,13 @@
                 "bit_mask": 4,
                 "bit_shift": 2,
                 "dynamic_arg": "",
-                "help_code": "7443",
+                "help_code": "@P7443",
                 "help_korean": "에어컨 작동 요청을 위한 작동 변수"
             },
             {
                 "position": 2,
                 "mnemonic": "MP_TOUCHE_DEGIVRAGE_DESEMBUAGE_AVANT_3",
-                "label_index": "11949",
+                "label_index": "@P11949",
                 "label_korean": "성에 제거 / 시야 요청",
                 "group_id": "114176",
                 "req_frame_id": "342874",
@@ -479,13 +479,13 @@
                 "bit_mask": 8,
                 "bit_shift": 3,
                 "dynamic_arg": "",
-                "help_code": "5739",
+                "help_code": "@P5739@T.",
                 "help_korean": "윈드스크린 서리 제거 요청을 위한 작동 변수."
             },
             {
                 "position": 3,
                 "mnemonic": "MP_DEMANDE_DE_REGULATION_AUTOMATIQUE_5",
-                "label_index": "6843",
+                "label_index": "@P6843",
                 "label_korean": "자동 제어 요청 (AUTO)",
                 "group_id": "114176",
                 "req_frame_id": "342874",
@@ -501,13 +501,13 @@
                 "bit_mask": 32,
                 "bit_shift": 5,
                 "dynamic_arg": "",
-                "help_code": "5229",
+                "help_code": "@P5229",
                 "help_korean": "실내 공기 자동 조절 요청이 있을 때 변수 작동"
             },
             {
                 "position": 4,
                 "mnemonic": "MP_DEMANDE_DE_RECYCLAGE",
-                "label_index": "5471",
+                "label_index": "@P5471",
                 "label_korean": "재순환 요청",
                 "group_id": "114176",
                 "req_frame_id": "342874",
@@ -526,13 +526,13 @@
                 "bit_mask": 1,
                 "bit_shift": 0,
                 "dynamic_arg": "",
-                "help_code": "10590",
+                "help_code": "@P10590",
                 "help_korean": "실내 공기의 재순환 요청이 있을 때 작동 변수"
             },
             {
                 "position": 5,
                 "mnemonic": "MP_DEMANDE_DEGIVRAGE_LUNETTE_ARRIERE_RETRO_1",
-                "label_index": "6746",
+                "label_index": "@P6746",
                 "label_korean": "리어 스크린 및 도어 미러 성에 제거 요청",
                 "group_id": "114176",
                 "req_frame_id": "342874",
@@ -548,13 +548,13 @@
                 "bit_mask": 2,
                 "bit_shift": 1,
                 "dynamic_arg": "",
-                "help_code": "3154",
+                "help_code": "@P3154",
                 "help_korean": "리어 스크린 및 도어 미러의 성에 제거 요청을 위한 작동 변수"
             },
             {
                 "position": 6,
                 "mnemonic": "MP_DEMANDE_VENTLATION_PLUS_7",
-                "label_index": "14301",
+                "label_index": "@P14301",
                 "label_korean": "블로어 증가 요청",
                 "group_id": "114176",
                 "req_frame_id": "342874",
@@ -576,7 +576,7 @@
             {
                 "position": 7,
                 "mnemonic": "MP_DEMANDE_VENTILATION_MOINS_6",
-                "label_index": "13559",
+                "label_index": "@P13559",
                 "label_korean": "블로어 감소 요청",
                 "group_id": "114176",
                 "req_frame_id": "342874",
@@ -598,7 +598,7 @@
             {
                 "position": 8,
                 "mnemonic": "MP_TOUCHE_PLUS_TEMPERATURE_CONDUCTEUR",
-                "label_index": "16546",
+                "label_index": "@P16546",
                 "label_korean": "운전석 온도 증가 요청",
                 "group_id": "114176",
                 "req_frame_id": "342874",
@@ -620,7 +620,7 @@
             {
                 "position": 9,
                 "mnemonic": "MP_TOUCHE_MOINS_TEMPERATURE_CONDUCTEUR",
-                "label_index": "9100",
+                "label_index": "@P9100",
                 "label_korean": "운전석 온도 내림 요청",
                 "group_id": "114176",
                 "req_frame_id": "342874",
@@ -642,7 +642,7 @@
             {
                 "position": 10,
                 "mnemonic": "MP_TOUCHE_PLUS_TEMPERATURE_PASSAGER",
-                "label_index": "15733",
+                "label_index": "@P15733",
                 "label_korean": "승객석 온도 올림 요청",
                 "group_id": "114176",
                 "req_frame_id": "342874",
@@ -664,7 +664,7 @@
             {
                 "position": 11,
                 "mnemonic": "MP_TOUCHE_MOINS_TEMPERATURE_PASSAGER",
-                "label_index": "15159",
+                "label_index": "@P15159",
                 "label_korean": "승객석 온도 내림 요청",
                 "group_id": "114176",
                 "req_frame_id": "342874",
@@ -686,7 +686,7 @@
             {
                 "position": 12,
                 "mnemonic": "MP_DEMANDE_DISTR_AIR_DERIV",
-                "label_index": "10573",
+                "label_index": "@P10573",
                 "label_korean": "공기 분배 요청 - 성에 제거",
                 "group_id": "114176",
                 "req_frame_id": "342874",
@@ -705,13 +705,13 @@
                 "bit_mask": 8,
                 "bit_shift": 3,
                 "dynamic_arg": "",
-                "help_code": "11385",
+                "help_code": "@P11385",
                 "help_korean": "성에 제거를 위한 실내 풍향 변경 요청의 경우 변수 활성화"
             },
             {
                 "position": 13,
                 "mnemonic": "MP_DEMANDE_DISTR_AIR_AERA",
-                "label_index": "3913",
+                "label_index": "@P3913",
                 "label_korean": "공기 분배 요청 - 환기",
                 "group_id": "114176",
                 "req_frame_id": "342874",
@@ -730,13 +730,13 @@
                 "bit_mask": 4,
                 "bit_shift": 2,
                 "dynamic_arg": "",
-                "help_code": "4057",
+                "help_code": "@P4057",
                 "help_korean": "환기를 위해 실내 공기 분배 변화를 요청할 경우 변수 작동"
             },
             {
                 "position": 14,
                 "mnemonic": "MP_DEMANDE_DISTR_AIR_PIEDS",
-                "label_index": "9668",
+                "label_index": "@P9668",
                 "label_korean": "풍향 요청 - 발바닥",
                 "group_id": "114176",
                 "req_frame_id": "342874",
@@ -755,13 +755,13 @@
                 "bit_mask": 2,
                 "bit_shift": 1,
                 "dynamic_arg": "",
-                "help_code": "2731",
+                "help_code": "@P2731",
                 "help_korean": "실내에서 발바닥으로 풍향 변경 요청의 경우 변수 활성화"
             },
             {
                 "position": 15,
                 "mnemonic": "MP_DEMANDE_DE_DEZONAGE",
-                "label_index": "15937",
+                "label_index": "@P15937",
                 "label_korean": "재구분 요청",
                 "group_id": "114176",
                 "req_frame_id": "342874",

@@ -8,7 +8,7 @@
             {
                 "position": 1,
                 "mnemonic": "ID_NOM_DU_FOURNISSEUR",
-                "label_index": "5701",
+                "label_index": "@P5701",
                 "label_korean": "제조 업체명",
                 "group_id": "62871",
                 "req_frame_id": "188897",
@@ -38,7 +38,7 @@
             {
                 "position": 2,
                 "mnemonic": "ID_REFERENCE_MATERIEL",
-                "label_index": "1071",
+                "label_index": "@P1071",
                 "label_korean": "장치 부품 번호",
                 "group_id": "62871",
                 "req_frame_id": "188897",
@@ -60,7 +60,7 @@
             {
                 "position": 3,
                 "mnemonic": "ID_REFERENCE_COMPLEMENTAIRE_MATERIEL",
-                "label_index": "1634",
+                "label_index": "@P1634",
                 "label_korean": "장치 추가 참조 번호",
                 "group_id": "62871",
                 "req_frame_id": "188897",
@@ -82,7 +82,7 @@
             {
                 "position": 4,
                 "mnemonic": "ID_TRACABILITE_INDICE_EVOLUTION_EDITION",
-                "label_index": "24601",
+                "label_index": "@P24601",
                 "label_korean": "소프트웨어 버전",
                 "group_id": "62871",
                 "req_frame_id": "188897",
@@ -104,7 +104,7 @@
             {
                 "position": 5,
                 "mnemonic": "ID_TRACABILITE_DATE_FABRICATION",
-                "label_index": "14355",
+                "label_index": "@F14355",
                 "label_korean": "제조일자",
                 "group_id": "62873",
                 "req_frame_id": "188903",
@@ -134,7 +134,7 @@
             {
                 "position": 1,
                 "mnemonic": "MPREGLHAUT",
-                "label_index": "16265",
+                "label_index": "@P16265",
                 "label_korean": "업 스위치 상태",
                 "group_id": "62875",
                 "req_frame_id": "188909",
@@ -153,13 +153,13 @@
                 "bit_mask": 64,
                 "bit_shift": 6,
                 "dynamic_arg": "",
-                "help_code": "44307, 44395",
+                "help_code": "@P44307@\\n@P44395",
                 "help_korean": "\"위로\"버튼의 상태 변화를 나타낸다\n버튼은 리모컨에 위치해 있다"
             },
             {
                 "position": 2,
                 "mnemonic": "MPREGLBAS",
-                "label_index": "4223",
+                "label_index": "@P4223",
                 "label_korean": "다운 스위치 상태",
                 "group_id": "62875",
                 "req_frame_id": "188909",
@@ -178,13 +178,13 @@
                 "bit_mask": 32,
                 "bit_shift": 5,
                 "dynamic_arg": "",
-                "help_code": "44306, 44395",
+                "help_code": "@P44306@\\n@P44395",
                 "help_korean": "\"아래로\"버튼의 상태 변화를 나타낸다\n버튼은 리모컨에 위치해 있다"
             },
             {
                 "position": 3,
                 "mnemonic": "MPONOFF",
-                "label_index": "7122",
+                "label_index": "@P7122",
                 "label_korean": "On/Off 스위치 상태",
                 "group_id": "62875",
                 "req_frame_id": "188909",
@@ -203,13 +203,13 @@
                 "bit_mask": 16,
                 "bit_shift": 4,
                 "dynamic_arg": "",
-                "help_code": "44308, 44395",
+                "help_code": "@P44308@\\n@P44395",
                 "help_korean": "\"On/Off\" 버튼의 상태 변화를 나타낸다\n버튼은 리모컨에 위치해 있다"
             },
             {
                 "position": 4,
                 "mnemonic": "MPLUMPLUS",
-                "label_index": "5705",
+                "label_index": "@P5705",
                 "label_korean": "\"Plus\" 밝기 스위치 상태",
                 "group_id": "62875",
                 "req_frame_id": "188909",
@@ -228,13 +228,13 @@
                 "bit_mask": 8,
                 "bit_shift": 3,
                 "dynamic_arg": "",
-                "help_code": "44397, 44395",
-                "help_korean": "\" \" 밝기 조절 버튼의 상태 변화를 나타낸다\n버튼은 리모컨에 위치해 있다"
+                "help_code": "@P44397@\\n@P44395",
+                "help_korean": "\"+\" 밝기 조절 버튼의 상태 변화를 나타낸다\n버튼은 리모컨에 위치해 있다"
             },
             {
                 "position": 5,
                 "mnemonic": "MPLUMMOINS",
-                "label_index": "16230",
+                "label_index": "@P16230",
                 "label_korean": "\"Minus\" 밝기 스위치 상태",
                 "group_id": "62875",
                 "req_frame_id": "188909",
@@ -253,7 +253,7 @@
                 "bit_mask": 4,
                 "bit_shift": 2,
                 "dynamic_arg": "",
-                "help_code": "44396, 44395",
+                "help_code": "@P44396@\\n@P44395",
                 "help_korean": "\"-\" 밝기 조절 버튼의 상태 변화를 나타낸다\n버튼은 리모컨에 위치해 있다"
             }
         ]
@@ -267,7 +267,7 @@
             {
                 "position": 1,
                 "mnemonic": "MPPOSLAME",
-                "label_index": "13345",
+                "label_index": "@P13345",
                 "label_korean": "디스플레이 스트립의 위치",
                 "group_id": "62876",
                 "req_frame_id": "188912",
@@ -286,7 +286,7 @@
                 "bit_mask": 128,
                 "bit_shift": 7,
                 "dynamic_arg": "",
-                "help_code": "20354",
+                "help_code": "@P20354",
                 "help_korean": "헤드업 디스플레이 스트립 위치 상태를 나타낸다"
             }
         ]

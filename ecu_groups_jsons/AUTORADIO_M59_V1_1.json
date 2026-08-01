@@ -8,7 +8,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_ID_FOURNISSEUR",
-                "label_index": "5701",
+                "label_index": "@P5701",
                 "label_korean": "제조 업체명",
                 "group_id": "88588",
                 "req_frame_id": "266117",
@@ -35,7 +35,7 @@
             {
                 "position": 2,
                 "mnemonic": "ID_REFERENCE_MATERIEL",
-                "label_index": "1071",
+                "label_index": "@P1071",
                 "label_korean": "장치 부품 번호",
                 "group_id": "88588",
                 "req_frame_id": "266117",
@@ -57,7 +57,7 @@
             {
                 "position": 3,
                 "mnemonic": "ID_REFERENCE_COMPLEMENTAIRE_MATERIEL",
-                "label_index": "1634",
+                "label_index": "@P1634",
                 "label_korean": "장치 추가 참조 번호",
                 "group_id": "88588",
                 "req_frame_id": "266117",
@@ -79,7 +79,7 @@
             {
                 "position": 4,
                 "mnemonic": "ID_VERSION_LOGICIEL",
-                "label_index": "8662",
+                "label_index": "@P8662",
                 "label_korean": "소프트웨어 버전",
                 "group_id": "88588",
                 "req_frame_id": "266117",
@@ -109,7 +109,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_VIN",
-                "label_index": "3241",
+                "label_index": "@P3241",
                 "label_korean": "차량의 일련번호 - 차대번호 코드",
                 "group_id": "88589",
                 "req_frame_id": "266120",
@@ -131,7 +131,7 @@
             {
                 "position": 2,
                 "mnemonic": "CFG_AGH_RADIO_COUNTRY_000",
-                "label_index": "5381",
+                "label_index": "@P5381",
                 "label_korean": "사용지역",
                 "group_id": "88592",
                 "req_frame_id": "266129",
@@ -156,14 +156,14 @@
                 "bit_mask": 112,
                 "bit_shift": 4,
                 "dynamic_arg": "",
-                "help_code": "41174",
+                "help_code": "@P41174@T.",
                 "help_korean": "오디오 장치에 정확한 사용 지역이 설정되었는지를 점검할 수 있도록 한다."
             },
             {
                 "position": 3,
                 "mnemonic": "MP_PRESENCE_BSI_VAN",
-                "label_index": "42780",
-                "label_korean": "장착 BSI",
+                "label_index": "@P42780@\\+@P20062",
+                "label_korean": "장착BSI",
                 "group_id": "88592",
                 "req_frame_id": "266129",
                 "resp_frame_id": "266130",
@@ -178,13 +178,13 @@
                 "bit_mask": 8,
                 "bit_shift": 3,
                 "dynamic_arg": "",
-                "help_code": "41171",
+                "help_code": "@P41171@T.",
                 "help_korean": "BSI가 멀티플렉스 네트워크 (있음) 또는 없음 (부재)로 정확하게 설정되었는지를 라디오에서 점검하기 위해서 사용한다."
             },
             {
                 "position": 4,
                 "mnemonic": "CFG_AGJ_RADIO_DESACTIVATION_FADER_000",
-                "label_index": "13957",
+                "label_index": "@P13957",
                 "label_korean": "페이더 기능",
                 "group_id": "88592",
                 "req_frame_id": "266129",
@@ -203,13 +203,13 @@
                 "bit_mask": 4,
                 "bit_shift": 2,
                 "dynamic_arg": "",
-                "help_code": "41172",
+                "help_code": "@P41172",
                 "help_korean": "라디오에 2 스피커 또는 4 스피커가 설정되었는지를 점검하는데 사용한다"
             },
             {
                 "position": 5,
                 "mnemonic": "CFG_AGI_RADIO_DESACTIVATION_AM_000",
-                "label_index": "13331",
+                "label_index": "@P13331",
                 "label_korean": "AM 웨이브밴드",
                 "group_id": "88592",
                 "req_frame_id": "266129",
@@ -228,13 +228,13 @@
                 "bit_mask": 2,
                 "bit_shift": 1,
                 "dynamic_arg": "",
-                "help_code": "41173",
+                "help_code": "@P41173@T.",
                 "help_korean": "라디오가 전기 차량에 설정되었는지를 점검하는 데 사용한다."
             },
             {
                 "position": 6,
                 "mnemonic": "MP_ASSERVISSEMENT_VOLUME_SONORE_VITESSE",
-                "label_index": "12474",
+                "label_index": "@P12474",
                 "label_korean": "차량 속도와 연계된 사운드 레벨",
                 "group_id": "88592",
                 "req_frame_id": "266129",
@@ -250,13 +250,13 @@
                 "bit_mask": 1,
                 "bit_shift": 0,
                 "dynamic_arg": "",
-                "help_code": "40740",
+                "help_code": "@P40740@T.",
                 "help_korean": "오디오 장치의 설정이 차량의 속도에 따라 볼륨을 조절할 수 있는지를 점검할 수 있도록 한다."
             },
             {
                 "position": 7,
                 "mnemonic": "MP_CONFIGURATION_SORTIES_AUDIO",
-                "label_index": "3680",
+                "label_index": "@P3680",
                 "label_korean": "오디오 출력 설정",
                 "group_id": "88592",
                 "req_frame_id": "266129",
@@ -272,13 +272,13 @@
                 "bit_mask": 128,
                 "bit_shift": 7,
                 "dynamic_arg": "",
-                "help_code": "41170",
+                "help_code": "@P41170@T.",
                 "help_korean": "스피커 또는 앰프에 오디오 출력의 설정을 점검하도록 한다."
             },
             {
                 "position": 8,
                 "mnemonic": "CFG_AH0_RADIO_LOI_VOL_AUTO_000",
-                "label_index": "11812",
+                "label_index": "@P11812",
                 "label_korean": "볼륨 레벨 조정 패턴",
                 "group_id": "88592",
                 "req_frame_id": "266129",
@@ -304,13 +304,13 @@
                 "bit_mask": 120,
                 "bit_shift": 3,
                 "dynamic_arg": "",
-                "help_code": "14720",
-                "help_korean": "차량 속도에 따라 볼륨 조정 규칙을 정의한다 (규칙 n°1 에서 16 )"
+                "help_code": "@P14720@\\*1@\\*16",
+                "help_korean": "차량 속도에 따라 볼륨 조정 규칙을 정의한다 (규칙 n°1 에서 16)"
             },
             {
                 "position": 9,
                 "mnemonic": "CFG_AGZ_RADIO_LOI_LODX_000",
-                "label_index": "7276",
+                "label_index": "@P7276",
                 "label_korean": "LO/DX 민감도 곡선",
                 "group_id": "88592",
                 "req_frame_id": "266129",
@@ -331,13 +331,13 @@
                 "bit_mask": 6,
                 "bit_shift": 1,
                 "dynamic_arg": "",
-                "help_code": "42500",
+                "help_code": "@P42500@\\* LO/DX@\\*1@\\*3",
                 "help_korean": "이 변수는 라디오 주파수 검색을 위해 선택한 민감도 그래프LO를 점검하도록 한다 (그래프 n°1에서 3까지)/DX"
             },
             {
                 "position": 10,
                 "mnemonic": "CFG_AHU_RADIO_TAB_ECL01_000",
-                "label_index": "15193",
+                "label_index": "@P15193@\\*1",
                 "label_korean": "레벨1",
                 "group_id": "88594",
                 "req_frame_id": "266135",
@@ -353,13 +353,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "1",
-                "help_code": "19006",
+                "help_code": "@P19006@T.",
                 "help_korean": "라이트가 켜졌을 때 오디오 시스템 버튼의 점등 레벨을 정의한다."
             },
             {
                 "position": 11,
                 "mnemonic": "CFG_AHW_RADIO_TAB_ECL02_000",
-                "label_index": "15193",
+                "label_index": "@P15193@\\*2",
                 "label_korean": "레벨2",
                 "group_id": "88594",
                 "req_frame_id": "266135",
@@ -375,13 +375,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "2",
-                "help_code": "19006",
+                "help_code": "@P19006@T.",
                 "help_korean": "라이트가 켜졌을 때 오디오 시스템 버튼의 점등 레벨을 정의한다."
             },
             {
                 "position": 12,
                 "mnemonic": "CFG_AHY_RADIO_TAB_ECL03_000",
-                "label_index": "15193",
+                "label_index": "@P15193@\\*3",
                 "label_korean": "레벨3",
                 "group_id": "88594",
                 "req_frame_id": "266135",
@@ -397,13 +397,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "3",
-                "help_code": "19006",
+                "help_code": "@P19006@T.",
                 "help_korean": "라이트가 켜졌을 때 오디오 시스템 버튼의 점등 레벨을 정의한다."
             },
             {
                 "position": 13,
                 "mnemonic": "CFG_AI0_RADIO_TAB_ECL04_000",
-                "label_index": "15193",
+                "label_index": "@P15193@\\*4",
                 "label_korean": "레벨4",
                 "group_id": "88594",
                 "req_frame_id": "266135",
@@ -419,13 +419,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "4",
-                "help_code": "19006",
+                "help_code": "@P19006@T.",
                 "help_korean": "라이트가 켜졌을 때 오디오 시스템 버튼의 점등 레벨을 정의한다."
             },
             {
                 "position": 14,
                 "mnemonic": "CFG_AI2_RADIO_TAB_ECL05_000",
-                "label_index": "15193",
+                "label_index": "@P15193@\\*5",
                 "label_korean": "레벨5",
                 "group_id": "88594",
                 "req_frame_id": "266135",
@@ -441,13 +441,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "5",
-                "help_code": "19006",
+                "help_code": "@P19006@T.",
                 "help_korean": "라이트가 켜졌을 때 오디오 시스템 버튼의 점등 레벨을 정의한다."
             },
             {
                 "position": 15,
                 "mnemonic": "CFG_AI4_RADIO_TAB_ECL06_000",
-                "label_index": "15193",
+                "label_index": "@P15193@\\*6",
                 "label_korean": "레벨6",
                 "group_id": "88594",
                 "req_frame_id": "266135",
@@ -463,13 +463,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "6",
-                "help_code": "19006",
+                "help_code": "@P19006@T.",
                 "help_korean": "라이트가 켜졌을 때 오디오 시스템 버튼의 점등 레벨을 정의한다."
             },
             {
                 "position": 16,
                 "mnemonic": "CFG_AI6_RADIO_TAB_ECL07_000",
-                "label_index": "15193",
+                "label_index": "@P15193@\\*7",
                 "label_korean": "레벨7",
                 "group_id": "88594",
                 "req_frame_id": "266135",
@@ -485,13 +485,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "7",
-                "help_code": "19006",
+                "help_code": "@P19006@T.",
                 "help_korean": "라이트가 켜졌을 때 오디오 시스템 버튼의 점등 레벨을 정의한다."
             },
             {
                 "position": 17,
                 "mnemonic": "CFG_AI8_RADIO_TAB_ECL08_000",
-                "label_index": "15193",
+                "label_index": "@P15193@\\*8",
                 "label_korean": "레벨8",
                 "group_id": "88594",
                 "req_frame_id": "266135",
@@ -507,13 +507,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "8",
-                "help_code": "19006",
+                "help_code": "@P19006@T.",
                 "help_korean": "라이트가 켜졌을 때 오디오 시스템 버튼의 점등 레벨을 정의한다."
             },
             {
                 "position": 18,
                 "mnemonic": "CFG_AIA_RADIO_TAB_ECL09_000",
-                "label_index": "15193",
+                "label_index": "@P15193@\\*9",
                 "label_korean": "레벨9",
                 "group_id": "88594",
                 "req_frame_id": "266135",
@@ -529,13 +529,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "9",
-                "help_code": "19006",
+                "help_code": "@P19006@T.",
                 "help_korean": "라이트가 켜졌을 때 오디오 시스템 버튼의 점등 레벨을 정의한다."
             },
             {
                 "position": 19,
                 "mnemonic": "CFG_AIC_RADIO_TAB_ECL10_000",
-                "label_index": "15193",
+                "label_index": "@P15193@\\*10",
                 "label_korean": "레벨10",
                 "group_id": "88594",
                 "req_frame_id": "266135",
@@ -551,13 +551,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "10",
-                "help_code": "19006",
+                "help_code": "@P19006@T.",
                 "help_korean": "라이트가 켜졌을 때 오디오 시스템 버튼의 점등 레벨을 정의한다."
             },
             {
                 "position": 20,
                 "mnemonic": "CFG_AIE_RADIO_TAB_ECL11_000",
-                "label_index": "15193",
+                "label_index": "@P15193@\\*11",
                 "label_korean": "레벨11",
                 "group_id": "88594",
                 "req_frame_id": "266135",
@@ -573,13 +573,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "11",
-                "help_code": "19006",
+                "help_code": "@P19006@T.",
                 "help_korean": "라이트가 켜졌을 때 오디오 시스템 버튼의 점등 레벨을 정의한다."
             },
             {
                 "position": 21,
                 "mnemonic": "CFG_AIG_RADIO_TAB_ECL12_000",
-                "label_index": "15193",
+                "label_index": "@P15193@\\*12",
                 "label_korean": "레벨12",
                 "group_id": "88594",
                 "req_frame_id": "266135",
@@ -595,13 +595,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "12",
-                "help_code": "19006",
+                "help_code": "@P19006@T.",
                 "help_korean": "라이트가 켜졌을 때 오디오 시스템 버튼의 점등 레벨을 정의한다."
             },
             {
                 "position": 22,
                 "mnemonic": "CFG_AII_RADIO_TAB_ECL13_000",
-                "label_index": "15193",
+                "label_index": "@P15193@\\*13",
                 "label_korean": "레벨13",
                 "group_id": "88594",
                 "req_frame_id": "266135",
@@ -617,13 +617,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "13",
-                "help_code": "19006",
+                "help_code": "@P19006@T.",
                 "help_korean": "라이트가 켜졌을 때 오디오 시스템 버튼의 점등 레벨을 정의한다."
             },
             {
                 "position": 23,
                 "mnemonic": "CFG_AIK_RADIO_TAB_ECL14_000",
-                "label_index": "15193",
+                "label_index": "@P15193@\\*14",
                 "label_korean": "레벨14",
                 "group_id": "88594",
                 "req_frame_id": "266135",
@@ -639,13 +639,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "14",
-                "help_code": "19006",
+                "help_code": "@P19006@T.",
                 "help_korean": "라이트가 켜졌을 때 오디오 시스템 버튼의 점등 레벨을 정의한다."
             },
             {
                 "position": 24,
                 "mnemonic": "CFG_AIM_RADIO_TAB_ECL15_000",
-                "label_index": "15193",
+                "label_index": "@P15193@\\*15",
                 "label_korean": "레벨15",
                 "group_id": "88594",
                 "req_frame_id": "266135",
@@ -661,13 +661,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "15",
-                "help_code": "19006",
+                "help_code": "@P19006@T.",
                 "help_korean": "라이트가 켜졌을 때 오디오 시스템 버튼의 점등 레벨을 정의한다."
             },
             {
                 "position": 25,
                 "mnemonic": "CFG_AIO_RADIO_TAB_ECL16_000",
-                "label_index": "15193",
+                "label_index": "@P15193@\\*16",
                 "label_korean": "레벨16",
                 "group_id": "88594",
                 "req_frame_id": "266135",
@@ -683,7 +683,7 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "16",
-                "help_code": "19006",
+                "help_code": "@P19006@T.",
                 "help_korean": "라이트가 켜졌을 때 오디오 시스템 버튼의 점등 레벨을 정의한다."
             }
         ]

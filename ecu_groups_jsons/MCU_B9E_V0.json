@@ -8,7 +8,7 @@
             {
                 "position": 1,
                 "mnemonic": "ID_NOM_DU_FOURNISSEUR",
-                "label_index": "5701",
+                "label_index": "@P5701",
                 "label_korean": "제조 업체명",
                 "group_id": "124135",
                 "req_frame_id": "372748",
@@ -38,7 +38,7 @@
             {
                 "position": 2,
                 "mnemonic": "ID_REFERENCE_MATERIEL",
-                "label_index": "1071",
+                "label_index": "@P1071",
                 "label_korean": "장치 부품 번호",
                 "group_id": "124135",
                 "req_frame_id": "372748",
@@ -60,7 +60,7 @@
             {
                 "position": 3,
                 "mnemonic": "ID_REFERENCE_LOGICIEL",
-                "label_index": "13263",
+                "label_index": "@P13263",
                 "label_korean": "소프트웨어 번호",
                 "group_id": "124136",
                 "req_frame_id": "372751",
@@ -82,7 +82,7 @@
             {
                 "position": 4,
                 "mnemonic": "ID_HARD",
-                "label_index": "12954",
+                "label_index": "@P12954",
                 "label_korean": "하드웨어 버전",
                 "group_id": "124135",
                 "req_frame_id": "372748",
@@ -104,7 +104,7 @@
             {
                 "position": 5,
                 "mnemonic": "ID_VERSION_DU_LOGICIEL",
-                "label_index": "8662",
+                "label_index": "@P8662",
                 "label_korean": "소프트웨어 버전",
                 "group_id": "124136",
                 "req_frame_id": "372751",
@@ -126,7 +126,7 @@
             {
                 "position": 6,
                 "mnemonic": "ID_VERSION_DIAGNOSTIC",
-                "label_index": "14029",
+                "label_index": "@P14029",
                 "label_korean": "진단 버전",
                 "group_id": "124136",
                 "req_frame_id": "372751",
@@ -148,7 +148,7 @@
             {
                 "position": 7,
                 "mnemonic": "ID_DATE_TELECH",
-                "label_index": "21670",
+                "label_index": "@P21670",
                 "label_korean": "다운로딩 날짜",
                 "group_id": "124139",
                 "req_frame_id": "372760",
@@ -170,7 +170,7 @@
             {
                 "position": 8,
                 "mnemonic": "ID_NOMBRE_DE_TELECHARGEMENT",
-                "label_index": "10072",
+                "label_index": "@P10072@\\*",
                 "label_korean": "다운로드의 수",
                 "group_id": "124146",
                 "req_frame_id": "372781",
@@ -192,7 +192,7 @@
             {
                 "position": 9,
                 "mnemonic": "MP_NUM_SERIE",
-                "label_index": "12519",
+                "label_index": "@P12519@\\*",
                 "label_korean": "일련 번호",
                 "group_id": "124147",
                 "req_frame_id": "372784",
@@ -222,7 +222,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_RECEPTION_NUMERO_VIN_EV_ECU",
-                "label_index": "48224",
+                "label_index": "@P48224",
                 "label_korean": "전기 차량 ECU에 의한 VIN 수신",
                 "group_id": "124141",
                 "req_frame_id": "372766",
@@ -241,13 +241,13 @@
                 "bit_mask": 16,
                 "bit_shift": 4,
                 "dynamic_arg": "",
-                "help_code": "33525, 48226, 48230, 48227, 48231",
-                "help_korean": "가능한\n- 상태들은 :\n- VIN 수신되지 않음 : 전기\n- 차량 ECU에 VIN 기록되지 않음\nVIN 수신 : 전기 차량 ECU에 VIN 기록"
+                "help_code": "@P33525@\\n@P48226@T : @P48230@\\n@P48227@T : @P48231",
+                "help_korean": "가능한 상태들은 :\nVIN 수신되지 않음 : 전기 차량 ECU에 VIN 기록되지 않음\nVIN 수신 : 전기 차량 ECU에 VIN 기록"
             },
             {
                 "position": 2,
                 "mnemonic": "MP_ENREGISTREMENT_NUMERO_VIN_MCU",
-                "label_index": "48225",
+                "label_index": "@P48225",
                 "label_korean": "전기 장치 제어 ECU에 VIN 기록",
                 "group_id": "124141",
                 "req_frame_id": "372766",
@@ -272,7 +272,7 @@
             {
                 "position": 3,
                 "mnemonic": "MP_TEMPERATURE_AIR_EXTERIEUR",
-                "label_index": "18932",
+                "label_index": "@P18932",
                 "label_korean": "외부 공기 온도",
                 "group_id": "124141",
                 "req_frame_id": "372766",
@@ -290,13 +290,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "33615",
+                "help_code": "@P33615",
                 "help_korean": "전동 기계 제어 ECU 내부 센서"
             },
             {
                 "position": 4,
                 "mnemonic": "MP_COUPLE_MOTEUR",
-                "label_index": "15080",
+                "label_index": "@P15080",
                 "label_korean": "엔진 토크",
                 "group_id": "124141",
                 "req_frame_id": "372766",
@@ -318,7 +318,7 @@
             {
                 "position": 5,
                 "mnemonic": "MP_REGIME_MOTEUR",
-                "label_index": "7917",
+                "label_index": "@P7917",
                 "label_korean": "엔진 속도",
                 "group_id": "124141",
                 "req_frame_id": "372766",
@@ -342,7 +342,7 @@
             {
                 "position": 6,
                 "mnemonic": "MP_TENSION_CONDENSATEUR",
-                "label_index": "21270",
+                "label_index": "@P21270",
                 "label_korean": "콘덴서 전압",
                 "group_id": "124141",
                 "req_frame_id": "372766",
@@ -364,7 +364,7 @@
             {
                 "position": 7,
                 "mnemonic": "MP_TEMPERATURE_CONDENSATEUR",
-                "label_index": "33601",
+                "label_index": "@P33601",
                 "label_korean": "콘덴서의 온도",
                 "group_id": "124141",
                 "req_frame_id": "372766",
@@ -380,13 +380,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "33615",
+                "help_code": "@P33615",
                 "help_korean": "전동 기계 제어 ECU 내부 센서"
             },
             {
                 "position": 8,
                 "mnemonic": "MP_TEMPERATURE_1_TRANSISTOR_PUISSANCE",
-                "label_index": "33610",
+                "label_index": "@P33610@\\*1",
                 "label_korean": "파워 트랜지스터의 온도1",
                 "group_id": "124141",
                 "req_frame_id": "372766",
@@ -402,13 +402,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "1",
-                "help_code": "33615",
+                "help_code": "@P33615",
                 "help_korean": "전동 기계 제어 ECU 내부 센서"
             },
             {
                 "position": 9,
                 "mnemonic": "MP_TEMPERATURE_2_TRANSISTOR_PUISSANCE",
-                "label_index": "33610",
+                "label_index": "@P33610@\\*2",
                 "label_korean": "파워 트랜지스터의 온도2",
                 "group_id": "124141",
                 "req_frame_id": "372766",
@@ -424,13 +424,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "2",
-                "help_code": "33615",
+                "help_code": "@P33615",
                 "help_korean": "전동 기계 제어 ECU 내부 센서"
             },
             {
                 "position": 10,
                 "mnemonic": "MP_TEMPERATURE_3_TRANSISTOR_PUISSANCE",
-                "label_index": "33610",
+                "label_index": "@P33610@\\*3",
                 "label_korean": "파워 트랜지스터의 온도3",
                 "group_id": "124141",
                 "req_frame_id": "372766",
@@ -446,13 +446,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "3",
-                "help_code": "33615",
+                "help_code": "@P33615",
                 "help_korean": "전동 기계 제어 ECU 내부 센서"
             },
             {
                 "position": 11,
                 "mnemonic": "MP_TEMPERATURE_ENTRE_MCU_ET_TRANSISTOR_PUISSANCE",
-                "label_index": "33613",
+                "label_index": "@P33613",
                 "label_korean": "전동 기계 ECU와 파워 트랜지스터간의 온도",
                 "group_id": "124141",
                 "req_frame_id": "372766",
@@ -468,13 +468,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "33615",
+                "help_code": "@P33615",
                 "help_korean": "전동 기계 제어 ECU 내부 센서"
             },
             {
                 "position": 12,
                 "mnemonic": "MP_TEMP_LIQUIDE_REFROIDISSEMENT_MACHINE_ELECTRIQUE_BORNE_U",
-                "label_index": "33614",
+                "label_index": "@P33614@\\*U",
                 "label_korean": "단자U에서 전동 기계 냉각수의 온도",
                 "group_id": "124141",
                 "req_frame_id": "372766",
@@ -496,7 +496,7 @@
             {
                 "position": 13,
                 "mnemonic": "MP_TEMP_LIQUIDE_REFROIDISSEMENT_MACHINE_ELECTRIQUE_BORNE_W",
-                "label_index": "33614",
+                "label_index": "@P33614@\\*W",
                 "label_korean": "단자W에서 전동 기계 냉각수의 온도",
                 "group_id": "124141",
                 "req_frame_id": "372766",
@@ -518,7 +518,7 @@
             {
                 "position": 14,
                 "mnemonic": "MP_MODE_CALCULATEUR",
-                "label_index": "21240",
+                "label_index": "@P21240",
                 "label_korean": "ECU 모드 상태",
                 "group_id": "124141",
                 "req_frame_id": "372766",
@@ -548,7 +548,7 @@
             {
                 "position": 1,
                 "mnemonic": "CA_KILOMETRAGE",
-                "label_index": "7845",
+                "label_index": "@P7845",
                 "label_korean": "주행거리",
                 "group_id": "124134",
                 "req_frame_id": "372745",
@@ -572,7 +572,7 @@
             {
                 "position": 2,
                 "mnemonic": "CA_DUREE_DE_FONCTIONNEMENT",
-                "label_index": "9024",
+                "label_index": "@P9024",
                 "label_korean": "작동 시간",
                 "group_id": "124134",
                 "req_frame_id": "372745",
@@ -594,7 +594,7 @@
             {
                 "position": 3,
                 "mnemonic": "CA_NB_DE_CYCLES_DE_FONCTIONNEMENT",
-                "label_index": "4028",
+                "label_index": "@P4028",
                 "label_korean": "작동 사이클 수",
                 "group_id": "124134",
                 "req_frame_id": "372745",
@@ -616,7 +616,7 @@
             {
                 "position": 4,
                 "mnemonic": "CA_COUPLE_MOTEUR_DEMANDE",
-                "label_index": "4149",
+                "label_index": "@P4149",
                 "label_korean": "요청된 엔진 토크",
                 "group_id": "124134",
                 "req_frame_id": "372745",
@@ -638,7 +638,7 @@
             {
                 "position": 5,
                 "mnemonic": "CA_REGIME_MOTEUR",
-                "label_index": "7917",
+                "label_index": "@P7917",
                 "label_korean": "엔진 속도",
                 "group_id": "124134",
                 "req_frame_id": "372745",
@@ -660,7 +660,7 @@
             {
                 "position": 6,
                 "mnemonic": "CA_TENSION_CONDENSATEUR",
-                "label_index": "21270",
+                "label_index": "@P21270",
                 "label_korean": "콘덴서 전압",
                 "group_id": "124134",
                 "req_frame_id": "372745",
@@ -682,7 +682,7 @@
             {
                 "position": 7,
                 "mnemonic": "CA_TEMPERATURE_D_AIR_EXTERIEUR",
-                "label_index": "18932",
+                "label_index": "@P18932",
                 "label_korean": "외부 공기 온도",
                 "group_id": "124134",
                 "req_frame_id": "372745",
@@ -704,7 +704,7 @@
             {
                 "position": 8,
                 "mnemonic": "CA_TEMPERATURE_ENTRE_MCU_ET_TRANSISTOR_PUISSANCE",
-                "label_index": "33613",
+                "label_index": "@P33613",
                 "label_korean": "전동 기계 ECU와 파워 트랜지스터간의 온도",
                 "group_id": "124134",
                 "req_frame_id": "372745",
@@ -726,7 +726,7 @@
             {
                 "position": 9,
                 "mnemonic": "CA_TEMPERATURE_CONDENSATEUR",
-                "label_index": "33601",
+                "label_index": "@P33601",
                 "label_korean": "콘덴서의 온도",
                 "group_id": "124134",
                 "req_frame_id": "372745",
@@ -748,7 +748,7 @@
             {
                 "position": 10,
                 "mnemonic": "CA_TEMPERATURE_1_TRANSISTOR_PUISSANCE",
-                "label_index": "33610",
+                "label_index": "@P33610@\\*1",
                 "label_korean": "파워 트랜지스터의 온도1",
                 "group_id": "124134",
                 "req_frame_id": "372745",
@@ -764,13 +764,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "1",
-                "help_code": "33615",
+                "help_code": "@P33615",
                 "help_korean": "전동 기계 제어 ECU 내부 센서"
             },
             {
                 "position": 11,
                 "mnemonic": "CA_TEMPERATURE_2_TRANSISTOR_PUISSANCE",
-                "label_index": "33610",
+                "label_index": "@P33610@\\*2",
                 "label_korean": "파워 트랜지스터의 온도2",
                 "group_id": "124134",
                 "req_frame_id": "372745",
@@ -786,13 +786,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "2",
-                "help_code": "33615",
+                "help_code": "@P33615",
                 "help_korean": "전동 기계 제어 ECU 내부 센서"
             },
             {
                 "position": 12,
                 "mnemonic": "CA_TEMPERATURE_3_TRANSISTOR_PUISSANCE",
-                "label_index": "33610",
+                "label_index": "@P33610@\\*3",
                 "label_korean": "파워 트랜지스터의 온도3",
                 "group_id": "124134",
                 "req_frame_id": "372745",
@@ -808,13 +808,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "3",
-                "help_code": "33615",
+                "help_code": "@P33615",
                 "help_korean": "전동 기계 제어 ECU 내부 센서"
             },
             {
                 "position": 13,
                 "mnemonic": "CA_TEMPERATURE_LIQUIDE_REFROIDISSEMENT_MACHINE_ELEC_BORNE_U",
-                "label_index": "33614",
+                "label_index": "@P33614@\\*U",
                 "label_korean": "단자U에서 전동 기계 냉각수의 온도",
                 "group_id": "124134",
                 "req_frame_id": "372745",
@@ -836,7 +836,7 @@
             {
                 "position": 14,
                 "mnemonic": "CA_TEMPERATURE_LIQUIDE_REFROIDISSEMENT_MACHINE_ELEC_BORNE_W",
-                "label_index": "33614",
+                "label_index": "@P33614@\\*W",
                 "label_korean": "단자W에서 전동 기계 냉각수의 온도",
                 "group_id": "124134",
                 "req_frame_id": "372745",
@@ -858,7 +858,7 @@
             {
                 "position": 15,
                 "mnemonic": "CA_POSITION_ANGULAIRE_MACHINE_ELECTRIQUE_TRACTION",
-                "label_index": "33612",
+                "label_index": "@P33612",
                 "label_korean": "전동 구동 기계의 각도 위치",
                 "group_id": "124134",
                 "req_frame_id": "372745",
@@ -880,7 +880,7 @@
             {
                 "position": 16,
                 "mnemonic": "CA_ETAT_MODE_CALCULATEUR",
-                "label_index": "21240",
+                "label_index": "@P21240",
                 "label_korean": "ECU 모드 상태",
                 "group_id": "124134",
                 "req_frame_id": "372745",

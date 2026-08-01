@@ -8,7 +8,7 @@
             {
                 "position": 1,
                 "mnemonic": "ID_CODE_ISO",
-                "label_index": "13988",
+                "label_index": "@P13988",
                 "label_korean": "ISO 번호",
                 "group_id": "29971",
                 "req_frame_id": "90196",
@@ -30,7 +30,7 @@
             {
                 "position": 2,
                 "mnemonic": "ID_REFERENCE_MATERIEL",
-                "label_index": "1071",
+                "label_index": "@P1071",
                 "label_korean": "장치 부품 번호",
                 "group_id": "29971",
                 "req_frame_id": "90196",
@@ -52,7 +52,7 @@
             {
                 "position": 3,
                 "mnemonic": "ID_HARD",
-                "label_index": "12954",
+                "label_index": "@P12954",
                 "label_korean": "하드웨어 버전",
                 "group_id": "29971",
                 "req_frame_id": "90196",
@@ -74,7 +74,7 @@
             {
                 "position": 4,
                 "mnemonic": "ID_REFERENCE_LOGICIEL",
-                "label_index": "13263",
+                "label_index": "@P13263",
                 "label_korean": "소프트웨어 번호",
                 "group_id": "29971",
                 "req_frame_id": "90196",
@@ -96,7 +96,7 @@
             {
                 "position": 5,
                 "mnemonic": "ID_TRACABILITE_INDICE_EVOLUTION_EDITION",
-                "label_index": "13235",
+                "label_index": "@P13235@\\*",
                 "label_korean": "소프트웨어 버전",
                 "group_id": "29971",
                 "req_frame_id": "90196",
@@ -118,7 +118,7 @@
             {
                 "position": 6,
                 "mnemonic": "ID_DATE_TELECH",
-                "label_index": "21670",
+                "label_index": "@P21670",
                 "label_korean": "다운로딩 날짜",
                 "group_id": "29970",
                 "req_frame_id": "90193",
@@ -148,7 +148,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_KILOMETRAGE_ODOMETRE",
-                "label_index": "61286",
+                "label_index": "@P61286",
                 "label_korean": "원래 VIN이 마지막으로 잠금 해제된 이후 주행한 거리(km)",
                 "group_id": "29982",
                 "req_frame_id": "90229",
@@ -164,13 +164,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "61287, 61288",
+                "help_code": "@P61287@\\*255@\\n@P61288@\\*5",
                 "help_korean": "최대 값은 255km이다\n원래 VIN은 255km 거리가 지나면 자동으로 잠긴다"
             },
             {
                 "position": 2,
                 "mnemonic": "MP_ETAT_VERROUILLAGE_VIN_ORIGINAL_ODOMETRE",
-                "label_index": "61284",
+                "label_index": "@P61284",
                 "label_korean": "주행 기록계를 기준으로 원래 VIN의 잠금 상태",
                 "group_id": "29982",
                 "req_frame_id": "90229",
@@ -197,7 +197,7 @@
             {
                 "position": 3,
                 "mnemonic": "MP_TENSION_BATTERIE",
-                "label_index": "27741",
+                "label_index": "@P27741",
                 "label_korean": "서비스 배터리 전압",
                 "group_id": "29973",
                 "req_frame_id": "90202",
@@ -221,7 +221,7 @@
             {
                 "position": 4,
                 "mnemonic": "MP_TEMPS_FONCTIONNEMENT_ECU",
-                "label_index": "20788",
+                "label_index": "@P20788",
                 "label_korean": "ECU 작동 시간",
                 "group_id": "29974",
                 "req_frame_id": "90205",
@@ -243,7 +243,7 @@
             {
                 "position": 5,
                 "mnemonic": "MP_TEMPS_DEPUIS_APC",
-                "label_index": "61219",
+                "label_index": "@P61219",
                 "label_korean": "점화 스위치가 켜진 후 경과된 시간",
                 "group_id": "29984",
                 "req_frame_id": "90235",
@@ -265,7 +265,7 @@
             {
                 "position": 6,
                 "mnemonic": "MP_ETAT_CONTACT_ENVOYE_BCM",
-                "label_index": "62400",
+                "label_index": "@P62400@\\*(BCM)",
                 "label_korean": "BSI에서 전송된 점화 스위치 켜짐 상태(BCM)",
                 "group_id": "29977",
                 "req_frame_id": "90214",
@@ -296,7 +296,7 @@
             {
                 "position": 7,
                 "mnemonic": "MP_POSITION_CLE",
-                "label_index": "6016",
+                "label_index": "@P6016",
                 "label_korean": "점화 키 위치",
                 "group_id": "29977",
                 "req_frame_id": "90214",
@@ -337,7 +337,7 @@
             {
                 "position": 8,
                 "mnemonic": "MP_KILOMETRAGE_TOTAL",
-                "label_index": "13763",
+                "label_index": "@P13763",
                 "label_korean": "주행한 총 거리",
                 "group_id": "29985",
                 "req_frame_id": "90238",
@@ -359,7 +359,7 @@
             {
                 "position": 9,
                 "mnemonic": "MP_KILOMETRAGE_VEHICULE_DERNIER_TELECHARGEMENT_DCSD",
-                "label_index": "63319",
+                "label_index": "@P63319@\\*(DCSD)",
                 "label_korean": "다기능 터치 스크린을 마지막으로 다운로드한 시점의 차량 주행 거리(DCSD)",
                 "group_id": "29979",
                 "req_frame_id": "90220",
@@ -381,7 +381,7 @@
             {
                 "position": 10,
                 "mnemonic": "MP_NOMBRE_DE_TELECHARGEMENTS",
-                "label_index": "24589",
+                "label_index": "@P24589",
                 "label_korean": "다운로드의 수",
                 "group_id": "29987",
                 "req_frame_id": "90244",
@@ -403,7 +403,7 @@
             {
                 "position": 11,
                 "mnemonic": "MP_TEMPS_FONCTIONNEMENT_ECU_EEPROM",
-                "label_index": "63323",
+                "label_index": "@P63323@\\*(DCSD)@\\*EEPROM",
                 "label_korean": "메모리에 있는 EEPROM 다기능 터치 스크린의 작동 시간(DCSD)",
                 "group_id": "29981",
                 "req_frame_id": "90226",
@@ -425,7 +425,7 @@
             {
                 "position": 12,
                 "mnemonic": "MP_TEMPS_DEPUIS_APC_EEPROM",
-                "label_index": "63317",
+                "label_index": "@P63317@\\*EEPROM",
                 "label_korean": "EEPROM 메모리에 있는 점화 스위치가 켜진 이후 경과 시간",
                 "group_id": "29975",
                 "req_frame_id": "90208",
@@ -447,7 +447,7 @@
             {
                 "position": 13,
                 "mnemonic": "MP_COMPT_MISE_CONTACT",
-                "label_index": "26655",
+                "label_index": "@P26655",
                 "label_korean": "키 ON 카운터",
                 "group_id": "29986",
                 "req_frame_id": "90241",
@@ -469,7 +469,7 @@
             {
                 "position": 14,
                 "mnemonic": "MP_TEMPS_APPAR_PREMIER_DEFAUT",
-                "label_index": "5744",
+                "label_index": "@P5744",
                 "label_korean": "첫번째 결함이 발생한 후 경과된 시간",
                 "group_id": "29978",
                 "req_frame_id": "90217",
@@ -491,7 +491,7 @@
             {
                 "position": 15,
                 "mnemonic": "MP_TEMPS_ECOULE_DEPUIS_PREMIER_APPAR_DEFAUT_APC",
-                "label_index": "62781",
+                "label_index": "@P62781",
                 "label_korean": "점화 스위치가 켜진 후 결함이 처음 나타난 이후 경과한 시간",
                 "group_id": "29976",
                 "req_frame_id": "90211",
@@ -513,7 +513,7 @@
             {
                 "position": 16,
                 "mnemonic": "MP_ETAT_VERROUILLAGE_VIN_ORIGINAL",
-                "label_index": "61282",
+                "label_index": "@P61282",
                 "label_korean": "원래 VIN 잠금 상태",
                 "group_id": "29983",
                 "req_frame_id": "90232",
@@ -539,7 +539,7 @@
             {
                 "position": 17,
                 "mnemonic": "MP_COMPT_VIRTUEL_VIEILLISSEMENT",
-                "label_index": "63324",
+                "label_index": "@P63324",
                 "label_korean": "가상 노화 카운터",
                 "group_id": "29980",
                 "req_frame_id": "90223",
@@ -561,7 +561,7 @@
             {
                 "position": 18,
                 "mnemonic": "MP_ETAT_PROGRAM_BOOT_SOFTWARE",
-                "label_index": "63759",
+                "label_index": "@P63759@\\*(boot Software)",
                 "label_korean": "Ã©tat de la programmation (boot Software)",
                 "group_id": "29988",
                 "req_frame_id": "90247",
@@ -586,7 +586,7 @@
             {
                 "position": 19,
                 "mnemonic": "MP_ETAT_PROGRAM_APPLICATION_SOFTWARE",
-                "label_index": "63759",
+                "label_index": "@P63759@\\*(application Software)",
                 "label_korean": "Ã©tat de la programmation (application Software)",
                 "group_id": "29988",
                 "req_frame_id": "90247",
@@ -611,7 +611,7 @@
             {
                 "position": 20,
                 "mnemonic": "MP_ETAT_PROGRAM_CALIBRATION_SOFTWARE",
-                "label_index": "63759",
+                "label_index": "@P63759@\\*(Calibration Software)",
                 "label_korean": "Ã©tat de la programmation (Calibration Software)",
                 "group_id": "29988",
                 "req_frame_id": "90247",
@@ -636,7 +636,7 @@
             {
                 "position": 21,
                 "mnemonic": "MP_ETAT_PROGRAM_TRANSFERT_DONNEES_ERRONEES",
-                "label_index": "63759",
+                "label_index": "@P63759@\\*(@P63755@T)",
                 "label_korean": "Ã©tat de la programmation (transfert de donnÃ©es erronÃ©es)",
                 "group_id": "29988",
                 "req_frame_id": "90247",
@@ -661,7 +661,7 @@
             {
                 "position": 22,
                 "mnemonic": "MP_ETAT_PROGRAM_TRANSFERT_DONNEES_INCOMPATIBLES",
-                "label_index": "63759",
+                "label_index": "@P63759@\\*(@P63754@T)",
                 "label_korean": "Ã©tat de la programmation (transfert de donnÃ©es incompatibles)",
                 "group_id": "29988",
                 "req_frame_id": "90247",
@@ -694,7 +694,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_TEMPS_FONCTIONNEMENT_ECU",
-                "label_index": "20788",
+                "label_index": "@P20788",
                 "label_korean": "ECU 작동 시간",
                 "group_id": "29974",
                 "req_frame_id": "90205",
@@ -716,7 +716,7 @@
             {
                 "position": 2,
                 "mnemonic": "MP_TEMPS_DEPUIS_APC",
-                "label_index": "61219",
+                "label_index": "@P61219",
                 "label_korean": "점화 스위치가 켜진 후 경과된 시간",
                 "group_id": "29984",
                 "req_frame_id": "90235",
@@ -738,7 +738,7 @@
             {
                 "position": 3,
                 "mnemonic": "MP_ETAT_CONTACT_ENVOYE_BCM",
-                "label_index": "62400",
+                "label_index": "@P62400@\\*(BCM)",
                 "label_korean": "BSI에서 전송된 점화 스위치 켜짐 상태(BCM)",
                 "group_id": "29977",
                 "req_frame_id": "90214",
@@ -769,7 +769,7 @@
             {
                 "position": 4,
                 "mnemonic": "MP_POSITION_CLE",
-                "label_index": "6016",
+                "label_index": "@P6016",
                 "label_korean": "점화 키 위치",
                 "group_id": "29977",
                 "req_frame_id": "90214",
@@ -810,7 +810,7 @@
             {
                 "position": 5,
                 "mnemonic": "MP_COMPT_MISE_CONTACT",
-                "label_index": "26655",
+                "label_index": "@P26655",
                 "label_korean": "키 ON 카운터",
                 "group_id": "29986",
                 "req_frame_id": "90241",

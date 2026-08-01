@@ -8,7 +8,7 @@
             {
                 "position": 1,
                 "mnemonic": "ID_NOM_DU_FOURNISSEUR",
-                "label_index": "5701",
+                "label_index": "@P5701",
                 "label_korean": "제조 업체명",
                 "group_id": "48464",
                 "req_frame_id": "145691",
@@ -38,7 +38,7 @@
             {
                 "position": 2,
                 "mnemonic": "ID_REFERENCE_MATERIEL",
-                "label_index": "1071",
+                "label_index": "@P1071",
                 "label_korean": "장치 부품 번호",
                 "group_id": "48464",
                 "req_frame_id": "145691",
@@ -60,7 +60,7 @@
             {
                 "position": 3,
                 "mnemonic": "ID_REFERENCE_COMPLEMENTAIRE_MATERIEL",
-                "label_index": "1634",
+                "label_index": "@P1634",
                 "label_korean": "장치 추가 참조 번호",
                 "group_id": "48464",
                 "req_frame_id": "145691",
@@ -82,7 +82,7 @@
             {
                 "position": 4,
                 "mnemonic": "ID_REFERENCE_LOGICIEL",
-                "label_index": "13263",
+                "label_index": "@P13263",
                 "label_korean": "소프트웨어 번호",
                 "group_id": "48465",
                 "req_frame_id": "145694",
@@ -104,7 +104,7 @@
             {
                 "position": 5,
                 "mnemonic": "ID_TRACABILITE_INDICE_EVOLUTION_EDITION",
-                "label_index": "24601",
+                "label_index": "@P24601",
                 "label_korean": "소프트웨어 버전",
                 "group_id": "48465",
                 "req_frame_id": "145694",
@@ -126,7 +126,7 @@
             {
                 "position": 6,
                 "mnemonic": "ID_DATE_TELECH",
-                "label_index": "21670",
+                "label_index": "@P21670",
                 "label_korean": "다운로딩 날짜",
                 "group_id": "48465",
                 "req_frame_id": "145694",
@@ -148,7 +148,7 @@
             {
                 "position": 7,
                 "mnemonic": "ID_NOMBRE_DE_TELECHARGEMENT",
-                "label_index": "24589",
+                "label_index": "@P24589",
                 "label_korean": "다운로드의 수",
                 "group_id": "48465",
                 "req_frame_id": "145694",
@@ -170,7 +170,7 @@
             {
                 "position": 8,
                 "mnemonic": "ID_TRACABILITE_NUMERO_DE_SERIE_PIECE",
-                "label_index": "7592",
+                "label_index": "@F7592",
                 "label_korean": "부품 일련 번호",
                 "group_id": "매핑_누락",
                 "req_frame_id": "",
@@ -230,7 +230,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_TENSION_ALIMENTATION_CALCULATEUR",
-                "label_index": "14064",
+                "label_index": "@P14064",
                 "label_korean": "제어 장치 공급 전압",
                 "group_id": "48470",
                 "req_frame_id": "145709",
@@ -254,7 +254,7 @@
             {
                 "position": 2,
                 "mnemonic": "MP_DEMANDE_INHIBITION_RVV",
-                "label_index": "31687",
+                "label_index": "@P31687",
                 "label_korean": "크루즈 컨트롤 및 스피드 리미터 기능 차단 요청",
                 "group_id": "48472",
                 "req_frame_id": "145715",
@@ -273,13 +273,13 @@
                 "bit_mask": 1,
                 "bit_shift": 0,
                 "dynamic_arg": "",
-                "help_code": "2785",
+                "help_code": "@F2785",
                 "help_korean": "이 변수는 기능을 사용할 수 있을 경우 작동한다"
             },
             {
                 "position": 3,
                 "mnemonic": "MP_ACQUITTEMENT_MOTEUR",
-                "label_index": "5542",
+                "label_index": "@P5542",
                 "label_korean": "엔진 인식",
                 "group_id": "48473",
                 "req_frame_id": "145718",
@@ -300,13 +300,13 @@
                 "bit_mask": 1,
                 "bit_shift": 0,
                 "dynamic_arg": "",
-                "help_code": "16125",
+                "help_code": "@P16125@T.",
                 "help_korean": "엔진 ECU와 ESP간의 통신을 점검하는 데 사용된 정보."
             },
             {
                 "position": 4,
                 "mnemonic": "MP_COUPLE_REEL",
-                "label_index": "13829",
+                "label_index": "@P13829",
                 "label_korean": "실제 토크",
                 "group_id": "48474",
                 "req_frame_id": "145721",
@@ -324,7 +324,7 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "24932, 36694",
+                "help_code": "@P24932@T.@\\n@F36694",
                 "help_korean": "엔진에 적용된 토크.\n이 테스트는 테스트 주행을 필요로 한다"
             }
         ]
@@ -338,7 +338,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_VITESSE_VEHICULE",
-                "label_index": "9267",
+                "label_index": "@F9267",
                 "label_korean": "차량 속도",
                 "group_id": "48475",
                 "req_frame_id": "145724",
@@ -364,7 +364,7 @@
             {
                 "position": 2,
                 "mnemonic": "MP_VITESSE_ROUE_ARRIERE_GAUCHE",
-                "label_index": "3744",
+                "label_index": "@P3744",
                 "label_korean": "리어 좌측 휠 속도",
                 "group_id": "48476",
                 "req_frame_id": "145727",
@@ -388,7 +388,7 @@
             {
                 "position": 3,
                 "mnemonic": "MP_VITESSE_ROUE_ARRIERE_DROITE",
-                "label_index": "11915",
+                "label_index": "@P11915",
                 "label_korean": "리어 우측 휠 속도",
                 "group_id": "48477",
                 "req_frame_id": "145730",
@@ -412,7 +412,7 @@
             {
                 "position": 4,
                 "mnemonic": "MP_VITESSE_ROUE_AVANT_GAUCHE",
-                "label_index": "11831",
+                "label_index": "@P11831",
                 "label_korean": "프론트 좌측 휠 속도",
                 "group_id": "48478",
                 "req_frame_id": "145733",
@@ -436,7 +436,7 @@
             {
                 "position": 5,
                 "mnemonic": "MP_VITESSE_ROUE_AVANT_DROIT",
-                "label_index": "4748",
+                "label_index": "@P4748",
                 "label_korean": "프론트 우측 휠 속도",
                 "group_id": "48479",
                 "req_frame_id": "145736",
@@ -460,7 +460,7 @@
             {
                 "position": 6,
                 "mnemonic": "MP_SENS_ROULAGE_ARD",
-                "label_index": "31697",
+                "label_index": "@P31697",
                 "label_korean": "리어 우측 휠의 이동 방향",
                 "group_id": "48480",
                 "req_frame_id": "145739",
@@ -480,13 +480,13 @@
                 "bit_mask": 1,
                 "bit_shift": 0,
                 "dynamic_arg": "",
-                "help_code": "48816",
+                "help_code": "@P48816",
                 "help_korean": "이 변수는 반자동 주차 기능이 있을 때만 작동한다"
             },
             {
                 "position": 7,
                 "mnemonic": "MP_SENS_ROULAGE_ARG",
-                "label_index": "31698",
+                "label_index": "@P31698",
                 "label_korean": "리어 좌측 휠의 이동 방향",
                 "group_id": "48481",
                 "req_frame_id": "145742",
@@ -506,13 +506,13 @@
                 "bit_mask": 1,
                 "bit_shift": 0,
                 "dynamic_arg": "",
-                "help_code": "48816",
+                "help_code": "@P48816",
                 "help_korean": "이 변수는 반자동 주차 기능이 있을 때만 작동한다"
             },
             {
                 "position": 8,
                 "mnemonic": "MP_VALIDITE_SENS_ROULAGE_ARD",
-                "label_index": "60084",
+                "label_index": "@P60084",
                 "label_korean": "리어 우측 휠 이동 방향의 유효성",
                 "group_id": "매핑_누락",
                 "req_frame_id": "",
@@ -532,13 +532,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "48816",
+                "help_code": "@P48816",
                 "help_korean": "이 변수는 반자동 주차 기능이 있을 때만 작동한다"
             },
             {
                 "position": 9,
                 "mnemonic": "MP_VALIDITE_SENS_ROULAGE_ARG",
-                "label_index": "60085",
+                "label_index": "@P60085",
                 "label_korean": "리어 좌측 휠 이동 방향의 유효성",
                 "group_id": "매핑_누락",
                 "req_frame_id": "",
@@ -558,7 +558,7 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "48816",
+                "help_code": "@P48816",
                 "help_korean": "이 변수는 반자동 주차 기능이 있을 때만 작동한다"
             }
         ]
@@ -572,7 +572,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_ETAT_DU_FREINAGE",
-                "label_index": "15190",
+                "label_index": "@P15190",
                 "label_korean": "제동 상태",
                 "group_id": "48482",
                 "req_frame_id": "145745",
@@ -599,13 +599,13 @@
                 "bit_mask": 3,
                 "bit_shift": 0,
                 "dynamic_arg": "",
-                "help_code": "",
+                "help_code": "@T",
                 "help_korean": ""
             },
             {
                 "position": 2,
                 "mnemonic": "MP_CONTACTEUR_FEUX_STOP",
-                "label_index": "12701",
+                "label_index": "@P12701",
                 "label_korean": "제동등 스위치",
                 "group_id": "48483",
                 "req_frame_id": "145748",
@@ -626,13 +626,13 @@
                 "bit_mask": 1,
                 "bit_shift": 0,
                 "dynamic_arg": "",
-                "help_code": "",
+                "help_code": "@T",
                 "help_korean": ""
             },
             {
                 "position": 3,
                 "mnemonic": "MP_PRESSION_DE_FREINAGE",
-                "label_index": "9084",
+                "label_index": "@P9084",
                 "label_korean": "제동 압력",
                 "group_id": "48484",
                 "req_frame_id": "145751",
@@ -656,7 +656,7 @@
             {
                 "position": 4,
                 "mnemonic": "MP_ETAT_RELAIS_ALIMENTATION_EV",
-                "label_index": "5399",
+                "label_index": "@P5399",
                 "label_korean": "솔레노이드 밸브 전원 릴레이 상태",
                 "group_id": "48485",
                 "req_frame_id": "145754",
@@ -678,13 +678,13 @@
                 "bit_mask": 1,
                 "bit_shift": 0,
                 "dynamic_arg": "",
-                "help_code": "",
+                "help_code": "@T",
                 "help_korean": ""
             },
             {
                 "position": 5,
                 "mnemonic": "MP_ETAT_RELAIS_POMPE_RECIRCULATION",
-                "label_index": "10518",
+                "label_index": "@P10518",
                 "label_korean": "재순환 펌프 릴레이의 상태",
                 "group_id": "48486",
                 "req_frame_id": "145757",
@@ -704,7 +704,7 @@
                 "bit_mask": 1,
                 "bit_shift": 0,
                 "dynamic_arg": "",
-                "help_code": "",
+                "help_code": "@T",
                 "help_korean": ""
             }
         ]
@@ -718,7 +718,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_VITESSE_ANGLE_LACET_2",
-                "label_index": "7157",
+                "label_index": "@P7157",
                 "label_korean": "요잉 각도 속도",
                 "group_id": "48487",
                 "req_frame_id": "145760",
@@ -743,7 +743,7 @@
             {
                 "position": 2,
                 "mnemonic": "MP_ACCELERATION_TRANSVERSALE",
-                "label_index": "13706",
+                "label_index": "@P13706",
                 "label_korean": "횡가속도",
                 "group_id": "48488",
                 "req_frame_id": "145763",
@@ -768,7 +768,7 @@
             {
                 "position": 3,
                 "mnemonic": "MP_ACCELERATION_LONGITUDINALE",
-                "label_index": "3354",
+                "label_index": "@P3354",
                 "label_korean": "종가속도",
                 "group_id": "48489",
                 "req_frame_id": "145766",
@@ -786,7 +786,7 @@
                 "bit_mask": 4095,
                 "bit_shift": 0,
                 "dynamic_arg": "",
-                "help_code": "32258",
+                "help_code": "@P32258",
                 "help_korean": "자이로미터/가속도계 센서에 의해 측정된 가속"
             }
         ]
@@ -800,7 +800,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_ETAT_CAPTEUR_ANGLE_VOLANT_DIRECTION",
-                "label_index": "14189",
+                "label_index": "@P14189",
                 "label_korean": "스티어링 휠 앵글 센서 상태",
                 "group_id": "48490",
                 "req_frame_id": "145769",
@@ -822,13 +822,13 @@
                 "bit_mask": 1,
                 "bit_shift": 0,
                 "dynamic_arg": "",
-                "help_code": "48817",
+                "help_code": "@P48817",
                 "help_korean": "이 변수는 스티어링 센서가 있을 때만 작동한다"
             },
             {
                 "position": 2,
                 "mnemonic": "MP_CALIBRATION_DU_CAPTEUR_ANGLE_VOLANT_DE_DIRECTION",
-                "label_index": "5796",
+                "label_index": "@P5796",
                 "label_korean": "스티어링 휠 앵글 센서의 캘리브레이션",
                 "group_id": "48491",
                 "req_frame_id": "145772",
@@ -850,13 +850,13 @@
                 "bit_mask": 1,
                 "bit_shift": 0,
                 "dynamic_arg": "",
-                "help_code": "48817",
+                "help_code": "@P48817",
                 "help_korean": "이 변수는 스티어링 센서가 있을 때만 작동한다"
             },
             {
                 "position": 3,
                 "mnemonic": "MP_AJUSTEMENT_CAPTEUR_ANGLE_VOLANT_DE_DIRECTION",
-                "label_index": "8545",
+                "label_index": "@P8545",
                 "label_korean": "스티어링 휠 앵글 센서의 조정",
                 "group_id": "48492",
                 "req_frame_id": "145775",
@@ -878,13 +878,13 @@
                 "bit_mask": 1,
                 "bit_shift": 0,
                 "dynamic_arg": "",
-                "help_code": "48817",
+                "help_code": "@P48817",
                 "help_korean": "이 변수는 스티어링 센서가 있을 때만 작동한다"
             },
             {
                 "position": 4,
                 "mnemonic": "MP_CONTROLE_INFORMATION_VITES_ANGLE_VOLANT_PAR_ESP",
-                "label_index": "779",
+                "label_index": "@P779",
                 "label_korean": "ESP에 의한 스티어링 휠 속도 및 앵글 정보 점검",
                 "group_id": "48493",
                 "req_frame_id": "145778",
@@ -904,13 +904,13 @@
                 "bit_mask": 1,
                 "bit_shift": 0,
                 "dynamic_arg": "",
-                "help_code": "",
+                "help_code": "@T",
                 "help_korean": ""
             },
             {
                 "position": 5,
                 "mnemonic": "MP_ANGLE_VOLANT",
-                "label_index": "1274",
+                "label_index": "@P1274",
                 "label_korean": "스티어링 휠 앵글",
                 "group_id": "48494",
                 "req_frame_id": "145781",
@@ -928,13 +928,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "32313, 32314, 32315, 32316, 32317",
-                "help_korean": "반자동 주차 시스템이 장착되지 않은 차량\nESP ECU에 의해서 제공되는 스티어링 휠 앵글 값은 키를 OFF할 때마다 0으로 리셋된다\nESP ECU만 스티어링 휠 앵글의 변화를\n- 제공한다\n스티어링 휠 앵글 정보를 리셋하기 위해서 : 40km/h 이상의 속도로 주행한다"
+                "help_code": "@P32313@\\n@P32314@\\n@P32315@\\n@P32316@T : @P32317@\\*40",
+                "help_korean": "반자동 주차 시스템이 장착되지 않은 차량\nESP ECU에 의해서 제공되는 스티어링 휠 앵글 값은 키를 OFF할 때마다 0으로 리셋된다\nESP ECU만 스티어링 휠 앵글의 변화를 제공한다\n스티어링 휠 앵글 정보를 리셋하기 위해서 : 40km/h 이상의 속도로 주행한다"
             },
             {
                 "position": 6,
                 "mnemonic": "MP_CONTROLE_INFO_ANGLE_VOLANT",
-                "label_index": "6655",
+                "label_index": "@P6655",
                 "label_korean": "ESP에 의한 스티어링 휠 앵글 모니터링",
                 "group_id": "48495",
                 "req_frame_id": "145784",
@@ -954,7 +954,7 @@
                 "bit_mask": 1,
                 "bit_shift": 0,
                 "dynamic_arg": "",
-                "help_code": "",
+                "help_code": "@T",
                 "help_korean": ""
             }
         ]
@@ -968,7 +968,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_ETAT_ASSISTANCE_DECOLLAGE_COTE",
-                "label_index": "31704",
+                "label_index": "@P31704",
                 "label_korean": "힐 스타트 어시스턴스 기능의 상태",
                 "group_id": "48496",
                 "req_frame_id": "145787",
@@ -991,13 +991,13 @@
                 "bit_mask": 3,
                 "bit_shift": 0,
                 "dynamic_arg": "",
-                "help_code": "",
+                "help_code": "@T",
                 "help_korean": ""
             },
             {
                 "position": 2,
                 "mnemonic": "MP_POSITION_PEDALE_D_EMBRAYAGE",
-                "label_index": "17358",
+                "label_index": "@P17358",
                 "label_korean": "클러치 페달의 위치",
                 "group_id": "48497",
                 "req_frame_id": "145790",
@@ -1016,13 +1016,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "",
+                "help_code": "@T",
                 "help_korean": ""
             },
             {
                 "position": 3,
                 "mnemonic": "MP_ETAT_SERRAGE_AUTOMATIQUE_FSE",
-                "label_index": "33324",
+                "label_index": "@P33324",
                 "label_korean": "전동 주차 브레이크 자동 체결 기능 상태",
                 "group_id": "48498",
                 "req_frame_id": "145793",
@@ -1049,7 +1049,7 @@
             {
                 "position": 4,
                 "mnemonic": "MP_ETAT_BOUTON_FREIN_SECONDAIRE_ELECTRIQUE",
-                "label_index": "16053",
+                "label_index": "@P16053",
                 "label_korean": "전동 주차 브레이크 버튼 상태",
                 "group_id": "48499",
                 "req_frame_id": "145796",
@@ -1080,13 +1080,13 @@
                 "bit_mask": 7,
                 "bit_shift": 0,
                 "dynamic_arg": "",
-                "help_code": "",
+                "help_code": "@T",
                 "help_korean": ""
             },
             {
                 "position": 5,
                 "mnemonic": "MP_ETAT_FREIN_STATIONNEMENT_A_COMMANDE_ELECTRIQUE",
-                "label_index": "15989",
+                "label_index": "@P15989",
                 "label_korean": "전동 주차 브레이크 상태",
                 "group_id": "48500",
                 "req_frame_id": "145799",
@@ -1123,13 +1123,13 @@
                 "bit_mask": 7,
                 "bit_shift": 0,
                 "dynamic_arg": "",
-                "help_code": "",
+                "help_code": "@T",
                 "help_korean": ""
             },
             {
                 "position": 6,
                 "mnemonic": "MP_NIVEAU_EFFORT_CIBLE_DROIT_GAUCHE_ETRIERS",
-                "label_index": "31690",
+                "label_index": "@P31690",
                 "label_korean": "전동 캘리퍼 우측 및 좌측 목표물 장력 레벨",
                 "group_id": "48501",
                 "req_frame_id": "145802",
@@ -1151,7 +1151,7 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "32254",
+                "help_code": "@P32254@\\*18",
                 "help_korean": "18% 이상의 경사도에서 재-체결 장력은 자동이다"
             }
         ]
@@ -1165,7 +1165,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_ETAT_ASSISTANCE_DECOLLAGE_COTE",
-                "label_index": "31704",
+                "label_index": "@P31704",
                 "label_korean": "힐 스타트 어시스턴스 기능의 상태",
                 "group_id": "48496",
                 "req_frame_id": "145787",
@@ -1188,13 +1188,13 @@
                 "bit_mask": 3,
                 "bit_shift": 0,
                 "dynamic_arg": "",
-                "help_code": "",
+                "help_code": "@T",
                 "help_korean": ""
             },
             {
                 "position": 2,
                 "mnemonic": "MP_POSITION_PEDALE_D_EMBRAYAGE",
-                "label_index": "17358",
+                "label_index": "@P17358",
                 "label_korean": "클러치 페달의 위치",
                 "group_id": "48497",
                 "req_frame_id": "145790",
@@ -1213,13 +1213,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "",
+                "help_code": "@T",
                 "help_korean": ""
             },
             {
                 "position": 3,
                 "mnemonic": "MP_ETAT_BOUTON_FREIN_SECONDAIRE_ELECTRIQUE",
-                "label_index": "16053",
+                "label_index": "@P16053",
                 "label_korean": "전동 주차 브레이크 버튼 상태",
                 "group_id": "48499",
                 "req_frame_id": "145796",
@@ -1250,13 +1250,13 @@
                 "bit_mask": 7,
                 "bit_shift": 0,
                 "dynamic_arg": "",
-                "help_code": "",
+                "help_code": "@T",
                 "help_korean": ""
             },
             {
                 "position": 4,
                 "mnemonic": "MP_ETAT_FREIN_STATIONNEMENT_A_COMMANDE_ELECTRIQUE",
-                "label_index": "15989",
+                "label_index": "@P15989",
                 "label_korean": "전동 주차 브레이크 상태",
                 "group_id": "48500",
                 "req_frame_id": "145799",
@@ -1293,7 +1293,7 @@
                 "bit_mask": 7,
                 "bit_shift": 0,
                 "dynamic_arg": "",
-                "help_code": "",
+                "help_code": "@T",
                 "help_korean": ""
             }
         ]
@@ -1307,7 +1307,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_ETAT_ASSISTANCE_DECOLLAGE_COTE",
-                "label_index": "31704",
+                "label_index": "@P31704",
                 "label_korean": "힐 스타트 어시스턴스 기능의 상태",
                 "group_id": "48496",
                 "req_frame_id": "145787",
@@ -1330,13 +1330,13 @@
                 "bit_mask": 3,
                 "bit_shift": 0,
                 "dynamic_arg": "",
-                "help_code": "",
+                "help_code": "@T",
                 "help_korean": ""
             },
             {
                 "position": 2,
                 "mnemonic": "MP_POSITION_PEDALE_D_EMBRAYAGE",
-                "label_index": "17358",
+                "label_index": "@P17358",
                 "label_korean": "클러치 페달의 위치",
                 "group_id": "48497",
                 "req_frame_id": "145790",
@@ -1355,13 +1355,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "",
+                "help_code": "@T",
                 "help_korean": ""
             },
             {
                 "position": 3,
                 "mnemonic": "MP_ETAT_SERRAGE_AUTOMATIQUE_FSE",
-                "label_index": "33324",
+                "label_index": "@P33324",
                 "label_korean": "전동 주차 브레이크 자동 체결 기능 상태",
                 "group_id": "48498",
                 "req_frame_id": "145793",
@@ -1388,7 +1388,7 @@
             {
                 "position": 4,
                 "mnemonic": "MP_ETAT_BOUTON_FREIN_SECONDAIRE_ELECTRIQUE",
-                "label_index": "16053",
+                "label_index": "@P16053",
                 "label_korean": "전동 주차 브레이크 버튼 상태",
                 "group_id": "48499",
                 "req_frame_id": "145796",
@@ -1419,13 +1419,13 @@
                 "bit_mask": 7,
                 "bit_shift": 0,
                 "dynamic_arg": "",
-                "help_code": "",
+                "help_code": "@T",
                 "help_korean": ""
             },
             {
                 "position": 5,
                 "mnemonic": "MP_ETAT_FREIN_STATIONNEMENT_A_COMMANDE_ELECTRIQUE",
-                "label_index": "15989",
+                "label_index": "@P15989",
                 "label_korean": "전동 주차 브레이크 상태",
                 "group_id": "48500",
                 "req_frame_id": "145799",
@@ -1462,13 +1462,13 @@
                 "bit_mask": 7,
                 "bit_shift": 0,
                 "dynamic_arg": "",
-                "help_code": "",
+                "help_code": "@T",
                 "help_korean": ""
             },
             {
                 "position": 6,
                 "mnemonic": "MP_NIVEAU_EFFORT_CIBLE_DROIT_GAUCHE_ETRIERS",
-                "label_index": "31690",
+                "label_index": "@P31690",
                 "label_korean": "전동 캘리퍼 우측 및 좌측 목표물 장력 레벨",
                 "group_id": "48501",
                 "req_frame_id": "145802",
@@ -1490,7 +1490,7 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "32254",
+                "help_code": "@P32254@\\*18",
                 "help_korean": "18% 이상의 경사도에서 재-체결 장력은 자동이다"
             }
         ]
@@ -1504,7 +1504,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_PRESENCE_FONCTION_DSGI",
-                "label_index": "32417",
+                "label_index": "@P32417",
                 "label_korean": "간접식 타이어 공기압 감지 기능 존재",
                 "group_id": "48502",
                 "req_frame_id": "145805",
@@ -1528,13 +1528,13 @@
                 "bit_mask": 1,
                 "bit_shift": 0,
                 "dynamic_arg": "",
-                "help_code": "",
+                "help_code": "@T",
                 "help_korean": ""
             },
             {
                 "position": 2,
                 "mnemonic": "MP_ETAT_FONCTIONNEMENT_DSG",
-                "label_index": "13510",
+                "label_index": "@P13510",
                 "label_korean": "타이어 공기압 감지 기능의 상태",
                 "group_id": "48503",
                 "req_frame_id": "145808",
@@ -1553,13 +1553,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "",
+                "help_code": "@T",
                 "help_korean": ""
             },
             {
                 "position": 3,
                 "mnemonic": "MP_ETAT_GENERAL_DSG",
-                "label_index": "9712",
+                "label_index": "@P9712",
                 "label_korean": "타이어 공기압 감지 시스템의 전반전인 상태",
                 "group_id": "48504",
                 "req_frame_id": "145811",
@@ -1591,13 +1591,13 @@
                 "bit_mask": 7,
                 "bit_shift": 0,
                 "dynamic_arg": "",
-                "help_code": "",
+                "help_code": "@T",
                 "help_korean": ""
             },
             {
                 "position": 4,
                 "mnemonic": "MP_CHARGE_VEHICULE_FONCTION_DSG",
-                "label_index": "31699",
+                "label_index": "@P31699",
                 "label_korean": "타이어 공기압 감지 기능에 의해 추정된 차량 부하",
                 "group_id": "48505",
                 "req_frame_id": "145814",
@@ -1623,13 +1623,13 @@
                 "bit_mask": 7,
                 "bit_shift": 0,
                 "dynamic_arg": "",
-                "help_code": "",
+                "help_code": "@T",
                 "help_korean": ""
             },
             {
                 "position": 5,
                 "mnemonic": "MP_VITESSE_VEHICULE_ESTIMEE_DSG",
-                "label_index": "31691",
+                "label_index": "@P31691",
                 "label_korean": "타이어 공기압 감지 기능에 의해 추정된 차량 속도",
                 "group_id": "48506",
                 "req_frame_id": "145817",
@@ -1647,13 +1647,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "",
+                "help_code": "@T",
                 "help_korean": ""
             },
             {
                 "position": 6,
                 "mnemonic": "MP_TEMPERATURE_AIR_EXTERIEUR",
-                "label_index": "11513",
+                "label_index": "@P11513",
                 "label_korean": "외부 공기 온도",
                 "group_id": "48507",
                 "req_frame_id": "145820",
@@ -1671,13 +1671,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "49440",
+                "help_code": "@P49440",
                 "help_korean": "이 PM은 간접 타이어 공기압 감지 기능이 제공될 때만 작동한다"
             },
             {
                 "position": 7,
                 "mnemonic": "MP_POURCENTAGE_NIVEAU_DETECTION_DSG",
-                "label_index": "31686",
+                "label_index": "@P31686",
                 "label_korean": "타이어 공기압 감지 기능의 프로그래밍 레벨 퍼센트",
                 "group_id": "48508",
                 "req_frame_id": "145823",
@@ -1695,13 +1695,13 @@
                 "bit_mask": 15,
                 "bit_shift": 0,
                 "dynamic_arg": "",
-                "help_code": "",
+                "help_code": "@T",
                 "help_korean": ""
             },
             {
                 "position": 8,
                 "mnemonic": "MP_DISTANCE_DEPUIS_DERNIERE_RAZ_DSG",
-                "label_index": "31685",
+                "label_index": "@P31685",
                 "label_korean": "마지막 타이어 공기압 감지 기능 리셋 이후 거리",
                 "group_id": "48509",
                 "req_frame_id": "145826",
@@ -1717,13 +1717,13 @@
                 "bit_mask": 4095,
                 "bit_shift": 0,
                 "dynamic_arg": "",
-                "help_code": "",
+                "help_code": "@T",
                 "help_korean": ""
             },
             {
                 "position": 9,
                 "mnemonic": "MP_DISTANCE_DEPUIS_DERNIERE_ALERTE_DSG",
-                "label_index": "31700",
+                "label_index": "@P31700",
                 "label_korean": "마지막 타이어 감지 기능 경고가 시작된 후 거리",
                 "group_id": "48510",
                 "req_frame_id": "145829",
@@ -1741,13 +1741,13 @@
                 "bit_mask": 4095,
                 "bit_shift": 0,
                 "dynamic_arg": "",
-                "help_code": "",
+                "help_code": "@T",
                 "help_korean": ""
             },
             {
                 "position": 10,
                 "mnemonic": "MP_PROBABILITE_SOUS_GONFLAGE",
-                "label_index": "31689",
+                "label_index": "@P31689",
                 "label_korean": "타이어 공기압 감지 퍼센트",
                 "group_id": "48511",
                 "req_frame_id": "145832",
@@ -1765,13 +1765,13 @@
                 "bit_mask": 15,
                 "bit_shift": 0,
                 "dynamic_arg": "",
-                "help_code": "",
+                "help_code": "@T",
                 "help_korean": ""
             },
             {
                 "position": 11,
                 "mnemonic": "MP_ETAT_ROUE_AVANT_GAUCHE",
-                "label_index": "4804",
+                "label_index": "@P4804",
                 "label_korean": "프론트 좌측 휠의 상태",
                 "group_id": "48512",
                 "req_frame_id": "145835",
@@ -1802,13 +1802,13 @@
                 "bit_mask": 7,
                 "bit_shift": 0,
                 "dynamic_arg": "",
-                "help_code": "",
+                "help_code": "@T",
                 "help_korean": ""
             },
             {
                 "position": 12,
                 "mnemonic": "MP_ETAT_ROUE_AVANT_DROITE",
-                "label_index": "10352",
+                "label_index": "@P10352",
                 "label_korean": "프론트 우측 휠 상태",
                 "group_id": "48513",
                 "req_frame_id": "145838",
@@ -1839,13 +1839,13 @@
                 "bit_mask": 7,
                 "bit_shift": 0,
                 "dynamic_arg": "",
-                "help_code": "",
+                "help_code": "@T",
                 "help_korean": ""
             },
             {
                 "position": 13,
                 "mnemonic": "MP_ETAT_ROUE_ARRIERE_GAUCHE",
-                "label_index": "10520",
+                "label_index": "@P10520",
                 "label_korean": "리어 좌측 휠의 상태",
                 "group_id": "48514",
                 "req_frame_id": "145841",
@@ -1878,13 +1878,13 @@
                 "bit_mask": 7,
                 "bit_shift": 0,
                 "dynamic_arg": "",
-                "help_code": "",
+                "help_code": "@T",
                 "help_korean": ""
             },
             {
                 "position": 14,
                 "mnemonic": "MP_ETAT_ROUE_ARRIERE_DROITE",
-                "label_index": "13892",
+                "label_index": "@P13892",
                 "label_korean": "리어 우측 휠 상태",
                 "group_id": "48515",
                 "req_frame_id": "145844",
@@ -1923,13 +1923,13 @@
                 "bit_mask": 7,
                 "bit_shift": 0,
                 "dynamic_arg": "",
-                "help_code": "",
+                "help_code": "@T",
                 "help_korean": ""
             },
             {
                 "position": 15,
                 "mnemonic": "MP_DETERMINATION_INCOMPATIBILITE_PNEU_DSGI",
-                "label_index": "31696",
+                "label_index": "@P31696",
                 "label_korean": "타이어 부적합성 결정",
                 "group_id": "48516",
                 "req_frame_id": "145847",
@@ -1949,7 +1949,7 @@
                 "bit_mask": 16,
                 "bit_shift": 4,
                 "dynamic_arg": "",
-                "help_code": "48818",
+                "help_code": "@P48818",
                 "help_korean": "이 변수는 직접 타이어 공기압 감지 기능이 있을 때만 작동한다"
             }
         ]
@@ -1963,7 +1963,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_PRESENCE_FONCTION_DSGI",
-                "label_index": "32417",
+                "label_index": "@P32417",
                 "label_korean": "간접식 타이어 공기압 감지 기능 존재",
                 "group_id": "48502",
                 "req_frame_id": "145805",
@@ -1987,13 +1987,13 @@
                 "bit_mask": 1,
                 "bit_shift": 0,
                 "dynamic_arg": "",
-                "help_code": "",
+                "help_code": "@T",
                 "help_korean": ""
             },
             {
                 "position": 2,
                 "mnemonic": "MP_ETAT_FONCTIONNEMENT_DSG",
-                "label_index": "13510",
+                "label_index": "@P13510",
                 "label_korean": "타이어 공기압 감지 기능의 상태",
                 "group_id": "48503",
                 "req_frame_id": "145808",
@@ -2012,13 +2012,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "",
+                "help_code": "@T",
                 "help_korean": ""
             },
             {
                 "position": 3,
                 "mnemonic": "MP_ETAT_GENERAL_DSG",
-                "label_index": "9712",
+                "label_index": "@P9712",
                 "label_korean": "타이어 공기압 감지 시스템의 전반전인 상태",
                 "group_id": "48504",
                 "req_frame_id": "145811",
@@ -2050,13 +2050,13 @@
                 "bit_mask": 7,
                 "bit_shift": 0,
                 "dynamic_arg": "",
-                "help_code": "",
+                "help_code": "@T",
                 "help_korean": ""
             },
             {
                 "position": 4,
                 "mnemonic": "MP_CHARGE_VEHICULE_FONCTION_DSG",
-                "label_index": "31699",
+                "label_index": "@P31699",
                 "label_korean": "타이어 공기압 감지 기능에 의해 추정된 차량 부하",
                 "group_id": "48505",
                 "req_frame_id": "145814",
@@ -2082,13 +2082,13 @@
                 "bit_mask": 7,
                 "bit_shift": 0,
                 "dynamic_arg": "",
-                "help_code": "",
+                "help_code": "@T",
                 "help_korean": ""
             },
             {
                 "position": 5,
                 "mnemonic": "MP_VITESSE_VEHICULE_ESTIMEE_DSG",
-                "label_index": "31691",
+                "label_index": "@P31691",
                 "label_korean": "타이어 공기압 감지 기능에 의해 추정된 차량 속도",
                 "group_id": "48506",
                 "req_frame_id": "145817",
@@ -2106,13 +2106,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "",
+                "help_code": "@T",
                 "help_korean": ""
             },
             {
                 "position": 6,
                 "mnemonic": "MP_TEMPERATURE_AIR_EXTERIEUR",
-                "label_index": "11513",
+                "label_index": "@P11513",
                 "label_korean": "외부 공기 온도",
                 "group_id": "48507",
                 "req_frame_id": "145820",
@@ -2130,13 +2130,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "49440",
+                "help_code": "@P49440",
                 "help_korean": "이 PM은 간접 타이어 공기압 감지 기능이 제공될 때만 작동한다"
             },
             {
                 "position": 7,
                 "mnemonic": "MP_DISTANCE_DEPUIS_DERNIERE_RAZ_DSG",
-                "label_index": "31685",
+                "label_index": "@P31685",
                 "label_korean": "마지막 타이어 공기압 감지 기능 리셋 이후 거리",
                 "group_id": "48509",
                 "req_frame_id": "145826",
@@ -2152,13 +2152,13 @@
                 "bit_mask": 4095,
                 "bit_shift": 0,
                 "dynamic_arg": "",
-                "help_code": "",
+                "help_code": "@T",
                 "help_korean": ""
             },
             {
                 "position": 8,
                 "mnemonic": "MP_DISTANCE_DEPUIS_DERNIERE_ALERTE_DSG",
-                "label_index": "31700",
+                "label_index": "@P31700",
                 "label_korean": "마지막 타이어 감지 기능 경고가 시작된 후 거리",
                 "group_id": "48510",
                 "req_frame_id": "145829",
@@ -2176,13 +2176,13 @@
                 "bit_mask": 4095,
                 "bit_shift": 0,
                 "dynamic_arg": "",
-                "help_code": "",
+                "help_code": "@T",
                 "help_korean": ""
             },
             {
                 "position": 9,
                 "mnemonic": "MP_PROBABILITE_SOUS_GONFLAGE",
-                "label_index": "31689",
+                "label_index": "@P31689",
                 "label_korean": "타이어 공기압 감지 퍼센트",
                 "group_id": "48511",
                 "req_frame_id": "145832",
@@ -2200,13 +2200,13 @@
                 "bit_mask": 15,
                 "bit_shift": 0,
                 "dynamic_arg": "",
-                "help_code": "",
+                "help_code": "@T",
                 "help_korean": ""
             },
             {
                 "position": 10,
                 "mnemonic": "MP_ETAT_ROUE_AVANT_GAUCHE",
-                "label_index": "4804",
+                "label_index": "@P4804",
                 "label_korean": "프론트 좌측 휠의 상태",
                 "group_id": "48512",
                 "req_frame_id": "145835",
@@ -2237,13 +2237,13 @@
                 "bit_mask": 7,
                 "bit_shift": 0,
                 "dynamic_arg": "",
-                "help_code": "",
+                "help_code": "@T",
                 "help_korean": ""
             },
             {
                 "position": 11,
                 "mnemonic": "MP_ETAT_ROUE_AVANT_DROITE",
-                "label_index": "10352",
+                "label_index": "@P10352",
                 "label_korean": "프론트 우측 휠 상태",
                 "group_id": "48513",
                 "req_frame_id": "145838",
@@ -2274,13 +2274,13 @@
                 "bit_mask": 7,
                 "bit_shift": 0,
                 "dynamic_arg": "",
-                "help_code": "",
+                "help_code": "@T",
                 "help_korean": ""
             },
             {
                 "position": 12,
                 "mnemonic": "MP_ETAT_ROUE_ARRIERE_GAUCHE",
-                "label_index": "10520",
+                "label_index": "@P10520",
                 "label_korean": "리어 좌측 휠의 상태",
                 "group_id": "48514",
                 "req_frame_id": "145841",
@@ -2313,13 +2313,13 @@
                 "bit_mask": 7,
                 "bit_shift": 0,
                 "dynamic_arg": "",
-                "help_code": "",
+                "help_code": "@T",
                 "help_korean": ""
             },
             {
                 "position": 13,
                 "mnemonic": "MP_ETAT_ROUE_ARRIERE_DROITE",
-                "label_index": "13892",
+                "label_index": "@P13892",
                 "label_korean": "리어 우측 휠 상태",
                 "group_id": "48515",
                 "req_frame_id": "145844",
@@ -2358,13 +2358,13 @@
                 "bit_mask": 7,
                 "bit_shift": 0,
                 "dynamic_arg": "",
-                "help_code": "",
+                "help_code": "@T",
                 "help_korean": ""
             },
             {
                 "position": 14,
                 "mnemonic": "MP_DETERMINATION_INCOMPATIBILITE_PNEU_DSGI",
-                "label_index": "31696",
+                "label_index": "@P31696",
                 "label_korean": "타이어 부적합성 결정",
                 "group_id": "48516",
                 "req_frame_id": "145847",
@@ -2384,7 +2384,7 @@
                 "bit_mask": 16,
                 "bit_shift": 4,
                 "dynamic_arg": "",
-                "help_code": "48818",
+                "help_code": "@P48818",
                 "help_korean": "이 변수는 직접 타이어 공기압 감지 기능이 있을 때만 작동한다"
             }
         ]
@@ -2398,7 +2398,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_ETAT_FONCTION_FREINAGE_AUTO_RISQUE_COLLISION",
-                "label_index": "31542",
+                "label_index": "@P31542",
                 "label_korean": "충돌 위험시 자동 제동 기능 상태",
                 "group_id": "48518",
                 "req_frame_id": "145853",
@@ -2423,13 +2423,13 @@
                 "bit_mask": 7,
                 "bit_shift": 0,
                 "dynamic_arg": "",
-                "help_code": "48463",
+                "help_code": "@P48463",
                 "help_korean": "이 변수 측정은 비상 충돌 제동 기능이 제공될 때 작동한다"
             },
             {
                 "position": 2,
                 "mnemonic": "MP_ETAT_DECEL_FARC",
-                "label_index": "34899",
+                "label_index": "@P34899",
                 "label_korean": "충돌 위험시 자동 제동에 의해 요청된 감속도 상태",
                 "group_id": "48519",
                 "req_frame_id": "145856",
@@ -2450,13 +2450,13 @@
                 "bit_mask": 3,
                 "bit_shift": 0,
                 "dynamic_arg": "",
-                "help_code": "48463",
+                "help_code": "@P48463",
                 "help_korean": "이 변수 측정은 비상 충돌 제동 기능이 제공될 때 작동한다"
             },
             {
                 "position": 3,
                 "mnemonic": "MP_VOLONTE_CONDUCTEUR",
-                "label_index": "26686",
+                "label_index": "@P26686",
                 "label_korean": "운전자 조치",
                 "group_id": "48520",
                 "req_frame_id": "145859",
@@ -2475,13 +2475,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "48463",
+                "help_code": "@P48463",
                 "help_korean": "이 변수 측정은 비상 충돌 제동 기능이 제공될 때 작동한다"
             },
             {
                 "position": 4,
                 "mnemonic": "MP_REGIME_MOTEUR",
-                "label_index": "7917",
+                "label_index": "@P7917",
                 "label_korean": "엔진 속도",
                 "group_id": "48521",
                 "req_frame_id": "145862",
@@ -2499,13 +2499,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "48463",
+                "help_code": "@P48463",
                 "help_korean": "이 변수 측정은 비상 충돌 제동 기능이 제공될 때 작동한다"
             },
             {
                 "position": 5,
                 "mnemonic": "MP_POURCENTAGE_ENFONCEMENT_PEDALE_ACCELERATEUR",
-                "label_index": "27305",
+                "label_index": "@P27305",
                 "label_korean": "가속 페달의 내림 비율",
                 "group_id": "48522",
                 "req_frame_id": "145865",
@@ -2523,13 +2523,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "48463",
+                "help_code": "@P48463",
                 "help_korean": "이 변수 측정은 비상 충돌 제동 기능이 제공될 때 작동한다"
             },
             {
                 "position": 6,
                 "mnemonic": "MP_APPUI_PEDALE_FREIN_RECALCULE",
-                "label_index": "35557",
+                "label_index": "@P35557",
                 "label_korean": "재계산된 브레이크 페달 누름",
                 "group_id": "48517",
                 "req_frame_id": "145850",
@@ -2550,7 +2550,7 @@
                 "bit_mask": 3,
                 "bit_shift": 0,
                 "dynamic_arg": "",
-                "help_code": "48463",
+                "help_code": "@P48463",
                 "help_korean": "이 변수 측정은 비상 충돌 제동 기능이 제공될 때 작동한다"
             }
         ]
@@ -2564,7 +2564,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_VITESSE_ROUE_ARRIERE_GAUCHE",
-                "label_index": "3744",
+                "label_index": "@P3744",
                 "label_korean": "리어 좌측 휠 속도",
                 "group_id": "48476",
                 "req_frame_id": "145727",
@@ -2588,7 +2588,7 @@
             {
                 "position": 2,
                 "mnemonic": "MP_VITESSE_ROUE_ARRIERE_DROITE",
-                "label_index": "11915",
+                "label_index": "@P11915",
                 "label_korean": "리어 우측 휠 속도",
                 "group_id": "48477",
                 "req_frame_id": "145730",
@@ -2612,7 +2612,7 @@
             {
                 "position": 3,
                 "mnemonic": "MP_VITESSE_ROUE_AVANT_GAUCHE",
-                "label_index": "11831",
+                "label_index": "@P11831",
                 "label_korean": "프론트 좌측 휠 속도",
                 "group_id": "48478",
                 "req_frame_id": "145733",
@@ -2636,7 +2636,7 @@
             {
                 "position": 4,
                 "mnemonic": "MP_VITESSE_ROUE_AVANT_DROIT",
-                "label_index": "4748",
+                "label_index": "@P4748",
                 "label_korean": "프론트 우측 휠 속도",
                 "group_id": "48479",
                 "req_frame_id": "145736",
@@ -2660,7 +2660,7 @@
             {
                 "position": 5,
                 "mnemonic": "MP_VITESSE_VEHICULE",
-                "label_index": "9267",
+                "label_index": "@F9267",
                 "label_korean": "차량 속도",
                 "group_id": "48475",
                 "req_frame_id": "145724",
@@ -2686,7 +2686,7 @@
             {
                 "position": 6,
                 "mnemonic": "MP_REGIME_MOTEUR",
-                "label_index": "7917",
+                "label_index": "@P7917",
                 "label_korean": "엔진 속도",
                 "group_id": "48521",
                 "req_frame_id": "145862",
@@ -2704,13 +2704,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "48463",
+                "help_code": "@P48463",
                 "help_korean": "이 변수 측정은 비상 충돌 제동 기능이 제공될 때 작동한다"
             },
             {
                 "position": 7,
                 "mnemonic": "MP_TENSION_ALIMENTATION_CALCULATEUR",
-                "label_index": "14064",
+                "label_index": "@P14064",
                 "label_korean": "제어 장치 공급 전압",
                 "group_id": "48470",
                 "req_frame_id": "145709",
@@ -2734,7 +2734,7 @@
             {
                 "position": 8,
                 "mnemonic": "MP_CONTACTEUR_FEUX_STOP",
-                "label_index": "12701",
+                "label_index": "@P12701",
                 "label_korean": "제동등 스위치",
                 "group_id": "48483",
                 "req_frame_id": "145748",
@@ -2755,13 +2755,13 @@
                 "bit_mask": 1,
                 "bit_shift": 0,
                 "dynamic_arg": "",
-                "help_code": "",
+                "help_code": "@T",
                 "help_korean": ""
             },
             {
                 "position": 9,
                 "mnemonic": "MP_APPUI_PEDALE_FREIN_RECALCULE",
-                "label_index": "35557",
+                "label_index": "@P35557",
                 "label_korean": "재계산된 브레이크 페달 누름",
                 "group_id": "48517",
                 "req_frame_id": "145850",
@@ -2782,13 +2782,13 @@
                 "bit_mask": 3,
                 "bit_shift": 0,
                 "dynamic_arg": "",
-                "help_code": "48463",
+                "help_code": "@P48463",
                 "help_korean": "이 변수 측정은 비상 충돌 제동 기능이 제공될 때 작동한다"
             },
             {
                 "position": 10,
                 "mnemonic": "MP_POURCENTAGE_NIVEAU_DETECTION_DSG",
-                "label_index": "31686",
+                "label_index": "@P31686",
                 "label_korean": "타이어 공기압 감지 기능의 프로그래밍 레벨 퍼센트",
                 "group_id": "48508",
                 "req_frame_id": "145823",
@@ -2806,13 +2806,13 @@
                 "bit_mask": 15,
                 "bit_shift": 0,
                 "dynamic_arg": "",
-                "help_code": "",
+                "help_code": "@T",
                 "help_korean": ""
             },
             {
                 "position": 11,
                 "mnemonic": "MP_VITESSE_ANGLE_LACET_2",
-                "label_index": "7157",
+                "label_index": "@P7157",
                 "label_korean": "요잉 각도 속도",
                 "group_id": "48487",
                 "req_frame_id": "145760",
@@ -2837,7 +2837,7 @@
             {
                 "position": 12,
                 "mnemonic": "MP_PRESSION_DE_FREINAGE",
-                "label_index": "9084",
+                "label_index": "@P9084",
                 "label_korean": "제동 압력",
                 "group_id": "48484",
                 "req_frame_id": "145751",
@@ -2861,7 +2861,7 @@
             {
                 "position": 13,
                 "mnemonic": "MP_ACCELERATION_TRANSVERSALE",
-                "label_index": "13706",
+                "label_index": "@P13706",
                 "label_korean": "횡가속도",
                 "group_id": "48488",
                 "req_frame_id": "145763",
@@ -2886,7 +2886,7 @@
             {
                 "position": 14,
                 "mnemonic": "MP_DISTANCE_DEPUIS_DERNIERE_RAZ_DSG",
-                "label_index": "31685",
+                "label_index": "@P31685",
                 "label_korean": "마지막 타이어 공기압 감지 기능 리셋 이후 거리",
                 "group_id": "48509",
                 "req_frame_id": "145826",
@@ -2902,13 +2902,13 @@
                 "bit_mask": 4095,
                 "bit_shift": 0,
                 "dynamic_arg": "",
-                "help_code": "",
+                "help_code": "@T",
                 "help_korean": ""
             },
             {
                 "position": 15,
                 "mnemonic": "MP_ACQUITTEMENT_MOTEUR",
-                "label_index": "5542",
+                "label_index": "@P5542",
                 "label_korean": "엔진 인식",
                 "group_id": "48473",
                 "req_frame_id": "145718",
@@ -2929,13 +2929,13 @@
                 "bit_mask": 1,
                 "bit_shift": 0,
                 "dynamic_arg": "",
-                "help_code": "16125",
+                "help_code": "@P16125@T.",
                 "help_korean": "엔진 ECU와 ESP간의 통신을 점검하는 데 사용된 정보."
             },
             {
                 "position": 16,
                 "mnemonic": "MP_VOLONTE_CONDUCTEUR",
-                "label_index": "26686",
+                "label_index": "@P26686",
                 "label_korean": "운전자 조치",
                 "group_id": "48520",
                 "req_frame_id": "145859",
@@ -2954,13 +2954,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "48463",
+                "help_code": "@P48463",
                 "help_korean": "이 변수 측정은 비상 충돌 제동 기능이 제공될 때 작동한다"
             },
             {
                 "position": 17,
                 "mnemonic": "MP_ANGLE_VOLANT",
-                "label_index": "1274",
+                "label_index": "@P1274",
                 "label_korean": "스티어링 휠 앵글",
                 "group_id": "48494",
                 "req_frame_id": "145781",
@@ -2978,13 +2978,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "32313, 32314, 32315, 32316, 32317",
-                "help_korean": "반자동 주차 시스템이 장착되지 않은 차량\nESP ECU에 의해서 제공되는 스티어링 휠 앵글 값은 키를 OFF할 때마다 0으로 리셋된다\nESP ECU만 스티어링 휠 앵글의 변화를\n- 제공한다\n스티어링 휠 앵글 정보를 리셋하기 위해서 : 40km/h 이상의 속도로 주행한다"
+                "help_code": "@P32313@\\n@P32314@\\n@P32315@\\n@P32316@T : @P32317@\\*40",
+                "help_korean": "반자동 주차 시스템이 장착되지 않은 차량\nESP ECU에 의해서 제공되는 스티어링 휠 앵글 값은 키를 OFF할 때마다 0으로 리셋된다\nESP ECU만 스티어링 휠 앵글의 변화를 제공한다\n스티어링 휠 앵글 정보를 리셋하기 위해서 : 40km/h 이상의 속도로 주행한다"
             },
             {
                 "position": 18,
                 "mnemonic": "MP_ETAT_FONCTION_FREINAGE_AUTO_RISQUE_COLLISION",
-                "label_index": "31542",
+                "label_index": "@P31542",
                 "label_korean": "충돌 위험시 자동 제동 기능 상태",
                 "group_id": "48518",
                 "req_frame_id": "145853",
@@ -3009,13 +3009,13 @@
                 "bit_mask": 7,
                 "bit_shift": 0,
                 "dynamic_arg": "",
-                "help_code": "48463",
+                "help_code": "@P48463",
                 "help_korean": "이 변수 측정은 비상 충돌 제동 기능이 제공될 때 작동한다"
             },
             {
                 "position": 19,
                 "mnemonic": "MP_ETAT_DECEL_FARC",
-                "label_index": "34899",
+                "label_index": "@P34899",
                 "label_korean": "충돌 위험시 자동 제동에 의해 요청된 감속도 상태",
                 "group_id": "48519",
                 "req_frame_id": "145856",
@@ -3036,13 +3036,13 @@
                 "bit_mask": 3,
                 "bit_shift": 0,
                 "dynamic_arg": "",
-                "help_code": "48463",
+                "help_code": "@P48463",
                 "help_korean": "이 변수 측정은 비상 충돌 제동 기능이 제공될 때 작동한다"
             },
             {
                 "position": 20,
                 "mnemonic": "MP_POURCENTAGE_ENFONCEMENT_PEDALE_ACCELERATEUR",
-                "label_index": "27305",
+                "label_index": "@P27305",
                 "label_korean": "가속 페달의 내림 비율",
                 "group_id": "48522",
                 "req_frame_id": "145865",
@@ -3060,13 +3060,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "48463",
+                "help_code": "@P48463",
                 "help_korean": "이 변수 측정은 비상 충돌 제동 기능이 제공될 때 작동한다"
             },
             {
                 "position": 21,
                 "mnemonic": "MP_DEMANDE_INHIBITION_RVV",
-                "label_index": "31687",
+                "label_index": "@P31687",
                 "label_korean": "크루즈 컨트롤 및 스피드 리미터 기능 차단 요청",
                 "group_id": "48472",
                 "req_frame_id": "145715",
@@ -3085,13 +3085,13 @@
                 "bit_mask": 1,
                 "bit_shift": 0,
                 "dynamic_arg": "",
-                "help_code": "2785",
+                "help_code": "@F2785",
                 "help_korean": "이 변수는 기능을 사용할 수 있을 경우 작동한다"
             },
             {
                 "position": 22,
                 "mnemonic": "MP_ETAT_FREIN_STATIONNEMENT_A_COMMANDE_ELECTRIQUE",
-                "label_index": "15989",
+                "label_index": "@P15989",
                 "label_korean": "전동 주차 브레이크 상태",
                 "group_id": "48500",
                 "req_frame_id": "145799",
@@ -3128,13 +3128,13 @@
                 "bit_mask": 7,
                 "bit_shift": 0,
                 "dynamic_arg": "",
-                "help_code": "",
+                "help_code": "@T",
                 "help_korean": ""
             },
             {
                 "position": 23,
                 "mnemonic": "MP_ETAT_ASSISTANCE_DECOLLAGE_COTE",
-                "label_index": "31704",
+                "label_index": "@P31704",
                 "label_korean": "힐 스타트 어시스턴스 기능의 상태",
                 "group_id": "48496",
                 "req_frame_id": "145787",
@@ -3157,13 +3157,13 @@
                 "bit_mask": 3,
                 "bit_shift": 0,
                 "dynamic_arg": "",
-                "help_code": "",
+                "help_code": "@T",
                 "help_korean": ""
             },
             {
                 "position": 24,
                 "mnemonic": "MP_ETAT_BOUTON_FREIN_SECONDAIRE_ELECTRIQUE",
-                "label_index": "16053",
+                "label_index": "@P16053",
                 "label_korean": "전동 주차 브레이크 버튼 상태",
                 "group_id": "48499",
                 "req_frame_id": "145796",
@@ -3194,13 +3194,13 @@
                 "bit_mask": 7,
                 "bit_shift": 0,
                 "dynamic_arg": "",
-                "help_code": "",
+                "help_code": "@T",
                 "help_korean": ""
             },
             {
                 "position": 25,
                 "mnemonic": "MP_POSITION_PEDALE_D_EMBRAYAGE",
-                "label_index": "17358",
+                "label_index": "@P17358",
                 "label_korean": "클러치 페달의 위치",
                 "group_id": "48497",
                 "req_frame_id": "145790",
@@ -3219,13 +3219,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "",
+                "help_code": "@T",
                 "help_korean": ""
             },
             {
                 "position": 26,
                 "mnemonic": "MP_ETAT_ROUE_AVANT_GAUCHE",
-                "label_index": "4804",
+                "label_index": "@P4804",
                 "label_korean": "프론트 좌측 휠의 상태",
                 "group_id": "48512",
                 "req_frame_id": "145835",
@@ -3256,13 +3256,13 @@
                 "bit_mask": 7,
                 "bit_shift": 0,
                 "dynamic_arg": "",
-                "help_code": "",
+                "help_code": "@T",
                 "help_korean": ""
             },
             {
                 "position": 27,
                 "mnemonic": "MP_ETAT_ROUE_AVANT_DROITE",
-                "label_index": "10352",
+                "label_index": "@P10352",
                 "label_korean": "프론트 우측 휠 상태",
                 "group_id": "48513",
                 "req_frame_id": "145838",
@@ -3293,13 +3293,13 @@
                 "bit_mask": 7,
                 "bit_shift": 0,
                 "dynamic_arg": "",
-                "help_code": "",
+                "help_code": "@T",
                 "help_korean": ""
             },
             {
                 "position": 28,
                 "mnemonic": "MP_ETAT_ROUE_ARRIERE_GAUCHE",
-                "label_index": "10520",
+                "label_index": "@P10520",
                 "label_korean": "리어 좌측 휠의 상태",
                 "group_id": "48514",
                 "req_frame_id": "145841",
@@ -3332,13 +3332,13 @@
                 "bit_mask": 7,
                 "bit_shift": 0,
                 "dynamic_arg": "",
-                "help_code": "",
+                "help_code": "@T",
                 "help_korean": ""
             },
             {
                 "position": 29,
                 "mnemonic": "MP_ETAT_ROUE_ARRIERE_DROITE",
-                "label_index": "13892",
+                "label_index": "@P13892",
                 "label_korean": "리어 우측 휠 상태",
                 "group_id": "48515",
                 "req_frame_id": "145844",
@@ -3377,13 +3377,13 @@
                 "bit_mask": 7,
                 "bit_shift": 0,
                 "dynamic_arg": "",
-                "help_code": "",
+                "help_code": "@T",
                 "help_korean": ""
             },
             {
                 "position": 30,
                 "mnemonic": "MP_PROBABILITE_SOUS_GONFLAGE",
-                "label_index": "31689",
+                "label_index": "@P31689",
                 "label_korean": "타이어 공기압 감지 퍼센트",
                 "group_id": "48511",
                 "req_frame_id": "145832",
@@ -3401,13 +3401,13 @@
                 "bit_mask": 15,
                 "bit_shift": 0,
                 "dynamic_arg": "",
-                "help_code": "",
+                "help_code": "@T",
                 "help_korean": ""
             },
             {
                 "position": 31,
                 "mnemonic": "MP_ETAT_GENERAL_DSG",
-                "label_index": "9712",
+                "label_index": "@P9712",
                 "label_korean": "타이어 공기압 감지 시스템의 전반전인 상태",
                 "group_id": "48504",
                 "req_frame_id": "145811",
@@ -3439,13 +3439,13 @@
                 "bit_mask": 7,
                 "bit_shift": 0,
                 "dynamic_arg": "",
-                "help_code": "",
+                "help_code": "@T",
                 "help_korean": ""
             },
             {
                 "position": 32,
                 "mnemonic": "MP_ETAT_DU_FREINAGE",
-                "label_index": "15190",
+                "label_index": "@P15190",
                 "label_korean": "제동 상태",
                 "group_id": "48482",
                 "req_frame_id": "145745",
@@ -3472,13 +3472,13 @@
                 "bit_mask": 3,
                 "bit_shift": 0,
                 "dynamic_arg": "",
-                "help_code": "",
+                "help_code": "@T",
                 "help_korean": ""
             },
             {
                 "position": 33,
                 "mnemonic": "MP_NIVEAU_EFFORT_CIBLE_DROIT_GAUCHE_ETRIERS",
-                "label_index": "31690",
+                "label_index": "@P31690",
                 "label_korean": "전동 캘리퍼 우측 및 좌측 목표물 장력 레벨",
                 "group_id": "48501",
                 "req_frame_id": "145802",
@@ -3500,13 +3500,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "32254",
+                "help_code": "@P32254@\\*18",
                 "help_korean": "18% 이상의 경사도에서 재-체결 장력은 자동이다"
             },
             {
                 "position": 34,
                 "mnemonic": "MP_ACCELERATION_LONGITUDINALE",
-                "label_index": "3354",
+                "label_index": "@P3354",
                 "label_korean": "종가속도",
                 "group_id": "48489",
                 "req_frame_id": "145766",
@@ -3524,13 +3524,13 @@
                 "bit_mask": 4095,
                 "bit_shift": 0,
                 "dynamic_arg": "",
-                "help_code": "32258",
+                "help_code": "@P32258",
                 "help_korean": "자이로미터/가속도계 센서에 의해 측정된 가속"
             },
             {
                 "position": 35,
                 "mnemonic": "MP_VITESSE_VEHICULE_ESTIMEE_DSG",
-                "label_index": "31691",
+                "label_index": "@P31691",
                 "label_korean": "타이어 공기압 감지 기능에 의해 추정된 차량 속도",
                 "group_id": "48506",
                 "req_frame_id": "145817",
@@ -3548,13 +3548,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "",
+                "help_code": "@T",
                 "help_korean": ""
             },
             {
                 "position": 36,
                 "mnemonic": "MP_DETERMINATION_INCOMPATIBILITE_PNEU_DSGI",
-                "label_index": "31696",
+                "label_index": "@P31696",
                 "label_korean": "타이어 부적합성 결정",
                 "group_id": "48516",
                 "req_frame_id": "145847",
@@ -3574,13 +3574,13 @@
                 "bit_mask": 16,
                 "bit_shift": 4,
                 "dynamic_arg": "",
-                "help_code": "48818",
+                "help_code": "@P48818",
                 "help_korean": "이 변수는 직접 타이어 공기압 감지 기능이 있을 때만 작동한다"
             },
             {
                 "position": 37,
                 "mnemonic": "MP_SENS_ROULAGE_ARD",
-                "label_index": "31697",
+                "label_index": "@P31697",
                 "label_korean": "리어 우측 휠의 이동 방향",
                 "group_id": "48480",
                 "req_frame_id": "145739",
@@ -3600,13 +3600,13 @@
                 "bit_mask": 1,
                 "bit_shift": 0,
                 "dynamic_arg": "",
-                "help_code": "48816",
+                "help_code": "@P48816",
                 "help_korean": "이 변수는 반자동 주차 기능이 있을 때만 작동한다"
             },
             {
                 "position": 38,
                 "mnemonic": "MP_SENS_ROULAGE_ARG",
-                "label_index": "31698",
+                "label_index": "@P31698",
                 "label_korean": "리어 좌측 휠의 이동 방향",
                 "group_id": "48481",
                 "req_frame_id": "145742",
@@ -3626,13 +3626,13 @@
                 "bit_mask": 1,
                 "bit_shift": 0,
                 "dynamic_arg": "",
-                "help_code": "48816",
+                "help_code": "@P48816",
                 "help_korean": "이 변수는 반자동 주차 기능이 있을 때만 작동한다"
             },
             {
                 "position": 39,
                 "mnemonic": "MP_CHARGE_VEHICULE_FONCTION_DSG",
-                "label_index": "31699",
+                "label_index": "@P31699",
                 "label_korean": "타이어 공기압 감지 기능에 의해 추정된 차량 부하",
                 "group_id": "48505",
                 "req_frame_id": "145814",
@@ -3658,7 +3658,7 @@
                 "bit_mask": 7,
                 "bit_shift": 0,
                 "dynamic_arg": "",
-                "help_code": "",
+                "help_code": "@T",
                 "help_korean": ""
             }
         ]

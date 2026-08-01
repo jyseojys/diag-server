@@ -8,7 +8,7 @@
             {
                 "position": 1,
                 "mnemonic": "ID_NOM_DU_FOURNISSEUR",
-                "label_index": "5701",
+                "label_index": "@P5701",
                 "label_korean": "제조 업체명",
                 "group_id": "34986",
                 "req_frame_id": "105255",
@@ -38,7 +38,7 @@
             {
                 "position": 2,
                 "mnemonic": "ID_REFERENCE_MATERIEL",
-                "label_index": "1071",
+                "label_index": "@P1071",
                 "label_korean": "장치 부품 번호",
                 "group_id": "34986",
                 "req_frame_id": "105255",
@@ -60,7 +60,7 @@
             {
                 "position": 3,
                 "mnemonic": "ID_REFERENCE_COMPLEMENTAIRE_MATERIEL",
-                "label_index": "1634",
+                "label_index": "@P1634",
                 "label_korean": "장치 추가 참조 번호",
                 "group_id": "34986",
                 "req_frame_id": "105255",
@@ -82,7 +82,7 @@
             {
                 "position": 4,
                 "mnemonic": "ID_TRACABILITE_INDICE_EVOLUTION_EDITION",
-                "label_index": "13235",
+                "label_index": "@P13235@\\*",
                 "label_korean": "소프트웨어 버전",
                 "group_id": "34986",
                 "req_frame_id": "105255",
@@ -112,7 +112,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_INIT",
-                "label_index": "3575",
+                "label_index": "@P3575",
                 "label_korean": "ECU 초기화",
                 "group_id": "34989",
                 "req_frame_id": "105264",
@@ -137,7 +137,7 @@
             {
                 "position": 2,
                 "mnemonic": "MP_COMMANDE_ACTIONNEURS",
-                "label_index": "11883",
+                "label_index": "@P11883",
                 "label_korean": "액츄에이터 제어",
                 "group_id": "34988",
                 "req_frame_id": "105261",
@@ -159,7 +159,7 @@
             {
                 "position": 3,
                 "mnemonic": "CONFIG_POSITION_INIT",
-                "label_index": "14120",
+                "label_index": "@P14120",
                 "label_korean": "액츄에이터의 초기 위치",
                 "group_id": "34990",
                 "req_frame_id": "105267",
@@ -175,13 +175,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "12677",
+                "help_code": "@P12677",
                 "help_korean": "설정된 값"
             },
             {
                 "position": 4,
                 "mnemonic": "CONFIG_POSITION_REFUGE",
-                "label_index": "8944",
+                "label_index": "@P8944",
                 "label_korean": "액츄에이터 비상 위치",
                 "group_id": "34990",
                 "req_frame_id": "105267",
@@ -197,13 +197,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "12677",
+                "help_code": "@P12677",
                 "help_korean": "설정된 값"
             },
             {
                 "position": 5,
                 "mnemonic": "MP_HAUTEUR_PROJECTEURS",
-                "label_index": "3842",
+                "label_index": "@P3842",
                 "label_korean": "헤드램프 높이",
                 "group_id": "34990",
                 "req_frame_id": "105267",
@@ -219,7 +219,7 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "12677",
+                "help_code": "@P12677",
                 "help_korean": "설정된 값"
             }
         ]
@@ -233,7 +233,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_CAPTEUR_AVANT",
-                "label_index": "40853",
+                "label_index": "@P40853",
                 "label_korean": "프론트 센서 아날로그 센서",
                 "group_id": "34988",
                 "req_frame_id": "105261",
@@ -255,7 +255,7 @@
             {
                 "position": 2,
                 "mnemonic": "MP_CAPTEUR_ARRIERE",
-                "label_index": "40852",
+                "label_index": "@P40852",
                 "label_korean": "리어 센서 아날로그 신호",
                 "group_id": "34988",
                 "req_frame_id": "105261",
@@ -277,7 +277,7 @@
             {
                 "position": 3,
                 "mnemonic": "MP_VAVT_CAPT_INIT",
-                "label_index": "11142",
+                "label_index": "@P11142",
                 "label_korean": "프론트 센서 초기화 값",
                 "group_id": "34989",
                 "req_frame_id": "105264",
@@ -299,7 +299,7 @@
             {
                 "position": 4,
                 "mnemonic": "MP_VARR_CAPT_INIT",
-                "label_index": "11019",
+                "label_index": "@P11019",
                 "label_korean": "리어 센서 초기화 값",
                 "group_id": "34989",
                 "req_frame_id": "105264",
@@ -321,8 +321,8 @@
             {
                 "position": 5,
                 "mnemonic": "MP_CONFIG_SIGNE_CAPTEURS_AV",
-                "label_index": "5388",
-                "label_korean": "프론트 센서방향",
+                "label_index": "@P5388@\\*",
+                "label_korean": "프론트 센서 방향",
                 "group_id": "34990",
                 "req_frame_id": "105267",
                 "resp_frame_id": "105268",
@@ -346,8 +346,8 @@
             {
                 "position": 6,
                 "mnemonic": "MP_CONFIG_SIGNE_CAPTEURS_AR",
-                "label_index": "4439",
-                "label_korean": "리어 센서방향",
+                "label_index": "@P4439@\\*",
+                "label_korean": "리어 센서 방향",
                 "group_id": "34990",
                 "req_frame_id": "105267",
                 "resp_frame_id": "105268",
@@ -379,7 +379,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_ASSIETTE_REEL",
-                "label_index": "8190",
+                "label_index": "@P8190",
                 "label_korean": "실시간 차고 높이",
                 "group_id": "34988",
                 "req_frame_id": "105261",
@@ -401,7 +401,7 @@
             {
                 "position": 2,
                 "mnemonic": "MP_ASSIETTE_REFERENCE",
-                "label_index": "11527",
+                "label_index": "@P11527",
                 "label_korean": "기준 높이",
                 "group_id": "34988",
                 "req_frame_id": "105261",
@@ -423,7 +423,7 @@
             {
                 "position": 3,
                 "mnemonic": "MP_ASSIETTE_ARRET",
-                "label_index": "5397",
+                "label_index": "@P5397@\\*",
                 "label_korean": "정차 차고 높이",
                 "group_id": "34988",
                 "req_frame_id": "105261",
@@ -445,7 +445,7 @@
             {
                 "position": 4,
                 "mnemonic": "MP_ASSIETTE_STATIQUE",
-                "label_index": "9372",
+                "label_index": "@P9372@\\*",
                 "label_korean": "정적 차고 높이",
                 "group_id": "34988",
                 "req_frame_id": "105261",
@@ -467,7 +467,7 @@
             {
                 "position": 5,
                 "mnemonic": "MP_TEST_ARRET",
-                "label_index": "10427",
+                "label_index": "@P10427",
                 "label_korean": "정차 테스트",
                 "group_id": "34988",
                 "req_frame_id": "105261",

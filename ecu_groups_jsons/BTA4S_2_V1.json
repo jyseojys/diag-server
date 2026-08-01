@@ -8,7 +8,7 @@
             {
                 "position": 1,
                 "mnemonic": "ID_NOM_DU_FOURNISSEUR",
-                "label_index": "5701",
+                "label_index": "@P5701",
                 "label_korean": "제조 업체명",
                 "group_id": "112962",
                 "req_frame_id": "339232",
@@ -38,7 +38,7 @@
             {
                 "position": 2,
                 "mnemonic": "ID_REFERENCE_MATERIEL",
-                "label_index": "1071",
+                "label_index": "@P1071",
                 "label_korean": "장치 부품 번호",
                 "group_id": "112962",
                 "req_frame_id": "339232",
@@ -60,7 +60,7 @@
             {
                 "position": 3,
                 "mnemonic": "ID_REFERENCE_COMPLEMENTAIRE_MATERIEL",
-                "label_index": "1634",
+                "label_index": "@P1634",
                 "label_korean": "장치 추가 참조 번호",
                 "group_id": "112962",
                 "req_frame_id": "339232",
@@ -82,7 +82,7 @@
             {
                 "position": 4,
                 "mnemonic": "ID_REFERENCE_LOGICIEL",
-                "label_index": "39786",
+                "label_index": "@P39786",
                 "label_korean": "소프트웨어 번호",
                 "group_id": "112964",
                 "req_frame_id": "339238",
@@ -104,7 +104,7 @@
             {
                 "position": 5,
                 "mnemonic": "ID_TRACABILITE_INDICE_EVOLUTION_EDITION",
-                "label_index": "24601",
+                "label_index": "@P24601",
                 "label_korean": "소프트웨어 버전",
                 "group_id": "112964",
                 "req_frame_id": "339238",
@@ -126,7 +126,7 @@
             {
                 "position": 6,
                 "mnemonic": "ID_DATE_TELECH",
-                "label_index": "21670",
+                "label_index": "@P21670",
                 "label_korean": "다운로딩 날짜",
                 "group_id": "112964",
                 "req_frame_id": "339238",
@@ -148,7 +148,7 @@
             {
                 "position": 7,
                 "mnemonic": "ID_NOMBRE_DE_TELECHARGEMENT",
-                "label_index": "24589",
+                "label_index": "@P24589",
                 "label_korean": "다운로드의 수",
                 "group_id": "112964",
                 "req_frame_id": "339238",
@@ -170,7 +170,7 @@
             {
                 "position": 8,
                 "mnemonic": "ID_TRACA_NUM_SERIE_ASCII",
-                "label_index": "7592",
+                "label_index": "@P7592",
                 "label_korean": "부품 일련 번호",
                 "group_id": "112969",
                 "req_frame_id": "339253",
@@ -192,7 +192,7 @@
             {
                 "position": 9,
                 "mnemonic": "ID_TRACABILITE_DATE_FABRICATION",
-                "label_index": "14355",
+                "label_index": "@F14355",
                 "label_korean": "제조일자",
                 "group_id": "112968",
                 "req_frame_id": "339250",
@@ -222,7 +222,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_NOMBRE_DE_SATELLITES_VISIBLES",
-                "label_index": "32117",
+                "label_index": "@P32117",
                 "label_korean": "GPS에 현재 보여지는 위성의 수",
                 "group_id": "112944",
                 "req_frame_id": "339178",
@@ -244,7 +244,7 @@
             {
                 "position": 2,
                 "mnemonic": "MP_NOMBRE_MAXIMAL_DE_SATELLITES_VISIBLES",
-                "label_index": "58845",
+                "label_index": "@P58845@\\*",
                 "label_korean": "무선 주파수 관리 장치에 표시되는 최대 위성 수",
                 "group_id": "112944",
                 "req_frame_id": "339178",
@@ -266,7 +266,7 @@
             {
                 "position": 3,
                 "mnemonic": "MP_NOMBRE_REINITIALISATION_BSRF_INATTENDU",
-                "label_index": "58969",
+                "label_index": "@P58969@\\*",
                 "label_korean": "무선 주파수 관리 장치의 예상치 못한 재초기화 횟수",
                 "group_id": "112946",
                 "req_frame_id": "339184",
@@ -288,7 +288,7 @@
             {
                 "position": 4,
                 "mnemonic": "MP_VERSION_LOGICIEL_VUC",
-                "label_index": "58949",
+                "label_index": "@P58949",
                 "label_korean": "마이크로컨트롤러 소프트웨어 버전",
                 "group_id": "112951",
                 "req_frame_id": "339199",
@@ -310,7 +310,7 @@
             {
                 "position": 5,
                 "mnemonic": "MP_VERSION_LOGICIEL_NAD",
-                "label_index": "58964",
+                "label_index": "@P58964",
                 "label_korean": "네트워크 액세스 장치의 소프트웨어 버전",
                 "group_id": "112951",
                 "req_frame_id": "339199",
@@ -468,8 +468,8 @@
             {
                 "position": 12,
                 "mnemonic": "MP_NUM_SERIE_BSRF",
-                "label_index": "58972",
-                "label_korean": "무선 주파수 관리 장치일련 번호",
+                "label_index": "@P58972@\\*",
+                "label_korean": "무선 주파수 관리 장치 일련 번호",
                 "group_id": "매핑_누락",
                 "req_frame_id": "",
                 "resp_frame_id": "",
@@ -498,7 +498,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_ETAT_BOUTON_ACALL",
-                "label_index": "48669",
+                "label_index": "@P48669",
                 "label_korean": "지원 통화 버튼 상태",
                 "group_id": "112947",
                 "req_frame_id": "339187",
@@ -524,7 +524,7 @@
             {
                 "position": 2,
                 "mnemonic": "MP_ETAT_BOUTON_ECALL",
-                "label_index": "48666",
+                "label_index": "@P48666",
                 "label_korean": "비상 통화 버튼 상태",
                 "group_id": "112947",
                 "req_frame_id": "339187",
@@ -558,8 +558,8 @@
             {
                 "position": 1,
                 "mnemonic": "MP_TEMPS_RECHARGE_BATTERIE_SECOURS",
-                "label_index": "58861",
-                "label_korean": "무선 주파수 관리 장치백업 배터리의 충전 시간",
+                "label_index": "@P58861@\\*",
+                "label_korean": "무선 주파수 관리 장치 백업 배터리의 충전 시간",
                 "group_id": "112948",
                 "req_frame_id": "339190",
                 "resp_frame_id": "339191",
@@ -580,8 +580,8 @@
             {
                 "position": 2,
                 "mnemonic": "MP_TEMPS_DECHARGE_BATTERIE_SECOURS",
-                "label_index": "58858",
-                "label_korean": "무선 주파수 관리 장치백업 배터리의 방전 시간",
+                "label_index": "@P58858@\\*",
+                "label_korean": "무선 주파수 관리 장치 백업 배터리의 방전 시간",
                 "group_id": "112948",
                 "req_frame_id": "339190",
                 "resp_frame_id": "339191",
@@ -602,8 +602,8 @@
             {
                 "position": 3,
                 "mnemonic": "MP_TEMPERATURE_BATTERIE_SECOURS",
-                "label_index": "58856",
-                "label_korean": "무선 주파수 관리 장치백업 배터리의 온도(BSRF_2010)",
+                "label_index": "@P58856@\\*(BSRF_2010)",
+                "label_korean": "무선 주파수 관리 장치 백업 배터리의 온도(BSRF_2010)",
                 "group_id": "112948",
                 "req_frame_id": "339190",
                 "resp_frame_id": "339191",
@@ -624,8 +624,8 @@
             {
                 "position": 4,
                 "mnemonic": "MP_POURCENTAGE_CHARGE_BATTERIE_SECOURS_2010",
-                "label_index": "58864",
-                "label_korean": "무선 주파수 관리 장치백업 배터리 충전 비율",
+                "label_index": "@P58864@\\*",
+                "label_korean": "무선 주파수 관리 장치 백업 배터리 충전 비율",
                 "group_id": "112948",
                 "req_frame_id": "339190",
                 "resp_frame_id": "339191",
@@ -646,8 +646,8 @@
             {
                 "position": 5,
                 "mnemonic": "MP_NOMBRE_CHARGE_BATTERIE_SECOURS",
-                "label_index": "58865",
-                "label_korean": "무선 주파수 관리 장치백업 배터리의 충전 사이클 수",
+                "label_index": "@P58865@\\*",
+                "label_korean": "무선 주파수 관리 장치 백업 배터리의 충전 사이클 수",
                 "group_id": "112948",
                 "req_frame_id": "339190",
                 "resp_frame_id": "339191",
@@ -668,8 +668,8 @@
             {
                 "position": 6,
                 "mnemonic": "MP_ETAT_BATTERIE_SECOURS",
-                "label_index": "58857",
-                "label_korean": "무선 주파수 관리 장치백업 배터리의 상태",
+                "label_index": "@P58857@\\*",
+                "label_korean": "무선 주파수 관리 장치 백업 배터리의 상태",
                 "group_id": "112948",
                 "req_frame_id": "339190",
                 "resp_frame_id": "339191",
@@ -699,8 +699,8 @@
             {
                 "position": 7,
                 "mnemonic": "MP_FOURNISEUR_BATTERIE_SECOURS",
-                "label_index": "58855",
-                "label_korean": "무선 주파수 관리 장치백업 배터리 공급업체",
+                "label_index": "@P58855@\\*",
+                "label_korean": "무선 주파수 관리 장치 백업 배터리 공급업체",
                 "group_id": "매핑_누락",
                 "req_frame_id": "",
                 "resp_frame_id": "",
@@ -732,7 +732,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_DISPONIBILITE_NUM_CENTRE_SMS",
-                "label_index": "58963",
+                "label_index": "@P58963",
                 "label_korean": "SMS 센터 번호의 가용성",
                 "group_id": "112949",
                 "req_frame_id": "339193",
@@ -758,7 +758,7 @@
             {
                 "position": 2,
                 "mnemonic": "MP_DISPONIBILITE_NUM_PT_ACCES",
-                "label_index": "58962",
+                "label_index": "@P58962",
                 "label_korean": "액세스 포인트 번호 가용성",
                 "group_id": "112949",
                 "req_frame_id": "339193",
@@ -784,7 +784,7 @@
             {
                 "position": 3,
                 "mnemonic": "MP_MODE_CONNEXION",
-                "label_index": "58946",
+                "label_index": "@P58946",
                 "label_korean": "연결 모드",
                 "group_id": "112949",
                 "req_frame_id": "339193",
@@ -809,7 +809,7 @@
             {
                 "position": 4,
                 "mnemonic": "MP_ETAT_ENREGISTREMENT_CELLULAIRE_BSRF",
-                "label_index": "58968",
+                "label_index": "@P58968@\\*",
                 "label_korean": "휴대폰 네트워크에 있는 무선 주파수 관리 장치의 등록 상태",
                 "group_id": "112949",
                 "req_frame_id": "339193",
@@ -835,7 +835,7 @@
             {
                 "position": 5,
                 "mnemonic": "MP_PUISSANCE_SIGNAL_CELLULAIRE",
-                "label_index": "58961",
+                "label_index": "@P58961",
                 "label_korean": "휴대폰 신호 강도",
                 "group_id": "112949",
                 "req_frame_id": "339193",
@@ -901,7 +901,7 @@
             {
                 "position": 8,
                 "mnemonic": "NB_UNITS_CONNECTED",
-                "label_index": "48040",
+                "label_index": "@P48040",
                 "label_korean": "Wi-Fi를 통해 연결된 장치 수",
                 "group_id": "112952",
                 "req_frame_id": "339202",
@@ -923,8 +923,8 @@
             {
                 "position": 9,
                 "mnemonic": "CURRENT_MODE",
-                "label_index": "63780",
-                "label_korean": "무선 주파수 관리 장치Wi-Fi 및 고객 모드의 활성화 상태",
+                "label_index": "@P63780@\\*",
+                "label_korean": "무선 주파수 관리 장치 Wi-Fi 및 고객 모드의 활성화 상태",
                 "group_id": "112952",
                 "req_frame_id": "339202",
                 "resp_frame_id": "339203",
@@ -947,7 +947,7 @@
             {
                 "position": 10,
                 "mnemonic": "ACTIVATION_STATE",
-                "label_index": "63776",
+                "label_index": "@P63776",
                 "label_korean": "Wi-Fi 활성화 상태",
                 "group_id": "112952",
                 "req_frame_id": "339202",

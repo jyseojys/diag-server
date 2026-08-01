@@ -8,7 +8,7 @@
             {
                 "position": 1,
                 "mnemonic": "ID_NOM_DU_FOURNISSEUR",
-                "label_index": "5701",
+                "label_index": "@P5701",
                 "label_korean": "제조 업체명",
                 "group_id": "85007",
                 "req_frame_id": "255322",
@@ -38,7 +38,7 @@
             {
                 "position": 2,
                 "mnemonic": "ID_REFERENCE_MATERIEL",
-                "label_index": "1071",
+                "label_index": "@P1071",
                 "label_korean": "장치 부품 번호",
                 "group_id": "85007",
                 "req_frame_id": "255322",
@@ -60,7 +60,7 @@
             {
                 "position": 3,
                 "mnemonic": "ID_REFERENCE_COMPLEMENTAIRE_MATERIEL",
-                "label_index": "1634",
+                "label_index": "@P1634",
                 "label_korean": "장치 추가 참조 번호",
                 "group_id": "85007",
                 "req_frame_id": "255322",
@@ -82,7 +82,7 @@
             {
                 "position": 4,
                 "mnemonic": "ID_TRACABILITE_INDICE_EVOLUTION_EDITION",
-                "label_index": "24601",
+                "label_index": "@P24601",
                 "label_korean": "소프트웨어 버전",
                 "group_id": "85007",
                 "req_frame_id": "255322",
@@ -104,7 +104,7 @@
             {
                 "position": 5,
                 "mnemonic": "ID_MESS_DIAGNOSTIC",
-                "label_index": "2459",
+                "label_index": "@P2459",
                 "label_korean": "진단 이메일",
                 "group_id": "85007",
                 "req_frame_id": "255322",
@@ -126,7 +126,7 @@
             {
                 "position": 6,
                 "mnemonic": "ID_80_MP_INDICE_MESS",
-                "label_index": "2225",
+                "label_index": "@P2225",
                 "label_korean": "메시지 인덱스",
                 "group_id": "85007",
                 "req_frame_id": "255322",
@@ -148,7 +148,7 @@
             {
                 "position": 7,
                 "mnemonic": "ID_TRACABILITE_DATE_FABRICATION",
-                "label_index": "14355",
+                "label_index": "@P14355",
                 "label_korean": "제조일자",
                 "group_id": "85008",
                 "req_frame_id": "255325",
@@ -170,7 +170,7 @@
             {
                 "position": 8,
                 "mnemonic": "ID_TRACABILITE_NUMERO_DE_SERIE_PIECE",
-                "label_index": "7592",
+                "label_index": "@P7592",
                 "label_korean": "부품 일련 번호",
                 "group_id": "85009",
                 "req_frame_id": "255328",
@@ -200,7 +200,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_AUGMENTATION_VOLUME_SONORE",
-                "label_index": "3956",
+                "label_index": "@P3956",
                 "label_korean": "볼륨 증가",
                 "group_id": "85032",
                 "req_frame_id": "255397",
@@ -222,7 +222,7 @@
             {
                 "position": 2,
                 "mnemonic": "MP_DIMINUTION_VOLUME_SONORE",
-                "label_index": "1541",
+                "label_index": "@P1541",
                 "label_korean": "볼륨 감소",
                 "group_id": "85033",
                 "req_frame_id": "255400",
@@ -244,7 +244,7 @@
             {
                 "position": 3,
                 "mnemonic": "MP_COMMANDE_RECONNAISSANCE_VOCALE",
-                "label_index": "4859",
+                "label_index": "@P4859",
                 "label_korean": "음성 인식 제어",
                 "group_id": "85034",
                 "req_frame_id": "255403",
@@ -266,7 +266,7 @@
             {
                 "position": 4,
                 "mnemonic": "MP_TOUCHE_LISTE_1",
-                "label_index": "11746",
+                "label_index": "@P11746",
                 "label_korean": "리스트 버튼",
                 "group_id": "85035",
                 "req_frame_id": "255406",
@@ -291,7 +291,7 @@
             {
                 "position": 5,
                 "mnemonic": "MP_TOUCHE_SOURCE",
-                "label_index": "8241",
+                "label_index": "@P8241",
                 "label_korean": "소스 버튼",
                 "group_id": "85036",
                 "req_frame_id": "255409",
@@ -316,7 +316,7 @@
             {
                 "position": 6,
                 "mnemonic": "MP_TOUCHE_TEL",
-                "label_index": "10379",
+                "label_index": "@P10379",
                 "label_korean": "전화 버튼",
                 "group_id": "85037",
                 "req_frame_id": "255412",
@@ -338,7 +338,7 @@
             {
                 "position": 7,
                 "mnemonic": "MP_PUSH_MOLETTE_NAVIGATION_COMBINE",
-                "label_index": "18807",
+                "label_index": "@P18807",
                 "label_korean": "계기판 네비게이션 제어 확인 버튼",
                 "group_id": "85038",
                 "req_frame_id": "255415",
@@ -360,7 +360,7 @@
             {
                 "position": 8,
                 "mnemonic": "MP_VALID_MOLETTE_RADIO",
-                "label_index": "17166",
+                "label_index": "@P17166",
                 "label_korean": "라디오 컨트롤 확인 버튼",
                 "group_id": "85039",
                 "req_frame_id": "255418",
@@ -376,13 +376,13 @@
                 "bit_mask": 64,
                 "bit_shift": 6,
                 "dynamic_arg": "",
-                "help_code": "26298, 34411",
+                "help_code": "@P26298@T.@\\n@P34411@T.",
                 "help_korean": "라디오 다이얼 확인 버튼은 라디오 메뉴에서 선택을 하는데 사용한다.\n라디오 다이얼 확인 버튼은 VCI의 우측 모듈에 위치해 있다."
             },
             {
                 "position": 9,
                 "mnemonic": "MP_MOLETTE_NAVIGATION_COMBINE",
-                "label_index": "18812",
+                "label_index": "@P18812",
                 "label_korean": "계기판 네비게이션 다이얼",
                 "group_id": "85040",
                 "req_frame_id": "255421",
@@ -404,7 +404,7 @@
             {
                 "position": 10,
                 "mnemonic": "MP_MOLETTE_RADIO",
-                "label_index": "17252",
+                "label_index": "@P17252",
                 "label_korean": "라디오 컨트롤 다이얼",
                 "group_id": "85041",
                 "req_frame_id": "255424",

@@ -8,7 +8,7 @@
             {
                 "position": 1,
                 "mnemonic": "ID_NOM_DU_FOURNISSEUR",
-                "label_index": "5701",
+                "label_index": "@P5701",
                 "label_korean": "제조 업체명",
                 "group_id": "142961",
                 "req_frame_id": "429225",
@@ -38,7 +38,7 @@
             {
                 "position": 2,
                 "mnemonic": "ID_REFERENCE_MATERIEL",
-                "label_index": "1071",
+                "label_index": "@P1071",
                 "label_korean": "장치 부품 번호",
                 "group_id": "142961",
                 "req_frame_id": "429225",
@@ -60,7 +60,7 @@
             {
                 "position": 3,
                 "mnemonic": "ID_REFERENCE_COMPLEMENTAIRE_MATERIEL",
-                "label_index": "1634",
+                "label_index": "@P1634",
                 "label_korean": "장치 추가 참조 번호",
                 "group_id": "142961",
                 "req_frame_id": "429225",
@@ -82,7 +82,7 @@
             {
                 "position": 4,
                 "mnemonic": "ID_REFERENCE_LOGICIEL",
-                "label_index": "13263",
+                "label_index": "@F13263",
                 "label_korean": "소프트웨어 번호",
                 "group_id": "142962",
                 "req_frame_id": "429228",
@@ -104,7 +104,7 @@
             {
                 "position": 5,
                 "mnemonic": "ID_TRACABILITE_INDICE_EVOLUTION_EDITION",
-                "label_index": "24601",
+                "label_index": "@P24601",
                 "label_korean": "소프트웨어 버전",
                 "group_id": "142962",
                 "req_frame_id": "429228",
@@ -126,7 +126,7 @@
             {
                 "position": 6,
                 "mnemonic": "ID_DATE_TELECH",
-                "label_index": "21670",
+                "label_index": "@P21670",
                 "label_korean": "다운로딩 날짜",
                 "group_id": "142962",
                 "req_frame_id": "429228",
@@ -148,7 +148,7 @@
             {
                 "position": 7,
                 "mnemonic": "ID_NOMBRE_DE_TELECHARGEMENT",
-                "label_index": "24589",
+                "label_index": "@P24589",
                 "label_korean": "다운로드의 수",
                 "group_id": "142962",
                 "req_frame_id": "429228",
@@ -170,7 +170,7 @@
             {
                 "position": 8,
                 "mnemonic": "ID_TRACABILITE_DATE_FABRICATION",
-                "label_index": "14355",
+                "label_index": "@F14355",
                 "label_korean": "제조일자",
                 "group_id": "142963",
                 "req_frame_id": "429231",
@@ -200,7 +200,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_VITESSE_DEMANDEE",
-                "label_index": "11711",
+                "label_index": "@P11711",
                 "label_korean": "요청된 기어",
                 "group_id": "142965",
                 "req_frame_id": "429237",
@@ -222,7 +222,7 @@
             {
                 "position": 2,
                 "mnemonic": "MP_VITESSE_REELLE",
-                "label_index": "63352",
+                "label_index": "@P63352",
                 "label_korean": "actual speed",
                 "group_id": "142966",
                 "req_frame_id": "429240",
@@ -244,7 +244,7 @@
             {
                 "position": 3,
                 "mnemonic": "MP_CONSOMATION_ENERGIE",
-                "label_index": "63350",
+                "label_index": "@P63350",
                 "label_korean": "전력 소비",
                 "group_id": "142967",
                 "req_frame_id": "429243",
@@ -266,7 +266,7 @@
             {
                 "position": 4,
                 "mnemonic": "MP_TENSION_BARRE_ELECTRIQUE",
-                "label_index": "63389",
+                "label_index": "@P63389@\\*(busbar)",
                 "label_korean": "전동 바의 전압(busbar)",
                 "group_id": "142968",
                 "req_frame_id": "429246",
@@ -288,7 +288,7 @@
             {
                 "position": 5,
                 "mnemonic": "MP_INTENSITE_BARRE_ELECTRIQUE",
-                "label_index": "63390",
+                "label_index": "@P63390@\\*(busbar)",
                 "label_korean": "전동 바의 전류(busbar)",
                 "group_id": "142969",
                 "req_frame_id": "429249",
@@ -310,7 +310,7 @@
             {
                 "position": 6,
                 "mnemonic": "MP_TEMPERATURE_TRANSISTOR_PUISSANCE",
-                "label_index": "27303",
+                "label_index": "@P27303",
                 "label_korean": "파워 트랜지스터의 온도",
                 "group_id": "142970",
                 "req_frame_id": "429252",
@@ -332,7 +332,7 @@
             {
                 "position": 7,
                 "mnemonic": "MP_COURANT_PHASE_MAXIMAL",
-                "label_index": "63355",
+                "label_index": "@P63355",
                 "label_korean": "최대 상전류",
                 "group_id": "142971",
                 "req_frame_id": "429255",
@@ -354,7 +354,7 @@
             {
                 "position": 8,
                 "mnemonic": "MP_COMMANDE_COMPRESSEUR_REFRIGERATION",
-                "label_index": "28806",
+                "label_index": "@F28806",
                 "label_korean": "냉매 컴프레셔 제어",
                 "group_id": "142972",
                 "req_frame_id": "429258",
@@ -379,7 +379,7 @@
             {
                 "position": 9,
                 "mnemonic": "MP_PUISSANCE_LIMITE_MAX_ATTEINTE_PAR_COM_REFRIGERATION",
-                "label_index": "32831",
+                "label_index": "@P32831",
                 "label_korean": "에어컨 컴프레서에 의해서 최대 출력 한계에 도달했다",
                 "group_id": "142973",
                 "req_frame_id": "429261",
@@ -401,7 +401,7 @@
             {
                 "position": 10,
                 "mnemonic": "MP_ETAT_FONCTIONNEMENT_COMPRESSUR_REFRIGIRATION",
-                "label_index": "63351",
+                "label_index": "@P63351",
                 "label_korean": "에어컨 컴프레서 작동 상태",
                 "group_id": "142974",
                 "req_frame_id": "429264",
@@ -435,7 +435,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_VITESSE_VEHICULE",
-                "label_index": "9267",
+                "label_index": "@F9267",
                 "label_korean": "차량 속도",
                 "group_id": "142982",
                 "req_frame_id": "429288",
@@ -461,7 +461,7 @@
             {
                 "position": 2,
                 "mnemonic": "MP_ETAT_CHAINE_TRACTION",
-                "label_index": "1445",
+                "label_index": "@P1445",
                 "label_korean": "구동 트레인의 상태",
                 "group_id": "142975",
                 "req_frame_id": "429267",
@@ -502,7 +502,7 @@
             {
                 "position": 3,
                 "mnemonic": "MP_NOMBRE_KILOMETRES_PARCOURUS",
-                "label_index": "62378",
+                "label_index": "@P62378",
                 "label_korean": "주행한 마일",
                 "group_id": "142976",
                 "req_frame_id": "429270",
@@ -532,7 +532,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_ETAT_REVEIL_PRINCIPAL",
-                "label_index": "8973",
+                "label_index": "@P8973",
                 "label_korean": "메인 작동 상태",
                 "group_id": "142977",
                 "req_frame_id": "429273",
@@ -560,7 +560,7 @@
             {
                 "position": 2,
                 "mnemonic": "MP_ETAT_CONTACTEUR_CHARGE",
-                "label_index": "21420",
+                "label_index": "@P21420",
                 "label_korean": "충전 스위치의 상태",
                 "group_id": "142978",
                 "req_frame_id": "429276",
@@ -586,7 +586,7 @@
             {
                 "position": 3,
                 "mnemonic": "MP_ETAT_CONT_POSITIF_PUISSANCE_INTERNE_BAT_TRACTION",
-                "label_index": "54363",
+                "label_index": "@P54363",
                 "label_korean": "트랙션 배터리 내부 양극 전원 스위치 상태",
                 "group_id": "142979",
                 "req_frame_id": "429279",
@@ -608,7 +608,7 @@
             {
                 "position": 4,
                 "mnemonic": "MP_ETAT_CONT_NEGATIF_PUISSANCE_INTERNE_BAT_TRACTION",
-                "label_index": "54364",
+                "label_index": "@P54364",
                 "label_korean": "트랙션 배터리 내부 음극 전원 스위치 상태",
                 "group_id": "142980",
                 "req_frame_id": "429282",
@@ -630,7 +630,7 @@
             {
                 "position": 5,
                 "mnemonic": "MP_ETAT_CONT_PRECHARGE_PUISSANCE_INTERNE_BAT_TRACTION",
-                "label_index": "62655",
+                "label_index": "@P62655",
                 "label_korean": "트랙션 배터리 내부 전원 사전 충전 스위치 상태",
                 "group_id": "142981",
                 "req_frame_id": "429285",
@@ -663,7 +663,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_VITESSE_REELLE",
-                "label_index": "63352",
+                "label_index": "@P63352",
                 "label_korean": "actual speed",
                 "group_id": "142966",
                 "req_frame_id": "429240",
@@ -685,7 +685,7 @@
             {
                 "position": 2,
                 "mnemonic": "MP_CONSOMATION_ENERGIE",
-                "label_index": "63350",
+                "label_index": "@P63350",
                 "label_korean": "전력 소비",
                 "group_id": "142967",
                 "req_frame_id": "429243",
@@ -707,7 +707,7 @@
             {
                 "position": 3,
                 "mnemonic": "MP_TENSION_BARRE_ELECTRIQUE",
-                "label_index": "63389",
+                "label_index": "@P63389@\\*(busbar)",
                 "label_korean": "전동 바의 전압(busbar)",
                 "group_id": "142968",
                 "req_frame_id": "429246",
@@ -729,7 +729,7 @@
             {
                 "position": 4,
                 "mnemonic": "MP_INTENSITE_BARRE_ELECTRIQUE",
-                "label_index": "63390",
+                "label_index": "@P63390@\\*(busbar)",
                 "label_korean": "전동 바의 전류(busbar)",
                 "group_id": "142969",
                 "req_frame_id": "429249",
@@ -751,7 +751,7 @@
             {
                 "position": 5,
                 "mnemonic": "MP_TEMPERATURE_TRANSISTOR_PUISSANCE",
-                "label_index": "27303",
+                "label_index": "@P27303",
                 "label_korean": "파워 트랜지스터의 온도",
                 "group_id": "142970",
                 "req_frame_id": "429252",
@@ -773,7 +773,7 @@
             {
                 "position": 6,
                 "mnemonic": "MP_COURANT_PHASE_MAXIMAL",
-                "label_index": "63355",
+                "label_index": "@P63355",
                 "label_korean": "최대 상전류",
                 "group_id": "142971",
                 "req_frame_id": "429255",
@@ -795,7 +795,7 @@
             {
                 "position": 7,
                 "mnemonic": "MP_VITESSE_VEHICULE",
-                "label_index": "9267",
+                "label_index": "@F9267",
                 "label_korean": "차량 속도",
                 "group_id": "142982",
                 "req_frame_id": "429288",
@@ -821,7 +821,7 @@
             {
                 "position": 8,
                 "mnemonic": "MP_NOMBRE_KILOMETRES_PARCOURUS",
-                "label_index": "62378",
+                "label_index": "@P62378",
                 "label_korean": "주행한 마일",
                 "group_id": "142976",
                 "req_frame_id": "429270",

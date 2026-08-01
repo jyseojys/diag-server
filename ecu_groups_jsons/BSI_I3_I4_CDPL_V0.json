@@ -8,7 +8,7 @@
             {
                 "position": 1,
                 "mnemonic": "ID_REF_FOURNISSEUR",
-                "label_index": "633",
+                "label_index": "@P633",
                 "label_korean": "제조업체",
                 "group_id": "24792",
                 "req_frame_id": "74382",
@@ -30,7 +30,7 @@
             {
                 "position": 2,
                 "mnemonic": "ID_PARTNUMBER",
-                "label_index": "28154",
+                "label_index": "@P28154",
                 "label_korean": "부품 번호",
                 "group_id": "24791",
                 "req_frame_id": "74379",
@@ -52,7 +52,7 @@
             {
                 "position": 3,
                 "mnemonic": "Hardware_Version",
-                "label_index": "28760",
+                "label_index": "@P28760",
                 "label_korean": "하드웨어 버전",
                 "group_id": "24792",
                 "req_frame_id": "74382",
@@ -74,7 +74,7 @@
             {
                 "position": 4,
                 "mnemonic": "Software_Version",
-                "label_index": "2358",
+                "label_index": "@P2358",
                 "label_korean": "소프트웨어 버전",
                 "group_id": "24792",
                 "req_frame_id": "74382",
@@ -96,7 +96,7 @@
             {
                 "position": 5,
                 "mnemonic": "DIAGNOSTIC_VERSION",
-                "label_index": "2802",
+                "label_index": "@P2802",
                 "label_korean": "진단 버전",
                 "group_id": "24793",
                 "req_frame_id": "74385",
@@ -118,7 +118,7 @@
             {
                 "position": 6,
                 "mnemonic": "MP_NUM_SERIE",
-                "label_index": "12519",
+                "label_index": "@P12519@\\*",
                 "label_korean": "일련 번호",
                 "group_id": "24794",
                 "req_frame_id": "74388",
@@ -148,7 +148,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_CONTACT_MIS",
-                "label_index": "17978",
+                "label_index": "@P17978",
                 "label_korean": "키 ON",
                 "group_id": "24799",
                 "req_frame_id": "74403",
@@ -164,13 +164,13 @@
                 "bit_mask": 128,
                 "bit_shift": 7,
                 "dynamic_arg": "",
-                "help_code": "20698",
+                "help_code": "@P20698",
                 "help_korean": "상태는 키를 \"On\" 또는 \"시동\"일 때 \"작동\"이다"
             },
             {
                 "position": 2,
                 "mnemonic": "MP_PRESENCE_ALIMENTATION_PLUS_ACCESSOIRE",
-                "label_index": "18203",
+                "label_index": "@P18203",
                 "label_korean": "키 액세서리 전원 존재",
                 "group_id": "24799",
                 "req_frame_id": "74403",
@@ -186,13 +186,13 @@
                 "bit_mask": 64,
                 "bit_shift": 6,
                 "dynamic_arg": "",
-                "help_code": "20650",
+                "help_code": "@P20650",
                 "help_korean": "상태는 키를 \"Acc\" 또는 \"On\"일 때 \"작동\"이다"
             },
             {
                 "position": 3,
                 "mnemonic": "MP_VITESSE_VEHICULE",
-                "label_index": "7997",
+                "label_index": "@P7997",
                 "label_korean": "차량 속도",
                 "group_id": "24799",
                 "req_frame_id": "74403",
@@ -212,13 +212,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "40495",
+                "help_code": "@P40495",
                 "help_korean": "차량 속도를 나타낸다"
             },
             {
                 "position": 4,
                 "mnemonic": "MP_ZONE_GEOGRAPHIQUE_UTILISATION",
-                "label_index": "4998",
+                "label_index": "@P4998",
                 "label_korean": "지정학적 사용 지역",
                 "group_id": "24800",
                 "req_frame_id": "74406",
@@ -242,7 +242,7 @@
                 "bit_mask": 128,
                 "bit_shift": 7,
                 "dynamic_arg": "",
-                "help_code": "20633",
+                "help_code": "@P20633",
                 "help_korean": "차량이 주행되는 지정학적인 지역을 나타낸다"
             }
         ]
@@ -256,7 +256,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_MODE_ESSUYAGE_AUTOMATIQUE",
-                "label_index": "13157",
+                "label_index": "@P13157@\\*",
                 "label_korean": "자동 와이퍼 작동 모드",
                 "group_id": "24799",
                 "req_frame_id": "74403",
@@ -272,13 +272,13 @@
                 "bit_mask": 32,
                 "bit_shift": 5,
                 "dynamic_arg": "",
-                "help_code": "20804, 20770",
+                "help_code": "@P20804@\\n@P20770",
                 "help_korean": "자동 와이퍼의 상태를 나타낸다\n상태는 와이퍼 스톡이 \"자동\" 위치일 때 \"작동\"이다"
             },
             {
                 "position": 2,
                 "mnemonic": "MP_SENSIBILITE_CAPTEUR_PLUIE",
-                "label_index": "26600",
+                "label_index": "@P26600",
                 "label_korean": "레인 센서의 민감도",
                 "group_id": "24799",
                 "req_frame_id": "74403",
@@ -294,13 +294,13 @@
                 "bit_mask": 224,
                 "bit_shift": 5,
                 "dynamic_arg": "",
-                "help_code": "20880, 21052, 20638",
+                "help_code": "@P20880@\\n@P21052@\\*1@\\n@P20638@\\*6",
                 "help_korean": "레인 센서의 민감도를 나타낸다\n레벨1은 가장 민감함에 해당된다\n레벨1은 가장 덜 민감함에 해당된다"
             },
             {
                 "position": 3,
                 "mnemonic": "MP_POS_ARRET_FIXE_AV",
-                "label_index": "16164",
+                "label_index": "@P16164",
                 "label_korean": "프론트 윈드스크린 와이퍼 파크 정보",
                 "group_id": "24799",
                 "req_frame_id": "74403",
@@ -316,13 +316,13 @@
                 "bit_mask": 16,
                 "bit_shift": 4,
                 "dynamic_arg": "",
-                "help_code": "20847",
+                "help_code": "@P20847",
                 "help_korean": "와이퍼가 작동할 때 상태는 \"작동\"이다"
             },
             {
                 "position": 4,
                 "mnemonic": "MP_VITESSE_BALAYAGE",
-                "label_index": "22089",
+                "label_index": "@P22089",
                 "label_korean": "와이퍼 작동 속도",
                 "group_id": "24798",
                 "req_frame_id": "74400",
@@ -358,13 +358,13 @@
                 "bit_mask": 192,
                 "bit_shift": 6,
                 "dynamic_arg": "",
-                "help_code": "20689",
+                "help_code": "@P20689",
                 "help_korean": "레인 및 밝기 센서에 의한 윈드스크린 와이퍼 속도 요청을 나타낸다"
             },
             {
                 "position": 5,
                 "mnemonic": "MP_VOLUME_PLUIE_MESUREE_CELLULE_1",
-                "label_index": "21782",
+                "label_index": "@P21782@\\*1",
                 "label_korean": "셀1에 의해서 측정된 강우량",
                 "group_id": "24801",
                 "req_frame_id": "74409",
@@ -380,13 +380,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "1",
-                "help_code": "20996",
+                "help_code": "@P20996@\\*1",
                 "help_korean": "레인 및 밝기 센서의 셀1에 의해 윈드스크린에서 측정된 강우량을 나타낸다"
             },
             {
                 "position": 6,
                 "mnemonic": "MP_VOLUME_PLUIE_MESUREE_CELLULE_2",
-                "label_index": "21782",
+                "label_index": "@P21782@\\*2",
                 "label_korean": "셀2에 의해서 측정된 강우량",
                 "group_id": "24801",
                 "req_frame_id": "74409",
@@ -402,13 +402,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "2",
-                "help_code": "20996",
+                "help_code": "@P20996@\\*2",
                 "help_korean": "레인 및 밝기 센서의 셀2에 의해 윈드스크린에서 측정된 강우량을 나타낸다"
             },
             {
                 "position": 7,
                 "mnemonic": "MP_VAL_ADAPTATION_CELLULE_1",
-                "label_index": "25211",
+                "label_index": "@P25211@\\*1",
                 "label_korean": "셀1의 적용 값",
                 "group_id": "24802",
                 "req_frame_id": "74412",
@@ -424,13 +424,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "1",
-                "help_code": "20660",
+                "help_code": "@P20660@\\*1",
                 "help_korean": "레인 및 밝기 센서의 셀1을 초기화한 후 적용 값을 나타낸다"
             },
             {
                 "position": 8,
                 "mnemonic": "MP_VAL_ADAPTATION_CELLULE_2",
-                "label_index": "25211",
+                "label_index": "@P25211@\\*2",
                 "label_korean": "셀2의 적용 값",
                 "group_id": "24802",
                 "req_frame_id": "74412",
@@ -446,13 +446,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "2",
-                "help_code": "20660",
+                "help_code": "@P20660@\\*2",
                 "help_korean": "레인 및 밝기 센서의 셀2을 초기화한 후 적용 값을 나타낸다"
             },
             {
                 "position": 9,
                 "mnemonic": "MP_GAIN_ADAPTATION_APRES_INIT",
-                "label_index": "25413",
+                "label_index": "@P25413",
                 "label_korean": "초기화 이후 적용",
                 "group_id": "24802",
                 "req_frame_id": "74412",
@@ -468,7 +468,7 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "20909",
+                "help_code": "@P20909",
                 "help_korean": "레인 및 밝기 센서의 초기화 후 적용 값을 나타낸다"
             }
         ]
@@ -482,7 +482,7 @@
             {
                 "position": 1,
                 "mnemonic": "SENSITIVITY_FOR_AUTO_LIGHT",
-                "label_index": "14009",
+                "label_index": "@F14009",
                 "label_korean": "밝기 센서의 민감도",
                 "group_id": "24799",
                 "req_frame_id": "74403",
@@ -498,13 +498,13 @@
                 "bit_mask": 224,
                 "bit_shift": 5,
                 "dynamic_arg": "",
-                "help_code": "20991, 20638, 21052",
+                "help_code": "@P20991@\\n@P20638@\\*1@\\n@P21052@\\*5",
                 "help_korean": "밝기 센서의 민감도를 나타낸다\n레벨1은 가장 덜 민감함에 해당된다\n레벨1은 가장 민감함에 해당된다"
             },
             {
                 "position": 2,
                 "mnemonic": "MPLUMINOSITE",
-                "label_index": "12088",
+                "label_index": "@P12088",
                 "label_korean": "외부 라이팅 레벨",
                 "group_id": "24798",
                 "req_frame_id": "74400",
@@ -529,13 +529,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "20607, 20917, 20923, 20844",
+                "help_code": "@P20607@\\n@P20917@\\*0@\\n@P20923@\\*7@\\n@P20844",
                 "help_korean": "측정된 밝기 레벨을 나타낸다\n레벨0은 어두운 환경에 해당된다\n레벨0은 밝은 환경에 해당된다\n밝기 레벨을 변경하기 위해서 윈드스크린에 A4 용지를 위치한다"
             },
             {
                 "position": 3,
                 "mnemonic": "MP_DEMANDE_ALLUMAGE_FEUX_DE_POSITION",
-                "label_index": "13296",
+                "label_index": "@P13296",
                 "label_korean": "미등 점등 요청",
                 "group_id": "24798",
                 "req_frame_id": "74400",
@@ -551,13 +551,13 @@
                 "bit_mask": 128,
                 "bit_shift": 7,
                 "dynamic_arg": "",
-                "help_code": "20861",
+                "help_code": "@P20861",
                 "help_korean": "레인 및 밝기 센서에 의한 미등의 작동 요청을 나타낸다"
             },
             {
                 "position": 4,
                 "mnemonic": "MP_DEMANDE_ALLUMAGE_FEUX_DE_CROISEMENT",
-                "label_index": "10432",
+                "label_index": "@P10432",
                 "label_korean": "전조등 하향 점등 요청",
                 "group_id": "24798",
                 "req_frame_id": "74400",
@@ -573,13 +573,13 @@
                 "bit_mask": 64,
                 "bit_shift": 6,
                 "dynamic_arg": "",
-                "help_code": "20664",
+                "help_code": "@P20664",
                 "help_korean": "레인 및 밝기 센서에 의한 전조등 하향 작동 요청을 나타낸다"
             },
             {
                 "position": 5,
                 "mnemonic": "MP_DETECTION_TUNNEL",
-                "label_index": "25222",
+                "label_index": "@P25222",
                 "label_korean": "터널 감지",
                 "group_id": "24798",
                 "req_frame_id": "74400",
@@ -595,7 +595,7 @@
                 "bit_mask": 32,
                 "bit_shift": 5,
                 "dynamic_arg": "",
-                "help_code": "20747",
+                "help_code": "@P20747",
                 "help_korean": "레인 및 밝기 센서에 의해 터널 감지를 나타낸다"
             }
         ]

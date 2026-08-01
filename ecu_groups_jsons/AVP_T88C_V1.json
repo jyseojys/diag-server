@@ -8,7 +8,7 @@
             {
                 "position": 1,
                 "mnemonic": "ID_NOM_DU_FOURNISSEUR",
-                "label_index": "5701",
+                "label_index": "@P5701",
                 "label_korean": "제조 업체명",
                 "group_id": "86016",
                 "req_frame_id": "258349",
@@ -38,7 +38,7 @@
             {
                 "position": 2,
                 "mnemonic": "ID_REFERENCE_MATERIEL",
-                "label_index": "1071",
+                "label_index": "@P1071",
                 "label_korean": "장치 부품 번호",
                 "group_id": "86016",
                 "req_frame_id": "258349",
@@ -60,7 +60,7 @@
             {
                 "position": 3,
                 "mnemonic": "ID_REFERENCE_COMPLEMENTAIRE_MATERIEL",
-                "label_index": "1634",
+                "label_index": "@P1634",
                 "label_korean": "장치 추가 참조 번호",
                 "group_id": "86016",
                 "req_frame_id": "258349",
@@ -82,7 +82,7 @@
             {
                 "position": 4,
                 "mnemonic": "ID_VERSION_LOGICIEL_new_1",
-                "label_index": "8662",
+                "label_index": "@P8662@\\*",
                 "label_korean": "소프트웨어 버전",
                 "group_id": "86016",
                 "req_frame_id": "258349",
@@ -104,7 +104,7 @@
             {
                 "position": 5,
                 "mnemonic": "ID_REF_CALIBRATION_new_1",
-                "label_index": "7014",
+                "label_index": "@P7014",
                 "label_korean": "캘리브레이션 버전",
                 "group_id": "86016",
                 "req_frame_id": "258349",
@@ -126,7 +126,7 @@
             {
                 "position": 6,
                 "mnemonic": "ID_MESS_DIAGNOSTIC",
-                "label_index": "2459",
+                "label_index": "@P2459",
                 "label_korean": "진단 이메일",
                 "group_id": "86016",
                 "req_frame_id": "258349",
@@ -142,13 +142,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "53130",
+                "help_code": "@P53130@\\*98.FFF.FFF.FF",
                 "help_korean": "메시지98의 값이 입력되지 않은 메시지에 해당함.FFF.FFF.FF"
             },
             {
                 "position": 7,
                 "mnemonic": "ID_80_MP_INDICE_MESS",
-                "label_index": "2225",
+                "label_index": "@P2225",
                 "label_korean": "메시지 인덱스",
                 "group_id": "86016",
                 "req_frame_id": "258349",
@@ -170,7 +170,7 @@
             {
                 "position": 8,
                 "mnemonic": "ID_TRACABILITE_DATE_FABRICATION",
-                "label_index": "14355",
+                "label_index": "@P14355",
                 "label_korean": "제조일자",
                 "group_id": "86018",
                 "req_frame_id": "258355",
@@ -200,7 +200,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_ETAT_ACTIVATION_AVP",
-                "label_index": "34771",
+                "label_index": "@P34771",
                 "label_korean": "파노라믹 시각 지원 기능의 상태",
                 "group_id": "86020",
                 "req_frame_id": "258361",
@@ -225,7 +225,7 @@
             {
                 "position": 2,
                 "mnemonic": "MP_AFFICHAGE_VUE_AVP",
-                "label_index": "34772",
+                "label_index": "@P34772",
                 "label_korean": "파노라믹 시각 지원 기능의 표시",
                 "group_id": "86020",
                 "req_frame_id": "258361",
@@ -263,7 +263,7 @@
             {
                 "position": 1,
                 "mnemonic": "PR_MP_APPRENTISSAGE_CAMERAS_AVP",
-                "label_index": "48470",
+                "label_index": "@P48470",
                 "label_korean": "파노라믹 뷰 지원 카메라 프로그래밍 상태",
                 "group_id": "86022",
                 "req_frame_id": "258367",
@@ -285,7 +285,7 @@
             {
                 "position": 2,
                 "mnemonic": "PR_MP_ETAT_GMP",
-                "label_index": "20069",
+                "label_index": "@P20069",
                 "label_korean": "파워 트레인 상태",
                 "group_id": "86022",
                 "req_frame_id": "258367",
@@ -307,7 +307,7 @@
             {
                 "position": 3,
                 "mnemonic": "PR_MP_ETAT_PRINCIPAL_SEV",
-                "label_index": "34457",
+                "label_index": "@P34457",
                 "label_korean": "차량 전기 시스템의 주요 상태",
                 "group_id": "86022",
                 "req_frame_id": "258367",
@@ -329,7 +329,7 @@
             {
                 "position": 4,
                 "mnemonic": "PR_MP_VITESSE_VEHICULE",
-                "label_index": "11138",
+                "label_index": "@P11138",
                 "label_korean": "차량 속도",
                 "group_id": "86022",
                 "req_frame_id": "258367",
@@ -351,7 +351,7 @@
             {
                 "position": 5,
                 "mnemonic": "PR_MP_CAMERA_AVANT_CAL",
-                "label_index": "34768",
+                "label_index": "@P34768",
                 "label_korean": "파노라믹 시각 지원 전방 카메라",
                 "group_id": "86022",
                 "req_frame_id": "258367",
@@ -373,7 +373,7 @@
             {
                 "position": 6,
                 "mnemonic": "PR_MP_CAMERA_ARRIERE_CAL",
-                "label_index": "34767",
+                "label_index": "@P34767",
                 "label_korean": "파노라믹 시각 지원 후방 카메라",
                 "group_id": "86022",
                 "req_frame_id": "258367",
@@ -395,7 +395,7 @@
             {
                 "position": 7,
                 "mnemonic": "PR_MP_CAMERA_GAUCHE_CAL",
-                "label_index": "34779",
+                "label_index": "@P34779",
                 "label_korean": "좌측 도어 미러 주차 지원 카메라",
                 "group_id": "86022",
                 "req_frame_id": "258367",
@@ -417,7 +417,7 @@
             {
                 "position": 8,
                 "mnemonic": "PR_MP_CAMERA_DROITE_CAL",
-                "label_index": "34780",
+                "label_index": "@P34780",
                 "label_korean": "우측 도어 미러 주차 지원 카메라",
                 "group_id": "86022",
                 "req_frame_id": "258367",

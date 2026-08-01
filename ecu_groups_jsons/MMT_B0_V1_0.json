@@ -8,7 +8,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_TEMPERATURE_EAU_MOTEUR_b",
-                "label_index": "4789",
+                "label_index": "@P4789",
                 "label_korean": "엔진 냉각수 온도",
                 "group_id": "47775",
                 "req_frame_id": "143624",
@@ -24,13 +24,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "23729, 12962, 27687, 22892, 23538",
+                "help_code": "@P23729@\\n@P12962@\\n@P27687@\\*-40@T : @P22892@\\n@P23538@\\*140",
                 "help_korean": "엔진 ECU를 통해서, 냉각수 온도 센서로부터 정보\n엔진 냉각수 온도\n140도. C-40 : 단선\n140°C: 단락"
             },
             {
                 "position": 2,
                 "mnemonic": "MP_TEMPERATUREHUILE",
-                "label_index": "23693",
+                "label_index": "@P23693",
                 "label_korean": "계산된 변속기 오일 온도",
                 "group_id": "47776",
                 "req_frame_id": "143627",
@@ -46,13 +46,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "23534",
+                "help_code": "@P23534",
                 "help_korean": "변속기 오일 온도는 엔진 냉각수 온도와 외부 공기 온도로부터 추정된다"
             },
             {
                 "position": 3,
                 "mnemonic": "MP_REGIME_MOTEUR_C7",
-                "label_index": "7917",
+                "label_index": "@P7917",
                 "label_korean": "엔진 속도",
                 "group_id": "47777",
                 "req_frame_id": "143630",
@@ -68,13 +68,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "23234, 23777",
+                "help_code": "@P23234@\\n@P23777",
                 "help_korean": "엔진 ECU를 통해서 엔진 속도 센서로부터 정보\n신호가 단선 또는 단락이면, 백업 값이 CAN 네트워크에 의해서 사용된다"
             },
             {
                 "position": 4,
                 "mnemonic": "VITESSECALCUL",
-                "label_index": "10593",
+                "label_index": "@P10593",
                 "label_korean": "계산된 차량 속도",
                 "group_id": "47778",
                 "req_frame_id": "143633",
@@ -90,13 +90,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "23446, 23788",
+                "help_code": "@P23446@\\n@P23788",
                 "help_korean": "엔진 속도와 체결된 기어로부터 계산된 정보\n엔진 속도 신호가 결함이면, 차량 속도는 변속기 입력 속도와 체결된 기어로부터 계산된다"
             },
             {
                 "position": 5,
                 "mnemonic": "MP_VITESSE_VEHICULE_a",
-                "label_index": "7997",
+                "label_index": "@P7997@\\*",
                 "label_korean": "차량 속도",
                 "group_id": "47779",
                 "req_frame_id": "143636",
@@ -116,13 +116,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "23806, 23769",
+                "help_code": "@P23806@\\n@P23769",
                 "help_korean": "제어 패널로부터 정보\n결함의 경우, 차량 속도는 변속기 입력 속도 및 체결된 기어로부터 계산된다"
             },
             {
                 "position": 6,
                 "mnemonic": "MP_REGIME_ENTREE_BOITE",
-                "label_index": "4175",
+                "label_index": "@P4175",
                 "label_korean": "변속기 입력 속도",
                 "group_id": "47780",
                 "req_frame_id": "143639",
@@ -138,13 +138,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "15414, 23801",
+                "help_code": "@P15414@\\n@P23801",
                 "help_korean": "변속기 입력 속도 센서에 의해 제공되는 정보\n결함일 경우, 변속기 입력속도는 차량 속도로부터 계산된다"
             },
             {
                 "position": 7,
                 "mnemonic": "MP_REGMOTCAN",
-                "label_index": "23750",
+                "label_index": "@P23750",
                 "label_korean": "엔진 속도 (중복 신호)",
                 "group_id": "47781",
                 "req_frame_id": "143642",
@@ -160,13 +160,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "23594, 23259",
+                "help_code": "@P23594@\\n@P23259@\\*0",
                 "help_korean": "CAN을 통해서 엔진 ECU로부터 정보\nCAN이 결함일 경우, 표시되는 값은 0rpm 이다"
             },
             {
                 "position": 8,
                 "mnemonic": "MP_RAPPORT_VIT_2",
-                "label_index": "2878",
+                "label_index": "@P2878",
                 "label_korean": "체결된 변속기 기어",
                 "group_id": "47782",
                 "req_frame_id": "143645",
@@ -198,7 +198,7 @@
             {
                 "position": 9,
                 "mnemonic": "MP_POSITION_DE_PEDALE_ACCELERATEUR",
-                "label_index": "11560",
+                "label_index": "@P11560",
                 "label_korean": "가속 페달 위치",
                 "group_id": "47783",
                 "req_frame_id": "143648",
@@ -216,13 +216,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "23734, 23546",
+                "help_code": "@P23734@\\n@P23546@\\*0",
                 "help_korean": "엔진 ECU를 통해서 가속 페달 센서에 의해 제공되는 정보\nCAN 네트워크가 결함이면, 표시되는 값은 0%이다"
             },
             {
                 "position": 10,
                 "mnemonic": "CHARGEMOTEURCALC",
-                "label_index": "2135",
+                "label_index": "@P2135",
                 "label_korean": "계산된 엔진 부하",
                 "group_id": "47784",
                 "req_frame_id": "143651",
@@ -244,7 +244,7 @@
             {
                 "position": 11,
                 "mnemonic": "MP_COUPLE_MOTEUR",
-                "label_index": "13664",
+                "label_index": "@P13664",
                 "label_korean": "엔진 토크",
                 "group_id": "47785",
                 "req_frame_id": "143654",
@@ -260,7 +260,7 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "23774",
+                "help_code": "@P23774",
                 "help_korean": "에어 플로우 및 엔진 속도로부터 계산된 정보"
             }
         ]
@@ -274,7 +274,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_PRESENCE_PLUS_APRES_CONTACT",
-                "label_index": "28381",
+                "label_index": "@P28381",
                 "label_korean": "키 ON 존재",
                 "group_id": "47786",
                 "req_frame_id": "143657",
@@ -299,7 +299,7 @@
             {
                 "position": 2,
                 "mnemonic": "MP_DEMARREUR",
-                "label_index": "6288",
+                "label_index": "@P6288",
                 "label_korean": "시동모터 제어",
                 "group_id": "47787",
                 "req_frame_id": "143660",
@@ -315,13 +315,13 @@
                 "bit_mask": 128,
                 "bit_shift": 7,
                 "dynamic_arg": "",
-                "help_code": "23420",
+                "help_code": "@P23420",
                 "help_korean": "시동 승인 제어 신호"
             },
             {
                 "position": 3,
                 "mnemonic": "MP_SIGNAL_FREIN_PRINCIPAL",
-                "label_index": "10509",
+                "label_index": "@P10509",
                 "label_korean": "메인 브레이크 신호",
                 "group_id": "47786",
                 "req_frame_id": "143657",
@@ -337,13 +337,13 @@
                 "bit_mask": 1,
                 "bit_shift": 0,
                 "dynamic_arg": "",
-                "help_code": "23515, 670, 22892, 7737, 23386, 23630",
-                "help_korean": "브레이크 페달을 얼마나\n- 밟았는지에 따라 변수의 상태가 변한다\n작동 안함 : 단선.작동 : 접지\n결함의 경우, 브레이크 페달 위치에 관계없이 메인 브레이크 신호는 고정된다"
+                "help_code": "@P23515@\\n@P670@T : @P22892@T.@P7737@T : @P23386@\\n@P23630",
+                "help_korean": "브레이크 페달을 얼마나 밟았는지에 따라 변수의 상태가 변한다\n작동 안함 : 단선.작동 : 접지\n결함의 경우, 브레이크 페달 위치에 관계없이 메인 브레이크 신호는 고정된다"
             },
             {
                 "position": 4,
                 "mnemonic": "MP_SIGNAL_FREIN_REDONDANT",
-                "label_index": "8725",
+                "label_index": "@P8725",
                 "label_korean": "크루즈 컨트롤 세이프티 신호",
                 "group_id": "47786",
                 "req_frame_id": "143657",
@@ -359,13 +359,13 @@
                 "bit_mask": 2,
                 "bit_shift": 1,
                 "dynamic_arg": "",
-                "help_code": "23515, 7737, 22892, 670, 23386",
-                "help_korean": "브레이크 페달을\n- 얼마나 밟았는지에 따라 변수의 상태가 변한다\n작동 : 단선.작동\n- 안함 : 접지"
+                "help_code": "@P23515@\\n@P7737@T : @P22892@T.@P670@T : @P23386",
+                "help_korean": "브레이크 페달을 얼마나 밟았는지에 따라 변수의 상태가 변한다\n작동 : 단선.작동 안함 : 접지"
             },
             {
                 "position": 5,
                 "mnemonic": "MP_FREIN",
-                "label_index": "23519",
+                "label_index": "@P23519",
                 "label_korean": "브레이크 정보",
                 "group_id": "47787",
                 "req_frame_id": "143660",
@@ -381,13 +381,13 @@
                 "bit_mask": 4,
                 "bit_shift": 2,
                 "dynamic_arg": "",
-                "help_code": "23414",
+                "help_code": "@P23414",
                 "help_korean": "브레이크 정보는 변속기 ECU의 메인 브레이크 신호와 백업 브레이크 신호에 의해 해석된다"
             },
             {
                 "position": 6,
                 "mnemonic": "MP_PARKINGB",
-                "label_index": "23427",
+                "label_index": "@P23427",
                 "label_korean": "주차 브레이크 신호",
                 "group_id": "47786",
                 "req_frame_id": "143657",
@@ -403,13 +403,13 @@
                 "bit_mask": 32,
                 "bit_shift": 5,
                 "dynamic_arg": "",
-                "help_code": "23531, 7737, 23386, 670, 22892",
-                "help_korean": "변수의\n- 상태는 주차 브레이크 위치에 따라 변한다\n작동 : 접지.작동\n- 안함 : 단선"
+                "help_code": "@P23531@\\n@P7737@T : @P23386@T.@P670@T : @P22892",
+                "help_korean": "변수의 상태는 주차 브레이크 위치에 따라 변한다\n작동 : 접지.작동 안함 : 단선"
             },
             {
                 "position": 7,
                 "mnemonic": "MP_MODEDIAG",
-                "label_index": "23497",
+                "label_index": "@P23497",
                 "label_korean": "진단 모드 작동",
                 "group_id": "47788",
                 "req_frame_id": "143663",
@@ -425,13 +425,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "23491",
+                "help_code": "@P23491",
                 "help_korean": "진단 과정 중, 활성화된 진단 모드는 \"정상\" 모드이다"
             },
             {
                 "position": 8,
                 "mnemonic": "MP_ALLUMIL",
-                "label_index": "23304",
+                "label_index": "@P23304",
                 "label_korean": "엔진 진단 경고등 점등 요청",
                 "group_id": "47789",
                 "req_frame_id": "143666",
@@ -456,7 +456,7 @@
             {
                 "position": 9,
                 "mnemonic": "MP_DISTALLUMIL",
-                "label_index": "23440",
+                "label_index": "@P23440",
                 "label_korean": "엔진 경고등이 점등된 이후 주행한 거리",
                 "group_id": "47790",
                 "req_frame_id": "143669",
@@ -472,7 +472,7 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "23798",
+                "help_code": "@P23798",
                 "help_korean": "엔진 진단 LED가 켜지는 첫번째 결함이 발생한 후 주행한 거리"
             }
         ]
@@ -486,7 +486,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_POSITIONLEVIER",
-                "label_index": "23108",
+                "label_index": "@P23108",
                 "label_korean": "기어 셀렉터 위치",
                 "group_id": "47791",
                 "req_frame_id": "143672",
@@ -504,13 +504,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "23365",
-                "help_korean": "가능한\n- 기어 셀렉터 위치 : P, R, N, E, M 및 유효하지 않는 위치"
+                "help_code": "@P23365",
+                "help_korean": "가능한 기어 셀렉터 위치 : P, R, N, E, M 및 유효하지 않는 위치"
             },
             {
                 "position": 2,
                 "mnemonic": "MP_SIG1CONTPOS",
-                "label_index": "23359",
+                "label_index": "@P23359@\\*1",
                 "label_korean": "기어 셀렉터 위치 스위치 신호1",
                 "group_id": "47792",
                 "req_frame_id": "143675",
@@ -526,13 +526,13 @@
                 "bit_mask": 1,
                 "bit_shift": 0,
                 "dynamic_arg": "1",
-                "help_code": "23242, 670, 22892, 7737, 23386, 23254",
-                "help_korean": "변수의 상태는\n- 기어 셀렉터 위치에 따라 변한다\n작동 안함 : 단선.작동 : 접지\n결함일 경우, 포지션 스위치 신호는 기어 셀렉터의 위치에 관계없이 고정된 상태로 남아 있는다"
+                "help_code": "@P23242@\\n@P670@T : @P22892@T.@P7737@T : @P23386@\\n@P23254",
+                "help_korean": "변수의 상태는 기어 셀렉터 위치에 따라 변한다\n작동 안함 : 단선.작동 : 접지\n결함일 경우, 포지션 스위치 신호는 기어 셀렉터의 위치에 관계없이 고정된 상태로 남아 있는다"
             },
             {
                 "position": 3,
                 "mnemonic": "MP_SIG2CONTPOS",
-                "label_index": "23359",
+                "label_index": "@P23359@\\*2",
                 "label_korean": "기어 셀렉터 위치 스위치 신호2",
                 "group_id": "47792",
                 "req_frame_id": "143675",
@@ -548,13 +548,13 @@
                 "bit_mask": 2,
                 "bit_shift": 1,
                 "dynamic_arg": "2",
-                "help_code": "23242, 670, 22892, 7737, 23386, 23254",
-                "help_korean": "변수의 상태는\n- 기어 셀렉터 위치에 따라 변한다\n작동 안함 : 단선.작동 : 접지\n결함일 경우, 포지션 스위치 신호는 기어 셀렉터의 위치에 관계없이 고정된 상태로 남아 있는다"
+                "help_code": "@P23242@\\n@P670@T : @P22892@T.@P7737@T : @P23386@\\n@P23254",
+                "help_korean": "변수의 상태는 기어 셀렉터 위치에 따라 변한다\n작동 안함 : 단선.작동 : 접지\n결함일 경우, 포지션 스위치 신호는 기어 셀렉터의 위치에 관계없이 고정된 상태로 남아 있는다"
             },
             {
                 "position": 4,
                 "mnemonic": "MP_SIG3CONTPOS",
-                "label_index": "23359",
+                "label_index": "@P23359@\\*3",
                 "label_korean": "기어 셀렉터 위치 스위치 신호3",
                 "group_id": "47792",
                 "req_frame_id": "143675",
@@ -570,13 +570,13 @@
                 "bit_mask": 4,
                 "bit_shift": 2,
                 "dynamic_arg": "3",
-                "help_code": "23242, 670, 22892, 7737, 23386, 23254",
-                "help_korean": "변수의 상태는\n- 기어 셀렉터 위치에 따라 변한다\n작동 안함 : 단선.작동 : 접지\n결함일 경우, 포지션 스위치 신호는 기어 셀렉터의 위치에 관계없이 고정된 상태로 남아 있는다"
+                "help_code": "@P23242@\\n@P670@T : @P22892@T.@P7737@T : @P23386@\\n@P23254",
+                "help_korean": "변수의 상태는 기어 셀렉터 위치에 따라 변한다\n작동 안함 : 단선.작동 : 접지\n결함일 경우, 포지션 스위치 신호는 기어 셀렉터의 위치에 관계없이 고정된 상태로 남아 있는다"
             },
             {
                 "position": 5,
                 "mnemonic": "MP_SIG4CONTPOS",
-                "label_index": "23359",
+                "label_index": "@P23359@\\*4",
                 "label_korean": "기어 셀렉터 위치 스위치 신호4",
                 "group_id": "47792",
                 "req_frame_id": "143675",
@@ -592,13 +592,13 @@
                 "bit_mask": 8,
                 "bit_shift": 3,
                 "dynamic_arg": "4",
-                "help_code": "23242, 670, 22892, 7737, 23386, 23254",
-                "help_korean": "변수의 상태는\n- 기어 셀렉터 위치에 따라 변한다\n작동 안함 : 단선.작동 : 접지\n결함일 경우, 포지션 스위치 신호는 기어 셀렉터의 위치에 관계없이 고정된 상태로 남아 있는다"
+                "help_code": "@P23242@\\n@P670@T : @P22892@T.@P7737@T : @P23386@\\n@P23254",
+                "help_korean": "변수의 상태는 기어 셀렉터 위치에 따라 변한다\n작동 안함 : 단선.작동 : 접지\n결함일 경우, 포지션 스위치 신호는 기어 셀렉터의 위치에 관계없이 고정된 상태로 남아 있는다"
             },
             {
                 "position": 6,
                 "mnemonic": "MP_SIG5CONTPOS",
-                "label_index": "23359",
+                "label_index": "@P23359@\\*5",
                 "label_korean": "기어 셀렉터 위치 스위치 신호5",
                 "group_id": "47792",
                 "req_frame_id": "143675",
@@ -614,13 +614,13 @@
                 "bit_mask": 16,
                 "bit_shift": 4,
                 "dynamic_arg": "5",
-                "help_code": "23242, 670, 22892, 7737, 23386, 23254",
-                "help_korean": "변수의 상태는\n- 기어 셀렉터 위치에 따라 변한다\n작동 안함 : 단선.작동 : 접지\n결함일 경우, 포지션 스위치 신호는 기어 셀렉터의 위치에 관계없이 고정된 상태로 남아 있는다"
+                "help_code": "@P23242@\\n@P670@T : @P22892@T.@P7737@T : @P23386@\\n@P23254",
+                "help_korean": "변수의 상태는 기어 셀렉터 위치에 따라 변한다\n작동 안함 : 단선.작동 : 접지\n결함일 경우, 포지션 스위치 신호는 기어 셀렉터의 위치에 관계없이 고정된 상태로 남아 있는다"
             },
             {
                 "position": 7,
                 "mnemonic": "MP_SIGRED1CONTPOS",
-                "label_index": "23787",
+                "label_index": "@P23787@\\*1",
                 "label_korean": "기어 셀렉터 위치 스위치로부터 1백업 신호",
                 "group_id": "47792",
                 "req_frame_id": "143675",
@@ -636,13 +636,13 @@
                 "bit_mask": 32,
                 "bit_shift": 5,
                 "dynamic_arg": "1",
-                "help_code": "23242, 23778, 7737, 22892, 670, 23386, 23254",
-                "help_korean": "변수의 상태는 기어 셀렉터 위치에 따라 변한다\n백업 신호1는\n- 기어 셀렉터 위치 스위치 신호2와는 반대이다\n작동 : 단선.작동\n- 안함 : 접지\n결함일 경우, 포지션 스위치 신호는 기어 셀렉터의 위치에 관계없이 고정된 상태로 남아 있는다"
+                "help_code": "@P23242@\\n@P23778@\\*1@\\*2@\\n@P7737@T : @P22892@T.@P670@T : @P23386@\\n@P23254",
+                "help_korean": "변수의 상태는 기어 셀렉터 위치에 따라 변한다\n백업 신호1는 기어 셀렉터 위치 스위치 신호2와는 반대이다\n작동 : 단선.작동 안함 : 접지\n결함일 경우, 포지션 스위치 신호는 기어 셀렉터의 위치에 관계없이 고정된 상태로 남아 있는다"
             },
             {
                 "position": 8,
                 "mnemonic": "MP_SIGRED2CONTPOS",
-                "label_index": "23787",
+                "label_index": "@P23787@\\*2",
                 "label_korean": "기어 셀렉터 위치 스위치로부터 2백업 신호",
                 "group_id": "47792",
                 "req_frame_id": "143675",
@@ -658,13 +658,13 @@
                 "bit_mask": 64,
                 "bit_shift": 6,
                 "dynamic_arg": "2",
-                "help_code": "23242, 23778, 7737, 22892, 670, 23386, 23254",
-                "help_korean": "변수의 상태는 기어 셀렉터 위치에 따라 변한다\n백업 신호2는\n- 기어 셀렉터 위치 스위치 신호3와는 반대이다\n작동 : 단선.작동\n- 안함 : 접지\n결함일 경우, 포지션 스위치 신호는 기어 셀렉터의 위치에 관계없이 고정된 상태로 남아 있는다"
+                "help_code": "@P23242@\\n@P23778@\\*2@\\*3@\\n@P7737@T : @P22892@T.@P670@T : @P23386@\\n@P23254",
+                "help_korean": "변수의 상태는 기어 셀렉터 위치에 따라 변한다\n백업 신호2는 기어 셀렉터 위치 스위치 신호3와는 반대이다\n작동 : 단선.작동 안함 : 접지\n결함일 경우, 포지션 스위치 신호는 기어 셀렉터의 위치에 관계없이 고정된 상태로 남아 있는다"
             },
             {
                 "position": 9,
                 "mnemonic": "MP_SIGRED3CONTPOS",
-                "label_index": "23787",
+                "label_index": "@P23787@\\*3",
                 "label_korean": "기어 셀렉터 위치 스위치로부터 3백업 신호",
                 "group_id": "47792",
                 "req_frame_id": "143675",
@@ -680,8 +680,8 @@
                 "bit_mask": 128,
                 "bit_shift": 7,
                 "dynamic_arg": "3",
-                "help_code": "23242, 23778, 7737, 22892, 670, 23386, 23254",
-                "help_korean": "변수의 상태는 기어 셀렉터 위치에 따라 변한다\n백업 신호3는\n- 기어 셀렉터 위치 스위치 신호4와는 반대이다\n작동 : 단선.작동\n- 안함 : 접지\n결함일 경우, 포지션 스위치 신호는 기어 셀렉터의 위치에 관계없이 고정된 상태로 남아 있는다"
+                "help_code": "@P23242@\\n@P23778@\\*3@\\*4@\\n@P7737@T : @P22892@T.@P670@T : @P23386@\\n@P23254",
+                "help_korean": "변수의 상태는 기어 셀렉터 위치에 따라 변한다\n백업 신호3는 기어 셀렉터 위치 스위치 신호4와는 반대이다\n작동 : 단선.작동 안함 : 접지\n결함일 경우, 포지션 스위치 신호는 기어 셀렉터의 위치에 관계없이 고정된 상태로 남아 있는다"
             }
         ]
     },
@@ -694,7 +694,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_APPBV",
-                "label_index": "6209",
+                "label_index": "@P6209",
                 "label_korean": "변속기 게이트의 학습",
                 "group_id": "47793",
                 "req_frame_id": "143678",
@@ -716,7 +716,7 @@
             {
                 "position": 2,
                 "mnemonic": "MP_APPPTDEB",
-                "label_index": "23371",
+                "label_index": "@P23371",
                 "label_korean": "클러치 해제 위치 프로그래밍",
                 "group_id": "47793",
                 "req_frame_id": "143678",
@@ -738,7 +738,7 @@
             {
                 "position": 3,
                 "mnemonic": "MP_APPPTEMB",
-                "label_index": "23664",
+                "label_index": "@P23664",
                 "label_korean": "클러치 체결 위치 프로그래밍",
                 "group_id": "47793",
                 "req_frame_id": "143678",
@@ -760,7 +760,7 @@
             {
                 "position": 4,
                 "mnemonic": "MP_CONTACTMAR",
-                "label_index": "23637",
+                "label_index": "@P23637",
                 "label_korean": "후진 기어 스위치 신호",
                 "group_id": "47792",
                 "req_frame_id": "143675",
@@ -776,13 +776,13 @@
                 "bit_mask": 4,
                 "bit_shift": 2,
                 "dynamic_arg": "",
-                "help_code": "23242, 670, 22892, 7737, 23386, 23254",
-                "help_korean": "변수의 상태는\n- 기어 셀렉터 위치에 따라 변한다\n작동 안함 : 단선.작동 : 접지\n결함일 경우, 포지션 스위치 신호는 기어 셀렉터의 위치에 관계없이 고정된 상태로 남아 있는다"
+                "help_code": "@P23242@\\n@P670@T : @P22892@T.@P7737@T : @P23386@\\n@P23254",
+                "help_korean": "변수의 상태는 기어 셀렉터 위치에 따라 변한다\n작동 안함 : 단선.작동 : 접지\n결함일 경우, 포지션 스위치 신호는 기어 셀렉터의 위치에 관계없이 고정된 상태로 남아 있는다"
             },
             {
                 "position": 5,
                 "mnemonic": "MP_POSITIONLEVIER",
-                "label_index": "23108",
+                "label_index": "@P23108",
                 "label_korean": "기어 셀렉터 위치",
                 "group_id": "47791",
                 "req_frame_id": "143672",
@@ -800,13 +800,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "23365",
-                "help_korean": "가능한\n- 기어 셀렉터 위치 : P, R, N, E, M 및 유효하지 않는 위치"
+                "help_code": "@P23365",
+                "help_korean": "가능한 기어 셀렉터 위치 : P, R, N, E, M 및 유효하지 않는 위치"
             },
             {
                 "position": 6,
                 "mnemonic": "MP_RAPPORT_VIT_BA",
-                "label_index": "2878",
+                "label_index": "@P2878",
                 "label_korean": "체결된 변속기 기어",
                 "group_id": "47794",
                 "req_frame_id": "143681",
@@ -837,7 +837,7 @@
             {
                 "position": 7,
                 "mnemonic": "CONSIGNERAPPORTBOITE",
-                "label_index": "9811",
+                "label_index": "@P9811",
                 "label_korean": "변속기 세팅",
                 "group_id": "47794",
                 "req_frame_id": "143681",
@@ -853,14 +853,14 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "23527",
+                "help_code": "@P23527",
                 "help_korean": "기어가 변경되지 않으면, 기어 세팅은 체결된 기어와 같다"
             },
             {
                 "position": 8,
                 "mnemonic": "MP_COMMANDE_DE_VITESSES_SOUS_VOLANT_DIRECTION_01",
-                "label_index": "16081",
-                "label_korean": "스티어링 휠 패들()",
+                "label_index": "@P16081@\\*+",
+                "label_korean": "스티어링 휠 패들+",
                 "group_id": "47786",
                 "req_frame_id": "143657",
                 "resp_frame_id": "143658",
@@ -878,14 +878,14 @@
                 "bit_mask": 1,
                 "bit_shift": 0,
                 "dynamic_arg": "",
-                "help_code": "670, 22892, 7737, 23386",
-                "help_korean": "작동\n- 안함 : 단선.\n- 작동 : 접지."
+                "help_code": "@P670@T : @P22892@T.@\\n@P7737@T : @P23386@T.",
+                "help_korean": "작동 안함 : 단선.\n작동 : 접지."
             },
             {
                 "position": 9,
                 "mnemonic": "MP_COMMANDE_DE_VITESSES_SOUS_VOLANT_DIRECTION_02",
-                "label_index": "16081",
-                "label_korean": "스티어링 휠 패들()-",
+                "label_index": "@P16081@\\*-",
+                "label_korean": "스티어링 휠 패들-",
                 "group_id": "47786",
                 "req_frame_id": "143657",
                 "resp_frame_id": "143658",
@@ -900,13 +900,13 @@
                 "bit_mask": 2,
                 "bit_shift": 1,
                 "dynamic_arg": "",
-                "help_code": "670, 22892, 7737, 23386",
-                "help_korean": "작동\n- 안함 : 단선.\n- 작동 : 접지."
+                "help_code": "@P670@T : @P22892@T.@\\n@P7737@T : @P23386@T.",
+                "help_korean": "작동 안함 : 단선.\n작동 : 접지."
             },
             {
                 "position": 10,
                 "mnemonic": "MP_POSITION_ACTIONNEUR_EMBRAYAGE",
-                "label_index": "9769",
+                "label_index": "@P9769",
                 "label_korean": "클러치 액츄에이터 포지션",
                 "group_id": "47795",
                 "req_frame_id": "143684",
@@ -922,13 +922,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "6581",
+                "help_code": "@P6581",
                 "help_korean": "클러치 액츄에이터 포지션 센서에 의해 제공되는 정보"
             },
             {
                 "position": 11,
                 "mnemonic": "MP_POSITION_ACTIONNEUR_PASSAGE",
-                "label_index": "6442",
+                "label_index": "@P6442",
                 "label_korean": "기어 체결 액츄에이터 포지션",
                 "group_id": "47796",
                 "req_frame_id": "143687",
@@ -944,13 +944,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "22721, 23582",
+                "help_code": "@P22721@\\n@P23582",
                 "help_korean": "기어 변경 액츄에이터 위치 센서에 의해 제공되는 정보\n기어 변속 액츄에이터가 작동하지 않을 때, 프로그램된 값이 표시된다"
             },
             {
                 "position": 12,
                 "mnemonic": "MP_POSITION_ACTIONNEUR_DE_SELECTION",
-                "label_index": "9724",
+                "label_index": "@P9724",
                 "label_korean": "기어 선택 액츄에이터 정보",
                 "group_id": "47797",
                 "req_frame_id": "143690",
@@ -966,13 +966,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "23815, 23498",
+                "help_code": "@P23815@\\n@P23498",
                 "help_korean": "선택 액츄에이터의 포지션 센서에 의해 제공된 정보\n기어 선택 액츄에이터가 작동하지 않을 때, 프로그램된 값이 표시된다"
             },
             {
                 "position": 13,
                 "mnemonic": "MP_IMOTEMB",
-                "label_index": "23282",
+                "label_index": "@P23282",
                 "label_korean": "클러치 모터에서 전류 레벨",
                 "group_id": "47798",
                 "req_frame_id": "143693",
@@ -988,13 +988,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "23766",
+                "help_code": "@P23766@\\*0",
                 "help_korean": "클러치 액츄에이터가 작동하지 않을 때, 클러치 모터에서 전류는 0A 이다"
             },
             {
                 "position": 14,
                 "mnemonic": "MP_IMOTPAS",
-                "label_index": "23720",
+                "label_index": "@P23720",
                 "label_korean": "기어 변경 모터에서 전류 레벨",
                 "group_id": "47799",
                 "req_frame_id": "143696",
@@ -1010,13 +1010,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "23309",
+                "help_code": "@P23309@\\*0",
                 "help_korean": "기어 변속 액츄에이터가 작동하지 않을 때, 기어 변속 모터에서 전류는 0A 이다"
             },
             {
                 "position": 15,
                 "mnemonic": "MP_IMOTSEL",
-                "label_index": "23542",
+                "label_index": "@P23542",
                 "label_korean": "기어 선택 모터에서 전류 레벨",
                 "group_id": "47800",
                 "req_frame_id": "143699",
@@ -1032,13 +1032,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "23675",
+                "help_code": "@P23675@\\*0",
                 "help_korean": "기어 선택 액츄에이터가 작동하지 않을 때, 기어 선택 모터에서 전류는 0A 이다"
             },
             {
                 "position": 16,
                 "mnemonic": "MP_BLOCBV",
-                "label_index": "23417",
+                "label_index": "@P23417",
                 "label_korean": "변속기 잠금 가능성",
                 "group_id": "47793",
                 "req_frame_id": "143678",
@@ -1068,7 +1068,7 @@
             {
                 "position": 1,
                 "mnemonic": "POSITION_APPRISE_POINT_DE_LECHAGE_EMBRAYAGE",
-                "label_index": "4200",
+                "label_index": "@P4200",
                 "label_korean": "클러치가 체결을 시작하는 지점의 위치를 학습한다",
                 "group_id": "47801",
                 "req_frame_id": "143702",
@@ -1084,13 +1084,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "23340, 23742",
-                "help_korean": "프로그래밍 중 변속기 ECU에 의해 저장된 클러치 체결 포인트 위치. “프로그램된 클러치 체결 포인트”와 “프로그램된 클러치 바이트 포인트 위치” 간의 차이는 반드시 6mm에서 13mm 사이여야 한다,41,75"
+                "help_code": "@P23340@T.@\\+@P23742@\\*6,41@\\*13,75",
+                "help_korean": "프로그래밍 중 변속기 ECU에 의해 저장된 클러치 체결 포인트 위치.“프로그램된 클러치 체결 포인트”와 “프로그램된 클러치 바이트 포인트 위치” 간의 차이는 반드시 6mm에서 13mm 사이여야 한다,41,75"
             },
             {
                 "position": 2,
                 "mnemonic": "MP_POSPOINEMB",
-                "label_index": "23794",
+                "label_index": "@P23794",
                 "label_korean": "클러치 체결 포인트의 위치 학습",
                 "group_id": "47802",
                 "req_frame_id": "143705",
@@ -1106,13 +1106,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "23507, 23742",
-                "help_korean": "학습 중 변속기 ECU에 의해 기록된 클러치 체결 위치. “프로그램된 클러치 체결 포인트”와 “프로그램된 클러치 바이트 포인트 위치” 간의 차이는 반드시 6mm에서 13mm 사이여야 한다,41,75"
+                "help_code": "@P23507@T.@\\+@P23742@\\*6,41@\\*13,75",
+                "help_korean": "학습 중 변속기 ECU에 의해 기록된 클러치 체결 위치.“프로그램된 클러치 체결 포인트”와 “프로그램된 클러치 바이트 포인트 위치” 간의 차이는 반드시 6mm에서 13mm 사이여야 한다,41,75"
             },
             {
                 "position": 3,
                 "mnemonic": "POSITION_APPRISE_NEUTRE_AXE_DE_PASSAGE",
-                "label_index": "9970",
+                "label_index": "@P9970",
                 "label_korean": "기어 변속 축에서 프로그램된 중립 위치",
                 "group_id": "47803",
                 "req_frame_id": "143708",
@@ -1128,13 +1128,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "23667",
+                "help_code": "@P23667",
                 "help_korean": "프로그래밍 중 변속기 ECU에 의해 저장된 기어 변속 축에서 중립 위치"
             },
             {
                 "position": 4,
                 "mnemonic": "MP_POSNEUTSEL",
-                "label_index": "23278",
+                "label_index": "@P23278",
                 "label_korean": "기어 선택 축에서 프로그램된 중립 위치",
                 "group_id": "47803",
                 "req_frame_id": "143708",
@@ -1150,13 +1150,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "23741",
+                "help_code": "@P23741",
                 "help_korean": "학습 중에 변속기 ECU에 의해서 기록된 선택 샤프트에서 중립 위치"
             },
             {
                 "position": 5,
                 "mnemonic": "POSITION_APPRISE_RAPPORT_01_AXE_DE_PASSAGE",
-                "label_index": "14070",
+                "label_index": "@P14070@\\*1",
                 "label_korean": "기어 변속 축에서 프로그램된 기어1위치",
                 "group_id": "47804",
                 "req_frame_id": "143711",
@@ -1172,13 +1172,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "1",
-                "help_code": "23686",
+                "help_code": "@P23686@\\*1",
                 "help_korean": "프로그래밍 중 변속기 ECU에 의해 저장된 기어 변속 축에서 기어1 위치"
             },
             {
                 "position": 6,
                 "mnemonic": "MP_POSUNSEL",
-                "label_index": "23405",
+                "label_index": "@P23405@\\*1",
                 "label_korean": "선택 샤프트에서 1기어 위치 학습",
                 "group_id": "47804",
                 "req_frame_id": "143711",
@@ -1194,13 +1194,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "1",
-                "help_code": "23239",
+                "help_code": "@P23239@\\*1",
                 "help_korean": "프로그래밍 중 변속기 ECU에 의해 저장되는 기어 선택 축에서 기어1 위치"
             },
             {
                 "position": 7,
                 "mnemonic": "POSITION_APPRISE_RAPPORT_02_AXE_DE_PASSAGE",
-                "label_index": "14070",
+                "label_index": "@P14070@\\*2",
                 "label_korean": "기어 변속 축에서 프로그램된 기어2위치",
                 "group_id": "47805",
                 "req_frame_id": "143714",
@@ -1216,13 +1216,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "2",
-                "help_code": "23686",
+                "help_code": "@P23686@\\*2",
                 "help_korean": "프로그래밍 중 변속기 ECU에 의해 저장된 기어 변속 축에서 기어2 위치"
             },
             {
                 "position": 8,
                 "mnemonic": "MP_POSDEUXSEL",
-                "label_index": "23405",
+                "label_index": "@P23405@\\*2",
                 "label_korean": "선택 샤프트에서 2기어 위치 학습",
                 "group_id": "47805",
                 "req_frame_id": "143714",
@@ -1238,13 +1238,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "2",
-                "help_code": "23239",
+                "help_code": "@P23239@\\*2",
                 "help_korean": "프로그래밍 중 변속기 ECU에 의해 저장되는 기어 선택 축에서 기어2 위치"
             },
             {
                 "position": 9,
                 "mnemonic": "POSITION_APPRISE_RAPPORT_03_AXE_DE_PASSAGE",
-                "label_index": "14070",
+                "label_index": "@P14070@\\*3",
                 "label_korean": "기어 변속 축에서 프로그램된 기어3위치",
                 "group_id": "47806",
                 "req_frame_id": "143717",
@@ -1260,13 +1260,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "3",
-                "help_code": "23686",
+                "help_code": "@P23686@\\*3",
                 "help_korean": "프로그래밍 중 변속기 ECU에 의해 저장된 기어 변속 축에서 기어3 위치"
             },
             {
                 "position": 10,
                 "mnemonic": "MP_POSTROISSEL",
-                "label_index": "23405",
+                "label_index": "@P23405@\\*3",
                 "label_korean": "선택 샤프트에서 3기어 위치 학습",
                 "group_id": "47806",
                 "req_frame_id": "143717",
@@ -1282,13 +1282,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "3",
-                "help_code": "23239",
+                "help_code": "@P23239@\\*3",
                 "help_korean": "프로그래밍 중 변속기 ECU에 의해 저장되는 기어 선택 축에서 기어3 위치"
             },
             {
                 "position": 11,
                 "mnemonic": "POSITION_APPRISE_RAPPORT_04_AXE_DE_PASSAGE",
-                "label_index": "14070",
+                "label_index": "@P14070@\\*4",
                 "label_korean": "기어 변속 축에서 프로그램된 기어4위치",
                 "group_id": "47807",
                 "req_frame_id": "143720",
@@ -1304,13 +1304,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "4",
-                "help_code": "23686",
+                "help_code": "@P23686@\\*4",
                 "help_korean": "프로그래밍 중 변속기 ECU에 의해 저장된 기어 변속 축에서 기어4 위치"
             },
             {
                 "position": 12,
                 "mnemonic": "MP_POSQUATRESEL",
-                "label_index": "23405",
+                "label_index": "@P23405@\\*4",
                 "label_korean": "선택 샤프트에서 4기어 위치 학습",
                 "group_id": "47807",
                 "req_frame_id": "143720",
@@ -1326,13 +1326,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "4",
-                "help_code": "23239",
+                "help_code": "@P23239@\\*4",
                 "help_korean": "프로그래밍 중 변속기 ECU에 의해 저장되는 기어 선택 축에서 기어4 위치"
             },
             {
                 "position": 13,
                 "mnemonic": "POSITION_APPRISE_RAPPORT_05_AXE_DE_PASSAGE",
-                "label_index": "14070",
+                "label_index": "@P14070@\\*5",
                 "label_korean": "기어 변속 축에서 프로그램된 기어5위치",
                 "group_id": "47808",
                 "req_frame_id": "143723",
@@ -1348,13 +1348,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "5",
-                "help_code": "23686",
+                "help_code": "@P23686@\\*5",
                 "help_korean": "프로그래밍 중 변속기 ECU에 의해 저장된 기어 변속 축에서 기어5 위치"
             },
             {
                 "position": 14,
                 "mnemonic": "MP_POSCINQSEL",
-                "label_index": "23405",
+                "label_index": "@P23405@\\*5",
                 "label_korean": "선택 샤프트에서 5기어 위치 학습",
                 "group_id": "47808",
                 "req_frame_id": "143723",
@@ -1370,13 +1370,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "5",
-                "help_code": "23239",
+                "help_code": "@P23239@\\*5",
                 "help_korean": "프로그래밍 중 변속기 ECU에 의해 저장되는 기어 선택 축에서 기어5 위치"
             },
             {
                 "position": 15,
                 "mnemonic": "POSITION_APPRISE_MARCHE_ARRIERE_AXE_DE_PASSAGE",
-                "label_index": "3308",
+                "label_index": "@P3308",
                 "label_korean": "기어 변속 축에서 프로그램된 후진 기어 위치",
                 "group_id": "47809",
                 "req_frame_id": "143726",
@@ -1392,13 +1392,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "23690",
+                "help_code": "@P23690",
                 "help_korean": "프로그래밍 중 변속기 ECU에 의해 저장된 기어 변속 축에서 후진 기어 위치"
             },
             {
                 "position": 16,
                 "mnemonic": "MP_POSMARSEL",
-                "label_index": "23449",
+                "label_index": "@P23449",
                 "label_korean": "기어 선택 축에서 프로그램된 후진 기어 위치",
                 "group_id": "47809",
                 "req_frame_id": "143726",
@@ -1414,7 +1414,7 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "23560",
+                "help_code": "@P23560",
                 "help_korean": "프로그래밍 중 변속기 ECU에 의해 저장된 기어 선택 축에서 후진 기어 위치"
             }
         ]
@@ -1428,7 +1428,7 @@
             {
                 "position": 1,
                 "mnemonic": "CODEDEFAUT",
-                "label_index": "9448",
+                "label_index": "@P9448",
                 "label_korean": "결함 코드",
                 "group_id": "매핑_누락",
                 "req_frame_id": "",
@@ -1450,7 +1450,7 @@
             {
                 "position": 2,
                 "mnemonic": "CA_CHARGE_MOTEUR_CAL",
-                "label_index": "2135",
+                "label_index": "@P2135",
                 "label_korean": "계산된 엔진 부하",
                 "group_id": "47750",
                 "req_frame_id": "143549",
@@ -1472,7 +1472,7 @@
             {
                 "position": 3,
                 "mnemonic": "CA_TEMPERATURE_D_EAU_MOTEUR",
-                "label_index": "11092",
+                "label_index": "@P11092",
                 "label_korean": "엔진 냉각수 온도",
                 "group_id": "47751",
                 "req_frame_id": "143552",
@@ -1488,13 +1488,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "23729, 12962, 27687, 22892, 23538",
+                "help_code": "@P23729@\\n@P12962@\\n@P27687@\\*-40@T : @P22892@\\n@P23538@\\*140",
                 "help_korean": "엔진 ECU를 통해서, 냉각수 온도 센서로부터 정보\n엔진 냉각수 온도\n140도. C-40 : 단선\n140°C: 단락"
             },
             {
                 "position": 4,
                 "mnemonic": "CA_REGIME_MOTEUR",
-                "label_index": "7917",
+                "label_index": "@P7917",
                 "label_korean": "엔진 속도",
                 "group_id": "47752",
                 "req_frame_id": "143555",
@@ -1510,13 +1510,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "23234, 23777",
+                "help_code": "@P23234@\\n@P23777",
                 "help_korean": "엔진 ECU를 통해서 엔진 속도 센서로부터 정보\n신호가 단선 또는 단락이면, 백업 값이 CAN 네트워크에 의해서 사용된다"
             },
             {
                 "position": 5,
                 "mnemonic": "CA_VITESSE_CALCUL",
-                "label_index": "10593",
+                "label_index": "@P10593",
                 "label_korean": "계산된 차량 속도",
                 "group_id": "47753",
                 "req_frame_id": "143558",
@@ -1532,13 +1532,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "23446, 23788",
+                "help_code": "@P23446@\\n@P23788",
                 "help_korean": "엔진 속도와 체결된 기어로부터 계산된 정보\n엔진 속도 신호가 결함이면, 차량 속도는 변속기 입력 속도와 체결된 기어로부터 계산된다"
             },
             {
                 "position": 6,
                 "mnemonic": "CA_POSITION_DE_LA_PEDALE_ACCELERATEUR",
-                "label_index": "11560",
+                "label_index": "@P11560",
                 "label_korean": "가속 페달 위치",
                 "group_id": "47754",
                 "req_frame_id": "143561",
@@ -1554,13 +1554,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "23734, 23546",
+                "help_code": "@P23734@\\n@P23546@\\*0",
                 "help_korean": "엔진 ECU를 통해서 가속 페달 센서에 의해 제공되는 정보\nCAN 네트워크가 결함이면, 표시되는 값은 0%이다"
             },
             {
                 "position": 7,
                 "mnemonic": "COUPLEMOTEUR",
-                "label_index": "13664",
+                "label_index": "@P13664",
                 "label_korean": "엔진 토크",
                 "group_id": "47755",
                 "req_frame_id": "143564",
@@ -1576,13 +1576,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "23774",
+                "help_code": "@P23774",
                 "help_korean": "에어 플로우 및 엔진 속도로부터 계산된 정보"
             },
             {
                 "position": 8,
                 "mnemonic": "CA_POSITION_ACTIONNEUR_EMBRAYAGE",
-                "label_index": "9769",
+                "label_index": "@P9769",
                 "label_korean": "클러치 액츄에이터 포지션",
                 "group_id": "47756",
                 "req_frame_id": "143567",
@@ -1598,13 +1598,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "6581",
+                "help_code": "@P6581",
                 "help_korean": "클러치 액츄에이터 포지션 센서에 의해 제공되는 정보"
             },
             {
                 "position": 9,
                 "mnemonic": "CA_POSITION_ACTIONNEUR_PASSAGE",
-                "label_index": "6442",
+                "label_index": "@P6442",
                 "label_korean": "기어 체결 액츄에이터 포지션",
                 "group_id": "47757",
                 "req_frame_id": "143570",
@@ -1620,13 +1620,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "22721, 23582",
+                "help_code": "@P22721@\\n@P23582",
                 "help_korean": "기어 변경 액츄에이터 위치 센서에 의해 제공되는 정보\n기어 변속 액츄에이터가 작동하지 않을 때, 프로그램된 값이 표시된다"
             },
             {
                 "position": 10,
                 "mnemonic": "CA_POSITION_ACTIONNEUR_DE_SELECTION",
-                "label_index": "9724",
+                "label_index": "@P9724",
                 "label_korean": "기어 선택 액츄에이터 정보",
                 "group_id": "47758",
                 "req_frame_id": "143573",
@@ -1642,13 +1642,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "23815, 23498",
+                "help_code": "@P23815@\\n@P23498",
                 "help_korean": "선택 액츄에이터의 포지션 센서에 의해 제공된 정보\n기어 선택 액츄에이터가 작동하지 않을 때, 프로그램된 값이 표시된다"
             },
             {
                 "position": 11,
                 "mnemonic": "CA_IMOTEMB",
-                "label_index": "23282",
+                "label_index": "@P23282",
                 "label_korean": "클러치 모터에서 전류 레벨",
                 "group_id": "47759",
                 "req_frame_id": "143576",
@@ -1664,13 +1664,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "23766",
+                "help_code": "@P23766@\\*0",
                 "help_korean": "클러치 액츄에이터가 작동하지 않을 때, 클러치 모터에서 전류는 0A 이다"
             },
             {
                 "position": 12,
                 "mnemonic": "CA_IMOTPAS",
-                "label_index": "23720",
+                "label_index": "@P23720",
                 "label_korean": "기어 변경 모터에서 전류 레벨",
                 "group_id": "47760",
                 "req_frame_id": "143579",
@@ -1686,13 +1686,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "23309",
+                "help_code": "@P23309@\\*0",
                 "help_korean": "기어 변속 액츄에이터가 작동하지 않을 때, 기어 변속 모터에서 전류는 0A 이다"
             },
             {
                 "position": 13,
                 "mnemonic": "CA_IMOTSEL",
-                "label_index": "23542",
+                "label_index": "@P23542",
                 "label_korean": "기어 선택 모터에서 전류 레벨",
                 "group_id": "47761",
                 "req_frame_id": "143582",
@@ -1708,13 +1708,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "23675",
+                "help_code": "@P23675@\\*0",
                 "help_korean": "기어 선택 액츄에이터가 작동하지 않을 때, 기어 선택 모터에서 전류는 0A 이다"
             },
             {
                 "position": 14,
                 "mnemonic": "CA_RAPPORT_DE_BOITE_DE_VITESSES_ENGAGE",
-                "label_index": "2878",
+                "label_index": "@P2878",
                 "label_korean": "체결된 변속기 기어",
                 "group_id": "47762",
                 "req_frame_id": "143585",
@@ -1746,7 +1746,7 @@
             {
                 "position": 15,
                 "mnemonic": "CA_CONSRAPP",
-                "label_index": "9811",
+                "label_index": "@P9811",
                 "label_korean": "변속기 세팅",
                 "group_id": "47762",
                 "req_frame_id": "143585",
@@ -1772,13 +1772,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "23527",
+                "help_code": "@P23527",
                 "help_korean": "기어가 변경되지 않으면, 기어 세팅은 체결된 기어와 같다"
             },
             {
                 "position": 16,
                 "mnemonic": "CA_POSITIONLEVIER",
-                "label_index": "23108",
+                "label_index": "@P23108",
                 "label_korean": "기어 셀렉터 위치",
                 "group_id": "47763",
                 "req_frame_id": "143588",
@@ -1794,13 +1794,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "23365",
-                "help_korean": "가능한\n- 기어 셀렉터 위치 : P, R, N, E, M 및 유효하지 않는 위치"
+                "help_code": "@P23365",
+                "help_korean": "가능한 기어 셀렉터 위치 : P, R, N, E, M 및 유효하지 않는 위치"
             },
             {
                 "position": 17,
                 "mnemonic": "CA_TEMPERATUREHUILE",
-                "label_index": "23693",
+                "label_index": "@P23693",
                 "label_korean": "계산된 변속기 오일 온도",
                 "group_id": "47764",
                 "req_frame_id": "143591",
@@ -1816,13 +1816,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "23534",
+                "help_code": "@P23534",
                 "help_korean": "변속기 오일 온도는 엔진 냉각수 온도와 외부 공기 온도로부터 추정된다"
             },
             {
                 "position": 18,
                 "mnemonic": "CA_SIG1CONTPOS",
-                "label_index": "23359",
+                "label_index": "@P23359@\\*1",
                 "label_korean": "기어 셀렉터 위치 스위치 신호1",
                 "group_id": "47765",
                 "req_frame_id": "143594",
@@ -1838,13 +1838,13 @@
                 "bit_mask": 1,
                 "bit_shift": 0,
                 "dynamic_arg": "1",
-                "help_code": "23242, 670, 22892, 7737, 23386, 23254",
-                "help_korean": "변수의 상태는\n- 기어 셀렉터 위치에 따라 변한다\n작동 안함 : 단선.작동 : 접지\n결함일 경우, 포지션 스위치 신호는 기어 셀렉터의 위치에 관계없이 고정된 상태로 남아 있는다"
+                "help_code": "@P23242@\\n@P670@T : @P22892@T.@P7737@T : @P23386@\\n@P23254",
+                "help_korean": "변수의 상태는 기어 셀렉터 위치에 따라 변한다\n작동 안함 : 단선.작동 : 접지\n결함일 경우, 포지션 스위치 신호는 기어 셀렉터의 위치에 관계없이 고정된 상태로 남아 있는다"
             },
             {
                 "position": 19,
                 "mnemonic": "CA_SIG2CONTPOS",
-                "label_index": "23359",
+                "label_index": "@P23359@\\*2",
                 "label_korean": "기어 셀렉터 위치 스위치 신호2",
                 "group_id": "47765",
                 "req_frame_id": "143594",
@@ -1860,13 +1860,13 @@
                 "bit_mask": 2,
                 "bit_shift": 1,
                 "dynamic_arg": "2",
-                "help_code": "23242, 670, 22892, 7737, 23386, 23254",
-                "help_korean": "변수의 상태는\n- 기어 셀렉터 위치에 따라 변한다\n작동 안함 : 단선.작동 : 접지\n결함일 경우, 포지션 스위치 신호는 기어 셀렉터의 위치에 관계없이 고정된 상태로 남아 있는다"
+                "help_code": "@P23242@\\n@P670@T : @P22892@T.@P7737@T : @P23386@\\n@P23254",
+                "help_korean": "변수의 상태는 기어 셀렉터 위치에 따라 변한다\n작동 안함 : 단선.작동 : 접지\n결함일 경우, 포지션 스위치 신호는 기어 셀렉터의 위치에 관계없이 고정된 상태로 남아 있는다"
             },
             {
                 "position": 20,
                 "mnemonic": "CA_SIG3CONTPOS",
-                "label_index": "23359",
+                "label_index": "@P23359@\\*3",
                 "label_korean": "기어 셀렉터 위치 스위치 신호3",
                 "group_id": "47765",
                 "req_frame_id": "143594",
@@ -1882,13 +1882,13 @@
                 "bit_mask": 4,
                 "bit_shift": 2,
                 "dynamic_arg": "3",
-                "help_code": "23242, 670, 22892, 7737, 23386, 23254",
-                "help_korean": "변수의 상태는\n- 기어 셀렉터 위치에 따라 변한다\n작동 안함 : 단선.작동 : 접지\n결함일 경우, 포지션 스위치 신호는 기어 셀렉터의 위치에 관계없이 고정된 상태로 남아 있는다"
+                "help_code": "@P23242@\\n@P670@T : @P22892@T.@P7737@T : @P23386@\\n@P23254",
+                "help_korean": "변수의 상태는 기어 셀렉터 위치에 따라 변한다\n작동 안함 : 단선.작동 : 접지\n결함일 경우, 포지션 스위치 신호는 기어 셀렉터의 위치에 관계없이 고정된 상태로 남아 있는다"
             },
             {
                 "position": 21,
                 "mnemonic": "CA_SIG4CONTPOS",
-                "label_index": "23359",
+                "label_index": "@P23359@\\*4",
                 "label_korean": "기어 셀렉터 위치 스위치 신호4",
                 "group_id": "47765",
                 "req_frame_id": "143594",
@@ -1904,13 +1904,13 @@
                 "bit_mask": 8,
                 "bit_shift": 3,
                 "dynamic_arg": "4",
-                "help_code": "23242, 670, 22892, 7737, 23386, 23254",
-                "help_korean": "변수의 상태는\n- 기어 셀렉터 위치에 따라 변한다\n작동 안함 : 단선.작동 : 접지\n결함일 경우, 포지션 스위치 신호는 기어 셀렉터의 위치에 관계없이 고정된 상태로 남아 있는다"
+                "help_code": "@P23242@\\n@P670@T : @P22892@T.@P7737@T : @P23386@\\n@P23254",
+                "help_korean": "변수의 상태는 기어 셀렉터 위치에 따라 변한다\n작동 안함 : 단선.작동 : 접지\n결함일 경우, 포지션 스위치 신호는 기어 셀렉터의 위치에 관계없이 고정된 상태로 남아 있는다"
             },
             {
                 "position": 22,
                 "mnemonic": "CA_SIG5CONTPOS",
-                "label_index": "23359",
+                "label_index": "@P23359@\\*5",
                 "label_korean": "기어 셀렉터 위치 스위치 신호5",
                 "group_id": "47765",
                 "req_frame_id": "143594",
@@ -1926,13 +1926,13 @@
                 "bit_mask": 16,
                 "bit_shift": 4,
                 "dynamic_arg": "5",
-                "help_code": "23242, 670, 22892, 7737, 23386, 23254",
-                "help_korean": "변수의 상태는\n- 기어 셀렉터 위치에 따라 변한다\n작동 안함 : 단선.작동 : 접지\n결함일 경우, 포지션 스위치 신호는 기어 셀렉터의 위치에 관계없이 고정된 상태로 남아 있는다"
+                "help_code": "@P23242@\\n@P670@T : @P22892@T.@P7737@T : @P23386@\\n@P23254",
+                "help_korean": "변수의 상태는 기어 셀렉터 위치에 따라 변한다\n작동 안함 : 단선.작동 : 접지\n결함일 경우, 포지션 스위치 신호는 기어 셀렉터의 위치에 관계없이 고정된 상태로 남아 있는다"
             },
             {
                 "position": 23,
                 "mnemonic": "CA_SIGRED1CONTPOS",
-                "label_index": "23787",
+                "label_index": "@P23787@\\*1",
                 "label_korean": "기어 셀렉터 위치 스위치로부터 1백업 신호",
                 "group_id": "47765",
                 "req_frame_id": "143594",
@@ -1948,13 +1948,13 @@
                 "bit_mask": 32,
                 "bit_shift": 5,
                 "dynamic_arg": "1",
-                "help_code": "23242, 23778, 7737, 22892, 670, 23386, 23254",
-                "help_korean": "변수의 상태는 기어 셀렉터 위치에 따라 변한다\n백업 신호1는\n- 기어 셀렉터 위치 스위치 신호2와는 반대이다\n작동 : 단선.작동\n- 안함 : 접지\n결함일 경우, 포지션 스위치 신호는 기어 셀렉터의 위치에 관계없이 고정된 상태로 남아 있는다"
+                "help_code": "@P23242@\\n@P23778@\\*1@\\*2@\\n@P7737@T : @P22892@T.@P670@T : @P23386@\\n@P23254",
+                "help_korean": "변수의 상태는 기어 셀렉터 위치에 따라 변한다\n백업 신호1는 기어 셀렉터 위치 스위치 신호2와는 반대이다\n작동 : 단선.작동 안함 : 접지\n결함일 경우, 포지션 스위치 신호는 기어 셀렉터의 위치에 관계없이 고정된 상태로 남아 있는다"
             },
             {
                 "position": 24,
                 "mnemonic": "CA_SIGRED2CONTPOS",
-                "label_index": "23787",
+                "label_index": "@P23787@\\*2",
                 "label_korean": "기어 셀렉터 위치 스위치로부터 2백업 신호",
                 "group_id": "47765",
                 "req_frame_id": "143594",
@@ -1970,13 +1970,13 @@
                 "bit_mask": 64,
                 "bit_shift": 6,
                 "dynamic_arg": "2",
-                "help_code": "23242, 23778, 7737, 22892, 670, 23386, 23254",
-                "help_korean": "변수의 상태는 기어 셀렉터 위치에 따라 변한다\n백업 신호2는\n- 기어 셀렉터 위치 스위치 신호3와는 반대이다\n작동 : 단선.작동\n- 안함 : 접지\n결함일 경우, 포지션 스위치 신호는 기어 셀렉터의 위치에 관계없이 고정된 상태로 남아 있는다"
+                "help_code": "@P23242@\\n@P23778@\\*2@\\*3@\\n@P7737@T : @P22892@T.@P670@T : @P23386@\\n@P23254",
+                "help_korean": "변수의 상태는 기어 셀렉터 위치에 따라 변한다\n백업 신호2는 기어 셀렉터 위치 스위치 신호3와는 반대이다\n작동 : 단선.작동 안함 : 접지\n결함일 경우, 포지션 스위치 신호는 기어 셀렉터의 위치에 관계없이 고정된 상태로 남아 있는다"
             },
             {
                 "position": 25,
                 "mnemonic": "CA_SIGRED3CONTPOS",
-                "label_index": "23787",
+                "label_index": "@P23787@\\*3",
                 "label_korean": "기어 셀렉터 위치 스위치로부터 3백업 신호",
                 "group_id": "47765",
                 "req_frame_id": "143594",
@@ -1992,13 +1992,13 @@
                 "bit_mask": 128,
                 "bit_shift": 7,
                 "dynamic_arg": "3",
-                "help_code": "23242, 23778, 7737, 22892, 670, 23386, 23254",
-                "help_korean": "변수의 상태는 기어 셀렉터 위치에 따라 변한다\n백업 신호3는\n- 기어 셀렉터 위치 스위치 신호4와는 반대이다\n작동 : 단선.작동\n- 안함 : 접지\n결함일 경우, 포지션 스위치 신호는 기어 셀렉터의 위치에 관계없이 고정된 상태로 남아 있는다"
+                "help_code": "@P23242@\\n@P23778@\\*3@\\*4@\\n@P7737@T : @P22892@T.@P670@T : @P23386@\\n@P23254",
+                "help_korean": "변수의 상태는 기어 셀렉터 위치에 따라 변한다\n백업 신호3는 기어 셀렉터 위치 스위치 신호4와는 반대이다\n작동 : 단선.작동 안함 : 접지\n결함일 경우, 포지션 스위치 신호는 기어 셀렉터의 위치에 관계없이 고정된 상태로 남아 있는다"
             },
             {
                 "position": 26,
                 "mnemonic": "CA_CONTACTMAR",
-                "label_index": "23637",
+                "label_index": "@P23637",
                 "label_korean": "후진 기어 스위치 신호",
                 "group_id": "47765",
                 "req_frame_id": "143594",
@@ -2014,13 +2014,13 @@
                 "bit_mask": 4,
                 "bit_shift": 2,
                 "dynamic_arg": "",
-                "help_code": "23242, 670, 22892, 7737, 23386, 23254",
-                "help_korean": "변수의 상태는\n- 기어 셀렉터 위치에 따라 변한다\n작동 안함 : 단선.작동 : 접지\n결함일 경우, 포지션 스위치 신호는 기어 셀렉터의 위치에 관계없이 고정된 상태로 남아 있는다"
+                "help_code": "@P23242@\\n@P670@T : @P22892@T.@P7737@T : @P23386@\\n@P23254",
+                "help_korean": "변수의 상태는 기어 셀렉터 위치에 따라 변한다\n작동 안함 : 단선.작동 : 접지\n결함일 경우, 포지션 스위치 신호는 기어 셀렉터의 위치에 관계없이 고정된 상태로 남아 있는다"
             },
             {
                 "position": 27,
                 "mnemonic": "CA_DEMARREUR",
-                "label_index": "6288",
+                "label_index": "@P6288",
                 "label_korean": "시동모터 제어",
                 "group_id": "47766",
                 "req_frame_id": "143597",
@@ -2036,13 +2036,13 @@
                 "bit_mask": 128,
                 "bit_shift": 7,
                 "dynamic_arg": "",
-                "help_code": "23420",
+                "help_code": "@P23420",
                 "help_korean": "시동 승인 제어 신호"
             },
             {
                 "position": 28,
                 "mnemonic": "CA_FREINPRINCIPAL",
-                "label_index": "10509",
+                "label_index": "@P10509",
                 "label_korean": "메인 브레이크 신호",
                 "group_id": "47766",
                 "req_frame_id": "143597",
@@ -2058,13 +2058,13 @@
                 "bit_mask": 1,
                 "bit_shift": 0,
                 "dynamic_arg": "",
-                "help_code": "23515, 670, 22892, 7737, 23386, 23630",
-                "help_korean": "브레이크 페달을 얼마나\n- 밟았는지에 따라 변수의 상태가 변한다\n작동 안함 : 단선.작동 : 접지\n결함의 경우, 브레이크 페달 위치에 관계없이 메인 브레이크 신호는 고정된다"
+                "help_code": "@P23515@\\n@P670@T : @P22892@T.@P7737@T : @P23386@\\n@P23630",
+                "help_korean": "브레이크 페달을 얼마나 밟았는지에 따라 변수의 상태가 변한다\n작동 안함 : 단선.작동 : 접지\n결함의 경우, 브레이크 페달 위치에 관계없이 메인 브레이크 신호는 고정된다"
             },
             {
                 "position": 29,
                 "mnemonic": "CA_FREINSECONDAIRE",
-                "label_index": "8725",
+                "label_index": "@P8725",
                 "label_korean": "크루즈 컨트롤 세이프티 신호",
                 "group_id": "47766",
                 "req_frame_id": "143597",
@@ -2080,13 +2080,13 @@
                 "bit_mask": 2,
                 "bit_shift": 1,
                 "dynamic_arg": "",
-                "help_code": "23515, 7737, 22892, 670, 23386",
-                "help_korean": "브레이크 페달을\n- 얼마나 밟았는지에 따라 변수의 상태가 변한다\n작동 : 단선.작동\n- 안함 : 접지"
+                "help_code": "@P23515@\\n@P7737@T : @P22892@T.@P670@T : @P23386",
+                "help_korean": "브레이크 페달을 얼마나 밟았는지에 따라 변수의 상태가 변한다\n작동 : 단선.작동 안함 : 접지"
             },
             {
                 "position": 30,
                 "mnemonic": "CA_PARKINGB",
-                "label_index": "23427",
+                "label_index": "@P23427",
                 "label_korean": "주차 브레이크 신호",
                 "group_id": "47766",
                 "req_frame_id": "143597",
@@ -2102,14 +2102,14 @@
                 "bit_mask": 32,
                 "bit_shift": 5,
                 "dynamic_arg": "",
-                "help_code": "23531, 7737, 23386, 670, 22892",
-                "help_korean": "변수의\n- 상태는 주차 브레이크 위치에 따라 변한다\n작동 : 접지.작동\n- 안함 : 단선"
+                "help_code": "@P23531@\\n@P7737@T : @P23386@T.@P670@T : @P22892",
+                "help_korean": "변수의 상태는 주차 브레이크 위치에 따라 변한다\n작동 : 접지.작동 안함 : 단선"
             },
             {
                 "position": 31,
                 "mnemonic": "CA_CMIPLUS",
-                "label_index": "23313",
-                "label_korean": "신호 위치에서 기어 셀렉터",
+                "label_index": "@P23313@\\*+",
+                "label_korean": "신호 위치에서 기어 셀렉터+",
                 "group_id": "47766",
                 "req_frame_id": "143597",
                 "resp_frame_id": "143598",
@@ -2124,13 +2124,13 @@
                 "bit_mask": 32,
                 "bit_shift": 5,
                 "dynamic_arg": "",
-                "help_code": "23242, 670, 22892, 7737, 23386",
-                "help_korean": "변수의 상태는\n- 기어 셀렉터 위치에 따라 변한다\n작동 안함 : 단선.작동 : 접지"
+                "help_code": "@P23242@\\n@P670@T : @P22892@T.@P7737@T : @P23386",
+                "help_korean": "변수의 상태는 기어 셀렉터 위치에 따라 변한다\n작동 안함 : 단선.작동 : 접지"
             },
             {
                 "position": 32,
                 "mnemonic": "CA_CMIMOINS",
-                "label_index": "23313",
+                "label_index": "@P23313@\\*-",
                 "label_korean": "신호 위치에서 기어 셀렉터-",
                 "group_id": "47766",
                 "req_frame_id": "143597",
@@ -2146,13 +2146,13 @@
                 "bit_mask": 32,
                 "bit_shift": 5,
                 "dynamic_arg": "",
-                "help_code": "23242, 670, 22892, 7737, 23386",
-                "help_korean": "변수의 상태는\n- 기어 셀렉터 위치에 따라 변한다\n작동 안함 : 단선.작동 : 접지"
+                "help_code": "@P23242@\\n@P670@T : @P22892@T.@P7737@T : @P23386",
+                "help_korean": "변수의 상태는 기어 셀렉터 위치에 따라 변한다\n작동 안함 : 단선.작동 : 접지"
             },
             {
                 "position": 33,
                 "mnemonic": "CA_PRESENCE_PLUS_APRES_CONTACT",
-                "label_index": "28381",
+                "label_index": "@P28381",
                 "label_korean": "키 ON 존재",
                 "group_id": "47767",
                 "req_frame_id": "143600",
@@ -2174,7 +2174,7 @@
             {
                 "position": 34,
                 "mnemonic": "CA_FREIN",
-                "label_index": "23519",
+                "label_index": "@P23519",
                 "label_korean": "브레이크 정보",
                 "group_id": "47767",
                 "req_frame_id": "143600",
@@ -2190,13 +2190,13 @@
                 "bit_mask": 4,
                 "bit_shift": 2,
                 "dynamic_arg": "",
-                "help_code": "23414",
+                "help_code": "@P23414",
                 "help_korean": "브레이크 정보는 변속기 ECU의 메인 브레이크 신호와 백업 브레이크 신호에 의해 해석된다"
             },
             {
                 "position": 35,
                 "mnemonic": "CA_APPBV",
-                "label_index": "6209",
+                "label_index": "@P6209",
                 "label_korean": "변속기 게이트의 학습",
                 "group_id": "47768",
                 "req_frame_id": "143603",
@@ -2218,7 +2218,7 @@
             {
                 "position": 36,
                 "mnemonic": "CA_APPPTDEB",
-                "label_index": "23371",
+                "label_index": "@P23371",
                 "label_korean": "클러치 해제 위치 프로그래밍",
                 "group_id": "47768",
                 "req_frame_id": "143603",
@@ -2240,7 +2240,7 @@
             {
                 "position": 37,
                 "mnemonic": "CA_APPPTEMB",
-                "label_index": "23664",
+                "label_index": "@P23664",
                 "label_korean": "클러치 체결 위치 프로그래밍",
                 "group_id": "47768",
                 "req_frame_id": "143603",
@@ -2262,7 +2262,7 @@
             {
                 "position": 38,
                 "mnemonic": "CA_BLOCBV",
-                "label_index": "23417",
+                "label_index": "@P23417",
                 "label_korean": "변속기 잠금 가능성",
                 "group_id": "47768",
                 "req_frame_id": "143603",

@@ -8,7 +8,7 @@
             {
                 "position": 1,
                 "mnemonic": "ID_NOM_DU_FOURNISSEUR",
-                "label_index": "5701",
+                "label_index": "@P5701",
                 "label_korean": "제조 업체명",
                 "group_id": "117734",
                 "req_frame_id": "353548",
@@ -38,7 +38,7 @@
             {
                 "position": 2,
                 "mnemonic": "ID_REFERENCE_MATERIEL",
-                "label_index": "1071",
+                "label_index": "@P1071",
                 "label_korean": "장치 부품 번호",
                 "group_id": "117734",
                 "req_frame_id": "353548",
@@ -60,7 +60,7 @@
             {
                 "position": 3,
                 "mnemonic": "ID_REFERENCE_COMPLEMENTAIRE_MATERIEL",
-                "label_index": "1634",
+                "label_index": "@P1634",
                 "label_korean": "장치 추가 참조 번호",
                 "group_id": "117734",
                 "req_frame_id": "353548",
@@ -82,7 +82,7 @@
             {
                 "position": 4,
                 "mnemonic": "ID_TRACABILITE_DATE_FABRICATION",
-                "label_index": "14355",
+                "label_index": "@F14355",
                 "label_korean": "제조일자",
                 "group_id": "117735",
                 "req_frame_id": "353551",
@@ -104,7 +104,7 @@
             {
                 "position": 5,
                 "mnemonic": "ID_TRACABILITE_INDICE_EVOLUTION_EDITION",
-                "label_index": "24601",
+                "label_index": "@P24601",
                 "label_korean": "소프트웨어 버전",
                 "group_id": "117734",
                 "req_frame_id": "353548",
@@ -134,7 +134,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_MARQUE_CONSTRUCTEUR",
-                "label_index": "14751",
+                "label_index": "@P14751",
                 "label_korean": "제조업체 브랜드",
                 "group_id": "117732",
                 "req_frame_id": "353542",
@@ -156,7 +156,7 @@
             {
                 "position": 2,
                 "mnemonic": "MP_AFFICHAGE_VUES_RETRO_INTERIEUR_AVEC_ECRAN",
-                "label_index": "51931",
+                "label_index": "@P51931",
                 "label_korean": "스크린의 내부 미러에 시야 표시",
                 "group_id": "117732",
                 "req_frame_id": "353542",
@@ -178,7 +178,7 @@
             {
                 "position": 3,
                 "mnemonic": "MP_INFORMATION_JOUR_NUIT",
-                "label_index": "7930",
+                "label_index": "@P7930",
                 "label_korean": "주간/야간 정보 상태",
                 "group_id": "117732",
                 "req_frame_id": "353542",
@@ -200,7 +200,7 @@
             {
                 "position": 4,
                 "mnemonic": "MP_AFFICHAGE_SIMULTANE_RETRO_INTERIEUR_AVEC_ECRAN",
-                "label_index": "51930",
+                "label_index": "@P51930",
                 "label_korean": "스크린의 내부 미러에 동시 표시",
                 "group_id": "117732",
                 "req_frame_id": "353542",
@@ -222,7 +222,7 @@
             {
                 "position": 5,
                 "mnemonic": "MP_ZOOM_VUE_CAMERA",
-                "label_index": "51928",
+                "label_index": "@P51928",
                 "label_korean": "시각적 후진 지원 카메라 시야의 확대/축소",
                 "group_id": "117732",
                 "req_frame_id": "353542",
@@ -244,7 +244,7 @@
             {
                 "position": 6,
                 "mnemonic": "MP_CONFIG_CHOIX_LANGUE",
-                "label_index": "17024",
+                "label_index": "@P17024",
                 "label_korean": "언어 선택 설정을 위한 옵션",
                 "group_id": "117732",
                 "req_frame_id": "353542",
@@ -266,7 +266,7 @@
             {
                 "position": 7,
                 "mnemonic": "MP_OPTION_ACTIVATION_VUE",
-                "label_index": "51927",
+                "label_index": "@P51927",
                 "label_korean": "작동 옵션 보기",
                 "group_id": "117732",
                 "req_frame_id": "353542",
@@ -288,7 +288,7 @@
             {
                 "position": 8,
                 "mnemonic": "MP_TYPE_DIRECTION",
-                "label_index": "3209",
+                "label_index": "@P3209",
                 "label_korean": "스티어링 타입",
                 "group_id": "117732",
                 "req_frame_id": "353542",
@@ -328,7 +328,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_ETAT_BOUTON_ON_OFF_CAMERA",
-                "label_index": "51932",
+                "label_index": "@P51932",
                 "label_korean": "스크린의 내부 미러에 대한 \"ON/OFF\" 버튼의 상태",
                 "group_id": "117733",
                 "req_frame_id": "353545",
@@ -344,13 +344,13 @@
                 "bit_mask": 64,
                 "bit_shift": 6,
                 "dynamic_arg": "",
-                "help_code": "51937",
+                "help_code": "@P51937",
                 "help_korean": "관련 버튼을 눌러서 변수의 상태를 변경한다"
             },
             {
                 "position": 2,
                 "mnemonic": "MP_ETAT_BOUTON_CHANGEMENT_AFFICHAGE_CAMERA",
-                "label_index": "51929",
+                "label_index": "@P51929",
                 "label_korean": "시각적 후진 지원 카메라 디스플레이 변경 버튼의 상태",
                 "group_id": "117733",
                 "req_frame_id": "353545",
@@ -366,7 +366,7 @@
                 "bit_mask": 128,
                 "bit_shift": 7,
                 "dynamic_arg": "",
-                "help_code": "51937",
+                "help_code": "@P51937",
                 "help_korean": "관련 버튼을 눌러서 변수의 상태를 변경한다"
             }
         ]

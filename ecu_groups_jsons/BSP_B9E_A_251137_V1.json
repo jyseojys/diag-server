@@ -8,7 +8,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_ID_FOURNISSEUR",
-                "label_index": "5701",
+                "label_index": "@P5701",
                 "label_korean": "제조 업체명",
                 "group_id": "61951",
                 "req_frame_id": "186146",
@@ -35,7 +35,7 @@
             {
                 "position": 2,
                 "mnemonic": "ID_REFERENCE_MATERIEL",
-                "label_index": "1071",
+                "label_index": "@P1071",
                 "label_korean": "장치 부품 번호",
                 "group_id": "61951",
                 "req_frame_id": "186146",
@@ -57,7 +57,7 @@
             {
                 "position": 3,
                 "mnemonic": "ID_REFERENCE_COMPLEMENTAIRE_MATERIEL",
-                "label_index": "1634",
+                "label_index": "@P1634",
                 "label_korean": "장치 추가 참조 번호",
                 "group_id": "61951",
                 "req_frame_id": "186146",
@@ -79,7 +79,7 @@
             {
                 "position": 4,
                 "mnemonic": "ID_VERSION_LOGICIEL_new_1",
-                "label_index": "8662",
+                "label_index": "@P8662",
                 "label_korean": "소프트웨어 버전",
                 "group_id": "61951",
                 "req_frame_id": "186146",
@@ -101,7 +101,7 @@
             {
                 "position": 5,
                 "mnemonic": "ID_REF_CALIBRATION_new_1",
-                "label_index": "7014",
+                "label_index": "@P7014",
                 "label_korean": "캘리브레이션 버전",
                 "group_id": "61951",
                 "req_frame_id": "186146",
@@ -123,7 +123,7 @@
             {
                 "position": 6,
                 "mnemonic": "ID_MESS_DIAGNOSTIC",
-                "label_index": "2459",
+                "label_index": "@P2459",
                 "label_korean": "진단 이메일",
                 "group_id": "61951",
                 "req_frame_id": "186146",
@@ -145,7 +145,7 @@
             {
                 "position": 7,
                 "mnemonic": "ID_80_MP_INDICE_MESS",
-                "label_index": "2225",
+                "label_index": "@P2225",
                 "label_korean": "메시지 인덱스",
                 "group_id": "61951",
                 "req_frame_id": "186146",
@@ -167,7 +167,7 @@
             {
                 "position": 8,
                 "mnemonic": "ID_TRACABILITE_MP_NUM_SERIE_PIECE_2",
-                "label_index": "7592",
+                "label_index": "@P7592",
                 "label_korean": "부품 일련 번호",
                 "group_id": "61953",
                 "req_frame_id": "186152",
@@ -189,7 +189,7 @@
             {
                 "position": 9,
                 "mnemonic": "ID_TRACABILITE_DATE_FABRICATION_2",
-                "label_index": "16589",
+                "label_index": "@P16589",
                 "label_korean": "제조 일자",
                 "group_id": "61953",
                 "req_frame_id": "186152",
@@ -211,7 +211,7 @@
             {
                 "position": 10,
                 "mnemonic": "MP_VIN",
-                "label_index": "3241",
+                "label_index": "@P3241",
                 "label_korean": "차량의 일련번호 - 차대번호 코드",
                 "group_id": "61954",
                 "req_frame_id": "186155",
@@ -241,7 +241,7 @@
             {
                 "position": 1,
                 "mnemonic": "CFG_D5F_BSP_ETAT_CONFIG_PARC_000",
-                "label_index": "19824",
+                "label_index": "@P19824",
                 "label_korean": "Shunt 퓨즈의 설정 상태",
                 "group_id": "61960",
                 "req_frame_id": "186173",
@@ -260,13 +260,13 @@
                 "bit_mask": 3,
                 "bit_shift": 0,
                 "dynamic_arg": "",
-                "help_code": "19783",
+                "help_code": "@P19783",
                 "help_korean": "Shunt 퓨즈의 상태를 의미한다"
             },
             {
                 "position": 2,
                 "mnemonic": "CFG_D5E_BSP_DEVELOPPE_ROUE_000",
-                "label_index": "19955",
+                "label_index": "@P19955",
                 "label_korean": "리어 휠의 직경",
                 "group_id": "61960",
                 "req_frame_id": "186173",
@@ -299,7 +299,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_ETAT_CLE_PLUS_ACC",
-                "label_index": "19733",
+                "label_index": "@P19733",
                 "label_korean": "키 액세서리 전원",
                 "group_id": "61956",
                 "req_frame_id": "186161",
@@ -318,13 +318,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "",
+                "help_code": "@T",
                 "help_korean": ""
             },
             {
                 "position": 2,
                 "mnemonic": "MP_TEMPERATURE_BATTERIE_MAX",
-                "label_index": "21180",
+                "label_index": "@P21180",
                 "label_korean": "배터리의 최대 온도",
                 "group_id": "61956",
                 "req_frame_id": "186161",
@@ -340,13 +340,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "",
+                "help_code": "@T",
                 "help_korean": ""
             },
             {
                 "position": 3,
                 "mnemonic": "MP_CONTACT_PEDALE_FREIN_1",
-                "label_index": "30801",
+                "label_index": "@P30801",
                 "label_korean": "브레이트 페달 스위치",
                 "group_id": "61956",
                 "req_frame_id": "186161",
@@ -365,13 +365,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "",
+                "help_code": "@T",
                 "help_korean": ""
             },
             {
                 "position": 4,
                 "mnemonic": "MP_ETAT_CHARGEUR_BATTERIE",
-                "label_index": "19934",
+                "label_index": "@P19934",
                 "label_korean": "고전압 배터리 충전 장치의 상태",
                 "group_id": "61956",
                 "req_frame_id": "186161",
@@ -390,13 +390,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "",
+                "help_code": "@T",
                 "help_korean": ""
             },
             {
                 "position": 5,
                 "mnemonic": "MP_INDICATEUR_DISTANCE_CARBURANT_VIDE",
-                "label_index": "19801",
+                "label_index": "@P19801",
                 "label_korean": "연료 레벨 거리 표시계 낮음",
                 "group_id": "61956",
                 "req_frame_id": "186161",
@@ -412,13 +412,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "",
+                "help_code": "@T",
                 "help_korean": ""
             },
             {
                 "position": 6,
                 "mnemonic": "MP_VITESSE_ROTATION_MOTEUR_ELECTRIQUE",
-                "label_index": "13339",
+                "label_index": "@P13339",
                 "label_korean": "전동 모터 회전 속도",
                 "group_id": "61956",
                 "req_frame_id": "186161",
@@ -434,13 +434,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "",
+                "help_code": "@T",
                 "help_korean": ""
             },
             {
                 "position": 7,
                 "mnemonic": "MP_COUPLE_MOTEUR_ELECTRIQUE",
-                "label_index": "19822",
+                "label_index": "@P19822",
                 "label_korean": "전동 모터의 토크",
                 "group_id": "61956",
                 "req_frame_id": "186161",
@@ -456,13 +456,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "",
+                "help_code": "@T",
                 "help_korean": ""
             },
             {
                 "position": 8,
                 "mnemonic": "MP_PROG_TEMP_EXT_1",
-                "label_index": "5253",
+                "label_index": "@P5253",
                 "label_korean": "외부 온도",
                 "group_id": "61956",
                 "req_frame_id": "186161",
@@ -478,13 +478,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "",
+                "help_code": "@T",
                 "help_korean": ""
             },
             {
                 "position": 9,
                 "mnemonic": "MP_INTENSITE_BATTERIE_HAUTE_TENSION",
-                "label_index": "19967",
+                "label_index": "@P19967",
                 "label_korean": "트랙션 배터리의 전류",
                 "group_id": "61956",
                 "req_frame_id": "186161",
@@ -500,13 +500,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "",
+                "help_code": "@T",
                 "help_korean": ""
             },
             {
                 "position": 10,
                 "mnemonic": "MP_TENSION_BATTERIE_HAUTE_TENSION",
-                "label_index": "19805",
+                "label_index": "@P19805",
                 "label_korean": "트랙션 배터리 전압",
                 "group_id": "61956",
                 "req_frame_id": "186161",
@@ -522,13 +522,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "",
+                "help_code": "@T",
                 "help_korean": ""
             },
             {
                 "position": 11,
                 "mnemonic": "MP_HAUTE_TENSION_DISPONIBLE",
-                "label_index": "19915",
+                "label_index": "@P19915",
                 "label_korean": "가능한 고전압",
                 "group_id": "61956",
                 "req_frame_id": "186161",
@@ -547,13 +547,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "",
+                "help_code": "@T",
                 "help_korean": ""
             },
             {
                 "position": 12,
                 "mnemonic": "MP_TENSION_PLUS_APC",
-                "label_index": "12602",
+                "label_index": "@P12602@\\*",
                 "label_korean": "키 ON 전압",
                 "group_id": "61956",
                 "req_frame_id": "186161",
@@ -569,13 +569,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "",
+                "help_code": "@T",
                 "help_korean": ""
             },
             {
                 "position": 13,
                 "mnemonic": "MP_ETAT_PLUS_APC",
-                "label_index": "15123",
+                "label_index": "@P15123",
                 "label_korean": "키 ON",
                 "group_id": "61956",
                 "req_frame_id": "186161",
@@ -594,13 +594,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "",
+                "help_code": "@T",
                 "help_korean": ""
             },
             {
                 "position": 14,
                 "mnemonic": "MP_POSITION_DE_PEDALE_ACCELERATEUR",
-                "label_index": "11560",
+                "label_index": "@P11560",
                 "label_korean": "가속 페달 위치",
                 "group_id": "61956",
                 "req_frame_id": "186161",
@@ -618,13 +618,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "",
+                "help_code": "@T",
                 "help_korean": ""
             },
             {
                 "position": 15,
                 "mnemonic": "MP_POSITION_LEVIER_VITESSE",
-                "label_index": "6996",
+                "label_index": "@P6996@\\*",
                 "label_korean": "기어 레버의 위치",
                 "group_id": "61956",
                 "req_frame_id": "186161",
@@ -678,13 +678,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "",
+                "help_code": "@T",
                 "help_korean": ""
             },
             {
                 "position": 16,
                 "mnemonic": "MP_TEMPERATURE_EAU_a",
-                "label_index": "11797",
+                "label_index": "@P11797",
                 "label_korean": "냉각수 온도",
                 "group_id": "61956",
                 "req_frame_id": "186161",
@@ -700,13 +700,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "",
+                "help_code": "@T",
                 "help_korean": ""
             },
             {
                 "position": 17,
                 "mnemonic": "MP_ETAT_DE_CHARGE_BATTERIE_12V_1",
-                "label_index": "17818",
+                "label_index": "@P17818",
                 "label_korean": "배터리 충전 상태",
                 "group_id": "61956",
                 "req_frame_id": "186161",
@@ -722,13 +722,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "",
+                "help_code": "@T",
                 "help_korean": ""
             },
             {
                 "position": 18,
                 "mnemonic": "MP_TENSION_INTERNE_BSP",
-                "label_index": "21456",
+                "label_index": "@P21456",
                 "label_korean": "게이트웨이 퓨즈 박스 공급 전압",
                 "group_id": "61956",
                 "req_frame_id": "186161",
@@ -744,13 +744,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "",
+                "help_code": "@T",
                 "help_korean": ""
             },
             {
                 "position": 19,
                 "mnemonic": "MP_VITESSE_VEHICULE",
-                "label_index": "11138",
+                "label_index": "@P11138",
                 "label_korean": "차량 속도",
                 "group_id": "61956",
                 "req_frame_id": "186161",
@@ -770,13 +770,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "",
+                "help_code": "@T",
                 "help_korean": ""
             },
             {
                 "position": 20,
                 "mnemonic": "MP_ETAT_GMP",
-                "label_index": "5310",
+                "label_index": "@P5310",
                 "label_korean": "파워 트레인 상태",
                 "group_id": "61956",
                 "req_frame_id": "186161",
@@ -809,13 +809,13 @@
                 "bit_mask": 3,
                 "bit_shift": 0,
                 "dynamic_arg": "",
-                "help_code": "",
+                "help_code": "@T",
                 "help_korean": ""
             },
             {
                 "position": 21,
                 "mnemonic": "MP_ETAT_FONCTIONNEL_DU_VEHICULE",
-                "label_index": "19734",
+                "label_index": "@P19734",
                 "label_korean": "차량의 작동 조건",
                 "group_id": "61956",
                 "req_frame_id": "186161",
@@ -836,13 +836,13 @@
                 "bit_mask": 3,
                 "bit_shift": 0,
                 "dynamic_arg": "",
-                "help_code": "",
+                "help_code": "@T",
                 "help_korean": ""
             },
             {
                 "position": 22,
                 "mnemonic": "MP_TEMPERATURE_MINIMUM_BATTERIE",
-                "label_index": "19819",
+                "label_index": "@P19819",
                 "label_korean": "배터리의 최소 온도",
                 "group_id": "61956",
                 "req_frame_id": "186161",
@@ -858,13 +858,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "",
+                "help_code": "@T",
                 "help_korean": ""
             },
             {
                 "position": 23,
                 "mnemonic": "CFG_TMP_CONFIG_LIBREB3_45_temp",
-                "label_index": "7552",
+                "label_index": "@P7552",
                 "label_korean": "연료 범위 표시",
                 "group_id": "61956",
                 "req_frame_id": "186161",
@@ -880,13 +880,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "",
+                "help_code": "@T",
                 "help_korean": ""
             },
             {
                 "position": 24,
                 "mnemonic": "MP_DISTANCE_PARCOURUE",
-                "label_index": "29588",
+                "label_index": "@P29588",
                 "label_korean": "주행한 거리 정보",
                 "group_id": "61956",
                 "req_frame_id": "186161",
@@ -902,13 +902,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "19945",
+                "help_code": "@P19945",
                 "help_korean": "이 데이터는 차량에 의해 주행된 거리를 나타낸다"
             },
             {
                 "position": 25,
                 "mnemonic": "MP_MODE_OPERATOIRE",
-                "label_index": "25201",
+                "label_index": "@P25201",
                 "label_korean": "ECU 작동 모드",
                 "group_id": "61956",
                 "req_frame_id": "186161",
@@ -932,13 +932,13 @@
                 "bit_mask": 15,
                 "bit_shift": 0,
                 "dynamic_arg": "",
-                "help_code": "",
+                "help_code": "@T",
                 "help_korean": ""
             },
             {
                 "position": 26,
                 "mnemonic": "MP_UNITE_ODOMETRE_1",
-                "label_index": "4255",
+                "label_index": "@P4255",
                 "label_korean": "주행거리계 장치",
                 "group_id": "61956",
                 "req_frame_id": "186161",
@@ -954,13 +954,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "",
+                "help_code": "@T",
                 "help_korean": ""
             },
             {
                 "position": 27,
                 "mnemonic": "MP_KILOMETRAGE_TOTAL",
-                "label_index": "13763",
+                "label_index": "@P13763",
                 "label_korean": "주행한 총 거리",
                 "group_id": "61956",
                 "req_frame_id": "186161",
@@ -976,13 +976,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "19914",
+                "help_code": "@P19914",
                 "help_korean": "차량에 의해 주행된 총 주행거리"
             },
             {
                 "position": 28,
                 "mnemonic": "MP_PHASE_VIE",
-                "label_index": "19921",
+                "label_index": "@P19921",
                 "label_korean": "네트워크 작동 단계",
                 "group_id": "61956",
                 "req_frame_id": "186161",
@@ -1005,7 +1005,7 @@
                 "bit_mask": 7,
                 "bit_shift": 0,
                 "dynamic_arg": "",
-                "help_code": "26698",
+                "help_code": "@P26698",
                 "help_korean": "LS CAN과 LIN을 위한 ECU의 자동 시스템의 네트워크 수명 단계"
             }
         ]
@@ -1019,7 +1019,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_DEFAUT_ABS",
-                "label_index": "19948",
+                "label_index": "@P19948",
                 "label_korean": "ABS ECU 결함",
                 "group_id": "61957",
                 "req_frame_id": "186164",
@@ -1038,13 +1038,13 @@
                 "bit_mask": 1,
                 "bit_shift": 0,
                 "dynamic_arg": "",
-                "help_code": "",
+                "help_code": "@T",
                 "help_korean": ""
             },
             {
                 "position": 2,
                 "mnemonic": "MP_BATTERIE_HAUTE_TENSION_DEFECTUEUSE",
-                "label_index": "21417",
+                "label_index": "@P21417",
                 "label_korean": "트랙션 배터리 결함",
                 "group_id": "61957",
                 "req_frame_id": "186164",
@@ -1060,13 +1060,13 @@
                 "bit_mask": 1,
                 "bit_shift": 0,
                 "dynamic_arg": "",
-                "help_code": "",
+                "help_code": "@T",
                 "help_korean": ""
             },
             {
                 "position": 3,
                 "mnemonic": "MP_ALERTE_NIVEAU_BATTERIE",
-                "label_index": "19809",
+                "label_index": "@P19809",
                 "label_korean": "배터리 낮음 레벨 경고",
                 "group_id": "61957",
                 "req_frame_id": "186164",
@@ -1082,14 +1082,14 @@
                 "bit_mask": 1,
                 "bit_shift": 0,
                 "dynamic_arg": "",
-                "help_code": "",
+                "help_code": "@T",
                 "help_korean": ""
             },
             {
                 "position": 4,
                 "mnemonic": "MP_DEFAUT_ALIMENTATION_12V",
-                "label_index": "8269",
-                "label_korean": "공급 결함 버튼을 사용해서 트렁크 열림 요청V",
+                "label_index": "@P8269@\\+@T12V",
+                "label_korean": "공급 결함12V",
                 "group_id": "61957",
                 "req_frame_id": "186164",
                 "resp_frame_id": "186165",
@@ -1104,13 +1104,13 @@
                 "bit_mask": 1,
                 "bit_shift": 0,
                 "dynamic_arg": "",
-                "help_code": "",
+                "help_code": "@T",
                 "help_korean": ""
             },
             {
                 "position": 5,
                 "mnemonic": "MP_DEFAUT_FREIN_ELECTRIQUE",
-                "label_index": "19854",
+                "label_index": "@P19854",
                 "label_korean": "전동 브레이크 결함",
                 "group_id": "61957",
                 "req_frame_id": "186164",
@@ -1126,13 +1126,13 @@
                 "bit_mask": 1,
                 "bit_shift": 0,
                 "dynamic_arg": "",
-                "help_code": "",
+                "help_code": "@T",
                 "help_korean": ""
             },
             {
                 "position": 6,
                 "mnemonic": "MP_DIRECTION_ASSISTEE_ELECTRIQUE_DEFECTEUSE",
-                "label_index": "20030",
+                "label_index": "@P20030",
                 "label_korean": "전동 파워 스티어링 결함",
                 "group_id": "61957",
                 "req_frame_id": "186164",
@@ -1148,13 +1148,13 @@
                 "bit_mask": 1,
                 "bit_shift": 0,
                 "dynamic_arg": "",
-                "help_code": "",
+                "help_code": "@T",
                 "help_korean": ""
             },
             {
                 "position": 7,
                 "mnemonic": "MP_DEFAUT_ESP",
-                "label_index": "19782",
+                "label_index": "@P19782",
                 "label_korean": "ESP 결함",
                 "group_id": "61957",
                 "req_frame_id": "186164",
@@ -1170,13 +1170,13 @@
                 "bit_mask": 1,
                 "bit_shift": 0,
                 "dynamic_arg": "",
-                "help_code": "",
+                "help_code": "@T",
                 "help_korean": ""
             },
             {
                 "position": 8,
                 "mnemonic": "MP_DEFAUT_SYST_ELECTR_VEHICULE",
-                "label_index": "19924",
+                "label_index": "@P19924",
                 "label_korean": "차량의 전기 시스템에서 결함",
                 "group_id": "61957",
                 "req_frame_id": "186164",
@@ -1192,13 +1192,13 @@
                 "bit_mask": 1,
                 "bit_shift": 0,
                 "dynamic_arg": "",
-                "help_code": "",
+                "help_code": "@T",
                 "help_korean": ""
             },
             {
                 "position": 9,
                 "mnemonic": "MP_DEFAUT_MOTEUR",
-                "label_index": "19900",
+                "label_index": "@P19900",
                 "label_korean": "엔진 결함",
                 "group_id": "61957",
                 "req_frame_id": "186164",
@@ -1217,13 +1217,13 @@
                 "bit_mask": 1,
                 "bit_shift": 0,
                 "dynamic_arg": "",
-                "help_code": "",
+                "help_code": "@T",
                 "help_korean": ""
             },
             {
                 "position": 10,
                 "mnemonic": "MP_ALERTE_BATTERIE_FAIBLE",
-                "label_index": "20023",
+                "label_index": "@P20023",
                 "label_korean": "배터리 낮음 경고",
                 "group_id": "61957",
                 "req_frame_id": "186164",
@@ -1239,13 +1239,13 @@
                 "bit_mask": 1,
                 "bit_shift": 0,
                 "dynamic_arg": "",
-                "help_code": "",
+                "help_code": "@T",
                 "help_korean": ""
             },
             {
                 "position": 11,
                 "mnemonic": "MP_CAPACITE_RESTANTE_BATTERIE",
-                "label_index": "19937",
+                "label_index": "@P19937",
                 "label_korean": "배터리의 남은 용량",
                 "group_id": "61957",
                 "req_frame_id": "186164",
@@ -1261,13 +1261,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "",
+                "help_code": "@T",
                 "help_korean": ""
             },
             {
                 "position": 12,
                 "mnemonic": "MP_ALERTE_NIVEAU_BATTERIE_FAIBLE",
-                "label_index": "29353",
+                "label_index": "@P29353",
                 "label_korean": "트랙션 배터리 레벨 경고",
                 "group_id": "61957",
                 "req_frame_id": "186164",
@@ -1283,7 +1283,7 @@
                 "bit_mask": 1,
                 "bit_shift": 0,
                 "dynamic_arg": "",
-                "help_code": "",
+                "help_code": "@T",
                 "help_korean": ""
             }
         ]
@@ -1297,7 +1297,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_AFFICHAGE_DU_CODE_DU_DEFAUT",
-                "label_index": "19786",
+                "label_index": "@P19786",
                 "label_korean": "결함 코드 표시",
                 "group_id": "61958",
                 "req_frame_id": "186167",
@@ -1313,13 +1313,13 @@
                 "bit_mask": 8,
                 "bit_shift": 3,
                 "dynamic_arg": "",
-                "help_code": "",
+                "help_code": "@T",
                 "help_korean": ""
             },
             {
                 "position": 2,
                 "mnemonic": "MP_ALERTE_NIVEAU_HUILE_MINIMUM",
-                "label_index": "29354",
+                "label_index": "@P29354",
                 "label_korean": "최소 오일 레벨 경고",
                 "group_id": "61958",
                 "req_frame_id": "186167",
@@ -1335,13 +1335,13 @@
                 "bit_mask": 1,
                 "bit_shift": 0,
                 "dynamic_arg": "",
-                "help_code": "",
+                "help_code": "@T",
                 "help_korean": ""
             },
             {
                 "position": 3,
                 "mnemonic": "MP_ALERTE_MINIMUM_CARBURANT",
-                "label_index": "29587",
+                "label_index": "@P29587",
                 "label_korean": "연료 레벨 낮음 경고",
                 "group_id": "61958",
                 "req_frame_id": "186167",
@@ -1357,13 +1357,13 @@
                 "bit_mask": 64,
                 "bit_shift": 6,
                 "dynamic_arg": "",
-                "help_code": "",
+                "help_code": "@T",
                 "help_korean": ""
             },
             {
                 "position": 4,
                 "mnemonic": "MP_ALERTE_PRESENCE_EAU_DANS_GAZOLE",
-                "label_index": "1026",
+                "label_index": "@P1026",
                 "label_korean": "디젤 내 수분 경고",
                 "group_id": "61958",
                 "req_frame_id": "186167",
@@ -1379,13 +1379,13 @@
                 "bit_mask": 16,
                 "bit_shift": 4,
                 "dynamic_arg": "",
-                "help_code": "",
+                "help_code": "@T",
                 "help_korean": ""
             },
             {
                 "position": 5,
                 "mnemonic": "MP_DEFAUT_DU_MOTEUR",
-                "label_index": "19900",
+                "label_index": "@P19900",
                 "label_korean": "엔진 결함",
                 "group_id": "61958",
                 "req_frame_id": "186167",
@@ -1401,13 +1401,13 @@
                 "bit_mask": 4,
                 "bit_shift": 2,
                 "dynamic_arg": "",
-                "help_code": "",
+                "help_code": "@T",
                 "help_korean": ""
             },
             {
                 "position": 6,
                 "mnemonic": "MP_ALERTE_DEFAILLANCE_ESP",
-                "label_index": "19912",
+                "label_index": "@P19912",
                 "label_korean": "ESP 결함 경고",
                 "group_id": "61958",
                 "req_frame_id": "186167",
@@ -1423,13 +1423,13 @@
                 "bit_mask": 2,
                 "bit_shift": 1,
                 "dynamic_arg": "",
-                "help_code": "",
+                "help_code": "@T",
                 "help_korean": ""
             },
             {
                 "position": 7,
                 "mnemonic": "MP_NIVEAU_MINIMUM_ADDITIF_GAZOLE",
-                "label_index": "29590",
+                "label_index": "@P29590",
                 "label_korean": "디젤 첨가제 낮음",
                 "group_id": "61958",
                 "req_frame_id": "186167",
@@ -1445,13 +1445,13 @@
                 "bit_mask": 32,
                 "bit_shift": 5,
                 "dynamic_arg": "",
-                "help_code": "",
+                "help_code": "@T",
                 "help_korean": ""
             },
             {
                 "position": 8,
                 "mnemonic": "MP_ALERTE_DEFAILLANCE_ABS",
-                "label_index": "21555",
+                "label_index": "@P21555",
                 "label_korean": "ABS 결함 경고",
                 "group_id": "61958",
                 "req_frame_id": "186167",
@@ -1467,13 +1467,13 @@
                 "bit_mask": 4,
                 "bit_shift": 2,
                 "dynamic_arg": "",
-                "help_code": "",
+                "help_code": "@T",
                 "help_korean": ""
             },
             {
                 "position": 9,
                 "mnemonic": "MP_TRANSPONDEUR_NON_RECONNU",
-                "label_index": "19877",
+                "label_index": "@P19877",
                 "label_korean": "트랜스폰더를 인식할 수 없다",
                 "group_id": "61958",
                 "req_frame_id": "186167",
@@ -1489,13 +1489,13 @@
                 "bit_mask": 32,
                 "bit_shift": 5,
                 "dynamic_arg": "",
-                "help_code": "",
+                "help_code": "@T",
                 "help_korean": ""
             },
             {
                 "position": 10,
                 "mnemonic": "MP_DEFAILLANCE_ELECTRONIQUE_DU_MOTEUR",
-                "label_index": "29589",
+                "label_index": "@P29589",
                 "label_korean": "엔진 전자제어 결함",
                 "group_id": "61958",
                 "req_frame_id": "186167",
@@ -1511,7 +1511,7 @@
                 "bit_mask": 32,
                 "bit_shift": 5,
                 "dynamic_arg": "",
-                "help_code": "",
+                "help_code": "@T",
                 "help_korean": ""
             }
         ]

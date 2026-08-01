@@ -8,7 +8,7 @@
             {
                 "position": 1,
                 "mnemonic": "ID_NOM_DU_FOURNISSEUR",
-                "label_index": "5701",
+                "label_index": "@P5701",
                 "label_korean": "제조 업체명",
                 "group_id": "38894",
                 "req_frame_id": "116980",
@@ -38,7 +38,7 @@
             {
                 "position": 2,
                 "mnemonic": "ID_REFERENCE_MATERIEL",
-                "label_index": "1071",
+                "label_index": "@P1071",
                 "label_korean": "장치 부품 번호",
                 "group_id": "38894",
                 "req_frame_id": "116980",
@@ -60,7 +60,7 @@
             {
                 "position": 3,
                 "mnemonic": "ID_REFERENCE_COMPLEMENTAIRE_MATERIEL",
-                "label_index": "1634",
+                "label_index": "@P1634",
                 "label_korean": "장치 추가 참조 번호",
                 "group_id": "38894",
                 "req_frame_id": "116980",
@@ -82,7 +82,7 @@
             {
                 "position": 4,
                 "mnemonic": "ID_REFERENCE_LOGICIEL",
-                "label_index": "13263",
+                "label_index": "@P13263",
                 "label_korean": "소프트웨어 번호",
                 "group_id": "38895",
                 "req_frame_id": "116983",
@@ -104,7 +104,7 @@
             {
                 "position": 5,
                 "mnemonic": "ID_TRACABILITE_INDICE_EVOLUTION_EDITION",
-                "label_index": "24601",
+                "label_index": "@P24601",
                 "label_korean": "소프트웨어 버전",
                 "group_id": "38895",
                 "req_frame_id": "116983",
@@ -126,7 +126,7 @@
             {
                 "position": 6,
                 "mnemonic": "ID_DATE_TELECH",
-                "label_index": "21670",
+                "label_index": "@P21670",
                 "label_korean": "다운로딩 날짜",
                 "group_id": "38895",
                 "req_frame_id": "116983",
@@ -148,7 +148,7 @@
             {
                 "position": 7,
                 "mnemonic": "ID_NOMBRE_DE_TELECHARGEMENT",
-                "label_index": "24589",
+                "label_index": "@P24589",
                 "label_korean": "다운로드의 수",
                 "group_id": "38895",
                 "req_frame_id": "116983",
@@ -170,7 +170,7 @@
             {
                 "position": 8,
                 "mnemonic": "ID_TRACABILITE_DATE_FABRICATION",
-                "label_index": "14355",
+                "label_index": "@F14355",
                 "label_korean": "제조일자",
                 "group_id": "38967",
                 "req_frame_id": "117199",
@@ -200,7 +200,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_REGIME_MOTEUR_AVEC_PRECISION_REDUITE",
-                "label_index": "53909",
+                "label_index": "@P53909",
                 "label_korean": "정확성이 줄어든 엔진 속도",
                 "group_id": "38904",
                 "req_frame_id": "117010",
@@ -222,7 +222,7 @@
             {
                 "position": 2,
                 "mnemonic": "MP_TEMPERATURE_EAU_MOTEUR",
-                "label_index": "11092",
+                "label_index": "@F11092",
                 "label_korean": "엔진 냉각수 온도",
                 "group_id": "38906",
                 "req_frame_id": "117016",
@@ -244,7 +244,7 @@
             {
                 "position": 3,
                 "mnemonic": "MP_TENSION_BATTERIES_SERVITUDE_MESURE_PAR_OBC_DCDC",
-                "label_index": "53931",
+                "label_index": "@P53931",
                 "label_korean": "내장형 충전기/직류 전압 변압기 어셈블리 ECU로 측정한 서비스 배터리의 전압",
                 "group_id": "38911",
                 "req_frame_id": "117031",
@@ -266,8 +266,8 @@
             {
                 "position": 4,
                 "mnemonic": "MP_TENSION_ALIMENTATION_CONVERTISSEUR_DCDC_HT",
-                "label_index": "53967",
-                "label_korean": "직류 전압 변압기공급 전압(트랙션 전압)(DC/DC)",
+                "label_index": "@P53967@\\*(DC/DC)",
+                "label_korean": "직류 전압 변압기 공급 전압(트랙션 전압)(DC/DC)",
                 "group_id": "38912",
                 "req_frame_id": "117034",
                 "resp_frame_id": "117035",
@@ -288,8 +288,8 @@
             {
                 "position": 5,
                 "mnemonic": "MP_COURANT_ALIMENTATION_CONVERTISSEUR_DCDC_HT",
-                "label_index": "53968",
-                "label_korean": "직류 전압 변압기공급 전류(트랙션 전압)(DC/DC)",
+                "label_index": "@P53968@\\*(DC/DC)",
+                "label_korean": "직류 전압 변압기 공급 전류(트랙션 전압)(DC/DC)",
                 "group_id": "38913",
                 "req_frame_id": "117037",
                 "resp_frame_id": "117038",
@@ -310,7 +310,7 @@
             {
                 "position": 6,
                 "mnemonic": "MP_TENSION_ALIMENTATION_CONVERTISSEUR_DCDC_BT",
-                "label_index": "53958",
+                "label_index": "@P53958@\\*(DC/DC)",
                 "label_korean": "직류 전압 변압기 공급 전압(서비스 전압)(DC/DC)",
                 "group_id": "38916",
                 "req_frame_id": "117046",
@@ -332,8 +332,8 @@
             {
                 "position": 7,
                 "mnemonic": "MP_COURANT_ALIMENTATION_CONVERTISSEUR_DCDC_BT",
-                "label_index": "53962",
-                "label_korean": "직류 전압 변압기공급 전류(서비스 전압)(DC/DC)",
+                "label_index": "@P53962@\\*(DC/DC)",
+                "label_korean": "직류 전압 변압기 공급 전류(서비스 전압)(DC/DC)",
                 "group_id": "38917",
                 "req_frame_id": "117049",
                 "resp_frame_id": "117050",
@@ -354,7 +354,7 @@
             {
                 "position": 8,
                 "mnemonic": "MP_TENSION_ALIM_PRISE_ELEC_RESEAU",
-                "label_index": "53922",
+                "label_index": "@P53922",
                 "label_korean": "메인 소켓 공급 전압",
                 "group_id": "38919",
                 "req_frame_id": "117055",
@@ -376,7 +376,7 @@
             {
                 "position": 9,
                 "mnemonic": "MP_COURANT_ALIM_PRISE_ELEC_RESEAU",
-                "label_index": "53942",
+                "label_index": "@P53942",
                 "label_korean": "메인 소켓 공급 전류",
                 "group_id": "38920",
                 "req_frame_id": "117058",
@@ -398,7 +398,7 @@
             {
                 "position": 10,
                 "mnemonic": "MP_CONSIGNE_ACTIONNEUR_VERROUILLAGE_PRISE_CHARGE",
-                "label_index": "53903",
+                "label_index": "@P53903",
                 "label_korean": "충전 소켓 잠금 액추에이터의 기준 값 상태",
                 "group_id": "38923",
                 "req_frame_id": "117067",
@@ -424,7 +424,7 @@
             {
                 "position": 11,
                 "mnemonic": "MP_TENSION_MESUREE_CAPTEUR_VERROUILLAGE_PRISE_CHARGE",
-                "label_index": "53945",
+                "label_index": "@P53945",
                 "label_korean": "충전 소켓 잠금 전압 센서에 의해 측정된 전압",
                 "group_id": "38940",
                 "req_frame_id": "117118",
@@ -446,7 +446,7 @@
             {
                 "position": 12,
                 "mnemonic": "MP_ACTIONNEUR_VERROUILLAGE_PRISE_CHARGE",
-                "label_index": "53938",
+                "label_index": "@P53938",
                 "label_korean": "충전 소켓 잠금 액추에이터의 상태",
                 "group_id": "38941",
                 "req_frame_id": "117121",
@@ -473,7 +473,7 @@
             {
                 "position": 13,
                 "mnemonic": "MP_TENSION_MESUREE_BORNES_CAPTEUR_TENSION_BROCHE_1_BEPR",
-                "label_index": "53963",
+                "label_index": "@P53963@\\*1",
                 "label_korean": "저속 충전 소켓 베이스 유닛(핀1)의 전압 센서 터미널에서 측정된 전압",
                 "group_id": "38943",
                 "req_frame_id": "117127",
@@ -495,7 +495,7 @@
             {
                 "position": 14,
                 "mnemonic": "MP_TENSION_MESUREE_BORNES_CAPTEUR_TENSION_BROCHE_2_BEPR",
-                "label_index": "53963",
+                "label_index": "@P53963@\\*2",
                 "label_korean": "저속 충전 소켓 베이스 유닛(핀2)의 전압 센서 터미널에서 측정된 전압",
                 "group_id": "38945",
                 "req_frame_id": "117133",
@@ -517,7 +517,7 @@
             {
                 "position": 15,
                 "mnemonic": "MP_ACTIONNEUR_VERROUILLAGE_PRISE_RECHARGE",
-                "label_index": "61189",
+                "label_index": "@P61189",
                 "label_korean": "충전 단자 액추에이터 잠금 극성 점검의 신호 상태",
                 "group_id": "38963",
                 "req_frame_id": "117187",
@@ -543,7 +543,7 @@
             {
                 "position": 16,
                 "mnemonic": "MP_ACTIONNEUR_DEVERROUILLAGE_PRISE_RECHARGE",
-                "label_index": "61190",
+                "label_index": "@P61190",
                 "label_korean": "충전 단자 액추에이터 잠금 해제 극성 점검의 신호 상태",
                 "group_id": "38964",
                 "req_frame_id": "117190",
@@ -577,7 +577,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_REGIME_MOTEUR_AVEC_PRECISION_REDUITE",
-                "label_index": "53909",
+                "label_index": "@P53909",
                 "label_korean": "정확성이 줄어든 엔진 속도",
                 "group_id": "38904",
                 "req_frame_id": "117010",
@@ -599,7 +599,7 @@
             {
                 "position": 2,
                 "mnemonic": "MP_TEMPERATURE_EAU_MOTEUR",
-                "label_index": "11092",
+                "label_index": "@F11092",
                 "label_korean": "엔진 냉각수 온도",
                 "group_id": "38906",
                 "req_frame_id": "117016",
@@ -621,7 +621,7 @@
             {
                 "position": 3,
                 "mnemonic": "MP_TENSION_BATTERIES_SERVITUDE_MESURE_PAR_OBC_DCDC",
-                "label_index": "53931",
+                "label_index": "@P53931",
                 "label_korean": "내장형 충전기/직류 전압 변압기 어셈블리 ECU로 측정한 서비스 배터리의 전압",
                 "group_id": "38911",
                 "req_frame_id": "117031",
@@ -643,8 +643,8 @@
             {
                 "position": 4,
                 "mnemonic": "MP_TENSION_ALIMENTATION_CONVERTISSEUR_DCDC_HT",
-                "label_index": "53967",
-                "label_korean": "직류 전압 변압기공급 전압(트랙션 전압)(DC/DC)",
+                "label_index": "@P53967@\\*(DC/DC)",
+                "label_korean": "직류 전압 변압기 공급 전압(트랙션 전압)(DC/DC)",
                 "group_id": "38912",
                 "req_frame_id": "117034",
                 "resp_frame_id": "117035",
@@ -665,8 +665,8 @@
             {
                 "position": 5,
                 "mnemonic": "MP_COURANT_ALIMENTATION_CONVERTISSEUR_DCDC_HT",
-                "label_index": "53968",
-                "label_korean": "직류 전압 변압기공급 전류(트랙션 전압)(DC/DC)",
+                "label_index": "@P53968@\\*(DC/DC)",
+                "label_korean": "직류 전압 변압기 공급 전류(트랙션 전압)(DC/DC)",
                 "group_id": "38913",
                 "req_frame_id": "117037",
                 "resp_frame_id": "117038",
@@ -687,7 +687,7 @@
             {
                 "position": 6,
                 "mnemonic": "MP_TENSION_ALIMENTATION_CONVERTISSEUR_DCDC_BT",
-                "label_index": "53958",
+                "label_index": "@P53958@\\*(DC/DC)",
                 "label_korean": "직류 전압 변압기 공급 전압(서비스 전압)(DC/DC)",
                 "group_id": "38916",
                 "req_frame_id": "117046",
@@ -709,8 +709,8 @@
             {
                 "position": 7,
                 "mnemonic": "MP_COURANT_ALIMENTATION_CONVERTISSEUR_DCDC_BT",
-                "label_index": "53962",
-                "label_korean": "직류 전압 변압기공급 전류(서비스 전압)(DC/DC)",
+                "label_index": "@P53962@\\*(DC/DC)",
+                "label_korean": "직류 전압 변압기 공급 전류(서비스 전압)(DC/DC)",
                 "group_id": "38917",
                 "req_frame_id": "117049",
                 "resp_frame_id": "117050",
@@ -731,7 +731,7 @@
             {
                 "position": 8,
                 "mnemonic": "MP_TENSION_ALIM_PRISE_ELEC_RESEAU",
-                "label_index": "53922",
+                "label_index": "@P53922",
                 "label_korean": "메인 소켓 공급 전압",
                 "group_id": "38919",
                 "req_frame_id": "117055",
@@ -753,7 +753,7 @@
             {
                 "position": 9,
                 "mnemonic": "MP_COURANT_ALIM_PRISE_ELEC_RESEAU",
-                "label_index": "53942",
+                "label_index": "@P53942",
                 "label_korean": "메인 소켓 공급 전류",
                 "group_id": "38920",
                 "req_frame_id": "117058",
@@ -775,7 +775,7 @@
             {
                 "position": 10,
                 "mnemonic": "MP_CONSIGNE_ACTIONNEUR_VERROUILLAGE_PRISE_CHARGE",
-                "label_index": "53903",
+                "label_index": "@P53903",
                 "label_korean": "충전 소켓 잠금 액추에이터의 기준 값 상태",
                 "group_id": "38923",
                 "req_frame_id": "117067",
@@ -801,7 +801,7 @@
             {
                 "position": 11,
                 "mnemonic": "MP_COURANT_MESUREE_CAPTEUR_VERROUILLAGE_PRISE_CHARGE",
-                "label_index": "55463",
+                "label_index": "@P55463",
                 "label_korean": "Gross current sent by the charging socket locking sensor",
                 "group_id": "매핑_누락",
                 "req_frame_id": "",
@@ -823,7 +823,7 @@
             {
                 "position": 12,
                 "mnemonic": "MP_ACTIONNEUR_VERROUILLAGE_PRISE_CHARGE",
-                "label_index": "53938",
+                "label_index": "@P53938",
                 "label_korean": "충전 소켓 잠금 액추에이터의 상태",
                 "group_id": "38941",
                 "req_frame_id": "117121",
@@ -850,7 +850,7 @@
             {
                 "position": 13,
                 "mnemonic": "MP_TENSION_MESUREE_BORNES_CAPTEUR_TENSION_BROCHE_1_BEPR",
-                "label_index": "53963",
+                "label_index": "@P53963@\\*1",
                 "label_korean": "저속 충전 소켓 베이스 유닛(핀1)의 전압 센서 터미널에서 측정된 전압",
                 "group_id": "38943",
                 "req_frame_id": "117127",
@@ -872,7 +872,7 @@
             {
                 "position": 14,
                 "mnemonic": "MP_TENSION_MESUREE_BORNES_CAPTEUR_TENSION_BROCHE_2_BEPR",
-                "label_index": "53963",
+                "label_index": "@P53963@\\*2",
                 "label_korean": "저속 충전 소켓 베이스 유닛(핀2)의 전압 센서 터미널에서 측정된 전압",
                 "group_id": "38945",
                 "req_frame_id": "117133",
@@ -894,7 +894,7 @@
             {
                 "position": 15,
                 "mnemonic": "MP_ACTIONNEUR_VERROUILLAGE_PRISE_RECHARGE",
-                "label_index": "61189",
+                "label_index": "@P61189",
                 "label_korean": "충전 단자 액추에이터 잠금 극성 점검의 신호 상태",
                 "group_id": "38963",
                 "req_frame_id": "117187",
@@ -920,7 +920,7 @@
             {
                 "position": 16,
                 "mnemonic": "MP_ACTIONNEUR_DEVERROUILLAGE_PRISE_RECHARGE",
-                "label_index": "61190",
+                "label_index": "@P61190",
                 "label_korean": "충전 단자 액추에이터 잠금 해제 극성 점검의 신호 상태",
                 "group_id": "38964",
                 "req_frame_id": "117190",
@@ -954,7 +954,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_REGIME_MOTEUR_AVEC_PRECISION_REDUITE",
-                "label_index": "53909",
+                "label_index": "@P53909",
                 "label_korean": "정확성이 줄어든 엔진 속도",
                 "group_id": "38904",
                 "req_frame_id": "117010",
@@ -976,7 +976,7 @@
             {
                 "position": 2,
                 "mnemonic": "MP_TEMPERATURE_EAU_MOTEUR",
-                "label_index": "11092",
+                "label_index": "@F11092",
                 "label_korean": "엔진 냉각수 온도",
                 "group_id": "38906",
                 "req_frame_id": "117016",
@@ -998,7 +998,7 @@
             {
                 "position": 3,
                 "mnemonic": "MP_TENSION_BATTERIES_SERVITUDE_MESURE_PAR_OBC_DCDC",
-                "label_index": "53931",
+                "label_index": "@P53931",
                 "label_korean": "내장형 충전기/직류 전압 변압기 어셈블리 ECU로 측정한 서비스 배터리의 전압",
                 "group_id": "38911",
                 "req_frame_id": "117031",
@@ -1020,8 +1020,8 @@
             {
                 "position": 4,
                 "mnemonic": "MP_TENSION_ALIMENTATION_CONVERTISSEUR_DCDC_HT",
-                "label_index": "53967",
-                "label_korean": "직류 전압 변압기공급 전압(트랙션 전압)(DC/DC)",
+                "label_index": "@P53967@\\*(DC/DC)",
+                "label_korean": "직류 전압 변압기 공급 전압(트랙션 전압)(DC/DC)",
                 "group_id": "38912",
                 "req_frame_id": "117034",
                 "resp_frame_id": "117035",
@@ -1042,8 +1042,8 @@
             {
                 "position": 5,
                 "mnemonic": "MP_COURANT_ALIMENTATION_CONVERTISSEUR_DCDC_HT",
-                "label_index": "53968",
-                "label_korean": "직류 전압 변압기공급 전류(트랙션 전압)(DC/DC)",
+                "label_index": "@P53968@\\*(DC/DC)",
+                "label_korean": "직류 전압 변압기 공급 전류(트랙션 전압)(DC/DC)",
                 "group_id": "38913",
                 "req_frame_id": "117037",
                 "resp_frame_id": "117038",
@@ -1064,7 +1064,7 @@
             {
                 "position": 6,
                 "mnemonic": "MP_TENSION_ALIMENTATION_CONVERTISSEUR_DCDC_BT",
-                "label_index": "53958",
+                "label_index": "@P53958@\\*(DC/DC)",
                 "label_korean": "직류 전압 변압기 공급 전압(서비스 전압)(DC/DC)",
                 "group_id": "38916",
                 "req_frame_id": "117046",
@@ -1086,8 +1086,8 @@
             {
                 "position": 7,
                 "mnemonic": "MP_COURANT_ALIMENTATION_CONVERTISSEUR_DCDC_BT",
-                "label_index": "53962",
-                "label_korean": "직류 전압 변압기공급 전류(서비스 전압)(DC/DC)",
+                "label_index": "@P53962@\\*(DC/DC)",
+                "label_korean": "직류 전압 변압기 공급 전류(서비스 전압)(DC/DC)",
                 "group_id": "38917",
                 "req_frame_id": "117049",
                 "resp_frame_id": "117050",
@@ -1108,7 +1108,7 @@
             {
                 "position": 8,
                 "mnemonic": "MP_TENSION_ALIM_PRISE_ELEC_RESEAU",
-                "label_index": "53922",
+                "label_index": "@P53922",
                 "label_korean": "메인 소켓 공급 전압",
                 "group_id": "38919",
                 "req_frame_id": "117055",
@@ -1130,7 +1130,7 @@
             {
                 "position": 9,
                 "mnemonic": "MP_COURANT_ALIM_PRISE_ELEC_RESEAU",
-                "label_index": "53942",
+                "label_index": "@P53942",
                 "label_korean": "메인 소켓 공급 전류",
                 "group_id": "38920",
                 "req_frame_id": "117058",
@@ -1152,7 +1152,7 @@
             {
                 "position": 10,
                 "mnemonic": "MP_CONSIGNE_ACTIONNEUR_VERROUILLAGE_PRISE_CHARGE",
-                "label_index": "53903",
+                "label_index": "@P53903",
                 "label_korean": "충전 소켓 잠금 액추에이터의 기준 값 상태",
                 "group_id": "38923",
                 "req_frame_id": "117067",
@@ -1178,7 +1178,7 @@
             {
                 "position": 11,
                 "mnemonic": "MP_COURANT_MESUREE_CAPTEUR_VERROUILLAGE_PRISE_CHARGE",
-                "label_index": "55463",
+                "label_index": "@P55463",
                 "label_korean": "Gross current sent by the charging socket locking sensor",
                 "group_id": "매핑_누락",
                 "req_frame_id": "",
@@ -1200,7 +1200,7 @@
             {
                 "position": 12,
                 "mnemonic": "MP_ACTIONNEUR_VERROUILLAGE_PRISE_CHARGE",
-                "label_index": "53938",
+                "label_index": "@P53938",
                 "label_korean": "충전 소켓 잠금 액추에이터의 상태",
                 "group_id": "38941",
                 "req_frame_id": "117121",
@@ -1227,7 +1227,7 @@
             {
                 "position": 13,
                 "mnemonic": "MP_TENSION_MESUREE_BORNES_CAPTEUR_TENSION_BROCHE_1_BEPR",
-                "label_index": "53963",
+                "label_index": "@P53963@\\*1",
                 "label_korean": "저속 충전 소켓 베이스 유닛(핀1)의 전압 센서 터미널에서 측정된 전압",
                 "group_id": "38943",
                 "req_frame_id": "117127",
@@ -1249,7 +1249,7 @@
             {
                 "position": 14,
                 "mnemonic": "MP_TENSION_MESUREE_BORNES_CAPTEUR_TENSION_BROCHE_2_BEPR",
-                "label_index": "53963",
+                "label_index": "@P53963@\\*2",
                 "label_korean": "저속 충전 소켓 베이스 유닛(핀2)의 전압 센서 터미널에서 측정된 전압",
                 "group_id": "38945",
                 "req_frame_id": "117133",
@@ -1271,7 +1271,7 @@
             {
                 "position": 15,
                 "mnemonic": "MP_ACTIONNEUR_VERROUILLAGE_PRISE_RECHARGE",
-                "label_index": "61189",
+                "label_index": "@P61189",
                 "label_korean": "충전 단자 액추에이터 잠금 극성 점검의 신호 상태",
                 "group_id": "38963",
                 "req_frame_id": "117187",
@@ -1297,7 +1297,7 @@
             {
                 "position": 16,
                 "mnemonic": "MP_ACTIONNEUR_DEVERROUILLAGE_PRISE_RECHARGE",
-                "label_index": "61190",
+                "label_index": "@P61190",
                 "label_korean": "충전 단자 액추에이터 잠금 해제 극성 점검의 신호 상태",
                 "group_id": "38964",
                 "req_frame_id": "117190",
@@ -1331,7 +1331,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_POS_PEDALE_ACC_RECALCULEE_EURO62",
-                "label_index": "49428",
+                "label_index": "@P49428",
                 "label_korean": "재산출된 가속 페달 위치",
                 "group_id": "38897",
                 "req_frame_id": "116989",
@@ -1353,7 +1353,7 @@
             {
                 "position": 2,
                 "mnemonic": "MP_ETAT_LIGNE_RCD",
-                "label_index": "33773",
+                "label_index": "@P33773",
                 "label_korean": "웨이크-온-랜 라인의 상태",
                 "group_id": "38898",
                 "req_frame_id": "116992",
@@ -1382,7 +1382,7 @@
             {
                 "position": 3,
                 "mnemonic": "MP_ETAT_DU_MOTEUR_THERMIQUE",
-                "label_index": "33291",
+                "label_index": "@P33291",
                 "label_korean": "내연 기관 엔진의 상태",
                 "group_id": "38899",
                 "req_frame_id": "116995",
@@ -1435,7 +1435,7 @@
             {
                 "position": 4,
                 "mnemonic": "MP_TEMPERATURE_AIR_EXTERIEUR",
-                "label_index": "11513",
+                "label_index": "@F11513",
                 "label_korean": "외부 공기 온도",
                 "group_id": "38900",
                 "req_frame_id": "116998",
@@ -1459,7 +1459,7 @@
             {
                 "position": 5,
                 "mnemonic": "MP_KILOMETRAGE_DU_VEHICULE",
-                "label_index": "6315",
+                "label_index": "@F6315",
                 "label_korean": "차량 주행거리",
                 "group_id": "38901",
                 "req_frame_id": "117001",
@@ -1481,8 +1481,8 @@
             {
                 "position": 6,
                 "mnemonic": "MP_DIAGNOSTIC_COMMUNICATION_RESEAU",
-                "label_index": "8094",
-                "label_korean": "네트워크통신 진단",
+                "label_index": "@P8094@\\*",
+                "label_korean": "네트워크 통신 진단",
                 "group_id": "38902",
                 "req_frame_id": "117004",
                 "resp_frame_id": "117005",
@@ -1508,7 +1508,7 @@
             {
                 "position": 7,
                 "mnemonic": "MP_COMPTEUR_TEMPOREL_VEHICULE_BSI",
-                "label_index": "51826",
+                "label_index": "@P51826",
                 "label_korean": "BSI에서 전송된 차량 시간 카운터",
                 "group_id": "38903",
                 "req_frame_id": "117007",
@@ -1530,7 +1530,7 @@
             {
                 "position": 8,
                 "mnemonic": "MP_REGIME_MOTEUR_AVEC_PRECISION_REDUITE",
-                "label_index": "53909",
+                "label_index": "@P53909",
                 "label_korean": "정확성이 줄어든 엔진 속도",
                 "group_id": "38904",
                 "req_frame_id": "117010",
@@ -1552,7 +1552,7 @@
             {
                 "position": 9,
                 "mnemonic": "MP_VITESSE_VEHICULE",
-                "label_index": "9267",
+                "label_index": "@F9267",
                 "label_korean": "차량 속도",
                 "group_id": "38905",
                 "req_frame_id": "117013",
@@ -1572,13 +1572,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "53947",
+                "help_code": "@P53947",
                 "help_korean": "다이내믹 안정성 컨트롤 ECU에서 CAN을 통해 정보 전송"
             },
             {
                 "position": 10,
                 "mnemonic": "MP_TEMPERATURE_EAU_MOTEUR",
-                "label_index": "11092",
+                "label_index": "@F11092",
                 "label_korean": "엔진 냉각수 온도",
                 "group_id": "38906",
                 "req_frame_id": "117016",
@@ -1600,7 +1600,7 @@
             {
                 "position": 11,
                 "mnemonic": "MP_COMMANDE_RELAIS_GESTION_THERMIQUE",
-                "label_index": "53940",
+                "label_index": "@P53940",
                 "label_korean": "충전 및/또는 열 사전 조정 모드 열 관리 릴레이 제어 상태",
                 "group_id": "38909",
                 "req_frame_id": "117025",
@@ -1625,7 +1625,7 @@
             {
                 "position": 12,
                 "mnemonic": "MP_FLUX_CONTROLE_COMMANDE_RELAIS_GESTION_THERMIQUE",
-                "label_index": "53896",
+                "label_index": "@P53896",
                 "label_korean": "충전 및/또는 열 사전 조정 모드 열 관리 릴레이 명령의 제어 흐름",
                 "group_id": "38942",
                 "req_frame_id": "117124",
@@ -1650,7 +1650,7 @@
             {
                 "position": 13,
                 "mnemonic": "MP_SIGNAL_ON_OFF_COMMANDE",
-                "label_index": "53495",
+                "label_index": "@P53495",
                 "label_korean": "웨이크업 컨트롤 ON/OFF 신호",
                 "group_id": "38958",
                 "req_frame_id": "117172",
@@ -1675,7 +1675,7 @@
             {
                 "position": 14,
                 "mnemonic": "MP_COMMANDE_RELAIS_THERMIQUE",
-                "label_index": "61191",
+                "label_index": "@P61191",
                 "label_korean": "충전 및/또는 온도 사전 조정 모드 열 관리 릴레이 제어",
                 "group_id": "38965",
                 "req_frame_id": "117193",
@@ -1700,7 +1700,7 @@
             {
                 "position": 15,
                 "mnemonic": "MP_CONSIGNE_RELAIS_GESTION_THERMIQUE",
-                "label_index": "61192",
+                "label_index": "@P61192",
                 "label_korean": "충전 및/또는 온도 사전 조정 모드 열 관리 릴레이 기준 값",
                 "group_id": "38966",
                 "req_frame_id": "117196",
@@ -1733,7 +1733,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_REGIME_MOTEUR_AVEC_PRECISION_REDUITE",
-                "label_index": "53909",
+                "label_index": "@P53909",
                 "label_korean": "정확성이 줄어든 엔진 속도",
                 "group_id": "38904",
                 "req_frame_id": "117010",
@@ -1755,7 +1755,7 @@
             {
                 "position": 2,
                 "mnemonic": "MP_TEMPERATURE_EAU_MOTEUR",
-                "label_index": "11092",
+                "label_index": "@F11092",
                 "label_korean": "엔진 냉각수 온도",
                 "group_id": "38906",
                 "req_frame_id": "117016",
@@ -1777,7 +1777,7 @@
             {
                 "position": 3,
                 "mnemonic": "MP_COMMANDE_ELECTROVANNE_CIRCUIT_REFROID_BATTERIE_TRACTION",
-                "label_index": "53943",
+                "label_index": "@P53943",
                 "label_korean": "트랙션 배터리 냉각 시스템 솔레노이드 밸브 컨트롤의 상태",
                 "group_id": "38910",
                 "req_frame_id": "117028",
@@ -1802,7 +1802,7 @@
             {
                 "position": 4,
                 "mnemonic": "MP_COMMANDE_POMPE_A_EAU_CIRCUIT_REFROID_BATTERIE_TRACTION",
-                "label_index": "53952",
+                "label_index": "@P53952",
                 "label_korean": "트랙션 배터리 냉각 시스템 전동 냉각수 펌프의 제어",
                 "group_id": "38927",
                 "req_frame_id": "117079",
@@ -1824,7 +1824,7 @@
             {
                 "position": 5,
                 "mnemonic": "MP_TEMPS_NIV_BAS_SIGNAL_POMPE_A_EAU_ELEC_CIRC_REFROI_BATT_TRACT",
-                "label_index": "53935",
+                "label_index": "@P53935",
                 "label_korean": "트랙션 배터리 냉각 시스템 전동 냉각수 펌프의 신호가 로우 레벨을 표시하는 시간",
                 "group_id": "38928",
                 "req_frame_id": "117082",
@@ -1846,7 +1846,7 @@
             {
                 "position": 6,
                 "mnemonic": "MP_ETAT_POMPE_A_EAU_ELEC_CIRCUIT_REFROID_BATTERIE_TRACTION",
-                "label_index": "53918",
+                "label_index": "@P53918",
                 "label_korean": "트랙션 배터리 냉각 시스템 전동 냉각수 펌프의 상태",
                 "group_id": "38929",
                 "req_frame_id": "117085",
@@ -1874,7 +1874,7 @@
             {
                 "position": 7,
                 "mnemonic": "MP_COMMANDE_POMPE_A_EAU_ELEC_CIRCUIT_REFROID_CHAINE_TRACTION",
-                "label_index": "53912",
+                "label_index": "@P53912",
                 "label_korean": "구동 트레인 냉각 라인 전동 냉각수 펌프 제어",
                 "group_id": "38930",
                 "req_frame_id": "117088",
@@ -1896,7 +1896,7 @@
             {
                 "position": 8,
                 "mnemonic": "MP_TEMPS_NIV_BAS_SIGNAL_POMPE_A_EAU_CIRCUIT_REFROID_CHAINE_TRACT",
-                "label_index": "53928",
+                "label_index": "@P53928",
                 "label_korean": "구동 트레인 냉각 라인 전동 냉각수 펌프의 신호가 로우 레벨을 표시하는 시간",
                 "group_id": "38931",
                 "req_frame_id": "117091",
@@ -1918,7 +1918,7 @@
             {
                 "position": 9,
                 "mnemonic": "MP_ETAT_POMPE_A_EAU_ELEC_CIRCUIT_REFROID_DCDC",
-                "label_index": "53894",
+                "label_index": "@P53894",
                 "label_korean": "구동 트레인 냉각 라인 전동 냉각수 펌프의 상태",
                 "group_id": "38932",
                 "req_frame_id": "117094",
@@ -1946,7 +1946,7 @@
             {
                 "position": 10,
                 "mnemonic": "MP_TEMP_ENTREE_EAU_CIRCUIT_REFROID_BATTERIE_TRACTION",
-                "label_index": "54010",
+                "label_index": "@P54010",
                 "label_korean": "트랙션 배터리 냉각 시스템 냉각수 유입 온도",
                 "group_id": "38956",
                 "req_frame_id": "117166",
@@ -1976,7 +1976,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_REGIME_MOTEUR_AVEC_PRECISION_REDUITE",
-                "label_index": "53909",
+                "label_index": "@P53909",
                 "label_korean": "정확성이 줄어든 엔진 속도",
                 "group_id": "38904",
                 "req_frame_id": "117010",
@@ -1998,7 +1998,7 @@
             {
                 "position": 2,
                 "mnemonic": "MP_TEMPERATURE_EAU_MOTEUR",
-                "label_index": "11092",
+                "label_index": "@F11092",
                 "label_korean": "엔진 냉각수 온도",
                 "group_id": "38906",
                 "req_frame_id": "117016",
@@ -2020,7 +2020,7 @@
             {
                 "position": 3,
                 "mnemonic": "MP_TENSION_BATTERIES_SERVITUDE_MESURE_PAR_OBC_DCDC",
-                "label_index": "53931",
+                "label_index": "@P53931",
                 "label_korean": "내장형 충전기/직류 전압 변압기 어셈블리 ECU로 측정한 서비스 배터리의 전압",
                 "group_id": "38911",
                 "req_frame_id": "117031",
@@ -2042,7 +2042,7 @@
             {
                 "position": 4,
                 "mnemonic": "MP_TEMPERATURE_CONVERTISSEUR_DCDC",
-                "label_index": "22360",
+                "label_index": "@P22360",
                 "label_korean": "직류 전압 변환장치 (DC/DC)의 온도",
                 "group_id": "38914",
                 "req_frame_id": "117040",
@@ -2064,7 +2064,7 @@
             {
                 "position": 5,
                 "mnemonic": "MP_ETAT_CONVERTISSEUR_CONTINU",
-                "label_index": "22332",
+                "label_index": "@P22332",
                 "label_korean": "직류 전압 변환장치 (DC/DC) 상태",
                 "group_id": "38915",
                 "req_frame_id": "117043",
@@ -2095,7 +2095,7 @@
             {
                 "position": 6,
                 "mnemonic": "MP_CHARGE_CHARGEUR_OBC",
-                "label_index": "53898",
+                "label_index": "@P53898",
                 "label_korean": "내장형 충전기의 충전 상태",
                 "group_id": "38918",
                 "req_frame_id": "117052",
@@ -2123,7 +2123,7 @@
             {
                 "position": 7,
                 "mnemonic": "MP_FONCTIONNEMENT_GMP_HYBRIDE",
-                "label_index": "53946",
+                "label_index": "@P53946",
                 "label_korean": "하이브리드 파워 트레인의 작동 상태",
                 "group_id": "38955",
                 "req_frame_id": "117163",
@@ -2167,7 +2167,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_REGIME_MOTEUR_AVEC_PRECISION_REDUITE",
-                "label_index": "53909",
+                "label_index": "@P53909",
                 "label_korean": "정확성이 줄어든 엔진 속도",
                 "group_id": "38904",
                 "req_frame_id": "117010",
@@ -2189,7 +2189,7 @@
             {
                 "position": 2,
                 "mnemonic": "MP_TEMPERATURE_EAU_MOTEUR",
-                "label_index": "11092",
+                "label_index": "@F11092",
                 "label_korean": "엔진 냉각수 온도",
                 "group_id": "38906",
                 "req_frame_id": "117016",
@@ -2211,7 +2211,7 @@
             {
                 "position": 3,
                 "mnemonic": "MP_ETAT_CONTACTEURS_PUISSANCES_INTERNES_BATTERIE_TRACTION",
-                "label_index": "53955",
+                "label_index": "@P53955",
                 "label_korean": "트랙션 배터리 내부 전원 스위치의 상태",
                 "group_id": "38907",
                 "req_frame_id": "117019",
@@ -2239,7 +2239,7 @@
             {
                 "position": 4,
                 "mnemonic": "MP_TEMPERATURE_MOYENNE_BATTERIE_DE_TRACTION",
-                "label_index": "22611",
+                "label_index": "@L22611",
                 "label_korean": "트랙션 배터리의 평균 온도",
                 "group_id": "38908",
                 "req_frame_id": "117022",
@@ -2261,7 +2261,7 @@
             {
                 "position": 5,
                 "mnemonic": "MP_COMMANDE_ELECTROVANNE_CIRCUIT_REFROID_BATTERIE_TRACTION",
-                "label_index": "53943",
+                "label_index": "@P53943",
                 "label_korean": "트랙션 배터리 냉각 시스템 솔레노이드 밸브 컨트롤의 상태",
                 "group_id": "38910",
                 "req_frame_id": "117028",
@@ -2286,7 +2286,7 @@
             {
                 "position": 6,
                 "mnemonic": "MP_BOUTON_COMMANDE_CHARGE_DIFFEREE_BATTERIE_TRACTION",
-                "label_index": "53892",
+                "label_index": "@P53892",
                 "label_korean": "트랙션 배터리 지연 충전의 제어 버튼 상태",
                 "group_id": "38921",
                 "req_frame_id": "117061",
@@ -2312,7 +2312,7 @@
             {
                 "position": 7,
                 "mnemonic": "MP_COMMANDE_POMPE_A_EAU_CIRCUIT_REFROID_BATTERIE_TRACTION",
-                "label_index": "53952",
+                "label_index": "@P53952",
                 "label_korean": "트랙션 배터리 냉각 시스템 전동 냉각수 펌프의 제어",
                 "group_id": "38927",
                 "req_frame_id": "117079",
@@ -2334,7 +2334,7 @@
             {
                 "position": 8,
                 "mnemonic": "MP_TEMPS_NIV_BAS_SIGNAL_POMPE_A_EAU_ELEC_CIRC_REFROI_BATT_TRACT",
-                "label_index": "53935",
+                "label_index": "@P53935",
                 "label_korean": "트랙션 배터리 냉각 시스템 전동 냉각수 펌프의 신호가 로우 레벨을 표시하는 시간",
                 "group_id": "38928",
                 "req_frame_id": "117082",
@@ -2356,7 +2356,7 @@
             {
                 "position": 9,
                 "mnemonic": "MP_ETAT_POMPE_A_EAU_ELEC_CIRCUIT_REFROID_BATTERIE_TRACTION",
-                "label_index": "53918",
+                "label_index": "@P53918",
                 "label_korean": "트랙션 배터리 냉각 시스템 전동 냉각수 펌프의 상태",
                 "group_id": "38929",
                 "req_frame_id": "117085",
@@ -2384,7 +2384,7 @@
             {
                 "position": 10,
                 "mnemonic": "MP_FONC_POMPE_A_EAU_ELEC_CIRC_REFROI_BATT_TRACT_OU_CHAI_TRACT",
-                "label_index": "54263",
+                "label_index": "@P54263",
                 "label_korean": "트랙션 배터리/전동 구동 트레인 및 충전기 어셈블리 냉각 시스템 전동 냉각수 펌프의 작동 상태",
                 "group_id": "38939",
                 "req_frame_id": "117115",
@@ -2412,7 +2412,7 @@
             {
                 "position": 11,
                 "mnemonic": "MP_TEMP_ENTREE_EAU_CIRCUIT_REFROID_BATTERIE_TRACTION",
-                "label_index": "54010",
+                "label_index": "@P54010",
                 "label_korean": "트랙션 배터리 냉각 시스템 냉각수 유입 온도",
                 "group_id": "38956",
                 "req_frame_id": "117166",
@@ -2434,7 +2434,7 @@
             {
                 "position": 12,
                 "mnemonic": "MP_ETAT_DE_RECHARGE",
-                "label_index": "55209",
+                "label_index": "@P55209",
                 "label_korean": "트랙션 배터리 충전 상태",
                 "group_id": "38960",
                 "req_frame_id": "117178",
@@ -2469,7 +2469,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_REGIME_MOTEUR_AVEC_PRECISION_REDUITE",
-                "label_index": "53909",
+                "label_index": "@P53909",
                 "label_korean": "정확성이 줄어든 엔진 속도",
                 "group_id": "38904",
                 "req_frame_id": "117010",
@@ -2491,7 +2491,7 @@
             {
                 "position": 2,
                 "mnemonic": "MP_TEMPERATURE_EAU_MOTEUR",
-                "label_index": "11092",
+                "label_index": "@F11092",
                 "label_korean": "엔진 냉각수 온도",
                 "group_id": "38906",
                 "req_frame_id": "117016",
@@ -2513,7 +2513,7 @@
             {
                 "position": 3,
                 "mnemonic": "MP_TENSION_MESUREE_BORNES_CAPTEUR_TENSION_BROCHE_1_BEPR",
-                "label_index": "53963",
+                "label_index": "@P53963@\\*1",
                 "label_korean": "저속 충전 소켓 베이스 유닛(핀1)의 전압 센서 터미널에서 측정된 전압",
                 "group_id": "38943",
                 "req_frame_id": "117127",
@@ -2535,7 +2535,7 @@
             {
                 "position": 4,
                 "mnemonic": "MP_TEMP_MESUREE_BORNES_CAPTEUR_TEMP_BROCHE_1_BEPR",
-                "label_index": "53969",
+                "label_index": "@P53969@\\*1",
                 "label_korean": "저속 충전 소켓 베이스 유닛(핀1)의 온도 센서 터미널에서 측정된 온도",
                 "group_id": "38944",
                 "req_frame_id": "117130",
@@ -2557,7 +2557,7 @@
             {
                 "position": 5,
                 "mnemonic": "MP_TENSION_MESUREE_BORNES_CAPTEUR_TENSION_BROCHE_2_BEPR",
-                "label_index": "53963",
+                "label_index": "@P53963@\\*2",
                 "label_korean": "저속 충전 소켓 베이스 유닛(핀2)의 전압 센서 터미널에서 측정된 전압",
                 "group_id": "38945",
                 "req_frame_id": "117133",
@@ -2579,7 +2579,7 @@
             {
                 "position": 6,
                 "mnemonic": "MP_TEMP_MESUREE_BORNES_CAPTEUR_TEMP_BROCHE_2_BEPR",
-                "label_index": "53969",
+                "label_index": "@P53969@\\*2",
                 "label_korean": "저속 충전 소켓 베이스 유닛(핀2)의 온도 센서 터미널에서 측정된 온도",
                 "group_id": "38946",
                 "req_frame_id": "117136",
@@ -2601,7 +2601,7 @@
             {
                 "position": 7,
                 "mnemonic": "MP_COMMANDE_LED_ROUGE_BEPR",
-                "label_index": "53899",
+                "label_index": "@P53899",
                 "label_korean": "충전 소켓 베이스 하우징 빨간색 LED 컨트롤",
                 "group_id": "38947",
                 "req_frame_id": "117139",
@@ -2623,7 +2623,7 @@
             {
                 "position": 8,
                 "mnemonic": "MP_CONSIGNE_COMMANDE_LED_ROUGE_BEPR",
-                "label_index": "53916",
+                "label_index": "@P53916",
                 "label_korean": "충전 소켓 장치 빨간색 LED 컨트롤 기준값",
                 "group_id": "38948",
                 "req_frame_id": "117142",
@@ -2645,7 +2645,7 @@
             {
                 "position": 9,
                 "mnemonic": "MP_COMMANDE_LED_VERTE_BEPR",
-                "label_index": "53911",
+                "label_index": "@P53911",
                 "label_korean": "충전 소켓 베이스 하우징 녹색 LED 컨트롤",
                 "group_id": "38949",
                 "req_frame_id": "117145",
@@ -2667,7 +2667,7 @@
             {
                 "position": 10,
                 "mnemonic": "MP_CONSIGNE_COMMANDE_LED_VERTE_BEPR",
-                "label_index": "53953",
+                "label_index": "@P53953",
                 "label_korean": "충전 소켓 장치 녹색 LED 컨트롤 기준값",
                 "group_id": "38950",
                 "req_frame_id": "117148",
@@ -2689,7 +2689,7 @@
             {
                 "position": 11,
                 "mnemonic": "MP_COMMANDE_LED_BLEUE_BEPR",
-                "label_index": "53939",
+                "label_index": "@P53939",
                 "label_korean": "충전 소켓 베이스 하우징 파란색 LED 컨트롤",
                 "group_id": "38951",
                 "req_frame_id": "117151",
@@ -2711,7 +2711,7 @@
             {
                 "position": 12,
                 "mnemonic": "MP_CONSIGNE_COMMANDE_LED_BLEUE_BEPR",
-                "label_index": "53901",
+                "label_index": "@P53901",
                 "label_korean": "충전 소켓 베이스 하우징 파란색 LED 컨트롤 기준값",
                 "group_id": "38952",
                 "req_frame_id": "117154",
@@ -2733,7 +2733,7 @@
             {
                 "position": 13,
                 "mnemonic": "MP_COMMANDE_LED_VERROUILLAGE_BEPR",
-                "label_index": "53920",
+                "label_index": "@P53920",
                 "label_korean": "충전 소켓 베이스 하우징 잠금 LED 컨트롤",
                 "group_id": "38953",
                 "req_frame_id": "117157",
@@ -2755,7 +2755,7 @@
             {
                 "position": 14,
                 "mnemonic": "MP_CONSIGNE_COMMANDE_LED_VERROUILLAGE_BEPR",
-                "label_index": "53917",
+                "label_index": "@P53917",
                 "label_korean": "충전 소켓 베이스 하우징 잠금 LED 컨트롤 기준값",
                 "group_id": "38954",
                 "req_frame_id": "117160",
@@ -2785,7 +2785,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_REGIME_MOTEUR_AVEC_PRECISION_REDUITE",
-                "label_index": "53909",
+                "label_index": "@P53909",
                 "label_korean": "정확성이 줄어든 엔진 속도",
                 "group_id": "38904",
                 "req_frame_id": "117010",
@@ -2807,7 +2807,7 @@
             {
                 "position": 2,
                 "mnemonic": "MP_TEMPERATURE_EAU_MOTEUR",
-                "label_index": "11092",
+                "label_index": "@F11092",
                 "label_korean": "엔진 냉각수 온도",
                 "group_id": "38906",
                 "req_frame_id": "117016",
@@ -2829,7 +2829,7 @@
             {
                 "position": 3,
                 "mnemonic": "MP_TENSION_BATTERIES_SERVITUDE_MESURE_PAR_OBC_DCDC",
-                "label_index": "53931",
+                "label_index": "@P53931",
                 "label_korean": "내장형 충전기/직류 전압 변압기 어셈블리 ECU로 측정한 서비스 배터리의 전압",
                 "group_id": "38911",
                 "req_frame_id": "117031",
@@ -2851,8 +2851,8 @@
             {
                 "position": 4,
                 "mnemonic": "MP_TENSION_ALIMENTATION_CONVERTISSEUR_DCDC_HT",
-                "label_index": "53967",
-                "label_korean": "직류 전압 변압기공급 전압(트랙션 전압)(DC/DC)",
+                "label_index": "@P53967@\\*(DC/DC)",
+                "label_korean": "직류 전압 변압기 공급 전압(트랙션 전압)(DC/DC)",
                 "group_id": "38912",
                 "req_frame_id": "117034",
                 "resp_frame_id": "117035",
@@ -2873,8 +2873,8 @@
             {
                 "position": 5,
                 "mnemonic": "MP_COURANT_ALIMENTATION_CONVERTISSEUR_DCDC_HT",
-                "label_index": "53968",
-                "label_korean": "직류 전압 변압기공급 전류(트랙션 전압)(DC/DC)",
+                "label_index": "@P53968@\\*(DC/DC)",
+                "label_korean": "직류 전압 변압기 공급 전류(트랙션 전압)(DC/DC)",
                 "group_id": "38913",
                 "req_frame_id": "117037",
                 "resp_frame_id": "117038",
@@ -2895,7 +2895,7 @@
             {
                 "position": 6,
                 "mnemonic": "MP_TEMPERATURE_CONVERTISSEUR_DCDC",
-                "label_index": "22360",
+                "label_index": "@P22360",
                 "label_korean": "직류 전압 변환장치 (DC/DC)의 온도",
                 "group_id": "38914",
                 "req_frame_id": "117040",
@@ -2917,7 +2917,7 @@
             {
                 "position": 7,
                 "mnemonic": "MP_ETAT_CONVERTISSEUR_CONTINU",
-                "label_index": "22332",
+                "label_index": "@P22332",
                 "label_korean": "직류 전압 변환장치 (DC/DC) 상태",
                 "group_id": "38915",
                 "req_frame_id": "117043",
@@ -2948,7 +2948,7 @@
             {
                 "position": 8,
                 "mnemonic": "MP_TENSION_ALIMENTATION_CONVERTISSEUR_DCDC_BT",
-                "label_index": "53958",
+                "label_index": "@P53958@\\*(DC/DC)",
                 "label_korean": "직류 전압 변압기 공급 전압(서비스 전압)(DC/DC)",
                 "group_id": "38916",
                 "req_frame_id": "117046",
@@ -2970,8 +2970,8 @@
             {
                 "position": 9,
                 "mnemonic": "MP_COURANT_ALIMENTATION_CONVERTISSEUR_DCDC_BT",
-                "label_index": "53962",
-                "label_korean": "직류 전압 변압기공급 전류(서비스 전압)(DC/DC)",
+                "label_index": "@P53962@\\*(DC/DC)",
+                "label_korean": "직류 전압 변압기 공급 전류(서비스 전압)(DC/DC)",
                 "group_id": "38917",
                 "req_frame_id": "117049",
                 "resp_frame_id": "117050",
@@ -2992,7 +2992,7 @@
             {
                 "position": 10,
                 "mnemonic": "MP_CHARGE_CHARGEUR_OBC",
-                "label_index": "53898",
+                "label_index": "@P53898",
                 "label_korean": "내장형 충전기의 충전 상태",
                 "group_id": "38918",
                 "req_frame_id": "117052",
@@ -3020,7 +3020,7 @@
             {
                 "position": 11,
                 "mnemonic": "MP_TEMPERATURE_CIRCUIT_REFROID_CHAINE_TRACTION",
-                "label_index": "53926",
+                "label_index": "@P53926",
                 "label_korean": "구동 트레인 냉각 라인 온도",
                 "group_id": "38922",
                 "req_frame_id": "117064",
@@ -3042,7 +3042,7 @@
             {
                 "position": 12,
                 "mnemonic": "MP_COMMANDE_POMPE_A_EAU_ELEC_CIRCUIT_REFROID_CHAINE_TRACTION",
-                "label_index": "53912",
+                "label_index": "@P53912",
                 "label_korean": "구동 트레인 냉각 라인 전동 냉각수 펌프 제어",
                 "group_id": "38930",
                 "req_frame_id": "117088",
@@ -3064,7 +3064,7 @@
             {
                 "position": 13,
                 "mnemonic": "MP_TEMPS_NIV_BAS_SIGNAL_POMPE_A_EAU_CIRCUIT_REFROID_CHAINE_TRACT",
-                "label_index": "53928",
+                "label_index": "@P53928",
                 "label_korean": "구동 트레인 냉각 라인 전동 냉각수 펌프의 신호가 로우 레벨을 표시하는 시간",
                 "group_id": "38931",
                 "req_frame_id": "117091",
@@ -3086,7 +3086,7 @@
             {
                 "position": 14,
                 "mnemonic": "MP_ETAT_POMPE_A_EAU_ELEC_CIRCUIT_REFROID_DCDC",
-                "label_index": "53894",
+                "label_index": "@P53894",
                 "label_korean": "구동 트레인 냉각 라인 전동 냉각수 펌프의 상태",
                 "group_id": "38932",
                 "req_frame_id": "117094",
@@ -3114,7 +3114,7 @@
             {
                 "position": 15,
                 "mnemonic": "MP_CHARGE_TEMPS_REEL_DCDC",
-                "label_index": "53976",
+                "label_index": "@P53976@\\*(DC/DC)",
                 "label_korean": "직류 전압 변압기 충전의 실시간 상태(DC/DC)",
                 "group_id": "38933",
                 "req_frame_id": "117097",
@@ -3136,7 +3136,7 @@
             {
                 "position": 16,
                 "mnemonic": "MP_SURCHAUFFE_OBC_DCDC",
-                "label_index": "53960",
+                "label_index": "@P53960",
                 "label_korean": "내장형 충전기/직류 전압 변압기 어셈블리 과열 상태",
                 "group_id": "38934",
                 "req_frame_id": "117100",
@@ -3162,7 +3162,7 @@
             {
                 "position": 17,
                 "mnemonic": "MP_SURINTENSITE_OBC_DCDC_BT",
-                "label_index": "53925",
+                "label_index": "@P53925",
                 "label_korean": "내장형 충전기/직류 전압 변압기 어셈블리(서비스 전압) 과전류 상태",
                 "group_id": "38935",
                 "req_frame_id": "117103",
@@ -3188,7 +3188,7 @@
             {
                 "position": 18,
                 "mnemonic": "MP_SURTENSION_OBC_DCDC_BT",
-                "label_index": "53913",
+                "label_index": "@P53913",
                 "label_korean": "내장형 충전기/직류 전압 변압기 어셈블리 과전압 상태(서비스 전압)",
                 "group_id": "38936",
                 "req_frame_id": "117106",
@@ -3214,7 +3214,7 @@
             {
                 "position": 19,
                 "mnemonic": "MP_SURINTENSITE_OBC_DCDC_HT",
-                "label_index": "53905",
+                "label_index": "@P53905",
                 "label_korean": "내장형 충전기/직류 전압 변압기 어셈블리 과전류 상태(트랙션 전압)",
                 "group_id": "38937",
                 "req_frame_id": "117109",
@@ -3240,7 +3240,7 @@
             {
                 "position": 20,
                 "mnemonic": "MP_SURTENSION_OBC_DCDC_HT",
-                "label_index": "53929",
+                "label_index": "@P53929",
                 "label_korean": "내장형 충전기/직류 전압 변압기 어셈블리 과전압 상태(트랙션 전압)",
                 "group_id": "38938",
                 "req_frame_id": "117112",
@@ -3262,7 +3262,7 @@
             {
                 "position": 21,
                 "mnemonic": "MP_COURANT_RESEAU_NIVEAU_PRISE_CHARGE",
-                "label_index": "54866",
+                "label_index": "@P54866",
                 "label_korean": "차량의 충전 소켓에서 가정용 전기 네트워크 전류 판독",
                 "group_id": "38959",
                 "req_frame_id": "117175",
@@ -3284,7 +3284,7 @@
             {
                 "position": 22,
                 "mnemonic": "MP_ETAT_DIAGNOSTIC_OBC_DCDC",
-                "label_index": "61193",
+                "label_index": "@P61193",
                 "label_korean": "내장형 충전기/직류 전압 변압기 어셈블리의 전력 상태",
                 "group_id": "38962",
                 "req_frame_id": "117184",
@@ -3309,7 +3309,7 @@
             {
                 "position": 23,
                 "mnemonic": "MP_ETAT_CONNEXION_CABLE_EXTERIEUR_CHARGE_VEHICULE",
-                "label_index": "54642",
+                "label_index": "@P54642",
                 "label_korean": "차량 충전 외부 케이블 연결 상태",
                 "group_id": "38961",
                 "req_frame_id": "117181",
@@ -3344,7 +3344,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_REGIME_MOTEUR_AVEC_PRECISION_REDUITE",
-                "label_index": "53909",
+                "label_index": "@P53909",
                 "label_korean": "정확성이 줄어든 엔진 속도",
                 "group_id": "38904",
                 "req_frame_id": "117010",
@@ -3366,7 +3366,7 @@
             {
                 "position": 2,
                 "mnemonic": "MP_TEMPERATURE_EAU_MOTEUR",
-                "label_index": "11092",
+                "label_index": "@F11092",
                 "label_korean": "엔진 냉각수 온도",
                 "group_id": "38906",
                 "req_frame_id": "117016",
@@ -3388,7 +3388,7 @@
             {
                 "position": 3,
                 "mnemonic": "MP_TEMP_ONDULEUR_MEL_AV",
-                "label_index": "53950",
+                "label_index": "@P53950",
                 "label_korean": "프론트 전동 구동 머신 인버터 온도",
                 "group_id": "38924",
                 "req_frame_id": "117070",
@@ -3410,7 +3410,7 @@
             {
                 "position": 4,
                 "mnemonic": "MP_TEMP_STATOR_MEL_AR",
-                "label_index": "22943",
+                "label_index": "@P22943",
                 "label_korean": "전동 구동 머신 스테이터 온도",
                 "group_id": "38925",
                 "req_frame_id": "117073",
@@ -3432,7 +3432,7 @@
             {
                 "position": 5,
                 "mnemonic": "MP_TEMP_ONDULEUR_MEL_AR",
-                "label_index": "53948",
+                "label_index": "@P53948",
                 "label_korean": "리어 전동 구동 머신 인버터 온도",
                 "group_id": "38926",
                 "req_frame_id": "117076",
@@ -3462,7 +3462,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_POS_PEDALE_ACC_RECALCULEE_EURO62",
-                "label_index": "49428",
+                "label_index": "@P49428",
                 "label_korean": "재산출된 가속 페달 위치",
                 "group_id": "38897",
                 "req_frame_id": "116989",
@@ -3484,7 +3484,7 @@
             {
                 "position": 2,
                 "mnemonic": "MP_ETAT_LIGNE_RCD",
-                "label_index": "33773",
+                "label_index": "@P33773",
                 "label_korean": "웨이크-온-랜 라인의 상태",
                 "group_id": "38898",
                 "req_frame_id": "116992",
@@ -3513,7 +3513,7 @@
             {
                 "position": 3,
                 "mnemonic": "MP_ETAT_DU_MOTEUR_THERMIQUE",
-                "label_index": "33291",
+                "label_index": "@P33291",
                 "label_korean": "내연 기관 엔진의 상태",
                 "group_id": "38899",
                 "req_frame_id": "116995",
@@ -3566,7 +3566,7 @@
             {
                 "position": 4,
                 "mnemonic": "MP_TEMPERATURE_AIR_EXTERIEUR",
-                "label_index": "11513",
+                "label_index": "@F11513",
                 "label_korean": "외부 공기 온도",
                 "group_id": "38900",
                 "req_frame_id": "116998",
@@ -3590,7 +3590,7 @@
             {
                 "position": 5,
                 "mnemonic": "MP_KILOMETRAGE_DU_VEHICULE",
-                "label_index": "6315",
+                "label_index": "@F6315",
                 "label_korean": "차량 주행거리",
                 "group_id": "38901",
                 "req_frame_id": "117001",
@@ -3612,8 +3612,8 @@
             {
                 "position": 6,
                 "mnemonic": "MP_DIAGNOSTIC_COMMUNICATION_RESEAU",
-                "label_index": "8094",
-                "label_korean": "네트워크통신 진단",
+                "label_index": "@P8094@\\*",
+                "label_korean": "네트워크 통신 진단",
                 "group_id": "38902",
                 "req_frame_id": "117004",
                 "resp_frame_id": "117005",
@@ -3639,7 +3639,7 @@
             {
                 "position": 7,
                 "mnemonic": "MP_COMPTEUR_TEMPOREL_VEHICULE_BSI",
-                "label_index": "51826",
+                "label_index": "@P51826",
                 "label_korean": "BSI에서 전송된 차량 시간 카운터",
                 "group_id": "38903",
                 "req_frame_id": "117007",
@@ -3661,7 +3661,7 @@
             {
                 "position": 8,
                 "mnemonic": "MP_REGIME_MOTEUR_AVEC_PRECISION_REDUITE",
-                "label_index": "53909",
+                "label_index": "@P53909",
                 "label_korean": "정확성이 줄어든 엔진 속도",
                 "group_id": "38904",
                 "req_frame_id": "117010",
@@ -3683,7 +3683,7 @@
             {
                 "position": 9,
                 "mnemonic": "MP_VITESSE_VEHICULE",
-                "label_index": "9267",
+                "label_index": "@F9267",
                 "label_korean": "차량 속도",
                 "group_id": "38905",
                 "req_frame_id": "117013",
@@ -3703,13 +3703,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "53947",
+                "help_code": "@P53947",
                 "help_korean": "다이내믹 안정성 컨트롤 ECU에서 CAN을 통해 정보 전송"
             },
             {
                 "position": 10,
                 "mnemonic": "MP_TEMPERATURE_EAU_MOTEUR",
-                "label_index": "11092",
+                "label_index": "@F11092",
                 "label_korean": "엔진 냉각수 온도",
                 "group_id": "38906",
                 "req_frame_id": "117016",
@@ -3731,7 +3731,7 @@
             {
                 "position": 11,
                 "mnemonic": "MP_ETAT_CONTACTEURS_PUISSANCES_INTERNES_BATTERIE_TRACTION",
-                "label_index": "53955",
+                "label_index": "@P53955",
                 "label_korean": "트랙션 배터리 내부 전원 스위치의 상태",
                 "group_id": "38907",
                 "req_frame_id": "117019",
@@ -3759,7 +3759,7 @@
             {
                 "position": 12,
                 "mnemonic": "MP_TEMPERATURE_MOYENNE_BATTERIE_DE_TRACTION",
-                "label_index": "22611",
+                "label_index": "@L22611",
                 "label_korean": "트랙션 배터리의 평균 온도",
                 "group_id": "38908",
                 "req_frame_id": "117022",
@@ -3781,7 +3781,7 @@
             {
                 "position": 13,
                 "mnemonic": "MP_COMMANDE_RELAIS_GESTION_THERMIQUE",
-                "label_index": "53940",
+                "label_index": "@P53940",
                 "label_korean": "충전 및/또는 열 사전 조정 모드 열 관리 릴레이 제어 상태",
                 "group_id": "38909",
                 "req_frame_id": "117025",
@@ -3806,7 +3806,7 @@
             {
                 "position": 14,
                 "mnemonic": "MP_COMMANDE_ELECTROVANNE_CIRCUIT_REFROID_BATTERIE_TRACTION",
-                "label_index": "53943",
+                "label_index": "@P53943",
                 "label_korean": "트랙션 배터리 냉각 시스템 솔레노이드 밸브 컨트롤의 상태",
                 "group_id": "38910",
                 "req_frame_id": "117028",
@@ -3831,7 +3831,7 @@
             {
                 "position": 15,
                 "mnemonic": "MP_TENSION_BATTERIES_SERVITUDE_MESURE_PAR_OBC_DCDC",
-                "label_index": "53931",
+                "label_index": "@P53931",
                 "label_korean": "내장형 충전기/직류 전압 변압기 어셈블리 ECU로 측정한 서비스 배터리의 전압",
                 "group_id": "38911",
                 "req_frame_id": "117031",
@@ -3853,8 +3853,8 @@
             {
                 "position": 16,
                 "mnemonic": "MP_TENSION_ALIMENTATION_CONVERTISSEUR_DCDC_HT",
-                "label_index": "53967",
-                "label_korean": "직류 전압 변압기공급 전압(트랙션 전압)(DC/DC)",
+                "label_index": "@P53967@\\*(DC/DC)",
+                "label_korean": "직류 전압 변압기 공급 전압(트랙션 전압)(DC/DC)",
                 "group_id": "38912",
                 "req_frame_id": "117034",
                 "resp_frame_id": "117035",
@@ -3875,8 +3875,8 @@
             {
                 "position": 17,
                 "mnemonic": "MP_COURANT_ALIMENTATION_CONVERTISSEUR_DCDC_HT",
-                "label_index": "53968",
-                "label_korean": "직류 전압 변압기공급 전류(트랙션 전압)(DC/DC)",
+                "label_index": "@P53968@\\*(DC/DC)",
+                "label_korean": "직류 전압 변압기 공급 전류(트랙션 전압)(DC/DC)",
                 "group_id": "38913",
                 "req_frame_id": "117037",
                 "resp_frame_id": "117038",
@@ -3897,7 +3897,7 @@
             {
                 "position": 18,
                 "mnemonic": "MP_TEMPERATURE_CONVERTISSEUR_DCDC",
-                "label_index": "22360",
+                "label_index": "@P22360",
                 "label_korean": "직류 전압 변환장치 (DC/DC)의 온도",
                 "group_id": "38914",
                 "req_frame_id": "117040",
@@ -3919,7 +3919,7 @@
             {
                 "position": 19,
                 "mnemonic": "MP_ETAT_CONVERTISSEUR_CONTINU",
-                "label_index": "22332",
+                "label_index": "@P22332",
                 "label_korean": "직류 전압 변환장치 (DC/DC) 상태",
                 "group_id": "38915",
                 "req_frame_id": "117043",
@@ -3950,7 +3950,7 @@
             {
                 "position": 20,
                 "mnemonic": "MP_TENSION_ALIMENTATION_CONVERTISSEUR_DCDC_BT",
-                "label_index": "53958",
+                "label_index": "@P53958@\\*(DC/DC)",
                 "label_korean": "직류 전압 변압기 공급 전압(서비스 전압)(DC/DC)",
                 "group_id": "38916",
                 "req_frame_id": "117046",
@@ -3972,8 +3972,8 @@
             {
                 "position": 21,
                 "mnemonic": "MP_COURANT_ALIMENTATION_CONVERTISSEUR_DCDC_BT",
-                "label_index": "53962",
-                "label_korean": "직류 전압 변압기공급 전류(서비스 전압)(DC/DC)",
+                "label_index": "@P53962@\\*(DC/DC)",
+                "label_korean": "직류 전압 변압기 공급 전류(서비스 전압)(DC/DC)",
                 "group_id": "38917",
                 "req_frame_id": "117049",
                 "resp_frame_id": "117050",
@@ -3994,7 +3994,7 @@
             {
                 "position": 22,
                 "mnemonic": "MP_CHARGE_CHARGEUR_OBC",
-                "label_index": "53898",
+                "label_index": "@P53898",
                 "label_korean": "내장형 충전기의 충전 상태",
                 "group_id": "38918",
                 "req_frame_id": "117052",
@@ -4022,7 +4022,7 @@
             {
                 "position": 23,
                 "mnemonic": "MP_TENSION_ALIM_PRISE_ELEC_RESEAU",
-                "label_index": "53922",
+                "label_index": "@P53922",
                 "label_korean": "메인 소켓 공급 전압",
                 "group_id": "38919",
                 "req_frame_id": "117055",
@@ -4044,7 +4044,7 @@
             {
                 "position": 24,
                 "mnemonic": "MP_COURANT_ALIM_PRISE_ELEC_RESEAU",
-                "label_index": "53942",
+                "label_index": "@P53942",
                 "label_korean": "메인 소켓 공급 전류",
                 "group_id": "38920",
                 "req_frame_id": "117058",
@@ -4066,7 +4066,7 @@
             {
                 "position": 25,
                 "mnemonic": "MP_BOUTON_COMMANDE_CHARGE_DIFFEREE_BATTERIE_TRACTION",
-                "label_index": "53892",
+                "label_index": "@P53892",
                 "label_korean": "트랙션 배터리 지연 충전의 제어 버튼 상태",
                 "group_id": "38921",
                 "req_frame_id": "117061",
@@ -4092,7 +4092,7 @@
             {
                 "position": 26,
                 "mnemonic": "MP_TEMPERATURE_CIRCUIT_REFROID_CHAINE_TRACTION",
-                "label_index": "53926",
+                "label_index": "@P53926",
                 "label_korean": "구동 트레인 냉각 라인 온도",
                 "group_id": "38922",
                 "req_frame_id": "117064",
@@ -4114,7 +4114,7 @@
             {
                 "position": 27,
                 "mnemonic": "MP_CONSIGNE_ACTIONNEUR_VERROUILLAGE_PRISE_CHARGE",
-                "label_index": "53903",
+                "label_index": "@P53903",
                 "label_korean": "충전 소켓 잠금 액추에이터의 기준 값 상태",
                 "group_id": "38923",
                 "req_frame_id": "117067",
@@ -4140,7 +4140,7 @@
             {
                 "position": 28,
                 "mnemonic": "MP_TEMP_ONDULEUR_MEL_AV",
-                "label_index": "53950",
+                "label_index": "@P53950",
                 "label_korean": "프론트 전동 구동 머신 인버터 온도",
                 "group_id": "38924",
                 "req_frame_id": "117070",
@@ -4162,7 +4162,7 @@
             {
                 "position": 29,
                 "mnemonic": "MP_TEMP_STATOR_MEL_AR",
-                "label_index": "22943",
+                "label_index": "@P22943",
                 "label_korean": "전동 구동 머신 스테이터 온도",
                 "group_id": "38925",
                 "req_frame_id": "117073",
@@ -4184,7 +4184,7 @@
             {
                 "position": 30,
                 "mnemonic": "MP_TEMP_ONDULEUR_MEL_AR",
-                "label_index": "53948",
+                "label_index": "@P53948",
                 "label_korean": "리어 전동 구동 머신 인버터 온도",
                 "group_id": "38926",
                 "req_frame_id": "117076",
@@ -4206,7 +4206,7 @@
             {
                 "position": 31,
                 "mnemonic": "MP_COMMANDE_POMPE_A_EAU_CIRCUIT_REFROID_BATTERIE_TRACTION",
-                "label_index": "53952",
+                "label_index": "@P53952",
                 "label_korean": "트랙션 배터리 냉각 시스템 전동 냉각수 펌프의 제어",
                 "group_id": "38927",
                 "req_frame_id": "117079",
@@ -4228,7 +4228,7 @@
             {
                 "position": 32,
                 "mnemonic": "MP_TEMPS_NIV_BAS_SIGNAL_POMPE_A_EAU_ELEC_CIRC_REFROI_BATT_TRACT",
-                "label_index": "53935",
+                "label_index": "@P53935",
                 "label_korean": "트랙션 배터리 냉각 시스템 전동 냉각수 펌프의 신호가 로우 레벨을 표시하는 시간",
                 "group_id": "38928",
                 "req_frame_id": "117082",
@@ -4250,7 +4250,7 @@
             {
                 "position": 33,
                 "mnemonic": "MP_ETAT_POMPE_A_EAU_ELEC_CIRCUIT_REFROID_BATTERIE_TRACTION",
-                "label_index": "53918",
+                "label_index": "@P53918",
                 "label_korean": "트랙션 배터리 냉각 시스템 전동 냉각수 펌프의 상태",
                 "group_id": "38929",
                 "req_frame_id": "117085",
@@ -4278,7 +4278,7 @@
             {
                 "position": 34,
                 "mnemonic": "MP_COMMANDE_POMPE_A_EAU_ELEC_CIRCUIT_REFROID_CHAINE_TRACTION",
-                "label_index": "53912",
+                "label_index": "@P53912",
                 "label_korean": "구동 트레인 냉각 라인 전동 냉각수 펌프 제어",
                 "group_id": "38930",
                 "req_frame_id": "117088",
@@ -4300,7 +4300,7 @@
             {
                 "position": 35,
                 "mnemonic": "MP_TEMPS_NIV_BAS_SIGNAL_POMPE_A_EAU_CIRCUIT_REFROID_CHAINE_TRACT",
-                "label_index": "53928",
+                "label_index": "@P53928",
                 "label_korean": "구동 트레인 냉각 라인 전동 냉각수 펌프의 신호가 로우 레벨을 표시하는 시간",
                 "group_id": "38931",
                 "req_frame_id": "117091",
@@ -4322,7 +4322,7 @@
             {
                 "position": 36,
                 "mnemonic": "MP_ETAT_POMPE_A_EAU_ELEC_CIRCUIT_REFROID_DCDC",
-                "label_index": "53894",
+                "label_index": "@P53894",
                 "label_korean": "구동 트레인 냉각 라인 전동 냉각수 펌프의 상태",
                 "group_id": "38932",
                 "req_frame_id": "117094",
@@ -4350,7 +4350,7 @@
             {
                 "position": 37,
                 "mnemonic": "MP_CHARGE_TEMPS_REEL_DCDC",
-                "label_index": "53976",
+                "label_index": "@P53976@\\*(DC/DC)",
                 "label_korean": "직류 전압 변압기 충전의 실시간 상태(DC/DC)",
                 "group_id": "38933",
                 "req_frame_id": "117097",
@@ -4372,7 +4372,7 @@
             {
                 "position": 38,
                 "mnemonic": "MP_SURCHAUFFE_OBC_DCDC",
-                "label_index": "53960",
+                "label_index": "@P53960",
                 "label_korean": "내장형 충전기/직류 전압 변압기 어셈블리 과열 상태",
                 "group_id": "38934",
                 "req_frame_id": "117100",
@@ -4398,7 +4398,7 @@
             {
                 "position": 39,
                 "mnemonic": "MP_SURINTENSITE_OBC_DCDC_BT",
-                "label_index": "53925",
+                "label_index": "@P53925",
                 "label_korean": "내장형 충전기/직류 전압 변압기 어셈블리(서비스 전압) 과전류 상태",
                 "group_id": "38935",
                 "req_frame_id": "117103",
@@ -4424,7 +4424,7 @@
             {
                 "position": 40,
                 "mnemonic": "MP_SURTENSION_OBC_DCDC_BT",
-                "label_index": "53913",
+                "label_index": "@P53913",
                 "label_korean": "내장형 충전기/직류 전압 변압기 어셈블리 과전압 상태(서비스 전압)",
                 "group_id": "38936",
                 "req_frame_id": "117106",
@@ -4450,7 +4450,7 @@
             {
                 "position": 41,
                 "mnemonic": "MP_SURINTENSITE_OBC_DCDC_HT",
-                "label_index": "53905",
+                "label_index": "@P53905",
                 "label_korean": "내장형 충전기/직류 전압 변압기 어셈블리 과전류 상태(트랙션 전압)",
                 "group_id": "38937",
                 "req_frame_id": "117109",
@@ -4476,7 +4476,7 @@
             {
                 "position": 42,
                 "mnemonic": "MP_SURTENSION_OBC_DCDC_HT",
-                "label_index": "53929",
+                "label_index": "@P53929",
                 "label_korean": "내장형 충전기/직류 전압 변압기 어셈블리 과전압 상태(트랙션 전압)",
                 "group_id": "38938",
                 "req_frame_id": "117112",
@@ -4498,7 +4498,7 @@
             {
                 "position": 43,
                 "mnemonic": "MP_FONC_POMPE_A_EAU_ELEC_CIRC_REFROI_BATT_TRACT_OU_CHAI_TRACT",
-                "label_index": "54263",
+                "label_index": "@P54263",
                 "label_korean": "트랙션 배터리/전동 구동 트레인 및 충전기 어셈블리 냉각 시스템 전동 냉각수 펌프의 작동 상태",
                 "group_id": "38939",
                 "req_frame_id": "117115",
@@ -4526,7 +4526,7 @@
             {
                 "position": 44,
                 "mnemonic": "MP_TENSION_MESUREE_CAPTEUR_VERROUILLAGE_PRISE_CHARGE",
-                "label_index": "53945",
+                "label_index": "@P53945",
                 "label_korean": "충전 소켓 잠금 전압 센서에 의해 측정된 전압",
                 "group_id": "38940",
                 "req_frame_id": "117118",
@@ -4548,7 +4548,7 @@
             {
                 "position": 45,
                 "mnemonic": "MP_ACTIONNEUR_VERROUILLAGE_PRISE_CHARGE",
-                "label_index": "53938",
+                "label_index": "@P53938",
                 "label_korean": "충전 소켓 잠금 액추에이터의 상태",
                 "group_id": "38941",
                 "req_frame_id": "117121",
@@ -4575,7 +4575,7 @@
             {
                 "position": 46,
                 "mnemonic": "MP_FLUX_CONTROLE_COMMANDE_RELAIS_GESTION_THERMIQUE",
-                "label_index": "53896",
+                "label_index": "@P53896",
                 "label_korean": "충전 및/또는 열 사전 조정 모드 열 관리 릴레이 명령의 제어 흐름",
                 "group_id": "38942",
                 "req_frame_id": "117124",
@@ -4600,7 +4600,7 @@
             {
                 "position": 47,
                 "mnemonic": "MP_TENSION_MESUREE_BORNES_CAPTEUR_TENSION_BROCHE_1_BEPR",
-                "label_index": "53963",
+                "label_index": "@P53963@\\*1",
                 "label_korean": "저속 충전 소켓 베이스 유닛(핀1)의 전압 센서 터미널에서 측정된 전압",
                 "group_id": "38943",
                 "req_frame_id": "117127",
@@ -4622,7 +4622,7 @@
             {
                 "position": 48,
                 "mnemonic": "MP_TEMP_MESUREE_BORNES_CAPTEUR_TEMP_BROCHE_1_BEPR",
-                "label_index": "53969",
+                "label_index": "@P53969@\\*1",
                 "label_korean": "저속 충전 소켓 베이스 유닛(핀1)의 온도 센서 터미널에서 측정된 온도",
                 "group_id": "38944",
                 "req_frame_id": "117130",
@@ -4644,7 +4644,7 @@
             {
                 "position": 49,
                 "mnemonic": "MP_TENSION_MESUREE_BORNES_CAPTEUR_TENSION_BROCHE_2_BEPR",
-                "label_index": "53963",
+                "label_index": "@P53963@\\*2",
                 "label_korean": "저속 충전 소켓 베이스 유닛(핀2)의 전압 센서 터미널에서 측정된 전압",
                 "group_id": "38945",
                 "req_frame_id": "117133",
@@ -4666,7 +4666,7 @@
             {
                 "position": 50,
                 "mnemonic": "MP_TEMP_MESUREE_BORNES_CAPTEUR_TEMP_BROCHE_2_BEPR",
-                "label_index": "53969",
+                "label_index": "@P53969@\\*2",
                 "label_korean": "저속 충전 소켓 베이스 유닛(핀2)의 온도 센서 터미널에서 측정된 온도",
                 "group_id": "38946",
                 "req_frame_id": "117136",
@@ -4688,7 +4688,7 @@
             {
                 "position": 51,
                 "mnemonic": "MP_COMMANDE_LED_ROUGE_BEPR",
-                "label_index": "53899",
+                "label_index": "@P53899",
                 "label_korean": "충전 소켓 베이스 하우징 빨간색 LED 컨트롤",
                 "group_id": "38947",
                 "req_frame_id": "117139",
@@ -4710,7 +4710,7 @@
             {
                 "position": 52,
                 "mnemonic": "MP_CONSIGNE_COMMANDE_LED_ROUGE_BEPR",
-                "label_index": "53916",
+                "label_index": "@P53916",
                 "label_korean": "충전 소켓 장치 빨간색 LED 컨트롤 기준값",
                 "group_id": "38948",
                 "req_frame_id": "117142",
@@ -4732,7 +4732,7 @@
             {
                 "position": 53,
                 "mnemonic": "MP_COMMANDE_LED_VERTE_BEPR",
-                "label_index": "53911",
+                "label_index": "@P53911",
                 "label_korean": "충전 소켓 베이스 하우징 녹색 LED 컨트롤",
                 "group_id": "38949",
                 "req_frame_id": "117145",
@@ -4754,7 +4754,7 @@
             {
                 "position": 54,
                 "mnemonic": "MP_CONSIGNE_COMMANDE_LED_VERTE_BEPR",
-                "label_index": "53953",
+                "label_index": "@P53953",
                 "label_korean": "충전 소켓 장치 녹색 LED 컨트롤 기준값",
                 "group_id": "38950",
                 "req_frame_id": "117148",
@@ -4776,7 +4776,7 @@
             {
                 "position": 55,
                 "mnemonic": "MP_COMMANDE_LED_BLEUE_BEPR",
-                "label_index": "53939",
+                "label_index": "@P53939",
                 "label_korean": "충전 소켓 베이스 하우징 파란색 LED 컨트롤",
                 "group_id": "38951",
                 "req_frame_id": "117151",
@@ -4798,7 +4798,7 @@
             {
                 "position": 56,
                 "mnemonic": "MP_CONSIGNE_COMMANDE_LED_BLEUE_BEPR",
-                "label_index": "53901",
+                "label_index": "@P53901",
                 "label_korean": "충전 소켓 베이스 하우징 파란색 LED 컨트롤 기준값",
                 "group_id": "38952",
                 "req_frame_id": "117154",
@@ -4820,7 +4820,7 @@
             {
                 "position": 57,
                 "mnemonic": "MP_COMMANDE_LED_VERROUILLAGE_BEPR",
-                "label_index": "53920",
+                "label_index": "@P53920",
                 "label_korean": "충전 소켓 베이스 하우징 잠금 LED 컨트롤",
                 "group_id": "38953",
                 "req_frame_id": "117157",
@@ -4842,7 +4842,7 @@
             {
                 "position": 58,
                 "mnemonic": "MP_CONSIGNE_COMMANDE_LED_VERROUILLAGE_BEPR",
-                "label_index": "53917",
+                "label_index": "@P53917",
                 "label_korean": "충전 소켓 베이스 하우징 잠금 LED 컨트롤 기준값",
                 "group_id": "38954",
                 "req_frame_id": "117160",
@@ -4864,7 +4864,7 @@
             {
                 "position": 59,
                 "mnemonic": "MP_FONCTIONNEMENT_GMP_HYBRIDE",
-                "label_index": "53946",
+                "label_index": "@P53946",
                 "label_korean": "하이브리드 파워 트레인의 작동 상태",
                 "group_id": "38955",
                 "req_frame_id": "117163",
@@ -4900,7 +4900,7 @@
             {
                 "position": 60,
                 "mnemonic": "MP_TEMP_ENTREE_EAU_CIRCUIT_REFROID_BATTERIE_TRACTION",
-                "label_index": "54010",
+                "label_index": "@P54010",
                 "label_korean": "트랙션 배터리 냉각 시스템 냉각수 유입 온도",
                 "group_id": "38956",
                 "req_frame_id": "117166",
@@ -4922,7 +4922,7 @@
             {
                 "position": 61,
                 "mnemonic": "MP_COURANT_MESUREE_CAPTEUR_VERROUILLAGE_PRISE_CHARGE",
-                "label_index": "55463",
+                "label_index": "@P55463",
                 "label_korean": "Gross current sent by the charging socket locking sensor",
                 "group_id": "매핑_누락",
                 "req_frame_id": "",
@@ -4966,7 +4966,7 @@
             {
                 "position": 63,
                 "mnemonic": "MP_SIGNAL_ON_OFF_COMMANDE",
-                "label_index": "53495",
+                "label_index": "@P53495",
                 "label_korean": "웨이크업 컨트롤 ON/OFF 신호",
                 "group_id": "38958",
                 "req_frame_id": "117172",
@@ -4991,7 +4991,7 @@
             {
                 "position": 64,
                 "mnemonic": "MP_ETAT_CONNEXION_CABLE_EXTERIEUR_CHARGE_VEHICULE",
-                "label_index": "54642",
+                "label_index": "@P54642",
                 "label_korean": "차량 충전 외부 케이블 연결 상태",
                 "group_id": "38961",
                 "req_frame_id": "117181",
@@ -5018,7 +5018,7 @@
             {
                 "position": 65,
                 "mnemonic": "MP_COURANT_RESEAU_NIVEAU_PRISE_CHARGE",
-                "label_index": "54866",
+                "label_index": "@P54866",
                 "label_korean": "차량의 충전 소켓에서 가정용 전기 네트워크 전류 판독",
                 "group_id": "38959",
                 "req_frame_id": "117175",
@@ -5040,7 +5040,7 @@
             {
                 "position": 66,
                 "mnemonic": "MP_ETAT_DIAGNOSTIC_OBC_DCDC",
-                "label_index": "61193",
+                "label_index": "@P61193",
                 "label_korean": "내장형 충전기/직류 전압 변압기 어셈블리의 전력 상태",
                 "group_id": "38962",
                 "req_frame_id": "117184",
@@ -5065,7 +5065,7 @@
             {
                 "position": 67,
                 "mnemonic": "MP_ACTIONNEUR_VERROUILLAGE_PRISE_RECHARGE",
-                "label_index": "61189",
+                "label_index": "@P61189",
                 "label_korean": "충전 단자 액추에이터 잠금 극성 점검의 신호 상태",
                 "group_id": "38963",
                 "req_frame_id": "117187",
@@ -5091,7 +5091,7 @@
             {
                 "position": 68,
                 "mnemonic": "MP_ACTIONNEUR_DEVERROUILLAGE_PRISE_RECHARGE",
-                "label_index": "61190",
+                "label_index": "@P61190",
                 "label_korean": "충전 단자 액추에이터 잠금 해제 극성 점검의 신호 상태",
                 "group_id": "38964",
                 "req_frame_id": "117190",
@@ -5117,7 +5117,7 @@
             {
                 "position": 69,
                 "mnemonic": "MP_COMMANDE_RELAIS_THERMIQUE",
-                "label_index": "61191",
+                "label_index": "@P61191",
                 "label_korean": "충전 및/또는 온도 사전 조정 모드 열 관리 릴레이 제어",
                 "group_id": "38965",
                 "req_frame_id": "117193",
@@ -5142,7 +5142,7 @@
             {
                 "position": 70,
                 "mnemonic": "MP_CONSIGNE_RELAIS_GESTION_THERMIQUE",
-                "label_index": "61192",
+                "label_index": "@P61192",
                 "label_korean": "충전 및/또는 온도 사전 조정 모드 열 관리 릴레이 기준 값",
                 "group_id": "38966",
                 "req_frame_id": "117196",
@@ -5167,7 +5167,7 @@
             {
                 "position": 71,
                 "mnemonic": "MP_ETAT_DE_RECHARGE",
-                "label_index": "55209",
+                "label_index": "@P55209",
                 "label_korean": "트랙션 배터리 충전 상태",
                 "group_id": "38960",
                 "req_frame_id": "117178",

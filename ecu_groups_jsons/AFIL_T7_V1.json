@@ -8,7 +8,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_ID_FOURNISSEUR",
-                "label_index": "5701",
+                "label_index": "@P5701",
                 "label_korean": "제조 업체명",
                 "group_id": "156998",
                 "req_frame_id": "471347",
@@ -35,7 +35,7 @@
             {
                 "position": 2,
                 "mnemonic": "ID_REFERENCE_MATERIEL",
-                "label_index": "1071",
+                "label_index": "@P1071",
                 "label_korean": "장치 부품 번호",
                 "group_id": "156998",
                 "req_frame_id": "471347",
@@ -57,7 +57,7 @@
             {
                 "position": 3,
                 "mnemonic": "ID_REFERENCE_COMPLEMENTAIRE_MATERIEL",
-                "label_index": "1634",
+                "label_index": "@P1634",
                 "label_korean": "장치 추가 참조 번호",
                 "group_id": "156998",
                 "req_frame_id": "471347",
@@ -79,7 +79,7 @@
             {
                 "position": 4,
                 "mnemonic": "ID_VERSION_LOGICIEL_new_1",
-                "label_index": "8662",
+                "label_index": "@P8662@\\*",
                 "label_korean": "소프트웨어 버전",
                 "group_id": "156998",
                 "req_frame_id": "471347",
@@ -101,7 +101,7 @@
             {
                 "position": 5,
                 "mnemonic": "ID_REF_CALIBRATION_new_1",
-                "label_index": "7014",
+                "label_index": "@P7014",
                 "label_korean": "캘리브레이션 버전",
                 "group_id": "156998",
                 "req_frame_id": "471347",
@@ -123,7 +123,7 @@
             {
                 "position": 6,
                 "mnemonic": "ID_MESS_DIAGNOSTIC",
-                "label_index": "2459",
+                "label_index": "@P2459",
                 "label_korean": "진단 이메일",
                 "group_id": "156998",
                 "req_frame_id": "471347",
@@ -145,7 +145,7 @@
             {
                 "position": 7,
                 "mnemonic": "ID_80_MP_INDICE_MESS",
-                "label_index": "2225",
+                "label_index": "@P2225",
                 "label_korean": "메시지 인덱스",
                 "group_id": "156998",
                 "req_frame_id": "471347",
@@ -167,7 +167,7 @@
             {
                 "position": 8,
                 "mnemonic": "ID_TRACABILITE_DATE_FABRICATION",
-                "label_index": "16589",
+                "label_index": "@P16589",
                 "label_korean": "제조 일자",
                 "group_id": "156999",
                 "req_frame_id": "471350",
@@ -189,7 +189,7 @@
             {
                 "position": 9,
                 "mnemonic": "ID_TRACABILITE_MP_NUM_SERIE_PIECE",
-                "label_index": "7592",
+                "label_index": "@P7592",
                 "label_korean": "부품 일련 번호",
                 "group_id": "156999",
                 "req_frame_id": "471350",
@@ -219,7 +219,7 @@
             {
                 "position": 1,
                 "mnemonic": "MPTYPEBP",
-                "label_index": "15503",
+                "label_index": "@P15503",
                 "label_korean": "스위치 작동",
                 "group_id": "157000",
                 "req_frame_id": "471353",
@@ -235,13 +235,13 @@
                 "bit_mask": 32,
                 "bit_shift": 5,
                 "dynamic_arg": "",
-                "help_code": "42752, 42763, 42809",
-                "help_korean": "차선 이탈 경고 시스템 스위치의 기능을 나타낸다\n- 시스템을 작동한다 : 스위치는 차선 이탈 경고 시스템을 작동하기 위해서 사용한다\n- 시스템을 차단한다 : 스위치는 차선 이탈 경고 시스템을 차단하기 위해서 사용한다"
+                "help_code": "@P42752@\\n@\\+@P42763@\\n@\\+@P42809",
+                "help_korean": "차선 이탈 경고 시스템 스위치의 기능을 나타낸다\n시스템을 작동한다 : 스위치는 차선 이탈 경고 시스템을 작동하기 위해서 사용한다\n시스템을 차단한다 : 스위치는 차선 이탈 경고 시스템을 차단하기 위해서 사용한다"
             },
             {
                 "position": 2,
                 "mnemonic": "MP_ACQUISITION_COMMUTATEUR",
-                "label_index": "16339",
+                "label_index": "@P16339",
                 "label_korean": "스위치로부터 취득",
                 "group_id": "157000",
                 "req_frame_id": "471353",
@@ -257,13 +257,13 @@
                 "bit_mask": 64,
                 "bit_shift": 6,
                 "dynamic_arg": "",
-                "help_code": "42817, 42821, 42773, 42811",
-                "help_korean": "차선 이탈 경고 시스템이 스위치의 상태에 관한 정보를 어떻게 입수하는지를 나타낸다\n- 배선 : 스위치로부터 정보는 차선 이탈 경고 시스템 ECU에 의해서 직접 수신된다\n- CAN : 스위치로부터 정보는 다른 ECU에 의해서 수신된다\n스위치 정보는 그리고 나서 CAN 네트워크에 의해서 차선 이탈 경고 ECU로 전달된다"
+                "help_code": "@P42817@\\n@\\+@P42821@\\n@\\+@P42773@\\n@\\+@P42811",
+                "help_korean": "차선 이탈 경고 시스템이 스위치의 상태에 관한 정보를 어떻게 입수하는지를 나타낸다\n배선 : 스위치로부터 정보는 차선 이탈 경고 시스템 ECU에 의해서 직접 수신된다\nCAN : 스위치로부터 정보는 다른 ECU에 의해서 수신된다\n스위치 정보는 그리고 나서 CAN 네트워크에 의해서 차선 이탈 경고 ECU로 전달된다"
             },
             {
                 "position": 3,
                 "mnemonic": "MP_VITESSE_ACTIVATION",
-                "label_index": "3243",
+                "label_index": "@P3243",
                 "label_korean": "작동 속도",
                 "group_id": "157000",
                 "req_frame_id": "471353",
@@ -279,13 +279,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "10738",
+                "help_code": "@P10738",
                 "help_korean": "기능이 작동할 때의 차량 속도"
             },
             {
                 "position": 4,
                 "mnemonic": "MPHYSTACT",
-                "label_index": "8211",
+                "label_index": "@P8211",
                 "label_korean": "작동 사이클",
                 "group_id": "157000",
                 "req_frame_id": "471353",
@@ -301,13 +301,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "42812, 42778",
-                "help_korean": "작동 속도와 차단 속도간의 차이\n- 예: 80kph의 작동 속도로, 5kph의 작동 사이클로, 시스템은 75kph 이하의 속도에서 차단된다"
+                "help_code": "@P42812@\\n@\\+@P42778@\\*80@\\*5@\\*75",
+                "help_korean": "작동 속도와 차단 속도간의 차이\n예: 80kph의 작동 속도로, 5kph의 작동 사이클로, 시스템은 75kph 이하의 속도에서 차단된다"
             },
             {
                 "position": 5,
                 "mnemonic": "MP_NOMBRE_DE_VIBREURS",
-                "label_index": "16375",
+                "label_index": "@P16375",
                 "label_korean": "진동 장치의 수",
                 "group_id": "157000",
                 "req_frame_id": "471353",
@@ -323,13 +323,13 @@
                 "bit_mask": 128,
                 "bit_shift": 7,
                 "dynamic_arg": "",
-                "help_code": "16544",
+                "help_code": "@P16544",
                 "help_korean": "운전석 시트 아래에 있는 버저의 수"
             },
             {
                 "position": 6,
                 "mnemonic": "MPTMPVIBRG",
-                "label_index": "4798",
+                "label_index": "@P4798",
                 "label_korean": "좌측 버저의 최대 출력에서의 진동",
                 "group_id": "157000",
                 "req_frame_id": "471353",
@@ -345,13 +345,13 @@
                 "bit_mask": 224,
                 "bit_shift": 5,
                 "dynamic_arg": "",
-                "help_code": "42786, 42758",
-                "help_korean": "진동 장치가 최대 출력으로 작동한 총 진동 시간을 나타낸다\n- 진동 장치의 진동 사이클은 : 스탑, 최소 출력, 최대 출력, 최소 출력, 스탑"
+                "help_code": "@P42786@\\n@\\+@P42758",
+                "help_korean": "진동 장치가 최대 출력으로 작동한 총 진동 시간을 나타낸다\n진동 장치의 진동 사이클은 : 스탑, 최소 출력, 최대 출력, 최소 출력, 스탑"
             },
             {
                 "position": 7,
                 "mnemonic": "MPTMPVIBRD",
-                "label_index": "12002",
+                "label_index": "@P12002",
                 "label_korean": "우측 버저의 최대 출력에서의 진동",
                 "group_id": "157000",
                 "req_frame_id": "471353",
@@ -367,13 +367,13 @@
                 "bit_mask": 28,
                 "bit_shift": 2,
                 "dynamic_arg": "",
-                "help_code": "42786, 42758",
-                "help_korean": "진동 장치가 최대 출력으로 작동한 총 진동 시간을 나타낸다\n- 진동 장치의 진동 사이클은 : 스탑, 최소 출력, 최대 출력, 최소 출력, 스탑"
+                "help_code": "@P42786@\\n@\\+@P42758",
+                "help_korean": "진동 장치가 최대 출력으로 작동한 총 진동 시간을 나타낸다\n진동 장치의 진동 사이클은 : 스탑, 최소 출력, 최대 출력, 최소 출력, 스탑"
             },
             {
                 "position": 8,
                 "mnemonic": "MP_PUISSANCE_MINIMUM_VIBREUR_GAUCHE",
-                "label_index": "10495",
+                "label_index": "@P10495",
                 "label_korean": "좌측 버저 최소 출력",
                 "group_id": "157000",
                 "req_frame_id": "471353",
@@ -389,13 +389,13 @@
                 "bit_mask": 192,
                 "bit_shift": 6,
                 "dynamic_arg": "",
-                "help_code": "16445",
+                "help_code": "@P16445",
                 "help_korean": "진동 장치가 작동할 때 최소 진동 출력을 나타낸다"
             },
             {
                 "position": 9,
                 "mnemonic": "MP_PUISSANCE_MINIMUM_VIBREUR_DROIT",
-                "label_index": "5345",
+                "label_index": "@P5345",
                 "label_korean": "우측 버저 최소 출력",
                 "group_id": "157000",
                 "req_frame_id": "471353",
@@ -411,13 +411,13 @@
                 "bit_mask": 48,
                 "bit_shift": 4,
                 "dynamic_arg": "",
-                "help_code": "16445",
+                "help_code": "@P16445",
                 "help_korean": "진동 장치가 작동할 때 최소 진동 출력을 나타낸다"
             },
             {
                 "position": 10,
                 "mnemonic": "MP_PUISSANCE_MAXIMUM_VIBREUR_GAUCHE",
-                "label_index": "2028",
+                "label_index": "@P2028",
                 "label_korean": "좌측 버저의 최대 출력",
                 "group_id": "157000",
                 "req_frame_id": "471353",
@@ -433,13 +433,13 @@
                 "bit_mask": 224,
                 "bit_shift": 5,
                 "dynamic_arg": "",
-                "help_code": "2111",
+                "help_code": "@P2111",
                 "help_korean": "진동 장치가 진동할 때 최대 진동 출력을 나타낸다"
             },
             {
                 "position": 11,
                 "mnemonic": "MP_PUISSANCE_MAXIMUM_VIBREUR_DROIT",
-                "label_index": "3122",
+                "label_index": "@P3122",
                 "label_korean": "우측 버저의 최대 출력",
                 "group_id": "157000",
                 "req_frame_id": "471353",
@@ -455,13 +455,13 @@
                 "bit_mask": 28,
                 "bit_shift": 2,
                 "dynamic_arg": "",
-                "help_code": "2111",
+                "help_code": "@P2111",
                 "help_korean": "진동 장치가 진동할 때 최대 진동 출력을 나타낸다"
             },
             {
                 "position": 12,
                 "mnemonic": "MPFREQVIB",
-                "label_index": "10356",
+                "label_index": "@P10356",
                 "label_korean": "진동 주기",
                 "group_id": "157000",
                 "req_frame_id": "471353",
@@ -477,7 +477,7 @@
                 "bit_mask": 14,
                 "bit_shift": 1,
                 "dynamic_arg": "",
-                "help_code": "14928",
+                "help_code": "@P14928",
                 "help_korean": "초당 진동 수를 명시한다"
             }
         ]
@@ -491,7 +491,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_ORIENTATION_CAPTEUR_NUMERO_01",
-                "label_index": "8648",
+                "label_index": "@P8648@\\*1",
                 "label_korean": "번호1 센서의 방향",
                 "group_id": "157000",
                 "req_frame_id": "471353",
@@ -507,13 +507,13 @@
                 "bit_mask": 128,
                 "bit_shift": 7,
                 "dynamic_arg": "1",
-                "help_code": "42806, 42776, 42801, 42807",
-                "help_korean": "센서가 위치한 방향을 나타낸다\n센서의 방향의 커넥터에 따라 나타낸다\n- 프론트 : 센서 커넥터는 차량의 앞쪽을 향해 위치한다\n- 리어 : 센서 커넥터는 차량의 뒤쪽을 향해 위치한다"
+                "help_code": "@P42806@\\n@\\+@P42776@\\n@\\+@P42801@\\n@\\+@P42807",
+                "help_korean": "센서가 위치한 방향을 나타낸다\n센서의 방향의 커넥터에 따라 나타낸다\n프론트 : 센서 커넥터는 차량의 앞쪽을 향해 위치한다\n리어 : 센서 커넥터는 차량의 뒤쪽을 향해 위치한다"
             },
             {
                 "position": 2,
                 "mnemonic": "MP_ORIENTATION_CAPTEUR_NUMERO_02",
-                "label_index": "8648",
+                "label_index": "@P8648@\\*2",
                 "label_korean": "번호2 센서의 방향",
                 "group_id": "157000",
                 "req_frame_id": "471353",
@@ -529,13 +529,13 @@
                 "bit_mask": 64,
                 "bit_shift": 6,
                 "dynamic_arg": "2",
-                "help_code": "42806, 42776, 42801, 42807",
-                "help_korean": "센서가 위치한 방향을 나타낸다\n센서의 방향의 커넥터에 따라 나타낸다\n- 프론트 : 센서 커넥터는 차량의 앞쪽을 향해 위치한다\n- 리어 : 센서 커넥터는 차량의 뒤쪽을 향해 위치한다"
+                "help_code": "@P42806@\\n@\\+@P42776@\\n@\\+@P42801@\\n@\\+@P42807",
+                "help_korean": "센서가 위치한 방향을 나타낸다\n센서의 방향의 커넥터에 따라 나타낸다\n프론트 : 센서 커넥터는 차량의 앞쪽을 향해 위치한다\n리어 : 센서 커넥터는 차량의 뒤쪽을 향해 위치한다"
             },
             {
                 "position": 3,
                 "mnemonic": "MP_ORIENTATION_CAPTEUR_NUMERO_03",
-                "label_index": "8648",
+                "label_index": "@P8648@\\*3",
                 "label_korean": "번호3 센서의 방향",
                 "group_id": "157000",
                 "req_frame_id": "471353",
@@ -551,13 +551,13 @@
                 "bit_mask": 32,
                 "bit_shift": 5,
                 "dynamic_arg": "3",
-                "help_code": "42806, 42776, 42801, 42807",
-                "help_korean": "센서가 위치한 방향을 나타낸다\n센서의 방향의 커넥터에 따라 나타낸다\n- 프론트 : 센서 커넥터는 차량의 앞쪽을 향해 위치한다\n- 리어 : 센서 커넥터는 차량의 뒤쪽을 향해 위치한다"
+                "help_code": "@P42806@\\n@\\+@P42776@\\n@\\+@P42801@\\n@\\+@P42807",
+                "help_korean": "센서가 위치한 방향을 나타낸다\n센서의 방향의 커넥터에 따라 나타낸다\n프론트 : 센서 커넥터는 차량의 앞쪽을 향해 위치한다\n리어 : 센서 커넥터는 차량의 뒤쪽을 향해 위치한다"
             },
             {
                 "position": 4,
                 "mnemonic": "MP_ORIENTATION_CAPTEUR_NUMERO_04",
-                "label_index": "8648",
+                "label_index": "@P8648@\\*4",
                 "label_korean": "번호4 센서의 방향",
                 "group_id": "157000",
                 "req_frame_id": "471353",
@@ -573,13 +573,13 @@
                 "bit_mask": 16,
                 "bit_shift": 4,
                 "dynamic_arg": "4",
-                "help_code": "42806, 42776, 42801, 42807",
-                "help_korean": "센서가 위치한 방향을 나타낸다\n센서의 방향의 커넥터에 따라 나타낸다\n- 프론트 : 센서 커넥터는 차량의 앞쪽을 향해 위치한다\n- 리어 : 센서 커넥터는 차량의 뒤쪽을 향해 위치한다"
+                "help_code": "@P42806@\\n@\\+@P42776@\\n@\\+@P42801@\\n@\\+@P42807",
+                "help_korean": "센서가 위치한 방향을 나타낸다\n센서의 방향의 커넥터에 따라 나타낸다\n프론트 : 센서 커넥터는 차량의 앞쪽을 향해 위치한다\n리어 : 센서 커넥터는 차량의 뒤쪽을 향해 위치한다"
             },
             {
                 "position": 5,
                 "mnemonic": "MP_ORIENTATION_CAPTEUR_NUMERO_05",
-                "label_index": "8648",
+                "label_index": "@P8648@\\*5",
                 "label_korean": "번호5 센서의 방향",
                 "group_id": "157000",
                 "req_frame_id": "471353",
@@ -595,13 +595,13 @@
                 "bit_mask": 8,
                 "bit_shift": 3,
                 "dynamic_arg": "5",
-                "help_code": "42806, 42776, 42801, 42807",
-                "help_korean": "센서가 위치한 방향을 나타낸다\n센서의 방향의 커넥터에 따라 나타낸다\n- 프론트 : 센서 커넥터는 차량의 앞쪽을 향해 위치한다\n- 리어 : 센서 커넥터는 차량의 뒤쪽을 향해 위치한다"
+                "help_code": "@P42806@\\n@\\+@P42776@\\n@\\+@P42801@\\n@\\+@P42807",
+                "help_korean": "센서가 위치한 방향을 나타낸다\n센서의 방향의 커넥터에 따라 나타낸다\n프론트 : 센서 커넥터는 차량의 앞쪽을 향해 위치한다\n리어 : 센서 커넥터는 차량의 뒤쪽을 향해 위치한다"
             },
             {
                 "position": 6,
                 "mnemonic": "MP_ORIENTATION_CAPTEUR_NUMERO_06",
-                "label_index": "8648",
+                "label_index": "@P8648@\\*6",
                 "label_korean": "번호6 센서의 방향",
                 "group_id": "157000",
                 "req_frame_id": "471353",
@@ -617,8 +617,8 @@
                 "bit_mask": 4,
                 "bit_shift": 2,
                 "dynamic_arg": "6",
-                "help_code": "42806, 42776, 42801, 42807",
-                "help_korean": "센서가 위치한 방향을 나타낸다\n센서의 방향의 커넥터에 따라 나타낸다\n- 프론트 : 센서 커넥터는 차량의 앞쪽을 향해 위치한다\n- 리어 : 센서 커넥터는 차량의 뒤쪽을 향해 위치한다"
+                "help_code": "@P42806@\\n@\\+@P42776@\\n@\\+@P42801@\\n@\\+@P42807",
+                "help_korean": "센서가 위치한 방향을 나타낸다\n센서의 방향의 커넥터에 따라 나타낸다\n프론트 : 센서 커넥터는 차량의 앞쪽을 향해 위치한다\n리어 : 센서 커넥터는 차량의 뒤쪽을 향해 위치한다"
             }
         ]
     },
@@ -631,7 +631,7 @@
             {
                 "position": 1,
                 "mnemonic": "MPTYPEBP",
-                "label_index": "15503",
+                "label_index": "@P15503",
                 "label_korean": "스위치 작동",
                 "group_id": "157000",
                 "req_frame_id": "471353",
@@ -647,13 +647,13 @@
                 "bit_mask": 32,
                 "bit_shift": 5,
                 "dynamic_arg": "",
-                "help_code": "42752, 42763, 42809",
-                "help_korean": "차선 이탈 경고 시스템 스위치의 기능을 나타낸다\n- 시스템을 작동한다 : 스위치는 차선 이탈 경고 시스템을 작동하기 위해서 사용한다\n- 시스템을 차단한다 : 스위치는 차선 이탈 경고 시스템을 차단하기 위해서 사용한다"
+                "help_code": "@P42752@\\n@\\+@P42763@\\n@\\+@P42809",
+                "help_korean": "차선 이탈 경고 시스템 스위치의 기능을 나타낸다\n시스템을 작동한다 : 스위치는 차선 이탈 경고 시스템을 작동하기 위해서 사용한다\n시스템을 차단한다 : 스위치는 차선 이탈 경고 시스템을 차단하기 위해서 사용한다"
             },
             {
                 "position": 2,
                 "mnemonic": "MP_ACQUISITION_COMMUTATEUR",
-                "label_index": "16339",
+                "label_index": "@P16339",
                 "label_korean": "스위치로부터 취득",
                 "group_id": "157000",
                 "req_frame_id": "471353",
@@ -669,13 +669,13 @@
                 "bit_mask": 64,
                 "bit_shift": 6,
                 "dynamic_arg": "",
-                "help_code": "42817, 42821, 42773, 42811",
-                "help_korean": "차선 이탈 경고 시스템이 스위치의 상태에 관한 정보를 어떻게 입수하는지를 나타낸다\n- 배선 : 스위치로부터 정보는 차선 이탈 경고 시스템 ECU에 의해서 직접 수신된다\n- CAN : 스위치로부터 정보는 다른 ECU에 의해서 수신된다\n스위치 정보는 그리고 나서 CAN 네트워크에 의해서 차선 이탈 경고 ECU로 전달된다"
+                "help_code": "@P42817@\\n@\\+@P42821@\\n@\\+@P42773@\\n@\\+@P42811",
+                "help_korean": "차선 이탈 경고 시스템이 스위치의 상태에 관한 정보를 어떻게 입수하는지를 나타낸다\n배선 : 스위치로부터 정보는 차선 이탈 경고 시스템 ECU에 의해서 직접 수신된다\nCAN : 스위치로부터 정보는 다른 ECU에 의해서 수신된다\n스위치 정보는 그리고 나서 CAN 네트워크에 의해서 차선 이탈 경고 ECU로 전달된다"
             },
             {
                 "position": 3,
                 "mnemonic": "MP_VITESSE_ACTIVATION",
-                "label_index": "3243",
+                "label_index": "@P3243",
                 "label_korean": "작동 속도",
                 "group_id": "157000",
                 "req_frame_id": "471353",
@@ -691,13 +691,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "10738",
+                "help_code": "@P10738",
                 "help_korean": "기능이 작동할 때의 차량 속도"
             },
             {
                 "position": 4,
                 "mnemonic": "MPHYSTACT",
-                "label_index": "8211",
+                "label_index": "@P8211",
                 "label_korean": "작동 사이클",
                 "group_id": "157000",
                 "req_frame_id": "471353",
@@ -713,13 +713,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "42812, 42778",
-                "help_korean": "작동 속도와 차단 속도간의 차이\n- 예: 80kph의 작동 속도로, 5kph의 작동 사이클로, 시스템은 75kph 이하의 속도에서 차단된다"
+                "help_code": "@P42812@\\n@\\+@P42778@\\*80@\\*5@\\*75",
+                "help_korean": "작동 속도와 차단 속도간의 차이\n예: 80kph의 작동 속도로, 5kph의 작동 사이클로, 시스템은 75kph 이하의 속도에서 차단된다"
             },
             {
                 "position": 5,
                 "mnemonic": "MP_NOMBRE_DE_VIBREURS",
-                "label_index": "16375",
+                "label_index": "@P16375",
                 "label_korean": "진동 장치의 수",
                 "group_id": "157000",
                 "req_frame_id": "471353",
@@ -735,13 +735,13 @@
                 "bit_mask": 128,
                 "bit_shift": 7,
                 "dynamic_arg": "",
-                "help_code": "16544",
+                "help_code": "@P16544",
                 "help_korean": "운전석 시트 아래에 있는 버저의 수"
             },
             {
                 "position": 6,
                 "mnemonic": "MPTMPVIBRG",
-                "label_index": "4798",
+                "label_index": "@P4798",
                 "label_korean": "좌측 버저의 최대 출력에서의 진동",
                 "group_id": "157000",
                 "req_frame_id": "471353",
@@ -757,13 +757,13 @@
                 "bit_mask": 224,
                 "bit_shift": 5,
                 "dynamic_arg": "",
-                "help_code": "42786, 42758",
-                "help_korean": "진동 장치가 최대 출력으로 작동한 총 진동 시간을 나타낸다\n- 진동 장치의 진동 사이클은 : 스탑, 최소 출력, 최대 출력, 최소 출력, 스탑"
+                "help_code": "@P42786@\\n@\\+@P42758",
+                "help_korean": "진동 장치가 최대 출력으로 작동한 총 진동 시간을 나타낸다\n진동 장치의 진동 사이클은 : 스탑, 최소 출력, 최대 출력, 최소 출력, 스탑"
             },
             {
                 "position": 7,
                 "mnemonic": "MPTMPVIBRD",
-                "label_index": "12002",
+                "label_index": "@P12002",
                 "label_korean": "우측 버저의 최대 출력에서의 진동",
                 "group_id": "157000",
                 "req_frame_id": "471353",
@@ -779,13 +779,13 @@
                 "bit_mask": 28,
                 "bit_shift": 2,
                 "dynamic_arg": "",
-                "help_code": "42786, 42758",
-                "help_korean": "진동 장치가 최대 출력으로 작동한 총 진동 시간을 나타낸다\n- 진동 장치의 진동 사이클은 : 스탑, 최소 출력, 최대 출력, 최소 출력, 스탑"
+                "help_code": "@P42786@\\n@\\+@P42758",
+                "help_korean": "진동 장치가 최대 출력으로 작동한 총 진동 시간을 나타낸다\n진동 장치의 진동 사이클은 : 스탑, 최소 출력, 최대 출력, 최소 출력, 스탑"
             },
             {
                 "position": 8,
                 "mnemonic": "MP_PUISSANCE_MINIMUM_VIBREUR_GAUCHE",
-                "label_index": "10495",
+                "label_index": "@P10495",
                 "label_korean": "좌측 버저 최소 출력",
                 "group_id": "157000",
                 "req_frame_id": "471353",
@@ -801,13 +801,13 @@
                 "bit_mask": 192,
                 "bit_shift": 6,
                 "dynamic_arg": "",
-                "help_code": "16445",
+                "help_code": "@P16445",
                 "help_korean": "진동 장치가 작동할 때 최소 진동 출력을 나타낸다"
             },
             {
                 "position": 9,
                 "mnemonic": "MP_PUISSANCE_MINIMUM_VIBREUR_DROIT",
-                "label_index": "5345",
+                "label_index": "@P5345",
                 "label_korean": "우측 버저 최소 출력",
                 "group_id": "157000",
                 "req_frame_id": "471353",
@@ -823,13 +823,13 @@
                 "bit_mask": 48,
                 "bit_shift": 4,
                 "dynamic_arg": "",
-                "help_code": "16445",
+                "help_code": "@P16445",
                 "help_korean": "진동 장치가 작동할 때 최소 진동 출력을 나타낸다"
             },
             {
                 "position": 10,
                 "mnemonic": "MP_PUISSANCE_MAXIMUM_VIBREUR_GAUCHE",
-                "label_index": "2028",
+                "label_index": "@P2028",
                 "label_korean": "좌측 버저의 최대 출력",
                 "group_id": "157000",
                 "req_frame_id": "471353",
@@ -845,13 +845,13 @@
                 "bit_mask": 224,
                 "bit_shift": 5,
                 "dynamic_arg": "",
-                "help_code": "2111",
+                "help_code": "@P2111",
                 "help_korean": "진동 장치가 진동할 때 최대 진동 출력을 나타낸다"
             },
             {
                 "position": 11,
                 "mnemonic": "MP_PUISSANCE_MAXIMUM_VIBREUR_DROIT",
-                "label_index": "3122",
+                "label_index": "@P3122",
                 "label_korean": "우측 버저의 최대 출력",
                 "group_id": "157000",
                 "req_frame_id": "471353",
@@ -867,13 +867,13 @@
                 "bit_mask": 28,
                 "bit_shift": 2,
                 "dynamic_arg": "",
-                "help_code": "2111",
+                "help_code": "@P2111",
                 "help_korean": "진동 장치가 진동할 때 최대 진동 출력을 나타낸다"
             },
             {
                 "position": 12,
                 "mnemonic": "MPFREQVIB",
-                "label_index": "10356",
+                "label_index": "@P10356",
                 "label_korean": "진동 주기",
                 "group_id": "157000",
                 "req_frame_id": "471353",
@@ -889,13 +889,13 @@
                 "bit_mask": 14,
                 "bit_shift": 1,
                 "dynamic_arg": "",
-                "help_code": "14928",
+                "help_code": "@P14928",
                 "help_korean": "초당 진동 수를 명시한다"
             },
             {
                 "position": 13,
                 "mnemonic": "MP_ORIENTATION_CAPTEUR_NUMERO_01",
-                "label_index": "8648",
+                "label_index": "@P8648@\\*1",
                 "label_korean": "번호1 센서의 방향",
                 "group_id": "157000",
                 "req_frame_id": "471353",
@@ -911,13 +911,13 @@
                 "bit_mask": 128,
                 "bit_shift": 7,
                 "dynamic_arg": "1",
-                "help_code": "42806, 42776, 42801, 42807",
-                "help_korean": "센서가 위치한 방향을 나타낸다\n센서의 방향의 커넥터에 따라 나타낸다\n- 프론트 : 센서 커넥터는 차량의 앞쪽을 향해 위치한다\n- 리어 : 센서 커넥터는 차량의 뒤쪽을 향해 위치한다"
+                "help_code": "@P42806@\\n@\\+@P42776@\\n@\\+@P42801@\\n@\\+@P42807",
+                "help_korean": "센서가 위치한 방향을 나타낸다\n센서의 방향의 커넥터에 따라 나타낸다\n프론트 : 센서 커넥터는 차량의 앞쪽을 향해 위치한다\n리어 : 센서 커넥터는 차량의 뒤쪽을 향해 위치한다"
             },
             {
                 "position": 14,
                 "mnemonic": "MP_ORIENTATION_CAPTEUR_NUMERO_02",
-                "label_index": "8648",
+                "label_index": "@P8648@\\*2",
                 "label_korean": "번호2 센서의 방향",
                 "group_id": "157000",
                 "req_frame_id": "471353",
@@ -933,13 +933,13 @@
                 "bit_mask": 64,
                 "bit_shift": 6,
                 "dynamic_arg": "2",
-                "help_code": "42806, 42776, 42801, 42807",
-                "help_korean": "센서가 위치한 방향을 나타낸다\n센서의 방향의 커넥터에 따라 나타낸다\n- 프론트 : 센서 커넥터는 차량의 앞쪽을 향해 위치한다\n- 리어 : 센서 커넥터는 차량의 뒤쪽을 향해 위치한다"
+                "help_code": "@P42806@\\n@\\+@P42776@\\n@\\+@P42801@\\n@\\+@P42807",
+                "help_korean": "센서가 위치한 방향을 나타낸다\n센서의 방향의 커넥터에 따라 나타낸다\n프론트 : 센서 커넥터는 차량의 앞쪽을 향해 위치한다\n리어 : 센서 커넥터는 차량의 뒤쪽을 향해 위치한다"
             },
             {
                 "position": 15,
                 "mnemonic": "MP_ORIENTATION_CAPTEUR_NUMERO_03",
-                "label_index": "8648",
+                "label_index": "@P8648@\\*3",
                 "label_korean": "번호3 센서의 방향",
                 "group_id": "157000",
                 "req_frame_id": "471353",
@@ -955,13 +955,13 @@
                 "bit_mask": 32,
                 "bit_shift": 5,
                 "dynamic_arg": "3",
-                "help_code": "42806, 42776, 42801, 42807",
-                "help_korean": "센서가 위치한 방향을 나타낸다\n센서의 방향의 커넥터에 따라 나타낸다\n- 프론트 : 센서 커넥터는 차량의 앞쪽을 향해 위치한다\n- 리어 : 센서 커넥터는 차량의 뒤쪽을 향해 위치한다"
+                "help_code": "@P42806@\\n@\\+@P42776@\\n@\\+@P42801@\\n@\\+@P42807",
+                "help_korean": "센서가 위치한 방향을 나타낸다\n센서의 방향의 커넥터에 따라 나타낸다\n프론트 : 센서 커넥터는 차량의 앞쪽을 향해 위치한다\n리어 : 센서 커넥터는 차량의 뒤쪽을 향해 위치한다"
             },
             {
                 "position": 16,
                 "mnemonic": "MP_ORIENTATION_CAPTEUR_NUMERO_04",
-                "label_index": "8648",
+                "label_index": "@P8648@\\*4",
                 "label_korean": "번호4 센서의 방향",
                 "group_id": "157000",
                 "req_frame_id": "471353",
@@ -977,13 +977,13 @@
                 "bit_mask": 16,
                 "bit_shift": 4,
                 "dynamic_arg": "4",
-                "help_code": "42806, 42776, 42801, 42807",
-                "help_korean": "센서가 위치한 방향을 나타낸다\n센서의 방향의 커넥터에 따라 나타낸다\n- 프론트 : 센서 커넥터는 차량의 앞쪽을 향해 위치한다\n- 리어 : 센서 커넥터는 차량의 뒤쪽을 향해 위치한다"
+                "help_code": "@P42806@\\n@\\+@P42776@\\n@\\+@P42801@\\n@\\+@P42807",
+                "help_korean": "센서가 위치한 방향을 나타낸다\n센서의 방향의 커넥터에 따라 나타낸다\n프론트 : 센서 커넥터는 차량의 앞쪽을 향해 위치한다\n리어 : 센서 커넥터는 차량의 뒤쪽을 향해 위치한다"
             },
             {
                 "position": 17,
                 "mnemonic": "MP_ORIENTATION_CAPTEUR_NUMERO_05",
-                "label_index": "8648",
+                "label_index": "@P8648@\\*5",
                 "label_korean": "번호5 센서의 방향",
                 "group_id": "157000",
                 "req_frame_id": "471353",
@@ -999,13 +999,13 @@
                 "bit_mask": 8,
                 "bit_shift": 3,
                 "dynamic_arg": "5",
-                "help_code": "42806, 42776, 42801, 42807",
-                "help_korean": "센서가 위치한 방향을 나타낸다\n센서의 방향의 커넥터에 따라 나타낸다\n- 프론트 : 센서 커넥터는 차량의 앞쪽을 향해 위치한다\n- 리어 : 센서 커넥터는 차량의 뒤쪽을 향해 위치한다"
+                "help_code": "@P42806@\\n@\\+@P42776@\\n@\\+@P42801@\\n@\\+@P42807",
+                "help_korean": "센서가 위치한 방향을 나타낸다\n센서의 방향의 커넥터에 따라 나타낸다\n프론트 : 센서 커넥터는 차량의 앞쪽을 향해 위치한다\n리어 : 센서 커넥터는 차량의 뒤쪽을 향해 위치한다"
             },
             {
                 "position": 18,
                 "mnemonic": "MP_ORIENTATION_CAPTEUR_NUMERO_06",
-                "label_index": "8648",
+                "label_index": "@P8648@\\*6",
                 "label_korean": "번호6 센서의 방향",
                 "group_id": "157000",
                 "req_frame_id": "471353",
@@ -1021,8 +1021,8 @@
                 "bit_mask": 4,
                 "bit_shift": 2,
                 "dynamic_arg": "6",
-                "help_code": "42806, 42776, 42801, 42807",
-                "help_korean": "센서가 위치한 방향을 나타낸다\n센서의 방향의 커넥터에 따라 나타낸다\n- 프론트 : 센서 커넥터는 차량의 앞쪽을 향해 위치한다\n- 리어 : 센서 커넥터는 차량의 뒤쪽을 향해 위치한다"
+                "help_code": "@P42806@\\n@\\+@P42776@\\n@\\+@P42801@\\n@\\+@P42807",
+                "help_korean": "센서가 위치한 방향을 나타낸다\n센서의 방향의 커넥터에 따라 나타낸다\n프론트 : 센서 커넥터는 차량의 앞쪽을 향해 위치한다\n리어 : 센서 커넥터는 차량의 뒤쪽을 향해 위치한다"
             }
         ]
     }

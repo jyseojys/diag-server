@@ -8,7 +8,7 @@
             {
                 "position": 1,
                 "mnemonic": "ID_ORIGINE_CALCULO",
-                "label_index": "3601",
+                "label_index": "@P3601",
                 "label_korean": "원래 ECU",
                 "group_id": "71689",
                 "req_frame_id": "215350",
@@ -32,7 +32,7 @@
             {
                 "position": 2,
                 "mnemonic": "ID_NOM_DU_FOURNISSEUR",
-                "label_index": "5701",
+                "label_index": "@P5701",
                 "label_korean": "제조 업체명",
                 "group_id": "71689",
                 "req_frame_id": "215350",
@@ -62,7 +62,7 @@
             {
                 "position": 3,
                 "mnemonic": "ID_REFERENCE_MATERIEL",
-                "label_index": "1071",
+                "label_index": "@P1071",
                 "label_korean": "장치 부품 번호",
                 "group_id": "71689",
                 "req_frame_id": "215350",
@@ -84,7 +84,7 @@
             {
                 "position": 4,
                 "mnemonic": "ID_VERSION_MATERIEL",
-                "label_index": "12954",
+                "label_index": "@P12954",
                 "label_korean": "하드웨어 버전",
                 "group_id": "71689",
                 "req_frame_id": "215350",
@@ -106,7 +106,7 @@
             {
                 "position": 5,
                 "mnemonic": "ID_REFERENCE_LOGICIEL",
-                "label_index": "13263",
+                "label_index": "@P13263",
                 "label_korean": "소프트웨어 번호",
                 "group_id": "71692",
                 "req_frame_id": "215359",
@@ -128,7 +128,7 @@
             {
                 "position": 6,
                 "mnemonic": "ID_VERSION_DU_LOGICIEL",
-                "label_index": "8662",
+                "label_index": "@P8662@\\*",
                 "label_korean": "소프트웨어 버전",
                 "group_id": "71689",
                 "req_frame_id": "215350",
@@ -150,7 +150,7 @@
             {
                 "position": 7,
                 "mnemonic": "ID_VERSION_DIAGNOSTIC_new_1",
-                "label_index": "14029",
+                "label_index": "@P14029",
                 "label_korean": "진단 버전",
                 "group_id": "71689",
                 "req_frame_id": "215350",
@@ -172,7 +172,7 @@
             {
                 "position": 8,
                 "mnemonic": "ID_VIN_ORIGINE",
-                "label_index": "7959",
+                "label_index": "@P7959",
                 "label_korean": "차량 일련 번호 (원래 차대번호)",
                 "group_id": "71690",
                 "req_frame_id": "215353",
@@ -194,7 +194,7 @@
             {
                 "position": 9,
                 "mnemonic": "ID_VIN_ACTUEL",
-                "label_index": "15431",
+                "label_index": "@P15431",
                 "label_korean": "차량 일련 번호 (현재 차대번호)",
                 "group_id": "71691",
                 "req_frame_id": "215356",
@@ -224,7 +224,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_ETAT_CALC_SUP",
-                "label_index": "7701",
+                "label_index": "@P7701",
                 "label_korean": "ECU 상태",
                 "group_id": "71682",
                 "req_frame_id": "215329",
@@ -249,13 +249,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "24426, 22853",
-                "help_korean": "기준\n- 값 : 일반 모드."
+                "help_code": "@P24426@T : @F22853@T.",
+                "help_korean": "기준 값 : 일반 모드."
             },
             {
                 "position": 2,
                 "mnemonic": "ETATLEVIERDEVITESSES",
-                "label_index": "12582",
+                "label_index": "@P12582",
                 "label_korean": "기어 레버 상태",
                 "group_id": "71684",
                 "req_frame_id": "215335",
@@ -271,13 +271,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "24426, 13003",
-                "help_korean": "기준\n- 값 : 잠금해제."
+                "help_code": "@P24426@T : @F13003@T.",
+                "help_korean": "기준 값 : 잠금해제."
             },
             {
                 "position": 3,
                 "mnemonic": "MP_POSITION_LEVIER_VITESSE",
-                "label_index": "6996",
+                "label_index": "@P6996@\\*",
                 "label_korean": "기어 레버의 위치",
                 "group_id": "71683",
                 "req_frame_id": "215332",
@@ -337,7 +337,7 @@
             {
                 "position": 4,
                 "mnemonic": "MP_TENSION_ALIMENTATION_CALCULATEUR_C0",
-                "label_index": "14064",
+                "label_index": "@P14064",
                 "label_korean": "제어 장치 공급 전압",
                 "group_id": "71685",
                 "req_frame_id": "215338",
@@ -353,13 +353,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "24574, 24426",
-                "help_korean": "변속기 레버 ECU에 의해 측정된 공급 전압.\n- 기준 값 : 버튼을 사용해서 트렁크 열림 요청 � 14,7 V."
+                "help_code": "@P24574@T.@\\n@P24426@T : @T12 � 14,7 V.",
+                "help_korean": "변속기 레버 ECU에 의해 측정된 공급 전압.\n기준 값 : 12 � 14,7 V."
             },
             {
                 "position": 5,
                 "mnemonic": "MP_TENSIONALIMON",
-                "label_index": "7348",
+                "label_index": "@P7348@\\*ON",
                 "label_korean": "공급 전압ON",
                 "group_id": "71687",
                 "req_frame_id": "215344",
@@ -381,7 +381,7 @@
             {
                 "position": 6,
                 "mnemonic": "MP_TENSIONALIMOFF",
-                "label_index": "7348",
+                "label_index": "@P7348@\\*OFF",
                 "label_korean": "공급 전압OFF",
                 "group_id": "71687",
                 "req_frame_id": "215344",
@@ -403,7 +403,7 @@
             {
                 "position": 7,
                 "mnemonic": "MP_TENSIONRETROECLAIRAGE",
-                "label_index": "269",
+                "label_index": "@P269",
                 "label_korean": "백라이트 전압",
                 "group_id": "71686",
                 "req_frame_id": "215341",
@@ -419,13 +419,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "36877, 16796, 24590, 26454, 24590",
-                "help_korean": "기준\n- 값 : 위치R에서 레버 = R에서 20, 다른 위치 = R에서 20."
+                "help_code": "@P36877@T : @P16796@\\*R = @P24590@\\*20@\\*120, @P26454@T = @P24590@\\*0@\\*10.",
+                "help_korean": "기준 값 : 위치R에서 레버 = R에서 20, 다른 위치 = R에서 20."
             },
             {
                 "position": 8,
                 "mnemonic": "MP_TENSIONBLOCAGELEVIER",
-                "label_index": "270",
+                "label_index": "@P270",
                 "label_korean": "레버 고정 전압 (시프트 록)",
                 "group_id": "71686",
                 "req_frame_id": "215341",
@@ -441,8 +441,8 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "11462, 36877, 36878",
-                "help_korean": "브레이크 페달을 밟는다.\n- 기준 값 : 위치P에서1023, 다른 위치0에서 100 기어 레버 = 500."
+                "help_code": "@F11462@T.@\\n@P36877@T : @P36878@\\*P = 500@\\*1023@\\*0@\\*100@T.",
+                "help_korean": "브레이크 페달을 밟는다.\n기준 값 : 위치P에서1023, 다른 위치0에서 100 기어 레버 = 500."
             }
         ]
     },
@@ -455,7 +455,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_TENSIONALIMAFFICHEURLEVIERON",
-                "label_index": "271",
+                "label_index": "@P271",
                 "label_korean": "레버 ON 디스플레이 공급 전압",
                 "group_id": "71687",
                 "req_frame_id": "215344",
@@ -477,7 +477,7 @@
             {
                 "position": 2,
                 "mnemonic": "MP_TENSIONALIMAFFICHEURLEVIEROFF",
-                "label_index": "272",
+                "label_index": "@P272",
                 "label_korean": "레버 OFF 디스플레이의 공급 전압",
                 "group_id": "71687",
                 "req_frame_id": "215344",
@@ -499,7 +499,7 @@
             {
                 "position": 3,
                 "mnemonic": "INDICATEURPOSITIONLEVIERDEVITESSESP",
-                "label_index": "11132",
+                "label_index": "@P11132@\\*P",
                 "label_korean": "위치P에서 기어 레버 표시계",
                 "group_id": "71687",
                 "req_frame_id": "215344",
@@ -515,13 +515,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "P",
-                "help_code": "24426, 16796, 24590, 26454, 24590",
-                "help_korean": "기준\n- 값 : 위치P에서 레버 = P에서 10, 다른 위치 = P에서 10."
+                "help_code": "@P24426@T : @P16796@\\*P = @P24590@\\*10@\\*370@T, @P26454@T = @P24590@\\*0@\\*10@T.",
+                "help_korean": "기준 값 : 위치P에서 레버 = P에서 10, 다른 위치 = P에서 10."
             },
             {
                 "position": 4,
                 "mnemonic": "INDICATEURPOSITIONLEVIERDEVITESSESR",
-                "label_index": "11132",
+                "label_index": "@P11132@\\*R",
                 "label_korean": "위치R에서 기어 레버 표시계",
                 "group_id": "71687",
                 "req_frame_id": "215344",
@@ -537,13 +537,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "R",
-                "help_code": "24426, 16796, 24590, 26454, 24590",
-                "help_korean": "기준\n- 값 : 위치P에서 레버 = P에서 10, 다른 위치 = P에서 10."
+                "help_code": "@P24426@T : @P16796@\\*P = @P24590@\\*10@\\*370@T, @P26454@T = @P24590@\\*0@\\*10@T.",
+                "help_korean": "기준 값 : 위치P에서 레버 = P에서 10, 다른 위치 = P에서 10."
             },
             {
                 "position": 5,
                 "mnemonic": "INDICATEURPOSITIONLEVIERDEVITESSESN",
-                "label_index": "11132",
+                "label_index": "@P11132@\\*N",
                 "label_korean": "위치N에서 기어 레버 표시계",
                 "group_id": "71687",
                 "req_frame_id": "215344",
@@ -559,13 +559,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "N",
-                "help_code": "24426, 16796, 24590, 26454, 24590",
-                "help_korean": "기준\n- 값 : 위치P에서 레버 = P에서 10, 다른 위치 = P에서 10."
+                "help_code": "@P24426@T : @P16796@\\*P = @P24590@\\*10@\\*370@T, @P26454@T = @P24590@\\*0@\\*10@T.",
+                "help_korean": "기준 값 : 위치P에서 레버 = P에서 10, 다른 위치 = P에서 10."
             },
             {
                 "position": 6,
                 "mnemonic": "INDICATEURPOSITIONLEVIERDEVITESSESD",
-                "label_index": "11132",
+                "label_index": "@P11132@\\*D",
                 "label_korean": "위치D에서 기어 레버 표시계",
                 "group_id": "71687",
                 "req_frame_id": "215344",
@@ -581,13 +581,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "D",
-                "help_code": "24426, 16796, 24590, 26454, 24590",
-                "help_korean": "기준\n- 값 : 위치P에서 레버 = P에서 10, 다른 위치 = P에서 10."
+                "help_code": "@P24426@T : @P16796@\\*P = @P24590@\\*10@\\*370@T, @P26454@T = @P24590@\\*0@\\*10@T.",
+                "help_korean": "기준 값 : 위치P에서 레버 = P에서 10, 다른 위치 = P에서 10."
             },
             {
                 "position": 7,
                 "mnemonic": "INDICATEURPOSITIONLEVIERDEVITESSESM",
-                "label_index": "11132",
+                "label_index": "@P11132@\\*M",
                 "label_korean": "위치M에서 기어 레버 표시계",
                 "group_id": "71687",
                 "req_frame_id": "215344",
@@ -603,13 +603,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "M",
-                "help_code": "24426, 16796, 24590, 26454, 24590",
-                "help_korean": "기준\n- 값 : 위치P에서 레버 = P에서 10, 다른 위치 = P에서 10."
+                "help_code": "@P24426@T : @P16796@\\*P = @P24590@\\*10@\\*370@T, @P26454@T = @P24590@\\*0@\\*10@T.",
+                "help_korean": "기준 값 : 위치P에서 레버 = P에서 10, 다른 위치 = P에서 10."
             },
             {
                 "position": 8,
                 "mnemonic": "LUMINAUSITEINDICATEURLEVIERPOSITIONJOUR",
-                "label_index": "14771",
+                "label_index": "@P14771",
                 "label_korean": "주간 위치에서 기어 레버 표시계의 밝기",
                 "group_id": "71688",
                 "req_frame_id": "215347",
@@ -625,13 +625,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "24426",
-                "help_korean": "기준\n- 값 : 에어 블로어 반복 전압 결함"
+                "help_code": "@P24426@T : @T100",
+                "help_korean": "기준 값 : 100"
             },
             {
                 "position": 9,
                 "mnemonic": "LUMINAUSITEINDICATEURLEVIERPOSITIONNUIT",
-                "label_index": "13785",
+                "label_index": "@P13785",
                 "label_korean": "야간 위치에서 기어 레버 표시계의 밝기",
                 "group_id": "71688",
                 "req_frame_id": "215347",
@@ -647,8 +647,8 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "24426",
-                "help_korean": "기준\n- 값 : 우측 및 트레일러 방향지시등제어"
+                "help_code": "@P24426@T : @T20",
+                "help_korean": "기준 값 : 20"
             }
         ]
     },
@@ -661,7 +661,7 @@
             {
                 "position": 1,
                 "mnemonic": "CA_KILOMETRAGE",
-                "label_index": "7845",
+                "label_index": "@P7845",
                 "label_korean": "주행거리",
                 "group_id": "71709",
                 "req_frame_id": "215410",
@@ -685,7 +685,7 @@
             {
                 "position": 2,
                 "mnemonic": "CA_DUREE_FONCTIONNEMENT",
-                "label_index": "9024",
+                "label_index": "@P9024",
                 "label_korean": "작동 시간",
                 "group_id": "71709",
                 "req_frame_id": "215410",
@@ -707,7 +707,7 @@
             {
                 "position": 3,
                 "mnemonic": "CA_NBR_CYCLES_FONCTIONNEMENT",
-                "label_index": "4028",
+                "label_index": "@P4028",
                 "label_korean": "작동 사이클 수",
                 "group_id": "71709",
                 "req_frame_id": "215410",
@@ -729,7 +729,7 @@
             {
                 "position": 4,
                 "mnemonic": "CA_POSITION_LEVIER_DE_VITESSES",
-                "label_index": "6996",
+                "label_index": "@P6996@\\*",
                 "label_korean": "기어 레버의 위치",
                 "group_id": "71709",
                 "req_frame_id": "215410",
@@ -751,7 +751,7 @@
             {
                 "position": 5,
                 "mnemonic": "CA_TENSION_ALIMENTATION_CALCULATEUR",
-                "label_index": "14064",
+                "label_index": "@P14064",
                 "label_korean": "제어 장치 공급 전압",
                 "group_id": "71709",
                 "req_frame_id": "215410",

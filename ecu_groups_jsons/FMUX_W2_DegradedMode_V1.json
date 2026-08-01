@@ -8,7 +8,7 @@
             {
                 "position": 1,
                 "mnemonic": "ID_NOM_DU_FOURNISSEUR",
-                "label_index": "5701",
+                "label_index": "@P5701",
                 "label_korean": "제조 업체명",
                 "group_id": "34256",
                 "req_frame_id": "103065",
@@ -38,7 +38,7 @@
             {
                 "position": 2,
                 "mnemonic": "ID_REFERENCE_MATERIEL",
-                "label_index": "1071",
+                "label_index": "@P1071",
                 "label_korean": "장치 부품 번호",
                 "group_id": "34256",
                 "req_frame_id": "103065",
@@ -60,7 +60,7 @@
             {
                 "position": 3,
                 "mnemonic": "ID_REFERENCE_COMPLEMENTAIRE_MATERIEL",
-                "label_index": "1634",
+                "label_index": "@P1634",
                 "label_korean": "장치 추가 참조 번호",
                 "group_id": "34256",
                 "req_frame_id": "103065",
@@ -82,7 +82,7 @@
             {
                 "position": 4,
                 "mnemonic": "ID_TRACABILITE_INDICE_EVOLUTION_EDITION",
-                "label_index": "24601",
+                "label_index": "@P24601",
                 "label_korean": "소프트웨어 버전",
                 "group_id": "34256",
                 "req_frame_id": "103065",
@@ -104,7 +104,7 @@
             {
                 "position": 5,
                 "mnemonic": "ID_TRACABILITE_DATE_FABRICATION",
-                "label_index": "14355",
+                "label_index": "@P14355",
                 "label_korean": "제조일자",
                 "group_id": "34258",
                 "req_frame_id": "103071",
@@ -126,7 +126,7 @@
             {
                 "position": 6,
                 "mnemonic": "ID_TRACABILITE_NUMERO_DE_SERIE_PIECE",
-                "label_index": "7592",
+                "label_index": "@F7592",
                 "label_korean": "부품 일련 번호",
                 "group_id": "34259",
                 "req_frame_id": "103074",
@@ -156,7 +156,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_DEMANDE_DE_REGULATION_AUTOMATIQUE",
-                "label_index": "6843",
+                "label_index": "@P6843",
                 "label_korean": "자동 제어 요청 (AUTO)",
                 "group_id": "34260",
                 "req_frame_id": "103077",
@@ -181,7 +181,7 @@
             {
                 "position": 2,
                 "mnemonic": "MP_TOUCHE_DEGIVRAGE_DESEMBUAGE_AVANT",
-                "label_index": "11949",
+                "label_index": "@P11949",
                 "label_korean": "성에 제거 / 시야 요청",
                 "group_id": "34261",
                 "req_frame_id": "103080",
@@ -206,7 +206,7 @@
             {
                 "position": 3,
                 "mnemonic": "MP_DEMANDE_DEGIVRAGE_LUNETTE_ARRIERE_RETRO_7",
-                "label_index": "6746",
+                "label_index": "@P6746",
                 "label_korean": "리어 스크린 및 도어 미러 성에 제거 요청",
                 "group_id": "34262",
                 "req_frame_id": "103083",
@@ -231,7 +231,7 @@
             {
                 "position": 4,
                 "mnemonic": "MP_DEMANDE_DE_RECYCLAGE",
-                "label_index": "5471",
+                "label_index": "@P5471",
                 "label_korean": "재순환 요청",
                 "group_id": "34263",
                 "req_frame_id": "103086",
@@ -256,7 +256,7 @@
             {
                 "position": 5,
                 "mnemonic": "MP_DEMANDE_AIR_CONDITIONNE_TOUCHE_AC",
-                "label_index": "9031",
+                "label_index": "@P9031",
                 "label_korean": "에어 컨디셔닝 요청 (AC)",
                 "group_id": "34264",
                 "req_frame_id": "103089",
@@ -281,7 +281,7 @@
             {
                 "position": 6,
                 "mnemonic": "MP_DEMANDE_TEMPERATURE_CONDUCTEUR",
-                "label_index": "7895",
+                "label_index": "@P7895",
                 "label_korean": "운전석 온도 요청",
                 "group_id": "34265",
                 "req_frame_id": "103092",
@@ -300,13 +300,13 @@
                 "bit_mask": 7,
                 "bit_shift": 0,
                 "dynamic_arg": "",
-                "help_code": "19332",
+                "help_code": "@P19332@\\*0@\\*7",
                 "help_korean": "스위치가 시계 방향 또는 반시계 방향으로 움직임에 따라 표시되는 값은 0에서 7 또는 그 반대로 변한다"
             },
             {
                 "position": 7,
                 "mnemonic": "MP_DEMANDE_TEMPERATURE_PASSAGER",
-                "label_index": "3177",
+                "label_index": "@P3177",
                 "label_korean": "승객석 온도 요청",
                 "group_id": "34266",
                 "req_frame_id": "103095",
@@ -325,13 +325,13 @@
                 "bit_mask": 7,
                 "bit_shift": 0,
                 "dynamic_arg": "",
-                "help_code": "19332",
+                "help_code": "@P19332@\\*0@\\*7",
                 "help_korean": "스위치가 시계 방향 또는 반시계 방향으로 움직임에 따라 표시되는 값은 0에서 7 또는 그 반대로 변한다"
             },
             {
                 "position": 8,
                 "mnemonic": "MP_DEMANDE_DIMINUTION_VENTILATION",
-                "label_index": "19090",
+                "label_index": "@P19090",
                 "label_korean": "환기시 감소 요청",
                 "group_id": "34267",
                 "req_frame_id": "103098",
@@ -356,7 +356,7 @@
             {
                 "position": 9,
                 "mnemonic": "MP_DEMANDE_AUGMENTATION_VENTILATION",
-                "label_index": "19216",
+                "label_index": "@P19216",
                 "label_korean": "환기시 증가 요청",
                 "group_id": "34267",
                 "req_frame_id": "103098",
@@ -381,7 +381,7 @@
             {
                 "position": 10,
                 "mnemonic": "MP_DEMANDE_DISTR_AIR_DERIV_CONDUCTEUR",
-                "label_index": "19248",
+                "label_index": "@P19248",
                 "label_korean": "공기 분배 요청 - 운전석 쪽에서 성에 제거",
                 "group_id": "34270",
                 "req_frame_id": "103107",
@@ -400,13 +400,13 @@
                 "bit_mask": 16,
                 "bit_shift": 4,
                 "dynamic_arg": "",
-                "help_code": "11385",
+                "help_code": "@P11385",
                 "help_korean": "성에 제거를 위한 실내 풍향 변경 요청의 경우 변수 활성화"
             },
             {
                 "position": 11,
                 "mnemonic": "MP_DEMANDE_DISTR_AIR_AERA_CONDUCTEUR",
-                "label_index": "19141",
+                "label_index": "@P19141",
                 "label_korean": "공기 분배 요청 - 운전석 쪽에서 환기",
                 "group_id": "34271",
                 "req_frame_id": "103110",
@@ -425,13 +425,13 @@
                 "bit_mask": 16,
                 "bit_shift": 4,
                 "dynamic_arg": "",
-                "help_code": "4057",
+                "help_code": "@P4057",
                 "help_korean": "환기를 위해 실내 공기 분배 변화를 요청할 경우 변수 작동"
             },
             {
                 "position": 12,
                 "mnemonic": "MP_DEMANDE_DISTR_AIR_PIEDS_CONDUCTEUR",
-                "label_index": "19265",
+                "label_index": "@P19265",
                 "label_korean": "공기 분배 요청 - 운전석 쪽에서 발바닥",
                 "group_id": "34272",
                 "req_frame_id": "103113",
@@ -450,14 +450,14 @@
                 "bit_mask": 16,
                 "bit_shift": 4,
                 "dynamic_arg": "",
-                "help_code": "2731",
+                "help_code": "@P2731",
                 "help_korean": "실내에서 발바닥으로 풍향 변경 요청의 경우 변수 활성화"
             },
             {
                 "position": 13,
                 "mnemonic": "MP_DEMANDE_DISTR_AIR_DERIV_PASS",
-                "label_index": "10573",
-                "label_korean": "공기 분배 요청 -\n- 성에 제거 : 승객쪽",
+                "label_index": "@P10573@T : @P21845",
+                "label_korean": "공기 분배 요청 - 성에 제거 : 승객쪽",
                 "group_id": "34273",
                 "req_frame_id": "103116",
                 "resp_frame_id": "103117",
@@ -472,14 +472,14 @@
                 "bit_mask": 16,
                 "bit_shift": 4,
                 "dynamic_arg": "",
-                "help_code": "11385",
+                "help_code": "@P11385",
                 "help_korean": "성에 제거를 위한 실내 풍향 변경 요청의 경우 변수 활성화"
             },
             {
                 "position": 14,
                 "mnemonic": "MP_DEMANDE_DISTR_AIR_AERA_PASS",
-                "label_index": "3913",
-                "label_korean": "공기 분배 요청 -\n- 환기 : 승객쪽",
+                "label_index": "@P3913@T : @P21845",
+                "label_korean": "공기 분배 요청 - 환기 : 승객쪽",
                 "group_id": "34274",
                 "req_frame_id": "103119",
                 "resp_frame_id": "103120",
@@ -494,14 +494,14 @@
                 "bit_mask": 16,
                 "bit_shift": 4,
                 "dynamic_arg": "",
-                "help_code": "4057",
+                "help_code": "@P4057",
                 "help_korean": "환기를 위해 실내 공기 분배 변화를 요청할 경우 변수 작동"
             },
             {
                 "position": 15,
                 "mnemonic": "MP_DEMANDE_DISTR_AIR_PIEDS_PASS",
-                "label_index": "9668",
-                "label_korean": "풍향 요청 -\n- 발바닥 : 승객쪽",
+                "label_index": "@P9668@T : @P21845",
+                "label_korean": "풍향 요청 - 발바닥 : 승객쪽",
                 "group_id": "34275",
                 "req_frame_id": "103122",
                 "resp_frame_id": "103123",
@@ -516,13 +516,13 @@
                 "bit_mask": 16,
                 "bit_shift": 4,
                 "dynamic_arg": "",
-                "help_code": "2731",
+                "help_code": "@P2731",
                 "help_korean": "실내에서 발바닥으로 풍향 변경 요청의 경우 변수 활성화"
             },
             {
                 "position": 16,
                 "mnemonic": "MP_DEMANDE_REG_MONOZONE",
-                "label_index": "16605",
+                "label_index": "@P16605",
                 "label_korean": "모노존 제어 요청",
                 "group_id": "34277",
                 "req_frame_id": "103128",
@@ -547,7 +547,7 @@
             {
                 "position": 17,
                 "mnemonic": "MP_DEMANDE_CLIM_ARRIERE",
-                "label_index": "19417",
+                "label_index": "@P19417",
                 "label_korean": "리어 에어컨 요청",
                 "group_id": "34279",
                 "req_frame_id": "103134",
@@ -563,13 +563,13 @@
                 "bit_mask": 16,
                 "bit_shift": 4,
                 "dynamic_arg": "",
-                "help_code": "19077",
+                "help_code": "@P19077@\\*REAR ON",
                 "help_korean": "버튼REAR에 해당된다 ON"
             },
             {
                 "position": 18,
                 "mnemonic": "MP_DEMANDE_DE_REGULATION_AUTOMATIQUE_SOFT",
-                "label_index": "19322",
+                "label_index": "@P19322",
                 "label_korean": "부드러운 자동 조절 요청",
                 "group_id": "34280",
                 "req_frame_id": "103137",
@@ -585,13 +585,13 @@
                 "bit_mask": 16,
                 "bit_shift": 4,
                 "dynamic_arg": "",
-                "help_code": "19077",
+                "help_code": "@P19077@\\*SOFT",
                 "help_korean": "버튼SOFT에 해당된다"
             },
             {
                 "position": 19,
                 "mnemonic": "MP_DEMANDE_DE_REGULATION_AUTOMATIQUE_FAST",
-                "label_index": "19312",
+                "label_index": "@P19312",
                 "label_korean": "빠른 자동 조절 요청",
                 "group_id": "34281",
                 "req_frame_id": "103140",
@@ -607,7 +607,7 @@
                 "bit_mask": 16,
                 "bit_shift": 4,
                 "dynamic_arg": "",
-                "help_code": "19077",
+                "help_code": "@P19077@\\*FAST",
                 "help_korean": "버튼FAST에 해당된다"
             }
         ]
@@ -621,7 +621,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_DEMANDE_DE_REGULATION_AUTOMATIQUE",
-                "label_index": "6843",
+                "label_index": "@P6843",
                 "label_korean": "자동 제어 요청 (AUTO)",
                 "group_id": "34260",
                 "req_frame_id": "103077",
@@ -646,7 +646,7 @@
             {
                 "position": 2,
                 "mnemonic": "MP_TOUCHE_DEGIVRAGE_DESEMBUAGE_AVANT",
-                "label_index": "11949",
+                "label_index": "@P11949",
                 "label_korean": "성에 제거 / 시야 요청",
                 "group_id": "34261",
                 "req_frame_id": "103080",
@@ -671,7 +671,7 @@
             {
                 "position": 3,
                 "mnemonic": "MP_DEMANDE_DEGIVRAGE_LUNETTE_ARRIERE_RETRO_7",
-                "label_index": "6746",
+                "label_index": "@P6746",
                 "label_korean": "리어 스크린 및 도어 미러 성에 제거 요청",
                 "group_id": "34262",
                 "req_frame_id": "103083",
@@ -696,7 +696,7 @@
             {
                 "position": 4,
                 "mnemonic": "MP_DEMANDE_DE_RECYCLAGE",
-                "label_index": "5471",
+                "label_index": "@P5471",
                 "label_korean": "재순환 요청",
                 "group_id": "34263",
                 "req_frame_id": "103086",
@@ -721,7 +721,7 @@
             {
                 "position": 5,
                 "mnemonic": "MP_DEMANDE_AIR_CONDITIONNE_TOUCHE_AC",
-                "label_index": "9031",
+                "label_index": "@P9031",
                 "label_korean": "에어 컨디셔닝 요청 (AC)",
                 "group_id": "34264",
                 "req_frame_id": "103089",
@@ -746,7 +746,7 @@
             {
                 "position": 6,
                 "mnemonic": "MP_DEMANDE_TEMPERATURE_CONDUCTEUR",
-                "label_index": "7895",
+                "label_index": "@P7895",
                 "label_korean": "운전석 온도 요청",
                 "group_id": "34265",
                 "req_frame_id": "103092",
@@ -765,13 +765,13 @@
                 "bit_mask": 7,
                 "bit_shift": 0,
                 "dynamic_arg": "",
-                "help_code": "19332",
+                "help_code": "@P19332@\\*0@\\*7",
                 "help_korean": "스위치가 시계 방향 또는 반시계 방향으로 움직임에 따라 표시되는 값은 0에서 7 또는 그 반대로 변한다"
             },
             {
                 "position": 7,
                 "mnemonic": "MP_DEMANDE_TEMPERATURE_PASSAGER",
-                "label_index": "3177",
+                "label_index": "@P3177",
                 "label_korean": "승객석 온도 요청",
                 "group_id": "34266",
                 "req_frame_id": "103095",
@@ -790,13 +790,13 @@
                 "bit_mask": 7,
                 "bit_shift": 0,
                 "dynamic_arg": "",
-                "help_code": "19332",
+                "help_code": "@P19332@\\*0@\\*7",
                 "help_korean": "스위치가 시계 방향 또는 반시계 방향으로 움직임에 따라 표시되는 값은 0에서 7 또는 그 반대로 변한다"
             },
             {
                 "position": 8,
                 "mnemonic": "MP_DEMANDE_DIMINUTION_VENTILATION",
-                "label_index": "19090",
+                "label_index": "@P19090",
                 "label_korean": "환기시 감소 요청",
                 "group_id": "34267",
                 "req_frame_id": "103098",
@@ -821,7 +821,7 @@
             {
                 "position": 9,
                 "mnemonic": "MP_DEMANDE_AUGMENTATION_VENTILATION",
-                "label_index": "19216",
+                "label_index": "@P19216",
                 "label_korean": "환기시 증가 요청",
                 "group_id": "34267",
                 "req_frame_id": "103098",
@@ -846,7 +846,7 @@
             {
                 "position": 10,
                 "mnemonic": "MP_DEMANDE_DISTR_AIR_DERIV_CONDUCTEUR",
-                "label_index": "19248",
+                "label_index": "@P19248",
                 "label_korean": "공기 분배 요청 - 운전석 쪽에서 성에 제거",
                 "group_id": "34270",
                 "req_frame_id": "103107",
@@ -865,13 +865,13 @@
                 "bit_mask": 16,
                 "bit_shift": 4,
                 "dynamic_arg": "",
-                "help_code": "11385",
+                "help_code": "@P11385",
                 "help_korean": "성에 제거를 위한 실내 풍향 변경 요청의 경우 변수 활성화"
             },
             {
                 "position": 11,
                 "mnemonic": "MP_DEMANDE_DISTR_AIR_AERA_CONDUCTEUR",
-                "label_index": "19141",
+                "label_index": "@P19141",
                 "label_korean": "공기 분배 요청 - 운전석 쪽에서 환기",
                 "group_id": "34271",
                 "req_frame_id": "103110",
@@ -890,13 +890,13 @@
                 "bit_mask": 16,
                 "bit_shift": 4,
                 "dynamic_arg": "",
-                "help_code": "4057",
+                "help_code": "@P4057",
                 "help_korean": "환기를 위해 실내 공기 분배 변화를 요청할 경우 변수 작동"
             },
             {
                 "position": 12,
                 "mnemonic": "MP_DEMANDE_DISTR_AIR_PIEDS_CONDUCTEUR",
-                "label_index": "19265",
+                "label_index": "@P19265",
                 "label_korean": "공기 분배 요청 - 운전석 쪽에서 발바닥",
                 "group_id": "34272",
                 "req_frame_id": "103113",
@@ -915,14 +915,14 @@
                 "bit_mask": 16,
                 "bit_shift": 4,
                 "dynamic_arg": "",
-                "help_code": "2731",
+                "help_code": "@P2731",
                 "help_korean": "실내에서 발바닥으로 풍향 변경 요청의 경우 변수 활성화"
             },
             {
                 "position": 13,
                 "mnemonic": "MP_DEMANDE_DISTR_AIR_DERIV_PASS",
-                "label_index": "10573",
-                "label_korean": "공기 분배 요청 -\n- 성에 제거 : 승객쪽",
+                "label_index": "@P10573@T : @P21845",
+                "label_korean": "공기 분배 요청 - 성에 제거 : 승객쪽",
                 "group_id": "34273",
                 "req_frame_id": "103116",
                 "resp_frame_id": "103117",
@@ -937,14 +937,14 @@
                 "bit_mask": 16,
                 "bit_shift": 4,
                 "dynamic_arg": "",
-                "help_code": "11385",
+                "help_code": "@P11385",
                 "help_korean": "성에 제거를 위한 실내 풍향 변경 요청의 경우 변수 활성화"
             },
             {
                 "position": 14,
                 "mnemonic": "MP_DEMANDE_DISTR_AIR_AERA_PASS",
-                "label_index": "3913",
-                "label_korean": "공기 분배 요청 -\n- 환기 : 승객쪽",
+                "label_index": "@P3913@T : @P21845",
+                "label_korean": "공기 분배 요청 - 환기 : 승객쪽",
                 "group_id": "34274",
                 "req_frame_id": "103119",
                 "resp_frame_id": "103120",
@@ -959,14 +959,14 @@
                 "bit_mask": 16,
                 "bit_shift": 4,
                 "dynamic_arg": "",
-                "help_code": "4057",
+                "help_code": "@P4057",
                 "help_korean": "환기를 위해 실내 공기 분배 변화를 요청할 경우 변수 작동"
             },
             {
                 "position": 15,
                 "mnemonic": "MP_DEMANDE_DISTR_AIR_PIEDS_PASS",
-                "label_index": "9668",
-                "label_korean": "풍향 요청 -\n- 발바닥 : 승객쪽",
+                "label_index": "@P9668@T : @P21845",
+                "label_korean": "풍향 요청 - 발바닥 : 승객쪽",
                 "group_id": "34275",
                 "req_frame_id": "103122",
                 "resp_frame_id": "103123",
@@ -981,13 +981,13 @@
                 "bit_mask": 16,
                 "bit_shift": 4,
                 "dynamic_arg": "",
-                "help_code": "2731",
+                "help_code": "@P2731",
                 "help_korean": "실내에서 발바닥으로 풍향 변경 요청의 경우 변수 활성화"
             },
             {
                 "position": 16,
                 "mnemonic": "MP_DEMANDE_AIR_CONDITIONNE_MAX_AC",
-                "label_index": "19365",
+                "label_index": "@P19365",
                 "label_korean": "최대 자동 에어컨 요청",
                 "group_id": "34276",
                 "req_frame_id": "103125",
@@ -1012,7 +1012,7 @@
             {
                 "position": 17,
                 "mnemonic": "MP_DEMANDE_REG_MONOZONE",
-                "label_index": "16605",
+                "label_index": "@P16605",
                 "label_korean": "모노존 제어 요청",
                 "group_id": "34277",
                 "req_frame_id": "103128",
@@ -1045,7 +1045,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_DEMANDE_DE_REGULATION_AUTOMATIQUE",
-                "label_index": "6843",
+                "label_index": "@P6843",
                 "label_korean": "자동 제어 요청 (AUTO)",
                 "group_id": "34260",
                 "req_frame_id": "103077",
@@ -1070,7 +1070,7 @@
             {
                 "position": 2,
                 "mnemonic": "MP_TOUCHE_DEGIVRAGE_DESEMBUAGE_AVANT",
-                "label_index": "11949",
+                "label_index": "@P11949",
                 "label_korean": "성에 제거 / 시야 요청",
                 "group_id": "34261",
                 "req_frame_id": "103080",
@@ -1095,7 +1095,7 @@
             {
                 "position": 3,
                 "mnemonic": "MP_DEMANDE_DEGIVRAGE_LUNETTE_ARRIERE_RETRO_7",
-                "label_index": "6746",
+                "label_index": "@P6746",
                 "label_korean": "리어 스크린 및 도어 미러 성에 제거 요청",
                 "group_id": "34262",
                 "req_frame_id": "103083",
@@ -1120,7 +1120,7 @@
             {
                 "position": 4,
                 "mnemonic": "MP_DEMANDE_DE_RECYCLAGE",
-                "label_index": "5471",
+                "label_index": "@P5471",
                 "label_korean": "재순환 요청",
                 "group_id": "34263",
                 "req_frame_id": "103086",
@@ -1145,7 +1145,7 @@
             {
                 "position": 5,
                 "mnemonic": "MP_DEMANDE_AIR_CONDITIONNE_TOUCHE_AC",
-                "label_index": "9031",
+                "label_index": "@P9031",
                 "label_korean": "에어 컨디셔닝 요청 (AC)",
                 "group_id": "34264",
                 "req_frame_id": "103089",
@@ -1170,7 +1170,7 @@
             {
                 "position": 6,
                 "mnemonic": "MP_DEMANDE_TEMPERATURE_CONDUCTEUR",
-                "label_index": "7895",
+                "label_index": "@P7895",
                 "label_korean": "운전석 온도 요청",
                 "group_id": "34265",
                 "req_frame_id": "103092",
@@ -1189,13 +1189,13 @@
                 "bit_mask": 7,
                 "bit_shift": 0,
                 "dynamic_arg": "",
-                "help_code": "19332",
+                "help_code": "@P19332@\\*0@\\*7",
                 "help_korean": "스위치가 시계 방향 또는 반시계 방향으로 움직임에 따라 표시되는 값은 0에서 7 또는 그 반대로 변한다"
             },
             {
                 "position": 7,
                 "mnemonic": "MP_DEMANDE_TEMPERATURE_PASSAGER",
-                "label_index": "3177",
+                "label_index": "@P3177",
                 "label_korean": "승객석 온도 요청",
                 "group_id": "34266",
                 "req_frame_id": "103095",
@@ -1214,14 +1214,14 @@
                 "bit_mask": 7,
                 "bit_shift": 0,
                 "dynamic_arg": "",
-                "help_code": "19332",
+                "help_code": "@P19332@\\*0@\\*7",
                 "help_korean": "스위치가 시계 방향 또는 반시계 방향으로 움직임에 따라 표시되는 값은 0에서 7 또는 그 반대로 변한다"
             },
             {
                 "position": 8,
                 "mnemonic": "MP_DEMANDE_DISTR_AIR_DERIV_PASS",
-                "label_index": "10573",
-                "label_korean": "공기 분배 요청 -\n- 성에 제거 : 승객쪽",
+                "label_index": "@P10573@T : @P21845",
+                "label_korean": "공기 분배 요청 - 성에 제거 : 승객쪽",
                 "group_id": "34273",
                 "req_frame_id": "103116",
                 "resp_frame_id": "103117",
@@ -1236,14 +1236,14 @@
                 "bit_mask": 16,
                 "bit_shift": 4,
                 "dynamic_arg": "",
-                "help_code": "11385",
+                "help_code": "@P11385",
                 "help_korean": "성에 제거를 위한 실내 풍향 변경 요청의 경우 변수 활성화"
             },
             {
                 "position": 9,
                 "mnemonic": "MP_DEMANDE_DISTR_AIR_AERA_PASS",
-                "label_index": "3913",
-                "label_korean": "공기 분배 요청 -\n- 환기 : 승객쪽",
+                "label_index": "@P3913@T : @P21845",
+                "label_korean": "공기 분배 요청 - 환기 : 승객쪽",
                 "group_id": "34274",
                 "req_frame_id": "103119",
                 "resp_frame_id": "103120",
@@ -1258,14 +1258,14 @@
                 "bit_mask": 16,
                 "bit_shift": 4,
                 "dynamic_arg": "",
-                "help_code": "4057",
+                "help_code": "@P4057",
                 "help_korean": "환기를 위해 실내 공기 분배 변화를 요청할 경우 변수 작동"
             },
             {
                 "position": 10,
                 "mnemonic": "MP_DEMANDE_DISTR_AIR_PIEDS_PASS",
-                "label_index": "9668",
-                "label_korean": "풍향 요청 -\n- 발바닥 : 승객쪽",
+                "label_index": "@P9668@T : @P21845",
+                "label_korean": "풍향 요청 - 발바닥 : 승객쪽",
                 "group_id": "34275",
                 "req_frame_id": "103122",
                 "resp_frame_id": "103123",
@@ -1280,13 +1280,13 @@
                 "bit_mask": 16,
                 "bit_shift": 4,
                 "dynamic_arg": "",
-                "help_code": "2731",
+                "help_code": "@P2731",
                 "help_korean": "실내에서 발바닥으로 풍향 변경 요청의 경우 변수 활성화"
             },
             {
                 "position": 11,
                 "mnemonic": "MP_DEMANDE_AIR_CONDITIONNE_MAX_AC",
-                "label_index": "19365",
+                "label_index": "@P19365",
                 "label_korean": "최대 자동 에어컨 요청",
                 "group_id": "34276",
                 "req_frame_id": "103125",
@@ -1319,7 +1319,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_DEMANDE_DEGIVRAGE_LUNETTE_ARRIERE_RETRO_7",
-                "label_index": "6746",
+                "label_index": "@P6746",
                 "label_korean": "리어 스크린 및 도어 미러 성에 제거 요청",
                 "group_id": "34262",
                 "req_frame_id": "103083",
@@ -1344,7 +1344,7 @@
             {
                 "position": 2,
                 "mnemonic": "MP_DEMANDE_DE_RECYCLAGE",
-                "label_index": "5471",
+                "label_index": "@P5471",
                 "label_korean": "재순환 요청",
                 "group_id": "34263",
                 "req_frame_id": "103086",
@@ -1369,7 +1369,7 @@
             {
                 "position": 3,
                 "mnemonic": "MP_DEMANDE_AIR_CONDITIONNE_TOUCHE_AC",
-                "label_index": "9031",
+                "label_index": "@P9031",
                 "label_korean": "에어 컨디셔닝 요청 (AC)",
                 "group_id": "34264",
                 "req_frame_id": "103089",
@@ -1402,7 +1402,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_DEMANDE_DE_REGULATION_AUTOMATIQUE",
-                "label_index": "6843",
+                "label_index": "@P6843",
                 "label_korean": "자동 제어 요청 (AUTO)",
                 "group_id": "34260",
                 "req_frame_id": "103077",
@@ -1427,7 +1427,7 @@
             {
                 "position": 2,
                 "mnemonic": "MP_TOUCHE_DEGIVRAGE_DESEMBUAGE_AVANT",
-                "label_index": "11949",
+                "label_index": "@P11949",
                 "label_korean": "성에 제거 / 시야 요청",
                 "group_id": "34261",
                 "req_frame_id": "103080",
@@ -1452,7 +1452,7 @@
             {
                 "position": 3,
                 "mnemonic": "MP_DEMANDE_DEGIVRAGE_LUNETTE_ARRIERE_RETRO_7",
-                "label_index": "6746",
+                "label_index": "@P6746",
                 "label_korean": "리어 스크린 및 도어 미러 성에 제거 요청",
                 "group_id": "34262",
                 "req_frame_id": "103083",
@@ -1477,7 +1477,7 @@
             {
                 "position": 4,
                 "mnemonic": "MP_DEMANDE_DE_RECYCLAGE",
-                "label_index": "5471",
+                "label_index": "@P5471",
                 "label_korean": "재순환 요청",
                 "group_id": "34263",
                 "req_frame_id": "103086",
@@ -1502,7 +1502,7 @@
             {
                 "position": 5,
                 "mnemonic": "MP_DEMANDE_AIR_CONDITIONNE_TOUCHE_AC",
-                "label_index": "9031",
+                "label_index": "@P9031",
                 "label_korean": "에어 컨디셔닝 요청 (AC)",
                 "group_id": "34264",
                 "req_frame_id": "103089",
@@ -1527,7 +1527,7 @@
             {
                 "position": 6,
                 "mnemonic": "MP_DEMANDE_TEMPERATURE_CONDUCTEUR",
-                "label_index": "7895",
+                "label_index": "@P7895",
                 "label_korean": "운전석 온도 요청",
                 "group_id": "34265",
                 "req_frame_id": "103092",
@@ -1546,13 +1546,13 @@
                 "bit_mask": 7,
                 "bit_shift": 0,
                 "dynamic_arg": "",
-                "help_code": "19332",
+                "help_code": "@P19332@\\*0@\\*7",
                 "help_korean": "스위치가 시계 방향 또는 반시계 방향으로 움직임에 따라 표시되는 값은 0에서 7 또는 그 반대로 변한다"
             },
             {
                 "position": 7,
                 "mnemonic": "MP_DEMANDE_TEMPERATURE_PASSAGER",
-                "label_index": "3177",
+                "label_index": "@P3177",
                 "label_korean": "승객석 온도 요청",
                 "group_id": "34266",
                 "req_frame_id": "103095",
@@ -1571,14 +1571,14 @@
                 "bit_mask": 7,
                 "bit_shift": 0,
                 "dynamic_arg": "",
-                "help_code": "19332",
+                "help_code": "@P19332@\\*0@\\*7",
                 "help_korean": "스위치가 시계 방향 또는 반시계 방향으로 움직임에 따라 표시되는 값은 0에서 7 또는 그 반대로 변한다"
             },
             {
                 "position": 8,
                 "mnemonic": "MP_DEMANDE_DISTR_AIR_DERIV_PASS",
-                "label_index": "10573",
-                "label_korean": "공기 분배 요청 -\n- 성에 제거 : 승객쪽",
+                "label_index": "@P10573@T : @P21845",
+                "label_korean": "공기 분배 요청 - 성에 제거 : 승객쪽",
                 "group_id": "34273",
                 "req_frame_id": "103116",
                 "resp_frame_id": "103117",
@@ -1593,14 +1593,14 @@
                 "bit_mask": 16,
                 "bit_shift": 4,
                 "dynamic_arg": "",
-                "help_code": "11385",
+                "help_code": "@P11385",
                 "help_korean": "성에 제거를 위한 실내 풍향 변경 요청의 경우 변수 활성화"
             },
             {
                 "position": 9,
                 "mnemonic": "MP_DEMANDE_DISTR_AIR_AERA_PASS",
-                "label_index": "3913",
-                "label_korean": "공기 분배 요청 -\n- 환기 : 승객쪽",
+                "label_index": "@P3913@T : @P21845",
+                "label_korean": "공기 분배 요청 - 환기 : 승객쪽",
                 "group_id": "34274",
                 "req_frame_id": "103119",
                 "resp_frame_id": "103120",
@@ -1615,14 +1615,14 @@
                 "bit_mask": 16,
                 "bit_shift": 4,
                 "dynamic_arg": "",
-                "help_code": "4057",
+                "help_code": "@P4057",
                 "help_korean": "환기를 위해 실내 공기 분배 변화를 요청할 경우 변수 작동"
             },
             {
                 "position": 10,
                 "mnemonic": "MP_DEMANDE_DISTR_AIR_PIEDS_PASS",
-                "label_index": "9668",
-                "label_korean": "풍향 요청 -\n- 발바닥 : 승객쪽",
+                "label_index": "@P9668@T : @P21845",
+                "label_korean": "풍향 요청 - 발바닥 : 승객쪽",
                 "group_id": "34275",
                 "req_frame_id": "103122",
                 "resp_frame_id": "103123",
@@ -1637,7 +1637,7 @@
                 "bit_mask": 16,
                 "bit_shift": 4,
                 "dynamic_arg": "",
-                "help_code": "2731",
+                "help_code": "@P2731",
                 "help_korean": "실내에서 발바닥으로 풍향 변경 요청의 경우 변수 활성화"
             }
         ]
@@ -1651,7 +1651,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_DEMANDE_DE_REGULATION_AUTOMATIQUE",
-                "label_index": "6843",
+                "label_index": "@P6843",
                 "label_korean": "자동 제어 요청 (AUTO)",
                 "group_id": "34260",
                 "req_frame_id": "103077",
@@ -1676,7 +1676,7 @@
             {
                 "position": 2,
                 "mnemonic": "MP_TOUCHE_DEGIVRAGE_DESEMBUAGE_AVANT",
-                "label_index": "11949",
+                "label_index": "@P11949",
                 "label_korean": "성에 제거 / 시야 요청",
                 "group_id": "34261",
                 "req_frame_id": "103080",
@@ -1701,7 +1701,7 @@
             {
                 "position": 3,
                 "mnemonic": "MP_DEMANDE_DEGIVRAGE_LUNETTE_ARRIERE_RETRO_7",
-                "label_index": "6746",
+                "label_index": "@P6746",
                 "label_korean": "리어 스크린 및 도어 미러 성에 제거 요청",
                 "group_id": "34262",
                 "req_frame_id": "103083",
@@ -1726,7 +1726,7 @@
             {
                 "position": 4,
                 "mnemonic": "MP_DEMANDE_DE_RECYCLAGE",
-                "label_index": "5471",
+                "label_index": "@P5471",
                 "label_korean": "재순환 요청",
                 "group_id": "34263",
                 "req_frame_id": "103086",
@@ -1751,7 +1751,7 @@
             {
                 "position": 5,
                 "mnemonic": "MP_DEMANDE_AIR_CONDITIONNE_TOUCHE_AC",
-                "label_index": "9031",
+                "label_index": "@P9031",
                 "label_korean": "에어 컨디셔닝 요청 (AC)",
                 "group_id": "34264",
                 "req_frame_id": "103089",
@@ -1776,7 +1776,7 @@
             {
                 "position": 6,
                 "mnemonic": "MP_DEMANDE_TEMPERATURE_CONDUCTEUR",
-                "label_index": "7895",
+                "label_index": "@P7895",
                 "label_korean": "운전석 온도 요청",
                 "group_id": "34265",
                 "req_frame_id": "103092",
@@ -1795,13 +1795,13 @@
                 "bit_mask": 7,
                 "bit_shift": 0,
                 "dynamic_arg": "",
-                "help_code": "19332",
+                "help_code": "@P19332@\\*0@\\*7",
                 "help_korean": "스위치가 시계 방향 또는 반시계 방향으로 움직임에 따라 표시되는 값은 0에서 7 또는 그 반대로 변한다"
             },
             {
                 "position": 7,
                 "mnemonic": "MP_DEMANDE_TEMPERATURE_PASSAGER",
-                "label_index": "3177",
+                "label_index": "@P3177",
                 "label_korean": "승객석 온도 요청",
                 "group_id": "34266",
                 "req_frame_id": "103095",
@@ -1820,13 +1820,13 @@
                 "bit_mask": 7,
                 "bit_shift": 0,
                 "dynamic_arg": "",
-                "help_code": "19332",
+                "help_code": "@P19332@\\*0@\\*7",
                 "help_korean": "스위치가 시계 방향 또는 반시계 방향으로 움직임에 따라 표시되는 값은 0에서 7 또는 그 반대로 변한다"
             },
             {
                 "position": 8,
                 "mnemonic": "MP_DEMANDE_DIMINUTION_VENTILATION",
-                "label_index": "19090",
+                "label_index": "@P19090",
                 "label_korean": "환기시 감소 요청",
                 "group_id": "34267",
                 "req_frame_id": "103098",
@@ -1851,7 +1851,7 @@
             {
                 "position": 9,
                 "mnemonic": "MP_DEMANDE_AUGMENTATION_VENTILATION",
-                "label_index": "19216",
+                "label_index": "@P19216",
                 "label_korean": "환기시 증가 요청",
                 "group_id": "34267",
                 "req_frame_id": "103098",
@@ -1876,7 +1876,7 @@
             {
                 "position": 10,
                 "mnemonic": "MP_DEMANDE_DISTR_AIR_DERIV_CONDUCTEUR",
-                "label_index": "19248",
+                "label_index": "@P19248",
                 "label_korean": "공기 분배 요청 - 운전석 쪽에서 성에 제거",
                 "group_id": "34270",
                 "req_frame_id": "103107",
@@ -1895,13 +1895,13 @@
                 "bit_mask": 16,
                 "bit_shift": 4,
                 "dynamic_arg": "",
-                "help_code": "11385",
+                "help_code": "@P11385",
                 "help_korean": "성에 제거를 위한 실내 풍향 변경 요청의 경우 변수 활성화"
             },
             {
                 "position": 11,
                 "mnemonic": "MP_DEMANDE_DISTR_AIR_AERA_CONDUCTEUR",
-                "label_index": "19141",
+                "label_index": "@P19141",
                 "label_korean": "공기 분배 요청 - 운전석 쪽에서 환기",
                 "group_id": "34271",
                 "req_frame_id": "103110",
@@ -1920,13 +1920,13 @@
                 "bit_mask": 16,
                 "bit_shift": 4,
                 "dynamic_arg": "",
-                "help_code": "4057",
+                "help_code": "@P4057",
                 "help_korean": "환기를 위해 실내 공기 분배 변화를 요청할 경우 변수 작동"
             },
             {
                 "position": 12,
                 "mnemonic": "MP_DEMANDE_DISTR_AIR_PIEDS_CONDUCTEUR",
-                "label_index": "19265",
+                "label_index": "@P19265",
                 "label_korean": "공기 분배 요청 - 운전석 쪽에서 발바닥",
                 "group_id": "34272",
                 "req_frame_id": "103113",
@@ -1945,14 +1945,14 @@
                 "bit_mask": 16,
                 "bit_shift": 4,
                 "dynamic_arg": "",
-                "help_code": "2731",
+                "help_code": "@P2731",
                 "help_korean": "실내에서 발바닥으로 풍향 변경 요청의 경우 변수 활성화"
             },
             {
                 "position": 13,
                 "mnemonic": "MP_DEMANDE_DISTR_AIR_DERIV_PASS",
-                "label_index": "10573",
-                "label_korean": "공기 분배 요청 -\n- 성에 제거 : 승객쪽",
+                "label_index": "@P10573@T : @P21845",
+                "label_korean": "공기 분배 요청 - 성에 제거 : 승객쪽",
                 "group_id": "34273",
                 "req_frame_id": "103116",
                 "resp_frame_id": "103117",
@@ -1967,14 +1967,14 @@
                 "bit_mask": 16,
                 "bit_shift": 4,
                 "dynamic_arg": "",
-                "help_code": "11385",
+                "help_code": "@P11385",
                 "help_korean": "성에 제거를 위한 실내 풍향 변경 요청의 경우 변수 활성화"
             },
             {
                 "position": 14,
                 "mnemonic": "MP_DEMANDE_DISTR_AIR_AERA_PASS",
-                "label_index": "3913",
-                "label_korean": "공기 분배 요청 -\n- 환기 : 승객쪽",
+                "label_index": "@P3913@T : @P21845",
+                "label_korean": "공기 분배 요청 - 환기 : 승객쪽",
                 "group_id": "34274",
                 "req_frame_id": "103119",
                 "resp_frame_id": "103120",
@@ -1989,14 +1989,14 @@
                 "bit_mask": 16,
                 "bit_shift": 4,
                 "dynamic_arg": "",
-                "help_code": "4057",
+                "help_code": "@P4057",
                 "help_korean": "환기를 위해 실내 공기 분배 변화를 요청할 경우 변수 작동"
             },
             {
                 "position": 15,
                 "mnemonic": "MP_DEMANDE_DISTR_AIR_PIEDS_PASS",
-                "label_index": "9668",
-                "label_korean": "풍향 요청 -\n- 발바닥 : 승객쪽",
+                "label_index": "@P9668@T : @P21845",
+                "label_korean": "풍향 요청 - 발바닥 : 승객쪽",
                 "group_id": "34275",
                 "req_frame_id": "103122",
                 "resp_frame_id": "103123",
@@ -2011,13 +2011,13 @@
                 "bit_mask": 16,
                 "bit_shift": 4,
                 "dynamic_arg": "",
-                "help_code": "2731",
+                "help_code": "@P2731",
                 "help_korean": "실내에서 발바닥으로 풍향 변경 요청의 경우 변수 활성화"
             },
             {
                 "position": 16,
                 "mnemonic": "MP_DEMANDE_AIR_CONDITIONNE_MAX_AC",
-                "label_index": "19365",
+                "label_index": "@P19365",
                 "label_korean": "최대 자동 에어컨 요청",
                 "group_id": "34276",
                 "req_frame_id": "103125",
@@ -2042,7 +2042,7 @@
             {
                 "position": 17,
                 "mnemonic": "MP_DEMANDE_REG_MONOZONE",
-                "label_index": "16605",
+                "label_index": "@P16605",
                 "label_korean": "모노존 제어 요청",
                 "group_id": "34277",
                 "req_frame_id": "103128",
@@ -2075,7 +2075,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_DEMANDE_DE_REGULATION_AUTOMATIQUE",
-                "label_index": "6843",
+                "label_index": "@P6843",
                 "label_korean": "자동 제어 요청 (AUTO)",
                 "group_id": "34260",
                 "req_frame_id": "103077",
@@ -2100,7 +2100,7 @@
             {
                 "position": 2,
                 "mnemonic": "MP_TOUCHE_DEGIVRAGE_DESEMBUAGE_AVANT",
-                "label_index": "11949",
+                "label_index": "@P11949",
                 "label_korean": "성에 제거 / 시야 요청",
                 "group_id": "34261",
                 "req_frame_id": "103080",
@@ -2125,7 +2125,7 @@
             {
                 "position": 3,
                 "mnemonic": "MP_DEMANDE_DEGIVRAGE_LUNETTE_ARRIERE_RETRO_7",
-                "label_index": "6746",
+                "label_index": "@P6746",
                 "label_korean": "리어 스크린 및 도어 미러 성에 제거 요청",
                 "group_id": "34262",
                 "req_frame_id": "103083",
@@ -2150,7 +2150,7 @@
             {
                 "position": 4,
                 "mnemonic": "MP_DEMANDE_DE_RECYCLAGE",
-                "label_index": "5471",
+                "label_index": "@P5471",
                 "label_korean": "재순환 요청",
                 "group_id": "34263",
                 "req_frame_id": "103086",
@@ -2175,7 +2175,7 @@
             {
                 "position": 5,
                 "mnemonic": "MP_DEMANDE_AIR_CONDITIONNE_TOUCHE_AC",
-                "label_index": "9031",
+                "label_index": "@P9031",
                 "label_korean": "에어 컨디셔닝 요청 (AC)",
                 "group_id": "34264",
                 "req_frame_id": "103089",
@@ -2200,7 +2200,7 @@
             {
                 "position": 6,
                 "mnemonic": "MP_DEMANDE_TEMPERATURE_CONDUCTEUR",
-                "label_index": "7895",
+                "label_index": "@P7895",
                 "label_korean": "운전석 온도 요청",
                 "group_id": "34265",
                 "req_frame_id": "103092",
@@ -2219,13 +2219,13 @@
                 "bit_mask": 7,
                 "bit_shift": 0,
                 "dynamic_arg": "",
-                "help_code": "19332",
+                "help_code": "@P19332@\\*0@\\*7",
                 "help_korean": "스위치가 시계 방향 또는 반시계 방향으로 움직임에 따라 표시되는 값은 0에서 7 또는 그 반대로 변한다"
             },
             {
                 "position": 7,
                 "mnemonic": "MP_DEMANDE_TEMPERATURE_PASSAGER",
-                "label_index": "3177",
+                "label_index": "@P3177",
                 "label_korean": "승객석 온도 요청",
                 "group_id": "34266",
                 "req_frame_id": "103095",
@@ -2244,14 +2244,14 @@
                 "bit_mask": 7,
                 "bit_shift": 0,
                 "dynamic_arg": "",
-                "help_code": "19332",
+                "help_code": "@P19332@\\*0@\\*7",
                 "help_korean": "스위치가 시계 방향 또는 반시계 방향으로 움직임에 따라 표시되는 값은 0에서 7 또는 그 반대로 변한다"
             },
             {
                 "position": 8,
                 "mnemonic": "MP_DEMANDE_DISTR_AIR_DERIV_PASS",
-                "label_index": "10573",
-                "label_korean": "공기 분배 요청 -\n- 성에 제거 : 승객쪽",
+                "label_index": "@P10573@T : @P21845",
+                "label_korean": "공기 분배 요청 - 성에 제거 : 승객쪽",
                 "group_id": "34273",
                 "req_frame_id": "103116",
                 "resp_frame_id": "103117",
@@ -2266,14 +2266,14 @@
                 "bit_mask": 16,
                 "bit_shift": 4,
                 "dynamic_arg": "",
-                "help_code": "11385",
+                "help_code": "@P11385",
                 "help_korean": "성에 제거를 위한 실내 풍향 변경 요청의 경우 변수 활성화"
             },
             {
                 "position": 9,
                 "mnemonic": "MP_DEMANDE_DISTR_AIR_AERA_PASS",
-                "label_index": "3913",
-                "label_korean": "공기 분배 요청 -\n- 환기 : 승객쪽",
+                "label_index": "@P3913@T : @P21845",
+                "label_korean": "공기 분배 요청 - 환기 : 승객쪽",
                 "group_id": "34274",
                 "req_frame_id": "103119",
                 "resp_frame_id": "103120",
@@ -2288,14 +2288,14 @@
                 "bit_mask": 16,
                 "bit_shift": 4,
                 "dynamic_arg": "",
-                "help_code": "4057",
+                "help_code": "@P4057",
                 "help_korean": "환기를 위해 실내 공기 분배 변화를 요청할 경우 변수 작동"
             },
             {
                 "position": 10,
                 "mnemonic": "MP_DEMANDE_DISTR_AIR_PIEDS_PASS",
-                "label_index": "9668",
-                "label_korean": "풍향 요청 -\n- 발바닥 : 승객쪽",
+                "label_index": "@P9668@T : @P21845",
+                "label_korean": "풍향 요청 - 발바닥 : 승객쪽",
                 "group_id": "34275",
                 "req_frame_id": "103122",
                 "resp_frame_id": "103123",
@@ -2310,13 +2310,13 @@
                 "bit_mask": 16,
                 "bit_shift": 4,
                 "dynamic_arg": "",
-                "help_code": "2731",
+                "help_code": "@P2731",
                 "help_korean": "실내에서 발바닥으로 풍향 변경 요청의 경우 변수 활성화"
             },
             {
                 "position": 11,
                 "mnemonic": "MP_DEMANDE_AIR_CONDITIONNE_MAX_AC",
-                "label_index": "19365",
+                "label_index": "@P19365",
                 "label_korean": "최대 자동 에어컨 요청",
                 "group_id": "34276",
                 "req_frame_id": "103125",
@@ -2349,7 +2349,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_DEMANDE_DEGIVRAGE_LUNETTE_ARRIERE_RETRO_7",
-                "label_index": "6746",
+                "label_index": "@P6746",
                 "label_korean": "리어 스크린 및 도어 미러 성에 제거 요청",
                 "group_id": "34262",
                 "req_frame_id": "103083",
@@ -2374,7 +2374,7 @@
             {
                 "position": 2,
                 "mnemonic": "MP_DEMANDE_DE_RECYCLAGE",
-                "label_index": "5471",
+                "label_index": "@P5471",
                 "label_korean": "재순환 요청",
                 "group_id": "34263",
                 "req_frame_id": "103086",
@@ -2399,7 +2399,7 @@
             {
                 "position": 3,
                 "mnemonic": "MP_DEMANDE_AIR_CONDITIONNE_TOUCHE_AC",
-                "label_index": "9031",
+                "label_index": "@P9031",
                 "label_korean": "에어 컨디셔닝 요청 (AC)",
                 "group_id": "34264",
                 "req_frame_id": "103089",
@@ -2424,7 +2424,7 @@
             {
                 "position": 4,
                 "mnemonic": "MP_DEMANDE_TEMPERATURE_1",
-                "label_index": "22193",
+                "label_index": "@P22193",
                 "label_korean": "온도 요청",
                 "group_id": "34265",
                 "req_frame_id": "103092",
@@ -2440,13 +2440,13 @@
                 "bit_mask": 7,
                 "bit_shift": 0,
                 "dynamic_arg": "",
-                "help_code": "19332",
+                "help_code": "@P19332@\\*0@\\*7",
                 "help_korean": "스위치가 시계 방향 또는 반시계 방향으로 움직임에 따라 표시되는 값은 0에서 7 또는 그 반대로 변한다"
             },
             {
                 "position": 5,
                 "mnemonic": "MP_DEMANDE_DISTR_AIR_DERIV",
-                "label_index": "10573",
+                "label_index": "@P10573",
                 "label_korean": "공기 분배 요청 - 성에 제거",
                 "group_id": "34270",
                 "req_frame_id": "103107",
@@ -2465,13 +2465,13 @@
                 "bit_mask": 16,
                 "bit_shift": 4,
                 "dynamic_arg": "",
-                "help_code": "11385",
+                "help_code": "@P11385",
                 "help_korean": "성에 제거를 위한 실내 풍향 변경 요청의 경우 변수 활성화"
             },
             {
                 "position": 6,
                 "mnemonic": "MP_DEMANDE_DISTR_AIR_AERA",
-                "label_index": "3913",
+                "label_index": "@P3913",
                 "label_korean": "공기 분배 요청 - 환기",
                 "group_id": "34271",
                 "req_frame_id": "103110",
@@ -2490,13 +2490,13 @@
                 "bit_mask": 16,
                 "bit_shift": 4,
                 "dynamic_arg": "",
-                "help_code": "4057",
+                "help_code": "@P4057",
                 "help_korean": "환기를 위해 실내 공기 분배 변화를 요청할 경우 변수 작동"
             },
             {
                 "position": 7,
                 "mnemonic": "MP_DEMANDE_DISTR_AIR_PIEDS",
-                "label_index": "9668",
+                "label_index": "@P9668",
                 "label_korean": "풍향 요청 - 발바닥",
                 "group_id": "34272",
                 "req_frame_id": "103113",
@@ -2515,7 +2515,7 @@
                 "bit_mask": 16,
                 "bit_shift": 4,
                 "dynamic_arg": "",
-                "help_code": "10542",
+                "help_code": "@P10542",
                 "help_korean": "리어 시트에서 실내의 공기 분배 위치를 변경하기 위한 요청을 위해 작동하는 변수"
             }
         ]
@@ -2529,7 +2529,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_DEMANDE_DEGIVRAGE_LUNETTE_ARRIERE_RETRO_7",
-                "label_index": "6746",
+                "label_index": "@P6746",
                 "label_korean": "리어 스크린 및 도어 미러 성에 제거 요청",
                 "group_id": "34262",
                 "req_frame_id": "103083",
@@ -2554,7 +2554,7 @@
             {
                 "position": 2,
                 "mnemonic": "MP_DEMANDE_DE_RECYCLAGE",
-                "label_index": "5471",
+                "label_index": "@P5471",
                 "label_korean": "재순환 요청",
                 "group_id": "34263",
                 "req_frame_id": "103086",
@@ -2579,7 +2579,7 @@
             {
                 "position": 3,
                 "mnemonic": "MP_DEMANDE_AIR_CONDITIONNE_TOUCHE_AC",
-                "label_index": "9031",
+                "label_index": "@P9031",
                 "label_korean": "에어 컨디셔닝 요청 (AC)",
                 "group_id": "34264",
                 "req_frame_id": "103089",
@@ -2604,7 +2604,7 @@
             {
                 "position": 4,
                 "mnemonic": "MP_DEMANDE_DISTR_AIR_DERIV",
-                "label_index": "10573",
+                "label_index": "@P10573",
                 "label_korean": "공기 분배 요청 - 성에 제거",
                 "group_id": "34270",
                 "req_frame_id": "103107",
@@ -2623,13 +2623,13 @@
                 "bit_mask": 16,
                 "bit_shift": 4,
                 "dynamic_arg": "",
-                "help_code": "11385",
+                "help_code": "@P11385",
                 "help_korean": "성에 제거를 위한 실내 풍향 변경 요청의 경우 변수 활성화"
             },
             {
                 "position": 5,
                 "mnemonic": "MP_DEMANDE_DISTR_AIR_AERA",
-                "label_index": "3913",
+                "label_index": "@P3913",
                 "label_korean": "공기 분배 요청 - 환기",
                 "group_id": "34271",
                 "req_frame_id": "103110",
@@ -2648,13 +2648,13 @@
                 "bit_mask": 16,
                 "bit_shift": 4,
                 "dynamic_arg": "",
-                "help_code": "4057",
+                "help_code": "@P4057",
                 "help_korean": "환기를 위해 실내 공기 분배 변화를 요청할 경우 변수 작동"
             },
             {
                 "position": 6,
                 "mnemonic": "MP_DEMANDE_DISTR_AIR_PIEDS",
-                "label_index": "9668",
+                "label_index": "@P9668",
                 "label_korean": "풍향 요청 - 발바닥",
                 "group_id": "34272",
                 "req_frame_id": "103113",
@@ -2673,7 +2673,7 @@
                 "bit_mask": 16,
                 "bit_shift": 4,
                 "dynamic_arg": "",
-                "help_code": "10542",
+                "help_code": "@P10542",
                 "help_korean": "리어 시트에서 실내의 공기 분배 위치를 변경하기 위한 요청을 위해 작동하는 변수"
             }
         ]
@@ -2687,7 +2687,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_TOUCHE_01",
-                "label_index": "6398",
+                "label_index": "@P6398@\\*1",
                 "label_korean": "버튼1",
                 "group_id": "34282",
                 "req_frame_id": "103143",
@@ -2712,7 +2712,7 @@
             {
                 "position": 2,
                 "mnemonic": "MP_TOUCHE_02",
-                "label_index": "6398",
+                "label_index": "@P6398@\\*2",
                 "label_korean": "버튼2",
                 "group_id": "34282",
                 "req_frame_id": "103143",
@@ -2737,7 +2737,7 @@
             {
                 "position": 3,
                 "mnemonic": "MP_TOUCHE_03",
-                "label_index": "6398",
+                "label_index": "@P6398@\\*3",
                 "label_korean": "버튼3",
                 "group_id": "34282",
                 "req_frame_id": "103143",
@@ -2762,7 +2762,7 @@
             {
                 "position": 4,
                 "mnemonic": "MP_TOUCHE_04",
-                "label_index": "6398",
+                "label_index": "@P6398@\\*4",
                 "label_korean": "버튼4",
                 "group_id": "34282",
                 "req_frame_id": "103143",
@@ -2787,7 +2787,7 @@
             {
                 "position": 5,
                 "mnemonic": "MP_TOUCHE_05",
-                "label_index": "6398",
+                "label_index": "@P6398@\\*5",
                 "label_korean": "버튼5",
                 "group_id": "34282",
                 "req_frame_id": "103143",
@@ -2812,7 +2812,7 @@
             {
                 "position": 6,
                 "mnemonic": "MP_TOUCHE_06",
-                "label_index": "6398",
+                "label_index": "@P6398@\\*6",
                 "label_korean": "버튼6",
                 "group_id": "34282",
                 "req_frame_id": "103143",
@@ -2837,7 +2837,7 @@
             {
                 "position": 7,
                 "mnemonic": "MP_TOUCHE_EJECTION_DISQUE",
-                "label_index": "12045",
+                "label_index": "@P12045",
                 "label_korean": "디스크 추출 버튼",
                 "group_id": "34282",
                 "req_frame_id": "103143",
@@ -2859,7 +2859,7 @@
             {
                 "position": 8,
                 "mnemonic": "MP_TOUCHE_ESCAPE",
-                "label_index": "4327",
+                "label_index": "@P4327",
                 "label_korean": "ESP 버튼",
                 "group_id": "34282",
                 "req_frame_id": "103143",
@@ -2881,7 +2881,7 @@
             {
                 "position": 9,
                 "mnemonic": "MP_TOUCHE_MODE",
-                "label_index": "12533",
+                "label_index": "@P12533",
                 "label_korean": "모드 버튼",
                 "group_id": "34282",
                 "req_frame_id": "103143",
@@ -2903,7 +2903,7 @@
             {
                 "position": 10,
                 "mnemonic": "MP_TOUCHE_TA_INFO",
-                "label_index": "25441",
+                "label_index": "@P25441",
                 "label_korean": "TA INFO 버튼",
                 "group_id": "34282",
                 "req_frame_id": "103143",
@@ -2925,7 +2925,7 @@
             {
                 "position": 11,
                 "mnemonic": "MP_TOUCHE_SOURCE",
-                "label_index": "8241",
+                "label_index": "@P8241",
                 "label_korean": "소스 버튼",
                 "group_id": "34282",
                 "req_frame_id": "103143",
@@ -2950,7 +2950,7 @@
             {
                 "position": 12,
                 "mnemonic": "MP_TOUCHE_MENU_RT",
-                "label_index": "8036",
+                "label_index": "@P8036",
                 "label_korean": "메뉴 버튼",
                 "group_id": "34282",
                 "req_frame_id": "103143",
@@ -2972,7 +2972,7 @@
             {
                 "position": 13,
                 "mnemonic": "MP_TOUCHE_LISTE_1",
-                "label_index": "11746",
+                "label_index": "@P11746",
                 "label_korean": "리스트 버튼",
                 "group_id": "34282",
                 "req_frame_id": "103143",
@@ -2991,13 +2991,13 @@
                 "bit_mask": 8,
                 "bit_shift": 3,
                 "dynamic_arg": "",
-                "help_code": "26336",
+                "help_code": "@P26336",
                 "help_korean": "\"리스트\" 버튼의 변화 상태를 나타낸다"
             },
             {
                 "position": 14,
                 "mnemonic": "MP_TOUCHE_AUDIO",
-                "label_index": "6983",
+                "label_index": "@P6983",
                 "label_korean": "오디오 버튼",
                 "group_id": "34282",
                 "req_frame_id": "103143",
@@ -3022,7 +3022,7 @@
             {
                 "position": 15,
                 "mnemonic": "MP_TOUCHE_BND_AST_1",
-                "label_index": "9092",
+                "label_index": "@P9092",
                 "label_korean": "밴드 버튼",
                 "group_id": "34282",
                 "req_frame_id": "103143",
@@ -3044,7 +3044,7 @@
             {
                 "position": 16,
                 "mnemonic": "MP_TOUCHE_FLECHE_VERS_LA_GAUCHE",
-                "label_index": "4477",
+                "label_index": "@P4477",
                 "label_korean": "좌측 화살표 버튼",
                 "group_id": "34282",
                 "req_frame_id": "103143",
@@ -3066,7 +3066,7 @@
             {
                 "position": 17,
                 "mnemonic": "MP_TOUCHE_FLECHE_VERS_LA_DROITE",
-                "label_index": "10437",
+                "label_index": "@P10437",
                 "label_korean": "우측 화살표 버튼",
                 "group_id": "34282",
                 "req_frame_id": "103143",
@@ -3088,7 +3088,7 @@
             {
                 "position": 18,
                 "mnemonic": "MP_TOUCHE_FLECHE_VERS_LE_HAUT",
-                "label_index": "7455",
+                "label_index": "@P7455",
                 "label_korean": "위 화살표 버튼",
                 "group_id": "34282",
                 "req_frame_id": "103143",
@@ -3113,7 +3113,7 @@
             {
                 "position": 19,
                 "mnemonic": "MP_TOUCHE_FLECHE_VERS_LE_BAS",
-                "label_index": "1878",
+                "label_index": "@P1878",
                 "label_korean": "아래 화살표 버튼",
                 "group_id": "34282",
                 "req_frame_id": "103143",
@@ -3138,7 +3138,7 @@
             {
                 "position": 20,
                 "mnemonic": "MP_TOUCHE_OK",
-                "label_index": "9142",
+                "label_index": "@P9142",
                 "label_korean": "\"OK\" 버튼",
                 "group_id": "34282",
                 "req_frame_id": "103143",
@@ -3163,7 +3163,7 @@
             {
                 "position": 21,
                 "mnemonic": "MP_MOLETTE_VOLUME",
-                "label_index": "19215",
+                "label_index": "@P19215",
                 "label_korean": "볼륨 스위치",
                 "group_id": "34282",
                 "req_frame_id": "103143",
@@ -3179,13 +3179,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "22183, 18844",
-                "help_korean": "오디오 시스템 제어 노브를 통해서 볼륨 감소 또는 증가 요청에 해당된다.\n과 사이에서 축정된 값-127 128"
+                "help_code": "@P22183@T.@\\n@P18844@\\*-127@\\*+128",
+                "help_korean": "오디오 시스템 제어 노브를 통해서 볼륨 감소 또는 증가 요청에 해당된다.\n과 사이에서 축정된 값-127+128"
             },
             {
                 "position": 22,
                 "mnemonic": "MP_MOLETTE_EMF",
-                "label_index": "19304",
+                "label_index": "@P19304",
                 "label_korean": "다기능 스크린의 네비게이션 제어",
                 "group_id": "34282",
                 "req_frame_id": "103143",
@@ -3201,8 +3201,8 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "19200, 18844",
-                "help_korean": "이 스위치는 라디오의 우측에 위치해 있고 다기능 스크린에서 조정을 하기 위한 것이다. 과 사이에서 축정된 값-128 127"
+                "help_code": "@P19200@T. @P18844@\\*-128@\\*+127",
+                "help_korean": "이 스위치는 라디오의 우측에 위치해 있고 다기능 스크린에서 조정을 하기 위한 것이다. 과 사이에서 축정된 값-128+127"
             }
         ]
     },
@@ -3215,7 +3215,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_TOUCHE_01",
-                "label_index": "6398",
+                "label_index": "@P6398@\\*1",
                 "label_korean": "버튼1",
                 "group_id": "34282",
                 "req_frame_id": "103143",
@@ -3240,7 +3240,7 @@
             {
                 "position": 2,
                 "mnemonic": "MP_TOUCHE_02",
-                "label_index": "6398",
+                "label_index": "@P6398@\\*2",
                 "label_korean": "버튼2",
                 "group_id": "34282",
                 "req_frame_id": "103143",
@@ -3265,7 +3265,7 @@
             {
                 "position": 3,
                 "mnemonic": "MP_TOUCHE_03",
-                "label_index": "6398",
+                "label_index": "@P6398@\\*3",
                 "label_korean": "버튼3",
                 "group_id": "34282",
                 "req_frame_id": "103143",
@@ -3290,7 +3290,7 @@
             {
                 "position": 4,
                 "mnemonic": "MP_TOUCHE_04",
-                "label_index": "6398",
+                "label_index": "@P6398@\\*4",
                 "label_korean": "버튼4",
                 "group_id": "34282",
                 "req_frame_id": "103143",
@@ -3315,7 +3315,7 @@
             {
                 "position": 5,
                 "mnemonic": "MP_TOUCHE_05",
-                "label_index": "6398",
+                "label_index": "@P6398@\\*5",
                 "label_korean": "버튼5",
                 "group_id": "34282",
                 "req_frame_id": "103143",
@@ -3340,7 +3340,7 @@
             {
                 "position": 6,
                 "mnemonic": "MP_TOUCHE_06",
-                "label_index": "6398",
+                "label_index": "@P6398@\\*6",
                 "label_korean": "버튼6",
                 "group_id": "34282",
                 "req_frame_id": "103143",
@@ -3365,7 +3365,7 @@
             {
                 "position": 7,
                 "mnemonic": "MP_TOUCHE_EJECTION_DISQUE",
-                "label_index": "12045",
+                "label_index": "@P12045",
                 "label_korean": "디스크 추출 버튼",
                 "group_id": "34282",
                 "req_frame_id": "103143",
@@ -3387,7 +3387,7 @@
             {
                 "position": 8,
                 "mnemonic": "MP_TOUCHE_ESCAPE",
-                "label_index": "4327",
+                "label_index": "@P4327",
                 "label_korean": "ESP 버튼",
                 "group_id": "34282",
                 "req_frame_id": "103143",
@@ -3409,7 +3409,7 @@
             {
                 "position": 9,
                 "mnemonic": "MP_TOUCHE_MODE",
-                "label_index": "12533",
+                "label_index": "@P12533",
                 "label_korean": "모드 버튼",
                 "group_id": "34282",
                 "req_frame_id": "103143",
@@ -3431,7 +3431,7 @@
             {
                 "position": 10,
                 "mnemonic": "MP_TOUCHE_TA_INFO",
-                "label_index": "25441",
+                "label_index": "@P25441",
                 "label_korean": "TA INFO 버튼",
                 "group_id": "34282",
                 "req_frame_id": "103143",
@@ -3453,7 +3453,7 @@
             {
                 "position": 11,
                 "mnemonic": "MP_TOUCHE_SOURCE",
-                "label_index": "8241",
+                "label_index": "@P8241",
                 "label_korean": "소스 버튼",
                 "group_id": "34282",
                 "req_frame_id": "103143",
@@ -3478,7 +3478,7 @@
             {
                 "position": 12,
                 "mnemonic": "MP_TOUCHE_LISTE_1",
-                "label_index": "11746",
+                "label_index": "@P11746",
                 "label_korean": "리스트 버튼",
                 "group_id": "34282",
                 "req_frame_id": "103143",
@@ -3497,13 +3497,13 @@
                 "bit_mask": 8,
                 "bit_shift": 3,
                 "dynamic_arg": "",
-                "help_code": "26336",
+                "help_code": "@P26336",
                 "help_korean": "\"리스트\" 버튼의 변화 상태를 나타낸다"
             },
             {
                 "position": 13,
                 "mnemonic": "MP_TOUCHE_AUDIO",
-                "label_index": "6983",
+                "label_index": "@P6983",
                 "label_korean": "오디오 버튼",
                 "group_id": "34282",
                 "req_frame_id": "103143",
@@ -3528,7 +3528,7 @@
             {
                 "position": 14,
                 "mnemonic": "MP_TOUCHE_BND_AST",
-                "label_index": "9092",
+                "label_index": "@P9092",
                 "label_korean": "밴드 버튼",
                 "group_id": "34282",
                 "req_frame_id": "103143",
@@ -3550,7 +3550,7 @@
             {
                 "position": 15,
                 "mnemonic": "MP_TOUCHE_FLECHE_VERS_LA_GAUCHE",
-                "label_index": "4477",
+                "label_index": "@P4477",
                 "label_korean": "좌측 화살표 버튼",
                 "group_id": "34282",
                 "req_frame_id": "103143",
@@ -3572,7 +3572,7 @@
             {
                 "position": 16,
                 "mnemonic": "MP_TOUCHE_FLECHE_VERS_LA_DROITE",
-                "label_index": "10437",
+                "label_index": "@P10437",
                 "label_korean": "우측 화살표 버튼",
                 "group_id": "34282",
                 "req_frame_id": "103143",
@@ -3594,7 +3594,7 @@
             {
                 "position": 17,
                 "mnemonic": "MP_TOUCHE_FLECHE_VERS_LE_HAUT",
-                "label_index": "7455",
+                "label_index": "@P7455",
                 "label_korean": "위 화살표 버튼",
                 "group_id": "34282",
                 "req_frame_id": "103143",
@@ -3619,7 +3619,7 @@
             {
                 "position": 18,
                 "mnemonic": "MP_TOUCHE_FLECHE_VERS_LE_BAS",
-                "label_index": "1878",
+                "label_index": "@P1878",
                 "label_korean": "아래 화살표 버튼",
                 "group_id": "34282",
                 "req_frame_id": "103143",
@@ -3644,7 +3644,7 @@
             {
                 "position": 19,
                 "mnemonic": "MP_TOUCHE_MUTE",
-                "label_index": "36690",
+                "label_index": "@P36690",
                 "label_korean": "소리끔 버튼",
                 "group_id": "34282",
                 "req_frame_id": "103143",
@@ -3669,7 +3669,7 @@
             {
                 "position": 20,
                 "mnemonic": "MP_MOLETTE_VOLUME",
-                "label_index": "19215",
+                "label_index": "@P19215",
                 "label_korean": "볼륨 스위치",
                 "group_id": "34282",
                 "req_frame_id": "103143",
@@ -3685,8 +3685,8 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "22183, 18844",
-                "help_korean": "오디오 시스템 제어 노브를 통해서 볼륨 감소 또는 증가 요청에 해당된다.\n과 사이에서 축정된 값-127 128"
+                "help_code": "@P22183@T.@\\n@P18844@\\*-127@\\*+128",
+                "help_korean": "오디오 시스템 제어 노브를 통해서 볼륨 감소 또는 증가 요청에 해당된다.\n과 사이에서 축정된 값-127+128"
             }
         ]
     },
@@ -3699,7 +3699,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_TOUCHE_EJECTION_DISQUE",
-                "label_index": "12045",
+                "label_index": "@P12045",
                 "label_korean": "디스크 추출 버튼",
                 "group_id": "34282",
                 "req_frame_id": "103143",
@@ -3721,7 +3721,7 @@
             {
                 "position": 2,
                 "mnemonic": "MP_MOLETTE_VOLUME",
-                "label_index": "19215",
+                "label_index": "@P19215",
                 "label_korean": "볼륨 스위치",
                 "group_id": "34282",
                 "req_frame_id": "103143",
@@ -3737,13 +3737,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "22183, 18844",
-                "help_korean": "오디오 시스템 제어 노브를 통해서 볼륨 감소 또는 증가 요청에 해당된다.\n과 사이에서 축정된 값-127 128"
+                "help_code": "@P22183@T.@\\n@P18844@\\*-127@\\*+128",
+                "help_korean": "오디오 시스템 제어 노브를 통해서 볼륨 감소 또는 증가 요청에 해당된다.\n과 사이에서 축정된 값-127+128"
             },
             {
                 "position": 3,
                 "mnemonic": "MP_TOUCHE_NAV",
-                "label_index": "14331",
+                "label_index": "@P14331",
                 "label_korean": "NAV 버튼",
                 "group_id": "34282",
                 "req_frame_id": "103143",
@@ -3768,7 +3768,7 @@
             {
                 "position": 4,
                 "mnemonic": "MP_TOUCHE_DRIVE",
-                "label_index": "18564",
+                "label_index": "@P18564@\\*DRIVE",
                 "label_korean": "버튼DRIVE",
                 "group_id": "34282",
                 "req_frame_id": "103143",
@@ -3793,7 +3793,7 @@
             {
                 "position": 5,
                 "mnemonic": "MP_TOUCHE_MEDIA",
-                "label_index": "5608",
+                "label_index": "@F5608",
                 "label_korean": "미디어 버튼",
                 "group_id": "34282",
                 "req_frame_id": "103143",
@@ -3818,7 +3818,7 @@
             {
                 "position": 6,
                 "mnemonic": "MP_TOUCHE_FLECHE_VERS_LA_GAUCHE",
-                "label_index": "4477",
+                "label_index": "@P4477",
                 "label_korean": "좌측 화살표 버튼",
                 "group_id": "34282",
                 "req_frame_id": "103143",
@@ -3840,7 +3840,7 @@
             {
                 "position": 7,
                 "mnemonic": "MP_TOUCHE_FLECHE_VERS_LA_DROITE",
-                "label_index": "10437",
+                "label_index": "@P10437",
                 "label_korean": "우측 화살표 버튼",
                 "group_id": "34282",
                 "req_frame_id": "103143",
@@ -3862,8 +3862,8 @@
             {
                 "position": 8,
                 "mnemonic": "MP_TOUCHE_ZOOM_PLUS",
-                "label_index": "35743",
-                "label_korean": "줌버튼",
+                "label_index": "@P35743@\\*+",
+                "label_korean": "줌버튼+",
                 "group_id": "34282",
                 "req_frame_id": "103143",
                 "resp_frame_id": "103144",
@@ -3884,7 +3884,7 @@
             {
                 "position": 9,
                 "mnemonic": "MP_TOUCHE_ZOOM_MOINS",
-                "label_index": "35743",
+                "label_index": "@P35743@\\*-",
                 "label_korean": "줌버튼-",
                 "group_id": "34282",
                 "req_frame_id": "103143",
@@ -3906,7 +3906,7 @@
             {
                 "position": 10,
                 "mnemonic": "MP_TOUCHE_SETUP",
-                "label_index": "13973",
+                "label_index": "@P13973",
                 "label_korean": "설정 버튼",
                 "group_id": "34282",
                 "req_frame_id": "103143",
@@ -3928,7 +3928,7 @@
             {
                 "position": 11,
                 "mnemonic": "MP_TOUCHE_MUTE_1",
-                "label_index": "36690",
+                "label_index": "@P36690",
                 "label_korean": "소리끔 버튼",
                 "group_id": "34282",
                 "req_frame_id": "103143",
@@ -3958,7 +3958,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_TOUCHE_BLACK_PANEL",
-                "label_index": "8876",
+                "label_index": "@P8876",
                 "label_korean": "블랙패널 버튼",
                 "group_id": "34282",
                 "req_frame_id": "103143",

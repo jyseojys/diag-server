@@ -8,7 +8,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_ID_FOURNISSEUR",
-                "label_index": "5701",
+                "label_index": "@P5701",
                 "label_korean": "제조 업체명",
                 "group_id": "104309",
                 "req_frame_id": "313272",
@@ -35,7 +35,7 @@
             {
                 "position": 2,
                 "mnemonic": "ID_REFERENCE_MATERIEL",
-                "label_index": "1071",
+                "label_index": "@P1071",
                 "label_korean": "장치 부품 번호",
                 "group_id": "104309",
                 "req_frame_id": "313272",
@@ -57,7 +57,7 @@
             {
                 "position": 3,
                 "mnemonic": "ID_REFERENCE_COMPLEMENTAIRE_MATERIEL",
-                "label_index": "1634",
+                "label_index": "@P1634",
                 "label_korean": "장치 추가 참조 번호",
                 "group_id": "104309",
                 "req_frame_id": "313272",
@@ -79,7 +79,7 @@
             {
                 "position": 4,
                 "mnemonic": "ID_VERSION_LOGICIEL_new_1",
-                "label_index": "8662",
+                "label_index": "@P8662@\\*",
                 "label_korean": "소프트웨어 버전",
                 "group_id": "104309",
                 "req_frame_id": "313272",
@@ -101,7 +101,7 @@
             {
                 "position": 5,
                 "mnemonic": "ID_MESS_DIAGNOSTIC",
-                "label_index": "2459",
+                "label_index": "@P2459",
                 "label_korean": "진단 이메일",
                 "group_id": "104309",
                 "req_frame_id": "313272",
@@ -123,7 +123,7 @@
             {
                 "position": 6,
                 "mnemonic": "ID_80_MP_INDICE_MESS",
-                "label_index": "2225",
+                "label_index": "@P2225",
                 "label_korean": "메시지 인덱스",
                 "group_id": "104309",
                 "req_frame_id": "313272",
@@ -145,7 +145,7 @@
             {
                 "position": 7,
                 "mnemonic": "ID_ZI_FILE",
-                "label_index": "3627",
+                "label_index": "@P3627@\\*",
                 "label_korean": "캘리브레이션 파일 번호",
                 "group_id": "104318",
                 "req_frame_id": "313299",
@@ -175,7 +175,7 @@
             {
                 "position": 1,
                 "mnemonic": "ETATARTIV",
-                "label_index": "14622",
+                "label_index": "@P14622",
                 "label_korean": "센서의 상태",
                 "group_id": "104312",
                 "req_frame_id": "313281",
@@ -206,7 +206,7 @@
             {
                 "position": 2,
                 "mnemonic": "DESALIGNEMENT_HORIZONTAL_CAPTEUR",
-                "label_index": "2194",
+                "label_index": "@P2194",
                 "label_korean": "센서의 수평 조정 불량",
                 "group_id": "104312",
                 "req_frame_id": "313281",
@@ -222,13 +222,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "31652, 45341",
+                "help_code": "@P31652@\\*0 @P45341@T.",
                 "help_korean": "최적의 작동을 위해서, 레이다의 수평 정렬 불량의 각도는 반드시 0°로 향해야 한다 이 각도를 조정하려면 센서의 수평 정렬 불량 조정을 참조한다."
             },
             {
                 "position": 3,
                 "mnemonic": "REGLDESALLIGNEMENT",
-                "label_index": "6292",
+                "label_index": "@P6292",
                 "label_korean": "센서의 수평 조정",
                 "group_id": "104312",
                 "req_frame_id": "313281",
@@ -244,13 +244,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "44398, 44399",
-                "help_korean": "정상적인 기능 각도를 얻기 위해서, 센서의 변수가 또는 - 인지에 따라 스크류를 시계 방향 또는 시계 반대 방향으로 돌려야 한다 수평 조정이 0에 매우 근접할 때까지"
+                "help_code": "@P44398@\\+@P44399@\\*0",
+                "help_korean": "정상적인 기능 각도를 얻기 위해서, 센서의 변수가 + 또는 - 인지에 따라 스크류를 시계 방향 또는 시계 반대 방향으로 돌려야 한다수평 조정이 0에 매우 근접할 때까지"
             },
             {
                 "position": 3,
                 "mnemonic": "REGLDESALLIGNEMENT",
-                "label_index": "6292",
+                "label_index": "@P6292",
                 "label_korean": "센서의 수평 조정",
                 "group_id": "104312",
                 "req_frame_id": "313281",
@@ -266,8 +266,8 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "44398, 44399",
-                "help_korean": "정상적인 기능 각도를 얻기 위해서, 센서의 변수가 또는 - 인지에 따라 스크류를 시계 방향 또는 시계 반대 방향으로 돌려야 한다 수평 조정이 0에 매우 근접할 때까지"
+                "help_code": "@P44398@\\+@P44399@\\*0",
+                "help_korean": "정상적인 기능 각도를 얻기 위해서, 센서의 변수가 + 또는 - 인지에 따라 스크류를 시계 방향 또는 시계 반대 방향으로 돌려야 한다수평 조정이 0에 매우 근접할 때까지"
             }
         ]
     }

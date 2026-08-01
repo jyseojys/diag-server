@@ -8,7 +8,7 @@
             {
                 "position": 1,
                 "mnemonic": "ID_NOM_DU_FOURNISSEUR",
-                "label_index": "5701",
+                "label_index": "@P5701",
                 "label_korean": "제조 업체명",
                 "group_id": "50836",
                 "req_frame_id": "152805",
@@ -38,7 +38,7 @@
             {
                 "position": 2,
                 "mnemonic": "ID_REFERENCE_MATERIEL",
-                "label_index": "1071",
+                "label_index": "@P1071",
                 "label_korean": "장치 부품 번호",
                 "group_id": "50836",
                 "req_frame_id": "152805",
@@ -60,7 +60,7 @@
             {
                 "position": 3,
                 "mnemonic": "ID_REFERENCE_COMPLEMENTAIRE_MATERIEL",
-                "label_index": "1634",
+                "label_index": "@P1634",
                 "label_korean": "장치 추가 참조 번호",
                 "group_id": "50836",
                 "req_frame_id": "152805",
@@ -82,7 +82,7 @@
             {
                 "position": 4,
                 "mnemonic": "ID_REFERENCE_LOGICIEL",
-                "label_index": "13263",
+                "label_index": "@P13263",
                 "label_korean": "소프트웨어 번호",
                 "group_id": "50839",
                 "req_frame_id": "152814",
@@ -104,7 +104,7 @@
             {
                 "position": 5,
                 "mnemonic": "ID_TRACABILITE_INDICE_EVOLUTION_EDITION",
-                "label_index": "13235",
+                "label_index": "@P13235@\\*",
                 "label_korean": "소프트웨어 버전",
                 "group_id": "50839",
                 "req_frame_id": "152814",
@@ -126,7 +126,7 @@
             {
                 "position": 6,
                 "mnemonic": "ID_DATE_TELECH",
-                "label_index": "21670",
+                "label_index": "@P21670",
                 "label_korean": "다운로딩 날짜",
                 "group_id": "50839",
                 "req_frame_id": "152814",
@@ -148,7 +148,7 @@
             {
                 "position": 7,
                 "mnemonic": "ID_NOMBRE_DE_TELECHARGEMENT",
-                "label_index": "24589",
+                "label_index": "@P24589",
                 "label_korean": "다운로드의 수",
                 "group_id": "50839",
                 "req_frame_id": "152814",
@@ -170,7 +170,7 @@
             {
                 "position": 8,
                 "mnemonic": "ID_TRACA_NUM_SERIE_ASCII",
-                "label_index": "7592",
+                "label_index": "@P7592",
                 "label_korean": "부품 일련 번호",
                 "group_id": "50838",
                 "req_frame_id": "152811",
@@ -192,7 +192,7 @@
             {
                 "position": 9,
                 "mnemonic": "ID_TRACABILITE_DATE_FABRICATION",
-                "label_index": "14355",
+                "label_index": "@P14355",
                 "label_korean": "제조일자",
                 "group_id": "50837",
                 "req_frame_id": "152808",
@@ -222,7 +222,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_PRESENCE_REMORQUE",
-                "label_index": "14559",
+                "label_index": "@P14559",
                 "label_korean": "트레일러 및 트레일러 퓨즈 박스 정보",
                 "group_id": "50851",
                 "req_frame_id": "152850",
@@ -243,13 +243,13 @@
                 "bit_mask": 24,
                 "bit_shift": 3,
                 "dynamic_arg": "",
-                "help_code": "44691, 34709, 44717",
+                "help_code": "@P44691@T. @\\+@P34709@T. @\\n@P44717",
                 "help_korean": "트레일러 퓨즈 박스 및 트레일러 존재에 관한 정보를 제공한다. 트레일러가 차량에 장착되어 있으면, 시스템은 차단된다.\nBSI를 통해 트레일러 퓨즈 박스로부터 오는 정보"
             },
             {
                 "position": 2,
                 "mnemonic": "MP_ETAT_PUSH_INHIBITION",
-                "label_index": "9300",
+                "label_index": "@P9300",
                 "label_korean": "차단 버튼 상태",
                 "group_id": "50851",
                 "req_frame_id": "152850",
@@ -265,13 +265,13 @@
                 "bit_mask": 2,
                 "bit_shift": 1,
                 "dynamic_arg": "",
-                "help_code": "44718, 25529, 37285",
+                "help_code": "@P44718@T.@\\n@P25529@T.@\\n@P37285@T.",
                 "help_korean": "장애물 감지 작동 중지 스위치.\nBSI로 부터 정보.\n이 변수는 차량에 이 기능이 장착될 경우에만 작동한다."
             },
             {
                 "position": 3,
                 "mnemonic": "MP_ETAT_AAS_ARRIERE",
-                "label_index": "2577",
+                "label_index": "@P2577",
                 "label_korean": "리어 주차 지원 상태",
                 "group_id": "50851",
                 "req_frame_id": "152850",
@@ -287,13 +287,13 @@
                 "bit_mask": 224,
                 "bit_shift": 5,
                 "dynamic_arg": "",
-                "help_code": "41966",
+                "help_code": "@P41966",
                 "help_korean": "리어 장애물 감지의 작동 상태 (ECU 내부 정보)"
             },
             {
                 "position": 4,
                 "mnemonic": "MP_ETAT_AAS_AV",
-                "label_index": "8255",
+                "label_index": "@P8255",
                 "label_korean": "프론트 주차 지원 상태",
                 "group_id": "50851",
                 "req_frame_id": "152850",
@@ -309,13 +309,13 @@
                 "bit_mask": 28,
                 "bit_shift": 2,
                 "dynamic_arg": "",
-                "help_code": "12488",
+                "help_code": "@P12488",
                 "help_korean": "프론트 주차 지원 시스템에 관한 정보를 제공한다"
             },
             {
                 "position": 5,
                 "mnemonic": "MP_ETAT_CAPTEUR_LATERAL_AVANT_DROITE",
-                "label_index": "63312",
+                "label_index": "@P63312",
                 "label_korean": "프론트 우측 주차 지원 센서의 상태",
                 "group_id": "50851",
                 "req_frame_id": "152850",
@@ -340,7 +340,7 @@
             {
                 "position": 6,
                 "mnemonic": "MP_ETAT_CAPTEUR_AVANT_DROITE_EXTERIEUR",
-                "label_index": "60871",
+                "label_index": "@P60871",
                 "label_korean": "외부 프론트 우측 주차 지원 센서 상태",
                 "group_id": "50851",
                 "req_frame_id": "152850",
@@ -365,7 +365,7 @@
             {
                 "position": 7,
                 "mnemonic": "MP_ETAT_CAPTEUR_AVANT_DROITE_INTRIEUR",
-                "label_index": "60902",
+                "label_index": "@P60902",
                 "label_korean": "내부 프론트 우측 주차 지원 센서 상태",
                 "group_id": "50851",
                 "req_frame_id": "152850",
@@ -390,7 +390,7 @@
             {
                 "position": 8,
                 "mnemonic": "MP_ETAT_CAPTEUR_AVANT_GAUCHE_INTERIEUR",
-                "label_index": "60868",
+                "label_index": "@P60868",
                 "label_korean": "내부 프론트 좌측 주차 지원 센서 상태",
                 "group_id": "50851",
                 "req_frame_id": "152850",
@@ -415,7 +415,7 @@
             {
                 "position": 9,
                 "mnemonic": "MP_ETAT_CAPTEUR_AVANT_GAUCHE_EXTERIEUR",
-                "label_index": "60870",
+                "label_index": "@P60870",
                 "label_korean": "외부 프론트 좌측 주차 지원 센서 상태",
                 "group_id": "50851",
                 "req_frame_id": "152850",
@@ -440,7 +440,7 @@
             {
                 "position": 10,
                 "mnemonic": "MP_ETAT_CAPTEUR_LATERAL_AVANT_GAUCHE",
-                "label_index": "60911",
+                "label_index": "@P60911",
                 "label_korean": "프론트 좌측 주차 지원 센서 상태",
                 "group_id": "50851",
                 "req_frame_id": "152850",
@@ -465,7 +465,7 @@
             {
                 "position": 11,
                 "mnemonic": "MP_ETAT_CAPTEUR_LATERAL_ARRIERE_GAUCHE",
-                "label_index": "60910",
+                "label_index": "@P60910",
                 "label_korean": "리어 좌측 주차 지원 센서 상태",
                 "group_id": "50851",
                 "req_frame_id": "152850",
@@ -490,7 +490,7 @@
             {
                 "position": 12,
                 "mnemonic": "MP_ETAT_CAPTEUR_ARRIERE_GAUCHE_EXTERIEUR",
-                "label_index": "37978",
+                "label_index": "@P37978",
                 "label_korean": "리어 좌측 바깥쪽 주차 지원 센서 상태",
                 "group_id": "50851",
                 "req_frame_id": "152850",
@@ -515,7 +515,7 @@
             {
                 "position": 13,
                 "mnemonic": "MP_ETAT_CAPTEUR_ARRIERE_GAUCHE_INTERIEUR",
-                "label_index": "37977",
+                "label_index": "@P37977",
                 "label_korean": "리어 좌측 안쪽 주차 지원 센서 상태",
                 "group_id": "50851",
                 "req_frame_id": "152850",
@@ -540,7 +540,7 @@
             {
                 "position": 14,
                 "mnemonic": "MP_ETAT_CAPTEUR_ARRIERE_DROITE_INTERIEUR",
-                "label_index": "37976",
+                "label_index": "@P37976",
                 "label_korean": "리어 우측 안쪽 주차 지원 센서 상태",
                 "group_id": "50851",
                 "req_frame_id": "152850",
@@ -565,7 +565,7 @@
             {
                 "position": 15,
                 "mnemonic": "MP_ETAT_CAPTEUR_ARRIERE_DROITE_EXTERIEUR",
-                "label_index": "37975",
+                "label_index": "@P37975",
                 "label_korean": "리어 우측 바깥쪽 주차 지원 센서 상태",
                 "group_id": "50851",
                 "req_frame_id": "152850",
@@ -590,7 +590,7 @@
             {
                 "position": 16,
                 "mnemonic": "MP_ETAT_CAPTEUR_LATERAL_ARRIERE_DROITE",
-                "label_index": "60912",
+                "label_index": "@P60912",
                 "label_korean": "리어 우측 주차 지원 센서 상태",
                 "group_id": "50851",
                 "req_frame_id": "152850",
@@ -623,7 +623,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_AAS_UDS_COMPTEUR_DE_TEMPS_26",
-                "label_index": "17808",
+                "label_index": "@P17808",
                 "label_korean": "시간 카운터",
                 "group_id": "50850",
                 "req_frame_id": "152847",
@@ -639,13 +639,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "52211",
+                "help_code": "@P52211",
                 "help_korean": "저장 중 경과 시간"
             },
             {
                 "position": 2,
                 "mnemonic": "MP_AAS_UDS_ETAT_MOTEUR_TOURNANT_16",
-                "label_index": "10950",
+                "label_index": "@P10950",
                 "label_korean": "엔진 구동 상태",
                 "group_id": "50850",
                 "req_frame_id": "152847",
@@ -679,7 +679,7 @@
             {
                 "position": 3,
                 "mnemonic": "MP_AAS_UDS_ETAT_ANTIVOL_DIRECTION_COMMUTATEUR_DEM_MOTEUR_16",
-                "label_index": "52002",
+                "label_index": "@P52002",
                 "label_korean": "스티어링 잠금 장치/엔진 시동 스위치의 상태",
                 "group_id": "50850",
                 "req_frame_id": "152847",
@@ -706,7 +706,7 @@
             {
                 "position": 4,
                 "mnemonic": "MP_AAS_UDS_ETATS_DES_OUVRANTS_AU_MOMENT_DU_DEFAUT_16",
-                "label_index": "52011",
+                "label_index": "@P52011",
                 "label_korean": "결함 발생 시 열림 요소의 상태",
                 "group_id": "매핑_누락",
                 "req_frame_id": "",
@@ -755,13 +755,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "52219",
+                "help_code": "@P52219",
                 "help_korean": "\"트렁크\"는 테일게이트 또는 트렁크 덮개를 의미"
             },
             {
                 "position": 5,
                 "mnemonic": "MP_AAS_UDS_ESP_EN_REGULATION_16",
-                "label_index": "51995",
+                "label_index": "@P51995",
                 "label_korean": "ESP 제어",
                 "group_id": "50850",
                 "req_frame_id": "152847",
@@ -786,7 +786,7 @@
             {
                 "position": 6,
                 "mnemonic": "MP_AAS_UDS_ETAT_ESP_ASR_16",
-                "label_index": "16270",
+                "label_index": "@P16270@T/@F14664",
                 "label_korean": "ESP 상태/ASR",
                 "group_id": "50850",
                 "req_frame_id": "152847",
@@ -811,7 +811,7 @@
             {
                 "position": 7,
                 "mnemonic": "MP_AAS_UDS_ETAT_DIRECTION_ASSISTEE_POUR_SYSTEME_STAT_SEMI_AUTO_1",
-                "label_index": "51996",
+                "label_index": "@P51996",
                 "label_korean": "반자동 주차 시스템을 위한 파워 스티어링의 상태",
                 "group_id": "50850",
                 "req_frame_id": "152847",
@@ -838,7 +838,7 @@
             {
                 "position": 8,
                 "mnemonic": "MP_AAS_UDS_CAUSE_DESACTIVATION_SYSTEME_STAT_SEMI_AUTO_1",
-                "label_index": "35599",
+                "label_index": "@P35599",
                 "label_korean": "반자동 주차 시스템의 차단 원인",
                 "group_id": "50850",
                 "req_frame_id": "152847",
@@ -869,7 +869,7 @@
             {
                 "position": 9,
                 "mnemonic": "MP_AAS_UDS_APPUI_SELECTION_STAT_SEMI_SUR_ECRAN_TACTILE_702_1",
-                "label_index": "52021",
+                "label_index": "@P52021",
                 "label_korean": "다기능 터치 스크린의 반자동 주차 시스템 선택 버튼을 누른다",
                 "group_id": "50850",
                 "req_frame_id": "152847",
@@ -894,7 +894,7 @@
             {
                 "position": 10,
                 "mnemonic": "MP_AAS_UDS_PRISE_EN_MAIN_CONDUCTEUR_DETECTE_1",
-                "label_index": "52009",
+                "label_index": "@P52009",
                 "label_korean": "운전자 제어 감지됨",
                 "group_id": "50850",
                 "req_frame_id": "152847",
@@ -919,7 +919,7 @@
             {
                 "position": 11,
                 "mnemonic": "MP_AAS_UDS_ABANDON_MANOEUVRE_SUITE_TRAJECTOIRE_NON_CONFORME_6",
-                "label_index": "51994",
+                "label_index": "@P51994",
                 "label_korean": "잘못된 궤적 이후 조작 포기",
                 "group_id": "50850",
                 "req_frame_id": "152847",
@@ -944,7 +944,7 @@
             {
                 "position": 12,
                 "mnemonic": "MP_AAS_UDS_COHERENCE_ENTRE_CLIGNOTANT_ET_MANOEUVRE_0702_1",
-                "label_index": "52018",
+                "label_index": "@P52018",
                 "label_korean": "방향 지시등 컨트롤과 조작 방향 사이의 일치",
                 "group_id": "50850",
                 "req_frame_id": "152847",
@@ -969,7 +969,7 @@
             {
                 "position": 13,
                 "mnemonic": "MP_AAS_UDS_CEINTURE_DE_SECURITE_NON_BOUCLEE_0702_1",
-                "label_index": "52004",
+                "label_index": "@P52004",
                 "label_korean": "시트 벨트 미착용",
                 "group_id": "50850",
                 "req_frame_id": "152847",
@@ -994,7 +994,7 @@
             {
                 "position": 14,
                 "mnemonic": "MP_AAS_UDS_PRESENCE_REMORQUE_702_1",
-                "label_index": "12134",
+                "label_index": "@P12134",
                 "label_korean": "트레일러 장착",
                 "group_id": "50850",
                 "req_frame_id": "152847",
@@ -1019,7 +1019,7 @@
             {
                 "position": 15,
                 "mnemonic": "MP_AAS_UDS_ROUE_DE_SECOURS_DETECTEE_702_1",
-                "label_index": "51997",
+                "label_index": "@P51997",
                 "label_korean": "스페어 휠 감지됨",
                 "group_id": "50850",
                 "req_frame_id": "152847",
@@ -1044,7 +1044,7 @@
             {
                 "position": 16,
                 "mnemonic": "MP_AAS_UDS_INFORMATION_SUR_CHOC_TRANSMIS_SYSTEME_STAT_SEMI_702_1",
-                "label_index": "52001",
+                "label_index": "@P52001",
                 "label_korean": "반자동 주차 시스템에 전송된 충격 정보",
                 "group_id": "50850",
                 "req_frame_id": "152847",
@@ -1069,7 +1069,7 @@
             {
                 "position": 17,
                 "mnemonic": "MP_AAS_UDS_DEFAUT_INTERNE_SUR_FLUX_DONNEES_702_1",
-                "label_index": "52016",
+                "label_index": "@P52016",
                 "label_korean": "데이터 스트림의 내부 결함",
                 "group_id": "50850",
                 "req_frame_id": "152847",
@@ -1094,7 +1094,7 @@
             {
                 "position": 18,
                 "mnemonic": "MP_AAS_UDS_CAPTEUR_ANGLE_VOLANT_VIRTUEL_EN_DEFAUT_702_1",
-                "label_index": "51998",
+                "label_index": "@P51998",
                 "label_korean": "가상 스티어링 휠 각도 센서 결함",
                 "group_id": "50850",
                 "req_frame_id": "152847",
@@ -1127,7 +1127,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_AAS_UDS_COMPTEUR_DE_TEMPS_27",
-                "label_index": "17808",
+                "label_index": "@P17808",
                 "label_korean": "시간 카운터",
                 "group_id": "50850",
                 "req_frame_id": "152847",
@@ -1143,13 +1143,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "52211",
+                "help_code": "@P52211",
                 "help_korean": "저장 중 경과 시간"
             },
             {
                 "position": 2,
                 "mnemonic": "MP_AAS_UDS_ETAT_MOTEUR_TOURNANT_17",
-                "label_index": "10950",
+                "label_index": "@P10950",
                 "label_korean": "엔진 구동 상태",
                 "group_id": "50850",
                 "req_frame_id": "152847",
@@ -1183,7 +1183,7 @@
             {
                 "position": 3,
                 "mnemonic": "MP_AAS_UDS_ETAT_ANTIVOL_DIRECTION_COMMUTATEUR_DEM_MOTEUR_17",
-                "label_index": "52002",
+                "label_index": "@P52002",
                 "label_korean": "스티어링 잠금 장치/엔진 시동 스위치의 상태",
                 "group_id": "50850",
                 "req_frame_id": "152847",
@@ -1210,7 +1210,7 @@
             {
                 "position": 4,
                 "mnemonic": "MP_AAS_UDS_ETATS_DES_OUVRANTS_AU_MOMENT_DU_DEFAUT_17",
-                "label_index": "52011",
+                "label_index": "@P52011",
                 "label_korean": "결함 발생 시 열림 요소의 상태",
                 "group_id": "매핑_누락",
                 "req_frame_id": "",
@@ -1259,13 +1259,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "52219",
+                "help_code": "@P52219",
                 "help_korean": "\"트렁크\"는 테일게이트 또는 트렁크 덮개를 의미"
             },
             {
                 "position": 5,
                 "mnemonic": "MP_AAS_UDS_ESP_EN_REGULATION_17",
-                "label_index": "51995",
+                "label_index": "@P51995",
                 "label_korean": "ESP 제어",
                 "group_id": "50850",
                 "req_frame_id": "152847",
@@ -1290,7 +1290,7 @@
             {
                 "position": 6,
                 "mnemonic": "MP_AAS_UDS_ETAT_ESP_ASR_17",
-                "label_index": "16270",
+                "label_index": "@P16270@T/@F14664",
                 "label_korean": "ESP 상태/ASR",
                 "group_id": "50850",
                 "req_frame_id": "152847",
@@ -1315,7 +1315,7 @@
             {
                 "position": 7,
                 "mnemonic": "MP_AAS_UDS_ETAT_DIRECTION_ASSISTEE_POUR_SYSTEME_STAT_SEMI_AUTO_2",
-                "label_index": "51996",
+                "label_index": "@P51996",
                 "label_korean": "반자동 주차 시스템을 위한 파워 스티어링의 상태",
                 "group_id": "50850",
                 "req_frame_id": "152847",
@@ -1342,7 +1342,7 @@
             {
                 "position": 8,
                 "mnemonic": "MP_AAS_UDS_CAUSE_DESACTIVATION_SYSTEME_STAT_SEMI_AUTO_2",
-                "label_index": "35599",
+                "label_index": "@P35599",
                 "label_korean": "반자동 주차 시스템의 차단 원인",
                 "group_id": "50850",
                 "req_frame_id": "152847",
@@ -1373,7 +1373,7 @@
             {
                 "position": 9,
                 "mnemonic": "MP_AAS_UDS_APPUI_SELECTION_STAT_SEMI_SUR_ECRAN_TACTILE_702_2",
-                "label_index": "52021",
+                "label_index": "@P52021",
                 "label_korean": "다기능 터치 스크린의 반자동 주차 시스템 선택 버튼을 누른다",
                 "group_id": "50850",
                 "req_frame_id": "152847",
@@ -1398,7 +1398,7 @@
             {
                 "position": 10,
                 "mnemonic": "MP_AAS_UDS_PRISE_EN_MAIN_CONDUCTEUR_DETECTE_2",
-                "label_index": "52009",
+                "label_index": "@P52009",
                 "label_korean": "운전자 제어 감지됨",
                 "group_id": "50850",
                 "req_frame_id": "152847",
@@ -1423,7 +1423,7 @@
             {
                 "position": 11,
                 "mnemonic": "MP_AAS_UDS_ABANDON_MANOEUVRE_SUITE_TRAJECTOIRE_NON_CONFORME_7",
-                "label_index": "51994",
+                "label_index": "@P51994",
                 "label_korean": "잘못된 궤적 이후 조작 포기",
                 "group_id": "50850",
                 "req_frame_id": "152847",
@@ -1448,7 +1448,7 @@
             {
                 "position": 12,
                 "mnemonic": "MP_AAS_UDS_COHERENCE_ENTRE_CLIGNOTANT_ET_MANOEUVRE_0702_2",
-                "label_index": "52018",
+                "label_index": "@P52018",
                 "label_korean": "방향 지시등 컨트롤과 조작 방향 사이의 일치",
                 "group_id": "50850",
                 "req_frame_id": "152847",
@@ -1473,7 +1473,7 @@
             {
                 "position": 13,
                 "mnemonic": "MP_AAS_UDS_CEINTURE_DE_SECURITE_NON_BOUCLEE_0702_2",
-                "label_index": "52004",
+                "label_index": "@P52004",
                 "label_korean": "시트 벨트 미착용",
                 "group_id": "50850",
                 "req_frame_id": "152847",
@@ -1498,7 +1498,7 @@
             {
                 "position": 14,
                 "mnemonic": "MP_AAS_UDS_PRESENCE_REMORQUE_702_2",
-                "label_index": "12134",
+                "label_index": "@P12134",
                 "label_korean": "트레일러 장착",
                 "group_id": "50850",
                 "req_frame_id": "152847",
@@ -1523,7 +1523,7 @@
             {
                 "position": 15,
                 "mnemonic": "MP_AAS_UDS_ROUE_DE_SECOURS_DETECTEE_702_2",
-                "label_index": "51997",
+                "label_index": "@P51997",
                 "label_korean": "스페어 휠 감지됨",
                 "group_id": "50850",
                 "req_frame_id": "152847",
@@ -1548,7 +1548,7 @@
             {
                 "position": 16,
                 "mnemonic": "MP_AAS_UDS_INFORMATION_SUR_CHOC_TRANSMIS_SYSTEME_STAT_SEMI_702_2",
-                "label_index": "52001",
+                "label_index": "@P52001",
                 "label_korean": "반자동 주차 시스템에 전송된 충격 정보",
                 "group_id": "50850",
                 "req_frame_id": "152847",
@@ -1573,7 +1573,7 @@
             {
                 "position": 17,
                 "mnemonic": "MP_AAS_UDS_DEFAUT_INTERNE_SUR_FLUX_DONNEES_702_2",
-                "label_index": "52016",
+                "label_index": "@P52016",
                 "label_korean": "데이터 스트림의 내부 결함",
                 "group_id": "50850",
                 "req_frame_id": "152847",
@@ -1598,7 +1598,7 @@
             {
                 "position": 18,
                 "mnemonic": "MP_AAS_UDS_CAPTEUR_ANGLE_VOLANT_VIRTUEL_EN_DEFAUT_702_2",
-                "label_index": "51998",
+                "label_index": "@P51998",
                 "label_korean": "가상 스티어링 휠 각도 센서 결함",
                 "group_id": "50850",
                 "req_frame_id": "152847",
@@ -1631,7 +1631,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_AAS_UDS_COMPTEUR_DE_TEMPS_28",
-                "label_index": "17808",
+                "label_index": "@P17808",
                 "label_korean": "시간 카운터",
                 "group_id": "50850",
                 "req_frame_id": "152847",
@@ -1647,13 +1647,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "52211",
+                "help_code": "@P52211",
                 "help_korean": "저장 중 경과 시간"
             },
             {
                 "position": 2,
                 "mnemonic": "MP_AAS_UDS_ETAT_MOTEUR_TOURNANT_18",
-                "label_index": "10950",
+                "label_index": "@P10950",
                 "label_korean": "엔진 구동 상태",
                 "group_id": "50850",
                 "req_frame_id": "152847",
@@ -1687,7 +1687,7 @@
             {
                 "position": 3,
                 "mnemonic": "MP_AAS_UDS_ETAT_ANTIVOL_DIRECTION_COMMUTATEUR_DEM_MOTEUR_18",
-                "label_index": "52002",
+                "label_index": "@P52002",
                 "label_korean": "스티어링 잠금 장치/엔진 시동 스위치의 상태",
                 "group_id": "50850",
                 "req_frame_id": "152847",
@@ -1714,7 +1714,7 @@
             {
                 "position": 4,
                 "mnemonic": "MP_AAS_UDS_ETATS_DES_OUVRANTS_AU_MOMENT_DU_DEFAUT_18",
-                "label_index": "52011",
+                "label_index": "@P52011",
                 "label_korean": "결함 발생 시 열림 요소의 상태",
                 "group_id": "매핑_누락",
                 "req_frame_id": "",
@@ -1763,13 +1763,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "52219",
+                "help_code": "@P52219",
                 "help_korean": "\"트렁크\"는 테일게이트 또는 트렁크 덮개를 의미"
             },
             {
                 "position": 5,
                 "mnemonic": "MP_AAS_UDS_ESP_EN_REGULATION_18",
-                "label_index": "51995",
+                "label_index": "@P51995",
                 "label_korean": "ESP 제어",
                 "group_id": "50850",
                 "req_frame_id": "152847",
@@ -1794,7 +1794,7 @@
             {
                 "position": 6,
                 "mnemonic": "MP_AAS_UDS_ETAT_ESP_ASR_18",
-                "label_index": "16270",
+                "label_index": "@P16270@T/@F14664",
                 "label_korean": "ESP 상태/ASR",
                 "group_id": "50850",
                 "req_frame_id": "152847",
@@ -1819,7 +1819,7 @@
             {
                 "position": 7,
                 "mnemonic": "MP_AAS_UDS_ETAT_DIRECTION_ASSISTEE_POUR_SYSTEME_STAT_SEMI_AUTO_3",
-                "label_index": "51996",
+                "label_index": "@P51996",
                 "label_korean": "반자동 주차 시스템을 위한 파워 스티어링의 상태",
                 "group_id": "50850",
                 "req_frame_id": "152847",
@@ -1846,7 +1846,7 @@
             {
                 "position": 8,
                 "mnemonic": "MP_AAS_UDS_CAUSE_DESACTIVATION_SYSTEME_STAT_SEMI_AUTO_3",
-                "label_index": "35599",
+                "label_index": "@P35599",
                 "label_korean": "반자동 주차 시스템의 차단 원인",
                 "group_id": "50850",
                 "req_frame_id": "152847",
@@ -1877,7 +1877,7 @@
             {
                 "position": 9,
                 "mnemonic": "MP_AAS_UDS_APPUI_SELECTION_STAT_SEMI_SUR_ECRAN_TACTILE_702_3",
-                "label_index": "52021",
+                "label_index": "@P52021",
                 "label_korean": "다기능 터치 스크린의 반자동 주차 시스템 선택 버튼을 누른다",
                 "group_id": "50850",
                 "req_frame_id": "152847",
@@ -1902,7 +1902,7 @@
             {
                 "position": 10,
                 "mnemonic": "MP_AAS_UDS_PRISE_EN_MAIN_CONDUCTEUR_DETECTE_3",
-                "label_index": "52009",
+                "label_index": "@P52009",
                 "label_korean": "운전자 제어 감지됨",
                 "group_id": "50850",
                 "req_frame_id": "152847",
@@ -1927,7 +1927,7 @@
             {
                 "position": 11,
                 "mnemonic": "MP_AAS_UDS_ABANDON_MANOEUVRE_SUITE_TRAJECTOIRE_NON_CONFORME_8",
-                "label_index": "51994",
+                "label_index": "@P51994",
                 "label_korean": "잘못된 궤적 이후 조작 포기",
                 "group_id": "50850",
                 "req_frame_id": "152847",
@@ -1952,7 +1952,7 @@
             {
                 "position": 12,
                 "mnemonic": "MP_AAS_UDS_COHERENCE_ENTRE_CLIGNOTANT_ET_MANOEUVRE_0702_3",
-                "label_index": "52018",
+                "label_index": "@P52018",
                 "label_korean": "방향 지시등 컨트롤과 조작 방향 사이의 일치",
                 "group_id": "50850",
                 "req_frame_id": "152847",
@@ -1977,7 +1977,7 @@
             {
                 "position": 13,
                 "mnemonic": "MP_AAS_UDS_CEINTURE_DE_SECURITE_NON_BOUCLEE_0702_3",
-                "label_index": "52004",
+                "label_index": "@P52004",
                 "label_korean": "시트 벨트 미착용",
                 "group_id": "50850",
                 "req_frame_id": "152847",
@@ -2002,7 +2002,7 @@
             {
                 "position": 14,
                 "mnemonic": "MP_AAS_UDS_PRESENCE_REMORQUE_702_3",
-                "label_index": "12134",
+                "label_index": "@P12134",
                 "label_korean": "트레일러 장착",
                 "group_id": "50850",
                 "req_frame_id": "152847",
@@ -2027,7 +2027,7 @@
             {
                 "position": 15,
                 "mnemonic": "MP_AAS_UDS_ROUE_DE_SECOURS_DETECTEE_702_3",
-                "label_index": "51997",
+                "label_index": "@P51997",
                 "label_korean": "스페어 휠 감지됨",
                 "group_id": "50850",
                 "req_frame_id": "152847",
@@ -2052,7 +2052,7 @@
             {
                 "position": 16,
                 "mnemonic": "MP_AAS_UDS_INFORMATION_SUR_CHOC_TRANSMIS_SYSTEME_STAT_SEMI_702_3",
-                "label_index": "52001",
+                "label_index": "@P52001",
                 "label_korean": "반자동 주차 시스템에 전송된 충격 정보",
                 "group_id": "50850",
                 "req_frame_id": "152847",
@@ -2077,7 +2077,7 @@
             {
                 "position": 17,
                 "mnemonic": "MP_AAS_UDS_DEFAUT_INTERNE_SUR_FLUX_DONNEES_702_3",
-                "label_index": "52016",
+                "label_index": "@P52016",
                 "label_korean": "데이터 스트림의 내부 결함",
                 "group_id": "50850",
                 "req_frame_id": "152847",
@@ -2102,7 +2102,7 @@
             {
                 "position": 18,
                 "mnemonic": "MP_AAS_UDS_CAPTEUR_ANGLE_VOLANT_VIRTUEL_EN_DEFAUT_702_3",
-                "label_index": "51998",
+                "label_index": "@P51998",
                 "label_korean": "가상 스티어링 휠 각도 센서 결함",
                 "group_id": "50850",
                 "req_frame_id": "152847",
@@ -2135,7 +2135,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_AAS_UDS_COMPTEUR_DE_TEMPS_29",
-                "label_index": "17808",
+                "label_index": "@P17808",
                 "label_korean": "시간 카운터",
                 "group_id": "50850",
                 "req_frame_id": "152847",
@@ -2151,13 +2151,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "52211",
+                "help_code": "@P52211",
                 "help_korean": "저장 중 경과 시간"
             },
             {
                 "position": 2,
                 "mnemonic": "MP_AAS_UDS_ETAT_MOTEUR_TOURNANT_19",
-                "label_index": "10950",
+                "label_index": "@P10950",
                 "label_korean": "엔진 구동 상태",
                 "group_id": "50850",
                 "req_frame_id": "152847",
@@ -2191,7 +2191,7 @@
             {
                 "position": 3,
                 "mnemonic": "MP_AAS_UDS_ETAT_ANTIVOL_DIRECTION_COMMUTATEUR_DEM_MOTEUR_19",
-                "label_index": "52002",
+                "label_index": "@P52002",
                 "label_korean": "스티어링 잠금 장치/엔진 시동 스위치의 상태",
                 "group_id": "50850",
                 "req_frame_id": "152847",
@@ -2218,7 +2218,7 @@
             {
                 "position": 4,
                 "mnemonic": "MP_AAS_UDS_ETATS_DES_OUVRANTS_AU_MOMENT_DU_DEFAUT_19",
-                "label_index": "52011",
+                "label_index": "@P52011",
                 "label_korean": "결함 발생 시 열림 요소의 상태",
                 "group_id": "매핑_누락",
                 "req_frame_id": "",
@@ -2267,13 +2267,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "52219",
+                "help_code": "@P52219",
                 "help_korean": "\"트렁크\"는 테일게이트 또는 트렁크 덮개를 의미"
             },
             {
                 "position": 5,
                 "mnemonic": "MP_AAS_UDS_ESP_EN_REGULATION_19",
-                "label_index": "51995",
+                "label_index": "@P51995",
                 "label_korean": "ESP 제어",
                 "group_id": "50850",
                 "req_frame_id": "152847",
@@ -2298,7 +2298,7 @@
             {
                 "position": 6,
                 "mnemonic": "MP_AAS_UDS_ETAT_ESP_ASR_19",
-                "label_index": "16270",
+                "label_index": "@P16270@T/@F14664",
                 "label_korean": "ESP 상태/ASR",
                 "group_id": "50850",
                 "req_frame_id": "152847",
@@ -2323,7 +2323,7 @@
             {
                 "position": 7,
                 "mnemonic": "MP_AAS_UDS_ETAT_DIRECTION_ASSISTEE_POUR_SYSTEME_STAT_SEMI_AUTO_4",
-                "label_index": "51996",
+                "label_index": "@P51996",
                 "label_korean": "반자동 주차 시스템을 위한 파워 스티어링의 상태",
                 "group_id": "50850",
                 "req_frame_id": "152847",
@@ -2350,7 +2350,7 @@
             {
                 "position": 8,
                 "mnemonic": "MP_AAS_UDS_CAUSE_DESACTIVATION_SYSTEME_STAT_SEMI_AUTO_4",
-                "label_index": "35599",
+                "label_index": "@P35599",
                 "label_korean": "반자동 주차 시스템의 차단 원인",
                 "group_id": "50850",
                 "req_frame_id": "152847",
@@ -2381,7 +2381,7 @@
             {
                 "position": 9,
                 "mnemonic": "MP_AAS_UDS_APPUI_SELECTION_STAT_SEMI_SUR_ECRAN_TACTILE_702_4",
-                "label_index": "52021",
+                "label_index": "@P52021",
                 "label_korean": "다기능 터치 스크린의 반자동 주차 시스템 선택 버튼을 누른다",
                 "group_id": "50850",
                 "req_frame_id": "152847",
@@ -2406,7 +2406,7 @@
             {
                 "position": 10,
                 "mnemonic": "MP_AAS_UDS_PRISE_EN_MAIN_CONDUCTEUR_DETECTE_4",
-                "label_index": "52009",
+                "label_index": "@P52009",
                 "label_korean": "운전자 제어 감지됨",
                 "group_id": "50850",
                 "req_frame_id": "152847",
@@ -2431,7 +2431,7 @@
             {
                 "position": 11,
                 "mnemonic": "MP_AAS_UDS_ABANDON_MANOEUVRE_SUITE_TRAJECTOIRE_NON_CONFORME_9",
-                "label_index": "51994",
+                "label_index": "@P51994",
                 "label_korean": "잘못된 궤적 이후 조작 포기",
                 "group_id": "50850",
                 "req_frame_id": "152847",
@@ -2456,7 +2456,7 @@
             {
                 "position": 12,
                 "mnemonic": "MP_AAS_UDS_COHERENCE_ENTRE_CLIGNOTANT_ET_MANOEUVRE_0702_4",
-                "label_index": "52018",
+                "label_index": "@P52018",
                 "label_korean": "방향 지시등 컨트롤과 조작 방향 사이의 일치",
                 "group_id": "50850",
                 "req_frame_id": "152847",
@@ -2481,7 +2481,7 @@
             {
                 "position": 13,
                 "mnemonic": "MP_AAS_UDS_CEINTURE_DE_SECURITE_NON_BOUCLEE_0702_4",
-                "label_index": "52004",
+                "label_index": "@P52004",
                 "label_korean": "시트 벨트 미착용",
                 "group_id": "50850",
                 "req_frame_id": "152847",
@@ -2506,7 +2506,7 @@
             {
                 "position": 14,
                 "mnemonic": "MP_AAS_UDS_PRESENCE_REMORQUE_702_4",
-                "label_index": "12134",
+                "label_index": "@P12134",
                 "label_korean": "트레일러 장착",
                 "group_id": "50850",
                 "req_frame_id": "152847",
@@ -2531,7 +2531,7 @@
             {
                 "position": 15,
                 "mnemonic": "MP_AAS_UDS_ROUE_DE_SECOURS_DETECTEE_702_4",
-                "label_index": "51997",
+                "label_index": "@P51997",
                 "label_korean": "스페어 휠 감지됨",
                 "group_id": "50850",
                 "req_frame_id": "152847",
@@ -2556,7 +2556,7 @@
             {
                 "position": 16,
                 "mnemonic": "MP_AAS_UDS_INFORMATION_SUR_CHOC_TRANSMIS_SYSTEME_STAT_SEMI_702_4",
-                "label_index": "52001",
+                "label_index": "@P52001",
                 "label_korean": "반자동 주차 시스템에 전송된 충격 정보",
                 "group_id": "50850",
                 "req_frame_id": "152847",
@@ -2581,7 +2581,7 @@
             {
                 "position": 17,
                 "mnemonic": "MP_AAS_UDS_DEFAUT_INTERNE_SUR_FLUX_DONNEES_702_4",
-                "label_index": "52016",
+                "label_index": "@P52016",
                 "label_korean": "데이터 스트림의 내부 결함",
                 "group_id": "50850",
                 "req_frame_id": "152847",
@@ -2606,7 +2606,7 @@
             {
                 "position": 18,
                 "mnemonic": "MP_AAS_UDS_CAPTEUR_ANGLE_VOLANT_VIRTUEL_EN_DEFAUT_702_4",
-                "label_index": "51998",
+                "label_index": "@P51998",
                 "label_korean": "가상 스티어링 휠 각도 센서 결함",
                 "group_id": "50850",
                 "req_frame_id": "152847",
@@ -2639,7 +2639,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_AAS_UDS_COMPTEUR_DE_TEMPS_30",
-                "label_index": "17808",
+                "label_index": "@P17808",
                 "label_korean": "시간 카운터",
                 "group_id": "50850",
                 "req_frame_id": "152847",
@@ -2655,13 +2655,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "52211",
+                "help_code": "@P52211",
                 "help_korean": "저장 중 경과 시간"
             },
             {
                 "position": 2,
                 "mnemonic": "MP_AAS_UDS_ETAT_MOTEUR_TOURNANT_20",
-                "label_index": "10950",
+                "label_index": "@P10950",
                 "label_korean": "엔진 구동 상태",
                 "group_id": "50850",
                 "req_frame_id": "152847",
@@ -2695,7 +2695,7 @@
             {
                 "position": 3,
                 "mnemonic": "MP_AAS_UDS_ETAT_ANTIVOL_DIRECTION_COMMUTATEUR_DEM_MOTEUR_20",
-                "label_index": "52002",
+                "label_index": "@P52002",
                 "label_korean": "스티어링 잠금 장치/엔진 시동 스위치의 상태",
                 "group_id": "50850",
                 "req_frame_id": "152847",
@@ -2722,7 +2722,7 @@
             {
                 "position": 4,
                 "mnemonic": "MP_AAS_UDS_ETATS_DES_OUVRANTS_AU_MOMENT_DU_DEFAUT_20",
-                "label_index": "52011",
+                "label_index": "@P52011",
                 "label_korean": "결함 발생 시 열림 요소의 상태",
                 "group_id": "매핑_누락",
                 "req_frame_id": "",
@@ -2771,13 +2771,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "52219",
+                "help_code": "@P52219",
                 "help_korean": "\"트렁크\"는 테일게이트 또는 트렁크 덮개를 의미"
             },
             {
                 "position": 5,
                 "mnemonic": "MP_AAS_UDS_ESP_EN_REGULATION_20",
-                "label_index": "51995",
+                "label_index": "@P51995",
                 "label_korean": "ESP 제어",
                 "group_id": "50850",
                 "req_frame_id": "152847",
@@ -2802,7 +2802,7 @@
             {
                 "position": 6,
                 "mnemonic": "MP_AAS_UDS_ETAT_ESP_ASR_20",
-                "label_index": "16270",
+                "label_index": "@P16270@T/@F14664",
                 "label_korean": "ESP 상태/ASR",
                 "group_id": "50850",
                 "req_frame_id": "152847",
@@ -2827,7 +2827,7 @@
             {
                 "position": 7,
                 "mnemonic": "MP_AAS_UDS_ETAT_DIRECTION_ASSISTEE_POUR_SYSTEME_STAT_SEMI_AUTO_5",
-                "label_index": "51996",
+                "label_index": "@P51996",
                 "label_korean": "반자동 주차 시스템을 위한 파워 스티어링의 상태",
                 "group_id": "50850",
                 "req_frame_id": "152847",
@@ -2854,7 +2854,7 @@
             {
                 "position": 8,
                 "mnemonic": "MP_AAS_UDS_CAUSE_DESACTIVATION_SYSTEME_STAT_SEMI_AUTO_5",
-                "label_index": "35599",
+                "label_index": "@P35599",
                 "label_korean": "반자동 주차 시스템의 차단 원인",
                 "group_id": "50850",
                 "req_frame_id": "152847",
@@ -2885,7 +2885,7 @@
             {
                 "position": 9,
                 "mnemonic": "MP_AAS_UDS_APPUI_SELECTION_STAT_SEMI_SUR_ECRAN_TACTILE_702_5",
-                "label_index": "52021",
+                "label_index": "@P52021",
                 "label_korean": "다기능 터치 스크린의 반자동 주차 시스템 선택 버튼을 누른다",
                 "group_id": "50850",
                 "req_frame_id": "152847",
@@ -2910,7 +2910,7 @@
             {
                 "position": 10,
                 "mnemonic": "MP_AAS_UDS_PRISE_EN_MAIN_CONDUCTEUR_DETECTE_5",
-                "label_index": "52009",
+                "label_index": "@P52009",
                 "label_korean": "운전자 제어 감지됨",
                 "group_id": "50850",
                 "req_frame_id": "152847",
@@ -2935,7 +2935,7 @@
             {
                 "position": 11,
                 "mnemonic": "MP_AAS_UDS_ABANDON_MANOEUVRE_SUITE_TRAJECTOIRE_NON_CONFORME_10",
-                "label_index": "51994",
+                "label_index": "@P51994",
                 "label_korean": "잘못된 궤적 이후 조작 포기",
                 "group_id": "50850",
                 "req_frame_id": "152847",
@@ -2960,7 +2960,7 @@
             {
                 "position": 12,
                 "mnemonic": "MP_AAS_UDS_COHERENCE_ENTRE_CLIGNOTANT_ET_MANOEUVRE_0702_5",
-                "label_index": "52018",
+                "label_index": "@P52018",
                 "label_korean": "방향 지시등 컨트롤과 조작 방향 사이의 일치",
                 "group_id": "50850",
                 "req_frame_id": "152847",
@@ -2985,7 +2985,7 @@
             {
                 "position": 13,
                 "mnemonic": "MP_AAS_UDS_CEINTURE_DE_SECURITE_NON_BOUCLEE_0702_5",
-                "label_index": "52004",
+                "label_index": "@P52004",
                 "label_korean": "시트 벨트 미착용",
                 "group_id": "50850",
                 "req_frame_id": "152847",
@@ -3010,7 +3010,7 @@
             {
                 "position": 14,
                 "mnemonic": "MP_AAS_UDS_PRESENCE_REMORQUE_702_5",
-                "label_index": "12134",
+                "label_index": "@P12134",
                 "label_korean": "트레일러 장착",
                 "group_id": "50850",
                 "req_frame_id": "152847",
@@ -3035,7 +3035,7 @@
             {
                 "position": 15,
                 "mnemonic": "MP_AAS_UDS_ROUE_DE_SECOURS_DETECTEE_702_5",
-                "label_index": "51997",
+                "label_index": "@P51997",
                 "label_korean": "스페어 휠 감지됨",
                 "group_id": "50850",
                 "req_frame_id": "152847",
@@ -3060,7 +3060,7 @@
             {
                 "position": 16,
                 "mnemonic": "MP_AAS_UDS_INFORMATION_SUR_CHOC_TRANSMIS_SYSTEME_STAT_SEMI_702_5",
-                "label_index": "52001",
+                "label_index": "@P52001",
                 "label_korean": "반자동 주차 시스템에 전송된 충격 정보",
                 "group_id": "50850",
                 "req_frame_id": "152847",
@@ -3085,7 +3085,7 @@
             {
                 "position": 17,
                 "mnemonic": "MP_AAS_UDS_DEFAUT_INTERNE_SUR_FLUX_DONNEES_702_5",
-                "label_index": "52016",
+                "label_index": "@P52016",
                 "label_korean": "데이터 스트림의 내부 결함",
                 "group_id": "50850",
                 "req_frame_id": "152847",
@@ -3110,7 +3110,7 @@
             {
                 "position": 18,
                 "mnemonic": "MP_AAS_UDS_CAPTEUR_ANGLE_VOLANT_VIRTUEL_EN_DEFAUT_702_5",
-                "label_index": "51998",
+                "label_index": "@P51998",
                 "label_korean": "가상 스티어링 휠 각도 센서 결함",
                 "group_id": "50850",
                 "req_frame_id": "152847",
@@ -3143,7 +3143,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_LONGUEUR_DERNIERE_PLACE_MESUREE_GAUCHE",
-                "label_index": "31068",
+                "label_index": "@P31068",
                 "label_korean": "좌측에서 측정된 마지막 공간의 길이",
                 "group_id": "매핑_누락",
                 "req_frame_id": "",
@@ -3165,7 +3165,7 @@
             {
                 "position": 2,
                 "mnemonic": "MP_LONGUEUR_DERNIERE_PLACE_MESUREE_DROIT",
-                "label_index": "31069",
+                "label_index": "@P31069",
                 "label_korean": "우측에서 측정된 마지막 공간의 길이",
                 "group_id": "매핑_누락",
                 "req_frame_id": "",
@@ -3187,7 +3187,7 @@
             {
                 "position": 3,
                 "mnemonic": "MP_LARGEUR_DERNIERE_PLACE_MESUREE_GAUCHE",
-                "label_index": "31080",
+                "label_index": "@P31080",
                 "label_korean": "좌측에서 측정된 마지막 공간의 폭",
                 "group_id": "매핑_누락",
                 "req_frame_id": "",
@@ -3209,7 +3209,7 @@
             {
                 "position": 4,
                 "mnemonic": "MP_LARGEUR_DERNIERE_PLACE_MESUREE_DROIT",
-                "label_index": "31081",
+                "label_index": "@P31081",
                 "label_korean": "우측에서 측정된 마지막 공간의 폭",
                 "group_id": "매핑_누락",
                 "req_frame_id": "",
@@ -3231,7 +3231,7 @@
             {
                 "position": 5,
                 "mnemonic": "MP_DETECTION_TROTTOIR_GAUCHE",
-                "label_index": "31074",
+                "label_index": "@P31074",
                 "label_korean": "마지막 주차 이동 중 좌측에서 감지된 도로 경계석",
                 "group_id": "매핑_누락",
                 "req_frame_id": "",
@@ -3256,7 +3256,7 @@
             {
                 "position": 6,
                 "mnemonic": "MP_DETECTION_TROTTOIR_DROIT",
-                "label_index": "31075",
+                "label_index": "@P31075",
                 "label_korean": "마지막 주차 이동 중 우측에서 감지된 도로 경계석",
                 "group_id": "매핑_누락",
                 "req_frame_id": "",
@@ -3281,7 +3281,7 @@
             {
                 "position": 7,
                 "mnemonic": "MP_ORIENTATION_VEHICULE",
-                "label_index": "31070",
+                "label_index": "@P31070",
                 "label_korean": "주차 공간에서 빠져 나올 때 이동 중 차량의 방향",
                 "group_id": "매핑_누락",
                 "req_frame_id": "",
@@ -3297,13 +3297,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "31078",
+                "help_code": "@P31078",
                 "help_korean": "반-자동 주차 기능 작동시, 주차 이동 중 초기 위치와 비교한 차량의 방향"
             },
             {
                 "position": 8,
                 "mnemonic": "MP_VSEUIL_MAR",
-                "label_index": "31925",
+                "label_index": "@P31925",
                 "label_korean": "후진 기어 체결을 위한 차량 속도 한계치",
                 "group_id": "매핑_누락",
                 "req_frame_id": "",
@@ -3319,13 +3319,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "31926",
+                "help_code": "@P31926",
                 "help_korean": "반자동 일렬 또는 직각 주차를 시작하기 위해서 후진 기어를 체결하기 전에 반드시 차량은 한계 속도 이하로 주행해야 한다"
             },
             {
                 "position": 9,
                 "mnemonic": "MP_VSEUIL_VOL_COND",
-                "label_index": "31937",
+                "label_index": "@P31937",
                 "label_korean": "자동 일렬 주차 지원 기능의 차단을 위한 가속 페달의 누름 한계치",
                 "group_id": "매핑_누락",
                 "req_frame_id": "",
@@ -3341,13 +3341,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "31927",
+                "help_code": "@P31927",
                 "help_korean": "가속 페달을 한계치 이상으로 밟으면 반자동 주차 지원 기능은 일렬 또는 직각 주차된 차량에서는 차단된다"
             },
             {
                 "position": 10,
                 "mnemonic": "MP_VSEUIL_PARK",
-                "label_index": "31938",
+                "label_index": "@P31938",
                 "label_korean": "이동 중 자동 일렬 주차 지원 기능을 차단하기 위한 차량의 한계 속도",
                 "group_id": "매핑_누락",
                 "req_frame_id": "",
@@ -3363,13 +3363,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "31928",
+                "help_code": "@P31928",
                 "help_korean": "차량이 한계속도를 넘으면 반자동 주차 지원은 일렬 또는 직각 주차된 차량에서 차단된다"
             },
             {
                 "position": 11,
                 "mnemonic": "MP_VSEUIL_DESACTIV_SCP6",
-                "label_index": "31932",
+                "label_index": "@P31932",
                 "label_korean": "반자동 주차 지원 기능을 차단하기 위한 차량 속도 한계",
                 "group_id": "매핑_누락",
                 "req_frame_id": "",
@@ -3385,13 +3385,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "31939",
+                "help_code": "@P31939",
                 "help_korean": "한계 속도를 넘으면 반자동 일렬 또는 직각 주차 지원 기능은 차단된다"
             },
             {
                 "position": 12,
                 "mnemonic": "MP_VSEUIL_DESACTIV_SORTIE",
-                "label_index": "31940",
+                "label_index": "@P31940",
                 "label_korean": "한계 속도 이하에서 일렬 주차 공간으로 부터 자동으로 빠져나올 수 있도록 승인된다",
                 "group_id": "매핑_누락",
                 "req_frame_id": "",
@@ -3413,7 +3413,7 @@
             {
                 "position": 13,
                 "mnemonic": "MP_VSEUIL_MAX_SORTIE_PARK",
-                "label_index": "31941",
+                "label_index": "@P31941",
                 "label_korean": "이동 중 일렬 주차 공간으로 부터 자동으로 빠져나오는 것을 차단하기 위한 차량 한계 속도",
                 "group_id": "매핑_누락",
                 "req_frame_id": "",
@@ -3429,13 +3429,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "31942",
+                "help_code": "@P31942",
                 "help_korean": "일렬 또는 직각 주차 공간에서 빠져 나오는 동안 차량이 한계 속도를 넘으면 반자동 주차 지원 기능은 차단된다"
             },
             {
                 "position": 14,
                 "mnemonic": "MP_VSEUIL_DESACTIV_SCP9",
-                "label_index": "31936",
+                "label_index": "@P31936",
                 "label_korean": "일렬 주차 공간에서 자동 탈출을 차단하기 위한 차량 한계 속도",
                 "group_id": "매핑_누락",
                 "req_frame_id": "",
@@ -3451,7 +3451,7 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "31939",
+                "help_code": "@P31939",
                 "help_korean": "한계 속도를 넘으면 반자동 일렬 또는 직각 주차 지원 기능은 차단된다"
             }
         ]
@@ -3465,7 +3465,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_LONGUEUR_DERNIERE_PLACE_MESUREE_GAUCHE_AMSP",
-                "label_index": "31068",
+                "label_index": "@P31068",
                 "label_korean": "좌측에서 측정된 마지막 공간의 길이",
                 "group_id": "매핑_누락",
                 "req_frame_id": "",
@@ -3487,7 +3487,7 @@
             {
                 "position": 2,
                 "mnemonic": "MP_LONGUEUR_DERNIERE_PLACE_MESUREE_DROIT_AMSP",
-                "label_index": "31069",
+                "label_index": "@P31069",
                 "label_korean": "우측에서 측정된 마지막 공간의 길이",
                 "group_id": "매핑_누락",
                 "req_frame_id": "",
@@ -3509,7 +3509,7 @@
             {
                 "position": 3,
                 "mnemonic": "MP_LARGEUR_DERNIERE_PLACE_MESUREE_GAUCHE_AMSP",
-                "label_index": "31080",
+                "label_index": "@P31080",
                 "label_korean": "좌측에서 측정된 마지막 공간의 폭",
                 "group_id": "매핑_누락",
                 "req_frame_id": "",
@@ -3531,7 +3531,7 @@
             {
                 "position": 4,
                 "mnemonic": "MP_LARGEUR_DERNIERE_PLACE_MESUREE_DROIT_AMSP",
-                "label_index": "31081",
+                "label_index": "@P31081",
                 "label_korean": "우측에서 측정된 마지막 공간의 폭",
                 "group_id": "매핑_누락",
                 "req_frame_id": "",
@@ -3553,7 +3553,7 @@
             {
                 "position": 5,
                 "mnemonic": "MP_VSEUIL_DESACTIV_AMSP",
-                "label_index": "34752",
+                "label_index": "@P34752",
                 "label_korean": "직각 주차를 위한 반자동 주차 지원 기능 차단을 위한 차량 속도 제한 한계치",
                 "group_id": "매핑_누락",
                 "req_frame_id": "",
@@ -3575,7 +3575,7 @@
             {
                 "position": 6,
                 "mnemonic": "MP_DIST_MAXLARG",
-                "label_index": "34753",
+                "label_index": "@P34753",
                 "label_korean": "직각 주차를 위한 반자동 주차 지원 기능 작동을 위한 공간의 폭",
                 "group_id": "매핑_누락",
                 "req_frame_id": "",
@@ -3591,7 +3591,7 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "39244",
+                "help_code": "@F39244",
                 "help_korean": "직각 주차를 위한 반-자동 주차 지원의 작동을 위한 공간의 최대 폭"
             }
         ]
@@ -3605,7 +3605,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_ETAT_SELECTION_FONCTION_SAM",
-                "label_index": "34754",
+                "label_index": "@P34754",
                 "label_korean": "사각지대 모니터링 기능 선택 상태",
                 "group_id": "50852",
                 "req_frame_id": "152853",
@@ -3621,13 +3621,13 @@
                 "bit_mask": 192,
                 "bit_shift": 6,
                 "dynamic_arg": "",
-                "help_code": "34755, 37519, 37522",
+                "help_code": "@P34755@\\n@T- @P37519@\\n@T- @P37522",
                 "help_korean": "이 변수는 사각지대 모니터링 기능 선택 상태를 나타낸다\n- \"기능 작동 또는 기능 차단\" 상태는 사용자의 요구를 반영한다\n- 사각 지대 모니터링 기능의 차단은 작동 조건과 관련이 있다"
             },
             {
                 "position": 2,
                 "mnemonic": "MP_ETAT_ACTIVATION_FONCTION_SAM",
-                "label_index": "34756",
+                "label_index": "@P34756",
                 "label_korean": "사각지대 모니터링 기능 작동 상태",
                 "group_id": "50852",
                 "req_frame_id": "152853",
@@ -3648,13 +3648,13 @@
                 "bit_mask": 48,
                 "bit_shift": 4,
                 "dynamic_arg": "",
-                "help_code": "34757, 37519, 37522",
+                "help_code": "@P34757@\\n@T- @P37519@\\n@T- @P37522",
                 "help_korean": "이 변수는 사각 지대 모니터링 기능 작동 상태를 나타낸다\n- \"기능 작동 또는 기능 차단\" 상태는 사용자의 요구를 반영한다\n- 사각 지대 모니터링 기능의 차단은 작동 조건과 관련이 있다"
             },
             {
                 "position": 3,
                 "mnemonic": "MP_DETECTION_OBJET_A_GAUCHE_PAR_SAM",
-                "label_index": "1390",
+                "label_index": "@P1390",
                 "label_korean": "사각 지대 모니터링 기능에 의한 좌측에서 장애물 감지",
                 "group_id": "50852",
                 "req_frame_id": "152853",
@@ -3670,13 +3670,13 @@
                 "bit_mask": 8,
                 "bit_shift": 3,
                 "dynamic_arg": "",
-                "help_code": "1318",
+                "help_code": "@P1318",
                 "help_korean": "차량의 리어 좌측 센서가 물체를 감지했을 경우를 나타낸다"
             },
             {
                 "position": 4,
                 "mnemonic": "MP_DETECTION_OBJET_A_DROITE_PAR_SAM",
-                "label_index": "1508",
+                "label_index": "@P1508",
                 "label_korean": "사각 지대 모니터링 기능에 의한 우측에서 장애물 감지",
                 "group_id": "50852",
                 "req_frame_id": "152853",
@@ -3692,13 +3692,13 @@
                 "bit_mask": 4,
                 "bit_shift": 2,
                 "dynamic_arg": "",
-                "help_code": "1509",
+                "help_code": "@P1509",
                 "help_korean": "차량의 리어 우측 센서가 물체를 감지했을 경우를 나타낸다"
             },
             {
                 "position": 5,
                 "mnemonic": "MP_ETAT_TEMOIN_RETROVISEUR_GAUCHE",
-                "label_index": "1272",
+                "label_index": "@P1272",
                 "label_korean": "좌측 도어 미러에서 경고등 상태",
                 "group_id": "50853",
                 "req_frame_id": "152856",
@@ -3717,13 +3717,13 @@
                 "bit_mask": 128,
                 "bit_shift": 7,
                 "dynamic_arg": "",
-                "help_code": "1550",
+                "help_code": "@P1550",
                 "help_korean": "좌측 도어 미러에 위치한 경고등의 상태를 나타낸다"
             },
             {
                 "position": 6,
                 "mnemonic": "MP_ETAT_TEMOIN_RETROVISEUR_DROIT",
-                "label_index": "1458",
+                "label_index": "@P1458",
                 "label_korean": "우측 도어 미러에서 경고등 상태",
                 "group_id": "50853",
                 "req_frame_id": "152856",
@@ -3742,7 +3742,7 @@
                 "bit_mask": 64,
                 "bit_shift": 6,
                 "dynamic_arg": "",
-                "help_code": "1568",
+                "help_code": "@P1568",
                 "help_korean": "우측 도어 미러에 위치한 경고등의 상태를 나타낸다"
             }
         ]
@@ -3756,7 +3756,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_AAS_UDS_COMPTEUR_DE_TEMPS_1",
-                "label_index": "17808",
+                "label_index": "@P17808",
                 "label_korean": "시간 카운터",
                 "group_id": "50845",
                 "req_frame_id": "152832",
@@ -3772,13 +3772,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "52211",
+                "help_code": "@P52211",
                 "help_korean": "저장 중 경과 시간"
             },
             {
                 "position": 2,
                 "mnemonic": "MP_AAS_UDS_ETAT_MOTEUR_TOURNANT_1",
-                "label_index": "10950",
+                "label_index": "@P10950",
                 "label_korean": "엔진 구동 상태",
                 "group_id": "50845",
                 "req_frame_id": "152832",
@@ -3812,7 +3812,7 @@
             {
                 "position": 3,
                 "mnemonic": "MP_AAS_UDS_ETAT_ANTIVOL_DIRECTION_COMMUTATEUR_DEMARRAGE_MOTEUR_1",
-                "label_index": "52002",
+                "label_index": "@P52002",
                 "label_korean": "스티어링 잠금 장치/엔진 시동 스위치의 상태",
                 "group_id": "50845",
                 "req_frame_id": "152832",
@@ -3839,7 +3839,7 @@
             {
                 "position": 4,
                 "mnemonic": "MP_AAS_UDS_ETATS_DES_OUVRANTS_AU_MOMENT_DU_DEFAUT_1",
-                "label_index": "52011",
+                "label_index": "@P52011",
                 "label_korean": "결함 발생 시 열림 요소의 상태",
                 "group_id": "매핑_누락",
                 "req_frame_id": "",
@@ -3888,13 +3888,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "52219",
+                "help_code": "@P52219",
                 "help_korean": "\"트렁크\"는 테일게이트 또는 트렁크 덮개를 의미"
             },
             {
                 "position": 5,
                 "mnemonic": "MP_AAS_UDS_ESP_EN_REGULATION_1",
-                "label_index": "51995",
+                "label_index": "@P51995",
                 "label_korean": "ESP 제어",
                 "group_id": "50845",
                 "req_frame_id": "152832",
@@ -3919,7 +3919,7 @@
             {
                 "position": 6,
                 "mnemonic": "MP_AAS_UDS_ETAT_ESP_ASR_1",
-                "label_index": "16270",
+                "label_index": "@P16270@T/@F14664",
                 "label_korean": "ESP 상태/ASR",
                 "group_id": "50845",
                 "req_frame_id": "152832",
@@ -3944,7 +3944,7 @@
             {
                 "position": 7,
                 "mnemonic": "MP_AAS_UDS_DESELECTION_FONCTION_SUITE_PASSAGE_MARCHE_ARRIERE_1",
-                "label_index": "52012",
+                "label_index": "@P52012",
                 "label_korean": "후진 기어 체결 후 기능의 선택 취소",
                 "group_id": "50845",
                 "req_frame_id": "152832",
@@ -3969,7 +3969,7 @@
             {
                 "position": 8,
                 "mnemonic": "MP_AAS_UDS_ETAT_DU_CALCUL_DE_LA_PENTE_1",
-                "label_index": "52010",
+                "label_index": "@P52010",
                 "label_korean": "경사 계산 상태",
                 "group_id": "50845",
                 "req_frame_id": "152832",
@@ -3994,7 +3994,7 @@
             {
                 "position": 9,
                 "mnemonic": "MP_AAS_UDS_SYSTEME_STAT_AUTO_SELECTIONNE_PAR_LUTILISATEUR_1",
-                "label_index": "52013",
+                "label_index": "@P52013",
                 "label_korean": "사용자가 선택한 자동 주차 시스템",
                 "group_id": "50845",
                 "req_frame_id": "152832",
@@ -4019,7 +4019,7 @@
             {
                 "position": 10,
                 "mnemonic": "MP_AAS_UDS_APPUI_SELECTION_SYSTEME_STAT_AUTO_SUR_ECRAN_TACTILE_1",
-                "label_index": "52014",
+                "label_index": "@P52014",
                 "label_korean": "다기능 터치 스크린의 자동 주차 시스템 선택 버튼을 누른다",
                 "group_id": "50845",
                 "req_frame_id": "152832",
@@ -4044,7 +4044,7 @@
             {
                 "position": 11,
                 "mnemonic": "MP_AAS_UDS_VITESSE_DU_VEHICULE_TROP_ELEVEE_1",
-                "label_index": "33702",
+                "label_index": "@P33702",
                 "label_korean": "차량 속도 너무 높음",
                 "group_id": "50845",
                 "req_frame_id": "152832",
@@ -4069,7 +4069,7 @@
             {
                 "position": 12,
                 "mnemonic": "MP_AAS_UDS_TEMPS_DE_SELECTION_OU_RECHERCHE_DE_PLACE_DEPASSES_1",
-                "label_index": "52015",
+                "label_index": "@P52015",
                 "label_korean": "공간 선택 또는 검색 시간 초과됨",
                 "group_id": "50845",
                 "req_frame_id": "152832",
@@ -4094,7 +4094,7 @@
             {
                 "position": 13,
                 "mnemonic": "MP_AAS_UDS_CEINTURE_DE_SECURITE_NON_BOUCLEE_1",
-                "label_index": "52004",
+                "label_index": "@P52004",
                 "label_korean": "시트 벨트 미착용",
                 "group_id": "50845",
                 "req_frame_id": "152832",
@@ -4119,7 +4119,7 @@
             {
                 "position": 14,
                 "mnemonic": "MP_AAS_UDS_PRESENCE_REMORQUE_1",
-                "label_index": "12134",
+                "label_index": "@P12134",
                 "label_korean": "트레일러 장착",
                 "group_id": "50845",
                 "req_frame_id": "152832",
@@ -4144,7 +4144,7 @@
             {
                 "position": 15,
                 "mnemonic": "MP_AAS_UDS_ROUE_DE_SECOURS_DETECTEE_1",
-                "label_index": "51997",
+                "label_index": "@P51997",
                 "label_korean": "스페어 휠 감지됨",
                 "group_id": "50845",
                 "req_frame_id": "152832",
@@ -4169,7 +4169,7 @@
             {
                 "position": 16,
                 "mnemonic": "MP_AAS_UDS_INFORMATION_SUR_CHOC_TRANSMIS_SYSTEME_STAT_AUTO_1",
-                "label_index": "52008",
+                "label_index": "@P52008",
                 "label_korean": "자동 주차 시스템에 전송된 충격 정보",
                 "group_id": "50845",
                 "req_frame_id": "152832",
@@ -4194,7 +4194,7 @@
             {
                 "position": 17,
                 "mnemonic": "MP_AAS_UDS_DEFAUT_INTERNE_SUR_UN_FLUX_DE_DONNEES_1",
-                "label_index": "52016",
+                "label_index": "@P52016",
                 "label_korean": "데이터 스트림의 내부 결함",
                 "group_id": "50845",
                 "req_frame_id": "152832",
@@ -4219,7 +4219,7 @@
             {
                 "position": 18,
                 "mnemonic": "MP_AAS_UDS_CAPTEUR_DANGLE_VOLANT_DIRECTION_VIRTUEL_EN_DEFAUT_1",
-                "label_index": "51998",
+                "label_index": "@P51998",
                 "label_korean": "가상 스티어링 휠 각도 센서 결함",
                 "group_id": "50845",
                 "req_frame_id": "152832",
@@ -4252,7 +4252,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_AAS_UDS_COMPTEUR_DE_TEMPS_2",
-                "label_index": "17808",
+                "label_index": "@P17808",
                 "label_korean": "시간 카운터",
                 "group_id": "50845",
                 "req_frame_id": "152832",
@@ -4268,13 +4268,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "52211",
+                "help_code": "@P52211",
                 "help_korean": "저장 중 경과 시간"
             },
             {
                 "position": 2,
                 "mnemonic": "MP_AAS_UDS_ETAT_MOTEUR_TOURNANT_2",
-                "label_index": "10950",
+                "label_index": "@P10950",
                 "label_korean": "엔진 구동 상태",
                 "group_id": "50845",
                 "req_frame_id": "152832",
@@ -4308,7 +4308,7 @@
             {
                 "position": 3,
                 "mnemonic": "MP_AAS_UDS_ETAT_ANTIVOL_DIRECTION_COMMUTATEUR_DEMARRAGE_MOTEUR_2",
-                "label_index": "52002",
+                "label_index": "@P52002",
                 "label_korean": "스티어링 잠금 장치/엔진 시동 스위치의 상태",
                 "group_id": "50845",
                 "req_frame_id": "152832",
@@ -4335,7 +4335,7 @@
             {
                 "position": 4,
                 "mnemonic": "MP_AAS_UDS_ETATS_DES_OUVRANTS_AU_MOMENT_DU_DEFAUT_2",
-                "label_index": "52011",
+                "label_index": "@P52011",
                 "label_korean": "결함 발생 시 열림 요소의 상태",
                 "group_id": "매핑_누락",
                 "req_frame_id": "",
@@ -4384,13 +4384,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "52219",
+                "help_code": "@P52219",
                 "help_korean": "\"트렁크\"는 테일게이트 또는 트렁크 덮개를 의미"
             },
             {
                 "position": 5,
                 "mnemonic": "MP_AAS_UDS_ESP_EN_REGULATION_2",
-                "label_index": "51995",
+                "label_index": "@P51995",
                 "label_korean": "ESP 제어",
                 "group_id": "50845",
                 "req_frame_id": "152832",
@@ -4415,7 +4415,7 @@
             {
                 "position": 6,
                 "mnemonic": "MP_AAS_UDS_ETAT_ESP_ASR_2",
-                "label_index": "16270",
+                "label_index": "@P16270@T/@F14664",
                 "label_korean": "ESP 상태/ASR",
                 "group_id": "50845",
                 "req_frame_id": "152832",
@@ -4440,7 +4440,7 @@
             {
                 "position": 7,
                 "mnemonic": "MP_AAS_UDS_DESELECTION_FONCTION_SUITE_PASSAGE_MARCHE_ARRIERE_2",
-                "label_index": "52012",
+                "label_index": "@P52012",
                 "label_korean": "후진 기어 체결 후 기능의 선택 취소",
                 "group_id": "50845",
                 "req_frame_id": "152832",
@@ -4465,7 +4465,7 @@
             {
                 "position": 8,
                 "mnemonic": "MP_AAS_UDS_ETAT_DU_CALCUL_DE_LA_PENTE_2",
-                "label_index": "52010",
+                "label_index": "@P52010",
                 "label_korean": "경사 계산 상태",
                 "group_id": "50845",
                 "req_frame_id": "152832",
@@ -4490,7 +4490,7 @@
             {
                 "position": 9,
                 "mnemonic": "MP_AAS_UDS_SYSTEME_STAT_AUTO_SELECTIONNE_PAR_LUTILISATEUR_2",
-                "label_index": "52013",
+                "label_index": "@P52013",
                 "label_korean": "사용자가 선택한 자동 주차 시스템",
                 "group_id": "50845",
                 "req_frame_id": "152832",
@@ -4515,7 +4515,7 @@
             {
                 "position": 10,
                 "mnemonic": "MP_AAS_UDS_APPUI_SELECTION_SYSTEME_STAT_AUTO_SUR_ECRAN_TACTILE_2",
-                "label_index": "52014",
+                "label_index": "@P52014",
                 "label_korean": "다기능 터치 스크린의 자동 주차 시스템 선택 버튼을 누른다",
                 "group_id": "50845",
                 "req_frame_id": "152832",
@@ -4540,7 +4540,7 @@
             {
                 "position": 11,
                 "mnemonic": "MP_AAS_UDS_VITESSE_DU_VEHICULE_TROP_ELEVEE_2",
-                "label_index": "33702",
+                "label_index": "@P33702",
                 "label_korean": "차량 속도 너무 높음",
                 "group_id": "50845",
                 "req_frame_id": "152832",
@@ -4565,7 +4565,7 @@
             {
                 "position": 12,
                 "mnemonic": "MP_AAS_UDS_TEMPS_DE_SELECTION_OU_RECHERCHE_DE_PLACE_DEPASSES_2",
-                "label_index": "52015",
+                "label_index": "@P52015",
                 "label_korean": "공간 선택 또는 검색 시간 초과됨",
                 "group_id": "50845",
                 "req_frame_id": "152832",
@@ -4590,7 +4590,7 @@
             {
                 "position": 13,
                 "mnemonic": "MP_AAS_UDS_CEINTURE_DE_SECURITE_NON_BOUCLEE_2",
-                "label_index": "52004",
+                "label_index": "@P52004",
                 "label_korean": "시트 벨트 미착용",
                 "group_id": "50845",
                 "req_frame_id": "152832",
@@ -4615,7 +4615,7 @@
             {
                 "position": 14,
                 "mnemonic": "MP_AAS_UDS_PRESENCE_REMORQUE_2",
-                "label_index": "12134",
+                "label_index": "@P12134",
                 "label_korean": "트레일러 장착",
                 "group_id": "50845",
                 "req_frame_id": "152832",
@@ -4640,7 +4640,7 @@
             {
                 "position": 15,
                 "mnemonic": "MP_AAS_UDS_ROUE_DE_SECOURS_DETECTEE_2",
-                "label_index": "51997",
+                "label_index": "@P51997",
                 "label_korean": "스페어 휠 감지됨",
                 "group_id": "50845",
                 "req_frame_id": "152832",
@@ -4665,7 +4665,7 @@
             {
                 "position": 16,
                 "mnemonic": "MP_AAS_UDS_INFORMATION_SUR_CHOC_TRANSMIS_SYSTEME_STAT_AUTO_2",
-                "label_index": "52008",
+                "label_index": "@P52008",
                 "label_korean": "자동 주차 시스템에 전송된 충격 정보",
                 "group_id": "50845",
                 "req_frame_id": "152832",
@@ -4690,7 +4690,7 @@
             {
                 "position": 17,
                 "mnemonic": "MP_AAS_UDS_DEFAUT_INTERNE_SUR_UN_FLUX_DE_DONNEES_2",
-                "label_index": "52016",
+                "label_index": "@P52016",
                 "label_korean": "데이터 스트림의 내부 결함",
                 "group_id": "50845",
                 "req_frame_id": "152832",
@@ -4715,7 +4715,7 @@
             {
                 "position": 18,
                 "mnemonic": "MP_AAS_UDS_CAPTEUR_DANGLE_VOLANT_DIRECTION_VIRTUEL_EN_DEFAUT_2",
-                "label_index": "51998",
+                "label_index": "@P51998",
                 "label_korean": "가상 스티어링 휠 각도 센서 결함",
                 "group_id": "50845",
                 "req_frame_id": "152832",
@@ -4748,7 +4748,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_AAS_UDS_COMPTEUR_DE_TEMPS_3",
-                "label_index": "17808",
+                "label_index": "@P17808",
                 "label_korean": "시간 카운터",
                 "group_id": "50845",
                 "req_frame_id": "152832",
@@ -4764,13 +4764,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "52211",
+                "help_code": "@P52211",
                 "help_korean": "저장 중 경과 시간"
             },
             {
                 "position": 2,
                 "mnemonic": "MP_AAS_UDS_ETAT_MOTEUR_TOURNANT_3",
-                "label_index": "10950",
+                "label_index": "@P10950",
                 "label_korean": "엔진 구동 상태",
                 "group_id": "50845",
                 "req_frame_id": "152832",
@@ -4804,7 +4804,7 @@
             {
                 "position": 3,
                 "mnemonic": "MP_AAS_UDS_ETAT_ANTIVOL_DIRECTION_COMMUTATEUR_DEMARRAGE_MOTEUR_3",
-                "label_index": "52002",
+                "label_index": "@P52002",
                 "label_korean": "스티어링 잠금 장치/엔진 시동 스위치의 상태",
                 "group_id": "50845",
                 "req_frame_id": "152832",
@@ -4831,7 +4831,7 @@
             {
                 "position": 4,
                 "mnemonic": "MP_AAS_UDS_ETATS_DES_OUVRANTS_AU_MOMENT_DU_DEFAUT_3",
-                "label_index": "52011",
+                "label_index": "@P52011",
                 "label_korean": "결함 발생 시 열림 요소의 상태",
                 "group_id": "매핑_누락",
                 "req_frame_id": "",
@@ -4880,13 +4880,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "52219",
+                "help_code": "@P52219",
                 "help_korean": "\"트렁크\"는 테일게이트 또는 트렁크 덮개를 의미"
             },
             {
                 "position": 5,
                 "mnemonic": "MP_AAS_UDS_ESP_EN_REGULATION_3",
-                "label_index": "51995",
+                "label_index": "@P51995",
                 "label_korean": "ESP 제어",
                 "group_id": "50845",
                 "req_frame_id": "152832",
@@ -4911,7 +4911,7 @@
             {
                 "position": 6,
                 "mnemonic": "MP_AAS_UDS_ETAT_ESP_ASR_3",
-                "label_index": "16270",
+                "label_index": "@P16270@T/@F14664",
                 "label_korean": "ESP 상태/ASR",
                 "group_id": "50845",
                 "req_frame_id": "152832",
@@ -4936,7 +4936,7 @@
             {
                 "position": 7,
                 "mnemonic": "MP_AAS_UDS_DESELECTION_FONCTION_SUITE_PASSAGE_MARCHE_ARRIERE_3",
-                "label_index": "52012",
+                "label_index": "@P52012",
                 "label_korean": "후진 기어 체결 후 기능의 선택 취소",
                 "group_id": "50845",
                 "req_frame_id": "152832",
@@ -4961,7 +4961,7 @@
             {
                 "position": 8,
                 "mnemonic": "MP_AAS_UDS_ETAT_DU_CALCUL_DE_LA_PENTE_3",
-                "label_index": "52010",
+                "label_index": "@P52010",
                 "label_korean": "경사 계산 상태",
                 "group_id": "50845",
                 "req_frame_id": "152832",
@@ -4986,7 +4986,7 @@
             {
                 "position": 9,
                 "mnemonic": "MP_AAS_UDS_SYSTEME_STAT_AUTO_SELECTIONNE_PAR_LUTILISATEUR_3",
-                "label_index": "52013",
+                "label_index": "@P52013",
                 "label_korean": "사용자가 선택한 자동 주차 시스템",
                 "group_id": "50845",
                 "req_frame_id": "152832",
@@ -5011,7 +5011,7 @@
             {
                 "position": 10,
                 "mnemonic": "MP_AAS_UDS_APPUI_SELECTION_SYSTEME_STAT_AUTO_SUR_ECRAN_TACTILE_3",
-                "label_index": "52014",
+                "label_index": "@P52014",
                 "label_korean": "다기능 터치 스크린의 자동 주차 시스템 선택 버튼을 누른다",
                 "group_id": "50845",
                 "req_frame_id": "152832",
@@ -5036,7 +5036,7 @@
             {
                 "position": 11,
                 "mnemonic": "MP_AAS_UDS_VITESSE_DU_VEHICULE_TROP_ELEVEE_3",
-                "label_index": "33702",
+                "label_index": "@P33702",
                 "label_korean": "차량 속도 너무 높음",
                 "group_id": "50845",
                 "req_frame_id": "152832",
@@ -5061,7 +5061,7 @@
             {
                 "position": 12,
                 "mnemonic": "MP_AAS_UDS_TEMPS_DE_SELECTION_OU_RECHERCHE_DE_PLACE_DEPASSES_3",
-                "label_index": "52015",
+                "label_index": "@P52015",
                 "label_korean": "공간 선택 또는 검색 시간 초과됨",
                 "group_id": "50845",
                 "req_frame_id": "152832",
@@ -5086,7 +5086,7 @@
             {
                 "position": 13,
                 "mnemonic": "MP_AAS_UDS_CEINTURE_DE_SECURITE_NON_BOUCLEE_3",
-                "label_index": "52004",
+                "label_index": "@P52004",
                 "label_korean": "시트 벨트 미착용",
                 "group_id": "50845",
                 "req_frame_id": "152832",
@@ -5111,7 +5111,7 @@
             {
                 "position": 14,
                 "mnemonic": "MP_AAS_UDS_PRESENCE_REMORQUE_3",
-                "label_index": "12134",
+                "label_index": "@P12134",
                 "label_korean": "트레일러 장착",
                 "group_id": "50845",
                 "req_frame_id": "152832",
@@ -5136,7 +5136,7 @@
             {
                 "position": 15,
                 "mnemonic": "MP_AAS_UDS_ROUE_DE_SECOURS_DETECTEE_3",
-                "label_index": "51997",
+                "label_index": "@P51997",
                 "label_korean": "스페어 휠 감지됨",
                 "group_id": "50845",
                 "req_frame_id": "152832",
@@ -5161,7 +5161,7 @@
             {
                 "position": 16,
                 "mnemonic": "MP_AAS_UDS_INFORMATION_SUR_CHOC_TRANSMIS_SYSTEME_STAT_AUTO_3",
-                "label_index": "52008",
+                "label_index": "@P52008",
                 "label_korean": "자동 주차 시스템에 전송된 충격 정보",
                 "group_id": "50845",
                 "req_frame_id": "152832",
@@ -5186,7 +5186,7 @@
             {
                 "position": 17,
                 "mnemonic": "MP_AAS_UDS_DEFAUT_INTERNE_SUR_UN_FLUX_DE_DONNEES_3",
-                "label_index": "52016",
+                "label_index": "@P52016",
                 "label_korean": "데이터 스트림의 내부 결함",
                 "group_id": "50845",
                 "req_frame_id": "152832",
@@ -5211,7 +5211,7 @@
             {
                 "position": 18,
                 "mnemonic": "MP_AAS_UDS_CAPTEUR_DANGLE_VOLANT_DIRECTION_VIRTUEL_EN_DEFAUT_3",
-                "label_index": "51998",
+                "label_index": "@P51998",
                 "label_korean": "가상 스티어링 휠 각도 센서 결함",
                 "group_id": "50845",
                 "req_frame_id": "152832",
@@ -5244,7 +5244,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_AAS_UDS_COMPTEUR_DE_TEMPS_4",
-                "label_index": "17808",
+                "label_index": "@P17808",
                 "label_korean": "시간 카운터",
                 "group_id": "50845",
                 "req_frame_id": "152832",
@@ -5260,13 +5260,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "52211",
+                "help_code": "@P52211",
                 "help_korean": "저장 중 경과 시간"
             },
             {
                 "position": 2,
                 "mnemonic": "MP_AAS_UDS_ETAT_MOTEUR_TOURNANT_4",
-                "label_index": "10950",
+                "label_index": "@P10950",
                 "label_korean": "엔진 구동 상태",
                 "group_id": "50845",
                 "req_frame_id": "152832",
@@ -5300,7 +5300,7 @@
             {
                 "position": 3,
                 "mnemonic": "MP_AAS_UDS_ETAT_ANTIVOL_DIRECTION_COMMUTATEUR_DEMARRAGE_MOTEUR_4",
-                "label_index": "52002",
+                "label_index": "@P52002",
                 "label_korean": "스티어링 잠금 장치/엔진 시동 스위치의 상태",
                 "group_id": "50845",
                 "req_frame_id": "152832",
@@ -5327,7 +5327,7 @@
             {
                 "position": 4,
                 "mnemonic": "MP_AAS_UDS_ETATS_DES_OUVRANTS_AU_MOMENT_DU_DEFAUT_4",
-                "label_index": "52011",
+                "label_index": "@P52011",
                 "label_korean": "결함 발생 시 열림 요소의 상태",
                 "group_id": "매핑_누락",
                 "req_frame_id": "",
@@ -5376,13 +5376,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "52219",
+                "help_code": "@P52219",
                 "help_korean": "\"트렁크\"는 테일게이트 또는 트렁크 덮개를 의미"
             },
             {
                 "position": 5,
                 "mnemonic": "MP_AAS_UDS_ESP_EN_REGULATION_4",
-                "label_index": "51995",
+                "label_index": "@P51995",
                 "label_korean": "ESP 제어",
                 "group_id": "50845",
                 "req_frame_id": "152832",
@@ -5407,7 +5407,7 @@
             {
                 "position": 6,
                 "mnemonic": "MP_AAS_UDS_ETAT_ESP_ASR_4",
-                "label_index": "16270",
+                "label_index": "@P16270@T/@F14664",
                 "label_korean": "ESP 상태/ASR",
                 "group_id": "50845",
                 "req_frame_id": "152832",
@@ -5432,7 +5432,7 @@
             {
                 "position": 7,
                 "mnemonic": "MP_AAS_UDS_DESELECTION_FONCTION_SUITE_PASSAGE_MARCHE_ARRIERE_4",
-                "label_index": "52012",
+                "label_index": "@P52012",
                 "label_korean": "후진 기어 체결 후 기능의 선택 취소",
                 "group_id": "50845",
                 "req_frame_id": "152832",
@@ -5457,7 +5457,7 @@
             {
                 "position": 8,
                 "mnemonic": "MP_AAS_UDS_ETAT_DU_CALCUL_DE_LA_PENTE_4",
-                "label_index": "52010",
+                "label_index": "@P52010",
                 "label_korean": "경사 계산 상태",
                 "group_id": "50845",
                 "req_frame_id": "152832",
@@ -5482,7 +5482,7 @@
             {
                 "position": 9,
                 "mnemonic": "MP_AAS_UDS_SYSTEME_STAT_AUTO_SELECTIONNE_PAR_LUTILISATEUR_4",
-                "label_index": "52013",
+                "label_index": "@P52013",
                 "label_korean": "사용자가 선택한 자동 주차 시스템",
                 "group_id": "50845",
                 "req_frame_id": "152832",
@@ -5507,7 +5507,7 @@
             {
                 "position": 10,
                 "mnemonic": "MP_AAS_UDS_APPUI_SELECTION_SYSTEME_STAT_AUTO_SUR_ECRAN_TACTILE_4",
-                "label_index": "52014",
+                "label_index": "@P52014",
                 "label_korean": "다기능 터치 스크린의 자동 주차 시스템 선택 버튼을 누른다",
                 "group_id": "50845",
                 "req_frame_id": "152832",
@@ -5532,7 +5532,7 @@
             {
                 "position": 11,
                 "mnemonic": "MP_AAS_UDS_VITESSE_DU_VEHICULE_TROP_ELEVEE_4",
-                "label_index": "33702",
+                "label_index": "@P33702",
                 "label_korean": "차량 속도 너무 높음",
                 "group_id": "50845",
                 "req_frame_id": "152832",
@@ -5557,7 +5557,7 @@
             {
                 "position": 12,
                 "mnemonic": "MP_AAS_UDS_TEMPS_DE_SELECTION_OU_RECHERCHE_DE_PLACE_DEPASSES_4",
-                "label_index": "52015",
+                "label_index": "@P52015",
                 "label_korean": "공간 선택 또는 검색 시간 초과됨",
                 "group_id": "50845",
                 "req_frame_id": "152832",
@@ -5582,7 +5582,7 @@
             {
                 "position": 13,
                 "mnemonic": "MP_AAS_UDS_CEINTURE_DE_SECURITE_NON_BOUCLEE_4",
-                "label_index": "52004",
+                "label_index": "@P52004",
                 "label_korean": "시트 벨트 미착용",
                 "group_id": "50845",
                 "req_frame_id": "152832",
@@ -5607,7 +5607,7 @@
             {
                 "position": 14,
                 "mnemonic": "MP_AAS_UDS_PRESENCE_REMORQUE_4",
-                "label_index": "12134",
+                "label_index": "@P12134",
                 "label_korean": "트레일러 장착",
                 "group_id": "50845",
                 "req_frame_id": "152832",
@@ -5632,7 +5632,7 @@
             {
                 "position": 15,
                 "mnemonic": "MP_AAS_UDS_ROUE_DE_SECOURS_DETECTEE_4",
-                "label_index": "51997",
+                "label_index": "@P51997",
                 "label_korean": "스페어 휠 감지됨",
                 "group_id": "50845",
                 "req_frame_id": "152832",
@@ -5657,7 +5657,7 @@
             {
                 "position": 16,
                 "mnemonic": "MP_AAS_UDS_INFORMATION_SUR_CHOC_TRANSMIS_SYSTEME_STAT_AUTO_4",
-                "label_index": "52008",
+                "label_index": "@P52008",
                 "label_korean": "자동 주차 시스템에 전송된 충격 정보",
                 "group_id": "50845",
                 "req_frame_id": "152832",
@@ -5682,7 +5682,7 @@
             {
                 "position": 17,
                 "mnemonic": "MP_AAS_UDS_DEFAUT_INTERNE_SUR_UN_FLUX_DE_DONNEES_4",
-                "label_index": "52016",
+                "label_index": "@P52016",
                 "label_korean": "데이터 스트림의 내부 결함",
                 "group_id": "50845",
                 "req_frame_id": "152832",
@@ -5707,7 +5707,7 @@
             {
                 "position": 18,
                 "mnemonic": "MP_AAS_UDS_CAPTEUR_DANGLE_VOLANT_DIRECTION_VIRTUEL_EN_DEFAUT_4",
-                "label_index": "51998",
+                "label_index": "@P51998",
                 "label_korean": "가상 스티어링 휠 각도 센서 결함",
                 "group_id": "50845",
                 "req_frame_id": "152832",
@@ -5740,7 +5740,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_AAS_UDS_COMPTEUR_DE_TEMPS_5",
-                "label_index": "17808",
+                "label_index": "@P17808",
                 "label_korean": "시간 카운터",
                 "group_id": "50845",
                 "req_frame_id": "152832",
@@ -5756,13 +5756,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "52211",
+                "help_code": "@P52211",
                 "help_korean": "저장 중 경과 시간"
             },
             {
                 "position": 2,
                 "mnemonic": "MP_AAS_UDS_ETAT_MOTEUR_TOURNANT_5",
-                "label_index": "10950",
+                "label_index": "@P10950",
                 "label_korean": "엔진 구동 상태",
                 "group_id": "50845",
                 "req_frame_id": "152832",
@@ -5796,7 +5796,7 @@
             {
                 "position": 3,
                 "mnemonic": "MP_AAS_UDS_ETAT_ANTIVOL_DIRECTION_COMMUTATEUR_DEMARRAGE_MOTEUR_5",
-                "label_index": "52002",
+                "label_index": "@P52002",
                 "label_korean": "스티어링 잠금 장치/엔진 시동 스위치의 상태",
                 "group_id": "50845",
                 "req_frame_id": "152832",
@@ -5823,7 +5823,7 @@
             {
                 "position": 4,
                 "mnemonic": "MP_AAS_UDS_ETATS_DES_OUVRANTS_AU_MOMENT_DU_DEFAUT_5",
-                "label_index": "52011",
+                "label_index": "@P52011",
                 "label_korean": "결함 발생 시 열림 요소의 상태",
                 "group_id": "매핑_누락",
                 "req_frame_id": "",
@@ -5872,13 +5872,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "52219",
+                "help_code": "@P52219",
                 "help_korean": "\"트렁크\"는 테일게이트 또는 트렁크 덮개를 의미"
             },
             {
                 "position": 5,
                 "mnemonic": "MP_AAS_UDS_ESP_EN_REGULATION_5",
-                "label_index": "51995",
+                "label_index": "@P51995",
                 "label_korean": "ESP 제어",
                 "group_id": "50845",
                 "req_frame_id": "152832",
@@ -5903,7 +5903,7 @@
             {
                 "position": 6,
                 "mnemonic": "MP_AAS_UDS_ETAT_ESP_ASR_5",
-                "label_index": "16270",
+                "label_index": "@P16270@T/@F14664",
                 "label_korean": "ESP 상태/ASR",
                 "group_id": "50845",
                 "req_frame_id": "152832",
@@ -5928,7 +5928,7 @@
             {
                 "position": 7,
                 "mnemonic": "MP_AAS_UDS_DESELECTION_FONCTION_SUITE_PASSAGE_MARCHE_ARRIERE_5",
-                "label_index": "52012",
+                "label_index": "@P52012",
                 "label_korean": "후진 기어 체결 후 기능의 선택 취소",
                 "group_id": "50845",
                 "req_frame_id": "152832",
@@ -5953,7 +5953,7 @@
             {
                 "position": 8,
                 "mnemonic": "MP_AAS_UDS_ETAT_DU_CALCUL_DE_LA_PENTE_5",
-                "label_index": "52010",
+                "label_index": "@P52010",
                 "label_korean": "경사 계산 상태",
                 "group_id": "50845",
                 "req_frame_id": "152832",
@@ -5978,7 +5978,7 @@
             {
                 "position": 9,
                 "mnemonic": "MP_AAS_UDS_SYSTEME_STAT_AUTO_SELECTIONNE_PAR_LUTILISATEUR_5",
-                "label_index": "52013",
+                "label_index": "@P52013",
                 "label_korean": "사용자가 선택한 자동 주차 시스템",
                 "group_id": "50845",
                 "req_frame_id": "152832",
@@ -6003,7 +6003,7 @@
             {
                 "position": 10,
                 "mnemonic": "MP_AAS_UDS_APPUI_SELECTION_SYSTEME_STAT_AUTO_SUR_ECRAN_TACTILE_5",
-                "label_index": "52014",
+                "label_index": "@P52014",
                 "label_korean": "다기능 터치 스크린의 자동 주차 시스템 선택 버튼을 누른다",
                 "group_id": "50845",
                 "req_frame_id": "152832",
@@ -6028,7 +6028,7 @@
             {
                 "position": 11,
                 "mnemonic": "MP_AAS_UDS_VITESSE_DU_VEHICULE_TROP_ELEVEE_5",
-                "label_index": "33702",
+                "label_index": "@P33702",
                 "label_korean": "차량 속도 너무 높음",
                 "group_id": "50845",
                 "req_frame_id": "152832",
@@ -6053,7 +6053,7 @@
             {
                 "position": 12,
                 "mnemonic": "MP_AAS_UDS_TEMPS_DE_SELECTION_OU_RECHERCHE_DE_PLACE_DEPASSES_5",
-                "label_index": "52015",
+                "label_index": "@P52015",
                 "label_korean": "공간 선택 또는 검색 시간 초과됨",
                 "group_id": "50845",
                 "req_frame_id": "152832",
@@ -6078,7 +6078,7 @@
             {
                 "position": 13,
                 "mnemonic": "MP_AAS_UDS_CEINTURE_DE_SECURITE_NON_BOUCLEE_5",
-                "label_index": "52004",
+                "label_index": "@P52004",
                 "label_korean": "시트 벨트 미착용",
                 "group_id": "50845",
                 "req_frame_id": "152832",
@@ -6103,7 +6103,7 @@
             {
                 "position": 14,
                 "mnemonic": "MP_AAS_UDS_PRESENCE_REMORQUE_5",
-                "label_index": "12134",
+                "label_index": "@P12134",
                 "label_korean": "트레일러 장착",
                 "group_id": "50845",
                 "req_frame_id": "152832",
@@ -6128,7 +6128,7 @@
             {
                 "position": 15,
                 "mnemonic": "MP_AAS_UDS_ROUE_DE_SECOURS_DETECTEE_5",
-                "label_index": "51997",
+                "label_index": "@P51997",
                 "label_korean": "스페어 휠 감지됨",
                 "group_id": "50845",
                 "req_frame_id": "152832",
@@ -6153,7 +6153,7 @@
             {
                 "position": 16,
                 "mnemonic": "MP_AAS_UDS_INFORMATION_SUR_CHOC_TRANSMIS_SYSTEME_STAT_AUTO_5",
-                "label_index": "52008",
+                "label_index": "@P52008",
                 "label_korean": "자동 주차 시스템에 전송된 충격 정보",
                 "group_id": "50845",
                 "req_frame_id": "152832",
@@ -6178,7 +6178,7 @@
             {
                 "position": 17,
                 "mnemonic": "MP_AAS_UDS_DEFAUT_INTERNE_SUR_UN_FLUX_DE_DONNEES_5",
-                "label_index": "52016",
+                "label_index": "@P52016",
                 "label_korean": "데이터 스트림의 내부 결함",
                 "group_id": "50845",
                 "req_frame_id": "152832",
@@ -6203,7 +6203,7 @@
             {
                 "position": 18,
                 "mnemonic": "MP_AAS_UDS_CAPTEUR_DANGLE_VOLANT_DIRECTION_VIRTUEL_EN_DEFAUT_5",
-                "label_index": "51998",
+                "label_index": "@P51998",
                 "label_korean": "가상 스티어링 휠 각도 센서 결함",
                 "group_id": "50845",
                 "req_frame_id": "152832",
@@ -6236,7 +6236,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_AAS_UDS_COMPTEUR_DE_TEMPS_11",
-                "label_index": "17808",
+                "label_index": "@P17808",
                 "label_korean": "시간 카운터",
                 "group_id": "50847",
                 "req_frame_id": "152838",
@@ -6252,13 +6252,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "52211",
+                "help_code": "@P52211",
                 "help_korean": "저장 중 경과 시간"
             },
             {
                 "position": 2,
                 "mnemonic": "MP_AAS_UDS_ETAT_MOTEUR_TOURNANT_6",
-                "label_index": "10950",
+                "label_index": "@P10950",
                 "label_korean": "엔진 구동 상태",
                 "group_id": "50847",
                 "req_frame_id": "152838",
@@ -6292,7 +6292,7 @@
             {
                 "position": 3,
                 "mnemonic": "MP_AAS_UDS_ETAT_ANTIVOL_DIRECTION_COMMUTATEUR_DEMARRAGE_MOTEUR_6",
-                "label_index": "52002",
+                "label_index": "@P52002",
                 "label_korean": "스티어링 잠금 장치/엔진 시동 스위치의 상태",
                 "group_id": "50847",
                 "req_frame_id": "152838",
@@ -6319,7 +6319,7 @@
             {
                 "position": 4,
                 "mnemonic": "MP_AAS_UDS_ETATS_DES_OUVRANTS_AU_MOMENT_DU_DEFAUT_6",
-                "label_index": "52011",
+                "label_index": "@P52011",
                 "label_korean": "결함 발생 시 열림 요소의 상태",
                 "group_id": "매핑_누락",
                 "req_frame_id": "",
@@ -6368,13 +6368,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "52219",
+                "help_code": "@P52219",
                 "help_korean": "\"트렁크\"는 테일게이트 또는 트렁크 덮개를 의미"
             },
             {
                 "position": 5,
                 "mnemonic": "MP_AAS_UDS_ESP_EN_REGULATION_6",
-                "label_index": "51995",
+                "label_index": "@P51995",
                 "label_korean": "ESP 제어",
                 "group_id": "50847",
                 "req_frame_id": "152838",
@@ -6399,7 +6399,7 @@
             {
                 "position": 6,
                 "mnemonic": "MP_AAS_UDS_ETAT_ESP_ASR_6",
-                "label_index": "16270",
+                "label_index": "@P16270@T/@F14664",
                 "label_korean": "ESP 상태/ASR",
                 "group_id": "50847",
                 "req_frame_id": "152838",
@@ -6424,7 +6424,7 @@
             {
                 "position": 7,
                 "mnemonic": "MP_AAS_UDS_DA_PILOTEE_STAT_AUTO_1",
-                "label_index": "52007",
+                "label_index": "@P52007",
                 "label_korean": "자동 주차 시스템을 통해 제어되는 파워 스티어링",
                 "group_id": "50847",
                 "req_frame_id": "152838",
@@ -6449,7 +6449,7 @@
             {
                 "position": 8,
                 "mnemonic": "MP_AAS_UDS_ETAT_CONTROLE_LONGITUDINAL_PILOTE_PAR_SYSTEME_FREIN_1",
-                "label_index": "52019",
+                "label_index": "@P52019",
                 "label_korean": "브레이크 시스템을 통해 안내되는 종방향 제어의 상태",
                 "group_id": "50847",
                 "req_frame_id": "152838",
@@ -6476,7 +6476,7 @@
             {
                 "position": 9,
                 "mnemonic": "MP_AAS_UDS_ETAT_DIRECTION_ASSISTEE_SYSTEME_STAT_AUTO_602_1",
-                "label_index": "52005",
+                "label_index": "@P52005",
                 "label_korean": "자동 주차 시스템을 위한 파워 스티어링의 상태",
                 "group_id": "50847",
                 "req_frame_id": "152838",
@@ -6503,7 +6503,7 @@
             {
                 "position": 10,
                 "mnemonic": "MP_AAS_UDS_CAUSE_DESACTIVATION_SYSTEME_STAT_AUTO_1",
-                "label_index": "52006",
+                "label_index": "@P52006",
                 "label_korean": "자동 주차 시스템의 차단 원인",
                 "group_id": "50847",
                 "req_frame_id": "152838",
@@ -6534,7 +6534,7 @@
             {
                 "position": 11,
                 "mnemonic": "MP_AAS_UDS_APPUI_SELECTION_STAT_AUTO_SUR_ECRAN_TACTILE_602_1",
-                "label_index": "52014",
+                "label_index": "@P52014",
                 "label_korean": "다기능 터치 스크린의 자동 주차 시스템 선택 버튼을 누른다",
                 "group_id": "50847",
                 "req_frame_id": "152838",
@@ -6559,7 +6559,7 @@
             {
                 "position": 12,
                 "mnemonic": "MP_AAS_UDS_ETAT_DU_FREIN_DE_STATIONNEMENT_ELECTRIQUE_1",
-                "label_index": "19863",
+                "label_index": "@P19863",
                 "label_korean": "전동 주차 브레이크 상태",
                 "group_id": "50847",
                 "req_frame_id": "152838",
@@ -6584,7 +6584,7 @@
             {
                 "position": 13,
                 "mnemonic": "MP_AAS_UDS_ACTION_SUR_LE_LEVIER_DE_VITESSE_PAR_LE_CONDUCTEUR_1",
-                "label_index": "51993",
+                "label_index": "@P51993",
                 "label_korean": "운전자에 의한 기어 레버 조작",
                 "group_id": "50847",
                 "req_frame_id": "152838",
@@ -6613,7 +6613,7 @@
             {
                 "position": 14,
                 "mnemonic": "MP_AAS_UDS_PEDALE_FREIN_RELACHEE_LORS_LAFFICHAGE_DES_CONSIGNES_1",
-                "label_index": "52020",
+                "label_index": "@P52020",
                 "label_korean": "지침이 표시될 때 브레이크 페달 해제",
                 "group_id": "50847",
                 "req_frame_id": "152838",
@@ -6638,7 +6638,7 @@
             {
                 "position": 15,
                 "mnemonic": "MP_AAS_UDS_ABANDON_MANOEUVRE_SUITE_TRAJECTOIRE_NON_CONFORME_1",
-                "label_index": "51994",
+                "label_index": "@P51994",
                 "label_korean": "잘못된 궤적 이후 조작 포기",
                 "group_id": "50847",
                 "req_frame_id": "152838",
@@ -6663,7 +6663,7 @@
             {
                 "position": 16,
                 "mnemonic": "MP_AAS_UDS_TEMPS_DE_MANOEUVRE_TROP_LONG_1",
-                "label_index": "52003",
+                "label_index": "@P52003",
                 "label_korean": "너무 긴 이동 시간",
                 "group_id": "50847",
                 "req_frame_id": "152838",
@@ -6688,7 +6688,7 @@
             {
                 "position": 17,
                 "mnemonic": "MP_AAS_UDS_COHERENCE_ENTRE_CLIGNOTANT_ET_MANOEUVRE_0602_1",
-                "label_index": "52018",
+                "label_index": "@P52018",
                 "label_korean": "방향 지시등 컨트롤과 조작 방향 사이의 일치",
                 "group_id": "50847",
                 "req_frame_id": "152838",
@@ -6713,7 +6713,7 @@
             {
                 "position": 18,
                 "mnemonic": "MP_AAS_UDS_CEINTURE_DE_SECURITE_NON_BOUCLEE_0602_1",
-                "label_index": "52004",
+                "label_index": "@P52004",
                 "label_korean": "시트 벨트 미착용",
                 "group_id": "50847",
                 "req_frame_id": "152838",
@@ -6738,7 +6738,7 @@
             {
                 "position": 19,
                 "mnemonic": "MP_AAS_UDS_PRESENCE_REMORQUE_602_1",
-                "label_index": "12134",
+                "label_index": "@P12134",
                 "label_korean": "트레일러 장착",
                 "group_id": "50847",
                 "req_frame_id": "152838",
@@ -6763,7 +6763,7 @@
             {
                 "position": 20,
                 "mnemonic": "MP_AAS_UDS_ROUE_DE_SECOURS_DETECTEE_602_1",
-                "label_index": "51997",
+                "label_index": "@P51997",
                 "label_korean": "스페어 휠 감지됨",
                 "group_id": "50847",
                 "req_frame_id": "152838",
@@ -6788,7 +6788,7 @@
             {
                 "position": 21,
                 "mnemonic": "MP_AAS_UDS_INFORMATION_SUR_CHOC_TRANSMIS_SYSTEME_AUTO_602_1",
-                "label_index": "52008",
+                "label_index": "@P52008",
                 "label_korean": "자동 주차 시스템에 전송된 충격 정보",
                 "group_id": "50847",
                 "req_frame_id": "152838",
@@ -6813,7 +6813,7 @@
             {
                 "position": 22,
                 "mnemonic": "MP_AAS_UDS_DEFAUT_INTERNE_SUR_FLUX_DONNEES_602_1",
-                "label_index": "52016",
+                "label_index": "@P52016",
                 "label_korean": "데이터 스트림의 내부 결함",
                 "group_id": "50847",
                 "req_frame_id": "152838",
@@ -6838,7 +6838,7 @@
             {
                 "position": 23,
                 "mnemonic": "MP_AAS_UDS_CAPTEUR_ANGLE_VOLANT_VIRTUEL_EN_DEFAUT_602_1",
-                "label_index": "51998",
+                "label_index": "@P51998",
                 "label_korean": "가상 스티어링 휠 각도 센서 결함",
                 "group_id": "50847",
                 "req_frame_id": "152838",
@@ -6871,7 +6871,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_AAS_UDS_COMPTEUR_DE_TEMPS_12",
-                "label_index": "17808",
+                "label_index": "@P17808",
                 "label_korean": "시간 카운터",
                 "group_id": "50847",
                 "req_frame_id": "152838",
@@ -6887,13 +6887,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "52211",
+                "help_code": "@P52211",
                 "help_korean": "저장 중 경과 시간"
             },
             {
                 "position": 2,
                 "mnemonic": "MP_AAS_UDS_ETAT_MOTEUR_TOURNANT_7",
-                "label_index": "10950",
+                "label_index": "@P10950",
                 "label_korean": "엔진 구동 상태",
                 "group_id": "50847",
                 "req_frame_id": "152838",
@@ -6927,7 +6927,7 @@
             {
                 "position": 3,
                 "mnemonic": "MP_AAS_UDS_ETAT_ANTIVOL_DIRECTION_COMMUTATEUR_DEMARRAGE_MOTEUR_7",
-                "label_index": "52002",
+                "label_index": "@P52002",
                 "label_korean": "스티어링 잠금 장치/엔진 시동 스위치의 상태",
                 "group_id": "50847",
                 "req_frame_id": "152838",
@@ -6954,7 +6954,7 @@
             {
                 "position": 4,
                 "mnemonic": "MP_AAS_UDS_ETATS_DES_OUVRANTS_AU_MOMENT_DU_DEFAUT_7",
-                "label_index": "52011",
+                "label_index": "@P52011",
                 "label_korean": "결함 발생 시 열림 요소의 상태",
                 "group_id": "매핑_누락",
                 "req_frame_id": "",
@@ -7003,13 +7003,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "52219",
+                "help_code": "@P52219",
                 "help_korean": "\"트렁크\"는 테일게이트 또는 트렁크 덮개를 의미"
             },
             {
                 "position": 5,
                 "mnemonic": "MP_AAS_UDS_ESP_EN_REGULATION_7",
-                "label_index": "51995",
+                "label_index": "@P51995",
                 "label_korean": "ESP 제어",
                 "group_id": "50847",
                 "req_frame_id": "152838",
@@ -7034,7 +7034,7 @@
             {
                 "position": 6,
                 "mnemonic": "MP_AAS_UDS_ETAT_ESP_ASR_7",
-                "label_index": "16270",
+                "label_index": "@P16270@T/@F14664",
                 "label_korean": "ESP 상태/ASR",
                 "group_id": "50847",
                 "req_frame_id": "152838",
@@ -7059,7 +7059,7 @@
             {
                 "position": 7,
                 "mnemonic": "MP_AAS_UDS_DA_PILOTEE_STAT_AUTO_2",
-                "label_index": "52007",
+                "label_index": "@P52007",
                 "label_korean": "자동 주차 시스템을 통해 제어되는 파워 스티어링",
                 "group_id": "50847",
                 "req_frame_id": "152838",
@@ -7084,7 +7084,7 @@
             {
                 "position": 8,
                 "mnemonic": "MP_AAS_UDS_ETAT_CONTROLE_LONGITUDINAL_PILOTE_PAR_SYSTEME_FREIN_2",
-                "label_index": "52019",
+                "label_index": "@P52019",
                 "label_korean": "브레이크 시스템을 통해 안내되는 종방향 제어의 상태",
                 "group_id": "50847",
                 "req_frame_id": "152838",
@@ -7111,7 +7111,7 @@
             {
                 "position": 9,
                 "mnemonic": "MP_AAS_UDS_ETAT_DIRECTION_ASSISTEE_SYSTEME_STAT_AUTO_602_2",
-                "label_index": "52005",
+                "label_index": "@P52005",
                 "label_korean": "자동 주차 시스템을 위한 파워 스티어링의 상태",
                 "group_id": "50847",
                 "req_frame_id": "152838",
@@ -7138,7 +7138,7 @@
             {
                 "position": 10,
                 "mnemonic": "MP_AAS_UDS_CAUSE_DESACTIVATION_SYSTEME_STAT_AUTO_2",
-                "label_index": "52006",
+                "label_index": "@P52006",
                 "label_korean": "자동 주차 시스템의 차단 원인",
                 "group_id": "50847",
                 "req_frame_id": "152838",
@@ -7169,7 +7169,7 @@
             {
                 "position": 11,
                 "mnemonic": "MP_AAS_UDS_APPUI_SELECTION_STAT_AUTO_SUR_ECRAN_TACTILE_602_2",
-                "label_index": "52014",
+                "label_index": "@P52014",
                 "label_korean": "다기능 터치 스크린의 자동 주차 시스템 선택 버튼을 누른다",
                 "group_id": "50847",
                 "req_frame_id": "152838",
@@ -7194,7 +7194,7 @@
             {
                 "position": 12,
                 "mnemonic": "MP_AAS_UDS_ETAT_DU_FREIN_DE_STATIONNEMENT_ELECTRIQUE_2",
-                "label_index": "19863",
+                "label_index": "@P19863",
                 "label_korean": "전동 주차 브레이크 상태",
                 "group_id": "50847",
                 "req_frame_id": "152838",
@@ -7219,7 +7219,7 @@
             {
                 "position": 13,
                 "mnemonic": "MP_AAS_UDS_ACTION_SUR_LE_LEVIER_DE_VITESSE_PAR_LE_CONDUCTEUR_2",
-                "label_index": "51993",
+                "label_index": "@P51993",
                 "label_korean": "운전자에 의한 기어 레버 조작",
                 "group_id": "50847",
                 "req_frame_id": "152838",
@@ -7248,7 +7248,7 @@
             {
                 "position": 14,
                 "mnemonic": "MP_AAS_UDS_PEDALE_FREIN_RELACHEE_LORS_LAFFICHAGE_DES_CONSIGNES_2",
-                "label_index": "52020",
+                "label_index": "@P52020",
                 "label_korean": "지침이 표시될 때 브레이크 페달 해제",
                 "group_id": "50847",
                 "req_frame_id": "152838",
@@ -7273,7 +7273,7 @@
             {
                 "position": 15,
                 "mnemonic": "MP_AAS_UDS_ABANDON_MANOEUVRE_SUITE_TRAJECTOIRE_NON_CONFORME_2",
-                "label_index": "51994",
+                "label_index": "@P51994",
                 "label_korean": "잘못된 궤적 이후 조작 포기",
                 "group_id": "50847",
                 "req_frame_id": "152838",
@@ -7298,7 +7298,7 @@
             {
                 "position": 16,
                 "mnemonic": "MP_AAS_UDS_TEMPS_DE_MANOEUVRE_TROP_LONG_2",
-                "label_index": "52003",
+                "label_index": "@P52003",
                 "label_korean": "너무 긴 이동 시간",
                 "group_id": "50847",
                 "req_frame_id": "152838",
@@ -7323,7 +7323,7 @@
             {
                 "position": 17,
                 "mnemonic": "MP_AAS_UDS_COHERENCE_ENTRE_CLIGNOTANT_ET_MANOEUVRE_0602_2",
-                "label_index": "52018",
+                "label_index": "@P52018",
                 "label_korean": "방향 지시등 컨트롤과 조작 방향 사이의 일치",
                 "group_id": "50847",
                 "req_frame_id": "152838",
@@ -7348,7 +7348,7 @@
             {
                 "position": 18,
                 "mnemonic": "MP_AAS_UDS_CEINTURE_DE_SECURITE_NON_BOUCLEE_0602_2",
-                "label_index": "52004",
+                "label_index": "@P52004",
                 "label_korean": "시트 벨트 미착용",
                 "group_id": "50847",
                 "req_frame_id": "152838",
@@ -7373,7 +7373,7 @@
             {
                 "position": 19,
                 "mnemonic": "MP_AAS_UDS_PRESENCE_REMORQUE_602_2",
-                "label_index": "12134",
+                "label_index": "@P12134",
                 "label_korean": "트레일러 장착",
                 "group_id": "50847",
                 "req_frame_id": "152838",
@@ -7398,7 +7398,7 @@
             {
                 "position": 20,
                 "mnemonic": "MP_AAS_UDS_ROUE_DE_SECOURS_DETECTEE_602_2",
-                "label_index": "51997",
+                "label_index": "@P51997",
                 "label_korean": "스페어 휠 감지됨",
                 "group_id": "50847",
                 "req_frame_id": "152838",
@@ -7423,7 +7423,7 @@
             {
                 "position": 21,
                 "mnemonic": "MP_AAS_UDS_INFORMATION_SUR_CHOC_TRANSMIS_SYSTEME_AUTO_602_2",
-                "label_index": "52008",
+                "label_index": "@P52008",
                 "label_korean": "자동 주차 시스템에 전송된 충격 정보",
                 "group_id": "50847",
                 "req_frame_id": "152838",
@@ -7448,7 +7448,7 @@
             {
                 "position": 22,
                 "mnemonic": "MP_AAS_UDS_DEFAUT_INTERNE_SUR_FLUX_DONNEES_602_2",
-                "label_index": "52016",
+                "label_index": "@P52016",
                 "label_korean": "데이터 스트림의 내부 결함",
                 "group_id": "50847",
                 "req_frame_id": "152838",
@@ -7473,7 +7473,7 @@
             {
                 "position": 23,
                 "mnemonic": "MP_AAS_UDS_CAPTEUR_ANGLE_VOLANT_VIRTUEL_EN_DEFAUT_602_2",
-                "label_index": "51998",
+                "label_index": "@P51998",
                 "label_korean": "가상 스티어링 휠 각도 센서 결함",
                 "group_id": "50847",
                 "req_frame_id": "152838",
@@ -7506,7 +7506,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_AAS_UDS_COMPTEUR_DE_TEMPS_13",
-                "label_index": "17808",
+                "label_index": "@P17808",
                 "label_korean": "시간 카운터",
                 "group_id": "50847",
                 "req_frame_id": "152838",
@@ -7522,13 +7522,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "52211",
+                "help_code": "@P52211",
                 "help_korean": "저장 중 경과 시간"
             },
             {
                 "position": 2,
                 "mnemonic": "MP_AAS_UDS_ETAT_MOTEUR_TOURNANT_8",
-                "label_index": "10950",
+                "label_index": "@P10950",
                 "label_korean": "엔진 구동 상태",
                 "group_id": "50847",
                 "req_frame_id": "152838",
@@ -7562,7 +7562,7 @@
             {
                 "position": 3,
                 "mnemonic": "MP_AAS_UDS_ETAT_ANTIVOL_DIRECTION_COMMUTATEUR_DEMARRAGE_MOTEUR_8",
-                "label_index": "52002",
+                "label_index": "@P52002",
                 "label_korean": "스티어링 잠금 장치/엔진 시동 스위치의 상태",
                 "group_id": "50847",
                 "req_frame_id": "152838",
@@ -7589,7 +7589,7 @@
             {
                 "position": 4,
                 "mnemonic": "MP_AAS_UDS_ETATS_DES_OUVRANTS_AU_MOMENT_DU_DEFAUT_8",
-                "label_index": "52011",
+                "label_index": "@P52011",
                 "label_korean": "결함 발생 시 열림 요소의 상태",
                 "group_id": "매핑_누락",
                 "req_frame_id": "",
@@ -7638,13 +7638,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "52219",
+                "help_code": "@P52219",
                 "help_korean": "\"트렁크\"는 테일게이트 또는 트렁크 덮개를 의미"
             },
             {
                 "position": 5,
                 "mnemonic": "MP_AAS_UDS_ESP_EN_REGULATION_8",
-                "label_index": "51995",
+                "label_index": "@P51995",
                 "label_korean": "ESP 제어",
                 "group_id": "50847",
                 "req_frame_id": "152838",
@@ -7669,7 +7669,7 @@
             {
                 "position": 6,
                 "mnemonic": "MP_AAS_UDS_ETAT_ESP_ASR_8",
-                "label_index": "16270",
+                "label_index": "@P16270@T/@F14664",
                 "label_korean": "ESP 상태/ASR",
                 "group_id": "50847",
                 "req_frame_id": "152838",
@@ -7694,7 +7694,7 @@
             {
                 "position": 7,
                 "mnemonic": "MP_AAS_UDS_DA_PILOTEE_STAT_AUTO_3",
-                "label_index": "52007",
+                "label_index": "@P52007",
                 "label_korean": "자동 주차 시스템을 통해 제어되는 파워 스티어링",
                 "group_id": "50847",
                 "req_frame_id": "152838",
@@ -7719,7 +7719,7 @@
             {
                 "position": 8,
                 "mnemonic": "MP_AAS_UDS_ETAT_CONTROLE_LONGITUDINAL_PILOTE_PAR_SYSTEME_FREIN_3",
-                "label_index": "52019",
+                "label_index": "@P52019",
                 "label_korean": "브레이크 시스템을 통해 안내되는 종방향 제어의 상태",
                 "group_id": "50847",
                 "req_frame_id": "152838",
@@ -7746,7 +7746,7 @@
             {
                 "position": 9,
                 "mnemonic": "MP_AAS_UDS_ETAT_DIRECTION_ASSISTEE_SYSTEME_STAT_AUTO_602_3",
-                "label_index": "52005",
+                "label_index": "@P52005",
                 "label_korean": "자동 주차 시스템을 위한 파워 스티어링의 상태",
                 "group_id": "50847",
                 "req_frame_id": "152838",
@@ -7773,7 +7773,7 @@
             {
                 "position": 10,
                 "mnemonic": "MP_AAS_UDS_CAUSE_DESACTIVATION_SYSTEME_STAT_AUTO_3",
-                "label_index": "52006",
+                "label_index": "@P52006",
                 "label_korean": "자동 주차 시스템의 차단 원인",
                 "group_id": "50847",
                 "req_frame_id": "152838",
@@ -7804,7 +7804,7 @@
             {
                 "position": 11,
                 "mnemonic": "MP_AAS_UDS_APPUI_SELECTION_STAT_AUTO_SUR_ECRAN_TACTILE_602_3",
-                "label_index": "52014",
+                "label_index": "@P52014",
                 "label_korean": "다기능 터치 스크린의 자동 주차 시스템 선택 버튼을 누른다",
                 "group_id": "50847",
                 "req_frame_id": "152838",
@@ -7829,7 +7829,7 @@
             {
                 "position": 12,
                 "mnemonic": "MP_AAS_UDS_ETAT_DU_FREIN_DE_STATIONNEMENT_ELECTRIQUE_3",
-                "label_index": "19863",
+                "label_index": "@P19863",
                 "label_korean": "전동 주차 브레이크 상태",
                 "group_id": "50847",
                 "req_frame_id": "152838",
@@ -7854,7 +7854,7 @@
             {
                 "position": 13,
                 "mnemonic": "MP_AAS_UDS_ACTION_SUR_LE_LEVIER_DE_VITESSE_PAR_LE_CONDUCTEUR_3",
-                "label_index": "51993",
+                "label_index": "@P51993",
                 "label_korean": "운전자에 의한 기어 레버 조작",
                 "group_id": "50847",
                 "req_frame_id": "152838",
@@ -7883,7 +7883,7 @@
             {
                 "position": 14,
                 "mnemonic": "MP_AAS_UDS_PEDALE_FREIN_RELACHEE_LORS_LAFFICHAGE_DES_CONSIGNES_3",
-                "label_index": "52020",
+                "label_index": "@P52020",
                 "label_korean": "지침이 표시될 때 브레이크 페달 해제",
                 "group_id": "50847",
                 "req_frame_id": "152838",
@@ -7908,7 +7908,7 @@
             {
                 "position": 15,
                 "mnemonic": "MP_AAS_UDS_ABANDON_MANOEUVRE_SUITE_TRAJECTOIRE_NON_CONFORME_3",
-                "label_index": "51994",
+                "label_index": "@P51994",
                 "label_korean": "잘못된 궤적 이후 조작 포기",
                 "group_id": "50847",
                 "req_frame_id": "152838",
@@ -7933,7 +7933,7 @@
             {
                 "position": 16,
                 "mnemonic": "MP_AAS_UDS_TEMPS_DE_MANOEUVRE_TROP_LONG_3",
-                "label_index": "52003",
+                "label_index": "@P52003",
                 "label_korean": "너무 긴 이동 시간",
                 "group_id": "50847",
                 "req_frame_id": "152838",
@@ -7958,7 +7958,7 @@
             {
                 "position": 17,
                 "mnemonic": "MP_AAS_UDS_COHERENCE_ENTRE_CLIGNOTANT_ET_MANOEUVRE_0602_3",
-                "label_index": "52018",
+                "label_index": "@P52018",
                 "label_korean": "방향 지시등 컨트롤과 조작 방향 사이의 일치",
                 "group_id": "50847",
                 "req_frame_id": "152838",
@@ -7983,7 +7983,7 @@
             {
                 "position": 18,
                 "mnemonic": "MP_AAS_UDS_CEINTURE_DE_SECURITE_NON_BOUCLEE_0602_3",
-                "label_index": "52004",
+                "label_index": "@P52004",
                 "label_korean": "시트 벨트 미착용",
                 "group_id": "50847",
                 "req_frame_id": "152838",
@@ -8008,7 +8008,7 @@
             {
                 "position": 19,
                 "mnemonic": "MP_AAS_UDS_PRESENCE_REMORQUE_602_3",
-                "label_index": "12134",
+                "label_index": "@P12134",
                 "label_korean": "트레일러 장착",
                 "group_id": "50847",
                 "req_frame_id": "152838",
@@ -8033,7 +8033,7 @@
             {
                 "position": 20,
                 "mnemonic": "MP_AAS_UDS_ROUE_DE_SECOURS_DETECTEE_602_3",
-                "label_index": "51997",
+                "label_index": "@P51997",
                 "label_korean": "스페어 휠 감지됨",
                 "group_id": "50847",
                 "req_frame_id": "152838",
@@ -8058,7 +8058,7 @@
             {
                 "position": 21,
                 "mnemonic": "MP_AAS_UDS_INFORMATION_SUR_CHOC_TRANSMIS_SYSTEME_AUTO_602_3",
-                "label_index": "52008",
+                "label_index": "@P52008",
                 "label_korean": "자동 주차 시스템에 전송된 충격 정보",
                 "group_id": "50847",
                 "req_frame_id": "152838",
@@ -8083,7 +8083,7 @@
             {
                 "position": 22,
                 "mnemonic": "MP_AAS_UDS_DEFAUT_INTERNE_SUR_FLUX_DONNEES_602_3",
-                "label_index": "52016",
+                "label_index": "@P52016",
                 "label_korean": "데이터 스트림의 내부 결함",
                 "group_id": "50847",
                 "req_frame_id": "152838",
@@ -8108,7 +8108,7 @@
             {
                 "position": 23,
                 "mnemonic": "MP_AAS_UDS_CAPTEUR_ANGLE_VOLANT_VIRTUEL_EN_DEFAUT_602_3",
-                "label_index": "51998",
+                "label_index": "@P51998",
                 "label_korean": "가상 스티어링 휠 각도 센서 결함",
                 "group_id": "50847",
                 "req_frame_id": "152838",
@@ -8141,7 +8141,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_AAS_UDS_COMPTEUR_DE_TEMPS_14",
-                "label_index": "17808",
+                "label_index": "@P17808",
                 "label_korean": "시간 카운터",
                 "group_id": "50847",
                 "req_frame_id": "152838",
@@ -8157,13 +8157,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "52211",
+                "help_code": "@P52211",
                 "help_korean": "저장 중 경과 시간"
             },
             {
                 "position": 2,
                 "mnemonic": "MP_AAS_UDS_ETAT_MOTEUR_TOURNANT_9",
-                "label_index": "10950",
+                "label_index": "@P10950",
                 "label_korean": "엔진 구동 상태",
                 "group_id": "50847",
                 "req_frame_id": "152838",
@@ -8197,7 +8197,7 @@
             {
                 "position": 3,
                 "mnemonic": "MP_AAS_UDS_ETAT_ANTIVOL_DIRECTION_COMMUTATEUR_DEMARRAGE_MOTEUR_9",
-                "label_index": "52002",
+                "label_index": "@P52002",
                 "label_korean": "스티어링 잠금 장치/엔진 시동 스위치의 상태",
                 "group_id": "50847",
                 "req_frame_id": "152838",
@@ -8224,7 +8224,7 @@
             {
                 "position": 4,
                 "mnemonic": "MP_AAS_UDS_ETATS_DES_OUVRANTS_AU_MOMENT_DU_DEFAUT_9",
-                "label_index": "52011",
+                "label_index": "@P52011",
                 "label_korean": "결함 발생 시 열림 요소의 상태",
                 "group_id": "매핑_누락",
                 "req_frame_id": "",
@@ -8273,13 +8273,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "52219",
+                "help_code": "@P52219",
                 "help_korean": "\"트렁크\"는 테일게이트 또는 트렁크 덮개를 의미"
             },
             {
                 "position": 5,
                 "mnemonic": "MP_AAS_UDS_ESP_EN_REGULATION_9",
-                "label_index": "51995",
+                "label_index": "@P51995",
                 "label_korean": "ESP 제어",
                 "group_id": "50847",
                 "req_frame_id": "152838",
@@ -8304,7 +8304,7 @@
             {
                 "position": 6,
                 "mnemonic": "MP_AAS_UDS_ETAT_ESP_ASR_9",
-                "label_index": "16270",
+                "label_index": "@P16270@T/@F14664",
                 "label_korean": "ESP 상태/ASR",
                 "group_id": "50847",
                 "req_frame_id": "152838",
@@ -8329,7 +8329,7 @@
             {
                 "position": 7,
                 "mnemonic": "MP_AAS_UDS_DA_PILOTEE_STAT_AUTO_4",
-                "label_index": "52007",
+                "label_index": "@P52007",
                 "label_korean": "자동 주차 시스템을 통해 제어되는 파워 스티어링",
                 "group_id": "50847",
                 "req_frame_id": "152838",
@@ -8354,7 +8354,7 @@
             {
                 "position": 8,
                 "mnemonic": "MP_AAS_UDS_ETAT_CONTROLE_LONGITUDINAL_PILOTE_PAR_SYSTEME_FREIN_4",
-                "label_index": "52019",
+                "label_index": "@P52019",
                 "label_korean": "브레이크 시스템을 통해 안내되는 종방향 제어의 상태",
                 "group_id": "50847",
                 "req_frame_id": "152838",
@@ -8381,7 +8381,7 @@
             {
                 "position": 9,
                 "mnemonic": "MP_AAS_UDS_ETAT_DIRECTION_ASSISTEE_SYSTEME_STAT_AUTO_602_4",
-                "label_index": "52005",
+                "label_index": "@P52005",
                 "label_korean": "자동 주차 시스템을 위한 파워 스티어링의 상태",
                 "group_id": "50847",
                 "req_frame_id": "152838",
@@ -8408,7 +8408,7 @@
             {
                 "position": 10,
                 "mnemonic": "MP_AAS_UDS_CAUSE_DESACTIVATION_SYSTEME_STAT_AUTO_4",
-                "label_index": "52006",
+                "label_index": "@P52006",
                 "label_korean": "자동 주차 시스템의 차단 원인",
                 "group_id": "50847",
                 "req_frame_id": "152838",
@@ -8439,7 +8439,7 @@
             {
                 "position": 11,
                 "mnemonic": "MP_AAS_UDS_APPUI_SELECTION_STAT_AUTO_SUR_ECRAN_TACTILE_602_4",
-                "label_index": "52014",
+                "label_index": "@P52014",
                 "label_korean": "다기능 터치 스크린의 자동 주차 시스템 선택 버튼을 누른다",
                 "group_id": "50847",
                 "req_frame_id": "152838",
@@ -8464,7 +8464,7 @@
             {
                 "position": 12,
                 "mnemonic": "MP_AAS_UDS_ETAT_DU_FREIN_DE_STATIONNEMENT_ELECTRIQUE_4",
-                "label_index": "19863",
+                "label_index": "@P19863",
                 "label_korean": "전동 주차 브레이크 상태",
                 "group_id": "50847",
                 "req_frame_id": "152838",
@@ -8489,7 +8489,7 @@
             {
                 "position": 13,
                 "mnemonic": "MP_AAS_UDS_ACTION_SUR_LE_LEVIER_DE_VITESSE_PAR_LE_CONDUCTEUR_4",
-                "label_index": "51993",
+                "label_index": "@P51993",
                 "label_korean": "운전자에 의한 기어 레버 조작",
                 "group_id": "50847",
                 "req_frame_id": "152838",
@@ -8518,7 +8518,7 @@
             {
                 "position": 14,
                 "mnemonic": "MP_AAS_UDS_PEDALE_FREIN_RELACHEE_LORS_LAFFICHAGE_DES_CONSIGNES_4",
-                "label_index": "52020",
+                "label_index": "@P52020",
                 "label_korean": "지침이 표시될 때 브레이크 페달 해제",
                 "group_id": "50847",
                 "req_frame_id": "152838",
@@ -8543,7 +8543,7 @@
             {
                 "position": 15,
                 "mnemonic": "MP_AAS_UDS_ABANDON_MANOEUVRE_SUITE_TRAJECTOIRE_NON_CONFORME_4",
-                "label_index": "51994",
+                "label_index": "@P51994",
                 "label_korean": "잘못된 궤적 이후 조작 포기",
                 "group_id": "50847",
                 "req_frame_id": "152838",
@@ -8568,7 +8568,7 @@
             {
                 "position": 16,
                 "mnemonic": "MP_AAS_UDS_TEMPS_DE_MANOEUVRE_TROP_LONG_4",
-                "label_index": "52003",
+                "label_index": "@P52003",
                 "label_korean": "너무 긴 이동 시간",
                 "group_id": "50847",
                 "req_frame_id": "152838",
@@ -8593,7 +8593,7 @@
             {
                 "position": 17,
                 "mnemonic": "MP_AAS_UDS_COHERENCE_ENTRE_CLIGNOTANT_ET_MANOEUVRE_0602_4",
-                "label_index": "52018",
+                "label_index": "@P52018",
                 "label_korean": "방향 지시등 컨트롤과 조작 방향 사이의 일치",
                 "group_id": "50847",
                 "req_frame_id": "152838",
@@ -8618,7 +8618,7 @@
             {
                 "position": 18,
                 "mnemonic": "MP_AAS_UDS_CEINTURE_DE_SECURITE_NON_BOUCLEE_0602_4",
-                "label_index": "52004",
+                "label_index": "@P52004",
                 "label_korean": "시트 벨트 미착용",
                 "group_id": "50847",
                 "req_frame_id": "152838",
@@ -8643,7 +8643,7 @@
             {
                 "position": 19,
                 "mnemonic": "MP_AAS_UDS_PRESENCE_REMORQUE_602_4",
-                "label_index": "12134",
+                "label_index": "@P12134",
                 "label_korean": "트레일러 장착",
                 "group_id": "50847",
                 "req_frame_id": "152838",
@@ -8668,7 +8668,7 @@
             {
                 "position": 20,
                 "mnemonic": "MP_AAS_UDS_ROUE_DE_SECOURS_DETECTEE_602_4",
-                "label_index": "51997",
+                "label_index": "@P51997",
                 "label_korean": "스페어 휠 감지됨",
                 "group_id": "50847",
                 "req_frame_id": "152838",
@@ -8693,7 +8693,7 @@
             {
                 "position": 21,
                 "mnemonic": "MP_AAS_UDS_INFORMATION_SUR_CHOC_TRANSMIS_SYSTEME_AUTO_602_4",
-                "label_index": "52008",
+                "label_index": "@P52008",
                 "label_korean": "자동 주차 시스템에 전송된 충격 정보",
                 "group_id": "50847",
                 "req_frame_id": "152838",
@@ -8718,7 +8718,7 @@
             {
                 "position": 22,
                 "mnemonic": "MP_AAS_UDS_DEFAUT_INTERNE_SUR_FLUX_DONNEES_602_4",
-                "label_index": "52016",
+                "label_index": "@P52016",
                 "label_korean": "데이터 스트림의 내부 결함",
                 "group_id": "50847",
                 "req_frame_id": "152838",
@@ -8743,7 +8743,7 @@
             {
                 "position": 23,
                 "mnemonic": "MP_AAS_UDS_CAPTEUR_ANGLE_VOLANT_VIRTUEL_EN_DEFAUT_602_4",
-                "label_index": "51998",
+                "label_index": "@P51998",
                 "label_korean": "가상 스티어링 휠 각도 센서 결함",
                 "group_id": "50847",
                 "req_frame_id": "152838",
@@ -8776,7 +8776,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_AAS_UDS_COMPTEUR_DE_TEMPS_15",
-                "label_index": "17808",
+                "label_index": "@P17808",
                 "label_korean": "시간 카운터",
                 "group_id": "50847",
                 "req_frame_id": "152838",
@@ -8792,13 +8792,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "52211",
+                "help_code": "@P52211",
                 "help_korean": "저장 중 경과 시간"
             },
             {
                 "position": 2,
                 "mnemonic": "MP_AAS_UDS_ETAT_MOTEUR_TOURNANT_10",
-                "label_index": "10950",
+                "label_index": "@P10950",
                 "label_korean": "엔진 구동 상태",
                 "group_id": "50847",
                 "req_frame_id": "152838",
@@ -8832,7 +8832,7 @@
             {
                 "position": 3,
                 "mnemonic": "MP_AAS_UDS_ETAT_ANTIVOL_DIRECTION_COMMUTATEUR_DEM_MOTEUR_10",
-                "label_index": "52002",
+                "label_index": "@P52002",
                 "label_korean": "스티어링 잠금 장치/엔진 시동 스위치의 상태",
                 "group_id": "50847",
                 "req_frame_id": "152838",
@@ -8859,7 +8859,7 @@
             {
                 "position": 4,
                 "mnemonic": "MP_AAS_UDS_ETATS_DES_OUVRANTS_AU_MOMENT_DU_DEFAUT_10",
-                "label_index": "52011",
+                "label_index": "@P52011",
                 "label_korean": "결함 발생 시 열림 요소의 상태",
                 "group_id": "매핑_누락",
                 "req_frame_id": "",
@@ -8908,13 +8908,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "52219",
+                "help_code": "@P52219",
                 "help_korean": "\"트렁크\"는 테일게이트 또는 트렁크 덮개를 의미"
             },
             {
                 "position": 5,
                 "mnemonic": "MP_AAS_UDS_ESP_EN_REGULATION_10",
-                "label_index": "51995",
+                "label_index": "@P51995",
                 "label_korean": "ESP 제어",
                 "group_id": "50847",
                 "req_frame_id": "152838",
@@ -8939,7 +8939,7 @@
             {
                 "position": 6,
                 "mnemonic": "MP_AAS_UDS_ETAT_ESP_ASR_10",
-                "label_index": "16270",
+                "label_index": "@P16270@T/@F14664",
                 "label_korean": "ESP 상태/ASR",
                 "group_id": "50847",
                 "req_frame_id": "152838",
@@ -8964,7 +8964,7 @@
             {
                 "position": 7,
                 "mnemonic": "MP_AAS_UDS_DA_PILOTEE_STAT_AUTO_5",
-                "label_index": "52007",
+                "label_index": "@P52007",
                 "label_korean": "자동 주차 시스템을 통해 제어되는 파워 스티어링",
                 "group_id": "50847",
                 "req_frame_id": "152838",
@@ -8989,7 +8989,7 @@
             {
                 "position": 8,
                 "mnemonic": "MP_AAS_UDS_ETAT_CONTROLE_LONGITUDINAL_PILOTE_PAR_SYSTEME_FREIN_5",
-                "label_index": "52019",
+                "label_index": "@P52019",
                 "label_korean": "브레이크 시스템을 통해 안내되는 종방향 제어의 상태",
                 "group_id": "50847",
                 "req_frame_id": "152838",
@@ -9016,7 +9016,7 @@
             {
                 "position": 9,
                 "mnemonic": "MP_AAS_UDS_ETAT_DIRECTION_ASSISTEE_SYSTEME_STAT_AUTO_602_5",
-                "label_index": "52005",
+                "label_index": "@P52005",
                 "label_korean": "자동 주차 시스템을 위한 파워 스티어링의 상태",
                 "group_id": "50847",
                 "req_frame_id": "152838",
@@ -9043,7 +9043,7 @@
             {
                 "position": 10,
                 "mnemonic": "MP_AAS_UDS_CAUSE_DESACTIVATION_SYSTEME_STAT_AUTO_5",
-                "label_index": "52006",
+                "label_index": "@P52006",
                 "label_korean": "자동 주차 시스템의 차단 원인",
                 "group_id": "50847",
                 "req_frame_id": "152838",
@@ -9074,7 +9074,7 @@
             {
                 "position": 11,
                 "mnemonic": "MP_AAS_UDS_APPUI_SELECTION_STAT_AUTO_SUR_ECRAN_TACTILE_602_5",
-                "label_index": "52014",
+                "label_index": "@P52014",
                 "label_korean": "다기능 터치 스크린의 자동 주차 시스템 선택 버튼을 누른다",
                 "group_id": "50847",
                 "req_frame_id": "152838",
@@ -9099,7 +9099,7 @@
             {
                 "position": 12,
                 "mnemonic": "MP_AAS_UDS_ETAT_DU_FREIN_DE_STATIONNEMENT_ELECTRIQUE_5",
-                "label_index": "19863",
+                "label_index": "@P19863",
                 "label_korean": "전동 주차 브레이크 상태",
                 "group_id": "50847",
                 "req_frame_id": "152838",
@@ -9124,7 +9124,7 @@
             {
                 "position": 13,
                 "mnemonic": "MP_AAS_UDS_ACTION_SUR_LE_LEVIER_DE_VITESSE_PAR_LE_CONDUCTEUR_5",
-                "label_index": "51993",
+                "label_index": "@P51993",
                 "label_korean": "운전자에 의한 기어 레버 조작",
                 "group_id": "50847",
                 "req_frame_id": "152838",
@@ -9153,7 +9153,7 @@
             {
                 "position": 14,
                 "mnemonic": "MP_AAS_UDS_PEDALE_FREIN_RELACHEE_LORS_LAFFICHAGE_DES_CONSIGNES_5",
-                "label_index": "52020",
+                "label_index": "@P52020",
                 "label_korean": "지침이 표시될 때 브레이크 페달 해제",
                 "group_id": "50847",
                 "req_frame_id": "152838",
@@ -9178,7 +9178,7 @@
             {
                 "position": 15,
                 "mnemonic": "MP_AAS_UDS_ABANDON_MANOEUVRE_SUITE_TRAJECTOIRE_NON_CONFORME_5",
-                "label_index": "51994",
+                "label_index": "@P51994",
                 "label_korean": "잘못된 궤적 이후 조작 포기",
                 "group_id": "50847",
                 "req_frame_id": "152838",
@@ -9203,7 +9203,7 @@
             {
                 "position": 16,
                 "mnemonic": "MP_AAS_UDS_TEMPS_DE_MANOEUVRE_TROP_LONG_5",
-                "label_index": "52003",
+                "label_index": "@P52003",
                 "label_korean": "너무 긴 이동 시간",
                 "group_id": "50847",
                 "req_frame_id": "152838",
@@ -9228,7 +9228,7 @@
             {
                 "position": 17,
                 "mnemonic": "MP_AAS_UDS_COHERENCE_ENTRE_CLIGNOTANT_ET_MANOEUVRE_0602_5",
-                "label_index": "52018",
+                "label_index": "@P52018",
                 "label_korean": "방향 지시등 컨트롤과 조작 방향 사이의 일치",
                 "group_id": "50847",
                 "req_frame_id": "152838",
@@ -9253,7 +9253,7 @@
             {
                 "position": 18,
                 "mnemonic": "MP_AAS_UDS_CEINTURE_DE_SECURITE_NON_BOUCLEE_0602_5",
-                "label_index": "52004",
+                "label_index": "@P52004",
                 "label_korean": "시트 벨트 미착용",
                 "group_id": "50847",
                 "req_frame_id": "152838",
@@ -9278,7 +9278,7 @@
             {
                 "position": 19,
                 "mnemonic": "MP_AAS_UDS_PRESENCE_REMORQUE_602_5",
-                "label_index": "12134",
+                "label_index": "@P12134",
                 "label_korean": "트레일러 장착",
                 "group_id": "50847",
                 "req_frame_id": "152838",
@@ -9303,7 +9303,7 @@
             {
                 "position": 20,
                 "mnemonic": "MP_AAS_UDS_ROUE_DE_SECOURS_DETECTEE_602_5",
-                "label_index": "51997",
+                "label_index": "@P51997",
                 "label_korean": "스페어 휠 감지됨",
                 "group_id": "50847",
                 "req_frame_id": "152838",
@@ -9328,7 +9328,7 @@
             {
                 "position": 21,
                 "mnemonic": "MP_AAS_UDS_INFORMATION_SUR_CHOC_TRANSMIS_SYSTEME_AUTO_602_5",
-                "label_index": "52008",
+                "label_index": "@P52008",
                 "label_korean": "자동 주차 시스템에 전송된 충격 정보",
                 "group_id": "50847",
                 "req_frame_id": "152838",
@@ -9353,7 +9353,7 @@
             {
                 "position": 22,
                 "mnemonic": "MP_AAS_UDS_DEFAUT_INTERNE_SUR_FLUX_DONNEES_602_5",
-                "label_index": "52016",
+                "label_index": "@P52016",
                 "label_korean": "데이터 스트림의 내부 결함",
                 "group_id": "50847",
                 "req_frame_id": "152838",
@@ -9378,7 +9378,7 @@
             {
                 "position": 23,
                 "mnemonic": "MP_AAS_UDS_CAPTEUR_ANGLE_VOLANT_VIRTUEL_EN_DEFAUT_602_5",
-                "label_index": "51998",
+                "label_index": "@P51998",
                 "label_korean": "가상 스티어링 휠 각도 센서 결함",
                 "group_id": "50847",
                 "req_frame_id": "152838",
@@ -9411,7 +9411,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_AAS_UDS_COMPTEUR_DE_TEMPS_6",
-                "label_index": "17808",
+                "label_index": "@P17808",
                 "label_korean": "시간 카운터",
                 "group_id": "50846",
                 "req_frame_id": "152835",
@@ -9427,13 +9427,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "52211",
+                "help_code": "@P52211",
                 "help_korean": "저장 중 경과 시간"
             },
             {
                 "position": 2,
                 "mnemonic": "MP_AAS_UDS_ETATS_OUVRANTS_AU_DEFAUT_0601_1",
-                "label_index": "52011",
+                "label_index": "@P52011",
                 "label_korean": "결함 발생 시 열림 요소의 상태",
                 "group_id": "매핑_누락",
                 "req_frame_id": "",
@@ -9482,13 +9482,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "52219",
+                "help_code": "@P52219",
                 "help_korean": "\"트렁크\"는 테일게이트 또는 트렁크 덮개를 의미"
             },
             {
                 "position": 3,
                 "mnemonic": "MP_AAS_UDS_POSITION_LEVIER_VITESSE_BOITE_VITESSES_AUTO_1",
-                "label_index": "51999",
+                "label_index": "@P51999",
                 "label_korean": "자동 변속기 기어 레버 위치",
                 "group_id": "50846",
                 "req_frame_id": "152835",
@@ -9520,7 +9520,7 @@
             {
                 "position": 4,
                 "mnemonic": "MP_AAS_UDS_VITESSE_VEH_NON_COMPATIBLE_POUR_DEBUTER_MANOEUVRE_1",
-                "label_index": "52017",
+                "label_index": "@P52017",
                 "label_korean": "차량 속도가 조작 시작과 호환되지 않음",
                 "group_id": "50846",
                 "req_frame_id": "152835",
@@ -9545,7 +9545,7 @@
             {
                 "position": 5,
                 "mnemonic": "MP_AAS_UDS_APPUI_SUR_LA_PEDALE_DE_FREIN_1",
-                "label_index": "46842",
+                "label_index": "@P46842",
                 "label_korean": "브레이크 페달 압력",
                 "group_id": "50846",
                 "req_frame_id": "152835",
@@ -9570,7 +9570,7 @@
             {
                 "position": 6,
                 "mnemonic": "MP_AAS_UDS_COHERENCE_ENTRE_CMDE_CLIGNOTANT_ET_COTE_MANOEUVRE_1",
-                "label_index": "52018",
+                "label_index": "@P52018",
                 "label_korean": "방향 지시등 컨트롤과 조작 방향 사이의 일치",
                 "group_id": "50846",
                 "req_frame_id": "152835",
@@ -9603,7 +9603,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_AAS_UDS_COMPTEUR_DE_TEMPS_7",
-                "label_index": "17808",
+                "label_index": "@P17808",
                 "label_korean": "시간 카운터",
                 "group_id": "50846",
                 "req_frame_id": "152835",
@@ -9619,13 +9619,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "52211",
+                "help_code": "@P52211",
                 "help_korean": "저장 중 경과 시간"
             },
             {
                 "position": 2,
                 "mnemonic": "MP_AAS_UDS_ETATS_OUVRANTS_AU_DEFAUT_0601_2",
-                "label_index": "52011",
+                "label_index": "@P52011",
                 "label_korean": "결함 발생 시 열림 요소의 상태",
                 "group_id": "매핑_누락",
                 "req_frame_id": "",
@@ -9674,13 +9674,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "52219",
+                "help_code": "@P52219",
                 "help_korean": "\"트렁크\"는 테일게이트 또는 트렁크 덮개를 의미"
             },
             {
                 "position": 3,
                 "mnemonic": "MP_AAS_UDS_POSITION_LEVIER_VITESSE_BOITE_VITESSES_AUTO_2",
-                "label_index": "51999",
+                "label_index": "@P51999",
                 "label_korean": "자동 변속기 기어 레버 위치",
                 "group_id": "50846",
                 "req_frame_id": "152835",
@@ -9712,7 +9712,7 @@
             {
                 "position": 4,
                 "mnemonic": "MP_AAS_UDS_VITESSE_VEH_NON_COMPATIBLE_POUR_DEBUTER_MANOEUVRE_2",
-                "label_index": "52017",
+                "label_index": "@P52017",
                 "label_korean": "차량 속도가 조작 시작과 호환되지 않음",
                 "group_id": "50846",
                 "req_frame_id": "152835",
@@ -9737,7 +9737,7 @@
             {
                 "position": 5,
                 "mnemonic": "MP_AAS_UDS_APPUI_SUR_LA_PEDALE_DE_FREIN_2",
-                "label_index": "46842",
+                "label_index": "@P46842",
                 "label_korean": "브레이크 페달 압력",
                 "group_id": "50846",
                 "req_frame_id": "152835",
@@ -9762,7 +9762,7 @@
             {
                 "position": 6,
                 "mnemonic": "MP_AAS_UDS_COHERENCE_ENTRE_CMDE_CLIGNOTANT_ET_COTE_MANOEUVRE_2",
-                "label_index": "52018",
+                "label_index": "@P52018",
                 "label_korean": "방향 지시등 컨트롤과 조작 방향 사이의 일치",
                 "group_id": "50846",
                 "req_frame_id": "152835",
@@ -9795,7 +9795,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_AAS_UDS_COMPTEUR_DE_TEMPS_8",
-                "label_index": "17808",
+                "label_index": "@P17808",
                 "label_korean": "시간 카운터",
                 "group_id": "50846",
                 "req_frame_id": "152835",
@@ -9811,13 +9811,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "52211",
+                "help_code": "@P52211",
                 "help_korean": "저장 중 경과 시간"
             },
             {
                 "position": 2,
                 "mnemonic": "MP_AAS_UDS_ETATS_OUVRANTS_AU_DEFAUT_0601_3",
-                "label_index": "52011",
+                "label_index": "@P52011",
                 "label_korean": "결함 발생 시 열림 요소의 상태",
                 "group_id": "매핑_누락",
                 "req_frame_id": "",
@@ -9866,13 +9866,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "52219",
+                "help_code": "@P52219",
                 "help_korean": "\"트렁크\"는 테일게이트 또는 트렁크 덮개를 의미"
             },
             {
                 "position": 3,
                 "mnemonic": "MP_AAS_UDS_POSITION_LEVIER_VITESSE_BOITE_VITESSES_AUTO_3",
-                "label_index": "51999",
+                "label_index": "@P51999",
                 "label_korean": "자동 변속기 기어 레버 위치",
                 "group_id": "50846",
                 "req_frame_id": "152835",
@@ -9904,7 +9904,7 @@
             {
                 "position": 4,
                 "mnemonic": "MP_AAS_UDS_VITESSE_VEH_NON_COMPATIBLE_POUR_DEBUTER_MANOEUVRE_3",
-                "label_index": "52017",
+                "label_index": "@P52017",
                 "label_korean": "차량 속도가 조작 시작과 호환되지 않음",
                 "group_id": "50846",
                 "req_frame_id": "152835",
@@ -9929,7 +9929,7 @@
             {
                 "position": 5,
                 "mnemonic": "MP_AAS_UDS_APPUI_SUR_LA_PEDALE_DE_FREIN_3",
-                "label_index": "46842",
+                "label_index": "@P46842",
                 "label_korean": "브레이크 페달 압력",
                 "group_id": "50846",
                 "req_frame_id": "152835",
@@ -9954,7 +9954,7 @@
             {
                 "position": 6,
                 "mnemonic": "MP_AAS_UDS_COHERENCE_ENTRE_CMDE_CLIGNOTANT_ET_COTE_MANOEUVRE_3",
-                "label_index": "52018",
+                "label_index": "@P52018",
                 "label_korean": "방향 지시등 컨트롤과 조작 방향 사이의 일치",
                 "group_id": "50846",
                 "req_frame_id": "152835",
@@ -9987,7 +9987,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_AAS_UDS_COMPTEUR_DE_TEMPS_9",
-                "label_index": "17808",
+                "label_index": "@P17808",
                 "label_korean": "시간 카운터",
                 "group_id": "50846",
                 "req_frame_id": "152835",
@@ -10003,13 +10003,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "52211",
+                "help_code": "@P52211",
                 "help_korean": "저장 중 경과 시간"
             },
             {
                 "position": 2,
                 "mnemonic": "MP_AAS_UDS_ETATS_OUVRANTS_AU_DEFAUT_0601_4",
-                "label_index": "52011",
+                "label_index": "@P52011",
                 "label_korean": "결함 발생 시 열림 요소의 상태",
                 "group_id": "매핑_누락",
                 "req_frame_id": "",
@@ -10058,13 +10058,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "52219",
+                "help_code": "@P52219",
                 "help_korean": "\"트렁크\"는 테일게이트 또는 트렁크 덮개를 의미"
             },
             {
                 "position": 3,
                 "mnemonic": "MP_AAS_UDS_POSITION_LEVIER_VITESSE_BOITE_VITESSES_AUTO_4",
-                "label_index": "51999",
+                "label_index": "@P51999",
                 "label_korean": "자동 변속기 기어 레버 위치",
                 "group_id": "50846",
                 "req_frame_id": "152835",
@@ -10096,7 +10096,7 @@
             {
                 "position": 4,
                 "mnemonic": "MP_AAS_UDS_VITESSE_VEH_NON_COMPATIBLE_POUR_DEBUTER_MANOEUVRE_4",
-                "label_index": "52017",
+                "label_index": "@P52017",
                 "label_korean": "차량 속도가 조작 시작과 호환되지 않음",
                 "group_id": "50846",
                 "req_frame_id": "152835",
@@ -10121,7 +10121,7 @@
             {
                 "position": 5,
                 "mnemonic": "MP_AAS_UDS_APPUI_SUR_LA_PEDALE_DE_FREIN_4",
-                "label_index": "46842",
+                "label_index": "@P46842",
                 "label_korean": "브레이크 페달 압력",
                 "group_id": "50846",
                 "req_frame_id": "152835",
@@ -10146,7 +10146,7 @@
             {
                 "position": 6,
                 "mnemonic": "MP_AAS_UDS_COHERENCE_ENTRE_CMDE_CLIGNOTANT_ET_COTE_MANOEUVRE_4",
-                "label_index": "52018",
+                "label_index": "@P52018",
                 "label_korean": "방향 지시등 컨트롤과 조작 방향 사이의 일치",
                 "group_id": "50846",
                 "req_frame_id": "152835",
@@ -10179,7 +10179,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_AAS_UDS_COMPTEUR_DE_TEMPS_10",
-                "label_index": "17808",
+                "label_index": "@P17808",
                 "label_korean": "시간 카운터",
                 "group_id": "50846",
                 "req_frame_id": "152835",
@@ -10195,13 +10195,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "52211",
+                "help_code": "@P52211",
                 "help_korean": "저장 중 경과 시간"
             },
             {
                 "position": 2,
                 "mnemonic": "MP_AAS_UDS_ETATS_OUVRANTS_AU_DEFAUT_0601_5",
-                "label_index": "52011",
+                "label_index": "@P52011",
                 "label_korean": "결함 발생 시 열림 요소의 상태",
                 "group_id": "매핑_누락",
                 "req_frame_id": "",
@@ -10250,13 +10250,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "52219",
+                "help_code": "@P52219",
                 "help_korean": "\"트렁크\"는 테일게이트 또는 트렁크 덮개를 의미"
             },
             {
                 "position": 3,
                 "mnemonic": "MP_AAS_UDS_POSITION_LEVIER_VITESSE_BOITE_VITESSES_AUTO_5",
-                "label_index": "51999",
+                "label_index": "@P51999",
                 "label_korean": "자동 변속기 기어 레버 위치",
                 "group_id": "50846",
                 "req_frame_id": "152835",
@@ -10288,7 +10288,7 @@
             {
                 "position": 4,
                 "mnemonic": "MP_AAS_UDS_VITESSE_VEH_NON_COMPATIBLE_POUR_DEBUTER_MANOEUVRE_5",
-                "label_index": "52017",
+                "label_index": "@P52017",
                 "label_korean": "차량 속도가 조작 시작과 호환되지 않음",
                 "group_id": "50846",
                 "req_frame_id": "152835",
@@ -10313,7 +10313,7 @@
             {
                 "position": 5,
                 "mnemonic": "MP_AAS_UDS_APPUI_SUR_LA_PEDALE_DE_FREIN_5",
-                "label_index": "46842",
+                "label_index": "@P46842",
                 "label_korean": "브레이크 페달 압력",
                 "group_id": "50846",
                 "req_frame_id": "152835",
@@ -10338,7 +10338,7 @@
             {
                 "position": 6,
                 "mnemonic": "MP_AAS_UDS_COHERENCE_ENTRE_CMDE_CLIGNOTANT_ET_COTE_MANOEUVRE_5",
-                "label_index": "52018",
+                "label_index": "@P52018",
                 "label_korean": "방향 지시등 컨트롤과 조작 방향 사이의 일치",
                 "group_id": "50846",
                 "req_frame_id": "152835",
@@ -10371,7 +10371,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_AAS_UDS_COMPTEUR_DE_TEMPS_16",
-                "label_index": "17808",
+                "label_index": "@P17808",
                 "label_korean": "시간 카운터",
                 "group_id": "50848",
                 "req_frame_id": "152841",
@@ -10387,13 +10387,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "52211",
+                "help_code": "@P52211",
                 "help_korean": "저장 중 경과 시간"
             },
             {
                 "position": 2,
                 "mnemonic": "MP_AAS_UDS_ETAT_MOTEUR_TOURNANT_11",
-                "label_index": "10950",
+                "label_index": "@P10950",
                 "label_korean": "엔진 구동 상태",
                 "group_id": "50848",
                 "req_frame_id": "152841",
@@ -10427,7 +10427,7 @@
             {
                 "position": 3,
                 "mnemonic": "MP_AAS_UDS_ETAT_ANTIVOL_DIRECTION_COMMUTATEUR_DEM_MOTEUR_11",
-                "label_index": "52002",
+                "label_index": "@P52002",
                 "label_korean": "스티어링 잠금 장치/엔진 시동 스위치의 상태",
                 "group_id": "50848",
                 "req_frame_id": "152841",
@@ -10454,7 +10454,7 @@
             {
                 "position": 4,
                 "mnemonic": "MP_AAS_UDS_ETATS_DES_OUVRANTS_AU_MOMENT_DU_DEFAUT_11",
-                "label_index": "52011",
+                "label_index": "@P52011",
                 "label_korean": "결함 발생 시 열림 요소의 상태",
                 "group_id": "매핑_누락",
                 "req_frame_id": "",
@@ -10503,13 +10503,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "52219",
+                "help_code": "@P52219",
                 "help_korean": "\"트렁크\"는 테일게이트 또는 트렁크 덮개를 의미"
             },
             {
                 "position": 5,
                 "mnemonic": "MP_AAS_UDS_ESP_EN_REGULATION_11",
-                "label_index": "51995",
+                "label_index": "@P51995",
                 "label_korean": "ESP 제어",
                 "group_id": "50848",
                 "req_frame_id": "152841",
@@ -10534,7 +10534,7 @@
             {
                 "position": 6,
                 "mnemonic": "MP_AAS_UDS_ETAT_ESP_ASR_11",
-                "label_index": "16270",
+                "label_index": "@P16270@T/@F14664",
                 "label_korean": "ESP 상태/ASR",
                 "group_id": "50848",
                 "req_frame_id": "152841",
@@ -10559,7 +10559,7 @@
             {
                 "position": 7,
                 "mnemonic": "MP_AAS_UDS_DESELECTION_FONCTION_SUITE_PASSAGE_MARCHE_ARRIERE_6",
-                "label_index": "52012",
+                "label_index": "@P52012",
                 "label_korean": "후진 기어 체결 후 기능의 선택 취소",
                 "group_id": "50848",
                 "req_frame_id": "152841",
@@ -10584,7 +10584,7 @@
             {
                 "position": 8,
                 "mnemonic": "MP_AAS_UDS_APPUI_SELECTION_STAT_SEMI_AUTO_SUR_ECRAN_TACTILE_1",
-                "label_index": "52021",
+                "label_index": "@P52021",
                 "label_korean": "다기능 터치 스크린의 반자동 주차 시스템 선택 버튼을 누른다",
                 "group_id": "50848",
                 "req_frame_id": "152841",
@@ -10609,7 +10609,7 @@
             {
                 "position": 9,
                 "mnemonic": "MP_AAS_UDS_VITESSE_DU_VEHICULE_TROP_ELEVEE_6",
-                "label_index": "33702",
+                "label_index": "@P33702",
                 "label_korean": "차량 속도 너무 높음",
                 "group_id": "50848",
                 "req_frame_id": "152841",
@@ -10634,7 +10634,7 @@
             {
                 "position": 10,
                 "mnemonic": "MP_AAS_UDS_TEMPS_DE_SELECTION_OU_RECHERCHE_DE_PLACE_DEPASSES_6",
-                "label_index": "52015",
+                "label_index": "@P52015",
                 "label_korean": "공간 선택 또는 검색 시간 초과됨",
                 "group_id": "50848",
                 "req_frame_id": "152841",
@@ -10659,7 +10659,7 @@
             {
                 "position": 11,
                 "mnemonic": "MP_AAS_UDS_CEINTURE_DE_SECURITE_NON_BOUCLEE_6",
-                "label_index": "52004",
+                "label_index": "@P52004",
                 "label_korean": "시트 벨트 미착용",
                 "group_id": "50848",
                 "req_frame_id": "152841",
@@ -10684,7 +10684,7 @@
             {
                 "position": 12,
                 "mnemonic": "MP_AAS_UDS_PRESENCE_REMORQUE_6",
-                "label_index": "12134",
+                "label_index": "@P12134",
                 "label_korean": "트레일러 장착",
                 "group_id": "50848",
                 "req_frame_id": "152841",
@@ -10709,7 +10709,7 @@
             {
                 "position": 13,
                 "mnemonic": "MP_AAS_UDS_ROUE_DE_SECOURS_DETECTEE_6",
-                "label_index": "51997",
+                "label_index": "@P51997",
                 "label_korean": "스페어 휠 감지됨",
                 "group_id": "50848",
                 "req_frame_id": "152841",
@@ -10734,7 +10734,7 @@
             {
                 "position": 14,
                 "mnemonic": "MP_AAS_UDS_INFORMATION_SUR_CHOC_TRANSMIS_SYSTEME_STAT_SEMIAUTO_1",
-                "label_index": "52001",
+                "label_index": "@P52001",
                 "label_korean": "반자동 주차 시스템에 전송된 충격 정보",
                 "group_id": "50848",
                 "req_frame_id": "152841",
@@ -10759,7 +10759,7 @@
             {
                 "position": 15,
                 "mnemonic": "MP_AAS_UDS_DEFAUT_INTERNE_SUR_UN_FLUX_DE_DONNEES_6",
-                "label_index": "52016",
+                "label_index": "@P52016",
                 "label_korean": "데이터 스트림의 내부 결함",
                 "group_id": "50848",
                 "req_frame_id": "152841",
@@ -10784,7 +10784,7 @@
             {
                 "position": 16,
                 "mnemonic": "MP_AAS_UDS_CAPTEUR_DANGLE_VOLANT_DIRECTION_VIRTUEL_EN_DEFAUT_6",
-                "label_index": "51998",
+                "label_index": "@P51998",
                 "label_korean": "가상 스티어링 휠 각도 센서 결함",
                 "group_id": "50848",
                 "req_frame_id": "152841",
@@ -10817,7 +10817,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_AAS_UDS_COMPTEUR_DE_TEMPS_17",
-                "label_index": "17808",
+                "label_index": "@P17808",
                 "label_korean": "시간 카운터",
                 "group_id": "50848",
                 "req_frame_id": "152841",
@@ -10833,13 +10833,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "52211",
+                "help_code": "@P52211",
                 "help_korean": "저장 중 경과 시간"
             },
             {
                 "position": 2,
                 "mnemonic": "MP_AAS_UDS_ETAT_MOTEUR_TOURNANT_12",
-                "label_index": "10950",
+                "label_index": "@P10950",
                 "label_korean": "엔진 구동 상태",
                 "group_id": "50848",
                 "req_frame_id": "152841",
@@ -10873,7 +10873,7 @@
             {
                 "position": 3,
                 "mnemonic": "MP_AAS_UDS_ETAT_ANTIVOL_DIRECTION_COMMUTATEUR_DEM_MOTEUR_12",
-                "label_index": "52002",
+                "label_index": "@P52002",
                 "label_korean": "스티어링 잠금 장치/엔진 시동 스위치의 상태",
                 "group_id": "50848",
                 "req_frame_id": "152841",
@@ -10900,7 +10900,7 @@
             {
                 "position": 4,
                 "mnemonic": "MP_AAS_UDS_ETATS_DES_OUVRANTS_AU_MOMENT_DU_DEFAUT_12",
-                "label_index": "52011",
+                "label_index": "@P52011",
                 "label_korean": "결함 발생 시 열림 요소의 상태",
                 "group_id": "매핑_누락",
                 "req_frame_id": "",
@@ -10949,13 +10949,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "52219",
+                "help_code": "@P52219",
                 "help_korean": "\"트렁크\"는 테일게이트 또는 트렁크 덮개를 의미"
             },
             {
                 "position": 5,
                 "mnemonic": "MP_AAS_UDS_ESP_EN_REGULATION_12",
-                "label_index": "51995",
+                "label_index": "@P51995",
                 "label_korean": "ESP 제어",
                 "group_id": "50848",
                 "req_frame_id": "152841",
@@ -10980,7 +10980,7 @@
             {
                 "position": 6,
                 "mnemonic": "MP_AAS_UDS_ETAT_ESP_ASR_12",
-                "label_index": "16270",
+                "label_index": "@P16270@T/@F14664",
                 "label_korean": "ESP 상태/ASR",
                 "group_id": "50848",
                 "req_frame_id": "152841",
@@ -11005,7 +11005,7 @@
             {
                 "position": 7,
                 "mnemonic": "MP_AAS_UDS_DESELECTION_FONCTION_SUITE_PASSAGE_MARCHE_ARRIERE_7",
-                "label_index": "52012",
+                "label_index": "@P52012",
                 "label_korean": "후진 기어 체결 후 기능의 선택 취소",
                 "group_id": "50848",
                 "req_frame_id": "152841",
@@ -11030,7 +11030,7 @@
             {
                 "position": 8,
                 "mnemonic": "MP_AAS_UDS_APPUI_SELECTION_STAT_SEMI_AUTO_SUR_ECRAN_TACTILE_2",
-                "label_index": "52021",
+                "label_index": "@P52021",
                 "label_korean": "다기능 터치 스크린의 반자동 주차 시스템 선택 버튼을 누른다",
                 "group_id": "50848",
                 "req_frame_id": "152841",
@@ -11055,7 +11055,7 @@
             {
                 "position": 9,
                 "mnemonic": "MP_AAS_UDS_VITESSE_DU_VEHICULE_TROP_ELEVEE_7",
-                "label_index": "33702",
+                "label_index": "@P33702",
                 "label_korean": "차량 속도 너무 높음",
                 "group_id": "50848",
                 "req_frame_id": "152841",
@@ -11080,7 +11080,7 @@
             {
                 "position": 10,
                 "mnemonic": "MP_AAS_UDS_TEMPS_DE_SELECTION_OU_RECHERCHE_DE_PLACE_DEPASSES_7",
-                "label_index": "52015",
+                "label_index": "@P52015",
                 "label_korean": "공간 선택 또는 검색 시간 초과됨",
                 "group_id": "50848",
                 "req_frame_id": "152841",
@@ -11105,7 +11105,7 @@
             {
                 "position": 11,
                 "mnemonic": "MP_AAS_UDS_CEINTURE_DE_SECURITE_NON_BOUCLEE_7",
-                "label_index": "52004",
+                "label_index": "@P52004",
                 "label_korean": "시트 벨트 미착용",
                 "group_id": "50848",
                 "req_frame_id": "152841",
@@ -11130,7 +11130,7 @@
             {
                 "position": 12,
                 "mnemonic": "MP_AAS_UDS_PRESENCE_REMORQUE_7",
-                "label_index": "12134",
+                "label_index": "@P12134",
                 "label_korean": "트레일러 장착",
                 "group_id": "50848",
                 "req_frame_id": "152841",
@@ -11155,7 +11155,7 @@
             {
                 "position": 13,
                 "mnemonic": "MP_AAS_UDS_ROUE_DE_SECOURS_DETECTEE_7",
-                "label_index": "51997",
+                "label_index": "@P51997",
                 "label_korean": "스페어 휠 감지됨",
                 "group_id": "50848",
                 "req_frame_id": "152841",
@@ -11180,7 +11180,7 @@
             {
                 "position": 14,
                 "mnemonic": "MP_AAS_UDS_INFORMATION_SUR_CHOC_TRANSMIS_SYSTEME_STAT_SEMIAUTO_2",
-                "label_index": "52001",
+                "label_index": "@P52001",
                 "label_korean": "반자동 주차 시스템에 전송된 충격 정보",
                 "group_id": "50848",
                 "req_frame_id": "152841",
@@ -11205,7 +11205,7 @@
             {
                 "position": 15,
                 "mnemonic": "MP_AAS_UDS_DEFAUT_INTERNE_SUR_UN_FLUX_DE_DONNEES_7",
-                "label_index": "52016",
+                "label_index": "@P52016",
                 "label_korean": "데이터 스트림의 내부 결함",
                 "group_id": "50848",
                 "req_frame_id": "152841",
@@ -11230,7 +11230,7 @@
             {
                 "position": 16,
                 "mnemonic": "MP_AAS_UDS_CAPTEUR_DANGLE_VOLANT_DIRECTION_VIRTUEL_EN_DEFAUT_7",
-                "label_index": "51998",
+                "label_index": "@P51998",
                 "label_korean": "가상 스티어링 휠 각도 센서 결함",
                 "group_id": "50848",
                 "req_frame_id": "152841",
@@ -11263,7 +11263,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_AAS_UDS_COMPTEUR_DE_TEMPS_18",
-                "label_index": "17808",
+                "label_index": "@P17808",
                 "label_korean": "시간 카운터",
                 "group_id": "50848",
                 "req_frame_id": "152841",
@@ -11279,13 +11279,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "52211",
+                "help_code": "@P52211",
                 "help_korean": "저장 중 경과 시간"
             },
             {
                 "position": 2,
                 "mnemonic": "MP_AAS_UDS_ETAT_MOTEUR_TOURNANT_13",
-                "label_index": "10950",
+                "label_index": "@P10950",
                 "label_korean": "엔진 구동 상태",
                 "group_id": "50848",
                 "req_frame_id": "152841",
@@ -11319,7 +11319,7 @@
             {
                 "position": 3,
                 "mnemonic": "MP_AAS_UDS_ETAT_ANTIVOL_DIRECTION_COMMUTATEUR_DEM_MOTEUR_13",
-                "label_index": "52002",
+                "label_index": "@P52002",
                 "label_korean": "스티어링 잠금 장치/엔진 시동 스위치의 상태",
                 "group_id": "50848",
                 "req_frame_id": "152841",
@@ -11346,7 +11346,7 @@
             {
                 "position": 4,
                 "mnemonic": "MP_AAS_UDS_ETATS_DES_OUVRANTS_AU_MOMENT_DU_DEFAUT_13",
-                "label_index": "52011",
+                "label_index": "@P52011",
                 "label_korean": "결함 발생 시 열림 요소의 상태",
                 "group_id": "매핑_누락",
                 "req_frame_id": "",
@@ -11395,13 +11395,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "52219",
+                "help_code": "@P52219",
                 "help_korean": "\"트렁크\"는 테일게이트 또는 트렁크 덮개를 의미"
             },
             {
                 "position": 5,
                 "mnemonic": "MP_AAS_UDS_ESP_EN_REGULATION_13",
-                "label_index": "51995",
+                "label_index": "@P51995",
                 "label_korean": "ESP 제어",
                 "group_id": "50848",
                 "req_frame_id": "152841",
@@ -11426,7 +11426,7 @@
             {
                 "position": 6,
                 "mnemonic": "MP_AAS_UDS_ETAT_ESP_ASR_13",
-                "label_index": "16270",
+                "label_index": "@P16270@T/@F14664",
                 "label_korean": "ESP 상태/ASR",
                 "group_id": "50848",
                 "req_frame_id": "152841",
@@ -11451,7 +11451,7 @@
             {
                 "position": 7,
                 "mnemonic": "MP_AAS_UDS_DESELECTION_FONCTION_SUITE_PASSAGE_MARCHE_ARRIERE_8",
-                "label_index": "52012",
+                "label_index": "@P52012",
                 "label_korean": "후진 기어 체결 후 기능의 선택 취소",
                 "group_id": "50848",
                 "req_frame_id": "152841",
@@ -11476,7 +11476,7 @@
             {
                 "position": 8,
                 "mnemonic": "MP_AAS_UDS_APPUI_SELECTION_STAT_SEMI_AUTO_SUR_ECRAN_TACTILE_3",
-                "label_index": "52021",
+                "label_index": "@P52021",
                 "label_korean": "다기능 터치 스크린의 반자동 주차 시스템 선택 버튼을 누른다",
                 "group_id": "50848",
                 "req_frame_id": "152841",
@@ -11501,7 +11501,7 @@
             {
                 "position": 9,
                 "mnemonic": "MP_AAS_UDS_VITESSE_DU_VEHICULE_TROP_ELEVEE_8",
-                "label_index": "33702",
+                "label_index": "@P33702",
                 "label_korean": "차량 속도 너무 높음",
                 "group_id": "50848",
                 "req_frame_id": "152841",
@@ -11526,7 +11526,7 @@
             {
                 "position": 10,
                 "mnemonic": "MP_AAS_UDS_TEMPS_DE_SELECTION_OU_RECHERCHE_DE_PLACE_DEPASSES_8",
-                "label_index": "52015",
+                "label_index": "@P52015",
                 "label_korean": "공간 선택 또는 검색 시간 초과됨",
                 "group_id": "50848",
                 "req_frame_id": "152841",
@@ -11551,7 +11551,7 @@
             {
                 "position": 11,
                 "mnemonic": "MP_AAS_UDS_CEINTURE_DE_SECURITE_NON_BOUCLEE_8",
-                "label_index": "52004",
+                "label_index": "@P52004",
                 "label_korean": "시트 벨트 미착용",
                 "group_id": "50848",
                 "req_frame_id": "152841",
@@ -11576,7 +11576,7 @@
             {
                 "position": 12,
                 "mnemonic": "MP_AAS_UDS_PRESENCE_REMORQUE_8",
-                "label_index": "12134",
+                "label_index": "@P12134",
                 "label_korean": "트레일러 장착",
                 "group_id": "50848",
                 "req_frame_id": "152841",
@@ -11601,7 +11601,7 @@
             {
                 "position": 13,
                 "mnemonic": "MP_AAS_UDS_ROUE_DE_SECOURS_DETECTEE_8",
-                "label_index": "51997",
+                "label_index": "@P51997",
                 "label_korean": "스페어 휠 감지됨",
                 "group_id": "50848",
                 "req_frame_id": "152841",
@@ -11626,7 +11626,7 @@
             {
                 "position": 14,
                 "mnemonic": "MP_AAS_UDS_INFORMATION_SUR_CHOC_TRANSMIS_SYSTEME_STAT_SEMIAUTO_3",
-                "label_index": "52001",
+                "label_index": "@P52001",
                 "label_korean": "반자동 주차 시스템에 전송된 충격 정보",
                 "group_id": "50848",
                 "req_frame_id": "152841",
@@ -11651,7 +11651,7 @@
             {
                 "position": 15,
                 "mnemonic": "MP_AAS_UDS_DEFAUT_INTERNE_SUR_UN_FLUX_DE_DONNEES_8",
-                "label_index": "52016",
+                "label_index": "@P52016",
                 "label_korean": "데이터 스트림의 내부 결함",
                 "group_id": "50848",
                 "req_frame_id": "152841",
@@ -11676,7 +11676,7 @@
             {
                 "position": 16,
                 "mnemonic": "MP_AAS_UDS_CAPTEUR_DANGLE_VOLANT_DIRECTION_VIRTUEL_EN_DEFAUT_8",
-                "label_index": "51998",
+                "label_index": "@P51998",
                 "label_korean": "가상 스티어링 휠 각도 센서 결함",
                 "group_id": "50848",
                 "req_frame_id": "152841",
@@ -11709,7 +11709,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_AAS_UDS_COMPTEUR_DE_TEMPS_19",
-                "label_index": "17808",
+                "label_index": "@P17808",
                 "label_korean": "시간 카운터",
                 "group_id": "50848",
                 "req_frame_id": "152841",
@@ -11725,13 +11725,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "52211",
+                "help_code": "@P52211",
                 "help_korean": "저장 중 경과 시간"
             },
             {
                 "position": 2,
                 "mnemonic": "MP_AAS_UDS_ETAT_MOTEUR_TOURNANT_14",
-                "label_index": "10950",
+                "label_index": "@P10950",
                 "label_korean": "엔진 구동 상태",
                 "group_id": "50848",
                 "req_frame_id": "152841",
@@ -11765,7 +11765,7 @@
             {
                 "position": 3,
                 "mnemonic": "MP_AAS_UDS_ETAT_ANTIVOL_DIRECTION_COMMUTATEUR_DEM_MOTEUR_14",
-                "label_index": "52002",
+                "label_index": "@P52002",
                 "label_korean": "스티어링 잠금 장치/엔진 시동 스위치의 상태",
                 "group_id": "50848",
                 "req_frame_id": "152841",
@@ -11792,7 +11792,7 @@
             {
                 "position": 4,
                 "mnemonic": "MP_AAS_UDS_ETATS_DES_OUVRANTS_AU_MOMENT_DU_DEFAUT_14",
-                "label_index": "52011",
+                "label_index": "@P52011",
                 "label_korean": "결함 발생 시 열림 요소의 상태",
                 "group_id": "매핑_누락",
                 "req_frame_id": "",
@@ -11841,13 +11841,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "52219",
+                "help_code": "@P52219",
                 "help_korean": "\"트렁크\"는 테일게이트 또는 트렁크 덮개를 의미"
             },
             {
                 "position": 5,
                 "mnemonic": "MP_AAS_UDS_ESP_EN_REGULATION_14",
-                "label_index": "51995",
+                "label_index": "@P51995",
                 "label_korean": "ESP 제어",
                 "group_id": "50848",
                 "req_frame_id": "152841",
@@ -11872,7 +11872,7 @@
             {
                 "position": 6,
                 "mnemonic": "MP_AAS_UDS_ETAT_ESP_ASR_14",
-                "label_index": "16270",
+                "label_index": "@P16270@T/@F14664",
                 "label_korean": "ESP 상태/ASR",
                 "group_id": "50848",
                 "req_frame_id": "152841",
@@ -11897,7 +11897,7 @@
             {
                 "position": 7,
                 "mnemonic": "MP_AAS_UDS_DESELECTION_FONCTION_SUITE_PASSAGE_MARCHE_ARRIERE_9",
-                "label_index": "52012",
+                "label_index": "@P52012",
                 "label_korean": "후진 기어 체결 후 기능의 선택 취소",
                 "group_id": "50848",
                 "req_frame_id": "152841",
@@ -11922,7 +11922,7 @@
             {
                 "position": 8,
                 "mnemonic": "MP_AAS_UDS_APPUI_SELECTION_STAT_SEMI_AUTO_SUR_ECRAN_TACTILE_4",
-                "label_index": "52021",
+                "label_index": "@P52021",
                 "label_korean": "다기능 터치 스크린의 반자동 주차 시스템 선택 버튼을 누른다",
                 "group_id": "50848",
                 "req_frame_id": "152841",
@@ -11947,7 +11947,7 @@
             {
                 "position": 9,
                 "mnemonic": "MP_AAS_UDS_VITESSE_DU_VEHICULE_TROP_ELEVEE_9",
-                "label_index": "33702",
+                "label_index": "@P33702",
                 "label_korean": "차량 속도 너무 높음",
                 "group_id": "50848",
                 "req_frame_id": "152841",
@@ -11972,7 +11972,7 @@
             {
                 "position": 10,
                 "mnemonic": "MP_AAS_UDS_TEMPS_DE_SELECTION_OU_RECHERCHE_DE_PLACE_DEPASSES_9",
-                "label_index": "52015",
+                "label_index": "@P52015",
                 "label_korean": "공간 선택 또는 검색 시간 초과됨",
                 "group_id": "50848",
                 "req_frame_id": "152841",
@@ -11997,7 +11997,7 @@
             {
                 "position": 11,
                 "mnemonic": "MP_AAS_UDS_CEINTURE_DE_SECURITE_NON_BOUCLEE_9",
-                "label_index": "52004",
+                "label_index": "@P52004",
                 "label_korean": "시트 벨트 미착용",
                 "group_id": "50848",
                 "req_frame_id": "152841",
@@ -12022,7 +12022,7 @@
             {
                 "position": 12,
                 "mnemonic": "MP_AAS_UDS_PRESENCE_REMORQUE_9",
-                "label_index": "12134",
+                "label_index": "@P12134",
                 "label_korean": "트레일러 장착",
                 "group_id": "50848",
                 "req_frame_id": "152841",
@@ -12047,7 +12047,7 @@
             {
                 "position": 13,
                 "mnemonic": "MP_AAS_UDS_ROUE_DE_SECOURS_DETECTEE_9",
-                "label_index": "51997",
+                "label_index": "@P51997",
                 "label_korean": "스페어 휠 감지됨",
                 "group_id": "50848",
                 "req_frame_id": "152841",
@@ -12072,7 +12072,7 @@
             {
                 "position": 14,
                 "mnemonic": "MP_AAS_UDS_INFORMATION_SUR_CHOC_TRANSMIS_SYSTEME_STAT_SEMIAUTO_4",
-                "label_index": "52001",
+                "label_index": "@P52001",
                 "label_korean": "반자동 주차 시스템에 전송된 충격 정보",
                 "group_id": "50848",
                 "req_frame_id": "152841",
@@ -12097,7 +12097,7 @@
             {
                 "position": 15,
                 "mnemonic": "MP_AAS_UDS_DEFAUT_INTERNE_SUR_UN_FLUX_DE_DONNEES_9",
-                "label_index": "52016",
+                "label_index": "@P52016",
                 "label_korean": "데이터 스트림의 내부 결함",
                 "group_id": "50848",
                 "req_frame_id": "152841",
@@ -12122,7 +12122,7 @@
             {
                 "position": 16,
                 "mnemonic": "MP_AAS_UDS_CAPTEUR_DANGLE_VOLANT_DIRECTION_VIRTUEL_EN_DEFAUT_9",
-                "label_index": "51998",
+                "label_index": "@P51998",
                 "label_korean": "가상 스티어링 휠 각도 센서 결함",
                 "group_id": "50848",
                 "req_frame_id": "152841",
@@ -12155,7 +12155,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_AAS_UDS_COMPTEUR_DE_TEMPS_20",
-                "label_index": "17808",
+                "label_index": "@P17808",
                 "label_korean": "시간 카운터",
                 "group_id": "50848",
                 "req_frame_id": "152841",
@@ -12171,13 +12171,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "52211",
+                "help_code": "@P52211",
                 "help_korean": "저장 중 경과 시간"
             },
             {
                 "position": 2,
                 "mnemonic": "MP_AAS_UDS_ETAT_MOTEUR_TOURNANT_15",
-                "label_index": "10950",
+                "label_index": "@P10950",
                 "label_korean": "엔진 구동 상태",
                 "group_id": "50848",
                 "req_frame_id": "152841",
@@ -12211,7 +12211,7 @@
             {
                 "position": 3,
                 "mnemonic": "MP_AAS_UDS_ETAT_ANTIVOL_DIRECTION_COMMUTATEUR_DEM_MOTEUR_15",
-                "label_index": "52002",
+                "label_index": "@P52002",
                 "label_korean": "스티어링 잠금 장치/엔진 시동 스위치의 상태",
                 "group_id": "50848",
                 "req_frame_id": "152841",
@@ -12238,7 +12238,7 @@
             {
                 "position": 4,
                 "mnemonic": "MP_AAS_UDS_ETATS_DES_OUVRANTS_AU_MOMENT_DU_DEFAUT_15",
-                "label_index": "52011",
+                "label_index": "@P52011",
                 "label_korean": "결함 발생 시 열림 요소의 상태",
                 "group_id": "매핑_누락",
                 "req_frame_id": "",
@@ -12287,13 +12287,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "52219",
+                "help_code": "@P52219",
                 "help_korean": "\"트렁크\"는 테일게이트 또는 트렁크 덮개를 의미"
             },
             {
                 "position": 5,
                 "mnemonic": "MP_AAS_UDS_ESP_EN_REGULATION_15",
-                "label_index": "51995",
+                "label_index": "@P51995",
                 "label_korean": "ESP 제어",
                 "group_id": "50848",
                 "req_frame_id": "152841",
@@ -12318,7 +12318,7 @@
             {
                 "position": 6,
                 "mnemonic": "MP_AAS_UDS_ETAT_ESP_ASR_15",
-                "label_index": "16270",
+                "label_index": "@P16270@T/@F14664",
                 "label_korean": "ESP 상태/ASR",
                 "group_id": "50848",
                 "req_frame_id": "152841",
@@ -12343,7 +12343,7 @@
             {
                 "position": 7,
                 "mnemonic": "MP_AAS_UDS_DESELECTION_FONCTION_SUITE_PASSAGE_MARCHE_ARRIERE_10",
-                "label_index": "52012",
+                "label_index": "@P52012",
                 "label_korean": "후진 기어 체결 후 기능의 선택 취소",
                 "group_id": "50848",
                 "req_frame_id": "152841",
@@ -12368,7 +12368,7 @@
             {
                 "position": 8,
                 "mnemonic": "MP_AAS_UDS_APPUI_SELECTION_STAT_SEMI_AUTO_SUR_ECRAN_TACTILE_5",
-                "label_index": "52021",
+                "label_index": "@P52021",
                 "label_korean": "다기능 터치 스크린의 반자동 주차 시스템 선택 버튼을 누른다",
                 "group_id": "50848",
                 "req_frame_id": "152841",
@@ -12393,7 +12393,7 @@
             {
                 "position": 9,
                 "mnemonic": "MP_AAS_UDS_VITESSE_DU_VEHICULE_TROP_ELEVEE_10",
-                "label_index": "33702",
+                "label_index": "@P33702",
                 "label_korean": "차량 속도 너무 높음",
                 "group_id": "50848",
                 "req_frame_id": "152841",
@@ -12418,7 +12418,7 @@
             {
                 "position": 10,
                 "mnemonic": "MP_AAS_UDS_TEMPS_DE_SELECTION_OU_RECHERCHE_DE_PLACE_DEPASSES_10",
-                "label_index": "52015",
+                "label_index": "@P52015",
                 "label_korean": "공간 선택 또는 검색 시간 초과됨",
                 "group_id": "50848",
                 "req_frame_id": "152841",
@@ -12443,7 +12443,7 @@
             {
                 "position": 11,
                 "mnemonic": "MP_AAS_UDS_CEINTURE_DE_SECURITE_NON_BOUCLEE_10",
-                "label_index": "52004",
+                "label_index": "@P52004",
                 "label_korean": "시트 벨트 미착용",
                 "group_id": "50848",
                 "req_frame_id": "152841",
@@ -12468,7 +12468,7 @@
             {
                 "position": 12,
                 "mnemonic": "MP_AAS_UDS_PRESENCE_REMORQUE_10",
-                "label_index": "12134",
+                "label_index": "@P12134",
                 "label_korean": "트레일러 장착",
                 "group_id": "50848",
                 "req_frame_id": "152841",
@@ -12493,7 +12493,7 @@
             {
                 "position": 13,
                 "mnemonic": "MP_AAS_UDS_ROUE_DE_SECOURS_DETECTEE_10",
-                "label_index": "51997",
+                "label_index": "@P51997",
                 "label_korean": "스페어 휠 감지됨",
                 "group_id": "50848",
                 "req_frame_id": "152841",
@@ -12518,7 +12518,7 @@
             {
                 "position": 14,
                 "mnemonic": "MP_AAS_UDS_INFORMATION_SUR_CHOC_TRANSMIS_SYSTEME_STAT_SEMIAUTO_5",
-                "label_index": "52001",
+                "label_index": "@P52001",
                 "label_korean": "반자동 주차 시스템에 전송된 충격 정보",
                 "group_id": "50848",
                 "req_frame_id": "152841",
@@ -12543,7 +12543,7 @@
             {
                 "position": 15,
                 "mnemonic": "MP_AAS_UDS_DEFAUT_INTERNE_SUR_UN_FLUX_DE_DONNEES_10",
-                "label_index": "52016",
+                "label_index": "@P52016",
                 "label_korean": "데이터 스트림의 내부 결함",
                 "group_id": "50848",
                 "req_frame_id": "152841",
@@ -12568,7 +12568,7 @@
             {
                 "position": 16,
                 "mnemonic": "MP_AAS_UDS_CAPTEUR_DANGLE_VOLANT_DIRECTION_VIRTUEL_EN_DEFAUT_10",
-                "label_index": "51998",
+                "label_index": "@P51998",
                 "label_korean": "가상 스티어링 휠 각도 센서 결함",
                 "group_id": "50848",
                 "req_frame_id": "152841",
@@ -12601,7 +12601,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_AAS_UDS_COMPTEUR_DE_TEMPS_21",
-                "label_index": "17808",
+                "label_index": "@P17808",
                 "label_korean": "시간 카운터",
                 "group_id": "50849",
                 "req_frame_id": "152844",
@@ -12617,13 +12617,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "52211",
+                "help_code": "@P52211",
                 "help_korean": "저장 중 경과 시간"
             },
             {
                 "position": 2,
                 "mnemonic": "MP_AAS_UDS_ETATS_OUVRANTS_AU_DEFAUT_0701_1",
-                "label_index": "52011",
+                "label_index": "@P52011",
                 "label_korean": "결함 발생 시 열림 요소의 상태",
                 "group_id": "매핑_누락",
                 "req_frame_id": "",
@@ -12672,13 +12672,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "52219",
+                "help_code": "@P52219",
                 "help_korean": "\"트렁크\"는 테일게이트 또는 트렁크 덮개를 의미"
             },
             {
                 "position": 3,
                 "mnemonic": "MP_AAS_UDS_POSITION_LEVIER_VITESSE_BOITE_VITESSES_AUTO_6",
-                "label_index": "51999",
+                "label_index": "@P51999",
                 "label_korean": "자동 변속기 기어 레버 위치",
                 "group_id": "50849",
                 "req_frame_id": "152844",
@@ -12710,7 +12710,7 @@
             {
                 "position": 4,
                 "mnemonic": "MP_AAS_UDS_INFORMATION_MARCHE_ARRIERE_1",
-                "label_index": "52000",
+                "label_index": "@P52000",
                 "label_korean": "후진 기어 정보",
                 "group_id": "50849",
                 "req_frame_id": "152844",
@@ -12735,7 +12735,7 @@
             {
                 "position": 5,
                 "mnemonic": "MP_AAS_UDS_VITESSE_VEH_NON_COMPATIBLE_POUR_MANOEUVRE_701_1",
-                "label_index": "52017",
+                "label_index": "@P52017",
                 "label_korean": "차량 속도가 조작 시작과 호환되지 않음",
                 "group_id": "50849",
                 "req_frame_id": "152844",
@@ -12760,7 +12760,7 @@
             {
                 "position": 6,
                 "mnemonic": "MP_AAS_UDS_COHERENCE_ENTRE_CMDE_CLIGNOTANT_ET_COTE_MANOEUVRE_6",
-                "label_index": "52018",
+                "label_index": "@P52018",
                 "label_korean": "방향 지시등 컨트롤과 조작 방향 사이의 일치",
                 "group_id": "50849",
                 "req_frame_id": "152844",
@@ -12793,7 +12793,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_AAS_UDS_COMPTEUR_DE_TEMPS_22",
-                "label_index": "17808",
+                "label_index": "@P17808",
                 "label_korean": "시간 카운터",
                 "group_id": "50849",
                 "req_frame_id": "152844",
@@ -12809,13 +12809,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "52211",
+                "help_code": "@P52211",
                 "help_korean": "저장 중 경과 시간"
             },
             {
                 "position": 2,
                 "mnemonic": "MP_AAS_UDS_ETATS_OUVRANTS_AU_DEFAUT_0701_2",
-                "label_index": "52011",
+                "label_index": "@P52011",
                 "label_korean": "결함 발생 시 열림 요소의 상태",
                 "group_id": "매핑_누락",
                 "req_frame_id": "",
@@ -12864,13 +12864,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "52219",
+                "help_code": "@P52219",
                 "help_korean": "\"트렁크\"는 테일게이트 또는 트렁크 덮개를 의미"
             },
             {
                 "position": 3,
                 "mnemonic": "MP_AAS_UDS_POSITION_LEVIER_VITESSE_BOITE_VITESSES_AUTO_7",
-                "label_index": "51999",
+                "label_index": "@P51999",
                 "label_korean": "자동 변속기 기어 레버 위치",
                 "group_id": "50849",
                 "req_frame_id": "152844",
@@ -12902,7 +12902,7 @@
             {
                 "position": 4,
                 "mnemonic": "MP_AAS_UDS_INFORMATION_MARCHE_ARRIERE_2",
-                "label_index": "52000",
+                "label_index": "@P52000",
                 "label_korean": "후진 기어 정보",
                 "group_id": "50849",
                 "req_frame_id": "152844",
@@ -12927,7 +12927,7 @@
             {
                 "position": 5,
                 "mnemonic": "MP_AAS_UDS_VITESSE_VEH_NON_COMPATIBLE_POUR_MANOEUVRE_701_2",
-                "label_index": "52017",
+                "label_index": "@P52017",
                 "label_korean": "차량 속도가 조작 시작과 호환되지 않음",
                 "group_id": "50849",
                 "req_frame_id": "152844",
@@ -12952,7 +12952,7 @@
             {
                 "position": 6,
                 "mnemonic": "MP_AAS_UDS_COHERENCE_ENTRE_CMDE_CLIGNOTANT_ET_COTE_MANOEUVRE_7",
-                "label_index": "52018",
+                "label_index": "@P52018",
                 "label_korean": "방향 지시등 컨트롤과 조작 방향 사이의 일치",
                 "group_id": "50849",
                 "req_frame_id": "152844",
@@ -12985,7 +12985,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_AAS_UDS_COMPTEUR_DE_TEMPS_23",
-                "label_index": "17808",
+                "label_index": "@P17808",
                 "label_korean": "시간 카운터",
                 "group_id": "50849",
                 "req_frame_id": "152844",
@@ -13001,13 +13001,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "52211",
+                "help_code": "@P52211",
                 "help_korean": "저장 중 경과 시간"
             },
             {
                 "position": 2,
                 "mnemonic": "MP_AAS_UDS_ETATS_OUVRANTS_AU_DEFAUT_0701_3",
-                "label_index": "52011",
+                "label_index": "@P52011",
                 "label_korean": "결함 발생 시 열림 요소의 상태",
                 "group_id": "매핑_누락",
                 "req_frame_id": "",
@@ -13056,13 +13056,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "52219",
+                "help_code": "@P52219",
                 "help_korean": "\"트렁크\"는 테일게이트 또는 트렁크 덮개를 의미"
             },
             {
                 "position": 3,
                 "mnemonic": "MP_AAS_UDS_POSITION_LEVIER_VITESSE_BOITE_VITESSES_AUTO_8",
-                "label_index": "51999",
+                "label_index": "@P51999",
                 "label_korean": "자동 변속기 기어 레버 위치",
                 "group_id": "50849",
                 "req_frame_id": "152844",
@@ -13094,7 +13094,7 @@
             {
                 "position": 4,
                 "mnemonic": "MP_AAS_UDS_INFORMATION_MARCHE_ARRIERE_3",
-                "label_index": "52000",
+                "label_index": "@P52000",
                 "label_korean": "후진 기어 정보",
                 "group_id": "50849",
                 "req_frame_id": "152844",
@@ -13119,7 +13119,7 @@
             {
                 "position": 5,
                 "mnemonic": "MP_AAS_UDS_VITESSE_VEH_NON_COMPATIBLE_POUR_MANOEUVRE_701_3",
-                "label_index": "52017",
+                "label_index": "@P52017",
                 "label_korean": "차량 속도가 조작 시작과 호환되지 않음",
                 "group_id": "50849",
                 "req_frame_id": "152844",
@@ -13144,7 +13144,7 @@
             {
                 "position": 6,
                 "mnemonic": "MP_AAS_UDS_COHERENCE_ENTRE_CMDE_CLIGNOTANT_ET_COTE_MANOEUVRE_8",
-                "label_index": "52018",
+                "label_index": "@P52018",
                 "label_korean": "방향 지시등 컨트롤과 조작 방향 사이의 일치",
                 "group_id": "50849",
                 "req_frame_id": "152844",
@@ -13177,7 +13177,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_AAS_UDS_COMPTEUR_DE_TEMPS_24",
-                "label_index": "17808",
+                "label_index": "@P17808",
                 "label_korean": "시간 카운터",
                 "group_id": "50849",
                 "req_frame_id": "152844",
@@ -13193,13 +13193,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "52211",
+                "help_code": "@P52211",
                 "help_korean": "저장 중 경과 시간"
             },
             {
                 "position": 2,
                 "mnemonic": "MP_AAS_UDS_ETATS_OUVRANTS_AU_DEFAUT_0701_4",
-                "label_index": "52011",
+                "label_index": "@P52011",
                 "label_korean": "결함 발생 시 열림 요소의 상태",
                 "group_id": "매핑_누락",
                 "req_frame_id": "",
@@ -13248,13 +13248,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "52219",
+                "help_code": "@P52219",
                 "help_korean": "\"트렁크\"는 테일게이트 또는 트렁크 덮개를 의미"
             },
             {
                 "position": 3,
                 "mnemonic": "MP_AAS_UDS_POSITION_LEVIER_VITESSE_BOITE_VITESSES_AUTO_9",
-                "label_index": "51999",
+                "label_index": "@P51999",
                 "label_korean": "자동 변속기 기어 레버 위치",
                 "group_id": "50849",
                 "req_frame_id": "152844",
@@ -13286,7 +13286,7 @@
             {
                 "position": 4,
                 "mnemonic": "MP_AAS_UDS_INFORMATION_MARCHE_ARRIERE_4",
-                "label_index": "52000",
+                "label_index": "@P52000",
                 "label_korean": "후진 기어 정보",
                 "group_id": "50849",
                 "req_frame_id": "152844",
@@ -13311,7 +13311,7 @@
             {
                 "position": 5,
                 "mnemonic": "MP_AAS_UDS_VITESSE_VEH_NON_COMPATIBLE_POUR_MANOEUVRE_701_4",
-                "label_index": "52017",
+                "label_index": "@P52017",
                 "label_korean": "차량 속도가 조작 시작과 호환되지 않음",
                 "group_id": "50849",
                 "req_frame_id": "152844",
@@ -13336,7 +13336,7 @@
             {
                 "position": 6,
                 "mnemonic": "MP_AAS_UDS_COHERENCE_ENTRE_CMDE_CLIGNOTANT_ET_COTE_MANOEUVRE_9",
-                "label_index": "52018",
+                "label_index": "@P52018",
                 "label_korean": "방향 지시등 컨트롤과 조작 방향 사이의 일치",
                 "group_id": "50849",
                 "req_frame_id": "152844",
@@ -13369,7 +13369,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_AAS_UDS_COMPTEUR_DE_TEMPS_25",
-                "label_index": "17808",
+                "label_index": "@P17808",
                 "label_korean": "시간 카운터",
                 "group_id": "50849",
                 "req_frame_id": "152844",
@@ -13385,13 +13385,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "52211",
+                "help_code": "@P52211",
                 "help_korean": "저장 중 경과 시간"
             },
             {
                 "position": 2,
                 "mnemonic": "MP_AAS_UDS_ETATS_OUVRANTS_AU_DEFAUT_0701_5",
-                "label_index": "52011",
+                "label_index": "@P52011",
                 "label_korean": "결함 발생 시 열림 요소의 상태",
                 "group_id": "매핑_누락",
                 "req_frame_id": "",
@@ -13440,13 +13440,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "52219",
+                "help_code": "@P52219",
                 "help_korean": "\"트렁크\"는 테일게이트 또는 트렁크 덮개를 의미"
             },
             {
                 "position": 3,
                 "mnemonic": "MP_AAS_UDS_POSITION_LEVIER_VITESSE_BOITE_VITESSES_AUTO_10",
-                "label_index": "51999",
+                "label_index": "@P51999",
                 "label_korean": "자동 변속기 기어 레버 위치",
                 "group_id": "50849",
                 "req_frame_id": "152844",
@@ -13478,7 +13478,7 @@
             {
                 "position": 4,
                 "mnemonic": "MP_AAS_UDS_INFORMATION_MARCHE_ARRIERE_5",
-                "label_index": "52000",
+                "label_index": "@P52000",
                 "label_korean": "후진 기어 정보",
                 "group_id": "50849",
                 "req_frame_id": "152844",
@@ -13503,7 +13503,7 @@
             {
                 "position": 5,
                 "mnemonic": "MP_AAS_UDS_VITESSE_VEH_NON_COMPATIBLE_POUR_MANOEUVRE_701_5",
-                "label_index": "52017",
+                "label_index": "@P52017",
                 "label_korean": "차량 속도가 조작 시작과 호환되지 않음",
                 "group_id": "50849",
                 "req_frame_id": "152844",
@@ -13528,7 +13528,7 @@
             {
                 "position": 6,
                 "mnemonic": "MP_AAS_UDS_COHERENCE_ENTRE_CMDE_CLIGNOTANT_ET_COTE_MANOEUVRE_10",
-                "label_index": "52018",
+                "label_index": "@P52018",
                 "label_korean": "방향 지시등 컨트롤과 조작 방향 사이의 일치",
                 "group_id": "50849",
                 "req_frame_id": "152844",

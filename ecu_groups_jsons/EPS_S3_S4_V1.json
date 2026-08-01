@@ -8,7 +8,7 @@
             {
                 "position": 1,
                 "mnemonic": "S3S4_ESP_ID_1",
-                "label_index": "633",
+                "label_index": "@P633",
                 "label_korean": "제조업체",
                 "group_id": "4854",
                 "req_frame_id": "14560",
@@ -30,7 +30,7 @@
             {
                 "position": 2,
                 "mnemonic": "S3S4_ESP_ID_2",
-                "label_index": "10233",
+                "label_index": "@P10233",
                 "label_korean": "ECU ID",
                 "group_id": "4854",
                 "req_frame_id": "14560",
@@ -52,7 +52,7 @@
             {
                 "position": 3,
                 "mnemonic": "S3S4_ESP_ID_3",
-                "label_index": "14029",
+                "label_index": "@P14029",
                 "label_korean": "진단 버전",
                 "group_id": "4854",
                 "req_frame_id": "14560",
@@ -74,7 +74,7 @@
             {
                 "position": 4,
                 "mnemonic": "S3S4_ESP_ID_4",
-                "label_index": "28760",
+                "label_index": "@P28760",
                 "label_korean": "하드웨어 버전",
                 "group_id": "4854",
                 "req_frame_id": "14560",
@@ -96,7 +96,7 @@
             {
                 "position": 5,
                 "mnemonic": "S3S4_ESP_ID_5",
-                "label_index": "2358",
+                "label_index": "@P2358",
                 "label_korean": "소프트웨어 버전",
                 "group_id": "4854",
                 "req_frame_id": "14560",
@@ -118,7 +118,7 @@
             {
                 "position": 6,
                 "mnemonic": "S3S4_ESP_ID_6",
-                "label_index": "19729",
+                "label_index": "@P19729",
                 "label_korean": "교환 부품의 부품 번호",
                 "group_id": "4854",
                 "req_frame_id": "14560",
@@ -148,7 +148,7 @@
             {
                 "position": 1,
                 "mnemonic": "S3S4_ESP_MP_1",
-                "label_index": "7997",
+                "label_index": "@P7997",
                 "label_korean": "차량 속도",
                 "group_id": "4862",
                 "req_frame_id": "14584",
@@ -164,13 +164,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "40495",
+                "help_code": "@P40495",
                 "help_korean": "차량 속도를 나타낸다"
             },
             {
                 "position": 2,
                 "mnemonic": "S3S4_ESP_MP_2",
-                "label_index": "14034",
+                "label_index": "@P14034",
                 "label_korean": "엔진 회전 속도",
                 "group_id": "4862",
                 "req_frame_id": "14584",
@@ -186,13 +186,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "9357",
+                "help_code": "@P9357",
                 "help_korean": "내연 기관의 회전속도를 나타낸다"
             },
             {
                 "position": 3,
                 "mnemonic": "S3S4_ESP_MP_3",
-                "label_index": "21191",
+                "label_index": "@P21191",
                 "label_korean": "전동 파워 스티어링 모터 전류",
                 "group_id": "4861",
                 "req_frame_id": "14581",
@@ -214,7 +214,7 @@
             {
                 "position": 4,
                 "mnemonic": "S3S4_ESP_MP_4",
-                "label_index": "21237",
+                "label_index": "@P21237",
                 "label_korean": "파워 스티어링 모터 기준 전류",
                 "group_id": "4861",
                 "req_frame_id": "14581",
@@ -236,7 +236,7 @@
             {
                 "position": 5,
                 "mnemonic": "S3S4_ESP_MP_5",
-                "label_index": "21123",
+                "label_index": "@P21123",
                 "label_korean": "파워 스티어링 모터 한계 전류",
                 "group_id": "4861",
                 "req_frame_id": "14581",
@@ -258,8 +258,8 @@
             {
                 "position": 6,
                 "mnemonic": "S3S4_ESP_MP_6",
-                "label_index": "11881",
-                "label_korean": "전동 모터 핀1의 입력 전압 de 파워 스티어링",
+                "label_index": "@P11881@\\*1@\\+@Tde@\\+@P426",
+                "label_korean": "전동 모터 핀1의 입력 전압de파워 스티어링",
                 "group_id": "4861",
                 "req_frame_id": "14581",
                 "resp_frame_id": "14582",
@@ -283,8 +283,8 @@
             {
                 "position": 7,
                 "mnemonic": "S3S4_ESP_MP_7",
-                "label_index": "11881",
-                "label_korean": "전동 모터 핀2의 입력 전압 de 파워 스티어링",
+                "label_index": "@P11881@\\*2@\\+@Tde@\\+@P426",
+                "label_korean": "전동 모터 핀2의 입력 전압de파워 스티어링",
                 "group_id": "4861",
                 "req_frame_id": "14581",
                 "resp_frame_id": "14582",
@@ -308,7 +308,7 @@
             {
                 "position": 8,
                 "mnemonic": "S3S4_ESP_MP_8",
-                "label_index": "37467",
+                "label_index": "@P37467",
                 "label_korean": "릴레이 공급 전압",
                 "group_id": "4863",
                 "req_frame_id": "14587",
@@ -330,7 +330,7 @@
             {
                 "position": 9,
                 "mnemonic": "S3S4_ESP_MP_9",
-                "label_index": "21339",
+                "label_index": "@P21339",
                 "label_korean": "파워 스티어링 차단 스위치",
                 "group_id": "4864",
                 "req_frame_id": "14590",
@@ -355,7 +355,7 @@
             {
                 "position": 10,
                 "mnemonic": "S3S4_ESP_MP_10",
-                "label_index": "21376",
+                "label_index": "@P21376",
                 "label_korean": "세이프티 릴레이 상태",
                 "group_id": "4865",
                 "req_frame_id": "14593",
@@ -387,7 +387,7 @@
             {
                 "position": 1,
                 "mnemonic": "S3S4_ESP_MP_5_10",
-                "label_index": "21383",
+                "label_index": "@P21383",
                 "label_korean": "메인 토크 센서에서 의해 제공되는 전압",
                 "group_id": "4860",
                 "req_frame_id": "14578",
@@ -409,7 +409,7 @@
             {
                 "position": 2,
                 "mnemonic": "S3S4_ESP_MP_6_10",
-                "label_index": "21399",
+                "label_index": "@P21399",
                 "label_korean": "백업 토크 센서에 의해 제공되는 전압",
                 "group_id": "4860",
                 "req_frame_id": "14578",
@@ -431,7 +431,7 @@
             {
                 "position": 3,
                 "mnemonic": "S3S4_ESP_MP_7_10",
-                "label_index": "21360",
+                "label_index": "@P21360",
                 "label_korean": "토크 센서 공급 전압",
                 "group_id": "4860",
                 "req_frame_id": "14578",
@@ -461,7 +461,7 @@
             {
                 "position": 1,
                 "mnemonic": "S3S4_ESP_CA_1",
-                "label_index": "7845",
+                "label_index": "@P7845",
                 "label_korean": "주행거리",
                 "group_id": "4853",
                 "req_frame_id": "14557",
@@ -483,7 +483,7 @@
             {
                 "position": 2,
                 "mnemonic": "S3S4_ESP_CA_2",
-                "label_index": "1202",
+                "label_index": "@P1202",
                 "label_korean": "시간 기준",
                 "group_id": "4853",
                 "req_frame_id": "14557",
@@ -505,7 +505,7 @@
             {
                 "position": 3,
                 "mnemonic": "S3S4_ESP_CA_3",
-                "label_index": "8714",
+                "label_index": "@P8714",
                 "label_korean": "결함이 사라진 후 키를 ON한 횟수",
                 "group_id": "4853",
                 "req_frame_id": "14557",
@@ -527,7 +527,7 @@
             {
                 "position": 4,
                 "mnemonic": "S3S4_ESP_CA_4",
-                "label_index": "6500",
+                "label_index": "@P6500",
                 "label_korean": "결함 발생 이후 경과된 시간",
                 "group_id": "4853",
                 "req_frame_id": "14557",
@@ -549,7 +549,7 @@
             {
                 "position": 5,
                 "mnemonic": "S3S4_ESP_CA_5",
-                "label_index": "26576",
+                "label_index": "@P26576",
                 "label_korean": "메인 토크 센서의 전압",
                 "group_id": "4853",
                 "req_frame_id": "14557",
@@ -571,7 +571,7 @@
             {
                 "position": 6,
                 "mnemonic": "S3S4_ESP_CA_6",
-                "label_index": "26943",
+                "label_index": "@P26943",
                 "label_korean": "백업 토크 센서의 전압",
                 "group_id": "4853",
                 "req_frame_id": "14557",
@@ -593,7 +593,7 @@
             {
                 "position": 7,
                 "mnemonic": "S3S4_ESP_CA_7",
-                "label_index": "21360",
+                "label_index": "@P21360",
                 "label_korean": "토크 센서 공급 전압",
                 "group_id": "4853",
                 "req_frame_id": "14557",
@@ -615,7 +615,7 @@
             {
                 "position": 8,
                 "mnemonic": "S3S4_ESP_CA_8",
-                "label_index": "9754",
+                "label_index": "@P9754",
                 "label_korean": "ECU 전원",
                 "group_id": "4853",
                 "req_frame_id": "14557",
@@ -637,7 +637,7 @@
             {
                 "position": 9,
                 "mnemonic": "S3S4_ESP_CA_9",
-                "label_index": "21386",
+                "label_index": "@P21386",
                 "label_korean": "파워 스티어링 모터의 전류 소모",
                 "group_id": "4853",
                 "req_frame_id": "14557",
@@ -659,7 +659,7 @@
             {
                 "position": 10,
                 "mnemonic": "S3S4_ESP_CA_10",
-                "label_index": "40920",
+                "label_index": "@P40920",
                 "label_korean": "릴레이 안전 전압",
                 "group_id": "4853",
                 "req_frame_id": "14557",
@@ -681,7 +681,7 @@
             {
                 "position": 11,
                 "mnemonic": "S3S4_ESP_CA_11",
-                "label_index": "7997",
+                "label_index": "@P7997",
                 "label_korean": "차량 속도",
                 "group_id": "4853",
                 "req_frame_id": "14557",

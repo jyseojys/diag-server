@@ -8,7 +8,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_ID_FOURNISSEUR",
-                "label_index": "5701",
+                "label_index": "@P5701",
                 "label_korean": "제조 업체명",
                 "group_id": "26829",
                 "req_frame_id": "80492",
@@ -35,7 +35,7 @@
             {
                 "position": 2,
                 "mnemonic": "ID_REFERENCE_MATERIEL",
-                "label_index": "1071",
+                "label_index": "@P1071",
                 "label_korean": "장치 부품 번호",
                 "group_id": "26824",
                 "req_frame_id": "80477",
@@ -57,7 +57,7 @@
             {
                 "position": 3,
                 "mnemonic": "ID_REFERENCE_COMPLEMENTAIRE_MATERIEL",
-                "label_index": "1634",
+                "label_index": "@P1634",
                 "label_korean": "장치 추가 참조 번호",
                 "group_id": "26826",
                 "req_frame_id": "80483",
@@ -79,7 +79,7 @@
             {
                 "position": 4,
                 "mnemonic": "ID_VERSION_LOGICIEL_new_1",
-                "label_index": "8662",
+                "label_index": "@P8662@\\*",
                 "label_korean": "소프트웨어 버전",
                 "group_id": "26827",
                 "req_frame_id": "80486",
@@ -101,7 +101,7 @@
             {
                 "position": 5,
                 "mnemonic": "ID_REF_CALIBRATION_new_1",
-                "label_index": "7014",
+                "label_index": "@P7014",
                 "label_korean": "캘리브레이션 버전",
                 "group_id": "26827",
                 "req_frame_id": "80486",
@@ -131,7 +131,7 @@
             {
                 "position": 1,
                 "mnemonic": "NIVEAU_RHEOSTATAGE",
-                "label_index": "15355",
+                "label_index": "@P15355",
                 "label_korean": "밝기 조절 레벨",
                 "group_id": "26823",
                 "req_frame_id": "80474",
@@ -147,8 +147,8 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "45099, 1948, 9640",
-                "help_korean": "앰비언트 내부 라이트 장치로 제어되는 모든 라이트의 점등 레벨\n- 최소 레벨 :\n- 0 최대 레벨 : 6"
+                "help_code": "@P45099@\\n@\\+@F1948@T : 0@\\+@F9640@T : 6",
+                "help_korean": "앰비언트 내부 라이트 장치로 제어되는 모든 라이트의 점등 레벨\n최소 레벨 : 0최대 레벨 : 6"
             }
         ]
     }

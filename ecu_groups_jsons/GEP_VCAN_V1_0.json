@@ -8,7 +8,7 @@
             {
                 "position": 1,
                 "mnemonic": "ID_REFERENCE_FOURNISSEUR",
-                "label_index": "633",
+                "label_index": "@P633",
                 "label_korean": "제조업체",
                 "group_id": "155122",
                 "req_frame_id": "465709",
@@ -34,7 +34,7 @@
             {
                 "position": 2,
                 "mnemonic": "ID_REFERENCE_PSA",
-                "label_index": "8615",
+                "label_index": "@P8615",
                 "label_korean": "PSA 부품 번호",
                 "group_id": "155122",
                 "req_frame_id": "465709",
@@ -56,7 +56,7 @@
             {
                 "position": 3,
                 "mnemonic": "ID_REFERENCE_COMPLEMENTAIRE_MATERIEL",
-                "label_index": "1634",
+                "label_index": "@P1634",
                 "label_korean": "장치 추가 참조 번호",
                 "group_id": "155122",
                 "req_frame_id": "465709",
@@ -78,7 +78,7 @@
             {
                 "position": 4,
                 "mnemonic": "ID_REFERENCE_LOGICIEL",
-                "label_index": "4799",
+                "label_index": "@P4799@\\*",
                 "label_korean": "소프트웨어 번호",
                 "group_id": "155134",
                 "req_frame_id": "465745",
@@ -100,7 +100,7 @@
             {
                 "position": 5,
                 "mnemonic": "ID_VERSION_LOGICIEL_new_1",
-                "label_index": "8662",
+                "label_index": "@P8662@\\*",
                 "label_korean": "소프트웨어 버전",
                 "group_id": "155122",
                 "req_frame_id": "465709",
@@ -122,7 +122,7 @@
             {
                 "position": 6,
                 "mnemonic": "ID_EDITION_LOGICIEL",
-                "label_index": "3274",
+                "label_index": "@P3274",
                 "label_korean": "소프트웨어 버전",
                 "group_id": "155134",
                 "req_frame_id": "465745",
@@ -144,7 +144,7 @@
             {
                 "position": 7,
                 "mnemonic": "ID_EDI_CALIB",
-                "label_index": "7413",
+                "label_index": "@P7413",
                 "label_korean": "캘리브레이션 에디션",
                 "group_id": "155122",
                 "req_frame_id": "465709",
@@ -166,7 +166,7 @@
             {
                 "position": 8,
                 "mnemonic": "ID_80_MP_INDICE_MESS",
-                "label_index": "2225",
+                "label_index": "@P2225",
                 "label_korean": "메시지 인덱스",
                 "group_id": "155122",
                 "req_frame_id": "465709",
@@ -196,7 +196,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_REGIME_ROTATION_MOTEUR_GEP_C1",
-                "label_index": "6799",
+                "label_index": "@P6799",
                 "label_korean": "전동 펌프 어셈블리 모터의 회전 속도",
                 "group_id": "155133",
                 "req_frame_id": "465742",
@@ -212,13 +212,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "46466, 45883",
-                "help_korean": "전동 펌프 장치 모터 회전 속도를 명시한다. 회전 속도가 800에서 4700rpm까지 변한다."
+                "help_code": "@P46466@T.@\\+@F45883@\\*800@\\*4700@T.",
+                "help_korean": "전동 펌프 장치 모터 회전 속도를 명시한다.회전 속도가 800에서 4700rpm까지 변한다."
             },
             {
                 "position": 2,
                 "mnemonic": "MP_VITVOLANT_C1",
-                "label_index": "7009",
+                "label_index": "@P7009",
                 "label_korean": "스티어링 휠의 회전 속도",
                 "group_id": "155133",
                 "req_frame_id": "465742",
@@ -240,7 +240,7 @@
             {
                 "position": 3,
                 "mnemonic": "MP_TEMPERATURE_GEP_a",
-                "label_index": "7600",
+                "label_index": "@P7600",
                 "label_korean": "전동 펌프 장치 온도",
                 "group_id": "155133",
                 "req_frame_id": "465742",
@@ -256,13 +256,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "44333, 44334",
-                "help_korean": "전동 펌프 어셈블리 ECU의 온도를 나타낸다 . 110도 부터, 118도 보다 높은 온도에서 0에 도달할 때까지 점진적으로 지원이 감소한다"
+                "help_code": "@P44333@\\+@T.@\\+@P44334@\\*110@\\*118",
+                "help_korean": "전동 펌프 어셈블리 ECU의 온도를 나타낸다.110도 부터, 118도 보다 높은 온도에서 0에 도달할 때까지 점진적으로 지원이 감소한다"
             },
             {
                 "position": 4,
                 "mnemonic": "MP_VITESSE_VEHICULE_c",
-                "label_index": "7997",
+                "label_index": "@P7997",
                 "label_korean": "차량 속도",
                 "group_id": "155133",
                 "req_frame_id": "465742",
@@ -282,13 +282,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "5454",
+                "help_code": "@P5454",
                 "help_korean": "제동 ECU로부터 정보"
             },
             {
                 "position": 5,
                 "mnemonic": "MP_REG_ROT_MOT_THERMIQUE",
-                "label_index": "13784",
+                "label_index": "@P13784",
                 "label_korean": "내연 기관의 회전 속도",
                 "group_id": "155133",
                 "req_frame_id": "465742",
@@ -304,7 +304,7 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "9357",
+                "help_code": "@P9357",
                 "help_korean": "내연 기관의 회전속도를 나타낸다"
             }
         ]
@@ -318,7 +318,7 @@
             {
                 "position": 1,
                 "mnemonic": "CA_VITESSE_VEHICULE",
-                "label_index": "7997",
+                "label_index": "@P7997@\\*",
                 "label_korean": "차량 속도",
                 "group_id": "155128",
                 "req_frame_id": "465727",
@@ -336,13 +336,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "5454",
+                "help_code": "@P5454",
                 "help_korean": "제동 ECU로부터 정보"
             },
             {
                 "position": 2,
                 "mnemonic": "CA_VITESSE_VOLANT_DE_DIRECTION",
-                "label_index": "7009",
+                "label_index": "@P7009",
                 "label_korean": "스티어링 휠의 회전 속도",
                 "group_id": "155128",
                 "req_frame_id": "465727",
@@ -364,7 +364,7 @@
             {
                 "position": 3,
                 "mnemonic": "CA_INTENSITE_MESUREE_GEP_2",
-                "label_index": "3728",
+                "label_index": "@P3728",
                 "label_korean": "전동 펌프 어셈블리 측정 전류",
                 "group_id": "155128",
                 "req_frame_id": "465727",
@@ -386,7 +386,7 @@
             {
                 "position": 4,
                 "mnemonic": "CA_TENSION_BATTERIE1",
-                "label_index": "18263",
+                "label_index": "@P18263",
                 "label_korean": "배터리 전압",
                 "group_id": "155128",
                 "req_frame_id": "465727",
@@ -408,7 +408,7 @@
             {
                 "position": 5,
                 "mnemonic": "VA_TEMPMOSFET_1",
-                "label_index": "7600",
+                "label_index": "@P7600",
                 "label_korean": "전동 펌프 장치 온도",
                 "group_id": "155128",
                 "req_frame_id": "465727",
@@ -424,13 +424,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "44333, 44334",
-                "help_korean": "전동 펌프 어셈블리 ECU의 온도를 나타낸다 . 110도 부터, 118도 보다 높은 온도에서 0에 도달할 때까지 점진적으로 지원이 감소한다"
+                "help_code": "@P44333@\\+@T.@\\+@P44334@\\*110@\\*118",
+                "help_korean": "전동 펌프 어셈블리 ECU의 온도를 나타낸다.110도 부터, 118도 보다 높은 온도에서 0에 도달할 때까지 점진적으로 지원이 감소한다"
             },
             {
                 "position": 6,
                 "mnemonic": "CA_REGIME_ROTATION_MOTEUR_GEP",
-                "label_index": "6799",
+                "label_index": "@P6799",
                 "label_korean": "전동 펌프 어셈블리 모터의 회전 속도",
                 "group_id": "155128",
                 "req_frame_id": "465727",
@@ -446,13 +446,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "6799, 45883",
-                "help_korean": "전동 펌프 어셈블리 모터의 회전 속도 . 회전 속도가 800에서 4700rpm까지 변한다"
+                "help_code": "@P6799@\\+@T.@\\+@P45883@\\*800@\\*4700",
+                "help_korean": "전동 펌프 어셈블리 모터의 회전 속도.회전 속도가 800에서 4700rpm까지 변한다"
             },
             {
                 "position": 7,
                 "mnemonic": "VA_ETATMOT_C1",
-                "label_index": "6134",
+                "label_index": "@P6134",
                 "label_korean": "엔진 상태",
                 "group_id": "155128",
                 "req_frame_id": "465727",

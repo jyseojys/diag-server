@@ -236,7 +236,7 @@
             {
                 "position": 1,
                 "mnemonic": "ID_NOM_DU_FOURNISSEUR",
-                "label_index": "5701",
+                "label_index": "@P5701",
                 "label_korean": "제조 업체명",
                 "group_id": "149968",
                 "req_frame_id": "450245",
@@ -266,7 +266,7 @@
             {
                 "position": 2,
                 "mnemonic": "ID_REFERENCE_MATERIEL",
-                "label_index": "1071",
+                "label_index": "@P1071",
                 "label_korean": "장치 부품 번호",
                 "group_id": "149968",
                 "req_frame_id": "450245",
@@ -288,7 +288,7 @@
             {
                 "position": 3,
                 "mnemonic": "ID_HARD",
-                "label_index": "12954",
+                "label_index": "@P12954",
                 "label_korean": "하드웨어 버전",
                 "group_id": "149968",
                 "req_frame_id": "450245",
@@ -310,7 +310,7 @@
             {
                 "position": 4,
                 "mnemonic": "ID_VERSION_LOGICIEL",
-                "label_index": "8662",
+                "label_index": "@P8662",
                 "label_korean": "소프트웨어 버전",
                 "group_id": "149968",
                 "req_frame_id": "450245",
@@ -332,7 +332,7 @@
             {
                 "position": 5,
                 "mnemonic": "ID_VERSION_DIAGNOSTIC",
-                "label_index": "11894",
+                "label_index": "@P11894",
                 "label_korean": "진단 메시지 시스템 인덱스 (변경)",
                 "group_id": "149968",
                 "req_frame_id": "450245",
@@ -354,7 +354,7 @@
             {
                 "position": 6,
                 "mnemonic": "ID_VIN_ORIGINE",
-                "label_index": "7959",
+                "label_index": "@P7959",
                 "label_korean": "차량 일련 번호 (원래 차대번호)",
                 "group_id": "149969",
                 "req_frame_id": "450248",
@@ -376,7 +376,7 @@
             {
                 "position": 7,
                 "mnemonic": "ID_VIN_ACTUEL",
-                "label_index": "15431",
+                "label_index": "@P15431",
                 "label_korean": "차량 일련 번호 (현재 차대번호)",
                 "group_id": "149971",
                 "req_frame_id": "450254",
@@ -406,7 +406,7 @@
             {
                 "position": 1,
                 "mnemonic": "ID_ROUE_1",
-                "label_index": "39323",
+                "label_index": "@P39323@\\*1",
                 "label_korean": "휠 공기압 센서 ID1",
                 "group_id": "149953",
                 "req_frame_id": "450200",
@@ -428,7 +428,7 @@
             {
                 "position": 2,
                 "mnemonic": "ID_ROUE_2",
-                "label_index": "39323",
+                "label_index": "@P39323@\\*2",
                 "label_korean": "휠 공기압 센서 ID2",
                 "group_id": "149953",
                 "req_frame_id": "450200",
@@ -450,7 +450,7 @@
             {
                 "position": 3,
                 "mnemonic": "ID_ROUE_3",
-                "label_index": "39323",
+                "label_index": "@P39323@\\*3",
                 "label_korean": "휠 공기압 센서 ID3",
                 "group_id": "149953",
                 "req_frame_id": "450200",
@@ -472,7 +472,7 @@
             {
                 "position": 4,
                 "mnemonic": "ID_ROUE_4",
-                "label_index": "39323",
+                "label_index": "@P39323@\\*4",
                 "label_korean": "휠 공기압 센서 ID4",
                 "group_id": "149953",
                 "req_frame_id": "450200",
@@ -494,7 +494,7 @@
             {
                 "position": 5,
                 "mnemonic": "ID_ROUE_5",
-                "label_index": "39323",
+                "label_index": "@P39323@\\*5",
                 "label_korean": "휠 공기압 센서 ID5",
                 "group_id": "149953",
                 "req_frame_id": "450200",
@@ -516,7 +516,7 @@
         ]
     },
     "MESUREPARAMETRE1": {
-        "screen_title_korean": "엔진 이모빌라이저 / 리모컨 제어",
+        "screen_title_korean": "엔진 이모빌라이저/리모컨 제어",
         "screen_label_index": "@P13446-POLUXDATA@\\+@T/@\\+@P18056-POLUXDATA",
         "ecu_name": "OPEN_WCM_I3_I4_V1",
         "total_sensors": 5,
@@ -524,7 +524,7 @@
             {
                 "position": 1,
                 "mnemonic": "Number_of_Fobs_Programmed",
-                "label_index": "5013",
+                "label_index": "@P5013",
                 "label_korean": "프로그램된 리모컨의 수",
                 "group_id": "149923",
                 "req_frame_id": "450110",
@@ -546,7 +546,7 @@
             {
                 "position": 2,
                 "mnemonic": "RKE_Fob_Button_Depressed",
-                "label_index": "11493",
+                "label_index": "@P11493",
                 "label_korean": "리모컨으로부터 수신된 마지막 메시지",
                 "group_id": "149923",
                 "req_frame_id": "450110",
@@ -568,7 +568,7 @@
             {
                 "position": 3,
                 "mnemonic": "Number_of_Learnt_Transponder_Keys",
-                "label_index": "14072",
+                "label_index": "@P14072",
                 "label_korean": "프로그램된 키의 수",
                 "group_id": "149927",
                 "req_frame_id": "450122",
@@ -590,7 +590,7 @@
             {
                 "position": 4,
                 "mnemonic": "FOB_Status",
-                "label_index": "15811",
+                "label_index": "@P15811",
                 "label_korean": "사용된 리모컨 확인",
                 "group_id": "149923",
                 "req_frame_id": "450110",
@@ -625,7 +625,7 @@
             {
                 "position": 5,
                 "mnemonic": "Number_of_Remote_Engine_Starter_Programmed",
-                "label_index": "4937",
+                "label_index": "@P4937",
                 "label_korean": "엔진 제어 프로그래밍 작업의 수",
                 "group_id": "149925",
                 "req_frame_id": "450116",
@@ -655,7 +655,7 @@
             {
                 "position": 1,
                 "mnemonic": "LIDB9_106",
-                "label_index": "41403",
+                "label_index": "@F41403",
                 "label_korean": "에어백",
                 "group_id": "149928",
                 "req_frame_id": "450125",
@@ -675,13 +675,13 @@
                 "bit_mask": 1,
                 "bit_shift": 0,
                 "dynamic_arg": "",
-                "help_code": "25331, 596",
+                "help_code": "@P25331@P596@T.",
                 "help_korean": "반드시 세팅되어야 한다존재."
             },
             {
                 "position": 2,
                 "mnemonic": "OCM_B",
-                "label_index": "9272",
+                "label_index": "@P9272",
                 "label_korean": "탑승객 부하 감지 ECU",
                 "group_id": "149928",
                 "req_frame_id": "450125",
@@ -697,13 +697,13 @@
                 "bit_mask": 2,
                 "bit_shift": 1,
                 "dynamic_arg": "",
-                "help_code": "25331, 26678",
+                "help_code": "@P25331@P26678@T.",
                 "help_korean": "반드시 세팅되어야 한다닫힘 위치."
             },
             {
                 "position": 3,
                 "mnemonic": "MSMD_B",
-                "label_index": "7301",
+                "label_index": "@P7301",
                 "label_korean": "시트 포지션 메모리 ECU",
                 "group_id": "149928",
                 "req_frame_id": "450125",
@@ -719,13 +719,13 @@
                 "bit_mask": 4,
                 "bit_shift": 2,
                 "dynamic_arg": "",
-                "help_code": "25331, 26678",
+                "help_code": "@P25331@P26678@T.",
                 "help_korean": "반드시 세팅되어야 한다닫힘 위치."
             },
             {
                 "position": 4,
                 "mnemonic": "LRDM_B",
-                "label_index": "9661",
+                "label_index": "@P9661",
                 "label_korean": "좌측 슬라이딩 사이드 도어",
                 "group_id": "149928",
                 "req_frame_id": "450125",
@@ -741,13 +741,13 @@
                 "bit_mask": 8,
                 "bit_shift": 3,
                 "dynamic_arg": "",
-                "help_code": "25331, 14975",
+                "help_code": "@P25331@P14975@T.",
                 "help_korean": "반드시 세팅되어야 한다없음."
             },
             {
                 "position": 5,
                 "mnemonic": "CFG_B6S_BSI_PRESENCE_CLIM_000",
-                "label_index": "10559",
+                "label_index": "@P10559@\\*",
                 "label_korean": "히팅/통풍",
                 "group_id": "149928",
                 "req_frame_id": "450125",
@@ -763,13 +763,13 @@
                 "bit_mask": 16,
                 "bit_shift": 4,
                 "dynamic_arg": "",
-                "help_code": "25331, 9969",
+                "help_code": "@P25331@P9969@T.",
                 "help_korean": "반드시 세팅되어야 한다존재."
             },
             {
                 "position": 6,
                 "mnemonic": "CFG_BEC_BSI_PRESENCE_KML_000",
-                "label_index": "12185",
+                "label_index": "@P12185",
                 "label_korean": "핸즈-프리 키트",
                 "group_id": "149928",
                 "req_frame_id": "450125",
@@ -785,13 +785,13 @@
                 "bit_mask": 32,
                 "bit_shift": 5,
                 "dynamic_arg": "",
-                "help_code": "24759",
+                "help_code": "@P24759@T.",
                 "help_korean": "차량에 핸즈-프리 키트가 장착되어 있을 경우 반드시 \"있음\"으로 설정되어야 한다."
             },
             {
                 "position": 7,
                 "mnemonic": "CDEFCOM02",
-                "label_index": "1991",
+                "label_index": "@P1991",
                 "label_korean": "제어 패널",
                 "group_id": "149928",
                 "req_frame_id": "450125",
@@ -807,13 +807,13 @@
                 "bit_mask": 64,
                 "bit_shift": 6,
                 "dynamic_arg": "",
-                "help_code": "25331, 596",
+                "help_code": "@P25331@P596@T.",
                 "help_korean": "반드시 세팅되어야 한다존재."
             },
             {
                 "position": 8,
                 "mnemonic": "PLGM_B",
-                "label_index": "11419",
+                "label_index": "@P11419",
                 "label_korean": "리모컨을 사용한 테일게이트 열림",
                 "group_id": "149928",
                 "req_frame_id": "450125",
@@ -829,13 +829,13 @@
                 "bit_mask": 128,
                 "bit_shift": 7,
                 "dynamic_arg": "",
-                "help_code": "25331, 14975",
+                "help_code": "@P25331@P14975@T.",
                 "help_korean": "반드시 세팅되어야 한다없음."
             },
             {
                 "position": 9,
                 "mnemonic": "AVN_B",
-                "label_index": "2497",
+                "label_index": "@P2497",
                 "label_korean": "네비게이션 스크린",
                 "group_id": "149928",
                 "req_frame_id": "450125",
@@ -851,13 +851,13 @@
                 "bit_mask": 1,
                 "bit_shift": 0,
                 "dynamic_arg": "",
-                "help_code": "24805",
+                "help_code": "@P24805",
                 "help_korean": "차량에 텔레메틱이 있을 경우 존재로 설정되어야 한다"
             },
             {
                 "position": 10,
                 "mnemonic": "TV_B",
-                "label_index": "4408",
+                "label_index": "@P4408",
                 "label_korean": "텔레비전",
                 "group_id": "149928",
                 "req_frame_id": "450125",
@@ -873,13 +873,13 @@
                 "bit_mask": 2,
                 "bit_shift": 1,
                 "dynamic_arg": "",
-                "help_code": "25331, 26678",
+                "help_code": "@P25331@P26678@T.",
                 "help_korean": "반드시 세팅되어야 한다닫힘 위치."
             },
             {
                 "position": 11,
                 "mnemonic": "CAMERA_B",
-                "label_index": "12714",
+                "label_index": "@P12714",
                 "label_korean": "카메라",
                 "group_id": "149928",
                 "req_frame_id": "450125",
@@ -895,13 +895,13 @@
                 "bit_mask": 4,
                 "bit_shift": 2,
                 "dynamic_arg": "",
-                "help_code": "25331, 14975",
+                "help_code": "@P25331@P14975@T.",
                 "help_korean": "반드시 세팅되어야 한다없음."
             },
             {
                 "position": 12,
                 "mnemonic": "LID_B1_14_1_7",
-                "label_index": "9235",
+                "label_index": "@P9235",
                 "label_korean": "네비게이션",
                 "group_id": "149928",
                 "req_frame_id": "450125",
@@ -917,13 +917,13 @@
                 "bit_mask": 8,
                 "bit_shift": 3,
                 "dynamic_arg": "",
-                "help_code": "25331, 14975",
+                "help_code": "@P25331@P14975@T.",
                 "help_korean": "반드시 세팅되어야 한다없음."
             },
             {
                 "position": 13,
                 "mnemonic": "DISP",
-                "label_index": "6911",
+                "label_index": "@P6911",
                 "label_korean": "디스플레이",
                 "group_id": "149928",
                 "req_frame_id": "450125",
@@ -939,13 +939,13 @@
                 "bit_mask": 16,
                 "bit_shift": 4,
                 "dynamic_arg": "",
-                "help_code": "25331, 26678",
+                "help_code": "@P25331@P26678@T.",
                 "help_korean": "반드시 세팅되어야 한다닫힘 위치."
             },
             {
                 "position": 14,
                 "mnemonic": "VES_B",
-                "label_index": "2285",
+                "label_index": "@P2285",
                 "label_korean": "멀티미디어",
                 "group_id": "149928",
                 "req_frame_id": "450125",
@@ -961,13 +961,13 @@
                 "bit_mask": 32,
                 "bit_shift": 5,
                 "dynamic_arg": "",
-                "help_code": "25331, 26678",
+                "help_code": "@P25331@P26678@T.",
                 "help_korean": "반드시 세팅되어야 한다닫힘 위치."
             },
             {
                 "position": 15,
                 "mnemonic": "RRDM_B",
-                "label_index": "2517",
+                "label_index": "@P2517",
                 "label_korean": "우측 슬라이딩 사이드 도어",
                 "group_id": "149928",
                 "req_frame_id": "450125",
@@ -983,13 +983,13 @@
                 "bit_mask": 64,
                 "bit_shift": 6,
                 "dynamic_arg": "",
-                "help_code": "25331, 14975",
+                "help_code": "@P25331@P14975@T.",
                 "help_korean": "반드시 세팅되어야 한다없음."
             },
             {
                 "position": 16,
                 "mnemonic": "CDEFCOM05",
-                "label_index": "20063",
+                "label_index": "@P20063",
                 "label_korean": "라디오",
                 "group_id": "149928",
                 "req_frame_id": "450125",
@@ -1005,13 +1005,13 @@
                 "bit_mask": 128,
                 "bit_shift": 7,
                 "dynamic_arg": "",
-                "help_code": "24757",
+                "help_code": "@P24757@T.",
                 "help_korean": "차량에 순정 오디오 시스템이 장착되어 있으면 반드시 \"있음\"으로 설정되어야 한다."
             },
             {
                 "position": 17,
                 "mnemonic": "SATR_B",
-                "label_index": "8885",
+                "label_index": "@P8885",
                 "label_korean": "위성에 의한 라디오 수신",
                 "group_id": "149928",
                 "req_frame_id": "450125",
@@ -1027,13 +1027,13 @@
                 "bit_mask": 1,
                 "bit_shift": 0,
                 "dynamic_arg": "",
-                "help_code": "25331, 14975",
+                "help_code": "@P25331@P14975@T.",
                 "help_korean": "반드시 세팅되어야 한다없음."
             },
             {
                 "position": 18,
                 "mnemonic": "CDEFCOM01",
-                "label_index": "16357",
+                "label_index": "@P16357",
                 "label_korean": "BSI",
                 "group_id": "149928",
                 "req_frame_id": "450125",
@@ -1049,13 +1049,13 @@
                 "bit_mask": 128,
                 "bit_shift": 7,
                 "dynamic_arg": "",
-                "help_code": "25331, 596",
+                "help_code": "@P25331@P596@T.",
                 "help_korean": "반드시 세팅되어야 한다존재."
             },
             {
                 "position": 19,
                 "mnemonic": "CFG_222_VERROUILLAGE_CENTRALISE_PORTES_TELECOMMANDE",
-                "label_index": "2956",
+                "label_index": "@P2956",
                 "label_korean": "리모컨으로 도어 중앙 잠금",
                 "group_id": "149929",
                 "req_frame_id": "450128",
@@ -1071,13 +1071,13 @@
                 "bit_mask": 32,
                 "bit_shift": 5,
                 "dynamic_arg": "",
-                "help_code": "25331, 596",
+                "help_code": "@P25331@P596@T.",
                 "help_korean": "반드시 세팅되어야 한다존재."
             },
             {
                 "position": 20,
                 "mnemonic": "TPM_PRSNT",
-                "label_index": "428",
+                "label_index": "@P428",
                 "label_korean": "공기압 부족 감지",
                 "group_id": "149929",
                 "req_frame_id": "450128",
@@ -1093,13 +1093,13 @@
                 "bit_mask": 64,
                 "bit_shift": 6,
                 "dynamic_arg": "",
-                "help_code": "25331, 14975",
+                "help_code": "@P25331@P14975@T.",
                 "help_korean": "반드시 세팅되어야 한다없음."
             },
             {
                 "position": 21,
                 "mnemonic": "CFG_222_PRESSION_PNEUMATIQUES",
-                "label_index": "24819",
+                "label_index": "@P24819",
                 "label_korean": "타이어 압력",
                 "group_id": "149929",
                 "req_frame_id": "450128",
@@ -1115,13 +1115,13 @@
                 "bit_mask": 15,
                 "bit_shift": 0,
                 "dynamic_arg": "",
-                "help_code": "25331, 14975",
+                "help_code": "@P25331@P14975@T.",
                 "help_korean": "반드시 세팅되어야 한다없음."
             },
             {
                 "position": 22,
                 "mnemonic": "WCM_S_PRSNT",
-                "label_index": "14232",
+                "label_index": "@P14232",
                 "label_korean": "카드에 의한 잠금 타입 및 장착 여부",
                 "group_id": "149929",
                 "req_frame_id": "450128",
@@ -1137,13 +1137,13 @@
                 "bit_mask": 48,
                 "bit_shift": 4,
                 "dynamic_arg": "",
-                "help_code": "25331, 26678",
+                "help_code": "@P25331@P26678@T.",
                 "help_korean": "반드시 세팅되어야 한다닫힘 위치."
             },
             {
                 "position": 23,
                 "mnemonic": "IMOBI_PRSNT",
-                "label_index": "7023",
+                "label_index": "@P7023",
                 "label_korean": "엔진 이모빌라이저 제어 모듈",
                 "group_id": "149929",
                 "req_frame_id": "450128",
@@ -1159,7 +1159,7 @@
                 "bit_mask": 192,
                 "bit_shift": 6,
                 "dynamic_arg": "",
-                "help_code": "11093",
+                "help_code": "@P11093@\\*A",
                 "help_korean": "\"타입 A\"로 반드시 설정되어야 한다"
             }
         ]
@@ -1173,7 +1173,7 @@
             {
                 "position": 1,
                 "mnemonic": "CA_KM_APPARITION_2",
-                "label_index": "14471",
+                "label_index": "@P14471",
                 "label_korean": "주행 거리 보임",
                 "group_id": "150002",
                 "req_frame_id": "450347",
@@ -1195,7 +1195,7 @@
             {
                 "position": 2,
                 "mnemonic": "CA_TPS_ECOULE_PREM_APPAR",
-                "label_index": "13240",
+                "label_index": "@P13240",
                 "label_korean": "첫번째 결함이 발생한 이후 경과된 시간",
                 "group_id": "150002",
                 "req_frame_id": "450347",
@@ -1217,7 +1217,7 @@
             {
                 "position": 3,
                 "mnemonic": "CA_NB_CYCLE",
-                "label_index": "2632",
+                "label_index": "@P2632",
                 "label_korean": "결함이 사라진 후 키를 ON한 횟수",
                 "group_id": "150002",
                 "req_frame_id": "450347",
@@ -1239,7 +1239,7 @@
             {
                 "position": 4,
                 "mnemonic": "CA_TPS_ECOULE_DISPAR",
-                "label_index": "13110",
+                "label_index": "@P13110",
                 "label_korean": "결함이 영구적으로 된 이후부터 누적된 시간",
                 "group_id": "150002",
                 "req_frame_id": "450347",

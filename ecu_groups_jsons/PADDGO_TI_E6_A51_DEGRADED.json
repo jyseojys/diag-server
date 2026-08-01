@@ -8,7 +8,7 @@
             {
                 "position": 1,
                 "mnemonic": "ID_NOM_FOURNISSEUR",
-                "label_index": "5701",
+                "label_index": "@P5701",
                 "label_korean": "제조 업체명",
                 "group_id": "1629",
                 "req_frame_id": "4887",
@@ -30,7 +30,7 @@
             {
                 "position": 2,
                 "mnemonic": "ID_REFERENCE_MATERIEL",
-                "label_index": "1071",
+                "label_index": "@P1071",
                 "label_korean": "장치 부품 번호",
                 "group_id": "1630",
                 "req_frame_id": "4890",
@@ -52,7 +52,7 @@
             {
                 "position": 3,
                 "mnemonic": "ID_REFERENCE_COMPLEMENTAIRE_MATERIEL",
-                "label_index": "1634",
+                "label_index": "@P1634",
                 "label_korean": "장치 추가 참조 번호",
                 "group_id": "1631",
                 "req_frame_id": "4893",
@@ -74,7 +74,7 @@
             {
                 "position": 4,
                 "mnemonic": "ID_TRACABILITE_INDICE_EVOLUTION_EDITION",
-                "label_index": "24601",
+                "label_index": "@P24601",
                 "label_korean": "소프트웨어 버전",
                 "group_id": "1633",
                 "req_frame_id": "4899",
@@ -104,7 +104,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_CAPACITE_RESERVOIR_SOUPLE_ADDITIF",
-                "label_index": "14623",
+                "label_index": "@P14623",
                 "label_korean": "첨가제 탱크의 용량",
                 "group_id": "1638",
                 "req_frame_id": "4914",
@@ -120,13 +120,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "1045",
+                "help_code": "@P1045",
                 "help_korean": "신품일 때 차량에서 제품의 양"
             },
             {
                 "position": 2,
                 "mnemonic": "MP_CYLINDREE_POMPE_ADDITIVATION",
-                "label_index": "33739",
+                "label_index": "@P33739",
                 "label_korean": "연료 첨가제 펌프 용량",
                 "group_id": "1638",
                 "req_frame_id": "4914",
@@ -148,7 +148,7 @@
             {
                 "position": 3,
                 "mnemonic": "MP_POMPE_ADDITIF",
-                "label_index": "33742",
+                "label_index": "@P33742",
                 "label_korean": "연료 첨가제 펌프의 상태",
                 "group_id": "1638",
                 "req_frame_id": "4914",
@@ -169,13 +169,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "36134",
+                "help_code": "@P36134",
                 "help_korean": "연료 첨가제 펌프 제어 승인 기능 작동"
             },
             {
                 "position": 4,
                 "mnemonic": "MP_PRESSION_MOYENNE_ADDITF",
-                "label_index": "36131",
+                "label_index": "@P36131",
                 "label_korean": "연료 첨가제 센서로부터 평균 압력",
                 "group_id": "1634",
                 "req_frame_id": "4902",
@@ -191,13 +191,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "36133",
+                "help_code": "@P36133",
                 "help_korean": "마지막 연료 첨가제 주유 사이클 중에 연료 첨가제의 압력 평균 값"
             },
             {
                 "position": 5,
                 "mnemonic": "MP_PRESSION_MAXIMALE_ADDITIF",
-                "label_index": "36130",
+                "label_index": "@P36130",
                 "label_korean": "연료 첨가제 센서로부터 최대 압력",
                 "group_id": "1634",
                 "req_frame_id": "4902",
@@ -213,13 +213,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "36125",
+                "help_code": "@P36125",
                 "help_korean": "마지막 주유 사이클 중 최대 압력 값"
             },
             {
                 "position": 6,
                 "mnemonic": "MP_ETAT_DEMANDE_AMORCAGE_POMPE_ADDITIF",
-                "label_index": "33743",
+                "label_index": "@P33743",
                 "label_korean": "연료 첨가제 프라이밍 상태",
                 "group_id": "1635",
                 "req_frame_id": "4905",
@@ -244,7 +244,7 @@
             {
                 "position": 7,
                 "mnemonic": "MP_QUANTITE_ADDITIF_CONTENUE_RESERVOIR",
-                "label_index": "40808",
+                "label_index": "@P40808",
                 "label_korean": "탱크에 포함된 첨가제의 현재 양",
                 "group_id": "1636",
                 "req_frame_id": "4908",
@@ -260,7 +260,7 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "36124",
+                "help_code": "@P36124",
                 "help_korean": "초기 용량의 %로 탱크에 남아 있는 첨가제의 양"
             }
         ]

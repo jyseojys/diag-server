@@ -8,7 +8,7 @@
             {
                 "position": 1,
                 "mnemonic": "ID_REFERENCE_FOURNISSEUR",
-                "label_index": "633",
+                "label_index": "@P633",
                 "label_korean": "제조업체",
                 "group_id": "34949",
                 "req_frame_id": "105144",
@@ -34,8 +34,8 @@
             {
                 "position": 2,
                 "mnemonic": "ID_REF_PSA_new_1",
-                "label_index": "9417",
-                "label_korean": "하드부품 번호",
+                "label_index": "@P9417@\\*",
+                "label_korean": "하드 부품 번호",
                 "group_id": "34949",
                 "req_frame_id": "105144",
                 "resp_frame_id": "105145",
@@ -56,7 +56,7 @@
             {
                 "position": 3,
                 "mnemonic": "ID_NUM_COMP_new_3",
-                "label_index": "13910",
+                "label_index": "@P13910",
                 "label_korean": "작동 제품 참조",
                 "group_id": "34949",
                 "req_frame_id": "105144",
@@ -78,7 +78,7 @@
             {
                 "position": 4,
                 "mnemonic": "ID_VERSION_SOFT_D1",
-                "label_index": "2358",
+                "label_index": "@P2358",
                 "label_korean": "소프트웨어 버전",
                 "group_id": "34949",
                 "req_frame_id": "105144",
@@ -100,7 +100,7 @@
             {
                 "position": 5,
                 "mnemonic": "ID_REF_CALIBRATION",
-                "label_index": "3106",
+                "label_index": "@P3106",
                 "label_korean": "캘리브레이션 버전",
                 "group_id": "34949",
                 "req_frame_id": "105144",
@@ -122,7 +122,7 @@
             {
                 "position": 6,
                 "mnemonic": "ID_MESS_DIAGNOSTIC",
-                "label_index": "2459",
+                "label_index": "@P2459",
                 "label_korean": "진단 이메일",
                 "group_id": "34949",
                 "req_frame_id": "105144",
@@ -144,7 +144,7 @@
             {
                 "position": 7,
                 "mnemonic": "ID_VERSION_DIAGNOSTIC_new_1",
-                "label_index": "14029",
+                "label_index": "@P14029",
                 "label_korean": "진단 버전",
                 "group_id": "34949",
                 "req_frame_id": "105144",
@@ -174,7 +174,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_ETATCLAVIERMEMO",
-                "label_index": "6520",
+                "label_index": "@P6520",
                 "label_korean": "메모리 키패드 버튼",
                 "group_id": "34951",
                 "req_frame_id": "105150",
@@ -196,13 +196,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "43209, 43210",
-                "help_korean": "메모리 패널 버튼 중의 하나가 눌러졌는지를 확인하기 위해서 사용되는 변수 메모리 버튼 1,2,3 및 M 버튼 중의 하나에서 누름이 표시될 수 있다"
+                "help_code": "@P43209@\\+@P43210",
+                "help_korean": "메모리 패널 버튼 중의 하나가 눌러졌는지를 확인하기 위해서 사용되는 변수메모리 버튼 1,2,3 및 M 버튼 중의 하나에서 누름이 표시될 수 있다"
             },
             {
                 "position": 2,
                 "mnemonic": "MP_MONTEE_ASSISE",
-                "label_index": "4910",
+                "label_index": "@P4910",
                 "label_korean": "쿠션을 올린다",
                 "group_id": "34951",
                 "req_frame_id": "105150",
@@ -218,13 +218,13 @@
                 "bit_mask": 128,
                 "bit_shift": 7,
                 "dynamic_arg": "",
-                "help_code": "10549",
+                "help_code": "@P10549",
                 "help_korean": "시트 베이스를 올릴 것을 요청하는 작동 변수"
             },
             {
                 "position": 3,
                 "mnemonic": "MP_DESCENTE_ASSISE",
-                "label_index": "9979",
+                "label_index": "@P9979",
                 "label_korean": "쿠션을 내린다",
                 "group_id": "34951",
                 "req_frame_id": "105150",
@@ -240,13 +240,13 @@
                 "bit_mask": 64,
                 "bit_shift": 6,
                 "dynamic_arg": "",
-                "help_code": "7271",
+                "help_code": "@P7271",
                 "help_korean": "시트 베이스를 내릴 것을 요청하는 작동 변수"
             },
             {
                 "position": 4,
                 "mnemonic": "MONTEEREH",
-                "label_index": "15412",
+                "label_index": "@P15412",
                 "label_korean": "높이 조절 장치를 올린다",
                 "group_id": "34951",
                 "req_frame_id": "105150",
@@ -262,13 +262,13 @@
                 "bit_mask": 32,
                 "bit_shift": 5,
                 "dynamic_arg": "",
-                "help_code": "2981",
+                "help_code": "@P2981",
                 "help_korean": "시트 높이 조절장치를 올리기 위한 요청을 위해 작동하는 변수"
             },
             {
                 "position": 5,
                 "mnemonic": "DESCENTEREH",
-                "label_index": "9689",
+                "label_index": "@P9689",
                 "label_korean": "높이 조절 장치를 내린다",
                 "group_id": "34951",
                 "req_frame_id": "105150",
@@ -284,13 +284,13 @@
                 "bit_mask": 16,
                 "bit_shift": 4,
                 "dynamic_arg": "",
-                "help_code": "12355",
+                "help_code": "@P12355",
                 "help_korean": "시트 높이 조절장치를 내리기 위한 요청을 위해 작동하는 변수"
             },
             {
                 "position": 6,
                 "mnemonic": "AVANCEGLIS",
-                "label_index": "4514",
+                "label_index": "@P4514",
                 "label_korean": "러너가 앞쪽으로 이동한다",
                 "group_id": "34951",
                 "req_frame_id": "105150",
@@ -306,13 +306,13 @@
                 "bit_mask": 8,
                 "bit_shift": 3,
                 "dynamic_arg": "",
-                "help_code": "7242",
+                "help_code": "@P7242",
                 "help_korean": "시트 러너를 앞으로 이동하기 위한 요청을 위해 작동하는 변수"
             },
             {
                 "position": 7,
                 "mnemonic": "RECULGLIS",
-                "label_index": "3587",
+                "label_index": "@P3587",
                 "label_korean": "러너가 뒤쪽으로 이동한다",
                 "group_id": "34951",
                 "req_frame_id": "105150",
@@ -328,13 +328,13 @@
                 "bit_mask": 4,
                 "bit_shift": 2,
                 "dynamic_arg": "",
-                "help_code": "6020",
+                "help_code": "@P6020",
                 "help_korean": "시트 러너를 뒤쪽으로 이동하기 위해 요청하는 작동 변수"
             },
             {
                 "position": 8,
                 "mnemonic": "INCLAVDOSSIER",
-                "label_index": "2347",
+                "label_index": "@P2347",
                 "label_korean": "시트 등받이 앞쪽으로 기울임",
                 "group_id": "34951",
                 "req_frame_id": "105150",
@@ -350,13 +350,13 @@
                 "bit_mask": 128,
                 "bit_shift": 7,
                 "dynamic_arg": "",
-                "help_code": "5904",
+                "help_code": "@P5904",
                 "help_korean": "시트 등받이를 앞으로 기울이기 위한 요청을 위해 작동하는 변수"
             },
             {
                 "position": 9,
                 "mnemonic": "INCLARDOSSIER",
-                "label_index": "7668",
+                "label_index": "@P7668",
                 "label_korean": "시트 등받이 뒤쪽으로 기울임",
                 "group_id": "34951",
                 "req_frame_id": "105150",
@@ -372,13 +372,13 @@
                 "bit_mask": 64,
                 "bit_shift": 6,
                 "dynamic_arg": "",
-                "help_code": "6034",
+                "help_code": "@P6034",
                 "help_korean": "시트 등받이를 뒤로 기울이기 위한 요청을 위해 작동하는 변수"
             },
             {
                 "position": 10,
                 "mnemonic": "MP_MONTEE_APPUIS_LOMBAIRES",
-                "label_index": "5630",
+                "label_index": "@P5630",
                 "label_korean": "요추 지지대를 올린다",
                 "group_id": "34951",
                 "req_frame_id": "105150",
@@ -394,13 +394,13 @@
                 "bit_mask": 8,
                 "bit_shift": 3,
                 "dynamic_arg": "",
-                "help_code": "12306",
+                "help_code": "@P12306",
                 "help_korean": "요추 지지대를 올리라는 요청이 있을 때 변수는 작동"
             },
             {
                 "position": 11,
                 "mnemonic": "MP_DESCENTE_APPUIS_LOMBAIRES",
-                "label_index": "9124",
+                "label_index": "@P9124",
                 "label_korean": "요추 지지대를 내린다",
                 "group_id": "34951",
                 "req_frame_id": "105150",
@@ -416,13 +416,13 @@
                 "bit_mask": 4,
                 "bit_shift": 2,
                 "dynamic_arg": "",
-                "help_code": "13389",
+                "help_code": "@P13389",
                 "help_korean": "요추 지지대를 내리기 위한 요청을 위해 작동하는 변수"
             },
             {
                 "position": 12,
                 "mnemonic": "MP_AVANCE_APPUIS_LOMBAIRES",
-                "label_index": "16261",
+                "label_index": "@P16261",
                 "label_korean": "요추 지지대를 위쪽으로 이동한다",
                 "group_id": "34951",
                 "req_frame_id": "105150",
@@ -438,13 +438,13 @@
                 "bit_mask": 2,
                 "bit_shift": 1,
                 "dynamic_arg": "",
-                "help_code": "9991",
+                "help_code": "@P9991",
                 "help_korean": "요추 지지대를 앞쪽으로 이동하도록 요청하기 위해 작동하는 변수"
             },
             {
                 "position": 13,
                 "mnemonic": "MP_RECUL_LOMB",
-                "label_index": "7021",
+                "label_index": "@P7021",
                 "label_korean": "요추 지지대 뒤쪽",
                 "group_id": "34951",
                 "req_frame_id": "105150",
@@ -460,7 +460,7 @@
                 "bit_mask": 1,
                 "bit_shift": 0,
                 "dynamic_arg": "",
-                "help_code": "14333",
+                "help_code": "@P14333",
                 "help_korean": "요추 지지대를 뒤쪽으로 이동하도록 요청하기 위해 작동하는 변수"
             }
         ]
@@ -474,7 +474,7 @@
             {
                 "position": 1,
                 "mnemonic": "CFG_A6E_BSI_DAD_000",
-                "label_index": "29570",
+                "label_index": "@P29570",
                 "label_korean": "주행 타입",
                 "group_id": "34947",
                 "req_frame_id": "105138",

@@ -228,7 +228,7 @@
         ]
     },
     "IDENTIFICATION": {
-        "screen_title_korean": "BSIID",
+        "screen_title_korean": "BSI ID",
         "screen_label_index": "@P3874-POLUXDATA@\\*",
         "ecu_name": "BMF_S3_S4_V1",
         "total_sensors": 8,
@@ -236,7 +236,7 @@
             {
                 "position": 1,
                 "mnemonic": "ID_NOM_DU_FOURNISSEUR",
-                "label_index": "5701",
+                "label_index": "@P5701",
                 "label_korean": "제조 업체명",
                 "group_id": "86121",
                 "req_frame_id": "258664",
@@ -266,7 +266,7 @@
             {
                 "position": 2,
                 "mnemonic": "ID_REFERENCE_MATERIEL",
-                "label_index": "1071",
+                "label_index": "@P1071",
                 "label_korean": "장치 부품 번호",
                 "group_id": "86121",
                 "req_frame_id": "258664",
@@ -288,7 +288,7 @@
             {
                 "position": 3,
                 "mnemonic": "ID_REFERENCE_LOGICIEL",
-                "label_index": "13263",
+                "label_index": "@P13263",
                 "label_korean": "소프트웨어 번호",
                 "group_id": "86124",
                 "req_frame_id": "258673",
@@ -310,7 +310,7 @@
             {
                 "position": 4,
                 "mnemonic": "ID_HARD",
-                "label_index": "12954",
+                "label_index": "@P12954",
                 "label_korean": "하드웨어 버전",
                 "group_id": "86121",
                 "req_frame_id": "258664",
@@ -332,7 +332,7 @@
             {
                 "position": 5,
                 "mnemonic": "ID_VERSION_LOGICIEL_new_1",
-                "label_index": "8662",
+                "label_index": "@P8662@\\*",
                 "label_korean": "소프트웨어 버전",
                 "group_id": "86124",
                 "req_frame_id": "258673",
@@ -354,7 +354,7 @@
             {
                 "position": 6,
                 "mnemonic": "ID_VERSION_DIAGNOSTIC_new_1",
-                "label_index": "14029",
+                "label_index": "@P14029",
                 "label_korean": "진단 버전",
                 "group_id": "86124",
                 "req_frame_id": "258673",
@@ -376,7 +376,7 @@
             {
                 "position": 7,
                 "mnemonic": "ID_DATE_TELECHARGEMENT",
-                "label_index": "21670",
+                "label_index": "@P21670",
                 "label_korean": "다운로딩 날짜",
                 "group_id": "86122",
                 "req_frame_id": "258667",
@@ -398,7 +398,7 @@
             {
                 "position": 8,
                 "mnemonic": "ID_VIN_ACTUEL",
-                "label_index": "15431",
+                "label_index": "@P15431",
                 "label_korean": "차량 일련 번호 (현재 차대번호)",
                 "group_id": "86114",
                 "req_frame_id": "258643",
@@ -428,7 +428,7 @@
             {
                 "position": 1,
                 "mnemonic": "ID_ROUE_1",
-                "label_index": "39323",
+                "label_index": "@P39323@\\*1",
                 "label_korean": "휠 공기압 센서 ID1",
                 "group_id": "86108",
                 "req_frame_id": "258625",
@@ -450,7 +450,7 @@
             {
                 "position": 2,
                 "mnemonic": "ID_ROUE_2",
-                "label_index": "39323",
+                "label_index": "@P39323@\\*2",
                 "label_korean": "휠 공기압 센서 ID2",
                 "group_id": "86108",
                 "req_frame_id": "258625",
@@ -472,7 +472,7 @@
             {
                 "position": 3,
                 "mnemonic": "ID_ROUE_3",
-                "label_index": "39323",
+                "label_index": "@P39323@\\*3",
                 "label_korean": "휠 공기압 센서 ID3",
                 "group_id": "86108",
                 "req_frame_id": "258625",
@@ -494,7 +494,7 @@
             {
                 "position": 4,
                 "mnemonic": "ID_ROUE_4",
-                "label_index": "39323",
+                "label_index": "@P39323@\\*4",
                 "label_korean": "휠 공기압 센서 ID4",
                 "group_id": "86108",
                 "req_frame_id": "258625",
@@ -516,7 +516,7 @@
             {
                 "position": 5,
                 "mnemonic": "ID_ROUE_5",
-                "label_index": "39323",
+                "label_index": "@P39323@\\*5",
                 "label_korean": "휠 공기압 센서 ID5",
                 "group_id": "86108",
                 "req_frame_id": "258625",
@@ -546,7 +546,7 @@
             {
                 "position": 1,
                 "mnemonic": "S3S4_BSI_MP_055",
-                "label_index": "18263",
+                "label_index": "@P18263@T (12)",
                 "label_korean": "배터리 전압 (12)",
                 "group_id": "86097",
                 "req_frame_id": "258592",
@@ -568,7 +568,7 @@
             {
                 "position": 2,
                 "mnemonic": "S3S4_BSI_MP_029",
-                "label_index": "20973",
+                "label_index": "@P20973",
                 "label_korean": "ACC 위치에서 키",
                 "group_id": "86095",
                 "req_frame_id": "258586",
@@ -592,7 +592,7 @@
             {
                 "position": 3,
                 "mnemonic": "S3S4_BSI_MP_030",
-                "label_index": "20741",
+                "label_index": "@P20741",
                 "label_korean": "\"On\" 또는 \"Start\" 위치에서 키",
                 "group_id": "86095",
                 "req_frame_id": "258586",
@@ -614,7 +614,7 @@
             {
                 "position": 4,
                 "mnemonic": "S3S4_BSI_MP_044",
-                "label_index": "21072",
+                "label_index": "@P21072",
                 "label_korean": "\"On\" 위치에서 키",
                 "group_id": "86095",
                 "req_frame_id": "258586",
@@ -636,7 +636,7 @@
             {
                 "position": 5,
                 "mnemonic": "S3S4_BSI_MP_077",
-                "label_index": "20931",
+                "label_index": "@P20931",
                 "label_korean": "전동 윈도우 전원 릴레이 출력의 상태",
                 "group_id": "86098",
                 "req_frame_id": "258595",
@@ -666,7 +666,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_RECEPTION_IDENTIFIANT_MODULE_EMETTEUR_ROUE_1",
-                "label_index": "38722",
+                "label_index": "@P38722@\\*1",
                 "label_korean": "휠 공기압 센서1 수신",
                 "group_id": "86101",
                 "req_frame_id": "258604",
@@ -688,7 +688,7 @@
             {
                 "position": 2,
                 "mnemonic": "MP_ETAT_PILE_MODULE_EMETTEUR_ROUE_1",
-                "label_index": "38744",
+                "label_index": "@P38744@\\*1",
                 "label_korean": "휠 공기압 센서1의 배터리 상태",
                 "group_id": "86101",
                 "req_frame_id": "258604",
@@ -707,13 +707,13 @@
                 "bit_mask": 12,
                 "bit_shift": 2,
                 "dynamic_arg": "1",
-                "help_code": "39091, 39092",
-                "help_korean": "이론적인\n- 수명 : 10년 또는 160000km"
+                "help_code": "@P39091@T : @P39092@\\*10@\\*160000",
+                "help_korean": "이론적인 수명 : 10년 또는 160000km"
             },
             {
                 "position": 3,
                 "mnemonic": "MP_RECEPTION_IDENTIFIANT_MODULE_EMETTEUR_ROUE_2",
-                "label_index": "38722",
+                "label_index": "@P38722@\\*2",
                 "label_korean": "휠 공기압 센서2 수신",
                 "group_id": "86102",
                 "req_frame_id": "258607",
@@ -735,7 +735,7 @@
             {
                 "position": 4,
                 "mnemonic": "MP_ETAT_PILE_MODULE_EMETTEUR_ROUE_2",
-                "label_index": "38744",
+                "label_index": "@P38744@\\*2",
                 "label_korean": "휠 공기압 센서2의 배터리 상태",
                 "group_id": "86102",
                 "req_frame_id": "258607",
@@ -754,13 +754,13 @@
                 "bit_mask": 12,
                 "bit_shift": 2,
                 "dynamic_arg": "2",
-                "help_code": "39091, 39092",
-                "help_korean": "이론적인\n- 수명 : 10년 또는 160000km"
+                "help_code": "@P39091@T : @P39092@\\*10@\\*160000",
+                "help_korean": "이론적인 수명 : 10년 또는 160000km"
             },
             {
                 "position": 5,
                 "mnemonic": "MP_RECEPTION_IDENTIFIANT_MODULE_EMETTEUR_ROUE_3",
-                "label_index": "38722",
+                "label_index": "@P38722@\\*3",
                 "label_korean": "휠 공기압 센서3 수신",
                 "group_id": "86103",
                 "req_frame_id": "258610",
@@ -782,7 +782,7 @@
             {
                 "position": 6,
                 "mnemonic": "MP_ETAT_PILE_MODULE_EMETTEUR_ROUE_3",
-                "label_index": "38744",
+                "label_index": "@P38744@\\*3",
                 "label_korean": "휠 공기압 센서3의 배터리 상태",
                 "group_id": "86103",
                 "req_frame_id": "258610",
@@ -801,13 +801,13 @@
                 "bit_mask": 12,
                 "bit_shift": 2,
                 "dynamic_arg": "3",
-                "help_code": "39091, 39092",
-                "help_korean": "이론적인\n- 수명 : 10년 또는 160000km"
+                "help_code": "@P39091@T : @P39092@\\*10@\\*160000",
+                "help_korean": "이론적인 수명 : 10년 또는 160000km"
             },
             {
                 "position": 7,
                 "mnemonic": "MP_RECEPTION_IDENTIFIANT_MODULE_EMETTEUR_ROUE_4",
-                "label_index": "38722",
+                "label_index": "@P38722@\\*4",
                 "label_korean": "휠 공기압 센서4 수신",
                 "group_id": "86104",
                 "req_frame_id": "258613",
@@ -829,7 +829,7 @@
             {
                 "position": 8,
                 "mnemonic": "MP_ETAT_PILE_MODULE_EMETTEUR_ROUE_4",
-                "label_index": "38744",
+                "label_index": "@P38744@\\*4",
                 "label_korean": "휠 공기압 센서4의 배터리 상태",
                 "group_id": "86104",
                 "req_frame_id": "258613",
@@ -848,13 +848,13 @@
                 "bit_mask": 12,
                 "bit_shift": 2,
                 "dynamic_arg": "4",
-                "help_code": "39091, 39092",
-                "help_korean": "이론적인\n- 수명 : 10년 또는 160000km"
+                "help_code": "@P39091@T : @P39092@\\*10@\\*160000",
+                "help_korean": "이론적인 수명 : 10년 또는 160000km"
             },
             {
                 "position": 9,
                 "mnemonic": "MP_RECEPTION_IDENTIFIANT_MODULE_EMETTEUR_ROUE_5",
-                "label_index": "38722",
+                "label_index": "@P38722@\\*5",
                 "label_korean": "휠 공기압 센서5 수신",
                 "group_id": "86105",
                 "req_frame_id": "258616",
@@ -870,13 +870,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "5",
-                "help_code": "28491",
+                "help_code": "@P28491",
                 "help_korean": "차량 장치에 따라"
             },
             {
                 "position": 10,
                 "mnemonic": "MP_ETAT_PILE_MODULE_EMETTEUR_ROUE_5",
-                "label_index": "38744",
+                "label_index": "@P38744@\\*5",
                 "label_korean": "휠 공기압 센서5의 배터리 상태",
                 "group_id": "86105",
                 "req_frame_id": "258616",
@@ -895,8 +895,8 @@
                 "bit_mask": 12,
                 "bit_shift": 2,
                 "dynamic_arg": "5",
-                "help_code": "28491, 39091, 39092",
-                "help_korean": "차량\n- 장치에 따라\n이론적인 수명 : 10년 또는 160000km"
+                "help_code": "@P28491@\\n@P39091@T : @P39092@\\*10@\\*160000",
+                "help_korean": "차량 장치에 따라\n이론적인 수명 : 10년 또는 160000km"
             }
         ]
     },
@@ -909,7 +909,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_PRESSION_ROUE_1_LORS_DE_ALERTE_DSG",
-                "label_index": "39093",
+                "label_index": "@P39093@\\*1",
                 "label_korean": "타이어 압력 감지 경고의 표시를 위한 휠1의 압력 한계치",
                 "group_id": "86106",
                 "req_frame_id": "258619",
@@ -925,13 +925,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "1",
-                "help_code": "39331",
+                "help_code": "@P39331",
                 "help_korean": "계기판에서 타이어 공기압 감지 기능의 재초기화 당시에 휠의 압력에 따라 값이 달라진다"
             },
             {
                 "position": 2,
                 "mnemonic": "MP_PRESSION_ROUE_1_LORS_DE_DISPARITION_ALERTE_DSG",
-                "label_index": "39094",
+                "label_index": "@P39094@\\*1",
                 "label_korean": "타이어 공기압 감지 경고가 사라지기 위한 휠1의 압력 한계치",
                 "group_id": "86106",
                 "req_frame_id": "258619",
@@ -947,13 +947,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "1",
-                "help_code": "39331",
+                "help_code": "@P39331",
                 "help_korean": "계기판에서 타이어 공기압 감지 기능의 재초기화 당시에 휠의 압력에 따라 값이 달라진다"
             },
             {
                 "position": 3,
                 "mnemonic": "MP_PRESSION_ROUE_2_LORS_DE_ALERTE_DSG",
-                "label_index": "39093",
+                "label_index": "@P39093@\\*2",
                 "label_korean": "타이어 압력 감지 경고의 표시를 위한 휠2의 압력 한계치",
                 "group_id": "86106",
                 "req_frame_id": "258619",
@@ -969,13 +969,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "2",
-                "help_code": "39331",
+                "help_code": "@P39331",
                 "help_korean": "계기판에서 타이어 공기압 감지 기능의 재초기화 당시에 휠의 압력에 따라 값이 달라진다"
             },
             {
                 "position": 4,
                 "mnemonic": "MP_PRESSION_ROUE_2_LORS_DE_DISPARITION_ALERTE_DSG",
-                "label_index": "39094",
+                "label_index": "@P39094@\\*2",
                 "label_korean": "타이어 공기압 감지 경고가 사라지기 위한 휠2의 압력 한계치",
                 "group_id": "86106",
                 "req_frame_id": "258619",
@@ -991,13 +991,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "2",
-                "help_code": "39331",
+                "help_code": "@P39331",
                 "help_korean": "계기판에서 타이어 공기압 감지 기능의 재초기화 당시에 휠의 압력에 따라 값이 달라진다"
             },
             {
                 "position": 5,
                 "mnemonic": "MP_PRESSION_ROUE_3_LORS_DE_ALERTE_DSG",
-                "label_index": "39093",
+                "label_index": "@P39093@\\*3",
                 "label_korean": "타이어 압력 감지 경고의 표시를 위한 휠3의 압력 한계치",
                 "group_id": "86106",
                 "req_frame_id": "258619",
@@ -1013,13 +1013,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "3",
-                "help_code": "39331",
+                "help_code": "@P39331",
                 "help_korean": "계기판에서 타이어 공기압 감지 기능의 재초기화 당시에 휠의 압력에 따라 값이 달라진다"
             },
             {
                 "position": 6,
                 "mnemonic": "MP_PRESSION_ROUE_3_LORS_DE_DISPARITION_ALERTE_DSG",
-                "label_index": "39094",
+                "label_index": "@P39094@\\*3",
                 "label_korean": "타이어 공기압 감지 경고가 사라지기 위한 휠3의 압력 한계치",
                 "group_id": "86106",
                 "req_frame_id": "258619",
@@ -1035,13 +1035,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "3",
-                "help_code": "39331",
+                "help_code": "@P39331",
                 "help_korean": "계기판에서 타이어 공기압 감지 기능의 재초기화 당시에 휠의 압력에 따라 값이 달라진다"
             },
             {
                 "position": 7,
                 "mnemonic": "MP_PRESSION_ROUE_4_LORS_DE_ALERTE_DSG",
-                "label_index": "39093",
+                "label_index": "@P39093@\\*4",
                 "label_korean": "타이어 압력 감지 경고의 표시를 위한 휠4의 압력 한계치",
                 "group_id": "86106",
                 "req_frame_id": "258619",
@@ -1057,13 +1057,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "4",
-                "help_code": "39331",
+                "help_code": "@P39331",
                 "help_korean": "계기판에서 타이어 공기압 감지 기능의 재초기화 당시에 휠의 압력에 따라 값이 달라진다"
             },
             {
                 "position": 8,
                 "mnemonic": "MP_PRESSION_ROUE_4_LORS_DE_DISPARITION_ALERTE_DSG",
-                "label_index": "39094",
+                "label_index": "@P39094@\\*4",
                 "label_korean": "타이어 공기압 감지 경고가 사라지기 위한 휠4의 압력 한계치",
                 "group_id": "86106",
                 "req_frame_id": "258619",
@@ -1079,13 +1079,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "4",
-                "help_code": "39331",
+                "help_code": "@P39331",
                 "help_korean": "계기판에서 타이어 공기압 감지 기능의 재초기화 당시에 휠의 압력에 따라 값이 달라진다"
             },
             {
                 "position": 9,
                 "mnemonic": "MP_PRESSION_ROUE_5_LORS_DE_ALERTE_DSG",
-                "label_index": "39093",
+                "label_index": "@P39093@\\*5",
                 "label_korean": "타이어 압력 감지 경고의 표시를 위한 휠5의 압력 한계치",
                 "group_id": "86106",
                 "req_frame_id": "258619",
@@ -1101,13 +1101,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "5",
-                "help_code": "28491, 39331",
+                "help_code": "@P28491@\\n@P39331",
                 "help_korean": "차량 장치에 따라\n계기판에서 타이어 공기압 감지 기능의 재초기화 당시에 휠의 압력에 따라 값이 달라진다"
             },
             {
                 "position": 10,
                 "mnemonic": "MP_PRESSION_ROUE_5_LORS_DE_DISPARITION_ALERTE_DSG",
-                "label_index": "38731",
+                "label_index": "@P38731@\\*5",
                 "label_korean": "타이어 공기압 감지 경고가 사라질 당시의 휠5의 압력",
                 "group_id": "86106",
                 "req_frame_id": "258619",
@@ -1123,7 +1123,7 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "5",
-                "help_code": "28491, 39331",
+                "help_code": "@P28491@\\n@P39331",
                 "help_korean": "차량 장치에 따라\n계기판에서 타이어 공기압 감지 기능의 재초기화 당시에 휠의 압력에 따라 값이 달라진다"
             }
         ]
@@ -1137,7 +1137,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_DERNIERE_PRESSION_RECUE_ROUE_1_SANS_CORRECTION_PRESSION_ATMO",
-                "label_index": "38732",
+                "label_index": "@P38732@\\*1@T (@P38733@T)",
                 "label_korean": "휠1로 부터 수신된 마지막 압력 (대기 압력을 고려하지 않고)",
                 "group_id": "86106",
                 "req_frame_id": "258619",
@@ -1159,7 +1159,7 @@
             {
                 "position": 2,
                 "mnemonic": "MP_DERNIERE_PRESSION_RECUE_ROUE_1_AVEC_CORRECTION_PRESSION_ATMO",
-                "label_index": "38732",
+                "label_index": "@P38732@\\*1@T (@P38734@T)",
                 "label_korean": "휠1로 부터 수신된 마지막 압력 (대기 압력을 고려하고)",
                 "group_id": "86106",
                 "req_frame_id": "258619",
@@ -1181,7 +1181,7 @@
             {
                 "position": 3,
                 "mnemonic": "MP_DERNIERE_PRESSION_RECUE_ROUE_2_SANS_CORRECTION_PRESSION_ATMO",
-                "label_index": "38732",
+                "label_index": "@P38732@\\*2@T (@P38733@T)",
                 "label_korean": "휠2로 부터 수신된 마지막 압력 (대기 압력을 고려하지 않고)",
                 "group_id": "86106",
                 "req_frame_id": "258619",
@@ -1203,7 +1203,7 @@
             {
                 "position": 4,
                 "mnemonic": "MP_DERNIERE_PRESSION_RECUE_ROUE_2_AVEC_CORRECTION_PRESSION_ATMO",
-                "label_index": "38732",
+                "label_index": "@P38732@\\*2@T (@P38734@T)",
                 "label_korean": "휠2로 부터 수신된 마지막 압력 (대기 압력을 고려하고)",
                 "group_id": "86106",
                 "req_frame_id": "258619",
@@ -1225,7 +1225,7 @@
             {
                 "position": 5,
                 "mnemonic": "MP_DERNIERE_PRESSION_RECUE_ROUE_3_SANS_CORRECTION_PRESSION_ATMO",
-                "label_index": "38732",
+                "label_index": "@P38732@\\*3@T (@P38733@T)",
                 "label_korean": "휠3로 부터 수신된 마지막 압력 (대기 압력을 고려하지 않고)",
                 "group_id": "86106",
                 "req_frame_id": "258619",
@@ -1247,7 +1247,7 @@
             {
                 "position": 6,
                 "mnemonic": "MP_DERNIERE_PRESSION_RECUE_ROUE_3_AVEC_CORRECTION_PRESSION_ATMO",
-                "label_index": "38732",
+                "label_index": "@P38732@\\*3@T (@P38734@T)",
                 "label_korean": "휠3로 부터 수신된 마지막 압력 (대기 압력을 고려하고)",
                 "group_id": "86106",
                 "req_frame_id": "258619",
@@ -1269,7 +1269,7 @@
             {
                 "position": 7,
                 "mnemonic": "MP_DERNIERE_PRESSION_RECUE_ROUE_4_SANS_CORRECTION_PRESSION_ATMO",
-                "label_index": "38732",
+                "label_index": "@P38732@\\*4@T (@P38733@T)",
                 "label_korean": "휠4로 부터 수신된 마지막 압력 (대기 압력을 고려하지 않고)",
                 "group_id": "86106",
                 "req_frame_id": "258619",
@@ -1291,7 +1291,7 @@
             {
                 "position": 8,
                 "mnemonic": "MP_DERNIERE_PRESSION_RECUE_ROUE_4_AVEC_CORRECTION_PRESSION_ATMO",
-                "label_index": "38732",
+                "label_index": "@P38732@\\*4@T (@P38734@T)",
                 "label_korean": "휠4로 부터 수신된 마지막 압력 (대기 압력을 고려하고)",
                 "group_id": "86106",
                 "req_frame_id": "258619",
@@ -1313,7 +1313,7 @@
             {
                 "position": 9,
                 "mnemonic": "MP_DERNIERE_PRESSION_RECUE_ROUE_5_SANS_CORRECTION_PRESSION_ATMO",
-                "label_index": "38732",
+                "label_index": "@P38732@\\*5@T (@P38733@T)",
                 "label_korean": "휠5로 부터 수신된 마지막 압력 (대기 압력을 고려하지 않고)",
                 "group_id": "86106",
                 "req_frame_id": "258619",
@@ -1329,13 +1329,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "5",
-                "help_code": "28491",
+                "help_code": "@P28491",
                 "help_korean": "차량 장치에 따라"
             },
             {
                 "position": 10,
                 "mnemonic": "MP_DERNIERE_PRESSION_RECUE_ROUE_5_AVEC_CORRECTION_PRESSION_ATMO",
-                "label_index": "38732",
+                "label_index": "@P38732@\\*5@T (@P38734@T)",
                 "label_korean": "휠5로 부터 수신된 마지막 압력 (대기 압력을 고려하고)",
                 "group_id": "86106",
                 "req_frame_id": "258619",
@@ -1351,13 +1351,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "5",
-                "help_code": "28491",
+                "help_code": "@P28491",
                 "help_korean": "차량 장치에 따라"
             },
             {
                 "position": 11,
                 "mnemonic": "MP_TEMPERATURE_ROUE_1",
-                "label_index": "38727",
+                "label_index": "@P38727@\\*1",
                 "label_korean": "휠1의 온도",
                 "group_id": "86101",
                 "req_frame_id": "258604",
@@ -1379,7 +1379,7 @@
             {
                 "position": 12,
                 "mnemonic": "MP_DERNIERE_TEMPERATURE_RECUE_ROUE_1",
-                "label_index": "38735",
+                "label_index": "@P38735@\\*1",
                 "label_korean": "휠1로 부터 수신된 마지막 온도",
                 "group_id": "86106",
                 "req_frame_id": "258619",
@@ -1401,7 +1401,7 @@
             {
                 "position": 13,
                 "mnemonic": "MP_TEMPERATURE_ROUE_2",
-                "label_index": "38727",
+                "label_index": "@P38727@\\*2",
                 "label_korean": "휠2의 온도",
                 "group_id": "86102",
                 "req_frame_id": "258607",
@@ -1423,7 +1423,7 @@
             {
                 "position": 14,
                 "mnemonic": "MP_DERNIERE_TEMPERATURE_RECUE_ROUE_2",
-                "label_index": "38735",
+                "label_index": "@P38735@\\*2",
                 "label_korean": "휠2로 부터 수신된 마지막 온도",
                 "group_id": "86106",
                 "req_frame_id": "258619",
@@ -1445,7 +1445,7 @@
             {
                 "position": 15,
                 "mnemonic": "MP_TEMPERATURE_ROUE_3",
-                "label_index": "38727",
+                "label_index": "@P38727@\\*3",
                 "label_korean": "휠3의 온도",
                 "group_id": "86103",
                 "req_frame_id": "258610",
@@ -1467,7 +1467,7 @@
             {
                 "position": 16,
                 "mnemonic": "MP_DERNIERE_TEMPERATURE_RECUE_ROUE_3",
-                "label_index": "38735",
+                "label_index": "@P38735@\\*3",
                 "label_korean": "휠3로 부터 수신된 마지막 온도",
                 "group_id": "86106",
                 "req_frame_id": "258619",
@@ -1489,7 +1489,7 @@
             {
                 "position": 17,
                 "mnemonic": "MP_TEMPERATURE_ROUE_4",
-                "label_index": "38727",
+                "label_index": "@P38727@\\*4",
                 "label_korean": "휠4의 온도",
                 "group_id": "86104",
                 "req_frame_id": "258613",
@@ -1511,7 +1511,7 @@
             {
                 "position": 18,
                 "mnemonic": "MP_DERNIERE_TEMPERATURE_RECUE_ROUE_4",
-                "label_index": "38735",
+                "label_index": "@P38735@\\*4",
                 "label_korean": "휠4로 부터 수신된 마지막 온도",
                 "group_id": "86106",
                 "req_frame_id": "258619",
@@ -1533,7 +1533,7 @@
             {
                 "position": 19,
                 "mnemonic": "MP_TEMPERATURE_ROUE_5",
-                "label_index": "38727",
+                "label_index": "@P38727@\\*5",
                 "label_korean": "휠5의 온도",
                 "group_id": "86105",
                 "req_frame_id": "258616",
@@ -1549,13 +1549,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "5",
-                "help_code": "28491",
+                "help_code": "@P28491",
                 "help_korean": "차량 장치에 따라"
             },
             {
                 "position": 20,
                 "mnemonic": "MP_DERNIERE_TEMPERATURE_RECUE_ROUE_5",
-                "label_index": "38735",
+                "label_index": "@P38735@\\*5",
                 "label_korean": "휠5로 부터 수신된 마지막 온도",
                 "group_id": "86106",
                 "req_frame_id": "258619",
@@ -1571,13 +1571,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "5",
-                "help_code": "28491",
+                "help_code": "@P28491",
                 "help_korean": "차량 장치에 따라"
             },
             {
                 "position": 21,
                 "mnemonic": "MP_ACCELERATION_ROUE_1",
-                "label_index": "38719",
+                "label_index": "@P38719@\\*1",
                 "label_korean": "휠1의 가속도",
                 "group_id": "86101",
                 "req_frame_id": "258604",
@@ -1599,7 +1599,7 @@
             {
                 "position": 22,
                 "mnemonic": "MP_ACCELERATION_ROUE_2",
-                "label_index": "38719",
+                "label_index": "@P38719@\\*2",
                 "label_korean": "휠2의 가속도",
                 "group_id": "86102",
                 "req_frame_id": "258607",
@@ -1621,7 +1621,7 @@
             {
                 "position": 23,
                 "mnemonic": "MP_ACCELERATION_ROUE_3",
-                "label_index": "38719",
+                "label_index": "@P38719@\\*3",
                 "label_korean": "휠3의 가속도",
                 "group_id": "86103",
                 "req_frame_id": "258610",
@@ -1643,7 +1643,7 @@
             {
                 "position": 24,
                 "mnemonic": "MP_ACCELERATION_ROUE_4",
-                "label_index": "38719",
+                "label_index": "@P38719@\\*4",
                 "label_korean": "휠4의 가속도",
                 "group_id": "86104",
                 "req_frame_id": "258613",
@@ -1665,7 +1665,7 @@
             {
                 "position": 25,
                 "mnemonic": "MP_ACCELERATION_ROUE_5",
-                "label_index": "38719",
+                "label_index": "@P38719@\\*5",
                 "label_korean": "휠5의 가속도",
                 "group_id": "86105",
                 "req_frame_id": "258616",
@@ -1681,7 +1681,7 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "5",
-                "help_code": "28491",
+                "help_code": "@P28491",
                 "help_korean": "차량 장치에 따라"
             }
         ]
@@ -1695,7 +1695,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_PRESSION_ROUE_1_APRES_REINITIALISATION",
-                "label_index": "38726",
+                "label_index": "@P38726@\\*1",
                 "label_korean": "기능 재초기화 이후 휠1의 압력",
                 "group_id": "86101",
                 "req_frame_id": "258604",
@@ -1717,7 +1717,7 @@
             {
                 "position": 2,
                 "mnemonic": "MP_PRESSION_ROUE_1_AVANT_REINITIALISATION",
-                "label_index": "38725",
+                "label_index": "@P38725@\\*1",
                 "label_korean": "기능 재초기화 이전 휠1의 압력",
                 "group_id": "86101",
                 "req_frame_id": "258604",
@@ -1733,13 +1733,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "1",
-                "help_code": "39339, 39299, 39311, 39346",
+                "help_code": "@P39339@\\n@T- @P39299@\\*0,2@\\n@T- @P39311@\\*60@\\n@P39346",
                 "help_korean": "차량에 있는 휠의 물리적인 위치를 확인하기 위해서 각 휠에서 적용해야 할 방법\n- 휠을 최소 0bar까지 증가하거나 또는 감소시킨다,2\n- 0초 이내에, 표시된 공기압이 변경된 휠의 수는 변경된 휠 압력에 해당된다\n휠에서 기준 압력으로 복원한다"
             },
             {
                 "position": 3,
                 "mnemonic": "MP_PRESSION_ROUE_2_APRES_REINITIALISATION",
-                "label_index": "38726",
+                "label_index": "@P38726@\\*2",
                 "label_korean": "기능 재초기화 이후 휠2의 압력",
                 "group_id": "86102",
                 "req_frame_id": "258607",
@@ -1761,7 +1761,7 @@
             {
                 "position": 4,
                 "mnemonic": "MP_PRESSION_ROUE_2_AVANT_REINITIALISATION",
-                "label_index": "38725",
+                "label_index": "@P38725@\\*2",
                 "label_korean": "기능 재초기화 이전 휠2의 압력",
                 "group_id": "86102",
                 "req_frame_id": "258607",
@@ -1777,13 +1777,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "2",
-                "help_code": "39339, 39299, 39311, 39346",
+                "help_code": "@P39339@\\n@T- @P39299@\\*0,2@\\n@T- @P39311@\\*60@\\n@P39346",
                 "help_korean": "차량에 있는 휠의 물리적인 위치를 확인하기 위해서 각 휠에서 적용해야 할 방법\n- 휠을 최소 0bar까지 증가하거나 또는 감소시킨다,2\n- 0초 이내에, 표시된 공기압이 변경된 휠의 수는 변경된 휠 압력에 해당된다\n휠에서 기준 압력으로 복원한다"
             },
             {
                 "position": 5,
                 "mnemonic": "MP_PRESSION_ROUE_3_APRES_REINITIALISATION",
-                "label_index": "38726",
+                "label_index": "@P38726@\\*3",
                 "label_korean": "기능 재초기화 이후 휠3의 압력",
                 "group_id": "86103",
                 "req_frame_id": "258610",
@@ -1805,7 +1805,7 @@
             {
                 "position": 6,
                 "mnemonic": "MP_PRESSION_ROUE_3_AVANT_REINITIALISATION",
-                "label_index": "38725",
+                "label_index": "@P38725@\\*3",
                 "label_korean": "기능 재초기화 이전 휠3의 압력",
                 "group_id": "86103",
                 "req_frame_id": "258610",
@@ -1821,13 +1821,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "3",
-                "help_code": "39339, 39299, 39311, 39346",
+                "help_code": "@P39339@\\n@T- @P39299@\\*0,2@\\n@T- @P39311@\\*60@\\n@P39346",
                 "help_korean": "차량에 있는 휠의 물리적인 위치를 확인하기 위해서 각 휠에서 적용해야 할 방법\n- 휠을 최소 0bar까지 증가하거나 또는 감소시킨다,2\n- 0초 이내에, 표시된 공기압이 변경된 휠의 수는 변경된 휠 압력에 해당된다\n휠에서 기준 압력으로 복원한다"
             },
             {
                 "position": 7,
                 "mnemonic": "MP_PRESSION_ROUE_4_APRES_REINITIALISATION",
-                "label_index": "38726",
+                "label_index": "@P38726@\\*4",
                 "label_korean": "기능 재초기화 이후 휠4의 압력",
                 "group_id": "86104",
                 "req_frame_id": "258613",
@@ -1849,7 +1849,7 @@
             {
                 "position": 8,
                 "mnemonic": "MP_PRESSION_ROUE_4_AVANT_REINITIALISATION",
-                "label_index": "38725",
+                "label_index": "@P38725@\\*4",
                 "label_korean": "기능 재초기화 이전 휠4의 압력",
                 "group_id": "86104",
                 "req_frame_id": "258613",
@@ -1865,13 +1865,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "4",
-                "help_code": "39339, 39299, 39311, 39346",
+                "help_code": "@P39339@\\n@T- @P39299@\\*0,2@\\n@T- @P39311@\\*60@\\n@P39346",
                 "help_korean": "차량에 있는 휠의 물리적인 위치를 확인하기 위해서 각 휠에서 적용해야 할 방법\n- 휠을 최소 0bar까지 증가하거나 또는 감소시킨다,2\n- 0초 이내에, 표시된 공기압이 변경된 휠의 수는 변경된 휠 압력에 해당된다\n휠에서 기준 압력으로 복원한다"
             },
             {
                 "position": 9,
                 "mnemonic": "MP_PRESSION_ROUE_5_APRES_REINITIALISATION",
-                "label_index": "38726",
+                "label_index": "@P38726@\\*5",
                 "label_korean": "기능 재초기화 이후 휠5의 압력",
                 "group_id": "86105",
                 "req_frame_id": "258616",
@@ -1887,13 +1887,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "5",
-                "help_code": "28491",
+                "help_code": "@P28491",
                 "help_korean": "차량 장치에 따라"
             },
             {
                 "position": 10,
                 "mnemonic": "MP_PRESSION_ROUE_5_AVANT_REINITIALISATION",
-                "label_index": "38725",
+                "label_index": "@P38725@\\*5",
                 "label_korean": "기능 재초기화 이전 휠5의 압력",
                 "group_id": "86105",
                 "req_frame_id": "258616",
@@ -1909,13 +1909,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "5",
-                "help_code": "28491, 39339, 39299, 39311, 39346",
+                "help_code": "@P28491@\\n@P39339@\\n@T- @P39299@\\*0,2@\\n@T- @P39311@\\*60@\\n@P39346",
                 "help_korean": "차량 장치에 따라\n차량에 있는 휠의 물리적인 위치를 확인하기 위해서 각 휠에서 적용해야 할 방법\n- 휠을 최소 0bar까지 증가하거나 또는 감소시킨다,2\n- 0초 이내에, 표시된 공기압이 변경된 휠의 수는 변경된 휠 압력에 해당된다\n휠에서 기준 압력으로 복원한다"
             },
             {
                 "position": 11,
                 "mnemonic": "MP_PRESSION_DE_REFERENCE_ROUE_1",
-                "label_index": "38728",
+                "label_index": "@P38728@\\*1",
                 "label_korean": "휠1의 기준 압력",
                 "group_id": "86100",
                 "req_frame_id": "258601",
@@ -1931,13 +1931,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "1",
-                "help_code": "39356",
+                "help_code": "@P39356",
                 "help_korean": "계기판에서 타이어 공기압 감지 기능의 재초기화 당시에 저장된 값"
             },
             {
                 "position": 12,
                 "mnemonic": "MP_PRESSION_DE_REFERENCE_ROUE_2",
-                "label_index": "38728",
+                "label_index": "@P38728@\\*2",
                 "label_korean": "휠2의 기준 압력",
                 "group_id": "86100",
                 "req_frame_id": "258601",
@@ -1953,13 +1953,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "2",
-                "help_code": "39356",
+                "help_code": "@P39356",
                 "help_korean": "계기판에서 타이어 공기압 감지 기능의 재초기화 당시에 저장된 값"
             },
             {
                 "position": 13,
                 "mnemonic": "MP_PRESSION_DE_REFERENCE_ROUE_3",
-                "label_index": "38728",
+                "label_index": "@P38728@\\*3",
                 "label_korean": "휠3의 기준 압력",
                 "group_id": "86100",
                 "req_frame_id": "258601",
@@ -1975,13 +1975,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "3",
-                "help_code": "39356",
+                "help_code": "@P39356",
                 "help_korean": "계기판에서 타이어 공기압 감지 기능의 재초기화 당시에 저장된 값"
             },
             {
                 "position": 14,
                 "mnemonic": "MP_PRESSION_DE_REFERENCE_ROUE_4",
-                "label_index": "38728",
+                "label_index": "@P38728@\\*4",
                 "label_korean": "휠4의 기준 압력",
                 "group_id": "86100",
                 "req_frame_id": "258601",
@@ -1997,13 +1997,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "4",
-                "help_code": "39356",
+                "help_code": "@P39356",
                 "help_korean": "계기판에서 타이어 공기압 감지 기능의 재초기화 당시에 저장된 값"
             },
             {
                 "position": 15,
                 "mnemonic": "MP_PRESSION_DE_REFERENCE_ROUE_5",
-                "label_index": "38728",
+                "label_index": "@P38728@\\*5",
                 "label_korean": "휠5의 기준 압력",
                 "group_id": "86100",
                 "req_frame_id": "258601",
@@ -2019,13 +2019,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "5",
-                "help_code": "28491, 39356",
+                "help_code": "@P28491@\\n@P39356",
                 "help_korean": "차량 장치에 따라\n계기판에서 타이어 공기압 감지 기능의 재초기화 당시에 저장된 값"
             },
             {
                 "position": 16,
                 "mnemonic": "MP_TEMPERATURE_DE_REFERENCE_ROUE_1",
-                "label_index": "38729",
+                "label_index": "@P38729@\\*1",
                 "label_korean": "휠1의 기준 온도",
                 "group_id": "86100",
                 "req_frame_id": "258601",
@@ -2041,13 +2041,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "1",
-                "help_code": "39356",
+                "help_code": "@P39356",
                 "help_korean": "계기판에서 타이어 공기압 감지 기능의 재초기화 당시에 저장된 값"
             },
             {
                 "position": 17,
                 "mnemonic": "MP_TEMPERATURE_DE_REFERENCE_ROUE_2",
-                "label_index": "38729",
+                "label_index": "@P38729@\\*2",
                 "label_korean": "휠2의 기준 온도",
                 "group_id": "86100",
                 "req_frame_id": "258601",
@@ -2063,13 +2063,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "2",
-                "help_code": "39356",
+                "help_code": "@P39356",
                 "help_korean": "계기판에서 타이어 공기압 감지 기능의 재초기화 당시에 저장된 값"
             },
             {
                 "position": 18,
                 "mnemonic": "MP_TEMPERATURE_DE_REFERENCE_ROUE_3",
-                "label_index": "38729",
+                "label_index": "@P38729@\\*3",
                 "label_korean": "휠3의 기준 온도",
                 "group_id": "86100",
                 "req_frame_id": "258601",
@@ -2085,13 +2085,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "3",
-                "help_code": "39356",
+                "help_code": "@P39356",
                 "help_korean": "계기판에서 타이어 공기압 감지 기능의 재초기화 당시에 저장된 값"
             },
             {
                 "position": 19,
                 "mnemonic": "MP_TEMPERATURE_DE_REFERENCE_ROUE_4",
-                "label_index": "38729",
+                "label_index": "@P38729@\\*4",
                 "label_korean": "휠4의 기준 온도",
                 "group_id": "86100",
                 "req_frame_id": "258601",
@@ -2107,13 +2107,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "4",
-                "help_code": "39356",
+                "help_code": "@P39356",
                 "help_korean": "계기판에서 타이어 공기압 감지 기능의 재초기화 당시에 저장된 값"
             },
             {
                 "position": 20,
                 "mnemonic": "MP_TEMPERATURE_DE_REFERENCE_ROUE_5",
-                "label_index": "38729",
+                "label_index": "@P38729@\\*5",
                 "label_korean": "휠5의 기준 온도",
                 "group_id": "86100",
                 "req_frame_id": "258601",
@@ -2129,7 +2129,7 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "5",
-                "help_code": "28491, 39356",
+                "help_code": "@P28491@\\n@P39356",
                 "help_korean": "차량 장치에 따라\n계기판에서 타이어 공기압 감지 기능의 재초기화 당시에 저장된 값"
             }
         ]
@@ -2143,7 +2143,7 @@
             {
                 "position": 1,
                 "mnemonic": "S3S4_BSI_MP_055",
-                "label_index": "18263",
+                "label_index": "@P18263@T (12)",
                 "label_korean": "배터리 전압 (12)",
                 "group_id": "86097",
                 "req_frame_id": "258592",
@@ -2165,7 +2165,7 @@
             {
                 "position": 2,
                 "mnemonic": "S3S4_BSI_MP_029",
-                "label_index": "20973",
+                "label_index": "@P20973",
                 "label_korean": "ACC 위치에서 키",
                 "group_id": "86095",
                 "req_frame_id": "258586",
@@ -2189,7 +2189,7 @@
             {
                 "position": 3,
                 "mnemonic": "S3S4_BSI_MP_078",
-                "label_index": "28082",
+                "label_index": "@P28082",
                 "label_korean": "액세서리 전원 자동 차단",
                 "group_id": "86098",
                 "req_frame_id": "258595",
@@ -2211,7 +2211,7 @@
             {
                 "position": 4,
                 "mnemonic": "S3S4_BSI_MP_030",
-                "label_index": "20741",
+                "label_index": "@P20741",
                 "label_korean": "\"On\" 또는 \"Start\" 위치에서 키",
                 "group_id": "86095",
                 "req_frame_id": "258586",
@@ -2233,7 +2233,7 @@
             {
                 "position": 5,
                 "mnemonic": "S3S4_BSI_MP_044",
-                "label_index": "21072",
+                "label_index": "@P21072",
                 "label_korean": "\"On\" 위치에서 키",
                 "group_id": "86095",
                 "req_frame_id": "258586",
@@ -2255,7 +2255,7 @@
             {
                 "position": 6,
                 "mnemonic": "S3S4_BSI_MP_077",
-                "label_index": "20931",
+                "label_index": "@P20931",
                 "label_korean": "전동 윈도우 전원 릴레이 출력의 상태",
                 "group_id": "86098",
                 "req_frame_id": "258595",
@@ -2285,7 +2285,7 @@
             {
                 "position": 1,
                 "mnemonic": "S3S4_BSI_MP_022",
-                "label_index": "20798",
+                "label_index": "@P20798",
                 "label_korean": "도어 미러 접힘 및 펼침 버튼 상태",
                 "group_id": "86095",
                 "req_frame_id": "258586",
@@ -2307,7 +2307,7 @@
             {
                 "position": 2,
                 "mnemonic": "S3S4_BSI_MP_088",
-                "label_index": "5108",
+                "label_index": "@P5108",
                 "label_korean": "미러 펼침 제어",
                 "group_id": "86098",
                 "req_frame_id": "258595",
@@ -2329,7 +2329,7 @@
             {
                 "position": 3,
                 "mnemonic": "S3S4_BSI_MP_089",
-                "label_index": "12605",
+                "label_index": "@P12605",
                 "label_korean": "미러 접힘 제어",
                 "group_id": "86098",
                 "req_frame_id": "258595",
@@ -2351,7 +2351,7 @@
             {
                 "position": 4,
                 "mnemonic": "S3S4_BSI_MP_028",
-                "label_index": "20981",
+                "label_index": "@P20981",
                 "label_korean": "키 스위치의 상태",
                 "group_id": "86095",
                 "req_frame_id": "258586",
@@ -2373,7 +2373,7 @@
             {
                 "position": 5,
                 "mnemonic": "S3S4_BSI_MP_074",
-                "label_index": "41404",
+                "label_index": "@P41404",
                 "label_korean": "경고음",
                 "group_id": "86098",
                 "req_frame_id": "258595",
@@ -2395,7 +2395,7 @@
             {
                 "position": 6,
                 "mnemonic": "S3S4_BSI_MP_081",
-                "label_index": "20746",
+                "label_index": "@P20746",
                 "label_korean": "기어 레버 위치",
                 "group_id": "86098",
                 "req_frame_id": "258595",
@@ -2417,7 +2417,7 @@
             {
                 "position": 7,
                 "mnemonic": "S3S4_BSI_MP_045",
-                "label_index": "20807",
+                "label_index": "@P20807",
                 "label_korean": "후진 기어 위치에서 기어 레버",
                 "group_id": "86095",
                 "req_frame_id": "258586",
@@ -2439,7 +2439,7 @@
             {
                 "position": 8,
                 "mnemonic": "S3S4_BSI_MP_058",
-                "label_index": "7997",
+                "label_index": "@P7997",
                 "label_korean": "차량 속도",
                 "group_id": "86097",
                 "req_frame_id": "258592",
@@ -2461,7 +2461,7 @@
             {
                 "position": 9,
                 "mnemonic": "S3S4_BSI_MP_050",
-                "label_index": "2529",
+                "label_index": "@P2529",
                 "label_korean": "운전석 시트 벨트 상태",
                 "group_id": "86095",
                 "req_frame_id": "258586",
@@ -2483,7 +2483,7 @@
             {
                 "position": 10,
                 "mnemonic": "S3S4_BSI_MP_051",
-                "label_index": "3941",
+                "label_index": "@P3941",
                 "label_korean": "승객석 시트 벨트의 상태",
                 "group_id": "86095",
                 "req_frame_id": "258586",
@@ -2513,7 +2513,7 @@
             {
                 "position": 1,
                 "mnemonic": "S3S4_BSI_MP_022",
-                "label_index": "20798",
+                "label_index": "@P20798",
                 "label_korean": "도어 미러 접힘 및 펼침 버튼 상태",
                 "group_id": "86095",
                 "req_frame_id": "258586",
@@ -2535,7 +2535,7 @@
             {
                 "position": 2,
                 "mnemonic": "S3S4_BSI_MP_088",
-                "label_index": "5108",
+                "label_index": "@P5108",
                 "label_korean": "미러 펼침 제어",
                 "group_id": "86098",
                 "req_frame_id": "258595",
@@ -2557,7 +2557,7 @@
             {
                 "position": 3,
                 "mnemonic": "S3S4_BSI_MP_089",
-                "label_index": "12605",
+                "label_index": "@P12605",
                 "label_korean": "미러 접힘 제어",
                 "group_id": "86098",
                 "req_frame_id": "258595",
@@ -2579,7 +2579,7 @@
             {
                 "position": 4,
                 "mnemonic": "S3S4_BSI_MP_028",
-                "label_index": "20981",
+                "label_index": "@P20981",
                 "label_korean": "키 스위치의 상태",
                 "group_id": "86095",
                 "req_frame_id": "258586",
@@ -2601,7 +2601,7 @@
             {
                 "position": 5,
                 "mnemonic": "S3S4_BSI_MP_074",
-                "label_index": "41404",
+                "label_index": "@P41404",
                 "label_korean": "경고음",
                 "group_id": "86098",
                 "req_frame_id": "258595",
@@ -2623,7 +2623,7 @@
             {
                 "position": 6,
                 "mnemonic": "S3S4_BSI_MP_081",
-                "label_index": "20746",
+                "label_index": "@P20746",
                 "label_korean": "기어 레버 위치",
                 "group_id": "86098",
                 "req_frame_id": "258595",
@@ -2645,7 +2645,7 @@
             {
                 "position": 7,
                 "mnemonic": "S3S4_BSI_MP_058",
-                "label_index": "7997",
+                "label_index": "@P7997",
                 "label_korean": "차량 속도",
                 "group_id": "86097",
                 "req_frame_id": "258592",
@@ -2667,7 +2667,7 @@
             {
                 "position": 8,
                 "mnemonic": "S3S4_BSI_MP_050",
-                "label_index": "2529",
+                "label_index": "@P2529",
                 "label_korean": "운전석 시트 벨트 상태",
                 "group_id": "86095",
                 "req_frame_id": "258586",
@@ -2689,7 +2689,7 @@
             {
                 "position": 9,
                 "mnemonic": "S3S4_BSI_MP_051",
-                "label_index": "3941",
+                "label_index": "@P3941",
                 "label_korean": "승객석 시트 벨트의 상태",
                 "group_id": "86095",
                 "req_frame_id": "258586",
@@ -2719,7 +2719,7 @@
             {
                 "position": 1,
                 "mnemonic": "S3S4_BSI_MP_072",
-                "label_index": "44255",
+                "label_index": "@P44255",
                 "label_korean": "실내등 점등 스위치",
                 "group_id": "86098",
                 "req_frame_id": "258595",
@@ -2741,7 +2741,7 @@
             {
                 "position": 2,
                 "mnemonic": "S3S4_BSI_MP_076",
-                "label_index": "20609",
+                "label_index": "@P20609",
                 "label_korean": "계기판 및 스위치 점등",
                 "group_id": "86098",
                 "req_frame_id": "258595",
@@ -2771,7 +2771,7 @@
             {
                 "position": 1,
                 "mnemonic": "S3S4_BSI_MP_059",
-                "label_index": "16284",
+                "label_index": "@P16284",
                 "label_korean": "리어 미등 제어",
                 "group_id": "86098",
                 "req_frame_id": "258595",
@@ -2793,7 +2793,7 @@
             {
                 "position": 2,
                 "mnemonic": "S3S4_BSI_MP_060",
-                "label_index": "9461",
+                "label_index": "@P9461",
                 "label_korean": "전조등 하향에서 점검",
                 "group_id": "86098",
                 "req_frame_id": "258595",
@@ -2815,7 +2815,7 @@
             {
                 "position": 3,
                 "mnemonic": "S3S4_BSI_MP_104",
-                "label_index": "20995",
+                "label_index": "@P20995",
                 "label_korean": "밝기 센서에 의해 제공되는 신호",
                 "group_id": "86096",
                 "req_frame_id": "258589",
@@ -2837,7 +2837,7 @@
             {
                 "position": 4,
                 "mnemonic": "S3S4_BSI_MP_061",
-                "label_index": "7601",
+                "label_index": "@P7601",
                 "label_korean": "메인 빔 라이트를 점검한다",
                 "group_id": "86098",
                 "req_frame_id": "258595",
@@ -2859,7 +2859,7 @@
             {
                 "position": 5,
                 "mnemonic": "S3S4_BSI_MP_107",
-                "label_index": "20630",
+                "label_index": "@P20630",
                 "label_korean": "주간 전조등 제어",
                 "group_id": "86098",
                 "req_frame_id": "258595",
@@ -2881,7 +2881,7 @@
             {
                 "position": 6,
                 "mnemonic": "S3S4_BSI_MP_056",
-                "label_index": "20748",
+                "label_index": "@P20748",
                 "label_korean": "가이드-미-홈 라이트 시간",
                 "group_id": "86096",
                 "req_frame_id": "258589",
@@ -2903,7 +2903,7 @@
             {
                 "position": 7,
                 "mnemonic": "S3S4_BSI_MP_070",
-                "label_index": "7943",
+                "label_index": "@P7943",
                 "label_korean": "안개등 제어",
                 "group_id": "86098",
                 "req_frame_id": "258595",
@@ -2925,7 +2925,7 @@
             {
                 "position": 8,
                 "mnemonic": "S3S4_BSI_MP_071",
-                "label_index": "2857",
+                "label_index": "@P2857",
                 "label_korean": "리어 안개등 제어",
                 "group_id": "86098",
                 "req_frame_id": "258595",
@@ -2955,7 +2955,7 @@
             {
                 "position": 1,
                 "mnemonic": "S3S4_BSI_MP_026",
-                "label_index": "5368",
+                "label_index": "@P5368",
                 "label_korean": "비상등 요청",
                 "group_id": "86095",
                 "req_frame_id": "258586",
@@ -2977,7 +2977,7 @@
             {
                 "position": 2,
                 "mnemonic": "S3S4_BSI_MP_062",
-                "label_index": "44256",
+                "label_index": "@F44256",
                 "label_korean": "좌측 방향 지시등 스위치",
                 "group_id": "86098",
                 "req_frame_id": "258595",
@@ -2999,7 +2999,7 @@
             {
                 "position": 3,
                 "mnemonic": "S3S4_BSI_MP_063",
-                "label_index": "44257",
+                "label_index": "@F44257",
                 "label_korean": "우측 방향 지시등 스위치",
                 "group_id": "86098",
                 "req_frame_id": "258595",
@@ -3021,7 +3021,7 @@
             {
                 "position": 4,
                 "mnemonic": "S3S4_BSI_MP_073",
-                "label_index": "8227",
+                "label_index": "@P8227",
                 "label_korean": "혼 제어",
                 "group_id": "86098",
                 "req_frame_id": "258595",
@@ -3051,7 +3051,7 @@
             {
                 "position": 1,
                 "mnemonic": "S3S4_BSI_MP_001",
-                "label_index": "20686",
+                "label_index": "@P20686",
                 "label_korean": "프로그램된 키의 수",
                 "group_id": "86110",
                 "req_frame_id": "258631",
@@ -3073,7 +3073,7 @@
             {
                 "position": 2,
                 "mnemonic": "S3S4_BSI_MP_068",
-                "label_index": "21016",
+                "label_index": "@P21016",
                 "label_korean": "도어 잠금 릴레이 제어",
                 "group_id": "86098",
                 "req_frame_id": "258595",
@@ -3095,7 +3095,7 @@
             {
                 "position": 3,
                 "mnemonic": "S3S4_BSI_MP_069",
-                "label_index": "20946",
+                "label_index": "@P20946",
                 "label_korean": "도어 잠금해제 릴레이의 제어",
                 "group_id": "86098",
                 "req_frame_id": "258595",
@@ -3117,7 +3117,7 @@
             {
                 "position": 4,
                 "mnemonic": "S3S4_BSI_MP_101",
-                "label_index": "30224",
+                "label_index": "@P30224",
                 "label_korean": "운전석 도어 잠금해제 키 스위치의 상태",
                 "group_id": "86095",
                 "req_frame_id": "258586",
@@ -3139,7 +3139,7 @@
             {
                 "position": 5,
                 "mnemonic": "S3S4_BSI_MP_020",
-                "label_index": "12126",
+                "label_index": "@P12126",
                 "label_korean": "운전석 도어의 잠금 해제 상태",
                 "group_id": "86095",
                 "req_frame_id": "258586",
@@ -3161,7 +3161,7 @@
             {
                 "position": 6,
                 "mnemonic": "S3S4_BSI_MP_021",
-                "label_index": "30222",
+                "label_index": "@P30222",
                 "label_korean": "운전석 도어 잠금 장치 잠금 상태",
                 "group_id": "86095",
                 "req_frame_id": "258586",
@@ -3183,7 +3183,7 @@
             {
                 "position": 7,
                 "mnemonic": "S3S4_BSI_MP_019",
-                "label_index": "8257",
+                "label_index": "@P8257",
                 "label_korean": "운전석 도어 상태",
                 "group_id": "86095",
                 "req_frame_id": "258586",
@@ -3205,7 +3205,7 @@
             {
                 "position": 8,
                 "mnemonic": "S3S4_BSI_MP_048",
-                "label_index": "106",
+                "label_index": "@P106",
                 "label_korean": "승객석 도어 상태",
                 "group_id": "86095",
                 "req_frame_id": "258586",
@@ -3227,7 +3227,7 @@
             {
                 "position": 9,
                 "mnemonic": "S3S4_BSI_MP_049",
-                "label_index": "20800",
+                "label_index": "@P20800",
                 "label_korean": "트렁크 또는 리어 도어의 상태",
                 "group_id": "86095",
                 "req_frame_id": "258586",
@@ -3249,7 +3249,7 @@
             {
                 "position": 10,
                 "mnemonic": "S3S4_BSI_MP_052",
-                "label_index": "21056",
+                "label_index": "@P21056",
                 "label_korean": "트렁크 열림 스위치의 상태",
                 "group_id": "86095",
                 "req_frame_id": "258586",
@@ -3271,7 +3271,7 @@
             {
                 "position": 11,
                 "mnemonic": "S3S4_BSI_MP_087",
-                "label_index": "14255",
+                "label_index": "@P14255",
                 "label_korean": "트렁크 열림 명령",
                 "group_id": "86098",
                 "req_frame_id": "258595",
@@ -3293,7 +3293,7 @@
             {
                 "position": 12,
                 "mnemonic": "S3S4_BSI_MP_080",
-                "label_index": "40455",
+                "label_index": "@P40455",
                 "label_korean": "도어 상태 등",
                 "group_id": "86098",
                 "req_frame_id": "258595",
@@ -3323,7 +3323,7 @@
             {
                 "position": 1,
                 "mnemonic": "S3S4_BSI_MP_001",
-                "label_index": "20686",
+                "label_index": "@P20686",
                 "label_korean": "프로그램된 키의 수",
                 "group_id": "86110",
                 "req_frame_id": "258631",
@@ -3345,7 +3345,7 @@
             {
                 "position": 2,
                 "mnemonic": "S3S4_BSI_MP_068",
-                "label_index": "21016",
+                "label_index": "@P21016",
                 "label_korean": "도어 잠금 릴레이 제어",
                 "group_id": "86098",
                 "req_frame_id": "258595",
@@ -3367,7 +3367,7 @@
             {
                 "position": 3,
                 "mnemonic": "S3S4_BSI_MP_069",
-                "label_index": "20946",
+                "label_index": "@P20946",
                 "label_korean": "도어 잠금해제 릴레이의 제어",
                 "group_id": "86098",
                 "req_frame_id": "258595",
@@ -3389,7 +3389,7 @@
             {
                 "position": 4,
                 "mnemonic": "S3S4_BSI_MP_020",
-                "label_index": "12126",
+                "label_index": "@P12126",
                 "label_korean": "운전석 도어의 잠금 해제 상태",
                 "group_id": "86095",
                 "req_frame_id": "258586",
@@ -3411,7 +3411,7 @@
             {
                 "position": 5,
                 "mnemonic": "S3S4_BSI_MP_021",
-                "label_index": "30222",
+                "label_index": "@P30222",
                 "label_korean": "운전석 도어 잠금 장치 잠금 상태",
                 "group_id": "86095",
                 "req_frame_id": "258586",
@@ -3433,7 +3433,7 @@
             {
                 "position": 6,
                 "mnemonic": "S3S4_BSI_MP_019",
-                "label_index": "8257",
+                "label_index": "@P8257",
                 "label_korean": "운전석 도어 상태",
                 "group_id": "86095",
                 "req_frame_id": "258586",
@@ -3455,7 +3455,7 @@
             {
                 "position": 7,
                 "mnemonic": "S3S4_BSI_MP_048",
-                "label_index": "106",
+                "label_index": "@P106",
                 "label_korean": "승객석 도어 상태",
                 "group_id": "86095",
                 "req_frame_id": "258586",
@@ -3477,7 +3477,7 @@
             {
                 "position": 8,
                 "mnemonic": "S3S4_BSI_MP_049",
-                "label_index": "20800",
+                "label_index": "@P20800",
                 "label_korean": "트렁크 또는 리어 도어의 상태",
                 "group_id": "86095",
                 "req_frame_id": "258586",
@@ -3499,7 +3499,7 @@
             {
                 "position": 9,
                 "mnemonic": "S3S4_BSI_MP_052",
-                "label_index": "21056",
+                "label_index": "@P21056",
                 "label_korean": "트렁크 열림 스위치의 상태",
                 "group_id": "86095",
                 "req_frame_id": "258586",
@@ -3521,7 +3521,7 @@
             {
                 "position": 10,
                 "mnemonic": "S3S4_BSI_MP_087",
-                "label_index": "14255",
+                "label_index": "@P14255",
                 "label_korean": "트렁크 열림 명령",
                 "group_id": "86098",
                 "req_frame_id": "258595",
@@ -3551,7 +3551,7 @@
             {
                 "position": 1,
                 "mnemonic": "S3S4_BSI_MP_065",
-                "label_index": "20725",
+                "label_index": "@P20725",
                 "label_korean": "저속 윈드스크린 와이퍼 작동 제어",
                 "group_id": "86098",
                 "req_frame_id": "258595",
@@ -3573,7 +3573,7 @@
             {
                 "position": 2,
                 "mnemonic": "S3S4_BSI_MP_066",
-                "label_index": "20528",
+                "label_index": "@P20528",
                 "label_korean": "고속 윈드스크린 와이퍼 작동 제어",
                 "group_id": "86098",
                 "req_frame_id": "258595",
@@ -3595,7 +3595,7 @@
             {
                 "position": 3,
                 "mnemonic": "S3S4_BSI_MP_086",
-                "label_index": "8699",
+                "label_index": "@P8699",
                 "label_korean": "간헐적인 모드에서 윈드스크린 와이퍼 간헐적인 작동",
                 "group_id": "86096",
                 "req_frame_id": "258589",
@@ -3617,7 +3617,7 @@
             {
                 "position": 4,
                 "mnemonic": "S3S4_BSI_MP_084",
-                "label_index": "17938",
+                "label_index": "@P17938",
                 "label_korean": "리어 스크린 와이퍼 제어",
                 "group_id": "86098",
                 "req_frame_id": "258595",
@@ -3639,7 +3639,7 @@
             {
                 "position": 5,
                 "mnemonic": "S3S4_BSI_MP_025",
-                "label_index": "16164",
+                "label_index": "@P16164",
                 "label_korean": "프론트 윈드스크린 와이퍼 파크 정보",
                 "group_id": "86095",
                 "req_frame_id": "258586",
@@ -3661,7 +3661,7 @@
             {
                 "position": 6,
                 "mnemonic": "S3S4_BSI_MP_027",
-                "label_index": "12367",
+                "label_index": "@P12367",
                 "label_korean": "리어 윈드스크린 와이퍼 파크 정보",
                 "group_id": "86095",
                 "req_frame_id": "258586",
@@ -3691,7 +3691,7 @@
             {
                 "position": 1,
                 "mnemonic": "S3S4_BSI_MP_067",
-                "label_index": "3116",
+                "label_index": "@P3116",
                 "label_korean": "윈드스크린 와셔 작동 제어",
                 "group_id": "86098",
                 "req_frame_id": "258595",
@@ -3713,7 +3713,7 @@
             {
                 "position": 2,
                 "mnemonic": "S3S4_BSI_MP_083",
-                "label_index": "13060",
+                "label_index": "@P13060",
                 "label_korean": "리어 스크린 와셔 작동 제어",
                 "group_id": "86098",
                 "req_frame_id": "258595",
@@ -3735,7 +3735,7 @@
             {
                 "position": 3,
                 "mnemonic": "S3S4_BSI_MP_103",
-                "label_index": "20852",
+                "label_index": "@P20852",
                 "label_korean": "리어 서리 제거 요청",
                 "group_id": "86095",
                 "req_frame_id": "258586",
@@ -3757,7 +3757,7 @@
             {
                 "position": 4,
                 "mnemonic": "S3S4_BSI_MP_106",
-                "label_index": "20758",
+                "label_index": "@P20758",
                 "label_korean": "리어 서리 제거 제어",
                 "group_id": "86098",
                 "req_frame_id": "258595",
@@ -3787,7 +3787,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_NOMBRE_MODULES_EMETTEURS_DE_ROUE_APPRIS",
-                "label_index": "38720",
+                "label_index": "@P38720",
                 "label_korean": "프로그램된 휠 공기압 센서의 수",
                 "group_id": "86099",
                 "req_frame_id": "258598",
@@ -3803,13 +3803,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "39326",
+                "help_code": "@P39326",
                 "help_korean": "이 변수는 계기판에서 선택된 세트에서 프로그램된 휠 공기압 센서의 수를 나타낸다"
             },
             {
                 "position": 2,
                 "mnemonic": "MP_ETAT_CONTACT_INFO_FILAIRE",
-                "label_index": "28376",
+                "label_index": "@P28376@T (@P19238@T)",
                 "label_korean": "스위치의 상태 (배선 정보)",
                 "group_id": "86100",
                 "req_frame_id": "258601",
@@ -3834,7 +3834,7 @@
             {
                 "position": 3,
                 "mnemonic": "MP_ETAT_CONTACT_INFO_MUX",
-                "label_index": "28376",
+                "label_index": "@P28376@T (@P19390@T)",
                 "label_korean": "스위치의 상태 (멀티플렉스 정보)",
                 "group_id": "86100",
                 "req_frame_id": "258601",
@@ -3859,7 +3859,7 @@
             {
                 "position": 4,
                 "mnemonic": "MP_VITESSE_VEHICULE",
-                "label_index": "9267",
+                "label_index": "@P9267",
                 "label_korean": "차량 속도",
                 "group_id": "86100",
                 "req_frame_id": "258601",
@@ -3885,7 +3885,7 @@
             {
                 "position": 5,
                 "mnemonic": "MP_TEMP_AIR_EXT",
-                "label_index": "5253",
+                "label_index": "@P5253",
                 "label_korean": "외부 온도",
                 "group_id": "86100",
                 "req_frame_id": "258601",
@@ -3901,13 +3901,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "39468",
+                "help_code": "@P39468",
                 "help_korean": "표시된 값은 필터링된 값이다"
             },
             {
                 "position": 6,
                 "mnemonic": "MP_TEMPERATURE_AIR_EXT_MINIMUM",
-                "label_index": "38723",
+                "label_index": "@P38723",
                 "label_korean": "최소 외부 온도",
                 "group_id": "86100",
                 "req_frame_id": "258601",
@@ -3923,13 +3923,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "38721",
+                "help_code": "@P38721",
                 "help_korean": "기능 재초기화 이후 값"
             },
             {
                 "position": 7,
                 "mnemonic": "MP_TEMPERATURE_MINI_DE_CORRECTION",
-                "label_index": "38724",
+                "label_index": "@P38724",
                 "label_korean": "최소 보정 온도",
                 "group_id": "86100",
                 "req_frame_id": "258601",
@@ -3959,7 +3959,7 @@
             {
                 "position": 1,
                 "mnemonic": "CA_KM_APPARITION",
-                "label_index": "10972",
+                "label_index": "@P10972",
                 "label_korean": "결함이 발생한 이후 주행한 거리",
                 "group_id": "86125",
                 "req_frame_id": "258676",
@@ -3981,7 +3981,7 @@
             {
                 "position": 2,
                 "mnemonic": "CA_TEMPS_ACCUMULE_DEPUIS_DEFAUT_PERMANENT",
-                "label_index": "13110",
+                "label_index": "@P13110",
                 "label_korean": "결함이 영구적으로 된 이후부터 누적된 시간",
                 "group_id": "86125",
                 "req_frame_id": "258676",
@@ -4003,7 +4003,7 @@
             {
                 "position": 3,
                 "mnemonic": "CA_NB_DE_COUPURE_DU_CONTACT_DEPUIS_DISPARITION_DU_DEFAUT",
-                "label_index": "2632",
+                "label_index": "@P2632",
                 "label_korean": "결함이 사라진 후 키를 ON한 횟수",
                 "group_id": "86125",
                 "req_frame_id": "258676",
@@ -4025,7 +4025,7 @@
             {
                 "position": 4,
                 "mnemonic": "CA_TEMPS_ECOULE_DEPUIS_PREMIERE_APPARITION_DU_DEFAUT",
-                "label_index": "13240",
+                "label_index": "@P13240",
                 "label_korean": "첫번째 결함이 발생한 이후 경과된 시간",
                 "group_id": "86125",
                 "req_frame_id": "258676",

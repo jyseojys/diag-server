@@ -8,7 +8,7 @@
             {
                 "position": 1,
                 "mnemonic": "ID_NOM_DU_FOURNISSEUR",
-                "label_index": "5701",
+                "label_index": "@P5701",
                 "label_korean": "제조 업체명",
                 "group_id": "34969",
                 "req_frame_id": "105204",
@@ -38,7 +38,7 @@
             {
                 "position": 2,
                 "mnemonic": "ID_REFERENCE_MATERIEL",
-                "label_index": "1071",
+                "label_index": "@P1071",
                 "label_korean": "장치 부품 번호",
                 "group_id": "34969",
                 "req_frame_id": "105204",
@@ -60,7 +60,7 @@
             {
                 "position": 3,
                 "mnemonic": "ID_REFERENCE_COMPLEMENTAIRE_MATERIEL",
-                "label_index": "1634",
+                "label_index": "@P1634",
                 "label_korean": "장치 추가 참조 번호",
                 "group_id": "34969",
                 "req_frame_id": "105204",
@@ -82,7 +82,7 @@
             {
                 "position": 4,
                 "mnemonic": "ID_ZI_FILE",
-                "label_index": "3627",
+                "label_index": "@P3627@\\*",
                 "label_korean": "캘리브레이션 파일 번호",
                 "group_id": "34970",
                 "req_frame_id": "105207",
@@ -104,7 +104,7 @@
             {
                 "position": 5,
                 "mnemonic": "ID_TRACABILITE_INDICE_EVOLUTION_EDITION_CALIBRATION",
-                "label_index": "7413",
+                "label_index": "@P7413",
                 "label_korean": "캘리브레이션 에디션",
                 "group_id": "34970",
                 "req_frame_id": "105207",
@@ -126,7 +126,7 @@
             {
                 "position": 6,
                 "mnemonic": "ID_TRACABILITE_INDICE_EVOLUTION_EDITION",
-                "label_index": "13235",
+                "label_index": "@P13235@\\*",
                 "label_korean": "소프트웨어 버전",
                 "group_id": "34969",
                 "req_frame_id": "105204",
@@ -148,7 +148,7 @@
             {
                 "position": 7,
                 "mnemonic": "ID_DATE_TELECH",
-                "label_index": "21670",
+                "label_index": "@P21670",
                 "label_korean": "다운로딩 날짜",
                 "group_id": "34970",
                 "req_frame_id": "105207",
@@ -170,7 +170,7 @@
             {
                 "position": 8,
                 "mnemonic": "ID_NOMBRE_DE_TELECHARGEMENT",
-                "label_index": "10072",
+                "label_index": "@P10072@\\*",
                 "label_korean": "다운로드의 수",
                 "group_id": "34970",
                 "req_frame_id": "105207",
@@ -200,7 +200,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_LUM_AMBI",
-                "label_index": "21617",
+                "label_index": "@P21617",
                 "label_korean": "앰비언트 라이트의 세기",
                 "group_id": "34973",
                 "req_frame_id": "105216",
@@ -222,7 +222,7 @@
             {
                 "position": 2,
                 "mnemonic": "MP_LUM_FRONT",
-                "label_index": "21770",
+                "label_index": "@P21770",
                 "label_korean": "프론트로 라이트의 세기",
                 "group_id": "34973",
                 "req_frame_id": "105216",
@@ -244,7 +244,7 @@
             {
                 "position": 3,
                 "mnemonic": "MP_VOLUME_PLUIE_MESUREE_CELLULE_1",
-                "label_index": "21782",
+                "label_index": "@P21782@\\*1",
                 "label_korean": "셀1에 의해서 측정된 강우량",
                 "group_id": "34973",
                 "req_frame_id": "105216",
@@ -266,7 +266,7 @@
             {
                 "position": 4,
                 "mnemonic": "MP_VOLUME_PLUIE_MESUREE_CELLULE_2",
-                "label_index": "21782",
+                "label_index": "@P21782@\\*2",
                 "label_korean": "셀2에 의해서 측정된 강우량",
                 "group_id": "34973",
                 "req_frame_id": "105216",
@@ -288,7 +288,7 @@
             {
                 "position": 5,
                 "mnemonic": "MP_VOLUME_PLUIE_MESUREE_CELLULE_3",
-                "label_index": "21782",
+                "label_index": "@P21782@\\*3",
                 "label_korean": "셀3에 의해서 측정된 강우량",
                 "group_id": "34973",
                 "req_frame_id": "105216",
@@ -310,7 +310,7 @@
             {
                 "position": 6,
                 "mnemonic": "MP_ETAT_ESSUYAGE",
-                "label_index": "22037",
+                "label_index": "@P22037",
                 "label_korean": "와이퍼 작동 상태",
                 "group_id": "34974",
                 "req_frame_id": "105219",
@@ -331,13 +331,13 @@
                 "bit_mask": 96,
                 "bit_shift": 5,
                 "dynamic_arg": "",
-                "help_code": "47192, 34759, 1069, 47149, 47151, 47152",
-                "help_korean": "이 변수는 레인 및 밝기 센서가 전송한 윈드스크린 와이퍼 기준값을 표시한다\n\"와이핑 상태\" 변수의 상태가 \"OFF\"이면, \"와이핑 속도\"\n- 변수의 상태를 고려하지 않는다\n경고 : 다음 조건이\n- 충족될 때 윈드스크린 와이퍼 작동 상태가 변경된다 :\n- 윈드스크린 와이퍼 스톡이 자동 감지 모드에 위치해 있다\n- 윈드스크린에 분사한다"
+                "help_code": "@P47192@\\n@P34759@\\n@F1069@T : @P47149@T :@\\n@T- @F47151@\\n@T- @F47152",
+                "help_korean": "이 변수는 레인 및 밝기 센서가 전송한 윈드스크린 와이퍼 기준값을 표시한다\n\"와이핑 상태\" 변수의 상태가 \"OFF\"이면, \"와이핑 속도\" 변수의 상태를 고려하지 않는다\n경고 : 다음 조건이 충족될 때 윈드스크린 와이퍼 작동 상태가 변경된다 :\n- 윈드스크린 와이퍼 스톡이 자동 감지 모드에 위치해 있다\n- 윈드스크린에 분사한다"
             },
             {
                 "position": 7,
                 "mnemonic": "MP_VITESSE_BALAYAGE",
-                "label_index": "22089",
+                "label_index": "@P22089",
                 "label_korean": "와이퍼 작동 속도",
                 "group_id": "34974",
                 "req_frame_id": "105219",
@@ -373,8 +373,8 @@
                 "bit_mask": 30,
                 "bit_shift": 1,
                 "dynamic_arg": "",
-                "help_code": "47192, 20966, 1069, 47150, 47151, 47152",
-                "help_korean": "이 변수는 레인 및 밝기 센서가 전송한 윈드스크린 와이퍼\n- 기준값을 표시한다\n속도15는 빠른 속도에 해당된다\n경고 : 다음 조건이\n- 충족될 때 윈드스크린 와이퍼 작동 속도가 변경된다 :\n- 윈드스크린 와이퍼 스톡이 자동 감지 모드에 위치해 있다\n- 윈드스크린에 분사한다"
+                "help_code": "@P47192@\\n@P20966@\\*15@\\n@F1069@T : @P47150@T :@\\n@T- @F47151@\\n@T- @F47152",
+                "help_korean": "이 변수는 레인 및 밝기 센서가 전송한 윈드스크린 와이퍼 기준값을 표시한다\n속도15는 빠른 속도에 해당된다\n경고 : 다음 조건이 충족될 때 윈드스크린 와이퍼 작동 속도가 변경된다 :\n- 윈드스크린 와이퍼 스톡이 자동 감지 모드에 위치해 있다\n- 윈드스크린에 분사한다"
             }
         ]
     }

@@ -8,7 +8,7 @@
             {
                 "position": 1,
                 "mnemonic": "ID_NOM_DU_FOURNISSEUR",
-                "label_index": "5701",
+                "label_index": "@P5701",
                 "label_korean": "제조 업체명",
                 "group_id": "43847",
                 "req_frame_id": "131840",
@@ -38,7 +38,7 @@
             {
                 "position": 2,
                 "mnemonic": "S3S4_DCDC_ID_2",
-                "label_index": "9463",
+                "label_index": "@P9463",
                 "label_korean": "ECU 참조",
                 "group_id": "43847",
                 "req_frame_id": "131840",
@@ -60,7 +60,7 @@
             {
                 "position": 3,
                 "mnemonic": "ID_REFERENCE_LOGICIEL",
-                "label_index": "13263",
+                "label_index": "@P13263",
                 "label_korean": "소프트웨어 번호",
                 "group_id": "43849",
                 "req_frame_id": "131846",
@@ -82,7 +82,7 @@
             {
                 "position": 4,
                 "mnemonic": "ID_HARD",
-                "label_index": "12954",
+                "label_index": "@P12954",
                 "label_korean": "하드웨어 버전",
                 "group_id": "43847",
                 "req_frame_id": "131840",
@@ -104,7 +104,7 @@
             {
                 "position": 5,
                 "mnemonic": "ID_VERSION_DU_LOGICIEL",
-                "label_index": "8662",
+                "label_index": "@P8662",
                 "label_korean": "소프트웨어 버전",
                 "group_id": "43849",
                 "req_frame_id": "131846",
@@ -126,7 +126,7 @@
             {
                 "position": 6,
                 "mnemonic": "ID_INDICE_MESS_DIAGNOSTIC",
-                "label_index": "11894",
+                "label_index": "@P11894",
                 "label_korean": "진단 메시지 시스템 인덱스 (변경)",
                 "group_id": "43849",
                 "req_frame_id": "131846",
@@ -148,7 +148,7 @@
             {
                 "position": 7,
                 "mnemonic": "ID_DATE_TELECH",
-                "label_index": "21670",
+                "label_index": "@P21670",
                 "label_korean": "다운로딩 날짜",
                 "group_id": "43848",
                 "req_frame_id": "131843",
@@ -170,7 +170,7 @@
             {
                 "position": 8,
                 "mnemonic": "ID_NOMBRE_DE_TELECHARGEMENT",
-                "label_index": "24589",
+                "label_index": "@P24589",
                 "label_korean": "다운로드의 수",
                 "group_id": "43852",
                 "req_frame_id": "131855",
@@ -192,7 +192,7 @@
             {
                 "position": 9,
                 "mnemonic": "MP_NUM_SERIE",
-                "label_index": "12519",
+                "label_index": "@P12519@\\*",
                 "label_korean": "일련 번호",
                 "group_id": "43853",
                 "req_frame_id": "131858",
@@ -222,7 +222,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_COMPTEUR_DEMARRAGE_CONVERTISSEUR_DCDC",
-                "label_index": "32010",
+                "label_index": "@P32010",
                 "label_korean": "직류 전압 변압기 시동 카운터",
                 "group_id": "43850",
                 "req_frame_id": "131849",
@@ -238,13 +238,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "33034",
+                "help_code": "@P33034",
                 "help_korean": "이 읽기 작업은 키를 ON하고 진행한다"
             },
             {
                 "position": 2,
                 "mnemonic": "MP_DUREE_TOTALE_ACTIVATION_CONVERTISSEUR_DCDC",
-                "label_index": "32009",
+                "label_index": "@P32009",
                 "label_korean": "직류 전압 변압기 작동 총 시간",
                 "group_id": "43850",
                 "req_frame_id": "131849",
@@ -260,13 +260,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "33034",
+                "help_code": "@P33034",
                 "help_korean": "이 읽기 작업은 키를 ON하고 진행한다"
             },
             {
                 "position": 3,
                 "mnemonic": "MP_DUREE_ACTIVATION_CONVERTISSEUR_DCDC",
-                "label_index": "32008",
+                "label_index": "@P32008",
                 "label_korean": "직류 전압 변압기의 작동 시간",
                 "group_id": "43850",
                 "req_frame_id": "131849",
@@ -282,13 +282,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "33034",
+                "help_code": "@P33034",
                 "help_korean": "이 읽기 작업은 키를 ON하고 진행한다"
             },
             {
                 "position": 4,
                 "mnemonic": "MP_NOMBRE_ARRET_CONVERTISSEUR_TENSION_ERREUR",
-                "label_index": "32021",
+                "label_index": "@P32021",
                 "label_korean": "오류로 인한 직류 전압 변압기 차단 횟수",
                 "group_id": "43850",
                 "req_frame_id": "131849",
@@ -304,13 +304,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "33034",
+                "help_code": "@P33034",
                 "help_korean": "이 읽기 작업은 키를 ON하고 진행한다"
             },
             {
                 "position": 5,
                 "mnemonic": "MP_TENSION_ENTREE_CONVERTISSEUR_DCDC",
-                "label_index": "22389",
+                "label_index": "@P22389",
                 "label_korean": "입력에서 직류 전압 변환장치 (DC/DC)의 전압",
                 "group_id": "43851",
                 "req_frame_id": "131852",
@@ -326,13 +326,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "33035, 29983",
+                "help_code": "@P33035@\\n@F29983@\\*200@\\*370",
                 "help_korean": "이 읽기 작업은 키를 ON하고 \"준비\" 위치에서 진행한다\n전압은 200과 370V 사이어야 한다"
             },
             {
                 "position": 6,
                 "mnemonic": "MP_TENSION_SORTIE_CONVERTISSEUR_DCDC",
-                "label_index": "22425",
+                "label_index": "@P22425",
                 "label_korean": "출구에서 직류 전압 변환장치 (DC/DC)의 전압",
                 "group_id": "43851",
                 "req_frame_id": "131852",
@@ -348,13 +348,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "33035, 29983",
+                "help_code": "@P33035@\\n@F29983@\\*11@\\*16",
                 "help_korean": "이 읽기 작업은 키를 ON하고 \"준비\" 위치에서 진행한다\n전압은 11과 16V 사이어야 한다"
             },
             {
                 "position": 7,
                 "mnemonic": "MP_TEMPERATURE_CONVERTISSEUR_DCDC",
-                "label_index": "22360",
+                "label_index": "@P22360",
                 "label_korean": "직류 전압 변환장치 (DC/DC)의 온도",
                 "group_id": "43851",
                 "req_frame_id": "131852",
@@ -370,7 +370,7 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "33035, 33036",
+                "help_code": "@P33035@\\n@P33036@\\*85",
                 "help_korean": "이 읽기 작업은 키를 ON하고 \"준비\" 위치에서 진행한다\n정상적인 작동 중에, 온도가 85°C를 넘지 않아야 한다"
             }
         ]
@@ -384,7 +384,7 @@
             {
                 "position": 1,
                 "mnemonic": "CA_KILOMETRAGE",
-                "label_index": "7845",
+                "label_index": "@P7845",
                 "label_korean": "주행거리",
                 "group_id": "43894",
                 "req_frame_id": "131981",
@@ -408,7 +408,7 @@
             {
                 "position": 2,
                 "mnemonic": "CA_DUREE_DE_FONCTIONNEMENT",
-                "label_index": "7397",
+                "label_index": "@P7397",
                 "label_korean": "작동 시간",
                 "group_id": "43894",
                 "req_frame_id": "131981",
@@ -430,7 +430,7 @@
             {
                 "position": 3,
                 "mnemonic": "CA_NB_DE_CYCLES_DE_FONCTIONNEMENT",
-                "label_index": "3761",
+                "label_index": "@P3761",
                 "label_korean": "작동 사이클 수",
                 "group_id": "43894",
                 "req_frame_id": "131981",
@@ -452,7 +452,7 @@
             {
                 "position": 4,
                 "mnemonic": "CA_DUREE_ECOULEE",
-                "label_index": "20781",
+                "label_index": "@P20781",
                 "label_korean": "경과된 시간",
                 "group_id": "43894",
                 "req_frame_id": "131981",
@@ -474,7 +474,7 @@
             {
                 "position": 5,
                 "mnemonic": "CA_COMPTEUR_DEMARRAGE_CONVERTISSEUR_DCDC",
-                "label_index": "32010",
+                "label_index": "@P32010",
                 "label_korean": "직류 전압 변압기 시동 카운터",
                 "group_id": "43894",
                 "req_frame_id": "131981",
@@ -496,7 +496,7 @@
             {
                 "position": 6,
                 "mnemonic": "CA_DUREE_TOTALE_ACTIVATION_CONVERTISSEUR_DCDC",
-                "label_index": "32009",
+                "label_index": "@P32009",
                 "label_korean": "직류 전압 변압기 작동 총 시간",
                 "group_id": "43894",
                 "req_frame_id": "131981",
@@ -518,7 +518,7 @@
             {
                 "position": 7,
                 "mnemonic": "CA_DUREE_ACTIVATION_CONVERTISSEUR_DCDC",
-                "label_index": "32008",
+                "label_index": "@P32008",
                 "label_korean": "직류 전압 변압기의 작동 시간",
                 "group_id": "43894",
                 "req_frame_id": "131981",
@@ -540,7 +540,7 @@
             {
                 "position": 8,
                 "mnemonic": "CA_NOMBRE_ARRET_CONVERTISSEUR_ERREUR",
-                "label_index": "32021",
+                "label_index": "@P32021",
                 "label_korean": "오류로 인한 직류 전압 변압기 차단 횟수",
                 "group_id": "43894",
                 "req_frame_id": "131981",
@@ -562,7 +562,7 @@
             {
                 "position": 9,
                 "mnemonic": "CA_TENSION_ENTREE_CONVERTISSEUR_DCDC",
-                "label_index": "22389",
+                "label_index": "@P22389",
                 "label_korean": "입력에서 직류 전압 변환장치 (DC/DC)의 전압",
                 "group_id": "43894",
                 "req_frame_id": "131981",
@@ -584,7 +584,7 @@
             {
                 "position": 10,
                 "mnemonic": "CA_TENSION_ALIMENTATION_CONVERTISSEUR_DCDC",
-                "label_index": "33028",
+                "label_index": "@P33028",
                 "label_korean": "직류 전압 변압기 공급 전압",
                 "group_id": "43894",
                 "req_frame_id": "131981",
@@ -606,7 +606,7 @@
             {
                 "position": 11,
                 "mnemonic": "CA_TENSION_SORTIE_CONVERTISSEUR_DCDC",
-                "label_index": "22425",
+                "label_index": "@P22425",
                 "label_korean": "출구에서 직류 전압 변환장치 (DC/DC)의 전압",
                 "group_id": "43894",
                 "req_frame_id": "131981",
@@ -628,7 +628,7 @@
             {
                 "position": 12,
                 "mnemonic": "CA_COURANT_SORTIE_CONVERTISSEUR_DCDC",
-                "label_index": "31976",
+                "label_index": "@P31976",
                 "label_korean": "출구에서 직류 전압 변압기 전류",
                 "group_id": "43894",
                 "req_frame_id": "131981",
@@ -650,7 +650,7 @@
             {
                 "position": 13,
                 "mnemonic": "CA_TEMPERATURE_CONVERTISSEUR_DCDC",
-                "label_index": "22360",
+                "label_index": "@P22360",
                 "label_korean": "직류 전압 변환장치 (DC/DC)의 온도",
                 "group_id": "43894",
                 "req_frame_id": "131981",
@@ -672,7 +672,7 @@
             {
                 "position": 14,
                 "mnemonic": "CA_DEFAUT_CONVERTISSEUR_DCDC",
-                "label_index": "26143",
+                "label_index": "@P26143",
                 "label_korean": "직류 전압 변환장치 (DC/DC)에서 결함",
                 "group_id": "43894",
                 "req_frame_id": "131981",
@@ -697,7 +697,7 @@
             {
                 "position": 15,
                 "mnemonic": "CA_DEMANDE_REFROIDISSEMENT_CONVERTISSEUR_DCDC",
-                "label_index": "33033",
+                "label_index": "@P33033",
                 "label_korean": "직류 전압 변압기 냉각 요청",
                 "group_id": "43894",
                 "req_frame_id": "131981",

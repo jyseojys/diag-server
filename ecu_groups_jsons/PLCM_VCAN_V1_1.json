@@ -8,7 +8,7 @@
             {
                 "position": 1,
                 "mnemonic": "ID_REF_FOURNISSEUR",
-                "label_index": "633",
+                "label_index": "@P633",
                 "label_korean": "제조업체",
                 "group_id": "89459",
                 "req_frame_id": "268730",
@@ -30,7 +30,7 @@
             {
                 "position": 2,
                 "mnemonic": "ID_REF_PSA_new_2",
-                "label_index": "3565",
+                "label_index": "@P3565",
                 "label_korean": "하드웨어 번호",
                 "group_id": "89459",
                 "req_frame_id": "268730",
@@ -52,7 +52,7 @@
             {
                 "position": 3,
                 "mnemonic": "ID_NUM_COMP_new_3",
-                "label_index": "13910",
+                "label_index": "@P13910",
                 "label_korean": "작동 제품 참조",
                 "group_id": "89459",
                 "req_frame_id": "268730",
@@ -74,7 +74,7 @@
             {
                 "position": 4,
                 "mnemonic": "ID_MESS_DIAGNOSTIC",
-                "label_index": "2459",
+                "label_index": "@P2459",
                 "label_korean": "진단 이메일",
                 "group_id": "89459",
                 "req_frame_id": "268730",
@@ -96,7 +96,7 @@
             {
                 "position": 5,
                 "mnemonic": "ID_VERSION_LOGICIEL_new_1",
-                "label_index": "8662",
+                "label_index": "@P8662@\\*",
                 "label_korean": "소프트웨어 버전",
                 "group_id": "89459",
                 "req_frame_id": "268730",
@@ -118,7 +118,7 @@
             {
                 "position": 6,
                 "mnemonic": "ID_INDICE_MESSAGERIE_DIAGNOSTIC_new_1",
-                "label_index": "7300",
+                "label_index": "@P7300",
                 "label_korean": "진단 메시지 인덱스",
                 "group_id": "89459",
                 "req_frame_id": "268730",
@@ -140,7 +140,7 @@
             {
                 "position": 7,
                 "mnemonic": "ID_REF_CALIBRATION_new_1",
-                "label_index": "7014",
+                "label_index": "@P7014",
                 "label_korean": "캘리브레이션 버전",
                 "group_id": "89459",
                 "req_frame_id": "268730",
@@ -170,7 +170,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_BOUTON_AVG",
-                "label_index": "12338",
+                "label_index": "@P12338",
                 "label_korean": "프론트 좌측 버튼",
                 "group_id": "89460",
                 "req_frame_id": "268733",
@@ -186,13 +186,13 @@
                 "bit_mask": 128,
                 "bit_shift": 7,
                 "dynamic_arg": "",
-                "help_code": "3021",
+                "help_code": "@P3021@\\*2",
                 "help_korean": "프론트 버튼은 버튼을 길게 누른 (2초) 후에 ACTIVE로 바뀐다"
             },
             {
                 "position": 2,
                 "mnemonic": "MP_BOUTON_ARG",
-                "label_index": "12679",
+                "label_index": "@P12679",
                 "label_korean": "리어 좌측 버튼",
                 "group_id": "89460",
                 "req_frame_id": "268733",
@@ -208,13 +208,13 @@
                 "bit_mask": 64,
                 "bit_shift": 6,
                 "dynamic_arg": "",
-                "help_code": "9416",
+                "help_code": "@P9416@\\*2",
                 "help_korean": "리어 버튼은 길게 누른(2초) 후에 작동으로 변환된다"
             },
             {
                 "position": 3,
                 "mnemonic": "MP_SCI_G",
-                "label_index": "6241",
+                "label_index": "@P6241",
                 "label_korean": "접촉 스위치가 내장된 LH 잠금장치",
                 "group_id": "89460",
                 "req_frame_id": "268733",
@@ -230,13 +230,13 @@
                 "bit_mask": 32,
                 "bit_shift": 5,
                 "dynamic_arg": "",
-                "help_code": "13350",
+                "help_code": "@P13350@\\*",
                 "help_korean": "슬라이딩 도어 열림 요청이 있을 때 내장 스위치가 있는 잠금장치의 제어는 작동으로 변한다 (열림 요청은 버튼, 도어 핸들 또는 리모컨으로 이뤄진다)"
             },
             {
                 "position": 4,
                 "mnemonic": "MP_CDE_MOT_PORTE_GAUCHE",
-                "label_index": "8051",
+                "label_index": "@P8051",
                 "label_korean": "좌측 도어 모터 제어",
                 "group_id": "89460",
                 "req_frame_id": "268733",
@@ -252,13 +252,13 @@
                 "bit_mask": 128,
                 "bit_shift": 7,
                 "dynamic_arg": "",
-                "help_code": "2218",
+                "help_code": "@P2218",
                 "help_korean": "모터 전원은 슬라이딩 도어가 전동으로 움직일 때 \"작동\" 이다"
             },
             {
                 "position": 5,
                 "mnemonic": "MP_PILOTAGE_EMBRAYAGE_GAUCHE",
-                "label_index": "9259",
+                "label_index": "@P9259",
                 "label_korean": "좌측 클러치 제어",
                 "group_id": "89460",
                 "req_frame_id": "268733",
@@ -274,13 +274,13 @@
                 "bit_mask": 64,
                 "bit_shift": 6,
                 "dynamic_arg": "",
-                "help_code": "8957",
+                "help_code": "@P8957",
                 "help_korean": "클러치 출력은 슬라이딩 도어가 전동으로 움직일 때 \"작동\" 이다"
             },
             {
                 "position": 6,
                 "mnemonic": "MP_CDE_ACT_PORTE_CONDUC",
-                "label_index": "9120",
+                "label_index": "@P9120",
                 "label_korean": "좌측 도어 열림 액츄에이터",
                 "group_id": "89460",
                 "req_frame_id": "268733",
@@ -296,13 +296,13 @@
                 "bit_mask": 32,
                 "bit_shift": 5,
                 "dynamic_arg": "",
-                "help_code": "10642",
+                "help_code": "@P10642",
                 "help_korean": "슬라이딩 도어 열림 요청이 있을 때 도어 열림 액츄에이터 출력은 즉시 작동으로 변한다 (액츄에이터 작동 시간은 자동으로 표시하기에 너무 짧다)"
             },
             {
                 "position": 7,
                 "mnemonic": "MP_ALIM_CAPT_CONDUC",
-                "label_index": "9619",
+                "label_index": "@P9619@\\*",
                 "label_korean": "좌측 센서 전원",
                 "group_id": "89460",
                 "req_frame_id": "268733",
@@ -318,7 +318,7 @@
                 "bit_mask": 16,
                 "bit_shift": 4,
                 "dynamic_arg": "",
-                "help_code": "14728",
+                "help_code": "@P14728",
                 "help_korean": "센서 전원은 슬라이딩 도어가 닫힐 때 \"차단\"이다"
             }
         ]
@@ -332,7 +332,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_BOUTON_AVD",
-                "label_index": "12707",
+                "label_index": "@P12707",
                 "label_korean": "프론트 우측 버튼",
                 "group_id": "89460",
                 "req_frame_id": "268733",
@@ -348,13 +348,13 @@
                 "bit_mask": 128,
                 "bit_shift": 7,
                 "dynamic_arg": "",
-                "help_code": "3021",
+                "help_code": "@P3021@\\*2",
                 "help_korean": "프론트 버튼은 버튼을 길게 누른 (2초) 후에 ACTIVE로 바뀐다"
             },
             {
                 "position": 2,
                 "mnemonic": "MP_BOUTON_ARD",
-                "label_index": "13649",
+                "label_index": "@P13649",
                 "label_korean": "리어 우측 버튼",
                 "group_id": "89460",
                 "req_frame_id": "268733",
@@ -370,13 +370,13 @@
                 "bit_mask": 64,
                 "bit_shift": 6,
                 "dynamic_arg": "",
-                "help_code": "9416",
+                "help_code": "@P9416@\\*2",
                 "help_korean": "리어 버튼은 길게 누른(2초) 후에 작동으로 변환된다"
             },
             {
                 "position": 3,
                 "mnemonic": "MP_SCI_D",
-                "label_index": "12295",
+                "label_index": "@P12295",
                 "label_korean": "접촉 스위치가 내장된 RH 잠금장치",
                 "group_id": "89460",
                 "req_frame_id": "268733",
@@ -392,13 +392,13 @@
                 "bit_mask": 32,
                 "bit_shift": 5,
                 "dynamic_arg": "",
-                "help_code": "13350",
+                "help_code": "@P13350@\\*",
                 "help_korean": "슬라이딩 도어 열림 요청이 있을 때 내장 스위치가 있는 잠금장치의 제어는 작동으로 변한다 (열림 요청은 버튼, 도어 핸들 또는 리모컨으로 이뤄진다)"
             },
             {
                 "position": 4,
                 "mnemonic": "MP_CDE_MOT_PORTE_DROITE",
-                "label_index": "15985",
+                "label_index": "@P15985",
                 "label_korean": "우측 도어 모터 제어",
                 "group_id": "89460",
                 "req_frame_id": "268733",
@@ -414,13 +414,13 @@
                 "bit_mask": 128,
                 "bit_shift": 7,
                 "dynamic_arg": "",
-                "help_code": "2218",
+                "help_code": "@P2218",
                 "help_korean": "모터 전원은 슬라이딩 도어가 전동으로 움직일 때 \"작동\" 이다"
             },
             {
                 "position": 5,
                 "mnemonic": "MP_PILOTAGE_EMBRAYAGE_DROIT",
-                "label_index": "12907",
+                "label_index": "@P12907",
                 "label_korean": "우측 클러치 제어",
                 "group_id": "89460",
                 "req_frame_id": "268733",
@@ -436,13 +436,13 @@
                 "bit_mask": 64,
                 "bit_shift": 6,
                 "dynamic_arg": "",
-                "help_code": "15941",
+                "help_code": "@P15941",
                 "help_korean": "브레이크 출력은 슬라이딩 도어가 전동으로 이동 중일 때 작동한다"
             },
             {
                 "position": 6,
                 "mnemonic": "MP_CDE_ACT_PORTE_PASSAGER",
-                "label_index": "9779",
+                "label_index": "@P9779",
                 "label_korean": "우측 도어 열림 액츄에이터",
                 "group_id": "89460",
                 "req_frame_id": "268733",
@@ -458,13 +458,13 @@
                 "bit_mask": 32,
                 "bit_shift": 5,
                 "dynamic_arg": "",
-                "help_code": "10642",
+                "help_code": "@P10642",
                 "help_korean": "슬라이딩 도어 열림 요청이 있을 때 도어 열림 액츄에이터 출력은 즉시 작동으로 변한다 (액츄에이터 작동 시간은 자동으로 표시하기에 너무 짧다)"
             },
             {
                 "position": 7,
                 "mnemonic": "MP_ALIM_CAPT_PASSAG",
-                "label_index": "14014",
+                "label_index": "@P14014",
                 "label_korean": "우측 센서 전원",
                 "group_id": "89460",
                 "req_frame_id": "268733",
@@ -480,7 +480,7 @@
                 "bit_mask": 16,
                 "bit_shift": 4,
                 "dynamic_arg": "",
-                "help_code": "14728",
+                "help_code": "@P14728",
                 "help_korean": "센서 전원은 슬라이딩 도어가 닫힐 때 \"차단\"이다"
             }
         ]

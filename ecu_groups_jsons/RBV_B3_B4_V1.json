@@ -8,7 +8,7 @@
             {
                 "position": 1,
                 "mnemonic": "ID_REFERENCE_LOGICIEL",
-                "label_index": "13263",
+                "label_index": "@P13263",
                 "label_korean": "소프트웨어 번호",
                 "group_id": "매핑_누락",
                 "req_frame_id": "",
@@ -30,7 +30,7 @@
             {
                 "position": 2,
                 "mnemonic": "ID_REFERENCE_LOGICIEL_2",
-                "label_index": "13263",
+                "label_index": "@P13263@T (2)",
                 "label_korean": "소프트웨어 번호 (2)",
                 "group_id": "매핑_누락",
                 "req_frame_id": "",
@@ -52,7 +52,7 @@
             {
                 "position": 3,
                 "mnemonic": "ID_REFERENCE_LOGICIEL_3",
-                "label_index": "13263",
+                "label_index": "@P13263@T (3)",
                 "label_korean": "소프트웨어 번호 (3)",
                 "group_id": "매핑_누락",
                 "req_frame_id": "",
@@ -82,7 +82,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_COUPLE_MOTEUR",
-                "label_index": "15080",
+                "label_index": "@P15080",
                 "label_korean": "엔진 토크",
                 "group_id": "144134",
                 "req_frame_id": "432744",
@@ -104,7 +104,7 @@
             {
                 "position": 2,
                 "mnemonic": "MP_REGIME_MOTEUR",
-                "label_index": "7917",
+                "label_index": "@P7917",
                 "label_korean": "엔진 속도",
                 "group_id": "144134",
                 "req_frame_id": "432744",
@@ -128,7 +128,7 @@
             {
                 "position": 3,
                 "mnemonic": "MP_NOMBRE_DE_DEFAUTS",
-                "label_index": "37934",
+                "label_index": "@F37934",
                 "label_korean": "결함 수",
                 "group_id": "144137",
                 "req_frame_id": "432753",
@@ -150,7 +150,7 @@
             {
                 "position": 4,
                 "mnemonic": "MP_VITESSE_VEHICULE",
-                "label_index": "11138",
+                "label_index": "@P11138",
                 "label_korean": "차량 속도",
                 "group_id": "144136",
                 "req_frame_id": "432750",
@@ -176,7 +176,7 @@
             {
                 "position": 5,
                 "mnemonic": "MP_TENSION_ALIM_C0_PAC",
-                "label_index": "3327",
+                "label_index": "@F3327",
                 "label_korean": "ECU 공급 전압 (키 ON)",
                 "group_id": "144135",
                 "req_frame_id": "432747",
@@ -198,7 +198,7 @@
             {
                 "position": 6,
                 "mnemonic": "MP_CAPTEUR_PRESSION_FREINAGE",
-                "label_index": "30530",
+                "label_index": "@P30530",
                 "label_korean": "제동 압력 센서",
                 "group_id": "144133",
                 "req_frame_id": "432741",
@@ -220,7 +220,7 @@
             {
                 "position": 7,
                 "mnemonic": "MP_CAPTEUR_DECELERATION_1",
-                "label_index": "37118",
+                "label_index": "@P37118@\\*1",
                 "label_korean": "감속도 센서 수1",
                 "group_id": "144134",
                 "req_frame_id": "432744",
@@ -242,7 +242,7 @@
             {
                 "position": 8,
                 "mnemonic": "MP_CAPTEUR_DECELERATION_2",
-                "label_index": "37118",
+                "label_index": "@P37118@\\*2",
                 "label_korean": "감속도 센서 수2",
                 "group_id": "144134",
                 "req_frame_id": "432744",
@@ -264,7 +264,7 @@
             {
                 "position": 9,
                 "mnemonic": "MP_ENFONCEMENT_PEDALE_ACCELERATEUR",
-                "label_index": "8354",
+                "label_index": "@P8354",
                 "label_korean": "가속 페달을 밟는다",
                 "group_id": "144134",
                 "req_frame_id": "432744",
@@ -286,7 +286,7 @@
             {
                 "position": 10,
                 "mnemonic": "MP_VITESSE_ANGLE_LACET",
-                "label_index": "7157",
+                "label_index": "@P7157",
                 "label_korean": "요잉 각도 속도",
                 "group_id": "144152",
                 "req_frame_id": "432798",
@@ -308,7 +308,7 @@
             {
                 "position": 11,
                 "mnemonic": "MP_ANGLE_VOLANT",
-                "label_index": "1274",
+                "label_index": "@P1274",
                 "label_korean": "스티어링 휠 앵글",
                 "group_id": "144152",
                 "req_frame_id": "432798",
@@ -340,7 +340,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_VITESSE_ROUE_AVANT_DROITE_a",
-                "label_index": "11398",
+                "label_index": "@P11398",
                 "label_korean": "프론트 우측 휠 속도",
                 "group_id": "144138",
                 "req_frame_id": "432756",
@@ -358,13 +358,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "38536, 38593",
-                "help_korean": "각 휠 속도 센서로부터 오는 정보. 일반적으로, 이 정보는 서로 동일하거나 또는 차량 속도와 같아야 한다"
+                "help_code": "@P38536@T.@\\+@P38593",
+                "help_korean": "각 휠 속도 센서로부터 오는 정보.일반적으로, 이 정보는 서로 동일하거나 또는 차량 속도와 같아야 한다"
             },
             {
                 "position": 2,
                 "mnemonic": "MP_VITESSE_ROUE_AVANT_GAUCHE_a",
-                "label_index": "8278",
+                "label_index": "@P8278",
                 "label_korean": "프론트 좌측 휠 속도",
                 "group_id": "144138",
                 "req_frame_id": "432756",
@@ -382,13 +382,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "38536, 38593",
-                "help_korean": "각 휠 속도 센서로부터 오는 정보. 일반적으로, 이 정보는 서로 동일하거나 또는 차량 속도와 같아야 한다"
+                "help_code": "@P38536@T.@\\+@P38593",
+                "help_korean": "각 휠 속도 센서로부터 오는 정보.일반적으로, 이 정보는 서로 동일하거나 또는 차량 속도와 같아야 한다"
             },
             {
                 "position": 3,
                 "mnemonic": "MP_VITESSE_ROUE_ARRIERE_DROITE_a",
-                "label_index": "8028",
+                "label_index": "@P8028",
                 "label_korean": "리어 우측 휠 속도",
                 "group_id": "144138",
                 "req_frame_id": "432756",
@@ -406,13 +406,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "38536, 38593",
-                "help_korean": "각 휠 속도 센서로부터 오는 정보. 일반적으로, 이 정보는 서로 동일하거나 또는 차량 속도와 같아야 한다"
+                "help_code": "@P38536@T.@\\+@P38593",
+                "help_korean": "각 휠 속도 센서로부터 오는 정보.일반적으로, 이 정보는 서로 동일하거나 또는 차량 속도와 같아야 한다"
             },
             {
                 "position": 4,
                 "mnemonic": "MP_VITESSE_ROUE_ARRIERE_GAUCHE_a",
-                "label_index": "13812",
+                "label_index": "@P13812",
                 "label_korean": "리어 좌측 휠 속도",
                 "group_id": "144138",
                 "req_frame_id": "432756",
@@ -430,13 +430,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "38536, 38593",
-                "help_korean": "각 휠 속도 센서로부터 오는 정보. 일반적으로, 이 정보는 서로 동일하거나 또는 차량 속도와 같아야 한다"
+                "help_code": "@P38536@T.@\\+@P38593",
+                "help_korean": "각 휠 속도 센서로부터 오는 정보.일반적으로, 이 정보는 서로 동일하거나 또는 차량 속도와 같아야 한다"
             },
             {
                 "position": 5,
                 "mnemonic": "MP_DIRECTION_ROUE_AVANT_DROITE",
-                "label_index": "37095",
+                "label_index": "@P37095",
                 "label_korean": "프론트 우측 휠의 회전 방향",
                 "group_id": "144138",
                 "req_frame_id": "432756",
@@ -459,13 +459,13 @@
                 "bit_mask": 128,
                 "bit_shift": 7,
                 "dynamic_arg": "",
-                "help_code": "10957, 36983",
-                "help_korean": "휠에 위치한 센서로부터 정보. 이 정보는 일반적으로 서로 동일해야 하고 또한 휠의 회전 방향도 동일해야 한다"
+                "help_code": "@F10957@T.@\\+@F36983",
+                "help_korean": "휠에 위치한 센서로부터 정보.이 정보는 일반적으로 서로 동일해야 하고 또한 휠의 회전 방향도 동일해야 한다"
             },
             {
                 "position": 6,
                 "mnemonic": "MP_DIRECTION_ROUE_AVANT_GAUCHE",
-                "label_index": "37096",
+                "label_index": "@P37096",
                 "label_korean": "프론트 좌측 휠의 회전 방향",
                 "group_id": "144138",
                 "req_frame_id": "432756",
@@ -487,13 +487,13 @@
                 "bit_mask": 64,
                 "bit_shift": 6,
                 "dynamic_arg": "",
-                "help_code": "10957, 36983",
-                "help_korean": "휠에 위치한 센서로부터 정보. 이 정보는 일반적으로 서로 동일해야 하고 또한 휠의 회전 방향도 동일해야 한다"
+                "help_code": "@F10957@T.@\\+@F36983",
+                "help_korean": "휠에 위치한 센서로부터 정보.이 정보는 일반적으로 서로 동일해야 하고 또한 휠의 회전 방향도 동일해야 한다"
             },
             {
                 "position": 7,
                 "mnemonic": "MP_DIRECTION_ROUE_ARRIERE_DROITE",
-                "label_index": "37098",
+                "label_index": "@P37098",
                 "label_korean": "리어 우측 휠의 회전 방향",
                 "group_id": "144138",
                 "req_frame_id": "432756",
@@ -515,13 +515,13 @@
                 "bit_mask": 32,
                 "bit_shift": 5,
                 "dynamic_arg": "",
-                "help_code": "10957, 36983",
-                "help_korean": "휠에 위치한 센서로부터 정보. 이 정보는 일반적으로 서로 동일해야 하고 또한 휠의 회전 방향도 동일해야 한다"
+                "help_code": "@F10957@T.@\\+@F36983",
+                "help_korean": "휠에 위치한 센서로부터 정보.이 정보는 일반적으로 서로 동일해야 하고 또한 휠의 회전 방향도 동일해야 한다"
             },
             {
                 "position": 8,
                 "mnemonic": "MP_DIRECTION_ROUE_ARRIERE_GAUCHE",
-                "label_index": "37099",
+                "label_index": "@P37099",
                 "label_korean": "리어 좌측 휠의 회전 방향",
                 "group_id": "144138",
                 "req_frame_id": "432756",
@@ -543,13 +543,13 @@
                 "bit_mask": 16,
                 "bit_shift": 4,
                 "dynamic_arg": "",
-                "help_code": "10957, 36983",
-                "help_korean": "휠에 위치한 센서로부터 정보. 이 정보는 일반적으로 서로 동일해야 하고 또한 휠의 회전 방향도 동일해야 한다"
+                "help_code": "@F10957@T.@\\+@F36983",
+                "help_korean": "휠에 위치한 센서로부터 정보.이 정보는 일반적으로 서로 동일해야 하고 또한 휠의 회전 방향도 동일해야 한다"
             },
             {
                 "position": 9,
                 "mnemonic": "MP_ACCELERATION_ROUE_AVANT_DROITE",
-                "label_index": "5722",
+                "label_index": "@P5722",
                 "label_korean": "프론트 우측 휠 가속도",
                 "group_id": "144139",
                 "req_frame_id": "432759",
@@ -565,13 +565,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "10957, 36983",
-                "help_korean": "휠에 위치한 센서로부터 정보. 이 정보는 일반적으로 서로 동일해야 하고 또한 휠의 회전 방향도 동일해야 한다"
+                "help_code": "@F10957@T.@\\+@F36983",
+                "help_korean": "휠에 위치한 센서로부터 정보.이 정보는 일반적으로 서로 동일해야 하고 또한 휠의 회전 방향도 동일해야 한다"
             },
             {
                 "position": 10,
                 "mnemonic": "MP_ACCELERATION_ROUE_AVANT_GAUCHE",
-                "label_index": "3911",
+                "label_index": "@P3911",
                 "label_korean": "프론트 좌측 휠 가속도",
                 "group_id": "144139",
                 "req_frame_id": "432759",
@@ -587,13 +587,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "10957, 36983",
-                "help_korean": "휠에 위치한 센서로부터 정보. 이 정보는 일반적으로 서로 동일해야 하고 또한 휠의 회전 방향도 동일해야 한다"
+                "help_code": "@F10957@T.@\\+@F36983",
+                "help_korean": "휠에 위치한 센서로부터 정보.이 정보는 일반적으로 서로 동일해야 하고 또한 휠의 회전 방향도 동일해야 한다"
             },
             {
                 "position": 11,
                 "mnemonic": "MP_ACCELERATION_ROUE_ARRIERE_DROITE",
-                "label_index": "4890",
+                "label_index": "@P4890",
                 "label_korean": "리어 우측 휠 가속도",
                 "group_id": "144139",
                 "req_frame_id": "432759",
@@ -609,13 +609,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "10957, 36983",
-                "help_korean": "휠에 위치한 센서로부터 정보. 이 정보는 일반적으로 서로 동일해야 하고 또한 휠의 회전 방향도 동일해야 한다"
+                "help_code": "@F10957@T.@\\+@F36983",
+                "help_korean": "휠에 위치한 센서로부터 정보.이 정보는 일반적으로 서로 동일해야 하고 또한 휠의 회전 방향도 동일해야 한다"
             },
             {
                 "position": 12,
                 "mnemonic": "MP_ACCELERATION_ROUE_ARRIERE_GAUCHE",
-                "label_index": "8050",
+                "label_index": "@P8050",
                 "label_korean": "리어 좌측 휠 가속도",
                 "group_id": "144139",
                 "req_frame_id": "432759",
@@ -631,13 +631,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "10957, 36983",
-                "help_korean": "휠에 위치한 센서로부터 정보. 이 정보는 일반적으로 서로 동일해야 하고 또한 휠의 회전 방향도 동일해야 한다"
+                "help_code": "@F10957@T.@\\+@F36983",
+                "help_korean": "휠에 위치한 센서로부터 정보.이 정보는 일반적으로 서로 동일해야 하고 또한 휠의 회전 방향도 동일해야 한다"
             },
             {
                 "position": 13,
                 "mnemonic": "MP_CAPTEUR_STABILITE_ROUE_AVD",
-                "label_index": "37102",
+                "label_index": "@P37102@\\*VSC",
                 "label_korean": "프론트 우측 휠 센서VSC의 상태",
                 "group_id": "144140",
                 "req_frame_id": "432762",
@@ -656,13 +656,13 @@
                 "bit_mask": 128,
                 "bit_shift": 7,
                 "dynamic_arg": "VSC",
-                "help_code": "37111",
+                "help_code": "@P37111",
                 "help_korean": "ABS 센서"
             },
             {
                 "position": 14,
                 "mnemonic": "MP_CAPTEUR_STABILITE_ROUE_AVG",
-                "label_index": "37105",
+                "label_index": "@P37105@\\*VSC",
                 "label_korean": "프론트 좌측 휠 센서VSC의 상태",
                 "group_id": "144140",
                 "req_frame_id": "432762",
@@ -678,13 +678,13 @@
                 "bit_mask": 64,
                 "bit_shift": 6,
                 "dynamic_arg": "VSC",
-                "help_code": "37111",
+                "help_code": "@P37111",
                 "help_korean": "ABS 센서"
             },
             {
                 "position": 15,
                 "mnemonic": "MP_CAPTEUR_STABILITE_ROUE_ARD",
-                "label_index": "37108",
+                "label_index": "@P37108@\\*VSC",
                 "label_korean": "리어 우측 휠 센서VSC의 상태",
                 "group_id": "144140",
                 "req_frame_id": "432762",
@@ -700,13 +700,13 @@
                 "bit_mask": 32,
                 "bit_shift": 5,
                 "dynamic_arg": "VSC",
-                "help_code": "37111",
+                "help_code": "@P37111",
                 "help_korean": "ABS 센서"
             },
             {
                 "position": 16,
                 "mnemonic": "MP_CAPTEUR_STABILITE_ROUE_ARG",
-                "label_index": "37110",
+                "label_index": "@P37110@\\*VSC",
                 "label_korean": "리어 좌측 휠 센서VSC의 상태",
                 "group_id": "144140",
                 "req_frame_id": "432762",
@@ -722,13 +722,13 @@
                 "bit_mask": 16,
                 "bit_shift": 4,
                 "dynamic_arg": "VSC",
-                "help_code": "37111",
+                "help_code": "@P37111",
                 "help_korean": "ABS 센서"
             },
             {
                 "position": 17,
                 "mnemonic": "MP_CAPTEUR_ABS_ROUE_AVD",
-                "label_index": "37102",
+                "label_index": "@P37102@\\*ABS",
                 "label_korean": "프론트 우측 휠 센서ABS의 상태",
                 "group_id": "144141",
                 "req_frame_id": "432765",
@@ -744,13 +744,13 @@
                 "bit_mask": 128,
                 "bit_shift": 7,
                 "dynamic_arg": "ABS",
-                "help_code": "37111",
+                "help_code": "@P37111",
                 "help_korean": "ABS 센서"
             },
             {
                 "position": 18,
                 "mnemonic": "MP_CAPTEUR_ABS_ROUE_AVG",
-                "label_index": "37105",
+                "label_index": "@P37105@\\*ABS",
                 "label_korean": "프론트 좌측 휠 센서ABS의 상태",
                 "group_id": "144141",
                 "req_frame_id": "432765",
@@ -766,13 +766,13 @@
                 "bit_mask": 64,
                 "bit_shift": 6,
                 "dynamic_arg": "ABS",
-                "help_code": "37111",
+                "help_code": "@P37111",
                 "help_korean": "ABS 센서"
             },
             {
                 "position": 19,
                 "mnemonic": "MP_CAPTEUR_ABS_ROUE_ARD",
-                "label_index": "37108",
+                "label_index": "@P37108@\\*ABS",
                 "label_korean": "리어 우측 휠 센서ABS의 상태",
                 "group_id": "144141",
                 "req_frame_id": "432765",
@@ -788,13 +788,13 @@
                 "bit_mask": 32,
                 "bit_shift": 5,
                 "dynamic_arg": "ABS",
-                "help_code": "37111",
+                "help_code": "@P37111",
                 "help_korean": "ABS 센서"
             },
             {
                 "position": 20,
                 "mnemonic": "MP_CAPTEUR_ABS_ROUE_ARG",
-                "label_index": "37110",
+                "label_index": "@P37110@\\*ABS",
                 "label_korean": "리어 좌측 휠 센서ABS의 상태",
                 "group_id": "144141",
                 "req_frame_id": "432765",
@@ -810,13 +810,13 @@
                 "bit_mask": 16,
                 "bit_shift": 4,
                 "dynamic_arg": "ABS",
-                "help_code": "37111",
+                "help_code": "@P37111",
                 "help_korean": "ABS 센서"
             },
             {
                 "position": 21,
                 "mnemonic": "MP_CAPTEUR_REPARTITION_FREINAGE_AVD",
-                "label_index": "37102",
+                "label_index": "@P37102@\\*EBD",
                 "label_korean": "프론트 우측 휠 센서EBD의 상태",
                 "group_id": "144141",
                 "req_frame_id": "432765",
@@ -832,13 +832,13 @@
                 "bit_mask": 8,
                 "bit_shift": 3,
                 "dynamic_arg": "EBD",
-                "help_code": "37120",
+                "help_code": "@P37120",
                 "help_korean": "전자제어 제동력 배분 센서"
             },
             {
                 "position": 22,
                 "mnemonic": "MP_CAPTEUR_REPARTITION_FREINAGE_AVG",
-                "label_index": "37105",
+                "label_index": "@P37105@\\*EBD",
                 "label_korean": "프론트 좌측 휠 센서EBD의 상태",
                 "group_id": "144141",
                 "req_frame_id": "432765",
@@ -854,13 +854,13 @@
                 "bit_mask": 4,
                 "bit_shift": 2,
                 "dynamic_arg": "EBD",
-                "help_code": "37120",
+                "help_code": "@P37120",
                 "help_korean": "전자제어 제동력 배분 센서"
             },
             {
                 "position": 23,
                 "mnemonic": "MP_CAPTEUR_REPARTITION_FREINAGE_ARD",
-                "label_index": "37108",
+                "label_index": "@P37108@\\*EBD",
                 "label_korean": "리어 우측 휠 센서EBD의 상태",
                 "group_id": "144141",
                 "req_frame_id": "432765",
@@ -876,13 +876,13 @@
                 "bit_mask": 2,
                 "bit_shift": 1,
                 "dynamic_arg": "EBD",
-                "help_code": "37120",
+                "help_code": "@P37120",
                 "help_korean": "전자제어 제동력 배분 센서"
             },
             {
                 "position": 24,
                 "mnemonic": "MP_CAPTEUR_REPARTITION_FREINAGE_ARG",
-                "label_index": "37110",
+                "label_index": "@P37110@\\*EBD",
                 "label_korean": "리어 좌측 휠 센서EBD의 상태",
                 "group_id": "144141",
                 "req_frame_id": "432765",
@@ -898,7 +898,7 @@
                 "bit_mask": 1,
                 "bit_shift": 0,
                 "dynamic_arg": "EBD",
-                "help_code": "37120",
+                "help_code": "@P37120",
                 "help_korean": "전자제어 제동력 배분 센서"
             }
         ]
@@ -912,7 +912,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_RAPPORT_BOITE_VITESSE",
-                "label_index": "31400",
+                "label_index": "@P31400",
                 "label_korean": "변속기 기어비",
                 "group_id": "144142",
                 "req_frame_id": "432768",
@@ -934,7 +934,7 @@
             {
                 "position": 2,
                 "mnemonic": "MP_POSITION_LEVIER_VITESSES",
-                "label_index": "6721",
+                "label_index": "@P6721",
                 "label_korean": "기어 레버의 포지션",
                 "group_id": "144142",
                 "req_frame_id": "432768",
@@ -985,7 +985,7 @@
             {
                 "position": 3,
                 "mnemonic": "MP_INFORMATION_LEVIER_VITESSE",
-                "label_index": "37287",
+                "label_index": "@P37287",
                 "label_korean": "기어 레버 정보",
                 "group_id": "144142",
                 "req_frame_id": "432768",
@@ -1015,7 +1015,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_CONTACTEUR_RALENTI",
-                "label_index": "39170",
+                "label_index": "@P39170",
                 "label_korean": "공회전 스위치",
                 "group_id": "144143",
                 "req_frame_id": "432771",
@@ -1040,7 +1040,7 @@
             {
                 "position": 2,
                 "mnemonic": "MP_CONTACTEUR_FEUX_STOP",
-                "label_index": "12701",
+                "label_index": "@P12701",
                 "label_korean": "제동등 스위치",
                 "group_id": "144144",
                 "req_frame_id": "432774",
@@ -1061,13 +1061,13 @@
                 "bit_mask": 128,
                 "bit_shift": 7,
                 "dynamic_arg": "",
-                "help_code": "39173, 4843, 39174, 11462",
-                "help_korean": "접촉\n- 스위치 열림 :\n- 브레이크 페달이 해제된 상태\n접촉 스위치 닫힘 : 브레이크 페달을 밟는다"
+                "help_code": "@P39173@T : @P4843@\\n@P39174@T : @P11462",
+                "help_korean": "접촉 스위치 열림 : 브레이크 페달이 해제된 상태\n접촉 스위치 닫힘 : 브레이크 페달을 밟는다"
             },
             {
                 "position": 3,
                 "mnemonic": "MP_CONTACT_FREIN_PARKING",
-                "label_index": "13703",
+                "label_index": "@P13703",
                 "label_korean": "주차 브레이크 스위치",
                 "group_id": "144144",
                 "req_frame_id": "432774",
@@ -1086,13 +1086,13 @@
                 "bit_mask": 64,
                 "bit_shift": 6,
                 "dynamic_arg": "",
-                "help_code": "39173, 10198, 39174, 11678",
-                "help_korean": "접촉\n- 스위치 열림 :\n- 주차브레이트 해제\n접촉 스위치 닫힘 : 주차브레이크 체결"
+                "help_code": "@P39173@T : @P10198@\\n@P39174@T : @P11678",
+                "help_korean": "접촉 스위치 열림 : 주차브레이트 해제\n접촉 스위치 닫힘 : 주차브레이크 체결"
             },
             {
                 "position": 4,
                 "mnemonic": "MP_CONTACT_PEDALE_FREIN",
-                "label_index": "28747",
+                "label_index": "@P28747",
                 "label_korean": "브레이크 페달 스위치",
                 "group_id": "144144",
                 "req_frame_id": "432774",
@@ -1113,13 +1113,13 @@
                 "bit_mask": 32,
                 "bit_shift": 5,
                 "dynamic_arg": "",
-                "help_code": "39173, 4843, 39174, 11462",
-                "help_korean": "접촉\n- 스위치 열림 :\n- 브레이크 페달이 해제된 상태\n접촉 스위치 닫힘 : 브레이크 페달을 밟는다"
+                "help_code": "@P39173@T : @P4843@\\n@P39174@T : @P11462",
+                "help_korean": "접촉 스위치 열림 : 브레이크 페달이 해제된 상태\n접촉 스위치 닫힘 : 브레이크 페달을 밟는다"
             },
             {
                 "position": 5,
                 "mnemonic": "MP_RELAIS_FEUX_STOP",
-                "label_index": "38498",
+                "label_index": "@F38498",
                 "label_korean": "제동등 릴레이",
                 "group_id": "144144",
                 "req_frame_id": "432774",
@@ -1141,7 +1141,7 @@
             {
                 "position": 6,
                 "mnemonic": "MP_CONTACTEUR_DE_MARCHE_ARRIERE",
-                "label_index": "10290",
+                "label_index": "@P10290",
                 "label_korean": "후진등 스위치",
                 "group_id": "144144",
                 "req_frame_id": "432774",
@@ -1157,13 +1157,13 @@
                 "bit_mask": 8,
                 "bit_shift": 3,
                 "dynamic_arg": "",
-                "help_code": "39173, 26117, 39174, 13781",
-                "help_korean": "접촉\n- 스위치 열림 :\n- 후진 기어 체결되지 않음\n접촉 스위치 닫힘 : 후진 체결"
+                "help_code": "@P39173@T : @P26117@\\n@P39174@T : @P13781",
+                "help_korean": "접촉 스위치 열림 : 후진 기어 체결되지 않음\n접촉 스위치 닫힘 : 후진 체결"
             },
             {
                 "position": 7,
                 "mnemonic": "MP_TEMOIN_ABS",
-                "label_index": "3203",
+                "label_index": "@P3203",
                 "label_korean": "ABS LED",
                 "group_id": "144145",
                 "req_frame_id": "432777",
@@ -1185,7 +1185,7 @@
             {
                 "position": 8,
                 "mnemonic": "MP_INDICATEUR_DE_GLISSEMENT",
-                "label_index": "15889",
+                "label_index": "@P15889",
                 "label_korean": "슬라이딩 표시계",
                 "group_id": "144145",
                 "req_frame_id": "432777",
@@ -1207,7 +1207,7 @@
             {
                 "position": 9,
                 "mnemonic": "MP_TEMOIN_USURE_GARNITURE_FREIN",
-                "label_index": "39171",
+                "label_index": "@P39171",
                 "label_korean": "브레이크 패드 마모 경고등",
                 "group_id": "144145",
                 "req_frame_id": "432777",
@@ -1229,7 +1229,7 @@
             {
                 "position": 10,
                 "mnemonic": "MP_BRUITEUR",
-                "label_index": "9396",
+                "label_index": "@P9396",
                 "label_korean": "경고음",
                 "group_id": "144145",
                 "req_frame_id": "432777",
@@ -1251,7 +1251,7 @@
             {
                 "position": 11,
                 "mnemonic": "MP_ALERTE_SOUS_GONFLAGE_PNEUMATIQUES",
-                "label_index": "39172",
+                "label_index": "@P39172",
                 "label_korean": "타이어 압력 경고",
                 "group_id": "144145",
                 "req_frame_id": "432777",
@@ -1273,7 +1273,7 @@
             {
                 "position": 12,
                 "mnemonic": "MP_NOMBRE_DE_DEMARRAGES",
-                "label_index": "27286",
+                "label_index": "@P27286",
                 "label_korean": "시동 횟수",
                 "group_id": "144146",
                 "req_frame_id": "432780",
@@ -1295,7 +1295,7 @@
             {
                 "position": 13,
                 "mnemonic": "MP_ELECTROVANNE_ABS_ARG_RELACHEE",
-                "label_index": "38816",
+                "label_index": "@P38816",
                 "label_korean": "리어 좌측 ABS 솔레노이드 밸브 열림 위치",
                 "group_id": "144150",
                 "req_frame_id": "432792",
@@ -1317,7 +1317,7 @@
             {
                 "position": 14,
                 "mnemonic": "MP_ELECTROVANNE_ABS_ARG_MAINTENUE",
-                "label_index": "38815",
+                "label_index": "@P38815",
                 "label_korean": "리어 좌측 ABS 솔레노이드 밸브 닫힘 위치",
                 "group_id": "144150",
                 "req_frame_id": "432792",
@@ -1339,7 +1339,7 @@
             {
                 "position": 15,
                 "mnemonic": "MP_ELECTROVANNE_ABS_ARD_RELACHEE",
-                "label_index": "38814",
+                "label_index": "@P38814",
                 "label_korean": "리어 우측 ABS 솔레노이드 밸브 열림 위치",
                 "group_id": "144150",
                 "req_frame_id": "432792",
@@ -1361,7 +1361,7 @@
             {
                 "position": 16,
                 "mnemonic": "MP_ELECTROVANNE_ABS_ARD_MAINTENUE",
-                "label_index": "38813",
+                "label_index": "@P38813",
                 "label_korean": "리어 우측 ABS 솔레노이드 밸브 닫힘 위치",
                 "group_id": "144150",
                 "req_frame_id": "432792",
@@ -1383,7 +1383,7 @@
             {
                 "position": 17,
                 "mnemonic": "MP_ELECTROVANNE_ABS_AVG_RELACHEE",
-                "label_index": "38812",
+                "label_index": "@P38812",
                 "label_korean": "프론트 좌측 ABS 솔레노이드 밸브 열림 위치",
                 "group_id": "144150",
                 "req_frame_id": "432792",
@@ -1405,7 +1405,7 @@
             {
                 "position": 18,
                 "mnemonic": "MP_ELECTROVANNE_ABS_AVG_MAINTENUE",
-                "label_index": "38811",
+                "label_index": "@P38811",
                 "label_korean": "프론트 좌측 ABS 솔레노이드 밸브 닫힘 위치",
                 "group_id": "144150",
                 "req_frame_id": "432792",
@@ -1427,7 +1427,7 @@
             {
                 "position": 19,
                 "mnemonic": "MP_ELECTROVANNE_ABS_AVD_RELACHEE",
-                "label_index": "38810",
+                "label_index": "@P38810",
                 "label_korean": "프론트 우측 ABS 솔레노이드 밸브 열림 위치",
                 "group_id": "144150",
                 "req_frame_id": "432792",
@@ -1449,7 +1449,7 @@
             {
                 "position": 20,
                 "mnemonic": "MP_ELECTROVANNE_ABS_AVD_MAINTENUE",
-                "label_index": "38809",
+                "label_index": "@P38809",
                 "label_korean": "프론트 우측 ABS 솔레노이드 밸브 닫힘 위치",
                 "group_id": "144150",
                 "req_frame_id": "432792",

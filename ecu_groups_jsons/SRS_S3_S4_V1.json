@@ -8,7 +8,7 @@
             {
                 "position": 1,
                 "mnemonic": "ID_ORIGINE_CALCULO",
-                "label_index": "3601",
+                "label_index": "@P3601",
                 "label_korean": "원래 ECU",
                 "group_id": "12678",
                 "req_frame_id": "38035",
@@ -32,7 +32,7 @@
             {
                 "position": 2,
                 "mnemonic": "ID_REF_FOURNISSEUR",
-                "label_index": "633",
+                "label_index": "@P633",
                 "label_korean": "제조업체",
                 "group_id": "12678",
                 "req_frame_id": "38035",
@@ -54,7 +54,7 @@
             {
                 "position": 3,
                 "mnemonic": "ID_VERSION_DIAGNOSTIC_new_1",
-                "label_index": "14029",
+                "label_index": "@P14029",
                 "label_korean": "진단 버전",
                 "group_id": "12678",
                 "req_frame_id": "38035",
@@ -76,7 +76,7 @@
             {
                 "position": 4,
                 "mnemonic": "ID_HARD",
-                "label_index": "12954",
+                "label_index": "@P12954",
                 "label_korean": "하드웨어 버전",
                 "group_id": "12678",
                 "req_frame_id": "38035",
@@ -98,7 +98,7 @@
             {
                 "position": 5,
                 "mnemonic": "ID_VERSION_SOFT_D1",
-                "label_index": "2358",
+                "label_index": "@P2358",
                 "label_korean": "소프트웨어 버전",
                 "group_id": "12678",
                 "req_frame_id": "38035",
@@ -120,7 +120,7 @@
             {
                 "position": 6,
                 "mnemonic": "ID_REFERENCE_CALCULATEUR",
-                "label_index": "18439",
+                "label_index": "@P18439",
                 "label_korean": "ECU 번호",
                 "group_id": "12678",
                 "req_frame_id": "38035",
@@ -150,7 +150,7 @@
             {
                 "position": 1,
                 "mnemonic": "S3S4_AIRBAG_MP_1",
-                "label_index": "5744",
+                "label_index": "@P5744",
                 "label_korean": "첫번째 결함이 발생한 후 경과된 시간",
                 "group_id": "12680",
                 "req_frame_id": "38041",
@@ -166,13 +166,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "21540, 21295",
+                "help_code": "@P21540@T. @P21295",
                 "help_korean": "첫번째 결함이 발생한 후 경과된 시간을 확인할 수 있도록 한다. 이 카운터는 마지막 결함이 삭제될 때 0으로 리셋된다"
             },
             {
                 "position": 2,
                 "mnemonic": "S3S4_AIRBAG_MP_2",
-                "label_index": "21425",
+                "label_index": "@P21425",
                 "label_korean": "파이로테크닉 점화 모듈이 작동한 후 경과된 시간",
                 "group_id": "12681",
                 "req_frame_id": "38044",
@@ -188,13 +188,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "21179",
+                "help_code": "@P21179",
                 "help_korean": "파이로테크닉 점화 모듈이 작동한 후 경과된 시간을 확인할 수 있도록 한다"
             },
             {
                 "position": 3,
                 "mnemonic": "S3S4_AIRBAG_MP_3",
-                "label_index": "21111",
+                "label_index": "@P21111",
                 "label_korean": "결함 삭제 카운터",
                 "group_id": "12682",
                 "req_frame_id": "38047",
@@ -210,7 +210,7 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "21250",
+                "help_code": "@P21250",
                 "help_korean": "진행된 결함 삭제 작업의 횟수를 확인할 수 있도록 한다"
             }
         ]

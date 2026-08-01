@@ -8,7 +8,7 @@
             {
                 "position": 1,
                 "mnemonic": "ID_NOM_DU_FOURNISSEUR",
-                "label_index": "5701",
+                "label_index": "@P5701",
                 "label_korean": "제조 업체명",
                 "group_id": "128154",
                 "req_frame_id": "384805",
@@ -38,7 +38,7 @@
             {
                 "position": 2,
                 "mnemonic": "ID_REFERENCE_MATERIEL",
-                "label_index": "1071",
+                "label_index": "@P1071",
                 "label_korean": "장치 부품 번호",
                 "group_id": "128154",
                 "req_frame_id": "384805",
@@ -60,7 +60,7 @@
             {
                 "position": 3,
                 "mnemonic": "ID_REFERENCE_LOGICIEL",
-                "label_index": "13263",
+                "label_index": "@F13263",
                 "label_korean": "소프트웨어 번호",
                 "group_id": "128159",
                 "req_frame_id": "384820",
@@ -82,7 +82,7 @@
             {
                 "position": 4,
                 "mnemonic": "ID_HARD",
-                "label_index": "12954",
+                "label_index": "@P12954",
                 "label_korean": "하드웨어 버전",
                 "group_id": "128154",
                 "req_frame_id": "384805",
@@ -104,7 +104,7 @@
             {
                 "position": 5,
                 "mnemonic": "ID_VERSION_DU_LOGICIEL",
-                "label_index": "8662",
+                "label_index": "@P8662",
                 "label_korean": "소프트웨어 버전",
                 "group_id": "128159",
                 "req_frame_id": "384820",
@@ -126,7 +126,7 @@
             {
                 "position": 6,
                 "mnemonic": "ID_VERSION_DIAGNOSTIC_new_1",
-                "label_index": "14029",
+                "label_index": "@P14029",
                 "label_korean": "진단 버전",
                 "group_id": "128159",
                 "req_frame_id": "384820",
@@ -148,7 +148,7 @@
             {
                 "position": 7,
                 "mnemonic": "ID_DATE_TELECHARGEMENT",
-                "label_index": "21670",
+                "label_index": "@P21670",
                 "label_korean": "다운로딩 날짜",
                 "group_id": "128158",
                 "req_frame_id": "384817",
@@ -170,7 +170,7 @@
             {
                 "position": 8,
                 "mnemonic": "ID_VIN_ORIGINE",
-                "label_index": "7959",
+                "label_index": "@P7959",
                 "label_korean": "차량 일련 번호 (원래 차대번호)",
                 "group_id": "128155",
                 "req_frame_id": "384808",
@@ -192,7 +192,7 @@
             {
                 "position": 9,
                 "mnemonic": "ID_VIN_ACTUEL",
-                "label_index": "15431",
+                "label_index": "@P15431",
                 "label_korean": "차량 일련 번호 (현재 차대번호)",
                 "group_id": "128157",
                 "req_frame_id": "384814",
@@ -222,7 +222,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_TENSION_BATTERIE",
-                "label_index": "18263",
+                "label_index": "@P18263",
                 "label_korean": "배터리 전압",
                 "group_id": "128129",
                 "req_frame_id": "384730",
@@ -246,7 +246,7 @@
             {
                 "position": 2,
                 "mnemonic": "MP_PRESENCE_PLUS_APC",
-                "label_index": "29584",
+                "label_index": "@P29584",
                 "label_korean": "키 ON",
                 "group_id": "128129",
                 "req_frame_id": "384730",
@@ -268,8 +268,8 @@
             {
                 "position": 3,
                 "mnemonic": "CAN_C_bus_Voltage_High",
-                "label_index": "6129",
-                "label_korean": "IS\n- CAN 전압 : CAN high",
+                "label_index": "@P6129",
+                "label_korean": "IS CAN 전압 : CAN high",
                 "group_id": "128116",
                 "req_frame_id": "384691",
                 "resp_frame_id": "384692",
@@ -290,8 +290,8 @@
             {
                 "position": 4,
                 "mnemonic": "CAN_C_bus_Voltage_Low",
-                "label_index": "14428",
-                "label_korean": "IS\n- CAN 전압 : CAN low",
+                "label_index": "@P14428",
+                "label_korean": "IS CAN 전압 : CAN low",
                 "group_id": "128116",
                 "req_frame_id": "384691",
                 "resp_frame_id": "384692",
@@ -312,7 +312,7 @@
             {
                 "position": 5,
                 "mnemonic": "Auto_Light_Sensor",
-                "label_index": "14380",
+                "label_index": "@P14380",
                 "label_korean": "밝기 센서 전압",
                 "group_id": "128129",
                 "req_frame_id": "384730",
@@ -328,13 +328,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "13264",
+                "help_code": "@P13264",
                 "help_korean": "밝기에 따라 변한다"
             },
             {
                 "position": 6,
                 "mnemonic": "Ambient_Temperature_Sensor",
-                "label_index": "5357",
+                "label_index": "@P5357",
                 "label_korean": "외부 온도 센서 전압",
                 "group_id": "128129",
                 "req_frame_id": "384730",
@@ -350,13 +350,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "4491",
+                "help_code": "@P4491",
                 "help_korean": "온도에 따라 변한다"
             },
             {
                 "position": 7,
                 "mnemonic": "Handle_Lock_Switch",
-                "label_index": "9631",
+                "label_index": "@P9631",
                 "label_korean": "점화 스위치에 키 존재",
                 "group_id": "128131",
                 "req_frame_id": "384736",
@@ -378,7 +378,7 @@
             {
                 "position": 8,
                 "mnemonic": "ACC_Switch",
-                "label_index": "3801",
+                "label_index": "@P3801",
                 "label_korean": "액세서리 전원 공급",
                 "group_id": "128131",
                 "req_frame_id": "384736",
@@ -400,7 +400,7 @@
             {
                 "position": 9,
                 "mnemonic": "MP_POSITION_CLE_EN_PLUS_DEM",
-                "label_index": "8360",
+                "label_index": "@P8360",
                 "label_korean": "시동 모터 위치에서 키",
                 "group_id": "128131",
                 "req_frame_id": "384736",
@@ -422,7 +422,7 @@
             {
                 "position": 10,
                 "mnemonic": "ACC_relays",
-                "label_index": "4125",
+                "label_index": "@P4125",
                 "label_korean": "액세서리 전원 릴레이 제어",
                 "group_id": "128127",
                 "req_frame_id": "384724",
@@ -444,7 +444,7 @@
             {
                 "position": 11,
                 "mnemonic": "IG1_2_Fuel_Pump",
-                "label_index": "10130",
+                "label_index": "@P10130",
                 "label_korean": "연료 펌프 제어",
                 "group_id": "128127",
                 "req_frame_id": "384724",
@@ -474,7 +474,7 @@
             {
                 "position": 1,
                 "mnemonic": "Dead_Lock",
-                "label_index": "7874",
+                "label_index": "@P7874@\\*",
                 "label_korean": "이중 잠금 제어",
                 "group_id": "128127",
                 "req_frame_id": "384724",
@@ -496,7 +496,7 @@
             {
                 "position": 2,
                 "mnemonic": "Power_Lock_Switch",
-                "label_index": "5450",
+                "label_index": "@P5450",
                 "label_korean": "중앙 잠금 스위치를 통한 잠금 요청",
                 "group_id": "128131",
                 "req_frame_id": "384736",
@@ -518,7 +518,7 @@
             {
                 "position": 3,
                 "mnemonic": "Door_Lock",
-                "label_index": "2064",
+                "label_index": "@P2064",
                 "label_korean": "도어 잠금 제어",
                 "group_id": "128127",
                 "req_frame_id": "384724",
@@ -540,7 +540,7 @@
             {
                 "position": 4,
                 "mnemonic": "Power_Unlock_Switch",
-                "label_index": "8065",
+                "label_index": "@P8065",
                 "label_korean": "중앙 잠금 스위치를 통한 잠금 해제 요청",
                 "group_id": "128131",
                 "req_frame_id": "384736",
@@ -562,7 +562,7 @@
             {
                 "position": 5,
                 "mnemonic": "Door_Unlock",
-                "label_index": "5276",
+                "label_index": "@P5276",
                 "label_korean": "도어 잠금해제 제어",
                 "group_id": "128127",
                 "req_frame_id": "384724",
@@ -584,7 +584,7 @@
             {
                 "position": 6,
                 "mnemonic": "Dr_Door_Unlock_Switch",
-                "label_index": "20477",
+                "label_index": "@P20477",
                 "label_korean": "승객석 도어 잠금 장치 상태",
                 "group_id": "128131",
                 "req_frame_id": "384736",
@@ -606,7 +606,7 @@
             {
                 "position": 7,
                 "mnemonic": "Dr_Door_Lock_Switch",
-                "label_index": "30222",
+                "label_index": "@P30222",
                 "label_korean": "운전석 도어 잠금 장치 잠금 상태",
                 "group_id": "128131",
                 "req_frame_id": "384736",
@@ -628,7 +628,7 @@
             {
                 "position": 8,
                 "mnemonic": "As_Door_Unlock_Switch",
-                "label_index": "33304",
+                "label_index": "@P33304",
                 "label_korean": "프론트 승객석 잠금장치 잠금해제 상태",
                 "group_id": "128131",
                 "req_frame_id": "384736",
@@ -650,7 +650,7 @@
             {
                 "position": 9,
                 "mnemonic": "Except_Dr_As_Door_Unlock_Switch",
-                "label_index": "30230",
+                "label_index": "@P30230",
                 "label_korean": "운전자를 제외, 프론트 승객석 도어 잠금 해제 스위치의 상태",
                 "group_id": "128131",
                 "req_frame_id": "384736",
@@ -672,7 +672,7 @@
             {
                 "position": 10,
                 "mnemonic": "Door_Key_Lock_Switch",
-                "label_index": "29120",
+                "label_index": "@P29120",
                 "label_korean": "운전석 및 승객석 도어 키 잠금 스위치 상태",
                 "group_id": "128131",
                 "req_frame_id": "384736",
@@ -694,7 +694,7 @@
             {
                 "position": 11,
                 "mnemonic": "Dr_Door_Key_Unlock_switch",
-                "label_index": "30224",
+                "label_index": "@P30224",
                 "label_korean": "운전석 도어 잠금해제 키 스위치의 상태",
                 "group_id": "128131",
                 "req_frame_id": "384736",
@@ -716,7 +716,7 @@
             {
                 "position": 12,
                 "mnemonic": "Door_Key_Unlock_Switch",
-                "label_index": "29196",
+                "label_index": "@P29196",
                 "label_korean": "승객석 도어 키 잠금해제 스위치 상태",
                 "group_id": "128131",
                 "req_frame_id": "384736",
@@ -738,7 +738,7 @@
             {
                 "position": 13,
                 "mnemonic": "Independent_DRL",
-                "label_index": "4667",
+                "label_index": "@P4667",
                 "label_korean": "운전석 도어 잠금 제어",
                 "group_id": "128127",
                 "req_frame_id": "384724",
@@ -760,7 +760,7 @@
             {
                 "position": 14,
                 "mnemonic": "Dr_Door_Unlock",
-                "label_index": "3442",
+                "label_index": "@P3442",
                 "label_korean": "운전석 도어 잠금해제 제어",
                 "group_id": "128127",
                 "req_frame_id": "384724",
@@ -790,7 +790,7 @@
             {
                 "position": 1,
                 "mnemonic": "ETATPORTEAVCONDUCT",
-                "label_index": "8257",
+                "label_index": "@P8257",
                 "label_korean": "운전석 도어 상태",
                 "group_id": "128131",
                 "req_frame_id": "384736",
@@ -812,7 +812,7 @@
             {
                 "position": 2,
                 "mnemonic": "As_Door_Ajar_Switch",
-                "label_index": "8294",
+                "label_index": "@P8294",
                 "label_korean": "프론트 승객석 도어 상태",
                 "group_id": "128131",
                 "req_frame_id": "384736",
@@ -834,7 +834,7 @@
             {
                 "position": 3,
                 "mnemonic": "RR_Door_Ajar_Switch",
-                "label_index": "4834",
+                "label_index": "@P4834",
                 "label_korean": "리어 우측 도어 상태",
                 "group_id": "128131",
                 "req_frame_id": "384736",
@@ -856,7 +856,7 @@
             {
                 "position": 4,
                 "mnemonic": "RL_Door_Ajar_Switch",
-                "label_index": "5753",
+                "label_index": "@P5753",
                 "label_korean": "리어 좌측 도어 상태",
                 "group_id": "128131",
                 "req_frame_id": "384736",
@@ -878,7 +878,7 @@
             {
                 "position": 5,
                 "mnemonic": "Gate_Trunk_Ajar_Switch",
-                "label_index": "1911",
+                "label_index": "@P1911",
                 "label_korean": "트렁크 상태",
                 "group_id": "128131",
                 "req_frame_id": "384736",
@@ -900,7 +900,7 @@
             {
                 "position": 6,
                 "mnemonic": "MP_DEMANDE_OUVERTURE_COFFRE",
-                "label_index": "13871",
+                "label_index": "@P13871",
                 "label_korean": "트렁크 열림 요청",
                 "group_id": "128131",
                 "req_frame_id": "384736",
@@ -922,7 +922,7 @@
             {
                 "position": 7,
                 "mnemonic": "Gate_Opener",
-                "label_index": "10764",
+                "label_index": "@P10764",
                 "label_korean": "트렁크/테일게이트 열림 제어",
                 "group_id": "128127",
                 "req_frame_id": "384724",
@@ -944,7 +944,7 @@
             {
                 "position": 8,
                 "mnemonic": "MP_ETAT_CAPOT",
-                "label_index": "6758",
+                "label_index": "@P6758",
                 "label_korean": "본넷 상태",
                 "group_id": "128131",
                 "req_frame_id": "384736",
@@ -979,7 +979,7 @@
             {
                 "position": 1,
                 "mnemonic": "Security_Indicator",
-                "label_index": "2552",
+                "label_index": "@P2552",
                 "label_korean": "도난방지 경고등",
                 "group_id": "128127",
                 "req_frame_id": "384724",
@@ -1001,7 +1001,7 @@
             {
                 "position": 2,
                 "mnemonic": "MP_ALERTE_NIVEAU_LIQUIDE_FREIN_MINI",
-                "label_index": "1800",
+                "label_index": "@P1800",
                 "label_korean": "브레이크 오일 레벨 낮음 경고",
                 "group_id": "128131",
                 "req_frame_id": "384736",
@@ -1026,7 +1026,7 @@
             {
                 "position": 3,
                 "mnemonic": "Interior_Lamp_Cut",
-                "label_index": "2924",
+                "label_index": "@P2924",
                 "label_korean": "제어 패널에서 LED 및 디스플레이의 점등",
                 "group_id": "128127",
                 "req_frame_id": "384724",
@@ -1048,7 +1048,7 @@
             {
                 "position": 4,
                 "mnemonic": "Horn_Theft_Horn",
-                "label_index": "21338",
+                "label_index": "@P21338@T / @P25460",
                 "label_korean": "혼의 상태 / 알람",
                 "group_id": "128127",
                 "req_frame_id": "384724",
@@ -1078,7 +1078,7 @@
             {
                 "position": 1,
                 "mnemonic": "SR_POSITION",
-                "label_index": "13718",
+                "label_index": "@P13718",
                 "label_korean": "선루프 위치",
                 "group_id": "128124",
                 "req_frame_id": "384715",
@@ -1100,7 +1100,7 @@
             {
                 "position": 2,
                 "mnemonic": "SR_MTR_ACTV",
-                "label_index": "3431",
+                "label_index": "@P3431",
                 "label_korean": "선루프 모터",
                 "group_id": "128124",
                 "req_frame_id": "384715",
@@ -1122,7 +1122,7 @@
             {
                 "position": 3,
                 "mnemonic": "LID_23_36_0",
-                "label_index": "15507",
+                "label_index": "@P15507",
                 "label_korean": "도어의 수",
                 "group_id": "128124",
                 "req_frame_id": "384715",
@@ -1144,7 +1144,7 @@
             {
                 "position": 4,
                 "mnemonic": "PW_MTR_ACTV_DR",
-                "label_index": "14286",
+                "label_index": "@P14286",
                 "label_korean": "운전석 윈도우 모터",
                 "group_id": "128124",
                 "req_frame_id": "384715",
@@ -1166,7 +1166,7 @@
             {
                 "position": 5,
                 "mnemonic": "AS_UP",
-                "label_index": "9138",
+                "label_index": "@P9138",
                 "label_korean": "승객석 윈도우 닫힘 요청",
                 "group_id": "128124",
                 "req_frame_id": "384715",
@@ -1182,13 +1182,13 @@
                 "bit_mask": 8,
                 "bit_shift": 3,
                 "dynamic_arg": "",
-                "help_code": "9222",
+                "help_code": "@P9222",
                 "help_korean": "운전석 스위치를 통해"
             },
             {
                 "position": 6,
                 "mnemonic": "AS_DOWN",
-                "label_index": "10194",
+                "label_index": "@P10194",
                 "label_korean": "승객석 윈도우 열림 요청",
                 "group_id": "128124",
                 "req_frame_id": "384715",
@@ -1204,13 +1204,13 @@
                 "bit_mask": 16,
                 "bit_shift": 4,
                 "dynamic_arg": "",
-                "help_code": "9222",
+                "help_code": "@P9222",
                 "help_korean": "운전석 스위치를 통해"
             },
             {
                 "position": 7,
                 "mnemonic": "AS_AUTO",
-                "label_index": "6949",
+                "label_index": "@P6949",
                 "label_korean": "승객석 윈도우 원-터치 요청",
                 "group_id": "128124",
                 "req_frame_id": "384715",
@@ -1226,13 +1226,13 @@
                 "bit_mask": 32,
                 "bit_shift": 5,
                 "dynamic_arg": "",
-                "help_code": "9222",
+                "help_code": "@P9222",
                 "help_korean": "운전석 스위치를 통해"
             },
             {
                 "position": 8,
                 "mnemonic": "PW_MTR_ACTV_AS",
-                "label_index": "4015",
+                "label_index": "@P4015",
                 "label_korean": "승객석 윈도우 모터",
                 "group_id": "128124",
                 "req_frame_id": "384715",
@@ -1254,7 +1254,7 @@
             {
                 "position": 9,
                 "mnemonic": "RR_UP",
-                "label_index": "14297",
+                "label_index": "@P14297",
                 "label_korean": "리어 우측 윈도우 닫힘 요청",
                 "group_id": "128124",
                 "req_frame_id": "384715",
@@ -1270,13 +1270,13 @@
                 "bit_mask": 1,
                 "bit_shift": 0,
                 "dynamic_arg": "",
-                "help_code": "9222",
+                "help_code": "@P9222",
                 "help_korean": "운전석 스위치를 통해"
             },
             {
                 "position": 10,
                 "mnemonic": "RR_DOWN",
-                "label_index": "12631",
+                "label_index": "@P12631",
                 "label_korean": "리어 우측 윈도우 열림 요청",
                 "group_id": "128124",
                 "req_frame_id": "384715",
@@ -1292,13 +1292,13 @@
                 "bit_mask": 2,
                 "bit_shift": 1,
                 "dynamic_arg": "",
-                "help_code": "9222",
+                "help_code": "@P9222",
                 "help_korean": "운전석 스위치를 통해"
             },
             {
                 "position": 11,
                 "mnemonic": "RR_AUTO",
-                "label_index": "4225",
+                "label_index": "@P4225",
                 "label_korean": "리어 우측 윈도우 원-터치 요청",
                 "group_id": "128124",
                 "req_frame_id": "384715",
@@ -1314,13 +1314,13 @@
                 "bit_mask": 4,
                 "bit_shift": 2,
                 "dynamic_arg": "",
-                "help_code": "9222",
+                "help_code": "@P9222",
                 "help_korean": "운전석 스위치를 통해"
             },
             {
                 "position": 12,
                 "mnemonic": "PW_MTR_ACTV_RR",
-                "label_index": "2045",
+                "label_index": "@P2045",
                 "label_korean": "리어 우측 윈도우 모터",
                 "group_id": "128124",
                 "req_frame_id": "384715",
@@ -1342,7 +1342,7 @@
             {
                 "position": 13,
                 "mnemonic": "RL_UP",
-                "label_index": "3055",
+                "label_index": "@P3055",
                 "label_korean": "리어 좌측 윈도우 닫힘 요청",
                 "group_id": "128124",
                 "req_frame_id": "384715",
@@ -1358,13 +1358,13 @@
                 "bit_mask": 8,
                 "bit_shift": 3,
                 "dynamic_arg": "",
-                "help_code": "9222",
+                "help_code": "@P9222",
                 "help_korean": "운전석 스위치를 통해"
             },
             {
                 "position": 14,
                 "mnemonic": "RL_DOWN",
-                "label_index": "5073",
+                "label_index": "@P5073",
                 "label_korean": "리어 좌측 윈도우 열림 요청",
                 "group_id": "128124",
                 "req_frame_id": "384715",
@@ -1380,13 +1380,13 @@
                 "bit_mask": 16,
                 "bit_shift": 4,
                 "dynamic_arg": "",
-                "help_code": "9222",
+                "help_code": "@P9222",
                 "help_korean": "운전석 스위치를 통해"
             },
             {
                 "position": 15,
                 "mnemonic": "RL_AUTO",
-                "label_index": "9704",
+                "label_index": "@P9704",
                 "label_korean": "리어 좌측 윈도우 원-터치 요청",
                 "group_id": "128124",
                 "req_frame_id": "384715",
@@ -1402,13 +1402,13 @@
                 "bit_mask": 32,
                 "bit_shift": 5,
                 "dynamic_arg": "",
-                "help_code": "9222",
+                "help_code": "@P9222",
                 "help_korean": "운전석 스위치를 통해"
             },
             {
                 "position": 16,
                 "mnemonic": "PW_MTR_ACTV_RL",
-                "label_index": "8520",
+                "label_index": "@P8520",
                 "label_korean": "리어 좌측 윈도우 모터",
                 "group_id": "128124",
                 "req_frame_id": "384715",
@@ -1430,7 +1430,7 @@
             {
                 "position": 17,
                 "mnemonic": "Power_Window",
-                "label_index": "3671",
+                "label_index": "@P3671",
                 "label_korean": "전동 윈도우 전원",
                 "group_id": "128127",
                 "req_frame_id": "384724",
@@ -1460,7 +1460,7 @@
             {
                 "position": 1,
                 "mnemonic": "FT_MIST_RQ",
-                "label_index": "13522",
+                "label_index": "@P13522",
                 "label_korean": "윈드스크린 싱글 와이퍼 작동 요청",
                 "group_id": "128124",
                 "req_frame_id": "384715",
@@ -1482,7 +1482,7 @@
             {
                 "position": 2,
                 "mnemonic": "FT_WPR_INT",
-                "label_index": "7775",
+                "label_index": "@P7775",
                 "label_korean": "윈드스크린 간헐적인 와이퍼 작동 요청",
                 "group_id": "128124",
                 "req_frame_id": "384715",
@@ -1504,7 +1504,7 @@
             {
                 "position": 3,
                 "mnemonic": "FT_WPR_SW",
-                "label_index": "8699",
+                "label_index": "@P8699",
                 "label_korean": "간헐적인 모드에서 윈드스크린 와이퍼 간헐적인 작동",
                 "group_id": "128124",
                 "req_frame_id": "384715",
@@ -1520,13 +1520,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "3632",
+                "help_code": "@P3632",
                 "help_korean": "값이 증가하면 할수록, 각 와이퍼간의 시간은 더 늘어난다"
             },
             {
                 "position": 4,
                 "mnemonic": "MP_COMMANDE_ESSUYAGE_PARE_BRISE",
-                "label_index": "4685",
+                "label_index": "@P4685",
                 "label_korean": "윈드스크린 와이퍼 제어",
                 "group_id": "128127",
                 "req_frame_id": "384724",
@@ -1558,13 +1558,13 @@
                 "bit_mask": 1,
                 "bit_shift": 0,
                 "dynamic_arg": "",
-                "help_code": "9886",
+                "help_code": "@P9886",
                 "help_korean": "저속 모드 또는 간헐적인 또는 1회 와이퍼 작동을 위한 작동"
             },
             {
                 "position": 5,
                 "mnemonic": "FT_WPR_LO",
-                "label_index": "7866",
+                "label_index": "@P7866",
                 "label_korean": "저속 윈드스크린 와이퍼 작동",
                 "group_id": "128124",
                 "req_frame_id": "384715",
@@ -1586,7 +1586,7 @@
             {
                 "position": 6,
                 "mnemonic": "FT_WPR_HI",
-                "label_index": "8407",
+                "label_index": "@P8407",
                 "label_korean": "윈드스크린 고속 와이퍼 작동 요청",
                 "group_id": "128124",
                 "req_frame_id": "384715",
@@ -1608,7 +1608,7 @@
             {
                 "position": 7,
                 "mnemonic": "MP_COMMANDE_ESSUYAGE_PARE_BRISE_GRANDE_VITESSE",
-                "label_index": "6585",
+                "label_index": "@P6585@\\*",
                 "label_korean": "고속 윈드스크린 와이퍼 제어",
                 "group_id": "128127",
                 "req_frame_id": "384724",
@@ -1630,7 +1630,7 @@
             {
                 "position": 8,
                 "mnemonic": "MP_INFORMATION_ARRET_FIXE_ESSUIE_VITRE_AVANT",
-                "label_index": "9561",
+                "label_index": "@P9561",
                 "label_korean": "프론트 윈드스크린 와이퍼 파크 정보",
                 "group_id": "128131",
                 "req_frame_id": "384736",
@@ -1655,7 +1655,7 @@
             {
                 "position": 9,
                 "mnemonic": "MP_DEMANDE_ESSUYAGE_LUNETTE",
-                "label_index": "12670",
+                "label_index": "@P12670",
                 "label_korean": "리어 스크린 와이퍼 작동 요청",
                 "group_id": "128124",
                 "req_frame_id": "384715",
@@ -1677,7 +1677,7 @@
             {
                 "position": 10,
                 "mnemonic": "MP_COMMANDE_ESSUYAGE_LUNETTE_ARRIERE",
-                "label_index": "7042",
+                "label_index": "@P7042",
                 "label_korean": "리어 스크린 와이퍼 명령",
                 "group_id": "128127",
                 "req_frame_id": "384724",
@@ -1702,7 +1702,7 @@
             {
                 "position": 11,
                 "mnemonic": "MP_INFORMATION_ARRET_FIXE_ESSUIE_VITRE_ARRIERE",
-                "label_index": "12367",
+                "label_index": "@P12367",
                 "label_korean": "리어 윈드스크린 와이퍼 파크 정보",
                 "group_id": "128131",
                 "req_frame_id": "384736",
@@ -1735,7 +1735,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_DEMANDE_LAVAGE_PARE_BRISE",
-                "label_index": "13201",
+                "label_index": "@P13201",
                 "label_korean": "윈드스크린 와셔 요청",
                 "group_id": "128124",
                 "req_frame_id": "384715",
@@ -1757,7 +1757,7 @@
             {
                 "position": 2,
                 "mnemonic": "MP_COMMANDE_LAVAGE_PARE_BRISE",
-                "label_index": "3116",
+                "label_index": "@P3116@\\*",
                 "label_korean": "윈드스크린 와셔 작동 제어",
                 "group_id": "128127",
                 "req_frame_id": "384724",
@@ -1784,7 +1784,7 @@
             {
                 "position": 3,
                 "mnemonic": "LAVAGEPROJ",
-                "label_index": "5923",
+                "label_index": "@P5923",
                 "label_korean": "헤드램프 와셔 요청",
                 "group_id": "128124",
                 "req_frame_id": "384715",
@@ -1806,7 +1806,7 @@
             {
                 "position": 4,
                 "mnemonic": "MP_COMMANDE_LAVAGE_PROJECTEUR",
-                "label_index": "10323",
+                "label_index": "@P10323",
                 "label_korean": "헤드램프 와셔 작동 제어",
                 "group_id": "128127",
                 "req_frame_id": "384724",
@@ -1828,7 +1828,7 @@
             {
                 "position": 5,
                 "mnemonic": "MP_DEMANDE_LAVAGE_LUNETTE",
-                "label_index": "11753",
+                "label_index": "@P11753",
                 "label_korean": "리어 스크린 와셔 요청",
                 "group_id": "128124",
                 "req_frame_id": "384715",
@@ -1853,7 +1853,7 @@
             {
                 "position": 6,
                 "mnemonic": "MP_COMMANDE_LAVAGE_LUNETTE_ARRIERE",
-                "label_index": "13060",
+                "label_index": "@P13060",
                 "label_korean": "리어 스크린 와셔 작동 제어",
                 "group_id": "128127",
                 "req_frame_id": "384724",
@@ -1878,7 +1878,7 @@
             {
                 "position": 7,
                 "mnemonic": "MP_COMMANDE_DEGIVRAGE",
-                "label_index": "12197",
+                "label_index": "@P12197@\\*",
                 "label_korean": "성에제거 컨트롤",
                 "group_id": "128127",
                 "req_frame_id": "384724",
@@ -1897,7 +1897,7 @@
                 "bit_mask": 4,
                 "bit_shift": 2,
                 "dynamic_arg": "",
-                "help_code": "12140",
+                "help_code": "@P12140",
                 "help_korean": "엔진 구동 상태에서 작동한다"
             }
         ]
@@ -1911,7 +1911,7 @@
             {
                 "position": 1,
                 "mnemonic": "Data_Value_6C",
-                "label_index": "9168",
+                "label_index": "@P9168",
                 "label_korean": "원래 차대번호 쓰기 상태",
                 "group_id": "128120",
                 "req_frame_id": "384703",
@@ -1927,13 +1927,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "44222, 44224",
+                "help_code": "@P44222@T. @P44224@T.",
                 "help_korean": "변수의 상태는 반드시 완전해야 하고 잠금되어야 한다. 원래 차대번호는 BSI에 저장된 첫번째 일련 번호에 해당된다."
             },
             {
                 "position": 2,
                 "mnemonic": "Data_Value_6D",
-                "label_index": "8526",
+                "label_index": "@P8526",
                 "label_korean": "현재 차대번호 쓰기 상태",
                 "group_id": "128121",
                 "req_frame_id": "384706",
@@ -1949,13 +1949,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "44222, 44223",
+                "help_code": "@P44222@T. @P44223@T.",
                 "help_korean": "변수의 상태는 반드시 완전해야 하고 잠금되어야 한다. 현재 차대번호는 차량에 현재 사용된 일련 번호에 해당된다."
             },
             {
                 "position": 3,
                 "mnemonic": "Coding_Counter_B0",
-                "label_index": "11957",
+                "label_index": "@P11957",
                 "label_korean": "차량의 원격 설정 횟수",
                 "group_id": "128123",
                 "req_frame_id": "384712",
@@ -1985,7 +1985,7 @@
             {
                 "position": 1,
                 "mnemonic": "DIAG_CODE_COLUMN_WP_SW",
-                "label_index": "4096",
+                "label_index": "@P4096",
                 "label_korean": "와셔 및 와이퍼 제어",
                 "group_id": "128124",
                 "req_frame_id": "384715",
@@ -2007,7 +2007,7 @@
             {
                 "position": 2,
                 "mnemonic": "DIAG_CODE_COLUMN_TL_SW",
-                "label_index": "6104",
+                "label_index": "@P6104",
                 "label_korean": "표시계 및 라이트 스톡",
                 "group_id": "128124",
                 "req_frame_id": "384715",
@@ -2037,7 +2037,7 @@
             {
                 "position": 1,
                 "mnemonic": "SLEEP_COLUMN",
-                "label_index": "1768",
+                "label_index": "@P1768",
                 "label_korean": "상단 컬럼",
                 "group_id": "128124",
                 "req_frame_id": "384715",
@@ -2059,7 +2059,7 @@
             {
                 "position": 2,
                 "mnemonic": "COMBI_TOIT_OUVRANT",
-                "label_index": "3132",
+                "label_index": "@P3132",
                 "label_korean": "선루프",
                 "group_id": "128124",
                 "req_frame_id": "384715",
@@ -2081,7 +2081,7 @@
             {
                 "position": 3,
                 "mnemonic": "SLEEP_PW",
-                "label_index": "4037",
+                "label_index": "@P4037",
                 "label_korean": "운전석 도어 컨트롤 패드",
                 "group_id": "128124",
                 "req_frame_id": "384715",
@@ -2103,7 +2103,7 @@
             {
                 "position": 4,
                 "mnemonic": "SLEEP_PW_AS",
-                "label_index": "5920",
+                "label_index": "@P5920",
                 "label_korean": "승객석 도어 제어 패널",
                 "group_id": "128124",
                 "req_frame_id": "384715",
@@ -2125,7 +2125,7 @@
             {
                 "position": 5,
                 "mnemonic": "SLEEP_PW_RL",
-                "label_index": "2511",
+                "label_index": "@P2511",
                 "label_korean": "리어 좌측 도어 컨트롤 패드",
                 "group_id": "128124",
                 "req_frame_id": "384715",
@@ -2147,7 +2147,7 @@
             {
                 "position": 6,
                 "mnemonic": "SLEEP_PW_RR",
-                "label_index": "4228",
+                "label_index": "@P4228",
                 "label_korean": "리어 우측 도어 컨트롤 패드",
                 "group_id": "128124",
                 "req_frame_id": "384715",
@@ -2177,7 +2177,7 @@
             {
                 "position": 1,
                 "mnemonic": "FAN_CONT_ON_Duty",
-                "label_index": "11902",
+                "label_index": "@P11902",
                 "label_korean": "환기 릴레이 제어",
                 "group_id": "128125",
                 "req_frame_id": "384718",
@@ -2199,7 +2199,7 @@
             {
                 "position": 2,
                 "mnemonic": "Blower_Fan",
-                "label_index": "10609",
+                "label_index": "@P10609",
                 "label_korean": "팬 전원",
                 "group_id": "128127",
                 "req_frame_id": "384724",
@@ -2221,7 +2221,7 @@
             {
                 "position": 3,
                 "mnemonic": "FAN_LO",
-                "label_index": "14025",
+                "label_index": "@P14025",
                 "label_korean": "팬의 저속 제어",
                 "group_id": "128127",
                 "req_frame_id": "384724",
@@ -2243,7 +2243,7 @@
             {
                 "position": 4,
                 "mnemonic": "FAN_HI",
-                "label_index": "4249",
+                "label_index": "@P4249",
                 "label_korean": "팬의 고속 제어",
                 "group_id": "128127",
                 "req_frame_id": "384724",
@@ -2273,7 +2273,7 @@
             {
                 "position": 1,
                 "mnemonic": "WINDOW_LOCK_SW",
-                "label_index": "8172",
+                "label_index": "@P8172",
                 "label_korean": "차일드 세이프티 (전동 윈도우)",
                 "group_id": "128124",
                 "req_frame_id": "384715",
@@ -2295,7 +2295,7 @@
             {
                 "position": 2,
                 "mnemonic": "Mirror_Switch",
-                "label_index": "14084",
+                "label_index": "@P14084",
                 "label_korean": "폴딩 미러 버튼",
                 "group_id": "128131",
                 "req_frame_id": "384736",
@@ -2317,7 +2317,7 @@
             {
                 "position": 3,
                 "mnemonic": "Hold_Mirror_Open",
-                "label_index": "5108",
+                "label_index": "@P5108",
                 "label_korean": "미러 펼침 제어",
                 "group_id": "128127",
                 "req_frame_id": "384724",
@@ -2339,7 +2339,7 @@
             {
                 "position": 4,
                 "mnemonic": "Hold_Mirror_Close",
-                "label_index": "12605",
+                "label_index": "@P12605",
                 "label_korean": "미러 접힘 제어",
                 "group_id": "128127",
                 "req_frame_id": "384724",
@@ -2361,7 +2361,7 @@
             {
                 "position": 5,
                 "mnemonic": "MP_DEMANDE_INHIBITION_CDS_ESP",
-                "label_index": "12693",
+                "label_index": "@F12693",
                 "label_korean": "CDS/ESP 차단 요청",
                 "group_id": "128131",
                 "req_frame_id": "384736",
@@ -2383,7 +2383,7 @@
             {
                 "position": 6,
                 "mnemonic": "MP_INFORMATION_MARCHE_ARRIERE",
-                "label_index": "11845",
+                "label_index": "@P11845@\\*",
                 "label_korean": "후진 기어 정보",
                 "group_id": "128131",
                 "req_frame_id": "384736",
@@ -2405,7 +2405,7 @@
             {
                 "position": 7,
                 "mnemonic": "MP_PEDALE_DE_FREIN_ENFONCEE",
-                "label_index": "12032",
+                "label_index": "@P12032",
                 "label_korean": "브레이크 페달 밟음",
                 "group_id": "128131",
                 "req_frame_id": "384736",
@@ -2435,7 +2435,7 @@
             {
                 "position": 1,
                 "mnemonic": "Room_Lamp_Center_ON_Switch",
-                "label_index": "13093",
+                "label_index": "@P13093",
                 "label_korean": "프론트 실내등 점등 요청",
                 "group_id": "128131",
                 "req_frame_id": "384736",
@@ -2457,7 +2457,7 @@
             {
                 "position": 2,
                 "mnemonic": "Room_Lamp_Center_OFF_Switch",
-                "label_index": "8815",
+                "label_index": "@P8815",
                 "label_korean": "프론트 실내등 소등 요청",
                 "group_id": "128131",
                 "req_frame_id": "384736",
@@ -2479,7 +2479,7 @@
             {
                 "position": 3,
                 "mnemonic": "MP_COMMANDE_ECLAIRAGE_PLAFONNIER_AVANT",
-                "label_index": "14351",
+                "label_index": "@P14351@\\*",
                 "label_korean": "프론트 실내등 점등 제어",
                 "group_id": "128125",
                 "req_frame_id": "384718",
@@ -2495,13 +2495,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "10923",
+                "help_code": "@P10923",
                 "help_korean": "도어의 열림 및 닫힘과 연계되어 있다"
             },
             {
                 "position": 4,
                 "mnemonic": "MP_COMMANDE_ECLAIRAGE_COFFRE_SANS_BSC",
-                "label_index": "12625",
+                "label_index": "@P12625",
                 "label_korean": "트렁크 라이트 제어",
                 "group_id": "128125",
                 "req_frame_id": "384718",
@@ -2517,13 +2517,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "4486",
+                "help_code": "@P4486",
                 "help_korean": "트렁크의 열림 및 닫힘과 연계"
             },
             {
                 "position": 5,
                 "mnemonic": "IG_key_illumination",
-                "label_index": "7052",
+                "label_index": "@P7052",
                 "label_korean": "점화 키의 조명",
                 "group_id": "128125",
                 "req_frame_id": "384718",
@@ -2545,7 +2545,7 @@
             {
                 "position": 6,
                 "mnemonic": "Indirect_Lamp_Switch",
-                "label_index": "29161",
+                "label_index": "@P29161",
                 "label_korean": "앰비언트 라이트 스위치",
                 "group_id": "128131",
                 "req_frame_id": "384736",
@@ -2567,7 +2567,7 @@
             {
                 "position": 7,
                 "mnemonic": "Indirect_Lamp",
-                "label_index": "17751",
+                "label_index": "@P17751",
                 "label_korean": "앰비언트 라이트 제어",
                 "group_id": "128125",
                 "req_frame_id": "384718",
@@ -2597,7 +2597,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_DEMANDE_ALLUMAGE_FEUX_DE_POSITION",
-                "label_index": "13296",
+                "label_index": "@P13296",
                 "label_korean": "미등 점등 요청",
                 "group_id": "128124",
                 "req_frame_id": "384715",
@@ -2619,7 +2619,7 @@
             {
                 "position": 2,
                 "mnemonic": "Tail_Lamp",
-                "label_index": "5128",
+                "label_index": "@P5128",
                 "label_korean": "리어 라이트 제어",
                 "group_id": "128127",
                 "req_frame_id": "384724",
@@ -2641,7 +2641,7 @@
             {
                 "position": 3,
                 "mnemonic": "MP_DEMANDE_ALLUMAGE_FEUX_DE_CROISEMENT",
-                "label_index": "10432",
+                "label_index": "@P10432",
                 "label_korean": "전조등 하향 점등 요청",
                 "group_id": "128124",
                 "req_frame_id": "384715",
@@ -2663,7 +2663,7 @@
             {
                 "position": 4,
                 "mnemonic": "MP_COMMANDE_FEUX_DE_CROISEMENT",
-                "label_index": "9461",
+                "label_index": "@P9461",
                 "label_korean": "전조등 하향에서 점검",
                 "group_id": "128125",
                 "req_frame_id": "384718",
@@ -2685,7 +2685,7 @@
             {
                 "position": 5,
                 "mnemonic": "DDEAPPELFEUXROUTE",
-                "label_index": "40393",
+                "label_index": "@P40393",
                 "label_korean": "메인 빔 헤드램프를 켜기 위한 요청",
                 "group_id": "128124",
                 "req_frame_id": "384715",
@@ -2707,7 +2707,7 @@
             {
                 "position": 6,
                 "mnemonic": "MP_COMMANDE_FEUX_DE_ROUTE",
-                "label_index": "7601",
+                "label_index": "@P7601",
                 "label_korean": "메인 빔 라이트를 점검한다",
                 "group_id": "128127",
                 "req_frame_id": "384724",
@@ -2729,7 +2729,7 @@
             {
                 "position": 7,
                 "mnemonic": "MP_DEMANDE_APPEL_PHARE",
-                "label_index": "8490",
+                "label_index": "@P8490",
                 "label_korean": "헤드램프 플래시 요청",
                 "group_id": "128124",
                 "req_frame_id": "384715",
@@ -2751,7 +2751,7 @@
             {
                 "position": 8,
                 "mnemonic": "FOG_ON",
-                "label_index": "7170",
+                "label_index": "@P7170",
                 "label_korean": "안개등 점등 요청",
                 "group_id": "128124",
                 "req_frame_id": "384715",
@@ -2773,7 +2773,7 @@
             {
                 "position": 9,
                 "mnemonic": "MP_COMMANDE_FEUX_DE_BROUILLARD_AVANT",
-                "label_index": "6353",
+                "label_index": "@P6353",
                 "label_korean": "프론트 안개등 제어",
                 "group_id": "128127",
                 "req_frame_id": "384724",
@@ -2798,7 +2798,7 @@
             {
                 "position": 10,
                 "mnemonic": "Rear_Fog_Lamp",
-                "label_index": "14576",
+                "label_index": "@P14576",
                 "label_korean": "리어 안개등 점등 제어",
                 "group_id": "128127",
                 "req_frame_id": "384724",
@@ -2820,7 +2820,7 @@
             {
                 "position": 11,
                 "mnemonic": "FOG_OFF",
-                "label_index": "11485",
+                "label_index": "@P11485",
                 "label_korean": "안개등 소등 요청",
                 "group_id": "128124",
                 "req_frame_id": "384715",
@@ -2842,7 +2842,7 @@
             {
                 "position": 12,
                 "mnemonic": "MP_DEMANDE_ECLAIRAGE_AUTOMATIQUE",
-                "label_index": "6201",
+                "label_index": "@P6201",
                 "label_korean": "자동 라이트 요청",
                 "group_id": "128124",
                 "req_frame_id": "384715",
@@ -2875,7 +2875,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_DEMANDE_FEUX_DETRESSE",
-                "label_index": "5368",
+                "label_index": "@P5368",
                 "label_korean": "비상등 요청",
                 "group_id": "128131",
                 "req_frame_id": "384736",
@@ -2897,7 +2897,7 @@
             {
                 "position": 2,
                 "mnemonic": "CLIGNOTANTG",
-                "label_index": "8627",
+                "label_index": "@P8627",
                 "label_korean": "좌측 방향 지시등 요청",
                 "group_id": "128124",
                 "req_frame_id": "384715",
@@ -2919,7 +2919,7 @@
             {
                 "position": 3,
                 "mnemonic": "CLIGNOTANTD",
-                "label_index": "8421",
+                "label_index": "@P8421",
                 "label_korean": "우측 방향 지시등 요청",
                 "group_id": "128124",
                 "req_frame_id": "384715",
@@ -2941,7 +2941,7 @@
             {
                 "position": 4,
                 "mnemonic": "Turn_RH_LH_Lamp",
-                "label_index": "2088",
+                "label_index": "@P2088@\\*",
                 "label_korean": "방향 지시등 스위치",
                 "group_id": "128127",
                 "req_frame_id": "384724",
@@ -2963,7 +2963,7 @@
             {
                 "position": 5,
                 "mnemonic": "ESS_Cancel_Switch",
-                "label_index": "29233",
+                "label_index": "@P29233",
                 "label_korean": "비상 스탑 신호 취소 스위치의 상태",
                 "group_id": "128131",
                 "req_frame_id": "384736",
@@ -2993,7 +2993,7 @@
             {
                 "position": 1,
                 "mnemonic": "Head_lamp_auto_leveling_device",
-                "label_index": "9815",
+                "label_index": "@P9815",
                 "label_korean": "자동 헤드램프 높이 조정장치",
                 "group_id": "128135",
                 "req_frame_id": "384748",
@@ -3023,7 +3023,7 @@
             {
                 "position": 1,
                 "mnemonic": "CA_KM_APPARITION",
-                "label_index": "10972",
+                "label_index": "@P10972",
                 "label_korean": "결함이 발생한 이후 주행한 거리",
                 "group_id": "128260",
                 "req_frame_id": "385123",
@@ -3045,7 +3045,7 @@
             {
                 "position": 2,
                 "mnemonic": "CA_TEMPS_ECOULE_DEPUIS_PREMIERE_APPARITION_DU_DEFAUT",
-                "label_index": "13240",
+                "label_index": "@P13240",
                 "label_korean": "첫번째 결함이 발생한 이후 경과된 시간",
                 "group_id": "128260",
                 "req_frame_id": "385123",
@@ -3067,7 +3067,7 @@
             {
                 "position": 3,
                 "mnemonic": "CA_NB_DE_COUPURE_DU_CONTACT_DEPUIS_DISPARITION_DU_DEFAUT",
-                "label_index": "2632",
+                "label_index": "@P2632",
                 "label_korean": "결함이 사라진 후 키를 ON한 횟수",
                 "group_id": "128260",
                 "req_frame_id": "385123",
@@ -3089,7 +3089,7 @@
             {
                 "position": 4,
                 "mnemonic": "CA_TEMPS_ACCUMULE_DEPUIS_DEFAUT_PERMANENT",
-                "label_index": "13110",
+                "label_index": "@P13110",
                 "label_korean": "결함이 영구적으로 된 이후부터 누적된 시간",
                 "group_id": "128260",
                 "req_frame_id": "385123",
@@ -3119,7 +3119,7 @@
             {
                 "position": 1,
                 "mnemonic": "CFG_TMP_TEL_VIN_temp",
-                "label_index": "16222",
+                "label_index": "@P16222",
                 "label_korean": "차대번호 코드",
                 "group_id": "128157",
                 "req_frame_id": "384814",

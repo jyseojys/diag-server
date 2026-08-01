@@ -8,8 +8,8 @@
             {
                 "position": 1,
                 "mnemonic": "STATPIL1",
-                "label_index": "3011",
-                "label_korean": "액츄에이터테스트",
+                "label_index": "@P3011@\\*",
+                "label_korean": "액츄에이터 테스트",
                 "group_id": "58027",
                 "req_frame_id": "174374",
                 "resp_frame_id": "174375",
@@ -47,7 +47,7 @@
             {
                 "position": 1,
                 "mnemonic": "ID_NOM_DU_FOURNISSEUR",
-                "label_index": "5701",
+                "label_index": "@P5701",
                 "label_korean": "제조 업체명",
                 "group_id": "57966",
                 "req_frame_id": "174191",
@@ -77,7 +77,7 @@
             {
                 "position": 2,
                 "mnemonic": "ID_REFERENCE_MATERIEL",
-                "label_index": "1071",
+                "label_index": "@P1071",
                 "label_korean": "장치 부품 번호",
                 "group_id": "57966",
                 "req_frame_id": "174191",
@@ -99,7 +99,7 @@
             {
                 "position": 3,
                 "mnemonic": "ID_REFERENCE_COMPLEMENTAIRE_MATERIEL",
-                "label_index": "1634",
+                "label_index": "@P1634",
                 "label_korean": "장치 추가 참조 번호",
                 "group_id": "57966",
                 "req_frame_id": "174191",
@@ -121,7 +121,7 @@
             {
                 "position": 4,
                 "mnemonic": "ID_ZI_FILE",
-                "label_index": "3627",
+                "label_index": "@P3627",
                 "label_korean": "캘리브레이션 파일 번호",
                 "group_id": "57968",
                 "req_frame_id": "174197",
@@ -143,7 +143,7 @@
             {
                 "position": 5,
                 "mnemonic": "ID_TRACABILITE_INDICE_EVOLUTION_EDITION_CALIBRATION",
-                "label_index": "7413",
+                "label_index": "@P7413",
                 "label_korean": "캘리브레이션 에디션",
                 "group_id": "57968",
                 "req_frame_id": "174197",
@@ -165,7 +165,7 @@
             {
                 "position": 6,
                 "mnemonic": "ID_DATE_TELECH",
-                "label_index": "21670",
+                "label_index": "@P21670",
                 "label_korean": "다운로딩 날짜",
                 "group_id": "57968",
                 "req_frame_id": "174197",
@@ -187,7 +187,7 @@
             {
                 "position": 7,
                 "mnemonic": "ID_NOMBRE_DE_TELECHARGEMENT",
-                "label_index": "24589",
+                "label_index": "@P24589",
                 "label_korean": "다운로드의 수",
                 "group_id": "57968",
                 "req_frame_id": "174197",
@@ -209,7 +209,7 @@
             {
                 "position": 8,
                 "mnemonic": "MP_VERSION_CD_INSTALLEE",
-                "label_index": "1055",
+                "label_index": "@P1055",
                 "label_korean": "CD 버전 설치됨",
                 "group_id": "57966",
                 "req_frame_id": "174191",
@@ -231,7 +231,7 @@
             {
                 "position": 9,
                 "mnemonic": "ID_MESS_DIAGNOSTIC",
-                "label_index": "2459",
+                "label_index": "@P2459",
                 "label_korean": "진단 이메일",
                 "group_id": "57966",
                 "req_frame_id": "174191",
@@ -253,7 +253,7 @@
             {
                 "position": 10,
                 "mnemonic": "ID_80_MP_INDICE_MESS",
-                "label_index": "2225",
+                "label_index": "@P2225",
                 "label_korean": "메시지 인덱스",
                 "group_id": "57966",
                 "req_frame_id": "174191",
@@ -275,7 +275,7 @@
             {
                 "position": 11,
                 "mnemonic": "ID_REFERENCE_AFFICHEUR",
-                "label_index": "1090",
+                "label_index": "@P1090",
                 "label_korean": "디스플레이의 부품 번호",
                 "group_id": "57971",
                 "req_frame_id": "174206",
@@ -297,7 +297,7 @@
             {
                 "position": 12,
                 "mnemonic": "ID_VERSION_LOGICIEL_AFFICHEUR",
-                "label_index": "1118",
+                "label_index": "@P1118",
                 "label_korean": "디스플레이의 소프트웨어 버전",
                 "group_id": "57971",
                 "req_frame_id": "174206",
@@ -319,7 +319,7 @@
             {
                 "position": 13,
                 "mnemonic": "ID_TRACABILITE_DATE_FABRICATION",
-                "label_index": "14355",
+                "label_index": "@P14355",
                 "label_korean": "제조일자",
                 "group_id": "57968",
                 "req_frame_id": "174197",
@@ -341,7 +341,7 @@
             {
                 "position": 14,
                 "mnemonic": "MP_VIN",
-                "label_index": "3241",
+                "label_index": "@P3241",
                 "label_korean": "차량의 일련번호 - 차대번호 코드",
                 "group_id": "58028",
                 "req_frame_id": "174377",
@@ -357,13 +357,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "33888",
+                "help_code": "@P33888",
                 "help_korean": "이 변수는 표시는 텔레메틱 장치에 입력된 차대번호 코드를 읽을 수 있도록 한다"
             },
             {
                 "position": 15,
                 "mnemonic": "MP_NUMERO_TRACABILITE_UNIQUE",
-                "label_index": "1067",
+                "label_index": "@P1067",
                 "label_korean": "고유 추적 번호",
                 "group_id": "57967",
                 "req_frame_id": "174194",
@@ -393,7 +393,7 @@
             {
                 "position": 1,
                 "mnemonic": "ID_NOM_DU_FOURNISSEUR",
-                "label_index": "5701",
+                "label_index": "@P5701",
                 "label_korean": "제조 업체명",
                 "group_id": "57966",
                 "req_frame_id": "174191",
@@ -423,7 +423,7 @@
             {
                 "position": 2,
                 "mnemonic": "ID_REFERENCE_MATERIEL",
-                "label_index": "1071",
+                "label_index": "@P1071",
                 "label_korean": "장치 부품 번호",
                 "group_id": "57966",
                 "req_frame_id": "174191",
@@ -445,7 +445,7 @@
             {
                 "position": 3,
                 "mnemonic": "ID_REFERENCE_COMPLEMENTAIRE_MATERIEL",
-                "label_index": "1634",
+                "label_index": "@P1634",
                 "label_korean": "장치 추가 참조 번호",
                 "group_id": "57966",
                 "req_frame_id": "174191",
@@ -467,7 +467,7 @@
             {
                 "position": 4,
                 "mnemonic": "ID_ZI_FILE",
-                "label_index": "3627",
+                "label_index": "@P3627",
                 "label_korean": "캘리브레이션 파일 번호",
                 "group_id": "57968",
                 "req_frame_id": "174197",
@@ -489,7 +489,7 @@
             {
                 "position": 5,
                 "mnemonic": "ID_TRACABILITE_INDICE_EVOLUTION_EDITION_CALIBRATION",
-                "label_index": "7413",
+                "label_index": "@P7413",
                 "label_korean": "캘리브레이션 에디션",
                 "group_id": "57968",
                 "req_frame_id": "174197",
@@ -511,7 +511,7 @@
             {
                 "position": 6,
                 "mnemonic": "ID_DATE_TELECH",
-                "label_index": "21670",
+                "label_index": "@P21670",
                 "label_korean": "다운로딩 날짜",
                 "group_id": "57968",
                 "req_frame_id": "174197",
@@ -533,7 +533,7 @@
             {
                 "position": 7,
                 "mnemonic": "ID_NOMBRE_DE_TELECHARGEMENT",
-                "label_index": "24589",
+                "label_index": "@P24589",
                 "label_korean": "다운로드의 수",
                 "group_id": "57968",
                 "req_frame_id": "174197",
@@ -555,7 +555,7 @@
             {
                 "position": 8,
                 "mnemonic": "MP_VERSION_CD_INSTALLEE",
-                "label_index": "1055",
+                "label_index": "@P1055",
                 "label_korean": "CD 버전 설치됨",
                 "group_id": "57966",
                 "req_frame_id": "174191",
@@ -577,7 +577,7 @@
             {
                 "position": 9,
                 "mnemonic": "ID_MESS_DIAGNOSTIC",
-                "label_index": "2459",
+                "label_index": "@P2459",
                 "label_korean": "진단 이메일",
                 "group_id": "57966",
                 "req_frame_id": "174191",
@@ -599,7 +599,7 @@
             {
                 "position": 10,
                 "mnemonic": "ID_80_MP_INDICE_MESS",
-                "label_index": "2225",
+                "label_index": "@P2225",
                 "label_korean": "메시지 인덱스",
                 "group_id": "57966",
                 "req_frame_id": "174191",
@@ -621,7 +621,7 @@
             {
                 "position": 11,
                 "mnemonic": "ID_REFERENCE_AFFICHEUR",
-                "label_index": "1090",
+                "label_index": "@P1090",
                 "label_korean": "디스플레이의 부품 번호",
                 "group_id": "57971",
                 "req_frame_id": "174206",
@@ -643,7 +643,7 @@
             {
                 "position": 12,
                 "mnemonic": "ID_VERSION_LOGICIEL_AFFICHEUR",
-                "label_index": "1118",
+                "label_index": "@P1118",
                 "label_korean": "디스플레이의 소프트웨어 버전",
                 "group_id": "57971",
                 "req_frame_id": "174206",
@@ -665,7 +665,7 @@
             {
                 "position": 13,
                 "mnemonic": "ID_TRACABILITE_DATE_FABRICATION",
-                "label_index": "14355",
+                "label_index": "@P14355",
                 "label_korean": "제조일자",
                 "group_id": "57968",
                 "req_frame_id": "174197",
@@ -687,7 +687,7 @@
             {
                 "position": 14,
                 "mnemonic": "MP_VIN",
-                "label_index": "3241",
+                "label_index": "@P3241",
                 "label_korean": "차량의 일련번호 - 차대번호 코드",
                 "group_id": "58028",
                 "req_frame_id": "174377",
@@ -703,13 +703,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "33888",
+                "help_code": "@P33888",
                 "help_korean": "이 변수는 표시는 텔레메틱 장치에 입력된 차대번호 코드를 읽을 수 있도록 한다"
             },
             {
                 "position": 15,
                 "mnemonic": "MP_NUMERO_TRACABILITE_UNIQUE",
-                "label_index": "1067",
+                "label_index": "@P1067",
                 "label_korean": "고유 추적 번호",
                 "group_id": "57967",
                 "req_frame_id": "174194",
@@ -739,7 +739,7 @@
             {
                 "position": 1,
                 "mnemonic": "ID_NOM_DU_FOURNISSEUR",
-                "label_index": "5701",
+                "label_index": "@P5701",
                 "label_korean": "제조 업체명",
                 "group_id": "57966",
                 "req_frame_id": "174191",
@@ -769,7 +769,7 @@
             {
                 "position": 2,
                 "mnemonic": "ID_REFERENCE_MATERIEL",
-                "label_index": "1071",
+                "label_index": "@P1071",
                 "label_korean": "장치 부품 번호",
                 "group_id": "57966",
                 "req_frame_id": "174191",
@@ -791,7 +791,7 @@
             {
                 "position": 3,
                 "mnemonic": "ID_REFERENCE_COMPLEMENTAIRE_MATERIEL",
-                "label_index": "1634",
+                "label_index": "@P1634",
                 "label_korean": "장치 추가 참조 번호",
                 "group_id": "57966",
                 "req_frame_id": "174191",
@@ -813,7 +813,7 @@
             {
                 "position": 4,
                 "mnemonic": "ID_ZI_FILE",
-                "label_index": "3627",
+                "label_index": "@P3627",
                 "label_korean": "캘리브레이션 파일 번호",
                 "group_id": "57968",
                 "req_frame_id": "174197",
@@ -835,7 +835,7 @@
             {
                 "position": 5,
                 "mnemonic": "ID_TRACABILITE_INDICE_EVOLUTION_EDITION_CALIBRATION",
-                "label_index": "7413",
+                "label_index": "@P7413",
                 "label_korean": "캘리브레이션 에디션",
                 "group_id": "57968",
                 "req_frame_id": "174197",
@@ -857,7 +857,7 @@
             {
                 "position": 6,
                 "mnemonic": "ID_DATE_TELECH",
-                "label_index": "21670",
+                "label_index": "@P21670",
                 "label_korean": "다운로딩 날짜",
                 "group_id": "57968",
                 "req_frame_id": "174197",
@@ -879,7 +879,7 @@
             {
                 "position": 7,
                 "mnemonic": "ID_NOMBRE_DE_TELECHARGEMENT",
-                "label_index": "24589",
+                "label_index": "@P24589",
                 "label_korean": "다운로드의 수",
                 "group_id": "57968",
                 "req_frame_id": "174197",
@@ -901,7 +901,7 @@
             {
                 "position": 8,
                 "mnemonic": "MP_VERSION_CD_INSTALLEE",
-                "label_index": "1055",
+                "label_index": "@P1055",
                 "label_korean": "CD 버전 설치됨",
                 "group_id": "57966",
                 "req_frame_id": "174191",
@@ -923,7 +923,7 @@
             {
                 "position": 9,
                 "mnemonic": "ID_MESS_DIAGNOSTIC",
-                "label_index": "2459",
+                "label_index": "@P2459",
                 "label_korean": "진단 이메일",
                 "group_id": "57966",
                 "req_frame_id": "174191",
@@ -945,7 +945,7 @@
             {
                 "position": 10,
                 "mnemonic": "ID_80_MP_INDICE_MESS",
-                "label_index": "2225",
+                "label_index": "@P2225",
                 "label_korean": "메시지 인덱스",
                 "group_id": "57966",
                 "req_frame_id": "174191",
@@ -967,7 +967,7 @@
             {
                 "position": 11,
                 "mnemonic": "ID_REFERENCE_AFFICHEUR",
-                "label_index": "1090",
+                "label_index": "@P1090",
                 "label_korean": "디스플레이의 부품 번호",
                 "group_id": "57971",
                 "req_frame_id": "174206",
@@ -989,7 +989,7 @@
             {
                 "position": 12,
                 "mnemonic": "ID_VERSION_LOGICIEL_AFFICHEUR",
-                "label_index": "1118",
+                "label_index": "@P1118",
                 "label_korean": "디스플레이의 소프트웨어 버전",
                 "group_id": "57971",
                 "req_frame_id": "174206",
@@ -1011,7 +1011,7 @@
             {
                 "position": 13,
                 "mnemonic": "ID_TRACABILITE_DATE_FABRICATION",
-                "label_index": "14355",
+                "label_index": "@P14355",
                 "label_korean": "제조일자",
                 "group_id": "57968",
                 "req_frame_id": "174197",
@@ -1033,7 +1033,7 @@
             {
                 "position": 14,
                 "mnemonic": "MP_VIN",
-                "label_index": "3241",
+                "label_index": "@P3241",
                 "label_korean": "차량의 일련번호 - 차대번호 코드",
                 "group_id": "58028",
                 "req_frame_id": "174377",
@@ -1049,13 +1049,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "33888",
+                "help_code": "@P33888",
                 "help_korean": "이 변수는 표시는 텔레메틱 장치에 입력된 차대번호 코드를 읽을 수 있도록 한다"
             },
             {
                 "position": 15,
                 "mnemonic": "MP_NUMERO_TRACABILITE_UNIQUE",
-                "label_index": "1067",
+                "label_index": "@P1067",
                 "label_korean": "고유 추적 번호",
                 "group_id": "57967",
                 "req_frame_id": "174194",
@@ -1085,7 +1085,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_VIN",
-                "label_index": "3241",
+                "label_index": "@P3241",
                 "label_korean": "차량의 일련번호 - 차대번호 코드",
                 "group_id": "58028",
                 "req_frame_id": "174377",
@@ -1101,7 +1101,7 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "33888",
+                "help_code": "@P33888",
                 "help_korean": "이 변수는 표시는 텔레메틱 장치에 입력된 차대번호 코드를 읽을 수 있도록 한다"
             }
         ]
@@ -1115,7 +1115,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_COORDONNEE_ABSCISSE_ECRAN_TACTILE",
-                "label_index": "27218",
+                "label_index": "@P27218",
                 "label_korean": "터치 스크린에서 가로 좌표 누름",
                 "group_id": "57985",
                 "req_frame_id": "174248",
@@ -1131,13 +1131,13 @@
                 "bit_mask": 3968,
                 "bit_shift": 7,
                 "dynamic_arg": "",
-                "help_code": "30999, 30968, 33645, 30970, 33645, 30964, 33645, 30966, 33645, 30997, 30995, 30988, 30989",
-                "help_korean": "포인트의 가로 좌표 값을 읽기\n- 위해서 터치스크린의 4 코너 중의 하나를 터치한다 :\n-터치스크린의 우측 상단을\n- 누른다, 가로 좌표 값은 중간에 있을 것이다 : 94과 98%\n-터치스크린의 좌측 상단을\n- 누른다, 가로 좌표 값은 중간에 있을 것이다 : 94과 98%\n-터치스크린의 우측 하단을 누른다,\n- 포인트의 가로 좌표 값은 중간에 있을 것이다 : 94과 98%\n-터치스크린의 좌측 하단을\n- 누른다, 가로 좌표 값은 중간에 있을 것이다 : 94과 98%\nSMEG ECU에 보고된 결함이 94 또는 98 일 경우, 터치스크린의 1코너 중의 하나를 터치한다, FFB2.\n진단기에 표시된 값이\n- 위에 표시된 값 중의 하나가 다를 경우 : 터치 스크린이 결함이다.\nSMEG ECU가 원인이 아니다."
+                "help_code": "@P30999@T :@\\n@T-@P30968@T : @P33645@\\*94@\\*98@\\n@T-@P30970@T : @P33645@\\*1@\\*4@\\n@T-@P30964@T : @P33645@\\*94@\\*98@\\n@T-@P30966@T : @P33645@\\*1@\\*4@\\n@P30997@\\*FFB1, FFB2@\\*FFB3@\\*4@T.@\\n@P30995@T : @P30988@T.@\\n@P30989@T.",
+                "help_korean": "포인트의 가로 좌표 값을 읽기 위해서 터치스크린의 4 코너 중의 하나를 터치한다 :\n-터치스크린의 우측 상단을 누른다, 가로 좌표 값은 중간에 있을 것이다 : 94과 98%\n-터치스크린의 좌측 상단을 누른다, 가로 좌표 값은 중간에 있을 것이다 : 94과 98%\n-터치스크린의 우측 하단을 누른다, 포인트의 가로 좌표 값은 중간에 있을 것이다 : 94과 98%\n-터치스크린의 좌측 하단을 누른다, 가로 좌표 값은 중간에 있을 것이다 : 94과 98%\nSMEG ECU에 보고된 결함이 94 또는 98 일 경우, 터치스크린의 1코너 중의 하나를 터치한다, FFB2.\n진단기에 표시된 값이 위에 표시된 값 중의 하나가 다를 경우 : 터치 스크린이 결함이다.\nSMEG ECU가 원인이 아니다."
             },
             {
                 "position": 2,
                 "mnemonic": "MP_COORDONNEE_ORDONNEE_ECRAN_TACTILE",
-                "label_index": "27221",
+                "label_index": "@P27221",
                 "label_korean": "터치 스크린에서 세로 좌표 누름",
                 "group_id": "57985",
                 "req_frame_id": "174248",
@@ -1153,8 +1153,8 @@
                 "bit_mask": 248,
                 "bit_shift": 3,
                 "dynamic_arg": "",
-                "help_code": "31000, 30969, 33645, 30971, 33645, 30965, 33645, 30967, 33645, 30997, 30995, 30988, 30989",
-                "help_korean": "포인트의 세로 좌표 값을 읽기\n- 위해서 터치스크린의 4 코너 중의 하나를 터치한다 :\n-터치스크린의 우측 상단을\n- 누른다, 세로 좌표 값은 중간에 있을 것이다 : 94과 98%\n-터치 스크린의 좌측 상단을 누른다,\n- 포인트의 기본 값은 다음 사이에 있어야 한다 : 94과 98%\n-터치스크린의 우측 하단을 누른다,\n- 포인트의 세로 좌표 값은 중간에 있을 것이다 : 94과 98%\n-터치스크린의 좌측 하단을\n- 누른다, 세로 좌표 값은 중간에 있을 것이다 : 94과 98%\nSMEG ECU에 보고된 결함이 94 또는 98 일 경우, 터치스크린의 94코너 중의 하나를 터치한다, FFB2.\n진단기에 표시된 값이\n- 위에 표시된 값 중의 하나가 다를 경우 : 터치 스크린이 결함이다.\nSMEG ECU가 원인이 아니다."
+                "help_code": "@P31000@T :@\\n@T-@P30969@T : @P33645@\\*94@\\*98@\\n@T-@P30971@T : @P33645@\\*94@\\*98@\\n@T-@P30965@T : @P33645@\\*3@\\*7@\\n@T-@P30967@T : @P33645@\\*3@\\*7@\\n@P30997@\\*FFB1, FFB2@\\*FFB3@\\*4@T.@\\n@P30995@T : @P30988@T.@\\n@P30989@T.",
+                "help_korean": "포인트의 세로 좌표 값을 읽기 위해서 터치스크린의 4 코너 중의 하나를 터치한다 :\n-터치스크린의 우측 상단을 누른다, 세로 좌표 값은 중간에 있을 것이다 : 94과 98%\n-터치 스크린의 좌측 상단을 누른다, 포인트의 기본 값은 다음 사이에 있어야 한다 : 94과 98%\n-터치스크린의 우측 하단을 누른다, 포인트의 세로 좌표 값은 중간에 있을 것이다 : 94과 98%\n-터치스크린의 좌측 하단을 누른다, 세로 좌표 값은 중간에 있을 것이다 : 94과 98%\nSMEG ECU에 보고된 결함이 94 또는 98 일 경우, 터치스크린의 94코너 중의 하나를 터치한다, FFB2.\n진단기에 표시된 값이 위에 표시된 값 중의 하나가 다를 경우 : 터치 스크린이 결함이다.\nSMEG ECU가 원인이 아니다."
             }
         ]
     },
@@ -1167,7 +1167,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_TYPE_DE_MIXAGE_AIR",
-                "label_index": "32070",
+                "label_index": "@P32070",
                 "label_korean": "실내에서 흡기 플랩의 믹싱 타입",
                 "group_id": "57975",
                 "req_frame_id": "174218",
@@ -1186,13 +1186,13 @@
                 "bit_mask": 128,
                 "bit_shift": 7,
                 "dynamic_arg": "",
-                "help_code": "17542, 15570, 34936, 4329, 34937",
-                "help_korean": "에어컨의\n- 재질 설정을 나타낸다\n모노존 : 하나의 흡기 플랩 감속 모터 및 싱글\n- 온도 제어존이 장착된 에어 컨디셔닝\n듀얼 존 : 2 공기 플랩 감속 모터가 장착된 에어 컨디셔닝의 경우 승객쪽에 하나 및 운전석쪽에 하나 및 2온도 제어존"
+                "help_code": "@P17542@\\n@P15570@T : @P34936@\\n@P4329@T : @P34937@\\*2@\\*2",
+                "help_korean": "에어컨의 재질 설정을 나타낸다\n모노존 : 하나의 흡기 플랩 감속 모터 및 싱글 온도 제어존이 장착된 에어 컨디셔닝\n듀얼 존 : 2 공기 플랩 감속 모터가 장착된 에어 컨디셔닝의 경우 승객쪽에 하나 및 운전석쪽에 하나 및 2온도 제어존"
             },
             {
                 "position": 2,
                 "mnemonic": "MP_TYPE_DE_DISTRIBUTION_CLIM",
-                "label_index": "32071",
+                "label_index": "@P32071",
                 "label_korean": "실내에서 흡기 분배 타입",
                 "group_id": "57975",
                 "req_frame_id": "174218",
@@ -1208,13 +1208,13 @@
                 "bit_mask": 64,
                 "bit_shift": 6,
                 "dynamic_arg": "",
-                "help_code": "17542, 15570, 32192, 4329, 32193",
-                "help_korean": "에어컨의 재질 설정을 나타낸다.\n- 모노존 :\n- 에어컨디셔닝/히팅 타입\n듀얼 존 : 에어컨디셔닝 \" 온도 제어 에어컨디셔닝\" 또는 \"자동 에어컨디셔닝\" 타입"
+                "help_code": "@P17542@T.@\\n@P15570@T : @P32192@\\n@P4329@T : @P32193",
+                "help_korean": "에어컨의 재질 설정을 나타낸다.\n모노존 : 에어컨디셔닝/히팅 타입\n듀얼 존 : 에어컨디셔닝 \" 온도 제어 에어컨디셔닝\" 또는 \"자동 에어컨디셔닝\" 타입"
             },
             {
                 "position": 3,
                 "mnemonic": "MP_FONCTION_AIR_HABITACLE",
-                "label_index": "33933",
+                "label_index": "@P33933",
                 "label_korean": "실내 공기 질 제어 시스템 기능 장착",
                 "group_id": "57975",
                 "req_frame_id": "174218",
@@ -1239,7 +1239,7 @@
             {
                 "position": 4,
                 "mnemonic": "MP_FONCTION_CLIM_AR",
-                "label_index": "33936",
+                "label_index": "@P33936",
                 "label_korean": "리어 에어컨디셔닝 기능 장착",
                 "group_id": "57975",
                 "req_frame_id": "174218",
@@ -1261,7 +1261,7 @@
             {
                 "position": 5,
                 "mnemonic": "MP_ETAT_TOUCHE_RECYCLAGE_AIR",
-                "label_index": "32080",
+                "label_index": "@P32080",
                 "label_korean": "실내 공기 재순환 버튼 타입",
                 "group_id": "57975",
                 "req_frame_id": "174218",
@@ -1286,7 +1286,7 @@
             {
                 "position": 6,
                 "mnemonic": "MP_REGULATION_CLIM",
-                "label_index": "33939",
+                "label_index": "@P33939",
                 "label_korean": "에어컨디셔닝 제어 기능 장착",
                 "group_id": "57975",
                 "req_frame_id": "174218",
@@ -1302,13 +1302,13 @@
                 "bit_mask": 64,
                 "bit_shift": 6,
                 "dynamic_arg": "",
-                "help_code": "17542, 33941, 32192, 33942, 32193",
-                "help_korean": "에어컨의 재질 설정을 나타낸다.\n- 에어컨디셔닝 제어 미장착 :\n- 에어컨디셔닝/히팅 타입\n에어컨디셔닝 제어 장착 : 에어컨디셔닝 \" 온도 제어 에어컨디셔닝\" 또는 \"자동 에어컨디셔닝\" 타입"
+                "help_code": "@P17542@T.@\\n@P33941@T : @P32192@\\n@P33942@T : @P32193",
+                "help_korean": "에어컨의 재질 설정을 나타낸다.\n에어컨디셔닝 제어 미장착 : 에어컨디셔닝/히팅 타입\n에어컨디셔닝 제어 장착 : 에어컨디셔닝 \" 온도 제어 에어컨디셔닝\" 또는 \"자동 에어컨디셔닝\" 타입"
             },
             {
                 "position": 7,
                 "mnemonic": "MP_TYPE_CLIMATISATION",
-                "label_index": "13225",
+                "label_index": "@P13225",
                 "label_korean": "에어컨 타입",
                 "group_id": "57975",
                 "req_frame_id": "174218",
@@ -1335,7 +1335,7 @@
             {
                 "position": 8,
                 "mnemonic": "MP_TOUCHE_DEMANDE_AC",
-                "label_index": "33934",
+                "label_index": "@P33934",
                 "label_korean": "에어컨디셔닝 요청 터치 버튼 장착",
                 "group_id": "57975",
                 "req_frame_id": "174218",
@@ -1351,13 +1351,13 @@
                 "bit_mask": 4,
                 "bit_shift": 2,
                 "dynamic_arg": "",
-                "help_code": "34938",
+                "help_code": "@P34938",
                 "help_korean": "한가지 타입의 에어컨디셔닝 / 히팅에는 터치 버튼이 없다"
             },
             {
                 "position": 9,
                 "mnemonic": "MP_TOUCHE_MONOZONE",
-                "label_index": "32189",
+                "label_index": "@P32189",
                 "label_korean": "\"모노존\" 터치 버튼 존재",
                 "group_id": "57975",
                 "req_frame_id": "174218",
@@ -1373,7 +1373,7 @@
                 "bit_mask": 2,
                 "bit_shift": 1,
                 "dynamic_arg": "",
-                "help_code": "17542, 34939",
+                "help_code": "@P17542@\\n@P34939",
                 "help_korean": "에어컨의 재질 설정을 나타낸다\n차량에 듀얼존 자동 에어컨디셔닝이 장착되어 있을 경우 \"모노존\" 터치 버튼이 있다"
             }
         ]
@@ -1387,7 +1387,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_ETAT_AFFICHAGE_TEMP_EXT",
-                "label_index": "32082",
+                "label_index": "@P32082",
                 "label_korean": "외부 온도 표시 상태",
                 "group_id": "57976",
                 "req_frame_id": "174221",
@@ -1412,7 +1412,7 @@
             {
                 "position": 2,
                 "mnemonic": "MP_ETAT_AFFICHAGE_HEURE_ECRAN",
-                "label_index": "32083",
+                "label_index": "@P32083",
                 "label_korean": "터치 스크린에서 시간 표시 상태",
                 "group_id": "57976",
                 "req_frame_id": "174221",
@@ -1437,7 +1437,7 @@
             {
                 "position": 3,
                 "mnemonic": "MP_ETAT_TYPE_AMPLIFICATEUR_NUM",
-                "label_index": "32084",
+                "label_index": "@P32084",
                 "label_korean": "디지털 앰프의 종류",
                 "group_id": "57976",
                 "req_frame_id": "174221",
@@ -1464,7 +1464,7 @@
             {
                 "position": 4,
                 "mnemonic": "MP_ETAT_ENTREE_VIDEO_AIDE_STATIONNEMENT",
-                "label_index": "32085",
+                "label_index": "@P32085",
                 "label_korean": "후진 지원 비디오 카메라 비디오 입력 상태",
                 "group_id": "57976",
                 "req_frame_id": "174221",
@@ -1489,7 +1489,7 @@
             {
                 "position": 5,
                 "mnemonic": "MP_ETAT_TYPE_CONFIG_AIDE_STATIONNEMENT",
-                "label_index": "32086",
+                "label_index": "@P32086",
                 "label_korean": "주차 지원 설정 타입",
                 "group_id": "57976",
                 "req_frame_id": "174221",
@@ -1516,7 +1516,7 @@
             {
                 "position": 6,
                 "mnemonic": "MP_PRESENCE_RADIO_NUMERIQUE",
-                "label_index": "33656",
+                "label_index": "@P33656",
                 "label_korean": "디지털 라디오 기능 장착",
                 "group_id": "57976",
                 "req_frame_id": "174221",
@@ -1538,7 +1538,7 @@
             {
                 "position": 7,
                 "mnemonic": "MP_PRESENCE_BLUETOOTH",
-                "label_index": "33935",
+                "label_index": "@P33935",
                 "label_korean": "블루투스 기능 장착",
                 "group_id": "57976",
                 "req_frame_id": "174221",
@@ -1563,7 +1563,7 @@
             {
                 "position": 8,
                 "mnemonic": "MP_CONFIG_RADIO_NUMERIQUE",
-                "label_index": "32089",
+                "label_index": "@P32089",
                 "label_korean": "디지털 라디오 설정 타입",
                 "group_id": "57976",
                 "req_frame_id": "174221",
@@ -1584,13 +1584,13 @@
                 "bit_mask": 3,
                 "bit_shift": 0,
                 "dynamic_arg": "",
-                "help_code": "33658, 34940, 34941, 33658, 34940, 33659, 34940, 34942",
-                "help_korean": "L웨이브밴드\n- 타입 디지털 라디오 작동 : 지역은 L에서 1452MHz까지 변하는 주파수를 사용한다\n밴드 L의 작동은 디지털 라디오가 어떠한 디지털 전송을 수신하지 못하기\n- 때문에 불가능하다\nL웨이브밴드 타입 디지털 라디오 작동 : 지역은 L에서 1452MHz까지 변하는 주파수를\n- 사용한다\n모든 웨이브밴드 타입 디지털 라디오 작동 : 지역은 L에서 1452MHz까지 변하는 주파수를 사용한다\nL밴드가 작동할 경우, 자동 검색이 연속적으로 1452밴드에서 이뤄진다"
+                "help_code": "@P33658@\\*L@T : @P34940@\\*1452@\\*1492@\\n@P34941@\\n@P33658@\\*3@T : @P34940@\\*174@\\*240@\\n@P33659@T : @P34940@\\*174@\\*1492@\\n@P34942@\\*2@\\*2",
+                "help_korean": "L웨이브밴드 타입 디지털 라디오 작동 : 지역은 L에서 1452MHz까지 변하는 주파수를 사용한다\n밴드 L의 작동은 디지털 라디오가 어떠한 디지털 전송을 수신하지 못하기 때문에 불가능하다\nL웨이브밴드 타입 디지털 라디오 작동 : 지역은 L에서 1452MHz까지 변하는 주파수를 사용한다\n모든 웨이브밴드 타입 디지털 라디오 작동 : 지역은 L에서 1452MHz까지 변하는 주파수를 사용한다\nL밴드가 작동할 경우, 자동 검색이 연속적으로 1452밴드에서 이뤄진다"
             },
             {
                 "position": 9,
                 "mnemonic": "MP_CONFIG_SOUS_GONFLAGE",
-                "label_index": "32090",
+                "label_index": "@P32090",
                 "label_korean": "타이어 공기압 감지 설정 타입",
                 "group_id": "57976",
                 "req_frame_id": "174221",
@@ -1616,7 +1616,7 @@
             {
                 "position": 10,
                 "mnemonic": "MP_FONCTION_FADER",
-                "label_index": "13957",
+                "label_index": "@P13957",
                 "label_korean": "페이더 기능",
                 "group_id": "57976",
                 "req_frame_id": "174221",
@@ -1635,13 +1635,13 @@
                 "bit_mask": 2,
                 "bit_shift": 1,
                 "dynamic_arg": "",
-                "help_code": "29411, 31759, 31269",
-                "help_korean": "차량에 음을\n- 분배하기 위해서 사용 가능한 스피커의 수를 정의한다 :\n-페이더\n- 기능 작동 : 4 스피커(2프론트/2리어)\n-페이더\n- 기능 차단 : 4스피커 (2프론트)"
+                "help_code": "@P29411@T :@\\n@T-@P31759@\\*4@\\*2@\\*2@\\n@T-@P31269@\\*2@\\*2",
+                "help_korean": "차량에 음을 분배하기 위해서 사용 가능한 스피커의 수를 정의한다 :\n-페이더 기능 작동 : 4 스피커(2프론트/2리어)\n-페이더 기능 차단 : 4스피커 (2프론트)"
             },
             {
                 "position": 11,
                 "mnemonic": "MP_BANDE_FREQUENCE_AM",
-                "label_index": "13331",
+                "label_index": "@P13331",
                 "label_korean": "AM 웨이브밴드",
                 "group_id": "57976",
                 "req_frame_id": "174221",
@@ -1660,13 +1660,13 @@
                 "bit_mask": 1,
                 "bit_shift": 0,
                 "dynamic_arg": "",
-                "help_code": "32345, 31151",
+                "help_code": "@P32345@T.@\\n@P31151",
                 "help_korean": "AM 주파수 밴드의 작동 상태를 정의한다.\n전기차량 또는 하이브리드 차량의 경우, 이 변수를 차단하는 것은 필수이다"
             },
             {
                 "position": 12,
                 "mnemonic": "MP_CONFIG_TYPE_ANTENNE_1",
-                "label_index": "30070",
+                "label_index": "@P30070@\\*1",
                 "label_korean": "안테나1 타입 설정",
                 "group_id": "57976",
                 "req_frame_id": "174221",
@@ -1685,13 +1685,13 @@
                 "bit_mask": 128,
                 "bit_shift": 7,
                 "dynamic_arg": "1",
-                "help_code": "32429",
+                "help_code": "@P32429@\\*1",
                 "help_korean": "안테나 n°1 을 위해 사용된 안테나를 정의한다"
             },
             {
                 "position": 13,
                 "mnemonic": "MP_CONFIG_TYPE_ANTENNE_2",
-                "label_index": "30070",
+                "label_index": "@P30070@\\*2",
                 "label_korean": "안테나2 타입 설정",
                 "group_id": "57976",
                 "req_frame_id": "174221",
@@ -1710,13 +1710,13 @@
                 "bit_mask": 64,
                 "bit_shift": 6,
                 "dynamic_arg": "2",
-                "help_code": "32429",
+                "help_code": "@P32429@\\*2",
                 "help_korean": "안테나 n°2 을 위해 사용된 안테나를 정의한다"
             },
             {
                 "position": 14,
                 "mnemonic": "MP_NOMBRE_ANTENNE_RADIO",
-                "label_index": "31751",
+                "label_index": "@P31751",
                 "label_korean": "라디오 안테나의 수",
                 "group_id": "57976",
                 "req_frame_id": "174221",
@@ -1735,13 +1735,13 @@
                 "bit_mask": 32,
                 "bit_shift": 5,
                 "dynamic_arg": "",
-                "help_code": "32346",
+                "help_code": "@P32346@T.",
                 "help_korean": "차량에 안테나의 수를 정의한다."
             },
             {
                 "position": 15,
                 "mnemonic": "MP_TYPE_COMMANDE_VOLANT",
-                "label_index": "13418",
+                "label_index": "@F13418",
                 "label_korean": "스티어링 휠 컨트롤 타입",
                 "group_id": "57976",
                 "req_frame_id": "174221",
@@ -1772,7 +1772,7 @@
             {
                 "position": 16,
                 "mnemonic": "MP_FONCTION_STT",
-                "label_index": "34405",
+                "label_index": "@P34405",
                 "label_korean": "\"스탑 앤 스타트\" 기능 장착",
                 "group_id": "57976",
                 "req_frame_id": "174221",
@@ -1794,7 +1794,7 @@
             {
                 "position": 17,
                 "mnemonic": "MP_INTERNET",
-                "label_index": "28768",
+                "label_index": "@P28768",
                 "label_korean": "인터넷 기능",
                 "group_id": "57976",
                 "req_frame_id": "174221",
@@ -1819,7 +1819,7 @@
             {
                 "position": 18,
                 "mnemonic": "MP_PRESENCE_FONCTION_XVV",
-                "label_index": "34406",
+                "label_index": "@P34406",
                 "label_korean": "차량 속도 조절 기능 존재",
                 "group_id": "57976",
                 "req_frame_id": "174221",
@@ -1841,7 +1841,7 @@
             {
                 "position": 19,
                 "mnemonic": "MP_TYPE_CONFIG_AIDE_STATIONNEMENT_SEMI_AUTO",
-                "label_index": "33664",
+                "label_index": "@P33664",
                 "label_korean": "반자동 주차 지원 타입 설정 및 장착",
                 "group_id": "57976",
                 "req_frame_id": "174221",
@@ -1860,13 +1860,13 @@
                 "bit_mask": 192,
                 "bit_shift": 6,
                 "dynamic_arg": "",
-                "help_code": "33878, 33932",
+                "help_code": "@T-@P33878@\\n@T-@P33932@T.",
                 "help_korean": "-차량에 측면 주차 지원 센서와 프론트와 리어 주차 지원 센서가 장착되었을 경우 \"일렬 주차\" 반자동 주차 지원이 가능하다\n-차량에 측면 및 프론트 및 리어 주차 지원 센서가 장착되어 있으면 \"일렬 주차\" 및 \"직각 주차\" 반자동 주차 지원이 이뤄진다."
             },
             {
                 "position": 20,
                 "mnemonic": "MP_ETAT_CONFIG_INTERNET",
-                "label_index": "32099",
+                "label_index": "@P32099",
                 "label_korean": "인터넷 설정 상태",
                 "group_id": "57976",
                 "req_frame_id": "174221",
@@ -1886,13 +1886,13 @@
                 "bit_mask": 24,
                 "bit_shift": 3,
                 "dynamic_arg": "",
-                "help_code": "35642, 34966, 34967, 35661, 34965",
-                "help_korean": "인터넷 : 인트라넷은 SMEG모빌리티 포털 키를 통해서 접속한다.\nSMEG모빌리티 포털 키는 푸조 커넥터 어플 포털 또는 시트로엥 커넥트에 접속하도록 한다.\n- 인터넷 : 모바일 장치는 차량이 정차 상태일 때 공유 연결을 통햇 인터넷에 접속할 수 있다."
+                "help_code": "@P35642@T : @P34966@\\*SMEG@T.@\\n@P34967@\\*SMEG@T.@\\n@P35661@T : @P34965@T.",
+                "help_korean": "인터넷 : 인트라넷은 SMEG모빌리티 포털 키를 통해서 접속한다.\nSMEG모빌리티 포털 키는 푸조 커넥터 어플 포털 또는 시트로엥 커넥트에 접속하도록 한다.\n인터넷 : 모바일 장치는 차량이 정차 상태일 때 공유 연결을 통햇 인터넷에 접속할 수 있다."
             },
             {
                 "position": 21,
                 "mnemonic": "MP_PRESENCE_CAMERA_360",
-                "label_index": "31599",
+                "label_index": "@P31599",
                 "label_korean": "파노라믹 시각 지원의 존재",
                 "group_id": "57976",
                 "req_frame_id": "174221",
@@ -1922,7 +1922,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_ETAT_AFFICHAGE_TEMP_EXT",
-                "label_index": "32082",
+                "label_index": "@P32082",
                 "label_korean": "외부 온도 표시 상태",
                 "group_id": "57976",
                 "req_frame_id": "174221",
@@ -1947,7 +1947,7 @@
             {
                 "position": 2,
                 "mnemonic": "MP_ETAT_AFFICHAGE_HEURE_ECRAN",
-                "label_index": "32083",
+                "label_index": "@P32083",
                 "label_korean": "터치 스크린에서 시간 표시 상태",
                 "group_id": "57976",
                 "req_frame_id": "174221",
@@ -1972,7 +1972,7 @@
             {
                 "position": 3,
                 "mnemonic": "MP_ETAT_TYPE_AMPLIFICATEUR_NUM",
-                "label_index": "32084",
+                "label_index": "@P32084",
                 "label_korean": "디지털 앰프의 종류",
                 "group_id": "57976",
                 "req_frame_id": "174221",
@@ -1999,7 +1999,7 @@
             {
                 "position": 4,
                 "mnemonic": "MP_ETAT_ENTREE_VIDEO_AIDE_STATIONNEMENT",
-                "label_index": "32085",
+                "label_index": "@P32085",
                 "label_korean": "후진 지원 비디오 카메라 비디오 입력 상태",
                 "group_id": "57976",
                 "req_frame_id": "174221",
@@ -2024,7 +2024,7 @@
             {
                 "position": 5,
                 "mnemonic": "MP_ETAT_TYPE_CONFIG_AIDE_STATIONNEMENT",
-                "label_index": "32086",
+                "label_index": "@P32086",
                 "label_korean": "주차 지원 설정 타입",
                 "group_id": "57976",
                 "req_frame_id": "174221",
@@ -2051,7 +2051,7 @@
             {
                 "position": 6,
                 "mnemonic": "MP_PRESENCE_RADIO_NUMERIQUE",
-                "label_index": "33656",
+                "label_index": "@P33656",
                 "label_korean": "디지털 라디오 기능 장착",
                 "group_id": "57976",
                 "req_frame_id": "174221",
@@ -2073,7 +2073,7 @@
             {
                 "position": 7,
                 "mnemonic": "MP_PRESENCE_BLUETOOTH",
-                "label_index": "33935",
+                "label_index": "@P33935",
                 "label_korean": "블루투스 기능 장착",
                 "group_id": "57976",
                 "req_frame_id": "174221",
@@ -2098,7 +2098,7 @@
             {
                 "position": 8,
                 "mnemonic": "MP_CONFIG_RADIO_NUMERIQUE",
-                "label_index": "32089",
+                "label_index": "@P32089",
                 "label_korean": "디지털 라디오 설정 타입",
                 "group_id": "57976",
                 "req_frame_id": "174221",
@@ -2119,13 +2119,13 @@
                 "bit_mask": 3,
                 "bit_shift": 0,
                 "dynamic_arg": "",
-                "help_code": "33658, 34940, 34941, 33658, 34940, 33659, 34940, 34942",
-                "help_korean": "L웨이브밴드\n- 타입 디지털 라디오 작동 : 지역은 L에서 1452MHz까지 변하는 주파수를 사용한다\n밴드 L의 작동은 디지털 라디오가 어떠한 디지털 전송을 수신하지 못하기\n- 때문에 불가능하다\nL웨이브밴드 타입 디지털 라디오 작동 : 지역은 L에서 1452MHz까지 변하는 주파수를\n- 사용한다\n모든 웨이브밴드 타입 디지털 라디오 작동 : 지역은 L에서 1452MHz까지 변하는 주파수를 사용한다\nL밴드가 작동할 경우, 자동 검색이 연속적으로 1452밴드에서 이뤄진다"
+                "help_code": "@P33658@\\*L@T : @P34940@\\*1452@\\*1492@\\n@P34941@\\n@P33658@\\*3@T : @P34940@\\*174@\\*240@\\n@P33659@T : @P34940@\\*174@\\*1492@\\n@P34942@\\*2@\\*2",
+                "help_korean": "L웨이브밴드 타입 디지털 라디오 작동 : 지역은 L에서 1452MHz까지 변하는 주파수를 사용한다\n밴드 L의 작동은 디지털 라디오가 어떠한 디지털 전송을 수신하지 못하기 때문에 불가능하다\nL웨이브밴드 타입 디지털 라디오 작동 : 지역은 L에서 1452MHz까지 변하는 주파수를 사용한다\n모든 웨이브밴드 타입 디지털 라디오 작동 : 지역은 L에서 1452MHz까지 변하는 주파수를 사용한다\nL밴드가 작동할 경우, 자동 검색이 연속적으로 1452밴드에서 이뤄진다"
             },
             {
                 "position": 9,
                 "mnemonic": "MP_CONFIG_SOUS_GONFLAGE",
-                "label_index": "32090",
+                "label_index": "@P32090",
                 "label_korean": "타이어 공기압 감지 설정 타입",
                 "group_id": "57976",
                 "req_frame_id": "174221",
@@ -2151,7 +2151,7 @@
             {
                 "position": 10,
                 "mnemonic": "MP_FONCTION_FADER",
-                "label_index": "13957",
+                "label_index": "@P13957",
                 "label_korean": "페이더 기능",
                 "group_id": "57976",
                 "req_frame_id": "174221",
@@ -2170,13 +2170,13 @@
                 "bit_mask": 2,
                 "bit_shift": 1,
                 "dynamic_arg": "",
-                "help_code": "29411, 31759, 31269",
-                "help_korean": "차량에 음을\n- 분배하기 위해서 사용 가능한 스피커의 수를 정의한다 :\n-페이더\n- 기능 작동 : 4 스피커(2프론트/2리어)\n-페이더\n- 기능 차단 : 4스피커 (2프론트)"
+                "help_code": "@P29411@T :@\\n@T-@P31759@\\*4@\\*2@\\*2@\\n@T-@P31269@\\*2@\\*2",
+                "help_korean": "차량에 음을 분배하기 위해서 사용 가능한 스피커의 수를 정의한다 :\n-페이더 기능 작동 : 4 스피커(2프론트/2리어)\n-페이더 기능 차단 : 4스피커 (2프론트)"
             },
             {
                 "position": 11,
                 "mnemonic": "MP_BANDE_FREQUENCE_AM",
-                "label_index": "13331",
+                "label_index": "@P13331",
                 "label_korean": "AM 웨이브밴드",
                 "group_id": "57976",
                 "req_frame_id": "174221",
@@ -2195,13 +2195,13 @@
                 "bit_mask": 1,
                 "bit_shift": 0,
                 "dynamic_arg": "",
-                "help_code": "32345, 31151",
+                "help_code": "@P32345@T.@\\n@P31151",
                 "help_korean": "AM 주파수 밴드의 작동 상태를 정의한다.\n전기차량 또는 하이브리드 차량의 경우, 이 변수를 차단하는 것은 필수이다"
             },
             {
                 "position": 12,
                 "mnemonic": "MP_CONFIG_TYPE_ANTENNE_1",
-                "label_index": "30070",
+                "label_index": "@P30070@\\*1",
                 "label_korean": "안테나1 타입 설정",
                 "group_id": "57976",
                 "req_frame_id": "174221",
@@ -2220,13 +2220,13 @@
                 "bit_mask": 128,
                 "bit_shift": 7,
                 "dynamic_arg": "1",
-                "help_code": "32429",
+                "help_code": "@P32429@\\*1",
                 "help_korean": "안테나 n°1 을 위해 사용된 안테나를 정의한다"
             },
             {
                 "position": 13,
                 "mnemonic": "MP_CONFIG_TYPE_ANTENNE_2",
-                "label_index": "30070",
+                "label_index": "@P30070@\\*2",
                 "label_korean": "안테나2 타입 설정",
                 "group_id": "57976",
                 "req_frame_id": "174221",
@@ -2245,13 +2245,13 @@
                 "bit_mask": 64,
                 "bit_shift": 6,
                 "dynamic_arg": "2",
-                "help_code": "32429",
+                "help_code": "@P32429@\\*2",
                 "help_korean": "안테나 n°2 을 위해 사용된 안테나를 정의한다"
             },
             {
                 "position": 14,
                 "mnemonic": "MP_NOMBRE_ANTENNE_RADIO",
-                "label_index": "31751",
+                "label_index": "@P31751",
                 "label_korean": "라디오 안테나의 수",
                 "group_id": "57976",
                 "req_frame_id": "174221",
@@ -2270,13 +2270,13 @@
                 "bit_mask": 32,
                 "bit_shift": 5,
                 "dynamic_arg": "",
-                "help_code": "32346",
+                "help_code": "@P32346@T.",
                 "help_korean": "차량에 안테나의 수를 정의한다."
             },
             {
                 "position": 15,
                 "mnemonic": "MP_TYPE_COMMANDE_VOLANT",
-                "label_index": "13418",
+                "label_index": "@F13418",
                 "label_korean": "스티어링 휠 컨트롤 타입",
                 "group_id": "57976",
                 "req_frame_id": "174221",
@@ -2307,7 +2307,7 @@
             {
                 "position": 16,
                 "mnemonic": "MP_FONCTION_STT",
-                "label_index": "34405",
+                "label_index": "@P34405",
                 "label_korean": "\"스탑 앤 스타트\" 기능 장착",
                 "group_id": "57976",
                 "req_frame_id": "174221",
@@ -2329,7 +2329,7 @@
             {
                 "position": 17,
                 "mnemonic": "MP_INTERNET",
-                "label_index": "28768",
+                "label_index": "@P28768",
                 "label_korean": "인터넷 기능",
                 "group_id": "57976",
                 "req_frame_id": "174221",
@@ -2354,7 +2354,7 @@
             {
                 "position": 18,
                 "mnemonic": "MP_PRESENCE_FONCTION_XVV",
-                "label_index": "34406",
+                "label_index": "@P34406",
                 "label_korean": "차량 속도 조절 기능 존재",
                 "group_id": "57976",
                 "req_frame_id": "174221",
@@ -2376,7 +2376,7 @@
             {
                 "position": 19,
                 "mnemonic": "MP_TYPE_CONFIG_AIDE_STATIONNEMENT_SEMI_AUTO",
-                "label_index": "33664",
+                "label_index": "@P33664",
                 "label_korean": "반자동 주차 지원 타입 설정 및 장착",
                 "group_id": "57976",
                 "req_frame_id": "174221",
@@ -2395,13 +2395,13 @@
                 "bit_mask": 192,
                 "bit_shift": 6,
                 "dynamic_arg": "",
-                "help_code": "33878, 33932",
+                "help_code": "@T-@P33878@\\n@T-@P33932@T.",
                 "help_korean": "-차량에 측면 주차 지원 센서와 프론트와 리어 주차 지원 센서가 장착되었을 경우 \"일렬 주차\" 반자동 주차 지원이 가능하다\n-차량에 측면 및 프론트 및 리어 주차 지원 센서가 장착되어 있으면 \"일렬 주차\" 및 \"직각 주차\" 반자동 주차 지원이 이뤄진다."
             },
             {
                 "position": 20,
                 "mnemonic": "MP_ETAT_CONFIG_INTERNET",
-                "label_index": "32099",
+                "label_index": "@P32099",
                 "label_korean": "인터넷 설정 상태",
                 "group_id": "57976",
                 "req_frame_id": "174221",
@@ -2421,13 +2421,13 @@
                 "bit_mask": 24,
                 "bit_shift": 3,
                 "dynamic_arg": "",
-                "help_code": "35642, 34966, 34967, 35661, 34965",
-                "help_korean": "인터넷 : 인트라넷은 SMEG모빌리티 포털 키를 통해서 접속한다.\nSMEG모빌리티 포털 키는 푸조 커넥터 어플 포털 또는 시트로엥 커넥트에 접속하도록 한다.\n- 인터넷 : 모바일 장치는 차량이 정차 상태일 때 공유 연결을 통햇 인터넷에 접속할 수 있다."
+                "help_code": "@P35642@T : @P34966@\\*SMEG@T.@\\n@P34967@\\*SMEG@T.@\\n@P35661@T : @P34965@T.",
+                "help_korean": "인터넷 : 인트라넷은 SMEG모빌리티 포털 키를 통해서 접속한다.\nSMEG모빌리티 포털 키는 푸조 커넥터 어플 포털 또는 시트로엥 커넥트에 접속하도록 한다.\n인터넷 : 모바일 장치는 차량이 정차 상태일 때 공유 연결을 통햇 인터넷에 접속할 수 있다."
             },
             {
                 "position": 21,
                 "mnemonic": "MP_PRESENCE_CAMERA_360",
-                "label_index": "31599",
+                "label_index": "@P31599",
                 "label_korean": "파노라믹 시각 지원의 존재",
                 "group_id": "57976",
                 "req_frame_id": "174221",
@@ -2449,7 +2449,7 @@
             {
                 "position": 22,
                 "mnemonic": "MP_FONCTION_SMARTAPPS",
-                "label_index": "36148",
+                "label_index": "@P36148",
                 "label_korean": "\"SMARTAPPS\" 기능",
                 "group_id": "57976",
                 "req_frame_id": "174221",
@@ -2468,7 +2468,7 @@
                 "bit_mask": 1,
                 "bit_shift": 0,
                 "dynamic_arg": "",
-                "help_code": "36149",
+                "help_code": "@P36149",
                 "help_korean": "SMARTAPP 기능은 고객이 서버로부터 자동적으로 업데이트되는 프로그램에 접속할 수 있도록 한다"
             }
         ]
@@ -2482,7 +2482,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_JOURNAL_ORDINATEUR_BORD",
-                "label_index": "33894",
+                "label_index": "@P33894",
                 "label_korean": "트립 컴퓨터 로그 기능",
                 "group_id": "57976",
                 "req_frame_id": "174221",
@@ -2498,13 +2498,13 @@
                 "bit_mask": 8,
                 "bit_shift": 3,
                 "dynamic_arg": "",
-                "help_code": "33897",
+                "help_code": "@P33897@\\*(CIROCCO)",
                 "help_korean": "트립 컴퓨터 정보는 차량에 계기판이 장착되어 있지 않으면 터치 스크린에 표시된다(CIROCCO)"
             },
             {
                 "position": 2,
                 "mnemonic": "MP_AFFICHAGE_MESSAGE_ALERTES",
-                "label_index": "33924",
+                "label_index": "@P33924",
                 "label_korean": "경고 메시지 표시 기능",
                 "group_id": "57976",
                 "req_frame_id": "174221",
@@ -2520,13 +2520,13 @@
                 "bit_mask": 4,
                 "bit_shift": 2,
                 "dynamic_arg": "",
-                "help_code": "33925",
+                "help_code": "@P33925@\\*(CIROCCO)",
                 "help_korean": "차량에 계기판이 장착되어 있지 않으면 경고 메시지는 터치 스크린에 표시된다(CIROCCO)"
             },
             {
                 "position": 3,
                 "mnemonic": "MP_AFFICHAGE_JOURNAL_ALERTES",
-                "label_index": "33895",
+                "label_index": "@P33895",
                 "label_korean": "경고 로그 표시 기능",
                 "group_id": "57976",
                 "req_frame_id": "174221",
@@ -2542,13 +2542,13 @@
                 "bit_mask": 2,
                 "bit_shift": 1,
                 "dynamic_arg": "",
-                "help_code": "33898",
+                "help_code": "@P33898@\\*(CIROCCO)",
                 "help_korean": "차량에 계기판이 장착되어 있지 않으면 경고 로그는 터치스크린에 표시된다(CIROCCO)"
             },
             {
                 "position": 4,
                 "mnemonic": "MP_AFFICHAGE_ALERTES_VEHICULE",
-                "label_index": "33896",
+                "label_index": "@P33896",
                 "label_korean": "차량 경고 표시 기능",
                 "group_id": "57976",
                 "req_frame_id": "174221",
@@ -2564,7 +2564,7 @@
                 "bit_mask": 32,
                 "bit_shift": 5,
                 "dynamic_arg": "",
-                "help_code": "33940",
+                "help_code": "@P33940@\\*(CIROCCO)",
                 "help_korean": "차량에 계기판이 장착되어 있지 않으면 차량 경고는 터치 스크린에 표시된다(CIROCCO)"
             }
         ]
@@ -2578,7 +2578,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_FONCTION_ACTIVITE_RADIO",
-                "label_index": "27231",
+                "label_index": "@P27231",
                 "label_korean": "라디오 작동 기능",
                 "group_id": "57980",
                 "req_frame_id": "174233",
@@ -2597,13 +2597,13 @@
                 "bit_mask": 128,
                 "bit_shift": 7,
                 "dynamic_arg": "",
-                "help_code": "33902, 33901",
+                "help_code": "@P33902@T.@\\n@P33901@T.",
                 "help_korean": "텔레메틱 시스템이 작동한 후로 라디오가 최소한 한번이라도 작동했다면 변수 측정은 \"기능 작동\"으로 된다.\n변수 측정은 진단기에 의해서 제로 리셋이 될때까지 \"기능 작동\"으로 남아 있는다."
             },
             {
                 "position": 2,
                 "mnemonic": "MP_FONCTION_ACTIVITES_GPS",
-                "label_index": "27195",
+                "label_index": "@P27195",
                 "label_korean": "위성 네비게이션 시스템 작동 기능",
                 "group_id": "57980",
                 "req_frame_id": "174233",
@@ -2622,13 +2622,13 @@
                 "bit_mask": 64,
                 "bit_shift": 6,
                 "dynamic_arg": "",
-                "help_code": "33903, 33901",
+                "help_code": "@P33903@T.@\\n@P33901",
                 "help_korean": "텔레메틱 시스템이 작동한 후로 네비게이션이 최소한 한번이라도 작동했다면 변수 측정은 \"기능 작동\"으로 된다.\n변수 측정은 진단기에 의해서 제로 리셋이 될때까지 \"기능 작동\"으로 남아 있는다"
             },
             {
                 "position": 3,
                 "mnemonic": "MP_FONCTION_ACTIVITE_MICRO",
-                "label_index": "27222",
+                "label_index": "@P27222",
                 "label_korean": "마이크로폰 작동 기능",
                 "group_id": "57980",
                 "req_frame_id": "174233",
@@ -2647,13 +2647,13 @@
                 "bit_mask": 32,
                 "bit_shift": 5,
                 "dynamic_arg": "",
-                "help_code": "33929, 33901",
+                "help_code": "@P33929@T.@\\n@P33901",
                 "help_korean": "텔레메틱 시스템이 작동한 후로 마이크로폰이 최소한 한번이라도 작동했다면 변수 측정은 \"기능 작동\"으로 된다.\n변수 측정은 진단기에 의해서 제로 리셋이 될때까지 \"기능 작동\"으로 남아 있는다"
             },
             {
                 "position": 4,
                 "mnemonic": "MP_FONCTION_APPAIRAGE_BLUETOOTH",
-                "label_index": "27202",
+                "label_index": "@P27202",
                 "label_korean": "블루투스 페어링 기능",
                 "group_id": "57980",
                 "req_frame_id": "174233",
@@ -2673,13 +2673,13 @@
                 "bit_mask": 16,
                 "bit_shift": 4,
                 "dynamic_arg": "",
-                "help_code": "33930, 33901",
+                "help_code": "@P33930@T.@\\n@P33901",
                 "help_korean": "텔레메틱 시스템이 작동한 후로 전화가 최소한 한번이라도 연결되었다면 변수 측정은 \"기능 작동\"으로 된다.\n변수 측정은 진단기에 의해서 제로 리셋이 될때까지 \"기능 작동\"으로 남아 있는다"
             },
             {
                 "position": 5,
                 "mnemonic": "MP_FONCTION_ACTIVITE_RADIO_NUMERIQUE",
-                "label_index": "27237",
+                "label_index": "@P27237",
                 "label_korean": "디지털 라디오 작동 기능",
                 "group_id": "57980",
                 "req_frame_id": "174233",
@@ -2698,13 +2698,13 @@
                 "bit_mask": 4,
                 "bit_shift": 2,
                 "dynamic_arg": "",
-                "help_code": "33906, 33901",
+                "help_code": "@P33906@T.@\\n@P33901",
                 "help_korean": "텔레메틱 시스템이 작동한 후로 디지털 라디오가 최소한 한번이라도 작동했다면 변수 측정은 \"기능 작동\"으로 된다.\n변수 측정은 진단기에 의해서 제로 리셋이 될때까지 \"기능 작동\"으로 남아 있는다"
             },
             {
                 "position": 6,
                 "mnemonic": "MP_FONCTION_ENTREE_AUDIO",
-                "label_index": "27205",
+                "label_index": "@P27205",
                 "label_korean": "오디오 입력 기능",
                 "group_id": "57980",
                 "req_frame_id": "174233",
@@ -2723,13 +2723,13 @@
                 "bit_mask": 2,
                 "bit_shift": 1,
                 "dynamic_arg": "",
-                "help_code": "33928, 33901",
+                "help_code": "@P33928@T.@\\n@P33901",
                 "help_korean": "텔레메틱 시스템이 작동한 후로 외부 오디오 소스가 최소한 한번이라도 감지되었으면 변수 측정은 \"기능 작동\"으로 된다.\n변수 측정은 진단기에 의해서 제로 리셋이 될때까지 \"기능 작동\"으로 남아 있는다"
             },
             {
                 "position": 7,
                 "mnemonic": "MP_FONCTION_ENTREE_USB",
-                "label_index": "27213",
+                "label_index": "@P27213",
                 "label_korean": "USB 입력 기능",
                 "group_id": "57980",
                 "req_frame_id": "174233",
@@ -2748,13 +2748,13 @@
                 "bit_mask": 1,
                 "bit_shift": 0,
                 "dynamic_arg": "",
-                "help_code": "33931, 33901",
+                "help_code": "@P33931@T.@\\n@P33901",
                 "help_korean": "텔레메틱 시스템이 작동한 후로 USB 소스가 사용되었다면 변수 측정은 \"기능 작동\"으로 된다.\n변수 측정은 진단기에 의해서 제로 리셋이 될때까지 \"기능 작동\"으로 남아 있는다"
             },
             {
                 "position": 8,
                 "mnemonic": "MP_FONCTION_ENTREE_USB_02",
-                "label_index": "32114",
+                "label_index": "@P32114@\\*2",
                 "label_korean": "USB 입력 N° 2의 기능",
                 "group_id": "57980",
                 "req_frame_id": "174233",
@@ -2773,13 +2773,13 @@
                 "bit_mask": 8,
                 "bit_shift": 3,
                 "dynamic_arg": "2",
-                "help_code": "33931, 33901",
+                "help_code": "@P33931@T.@\\n@P33901",
                 "help_korean": "텔레메틱 시스템이 작동한 후로 USB 소스가 사용되었다면 변수 측정은 \"기능 작동\"으로 된다.\n변수 측정은 진단기에 의해서 제로 리셋이 될때까지 \"기능 작동\"으로 남아 있는다"
             },
             {
                 "position": 9,
                 "mnemonic": "MP_FONCTION_ACTIVITE_INTERNET",
-                "label_index": "27212",
+                "label_index": "@P27212",
                 "label_korean": "인터넷 작동 기능",
                 "group_id": "57980",
                 "req_frame_id": "174233",
@@ -2798,13 +2798,13 @@
                 "bit_mask": 128,
                 "bit_shift": 7,
                 "dynamic_arg": "",
-                "help_code": "33907, 33901",
+                "help_code": "@P33907@T.@\\n@P33901",
                 "help_korean": "텔레메틱 시스템이 작동한 후로 인터넷 기능이 최소한 한번이라도 사용되었다면 변수 측정은 \"기능 작동\"으로 된다.\n변수 측정은 진단기에 의해서 제로 리셋이 될때까지 \"기능 작동\"으로 남아 있는다"
             },
             {
                 "position": 10,
                 "mnemonic": "MP_SIGNAL_SATELLITE_01",
-                "label_index": "32112",
+                "label_index": "@P32112@\\*1",
                 "label_korean": "위성 신호 N° 1 레벨",
                 "group_id": "57982",
                 "req_frame_id": "174239",
@@ -2820,13 +2820,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "1",
-                "help_code": "32119, 33951",
+                "help_code": "@P32119@\\*10@T.@\\n@P33951",
                 "help_korean": "변수는 매10초마다 업데이트된다.\n데시벨 변수 값이 높으면 높을수록, GPS 위치 신호 수신이 더 잘된다"
             },
             {
                 "position": 11,
                 "mnemonic": "MP_SIGNAL_SATELLITE_02",
-                "label_index": "32112",
+                "label_index": "@P32112@\\*2",
                 "label_korean": "위성 신호 N° 2 레벨",
                 "group_id": "57982",
                 "req_frame_id": "174239",
@@ -2842,13 +2842,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "2",
-                "help_code": "32119, 33951",
+                "help_code": "@P32119@\\*10@T.@\\n@P33951",
                 "help_korean": "변수는 매10초마다 업데이트된다.\n데시벨 변수 값이 높으면 높을수록, GPS 위치 신호 수신이 더 잘된다"
             },
             {
                 "position": 12,
                 "mnemonic": "MP_SIGNAL_SATELLITE_03",
-                "label_index": "32112",
+                "label_index": "@P32112@\\*3",
                 "label_korean": "위성 신호 N° 3 레벨",
                 "group_id": "57982",
                 "req_frame_id": "174239",
@@ -2864,13 +2864,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "3",
-                "help_code": "32119, 33951",
+                "help_code": "@P32119@\\*10@T.@\\n@P33951",
                 "help_korean": "변수는 매10초마다 업데이트된다.\n데시벨 변수 값이 높으면 높을수록, GPS 위치 신호 수신이 더 잘된다"
             },
             {
                 "position": 13,
                 "mnemonic": "MP_NIVEAUX_SIGNAL_AUDIO",
-                "label_index": "32113",
+                "label_index": "@P32113",
                 "label_korean": "오디오 신호 레벨",
                 "group_id": "57982",
                 "req_frame_id": "174239",
@@ -2886,13 +2886,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "33910",
+                "help_code": "@P33910",
                 "help_korean": "라디오 신호 값이 높으면 높을수록, 수신이 더 잘된다"
             },
             {
                 "position": 14,
                 "mnemonic": "MP_ETAT_ENTREE_USB_01",
-                "label_index": "33952",
+                "label_index": "@P33952@\\*1",
                 "label_korean": "USB 입력 N° 1의 상태",
                 "group_id": "57982",
                 "req_frame_id": "174239",
@@ -2911,13 +2911,13 @@
                 "bit_mask": 128,
                 "bit_shift": 7,
                 "dynamic_arg": "1",
-                "help_code": "33911, 33912, 33913",
-                "help_korean": "UBS\n- 연결 장치가 없다 :\n-USB 소스가 텔레메틱 시스템 USB 연결장치 번호1에 연결되어 있지 않다\n-USB 소스가 텔레메틱 시스템 USB 연결장치 번호1에 연결되어 있지 만 텔레메틱 시스템에 의해서 인식되지 않는다"
+                "help_code": "@P33911@T :@\\n@T-@P33912@\\*1@\\n@T-@P33913@\\*1",
+                "help_korean": "UBS 연결 장치가 없다 :\n-USB 소스가 텔레메틱 시스템 USB 연결장치 번호1에 연결되어 있지 않다\n-USB 소스가 텔레메틱 시스템 USB 연결장치 번호1에 연결되어 있지 만 텔레메틱 시스템에 의해서 인식되지 않는다"
             },
             {
                 "position": 15,
                 "mnemonic": "MP_ETAT_ENTREE_USB_02",
-                "label_index": "33952",
+                "label_index": "@P33952@\\*2",
                 "label_korean": "USB 입력 N° 2의 상태",
                 "group_id": "57982",
                 "req_frame_id": "174239",
@@ -2936,13 +2936,13 @@
                 "bit_mask": 32,
                 "bit_shift": 5,
                 "dynamic_arg": "2",
-                "help_code": "33911, 33912, 33913",
-                "help_korean": "UBS\n- 연결 장치가 없다 :\n-USB 소스가 텔레메틱 시스템 USB 연결장치 번호2에 연결되어 있지 않다\n-USB 소스가 텔레메틱 시스템 USB 연결장치 번호2에 연결되어 있지 만 텔레메틱 시스템에 의해서 인식되지 않는다"
+                "help_code": "@P33911@T :@\\n@T-@P33912@\\*2@\\n@T-@P33913@\\*2",
+                "help_korean": "UBS 연결 장치가 없다 :\n-USB 소스가 텔레메틱 시스템 USB 연결장치 번호2에 연결되어 있지 않다\n-USB 소스가 텔레메틱 시스템 USB 연결장치 번호2에 연결되어 있지 만 텔레메틱 시스템에 의해서 인식되지 않는다"
             },
             {
                 "position": 16,
                 "mnemonic": "MP_FONCTION_AUXILIAIRE_AUDIO",
-                "label_index": "32115",
+                "label_index": "@P32115",
                 "label_korean": "오디오 보조 기능",
                 "group_id": "57982",
                 "req_frame_id": "174239",
@@ -2967,7 +2967,7 @@
             {
                 "position": 17,
                 "mnemonic": "MP_NIVEAUX_SIGNAL_RADIO_NUMERIQUE",
-                "label_index": "32116",
+                "label_index": "@P32116",
                 "label_korean": "디지털 라디오 신호 레벨",
                 "group_id": "57982",
                 "req_frame_id": "174239",
@@ -2983,7 +2983,7 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "33910",
+                "help_code": "@P33910",
                 "help_korean": "라디오 신호 값이 높으면 높을수록, 수신이 더 잘된다"
             }
         ]
@@ -2997,7 +2997,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_NOMBRE_DE_SATELLITES_VISIBLES",
-                "label_index": "32117",
+                "label_index": "@P32117",
                 "label_korean": "GPS에 현재 보여지는 위성의 수",
                 "group_id": "57982",
                 "req_frame_id": "174239",
@@ -3013,7 +3013,7 @@
                 "bit_mask": 15,
                 "bit_shift": 0,
                 "dynamic_arg": "",
-                "help_code": "32118, 32119",
+                "help_code": "@P32118@T.@P32119@\\*10@T.",
                 "help_korean": "변수는 GPS에 현재 보여지는 위성의 수를 나타낸다.변수는 매10초마다 업데이트된다."
             }
         ]
@@ -3027,7 +3027,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_AFFICHAGE_MENU_FARC_URBAIN",
-                "label_index": "36150",
+                "label_index": "@P36150",
                 "label_korean": "\"비상 충돌 제동 (도심)\" 메뉴의 표시 상태",
                 "group_id": "57974",
                 "req_frame_id": "174215",
@@ -3043,13 +3043,13 @@
                 "bit_mask": 32,
                 "bit_shift": 5,
                 "dynamic_arg": "",
-                "help_code": "8874",
+                "help_code": "@P8874",
                 "help_korean": "차량 장치에 따라 작동하는 변수"
             },
             {
                 "position": 2,
                 "mnemonic": "MP_ETAT_ALERTES_ZONE_DANGER",
-                "label_index": "32202",
+                "label_index": "@P32202",
                 "label_korean": "계기판에 경고 및 \"위험 지역\" 표시",
                 "group_id": "57976",
                 "req_frame_id": "174221",
@@ -3068,13 +3068,13 @@
                 "bit_mask": 8,
                 "bit_shift": 3,
                 "dynamic_arg": "",
-                "help_code": "33883",
+                "help_code": "@P33883@\\*(CIROCCO)",
                 "help_korean": "터치 스크린에서 이 기능의 표시는 계기판이 장착되어 있을 경우에 차단된다(CIROCCO)"
             },
             {
                 "position": 3,
                 "mnemonic": "MP_ETAT_AFFICHAGES_LIMITATION_VITESSES",
-                "label_index": "32094",
+                "label_index": "@P32094",
                 "label_korean": "승인된 속도 제한 표시 상태",
                 "group_id": "57976",
                 "req_frame_id": "174221",
@@ -3093,7 +3093,7 @@
                 "bit_mask": 128,
                 "bit_shift": 7,
                 "dynamic_arg": "",
-                "help_code": "33882",
+                "help_code": "@P33882@\\*(CIROCCO)",
                 "help_korean": "네비게이션이 작동하고 계기판이 장착되어 있지 않으면 터치 스크린에서 이 기능의 표시는 \"표시 장착\" 상태로 한다(CIROCCO)"
             }
         ]

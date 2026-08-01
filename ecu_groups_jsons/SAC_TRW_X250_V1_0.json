@@ -8,7 +8,7 @@
             {
                 "position": 1,
                 "mnemonic": "ID_REFERENCE_PSA",
-                "label_index": "8615",
+                "label_index": "@P8615",
                 "label_korean": "PSA 부품 번호",
                 "group_id": "67827",
                 "req_frame_id": "203765",
@@ -30,7 +30,7 @@
             {
                 "position": 2,
                 "mnemonic": "ID_REF_CALCULATEUR",
-                "label_index": "9463",
+                "label_index": "@P9463",
                 "label_korean": "ECU 참조",
                 "group_id": "67827",
                 "req_frame_id": "203765",
@@ -52,7 +52,7 @@
             {
                 "position": 3,
                 "mnemonic": "VERSION_CALCULATEUR",
-                "label_index": "4106",
+                "label_index": "@P4106",
                 "label_korean": "ECU 버전",
                 "group_id": "67827",
                 "req_frame_id": "203765",
@@ -74,7 +74,7 @@
             {
                 "position": 4,
                 "mnemonic": "ID_VERSION_LOGICIEL_new_1",
-                "label_index": "8662",
+                "label_index": "@P8662@\\*",
                 "label_korean": "소프트웨어 버전",
                 "group_id": "67827",
                 "req_frame_id": "203765",
@@ -96,7 +96,7 @@
             {
                 "position": 5,
                 "mnemonic": "ID_DATE_2",
-                "label_index": "21670",
+                "label_index": "@P21670",
                 "label_korean": "다운로딩 날짜",
                 "group_id": "67827",
                 "req_frame_id": "203765",
@@ -118,7 +118,7 @@
             {
                 "position": 6,
                 "mnemonic": "ID_TRACABILITE_NUMSERIE",
-                "label_index": "16121",
+                "label_index": "@P16121",
                 "label_korean": "일련번호",
                 "group_id": "67828",
                 "req_frame_id": "203768",
@@ -148,7 +148,7 @@
             {
                 "position": 1,
                 "mnemonic": "MPETAVOYGNRL",
-                "label_index": "9146",
+                "label_index": "@P9146",
                 "label_korean": "일반적인 결함 LED",
                 "group_id": "67833",
                 "req_frame_id": "203783",
@@ -164,13 +164,13 @@
                 "bit_mask": 1,
                 "bit_shift": 0,
                 "dynamic_arg": "",
-                "help_code": "28114, 45331, 45332",
-                "help_korean": "확인하기\n- 위해 사용하는 변수 :\n- ECU에 결함이 존재하지 않음: \"꺼짐\"\n- 결함 코드가 존재함: \"켜짐\""
+                "help_code": "@P28114@\\n@P45331@\\n@P45332",
+                "help_korean": "확인하기 위해 사용하는 변수 :\nECU에 결함이 존재하지 않음: \"꺼짐\"\n결함 코드가 존재함: \"켜짐\""
             },
             {
                 "position": 2,
                 "mnemonic": "MPETAVOYGNRLCLIG",
-                "label_index": "9221",
+                "label_index": "@P9221",
                 "label_korean": "일반적인 결함 경고등 깜박거림",
                 "group_id": "67833",
                 "req_frame_id": "203783",
@@ -186,13 +186,13 @@
                 "bit_mask": 64,
                 "bit_shift": 6,
                 "dynamic_arg": "",
-                "help_code": "28114, 45603, 45582",
-                "help_korean": "확인하기\n- 위해 사용하는 변수 :\n- ECU에 결함이 존재하지 않음:\"아니오\"\n- 결함 코드가 존재함: \"예\""
+                "help_code": "@P28114@\\n@P45603@\\n@P45582",
+                "help_korean": "확인하기 위해 사용하는 변수 :\nECU에 결함이 존재하지 않음:\"아니오\"\n결함 코드가 존재함: \"예\""
             },
             {
                 "position": 3,
                 "mnemonic": "MPETATCOUSPASS",
-                "label_index": "14006",
+                "label_index": "@P14006",
                 "label_korean": "승객석 에어백 상태",
                 "group_id": "67833",
                 "req_frame_id": "203783",
@@ -208,13 +208,13 @@
                 "bit_mask": 8,
                 "bit_shift": 3,
                 "dynamic_arg": "",
-                "help_code": "28114, 44696, 45598",
-                "help_korean": "확인하기\n- 위해 사용하는 변수 :\n- 에어백의 작동 상태: \"점화 장치 작동\"\n- 스위치를 사용하여 승객석 에어백 차단: \"차단됨\""
+                "help_code": "@P28114@\\n@P44696@\\n@P45598",
+                "help_korean": "확인하기 위해 사용하는 변수 :\n에어백의 작동 상태: \"점화 장치 작동\"\n스위치를 사용하여 승객석 에어백 차단: \"차단됨\""
             },
             {
                 "position": 4,
                 "mnemonic": "MPETAVOYCOMNEUT",
-                "label_index": "7784",
+                "label_index": "@P7784",
                 "label_korean": "승객석 에어백 차단 경고등",
                 "group_id": "67833",
                 "req_frame_id": "203783",
@@ -230,13 +230,13 @@
                 "bit_mask": 4,
                 "bit_shift": 2,
                 "dynamic_arg": "",
-                "help_code": "28114, 45320, 45319",
-                "help_korean": "확인하기\n- 위해 사용하는 변수 :\n- 에어백 작동 상태: \"꺼짐\"\n- 스위치를 통한 승객석 에어백 차단: \"켜짐\""
+                "help_code": "@P28114@\\n@P45320@\\n@P45319",
+                "help_korean": "확인하기 위해 사용하는 변수 :\n에어백 작동 상태: \"꺼짐\"\n스위치를 통한 승객석 에어백 차단: \"켜짐\""
             },
             {
                 "position": 5,
                 "mnemonic": "MP_ETAT_CONTACTEUR_CEINTURE_SECURITE_CONDUCTEUR",
-                "label_index": "8089",
+                "label_index": "@P8089",
                 "label_korean": "운전석 시트 벨트 스위치 상태",
                 "group_id": "67833",
                 "req_frame_id": "203783",
@@ -259,13 +259,13 @@
                 "bit_mask": 1,
                 "bit_shift": 0,
                 "dynamic_arg": "",
-                "help_code": "28114, 44726",
-                "help_korean": "확인하기\n- 위해 사용하는 변수 :\n- 시트벨트 스위치 체결 상태: \"체결\" 또는 \"체결되지 않음\""
+                "help_code": "@P28114@\\n@P44726",
+                "help_korean": "확인하기 위해 사용하는 변수 :\n시트벨트 스위치 체결 상태: \"체결\" 또는 \"체결되지 않음\""
             },
             {
                 "position": 6,
                 "mnemonic": "MP_ETAT_CONTACTEUR_CEINTURE_SECURITE_PASSAGER",
-                "label_index": "7782",
+                "label_index": "@P7782",
                 "label_korean": "승객석 시트 벨트 스위치 상태",
                 "group_id": "67833",
                 "req_frame_id": "203783",
@@ -284,13 +284,13 @@
                 "bit_mask": 2,
                 "bit_shift": 1,
                 "dynamic_arg": "",
-                "help_code": "28114, 44726",
-                "help_korean": "확인하기\n- 위해 사용하는 변수 :\n- 시트벨트 스위치 체결 상태: \"체결\" 또는 \"체결되지 않음\""
+                "help_code": "@P28114@\\n@P44726",
+                "help_korean": "확인하기 위해 사용하는 변수 :\n시트벨트 스위치 체결 상태: \"체결\" 또는 \"체결되지 않음\""
             },
             {
                 "position": 7,
                 "mnemonic": "MPETATCDSGR2",
-                "label_index": "14288",
+                "label_index": "@P14288@\\*2",
                 "label_korean": "2열 리어 좌측 시트 벨트 스위치의 상태",
                 "group_id": "67833",
                 "req_frame_id": "203783",
@@ -306,13 +306,13 @@
                 "bit_mask": 4,
                 "bit_shift": 2,
                 "dynamic_arg": "2",
-                "help_code": "28114, 44726",
-                "help_korean": "확인하기\n- 위해 사용하는 변수 :\n- 시트벨트 스위치 체결 상태: \"체결\" 또는 \"체결되지 않음\""
+                "help_code": "@P28114@\\n@P44726",
+                "help_korean": "확인하기 위해 사용하는 변수 :\n시트벨트 스위치 체결 상태: \"체결\" 또는 \"체결되지 않음\""
             },
             {
                 "position": 8,
                 "mnemonic": "MPETATCDSDR2",
-                "label_index": "1875",
+                "label_index": "@P1875@\\*2",
                 "label_korean": "2열 리어 우측 시트 벨트 스위치 상태",
                 "group_id": "67833",
                 "req_frame_id": "203783",
@@ -328,8 +328,8 @@
                 "bit_mask": 8,
                 "bit_shift": 3,
                 "dynamic_arg": "2",
-                "help_code": "28114, 44726",
-                "help_korean": "확인하기\n- 위해 사용하는 변수 :\n- 시트벨트 스위치 체결 상태: \"체결\" 또는 \"체결되지 않음\""
+                "help_code": "@P28114@\\n@P44726",
+                "help_korean": "확인하기 위해 사용하는 변수 :\n시트벨트 스위치 체결 상태: \"체결\" 또는 \"체결되지 않음\""
             }
         ]
     },
@@ -342,7 +342,7 @@
             {
                 "position": 1,
                 "mnemonic": "MPRCOUSSINCONDN1",
-                "label_index": "2985",
+                "label_index": "@P2985@\\*1",
                 "label_korean": "1 레벨 운전석 에어백",
                 "group_id": "67831",
                 "req_frame_id": "203777",
@@ -358,13 +358,13 @@
                 "bit_mask": 240,
                 "bit_shift": 4,
                 "dynamic_arg": "1",
-                "help_code": "28114, 45325, 45326, 45327, 45328",
-                "help_korean": "확인하기\n- 위해 사용하는 변수 :\n- 정상적인 에어백 작동 상태: \"2Ω\",5\n- 에어백 기능불량(단락): \"2Ω\",0\n- 에어백 기능불량(단선): \"2Ω\",5\n- 차량에 에어백 없음: \"2Ω\"(장착되지 않은 경우),5"
+                "help_code": "@P28114@\\n@P45325@\\*2,5@\\n@P45326@\\*0,0@\\n@P45327@\\*7,5@\\n@P45328@\\*7,5",
+                "help_korean": "확인하기 위해 사용하는 변수 :\n정상적인 에어백 작동 상태: \"2Ω\",5\n에어백 기능불량(단락): \"2Ω\",0\n에어백 기능불량(단선): \"2Ω\",5\n차량에 에어백 없음: \"2Ω\"(장착되지 않은 경우),5"
             },
             {
                 "position": 2,
                 "mnemonic": "MPRCOUSSINCONDN2",
-                "label_index": "2985",
+                "label_index": "@P2985@\\*2",
                 "label_korean": "2 레벨 운전석 에어백",
                 "group_id": "67831",
                 "req_frame_id": "203777",
@@ -380,13 +380,13 @@
                 "bit_mask": 240,
                 "bit_shift": 4,
                 "dynamic_arg": "2",
-                "help_code": "28114, 45325, 45326, 45327, 45328",
-                "help_korean": "확인하기\n- 위해 사용하는 변수 :\n- 정상적인 에어백 작동 상태: \"2Ω\",5\n- 에어백 기능불량(단락): \"2Ω\",0\n- 에어백 기능불량(단선): \"2Ω\",5\n- 차량에 에어백 없음: \"2Ω\"(장착되지 않은 경우),5"
+                "help_code": "@P28114@\\n@P45325@\\*2,5@\\n@P45326@\\*0,0@\\n@P45327@\\*7,5@\\n@P45328@\\*7,5",
+                "help_korean": "확인하기 위해 사용하는 변수 :\n정상적인 에어백 작동 상태: \"2Ω\",5\n에어백 기능불량(단락): \"2Ω\",0\n에어백 기능불량(단선): \"2Ω\",5\n차량에 에어백 없음: \"2Ω\"(장착되지 않은 경우),5"
             },
             {
                 "position": 3,
                 "mnemonic": "MPRCOUSSINPASSN1",
-                "label_index": "16020",
+                "label_index": "@P16020@\\*1",
                 "label_korean": "1 레벨 승객석 에어백",
                 "group_id": "67831",
                 "req_frame_id": "203777",
@@ -402,13 +402,13 @@
                 "bit_mask": 15,
                 "bit_shift": 0,
                 "dynamic_arg": "1",
-                "help_code": "28114, 45325, 45326, 45327, 45328",
-                "help_korean": "확인하기\n- 위해 사용하는 변수 :\n- 정상적인 에어백 작동 상태: \"2Ω\",5\n- 에어백 기능불량(단락): \"2Ω\",0\n- 에어백 기능불량(단선): \"2Ω\",5\n- 차량에 에어백 없음: \"2Ω\"(장착되지 않은 경우),5"
+                "help_code": "@P28114@\\n@P45325@\\*2,5@\\n@P45326@\\*0,0@\\n@P45327@\\*7,5@\\n@P45328@\\*7,5",
+                "help_korean": "확인하기 위해 사용하는 변수 :\n정상적인 에어백 작동 상태: \"2Ω\",5\n에어백 기능불량(단락): \"2Ω\",0\n에어백 기능불량(단선): \"2Ω\",5\n차량에 에어백 없음: \"2Ω\"(장착되지 않은 경우),5"
             },
             {
                 "position": 4,
                 "mnemonic": "MPRPRETENSCOND",
-                "label_index": "9674",
+                "label_index": "@P9674@\\*",
                 "label_korean": "운전석 프리텐셔너",
                 "group_id": "67831",
                 "req_frame_id": "203777",
@@ -424,13 +424,13 @@
                 "bit_mask": 240,
                 "bit_shift": 4,
                 "dynamic_arg": "",
-                "help_code": "28114, 45325, 45326, 45327, 45328",
-                "help_korean": "확인하기\n- 위해 사용하는 변수 :\n- 정상적인 에어백 작동 상태: \"2Ω\",5\n- 에어백 기능불량(단락): \"2Ω\",0\n- 에어백 기능불량(단선): \"2Ω\",5\n- 차량에 에어백 없음: \"2Ω\"(장착되지 않은 경우),5"
+                "help_code": "@P28114@\\n@P45325@\\*2,5@\\n@P45326@\\*0,0@\\n@P45327@\\*7,5@\\n@P45328@\\*7,5",
+                "help_korean": "확인하기 위해 사용하는 변수 :\n정상적인 에어백 작동 상태: \"2Ω\",5\n에어백 기능불량(단락): \"2Ω\",0\n에어백 기능불량(단선): \"2Ω\",5\n차량에 에어백 없음: \"2Ω\"(장착되지 않은 경우),5"
             },
             {
                 "position": 5,
                 "mnemonic": "MPRPRETENSPASS",
-                "label_index": "13839",
+                "label_index": "@P13839@\\*",
                 "label_korean": "승객석 프리텐셔너",
                 "group_id": "67831",
                 "req_frame_id": "203777",
@@ -446,13 +446,13 @@
                 "bit_mask": 15,
                 "bit_shift": 0,
                 "dynamic_arg": "",
-                "help_code": "28114, 45325, 45326, 45327, 45328",
-                "help_korean": "확인하기\n- 위해 사용하는 변수 :\n- 정상적인 에어백 작동 상태: \"2Ω\",5\n- 에어백 기능불량(단락): \"2Ω\",0\n- 에어백 기능불량(단선): \"2Ω\",5\n- 차량에 에어백 없음: \"2Ω\"(장착되지 않은 경우),5"
+                "help_code": "@P28114@\\n@P45325@\\*2,5@\\n@P45326@\\*0,0@\\n@P45327@\\*7,5@\\n@P45328@\\*7,5",
+                "help_korean": "확인하기 위해 사용하는 변수 :\n정상적인 에어백 작동 상태: \"2Ω\",5\n에어백 기능불량(단락): \"2Ω\",0\n에어백 기능불량(단선): \"2Ω\",5\n차량에 에어백 없음: \"2Ω\"(장착되지 않은 경우),5"
             },
             {
                 "position": 6,
                 "mnemonic": "MPRPRETENSMR1",
-                "label_index": "12023",
+                "label_index": "@P12023@\\*1",
                 "label_korean": "1열 중앙 프리텐셔너",
                 "group_id": "67831",
                 "req_frame_id": "203777",
@@ -468,13 +468,13 @@
                 "bit_mask": 240,
                 "bit_shift": 4,
                 "dynamic_arg": "1",
-                "help_code": "28114, 45325, 45326, 45327, 45328",
-                "help_korean": "확인하기\n- 위해 사용하는 변수 :\n- 정상적인 에어백 작동 상태: \"2Ω\",5\n- 에어백 기능불량(단락): \"2Ω\",0\n- 에어백 기능불량(단선): \"2Ω\",5\n- 차량에 에어백 없음: \"2Ω\"(장착되지 않은 경우),5"
+                "help_code": "@P28114@\\n@P45325@\\*2,5@\\n@P45326@\\*0,0@\\n@P45327@\\*7,5@\\n@P45328@\\*7,5",
+                "help_korean": "확인하기 위해 사용하는 변수 :\n정상적인 에어백 작동 상태: \"2Ω\",5\n에어백 기능불량(단락): \"2Ω\",0\n에어백 기능불량(단선): \"2Ω\",5\n차량에 에어백 없음: \"2Ω\"(장착되지 않은 경우),5"
             },
             {
                 "position": 7,
                 "mnemonic": "MPRCOUSSINLATAVD",
-                "label_index": "15738",
+                "label_index": "@P15738",
                 "label_korean": "프론트 우측 에어백",
                 "group_id": "67831",
                 "req_frame_id": "203777",
@@ -490,13 +490,13 @@
                 "bit_mask": 15,
                 "bit_shift": 0,
                 "dynamic_arg": "",
-                "help_code": "28114, 45325, 45326, 45327, 45328",
-                "help_korean": "확인하기\n- 위해 사용하는 변수 :\n- 정상적인 에어백 작동 상태: \"2Ω\",5\n- 에어백 기능불량(단락): \"2Ω\",0\n- 에어백 기능불량(단선): \"2Ω\",5\n- 차량에 에어백 없음: \"2Ω\"(장착되지 않은 경우),5"
+                "help_code": "@P28114@\\n@P45325@\\*2,5@\\n@P45326@\\*0,0@\\n@P45327@\\*7,5@\\n@P45328@\\*7,5",
+                "help_korean": "확인하기 위해 사용하는 변수 :\n정상적인 에어백 작동 상태: \"2Ω\",5\n에어백 기능불량(단락): \"2Ω\",0\n에어백 기능불량(단선): \"2Ω\",5\n차량에 에어백 없음: \"2Ω\"(장착되지 않은 경우),5"
             },
             {
                 "position": 8,
                 "mnemonic": "MPRCOUSSINLATAVG",
-                "label_index": "3368",
+                "label_index": "@P3368",
                 "label_korean": "프론트 좌측 에어백",
                 "group_id": "67831",
                 "req_frame_id": "203777",
@@ -512,13 +512,13 @@
                 "bit_mask": 240,
                 "bit_shift": 4,
                 "dynamic_arg": "",
-                "help_code": "28114, 45325, 45326, 45327, 45328",
-                "help_korean": "확인하기\n- 위해 사용하는 변수 :\n- 정상적인 에어백 작동 상태: \"2Ω\",5\n- 에어백 기능불량(단락): \"2Ω\",0\n- 에어백 기능불량(단선): \"2Ω\",5\n- 차량에 에어백 없음: \"2Ω\"(장착되지 않은 경우),5"
+                "help_code": "@P28114@\\n@P45325@\\*2,5@\\n@P45326@\\*0,0@\\n@P45327@\\*7,5@\\n@P45328@\\*7,5",
+                "help_korean": "확인하기 위해 사용하는 변수 :\n정상적인 에어백 작동 상태: \"2Ω\",5\n에어백 기능불량(단락): \"2Ω\",0\n에어백 기능불량(단선): \"2Ω\",5\n차량에 에어백 없음: \"2Ω\"(장착되지 않은 경우),5"
             },
             {
                 "position": 9,
                 "mnemonic": "MPRRIDEAUD",
-                "label_index": "6311",
+                "label_index": "@P6311",
                 "label_korean": "우측 측면 에어백",
                 "group_id": "67831",
                 "req_frame_id": "203777",
@@ -534,13 +534,13 @@
                 "bit_mask": 15,
                 "bit_shift": 0,
                 "dynamic_arg": "",
-                "help_code": "28114, 45325, 45326, 45327, 45328",
-                "help_korean": "확인하기\n- 위해 사용하는 변수 :\n- 정상적인 에어백 작동 상태: \"2Ω\",5\n- 에어백 기능불량(단락): \"2Ω\",0\n- 에어백 기능불량(단선): \"2Ω\",5\n- 차량에 에어백 없음: \"2Ω\"(장착되지 않은 경우),5"
+                "help_code": "@P28114@\\n@P45325@\\*2,5@\\n@P45326@\\*0,0@\\n@P45327@\\*7,5@\\n@P45328@\\*7,5",
+                "help_korean": "확인하기 위해 사용하는 변수 :\n정상적인 에어백 작동 상태: \"2Ω\",5\n에어백 기능불량(단락): \"2Ω\",0\n에어백 기능불량(단선): \"2Ω\",5\n차량에 에어백 없음: \"2Ω\"(장착되지 않은 경우),5"
             },
             {
                 "position": 10,
                 "mnemonic": "MPRRIDEAUG",
-                "label_index": "7875",
+                "label_index": "@P7875",
                 "label_korean": "좌측 측면 에어백",
                 "group_id": "67831",
                 "req_frame_id": "203777",
@@ -556,8 +556,8 @@
                 "bit_mask": 240,
                 "bit_shift": 4,
                 "dynamic_arg": "",
-                "help_code": "28114, 45325, 45326, 45327, 45328",
-                "help_korean": "확인하기\n- 위해 사용하는 변수 :\n- 정상적인 에어백 작동 상태: \"2Ω\",5\n- 에어백 기능불량(단락): \"2Ω\",0\n- 에어백 기능불량(단선): \"2Ω\",5\n- 차량에 에어백 없음: \"2Ω\"(장착되지 않은 경우),5"
+                "help_code": "@P28114@\\n@P45325@\\*2,5@\\n@P45326@\\*0,0@\\n@P45327@\\*7,5@\\n@P45328@\\*7,5",
+                "help_korean": "확인하기 위해 사용하는 변수 :\n정상적인 에어백 작동 상태: \"2Ω\",5\n에어백 기능불량(단락): \"2Ω\",0\n에어백 기능불량(단선): \"2Ω\",5\n차량에 에어백 없음: \"2Ω\"(장착되지 않은 경우),5"
             }
         ]
     },
@@ -570,7 +570,7 @@
             {
                 "position": 1,
                 "mnemonic": "CFG_AIW_RBG_AB_N1_COND_000",
-                "label_index": "2985",
+                "label_index": "@P2985@\\*1",
                 "label_korean": "1 레벨 운전석 에어백",
                 "group_id": "67829",
                 "req_frame_id": "203771",
@@ -589,13 +589,13 @@
                 "bit_mask": 1,
                 "bit_shift": 0,
                 "dynamic_arg": "1",
-                "help_code": "28114, 28109, 25212, 28103, 11624",
-                "help_korean": "확인하기\n- 위해 사용하는 변수 :\n- 차량에 에어백의 장착 : � 예 �\n- 차량에서 에어백의 부재 : � 아니오 �"
+                "help_code": "@P28114@\\n@P28109@T : � @P25212@T �@\\n@P28103@T : � @P11624@T �",
+                "help_korean": "확인하기 위해 사용하는 변수 :\n차량에 에어백의 장착 : � 예 �\n차량에서 에어백의 부재 : � 아니오 �"
             },
             {
                 "position": 2,
                 "mnemonic": "CFG_AIY_RBG_AB_N2_COND_000",
-                "label_index": "2985",
+                "label_index": "@P2985@\\*2",
                 "label_korean": "2 레벨 운전석 에어백",
                 "group_id": "67829",
                 "req_frame_id": "203771",
@@ -614,13 +614,13 @@
                 "bit_mask": 2,
                 "bit_shift": 1,
                 "dynamic_arg": "2",
-                "help_code": "28114, 28109, 25212, 28103, 11624",
-                "help_korean": "확인하기\n- 위해 사용하는 변수 :\n- 차량에 에어백의 장착 : � 예 �\n- 차량에서 에어백의 부재 : � 아니오 �"
+                "help_code": "@P28114@\\n@P28109@T : � @P25212@T �@\\n@P28103@T : � @P11624@T �",
+                "help_korean": "확인하기 위해 사용하는 변수 :\n차량에 에어백의 장착 : � 예 �\n차량에서 에어백의 부재 : � 아니오 �"
             },
             {
                 "position": 3,
                 "mnemonic": "CFG_AIU_RBG_AB_GEN_CD_000",
-                "label_index": "15803",
+                "label_index": "@P15803",
                 "label_korean": "운전석 스티어링 컬럼 에어백",
                 "group_id": "67829",
                 "req_frame_id": "203771",
@@ -639,13 +639,13 @@
                 "bit_mask": 16,
                 "bit_shift": 4,
                 "dynamic_arg": "",
-                "help_code": "28114, 28109, 25212, 28103, 11624",
-                "help_korean": "확인하기\n- 위해 사용하는 변수 :\n- 차량에 에어백의 장착 : � 예 �\n- 차량에서 에어백의 부재 : � 아니오 �"
+                "help_code": "@P28114@\\n@P28109@T : � @P25212@T �@\\n@P28103@T : � @P11624@T �",
+                "help_korean": "확인하기 위해 사용하는 변수 :\n차량에 에어백의 장착 : � 예 �\n차량에서 에어백의 부재 : � 아니오 �"
             },
             {
                 "position": 4,
                 "mnemonic": "MPPOIDSSIEGECOND",
-                "label_index": "6232",
+                "label_index": "@P6232",
                 "label_korean": "운전석 시트 무게 센서",
                 "group_id": "67829",
                 "req_frame_id": "203771",
@@ -661,13 +661,13 @@
                 "bit_mask": 64,
                 "bit_shift": 6,
                 "dynamic_arg": "",
-                "help_code": "28114, 45554, 45492",
-                "help_korean": "확인하기\n- 위해 사용하는 변수 :\n- 차량에 무게 센서 있음: \"예\"\n- 차량에서 중량 센서의 부재 :\"아니오\""
+                "help_code": "@P28114@\\n@P45554@\\n@P45492",
+                "help_korean": "확인하기 위해 사용하는 변수 :\n차량에 무게 센서 있음: \"예\"\n차량에서 중량 센서의 부재 :\"아니오\""
             },
             {
                 "position": 5,
                 "mnemonic": "CFG_AIX_RBG_AB_N1_P_AV_000",
-                "label_index": "16020",
+                "label_index": "@P16020@\\*1",
                 "label_korean": "1 레벨 승객석 에어백",
                 "group_id": "67829",
                 "req_frame_id": "203771",
@@ -686,13 +686,13 @@
                 "bit_mask": 4,
                 "bit_shift": 2,
                 "dynamic_arg": "1",
-                "help_code": "28114, 28109, 25212, 28103, 11624",
-                "help_korean": "확인하기\n- 위해 사용하는 변수 :\n- 차량에 에어백의 장착 : � 예 �\n- 차량에서 에어백의 부재 : � 아니오 �"
+                "help_code": "@P28114@\\n@P28109@T : � @P25212@T �@\\n@P28103@T : � @P11624@T �",
+                "help_korean": "확인하기 위해 사용하는 변수 :\n차량에 에어백의 장착 : � 예 �\n차량에서 에어백의 부재 : � 아니오 �"
             },
             {
                 "position": 6,
                 "mnemonic": "CFG_AIZ_RBG_AB_N2_P_AV_000",
-                "label_index": "16020",
+                "label_index": "@P16020@\\*2",
                 "label_korean": "2 레벨 승객석 에어백",
                 "group_id": "67829",
                 "req_frame_id": "203771",
@@ -711,13 +711,13 @@
                 "bit_mask": 8,
                 "bit_shift": 3,
                 "dynamic_arg": "2",
-                "help_code": "28114, 28109, 25212, 28103, 11624",
-                "help_korean": "확인하기\n- 위해 사용하는 변수 :\n- 차량에 에어백의 장착 : � 예 �\n- 차량에서 에어백의 부재 : � 아니오 �"
+                "help_code": "@P28114@\\n@P28109@T : � @P25212@T �@\\n@P28103@T : � @P11624@T �",
+                "help_korean": "확인하기 위해 사용하는 변수 :\n차량에 에어백의 장착 : � 예 �\n차량에서 에어백의 부재 : � 아니오 �"
             },
             {
                 "position": 7,
                 "mnemonic": "LID_23_66_7",
-                "label_index": "13146",
+                "label_index": "@P13146",
                 "label_korean": "승객석 무릎 보호 에어백",
                 "group_id": "67829",
                 "req_frame_id": "203771",
@@ -733,13 +733,13 @@
                 "bit_mask": 32,
                 "bit_shift": 5,
                 "dynamic_arg": "",
-                "help_code": "28114, 28109, 25212, 28103, 11624",
-                "help_korean": "확인하기\n- 위해 사용하는 변수 :\n- 차량에 에어백의 장착 : � 예 �\n- 차량에서 에어백의 부재 : � 아니오 �"
+                "help_code": "@P28114@\\n@P28109@T : � @P25212@T �@\\n@P28103@T : � @P11624@T �",
+                "help_korean": "확인하기 위해 사용하는 변수 :\n차량에 에어백의 장착 : � 예 �\n차량에서 에어백의 부재 : � 아니오 �"
             },
             {
                 "position": 8,
                 "mnemonic": "MPPOIDSSIEGEPASS",
-                "label_index": "7859",
+                "label_index": "@P7859",
                 "label_korean": "승객석 시트 무게 센서",
                 "group_id": "67829",
                 "req_frame_id": "203771",
@@ -755,13 +755,13 @@
                 "bit_mask": 128,
                 "bit_shift": 7,
                 "dynamic_arg": "",
-                "help_code": "28114, 45554, 45492",
-                "help_korean": "확인하기\n- 위해 사용하는 변수 :\n- 차량에 무게 센서 있음: \"예\"\n- 차량에서 중량 센서의 부재 :\"아니오\""
+                "help_code": "@P28114@\\n@P45554@\\n@P45492",
+                "help_korean": "확인하기 위해 사용하는 변수 :\n차량에 무게 센서 있음: \"예\"\n차량에서 중량 센서의 부재 :\"아니오\""
             },
             {
                 "position": 9,
                 "mnemonic": "LID_23_70_0",
-                "label_index": "11726",
+                "label_index": "@P11726",
                 "label_korean": "승객 감지 센서",
                 "group_id": "67829",
                 "req_frame_id": "203771",
@@ -777,13 +777,13 @@
                 "bit_mask": 1,
                 "bit_shift": 0,
                 "dynamic_arg": "",
-                "help_code": "28114, 45333, 45334",
-                "help_korean": "확인하기\n- 위해 사용하는 변수 :\n- 차량에 존재 여부 감지 센서(presence sensor) 있음: \"예\"\n- 차량에 존재 여부 감지 센서(presence sensor) 없음: \"아니오\""
+                "help_code": "@P28114@\\n@P45333@\\n@P45334",
+                "help_korean": "확인하기 위해 사용하는 변수 :\n차량에 존재 여부 감지 센서(presence sensor) 있음: \"예\"\n차량에 존재 여부 감지 센서(presence sensor) 없음: \"아니오\""
             },
             {
                 "position": 10,
                 "mnemonic": "CFG_AJ5_RBG_ACT_INHIB_000",
-                "label_index": "4107",
+                "label_index": "@P4107",
                 "label_korean": "승객석 에어백 차단 스위치",
                 "group_id": "67829",
                 "req_frame_id": "203771",
@@ -802,8 +802,8 @@
                 "bit_mask": 8,
                 "bit_shift": 3,
                 "dynamic_arg": "",
-                "help_code": "28114, 45321, 45322",
-                "help_korean": "확인하기\n- 위해 사용하는 변수 :\n- 승객석 에어백 차단 스위치 있음: \"예\"\n- 승객석 에어백 차단 스위치 없음: \"아니오\""
+                "help_code": "@P28114@\\n@P45321@\\n@P45322",
+                "help_korean": "확인하기 위해 사용하는 변수 :\n승객석 에어백 차단 스위치 있음: \"예\"\n승객석 에어백 차단 스위치 없음: \"아니오\""
             }
         ]
     },
@@ -816,7 +816,7 @@
             {
                 "position": 1,
                 "mnemonic": "MPPRETENSCOND",
-                "label_index": "9674",
+                "label_index": "@P9674@\\*",
                 "label_korean": "운전석 프리텐셔너",
                 "group_id": "67829",
                 "req_frame_id": "203771",
@@ -832,13 +832,13 @@
                 "bit_mask": 16,
                 "bit_shift": 4,
                 "dynamic_arg": "",
-                "help_code": "28114, 28068, 25212, 28108, 11624",
-                "help_korean": "확인하기\n- 위해 사용하는 변수 :\n- 차량에서 프리텐셔너의 존재 : � 예 �\n- 차량에서 프리텐셔너의 부재 : � 아니오 �"
+                "help_code": "@P28114@\\n@P28068@T : � @P25212@T �@\\n@P28108@T : � @P11624@T �",
+                "help_korean": "확인하기 위해 사용하는 변수 :\n차량에서 프리텐셔너의 존재 : � 예 �\n차량에서 프리텐셔너의 부재 : � 아니오 �"
             },
             {
                 "position": 2,
                 "mnemonic": "MPPRETENSPASS",
-                "label_index": "13839",
+                "label_index": "@P13839@\\*",
                 "label_korean": "승객석 프리텐셔너",
                 "group_id": "67829",
                 "req_frame_id": "203771",
@@ -854,13 +854,13 @@
                 "bit_mask": 32,
                 "bit_shift": 5,
                 "dynamic_arg": "",
-                "help_code": "28114, 28068, 25212, 28108, 11624",
-                "help_korean": "확인하기\n- 위해 사용하는 변수 :\n- 차량에서 프리텐셔너의 존재 : � 예 �\n- 차량에서 프리텐셔너의 부재 : � 아니오 �"
+                "help_code": "@P28114@\\n@P28068@T : � @P25212@T �@\\n@P28108@T : � @P11624@T �",
+                "help_korean": "확인하기 위해 사용하는 변수 :\n차량에서 프리텐셔너의 존재 : � 예 �\n차량에서 프리텐셔너의 부재 : � 아니오 �"
             },
             {
                 "position": 3,
                 "mnemonic": "CFG_B3I_RBG_PRET_AV_M_000",
-                "label_index": "12023",
+                "label_index": "@P12023@\\*1",
                 "label_korean": "1열 중앙 프리텐셔너",
                 "group_id": "67829",
                 "req_frame_id": "203771",
@@ -879,13 +879,13 @@
                 "bit_mask": 64,
                 "bit_shift": 6,
                 "dynamic_arg": "1",
-                "help_code": "28114, 28068, 25212, 28108, 11624",
-                "help_korean": "확인하기\n- 위해 사용하는 변수 :\n- 차량에서 프리텐셔너의 존재 : � 예 �\n- 차량에서 프리텐셔너의 부재 : � 아니오 �"
+                "help_code": "@P28114@\\n@P28068@T : � @P25212@T �@\\n@P28108@T : � @P11624@T �",
+                "help_korean": "확인하기 위해 사용하는 변수 :\n차량에서 프리텐셔너의 존재 : � 예 �\n차량에서 프리텐셔너의 부재 : � 아니오 �"
             },
             {
                 "position": 4,
                 "mnemonic": "MPPRETENSGDR2",
-                "label_index": "11135",
+                "label_index": "@P11135@\\*2",
                 "label_korean": "2열 좌측 및 우측 프리텐셔너",
                 "group_id": "67829",
                 "req_frame_id": "203771",
@@ -901,13 +901,13 @@
                 "bit_mask": 128,
                 "bit_shift": 7,
                 "dynamic_arg": "2",
-                "help_code": "28114, 45335, 45336",
-                "help_korean": "확인하기\n- 위해 사용하는 변수 :\n- 차량에 프리텐셔너 있음: \"예\"\n- 차량에 프리텐셔너 없음: \"아니오\""
+                "help_code": "@P28114@\\n@P45335@\\n@P45336",
+                "help_korean": "확인하기 위해 사용하는 변수 :\n차량에 프리텐셔너 있음: \"예\"\n차량에 프리텐셔너 없음: \"아니오\""
             },
             {
                 "position": 5,
                 "mnemonic": "MPPRETENSMR2",
-                "label_index": "12023",
+                "label_index": "@P12023@\\*2",
                 "label_korean": "2열 중앙 프리텐셔너",
                 "group_id": "67829",
                 "req_frame_id": "203771",
@@ -923,8 +923,8 @@
                 "bit_mask": 1,
                 "bit_shift": 0,
                 "dynamic_arg": "2",
-                "help_code": "28114, 28068, 25212, 28108, 11624",
-                "help_korean": "확인하기\n- 위해 사용하는 변수 :\n- 차량에서 프리텐셔너의 존재 : � 예 �\n- 차량에서 프리텐셔너의 부재 : � 아니오 �"
+                "help_code": "@P28114@\\n@P28068@T : � @P25212@T �@\\n@P28108@T : � @P11624@T �",
+                "help_korean": "확인하기 위해 사용하는 변수 :\n차량에서 프리텐셔너의 존재 : � 예 �\n차량에서 프리텐셔너의 부재 : � 아니오 �"
             }
         ]
     },
@@ -937,7 +937,7 @@
             {
                 "position": 1,
                 "mnemonic": "CFG_AJ0_RBG_ABLT_AV_D_000",
-                "label_index": "15738",
+                "label_index": "@P15738",
                 "label_korean": "프론트 우측 에어백",
                 "group_id": "67829",
                 "req_frame_id": "203771",
@@ -956,13 +956,13 @@
                 "bit_mask": 64,
                 "bit_shift": 6,
                 "dynamic_arg": "",
-                "help_code": "28114, 28109, 25212, 28103, 11624",
-                "help_korean": "확인하기\n- 위해 사용하는 변수 :\n- 차량에 에어백의 장착 : � 예 �\n- 차량에서 에어백의 부재 : � 아니오 �"
+                "help_code": "@P28114@\\n@P28109@T : � @P25212@T �@\\n@P28103@T : � @P11624@T �",
+                "help_korean": "확인하기 위해 사용하는 변수 :\n차량에 에어백의 장착 : � 예 �\n차량에서 에어백의 부재 : � 아니오 �"
             },
             {
                 "position": 2,
                 "mnemonic": "CFG_AJ1_RBG_ABLT_AV_G_000",
-                "label_index": "3368",
+                "label_index": "@P3368",
                 "label_korean": "프론트 좌측 에어백",
                 "group_id": "67829",
                 "req_frame_id": "203771",
@@ -981,13 +981,13 @@
                 "bit_mask": 128,
                 "bit_shift": 7,
                 "dynamic_arg": "",
-                "help_code": "28114, 28109, 25212, 28103, 11624",
-                "help_korean": "확인하기\n- 위해 사용하는 변수 :\n- 차량에 에어백의 장착 : � 예 �\n- 차량에서 에어백의 부재 : � 아니오 �"
+                "help_code": "@P28114@\\n@P28109@T : � @P25212@T �@\\n@P28103@T : � @P11624@T �",
+                "help_korean": "확인하기 위해 사용하는 변수 :\n차량에 에어백의 장착 : � 예 �\n차량에서 에어백의 부재 : � 아니오 �"
             },
             {
                 "position": 3,
                 "mnemonic": "MPCOUSSINLATARGD",
-                "label_index": "11167",
+                "label_index": "@P11167",
                 "label_korean": "리어 좌측 및 우측 측면 에어백 직렬",
                 "group_id": "67829",
                 "req_frame_id": "203771",
@@ -1003,13 +1003,13 @@
                 "bit_mask": 8,
                 "bit_shift": 3,
                 "dynamic_arg": "",
-                "help_code": "28114, 45337, 45338",
-                "help_korean": "확인하기\n- 위해 사용하는 변수 :\n- 차량에 에어백 있음: \"예\"\n- 차량에 에어백 없음: \"아니오\""
+                "help_code": "@P28114@\\n@P45337@\\n@P45338",
+                "help_korean": "확인하기 위해 사용하는 변수 :\n차량에 에어백 있음: \"예\"\n차량에 에어백 없음: \"아니오\""
             },
             {
                 "position": 4,
                 "mnemonic": "CFG_AJ2_RBG_ABLT_RID_D_000",
-                "label_index": "6311",
+                "label_index": "@P6311",
                 "label_korean": "우측 측면 에어백",
                 "group_id": "67829",
                 "req_frame_id": "203771",
@@ -1028,13 +1028,13 @@
                 "bit_mask": 2,
                 "bit_shift": 1,
                 "dynamic_arg": "",
-                "help_code": "28114, 28109, 25212, 28103, 11624",
-                "help_korean": "확인하기\n- 위해 사용하는 변수 :\n- 차량에 에어백의 장착 : � 예 �\n- 차량에서 에어백의 부재 : � 아니오 �"
+                "help_code": "@P28114@\\n@P28109@T : � @P25212@T �@\\n@P28103@T : � @P11624@T �",
+                "help_korean": "확인하기 위해 사용하는 변수 :\n차량에 에어백의 장착 : � 예 �\n차량에서 에어백의 부재 : � 아니오 �"
             },
             {
                 "position": 5,
                 "mnemonic": "CFG_AJ3_RBG_ABLT_RID_G_000",
-                "label_index": "7875",
+                "label_index": "@P7875",
                 "label_korean": "좌측 측면 에어백",
                 "group_id": "67829",
                 "req_frame_id": "203771",
@@ -1053,13 +1053,13 @@
                 "bit_mask": 4,
                 "bit_shift": 2,
                 "dynamic_arg": "",
-                "help_code": "28114, 28109, 25212, 28103, 11624",
-                "help_korean": "확인하기\n- 위해 사용하는 변수 :\n- 차량에 에어백의 장착 : � 예 �\n- 차량에서 에어백의 부재 : � 아니오 �"
+                "help_code": "@P28114@\\n@P28109@T : � @P25212@T �@\\n@P28103@T : � @P11624@T �",
+                "help_korean": "확인하기 위해 사용하는 변수 :\n차량에 에어백의 장착 : � 예 �\n차량에서 에어백의 부재 : � 아니오 �"
             },
             {
                 "position": 6,
                 "mnemonic": "MPRIDEAUARGD",
-                "label_index": "6820",
+                "label_index": "@P6820",
                 "label_korean": "리어 좌측 및 우측 커튼 에어백 직렬",
                 "group_id": "67829",
                 "req_frame_id": "203771",
@@ -1075,8 +1075,8 @@
                 "bit_mask": 1,
                 "bit_shift": 0,
                 "dynamic_arg": "",
-                "help_code": "28114, 45337, 45338",
-                "help_korean": "확인하기\n- 위해 사용하는 변수 :\n- 차량에 에어백 있음: \"예\"\n- 차량에 에어백 없음: \"아니오\""
+                "help_code": "@P28114@\\n@P45337@\\n@P45338",
+                "help_korean": "확인하기 위해 사용하는 변수 :\n차량에 에어백 있음: \"예\"\n차량에 에어백 없음: \"아니오\""
             }
         ]
     },
@@ -1089,7 +1089,7 @@
             {
                 "position": 1,
                 "mnemonic": "LID_23_69_2",
-                "label_index": "10538",
+                "label_index": "@P10538",
                 "label_korean": "운전석 시트 벨트 스위치",
                 "group_id": "67829",
                 "req_frame_id": "203771",
@@ -1105,13 +1105,13 @@
                 "bit_mask": 2,
                 "bit_shift": 1,
                 "dynamic_arg": "",
-                "help_code": "28114, 45102, 45103",
-                "help_korean": "확인하기\n- 위해 사용하는 변수 :\n- 차량의 시트 벨트 스위치 존재: \"YES\"\n- 차량의 시트벨트 스위치 없음: \"아니오\""
+                "help_code": "@P28114@\\n@P45102@\\n@P45103",
+                "help_korean": "확인하기 위해 사용하는 변수 :\n차량의 시트 벨트 스위치 존재: \"YES\"\n차량의 시트벨트 스위치 없음: \"아니오\""
             },
             {
                 "position": 2,
                 "mnemonic": "LID_23_69_3",
-                "label_index": "11237",
+                "label_index": "@P11237@\\*",
                 "label_korean": "승객석 시트 벨트 스위치",
                 "group_id": "67829",
                 "req_frame_id": "203771",
@@ -1127,13 +1127,13 @@
                 "bit_mask": 4,
                 "bit_shift": 2,
                 "dynamic_arg": "",
-                "help_code": "28114, 45102, 45103",
-                "help_korean": "확인하기\n- 위해 사용하는 변수 :\n- 차량의 시트 벨트 스위치 존재: \"YES\"\n- 차량의 시트벨트 스위치 없음: \"아니오\""
+                "help_code": "@P28114@\\n@P45102@\\n@P45103",
+                "help_korean": "확인하기 위해 사용하는 변수 :\n차량의 시트 벨트 스위치 존재: \"YES\"\n차량의 시트벨트 스위치 없음: \"아니오\""
             },
             {
                 "position": 3,
                 "mnemonic": "MPCONCDSCNTR1",
-                "label_index": "12820",
+                "label_index": "@P12820@\\*1",
                 "label_korean": "1열 중앙 시트 벨트 스위치",
                 "group_id": "67829",
                 "req_frame_id": "203771",
@@ -1149,13 +1149,13 @@
                 "bit_mask": 8,
                 "bit_shift": 3,
                 "dynamic_arg": "1",
-                "help_code": "28114, 45102, 45103",
-                "help_korean": "확인하기\n- 위해 사용하는 변수 :\n- 차량의 시트 벨트 스위치 존재: \"YES\"\n- 차량의 시트벨트 스위치 없음: \"아니오\""
+                "help_code": "@P28114@\\n@P45102@\\n@P45103",
+                "help_korean": "확인하기 위해 사용하는 변수 :\n차량의 시트 벨트 스위치 존재: \"YES\"\n차량의 시트벨트 스위치 없음: \"아니오\""
             },
             {
                 "position": 4,
                 "mnemonic": "LID_23_69_4",
-                "label_index": "12034",
+                "label_index": "@P12034@\\*2",
                 "label_korean": "2열 좌측 및 우측 시트 벨트 스위치",
                 "group_id": "67829",
                 "req_frame_id": "203771",
@@ -1171,13 +1171,13 @@
                 "bit_mask": 16,
                 "bit_shift": 4,
                 "dynamic_arg": "2",
-                "help_code": "28114, 45102, 45103",
-                "help_korean": "확인하기\n- 위해 사용하는 변수 :\n- 차량의 시트 벨트 스위치 존재: \"YES\"\n- 차량의 시트벨트 스위치 없음: \"아니오\""
+                "help_code": "@P28114@\\n@P45102@\\n@P45103",
+                "help_korean": "확인하기 위해 사용하는 변수 :\n차량의 시트 벨트 스위치 존재: \"YES\"\n차량의 시트벨트 스위치 없음: \"아니오\""
             },
             {
                 "position": 5,
                 "mnemonic": "LID_23_69_5",
-                "label_index": "12820",
+                "label_index": "@P12820@\\*2",
                 "label_korean": "2열 중앙 시트 벨트 스위치",
                 "group_id": "67829",
                 "req_frame_id": "203771",
@@ -1193,13 +1193,13 @@
                 "bit_mask": 32,
                 "bit_shift": 5,
                 "dynamic_arg": "2",
-                "help_code": "28114, 45102, 45103",
-                "help_korean": "확인하기\n- 위해 사용하는 변수 :\n- 차량의 시트 벨트 스위치 존재: \"YES\"\n- 차량의 시트벨트 스위치 없음: \"아니오\""
+                "help_code": "@P28114@\\n@P45102@\\n@P45103",
+                "help_korean": "확인하기 위해 사용하는 변수 :\n차량의 시트 벨트 스위치 존재: \"YES\"\n차량의 시트벨트 스위치 없음: \"아니오\""
             }
         ]
     },
     "MESUREPARAMETRE7": {
-        "screen_title_korean": "ECU내부 결함",
+        "screen_title_korean": "ECU 내부 결함",
         "screen_label_index": "@P12469-POLUXDATA@\\*",
         "ecu_name": "SAC_TRW_X250_V1_0",
         "total_sensors": 13,
@@ -1207,7 +1207,7 @@
             {
                 "position": 1,
                 "mnemonic": "MPDEFACCL1",
-                "label_index": "11862",
+                "label_index": "@P11862@\\*1",
                 "label_korean": "가속도계1 결함",
                 "group_id": "67832",
                 "req_frame_id": "203780",
@@ -1223,13 +1223,13 @@
                 "bit_mask": 128,
                 "bit_shift": 7,
                 "dynamic_arg": "1",
-                "help_code": "28114, 45329, 45330",
-                "help_korean": "확인하기\n- 위해 사용하는 변수 :\n- 정상적인 ECU 작동 상태: \"아니오\"\n- ECU 내부 기능불량: \"예\""
+                "help_code": "@P28114@\\n@P45329@\\n@P45330",
+                "help_korean": "확인하기 위해 사용하는 변수 :\n정상적인 ECU 작동 상태: \"아니오\"\nECU 내부 기능불량: \"예\""
             },
             {
                 "position": 2,
                 "mnemonic": "MPDEFACCL2",
-                "label_index": "11862",
+                "label_index": "@P11862@\\*2",
                 "label_korean": "가속도계2 결함",
                 "group_id": "67832",
                 "req_frame_id": "203780",
@@ -1245,13 +1245,13 @@
                 "bit_mask": 64,
                 "bit_shift": 6,
                 "dynamic_arg": "2",
-                "help_code": "28114, 45329, 45330",
-                "help_korean": "확인하기\n- 위해 사용하는 변수 :\n- 정상적인 ECU 작동 상태: \"아니오\"\n- ECU 내부 기능불량: \"예\""
+                "help_code": "@P28114@\\n@P45329@\\n@P45330",
+                "help_korean": "확인하기 위해 사용하는 변수 :\n정상적인 ECU 작동 상태: \"아니오\"\nECU 내부 기능불량: \"예\""
             },
             {
                 "position": 3,
                 "mnemonic": "MPDEFACCL3",
-                "label_index": "11862",
+                "label_index": "@P11862@\\*3",
                 "label_korean": "가속도계3 결함",
                 "group_id": "67832",
                 "req_frame_id": "203780",
@@ -1267,13 +1267,13 @@
                 "bit_mask": 32,
                 "bit_shift": 5,
                 "dynamic_arg": "3",
-                "help_code": "28114, 45329, 45330",
-                "help_korean": "확인하기\n- 위해 사용하는 변수 :\n- 정상적인 ECU 작동 상태: \"아니오\"\n- ECU 내부 기능불량: \"예\""
+                "help_code": "@P28114@\\n@P45329@\\n@P45330",
+                "help_korean": "확인하기 위해 사용하는 변수 :\n정상적인 ECU 작동 상태: \"아니오\"\nECU 내부 기능불량: \"예\""
             },
             {
                 "position": 4,
                 "mnemonic": "MPDEFRESERV1",
-                "label_index": "10809",
+                "label_index": "@P10809@\\*1",
                 "label_korean": "에너지 저장1 결함",
                 "group_id": "67832",
                 "req_frame_id": "203780",
@@ -1289,13 +1289,13 @@
                 "bit_mask": 16,
                 "bit_shift": 4,
                 "dynamic_arg": "1",
-                "help_code": "28114, 45329, 45330",
-                "help_korean": "확인하기\n- 위해 사용하는 변수 :\n- 정상적인 ECU 작동 상태: \"아니오\"\n- ECU 내부 기능불량: \"예\""
+                "help_code": "@P28114@\\n@P45329@\\n@P45330",
+                "help_korean": "확인하기 위해 사용하는 변수 :\n정상적인 ECU 작동 상태: \"아니오\"\nECU 내부 기능불량: \"예\""
             },
             {
                 "position": 5,
                 "mnemonic": "MPDEFRESERV2",
-                "label_index": "10809",
+                "label_index": "@P10809@\\*2",
                 "label_korean": "에너지 저장2 결함",
                 "group_id": "67832",
                 "req_frame_id": "203780",
@@ -1311,13 +1311,13 @@
                 "bit_mask": 8,
                 "bit_shift": 3,
                 "dynamic_arg": "2",
-                "help_code": "28114, 45329, 45330",
-                "help_korean": "확인하기\n- 위해 사용하는 변수 :\n- 정상적인 ECU 작동 상태: \"아니오\"\n- ECU 내부 기능불량: \"예\""
+                "help_code": "@P28114@\\n@P45329@\\n@P45330",
+                "help_korean": "확인하기 위해 사용하는 변수 :\n정상적인 ECU 작동 상태: \"아니오\"\nECU 내부 기능불량: \"예\""
             },
             {
                 "position": 6,
                 "mnemonic": "MPDEFASCIC1",
-                "label_index": "8906",
+                "label_index": "@P8906@\\*1",
                 "label_korean": "ASIC1의 결함",
                 "group_id": "67832",
                 "req_frame_id": "203780",
@@ -1333,13 +1333,13 @@
                 "bit_mask": 4,
                 "bit_shift": 2,
                 "dynamic_arg": "1",
-                "help_code": "28114, 45329, 45330",
-                "help_korean": "확인하기\n- 위해 사용하는 변수 :\n- 정상적인 ECU 작동 상태: \"아니오\"\n- ECU 내부 기능불량: \"예\""
+                "help_code": "@P28114@\\n@P45329@\\n@P45330",
+                "help_korean": "확인하기 위해 사용하는 변수 :\n정상적인 ECU 작동 상태: \"아니오\"\nECU 내부 기능불량: \"예\""
             },
             {
                 "position": 7,
                 "mnemonic": "MPDEFASCIC2",
-                "label_index": "8906",
+                "label_index": "@P8906@\\*2",
                 "label_korean": "ASIC2의 결함",
                 "group_id": "67832",
                 "req_frame_id": "203780",
@@ -1355,13 +1355,13 @@
                 "bit_mask": 2,
                 "bit_shift": 1,
                 "dynamic_arg": "2",
-                "help_code": "28114, 45329, 45330",
-                "help_korean": "확인하기\n- 위해 사용하는 변수 :\n- 정상적인 ECU 작동 상태: \"아니오\"\n- ECU 내부 기능불량: \"예\""
+                "help_code": "@P28114@\\n@P45329@\\n@P45330",
+                "help_korean": "확인하기 위해 사용하는 변수 :\n정상적인 ECU 작동 상태: \"아니오\"\nECU 내부 기능불량: \"예\""
             },
             {
                 "position": 8,
                 "mnemonic": "MPDEFASCIC3",
-                "label_index": "8906",
+                "label_index": "@P8906@\\*3",
                 "label_korean": "ASIC3의 결함",
                 "group_id": "67832",
                 "req_frame_id": "203780",
@@ -1377,13 +1377,13 @@
                 "bit_mask": 1,
                 "bit_shift": 0,
                 "dynamic_arg": "3",
-                "help_code": "28114, 45329, 45330",
-                "help_korean": "확인하기\n- 위해 사용하는 변수 :\n- 정상적인 ECU 작동 상태: \"아니오\"\n- ECU 내부 기능불량: \"예\""
+                "help_code": "@P28114@\\n@P45329@\\n@P45330",
+                "help_korean": "확인하기 위해 사용하는 변수 :\n정상적인 ECU 작동 상태: \"아니오\"\nECU 내부 기능불량: \"예\""
             },
             {
                 "position": 9,
                 "mnemonic": "MPDEFASCIC4",
-                "label_index": "8906",
+                "label_index": "@P8906@\\*4",
                 "label_korean": "ASIC4의 결함",
                 "group_id": "67832",
                 "req_frame_id": "203780",
@@ -1399,13 +1399,13 @@
                 "bit_mask": 1,
                 "bit_shift": 0,
                 "dynamic_arg": "4",
-                "help_code": "28114, 45329, 45330",
-                "help_korean": "확인하기\n- 위해 사용하는 변수 :\n- 정상적인 ECU 작동 상태: \"아니오\"\n- ECU 내부 기능불량: \"예\""
+                "help_code": "@P28114@\\n@P45329@\\n@P45330",
+                "help_korean": "확인하기 위해 사용하는 변수 :\n정상적인 ECU 작동 상태: \"아니오\"\nECU 내부 기능불량: \"예\""
             },
             {
                 "position": 10,
                 "mnemonic": "MPDEFEEPROM",
-                "label_index": "6539",
+                "label_index": "@P6539",
                 "label_korean": "EEPROM 결함",
                 "group_id": "67832",
                 "req_frame_id": "203780",
@@ -1421,13 +1421,13 @@
                 "bit_mask": 32,
                 "bit_shift": 5,
                 "dynamic_arg": "",
-                "help_code": "28114, 45329, 45330",
-                "help_korean": "확인하기\n- 위해 사용하는 변수 :\n- 정상적인 ECU 작동 상태: \"아니오\"\n- ECU 내부 기능불량: \"예\""
+                "help_code": "@P28114@\\n@P45329@\\n@P45330",
+                "help_korean": "확인하기 위해 사용하는 변수 :\n정상적인 ECU 작동 상태: \"아니오\"\nECU 내부 기능불량: \"예\""
             },
             {
                 "position": 11,
                 "mnemonic": "MPDEFREGTENS",
-                "label_index": "1793",
+                "label_index": "@P1793",
                 "label_korean": "전압 조절장치의 결함",
                 "group_id": "67832",
                 "req_frame_id": "203780",
@@ -1443,13 +1443,13 @@
                 "bit_mask": 16,
                 "bit_shift": 4,
                 "dynamic_arg": "",
-                "help_code": "28114, 45329, 45330",
-                "help_korean": "확인하기\n- 위해 사용하는 변수 :\n- 정상적인 ECU 작동 상태: \"아니오\"\n- ECU 내부 기능불량: \"예\""
+                "help_code": "@P28114@\\n@P45329@\\n@P45330",
+                "help_korean": "확인하기 위해 사용하는 변수 :\n정상적인 ECU 작동 상태: \"아니오\"\nECU 내부 기능불량: \"예\""
             },
             {
                 "position": 12,
                 "mnemonic": "MPDEFMICPRC",
-                "label_index": "8654",
+                "label_index": "@P8654",
                 "label_korean": "마이크로프로세서 결함",
                 "group_id": "67832",
                 "req_frame_id": "203780",
@@ -1465,13 +1465,13 @@
                 "bit_mask": 128,
                 "bit_shift": 7,
                 "dynamic_arg": "",
-                "help_code": "28114, 45329, 45330",
-                "help_korean": "확인하기\n- 위해 사용하는 변수 :\n- 정상적인 ECU 작동 상태: \"아니오\"\n- ECU 내부 기능불량: \"예\""
+                "help_code": "@P28114@\\n@P45329@\\n@P45330",
+                "help_korean": "확인하기 위해 사용하는 변수 :\n정상적인 ECU 작동 상태: \"아니오\"\nECU 내부 기능불량: \"예\""
             },
             {
                 "position": 13,
                 "mnemonic": "MPDEFINTERNCALC",
-                "label_index": "7973",
+                "label_index": "@P7973",
                 "label_korean": "ECU 내부 결함",
                 "group_id": "67832",
                 "req_frame_id": "203780",
@@ -1504,8 +1504,8 @@
                 "bit_mask": 78,
                 "bit_shift": 1,
                 "dynamic_arg": "",
-                "help_code": "28114, 45329, 45330",
-                "help_korean": "확인하기\n- 위해 사용하는 변수 :\n- 정상적인 ECU 작동 상태: \"아니오\"\n- ECU 내부 기능불량: \"예\""
+                "help_code": "@P28114@\\n@P45329@\\n@P45330",
+                "help_korean": "확인하기 위해 사용하는 변수 :\n정상적인 ECU 작동 상태: \"아니오\"\nECU 내부 기능불량: \"예\""
             }
         ]
     },
@@ -1518,7 +1518,7 @@
             {
                 "position": 1,
                 "mnemonic": "CA_TENSION_ALIMENTATION",
-                "label_index": "7080",
+                "label_index": "@P7080",
                 "label_korean": "공급 전압",
                 "group_id": "67841",
                 "req_frame_id": "203807",
@@ -1540,7 +1540,7 @@
             {
                 "position": 2,
                 "mnemonic": "CA_ETAT_RESERVES_ENERGIE_CALCULATEUR",
-                "label_index": "10679",
+                "label_index": "@P10679",
                 "label_korean": "ECU의 예비 전원 상태 (콘덴셔에 충전)",
                 "group_id": "67841",
                 "req_frame_id": "203807",
@@ -1565,7 +1565,7 @@
             {
                 "position": 3,
                 "mnemonic": "CA_PHASE_VIE_VEHICULE",
-                "label_index": "3735",
+                "label_index": "@P3735",
                 "label_korean": "차량의 수명 단계",
                 "group_id": "67841",
                 "req_frame_id": "203807",
@@ -1592,7 +1592,7 @@
             {
                 "position": 4,
                 "mnemonic": "CA_KILOMETER",
-                "label_index": "7845",
+                "label_index": "@P7845",
                 "label_korean": "주행거리",
                 "group_id": "67841",
                 "req_frame_id": "203807",

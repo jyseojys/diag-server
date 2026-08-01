@@ -8,7 +8,7 @@
             {
                 "position": 1,
                 "mnemonic": "ID_NOM_DU_FOURNISSEUR",
-                "label_index": "5701",
+                "label_index": "@P5701",
                 "label_korean": "제조 업체명",
                 "group_id": "28438",
                 "req_frame_id": "85319",
@@ -38,7 +38,7 @@
             {
                 "position": 2,
                 "mnemonic": "ID_REFERENCE_MATERIEL",
-                "label_index": "1071",
+                "label_index": "@P1071",
                 "label_korean": "장치 부품 번호",
                 "group_id": "28438",
                 "req_frame_id": "85319",
@@ -60,7 +60,7 @@
             {
                 "position": 3,
                 "mnemonic": "ID_REFERENCE_COMPLEMENTAIRE_MATERIEL",
-                "label_index": "1634",
+                "label_index": "@P1634",
                 "label_korean": "장치 추가 참조 번호",
                 "group_id": "28438",
                 "req_frame_id": "85319",
@@ -82,7 +82,7 @@
             {
                 "position": 4,
                 "mnemonic": "ID_TRACABILITE_INDICE_EVOLUTION_EDITION",
-                "label_index": "24601",
+                "label_index": "@P24601",
                 "label_korean": "소프트웨어 버전",
                 "group_id": "28438",
                 "req_frame_id": "85319",
@@ -104,7 +104,7 @@
             {
                 "position": 5,
                 "mnemonic": "ID_MESS_DIAGNOSTIC",
-                "label_index": "2459",
+                "label_index": "@P2459",
                 "label_korean": "진단 이메일",
                 "group_id": "28438",
                 "req_frame_id": "85319",
@@ -126,7 +126,7 @@
             {
                 "position": 6,
                 "mnemonic": "ID_80_MP_INDICE_MESS",
-                "label_index": "2225",
+                "label_index": "@P2225",
                 "label_korean": "메시지 인덱스",
                 "group_id": "28438",
                 "req_frame_id": "85319",
@@ -148,7 +148,7 @@
             {
                 "position": 7,
                 "mnemonic": "ID_TRACABILITE_DATE_FABRICATION",
-                "label_index": "14355",
+                "label_index": "@P14355",
                 "label_korean": "제조일자",
                 "group_id": "28439",
                 "req_frame_id": "85322",
@@ -170,7 +170,7 @@
             {
                 "position": 8,
                 "mnemonic": "ID_TRACABILITE_NUMERO_DE_SERIE_PIECE",
-                "label_index": "7592",
+                "label_index": "@P7592",
                 "label_korean": "부품 일련 번호",
                 "group_id": "28440",
                 "req_frame_id": "85325",
@@ -200,7 +200,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_MOLETTE_RADIO",
-                "label_index": "17252",
+                "label_index": "@P17252",
                 "label_korean": "라디오 컨트롤 다이얼",
                 "group_id": "28444",
                 "req_frame_id": "85337",
@@ -216,13 +216,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "36185, 18869",
-                "help_korean": "라디오 다이얼은 스위치가 내장된 스티어링 휠의 상단 우측 모듈에 위치해 있다.\n-128 에서 127 사이로 증가하는 값"
+                "help_code": "@P36185@T.@\\n@P18869@\\*128@\\*127",
+                "help_korean": "라디오 다이얼은 스위치가 내장된 스티어링 휠의 상단 우측 모듈에 위치해 있다.\n-128 에서 +127 사이로 증가하는 값"
             },
             {
                 "position": 2,
                 "mnemonic": "MP_VALID_MOLETTE_RADIO",
-                "label_index": "17166",
+                "label_index": "@P17166",
                 "label_korean": "라디오 컨트롤 확인 버튼",
                 "group_id": "28457",
                 "req_frame_id": "85376",
@@ -238,13 +238,13 @@
                 "bit_mask": 64,
                 "bit_shift": 6,
                 "dynamic_arg": "",
-                "help_code": "26298, 34411",
+                "help_code": "@P26298@T.@\\n@P34411@T.",
                 "help_korean": "라디오 다이얼 확인 버튼은 라디오 메뉴에서 선택을 하는데 사용한다.\n라디오 다이얼 확인 버튼은 VCI의 우측 모듈에 위치해 있다."
             },
             {
                 "position": 3,
                 "mnemonic": "MP_TOUCHE_LISTE_1",
-                "label_index": "11746",
+                "label_index": "@P11746",
                 "label_korean": "리스트 버튼",
                 "group_id": "28456",
                 "req_frame_id": "85373",
@@ -269,7 +269,7 @@
             {
                 "position": 4,
                 "mnemonic": "MP_AUGMENTATION_VOLUME_SONORE",
-                "label_index": "3956",
+                "label_index": "@P3956",
                 "label_korean": "볼륨 증가",
                 "group_id": "28450",
                 "req_frame_id": "85355",
@@ -291,7 +291,7 @@
             {
                 "position": 5,
                 "mnemonic": "MP_DIMINUTION_VOLUME_SONORE",
-                "label_index": "1541",
+                "label_index": "@P1541",
                 "label_korean": "볼륨 감소",
                 "group_id": "28451",
                 "req_frame_id": "85358",
@@ -313,7 +313,7 @@
             {
                 "position": 6,
                 "mnemonic": "MP_TOUCHE_SOURCE_MUTE",
-                "label_index": "17377",
+                "label_index": "@P17377",
                 "label_korean": "SOURCE/MUTE 버튼",
                 "group_id": "28452",
                 "req_frame_id": "85361",
@@ -335,7 +335,7 @@
             {
                 "position": 7,
                 "mnemonic": "MP_MOLETTE_XVV",
-                "label_index": "17120",
+                "label_index": "@P17120",
                 "label_korean": "크루즈 컨트롤/스피드 리미터를 위한 3-포지션 스위치",
                 "group_id": "28453",
                 "req_frame_id": "85364",
@@ -351,13 +351,13 @@
                 "bit_mask": 96,
                 "bit_shift": 5,
                 "dynamic_arg": "",
-                "help_code": "34412",
+                "help_code": "@P34412",
                 "help_korean": "크루즈 컨트롤 모듈을 사용해서 크루즈 컨트롤 또는 스피드 리미터의 켜짐 또는 꺼짐 요청에 해당한다"
             },
             {
                 "position": 8,
                 "mnemonic": "MP_AUGMENTATION_CONSIGNE_DE_VITESSE",
-                "label_index": "13767",
+                "label_index": "@P13767",
                 "label_korean": "속도 기준 값 올림",
                 "group_id": "28467",
                 "req_frame_id": "85406",
@@ -379,7 +379,7 @@
             {
                 "position": 9,
                 "mnemonic": "MP_REGULATION_DE_VITESSE_MOINS",
-                "label_index": "8074",
+                "label_index": "@P8074",
                 "label_korean": "속도 기준 값 내림",
                 "group_id": "28468",
                 "req_frame_id": "85409",
@@ -401,7 +401,7 @@
             {
                 "position": 10,
                 "mnemonic": "MP_REGUL_ON_OFF",
-                "label_index": "13502",
+                "label_index": "@P13502",
                 "label_korean": "스피드 리미터/크루즈 컨트롤 대기",
                 "group_id": "28470",
                 "req_frame_id": "85415",
@@ -431,7 +431,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_MOLETTE_RADIO",
-                "label_index": "17252",
+                "label_index": "@P17252",
                 "label_korean": "라디오 컨트롤 다이얼",
                 "group_id": "28444",
                 "req_frame_id": "85337",
@@ -447,13 +447,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "36185, 18869",
-                "help_korean": "라디오 다이얼은 스위치가 내장된 스티어링 휠의 상단 우측 모듈에 위치해 있다.\n-128 에서 127 사이로 증가하는 값"
+                "help_code": "@P36185@T.@\\n@P18869@\\*128@\\*127",
+                "help_korean": "라디오 다이얼은 스위치가 내장된 스티어링 휠의 상단 우측 모듈에 위치해 있다.\n-128 에서 +127 사이로 증가하는 값"
             },
             {
                 "position": 2,
                 "mnemonic": "MP_VALID_MOLETTE_RADIO",
-                "label_index": "17166",
+                "label_index": "@P17166",
                 "label_korean": "라디오 컨트롤 확인 버튼",
                 "group_id": "28457",
                 "req_frame_id": "85376",
@@ -469,13 +469,13 @@
                 "bit_mask": 64,
                 "bit_shift": 6,
                 "dynamic_arg": "",
-                "help_code": "26298, 34411",
+                "help_code": "@P26298@T.@\\n@P34411@T.",
                 "help_korean": "라디오 다이얼 확인 버튼은 라디오 메뉴에서 선택을 하는데 사용한다.\n라디오 다이얼 확인 버튼은 VCI의 우측 모듈에 위치해 있다."
             },
             {
                 "position": 3,
                 "mnemonic": "MP_TOUCHE_LISTE_1",
-                "label_index": "11746",
+                "label_index": "@P11746",
                 "label_korean": "리스트 버튼",
                 "group_id": "28456",
                 "req_frame_id": "85373",
@@ -500,7 +500,7 @@
             {
                 "position": 4,
                 "mnemonic": "MP_AUGMENTATION_VOLUME_SONORE",
-                "label_index": "3956",
+                "label_index": "@P3956",
                 "label_korean": "볼륨 증가",
                 "group_id": "28450",
                 "req_frame_id": "85355",
@@ -522,7 +522,7 @@
             {
                 "position": 5,
                 "mnemonic": "MP_DIMINUTION_VOLUME_SONORE",
-                "label_index": "1541",
+                "label_index": "@P1541",
                 "label_korean": "볼륨 감소",
                 "group_id": "28451",
                 "req_frame_id": "85358",
@@ -544,7 +544,7 @@
             {
                 "position": 6,
                 "mnemonic": "MP_MOLETTE_XVV",
-                "label_index": "17120",
+                "label_index": "@P17120",
                 "label_korean": "크루즈 컨트롤/스피드 리미터를 위한 3-포지션 스위치",
                 "group_id": "28453",
                 "req_frame_id": "85364",
@@ -560,7 +560,7 @@
                 "bit_mask": 96,
                 "bit_shift": 5,
                 "dynamic_arg": "",
-                "help_code": "34412",
+                "help_code": "@P34412",
                 "help_korean": "크루즈 컨트롤 모듈을 사용해서 크루즈 컨트롤 또는 스피드 리미터의 켜짐 또는 꺼짐 요청에 해당한다"
             }
         ]
@@ -574,7 +574,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_MOLETTE_RADIO",
-                "label_index": "17252",
+                "label_index": "@P17252",
                 "label_korean": "라디오 컨트롤 다이얼",
                 "group_id": "28444",
                 "req_frame_id": "85337",
@@ -590,13 +590,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "36185, 18869",
-                "help_korean": "라디오 다이얼은 스위치가 내장된 스티어링 휠의 상단 우측 모듈에 위치해 있다.\n-128 에서 127 사이로 증가하는 값"
+                "help_code": "@P36185@T.@\\n@P18869@\\*128@\\*127",
+                "help_korean": "라디오 다이얼은 스위치가 내장된 스티어링 휠의 상단 우측 모듈에 위치해 있다.\n-128 에서 +127 사이로 증가하는 값"
             },
             {
                 "position": 2,
                 "mnemonic": "MP_AUGMENTATION_VOLUME_SONORE",
-                "label_index": "3956",
+                "label_index": "@P3956",
                 "label_korean": "볼륨 증가",
                 "group_id": "28450",
                 "req_frame_id": "85355",
@@ -618,7 +618,7 @@
             {
                 "position": 3,
                 "mnemonic": "MP_DIMINUTION_VOLUME_SONORE",
-                "label_index": "1541",
+                "label_index": "@P1541",
                 "label_korean": "볼륨 감소",
                 "group_id": "28451",
                 "req_frame_id": "85358",
@@ -640,7 +640,7 @@
             {
                 "position": 4,
                 "mnemonic": "MP_TOUCHE_LISTE_1",
-                "label_index": "11746",
+                "label_index": "@P11746",
                 "label_korean": "리스트 버튼",
                 "group_id": "28456",
                 "req_frame_id": "85373",
@@ -665,7 +665,7 @@
             {
                 "position": 5,
                 "mnemonic": "MP_VALID_MOLETTE_RADIO",
-                "label_index": "17166",
+                "label_index": "@P17166",
                 "label_korean": "라디오 컨트롤 확인 버튼",
                 "group_id": "28457",
                 "req_frame_id": "85376",
@@ -681,13 +681,13 @@
                 "bit_mask": 64,
                 "bit_shift": 6,
                 "dynamic_arg": "",
-                "help_code": "26298, 34411",
+                "help_code": "@P26298@T.@\\n@P34411@T.",
                 "help_korean": "라디오 다이얼 확인 버튼은 라디오 메뉴에서 선택을 하는데 사용한다.\n라디오 다이얼 확인 버튼은 VCI의 우측 모듈에 위치해 있다."
             },
             {
                 "position": 6,
                 "mnemonic": "MP_TOUCHE_SOURCE_MUTE",
-                "label_index": "17377",
+                "label_index": "@P17377",
                 "label_korean": "SOURCE/MUTE 버튼",
                 "group_id": "28452",
                 "req_frame_id": "85361",
@@ -709,7 +709,7 @@
             {
                 "position": 7,
                 "mnemonic": "MP_MOLETTE_XVV",
-                "label_index": "17120",
+                "label_index": "@P17120",
                 "label_korean": "크루즈 컨트롤/스피드 리미터를 위한 3-포지션 스위치",
                 "group_id": "28453",
                 "req_frame_id": "85364",
@@ -725,13 +725,13 @@
                 "bit_mask": 96,
                 "bit_shift": 5,
                 "dynamic_arg": "",
-                "help_code": "34412",
+                "help_code": "@P34412",
                 "help_korean": "크루즈 컨트롤 모듈을 사용해서 크루즈 컨트롤 또는 스피드 리미터의 켜짐 또는 꺼짐 요청에 해당한다"
             },
             {
                 "position": 8,
                 "mnemonic": "MP_AUGMENTATION_CONSIGNE_DE_VITESSE",
-                "label_index": "13767",
+                "label_index": "@P13767",
                 "label_korean": "속도 기준 값 올림",
                 "group_id": "28467",
                 "req_frame_id": "85406",
@@ -753,7 +753,7 @@
             {
                 "position": 9,
                 "mnemonic": "MP_DIMINUTION_CONSIGNE_VITESSE",
-                "label_index": "8074",
+                "label_index": "@P8074",
                 "label_korean": "속도 기준 값 내림",
                 "group_id": "28468",
                 "req_frame_id": "85409",
@@ -775,7 +775,7 @@
             {
                 "position": 10,
                 "mnemonic": "MP_DESACTIV_RVV_LVV",
-                "label_index": "13502",
+                "label_index": "@P13502",
                 "label_korean": "스피드 리미터/크루즈 컨트롤 대기",
                 "group_id": "28470",
                 "req_frame_id": "85415",
@@ -797,7 +797,7 @@
             {
                 "position": 11,
                 "mnemonic": "MP_ACTIV_XVV_PROG",
-                "label_index": "17240",
+                "label_index": "@P17240",
                 "label_korean": "기억된 속도 불러오기",
                 "group_id": "28449",
                 "req_frame_id": "85352",
@@ -827,7 +827,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_ACTIV_XVV_PROG",
-                "label_index": "17240",
+                "label_index": "@P17240",
                 "label_korean": "기억된 속도 불러오기",
                 "group_id": "28449",
                 "req_frame_id": "85352",
@@ -857,7 +857,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_ACTIV_XVV_PROG",
-                "label_index": "17240",
+                "label_index": "@P17240",
                 "label_korean": "기억된 속도 불러오기",
                 "group_id": "28449",
                 "req_frame_id": "85352",
@@ -887,7 +887,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_MOLETTE_NAVIGATION_TELEMATIQUE",
-                "label_index": "17271",
+                "label_index": "@P17271",
                 "label_korean": "텔레메틱 네비게이션 제어",
                 "group_id": "28445",
                 "req_frame_id": "85340",
@@ -903,13 +903,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "17363, 17251, 17068",
-                "help_korean": "차량 장치에 따라, 이 스위치는 다기능 스크린 또는 네비게이션 스크린에서 네비게이션을 위한 것이다. VCI 좌측 모듈에 위치해 있다. -128 에서 127 사이에서 증가하는 값"
+                "help_code": "@P17363@T. @P17251@T. @P17068@\\*128@\\*127",
+                "help_korean": "차량 장치에 따라, 이 스위치는 다기능 스크린 또는 네비게이션 스크린에서 네비게이션을 위한 것이다. VCI 좌측 모듈에 위치해 있다. -128 에서 +127 사이에서 증가하는 값"
             },
             {
                 "position": 2,
                 "mnemonic": "MP_PUSH_MOLETTE_NAVIGATION_TELEMATIQUE",
-                "label_index": "17131",
+                "label_index": "@P17131",
                 "label_korean": "텔레메틱 네비게이션 제어 확인 버튼",
                 "group_id": "28458",
                 "req_frame_id": "85379",
@@ -931,7 +931,7 @@
             {
                 "position": 3,
                 "mnemonic": "TOUCHE_ESC",
-                "label_index": "4327",
+                "label_index": "@P4327",
                 "label_korean": "ESP 버튼",
                 "group_id": "28459",
                 "req_frame_id": "85382",
@@ -953,7 +953,7 @@
             {
                 "position": 4,
                 "mnemonic": "MP_CMD_MAIN_LIBRE",
-                "label_index": "16962",
+                "label_index": "@P16962",
                 "label_korean": "핸즈-프리 키트 제어 버튼",
                 "group_id": "28460",
                 "req_frame_id": "85385",
@@ -975,7 +975,7 @@
             {
                 "position": 5,
                 "mnemonic": "MP_MOLETTE_NAVIGATION_MATT",
-                "label_index": "17414",
+                "label_index": "@P17414",
                 "label_korean": "매트릭스 스크린 네비게이션 제어",
                 "group_id": "28446",
                 "req_frame_id": "85343",
@@ -991,13 +991,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "17262, 17485, 17068",
-                "help_korean": "이 스위치는 차량에 계기판 매트릭스 스크린이 있을 경우 네비게이션을 위한 것이다. VCI 우측 모듈에 위치해 있다. -128 에서 127 사이에서 증가하는 값"
+                "help_code": "@P17262@T. @P17485@T. @P17068@\\*128@\\*127",
+                "help_korean": "이 스위치는 차량에 계기판 매트릭스 스크린이 있을 경우 네비게이션을 위한 것이다. VCI 우측 모듈에 위치해 있다. -128 에서 +127 사이에서 증가하는 값"
             },
             {
                 "position": 6,
                 "mnemonic": "MP_PUSH_MOLETTE_NAVIGATION_MATT",
-                "label_index": "17177",
+                "label_index": "@P17177",
                 "label_korean": "매트릭스 스크린 네비게이션 제어 확인 버튼",
                 "group_id": "28461",
                 "req_frame_id": "85388",
@@ -1013,13 +1013,13 @@
                 "bit_mask": 64,
                 "bit_shift": 6,
                 "dynamic_arg": "",
-                "help_code": "17199",
+                "help_code": "@P17199",
                 "help_korean": "이 버튼은 차량의 계기판에 매트릭스 스크린이 있을 경우에 사용할 수 있다"
             },
             {
                 "position": 7,
                 "mnemonic": "MP_ACTIV_BLACK_PANEL",
-                "label_index": "17440",
+                "label_index": "@P17440",
                 "label_korean": "블랙 패널 모드 작동 버튼",
                 "group_id": "28466",
                 "req_frame_id": "85403",
@@ -1041,7 +1041,7 @@
             {
                 "position": 8,
                 "mnemonic": "MP_MOLETTE_RHEOSTAT_LUMINOSITE",
-                "label_index": "17462",
+                "label_index": "@P17462",
                 "label_korean": "차량 실내 밝기 조정 스위치",
                 "group_id": "28447",
                 "req_frame_id": "85346",
@@ -1057,13 +1057,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "17294, 17485, 17068",
-                "help_korean": "이 스위치는 차량의 계기판에 도트 매트릭스 스크린이 없을 경우에 차량의 백라이트 구성품(계기판, 다기능 스크린, 네비게이션 스크린 등)의 밝기를 조정하는 것이다. VCI 우측 모듈에 위치해 있다. -128 에서 127 사이에서 증가하는 값"
+                "help_code": "@P17294@T. @P17485@T. @P17068@\\*128@\\*127",
+                "help_korean": "이 스위치는 차량의 계기판에 도트 매트릭스 스크린이 없을 경우에 차량의 백라이트 구성품(계기판, 다기능 스크린, 네비게이션 스크린 등)의 밝기를 조정하는 것이다. VCI 우측 모듈에 위치해 있다. -128 에서 +127 사이에서 증가하는 값"
             },
             {
                 "position": 9,
                 "mnemonic": "MP_ALLUMAGE_PLAFONNIER",
-                "label_index": "17017",
+                "label_index": "@P17017",
                 "label_korean": "실내등 버튼",
                 "group_id": "28448",
                 "req_frame_id": "85349",
@@ -1079,13 +1079,13 @@
                 "bit_mask": 64,
                 "bit_shift": 6,
                 "dynamic_arg": "",
-                "help_code": "17269",
+                "help_code": "@P17269",
                 "help_korean": "이 버튼은 차량에 주차 가능 공간 측정 기능이 있지 않을 경우에 사용할 수 있다"
             },
             {
                 "position": 10,
                 "mnemonic": "MP_ACTIV_XVV_PROG",
-                "label_index": "17240",
+                "label_index": "@P17240",
                 "label_korean": "기억된 속도 불러오기",
                 "group_id": "28449",
                 "req_frame_id": "85352",
@@ -1115,7 +1115,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_MOLETTE_NAVIGATION_TELEMATIQUE",
-                "label_index": "17271",
+                "label_index": "@P17271",
                 "label_korean": "텔레메틱 네비게이션 제어",
                 "group_id": "28445",
                 "req_frame_id": "85340",
@@ -1131,13 +1131,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "17363, 17251, 17068",
-                "help_korean": "차량 장치에 따라, 이 스위치는 다기능 스크린 또는 네비게이션 스크린에서 네비게이션을 위한 것이다. VCI 좌측 모듈에 위치해 있다. -128 에서 127 사이에서 증가하는 값"
+                "help_code": "@P17363@T. @P17251@T. @P17068@\\*128@\\*127",
+                "help_korean": "차량 장치에 따라, 이 스위치는 다기능 스크린 또는 네비게이션 스크린에서 네비게이션을 위한 것이다. VCI 좌측 모듈에 위치해 있다. -128 에서 +127 사이에서 증가하는 값"
             },
             {
                 "position": 2,
                 "mnemonic": "MP_PUSH_MOLETTE_NAVIGATION_TELEMATIQUE",
-                "label_index": "17131",
+                "label_index": "@P17131",
                 "label_korean": "텔레메틱 네비게이션 제어 확인 버튼",
                 "group_id": "28458",
                 "req_frame_id": "85379",
@@ -1159,7 +1159,7 @@
             {
                 "position": 3,
                 "mnemonic": "TOUCHE_ESC",
-                "label_index": "4327",
+                "label_index": "@P4327",
                 "label_korean": "ESP 버튼",
                 "group_id": "28459",
                 "req_frame_id": "85382",
@@ -1181,7 +1181,7 @@
             {
                 "position": 4,
                 "mnemonic": "MP_CMD_MAIN_LIBRE",
-                "label_index": "16962",
+                "label_index": "@P16962",
                 "label_korean": "핸즈-프리 키트 제어 버튼",
                 "group_id": "28460",
                 "req_frame_id": "85385",
@@ -1203,7 +1203,7 @@
             {
                 "position": 5,
                 "mnemonic": "MP_MOLETTE_NAVIGATION_MATT",
-                "label_index": "17414",
+                "label_index": "@P17414",
                 "label_korean": "매트릭스 스크린 네비게이션 제어",
                 "group_id": "28446",
                 "req_frame_id": "85343",
@@ -1219,13 +1219,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "17262, 17485, 17068",
-                "help_korean": "이 스위치는 차량에 계기판 매트릭스 스크린이 있을 경우 네비게이션을 위한 것이다. VCI 우측 모듈에 위치해 있다. -128 에서 127 사이에서 증가하는 값"
+                "help_code": "@P17262@T. @P17485@T. @P17068@\\*128@\\*127",
+                "help_korean": "이 스위치는 차량에 계기판 매트릭스 스크린이 있을 경우 네비게이션을 위한 것이다. VCI 우측 모듈에 위치해 있다. -128 에서 +127 사이에서 증가하는 값"
             },
             {
                 "position": 6,
                 "mnemonic": "MP_PUSH_MOLETTE_NAVIGATION_MATT",
-                "label_index": "17177",
+                "label_index": "@P17177",
                 "label_korean": "매트릭스 스크린 네비게이션 제어 확인 버튼",
                 "group_id": "28461",
                 "req_frame_id": "85388",
@@ -1241,13 +1241,13 @@
                 "bit_mask": 64,
                 "bit_shift": 6,
                 "dynamic_arg": "",
-                "help_code": "17199",
+                "help_code": "@P17199",
                 "help_korean": "이 버튼은 차량의 계기판에 매트릭스 스크린이 있을 경우에 사용할 수 있다"
             },
             {
                 "position": 7,
                 "mnemonic": "MP_ACTIV_MPD",
-                "label_index": "17402",
+                "label_index": "@P17402",
                 "label_korean": "주차 가능 공간 측정 기능 작동 버튼",
                 "group_id": "28465",
                 "req_frame_id": "85400",
@@ -1263,13 +1263,13 @@
                 "bit_mask": 64,
                 "bit_shift": 6,
                 "dynamic_arg": "",
-                "help_code": "17376",
+                "help_code": "@P17376",
                 "help_korean": "이 버튼은 차량에 주차 가능 공간 측정 기능이 있을 경우에 사용할 수 있다"
             },
             {
                 "position": 8,
                 "mnemonic": "MP_ACTIV_BLACK_PANEL",
-                "label_index": "17440",
+                "label_index": "@P17440",
                 "label_korean": "블랙 패널 모드 작동 버튼",
                 "group_id": "28466",
                 "req_frame_id": "85403",
@@ -1291,7 +1291,7 @@
             {
                 "position": 9,
                 "mnemonic": "MP_MOLETTE_RHEOSTAT_LUMINOSITE",
-                "label_index": "17462",
+                "label_index": "@P17462",
                 "label_korean": "차량 실내 밝기 조정 스위치",
                 "group_id": "28447",
                 "req_frame_id": "85346",
@@ -1307,13 +1307,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "17294, 17485, 17068",
-                "help_korean": "이 스위치는 차량의 계기판에 도트 매트릭스 스크린이 없을 경우에 차량의 백라이트 구성품(계기판, 다기능 스크린, 네비게이션 스크린 등)의 밝기를 조정하는 것이다. VCI 우측 모듈에 위치해 있다. -128 에서 127 사이에서 증가하는 값"
+                "help_code": "@P17294@T. @P17485@T. @P17068@\\*128@\\*127",
+                "help_korean": "이 스위치는 차량의 계기판에 도트 매트릭스 스크린이 없을 경우에 차량의 백라이트 구성품(계기판, 다기능 스크린, 네비게이션 스크린 등)의 밝기를 조정하는 것이다. VCI 우측 모듈에 위치해 있다. -128 에서 +127 사이에서 증가하는 값"
             },
             {
                 "position": 10,
                 "mnemonic": "MP_ALLUMAGE_PLAFONNIER",
-                "label_index": "17017",
+                "label_index": "@P17017",
                 "label_korean": "실내등 버튼",
                 "group_id": "28448",
                 "req_frame_id": "85349",
@@ -1329,13 +1329,13 @@
                 "bit_mask": 64,
                 "bit_shift": 6,
                 "dynamic_arg": "",
-                "help_code": "17269",
+                "help_code": "@P17269",
                 "help_korean": "이 버튼은 차량에 주차 가능 공간 측정 기능이 있지 않을 경우에 사용할 수 있다"
             },
             {
                 "position": 11,
                 "mnemonic": "MP_ACTIV_XVV_PROG",
-                "label_index": "17240",
+                "label_index": "@P17240",
                 "label_korean": "기억된 속도 불러오기",
                 "group_id": "28449",
                 "req_frame_id": "85352",
@@ -1365,7 +1365,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_MOLETTE_NAVIGATION_TELEMATIQUE",
-                "label_index": "17271",
+                "label_index": "@P17271",
                 "label_korean": "텔레메틱 네비게이션 제어",
                 "group_id": "28445",
                 "req_frame_id": "85340",
@@ -1381,13 +1381,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "17363, 17251, 17068",
-                "help_korean": "차량 장치에 따라, 이 스위치는 다기능 스크린 또는 네비게이션 스크린에서 네비게이션을 위한 것이다. VCI 좌측 모듈에 위치해 있다. -128 에서 127 사이에서 증가하는 값"
+                "help_code": "@P17363@T. @P17251@T. @P17068@\\*128@\\*127",
+                "help_korean": "차량 장치에 따라, 이 스위치는 다기능 스크린 또는 네비게이션 스크린에서 네비게이션을 위한 것이다. VCI 좌측 모듈에 위치해 있다. -128 에서 +127 사이에서 증가하는 값"
             },
             {
                 "position": 2,
                 "mnemonic": "MP_PUSH_MOLETTE_NAVIGATION_TELEMATIQUE",
-                "label_index": "17131",
+                "label_index": "@P17131",
                 "label_korean": "텔레메틱 네비게이션 제어 확인 버튼",
                 "group_id": "28458",
                 "req_frame_id": "85379",
@@ -1409,7 +1409,7 @@
             {
                 "position": 3,
                 "mnemonic": "TOUCHE_ESC",
-                "label_index": "4327",
+                "label_index": "@P4327",
                 "label_korean": "ESP 버튼",
                 "group_id": "28459",
                 "req_frame_id": "85382",
@@ -1431,7 +1431,7 @@
             {
                 "position": 4,
                 "mnemonic": "MP_CMD_MAIN_LIBRE",
-                "label_index": "16962",
+                "label_index": "@P16962",
                 "label_korean": "핸즈-프리 키트 제어 버튼",
                 "group_id": "28460",
                 "req_frame_id": "85385",
@@ -1453,7 +1453,7 @@
             {
                 "position": 5,
                 "mnemonic": "MP_MOLETTE_NAVIGATION_MATT",
-                "label_index": "17414",
+                "label_index": "@P17414",
                 "label_korean": "매트릭스 스크린 네비게이션 제어",
                 "group_id": "28446",
                 "req_frame_id": "85343",
@@ -1469,13 +1469,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "17262, 17485, 17068",
-                "help_korean": "이 스위치는 차량에 계기판 매트릭스 스크린이 있을 경우 네비게이션을 위한 것이다. VCI 우측 모듈에 위치해 있다. -128 에서 127 사이에서 증가하는 값"
+                "help_code": "@P17262@T. @P17485@T. @P17068@\\*128@\\*127",
+                "help_korean": "이 스위치는 차량에 계기판 매트릭스 스크린이 있을 경우 네비게이션을 위한 것이다. VCI 우측 모듈에 위치해 있다. -128 에서 +127 사이에서 증가하는 값"
             },
             {
                 "position": 6,
                 "mnemonic": "MP_PUSH_MOLETTE_NAVIGATION_MATT",
-                "label_index": "17177",
+                "label_index": "@P17177",
                 "label_korean": "매트릭스 스크린 네비게이션 제어 확인 버튼",
                 "group_id": "28461",
                 "req_frame_id": "85388",
@@ -1491,13 +1491,13 @@
                 "bit_mask": 64,
                 "bit_shift": 6,
                 "dynamic_arg": "",
-                "help_code": "17199",
+                "help_code": "@P17199",
                 "help_korean": "이 버튼은 차량의 계기판에 매트릭스 스크린이 있을 경우에 사용할 수 있다"
             },
             {
                 "position": 7,
                 "mnemonic": "MP_ACTIV_MPD",
-                "label_index": "17402",
+                "label_index": "@P17402",
                 "label_korean": "주차 가능 공간 측정 기능 작동 버튼",
                 "group_id": "28465",
                 "req_frame_id": "85400",
@@ -1513,13 +1513,13 @@
                 "bit_mask": 64,
                 "bit_shift": 6,
                 "dynamic_arg": "",
-                "help_code": "17376",
+                "help_code": "@P17376",
                 "help_korean": "이 버튼은 차량에 주차 가능 공간 측정 기능이 있을 경우에 사용할 수 있다"
             },
             {
                 "position": 8,
                 "mnemonic": "MP_ACTIV_BLACK_PANEL",
-                "label_index": "17440",
+                "label_index": "@P17440",
                 "label_korean": "블랙 패널 모드 작동 버튼",
                 "group_id": "28466",
                 "req_frame_id": "85403",
@@ -1541,7 +1541,7 @@
             {
                 "position": 9,
                 "mnemonic": "MP_MOLETTE_RHEOSTAT_LUMINOSITE",
-                "label_index": "17462",
+                "label_index": "@P17462",
                 "label_korean": "차량 실내 밝기 조정 스위치",
                 "group_id": "28447",
                 "req_frame_id": "85346",
@@ -1557,13 +1557,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "17294, 17485, 17068",
-                "help_korean": "이 스위치는 차량의 계기판에 도트 매트릭스 스크린이 없을 경우에 차량의 백라이트 구성품(계기판, 다기능 스크린, 네비게이션 스크린 등)의 밝기를 조정하는 것이다. VCI 우측 모듈에 위치해 있다. -128 에서 127 사이에서 증가하는 값"
+                "help_code": "@P17294@T. @P17485@T. @P17068@\\*128@\\*127",
+                "help_korean": "이 스위치는 차량의 계기판에 도트 매트릭스 스크린이 없을 경우에 차량의 백라이트 구성품(계기판, 다기능 스크린, 네비게이션 스크린 등)의 밝기를 조정하는 것이다. VCI 우측 모듈에 위치해 있다. -128 에서 +127 사이에서 증가하는 값"
             },
             {
                 "position": 10,
                 "mnemonic": "MP_ACTIV_XVV_PROG",
-                "label_index": "17240",
+                "label_index": "@P17240",
                 "label_korean": "기억된 속도 불러오기",
                 "group_id": "28449",
                 "req_frame_id": "85352",
@@ -1593,7 +1593,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_MOLETTE_NAVIGATION_TELEMATIQUE",
-                "label_index": "17271",
+                "label_index": "@P17271",
                 "label_korean": "텔레메틱 네비게이션 제어",
                 "group_id": "28445",
                 "req_frame_id": "85340",
@@ -1609,13 +1609,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "17363, 17251, 17068",
-                "help_korean": "차량 장치에 따라, 이 스위치는 다기능 스크린 또는 네비게이션 스크린에서 네비게이션을 위한 것이다. VCI 좌측 모듈에 위치해 있다. -128 에서 127 사이에서 증가하는 값"
+                "help_code": "@P17363@T. @P17251@T. @P17068@\\*128@\\*127",
+                "help_korean": "차량 장치에 따라, 이 스위치는 다기능 스크린 또는 네비게이션 스크린에서 네비게이션을 위한 것이다. VCI 좌측 모듈에 위치해 있다. -128 에서 +127 사이에서 증가하는 값"
             },
             {
                 "position": 2,
                 "mnemonic": "MP_PUSH_MOLETTE_NAVIGATION_TELEMATIQUE",
-                "label_index": "17131",
+                "label_index": "@P17131",
                 "label_korean": "텔레메틱 네비게이션 제어 확인 버튼",
                 "group_id": "28458",
                 "req_frame_id": "85379",
@@ -1637,7 +1637,7 @@
             {
                 "position": 3,
                 "mnemonic": "MP_TOUCHE_ESC",
-                "label_index": "11397",
+                "label_index": "@P11397",
                 "label_korean": "\"ESC\" 키",
                 "group_id": "28459",
                 "req_frame_id": "85382",
@@ -1662,7 +1662,7 @@
             {
                 "position": 4,
                 "mnemonic": "MP_CMD_MAIN_LIBRE",
-                "label_index": "16962",
+                "label_index": "@P16962",
                 "label_korean": "핸즈-프리 키트 제어 버튼",
                 "group_id": "28460",
                 "req_frame_id": "85385",
@@ -1684,7 +1684,7 @@
             {
                 "position": 5,
                 "mnemonic": "MP_MOLETTE_NAVIGATION_COMBINE",
-                "label_index": "18812",
+                "label_index": "@P18812",
                 "label_korean": "계기판 네비게이션 다이얼",
                 "group_id": "28446",
                 "req_frame_id": "85343",
@@ -1706,7 +1706,7 @@
             {
                 "position": 6,
                 "mnemonic": "MP_PUSH_MOLETTE_NAVIGATION_COMBINE",
-                "label_index": "18807",
+                "label_index": "@P18807",
                 "label_korean": "계기판 네비게이션 제어 확인 버튼",
                 "group_id": "28461",
                 "req_frame_id": "85388",
@@ -1728,7 +1728,7 @@
             {
                 "position": 7,
                 "mnemonic": "MP_ACTIV_CITY_PARK",
-                "label_index": "31085",
+                "label_index": "@P31085",
                 "label_korean": "반-자동 주차 기능 작동 버튼",
                 "group_id": "28465",
                 "req_frame_id": "85400",
@@ -1744,13 +1744,13 @@
                 "bit_mask": 64,
                 "bit_shift": 6,
                 "dynamic_arg": "",
-                "help_code": "48695",
+                "help_code": "@P48695",
                 "help_korean": "제어 기능이 내장된 스티어링 휠의 버전에 따라 변수 제공"
             },
             {
                 "position": 8,
                 "mnemonic": "MP_ACTIV_BLACK_PANEL",
-                "label_index": "17440",
+                "label_index": "@P17440",
                 "label_korean": "블랙 패널 모드 작동 버튼",
                 "group_id": "28466",
                 "req_frame_id": "85403",
@@ -1772,7 +1772,7 @@
             {
                 "position": 9,
                 "mnemonic": "MP_MOLETTE_RHEOSTAT_LUMINOSITE",
-                "label_index": "17462",
+                "label_index": "@P17462",
                 "label_korean": "차량 실내 밝기 조정 스위치",
                 "group_id": "28447",
                 "req_frame_id": "85346",
@@ -1788,8 +1788,8 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "17294, 17485, 17068",
-                "help_korean": "이 스위치는 차량의 계기판에 도트 매트릭스 스크린이 없을 경우에 차량의 백라이트 구성품(계기판, 다기능 스크린, 네비게이션 스크린 등)의 밝기를 조정하는 것이다. VCI 우측 모듈에 위치해 있다. -128 에서 127 사이에서 증가하는 값"
+                "help_code": "@P17294@T. @P17485@T. @P17068@\\*128@\\*127",
+                "help_korean": "이 스위치는 차량의 계기판에 도트 매트릭스 스크린이 없을 경우에 차량의 백라이트 구성품(계기판, 다기능 스크린, 네비게이션 스크린 등)의 밝기를 조정하는 것이다. VCI 우측 모듈에 위치해 있다. -128 에서 +127 사이에서 증가하는 값"
             }
         ]
     }

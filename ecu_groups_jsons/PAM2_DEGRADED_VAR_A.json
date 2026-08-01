@@ -8,7 +8,7 @@
             {
                 "position": 1,
                 "mnemonic": "ID_CODE_ISO",
-                "label_index": "13988",
+                "label_index": "@P13988",
                 "label_korean": "ISO 번호",
                 "group_id": "45662",
                 "req_frame_id": "137285",
@@ -30,7 +30,7 @@
             {
                 "position": 2,
                 "mnemonic": "ID_REFERENCE_MATERIEL",
-                "label_index": "1071",
+                "label_index": "@P1071",
                 "label_korean": "장치 부품 번호",
                 "group_id": "45662",
                 "req_frame_id": "137285",
@@ -52,7 +52,7 @@
             {
                 "position": 3,
                 "mnemonic": "ID_HARD",
-                "label_index": "12954",
+                "label_index": "@P12954",
                 "label_korean": "하드웨어 버전",
                 "group_id": "45662",
                 "req_frame_id": "137285",
@@ -74,7 +74,7 @@
             {
                 "position": 4,
                 "mnemonic": "ID_REFERENCE_LOGICIEL",
-                "label_index": "13263",
+                "label_index": "@P13263",
                 "label_korean": "소프트웨어 번호",
                 "group_id": "45662",
                 "req_frame_id": "137285",
@@ -96,7 +96,7 @@
             {
                 "position": 5,
                 "mnemonic": "ID_TRACABILITE_INDICE_EVOLUTION_EDITION",
-                "label_index": "24601",
+                "label_index": "@P24601",
                 "label_korean": "소프트웨어 버전",
                 "group_id": "45662",
                 "req_frame_id": "137285",
@@ -118,7 +118,7 @@
             {
                 "position": 6,
                 "mnemonic": "ID_DATE_TELECH",
-                "label_index": "21670",
+                "label_index": "@P21670",
                 "label_korean": "다운로딩 날짜",
                 "group_id": "45663",
                 "req_frame_id": "137288",
@@ -148,7 +148,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_KILOMETRAGE_ODOMETRE",
-                "label_index": "61286",
+                "label_index": "@P61286",
                 "label_korean": "원래 VIN이 마지막으로 잠금 해제된 이후 주행한 거리(km)",
                 "group_id": "45664",
                 "req_frame_id": "137291",
@@ -164,13 +164,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "61287, 61288",
+                "help_code": "@P61287@\\*255@\\n@P61288@\\*5",
                 "help_korean": "최대 값은 255km이다\n원래 VIN은 255km 거리가 지나면 자동으로 잠긴다"
             },
             {
                 "position": 2,
                 "mnemonic": "MP_VIN_ODOMETRE",
-                "label_index": "61284",
+                "label_index": "@P61284",
                 "label_korean": "주행 기록계를 기준으로 원래 VIN의 잠금 상태",
                 "group_id": "45664",
                 "req_frame_id": "137291",
@@ -195,7 +195,7 @@
             {
                 "position": 3,
                 "mnemonic": "MP_REGULATEUR_TENSION",
-                "label_index": "60914",
+                "label_index": "@L60914",
                 "label_korean": "레귤레이터 전압",
                 "group_id": "45666",
                 "req_frame_id": "137297",
@@ -217,7 +217,7 @@
             {
                 "position": 4,
                 "mnemonic": "MP_MODULE_CONTROLE_TENSION_ADC",
-                "label_index": "63489",
+                "label_index": "@P63489",
                 "label_korean": "보조 주차 지원 ECU 공급 전압",
                 "group_id": "45668",
                 "req_frame_id": "137303",
@@ -239,7 +239,7 @@
             {
                 "position": 5,
                 "mnemonic": "MP_ETAT_VIN",
-                "label_index": "61282",
+                "label_index": "@P61282",
                 "label_korean": "원래 VIN 잠금 상태",
                 "group_id": "45669",
                 "req_frame_id": "137306",
@@ -265,8 +265,8 @@
             {
                 "position": 6,
                 "mnemonic": "MP_ETAT_CLE_PAM2",
-                "label_index": "64569",
-                "label_korean": "[미번역_P64569](PAM2)",
+                "label_index": "@P64569@\\*(PAM2)",
+                "label_korean": "64569(PAM2)",
                 "group_id": "45667",
                 "req_frame_id": "137300",
                 "resp_frame_id": "137301",
@@ -293,7 +293,7 @@
             {
                 "position": 7,
                 "mnemonic": "MP_ETAT_CLE_BCM_1",
-                "label_index": "62400",
+                "label_index": "@P62400@\\*(BCM)",
                 "label_korean": "BSI에서 전송된 점화 스위치 켜짐 상태(BCM)",
                 "group_id": "매핑_누락",
                 "req_frame_id": "",
@@ -331,7 +331,7 @@
             {
                 "position": 8,
                 "mnemonic": "MP_ETAT_CLE_BCM_2",
-                "label_index": "63033",
+                "label_index": "@P63033@\\*(PAM 2)",
                 "label_korean": "주차 지원 ECU 에서 전송된 점화 스위치 켜짐 상태(PAM 2)",
                 "group_id": "매핑_누락",
                 "req_frame_id": "",
@@ -359,7 +359,7 @@
             {
                 "position": 9,
                 "mnemonic": "MP_RELAIS_CLE_1",
-                "label_index": "63034",
+                "label_index": "@P63034",
                 "label_korean": "점화 키 릴레이 작동",
                 "group_id": "매핑_누락",
                 "req_frame_id": "",
@@ -384,7 +384,7 @@
             {
                 "position": 10,
                 "mnemonic": "MP_DEFAILLANCE_RELAIS",
-                "label_index": "63210",
+                "label_index": "@P63210",
                 "label_korean": "시동 모터 릴레이 상태",
                 "group_id": "매핑_누락",
                 "req_frame_id": "",
@@ -414,7 +414,7 @@
             {
                 "position": 11,
                 "mnemonic": "MP_POSITION_CLE",
-                "label_index": "6016",
+                "label_index": "@P6016",
                 "label_korean": "점화 키 위치",
                 "group_id": "매핑_누락",
                 "req_frame_id": "",
@@ -463,7 +463,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_ETAT_CAPTEUR_LATERAL_ARRIERE_DROIT",
-                "label_index": "60912",
+                "label_index": "@P60912",
                 "label_korean": "리어 우측 주차 지원 센서 상태",
                 "group_id": "45665",
                 "req_frame_id": "137294",
@@ -488,7 +488,7 @@
             {
                 "position": 2,
                 "mnemonic": "MP_ETAT_CAPTEUR_LATERAL_ARRIERE_GAUCHE",
-                "label_index": "60910",
+                "label_index": "@P60910",
                 "label_korean": "리어 좌측 주차 지원 센서 상태",
                 "group_id": "45665",
                 "req_frame_id": "137294",
@@ -513,7 +513,7 @@
             {
                 "position": 3,
                 "mnemonic": "MP_ETAT_CAPTEUR_LATERAL_AVANT_GAUCHE",
-                "label_index": "60911",
+                "label_index": "@P60911",
                 "label_korean": "프론트 좌측 주차 지원 센서 상태",
                 "group_id": "45665",
                 "req_frame_id": "137294",
@@ -538,7 +538,7 @@
             {
                 "position": 4,
                 "mnemonic": "MP_ETAT_CAPTEUR_LATERAL_AVANT_DROIT",
-                "label_index": "63312",
+                "label_index": "@P63312",
                 "label_korean": "프론트 우측 주차 지원 센서의 상태",
                 "group_id": "45665",
                 "req_frame_id": "137294",
@@ -571,7 +571,7 @@
             {
                 "position": 1,
                 "mnemonic": "CA_REGULATEUR_TENSION",
-                "label_index": "60914",
+                "label_index": "@L60914",
                 "label_korean": "레귤레이터 전압",
                 "group_id": "45660",
                 "req_frame_id": "137279",
@@ -593,7 +593,7 @@
             {
                 "position": 2,
                 "mnemonic": "CA_ETAT_CAPTEUR_LATERAL_ARRIERE_DROIT",
-                "label_index": "60912",
+                "label_index": "@P60912",
                 "label_korean": "리어 우측 주차 지원 센서 상태",
                 "group_id": "45660",
                 "req_frame_id": "137279",
@@ -615,7 +615,7 @@
             {
                 "position": 3,
                 "mnemonic": "CA_ETAT_CAPTEUR_LATERAL_ARRIERE_GAUCHE",
-                "label_index": "60910",
+                "label_index": "@P60910",
                 "label_korean": "리어 좌측 주차 지원 센서 상태",
                 "group_id": "45660",
                 "req_frame_id": "137279",
@@ -637,7 +637,7 @@
             {
                 "position": 4,
                 "mnemonic": "CA_ETAT_CAPTEUR_LATERAL_AVANT_GAUCHE",
-                "label_index": "60911",
+                "label_index": "@P60911",
                 "label_korean": "프론트 좌측 주차 지원 센서 상태",
                 "group_id": "45660",
                 "req_frame_id": "137279",
@@ -659,7 +659,7 @@
             {
                 "position": 5,
                 "mnemonic": "CA_ETAT_CAPTEUR_LATERAL_AVANT_DROIT",
-                "label_index": "63312",
+                "label_index": "@P63312",
                 "label_korean": "프론트 우측 주차 지원 센서의 상태",
                 "group_id": "45660",
                 "req_frame_id": "137279",
@@ -681,8 +681,8 @@
             {
                 "position": 6,
                 "mnemonic": "MP_ETAT_CLE_PAM2",
-                "label_index": "64569",
-                "label_korean": "[미번역_P64569](PAM2)",
+                "label_index": "@P64569@\\*(PAM2)",
+                "label_korean": "64569(PAM2)",
                 "group_id": "45667",
                 "req_frame_id": "137300",
                 "resp_frame_id": "137301",
@@ -709,7 +709,7 @@
             {
                 "position": 7,
                 "mnemonic": "MP_ETAT_CLE_BCM_1",
-                "label_index": "62400",
+                "label_index": "@P62400@\\*(BCM)",
                 "label_korean": "BSI에서 전송된 점화 스위치 켜짐 상태(BCM)",
                 "group_id": "매핑_누락",
                 "req_frame_id": "",
@@ -747,7 +747,7 @@
             {
                 "position": 8,
                 "mnemonic": "MP_ETAT_CLE_BCM_2",
-                "label_index": "63033",
+                "label_index": "@P63033@\\*(PAM 2)",
                 "label_korean": "주차 지원 ECU 에서 전송된 점화 스위치 켜짐 상태(PAM 2)",
                 "group_id": "매핑_누락",
                 "req_frame_id": "",
@@ -775,7 +775,7 @@
             {
                 "position": 9,
                 "mnemonic": "MP_RELAIS_CLE_1",
-                "label_index": "63034",
+                "label_index": "@P63034",
                 "label_korean": "점화 키 릴레이 작동",
                 "group_id": "매핑_누락",
                 "req_frame_id": "",
@@ -800,7 +800,7 @@
             {
                 "position": 10,
                 "mnemonic": "MP_DEFAILLANCE_RELAIS",
-                "label_index": "63210",
+                "label_index": "@P63210",
                 "label_korean": "시동 모터 릴레이 상태",
                 "group_id": "매핑_누락",
                 "req_frame_id": "",
@@ -830,7 +830,7 @@
             {
                 "position": 11,
                 "mnemonic": "MP_POSITION_CLE",
-                "label_index": "6016",
+                "label_index": "@P6016",
                 "label_korean": "점화 키 위치",
                 "group_id": "매핑_누락",
                 "req_frame_id": "",

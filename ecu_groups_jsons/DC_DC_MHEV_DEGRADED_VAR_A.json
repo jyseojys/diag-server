@@ -8,7 +8,7 @@
             {
                 "position": 1,
                 "mnemonic": "ID_NOM_DU_FOURNISSEUR",
-                "label_index": "5701",
+                "label_index": "@P5701",
                 "label_korean": "제조 업체명",
                 "group_id": "6175",
                 "req_frame_id": "18523",
@@ -38,7 +38,7 @@
             {
                 "position": 2,
                 "mnemonic": "ID_REFERENCE_MATERIEL",
-                "label_index": "1071",
+                "label_index": "@P1071",
                 "label_korean": "장치 부품 번호",
                 "group_id": "6175",
                 "req_frame_id": "18523",
@@ -60,7 +60,7 @@
             {
                 "position": 3,
                 "mnemonic": "ID_REFERENCE_COMPLEMENTAIRE_MATERIEL",
-                "label_index": "1634",
+                "label_index": "@P1634",
                 "label_korean": "장치 추가 참조 번호",
                 "group_id": "6175",
                 "req_frame_id": "18523",
@@ -82,7 +82,7 @@
             {
                 "position": 4,
                 "mnemonic": "ID_REFERENCE_LOGICIEL",
-                "label_index": "13263",
+                "label_index": "@P13263",
                 "label_korean": "소프트웨어 번호",
                 "group_id": "6176",
                 "req_frame_id": "18526",
@@ -104,7 +104,7 @@
             {
                 "position": 5,
                 "mnemonic": "ID_TRACABILITE_INDICE_EVOLUTION_EDITION",
-                "label_index": "24601",
+                "label_index": "@P24601",
                 "label_korean": "소프트웨어 버전",
                 "group_id": "6176",
                 "req_frame_id": "18526",
@@ -126,7 +126,7 @@
             {
                 "position": 6,
                 "mnemonic": "ID_DATE_TELECH",
-                "label_index": "21670",
+                "label_index": "@P21670",
                 "label_korean": "다운로딩 날짜",
                 "group_id": "6176",
                 "req_frame_id": "18526",
@@ -148,7 +148,7 @@
             {
                 "position": 7,
                 "mnemonic": "ID_NOMBRE_DE_TELECHARGEMENT",
-                "label_index": "24589",
+                "label_index": "@P24589",
                 "label_korean": "다운로드의 수",
                 "group_id": "6176",
                 "req_frame_id": "18526",
@@ -170,7 +170,7 @@
             {
                 "position": 8,
                 "mnemonic": "ID_TRACABILITE_DATE_FABRICATION",
-                "label_index": "14355",
+                "label_index": "@F14355",
                 "label_korean": "제조일자",
                 "group_id": "6177",
                 "req_frame_id": "18529",
@@ -200,7 +200,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_ETAT_LIGNE_RCD",
-                "label_index": "33773",
+                "label_index": "@P33773",
                 "label_korean": "웨이크-온-랜 라인의 상태",
                 "group_id": "6182",
                 "req_frame_id": "18544",
@@ -229,7 +229,7 @@
             {
                 "position": 2,
                 "mnemonic": "MP_TENSION_BAT_TRACTION",
-                "label_index": "60729",
+                "label_index": "@P60729",
                 "label_korean": "트랙션 배터리 전압",
                 "group_id": "6191",
                 "req_frame_id": "18571",
@@ -251,7 +251,7 @@
             {
                 "position": 3,
                 "mnemonic": "MP_KILOMETRAGE_DU_VEHICULE",
-                "label_index": "14658",
+                "label_index": "@P14658",
                 "label_korean": "차량 주행거리",
                 "group_id": "6196",
                 "req_frame_id": "18586",
@@ -273,7 +273,7 @@
             {
                 "position": 4,
                 "mnemonic": "MP_COMPTEUR_TEMPOREL_VEHICULE_BSI",
-                "label_index": "51826",
+                "label_index": "@P51826",
                 "label_korean": "BSI에서 전송된 차량 시간 카운터",
                 "group_id": "6200",
                 "req_frame_id": "18598",
@@ -295,7 +295,7 @@
             {
                 "position": 5,
                 "mnemonic": "MP_VITESSE_VEHICULE",
-                "label_index": "45619",
+                "label_index": "@P45619",
                 "label_korean": "차량 속도",
                 "group_id": "6180",
                 "req_frame_id": "18538",
@@ -321,7 +321,7 @@
             {
                 "position": 6,
                 "mnemonic": "MP_ETAT_UCE_RCD",
-                "label_index": "53495",
+                "label_index": "@P53495",
                 "label_korean": "웨이크업 컨트롤 ON/OFF 신호",
                 "group_id": "6190",
                 "req_frame_id": "18568",
@@ -351,7 +351,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_ETAT_DU_CONVERTISSEUR_DE_COURANT_DCDC",
-                "label_index": "22332",
+                "label_index": "@P22332",
                 "label_korean": "직류 전압 변환장치 (DC/DC) 상태",
                 "group_id": "6187",
                 "req_frame_id": "18559",
@@ -387,7 +387,7 @@
             {
                 "position": 2,
                 "mnemonic": "MP_ETAT_CHARGE_CONVERTISSEUR_CONTINU_DCDC",
-                "label_index": "53976",
+                "label_index": "@P53976@\\*(DC / DC)",
                 "label_korean": "직류 전압 변압기 충전의 실시간 상태(DC / DC)",
                 "group_id": "6194",
                 "req_frame_id": "18580",
@@ -409,7 +409,7 @@
             {
                 "position": 3,
                 "mnemonic": "MP_SURCHAUFFE_DCDC_CONVERTISSEUR",
-                "label_index": "63769",
+                "label_index": "@P63769",
                 "label_korean": "Ã©tat de surchauffe du convertisseur de tension continue",
                 "group_id": "6192",
                 "req_frame_id": "18574",
@@ -434,7 +434,7 @@
             {
                 "position": 4,
                 "mnemonic": "MP_ETAT_SURINTENSITE_BASSE_TENSION_CONVERTISSEUR",
-                "label_index": "63771",
+                "label_index": "@P63771@T (@P63772@T)",
                 "label_korean": "Ã©tat de surintensitÃ© du convertisseur de tension continue (tension du circuit de servitude)",
                 "group_id": "6184",
                 "req_frame_id": "18550",
@@ -459,7 +459,7 @@
             {
                 "position": 5,
                 "mnemonic": "MP_ETAT_SURTENSION_BASSE_TENSION_CONVERTISSEUR",
-                "label_index": "63773",
+                "label_index": "@P63773@T (@P63772@T)",
                 "label_korean": "Ã©tat de surtension du convertisseur de tension continue (tension du circuit de servitude)",
                 "group_id": "6186",
                 "req_frame_id": "18556",
@@ -484,7 +484,7 @@
             {
                 "position": 6,
                 "mnemonic": "MP_ETAT_SURINTENSITE_HAUTE_TENSION_CONVERTISSEUR",
-                "label_index": "63771",
+                "label_index": "@P63771@T (@P63770@T)",
                 "label_korean": "Ã©tat de surintensitÃ© du convertisseur de tension continue (tension du circuit de traction)",
                 "group_id": "6199",
                 "req_frame_id": "18595",
@@ -509,7 +509,7 @@
             {
                 "position": 7,
                 "mnemonic": "MP_ETAT_SURTENSION_HAUTE_TENSION_CONVERTISSEUR",
-                "label_index": "63773",
+                "label_index": "@P63773@T (@P63770@T)",
                 "label_korean": "Ã©tat de surtension du convertisseur de tension continue (tension du circuit de traction)",
                 "group_id": "6198",
                 "req_frame_id": "18592",
@@ -534,7 +534,7 @@
             {
                 "position": 8,
                 "mnemonic": "MP_CONVERTISSEUR_COURANT_DIRECT_DCDC_BASSE_TENSION",
-                "label_index": "63774",
+                "label_index": "@P63774@T (@P63772@T)",
                 "label_korean": "tension d'entrÃ©e du convertisseur de tension continue (tension du circuit de servitude)",
                 "group_id": "6188",
                 "req_frame_id": "18562",
@@ -556,7 +556,7 @@
             {
                 "position": 9,
                 "mnemonic": "MP_CONVERTISSEUR_COURANT_DIRECT_DCDC_BASEE_COURANT",
-                "label_index": "63775",
+                "label_index": "@P63775@T (@P63772@T)",
                 "label_korean": "courant d'entrÃ©e du convertisseur de tension continue (tension du circuit de servitude)",
                 "group_id": "6183",
                 "req_frame_id": "18547",
@@ -578,7 +578,7 @@
             {
                 "position": 10,
                 "mnemonic": "MP_CONVERTISSEUR_COURANT_DIRECT_DCDC_HAUTE_TENSION",
-                "label_index": "63774",
+                "label_index": "@P63774@T (@P63770@T)",
                 "label_korean": "tension d'entrÃ©e du convertisseur de tension continue (tension du circuit de traction)",
                 "group_id": "6193",
                 "req_frame_id": "18577",
@@ -600,7 +600,7 @@
             {
                 "position": 11,
                 "mnemonic": "MP_CONVERTISSEUR_COURANT_DIRECT_DCDC_HAUTE_COURANT",
-                "label_index": "63775",
+                "label_index": "@P63775@T (@P63770@T)",
                 "label_korean": "courant d'entrÃ©e du convertisseur de tension continue (tension du circuit de traction)",
                 "group_id": "6181",
                 "req_frame_id": "18541",
@@ -622,7 +622,7 @@
             {
                 "position": 12,
                 "mnemonic": "MP_CONVERTISSEUR_TEMPERATURE",
-                "label_index": "22360",
+                "label_index": "@P22360",
                 "label_korean": "직류 전압 변환장치 (DC/DC)의 온도",
                 "group_id": "6201",
                 "req_frame_id": "18601",
@@ -652,8 +652,8 @@
             {
                 "position": 1,
                 "mnemonic": "MP_TENSION_ALIMENTATION_CONVERTISSEUR_DC_DC",
-                "label_index": "53967",
-                "label_korean": "직류 전압 변압기공급 전압(트랙션 전압)(DC / DC)",
+                "label_index": "@P53967@\\*(DC / DC)",
+                "label_korean": "직류 전압 변압기 공급 전압(트랙션 전압)(DC / DC)",
                 "group_id": "6197",
                 "req_frame_id": "18589",
                 "resp_frame_id": "18590",
@@ -674,8 +674,8 @@
             {
                 "position": 2,
                 "mnemonic": "MP_COURANT_ALIMENTATION_CONVERTISSEUR_DC_DC",
-                "label_index": "53968",
-                "label_korean": "직류 전압 변압기공급 전류(트랙션 전압)(DC / DC)",
+                "label_index": "@P53968@\\*(DC / DC)",
+                "label_korean": "직류 전압 변압기 공급 전류(트랙션 전압)(DC / DC)",
                 "group_id": "6195",
                 "req_frame_id": "18583",
                 "resp_frame_id": "18584",
@@ -696,7 +696,7 @@
             {
                 "position": 3,
                 "mnemonic": "MP_DCDC_CONVERTISSEUR_VOLTAGE_LV",
-                "label_index": "53958",
+                "label_index": "@P53958@\\*(DC / DC)",
                 "label_korean": "직류 전압 변압기 공급 전압(서비스 전압)(DC / DC)",
                 "group_id": "6189",
                 "req_frame_id": "18565",
@@ -718,8 +718,8 @@
             {
                 "position": 4,
                 "mnemonic": "MP_COURANT_ALIMENTATION_CONVERTISSEUR_COURANT_BT",
-                "label_index": "53962",
-                "label_korean": "직류 전압 변압기공급 전류(서비스 전압)(DC / DC)",
+                "label_index": "@P53962@\\*(DC / DC)",
+                "label_korean": "직류 전압 변압기 공급 전류(서비스 전압)(DC / DC)",
                 "group_id": "6185",
                 "req_frame_id": "18553",
                 "resp_frame_id": "18554",
@@ -748,7 +748,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_ETAT_LIGNE_RCD",
-                "label_index": "33773",
+                "label_index": "@P33773",
                 "label_korean": "웨이크-온-랜 라인의 상태",
                 "group_id": "6182",
                 "req_frame_id": "18544",
@@ -777,7 +777,7 @@
             {
                 "position": 2,
                 "mnemonic": "MP_TENSION_BAT_TRACTION",
-                "label_index": "60729",
+                "label_index": "@P60729",
                 "label_korean": "트랙션 배터리 전압",
                 "group_id": "6191",
                 "req_frame_id": "18571",
@@ -799,7 +799,7 @@
             {
                 "position": 3,
                 "mnemonic": "MP_KILOMETRAGE_DU_VEHICULE",
-                "label_index": "14658",
+                "label_index": "@P14658",
                 "label_korean": "차량 주행거리",
                 "group_id": "6196",
                 "req_frame_id": "18586",
@@ -821,7 +821,7 @@
             {
                 "position": 4,
                 "mnemonic": "MP_COMPTEUR_TEMPOREL_VEHICULE_BSI",
-                "label_index": "51826",
+                "label_index": "@P51826",
                 "label_korean": "BSI에서 전송된 차량 시간 카운터",
                 "group_id": "6200",
                 "req_frame_id": "18598",
@@ -843,7 +843,7 @@
             {
                 "position": 5,
                 "mnemonic": "MP_VITESSE_VEHICULE",
-                "label_index": "45619",
+                "label_index": "@P45619",
                 "label_korean": "차량 속도",
                 "group_id": "6180",
                 "req_frame_id": "18538",
@@ -869,7 +869,7 @@
             {
                 "position": 6,
                 "mnemonic": "MP_ETAT_UCE_RCD",
-                "label_index": "53495",
+                "label_index": "@P53495",
                 "label_korean": "웨이크업 컨트롤 ON/OFF 신호",
                 "group_id": "6190",
                 "req_frame_id": "18568",
@@ -891,8 +891,8 @@
             {
                 "position": 7,
                 "mnemonic": "MP_TENSION_ALIMENTATION_CONVERTISSEUR_DC_DC",
-                "label_index": "53967",
-                "label_korean": "직류 전압 변압기공급 전압(트랙션 전압)(DC / DC)",
+                "label_index": "@P53967@\\*(DC / DC)",
+                "label_korean": "직류 전압 변압기 공급 전압(트랙션 전압)(DC / DC)",
                 "group_id": "6197",
                 "req_frame_id": "18589",
                 "resp_frame_id": "18590",
@@ -913,8 +913,8 @@
             {
                 "position": 8,
                 "mnemonic": "MP_COURANT_ALIMENTATION_CONVERTISSEUR_DC_DC",
-                "label_index": "53968",
-                "label_korean": "직류 전압 변압기공급 전류(트랙션 전압)(DC / DC)",
+                "label_index": "@P53968@\\*(DC / DC)",
+                "label_korean": "직류 전압 변압기 공급 전류(트랙션 전압)(DC / DC)",
                 "group_id": "6195",
                 "req_frame_id": "18583",
                 "resp_frame_id": "18584",
@@ -935,7 +935,7 @@
             {
                 "position": 9,
                 "mnemonic": "MP_ETAT_DU_CONVERTISSEUR_DE_COURANT_DCDC",
-                "label_index": "22332",
+                "label_index": "@P22332",
                 "label_korean": "직류 전압 변환장치 (DC/DC) 상태",
                 "group_id": "6187",
                 "req_frame_id": "18559",
@@ -971,7 +971,7 @@
             {
                 "position": 10,
                 "mnemonic": "MP_DCDC_CONVERTISSEUR_VOLTAGE_LV",
-                "label_index": "53958",
+                "label_index": "@P53958@\\*(DC / DC)",
                 "label_korean": "직류 전압 변압기 공급 전압(서비스 전압)(DC / DC)",
                 "group_id": "6189",
                 "req_frame_id": "18565",
@@ -993,8 +993,8 @@
             {
                 "position": 11,
                 "mnemonic": "MP_COURANT_ALIMENTATION_CONVERTISSEUR_COURANT_BT",
-                "label_index": "53962",
-                "label_korean": "직류 전압 변압기공급 전류(서비스 전압)(DC / DC)",
+                "label_index": "@P53962@\\*(DC / DC)",
+                "label_korean": "직류 전압 변압기 공급 전류(서비스 전압)(DC / DC)",
                 "group_id": "6185",
                 "req_frame_id": "18553",
                 "resp_frame_id": "18554",
@@ -1015,7 +1015,7 @@
             {
                 "position": 12,
                 "mnemonic": "MP_ETAT_CHARGE_CONVERTISSEUR_CONTINU_DCDC",
-                "label_index": "53976",
+                "label_index": "@P53976@\\*(DC / DC)",
                 "label_korean": "직류 전압 변압기 충전의 실시간 상태(DC / DC)",
                 "group_id": "6194",
                 "req_frame_id": "18580",
@@ -1037,7 +1037,7 @@
             {
                 "position": 13,
                 "mnemonic": "MP_SURCHAUFFE_DCDC_CONVERTISSEUR",
-                "label_index": "63769",
+                "label_index": "@P63769",
                 "label_korean": "Ã©tat de surchauffe du convertisseur de tension continue",
                 "group_id": "6192",
                 "req_frame_id": "18574",
@@ -1062,7 +1062,7 @@
             {
                 "position": 14,
                 "mnemonic": "MP_ETAT_SURINTENSITE_BASSE_TENSION_CONVERTISSEUR",
-                "label_index": "63771",
+                "label_index": "@P63771@T (@P63772@T)",
                 "label_korean": "Ã©tat de surintensitÃ© du convertisseur de tension continue (tension du circuit de servitude)",
                 "group_id": "6184",
                 "req_frame_id": "18550",
@@ -1087,7 +1087,7 @@
             {
                 "position": 15,
                 "mnemonic": "MP_ETAT_SURTENSION_BASSE_TENSION_CONVERTISSEUR",
-                "label_index": "63773",
+                "label_index": "@P63773@T (@P63772@T)",
                 "label_korean": "Ã©tat de surtension du convertisseur de tension continue (tension du circuit de servitude)",
                 "group_id": "6186",
                 "req_frame_id": "18556",
@@ -1112,7 +1112,7 @@
             {
                 "position": 16,
                 "mnemonic": "MP_ETAT_SURINTENSITE_HAUTE_TENSION_CONVERTISSEUR",
-                "label_index": "63771",
+                "label_index": "@P63771@T (@P63770@T)",
                 "label_korean": "Ã©tat de surintensitÃ© du convertisseur de tension continue (tension du circuit de traction)",
                 "group_id": "6199",
                 "req_frame_id": "18595",
@@ -1137,7 +1137,7 @@
             {
                 "position": 17,
                 "mnemonic": "MP_ETAT_SURTENSION_HAUTE_TENSION_CONVERTISSEUR",
-                "label_index": "63773",
+                "label_index": "@P63773@T (@P63770@T)",
                 "label_korean": "Ã©tat de surtension du convertisseur de tension continue (tension du circuit de traction)",
                 "group_id": "6198",
                 "req_frame_id": "18592",
@@ -1162,7 +1162,7 @@
             {
                 "position": 18,
                 "mnemonic": "MP_CONVERTISSEUR_COURANT_DIRECT_DCDC_BASSE_TENSION",
-                "label_index": "63774",
+                "label_index": "@P63774@T (@P63772@T)",
                 "label_korean": "tension d'entrÃ©e du convertisseur de tension continue (tension du circuit de servitude)",
                 "group_id": "6188",
                 "req_frame_id": "18562",
@@ -1184,7 +1184,7 @@
             {
                 "position": 19,
                 "mnemonic": "MP_CONVERTISSEUR_COURANT_DIRECT_DCDC_BASEE_COURANT",
-                "label_index": "63775",
+                "label_index": "@P63775@T (@P63772@T)",
                 "label_korean": "courant d'entrÃ©e du convertisseur de tension continue (tension du circuit de servitude)",
                 "group_id": "6183",
                 "req_frame_id": "18547",
@@ -1206,7 +1206,7 @@
             {
                 "position": 20,
                 "mnemonic": "MP_CONVERTISSEUR_COURANT_DIRECT_DCDC_HAUTE_TENSION",
-                "label_index": "63774",
+                "label_index": "@P63774@T (@P63770@T)",
                 "label_korean": "tension d'entrÃ©e du convertisseur de tension continue (tension du circuit de traction)",
                 "group_id": "6193",
                 "req_frame_id": "18577",
@@ -1228,7 +1228,7 @@
             {
                 "position": 21,
                 "mnemonic": "MP_CONVERTISSEUR_TEMPERATURE",
-                "label_index": "22360",
+                "label_index": "@P22360",
                 "label_korean": "직류 전압 변환장치 (DC/DC)의 온도",
                 "group_id": "6201",
                 "req_frame_id": "18601",
@@ -1250,7 +1250,7 @@
             {
                 "position": 22,
                 "mnemonic": "MP_CONVERTISSEUR_COURANT_DIRECT_DCDC_HAUTE_COURANT",
-                "label_index": "63775",
+                "label_index": "@P63775@T (@P63770@T)",
                 "label_korean": "courant d'entrÃ©e du convertisseur de tension continue (tension du circuit de traction)",
                 "group_id": "6181",
                 "req_frame_id": "18541",
@@ -1294,8 +1294,8 @@
             {
                 "position": 24,
                 "mnemonic": "MP_COURANT_ALIMENTATION_CONVERTISSEUR_DCDC_BT",
-                "label_index": "53962",
-                "label_korean": "직류 전압 변압기공급 전류(서비스 전압)(DC/DC)",
+                "label_index": "@P53962@\\*(DC/DC)",
+                "label_korean": "직류 전압 변압기 공급 전류(서비스 전압)(DC/DC)",
                 "group_id": "매핑_누락",
                 "req_frame_id": "",
                 "resp_frame_id": "",
@@ -1316,8 +1316,8 @@
             {
                 "position": 25,
                 "mnemonic": "MP_TENSION_ALIMENTATION_CONVERTISSEUR_DCDC_HT",
-                "label_index": "53967",
-                "label_korean": "직류 전압 변압기공급 전압(트랙션 전압)(DC/DC)",
+                "label_index": "@P53967@\\*(DC/DC)",
+                "label_korean": "직류 전압 변압기 공급 전압(트랙션 전압)(DC/DC)",
                 "group_id": "매핑_누락",
                 "req_frame_id": "",
                 "resp_frame_id": "",
@@ -1338,8 +1338,8 @@
             {
                 "position": 26,
                 "mnemonic": "MP_COURANT_ALIMENTATION_CONVERTISSEUR_DCDC_HT",
-                "label_index": "53968",
-                "label_korean": "직류 전압 변압기공급 전류(트랙션 전압)(DC/DC)",
+                "label_index": "@P53968@\\*(DC/DC)",
+                "label_korean": "직류 전압 변압기 공급 전류(트랙션 전압)(DC/DC)",
                 "group_id": "매핑_누락",
                 "req_frame_id": "",
                 "resp_frame_id": "",
@@ -1382,7 +1382,7 @@
             {
                 "position": 28,
                 "mnemonic": "MP_SURTENSION_OBC_DCDC_HT",
-                "label_index": "53929",
+                "label_index": "@P53929",
                 "label_korean": "내장형 충전기/직류 전압 변압기 어셈블리 과전압 상태(트랙션 전압)",
                 "group_id": "매핑_누락",
                 "req_frame_id": "",

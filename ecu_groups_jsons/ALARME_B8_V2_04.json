@@ -8,7 +8,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_PRESENCE_FONCTION_ANTI_SOULEVEMENT",
-                "label_index": "13290",
+                "label_index": "@P13290",
                 "label_korean": "안티-리프트 기능 장착",
                 "group_id": "68712",
                 "req_frame_id": "206420",
@@ -27,13 +27,13 @@
                 "bit_mask": 128,
                 "bit_shift": 7,
                 "dynamic_arg": "",
-                "help_code": "",
+                "help_code": "@T",
                 "help_korean": ""
             },
             {
                 "position": 2,
                 "mnemonic": "MP_SENSCAPTANTISOULX",
-                "label_index": "6600",
+                "label_index": "@P6600@\\*X",
                 "label_korean": "알람 리프트 센서에 의한 알람 작동의 민감도 (X에서 축)",
                 "group_id": "68712",
                 "req_frame_id": "206420",
@@ -73,13 +73,13 @@
                 "bit_mask": 31,
                 "bit_shift": 0,
                 "dynamic_arg": "X",
-                "help_code": "42022",
+                "help_code": "@P42022@\\*X@T.",
                 "help_korean": "차량의 X의 축에서 안티-리프트 기능 센서의 알람 작동 한계치를 나타낸다."
             },
             {
                 "position": 3,
                 "mnemonic": "MP_SENSCAPTANTISOULY",
-                "label_index": "6600",
+                "label_index": "@P6600@\\*Y",
                 "label_korean": "알람 리프트 센서에 의한 알람 작동의 민감도 (Y에서 축)",
                 "group_id": "68712",
                 "req_frame_id": "206420",
@@ -119,7 +119,7 @@
                 "bit_mask": 31,
                 "bit_shift": 0,
                 "dynamic_arg": "Y",
-                "help_code": "42022",
+                "help_code": "@P42022@\\*Y@T.",
                 "help_korean": "차량의 Y의 축에서 안티-리프트 기능 센서의 알람 작동 한계치를 나타낸다."
             }
         ]
@@ -133,7 +133,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_ID_FOURNISSEUR",
-                "label_index": "5701",
+                "label_index": "@P5701",
                 "label_korean": "제조 업체명",
                 "group_id": "68704",
                 "req_frame_id": "206396",
@@ -160,7 +160,7 @@
             {
                 "position": 2,
                 "mnemonic": "ID_REFERENCE_MATERIEL",
-                "label_index": "1071",
+                "label_index": "@P1071",
                 "label_korean": "장치 부품 번호",
                 "group_id": "68704",
                 "req_frame_id": "206396",
@@ -182,7 +182,7 @@
             {
                 "position": 3,
                 "mnemonic": "ID_REFERENCE_COMPLEMENTAIRE_MATERIEL",
-                "label_index": "1634",
+                "label_index": "@P1634",
                 "label_korean": "장치 추가 참조 번호",
                 "group_id": "68704",
                 "req_frame_id": "206396",
@@ -204,7 +204,7 @@
             {
                 "position": 4,
                 "mnemonic": "ID_VERSION_DU_LOGICIEL",
-                "label_index": "8662",
+                "label_index": "@P8662@\\*",
                 "label_korean": "소프트웨어 버전",
                 "group_id": "68704",
                 "req_frame_id": "206396",
@@ -226,7 +226,7 @@
             {
                 "position": 5,
                 "mnemonic": "ID_MESS_DIAGNOSTIC",
-                "label_index": "2459",
+                "label_index": "@P2459",
                 "label_korean": "진단 이메일",
                 "group_id": "68704",
                 "req_frame_id": "206396",
@@ -248,7 +248,7 @@
             {
                 "position": 6,
                 "mnemonic": "ID_80_MP_INDICE_MESS",
-                "label_index": "2225",
+                "label_index": "@P2225",
                 "label_korean": "메시지 인덱스",
                 "group_id": "68704",
                 "req_frame_id": "206396",
@@ -270,7 +270,7 @@
             {
                 "position": 7,
                 "mnemonic": "ID_TRACABILITE_DATE_FABRICATION",
-                "label_index": "14355",
+                "label_index": "@P14355",
                 "label_korean": "제조일자",
                 "group_id": "68705",
                 "req_frame_id": "206399",
@@ -292,7 +292,7 @@
             {
                 "position": 8,
                 "mnemonic": "ID_TRACABILITE_NUMERO_DE_SERIE_PIECE",
-                "label_index": "7592",
+                "label_index": "@F7592",
                 "label_korean": "부품 일련 번호",
                 "group_id": "68705",
                 "req_frame_id": "206399",
@@ -322,7 +322,7 @@
             {
                 "position": 1,
                 "mnemonic": "CFG____MPPAYS",
-                "label_index": "22855",
+                "label_index": "@P22855",
                 "label_korean": "국가",
                 "group_id": "68709",
                 "req_frame_id": "206411",
@@ -345,13 +345,13 @@
                 "bit_mask": 96,
                 "bit_shift": 5,
                 "dynamic_arg": "",
-                "help_code": "4938",
+                "help_code": "@P4938",
                 "help_korean": "차량의 등록 국가"
             },
             {
                 "position": 2,
                 "mnemonic": "CFG____MPPAYS2",
-                "label_index": "29598",
+                "label_index": "@P29598",
                 "label_korean": "모듈 작동 모드",
                 "group_id": "68709",
                 "req_frame_id": "206411",
@@ -370,13 +370,13 @@
                 "bit_mask": 16,
                 "bit_shift": 4,
                 "dynamic_arg": "",
-                "help_code": "1328",
+                "help_code": "@P1328",
                 "help_korean": "모듈의 작동 모드를 나타낸다"
             },
             {
                 "position": 3,
                 "mnemonic": "MP_ANTI_SOULEVEMENT",
-                "label_index": "11281",
+                "label_index": "@P11281",
                 "label_korean": "안티-리프트",
                 "group_id": "68709",
                 "req_frame_id": "206411",
@@ -392,13 +392,13 @@
                 "bit_mask": 8,
                 "bit_shift": 3,
                 "dynamic_arg": "",
-                "help_code": "10980",
+                "help_code": "@P10980",
                 "help_korean": "안티-리프트 센서는 차량이 이동하려는 시도를 감지한다"
             },
             {
                 "position": 4,
                 "mnemonic": "CFG_BC6_ALARM_MOD_AUX_000",
-                "label_index": "1330",
+                "label_index": "@P1330",
                 "label_korean": "예비 모듈",
                 "group_id": "매핑_누락",
                 "req_frame_id": "",
@@ -417,13 +417,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "1655",
+                "help_code": "@P1655",
                 "help_korean": "예비 모듈은 안티-리프트 제어 ECU를 연결할 수 있도록 한다"
             },
             {
                 "position": 4,
                 "mnemonic": "CFG_BC6_ALARM_MOD_AUX_000",
-                "label_index": "1330",
+                "label_index": "@P1330",
                 "label_korean": "예비 모듈",
                 "group_id": "매핑_누락",
                 "req_frame_id": "",
@@ -442,13 +442,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "1655",
+                "help_code": "@P1655",
                 "help_korean": "예비 모듈은 안티-리프트 제어 ECU를 연결할 수 있도록 한다"
             },
             {
                 "position": 5,
                 "mnemonic": "CFG____PILOTAGE_VOYANT",
-                "label_index": "2990",
+                "label_index": "@P2990",
                 "label_korean": "표시등 제어",
                 "group_id": "68709",
                 "req_frame_id": "206411",
@@ -464,13 +464,13 @@
                 "bit_mask": 6,
                 "bit_shift": 1,
                 "dynamic_arg": "",
-                "help_code": "14487",
+                "help_code": "@P14487",
                 "help_korean": "표시등의 점등을 제어하는 ECU를 나타낸다"
             },
             {
                 "position": 6,
                 "mnemonic": "CFG____MPVEHICULE",
-                "label_index": "8890",
+                "label_index": "@P8890",
                 "label_korean": "내부 센서의 민감도",
                 "group_id": "68709",
                 "req_frame_id": "206411",
@@ -502,8 +502,8 @@
                 "bit_mask": 15,
                 "bit_shift": 0,
                 "dynamic_arg": "",
-                "help_code": "32555, 32556, 44716",
-                "help_korean": "내부 센서의 민감도를 정의하는 데 사용한다 .민감도는 차량 볼륨 및 시트 트림에 따라 다르다 .가장 낮은 감도에 해당하는 감도 1."
+                "help_code": "@P32555@\\+@T.@P32556@\\+@T.@P44716@\\*1@T.",
+                "help_korean": "내부 센서의 민감도를 정의하는 데 사용한다.민감도는 차량 볼륨 및 시트 트림에 따라 다르다.가장 낮은 감도에 해당하는 감도 1."
             }
         ]
     },
@@ -516,7 +516,7 @@
             {
                 "position": 1,
                 "mnemonic": "CFG____MPPAYS",
-                "label_index": "22855",
+                "label_index": "@P22855",
                 "label_korean": "국가",
                 "group_id": "68709",
                 "req_frame_id": "206411",
@@ -539,13 +539,13 @@
                 "bit_mask": 96,
                 "bit_shift": 5,
                 "dynamic_arg": "",
-                "help_code": "4938",
+                "help_code": "@P4938",
                 "help_korean": "차량의 등록 국가"
             },
             {
                 "position": 2,
                 "mnemonic": "CFG____MPPAYS2",
-                "label_index": "29598",
+                "label_index": "@P29598",
                 "label_korean": "모듈 작동 모드",
                 "group_id": "68709",
                 "req_frame_id": "206411",
@@ -564,13 +564,13 @@
                 "bit_mask": 16,
                 "bit_shift": 4,
                 "dynamic_arg": "",
-                "help_code": "1328",
+                "help_code": "@P1328",
                 "help_korean": "모듈의 작동 모드를 나타낸다"
             },
             {
                 "position": 3,
                 "mnemonic": "MP_ANTI_SOULEVEMENT",
-                "label_index": "11281",
+                "label_index": "@P11281",
                 "label_korean": "안티-리프트",
                 "group_id": "68709",
                 "req_frame_id": "206411",
@@ -586,13 +586,13 @@
                 "bit_mask": 8,
                 "bit_shift": 3,
                 "dynamic_arg": "",
-                "help_code": "10980",
+                "help_code": "@P10980",
                 "help_korean": "안티-리프트 센서는 차량이 이동하려는 시도를 감지한다"
             },
             {
                 "position": 4,
                 "mnemonic": "CFG____PILOTAGE_VOYANT",
-                "label_index": "2990",
+                "label_index": "@P2990",
                 "label_korean": "표시등 제어",
                 "group_id": "68709",
                 "req_frame_id": "206411",
@@ -608,7 +608,7 @@
                 "bit_mask": 6,
                 "bit_shift": 1,
                 "dynamic_arg": "",
-                "help_code": "14487",
+                "help_code": "@P14487",
                 "help_korean": "표시등의 점등을 제어하는 ECU를 나타낸다"
             }
         ]
@@ -622,7 +622,7 @@
             {
                 "position": 1,
                 "mnemonic": "CFG____MPPAYS",
-                "label_index": "22855",
+                "label_index": "@P22855",
                 "label_korean": "국가",
                 "group_id": "68709",
                 "req_frame_id": "206411",
@@ -645,13 +645,13 @@
                 "bit_mask": 96,
                 "bit_shift": 5,
                 "dynamic_arg": "",
-                "help_code": "4938",
+                "help_code": "@P4938",
                 "help_korean": "차량의 등록 국가"
             },
             {
                 "position": 2,
                 "mnemonic": "CFG____MPPAYS2",
-                "label_index": "29598",
+                "label_index": "@P29598",
                 "label_korean": "모듈 작동 모드",
                 "group_id": "68709",
                 "req_frame_id": "206411",
@@ -670,13 +670,13 @@
                 "bit_mask": 16,
                 "bit_shift": 4,
                 "dynamic_arg": "",
-                "help_code": "1328",
+                "help_code": "@P1328",
                 "help_korean": "모듈의 작동 모드를 나타낸다"
             },
             {
                 "position": 3,
                 "mnemonic": "CFG_BC6_ALARM_MOD_AUX_000",
-                "label_index": "1330",
+                "label_index": "@P1330",
                 "label_korean": "예비 모듈",
                 "group_id": "매핑_누락",
                 "req_frame_id": "",
@@ -695,13 +695,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "1655",
+                "help_code": "@P1655",
                 "help_korean": "예비 모듈은 안티-리프트 제어 ECU를 연결할 수 있도록 한다"
             },
             {
                 "position": 3,
                 "mnemonic": "CFG_BC6_ALARM_MOD_AUX_000",
-                "label_index": "1330",
+                "label_index": "@P1330",
                 "label_korean": "예비 모듈",
                 "group_id": "매핑_누락",
                 "req_frame_id": "",
@@ -720,13 +720,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "1655",
+                "help_code": "@P1655",
                 "help_korean": "예비 모듈은 안티-리프트 제어 ECU를 연결할 수 있도록 한다"
             },
             {
                 "position": 4,
                 "mnemonic": "CFG____PILOTAGE_VOYANT",
-                "label_index": "2990",
+                "label_index": "@P2990",
                 "label_korean": "표시등 제어",
                 "group_id": "68709",
                 "req_frame_id": "206411",
@@ -742,13 +742,13 @@
                 "bit_mask": 6,
                 "bit_shift": 1,
                 "dynamic_arg": "",
-                "help_code": "14487",
+                "help_code": "@P14487",
                 "help_korean": "표시등의 점등을 제어하는 ECU를 나타낸다"
             },
             {
                 "position": 5,
                 "mnemonic": "CFG____MPVEHICULE",
-                "label_index": "8890",
+                "label_index": "@P8890",
                 "label_korean": "내부 센서의 민감도",
                 "group_id": "68709",
                 "req_frame_id": "206411",
@@ -780,8 +780,8 @@
                 "bit_mask": 15,
                 "bit_shift": 0,
                 "dynamic_arg": "",
-                "help_code": "32555, 32556, 44716",
-                "help_korean": "내부 센서의 민감도를 정의하는 데 사용한다 .민감도는 차량 볼륨 및 시트 트림에 따라 다르다 .가장 낮은 감도에 해당하는 감도 1."
+                "help_code": "@P32555@\\+@T.@P32556@\\+@T.@P44716@\\*1@T.",
+                "help_korean": "내부 센서의 민감도를 정의하는 데 사용한다.민감도는 차량 볼륨 및 시트 트림에 따라 다르다.가장 낮은 감도에 해당하는 감도 1."
             }
         ]
     },
@@ -794,7 +794,7 @@
             {
                 "position": 1,
                 "mnemonic": "CFG____MPPAYS",
-                "label_index": "22855",
+                "label_index": "@P22855",
                 "label_korean": "국가",
                 "group_id": "68709",
                 "req_frame_id": "206411",
@@ -817,13 +817,13 @@
                 "bit_mask": 96,
                 "bit_shift": 5,
                 "dynamic_arg": "",
-                "help_code": "4938",
+                "help_code": "@P4938",
                 "help_korean": "차량의 등록 국가"
             },
             {
                 "position": 2,
                 "mnemonic": "CFG____MPPAYS2",
-                "label_index": "29598",
+                "label_index": "@P29598",
                 "label_korean": "모듈 작동 모드",
                 "group_id": "68709",
                 "req_frame_id": "206411",
@@ -842,13 +842,13 @@
                 "bit_mask": 16,
                 "bit_shift": 4,
                 "dynamic_arg": "",
-                "help_code": "1328",
+                "help_code": "@P1328",
                 "help_korean": "모듈의 작동 모드를 나타낸다"
             },
             {
                 "position": 3,
                 "mnemonic": "CFG_BC6_ALARM_MOD_AUX_000",
-                "label_index": "1330",
+                "label_index": "@P1330",
                 "label_korean": "예비 모듈",
                 "group_id": "매핑_누락",
                 "req_frame_id": "",
@@ -867,13 +867,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "1655",
+                "help_code": "@P1655",
                 "help_korean": "예비 모듈은 안티-리프트 제어 ECU를 연결할 수 있도록 한다"
             },
             {
                 "position": 3,
                 "mnemonic": "CFG_BC6_ALARM_MOD_AUX_000",
-                "label_index": "1330",
+                "label_index": "@P1330",
                 "label_korean": "예비 모듈",
                 "group_id": "매핑_누락",
                 "req_frame_id": "",
@@ -892,13 +892,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "1655",
+                "help_code": "@P1655",
                 "help_korean": "예비 모듈은 안티-리프트 제어 ECU를 연결할 수 있도록 한다"
             },
             {
                 "position": 4,
                 "mnemonic": "CFG____PILOTAGE_VOYANT",
-                "label_index": "2990",
+                "label_index": "@P2990",
                 "label_korean": "표시등 제어",
                 "group_id": "68709",
                 "req_frame_id": "206411",
@@ -914,7 +914,7 @@
                 "bit_mask": 6,
                 "bit_shift": 1,
                 "dynamic_arg": "",
-                "help_code": "14487",
+                "help_code": "@P14487",
                 "help_korean": "표시등의 점등을 제어하는 ECU를 나타낸다"
             }
         ]
@@ -928,7 +928,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_INITIALISATION_COMPTEUR_GLOBAL",
-                "label_index": "5065",
+                "label_index": "@P5065",
                 "label_korean": "전체 카운터의 초기화",
                 "group_id": "68710",
                 "req_frame_id": "206414",
@@ -944,13 +944,13 @@
                 "bit_mask": 4,
                 "bit_shift": 2,
                 "dynamic_arg": "",
-                "help_code": "44368, 44369, 44370",
-                "help_korean": "일정 시간 동안 침입이 없을 경우 모든 카운터가 0일 경우에 나타난다 .\n모든 카운터는 어떠한 타입의 침입을 위한 알람 작동 횟수를 카운트한다 (외부, 내부, 안티-리프트) .카운터가 최대 값에 도달할 때, 알람은 더 이상 작동하지 않는다"
+                "help_code": "@P44368@\\+@T.@\\n@P44369@\\+@T.@P44370",
+                "help_korean": "일정 시간 동안 침입이 없을 경우 모든 카운터가 0일 경우에 나타난다.\n모든 카운터는 어떠한 타입의 침입을 위한 알람 작동 횟수를 카운트한다 (외부, 내부, 안티-리프트).카운터가 최대 값에 도달할 때, 알람은 더 이상 작동하지 않는다"
             },
             {
                 "position": 2,
                 "mnemonic": "MP_INITIALISATION_COMPTEUR_PERIMETRIQUE",
-                "label_index": "3408",
+                "label_index": "@P3408",
                 "label_korean": "외부 카운터의 초기화",
                 "group_id": "68710",
                 "req_frame_id": "206414",
@@ -966,13 +966,13 @@
                 "bit_mask": 1,
                 "bit_shift": 0,
                 "dynamic_arg": "",
-                "help_code": "44385, 44386, 44370",
-                "help_korean": "일정 시간 동안 침입이 없을 경우 외부 알람이 0으로 리셋될 경우를 나타낸다 .\n외부 알람 작동 카운터는 외부 침입 이후 알람의 작동 횟수를 카운트한다 .카운터가 최대 값에 도달할 때, 알람은 더 이상 작동하지 않는다"
+                "help_code": "@P44385@\\+@T.@\\n@P44386@\\+@T.@P44370",
+                "help_korean": "일정 시간 동안 침입이 없을 경우 외부 알람이 0으로 리셋될 경우를 나타낸다.\n외부 알람 작동 카운터는 외부 침입 이후 알람의 작동 횟수를 카운트한다.카운터가 최대 값에 도달할 때, 알람은 더 이상 작동하지 않는다"
             },
             {
                 "position": 3,
                 "mnemonic": "CFG____MPTEMPCPT",
-                "label_index": "12608",
+                "label_index": "@P12608",
                 "label_korean": "전체 카운터에서 시간 지연",
                 "group_id": "68710",
                 "req_frame_id": "206414",
@@ -988,13 +988,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "5010",
+                "help_code": "@P5010",
                 "help_korean": "전체 카운터의 2 리셋간의 시간"
             },
             {
                 "position": 4,
                 "mnemonic": "MP_COMPTEUR_GLOBAL",
-                "label_index": "14258",
+                "label_index": "@P14258",
                 "label_korean": "전체 카운터",
                 "group_id": "68710",
                 "req_frame_id": "206414",
@@ -1010,13 +1010,13 @@
                 "bit_mask": 2,
                 "bit_shift": 1,
                 "dynamic_arg": "",
-                "help_code": "44371, 44369, 44374, 44375",
-                "help_korean": "침입이 모든 카운터에 의해서 제어될 경우 나타난다 .\n모든 카운터는 어떠한 타입의 침입을 위한 알람 작동 횟수를 카운트한다 (외부, 내부, 안티-리프트) .이 숫자에 도달할 때, 알람은 더 이상 작동하지 않는다 .\n알람은 모든 카운터의 제로 리셋시 다시 작동하게 된다"
+                "help_code": "@P44371@\\+@T.@\\n@P44369@\\+@T.@P44374@\\+@T.@\\n@P44375",
+                "help_korean": "침입이 모든 카운터에 의해서 제어될 경우 나타난다.\n모든 카운터는 어떠한 타입의 침입을 위한 알람 작동 횟수를 카운트한다 (외부, 내부, 안티-리프트).이 숫자에 도달할 때, 알람은 더 이상 작동하지 않는다.\n알람은 모든 카운터의 제로 리셋시 다시 작동하게 된다"
             },
             {
                 "position": 5,
                 "mnemonic": "CFG____MPTAILLEPERIM",
-                "label_index": "9949",
+                "label_index": "@P9949",
                 "label_korean": "외부 카운터의 최대 값",
                 "group_id": "68711",
                 "req_frame_id": "206417",
@@ -1032,13 +1032,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "44372, 44297",
-                "help_korean": "외부 침입 이후 승인된 알람의 작동 횟수 .\n이 숫자에 도달할 때, 알람은 외부 침입을 위해서 더 이상 작동하지 않는다"
+                "help_code": "@P44372@\\+@T.@\\n@P44297",
+                "help_korean": "외부 침입 이후 승인된 알람의 작동 횟수.\n이 숫자에 도달할 때, 알람은 외부 침입을 위해서 더 이상 작동하지 않는다"
             },
             {
                 "position": 6,
                 "mnemonic": "CFG____MPTAILLEGLOBAL",
-                "label_index": "11439",
+                "label_index": "@P11439",
                 "label_korean": "전체 카운터의 최대 값",
                 "group_id": "68711",
                 "req_frame_id": "206417",
@@ -1054,13 +1054,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "44373, 44374, 44375",
-                "help_korean": "침입 이후 승인된 알람 작동 횟수 .\n이 숫자에 도달할 때, 알람은 더 이상 작동하지 않는다 .\n알람은 모든 카운터의 제로 리셋시 다시 작동하게 된다"
+                "help_code": "@P44373@\\+@T.@\\n@P44374@\\+@T.@\\n@P44375",
+                "help_korean": "침입 이후 승인된 알람 작동 횟수.\n이 숫자에 도달할 때, 알람은 더 이상 작동하지 않는다.\n알람은 모든 카운터의 제로 리셋시 다시 작동하게 된다"
             },
             {
                 "position": 7,
                 "mnemonic": "CFG____MPTAILLEUS",
-                "label_index": "3264",
+                "label_index": "@P3264",
                 "label_korean": "내부 카운터의 최대 값",
                 "group_id": "68711",
                 "req_frame_id": "206417",
@@ -1076,13 +1076,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "44376, 44298",
-                "help_korean": "내부 침입 이후 승인된 알람 작동 횟수 .\n이 숫자에 도달할 때, 알람은 더 이상 내부 침입을 위해 작동하지 않는다"
+                "help_code": "@P44376@\\+@T.@\\n@P44298",
+                "help_korean": "내부 침입 이후 승인된 알람 작동 횟수.\n이 숫자에 도달할 때, 알람은 더 이상 내부 침입을 위해 작동하지 않는다"
             },
             {
                 "position": 8,
                 "mnemonic": "CFG____MPTAILLECAS",
-                "label_index": "10828",
+                "label_index": "@P10828",
                 "label_korean": "안티-리프트 카운터 최대 값",
                 "group_id": "68711",
                 "req_frame_id": "206417",
@@ -1098,13 +1098,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "44377, 44299",
-                "help_korean": "안티-리프트 타입의 침입 이후 승인된 알람 작동 횟수 .\n이 숫자에 도달할 때, 알람은 안티-리프트 타입의 침입을 위해서 더 이상 작동하지 않는다"
+                "help_code": "@P44377@\\+@T.@\\n@P44299",
+                "help_korean": "안티-리프트 타입의 침입 이후 승인된 알람 작동 횟수.\n이 숫자에 도달할 때, 알람은 안티-리프트 타입의 침입을 위해서 더 이상 작동하지 않는다"
             },
             {
                 "position": 9,
                 "mnemonic": "CFG____MPTAILLEUSCAS",
-                "label_index": "1488",
+                "label_index": "@P1488",
                 "label_korean": "안티-리프트 및 내부 알람 센서의 최대 값",
                 "group_id": "매핑_누락",
                 "req_frame_id": "",
@@ -1120,13 +1120,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "1383, 1688",
+                "help_code": "@P1383@T.@\\n@P1688@T.",
                 "help_korean": "안티-리프트 또는 내부 침입 이후 알람 작동의 승인 건수.\n이 숫자에 도달하면, 알람은 안티-리프트 또는 내부 침입을 위해서 작동하지 않는다."
             },
             {
                 "position": 10,
                 "mnemonic": "CFG____MPTAILLEAUX",
-                "label_index": "1267",
+                "label_index": "@P1267",
                 "label_korean": "외부 모듈 카운터의 최대 값",
                 "group_id": "매핑_누락",
                 "req_frame_id": "",
@@ -1142,7 +1142,7 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "1366, 1687",
+                "help_code": "@P1366@T.@\\n@P1687@T.",
                 "help_korean": "외부 모듈에 의해 감지된 침입 이후 알람 작동의 승인 건수.\n이 숫자에 도달하면, 알람은 외부 모듈에 의해서 감지된 침입을 위해서 작동하지 않는다."
             }
         ]
@@ -1156,7 +1156,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_DETECTION_ANTISOULEVEMENT",
-                "label_index": "11945",
+                "label_index": "@P11945",
                 "label_korean": "안티-리프트 감지",
                 "group_id": "68706",
                 "req_frame_id": "206402",
@@ -1172,13 +1172,13 @@
                 "bit_mask": 4,
                 "bit_shift": 2,
                 "dynamic_arg": "",
-                "help_code": "2231",
+                "help_code": "@P2231",
                 "help_korean": "차량의 움직임 감지를 보고한다"
             },
             {
                 "position": 2,
                 "mnemonic": "MP_DETECTION_MODULE_AUXILIAIRE",
-                "label_index": "1359",
+                "label_index": "@P1359",
                 "label_korean": "외부 모듈에 의한 침입 감지",
                 "group_id": "매핑_누락",
                 "req_frame_id": "",
@@ -1194,13 +1194,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "1570",
+                "help_code": "@P1570",
                 "help_korean": "외부 모듈에 의한 침입 감지를 알린다"
             },
             {
                 "position": 3,
                 "mnemonic": "MP_POSITION_CAPOT",
-                "label_index": "3137",
+                "label_index": "@P3137",
                 "label_korean": "엔진 본넷의 위치",
                 "group_id": "68706",
                 "req_frame_id": "206402",
@@ -1216,13 +1216,13 @@
                 "bit_mask": 1,
                 "bit_shift": 0,
                 "dynamic_arg": "",
-                "help_code": "13155",
+                "help_code": "@P13155",
                 "help_korean": "본넷의 열림 또는 닫힘을 보고한다"
             },
             {
                 "position": 4,
                 "mnemonic": "MP_COMMUTATEUR_NEUTRALISATION_ALARME_VOLUMETRIQUE",
-                "label_index": "3915",
+                "label_index": "@P3915",
                 "label_korean": "실내 보호 알람 차단 스위치",
                 "group_id": "68706",
                 "req_frame_id": "206402",
@@ -1238,8 +1238,8 @@
                 "bit_mask": 2,
                 "bit_shift": 1,
                 "dynamic_arg": "",
-                "help_code": "45339, 32555, 45340",
-                "help_korean": "내부 알람 차단 버턴의 작동을 점검하기 위해서 사용된다 .\n내부 센서의 민감도를 정의하는 데 사용한다 .내부 알람은 운전자 또는 선루프 또는 도어 열림 감지에 의해서 차단된다"
+                "help_code": "@P45339@\\+@T.@\\n@P32555@\\+@T.@P45340",
+                "help_korean": "내부 알람 차단 버턴의 작동을 점검하기 위해서 사용된다.\n내부 센서의 민감도를 정의하는 데 사용한다.내부 알람은 운전자 또는 선루프 또는 도어 열림 감지에 의해서 차단된다"
             }
         ]
     },
@@ -1252,7 +1252,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_CAUSE_EFFRACTION_01",
-                "label_index": "1863",
+                "label_index": "@P1863@\\*1",
                 "label_korean": "침입1",
                 "group_id": "68707",
                 "req_frame_id": "206405",
@@ -1283,13 +1283,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "1",
-                "help_code": "2264",
+                "help_code": "@P2264@\\*32",
                 "help_korean": "알람 장치는 마지막 32침입을 기록할 수 있다"
             },
             {
                 "position": 2,
                 "mnemonic": "MP_CAUSE_EFFRACTION_02",
-                "label_index": "1863",
+                "label_index": "@P1863@\\*2",
                 "label_korean": "침입2",
                 "group_id": "68707",
                 "req_frame_id": "206405",
@@ -1305,13 +1305,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "2",
-                "help_code": "2264",
+                "help_code": "@P2264@\\*32",
                 "help_korean": "알람 장치는 마지막 32침입을 기록할 수 있다"
             },
             {
                 "position": 3,
                 "mnemonic": "MP_CAUSE_EFFRACTION_03",
-                "label_index": "1863",
+                "label_index": "@P1863@\\*3",
                 "label_korean": "침입3",
                 "group_id": "68707",
                 "req_frame_id": "206405",
@@ -1327,13 +1327,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "3",
-                "help_code": "2264",
+                "help_code": "@P2264@\\*32",
                 "help_korean": "알람 장치는 마지막 32침입을 기록할 수 있다"
             },
             {
                 "position": 4,
                 "mnemonic": "MP_CAUSE_EFFRACTION_04",
-                "label_index": "1863",
+                "label_index": "@P1863@\\*4",
                 "label_korean": "침입4",
                 "group_id": "68707",
                 "req_frame_id": "206405",
@@ -1349,13 +1349,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "4",
-                "help_code": "2264",
+                "help_code": "@P2264@\\*32",
                 "help_korean": "알람 장치는 마지막 32침입을 기록할 수 있다"
             },
             {
                 "position": 5,
                 "mnemonic": "MP_CAUSE_EFFRACTION_05",
-                "label_index": "1863",
+                "label_index": "@P1863@\\*5",
                 "label_korean": "침입5",
                 "group_id": "68707",
                 "req_frame_id": "206405",
@@ -1371,13 +1371,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "5",
-                "help_code": "2264",
+                "help_code": "@P2264@\\*32",
                 "help_korean": "알람 장치는 마지막 32침입을 기록할 수 있다"
             },
             {
                 "position": 6,
                 "mnemonic": "MP_CAUSE_EFFRACTION_06",
-                "label_index": "1863",
+                "label_index": "@P1863@\\*6",
                 "label_korean": "침입6",
                 "group_id": "68707",
                 "req_frame_id": "206405",
@@ -1393,13 +1393,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "6",
-                "help_code": "2264",
+                "help_code": "@P2264@\\*32",
                 "help_korean": "알람 장치는 마지막 32침입을 기록할 수 있다"
             },
             {
                 "position": 7,
                 "mnemonic": "MP_CAUSE_EFFRACTION_07",
-                "label_index": "1863",
+                "label_index": "@P1863@\\*7",
                 "label_korean": "침입7",
                 "group_id": "68707",
                 "req_frame_id": "206405",
@@ -1415,13 +1415,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "7",
-                "help_code": "2264",
+                "help_code": "@P2264@\\*32",
                 "help_korean": "알람 장치는 마지막 32침입을 기록할 수 있다"
             },
             {
                 "position": 8,
                 "mnemonic": "MP_CAUSE_EFFRACTION_08",
-                "label_index": "1863",
+                "label_index": "@P1863@\\*8",
                 "label_korean": "침입8",
                 "group_id": "68707",
                 "req_frame_id": "206405",
@@ -1437,13 +1437,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "8",
-                "help_code": "2264",
+                "help_code": "@P2264@\\*32",
                 "help_korean": "알람 장치는 마지막 32침입을 기록할 수 있다"
             },
             {
                 "position": 9,
                 "mnemonic": "MP_CAUSE_EFFRACTION_09",
-                "label_index": "1863",
+                "label_index": "@P1863@\\*9",
                 "label_korean": "침입9",
                 "group_id": "68707",
                 "req_frame_id": "206405",
@@ -1459,13 +1459,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "9",
-                "help_code": "2264",
+                "help_code": "@P2264@\\*32",
                 "help_korean": "알람 장치는 마지막 32침입을 기록할 수 있다"
             },
             {
                 "position": 10,
                 "mnemonic": "MP_CAUSE_EFFRACTION_10",
-                "label_index": "1863",
+                "label_index": "@P1863@\\*10",
                 "label_korean": "침입10",
                 "group_id": "68707",
                 "req_frame_id": "206405",
@@ -1481,13 +1481,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "10",
-                "help_code": "2264",
+                "help_code": "@P2264@\\*32",
                 "help_korean": "알람 장치는 마지막 32침입을 기록할 수 있다"
             },
             {
                 "position": 11,
                 "mnemonic": "MP_CAUSE_EFFRACTION_11",
-                "label_index": "1863",
+                "label_index": "@P1863@\\*11",
                 "label_korean": "침입11",
                 "group_id": "68707",
                 "req_frame_id": "206405",
@@ -1503,13 +1503,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "11",
-                "help_code": "2264",
+                "help_code": "@P2264@\\*32",
                 "help_korean": "알람 장치는 마지막 32침입을 기록할 수 있다"
             },
             {
                 "position": 12,
                 "mnemonic": "MP_CAUSE_EFFRACTION_12",
-                "label_index": "1863",
+                "label_index": "@P1863@\\*12",
                 "label_korean": "침입12",
                 "group_id": "68707",
                 "req_frame_id": "206405",
@@ -1525,13 +1525,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "12",
-                "help_code": "2264",
+                "help_code": "@P2264@\\*32",
                 "help_korean": "알람 장치는 마지막 32침입을 기록할 수 있다"
             },
             {
                 "position": 13,
                 "mnemonic": "MP_CAUSE_EFFRACTION_13",
-                "label_index": "1863",
+                "label_index": "@P1863@\\*13",
                 "label_korean": "침입13",
                 "group_id": "68707",
                 "req_frame_id": "206405",
@@ -1547,13 +1547,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "13",
-                "help_code": "2264",
+                "help_code": "@P2264@\\*32",
                 "help_korean": "알람 장치는 마지막 32침입을 기록할 수 있다"
             },
             {
                 "position": 14,
                 "mnemonic": "MP_CAUSE_EFFRACTION_14",
-                "label_index": "1863",
+                "label_index": "@P1863@\\*14",
                 "label_korean": "침입14",
                 "group_id": "68707",
                 "req_frame_id": "206405",
@@ -1569,13 +1569,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "14",
-                "help_code": "2264",
+                "help_code": "@P2264@\\*32",
                 "help_korean": "알람 장치는 마지막 32침입을 기록할 수 있다"
             },
             {
                 "position": 15,
                 "mnemonic": "MP_CAUSE_EFFRACTION_15",
-                "label_index": "1863",
+                "label_index": "@P1863@\\*15",
                 "label_korean": "침입15",
                 "group_id": "68707",
                 "req_frame_id": "206405",
@@ -1591,13 +1591,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "15",
-                "help_code": "2264",
+                "help_code": "@P2264@\\*32",
                 "help_korean": "알람 장치는 마지막 32침입을 기록할 수 있다"
             },
             {
                 "position": 16,
                 "mnemonic": "MP_CAUSE_EFFRACTION_16",
-                "label_index": "1863",
+                "label_index": "@P1863@\\*16",
                 "label_korean": "침입16",
                 "group_id": "68707",
                 "req_frame_id": "206405",
@@ -1613,13 +1613,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "16",
-                "help_code": "2264",
+                "help_code": "@P2264@\\*32",
                 "help_korean": "알람 장치는 마지막 32침입을 기록할 수 있다"
             },
             {
                 "position": 17,
                 "mnemonic": "MP_CAUSE_EFFRACTION_17",
-                "label_index": "1863",
+                "label_index": "@P1863@\\*17",
                 "label_korean": "침입17",
                 "group_id": "68707",
                 "req_frame_id": "206405",
@@ -1635,13 +1635,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "17",
-                "help_code": "2264",
+                "help_code": "@P2264@\\*32",
                 "help_korean": "알람 장치는 마지막 32침입을 기록할 수 있다"
             },
             {
                 "position": 18,
                 "mnemonic": "MP_CAUSE_EFFRACTION_18",
-                "label_index": "1863",
+                "label_index": "@P1863@\\*18",
                 "label_korean": "침입18",
                 "group_id": "68707",
                 "req_frame_id": "206405",
@@ -1657,13 +1657,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "18",
-                "help_code": "2264",
+                "help_code": "@P2264@\\*32",
                 "help_korean": "알람 장치는 마지막 32침입을 기록할 수 있다"
             },
             {
                 "position": 19,
                 "mnemonic": "MP_CAUSE_EFFRACTION_19",
-                "label_index": "1863",
+                "label_index": "@P1863@\\*19",
                 "label_korean": "침입19",
                 "group_id": "68707",
                 "req_frame_id": "206405",
@@ -1679,13 +1679,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "19",
-                "help_code": "2264",
+                "help_code": "@P2264@\\*32",
                 "help_korean": "알람 장치는 마지막 32침입을 기록할 수 있다"
             },
             {
                 "position": 20,
                 "mnemonic": "MP_CAUSE_EFFRACTION_20",
-                "label_index": "1863",
+                "label_index": "@P1863@\\*20",
                 "label_korean": "침입20",
                 "group_id": "68707",
                 "req_frame_id": "206405",
@@ -1701,13 +1701,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "20",
-                "help_code": "2264",
+                "help_code": "@P2264@\\*32",
                 "help_korean": "알람 장치는 마지막 32침입을 기록할 수 있다"
             },
             {
                 "position": 21,
                 "mnemonic": "MP_CAUSE_EFFRACTION_21",
-                "label_index": "1863",
+                "label_index": "@P1863@\\*21",
                 "label_korean": "침입21",
                 "group_id": "68707",
                 "req_frame_id": "206405",
@@ -1723,13 +1723,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "21",
-                "help_code": "2264",
+                "help_code": "@P2264@\\*32",
                 "help_korean": "알람 장치는 마지막 32침입을 기록할 수 있다"
             },
             {
                 "position": 22,
                 "mnemonic": "MP_CAUSE_EFFRACTION_22",
-                "label_index": "1863",
+                "label_index": "@P1863@\\*22",
                 "label_korean": "침입22",
                 "group_id": "68707",
                 "req_frame_id": "206405",
@@ -1745,13 +1745,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "22",
-                "help_code": "2264",
+                "help_code": "@P2264@\\*32",
                 "help_korean": "알람 장치는 마지막 32침입을 기록할 수 있다"
             },
             {
                 "position": 23,
                 "mnemonic": "MP_CAUSE_EFFRACTION_23",
-                "label_index": "1863",
+                "label_index": "@P1863@\\*23",
                 "label_korean": "침입23",
                 "group_id": "68707",
                 "req_frame_id": "206405",
@@ -1767,13 +1767,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "23",
-                "help_code": "2264",
+                "help_code": "@P2264@\\*32",
                 "help_korean": "알람 장치는 마지막 32침입을 기록할 수 있다"
             },
             {
                 "position": 24,
                 "mnemonic": "MP_CAUSE_EFFRACTION_24",
-                "label_index": "1863",
+                "label_index": "@P1863@\\*24",
                 "label_korean": "침입24",
                 "group_id": "68707",
                 "req_frame_id": "206405",
@@ -1789,13 +1789,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "24",
-                "help_code": "2264",
+                "help_code": "@P2264@\\*32",
                 "help_korean": "알람 장치는 마지막 32침입을 기록할 수 있다"
             },
             {
                 "position": 25,
                 "mnemonic": "MP_CAUSE_EFFRACTION_25",
-                "label_index": "1863",
+                "label_index": "@P1863@\\*25",
                 "label_korean": "침입25",
                 "group_id": "68707",
                 "req_frame_id": "206405",
@@ -1811,13 +1811,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "25",
-                "help_code": "2264",
+                "help_code": "@P2264@\\*32",
                 "help_korean": "알람 장치는 마지막 32침입을 기록할 수 있다"
             },
             {
                 "position": 26,
                 "mnemonic": "MP_CAUSE_EFFRACTION_26",
-                "label_index": "1863",
+                "label_index": "@P1863@\\*26",
                 "label_korean": "침입26",
                 "group_id": "68707",
                 "req_frame_id": "206405",
@@ -1833,13 +1833,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "26",
-                "help_code": "2264",
+                "help_code": "@P2264@\\*32",
                 "help_korean": "알람 장치는 마지막 32침입을 기록할 수 있다"
             },
             {
                 "position": 27,
                 "mnemonic": "MP_CAUSE_EFFRACTION_27",
-                "label_index": "1863",
+                "label_index": "@P1863@\\*27",
                 "label_korean": "침입27",
                 "group_id": "68707",
                 "req_frame_id": "206405",
@@ -1855,13 +1855,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "27",
-                "help_code": "2264",
+                "help_code": "@P2264@\\*32",
                 "help_korean": "알람 장치는 마지막 32침입을 기록할 수 있다"
             },
             {
                 "position": 28,
                 "mnemonic": "MP_CAUSE_EFFRACTION_28",
-                "label_index": "1863",
+                "label_index": "@P1863@\\*28",
                 "label_korean": "침입28",
                 "group_id": "68707",
                 "req_frame_id": "206405",
@@ -1877,13 +1877,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "28",
-                "help_code": "2264",
+                "help_code": "@P2264@\\*32",
                 "help_korean": "알람 장치는 마지막 32침입을 기록할 수 있다"
             },
             {
                 "position": 29,
                 "mnemonic": "MP_CAUSE_EFFRACTION_29",
-                "label_index": "1863",
+                "label_index": "@P1863@\\*29",
                 "label_korean": "침입29",
                 "group_id": "68707",
                 "req_frame_id": "206405",
@@ -1899,13 +1899,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "29",
-                "help_code": "2264",
+                "help_code": "@P2264@\\*32",
                 "help_korean": "알람 장치는 마지막 32침입을 기록할 수 있다"
             },
             {
                 "position": 30,
                 "mnemonic": "MP_CAUSE_EFFRACTION_30",
-                "label_index": "1863",
+                "label_index": "@P1863@\\*30",
                 "label_korean": "침입30",
                 "group_id": "68707",
                 "req_frame_id": "206405",
@@ -1921,13 +1921,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "30",
-                "help_code": "2264",
+                "help_code": "@P2264@\\*32",
                 "help_korean": "알람 장치는 마지막 32침입을 기록할 수 있다"
             },
             {
                 "position": 31,
                 "mnemonic": "MP_CAUSE_EFFRACTION_31",
-                "label_index": "1863",
+                "label_index": "@P1863@\\*31",
                 "label_korean": "침입31",
                 "group_id": "68707",
                 "req_frame_id": "206405",
@@ -1943,13 +1943,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "31",
-                "help_code": "2264",
+                "help_code": "@P2264@\\*32",
                 "help_korean": "알람 장치는 마지막 32침입을 기록할 수 있다"
             },
             {
                 "position": 32,
                 "mnemonic": "MP_CAUSE_EFFRACTION_32",
-                "label_index": "1863",
+                "label_index": "@P1863@\\*32",
                 "label_korean": "침입32",
                 "group_id": "68707",
                 "req_frame_id": "206405",
@@ -1965,7 +1965,7 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "32",
-                "help_code": "2264",
+                "help_code": "@P2264@\\*32",
                 "help_korean": "알람 장치는 마지막 32침입을 기록할 수 있다"
             }
         ]
@@ -1979,7 +1979,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_CAUSE_EFFRACTION_01",
-                "label_index": "1863",
+                "label_index": "@P1863@\\*1",
                 "label_korean": "침입1",
                 "group_id": "68707",
                 "req_frame_id": "206405",
@@ -2010,13 +2010,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "1",
-                "help_code": "2264",
+                "help_code": "@P2264@\\*32",
                 "help_korean": "알람 장치는 마지막 32침입을 기록할 수 있다"
             },
             {
                 "position": 2,
                 "mnemonic": "MP_CAUSE_EFFRACTION_02",
-                "label_index": "1863",
+                "label_index": "@P1863@\\*2",
                 "label_korean": "침입2",
                 "group_id": "68707",
                 "req_frame_id": "206405",
@@ -2032,13 +2032,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "2",
-                "help_code": "2264",
+                "help_code": "@P2264@\\*32",
                 "help_korean": "알람 장치는 마지막 32침입을 기록할 수 있다"
             },
             {
                 "position": 3,
                 "mnemonic": "MP_CAUSE_EFFRACTION_03",
-                "label_index": "1863",
+                "label_index": "@P1863@\\*3",
                 "label_korean": "침입3",
                 "group_id": "68707",
                 "req_frame_id": "206405",
@@ -2054,13 +2054,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "3",
-                "help_code": "2264",
+                "help_code": "@P2264@\\*32",
                 "help_korean": "알람 장치는 마지막 32침입을 기록할 수 있다"
             },
             {
                 "position": 4,
                 "mnemonic": "MP_CAUSE_EFFRACTION_04",
-                "label_index": "1863",
+                "label_index": "@P1863@\\*4",
                 "label_korean": "침입4",
                 "group_id": "68707",
                 "req_frame_id": "206405",
@@ -2076,13 +2076,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "4",
-                "help_code": "2264",
+                "help_code": "@P2264@\\*32",
                 "help_korean": "알람 장치는 마지막 32침입을 기록할 수 있다"
             },
             {
                 "position": 5,
                 "mnemonic": "MP_CAUSE_EFFRACTION_05",
-                "label_index": "1863",
+                "label_index": "@P1863@\\*5",
                 "label_korean": "침입5",
                 "group_id": "68707",
                 "req_frame_id": "206405",
@@ -2098,13 +2098,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "5",
-                "help_code": "2264",
+                "help_code": "@P2264@\\*32",
                 "help_korean": "알람 장치는 마지막 32침입을 기록할 수 있다"
             },
             {
                 "position": 6,
                 "mnemonic": "MP_CAUSE_EFFRACTION_06",
-                "label_index": "1863",
+                "label_index": "@P1863@\\*6",
                 "label_korean": "침입6",
                 "group_id": "68707",
                 "req_frame_id": "206405",
@@ -2120,13 +2120,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "6",
-                "help_code": "2264",
+                "help_code": "@P2264@\\*32",
                 "help_korean": "알람 장치는 마지막 32침입을 기록할 수 있다"
             },
             {
                 "position": 7,
                 "mnemonic": "MP_CAUSE_EFFRACTION_07",
-                "label_index": "1863",
+                "label_index": "@P1863@\\*7",
                 "label_korean": "침입7",
                 "group_id": "68707",
                 "req_frame_id": "206405",
@@ -2142,13 +2142,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "7",
-                "help_code": "2264",
+                "help_code": "@P2264@\\*32",
                 "help_korean": "알람 장치는 마지막 32침입을 기록할 수 있다"
             },
             {
                 "position": 8,
                 "mnemonic": "MP_CAUSE_EFFRACTION_08",
-                "label_index": "1863",
+                "label_index": "@P1863@\\*8",
                 "label_korean": "침입8",
                 "group_id": "68707",
                 "req_frame_id": "206405",
@@ -2164,13 +2164,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "8",
-                "help_code": "2264",
+                "help_code": "@P2264@\\*32",
                 "help_korean": "알람 장치는 마지막 32침입을 기록할 수 있다"
             },
             {
                 "position": 9,
                 "mnemonic": "MP_CAUSE_EFFRACTION_09",
-                "label_index": "1863",
+                "label_index": "@P1863@\\*9",
                 "label_korean": "침입9",
                 "group_id": "68707",
                 "req_frame_id": "206405",
@@ -2186,13 +2186,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "9",
-                "help_code": "2264",
+                "help_code": "@P2264@\\*32",
                 "help_korean": "알람 장치는 마지막 32침입을 기록할 수 있다"
             },
             {
                 "position": 10,
                 "mnemonic": "MP_CAUSE_EFFRACTION_10",
-                "label_index": "1863",
+                "label_index": "@P1863@\\*10",
                 "label_korean": "침입10",
                 "group_id": "68707",
                 "req_frame_id": "206405",
@@ -2208,13 +2208,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "10",
-                "help_code": "2264",
+                "help_code": "@P2264@\\*32",
                 "help_korean": "알람 장치는 마지막 32침입을 기록할 수 있다"
             },
             {
                 "position": 11,
                 "mnemonic": "MP_CAUSE_EFFRACTION_11",
-                "label_index": "1863",
+                "label_index": "@P1863@\\*11",
                 "label_korean": "침입11",
                 "group_id": "68707",
                 "req_frame_id": "206405",
@@ -2230,13 +2230,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "11",
-                "help_code": "2264",
+                "help_code": "@P2264@\\*32",
                 "help_korean": "알람 장치는 마지막 32침입을 기록할 수 있다"
             },
             {
                 "position": 12,
                 "mnemonic": "MP_CAUSE_EFFRACTION_12",
-                "label_index": "1863",
+                "label_index": "@P1863@\\*12",
                 "label_korean": "침입12",
                 "group_id": "68707",
                 "req_frame_id": "206405",
@@ -2252,13 +2252,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "12",
-                "help_code": "2264",
+                "help_code": "@P2264@\\*32",
                 "help_korean": "알람 장치는 마지막 32침입을 기록할 수 있다"
             },
             {
                 "position": 13,
                 "mnemonic": "MP_CAUSE_EFFRACTION_13",
-                "label_index": "1863",
+                "label_index": "@P1863@\\*13",
                 "label_korean": "침입13",
                 "group_id": "68707",
                 "req_frame_id": "206405",
@@ -2274,13 +2274,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "13",
-                "help_code": "2264",
+                "help_code": "@P2264@\\*32",
                 "help_korean": "알람 장치는 마지막 32침입을 기록할 수 있다"
             },
             {
                 "position": 14,
                 "mnemonic": "MP_CAUSE_EFFRACTION_14",
-                "label_index": "1863",
+                "label_index": "@P1863@\\*14",
                 "label_korean": "침입14",
                 "group_id": "68707",
                 "req_frame_id": "206405",
@@ -2296,13 +2296,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "14",
-                "help_code": "2264",
+                "help_code": "@P2264@\\*32",
                 "help_korean": "알람 장치는 마지막 32침입을 기록할 수 있다"
             },
             {
                 "position": 15,
                 "mnemonic": "MP_CAUSE_EFFRACTION_15",
-                "label_index": "1863",
+                "label_index": "@P1863@\\*15",
                 "label_korean": "침입15",
                 "group_id": "68707",
                 "req_frame_id": "206405",
@@ -2318,13 +2318,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "15",
-                "help_code": "2264",
+                "help_code": "@P2264@\\*32",
                 "help_korean": "알람 장치는 마지막 32침입을 기록할 수 있다"
             },
             {
                 "position": 16,
                 "mnemonic": "MP_CAUSE_EFFRACTION_16",
-                "label_index": "1863",
+                "label_index": "@P1863@\\*16",
                 "label_korean": "침입16",
                 "group_id": "68707",
                 "req_frame_id": "206405",
@@ -2340,13 +2340,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "16",
-                "help_code": "2264",
+                "help_code": "@P2264@\\*32",
                 "help_korean": "알람 장치는 마지막 32침입을 기록할 수 있다"
             },
             {
                 "position": 17,
                 "mnemonic": "MP_CAUSE_EFFRACTION_17",
-                "label_index": "1863",
+                "label_index": "@P1863@\\*17",
                 "label_korean": "침입17",
                 "group_id": "68707",
                 "req_frame_id": "206405",
@@ -2362,13 +2362,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "17",
-                "help_code": "2264",
+                "help_code": "@P2264@\\*32",
                 "help_korean": "알람 장치는 마지막 32침입을 기록할 수 있다"
             },
             {
                 "position": 18,
                 "mnemonic": "MP_CAUSE_EFFRACTION_18",
-                "label_index": "1863",
+                "label_index": "@P1863@\\*18",
                 "label_korean": "침입18",
                 "group_id": "68707",
                 "req_frame_id": "206405",
@@ -2384,13 +2384,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "18",
-                "help_code": "2264",
+                "help_code": "@P2264@\\*32",
                 "help_korean": "알람 장치는 마지막 32침입을 기록할 수 있다"
             },
             {
                 "position": 19,
                 "mnemonic": "MP_CAUSE_EFFRACTION_19",
-                "label_index": "1863",
+                "label_index": "@P1863@\\*19",
                 "label_korean": "침입19",
                 "group_id": "68707",
                 "req_frame_id": "206405",
@@ -2406,13 +2406,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "19",
-                "help_code": "2264",
+                "help_code": "@P2264@\\*32",
                 "help_korean": "알람 장치는 마지막 32침입을 기록할 수 있다"
             },
             {
                 "position": 20,
                 "mnemonic": "MP_CAUSE_EFFRACTION_20",
-                "label_index": "1863",
+                "label_index": "@P1863@\\*20",
                 "label_korean": "침입20",
                 "group_id": "68707",
                 "req_frame_id": "206405",
@@ -2428,13 +2428,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "20",
-                "help_code": "2264",
+                "help_code": "@P2264@\\*32",
                 "help_korean": "알람 장치는 마지막 32침입을 기록할 수 있다"
             },
             {
                 "position": 21,
                 "mnemonic": "MP_CAUSE_EFFRACTION_21",
-                "label_index": "1863",
+                "label_index": "@P1863@\\*21",
                 "label_korean": "침입21",
                 "group_id": "68707",
                 "req_frame_id": "206405",
@@ -2450,13 +2450,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "21",
-                "help_code": "2264",
+                "help_code": "@P2264@\\*32",
                 "help_korean": "알람 장치는 마지막 32침입을 기록할 수 있다"
             },
             {
                 "position": 22,
                 "mnemonic": "MP_CAUSE_EFFRACTION_22",
-                "label_index": "1863",
+                "label_index": "@P1863@\\*22",
                 "label_korean": "침입22",
                 "group_id": "68707",
                 "req_frame_id": "206405",
@@ -2472,13 +2472,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "22",
-                "help_code": "2264",
+                "help_code": "@P2264@\\*32",
                 "help_korean": "알람 장치는 마지막 32침입을 기록할 수 있다"
             },
             {
                 "position": 23,
                 "mnemonic": "MP_CAUSE_EFFRACTION_23",
-                "label_index": "1863",
+                "label_index": "@P1863@\\*23",
                 "label_korean": "침입23",
                 "group_id": "68707",
                 "req_frame_id": "206405",
@@ -2494,13 +2494,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "23",
-                "help_code": "2264",
+                "help_code": "@P2264@\\*32",
                 "help_korean": "알람 장치는 마지막 32침입을 기록할 수 있다"
             },
             {
                 "position": 24,
                 "mnemonic": "MP_CAUSE_EFFRACTION_24",
-                "label_index": "1863",
+                "label_index": "@P1863@\\*24",
                 "label_korean": "침입24",
                 "group_id": "68707",
                 "req_frame_id": "206405",
@@ -2516,13 +2516,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "24",
-                "help_code": "2264",
+                "help_code": "@P2264@\\*32",
                 "help_korean": "알람 장치는 마지막 32침입을 기록할 수 있다"
             },
             {
                 "position": 25,
                 "mnemonic": "MP_CAUSE_EFFRACTION_25",
-                "label_index": "1863",
+                "label_index": "@P1863@\\*25",
                 "label_korean": "침입25",
                 "group_id": "68707",
                 "req_frame_id": "206405",
@@ -2538,13 +2538,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "25",
-                "help_code": "2264",
+                "help_code": "@P2264@\\*32",
                 "help_korean": "알람 장치는 마지막 32침입을 기록할 수 있다"
             },
             {
                 "position": 26,
                 "mnemonic": "MP_CAUSE_EFFRACTION_26",
-                "label_index": "1863",
+                "label_index": "@P1863@\\*26",
                 "label_korean": "침입26",
                 "group_id": "68707",
                 "req_frame_id": "206405",
@@ -2560,13 +2560,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "26",
-                "help_code": "2264",
+                "help_code": "@P2264@\\*32",
                 "help_korean": "알람 장치는 마지막 32침입을 기록할 수 있다"
             },
             {
                 "position": 27,
                 "mnemonic": "MP_CAUSE_EFFRACTION_27",
-                "label_index": "1863",
+                "label_index": "@P1863@\\*27",
                 "label_korean": "침입27",
                 "group_id": "68707",
                 "req_frame_id": "206405",
@@ -2582,13 +2582,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "27",
-                "help_code": "2264",
+                "help_code": "@P2264@\\*32",
                 "help_korean": "알람 장치는 마지막 32침입을 기록할 수 있다"
             },
             {
                 "position": 28,
                 "mnemonic": "MP_CAUSE_EFFRACTION_28",
-                "label_index": "1863",
+                "label_index": "@P1863@\\*28",
                 "label_korean": "침입28",
                 "group_id": "68707",
                 "req_frame_id": "206405",
@@ -2604,13 +2604,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "28",
-                "help_code": "2264",
+                "help_code": "@P2264@\\*32",
                 "help_korean": "알람 장치는 마지막 32침입을 기록할 수 있다"
             },
             {
                 "position": 29,
                 "mnemonic": "MP_CAUSE_EFFRACTION_29",
-                "label_index": "1863",
+                "label_index": "@P1863@\\*29",
                 "label_korean": "침입29",
                 "group_id": "68707",
                 "req_frame_id": "206405",
@@ -2626,13 +2626,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "29",
-                "help_code": "2264",
+                "help_code": "@P2264@\\*32",
                 "help_korean": "알람 장치는 마지막 32침입을 기록할 수 있다"
             },
             {
                 "position": 30,
                 "mnemonic": "MP_CAUSE_EFFRACTION_30",
-                "label_index": "1863",
+                "label_index": "@P1863@\\*30",
                 "label_korean": "침입30",
                 "group_id": "68707",
                 "req_frame_id": "206405",
@@ -2648,13 +2648,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "30",
-                "help_code": "2264",
+                "help_code": "@P2264@\\*32",
                 "help_korean": "알람 장치는 마지막 32침입을 기록할 수 있다"
             },
             {
                 "position": 31,
                 "mnemonic": "MP_CAUSE_EFFRACTION_31",
-                "label_index": "1863",
+                "label_index": "@P1863@\\*31",
                 "label_korean": "침입31",
                 "group_id": "68707",
                 "req_frame_id": "206405",
@@ -2670,13 +2670,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "31",
-                "help_code": "2264",
+                "help_code": "@P2264@\\*32",
                 "help_korean": "알람 장치는 마지막 32침입을 기록할 수 있다"
             },
             {
                 "position": 32,
                 "mnemonic": "MP_CAUSE_EFFRACTION_32",
-                "label_index": "1863",
+                "label_index": "@P1863@\\*32",
                 "label_korean": "침입32",
                 "group_id": "68707",
                 "req_frame_id": "206405",
@@ -2692,7 +2692,7 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "32",
-                "help_code": "2264",
+                "help_code": "@P2264@\\*32",
                 "help_korean": "알람 장치는 마지막 32침입을 기록할 수 있다"
             }
         ]

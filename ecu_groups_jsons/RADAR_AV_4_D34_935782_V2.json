@@ -8,7 +8,7 @@
             {
                 "position": 1,
                 "mnemonic": "ID_NOM_DU_FOURNISSEUR",
-                "label_index": "5701",
+                "label_index": "@P5701",
                 "label_korean": "제조 업체명",
                 "group_id": "75604",
                 "req_frame_id": "227090",
@@ -38,7 +38,7 @@
             {
                 "position": 2,
                 "mnemonic": "ID_REFERENCE_MATERIEL",
-                "label_index": "1071",
+                "label_index": "@P1071",
                 "label_korean": "장치 부품 번호",
                 "group_id": "75604",
                 "req_frame_id": "227090",
@@ -60,7 +60,7 @@
             {
                 "position": 3,
                 "mnemonic": "ID_REFERENCE_COMPLEMENTAIRE_MATERIEL",
-                "label_index": "1634",
+                "label_index": "@P1634",
                 "label_korean": "장치 추가 참조 번호",
                 "group_id": "75604",
                 "req_frame_id": "227090",
@@ -82,7 +82,7 @@
             {
                 "position": 4,
                 "mnemonic": "ID_REFERENCE_LOGICIEL",
-                "label_index": "13263",
+                "label_index": "@P13263",
                 "label_korean": "소프트웨어 번호",
                 "group_id": "75605",
                 "req_frame_id": "227093",
@@ -104,7 +104,7 @@
             {
                 "position": 5,
                 "mnemonic": "ID_TRACABILITE_INDICE_EVOLUTION_EDITION_CALIBRATION",
-                "label_index": "7413",
+                "label_index": "@P7413",
                 "label_korean": "캘리브레이션 에디션",
                 "group_id": "75605",
                 "req_frame_id": "227093",
@@ -126,7 +126,7 @@
             {
                 "position": 6,
                 "mnemonic": "ID_TRACABILITE_INDICE_EVOLUTION_EDITION",
-                "label_index": "24601",
+                "label_index": "@P24601",
                 "label_korean": "소프트웨어 버전",
                 "group_id": "75604",
                 "req_frame_id": "227090",
@@ -148,7 +148,7 @@
             {
                 "position": 7,
                 "mnemonic": "ID_DATE_TELECH",
-                "label_index": "21670",
+                "label_index": "@P21670",
                 "label_korean": "다운로딩 날짜",
                 "group_id": "75605",
                 "req_frame_id": "227093",
@@ -170,7 +170,7 @@
             {
                 "position": 8,
                 "mnemonic": "ID_NOMBRE_DE_TELECHARGEMENT",
-                "label_index": "24589",
+                "label_index": "@P24589",
                 "label_korean": "다운로드의 수",
                 "group_id": "75605",
                 "req_frame_id": "227093",
@@ -200,7 +200,7 @@
             {
                 "position": 1,
                 "mnemonic": "CONFIG_INDICE_TELECODAGE",
-                "label_index": "42020",
+                "label_index": "@P42020",
                 "label_korean": "설정 인덱스",
                 "group_id": "75608",
                 "req_frame_id": "227102",
@@ -230,7 +230,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_VISIBILITE_SYSTEME_RADAR",
-                "label_index": "35645",
+                "label_index": "@P35645",
                 "label_korean": "차간 거리 경고 레이더의 시야 비율",
                 "group_id": "75610",
                 "req_frame_id": "227108",
@@ -246,13 +246,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "35645, 37513, 37514",
-                "help_korean": "차간\n- 거리 경고 레이더의 시야 비율 :- 100% = 시야 없음\n- 100% = 뛰어난 시야"
+                "help_code": "@P35645@T :@T- @P37513@\\*100@\\n@T- @P37514@\\*0",
+                "help_korean": "차간 거리 경고 레이더의 시야 비율 :- 100% = 시야 없음\n- 100% = 뛰어난 시야"
             },
             {
                 "position": 2,
                 "mnemonic": "MP_DESALIGNEMENT_HORIZONTAL_RADAR",
-                "label_index": "31643",
+                "label_index": "@P31643",
                 "label_korean": "차간 거리 경고 레이다의 수평 정렬 불량",
                 "group_id": "75610",
                 "req_frame_id": "227108",
@@ -268,13 +268,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "31652",
-                "help_korean": "최적의 작동을 위해서, 레이다의 수평 정렬 불량의 각도는 반드시 0°로 향해야 한다 ( /- 0,5)."
+                "help_code": "@P31652@\\* 0 (+/- 0,5)@T.",
+                "help_korean": "최적의 작동을 위해서, 레이다의 수평 정렬 불량의 각도는 반드시 0°로 향해야 한다 (+/- 0,5)."
             },
             {
                 "position": 3,
                 "mnemonic": "MP_DESALIGNEMENT_VERTICAL_RADAR",
-                "label_index": "49034",
+                "label_index": "@P49034",
                 "label_korean": "차간 거리 경고 레이다의 수직 정렬불량",
                 "group_id": "75610",
                 "req_frame_id": "227108",
@@ -290,8 +290,8 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "49035",
-                "help_korean": "최적의 작업을 하려면 레이다 수직 정렬불량 각도가 0°도에 가까워야 한다 ( /- 0,5)."
+                "help_code": "@P49035@\\*0 (+/- 0,5)@T.",
+                "help_korean": "최적의 작업을 하려면 레이다 수직 정렬불량 각도가 0°도에 가까워야 한다 (+/- 0,5)."
             }
         ]
     },
@@ -304,7 +304,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_TEMPS_CIBLE",
-                "label_index": "54501",
+                "label_index": "@P54501",
                 "label_korean": "차량과 타겟 간의 시간 간격",
                 "group_id": "75619",
                 "req_frame_id": "227135",
@@ -326,7 +326,7 @@
             {
                 "position": 2,
                 "mnemonic": "MP_DISTANCE_CIBLE_2",
-                "label_index": "54504",
+                "label_index": "@P54504",
                 "label_korean": "타겟 거리",
                 "group_id": "75619",
                 "req_frame_id": "227135",
@@ -348,7 +348,7 @@
             {
                 "position": 3,
                 "mnemonic": "MP_VITESSE_RELATIVE_CIBLE_ARTIV",
-                "label_index": "54503",
+                "label_index": "@P54503",
                 "label_korean": "차간 거리 경고 레이더에 의해 계산된 타겟의 상대 속도",
                 "group_id": "75619",
                 "req_frame_id": "227135",
@@ -370,7 +370,7 @@
             {
                 "position": 4,
                 "mnemonic": "MP_TEMPS_COLLISION_2",
-                "label_index": "48147",
+                "label_index": "@P48147",
                 "label_korean": "비상 충돌 제동 ECU가 추정한 충돌 시간",
                 "group_id": "75619",
                 "req_frame_id": "227135",
@@ -392,7 +392,7 @@
             {
                 "position": 5,
                 "mnemonic": "MP_CHANGEMENT_CIBLE_2",
-                "label_index": "54500",
+                "label_index": "@P54500",
                 "label_korean": "타겟 변경",
                 "group_id": "75619",
                 "req_frame_id": "227135",
@@ -414,7 +414,7 @@
             {
                 "position": 6,
                 "mnemonic": "MP_DETECTION_CIBLE_3",
-                "label_index": "31679",
+                "label_index": "@P31679",
                 "label_korean": "앞쪽에 차량 감지",
                 "group_id": "75619",
                 "req_frame_id": "227135",
@@ -444,7 +444,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_VISIBILITE_SYSTEME_RADAR",
-                "label_index": "35645",
+                "label_index": "@P35645",
                 "label_korean": "차간 거리 경고 레이더의 시야 비율",
                 "group_id": "75610",
                 "req_frame_id": "227108",
@@ -460,13 +460,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "35645, 37513, 37514",
-                "help_korean": "차간\n- 거리 경고 레이더의 시야 비율 :- 100% = 시야 없음\n- 100% = 뛰어난 시야"
+                "help_code": "@P35645@T :@T- @P37513@\\*100@\\n@T- @P37514@\\*0",
+                "help_korean": "차간 거리 경고 레이더의 시야 비율 :- 100% = 시야 없음\n- 100% = 뛰어난 시야"
             },
             {
                 "position": 2,
                 "mnemonic": "MP_DESALIGNEMENT_HORIZONTAL_RADAR",
-                "label_index": "31643",
+                "label_index": "@P31643",
                 "label_korean": "차간 거리 경고 레이다의 수평 정렬 불량",
                 "group_id": "75610",
                 "req_frame_id": "227108",
@@ -482,13 +482,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "31652",
-                "help_korean": "최적의 작동을 위해서, 레이다의 수평 정렬 불량의 각도는 반드시 0°로 향해야 한다 ( /- 0,5)."
+                "help_code": "@P31652@\\* 0 (+/- 0,5)@T.",
+                "help_korean": "최적의 작동을 위해서, 레이다의 수평 정렬 불량의 각도는 반드시 0°로 향해야 한다 (+/- 0,5)."
             },
             {
                 "position": 3,
                 "mnemonic": "MP_DESALIGNEMENT_VERTICAL_RADAR",
-                "label_index": "49034",
+                "label_index": "@P49034",
                 "label_korean": "차간 거리 경고 레이다의 수직 정렬불량",
                 "group_id": "75610",
                 "req_frame_id": "227108",
@@ -504,13 +504,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "49035",
-                "help_korean": "최적의 작업을 하려면 레이다 수직 정렬불량 각도가 0°도에 가까워야 한다 ( /- 0,5)."
+                "help_code": "@P49035@\\*0 (+/- 0,5)@T.",
+                "help_korean": "최적의 작업을 하려면 레이다 수직 정렬불량 각도가 0°도에 가까워야 한다 (+/- 0,5)."
             },
             {
                 "position": 4,
                 "mnemonic": "MP_DESALIGNEMENT_RELATIF_RADAR_ARTIV",
-                "label_index": "63683",
+                "label_index": "@P63683",
                 "label_korean": "차간 거리 경고 레이더의 상대적 정렬 불량",
                 "group_id": "매핑_누락",
                 "req_frame_id": "",
@@ -532,7 +532,7 @@
             {
                 "position": 5,
                 "mnemonic": "MP_DESALIGNEMENT_VERTICAL_RADAR_ARTIV",
-                "label_index": "49034",
+                "label_index": "@P49034",
                 "label_korean": "차간 거리 경고 레이다의 수직 정렬불량",
                 "group_id": "매핑_누락",
                 "req_frame_id": "",
@@ -554,7 +554,7 @@
             {
                 "position": 6,
                 "mnemonic": "MP_DESALIGNEMENT_HORIZONTAL_RADAR_ARTIV",
-                "label_index": "31643",
+                "label_index": "@P31643",
                 "label_korean": "차간 거리 경고 레이다의 수평 정렬 불량",
                 "group_id": "매핑_누락",
                 "req_frame_id": "",
@@ -584,7 +584,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_ETAT_RADAR",
-                "label_index": "31642",
+                "label_index": "@P31642",
                 "label_korean": "차간거리 경고 레이더의 상태",
                 "group_id": "75611",
                 "req_frame_id": "227111",
@@ -615,7 +615,7 @@
             {
                 "position": 2,
                 "mnemonic": "MP_DETECTION_CIBLE_2",
-                "label_index": "31679",
+                "label_index": "@P31679",
                 "label_korean": "앞쪽에 차량 감지",
                 "group_id": "75611",
                 "req_frame_id": "227111",
@@ -640,7 +640,7 @@
             {
                 "position": 3,
                 "mnemonic": "MP_TEMPS_OBSTACLE",
-                "label_index": "48150",
+                "label_index": "@P48150",
                 "label_korean": "차량과 장애물 간의 시간 간격",
                 "group_id": "75611",
                 "req_frame_id": "227111",
@@ -662,7 +662,7 @@
             {
                 "position": 4,
                 "mnemonic": "MP_DISTANCE_OBSTACLE",
-                "label_index": "48191",
+                "label_index": "@F48191",
                 "label_korean": "장애물의 거리",
                 "group_id": "75611",
                 "req_frame_id": "227111",
@@ -692,7 +692,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_ETAT_RADAR",
-                "label_index": "31642",
+                "label_index": "@P31642",
                 "label_korean": "차간거리 경고 레이더의 상태",
                 "group_id": "75611",
                 "req_frame_id": "227111",
@@ -723,7 +723,7 @@
             {
                 "position": 2,
                 "mnemonic": "MP_DETECTION_CIBLE_2",
-                "label_index": "31679",
+                "label_index": "@P31679",
                 "label_korean": "앞쪽에 차량 감지",
                 "group_id": "75611",
                 "req_frame_id": "227111",
@@ -748,7 +748,7 @@
             {
                 "position": 3,
                 "mnemonic": "MP_TEMPS_OBSTACLE",
-                "label_index": "48150",
+                "label_index": "@P48150",
                 "label_korean": "차량과 장애물 간의 시간 간격",
                 "group_id": "75611",
                 "req_frame_id": "227111",
@@ -770,7 +770,7 @@
             {
                 "position": 4,
                 "mnemonic": "MP_DISTANCE_OBSTACLE",
-                "label_index": "48191",
+                "label_index": "@F48191",
                 "label_korean": "장애물의 거리",
                 "group_id": "75611",
                 "req_frame_id": "227111",
@@ -792,7 +792,7 @@
             {
                 "position": 5,
                 "mnemonic": "MP_PROBABILITE_DETECT_DEGRADE_RADAR_ARTIV",
-                "label_index": "63682",
+                "label_index": "@P63682",
                 "label_korean": "차간 거리 경고 레이더 감지가 방해를 받을 확률",
                 "group_id": "매핑_누락",
                 "req_frame_id": "",
@@ -814,7 +814,7 @@
             {
                 "position": 6,
                 "mnemonic": "MP_DURE_DESALIGNEMENT_RADAR_PRESCISION_40MS",
-                "label_index": "63681",
+                "label_index": "@P63681@\\*40",
                 "label_korean": "차간 거리 경고 레이더 정렬 불량 지속 시간(40ms 정확도)",
                 "group_id": "매핑_누락",
                 "req_frame_id": "",
@@ -836,7 +836,7 @@
             {
                 "position": 7,
                 "mnemonic": "MP_ETAT_RADAR_ARTIV",
-                "label_index": "31642",
+                "label_index": "@P31642",
                 "label_korean": "차간거리 경고 레이더의 상태",
                 "group_id": "매핑_누락",
                 "req_frame_id": "",
@@ -866,7 +866,7 @@
             {
                 "position": 8,
                 "mnemonic": "MP_ETAT_RADAR_ARTIV_1",
-                "label_index": "31642",
+                "label_index": "@P31642",
                 "label_korean": "차간거리 경고 레이더의 상태",
                 "group_id": "매핑_누락",
                 "req_frame_id": "",
@@ -905,7 +905,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_ETAT_FONCTION_ARC",
-                "label_index": "31646",
+                "label_index": "@P31646",
                 "label_korean": "충돌 위험 경고 기능의 상태",
                 "group_id": "75612",
                 "req_frame_id": "227114",
@@ -942,7 +942,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_ETAT_FONCTION_FARC",
-                "label_index": "31542",
+                "label_index": "@P31542",
                 "label_korean": "충돌 위험시 자동 제동 기능 상태",
                 "group_id": "75613",
                 "req_frame_id": "227117",
@@ -982,7 +982,7 @@
             {
                 "position": 2,
                 "mnemonic": "MP_CONSIGNE_DECELERATION_ESP_2",
-                "label_index": "35683",
+                "label_index": "@P35683",
                 "label_korean": "ESP에 의해서 적용된 감속도 기준 값",
                 "group_id": "75613",
                 "req_frame_id": "227117",
@@ -1004,7 +1004,7 @@
             {
                 "position": 3,
                 "mnemonic": "MP_FREINAGE_AUTO_EN_COURS_2",
-                "label_index": "27825",
+                "label_index": "@P27825",
                 "label_korean": "자동 제동 진행 중",
                 "group_id": "75613",
                 "req_frame_id": "227117",
@@ -1026,7 +1026,7 @@
             {
                 "position": 4,
                 "mnemonic": "MP_NIVEAU_FREINAGE_AUTOMATIQUE",
-                "label_index": "48149",
+                "label_index": "@P48149",
                 "label_korean": "자동 제동 레벨",
                 "group_id": "75617",
                 "req_frame_id": "227129",
@@ -1048,7 +1048,7 @@
             {
                 "position": 5,
                 "mnemonic": "MP_DEMANDE_PILOTAGE_DECELERATION_ESP_PAR_FARC_2",
-                "label_index": "35650",
+                "label_index": "@P35650",
                 "label_korean": "충돌 위험시 자동 제동 기능에 의한 ESP에 감속 요청",
                 "group_id": "75613",
                 "req_frame_id": "227117",
@@ -1078,7 +1078,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_VITESSE_CALCUL_ARTIV",
-                "label_index": "46829",
+                "label_index": "@P46829",
                 "label_korean": "거리 경고 레이더에 의해 계산된 속도",
                 "group_id": "75615",
                 "req_frame_id": "227123",
@@ -1100,7 +1100,7 @@
             {
                 "position": 2,
                 "mnemonic": "MP_ACCEL_LONG_ARTIV",
-                "label_index": "46830",
+                "label_index": "@P46830",
                 "label_korean": "거리 경고 레이더에 의해 계산된 종방향 가속도",
                 "group_id": "75615",
                 "req_frame_id": "227123",
@@ -1122,7 +1122,7 @@
             {
                 "position": 3,
                 "mnemonic": "MP_ACCEL_LAT_ARTIV",
-                "label_index": "46831",
+                "label_index": "@P46831",
                 "label_korean": "거리 경고 레이더에 의해 계산된 측면 가속도",
                 "group_id": "75615",
                 "req_frame_id": "227123",
@@ -1144,7 +1144,7 @@
             {
                 "position": 4,
                 "mnemonic": "MP_RAYON_COURBE_ARTIV",
-                "label_index": "46832",
+                "label_index": "@P46832",
                 "label_korean": "거리 경고 레이더에 의해 계산된 곡률 반경",
                 "group_id": "75615",
                 "req_frame_id": "227123",
@@ -1166,7 +1166,7 @@
             {
                 "position": 5,
                 "mnemonic": "MP_ACTIVITE_CONDUCTEUR",
-                "label_index": "46932",
+                "label_index": "@P46932",
                 "label_korean": "운전자의 움직임",
                 "group_id": "75615",
                 "req_frame_id": "227123",
@@ -1188,7 +1188,7 @@
             {
                 "position": 6,
                 "mnemonic": "MP_SENS_CIRCULATION",
-                "label_index": "46833",
+                "label_index": "@F46833",
                 "label_korean": "진행 방향",
                 "group_id": "75615",
                 "req_frame_id": "227123",
@@ -1214,7 +1214,7 @@
             {
                 "position": 7,
                 "mnemonic": "MP_PEDALE_FREIN",
-                "label_index": "6213",
+                "label_index": "@P6213",
                 "label_korean": "브레이크 페달",
                 "group_id": "75615",
                 "req_frame_id": "227123",
@@ -1240,7 +1240,7 @@
             {
                 "position": 8,
                 "mnemonic": "MP_ACCELERATION_OBSTACLE",
-                "label_index": "48140",
+                "label_index": "@P48140",
                 "label_korean": "충돌 위험 시 장애물의 가속",
                 "group_id": "75616",
                 "req_frame_id": "227126",
@@ -1262,7 +1262,7 @@
             {
                 "position": 9,
                 "mnemonic": "MP_TYPE_OBSTACLE",
-                "label_index": "48141",
+                "label_index": "@P48141",
                 "label_korean": "장애물 타입",
                 "group_id": "75616",
                 "req_frame_id": "227126",
@@ -1284,7 +1284,7 @@
             {
                 "position": 10,
                 "mnemonic": "MP_OBSTACLE_DETECTE",
-                "label_index": "48142",
+                "label_index": "@P48142",
                 "label_korean": "충돌 위험 시 장애물 감지",
                 "group_id": "75616",
                 "req_frame_id": "227126",
@@ -1306,7 +1306,7 @@
             {
                 "position": 11,
                 "mnemonic": "MP_CHANGEMENT_CIBLE",
-                "label_index": "48143",
+                "label_index": "@P48143",
                 "label_korean": "장애물 변경",
                 "group_id": "75616",
                 "req_frame_id": "227126",
@@ -1328,7 +1328,7 @@
             {
                 "position": 12,
                 "mnemonic": "MP_ANGLE_OBSTACLE",
-                "label_index": "48144",
+                "label_index": "@P48144",
                 "label_korean": "충돌 위험 시 차량과 장애물 간의 각도",
                 "group_id": "75616",
                 "req_frame_id": "227126",
@@ -1350,7 +1350,7 @@
             {
                 "position": 13,
                 "mnemonic": "MP_DISTANCE_OBSTACLE_COLLISION",
-                "label_index": "48145",
+                "label_index": "@P48145",
                 "label_korean": "충돌 위험 시 장애물과의 거리",
                 "group_id": "75616",
                 "req_frame_id": "227126",
@@ -1372,7 +1372,7 @@
             {
                 "position": 14,
                 "mnemonic": "MP_DISTANCE_LATERALE_OBSTACLE",
-                "label_index": "48146",
+                "label_index": "@P48146",
                 "label_korean": "충돌 위험 시 장애물과의 측면 거리",
                 "group_id": "75616",
                 "req_frame_id": "227126",
@@ -1394,7 +1394,7 @@
             {
                 "position": 15,
                 "mnemonic": "MP_TEMPS_COLLISION",
-                "label_index": "48147",
+                "label_index": "@P48147",
                 "label_korean": "비상 충돌 제동 ECU가 추정한 충돌 시간",
                 "group_id": "75616",
                 "req_frame_id": "227126",
@@ -1416,7 +1416,7 @@
             {
                 "position": 16,
                 "mnemonic": "MP_VITESSE_OBSTACLE",
-                "label_index": "48148",
+                "label_index": "@P48148",
                 "label_korean": "충돌 위험 시 장애물의 속도",
                 "group_id": "75616",
                 "req_frame_id": "227126",
@@ -1446,7 +1446,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_VITESSE_CALCUL_REGULATION_ADAPTEE",
-                "label_index": "51866",
+                "label_index": "@P51866",
                 "label_korean": "어댑티브 크루즈 컨트롤에 대한 계산된 속도",
                 "group_id": "75621",
                 "req_frame_id": "227141",
@@ -1468,7 +1468,7 @@
             {
                 "position": 2,
                 "mnemonic": "MP_POSITION_PEDALE_ACCELERATEUR_2",
-                "label_index": "48194",
+                "label_index": "@P48194",
                 "label_korean": "어댑티브 크루즈 컨트롤을 위한 가속 페달 위치",
                 "group_id": "75621",
                 "req_frame_id": "227141",
@@ -1490,7 +1490,7 @@
             {
                 "position": 3,
                 "mnemonic": "MP_CONSIGNE_VITESSE_VEHICULE",
-                "label_index": "48743",
+                "label_index": "@P48743",
                 "label_korean": "차량 속도 기준",
                 "group_id": "75621",
                 "req_frame_id": "227141",
@@ -1512,7 +1512,7 @@
             {
                 "position": 4,
                 "mnemonic": "MP_CONSIGNE_TEMPS_INTERVEHICULES",
-                "label_index": "48745",
+                "label_index": "@P48745",
                 "label_korean": "거리 경고 설정",
                 "group_id": "75621",
                 "req_frame_id": "227141",
@@ -1534,7 +1534,7 @@
             {
                 "position": 5,
                 "mnemonic": "MP_ETAT_REGULATION_ADAPTEE_2",
-                "label_index": "48742",
+                "label_index": "@P48742",
                 "label_korean": "어댑티브 크루즈 컨트롤 상태",
                 "group_id": "75621",
                 "req_frame_id": "227141",
@@ -1556,7 +1556,7 @@
             {
                 "position": 6,
                 "mnemonic": "MP_OBSTACLE_DETECTE_2",
-                "label_index": "51896",
+                "label_index": "@P51896",
                 "label_korean": "어댑티브 크루즈 컨트롤에 장애물이 감지됨",
                 "group_id": "75621",
                 "req_frame_id": "227141",
@@ -1578,7 +1578,7 @@
             {
                 "position": 7,
                 "mnemonic": "MP_DISTANCE_OBSTACLE_REGULATION_ADAPTEE",
-                "label_index": "51895",
+                "label_index": "@P51895",
                 "label_korean": "어댑티브 크루즈 컨트롤에 대한 장애물의 거리",
                 "group_id": "75621",
                 "req_frame_id": "227141",
@@ -1600,7 +1600,7 @@
             {
                 "position": 8,
                 "mnemonic": "MP_TEMPS_COLLISION_REGULATION_ADAPTEE",
-                "label_index": "52373",
+                "label_index": "@P52373",
                 "label_korean": "어댑티브 크루즈 컨트롤의 충돌 전 예상 시간",
                 "group_id": "75621",
                 "req_frame_id": "227141",
@@ -1622,7 +1622,7 @@
             {
                 "position": 9,
                 "mnemonic": "MP_KILOMETRAGE",
-                "label_index": "7845",
+                "label_index": "@P7845",
                 "label_korean": "주행거리",
                 "group_id": "75621",
                 "req_frame_id": "227141",
@@ -1644,7 +1644,7 @@
             {
                 "position": 10,
                 "mnemonic": "MP_TYPE_DESACTIVATION_RVV",
-                "label_index": "36184",
+                "label_index": "@P36184",
                 "label_korean": "크루즈 컨트롤의 차단 원인",
                 "group_id": "75621",
                 "req_frame_id": "227141",
@@ -1674,7 +1674,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_DISTANCE_OBSTACLE_ARTIV",
-                "label_index": "51859",
+                "label_index": "@P51859",
                 "label_korean": "차간 거리 경고 레이더에 대한 장애물의 거리",
                 "group_id": "75620",
                 "req_frame_id": "227138",
@@ -1696,7 +1696,7 @@
             {
                 "position": 2,
                 "mnemonic": "MP_VITESSE_RELATIVE_OBSTACLE_ARTIV",
-                "label_index": "51863",
+                "label_index": "@P51863",
                 "label_korean": "차간 거리 경고 레이더에 대한 장애물의 상대 속도",
                 "group_id": "75620",
                 "req_frame_id": "227138",
@@ -1718,7 +1718,7 @@
             {
                 "position": 3,
                 "mnemonic": "MP_ACCELERATION_OBSTACLE_ARTIV",
-                "label_index": "51865",
+                "label_index": "@P51865",
                 "label_korean": "차간 거리 경고 레이더에 대한 장애물의 가속",
                 "group_id": "75620",
                 "req_frame_id": "227138",
@@ -1740,7 +1740,7 @@
             {
                 "position": 4,
                 "mnemonic": "MP_DISTANCE_LATERALE_OBSTACLE_ARTIV",
-                "label_index": "51864",
+                "label_index": "@P51864",
                 "label_korean": "차간 거리 경고 레이더에 대한 장애물의 측면 거리",
                 "group_id": "75620",
                 "req_frame_id": "227138",
@@ -1762,7 +1762,7 @@
             {
                 "position": 5,
                 "mnemonic": "MP_VITESSE_CALCUL_ARTIV_2",
-                "label_index": "46829",
+                "label_index": "@P46829",
                 "label_korean": "거리 경고 레이더에 의해 계산된 속도",
                 "group_id": "75620",
                 "req_frame_id": "227138",
@@ -1784,7 +1784,7 @@
             {
                 "position": 6,
                 "mnemonic": "MP_DISTANCE_OBSTACLE_COLLISION_2",
-                "label_index": "48145",
+                "label_index": "@P48145",
                 "label_korean": "충돌 위험 시 장애물과의 거리",
                 "group_id": "75620",
                 "req_frame_id": "227138",
@@ -1806,7 +1806,7 @@
             {
                 "position": 7,
                 "mnemonic": "MP_VITESSE_RELATIVE_OBSTACLE_COLLISION",
-                "label_index": "51862",
+                "label_index": "@P51862",
                 "label_korean": "충돌 위험 시 장애물의 상대 속도",
                 "group_id": "75620",
                 "req_frame_id": "227138",
@@ -1828,7 +1828,7 @@
             {
                 "position": 8,
                 "mnemonic": "MP_ACCELERATION_OBSTACLE_COLLISION",
-                "label_index": "48140",
+                "label_index": "@P48140",
                 "label_korean": "충돌 위험 시 장애물의 가속",
                 "group_id": "75620",
                 "req_frame_id": "227138",
@@ -1850,7 +1850,7 @@
             {
                 "position": 9,
                 "mnemonic": "MP_DISTANCE_LATERALE_OBSTACLE_COLLISION",
-                "label_index": "48146",
+                "label_index": "@P48146",
                 "label_korean": "충돌 위험 시 장애물과의 측면 거리",
                 "group_id": "75620",
                 "req_frame_id": "227138",
@@ -1872,7 +1872,7 @@
             {
                 "position": 10,
                 "mnemonic": "MP_ANGLE_OBSTACLE_COLLISION",
-                "label_index": "48144",
+                "label_index": "@P48144",
                 "label_korean": "충돌 위험 시 차량과 장애물 간의 각도",
                 "group_id": "75620",
                 "req_frame_id": "227138",
@@ -1894,7 +1894,7 @@
             {
                 "position": 11,
                 "mnemonic": "MP_ACTIVITE_CONDUCTEUR_2",
-                "label_index": "46932",
+                "label_index": "@P46932",
                 "label_korean": "운전자의 움직임",
                 "group_id": "75620",
                 "req_frame_id": "227138",
@@ -1916,7 +1916,7 @@
             {
                 "position": 12,
                 "mnemonic": "MP_TYPE_OBSTACLE_2",
-                "label_index": "48141",
+                "label_index": "@P48141",
                 "label_korean": "장애물 타입",
                 "group_id": "75620",
                 "req_frame_id": "227138",
@@ -1938,7 +1938,7 @@
             {
                 "position": 13,
                 "mnemonic": "MP_PRESSION_MAITRE_CYLINDRE_2",
-                "label_index": "48192",
+                "label_index": "@F48192",
                 "label_korean": "마스터 실린더 압력",
                 "group_id": "75620",
                 "req_frame_id": "227138",
@@ -1960,7 +1960,7 @@
             {
                 "position": 14,
                 "mnemonic": "MP_VITESSE_CALCUL_ARTIV_3",
-                "label_index": "46829",
+                "label_index": "@P46829",
                 "label_korean": "거리 경고 레이더에 의해 계산된 속도",
                 "group_id": "75620",
                 "req_frame_id": "227138",
@@ -1982,7 +1982,7 @@
             {
                 "position": 15,
                 "mnemonic": "MP_ACCEL_LONG_ARTIV_2",
-                "label_index": "46830",
+                "label_index": "@P46830",
                 "label_korean": "거리 경고 레이더에 의해 계산된 종방향 가속도",
                 "group_id": "75620",
                 "req_frame_id": "227138",
@@ -2004,7 +2004,7 @@
             {
                 "position": 16,
                 "mnemonic": "MP_ACCEL_LAT_ARTIV_2",
-                "label_index": "46831",
+                "label_index": "@P46831",
                 "label_korean": "거리 경고 레이더에 의해 계산된 측면 가속도",
                 "group_id": "75620",
                 "req_frame_id": "227138",
@@ -2026,7 +2026,7 @@
             {
                 "position": 17,
                 "mnemonic": "MP_RAYON_COURBE_ARTIV_2",
-                "label_index": "46832",
+                "label_index": "@P46832",
                 "label_korean": "거리 경고 레이더에 의해 계산된 곡률 반경",
                 "group_id": "75620",
                 "req_frame_id": "227138",
@@ -2048,7 +2048,7 @@
             {
                 "position": 18,
                 "mnemonic": "MP_INDICATEURS_DIRECTION",
-                "label_index": "48193",
+                "label_index": "@P48193",
                 "label_korean": "방향 지시등",
                 "group_id": "75620",
                 "req_frame_id": "227138",
@@ -2070,7 +2070,7 @@
             {
                 "position": 19,
                 "mnemonic": "MP_KILOMETRAGE_2",
-                "label_index": "7845",
+                "label_index": "@P7845",
                 "label_korean": "주행거리",
                 "group_id": "75620",
                 "req_frame_id": "227138",
@@ -2092,7 +2092,7 @@
             {
                 "position": 20,
                 "mnemonic": "MP_SENS_ROTATION_VOLANT_DE_DIRECTION_2",
-                "label_index": "11776",
+                "label_index": "@F11776",
                 "label_korean": "스티어링 휠 회전 방향",
                 "group_id": "75620",
                 "req_frame_id": "227138",
@@ -2114,7 +2114,7 @@
             {
                 "position": 21,
                 "mnemonic": "MP_PEDALE_FREIN_2",
-                "label_index": "6213",
+                "label_index": "@P6213",
                 "label_korean": "브레이크 페달",
                 "group_id": "75620",
                 "req_frame_id": "227138",
@@ -2136,7 +2136,7 @@
             {
                 "position": 22,
                 "mnemonic": "MP_POSITION_PEDALE_ACCELERATEUR_3",
-                "label_index": "7897",
+                "label_index": "@F7897",
                 "label_korean": "가속 페달 위치",
                 "group_id": "75620",
                 "req_frame_id": "227138",
@@ -2158,7 +2158,7 @@
             {
                 "position": 23,
                 "mnemonic": "MP_SENSIBILITE_ARC_2",
-                "label_index": "31648",
+                "label_index": "@P31648",
                 "label_korean": "충돌 위험 경고 기능의 민감도 레벨",
                 "group_id": "75620",
                 "req_frame_id": "227138",
@@ -2188,7 +2188,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_ETAT_REGULATION_ADAPTEE",
-                "label_index": "48742",
+                "label_index": "@P48742",
                 "label_korean": "어댑티브 크루즈 컨트롤 상태",
                 "group_id": "75618",
                 "req_frame_id": "227132",

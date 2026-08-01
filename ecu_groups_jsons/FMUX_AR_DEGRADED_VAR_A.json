@@ -8,7 +8,7 @@
             {
                 "position": 1,
                 "mnemonic": "ID_NOM_DU_FOURNISSEUR",
-                "label_index": "5701",
+                "label_index": "@P5701",
                 "label_korean": "제조 업체명",
                 "group_id": "74929",
                 "req_frame_id": "225074",
@@ -38,7 +38,7 @@
             {
                 "position": 2,
                 "mnemonic": "ID_REFERENCE_MATERIEL",
-                "label_index": "1071",
+                "label_index": "@P1071",
                 "label_korean": "장치 부품 번호",
                 "group_id": "74929",
                 "req_frame_id": "225074",
@@ -60,7 +60,7 @@
             {
                 "position": 3,
                 "mnemonic": "ID_REFERENCE_COMPLEMENTAIRE_MATERIEL",
-                "label_index": "1634",
+                "label_index": "@P1634",
                 "label_korean": "장치 추가 참조 번호",
                 "group_id": "74929",
                 "req_frame_id": "225074",
@@ -82,7 +82,7 @@
             {
                 "position": 4,
                 "mnemonic": "ID_TRACABILITE_INDICE_EVOLUTION_EDITION",
-                "label_index": "24601",
+                "label_index": "@P24601",
                 "label_korean": "소프트웨어 버전",
                 "group_id": "74929",
                 "req_frame_id": "225074",
@@ -104,7 +104,7 @@
             {
                 "position": 5,
                 "mnemonic": "ID_TRACA_NUM_SERIE_ASCII",
-                "label_index": "7592",
+                "label_index": "@P7592",
                 "label_korean": "부품 일련 번호",
                 "group_id": "74931",
                 "req_frame_id": "225080",
@@ -126,7 +126,7 @@
             {
                 "position": 6,
                 "mnemonic": "ID_TRACABILITE_DATE_FABRICATION",
-                "label_index": "14355",
+                "label_index": "@F14355",
                 "label_korean": "제조일자",
                 "group_id": "74930",
                 "req_frame_id": "225077",
@@ -156,7 +156,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_DEMANDE_DE_REGULATION_AUTOMATIQUE",
-                "label_index": "6843",
+                "label_index": "@F6843",
                 "label_korean": "자동 제어 요청 (AUTO)",
                 "group_id": "74922",
                 "req_frame_id": "225053",
@@ -181,7 +181,7 @@
             {
                 "position": 2,
                 "mnemonic": "MP_ETAT_COMMANDE_SIEGE_CHAUFFANT_CONDUCTEUR",
-                "label_index": "55906",
+                "label_index": "@P55906",
                 "label_korean": "운전석 열선 시트 제어 상태",
                 "group_id": "74923",
                 "req_frame_id": "225056",
@@ -206,7 +206,7 @@
             {
                 "position": 3,
                 "mnemonic": "MP_ETAT_COMMANDE_SIEGE_CHAUFFANT_PASSAGER",
-                "label_index": "55905",
+                "label_index": "@P55905",
                 "label_korean": "승객석 열선 시트 제어 상태",
                 "group_id": "74924",
                 "req_frame_id": "225059",
@@ -231,7 +231,7 @@
             {
                 "position": 4,
                 "mnemonic": "MP_ETAT_PULSEUR_AR",
-                "label_index": "33673",
+                "label_index": "@P33673",
                 "label_korean": "리어 에어 블로어의 상태",
                 "group_id": "74925",
                 "req_frame_id": "225062",
@@ -256,7 +256,7 @@
             {
                 "position": 5,
                 "mnemonic": "MP_DEMANDE_DE_TEMPERATURE_AR",
-                "label_index": "7344",
+                "label_index": "@P7344",
                 "label_korean": "리어 온도 요청",
                 "group_id": "74926",
                 "req_frame_id": "225065",
@@ -281,8 +281,8 @@
             {
                 "position": 6,
                 "mnemonic": "MP_ETAT_COMMANDE_SIEGE_VENTILE_CONDUCTEUR",
-                "label_index": "47308",
-                "label_korean": "시트 통풍 컨트롤 상태 (운전석 시트)",
+                "label_index": "@P47308@\\+@T(@P60032@T)",
+                "label_korean": "시트 통풍 컨트롤 상태(운전석 시트)",
                 "group_id": "74927",
                 "req_frame_id": "225068",
                 "resp_frame_id": "225069",
@@ -306,8 +306,8 @@
             {
                 "position": 7,
                 "mnemonic": "MP_ETAT_COMMANDE_SIEGE_VENTILE_PASSAGER",
-                "label_index": "47308",
-                "label_korean": "시트 통풍 컨트롤 상태 (승객석 시트)",
+                "label_index": "@P47308@\\+@T(@P58767@T)",
+                "label_korean": "시트 통풍 컨트롤 상태(승객석 시트)",
                 "group_id": "74928",
                 "req_frame_id": "225071",
                 "resp_frame_id": "225072",

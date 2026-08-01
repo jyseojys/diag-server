@@ -8,7 +8,7 @@
             {
                 "position": 1,
                 "mnemonic": "ID_CODE_ISO",
-                "label_index": "13988",
+                "label_index": "@P13988",
                 "label_korean": "ISO 번호",
                 "group_id": "35546",
                 "req_frame_id": "106935",
@@ -30,7 +30,7 @@
             {
                 "position": 2,
                 "mnemonic": "ID_REFERENCE_MATERIEL",
-                "label_index": "1071",
+                "label_index": "@P1071",
                 "label_korean": "장치 부품 번호",
                 "group_id": "35546",
                 "req_frame_id": "106935",
@@ -52,7 +52,7 @@
             {
                 "position": 3,
                 "mnemonic": "ID_HARD",
-                "label_index": "12954",
+                "label_index": "@P12954",
                 "label_korean": "하드웨어 버전",
                 "group_id": "35546",
                 "req_frame_id": "106935",
@@ -74,7 +74,7 @@
             {
                 "position": 4,
                 "mnemonic": "ID_REFERENCE_LOGICIEL",
-                "label_index": "13263",
+                "label_index": "@P13263",
                 "label_korean": "소프트웨어 번호",
                 "group_id": "35546",
                 "req_frame_id": "106935",
@@ -96,7 +96,7 @@
             {
                 "position": 5,
                 "mnemonic": "ID_TRACABILITE_INDICE_EVOLUTION_EDITION",
-                "label_index": "13235",
+                "label_index": "@P13235@\\*",
                 "label_korean": "소프트웨어 버전",
                 "group_id": "35546",
                 "req_frame_id": "106935",
@@ -118,7 +118,7 @@
             {
                 "position": 6,
                 "mnemonic": "ID_DATE_TELECH",
-                "label_index": "21670",
+                "label_index": "@P21670",
                 "label_korean": "다운로딩 날짜",
                 "group_id": "35547",
                 "req_frame_id": "106938",
@@ -148,7 +148,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_KILOMETRAGE_TOTAL",
-                "label_index": "13763",
+                "label_index": "@P13763",
                 "label_korean": "주행한 총 거리",
                 "group_id": "35552",
                 "req_frame_id": "106953",
@@ -170,7 +170,7 @@
             {
                 "position": 2,
                 "mnemonic": "MP_KILOMETRAGE_ODOMETRE",
-                "label_index": "61286",
+                "label_index": "@P61286",
                 "label_korean": "원래 VIN이 마지막으로 잠금 해제된 이후 주행한 거리(km)",
                 "group_id": "35550",
                 "req_frame_id": "106947",
@@ -186,13 +186,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "61287, 61288",
+                "help_code": "@P61287@\\*255@\\n@P61288@\\*5",
                 "help_korean": "최대 값은 255km이다\n원래 VIN은 255km 거리가 지나면 자동으로 잠긴다"
             },
             {
                 "position": 3,
                 "mnemonic": "MP_VIN_ODOMETRE",
-                "label_index": "61284",
+                "label_index": "@P61284",
                 "label_korean": "주행 기록계를 기준으로 원래 VIN의 잠금 상태",
                 "group_id": "35550",
                 "req_frame_id": "106947",
@@ -217,7 +217,7 @@
             {
                 "position": 4,
                 "mnemonic": "MP_CAPTEUR_ANGLE_VOLANT_DIRCETION",
-                "label_index": "33414",
+                "label_index": "@P33414",
                 "label_korean": "스티어링 휠 앵글 센서",
                 "group_id": "35554",
                 "req_frame_id": "106959",
@@ -239,7 +239,7 @@
             {
                 "position": 5,
                 "mnemonic": "MP_VITESSE_VEHICULE",
-                "label_index": "9267",
+                "label_index": "@P9267",
                 "label_korean": "차량 속도",
                 "group_id": "35558",
                 "req_frame_id": "106971",
@@ -265,7 +265,7 @@
             {
                 "position": 6,
                 "mnemonic": "MP_ETAT_VERROUILLAGE_VIN",
-                "label_index": "61282",
+                "label_index": "@P61282",
                 "label_korean": "원래 VIN 잠금 상태",
                 "group_id": "35560",
                 "req_frame_id": "106977",
@@ -291,7 +291,7 @@
             {
                 "position": 7,
                 "mnemonic": "MP_REGULATEUR_TENSION",
-                "label_index": "60914",
+                "label_index": "@P60914",
                 "label_korean": "레귤레이터 전압",
                 "group_id": "35559",
                 "req_frame_id": "106974",
@@ -313,7 +313,7 @@
             {
                 "position": 8,
                 "mnemonic": "MP_TEMPERATURE_INTERNE_CALCULATEUR",
-                "label_index": "24103",
+                "label_index": "@P24103",
                 "label_korean": "ECU 내부 온도",
                 "group_id": "35553",
                 "req_frame_id": "106956",
@@ -366,7 +366,7 @@
             {
                 "position": 10,
                 "mnemonic": "MP_POSITION_CLE",
-                "label_index": "6016",
+                "label_index": "@P6016",
                 "label_korean": "점화 키 위치",
                 "group_id": "35561",
                 "req_frame_id": "106980",
@@ -415,7 +415,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_DESALIGNEMENT_LENT_VERTICAL_RADAR",
-                "label_index": "60851",
+                "label_index": "@P60851",
                 "label_korean": "차간 거리 경고 레이더 수직 정렬 느림",
                 "group_id": "35556",
                 "req_frame_id": "106965",
@@ -437,7 +437,7 @@
             {
                 "position": 2,
                 "mnemonic": "MP_DESALIGNEMENT_LENT_HORIZONTAL_RADAR",
-                "label_index": "60852",
+                "label_index": "@P60852",
                 "label_korean": "차간 거리 경고 레이더 수평 정렬 느림",
                 "group_id": "35556",
                 "req_frame_id": "106965",
@@ -459,7 +459,7 @@
             {
                 "position": 3,
                 "mnemonic": "MP_DESALIGNEMENT_RAPIDE_VERTICAL_RADAR",
-                "label_index": "60857",
+                "label_index": "@P60857",
                 "label_korean": "차간 거리 경고 레이더 수직 정렬 빠름",
                 "group_id": "35557",
                 "req_frame_id": "106968",
@@ -481,7 +481,7 @@
             {
                 "position": 4,
                 "mnemonic": "MP_DESALIGNEMENT_RAPIDE_HORIZONTAL_RADAR",
-                "label_index": "60858",
+                "label_index": "@P60858",
                 "label_korean": "차간 거리 경고 레이더의 수평 정렬 빠름",
                 "group_id": "35557",
                 "req_frame_id": "106968",
@@ -503,7 +503,7 @@
             {
                 "position": 5,
                 "mnemonic": "MP_COMPTEUR_SERVICE_ALIGNMENT",
-                "label_index": "60859",
+                "label_index": "@P60859",
                 "label_korean": "차간 거리 경고 레이더 정렬 카운터",
                 "group_id": "35555",
                 "req_frame_id": "106962",
@@ -525,7 +525,7 @@
             {
                 "position": 6,
                 "mnemonic": "MP_ECART_ANGLE_VERTICAL_ALIGNEMENT",
-                "label_index": "60849",
+                "label_index": "@P60849",
                 "label_korean": "정렬 작동 중 차간 거리 경고 레이더의 수직 각도 차이",
                 "group_id": "35548",
                 "req_frame_id": "106941",
@@ -547,7 +547,7 @@
             {
                 "position": 7,
                 "mnemonic": "MP_ECART_ANGLE_HORIZONATL_ALIGNEMENT",
-                "label_index": "60845",
+                "label_index": "@P60845",
                 "label_korean": "정렬 작동 중 차간 거리 경고 레이더의 수평 각도 차이",
                 "group_id": "35548",
                 "req_frame_id": "106941",
@@ -569,7 +569,7 @@
             {
                 "position": 8,
                 "mnemonic": "MP_ETAT_ACTIVATION_DASM",
-                "label_index": "61281",
+                "label_index": "@P61281",
                 "label_korean": "차간 거리 경고 레이더 작동 상태",
                 "group_id": "35562",
                 "req_frame_id": "106983",
@@ -624,7 +624,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_VITESSE_RELATIVE_CIBLE",
-                "label_index": "60856",
+                "label_index": "@P60856",
                 "label_korean": "차간 거리 경고 레이더에 의해 감지된 타겟과 비교한 상대 속도",
                 "group_id": "35549",
                 "req_frame_id": "106944",
@@ -646,7 +646,7 @@
             {
                 "position": 2,
                 "mnemonic": "MP_DISTANCE_RELATIVE_CIBLE",
-                "label_index": "60850",
+                "label_index": "@P60850",
                 "label_korean": "차간 거리 경고 레이더에 의해 감지된 타겟에 대한 거리",
                 "group_id": "35551",
                 "req_frame_id": "106950",
@@ -707,7 +707,7 @@
             {
                 "position": 2,
                 "mnemonic": "MP_POSITION_CLE",
-                "label_index": "6016",
+                "label_index": "@P6016",
                 "label_korean": "점화 키 위치",
                 "group_id": "35561",
                 "req_frame_id": "106980",
@@ -748,7 +748,7 @@
             {
                 "position": 3,
                 "mnemonic": "MP_REGULATEUR_TENSION",
-                "label_index": "60914",
+                "label_index": "@P60914",
                 "label_korean": "레귤레이터 전압",
                 "group_id": "35559",
                 "req_frame_id": "106974",
@@ -770,7 +770,7 @@
             {
                 "position": 4,
                 "mnemonic": "MP_VITESSE_VEHICULE",
-                "label_index": "9267",
+                "label_index": "@P9267",
                 "label_korean": "차량 속도",
                 "group_id": "35558",
                 "req_frame_id": "106971",
@@ -796,7 +796,7 @@
             {
                 "position": 5,
                 "mnemonic": "MP_DESALIGNEMENT_LENT_VERTICAL_RADAR",
-                "label_index": "60851",
+                "label_index": "@P60851",
                 "label_korean": "차간 거리 경고 레이더 수직 정렬 느림",
                 "group_id": "35556",
                 "req_frame_id": "106965",
@@ -818,7 +818,7 @@
             {
                 "position": 6,
                 "mnemonic": "MP_DESALIGNEMENT_LENT_HORIZONTAL_RADAR",
-                "label_index": "60852",
+                "label_index": "@P60852",
                 "label_korean": "차간 거리 경고 레이더 수평 정렬 느림",
                 "group_id": "35556",
                 "req_frame_id": "106965",
@@ -840,7 +840,7 @@
             {
                 "position": 7,
                 "mnemonic": "MP_DESALIGNEMENT_RAPIDE_VERTICAL_RADAR",
-                "label_index": "60857",
+                "label_index": "@P60857",
                 "label_korean": "차간 거리 경고 레이더 수직 정렬 빠름",
                 "group_id": "35557",
                 "req_frame_id": "106968",
@@ -862,7 +862,7 @@
             {
                 "position": 8,
                 "mnemonic": "MP_DESALIGNEMENT_RAPIDE_HORIZONTAL_RADAR",
-                "label_index": "60858",
+                "label_index": "@P60858",
                 "label_korean": "차간 거리 경고 레이더의 수평 정렬 빠름",
                 "group_id": "35557",
                 "req_frame_id": "106968",

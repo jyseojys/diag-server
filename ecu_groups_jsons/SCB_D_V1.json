@@ -8,7 +8,7 @@
             {
                 "position": 1,
                 "mnemonic": "ID_NOM_DU_FOURNISSEUR",
-                "label_index": "5701",
+                "label_index": "@P5701",
                 "label_korean": "제조 업체명",
                 "group_id": "30003",
                 "req_frame_id": "90292",
@@ -38,7 +38,7 @@
             {
                 "position": 2,
                 "mnemonic": "ID_REFERENCE_MATERIEL",
-                "label_index": "1071",
+                "label_index": "@P1071",
                 "label_korean": "장치 부품 번호",
                 "group_id": "30003",
                 "req_frame_id": "90292",
@@ -60,7 +60,7 @@
             {
                 "position": 3,
                 "mnemonic": "ID_REFERENCE_COMPLEMENTAIRE_MATERIEL",
-                "label_index": "1634",
+                "label_index": "@P1634",
                 "label_korean": "장치 추가 참조 번호",
                 "group_id": "30003",
                 "req_frame_id": "90292",
@@ -82,7 +82,7 @@
             {
                 "position": 4,
                 "mnemonic": "ID_TRACABILITE_INDICE_EVOLUTION_EDITION",
-                "label_index": "24601",
+                "label_index": "@P24601",
                 "label_korean": "소프트웨어 버전",
                 "group_id": "30003",
                 "req_frame_id": "90292",
@@ -112,7 +112,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_ETAT_COMMANDE_CHAUFFAGE_BRNC",
-                "label_index": "47413",
+                "label_index": "@P47413",
                 "label_korean": "BSI에서 받은 열선 시트 제어 레벨",
                 "group_id": "30004",
                 "req_frame_id": "90295",
@@ -145,13 +145,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "47307, 47414",
+                "help_code": "@P47307@\\n@P47414",
                 "help_korean": "시트 온열 패드 및 통풍 조절 ECU가 받은 명령\n시트 열선 제어 다이얼이 장착되지 않은 차량에 작동하는 변수"
             },
             {
                 "position": 2,
                 "mnemonic": "MP_ETAT_COMMANDE_VENTILATION_BRNC",
-                "label_index": "47308",
+                "label_index": "@P47308",
                 "label_korean": "시트 통풍 컨트롤 상태",
                 "group_id": "30005",
                 "req_frame_id": "90298",
@@ -178,7 +178,7 @@
             {
                 "position": 3,
                 "mnemonic": "MP_ETAT_PIL_MOTEUR_REHAUSSE",
-                "label_index": "48138",
+                "label_index": "@P48138",
                 "label_korean": "높이 조정 모터 제어",
                 "group_id": "30006",
                 "req_frame_id": "90301",
@@ -204,7 +204,7 @@
             {
                 "position": 4,
                 "mnemonic": "MP_ETAT_PIL_MOTEUR_GLISSIERE",
-                "label_index": "47993",
+                "label_index": "@P47993",
                 "label_korean": "전진-후진 모터 제어",
                 "group_id": "30007",
                 "req_frame_id": "90304",
@@ -230,7 +230,7 @@
             {
                 "position": 5,
                 "mnemonic": "MP_ETAT_PIL_MOTEUR_DOSSIER",
-                "label_index": "48026",
+                "label_index": "@P48026",
                 "label_korean": "시트 등받이 제어",
                 "group_id": "30008",
                 "req_frame_id": "90307",
@@ -256,7 +256,7 @@
             {
                 "position": 6,
                 "mnemonic": "MP_PIL_MOTEUR_SITE_GV",
-                "label_index": "48283",
+                "label_index": "@P48283",
                 "label_korean": "높이 조정 또는 고속의 제어",
                 "group_id": "30009",
                 "req_frame_id": "90310",
@@ -282,7 +282,7 @@
             {
                 "position": 7,
                 "mnemonic": "MP_ETAT_ECLAIRAGE_MOLETTE_CLAVIER",
-                "label_index": "48066",
+                "label_index": "@P48066",
                 "label_korean": "조명 상태",
                 "group_id": "30010",
                 "req_frame_id": "90313",
@@ -310,7 +310,7 @@
             {
                 "position": 8,
                 "mnemonic": "MP_INT_CEA",
-                "label_index": "48063",
+                "label_index": "@P48063",
                 "label_korean": "시트 전동 제어 상태",
                 "group_id": "30011",
                 "req_frame_id": "90316",
@@ -342,8 +342,8 @@
             {
                 "position": 9,
                 "mnemonic": "MP_INT_MOLETTE",
-                "label_index": "48259",
-                "label_korean": "히팅 및 통풍 노브 (존재할 경우)",
+                "label_index": "@P48259@\\+@T(@P275@T)",
+                "label_korean": "히팅 및 통풍 노브(존재할 경우)",
                 "group_id": "30011",
                 "req_frame_id": "90316",
                 "resp_frame_id": "90317",
@@ -372,7 +372,7 @@
             {
                 "position": 10,
                 "mnemonic": "MP_INT_CLV",
-                "label_index": "48074",
+                "label_index": "@P48074",
                 "label_korean": "메모리 키패드 버튼",
                 "group_id": "30011",
                 "req_frame_id": "90316",
@@ -399,7 +399,7 @@
             {
                 "position": 11,
                 "mnemonic": "MP_TEMPERATURE_ATTEINTE",
-                "label_index": "48012",
+                "label_index": "@P48012",
                 "label_korean": "히팅 온도 도달",
                 "group_id": "30011",
                 "req_frame_id": "90316",
@@ -424,7 +424,7 @@
             {
                 "position": 12,
                 "mnemonic": "MP_LH_RH",
-                "label_index": "47312",
+                "label_index": "@P47312",
                 "label_korean": "시트 장착 사이드",
                 "group_id": "30011",
                 "req_frame_id": "90316",
@@ -449,7 +449,7 @@
             {
                 "position": 13,
                 "mnemonic": "MP_DOSSIER_CONFORT",
-                "label_index": "47989",
+                "label_index": "@P47989",
                 "label_korean": "시트 등받이 타입",
                 "group_id": "30011",
                 "req_frame_id": "90316",
@@ -468,13 +468,13 @@
                 "bit_mask": 128,
                 "bit_shift": 7,
                 "dynamic_arg": "",
-                "help_code": "47927",
+                "help_code": "@P47927",
                 "help_korean": "프론트 도어를 통한 리어 시트 접근을 통해서만 가능"
             },
             {
                 "position": 14,
                 "mnemonic": "MP_DOSSIER_RABATTU",
-                "label_index": "29183",
+                "label_index": "@P29183",
                 "label_korean": "폴더 상태",
                 "group_id": "30011",
                 "req_frame_id": "90316",
@@ -493,13 +493,13 @@
                 "bit_mask": 64,
                 "bit_shift": 6,
                 "dynamic_arg": "",
-                "help_code": "47927",
+                "help_code": "@P47927",
                 "help_korean": "프론트 도어를 통한 리어 시트 접근을 통해서만 가능"
             },
             {
                 "position": 15,
                 "mnemonic": "MP_PUSH__APA",
-                "label_index": "48072",
+                "label_index": "@P48072",
                 "label_korean": "리어 시트 액세스 버튼",
                 "group_id": "30011",
                 "req_frame_id": "90316",
@@ -518,7 +518,7 @@
                 "bit_mask": 32,
                 "bit_shift": 5,
                 "dynamic_arg": "",
-                "help_code": "47927",
+                "help_code": "@P47927",
                 "help_korean": "프론트 도어를 통한 리어 시트 접근을 통해서만 가능"
             }
         ]
@@ -532,7 +532,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_INT_CEA",
-                "label_index": "48063",
+                "label_index": "@P48063",
                 "label_korean": "시트 전동 제어 상태",
                 "group_id": "30011",
                 "req_frame_id": "90316",
@@ -564,7 +564,7 @@
             {
                 "position": 2,
                 "mnemonic": "MP_INT_CLV",
-                "label_index": "48074",
+                "label_index": "@P48074",
                 "label_korean": "메모리 키패드 버튼",
                 "group_id": "30011",
                 "req_frame_id": "90316",
@@ -591,7 +591,7 @@
             {
                 "position": 3,
                 "mnemonic": "MP_TEMPERATURE_ATTEINTE",
-                "label_index": "48012",
+                "label_index": "@P48012",
                 "label_korean": "히팅 온도 도달",
                 "group_id": "30011",
                 "req_frame_id": "90316",

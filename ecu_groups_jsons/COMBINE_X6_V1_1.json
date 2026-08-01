@@ -8,8 +8,8 @@
             {
                 "position": 1,
                 "mnemonic": "STATPIL1",
-                "label_index": "3011",
-                "label_korean": "액츄에이터테스트",
+                "label_index": "@P3011@\\*",
+                "label_korean": "액츄에이터 테스트",
                 "group_id": "23817",
                 "req_frame_id": "71458",
                 "resp_frame_id": "71459",
@@ -47,7 +47,7 @@
             {
                 "position": 1,
                 "mnemonic": "ID_NOM_DU_FOURNISSEUR",
-                "label_index": "5701",
+                "label_index": "@P5701",
                 "label_korean": "제조 업체명",
                 "group_id": "23877",
                 "req_frame_id": "71638",
@@ -77,7 +77,7 @@
             {
                 "position": 2,
                 "mnemonic": "ID_REFERENCE_MATERIEL",
-                "label_index": "1071",
+                "label_index": "@P1071",
                 "label_korean": "장치 부품 번호",
                 "group_id": "23877",
                 "req_frame_id": "71638",
@@ -99,7 +99,7 @@
             {
                 "position": 3,
                 "mnemonic": "ID_REFERENCE_COMPLEMENTAIRE_MATERIEL",
-                "label_index": "1634",
+                "label_index": "@P1634",
                 "label_korean": "장치 추가 참조 번호",
                 "group_id": "23877",
                 "req_frame_id": "71638",
@@ -121,7 +121,7 @@
             {
                 "position": 4,
                 "mnemonic": "ID_TRACABILITE_INDICE_EVOLUTION_EDITION",
-                "label_index": "24601",
+                "label_index": "@P24601",
                 "label_korean": "소프트웨어 버전",
                 "group_id": "23877",
                 "req_frame_id": "71638",
@@ -143,7 +143,7 @@
             {
                 "position": 5,
                 "mnemonic": "ID_INDICE_DE_MESSAGERIE",
-                "label_index": "2225",
+                "label_index": "@P2225",
                 "label_korean": "메시지 인덱스",
                 "group_id": "23877",
                 "req_frame_id": "71638",
@@ -165,7 +165,7 @@
             {
                 "position": 6,
                 "mnemonic": "ID_TRACABILITE_DATE_FABRICATION",
-                "label_index": "14355",
+                "label_index": "@P14355",
                 "label_korean": "제조일자",
                 "group_id": "23878",
                 "req_frame_id": "71641",
@@ -187,7 +187,7 @@
             {
                 "position": 7,
                 "mnemonic": "ID_TRACABILITE_MP_NUM_SERIE_PIECE_2",
-                "label_index": "7592",
+                "label_index": "@P7592",
                 "label_korean": "부품 일련 번호",
                 "group_id": "23878",
                 "req_frame_id": "71641",
@@ -217,7 +217,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_COMMUTATEUR_ESP",
-                "label_index": "7689",
+                "label_index": "@P7689",
                 "label_korean": "ESP 스위치",
                 "group_id": "23885",
                 "req_frame_id": "71662",
@@ -233,13 +233,13 @@
                 "bit_mask": 128,
                 "bit_shift": 7,
                 "dynamic_arg": "",
-                "help_code": "44394, 44320",
-                "help_korean": "ESP을 작동한다. 이 변수는 차량에 ESP가 장착되었을 경우에만 작동한다."
+                "help_code": "@P44394@T.@\\+@P44320@T.",
+                "help_korean": "ESP을 작동한다.이 변수는 차량에 ESP가 장착되었을 경우에만 작동한다."
             },
             {
                 "position": 2,
                 "mnemonic": "MP_COMMUTATEUR_AIDE_STATIONNEMENT",
-                "label_index": "8194",
+                "label_index": "@P8194",
                 "label_korean": "주차 지원 스위치",
                 "group_id": "23885",
                 "req_frame_id": "71662",
@@ -255,13 +255,13 @@
                 "bit_mask": 64,
                 "bit_shift": 6,
                 "dynamic_arg": "",
-                "help_code": "5691, 45171",
-                "help_korean": "주차 지원을 차단하는 데 사용한다. 차량에 주차 지원이 장착되어 있을 경우 이 변수가 작동한다."
+                "help_code": "@P5691@T.@\\+@P45171@T.",
+                "help_korean": "주차 지원을 차단하는 데 사용한다.차량에 주차 지원이 장착되어 있을 경우 이 변수가 작동한다."
             },
             {
                 "position": 3,
                 "mnemonic": "MP_COMMUTATEUR_AUGM_LUMINOSITE",
-                "label_index": "15575",
+                "label_index": "@P15575",
                 "label_korean": "밝기 증가 스위치",
                 "group_id": "23885",
                 "req_frame_id": "71662",
@@ -277,13 +277,13 @@
                 "bit_mask": 32,
                 "bit_shift": 5,
                 "dynamic_arg": "",
-                "help_code": "9866, 33470",
-                "help_korean": "차량이 야간에 주행할 때 대시보드의 라이트를 조정하는 데 사용한다. 이 스위치는 다기능 디스플레이의 우측에 위치해 있다."
+                "help_code": "@P9866@T.@\\+@P33470@T.",
+                "help_korean": "차량이 야간에 주행할 때 대시보드의 라이트를 조정하는 데 사용한다.이 스위치는 다기능 디스플레이의 우측에 위치해 있다."
             },
             {
                 "position": 4,
                 "mnemonic": "MP_COMMUTATEUR_DIMNU_LUMINOSITE",
-                "label_index": "16279",
+                "label_index": "@P16279",
                 "label_korean": "밝기 감소 스위치",
                 "group_id": "23885",
                 "req_frame_id": "71662",
@@ -299,13 +299,13 @@
                 "bit_mask": 16,
                 "bit_shift": 4,
                 "dynamic_arg": "",
-                "help_code": "9866, 33470",
-                "help_korean": "차량이 야간에 주행할 때 대시보드의 라이트를 조정하는 데 사용한다. 이 스위치는 다기능 디스플레이의 우측에 위치해 있다."
+                "help_code": "@P9866@T.@\\+@P33470@T.",
+                "help_korean": "차량이 야간에 주행할 때 대시보드의 라이트를 조정하는 데 사용한다.이 스위치는 다기능 디스플레이의 우측에 위치해 있다."
             },
             {
                 "position": 5,
                 "mnemonic": "MP_COMMUTATEUR_ODOMETRE",
-                "label_index": "6607",
+                "label_index": "@P6607",
                 "label_korean": "주행거리계 스위치",
                 "group_id": "23886",
                 "req_frame_id": "71665",
@@ -321,7 +321,7 @@
                 "bit_mask": 1,
                 "bit_shift": 0,
                 "dynamic_arg": "",
-                "help_code": "43642, 43643",
+                "help_code": "@P43642@T.@\\n@P43643@T.",
                 "help_korean": "\"주행거리계 리셋\"버튼의 상태 변화를 나타낸다.\n\"주행거리계 제로 리셋\" 버튼은 계기판에 위치해 있다."
             }
         ]
@@ -335,7 +335,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_FONCTION_INDICATEUR_DE_MAINTENANCE",
-                "label_index": "15820",
+                "label_index": "@P15820",
                 "label_korean": "서비스 표시계 기능",
                 "group_id": "23879",
                 "req_frame_id": "71644",
@@ -351,13 +351,13 @@
                 "bit_mask": 8,
                 "bit_shift": 3,
                 "dynamic_arg": "",
-                "help_code": "43026, 42908",
-                "help_korean": "서비스 표시계는 키를 ON할 때 주행 거리계 대신 표시된다 .서비스 표시계는 다음 서비스까지 남은 거리를 표시한다 ."
+                "help_code": "@P43026@\\+@T.@P42908@\\+@T.",
+                "help_korean": "서비스 표시계는 키를 ON할 때 주행 거리계 대신 표시된다.서비스 표시계는 다음 서비스까지 남은 거리를 표시한다."
             },
             {
                 "position": 2,
                 "mnemonic": "MP_FONCTION_NIVEAU_HUILE",
-                "label_index": "6706",
+                "label_index": "@P6706",
                 "label_korean": "오일 레벨 기능",
                 "group_id": "23879",
                 "req_frame_id": "71644",
@@ -376,13 +376,13 @@
                 "bit_mask": 4,
                 "bit_shift": 2,
                 "dynamic_arg": "",
-                "help_code": "33385",
-                "help_korean": "오일 레벨은 키를 ON 하면 약 2초간 제어 패널에 표시된다 ."
+                "help_code": "@P33385@\\+@T.",
+                "help_korean": "오일 레벨은 키를 ON 하면 약 2초간 제어 패널에 표시된다."
             },
             {
                 "position": 3,
                 "mnemonic": "MP_BOUTON_BLACK_PANEL",
-                "label_index": "8881",
+                "label_index": "@P8881",
                 "label_korean": "블랙 패널 기능",
                 "group_id": "23879",
                 "req_frame_id": "71644",
@@ -398,13 +398,13 @@
                 "bit_mask": 2,
                 "bit_shift": 1,
                 "dynamic_arg": "",
-                "help_code": "44908, 44924, 9838, 25501, 18093, 4526, 44878, 42970",
-                "help_korean": "저녁에 운전 할 때 블랙 패널 모드는 다기능 스크린 및 제어 패널의 몇몇 구역을 off 하기 위해 사용된다 .\n다음 정보는 블랙 패널 모드가 작동 할때\n- 제어 패널에 표시된 채로 남아 있어야 한다 :\n- 라이트.\n- 서비스.\n- 오일 레벨 .\n- 속도계.\n- 크루즈 컨트롤,스피드 리미터 기능 .\n블랙 패널 모드는 라디오에서 \"다크\"버튼을 사용해서 작동할 수 있다"
+                "help_code": "@P44908@\\+@T.@\\n@P44924@T :@\\n@T- @F9838@T.@\\n@T- @P25501@T.@\\n@T- @P18093@\\+@T.@\\n@T- @F4526@T.@\\n@T- @F44878@\\+@T.@\\n@P42970",
+                "help_korean": "저녁에 운전 할 때 블랙 패널 모드는 다기능 스크린 및 제어 패널의 몇몇 구역을 off 하기 위해 사용된다.\n다음 정보는 블랙 패널 모드가 작동 할때 제어 패널에 표시된 채로 남아 있어야 한다 :\n- 라이트.\n- 서비스.\n- 오일 레벨.\n- 속도계.\n- 크루즈 컨트롤,스피드 리미터 기능.\n블랙 패널 모드는 라디오에서 \"다크\"버튼을 사용해서 작동할 수 있다"
             },
             {
                 "position": 4,
                 "mnemonic": "MP_FONCTION_REGULATEUR_VITESSE_VEHICULE",
-                "label_index": "14654",
+                "label_index": "@P14654",
                 "label_korean": "크루즈 컨트롤 기능",
                 "group_id": "23879",
                 "req_frame_id": "71644",
@@ -420,13 +420,13 @@
                 "bit_mask": 8,
                 "bit_shift": 3,
                 "dynamic_arg": "",
-                "help_code": "41044",
-                "help_korean": "크루즈 컨트롤은 운전자가 가속 페달을 누르지 않고 일정 속도로 주행할 수 있도록 한다 ."
+                "help_code": "@P41044@\\+@T.",
+                "help_korean": "크루즈 컨트롤은 운전자가 가속 페달을 누르지 않고 일정 속도로 주행할 수 있도록 한다."
             },
             {
                 "position": 5,
                 "mnemonic": "MP_FONCTION_LIMITEUR_VITESSE_VEHICULE",
-                "label_index": "15462",
+                "label_index": "@P15462",
                 "label_korean": "스피드 리미터 기능",
                 "group_id": "23879",
                 "req_frame_id": "71644",
@@ -442,13 +442,13 @@
                 "bit_mask": 4,
                 "bit_shift": 2,
                 "dynamic_arg": "",
-                "help_code": "43027, 43028",
-                "help_korean": "스피드 리미터는 운전자가 프로그램된 속도 이하로 유지하도록 도와준다 .\n차량이 프로그램된 제한 속도에 도달할 때, 운전자는 가속 페달에서 하드 스팟을 느낄 수 있다 ."
+                "help_code": "@P43027@\\+@T.@\\n@\\+@P43028@\\+@T.",
+                "help_korean": "스피드 리미터는 운전자가 프로그램된 속도 이하로 유지하도록 도와준다.\n차량이 프로그램된 제한 속도에 도달할 때, 운전자는 가속 페달에서 하드 스팟을 느낄 수 있다."
             },
             {
                 "position": 6,
                 "mnemonic": "MP_UNITE_ODOMETRE",
-                "label_index": "4255",
+                "label_index": "@P4255",
                 "label_korean": "주행거리계 장치",
                 "group_id": "23879",
                 "req_frame_id": "71644",
@@ -467,7 +467,7 @@
                 "bit_mask": 3,
                 "bit_shift": 0,
                 "dynamic_arg": "",
-                "help_code": "13408",
+                "help_code": "@P13408",
                 "help_korean": "속도, 총 주행거리, 크루즈 컨트롤, 구간 주행거리, 속도 제한 및 거리를 표시하는 데 사용하는 단위를 나타낸다"
             }
         ]

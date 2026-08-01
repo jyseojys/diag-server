@@ -8,8 +8,8 @@
             {
                 "position": 1,
                 "mnemonic": "STATPIL1",
-                "label_index": "3011",
-                "label_korean": "액츄에이터테스트",
+                "label_index": "@P3011@\\*",
+                "label_korean": "액츄에이터 테스트",
                 "group_id": "33975",
                 "req_frame_id": "102222",
                 "resp_frame_id": "102223",
@@ -47,7 +47,7 @@
             {
                 "position": 1,
                 "mnemonic": "ID_NOM_DU_FOURNISSEUR",
-                "label_index": "5701",
+                "label_index": "@P5701",
                 "label_korean": "제조 업체명",
                 "group_id": "34046",
                 "req_frame_id": "102435",
@@ -77,7 +77,7 @@
             {
                 "position": 2,
                 "mnemonic": "ID_REFERENCE_MATERIEL",
-                "label_index": "1071",
+                "label_index": "@P1071",
                 "label_korean": "장치 부품 번호",
                 "group_id": "34046",
                 "req_frame_id": "102435",
@@ -99,7 +99,7 @@
             {
                 "position": 3,
                 "mnemonic": "ID_REFERENCE_COMPLEMENTAIRE_MATERIEL",
-                "label_index": "1634",
+                "label_index": "@P1634",
                 "label_korean": "장치 추가 참조 번호",
                 "group_id": "34046",
                 "req_frame_id": "102435",
@@ -121,7 +121,7 @@
             {
                 "position": 4,
                 "mnemonic": "ID_TRACABILITE_INDICE_EVOLUTION_EDITION",
-                "label_index": "24601",
+                "label_index": "@P24601",
                 "label_korean": "소프트웨어 버전",
                 "group_id": "34046",
                 "req_frame_id": "102435",
@@ -143,7 +143,7 @@
             {
                 "position": 5,
                 "mnemonic": "ID_TRACABILITE_INDICE_EVOLUTION_EDITION_CALIBRATION",
-                "label_index": "7413",
+                "label_index": "@P7413",
                 "label_korean": "캘리브레이션 에디션",
                 "group_id": "34046",
                 "req_frame_id": "102435",
@@ -165,7 +165,7 @@
             {
                 "position": 6,
                 "mnemonic": "ID_MESS_DIAGNOSTIC",
-                "label_index": "2459",
+                "label_index": "@P2459",
                 "label_korean": "진단 이메일",
                 "group_id": "34046",
                 "req_frame_id": "102435",
@@ -187,7 +187,7 @@
             {
                 "position": 7,
                 "mnemonic": "ID_INDICE_DE_MESSAGERIE",
-                "label_index": "2225",
+                "label_index": "@P2225",
                 "label_korean": "메시지 인덱스",
                 "group_id": "34046",
                 "req_frame_id": "102435",
@@ -209,7 +209,7 @@
             {
                 "position": 8,
                 "mnemonic": "ID_TRACABILITE_DATE_FABRICATION",
-                "label_index": "14355",
+                "label_index": "@P14355",
                 "label_korean": "제조일자",
                 "group_id": "34047",
                 "req_frame_id": "102438",
@@ -231,7 +231,7 @@
             {
                 "position": 9,
                 "mnemonic": "ID_TRACABILITE_MP_NUM_SERIE_PIECE",
-                "label_index": "7592",
+                "label_index": "@P7592",
                 "label_korean": "부품 일련 번호",
                 "group_id": "34047",
                 "req_frame_id": "102438",
@@ -261,7 +261,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_DEMANDE_CYLINDREE_MAXIMALE_COMPRESSEUR_REGRIGERATION",
-                "label_index": "13134",
+                "label_index": "@P13134",
                 "label_korean": "에어컨 컴프레서의 최대 변위 요청",
                 "group_id": "34056",
                 "req_frame_id": "102465",
@@ -277,13 +277,13 @@
                 "bit_mask": 2,
                 "bit_shift": 1,
                 "dynamic_arg": "",
-                "help_code": "44436, 40118",
-                "help_korean": "에어컨이 정상적으로 작동하는지 점검한다. 이 변수는 차량에 수동 에어컨이 있을 경우에만 작동한다"
+                "help_code": "@P44436@T.@\\+@P40118",
+                "help_korean": "에어컨이 정상적으로 작동하는지 점검한다.이 변수는 차량에 수동 에어컨이 있을 경우에만 작동한다"
             },
             {
                 "position": 2,
                 "mnemonic": "MP_DEMANDE_ENCLENCHEMENT_CTP",
-                "label_index": "11256",
+                "label_index": "@P11256",
                 "label_korean": "CTP 작동 요청 (히터 장치)",
                 "group_id": "34056",
                 "req_frame_id": "102465",
@@ -299,13 +299,13 @@
                 "bit_mask": 4,
                 "bit_shift": 2,
                 "dynamic_arg": "",
-                "help_code": "43640, 43645, 43641",
-                "help_korean": "실내를 더 빠르게 따뜻해지도록 하기 위해서 CTP를 작동한다. 이 변수는 차량에 수동 에어컨가 장착되어 있을 경우 또는 에어컨이 없을 경우에만 작동한다. CTP를 작동하기 위해서 블로어 팬을 작동한다"
+                "help_code": "@P43640@T.@\\+@P43645@T.@\\+@P43641",
+                "help_korean": "실내를 더 빠르게 따뜻해지도록 하기 위해서 CTP를 작동한다.이 변수는 차량에 수동 에어컨가 장착되어 있을 경우 또는 에어컨이 없을 경우에만 작동한다.CTP를 작동하기 위해서 블로어 팬을 작동한다"
             },
             {
                 "position": 3,
                 "mnemonic": "MP_COMMUTATEUR_ESP",
-                "label_index": "7689",
+                "label_index": "@P7689",
                 "label_korean": "ESP 스위치",
                 "group_id": "34056",
                 "req_frame_id": "102465",
@@ -321,13 +321,13 @@
                 "bit_mask": 64,
                 "bit_shift": 6,
                 "dynamic_arg": "",
-                "help_code": "44394, 44320",
-                "help_korean": "ESP을 작동한다. 이 변수는 차량에 ESP가 장착되었을 경우에만 작동한다."
+                "help_code": "@P44394@T.@\\+@P44320@T.",
+                "help_korean": "ESP을 작동한다.이 변수는 차량에 ESP가 장착되었을 경우에만 작동한다."
             },
             {
                 "position": 4,
                 "mnemonic": "MP_COMMUTATEUR_AIDE_STATIONNEMENT",
-                "label_index": "8194",
+                "label_index": "@P8194",
                 "label_korean": "주차 지원 스위치",
                 "group_id": "34056",
                 "req_frame_id": "102465",
@@ -343,13 +343,13 @@
                 "bit_mask": 128,
                 "bit_shift": 7,
                 "dynamic_arg": "",
-                "help_code": "5691, 45171",
-                "help_korean": "주차 지원을 차단하는 데 사용한다. 차량에 주차 지원이 장착되어 있을 경우 이 변수가 작동한다."
+                "help_code": "@P5691@T.@\\+@P45171@T.",
+                "help_korean": "주차 지원을 차단하는 데 사용한다.차량에 주차 지원이 장착되어 있을 경우 이 변수가 작동한다."
             },
             {
                 "position": 5,
                 "mnemonic": "MP_COMMUTATEUR_LUNETTE_CHAUFFANTE",
-                "label_index": "11288",
+                "label_index": "@P11288",
                 "label_korean": "리어 윈도우 열선 스위치",
                 "group_id": "34056",
                 "req_frame_id": "102465",
@@ -365,13 +365,13 @@
                 "bit_mask": 8,
                 "bit_shift": 3,
                 "dynamic_arg": "",
-                "help_code": "44393, 40118",
-                "help_korean": "리어 스크린의 서리 제거를 작동한다. 이 변수는 차량에 수동 에어컨이 있을 경우에만 작동한다."
+                "help_code": "@F44393@T.@\\+@P40118@T.",
+                "help_korean": "리어 스크린의 서리 제거를 작동한다.이 변수는 차량에 수동 에어컨이 있을 경우에만 작동한다."
             },
             {
                 "position": 6,
                 "mnemonic": "MP_COMMUTATEUR_CLIMATISATION_MANUELLE",
-                "label_index": "14443",
+                "label_index": "@P14443",
                 "label_korean": "수동 에어 컨디셔닝 스위치",
                 "group_id": "34056",
                 "req_frame_id": "102465",
@@ -387,13 +387,13 @@
                 "bit_mask": 16,
                 "bit_shift": 4,
                 "dynamic_arg": "",
-                "help_code": "1426",
+                "help_code": "@P1426@T.",
                 "help_korean": "차량에 수동 에어컨이 있을 때 에어컨을 작동하는 데 사용한다."
             },
             {
                 "position": 7,
                 "mnemonic": "MP_COMMUTATEUR_REGLAGE_LUMINOSITE",
-                "label_index": "7770",
+                "label_index": "@P7770",
                 "label_korean": "밝기 조정 스위치",
                 "group_id": "34057",
                 "req_frame_id": "102468",
@@ -409,13 +409,13 @@
                 "bit_mask": 2,
                 "bit_shift": 1,
                 "dynamic_arg": "",
-                "help_code": "6884, 30532",
+                "help_code": "@P6884@T.@\\n@P30532@T.",
                 "help_korean": "\"밝기 조절\" 버튼의 상태 변화를 나타낸다.\n밝기 조절 버튼은 계기판에 위치해 있다."
             },
             {
                 "position": 8,
                 "mnemonic": "MP_COMMUTATEUR_ODOMETRE",
-                "label_index": "6607",
+                "label_index": "@P6607",
                 "label_korean": "주행거리계 스위치",
                 "group_id": "34057",
                 "req_frame_id": "102468",
@@ -431,13 +431,13 @@
                 "bit_mask": 1,
                 "bit_shift": 0,
                 "dynamic_arg": "",
-                "help_code": "43642, 43643",
+                "help_code": "@P43642@T.@\\n@P43643@T.",
                 "help_korean": "\"주행거리계 리셋\"버튼의 상태 변화를 나타낸다.\n\"주행거리계 제로 리셋\" 버튼은 계기판에 위치해 있다."
             },
             {
                 "position": 9,
                 "mnemonic": "MP_RAZ_APV_ODOMETRE",
-                "label_index": "5605",
+                "label_index": "@P5605",
                 "label_korean": "서비스 주행거리계 제로 리셋 상태",
                 "group_id": "34058",
                 "req_frame_id": "102471",
@@ -453,13 +453,13 @@
                 "bit_mask": 128,
                 "bit_shift": 7,
                 "dynamic_arg": "",
-                "help_code": "3324",
+                "help_code": "@P3324",
                 "help_korean": "주행거리계 제로 리셋이 서비스에서 진행되었는지를 나타낸다"
             },
             {
                 "position": 10,
                 "mnemonic": "MP_RAZ_USINE_ODOMETRE",
-                "label_index": "11140",
+                "label_index": "@P11140",
                 "label_korean": "공장 주행거리계 제로 리셋 상태",
                 "group_id": "34058",
                 "req_frame_id": "102471",
@@ -475,7 +475,7 @@
                 "bit_mask": 64,
                 "bit_shift": 6,
                 "dynamic_arg": "",
-                "help_code": "15622",
+                "help_code": "@P15622",
                 "help_korean": "주행 거리계 제로 리셋이 공장에서 진행되었는지를 나타낸다"
             }
         ]

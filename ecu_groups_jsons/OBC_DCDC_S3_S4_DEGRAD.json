@@ -8,7 +8,7 @@
             {
                 "position": 1,
                 "mnemonic": "ID_NOM_DU_FOURNISSEUR",
-                "label_index": "5701",
+                "label_index": "@P5701",
                 "label_korean": "제조 업체명",
                 "group_id": "59708",
                 "req_frame_id": "179417",
@@ -38,7 +38,7 @@
             {
                 "position": 2,
                 "mnemonic": "S3S4_OBC_ID_2",
-                "label_index": "9463",
+                "label_index": "@P9463",
                 "label_korean": "ECU 참조",
                 "group_id": "59708",
                 "req_frame_id": "179417",
@@ -60,7 +60,7 @@
             {
                 "position": 3,
                 "mnemonic": "ID_REFERENCE_LOGICIEL",
-                "label_index": "13263",
+                "label_index": "@P13263",
                 "label_korean": "소프트웨어 번호",
                 "group_id": "59710",
                 "req_frame_id": "179423",
@@ -82,7 +82,7 @@
             {
                 "position": 4,
                 "mnemonic": "ID_HARD",
-                "label_index": "12954",
+                "label_index": "@P12954",
                 "label_korean": "하드웨어 버전",
                 "group_id": "59740",
                 "req_frame_id": "179513",
@@ -104,7 +104,7 @@
             {
                 "position": 5,
                 "mnemonic": "ID_VERSION_DU_LOGICIEL",
-                "label_index": "8662",
+                "label_index": "@P8662",
                 "label_korean": "소프트웨어 버전",
                 "group_id": "59710",
                 "req_frame_id": "179423",
@@ -126,7 +126,7 @@
             {
                 "position": 6,
                 "mnemonic": "ID_VERSION_DIAGNOSTIC",
-                "label_index": "15917",
+                "label_index": "@P15917",
                 "label_korean": "진단 메시지 시스템 인덱스 (변경)",
                 "group_id": "59710",
                 "req_frame_id": "179423",
@@ -148,7 +148,7 @@
             {
                 "position": 7,
                 "mnemonic": "ID_DATE_TELECH",
-                "label_index": "21670",
+                "label_index": "@P21670",
                 "label_korean": "다운로딩 날짜",
                 "group_id": "59709",
                 "req_frame_id": "179420",
@@ -170,7 +170,7 @@
             {
                 "position": 8,
                 "mnemonic": "ID_NOMBRE_DE_TELECHARGEMENT",
-                "label_index": "24589",
+                "label_index": "@P24589",
                 "label_korean": "다운로드의 수",
                 "group_id": "59694",
                 "req_frame_id": "179375",
@@ -192,7 +192,7 @@
             {
                 "position": 9,
                 "mnemonic": "MP_NUM_SERIE",
-                "label_index": "12519",
+                "label_index": "@P12519@\\*",
                 "label_korean": "일련 번호",
                 "group_id": "59693",
                 "req_frame_id": "179372",
@@ -222,7 +222,7 @@
             {
                 "position": 1,
                 "mnemonic": "S3S4_OBC_MP_01",
-                "label_index": "32014",
+                "label_index": "@P32014@\\*100",
                 "label_korean": "100V에서 트랙션 배터리의 충전 횟수",
                 "group_id": "59667",
                 "req_frame_id": "179294",
@@ -238,13 +238,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "100",
-                "help_code": "",
+                "help_code": "@T",
                 "help_korean": ""
             },
             {
                 "position": 2,
                 "mnemonic": "S3S4_OBC_MP_02",
-                "label_index": "32014",
+                "label_index": "@P32014@\\*200",
                 "label_korean": "200V에서 트랙션 배터리의 충전 횟수",
                 "group_id": "59667",
                 "req_frame_id": "179294",
@@ -260,13 +260,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "200",
-                "help_code": "",
+                "help_code": "@T",
                 "help_korean": ""
             },
             {
                 "position": 3,
                 "mnemonic": "S3S4_OBC_MP_03",
-                "label_index": "32015",
+                "label_index": "@P32015@\\*100",
                 "label_korean": "100V에서 트랙션 배터리의 충전 축적 시간",
                 "group_id": "59667",
                 "req_frame_id": "179294",
@@ -282,13 +282,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "100",
-                "help_code": "",
+                "help_code": "@T",
                 "help_korean": ""
             },
             {
                 "position": 4,
                 "mnemonic": "S3S4_OBC_MP_04",
-                "label_index": "32015",
+                "label_index": "@P32015@\\*200",
                 "label_korean": "200V에서 트랙션 배터리의 충전 축적 시간",
                 "group_id": "59667",
                 "req_frame_id": "179294",
@@ -304,13 +304,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "200",
-                "help_code": "",
+                "help_code": "@T",
                 "help_korean": ""
             },
             {
                 "position": 5,
                 "mnemonic": "S3S4_OBC_MP_05",
-                "label_index": "32426",
+                "label_index": "@P32426",
                 "label_korean": "충전 시간",
                 "group_id": "59667",
                 "req_frame_id": "179294",
@@ -326,13 +326,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "32045",
+                "help_code": "@P32045",
                 "help_korean": "트랙션 배터리 충전 시작과 끝 사이에 경과된 시간"
             },
             {
                 "position": 6,
                 "mnemonic": "S3S4_OBC_MP_06",
-                "label_index": "31998",
+                "label_index": "@P31998",
                 "label_korean": "오류로 인한 트랙션 배터리 충전 중단 카운터",
                 "group_id": "59667",
                 "req_frame_id": "179294",
@@ -348,13 +348,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "",
+                "help_code": "@T",
                 "help_korean": ""
             },
             {
                 "position": 7,
                 "mnemonic": "S3S4_OBC_MP_07",
-                "label_index": "33109",
+                "label_index": "@P33109",
                 "label_korean": "트랙션 배터리 온보드 충전장치 입력 전압",
                 "group_id": "59668",
                 "req_frame_id": "179297",
@@ -370,13 +370,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "33133, 29983",
+                "help_code": "@P33133@\\n@F29983@\\*70@\\*165",
                 "help_korean": "차량은 전동 구동 머신이 OFF 되고 정상적인 충전 조건이어야 한다\n전압은 70과 165V 사이어야 한다"
             },
             {
                 "position": 8,
                 "mnemonic": "S3S4_OBC_MP_08",
-                "label_index": "33104",
+                "label_index": "@P33104",
                 "label_korean": "트랙션 배터리 온보드 충전장치 입력 전류",
                 "group_id": "59668",
                 "req_frame_id": "179297",
@@ -392,13 +392,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "33133, 33134",
+                "help_code": "@P33133@\\n@P33134@\\*15,2",
                 "help_korean": "차량은 전동 구동 머신이 OFF 되고 정상적인 충전 조건이어야 한다\n정상적인 작동 중에, 전류는 15A를 넘지 않아야 한다,2"
             },
             {
                 "position": 9,
                 "mnemonic": "S3S4_OBC_MP_09",
-                "label_index": "33105",
+                "label_index": "@P33105",
                 "label_korean": "트랙션 배터리 온보드 충전장치 출력 전압",
                 "group_id": "59668",
                 "req_frame_id": "179297",
@@ -414,13 +414,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "33133, 29983",
+                "help_code": "@P33133@\\n@F29983@\\*180@\\*370",
                 "help_korean": "차량은 전동 구동 머신이 OFF 되고 정상적인 충전 조건이어야 한다\n전압은 180과 370V 사이어야 한다"
             },
             {
                 "position": 10,
                 "mnemonic": "S3S4_OBC_MP_10",
-                "label_index": "33106",
+                "label_index": "@P33106",
                 "label_korean": "트랙션 배터리 온보드 충전장치 출력 전류",
                 "group_id": "59668",
                 "req_frame_id": "179297",
@@ -436,13 +436,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "33133, 33134",
+                "help_code": "@P33133@\\n@P33134@\\*10",
                 "help_korean": "차량은 전동 구동 머신이 OFF 되고 정상적인 충전 조건이어야 한다\n정상적인 작동 중에, 전류는 10A를 넘지 않아야 한다"
             },
             {
                 "position": 11,
                 "mnemonic": "S3S4_OBC_MP_11",
-                "label_index": "29166",
+                "label_index": "@P29166",
                 "label_korean": "ECU 내부 온도",
                 "group_id": "59668",
                 "req_frame_id": "179297",
@@ -458,13 +458,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "33036",
+                "help_code": "@P33036@\\*110",
                 "help_korean": "정상적인 작동 중에, 온도가 110°C를 넘지 않아야 한다"
             },
             {
                 "position": 12,
                 "mnemonic": "S3S4_OBC_MP_12",
-                "label_index": "33110",
+                "label_index": "@P33110",
                 "label_korean": "트랙션 배터리 온보드 충전장치 입력 주기",
                 "group_id": "59668",
                 "req_frame_id": "179297",
@@ -480,13 +480,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "33133, 33721",
+                "help_code": "@P33133@\\n@P33721@\\*48@\\*62",
                 "help_korean": "차량은 전동 구동 머신이 OFF 되고 정상적인 충전 조건이어야 한다\n신호 주파수는 반드시 48과 62Hz 사이에 있어야 한다"
             },
             {
                 "position": 13,
                 "mnemonic": "S3S4_OBC_MP_13",
-                "label_index": "33111",
+                "label_index": "@P33111",
                 "label_korean": "트랙션 배터리 온보드 충전장치 제어 효율",
                 "group_id": "59668",
                 "req_frame_id": "179297",
@@ -502,13 +502,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "33133, 27438",
+                "help_code": "@P33133@\\n@P27438@\\*8@\\*97",
                 "help_korean": "차량은 전동 구동 머신이 OFF 되고 정상적인 충전 조건이어야 한다\n값은 8과 97% 사이에 있어야 한다"
             },
             {
                 "position": 14,
                 "mnemonic": "S3S4_OBC_MP_14",
-                "label_index": "33100",
+                "label_index": "@P33100",
                 "label_korean": "트랙션 배터리 온보드 충전장치 제어 신호 전압",
                 "group_id": "59668",
                 "req_frame_id": "179297",
@@ -524,13 +524,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "33133, 33135",
-                "help_korean": "차량은 전동 구동 머신이 OFF 되고 정상적인 충전 조건이어야 한다\n정상적인\n- 작동 중에, 전류는 12V를 넘지 않아야 한다:6"
+                "help_code": "@P33133@\\n@P33135@\\*12:6",
+                "help_korean": "차량은 전동 구동 머신이 OFF 되고 정상적인 충전 조건이어야 한다\n정상적인 작동 중에, 전류는 12V를 넘지 않아야 한다:6"
             },
             {
                 "position": 15,
                 "mnemonic": "S3S4_OBC_MP_15",
-                "label_index": "33112",
+                "label_index": "@P33112",
                 "label_korean": "트랙션 배터리 온보드 충전장치 제어 주기",
                 "group_id": "59668",
                 "req_frame_id": "179297",
@@ -546,7 +546,7 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "33133, 33721",
+                "help_code": "@P33133@\\n@P33721@\\*970@\\*1030",
                 "help_korean": "차량은 전동 구동 머신이 OFF 되고 정상적인 충전 조건이어야 한다\n신호 주파수는 반드시 970과 1030Hz 사이에 있어야 한다"
             }
         ]
@@ -560,7 +560,7 @@
             {
                 "position": 1,
                 "mnemonic": "S3S4_OBC_CA_01",
-                "label_index": "7845",
+                "label_index": "@P7845",
                 "label_korean": "주행거리",
                 "group_id": "59752",
                 "req_frame_id": "179549",
@@ -582,7 +582,7 @@
             {
                 "position": 2,
                 "mnemonic": "S3S4_OBC_CA_02",
-                "label_index": "7397",
+                "label_index": "@P7397",
                 "label_korean": "작동 시간",
                 "group_id": "59752",
                 "req_frame_id": "179549",
@@ -604,7 +604,7 @@
             {
                 "position": 3,
                 "mnemonic": "S3S4_OBC_CA_03",
-                "label_index": "3761",
+                "label_index": "@P3761",
                 "label_korean": "작동 사이클 수",
                 "group_id": "59752",
                 "req_frame_id": "179549",
@@ -626,7 +626,7 @@
             {
                 "position": 4,
                 "mnemonic": "S3S4_OBC_CA_04",
-                "label_index": "20781",
+                "label_index": "@P20781",
                 "label_korean": "경과된 시간",
                 "group_id": "59752",
                 "req_frame_id": "179549",
@@ -648,7 +648,7 @@
             {
                 "position": 5,
                 "mnemonic": "S3S4_OBC_CA_05",
-                "label_index": "32014",
+                "label_index": "@P32014@\\*100",
                 "label_korean": "100V에서 트랙션 배터리의 충전 횟수",
                 "group_id": "59752",
                 "req_frame_id": "179549",
@@ -670,7 +670,7 @@
             {
                 "position": 6,
                 "mnemonic": "S3S4_OBC_CA_06",
-                "label_index": "32014",
+                "label_index": "@P32014@\\*200",
                 "label_korean": "200V에서 트랙션 배터리의 충전 횟수",
                 "group_id": "59752",
                 "req_frame_id": "179549",
@@ -692,7 +692,7 @@
             {
                 "position": 7,
                 "mnemonic": "S3S4_OBC_CA_07",
-                "label_index": "32015",
+                "label_index": "@P32015@\\*100",
                 "label_korean": "100V에서 트랙션 배터리의 충전 축적 시간",
                 "group_id": "59752",
                 "req_frame_id": "179549",
@@ -714,7 +714,7 @@
             {
                 "position": 8,
                 "mnemonic": "S3S4_OBC_CA_08",
-                "label_index": "32015",
+                "label_index": "@P32015@\\*200",
                 "label_korean": "200V에서 트랙션 배터리의 충전 축적 시간",
                 "group_id": "59752",
                 "req_frame_id": "179549",
@@ -736,7 +736,7 @@
             {
                 "position": 9,
                 "mnemonic": "S3S4_OBC_CA_09",
-                "label_index": "32426",
+                "label_index": "@P32426",
                 "label_korean": "충전 시간",
                 "group_id": "59752",
                 "req_frame_id": "179549",
@@ -758,7 +758,7 @@
             {
                 "position": 10,
                 "mnemonic": "S3S4_OBC_CA_10",
-                "label_index": "31998",
+                "label_index": "@P31998",
                 "label_korean": "오류로 인한 트랙션 배터리 충전 중단 카운터",
                 "group_id": "59752",
                 "req_frame_id": "179549",
@@ -780,7 +780,7 @@
             {
                 "position": 11,
                 "mnemonic": "S3S4_OBC_CA_11",
-                "label_index": "33109",
+                "label_index": "@P33109",
                 "label_korean": "트랙션 배터리 온보드 충전장치 입력 전압",
                 "group_id": "59752",
                 "req_frame_id": "179549",
@@ -802,7 +802,7 @@
             {
                 "position": 12,
                 "mnemonic": "S3S4_OBC_CA_12",
-                "label_index": "33104",
+                "label_index": "@P33104",
                 "label_korean": "트랙션 배터리 온보드 충전장치 입력 전류",
                 "group_id": "59752",
                 "req_frame_id": "179549",
@@ -824,7 +824,7 @@
             {
                 "position": 13,
                 "mnemonic": "S3S4_OBC_CA_13",
-                "label_index": "33105",
+                "label_index": "@P33105",
                 "label_korean": "트랙션 배터리 온보드 충전장치 출력 전압",
                 "group_id": "59752",
                 "req_frame_id": "179549",
@@ -846,7 +846,7 @@
             {
                 "position": 14,
                 "mnemonic": "S3S4_OBC_CA_14",
-                "label_index": "33106",
+                "label_index": "@P33106",
                 "label_korean": "트랙션 배터리 온보드 충전장치 출력 전류",
                 "group_id": "59752",
                 "req_frame_id": "179549",
@@ -868,7 +868,7 @@
             {
                 "position": 15,
                 "mnemonic": "S3S4_OBC_CA_15",
-                "label_index": "8677",
+                "label_index": "@P8677",
                 "label_korean": "ECU 온도",
                 "group_id": "59752",
                 "req_frame_id": "179549",
@@ -890,7 +890,7 @@
             {
                 "position": 16,
                 "mnemonic": "S3S4_OBC_CA_16",
-                "label_index": "32020",
+                "label_index": "@P32020",
                 "label_korean": "트랙션 배터리 냉각 요청",
                 "group_id": "59752",
                 "req_frame_id": "179549",
@@ -915,7 +915,7 @@
             {
                 "position": 17,
                 "mnemonic": "S3S4_OBC_CA_17",
-                "label_index": "33110",
+                "label_index": "@P33110",
                 "label_korean": "트랙션 배터리 온보드 충전장치 입력 주기",
                 "group_id": "59752",
                 "req_frame_id": "179549",
@@ -937,7 +937,7 @@
             {
                 "position": 18,
                 "mnemonic": "S3S4_OBC_CA_18",
-                "label_index": "33111",
+                "label_index": "@P33111",
                 "label_korean": "트랙션 배터리 온보드 충전장치 제어 효율",
                 "group_id": "59752",
                 "req_frame_id": "179549",
@@ -959,7 +959,7 @@
             {
                 "position": 19,
                 "mnemonic": "S3S4_OBC_CA_19",
-                "label_index": "33100",
+                "label_index": "@P33100",
                 "label_korean": "트랙션 배터리 온보드 충전장치 제어 신호 전압",
                 "group_id": "59752",
                 "req_frame_id": "179549",
@@ -981,7 +981,7 @@
             {
                 "position": 20,
                 "mnemonic": "S3S4_OBC_CA_20",
-                "label_index": "33112",
+                "label_index": "@P33112",
                 "label_korean": "트랙션 배터리 온보드 충전장치 제어 주기",
                 "group_id": "59752",
                 "req_frame_id": "179549",

@@ -8,7 +8,7 @@
             {
                 "position": 1,
                 "mnemonic": "ID_NOM_DU_FOURNISSEUR",
-                "label_index": "5701",
+                "label_index": "@P5701",
                 "label_korean": "제조 업체명",
                 "group_id": "44319",
                 "req_frame_id": "133256",
@@ -38,7 +38,7 @@
             {
                 "position": 2,
                 "mnemonic": "ID_REFERENCE_MATERIEL",
-                "label_index": "1071",
+                "label_index": "@P1071",
                 "label_korean": "장치 부품 번호",
                 "group_id": "44319",
                 "req_frame_id": "133256",
@@ -60,7 +60,7 @@
             {
                 "position": 3,
                 "mnemonic": "ID_REFERENCE_COMPLEMENTAIRE_MATERIEL",
-                "label_index": "1634",
+                "label_index": "@P1634",
                 "label_korean": "장치 추가 참조 번호",
                 "group_id": "44319",
                 "req_frame_id": "133256",
@@ -82,7 +82,7 @@
             {
                 "position": 4,
                 "mnemonic": "ID_REFERENCE_LOGICIEL",
-                "label_index": "13263",
+                "label_index": "@P13263",
                 "label_korean": "소프트웨어 번호",
                 "group_id": "44320",
                 "req_frame_id": "133259",
@@ -104,7 +104,7 @@
             {
                 "position": 5,
                 "mnemonic": "ID_TRACABILITE_INDICE_EVOLUTION_EDITION_CALIBRATION",
-                "label_index": "7413",
+                "label_index": "@P7413",
                 "label_korean": "캘리브레이션 에디션",
                 "group_id": "44320",
                 "req_frame_id": "133259",
@@ -126,7 +126,7 @@
             {
                 "position": 6,
                 "mnemonic": "ID_TRACABILITE_INDICE_EVOLUTION_EDITION",
-                "label_index": "24601",
+                "label_index": "@P24601",
                 "label_korean": "소프트웨어 버전",
                 "group_id": "44319",
                 "req_frame_id": "133256",
@@ -148,7 +148,7 @@
             {
                 "position": 7,
                 "mnemonic": "ID_DATE_TELECH",
-                "label_index": "21670",
+                "label_index": "@P21670",
                 "label_korean": "다운로딩 날짜",
                 "group_id": "44320",
                 "req_frame_id": "133259",
@@ -170,7 +170,7 @@
             {
                 "position": 8,
                 "mnemonic": "ID_NOMBRE_DE_TELECHARGEMENT",
-                "label_index": "24589",
+                "label_index": "@P24589",
                 "label_korean": "다운로드의 수",
                 "group_id": "44320",
                 "req_frame_id": "133259",
@@ -230,7 +230,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_VITESSE_VEHICULE",
-                "label_index": "9267",
+                "label_index": "@F9267",
                 "label_korean": "차량 속도",
                 "group_id": "44325",
                 "req_frame_id": "133274",
@@ -256,7 +256,7 @@
             {
                 "position": 2,
                 "mnemonic": "MP_ANGLE_VOLANT",
-                "label_index": "22910",
+                "label_index": "@P22910",
                 "label_korean": "스티어링 휠 앵글",
                 "group_id": "44324",
                 "req_frame_id": "133271",
@@ -274,13 +274,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "27334, 49725, 8985",
-                "help_korean": "다운로딩\n- 후에 :\n차량은 변수 측정이 작동하도록 반드시 주행되어야 한다\n60km/h 이상의 속도"
+                "help_code": "@F27334@T :@\\n@P49725@\\n@F8985@\\*60",
+                "help_korean": "다운로딩 후에 :\n차량은 변수 측정이 작동하도록 반드시 주행되어야 한다\n60km/h 이상의 속도"
             },
             {
                 "position": 3,
                 "mnemonic": "MP_COUPLE_VOLANT",
-                "label_index": "37474",
+                "label_index": "@P37474",
                 "label_korean": "스티어링 휠 토크",
                 "group_id": "44334",
                 "req_frame_id": "133301",
@@ -302,7 +302,7 @@
             {
                 "position": 4,
                 "mnemonic": "MP_CMD_COUPLE_ASSIST",
-                "label_index": "48258",
+                "label_index": "@P48258",
                 "label_korean": "스티어링 지원 토크 요청됨",
                 "group_id": "44335",
                 "req_frame_id": "133304",
@@ -324,7 +324,7 @@
             {
                 "position": 5,
                 "mnemonic": "MP_TENSION_BATTERIE",
-                "label_index": "27741",
+                "label_index": "@P27741",
                 "label_korean": "서비스 배터리 전압",
                 "group_id": "44327",
                 "req_frame_id": "133280",
@@ -348,7 +348,7 @@
             {
                 "position": 6,
                 "mnemonic": "MP_TEMPERATURE",
-                "label_index": "1101",
+                "label_index": "@P1101",
                 "label_korean": "파워 스티어링 ECU의 온도",
                 "group_id": "44328",
                 "req_frame_id": "133283",
@@ -372,7 +372,7 @@
             {
                 "position": 7,
                 "mnemonic": "MP_ETAT_FONCTIONNEMENT_MOTEUR_THERMIQUE",
-                "label_index": "20794",
+                "label_index": "@P20794",
                 "label_korean": "내연 기관 작동 상태",
                 "group_id": "44329",
                 "req_frame_id": "133286",
@@ -415,7 +415,7 @@
             {
                 "position": 8,
                 "mnemonic": "MP_ETAT_PLUS_APC",
-                "label_index": "48260",
+                "label_index": "@P48260",
                 "label_korean": "키 on 신호 상태",
                 "group_id": "44330",
                 "req_frame_id": "133289",
@@ -440,7 +440,7 @@
             {
                 "position": 9,
                 "mnemonic": "MP_ETAT_ASSIST_DA",
-                "label_index": "46867",
+                "label_index": "@P46867",
                 "label_korean": "파워 스티어링 지원 상태",
                 "group_id": "44331",
                 "req_frame_id": "133292",
@@ -470,7 +470,7 @@
             {
                 "position": 10,
                 "mnemonic": "MP_DERATING_TEMP_ON_OFF",
-                "label_index": "48295",
+                "label_index": "@P48295",
                 "label_korean": "과열 후 스티어링 지원 제한됨",
                 "group_id": "44332",
                 "req_frame_id": "133295",
@@ -495,7 +495,7 @@
             {
                 "position": 11,
                 "mnemonic": "MP_DMD_FCT_CITYPARK",
-                "label_index": "48321",
+                "label_index": "@P48321",
                 "label_korean": "반자동 주차 요청",
                 "group_id": "44337",
                 "req_frame_id": "133310",
@@ -522,7 +522,7 @@
             {
                 "position": 12,
                 "mnemonic": "MP_CAUSE_DESACT_CITYPARK",
-                "label_index": "35599",
+                "label_index": "@P35599",
                 "label_korean": "반자동 주차 시스템의 차단 원인",
                 "group_id": "44338",
                 "req_frame_id": "133313",
@@ -553,7 +553,7 @@
             {
                 "position": 13,
                 "mnemonic": "MP_ETAT_DA_CITYPARK",
-                "label_index": "48317",
+                "label_index": "@P48317",
                 "label_korean": "스티어링 휠 제어 장치 상태",
                 "group_id": "44339",
                 "req_frame_id": "133316",
@@ -579,7 +579,7 @@
             {
                 "position": 14,
                 "mnemonic": "MP_CONSIGNE_ANGLE_VOLANT",
-                "label_index": "48250",
+                "label_index": "@P48250",
                 "label_korean": "스티어링 휠 각도 기준값",
                 "group_id": "44340",
                 "req_frame_id": "133319",
@@ -601,7 +601,7 @@
             {
                 "position": 15,
                 "mnemonic": "MP_VITESSE_ROTATION_VOLANT",
-                "label_index": "7009",
+                "label_index": "@F7009",
                 "label_korean": "스티어링 휠의 회전 속도",
                 "group_id": "44341",
                 "req_frame_id": "133322",
@@ -631,7 +631,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_VITESSE_VEHICULE",
-                "label_index": "9267",
+                "label_index": "@F9267",
                 "label_korean": "차량 속도",
                 "group_id": "44325",
                 "req_frame_id": "133274",
@@ -657,7 +657,7 @@
             {
                 "position": 2,
                 "mnemonic": "MP_ANGLE_VOLANT",
-                "label_index": "22910",
+                "label_index": "@P22910",
                 "label_korean": "스티어링 휠 앵글",
                 "group_id": "44324",
                 "req_frame_id": "133271",
@@ -675,13 +675,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "27334, 49725, 8985",
-                "help_korean": "다운로딩\n- 후에 :\n차량은 변수 측정이 작동하도록 반드시 주행되어야 한다\n60km/h 이상의 속도"
+                "help_code": "@F27334@T :@\\n@P49725@\\n@F8985@\\*60",
+                "help_korean": "다운로딩 후에 :\n차량은 변수 측정이 작동하도록 반드시 주행되어야 한다\n60km/h 이상의 속도"
             },
             {
                 "position": 3,
                 "mnemonic": "MP_COUPLE_VOLANT",
-                "label_index": "37474",
+                "label_index": "@P37474",
                 "label_korean": "스티어링 휠 토크",
                 "group_id": "44334",
                 "req_frame_id": "133301",
@@ -703,7 +703,7 @@
             {
                 "position": 4,
                 "mnemonic": "MP_CMD_COUPLE_ASSIST",
-                "label_index": "48258",
+                "label_index": "@P48258",
                 "label_korean": "스티어링 지원 토크 요청됨",
                 "group_id": "44335",
                 "req_frame_id": "133304",
@@ -725,7 +725,7 @@
             {
                 "position": 5,
                 "mnemonic": "MP_TENSION_BATTERIE",
-                "label_index": "27741",
+                "label_index": "@P27741",
                 "label_korean": "서비스 배터리 전압",
                 "group_id": "44327",
                 "req_frame_id": "133280",
@@ -749,7 +749,7 @@
             {
                 "position": 6,
                 "mnemonic": "MP_TEMPERATURE",
-                "label_index": "1101",
+                "label_index": "@P1101",
                 "label_korean": "파워 스티어링 ECU의 온도",
                 "group_id": "44328",
                 "req_frame_id": "133283",
@@ -773,7 +773,7 @@
             {
                 "position": 7,
                 "mnemonic": "MP_ETAT_FONCTIONNEMENT_MOTEUR_THERMIQUE",
-                "label_index": "20794",
+                "label_index": "@P20794",
                 "label_korean": "내연 기관 작동 상태",
                 "group_id": "44329",
                 "req_frame_id": "133286",
@@ -816,7 +816,7 @@
             {
                 "position": 8,
                 "mnemonic": "MP_ETAT_PLUS_APC",
-                "label_index": "48260",
+                "label_index": "@P48260",
                 "label_korean": "키 on 신호 상태",
                 "group_id": "44330",
                 "req_frame_id": "133289",
@@ -841,7 +841,7 @@
             {
                 "position": 9,
                 "mnemonic": "MP_ETAT_ASSIST_DA",
-                "label_index": "46867",
+                "label_index": "@P46867",
                 "label_korean": "파워 스티어링 지원 상태",
                 "group_id": "44331",
                 "req_frame_id": "133292",
@@ -871,7 +871,7 @@
             {
                 "position": 10,
                 "mnemonic": "MP_DERATING_TEMP_ON_OFF",
-                "label_index": "48295",
+                "label_index": "@P48295",
                 "label_korean": "과열 후 스티어링 지원 제한됨",
                 "group_id": "44332",
                 "req_frame_id": "133295",
@@ -896,7 +896,7 @@
             {
                 "position": 11,
                 "mnemonic": "MP_DMD_FCT_CITYPARK",
-                "label_index": "48321",
+                "label_index": "@P48321",
                 "label_korean": "반자동 주차 요청",
                 "group_id": "44337",
                 "req_frame_id": "133310",
@@ -923,7 +923,7 @@
             {
                 "position": 12,
                 "mnemonic": "MP_CAUSE_DESACT_CITYPARK",
-                "label_index": "35599",
+                "label_index": "@P35599",
                 "label_korean": "반자동 주차 시스템의 차단 원인",
                 "group_id": "44338",
                 "req_frame_id": "133313",
@@ -954,7 +954,7 @@
             {
                 "position": 13,
                 "mnemonic": "MP_ETAT_DA_CITYPARK",
-                "label_index": "48317",
+                "label_index": "@P48317",
                 "label_korean": "스티어링 휠 제어 장치 상태",
                 "group_id": "44339",
                 "req_frame_id": "133316",
@@ -980,7 +980,7 @@
             {
                 "position": 14,
                 "mnemonic": "MP_CONSIGNE_ANGLE_VOLANT",
-                "label_index": "48250",
+                "label_index": "@P48250",
                 "label_korean": "스티어링 휠 각도 기준값",
                 "group_id": "44340",
                 "req_frame_id": "133319",
@@ -1002,7 +1002,7 @@
             {
                 "position": 15,
                 "mnemonic": "MP_VITESSE_ROTATION_VOLANT",
-                "label_index": "7009",
+                "label_index": "@F7009",
                 "label_korean": "스티어링 휠의 회전 속도",
                 "group_id": "44341",
                 "req_frame_id": "133322",
@@ -1032,7 +1032,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_VITESSE_VEHICULE",
-                "label_index": "9267",
+                "label_index": "@F9267",
                 "label_korean": "차량 속도",
                 "group_id": "44325",
                 "req_frame_id": "133274",
@@ -1058,7 +1058,7 @@
             {
                 "position": 2,
                 "mnemonic": "MP_ANGLE_VOLANT",
-                "label_index": "22910",
+                "label_index": "@P22910",
                 "label_korean": "스티어링 휠 앵글",
                 "group_id": "44324",
                 "req_frame_id": "133271",
@@ -1076,13 +1076,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "27334, 49725, 8985",
-                "help_korean": "다운로딩\n- 후에 :\n차량은 변수 측정이 작동하도록 반드시 주행되어야 한다\n60km/h 이상의 속도"
+                "help_code": "@F27334@T :@\\n@P49725@\\n@F8985@\\*60",
+                "help_korean": "다운로딩 후에 :\n차량은 변수 측정이 작동하도록 반드시 주행되어야 한다\n60km/h 이상의 속도"
             },
             {
                 "position": 3,
                 "mnemonic": "MP_COUPLE_VOLANT",
-                "label_index": "37474",
+                "label_index": "@P37474",
                 "label_korean": "스티어링 휠 토크",
                 "group_id": "44334",
                 "req_frame_id": "133301",
@@ -1104,7 +1104,7 @@
             {
                 "position": 4,
                 "mnemonic": "MP_CMD_COUPLE_ASSIST",
-                "label_index": "48258",
+                "label_index": "@P48258",
                 "label_korean": "스티어링 지원 토크 요청됨",
                 "group_id": "44335",
                 "req_frame_id": "133304",
@@ -1126,7 +1126,7 @@
             {
                 "position": 4,
                 "mnemonic": "MP_CMD_COUPLE_ASSIST",
-                "label_index": "48258",
+                "label_index": "@P48258",
                 "label_korean": "스티어링 지원 토크 요청됨",
                 "group_id": "44335",
                 "req_frame_id": "133304",
@@ -1148,7 +1148,7 @@
             {
                 "position": 5,
                 "mnemonic": "MP_TENSION_BATTERIE",
-                "label_index": "27741",
+                "label_index": "@P27741",
                 "label_korean": "서비스 배터리 전압",
                 "group_id": "44327",
                 "req_frame_id": "133280",
@@ -1172,7 +1172,7 @@
             {
                 "position": 6,
                 "mnemonic": "MP_TEMPERATURE",
-                "label_index": "1101",
+                "label_index": "@P1101",
                 "label_korean": "파워 스티어링 ECU의 온도",
                 "group_id": "44328",
                 "req_frame_id": "133283",
@@ -1196,7 +1196,7 @@
             {
                 "position": 7,
                 "mnemonic": "MP_ETAT_FONCTIONNEMENT_MOTEUR_THERMIQUE",
-                "label_index": "20794",
+                "label_index": "@P20794",
                 "label_korean": "내연 기관 작동 상태",
                 "group_id": "44329",
                 "req_frame_id": "133286",
@@ -1239,7 +1239,7 @@
             {
                 "position": 8,
                 "mnemonic": "MP_ETAT_PLUS_APC",
-                "label_index": "48260",
+                "label_index": "@P48260",
                 "label_korean": "키 on 신호 상태",
                 "group_id": "44330",
                 "req_frame_id": "133289",
@@ -1264,7 +1264,7 @@
             {
                 "position": 9,
                 "mnemonic": "MP_ETAT_ASSIST_DA",
-                "label_index": "46867",
+                "label_index": "@P46867",
                 "label_korean": "파워 스티어링 지원 상태",
                 "group_id": "44331",
                 "req_frame_id": "133292",
@@ -1294,7 +1294,7 @@
             {
                 "position": 10,
                 "mnemonic": "MP_DERATING_TEMP_ON_OFF",
-                "label_index": "48295",
+                "label_index": "@P48295",
                 "label_korean": "과열 후 스티어링 지원 제한됨",
                 "group_id": "44332",
                 "req_frame_id": "133295",
@@ -1319,7 +1319,7 @@
             {
                 "position": 11,
                 "mnemonic": "MP_DMD_FCT_CITYPARK",
-                "label_index": "48321",
+                "label_index": "@P48321",
                 "label_korean": "반자동 주차 요청",
                 "group_id": "44337",
                 "req_frame_id": "133310",
@@ -1346,7 +1346,7 @@
             {
                 "position": 11,
                 "mnemonic": "MP_DMD_FCT_CITYPARK",
-                "label_index": "48321",
+                "label_index": "@P48321",
                 "label_korean": "반자동 주차 요청",
                 "group_id": "44337",
                 "req_frame_id": "133310",
@@ -1373,7 +1373,7 @@
             {
                 "position": 12,
                 "mnemonic": "MP_CAUSE_DESACT_CITYPARK",
-                "label_index": "35599",
+                "label_index": "@P35599",
                 "label_korean": "반자동 주차 시스템의 차단 원인",
                 "group_id": "44338",
                 "req_frame_id": "133313",
@@ -1404,7 +1404,7 @@
             {
                 "position": 13,
                 "mnemonic": "MP_ETAT_DA_CITYPARK",
-                "label_index": "48317",
+                "label_index": "@P48317",
                 "label_korean": "스티어링 휠 제어 장치 상태",
                 "group_id": "44339",
                 "req_frame_id": "133316",
@@ -1430,7 +1430,7 @@
             {
                 "position": 14,
                 "mnemonic": "MP_CONSIGNE_ANGLE_VOLANT",
-                "label_index": "48250",
+                "label_index": "@P48250",
                 "label_korean": "스티어링 휠 각도 기준값",
                 "group_id": "44340",
                 "req_frame_id": "133319",
@@ -1452,7 +1452,7 @@
             {
                 "position": 15,
                 "mnemonic": "MP_VITESSE_ROTATION_VOLANT",
-                "label_index": "7009",
+                "label_index": "@F7009",
                 "label_korean": "스티어링 휠의 회전 속도",
                 "group_id": "44341",
                 "req_frame_id": "133322",
@@ -1474,7 +1474,7 @@
             {
                 "position": 16,
                 "mnemonic": "MP_COUPLE_ASSIST",
-                "label_index": "48294",
+                "label_index": "@P48294",
                 "label_korean": "스티어링 지원 토크 측정됨",
                 "group_id": "매핑_누락",
                 "req_frame_id": "",

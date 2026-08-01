@@ -8,7 +8,7 @@
             {
                 "position": 1,
                 "mnemonic": "ID_REFERENCE_FOURNISSEUR",
-                "label_index": "633",
+                "label_index": "@P633",
                 "label_korean": "제조업체",
                 "group_id": "116371",
                 "req_frame_id": "349459",
@@ -34,7 +34,7 @@
             {
                 "position": 2,
                 "mnemonic": "ID_REF_CALCULATEUR",
-                "label_index": "9463",
+                "label_index": "@P9463",
                 "label_korean": "ECU 참조",
                 "group_id": "116371",
                 "req_frame_id": "349459",
@@ -56,7 +56,7 @@
             {
                 "position": 3,
                 "mnemonic": "ID_ORIGINE_CALCULO",
-                "label_index": "3601",
+                "label_index": "@P3601",
                 "label_korean": "원래 ECU",
                 "group_id": "116371",
                 "req_frame_id": "349459",
@@ -80,7 +80,7 @@
             {
                 "position": 4,
                 "mnemonic": "ID_VERSION_DIAGNOSTIC_new_1",
-                "label_index": "14029",
+                "label_index": "@P14029",
                 "label_korean": "진단 버전",
                 "group_id": "116371",
                 "req_frame_id": "349459",
@@ -102,7 +102,7 @@
             {
                 "position": 5,
                 "mnemonic": "ID_HARD",
-                "label_index": "12954",
+                "label_index": "@P12954",
                 "label_korean": "하드웨어 버전",
                 "group_id": "116371",
                 "req_frame_id": "349459",
@@ -124,7 +124,7 @@
             {
                 "position": 6,
                 "mnemonic": "Software_Version",
-                "label_index": "2358",
+                "label_index": "@P2358",
                 "label_korean": "소프트웨어 버전",
                 "group_id": "116371",
                 "req_frame_id": "349459",
@@ -146,7 +146,7 @@
             {
                 "position": 7,
                 "mnemonic": "ID_VIN_ORIGINE",
-                "label_index": "7959",
+                "label_index": "@P7959",
                 "label_korean": "차량 일련 번호 (원래 차대번호)",
                 "group_id": "116370",
                 "req_frame_id": "349456",
@@ -168,7 +168,7 @@
             {
                 "position": 8,
                 "mnemonic": "ID_VIN_ACTUEL",
-                "label_index": "15431",
+                "label_index": "@P15431",
                 "label_korean": "차량 일련 번호 (현재 차대번호)",
                 "group_id": "116373",
                 "req_frame_id": "349465",
@@ -198,7 +198,7 @@
             {
                 "position": 1,
                 "mnemonic": "MPETAVOYGNRL",
-                "label_index": "9146",
+                "label_index": "@P9146",
                 "label_korean": "일반적인 결함 LED",
                 "group_id": "116363",
                 "req_frame_id": "349435",
@@ -214,13 +214,13 @@
                 "bit_mask": 1,
                 "bit_shift": 0,
                 "dynamic_arg": "",
-                "help_code": "28114, 45331, 45332",
-                "help_korean": "확인하기\n- 위해 사용하는 변수 :\n- ECU에 결함이 존재하지 않음: \"꺼짐\"\n- 결함 코드가 존재함: \"켜짐\""
+                "help_code": "@P28114@\\n@P45331@\\n@P45332",
+                "help_korean": "확인하기 위해 사용하는 변수 :\nECU에 결함이 존재하지 않음: \"꺼짐\"\n결함 코드가 존재함: \"켜짐\""
             },
             {
                 "position": 2,
                 "mnemonic": "Passenger_Airbag_Disabled",
-                "label_index": "9642",
+                "label_index": "@P9642",
                 "label_korean": "승객석 에어백 차단 스위치의 위치",
                 "group_id": "116363",
                 "req_frame_id": "349435",
@@ -236,13 +236,13 @@
                 "bit_mask": 8,
                 "bit_shift": 3,
                 "dynamic_arg": "",
-                "help_code": "28114, 45313",
-                "help_korean": "확인하기\n- 위해 사용하는 변수 :\n- 승객석 에어백 차단 스위치 위치: \"켜짐\" 또는 \"꺼짐\""
+                "help_code": "@P28114@\\n@P45313",
+                "help_korean": "확인하기 위해 사용하는 변수 :\n승객석 에어백 차단 스위치 위치: \"켜짐\" 또는 \"꺼짐\""
             },
             {
                 "position": 3,
                 "mnemonic": "MPETAVOYCOMNEUT",
-                "label_index": "7784",
+                "label_index": "@P7784",
                 "label_korean": "승객석 에어백 차단 경고등",
                 "group_id": "116363",
                 "req_frame_id": "349435",
@@ -258,8 +258,8 @@
                 "bit_mask": 16,
                 "bit_shift": 4,
                 "dynamic_arg": "",
-                "help_code": "28114, 45320, 45319",
-                "help_korean": "확인하기\n- 위해 사용하는 변수 :\n- 에어백 작동 상태: \"꺼짐\"\n- 스위치를 통한 승객석 에어백 차단: \"켜짐\""
+                "help_code": "@P28114@\\n@P45320@\\n@P45319",
+                "help_korean": "확인하기 위해 사용하는 변수 :\n에어백 작동 상태: \"꺼짐\"\n스위치를 통한 승객석 에어백 차단: \"켜짐\""
             }
         ]
     },
@@ -272,7 +272,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_COUGONPASS1",
-                "label_index": "9846",
+                "label_index": "@P9846",
                 "label_korean": "승객석 에어백",
                 "group_id": "116368",
                 "req_frame_id": "349450",
@@ -288,13 +288,13 @@
                 "bit_mask": 64,
                 "bit_shift": 6,
                 "dynamic_arg": "",
-                "help_code": "28114, 28109, 25212, 28103, 11624",
-                "help_korean": "확인하기\n- 위해 사용하는 변수 :\n- 차량에 에어백의 장착 : � 예 �\n- 차량에서 에어백의 부재 : � 아니오 �"
+                "help_code": "@P28114@\\n@P28109@T : � @P25212@T �@\\n@P28103@T : � @P11624@T �",
+                "help_korean": "확인하기 위해 사용하는 변수 :\n차량에 에어백의 장착 : � 예 �\n차량에서 에어백의 부재 : � 아니오 �"
             },
             {
                 "position": 2,
                 "mnemonic": "CFG_AIU_RBG_AB_GEN_CD_000",
-                "label_index": "15803",
+                "label_index": "@P15803",
                 "label_korean": "운전석 스티어링 컬럼 에어백",
                 "group_id": "116368",
                 "req_frame_id": "349450",
@@ -313,13 +313,13 @@
                 "bit_mask": 2,
                 "bit_shift": 1,
                 "dynamic_arg": "",
-                "help_code": "28114, 28109, 25212, 28103, 11624",
-                "help_korean": "확인하기\n- 위해 사용하는 변수 :\n- 차량에 에어백의 장착 : � 예 �\n- 차량에서 에어백의 부재 : � 아니오 �"
+                "help_code": "@P28114@\\n@P28109@T : � @P25212@T �@\\n@P28103@T : � @P11624@T �",
+                "help_korean": "확인하기 위해 사용하는 변수 :\n차량에 에어백의 장착 : � 예 �\n차량에서 에어백의 부재 : � 아니오 �"
             },
             {
                 "position": 3,
                 "mnemonic": "CFG_AJ5_RBG_ACT_INHIB_000",
-                "label_index": "4107",
+                "label_index": "@P4107",
                 "label_korean": "승객석 에어백 차단 스위치",
                 "group_id": "116368",
                 "req_frame_id": "349450",
@@ -338,13 +338,13 @@
                 "bit_mask": 16,
                 "bit_shift": 4,
                 "dynamic_arg": "",
-                "help_code": "28114, 45321, 45322",
-                "help_korean": "확인하기\n- 위해 사용하는 변수 :\n- 승객석 에어백 차단 스위치 있음: \"예\"\n- 승객석 에어백 차단 스위치 없음: \"아니오\""
+                "help_code": "@P28114@\\n@P45321@\\n@P45322",
+                "help_korean": "확인하기 위해 사용하는 변수 :\n승객석 에어백 차단 스위치 있음: \"예\"\n승객석 에어백 차단 스위치 없음: \"아니오\""
             },
             {
                 "position": 4,
                 "mnemonic": "Driver_Airbag_Disable_DAD_Switch",
-                "label_index": "2736",
+                "label_index": "@P2736",
                 "label_korean": "운전석 에어백 차단 스위치",
                 "group_id": "116368",
                 "req_frame_id": "349450",
@@ -360,8 +360,8 @@
                 "bit_mask": 4,
                 "bit_shift": 2,
                 "dynamic_arg": "",
-                "help_code": "28114, 45323, 45324",
-                "help_korean": "확인하기\n- 위해 사용하는 변수 :\n- 운전석 에어백 차단 스위치 있음: \"예\"\n- 운전석 에어백 차단 스위치 없음: \"아니오\""
+                "help_code": "@P28114@\\n@P45323@\\n@P45324",
+                "help_korean": "확인하기 위해 사용하는 변수 :\n운전석 에어백 차단 스위치 있음: \"예\"\n운전석 에어백 차단 스위치 없음: \"아니오\""
             }
         ]
     },
@@ -374,7 +374,7 @@
             {
                 "position": 1,
                 "mnemonic": "CFG_AJ0_RBG_ABLT_AV_D_000",
-                "label_index": "15738",
+                "label_index": "@P15738",
                 "label_korean": "프론트 우측 에어백",
                 "group_id": "116368",
                 "req_frame_id": "349450",
@@ -393,13 +393,13 @@
                 "bit_mask": 4,
                 "bit_shift": 2,
                 "dynamic_arg": "",
-                "help_code": "28114, 28109, 25212, 28103, 11624",
-                "help_korean": "확인하기\n- 위해 사용하는 변수 :\n- 차량에 에어백의 장착 : � 예 �\n- 차량에서 에어백의 부재 : � 아니오 �"
+                "help_code": "@P28114@\\n@P28109@T : � @P25212@T �@\\n@P28103@T : � @P11624@T �",
+                "help_korean": "확인하기 위해 사용하는 변수 :\n차량에 에어백의 장착 : � 예 �\n차량에서 에어백의 부재 : � 아니오 �"
             },
             {
                 "position": 2,
                 "mnemonic": "CFG_AJ1_RBG_ABLT_AV_G_000",
-                "label_index": "3368",
+                "label_index": "@P3368",
                 "label_korean": "프론트 좌측 에어백",
                 "group_id": "116368",
                 "req_frame_id": "349450",
@@ -418,13 +418,13 @@
                 "bit_mask": 8,
                 "bit_shift": 3,
                 "dynamic_arg": "",
-                "help_code": "28114, 28109, 25212, 28103, 11624",
-                "help_korean": "확인하기\n- 위해 사용하는 변수 :\n- 차량에 에어백의 장착 : � 예 �\n- 차량에서 에어백의 부재 : � 아니오 �"
+                "help_code": "@P28114@\\n@P28109@T : � @P25212@T �@\\n@P28103@T : � @P11624@T �",
+                "help_korean": "확인하기 위해 사용하는 변수 :\n차량에 에어백의 장착 : � 예 �\n차량에서 에어백의 부재 : � 아니오 �"
             },
             {
                 "position": 3,
                 "mnemonic": "CFG_AJ2_RBG_ABLT_RID_D_000",
-                "label_index": "6311",
+                "label_index": "@P6311",
                 "label_korean": "우측 측면 에어백",
                 "group_id": "116368",
                 "req_frame_id": "349450",
@@ -443,13 +443,13 @@
                 "bit_mask": 16,
                 "bit_shift": 4,
                 "dynamic_arg": "",
-                "help_code": "28114, 28109, 25212, 28103, 11624",
-                "help_korean": "확인하기\n- 위해 사용하는 변수 :\n- 차량에 에어백의 장착 : � 예 �\n- 차량에서 에어백의 부재 : � 아니오 �"
+                "help_code": "@P28114@\\n@P28109@T : � @P25212@T �@\\n@P28103@T : � @P11624@T �",
+                "help_korean": "확인하기 위해 사용하는 변수 :\n차량에 에어백의 장착 : � 예 �\n차량에서 에어백의 부재 : � 아니오 �"
             },
             {
                 "position": 4,
                 "mnemonic": "CFG_AJ3_RBG_ABLT_RID_G_000",
-                "label_index": "7875",
+                "label_index": "@P7875",
                 "label_korean": "좌측 측면 에어백",
                 "group_id": "116368",
                 "req_frame_id": "349450",
@@ -468,8 +468,8 @@
                 "bit_mask": 8,
                 "bit_shift": 3,
                 "dynamic_arg": "",
-                "help_code": "28114, 28109, 25212, 28103, 11624",
-                "help_korean": "확인하기\n- 위해 사용하는 변수 :\n- 차량에 에어백의 장착 : � 예 �\n- 차량에서 에어백의 부재 : � 아니오 �"
+                "help_code": "@P28114@\\n@P28109@T : � @P25212@T �@\\n@P28103@T : � @P11624@T �",
+                "help_korean": "확인하기 위해 사용하는 변수 :\n차량에 에어백의 장착 : � 예 �\n차량에서 에어백의 부재 : � 아니오 �"
             }
         ]
     },
@@ -482,7 +482,7 @@
             {
                 "position": 1,
                 "mnemonic": "CA_ODOMETRE",
-                "label_index": "12961",
+                "label_index": "@P12961",
                 "label_korean": "주행 거리계",
                 "group_id": "116388",
                 "req_frame_id": "349510",
@@ -506,7 +506,7 @@
             {
                 "position": 2,
                 "mnemonic": "CA_MinACCUMULEES",
-                "label_index": "11104",
+                "label_index": "@P11104",
                 "label_korean": "누적 분",
                 "group_id": "116377",
                 "req_frame_id": "349477",
@@ -528,7 +528,7 @@
             {
                 "position": 3,
                 "mnemonic": "CA_CycleALLUMAGE",
-                "label_index": "13273",
+                "label_index": "@P13273",
                 "label_korean": "점등 사이클",
                 "group_id": "116377",
                 "req_frame_id": "349477",

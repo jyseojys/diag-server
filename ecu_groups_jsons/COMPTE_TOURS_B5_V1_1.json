@@ -8,7 +8,7 @@
             {
                 "position": 1,
                 "mnemonic": "ID_REFERENCE_FOURNISSEUR",
-                "label_index": "633",
+                "label_index": "@P633",
                 "label_korean": "제조업체",
                 "group_id": "151892",
                 "req_frame_id": "456019",
@@ -34,8 +34,8 @@
             {
                 "position": 2,
                 "mnemonic": "ID_REF_PSA_new_1",
-                "label_index": "9417",
-                "label_korean": "하드부품 번호",
+                "label_index": "@P9417@\\*",
+                "label_korean": "하드 부품 번호",
                 "group_id": "151892",
                 "req_frame_id": "456019",
                 "resp_frame_id": "456020",
@@ -56,7 +56,7 @@
             {
                 "position": 3,
                 "mnemonic": "ID_NUM_COMP_new_2",
-                "label_index": "5292",
+                "label_index": "@P5292",
                 "label_korean": "추가 번호",
                 "group_id": "151892",
                 "req_frame_id": "456019",
@@ -78,7 +78,7 @@
             {
                 "position": 4,
                 "mnemonic": "ID_VERSION_LOGICIEL_new_1",
-                "label_index": "8662",
+                "label_index": "@P8662@\\*",
                 "label_korean": "소프트웨어 버전",
                 "group_id": "151892",
                 "req_frame_id": "456019",
@@ -100,7 +100,7 @@
             {
                 "position": 5,
                 "mnemonic": "ID_MESS_DIAGNOSTIC",
-                "label_index": "2459",
+                "label_index": "@P2459",
                 "label_korean": "진단 이메일",
                 "group_id": "151892",
                 "req_frame_id": "456019",
@@ -122,7 +122,7 @@
             {
                 "position": 6,
                 "mnemonic": "ID_80_MP_INDICE_MESS",
-                "label_index": "2225",
+                "label_index": "@P2225",
                 "label_korean": "메시지 인덱스",
                 "group_id": "151892",
                 "req_frame_id": "456019",
@@ -152,7 +152,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_TYPE_MOTORISATION",
-                "label_index": "6573",
+                "label_index": "@P6573",
                 "label_korean": "엔진 타입",
                 "group_id": "151894",
                 "req_frame_id": "456025",
@@ -182,13 +182,13 @@
                 "bit_mask": 192,
                 "bit_shift": 6,
                 "dynamic_arg": "",
-                "help_code": "42963, 42964, 42965, 42966",
-                "help_korean": "엔진 타입에 따라, 엔진 회전 카운터가 레드 존으로 진입하는 이상의 엔진\n- 속도 값을 설정한다\n가솔린 스포츠 (7150rpm에서 레드존) :\n- EW10J4S 엔진\n가솔린 기본 (7150rpm에서 레드존) :\n- 다른 가솔린 엔진\n디젤 기본 (7150rpm에서 레드존) : 모든 디젤 엔진"
+                "help_code": "@P42963@\\n@P42964@\\*7150@\\n@P42965@\\*6200@\\n@P42966@\\*4700",
+                "help_korean": "엔진 타입에 따라, 엔진 회전 카운터가 레드 존으로 진입하는 이상의 엔진 속도 값을 설정한다\n가솔린 스포츠 (7150rpm에서 레드존) : EW10J4S 엔진\n가솔린 기본 (7150rpm에서 레드존) : 다른 가솔린 엔진\n디젤 기본 (7150rpm에서 레드존) : 모든 디젤 엔진"
             },
             {
                 "position": 2,
                 "mnemonic": "MP_BOUTON_BLACK_PANEL",
-                "label_index": "8881",
+                "label_index": "@P8881",
                 "label_korean": "블랙 패널 기능",
                 "group_id": "151894",
                 "req_frame_id": "456025",
@@ -204,7 +204,7 @@
                 "bit_mask": 16,
                 "bit_shift": 4,
                 "dynamic_arg": "",
-                "help_code": "42967, 42968, 42969, 42970",
+                "help_code": "@P42967@\\+@T :@\\n@P42968@T.@\\n@P42969@T.@\\n@P42970@T.",
                 "help_korean": "블랙 패널 모드에서 :\n차량에 자동 변속기가 없을 경우, 회전 카운터는 점등되지 않는다.\n차량에 자동 변속기가 있을 경우, 장치만 자동 변속기 표시계를 표시한다.\n블랙 패널 모드는 라디오에서 \"다크\"버튼을 사용해서 작동할 수 있다."
             }
         ]

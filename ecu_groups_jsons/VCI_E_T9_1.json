@@ -8,7 +8,7 @@
             {
                 "position": 1,
                 "mnemonic": "ID_NOM_DU_FOURNISSEUR",
-                "label_index": "5701",
+                "label_index": "@P5701",
                 "label_korean": "제조 업체명",
                 "group_id": "28438",
                 "req_frame_id": "85319",
@@ -38,7 +38,7 @@
             {
                 "position": 2,
                 "mnemonic": "ID_REFERENCE_MATERIEL",
-                "label_index": "1071",
+                "label_index": "@P1071",
                 "label_korean": "장치 부품 번호",
                 "group_id": "28438",
                 "req_frame_id": "85319",
@@ -60,7 +60,7 @@
             {
                 "position": 3,
                 "mnemonic": "ID_REFERENCE_COMPLEMENTAIRE_MATERIEL",
-                "label_index": "1634",
+                "label_index": "@P1634",
                 "label_korean": "장치 추가 참조 번호",
                 "group_id": "28438",
                 "req_frame_id": "85319",
@@ -82,7 +82,7 @@
             {
                 "position": 4,
                 "mnemonic": "ID_TRACABILITE_INDICE_EVOLUTION_EDITION",
-                "label_index": "24601",
+                "label_index": "@P24601",
                 "label_korean": "소프트웨어 버전",
                 "group_id": "28438",
                 "req_frame_id": "85319",
@@ -104,7 +104,7 @@
             {
                 "position": 5,
                 "mnemonic": "ID_MESS_DIAGNOSTIC",
-                "label_index": "2459",
+                "label_index": "@P2459",
                 "label_korean": "진단 이메일",
                 "group_id": "28438",
                 "req_frame_id": "85319",
@@ -126,7 +126,7 @@
             {
                 "position": 6,
                 "mnemonic": "ID_80_MP_INDICE_MESS",
-                "label_index": "2225",
+                "label_index": "@P2225",
                 "label_korean": "메시지 인덱스",
                 "group_id": "28438",
                 "req_frame_id": "85319",
@@ -148,7 +148,7 @@
             {
                 "position": 7,
                 "mnemonic": "ID_TRACABILITE_DATE_FABRICATION",
-                "label_index": "14355",
+                "label_index": "@P14355",
                 "label_korean": "제조일자",
                 "group_id": "28439",
                 "req_frame_id": "85322",
@@ -170,7 +170,7 @@
             {
                 "position": 8,
                 "mnemonic": "ID_TRACABILITE_NUMERO_DE_SERIE_PIECE",
-                "label_index": "7592",
+                "label_index": "@P7592",
                 "label_korean": "부품 일련 번호",
                 "group_id": "28440",
                 "req_frame_id": "85325",
@@ -200,7 +200,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_MOLETTE_RADIO",
-                "label_index": "17252",
+                "label_index": "@P17252",
                 "label_korean": "라디오 컨트롤 다이얼",
                 "group_id": "28444",
                 "req_frame_id": "85337",
@@ -216,13 +216,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "26310, 26352, 18869",
-                "help_korean": "라디오 다이얼은 저장된 라디오 채널에 접속하는 데 사용한다.\n라디오 다이얼은 VCI의 우측 모듈에 위치해 있다.\n-128 에서 127 사이로 증가하는 값"
+                "help_code": "@P26310@T.@\\n@P26352@T. @\\n@P18869@\\*128@\\*127",
+                "help_korean": "라디오 다이얼은 저장된 라디오 채널에 접속하는 데 사용한다.\n라디오 다이얼은 VCI의 우측 모듈에 위치해 있다.\n-128 에서 +127 사이로 증가하는 값"
             },
             {
                 "position": 2,
                 "mnemonic": "MP_VALID_MOLETTE_RADIO",
-                "label_index": "17166",
+                "label_index": "@P17166",
                 "label_korean": "라디오 컨트롤 확인 버튼",
                 "group_id": "28457",
                 "req_frame_id": "85376",
@@ -238,13 +238,13 @@
                 "bit_mask": 64,
                 "bit_shift": 6,
                 "dynamic_arg": "",
-                "help_code": "26298, 34411",
+                "help_code": "@P26298@T.@\\n@P34411@T.",
                 "help_korean": "라디오 다이얼 확인 버튼은 라디오 메뉴에서 선택을 하는데 사용한다.\n라디오 다이얼 확인 버튼은 VCI의 우측 모듈에 위치해 있다."
             },
             {
                 "position": 3,
                 "mnemonic": "MP_TOUCHE_TEL_LISTE",
-                "label_index": "18564",
+                "label_index": "@P18564@\\*TEL / LIST",
                 "label_korean": "버튼TEL / LIST",
                 "group_id": "28456",
                 "req_frame_id": "85373",
@@ -266,7 +266,7 @@
             {
                 "position": 4,
                 "mnemonic": "MP_TOUCHE_SOURCE",
-                "label_index": "8241",
+                "label_index": "@P8241",
                 "label_korean": "소스 버튼",
                 "group_id": "28452",
                 "req_frame_id": "85361",
@@ -285,13 +285,13 @@
                 "bit_mask": 64,
                 "bit_shift": 6,
                 "dynamic_arg": "",
-                "help_code": "26288, 26290",
+                "help_code": "@P26288@T.@\\n@P26290@T.",
                 "help_korean": "\"소스\" 버튼은 오디오 소스를 선택하는 데 사용한다.\n\"소스\" 버튼은 VCI의 좌측 모듈에 위치해 있다."
             },
             {
                 "position": 5,
                 "mnemonic": "MP_MOLETTE_VOLUME",
-                "label_index": "19215",
+                "label_index": "@P19215",
                 "label_korean": "볼륨 스위치",
                 "group_id": "28472",
                 "req_frame_id": "85421",
@@ -307,13 +307,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "26337, 48903, 18869",
-                "help_korean": "볼륨 다이얼은 오디오 소스의 사운드를 줄이거나 늘리는데 사용한다.\n볼륨 다이얼은 내장 스위치가 있는 스티어링 휠 LH 모듈에 위치한다.\n-128 에서 127 사이로 증가하는 값."
+                "help_code": "@P26337@T.@\\n@P48903@T.@\\n@P18869@\\*128@\\*127@T.",
+                "help_korean": "볼륨 다이얼은 오디오 소스의 사운드를 줄이거나 늘리는데 사용한다.\n볼륨 다이얼은 내장 스위치가 있는 스티어링 휠 LH 모듈에 위치한다.\n-128 에서 +127 사이로 증가하는 값."
             },
             {
                 "position": 6,
                 "mnemonic": "MP_VALID_MOLETTE_VOLUME",
-                "label_index": "31062",
+                "label_index": "@P31062",
                 "label_korean": "볼륨 제어 확인 버튼",
                 "group_id": "28474",
                 "req_frame_id": "85427",
@@ -329,7 +329,7 @@
                 "bit_mask": 64,
                 "bit_shift": 6,
                 "dynamic_arg": "",
-                "help_code": "26311, 40070",
+                "help_code": "@P26311@T.@\\n@P40070@T.",
                 "help_korean": "볼륨 다이얼 확인 버튼은 일시적으로 오디오 소스 사운드를 소거하는 데 사용한다.\n라디오 다이얼 확인 버튼은 VCI의 좌측 모듈에 위치해 있다."
             }
         ]
@@ -343,7 +343,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_MOLETTE_RADIO",
-                "label_index": "17252",
+                "label_index": "@P17252",
                 "label_korean": "라디오 컨트롤 다이얼",
                 "group_id": "28444",
                 "req_frame_id": "85337",
@@ -359,13 +359,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "36185, 18869",
-                "help_korean": "라디오 다이얼은 스위치가 내장된 스티어링 휠의 상단 우측 모듈에 위치해 있다.\n-128 에서 127 사이로 증가하는 값"
+                "help_code": "@P36185@T.@\\n@P18869@\\*128@\\*127",
+                "help_korean": "라디오 다이얼은 스위치가 내장된 스티어링 휠의 상단 우측 모듈에 위치해 있다.\n-128 에서 +127 사이로 증가하는 값"
             },
             {
                 "position": 2,
                 "mnemonic": "MP_VALID_MOLETTE_RADIO",
-                "label_index": "17166",
+                "label_index": "@P17166",
                 "label_korean": "라디오 컨트롤 확인 버튼",
                 "group_id": "28457",
                 "req_frame_id": "85376",
@@ -381,13 +381,13 @@
                 "bit_mask": 64,
                 "bit_shift": 6,
                 "dynamic_arg": "",
-                "help_code": "26298, 34411",
+                "help_code": "@P26298@T.@\\n@P34411@T.",
                 "help_korean": "라디오 다이얼 확인 버튼은 라디오 메뉴에서 선택을 하는데 사용한다.\n라디오 다이얼 확인 버튼은 VCI의 우측 모듈에 위치해 있다."
             },
             {
                 "position": 3,
                 "mnemonic": "MP_TOUCHE_SOURCE_TELEPHONE",
-                "label_index": "18831",
+                "label_index": "@P18831",
                 "label_korean": "SOURCE / TELEPHONE 버튼",
                 "group_id": "28454",
                 "req_frame_id": "85367",
@@ -409,7 +409,7 @@
             {
                 "position": 4,
                 "mnemonic": "MP_TOUCHE_MODE_1",
-                "label_index": "12533",
+                "label_index": "@P12533",
                 "label_korean": "모드 버튼",
                 "group_id": "28455",
                 "req_frame_id": "85370",
@@ -425,13 +425,13 @@
                 "bit_mask": 64,
                 "bit_shift": 6,
                 "dynamic_arg": "",
-                "help_code": "18865",
+                "help_code": "@P18865@T.",
                 "help_korean": "이 버튼은 차량 장치에 따라, 다기능 스크린 또는 네비게이션 스크린에서 조정을 위한 것이다."
             },
             {
                 "position": 5,
                 "mnemonic": "MP_TOUCHE_LISTE_1",
-                "label_index": "11746",
+                "label_index": "@P11746",
                 "label_korean": "리스트 버튼",
                 "group_id": "28456",
                 "req_frame_id": "85373",
@@ -456,7 +456,7 @@
             {
                 "position": 6,
                 "mnemonic": "MP_MOLETTE_NAVIGATION_COMBINE",
-                "label_index": "18812",
+                "label_index": "@P18812",
                 "label_korean": "계기판 네비게이션 다이얼",
                 "group_id": "28446",
                 "req_frame_id": "85343",
@@ -472,13 +472,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "19208, 19307, 18844",
-                "help_korean": "이 스위치는 차량의 장치 레벨에 따라 계기판에 내장된 매트릭스 스크린 또는 도트 스크린에서 조정을 위한 것이다. VCI 좌측 상단 모듈에 위치해 있다 .과 사이에서 축정된 값-128 127"
+                "help_code": "@P19208@T. @P19307@T .@P18844@\\*-128@\\*+127",
+                "help_korean": "이 스위치는 차량의 장치 레벨에 따라 계기판에 내장된 매트릭스 스크린 또는 도트 스크린에서 조정을 위한 것이다. VCI 좌측 상단 모듈에 위치해 있다 .과 사이에서 축정된 값-128+127"
             },
             {
                 "position": 7,
                 "mnemonic": "MP_PUSH_MOLETTE_NAVIGATION_COMBINE",
-                "label_index": "18807",
+                "label_index": "@P18807",
                 "label_korean": "계기판 네비게이션 제어 확인 버튼",
                 "group_id": "28461",
                 "req_frame_id": "85388",
@@ -500,7 +500,7 @@
             {
                 "position": 8,
                 "mnemonic": "MP_AUGMENTATION_VOLUME_SONORE",
-                "label_index": "3956",
+                "label_index": "@P3956",
                 "label_korean": "볼륨 증가",
                 "group_id": "28450",
                 "req_frame_id": "85355",
@@ -522,7 +522,7 @@
             {
                 "position": 9,
                 "mnemonic": "MP_DIMINUTION_VOLUME_SONORE",
-                "label_index": "1541",
+                "label_index": "@P1541",
                 "label_korean": "볼륨 감소",
                 "group_id": "28451",
                 "req_frame_id": "85358",
@@ -552,7 +552,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_MOLETTE_RADIO",
-                "label_index": "17252",
+                "label_index": "@P17252",
                 "label_korean": "라디오 컨트롤 다이얼",
                 "group_id": "28444",
                 "req_frame_id": "85337",
@@ -568,13 +568,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "36185, 18869",
-                "help_korean": "라디오 다이얼은 스위치가 내장된 스티어링 휠의 상단 우측 모듈에 위치해 있다.\n-128 에서 127 사이로 증가하는 값"
+                "help_code": "@P36185@T.@\\n@P18869@\\*128@\\*127",
+                "help_korean": "라디오 다이얼은 스위치가 내장된 스티어링 휠의 상단 우측 모듈에 위치해 있다.\n-128 에서 +127 사이로 증가하는 값"
             },
             {
                 "position": 2,
                 "mnemonic": "MP_VALID_MOLETTE_RADIO",
-                "label_index": "17166",
+                "label_index": "@P17166",
                 "label_korean": "라디오 컨트롤 확인 버튼",
                 "group_id": "28457",
                 "req_frame_id": "85376",
@@ -590,13 +590,13 @@
                 "bit_mask": 64,
                 "bit_shift": 6,
                 "dynamic_arg": "",
-                "help_code": "26298, 34411",
+                "help_code": "@P26298@T.@\\n@P34411@T.",
                 "help_korean": "라디오 다이얼 확인 버튼은 라디오 메뉴에서 선택을 하는데 사용한다.\n라디오 다이얼 확인 버튼은 VCI의 우측 모듈에 위치해 있다."
             },
             {
                 "position": 3,
                 "mnemonic": "MP_TOUCHE_SOURCE_TELEPHONE",
-                "label_index": "18831",
+                "label_index": "@P18831",
                 "label_korean": "SOURCE / TELEPHONE 버튼",
                 "group_id": "28454",
                 "req_frame_id": "85367",
@@ -618,7 +618,7 @@
             {
                 "position": 4,
                 "mnemonic": "MP_TOUCHE_LISTE_1",
-                "label_index": "11746",
+                "label_index": "@P11746",
                 "label_korean": "리스트 버튼",
                 "group_id": "28456",
                 "req_frame_id": "85373",
@@ -643,7 +643,7 @@
             {
                 "position": 5,
                 "mnemonic": "MP_AUGMENTATION_VOLUME_SONORE",
-                "label_index": "3956",
+                "label_index": "@P3956",
                 "label_korean": "볼륨 증가",
                 "group_id": "28450",
                 "req_frame_id": "85355",
@@ -665,7 +665,7 @@
             {
                 "position": 6,
                 "mnemonic": "MP_DIMINUTION_VOLUME_SONORE",
-                "label_index": "1541",
+                "label_index": "@P1541",
                 "label_korean": "볼륨 감소",
                 "group_id": "28451",
                 "req_frame_id": "85358",
@@ -687,7 +687,7 @@
             {
                 "position": 7,
                 "mnemonic": "MP_MOLETTE_XVV",
-                "label_index": "17120",
+                "label_index": "@P17120",
                 "label_korean": "크루즈 컨트롤/스피드 리미터를 위한 3-포지션 스위치",
                 "group_id": "28453",
                 "req_frame_id": "85364",
@@ -703,7 +703,7 @@
                 "bit_mask": 96,
                 "bit_shift": 5,
                 "dynamic_arg": "",
-                "help_code": "34412",
+                "help_code": "@P34412",
                 "help_korean": "크루즈 컨트롤 모듈을 사용해서 크루즈 컨트롤 또는 스피드 리미터의 켜짐 또는 꺼짐 요청에 해당한다"
             }
         ]
@@ -717,7 +717,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_VALID_MOLETTE_RADIO",
-                "label_index": "17166",
+                "label_index": "@P17166",
                 "label_korean": "라디오 컨트롤 확인 버튼",
                 "group_id": "28457",
                 "req_frame_id": "85376",
@@ -733,7 +733,7 @@
                 "bit_mask": 64,
                 "bit_shift": 6,
                 "dynamic_arg": "",
-                "help_code": "26298, 34411",
+                "help_code": "@P26298@T.@\\n@P34411@T.",
                 "help_korean": "라디오 다이얼 확인 버튼은 라디오 메뉴에서 선택을 하는데 사용한다.\n라디오 다이얼 확인 버튼은 VCI의 우측 모듈에 위치해 있다."
             }
         ]
@@ -747,7 +747,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_MOLETTE_RADIO",
-                "label_index": "17252",
+                "label_index": "@P17252",
                 "label_korean": "라디오 컨트롤 다이얼",
                 "group_id": "28444",
                 "req_frame_id": "85337",
@@ -763,13 +763,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "36185, 18869",
-                "help_korean": "라디오 다이얼은 스위치가 내장된 스티어링 휠의 상단 우측 모듈에 위치해 있다.\n-128 에서 127 사이로 증가하는 값"
+                "help_code": "@P36185@T.@\\n@P18869@\\*128@\\*127",
+                "help_korean": "라디오 다이얼은 스위치가 내장된 스티어링 휠의 상단 우측 모듈에 위치해 있다.\n-128 에서 +127 사이로 증가하는 값"
             },
             {
                 "position": 2,
                 "mnemonic": "MP_VALID_MOLETTE_RADIO",
-                "label_index": "17166",
+                "label_index": "@P17166",
                 "label_korean": "라디오 컨트롤 확인 버튼",
                 "group_id": "28457",
                 "req_frame_id": "85376",
@@ -785,13 +785,13 @@
                 "bit_mask": 64,
                 "bit_shift": 6,
                 "dynamic_arg": "",
-                "help_code": "26298, 34411",
+                "help_code": "@P26298@T.@\\n@P34411@T.",
                 "help_korean": "라디오 다이얼 확인 버튼은 라디오 메뉴에서 선택을 하는데 사용한다.\n라디오 다이얼 확인 버튼은 VCI의 우측 모듈에 위치해 있다."
             },
             {
                 "position": 3,
                 "mnemonic": "MP_TOUCHE_SOURCE_TELEPHONE",
-                "label_index": "18831",
+                "label_index": "@P18831",
                 "label_korean": "SOURCE / TELEPHONE 버튼",
                 "group_id": "28454",
                 "req_frame_id": "85367",
@@ -813,7 +813,7 @@
             {
                 "position": 4,
                 "mnemonic": "MP_TOUCHE_MODE_1",
-                "label_index": "12533",
+                "label_index": "@P12533",
                 "label_korean": "모드 버튼",
                 "group_id": "28455",
                 "req_frame_id": "85370",
@@ -829,13 +829,13 @@
                 "bit_mask": 64,
                 "bit_shift": 6,
                 "dynamic_arg": "",
-                "help_code": "18865",
+                "help_code": "@P18865@T.",
                 "help_korean": "이 버튼은 차량 장치에 따라, 다기능 스크린 또는 네비게이션 스크린에서 조정을 위한 것이다."
             },
             {
                 "position": 5,
                 "mnemonic": "MP_TOUCHE_LISTE_1",
-                "label_index": "11746",
+                "label_index": "@P11746",
                 "label_korean": "리스트 버튼",
                 "group_id": "28456",
                 "req_frame_id": "85373",
@@ -860,7 +860,7 @@
             {
                 "position": 6,
                 "mnemonic": "MP_MOLETTE_NAVIGATION_COMBINE",
-                "label_index": "18812",
+                "label_index": "@P18812",
                 "label_korean": "계기판 네비게이션 다이얼",
                 "group_id": "28446",
                 "req_frame_id": "85343",
@@ -876,13 +876,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "19208, 19307, 18844",
-                "help_korean": "이 스위치는 차량의 장치 레벨에 따라 계기판에 내장된 매트릭스 스크린 또는 도트 스크린에서 조정을 위한 것이다. VCI 좌측 상단 모듈에 위치해 있다 .과 사이에서 축정된 값-128 127"
+                "help_code": "@P19208@T. @P19307@T .@P18844@\\*-128@\\*+127",
+                "help_korean": "이 스위치는 차량의 장치 레벨에 따라 계기판에 내장된 매트릭스 스크린 또는 도트 스크린에서 조정을 위한 것이다. VCI 좌측 상단 모듈에 위치해 있다 .과 사이에서 축정된 값-128+127"
             },
             {
                 "position": 7,
                 "mnemonic": "MP_PUSH_MOLETTE_NAVIGATION_COMBINE",
-                "label_index": "18807",
+                "label_index": "@P18807",
                 "label_korean": "계기판 네비게이션 제어 확인 버튼",
                 "group_id": "28461",
                 "req_frame_id": "85388",
@@ -904,7 +904,7 @@
             {
                 "position": 8,
                 "mnemonic": "MP_AUGMENTATION_VOLUME_SONORE",
-                "label_index": "3956",
+                "label_index": "@P3956",
                 "label_korean": "볼륨 증가",
                 "group_id": "28450",
                 "req_frame_id": "85355",
@@ -926,7 +926,7 @@
             {
                 "position": 9,
                 "mnemonic": "MP_DIMINUTION_VOLUME_SONORE",
-                "label_index": "1541",
+                "label_index": "@P1541",
                 "label_korean": "볼륨 감소",
                 "group_id": "28451",
                 "req_frame_id": "85358",
@@ -948,7 +948,7 @@
             {
                 "position": 10,
                 "mnemonic": "MP_MOLETTE_XVV",
-                "label_index": "17120",
+                "label_index": "@P17120",
                 "label_korean": "크루즈 컨트롤/스피드 리미터를 위한 3-포지션 스위치",
                 "group_id": "28453",
                 "req_frame_id": "85364",
@@ -964,7 +964,7 @@
                 "bit_mask": 96,
                 "bit_shift": 5,
                 "dynamic_arg": "",
-                "help_code": "34412",
+                "help_code": "@P34412",
                 "help_korean": "크루즈 컨트롤 모듈을 사용해서 크루즈 컨트롤 또는 스피드 리미터의 켜짐 또는 꺼짐 요청에 해당한다"
             }
         ]
@@ -978,7 +978,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_REGUL_ON_OFF",
-                "label_index": "13502",
+                "label_index": "@P13502",
                 "label_korean": "스피드 리미터/크루즈 컨트롤 대기",
                 "group_id": "28470",
                 "req_frame_id": "85415",
@@ -1000,7 +1000,7 @@
             {
                 "position": 2,
                 "mnemonic": "MP_AUGMENTATION_CONSIGNE_DE_VITESSE",
-                "label_index": "13767",
+                "label_index": "@P13767",
                 "label_korean": "속도 기준 값 올림",
                 "group_id": "28467",
                 "req_frame_id": "85406",
@@ -1022,7 +1022,7 @@
             {
                 "position": 3,
                 "mnemonic": "MP_REGULATION_DE_VITESSE_MOINS",
-                "label_index": "8074",
+                "label_index": "@P8074",
                 "label_korean": "속도 기준 값 내림",
                 "group_id": "28468",
                 "req_frame_id": "85409",
@@ -1044,7 +1044,7 @@
             {
                 "position": 4,
                 "mnemonic": "MP_ARRET_XVV",
-                "label_index": "18842",
+                "label_index": "@P18842",
                 "label_korean": "크루즈 컨트롤 / 스피드 리미터 차단 버튼",
                 "group_id": "28462",
                 "req_frame_id": "85391",
@@ -1066,7 +1066,7 @@
             {
                 "position": 5,
                 "mnemonic": "MP_ACTIVATION_LVV",
-                "label_index": "43053",
+                "label_index": "@P43053",
                 "label_korean": "스피드 리미터 작동",
                 "group_id": "28463",
                 "req_frame_id": "85394",
@@ -1088,7 +1088,7 @@
             {
                 "position": 6,
                 "mnemonic": "MP_ACTIVATION_RVV",
-                "label_index": "43054",
+                "label_index": "@P43054",
                 "label_korean": "크루즈 컨트롤 작동",
                 "group_id": "28464",
                 "req_frame_id": "85397",
@@ -1118,7 +1118,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_AUGMENTATION_VOLUME_SONORE",
-                "label_index": "3956",
+                "label_index": "@P3956",
                 "label_korean": "볼륨 증가",
                 "group_id": "28450",
                 "req_frame_id": "85355",
@@ -1140,7 +1140,7 @@
             {
                 "position": 2,
                 "mnemonic": "MP_DIMINUTION_VOLUME_SONORE",
-                "label_index": "1541",
+                "label_index": "@P1541",
                 "label_korean": "볼륨 감소",
                 "group_id": "28451",
                 "req_frame_id": "85358",
@@ -1162,7 +1162,7 @@
             {
                 "position": 3,
                 "mnemonic": "MP_COMMANDE_RECONNAISSANCE_VOCALE",
-                "label_index": "4859",
+                "label_index": "@P4859",
                 "label_korean": "음성 인식 제어",
                 "group_id": "28443",
                 "req_frame_id": "85334",
@@ -1184,7 +1184,7 @@
             {
                 "position": 4,
                 "mnemonic": "MP_TOUCHE_LISTE_1",
-                "label_index": "11746",
+                "label_index": "@P11746",
                 "label_korean": "리스트 버튼",
                 "group_id": "28456",
                 "req_frame_id": "85373",
@@ -1209,7 +1209,7 @@
             {
                 "position": 5,
                 "mnemonic": "MP_TOUCHE_SOURCE",
-                "label_index": "8241",
+                "label_index": "@P8241",
                 "label_korean": "소스 버튼",
                 "group_id": "28452",
                 "req_frame_id": "85361",
@@ -1228,13 +1228,13 @@
                 "bit_mask": 64,
                 "bit_shift": 6,
                 "dynamic_arg": "",
-                "help_code": "26288, 26290",
+                "help_code": "@P26288@T.@\\n@P26290@T.",
                 "help_korean": "\"소스\" 버튼은 오디오 소스를 선택하는 데 사용한다.\n\"소스\" 버튼은 VCI의 좌측 모듈에 위치해 있다."
             },
             {
                 "position": 6,
                 "mnemonic": "MP_TOUCHE_TEL",
-                "label_index": "10379",
+                "label_index": "@P10379",
                 "label_korean": "전화 버튼",
                 "group_id": "매핑_누락",
                 "req_frame_id": "",
@@ -1256,7 +1256,7 @@
             {
                 "position": 7,
                 "mnemonic": "MP_PUSH_MOLETTE_NAVIGATION_COMBINE",
-                "label_index": "18807",
+                "label_index": "@P18807",
                 "label_korean": "계기판 네비게이션 제어 확인 버튼",
                 "group_id": "28461",
                 "req_frame_id": "85388",
@@ -1278,7 +1278,7 @@
             {
                 "position": 8,
                 "mnemonic": "MP_VALID_MOLETTE_RADIO",
-                "label_index": "17166",
+                "label_index": "@P17166",
                 "label_korean": "라디오 컨트롤 확인 버튼",
                 "group_id": "28457",
                 "req_frame_id": "85376",
@@ -1294,13 +1294,13 @@
                 "bit_mask": 64,
                 "bit_shift": 6,
                 "dynamic_arg": "",
-                "help_code": "26298, 34411",
+                "help_code": "@P26298@T.@\\n@P34411@T.",
                 "help_korean": "라디오 다이얼 확인 버튼은 라디오 메뉴에서 선택을 하는데 사용한다.\n라디오 다이얼 확인 버튼은 VCI의 우측 모듈에 위치해 있다."
             },
             {
                 "position": 9,
                 "mnemonic": "MP_MOLETTE_NAVIGATION_COMBINE",
-                "label_index": "18812",
+                "label_index": "@P18812",
                 "label_korean": "계기판 네비게이션 다이얼",
                 "group_id": "28446",
                 "req_frame_id": "85343",
@@ -1316,13 +1316,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "19208, 19307, 18844",
-                "help_korean": "이 스위치는 차량의 장치 레벨에 따라 계기판에 내장된 매트릭스 스크린 또는 도트 스크린에서 조정을 위한 것이다. VCI 좌측 상단 모듈에 위치해 있다 .과 사이에서 축정된 값-128 127"
+                "help_code": "@P19208@T. @P19307@T .@P18844@\\*-128@\\*+127",
+                "help_korean": "이 스위치는 차량의 장치 레벨에 따라 계기판에 내장된 매트릭스 스크린 또는 도트 스크린에서 조정을 위한 것이다. VCI 좌측 상단 모듈에 위치해 있다 .과 사이에서 축정된 값-128+127"
             },
             {
                 "position": 10,
                 "mnemonic": "MP_MOLETTE_RADIO",
-                "label_index": "17252",
+                "label_index": "@P17252",
                 "label_korean": "라디오 컨트롤 다이얼",
                 "group_id": "28444",
                 "req_frame_id": "85337",
@@ -1338,13 +1338,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "26310, 26352, 18869",
-                "help_korean": "라디오 다이얼은 저장된 라디오 채널에 접속하는 데 사용한다.\n라디오 다이얼은 VCI의 우측 모듈에 위치해 있다.\n-128 에서 127 사이로 증가하는 값"
+                "help_code": "@P26310@T.@\\n@P26352@T. @\\n@P18869@\\*128@\\*127",
+                "help_korean": "라디오 다이얼은 저장된 라디오 채널에 접속하는 데 사용한다.\n라디오 다이얼은 VCI의 우측 모듈에 위치해 있다.\n-128 에서 +127 사이로 증가하는 값"
             },
             {
                 "position": 10,
                 "mnemonic": "MP_MOLETTE_RADIO",
-                "label_index": "17252",
+                "label_index": "@P17252",
                 "label_korean": "라디오 컨트롤 다이얼",
                 "group_id": "28444",
                 "req_frame_id": "85337",
@@ -1360,8 +1360,8 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "36185, 18869",
-                "help_korean": "라디오 다이얼은 스위치가 내장된 스티어링 휠의 상단 우측 모듈에 위치해 있다.\n-128 에서 127 사이로 증가하는 값"
+                "help_code": "@P36185@T.@\\n@P18869@\\*128@\\*127",
+                "help_korean": "라디오 다이얼은 스위치가 내장된 스티어링 휠의 상단 우측 모듈에 위치해 있다.\n-128 에서 +127 사이로 증가하는 값"
             }
         ]
     }

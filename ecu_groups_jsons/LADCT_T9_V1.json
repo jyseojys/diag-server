@@ -8,7 +8,7 @@
             {
                 "position": 1,
                 "mnemonic": "ID_NOM_DU_FOURNISSEUR",
-                "label_index": "5701",
+                "label_index": "@P5701",
                 "label_korean": "제조 업체명",
                 "group_id": "7283",
                 "req_frame_id": "21851",
@@ -38,7 +38,7 @@
             {
                 "position": 2,
                 "mnemonic": "ID_REFERENCE_MATERIEL",
-                "label_index": "1071",
+                "label_index": "@P1071",
                 "label_korean": "장치 부품 번호",
                 "group_id": "7283",
                 "req_frame_id": "21851",
@@ -60,7 +60,7 @@
             {
                 "position": 3,
                 "mnemonic": "ID_REFERENCE_COMPLEMENTAIRE_MATERIEL",
-                "label_index": "1634",
+                "label_index": "@P1634",
                 "label_korean": "장치 추가 참조 번호",
                 "group_id": "7283",
                 "req_frame_id": "21851",
@@ -82,7 +82,7 @@
             {
                 "position": 4,
                 "mnemonic": "ID_TRACABILITE_INDICE_EVOLUTION_EDITION",
-                "label_index": "24601",
+                "label_index": "@P24601",
                 "label_korean": "소프트웨어 버전",
                 "group_id": "7283",
                 "req_frame_id": "21851",
@@ -112,7 +112,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_TENSION_ALIMENTATION_CALCULATEUR_C0",
-                "label_index": "14064",
+                "label_index": "@P14064",
                 "label_korean": "제어 장치 공급 전압",
                 "group_id": "7285",
                 "req_frame_id": "21857",
@@ -128,13 +128,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "12642",
+                "help_code": "@P12642",
                 "help_korean": "키를 ON한 때부터 ECU에 전원을 공급한다"
             },
             {
                 "position": 2,
                 "mnemonic": "MP_TENSION_CAPTEUR_HAUTEUR_CAISSE_AVANT",
-                "label_index": "4808",
+                "label_index": "@P4808",
                 "label_korean": "프론트 차고 높이 센서 신호 전압",
                 "group_id": "7285",
                 "req_frame_id": "21857",
@@ -150,13 +150,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "8455, 21884",
+                "help_code": "@P8455@\\*0@\\*5,1@T. @P21884",
                 "help_korean": "0에서 5V 사이의 전압,1. 센서가 없을 때, 표시되는 전압은 \"유효하지 않은 값\"이다"
             },
             {
                 "position": 2,
                 "mnemonic": "MP_TENSION_CAPTEUR_HAUTEUR_CAISSE_AVANT",
-                "label_index": "4808",
+                "label_index": "@P4808",
                 "label_korean": "프론트 차고 높이 센서 신호 전압",
                 "group_id": "7285",
                 "req_frame_id": "21857",
@@ -172,14 +172,14 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "8455, 21884",
+                "help_code": "@P8455@\\*0@\\*5@T. @P21884",
                 "help_korean": "0에서 5V 사이의 전압. 센서가 없을 때, 표시되는 전압은 \"유효하지 않은 값\"이다"
             },
             {
                 "position": 3,
                 "mnemonic": "MP_TENSION_CAPTEUR_HAUTEUR_CAISSE_ARRIERE_D",
-                "label_index": "8893",
-                "label_korean": "리어 차고 높이 센서 신호 전압 우측 (존재할 경우)",
+                "label_index": "@P8893@\\+@P2803@T (@P275@T)",
+                "label_korean": "리어 차고 높이 센서 신호 전압우측 (존재할 경우)",
                 "group_id": "7285",
                 "req_frame_id": "21857",
                 "resp_frame_id": "21858",
@@ -194,13 +194,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "8455, 21884",
+                "help_code": "@P8455@\\*0@\\*5@T. @P21884",
                 "help_korean": "0에서 5V 사이의 전압. 센서가 없을 때, 표시되는 전압은 \"유효하지 않은 값\"이다"
             },
             {
                 "position": 4,
                 "mnemonic": "MP_TENSION_CAL_CAPTEUR_HAUTEUR_CAISSE_AV",
-                "label_index": "3410",
+                "label_index": "@P3410",
                 "label_korean": "프론트 차고 높이 센서 캘리브레이션 전압",
                 "group_id": "7285",
                 "req_frame_id": "21857",
@@ -216,13 +216,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "21982",
+                "help_code": "@F21982@T.",
                 "help_korean": "캘리브레이션 절차 중 ECU에 의해 저장된 기준 전압."
             },
             {
                 "position": 4,
                 "mnemonic": "MP_TENSION_CAL_CAPTEUR_HAUTEUR_CAISSE_AV",
-                "label_index": "3410",
+                "label_index": "@P3410",
                 "label_korean": "프론트 차고 높이 센서 캘리브레이션 전압",
                 "group_id": "7285",
                 "req_frame_id": "21857",
@@ -238,13 +238,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "21982",
+                "help_code": "@F21982@T.",
                 "help_korean": "캘리브레이션 절차 중 ECU에 의해 저장된 기준 전압."
             },
             {
                 "position": 5,
                 "mnemonic": "MP_TENSION_CAL_CAPTEUR_HAUTEUR_CAISSE_AR",
-                "label_index": "14085",
+                "label_index": "@P14085",
                 "label_korean": "리어 차고 높이 센서 캘리브레이션 전압",
                 "group_id": "7285",
                 "req_frame_id": "21857",
@@ -260,13 +260,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "31250",
+                "help_code": "@P31250@T.",
                 "help_korean": "캘리브레이션 절차 중 제논 전구 ECU에 의해 저장된 기준 값."
             },
             {
                 "position": 6,
                 "mnemonic": "MPETATCORRECTSITE",
-                "label_index": "4602",
+                "label_index": "@P4602",
                 "label_korean": "수직 보정 상태",
                 "group_id": "7285",
                 "req_frame_id": "21857",
@@ -282,13 +282,13 @@
                 "bit_mask": 3,
                 "bit_shift": 0,
                 "dynamic_arg": "",
-                "help_code": "5868",
+                "help_code": "@P5868",
                 "help_korean": "결함인 경우, 결함을 읽는다"
             },
             {
                 "position": 7,
                 "mnemonic": "MP_CONFIGURATION_TYPE_MOTEUR",
-                "label_index": "34867",
+                "label_index": "@P34867",
                 "label_korean": "엔진 타입 설정",
                 "group_id": "7285",
                 "req_frame_id": "21857",
@@ -308,7 +308,7 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "",
+                "help_code": "@T",
                 "help_korean": ""
             }
         ]
@@ -322,7 +322,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_TENSION_ALIMENTATION_CALCULATEUR_C0",
-                "label_index": "14064",
+                "label_index": "@P14064",
                 "label_korean": "제어 장치 공급 전압",
                 "group_id": "7285",
                 "req_frame_id": "21857",
@@ -338,13 +338,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "12642",
+                "help_code": "@P12642",
                 "help_korean": "키를 ON한 때부터 ECU에 전원을 공급한다"
             },
             {
                 "position": 2,
                 "mnemonic": "MP_TENSION_CAPTEUR_HAUTEUR_CAISSE_AVANT",
-                "label_index": "4808",
+                "label_index": "@P4808",
                 "label_korean": "프론트 차고 높이 센서 신호 전압",
                 "group_id": "7285",
                 "req_frame_id": "21857",
@@ -360,13 +360,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "8455, 21884",
+                "help_code": "@P8455@\\*0@\\*5,1@T. @P21884",
                 "help_korean": "0에서 5V 사이의 전압,1. 센서가 없을 때, 표시되는 전압은 \"유효하지 않은 값\"이다"
             },
             {
                 "position": 3,
                 "mnemonic": "MP_TENSION_CAPTEUR_DE_HAUTEUR_DE_CAISSE_ARRIERE",
-                "label_index": "8893",
+                "label_index": "@P8893",
                 "label_korean": "리어 차고 높이 센서 신호 전압",
                 "group_id": "매핑_누락",
                 "req_frame_id": "",
@@ -382,13 +382,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "8455, 21884",
+                "help_code": "@P8455@\\*0@\\*5,1@T. @P21884",
                 "help_korean": "0에서 5V 사이의 전압,1. 센서가 없을 때, 표시되는 전압은 \"유효하지 않은 값\"이다"
             },
             {
                 "position": 4,
                 "mnemonic": "MP_TENSION_CAL_CAPTEUR_HAUTEUR_CAISSE_AV",
-                "label_index": "3410",
+                "label_index": "@P3410",
                 "label_korean": "프론트 차고 높이 센서 캘리브레이션 전압",
                 "group_id": "7285",
                 "req_frame_id": "21857",
@@ -404,13 +404,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "21982",
+                "help_code": "@F21982@T.",
                 "help_korean": "캘리브레이션 절차 중 ECU에 의해 저장된 기준 전압."
             },
             {
                 "position": 5,
                 "mnemonic": "MP_TENSION_CALIBRATION_CAPTEUR_HAUTEUR_CAISSE_AR",
-                "label_index": "22005",
+                "label_index": "@P22005",
                 "label_korean": "리어 차고 높이 센서 캘리브레이션 전압",
                 "group_id": "7285",
                 "req_frame_id": "21857",
@@ -426,13 +426,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "21982",
+                "help_code": "@F21982@T.",
                 "help_korean": "캘리브레이션 절차 중 ECU에 의해 저장된 기준 전압."
             },
             {
                 "position": 6,
                 "mnemonic": "MPETATCORRECTSITE",
-                "label_index": "4602",
+                "label_index": "@P4602",
                 "label_korean": "수직 보정 상태",
                 "group_id": "7285",
                 "req_frame_id": "21857",
@@ -448,7 +448,7 @@
                 "bit_mask": 3,
                 "bit_shift": 0,
                 "dynamic_arg": "",
-                "help_code": "5868",
+                "help_code": "@P5868",
                 "help_korean": "결함인 경우, 결함을 읽는다"
             }
         ]
@@ -462,7 +462,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_ANGLE_DE_CORRECTION_SITE_G",
-                "label_index": "2813",
+                "label_index": "@P2813",
                 "label_korean": "수직 보정 각도",
                 "group_id": "7286",
                 "req_frame_id": "21860",
@@ -478,8 +478,8 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "29891, 9606",
-                "help_korean": "엔진의 수직 보정.\n과 도사이의 값-6� 6�"
+                "help_code": "@P29891@T.@\\n@F9606@\\*-6�@\\*+6�",
+                "help_korean": "엔진의 수직 보정.\n과 도사이의 값-6�+6�"
             }
         ]
     },
@@ -492,7 +492,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_DIAG_CROISEMENT_G",
-                "label_index": "46784",
+                "label_index": "@P46784",
                 "label_korean": "좌측 하향등 헤드램프 진단",
                 "group_id": "매핑_누락",
                 "req_frame_id": "",
@@ -514,7 +514,7 @@
             {
                 "position": 2,
                 "mnemonic": "MP_FEU_ROUTE_G",
-                "label_index": "46785",
+                "label_index": "@P46785",
                 "label_korean": "좌측 상향등 헤드램프 진단",
                 "group_id": "매핑_누락",
                 "req_frame_id": "",
@@ -544,7 +544,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_ANGLE_DE_CORRECTION_SITE_D",
-                "label_index": "2813",
+                "label_index": "@P2813",
                 "label_korean": "수직 보정 각도",
                 "group_id": "7287",
                 "req_frame_id": "21863",
@@ -560,8 +560,8 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "29891, 9606",
-                "help_korean": "엔진의 수직 보정.\n과 도사이의 값-6� 6�"
+                "help_code": "@P29891@T.@\\n@F9606@\\*-6�@\\*+6�",
+                "help_korean": "엔진의 수직 보정.\n과 도사이의 값-6�+6�"
             }
         ]
     },
@@ -574,7 +574,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_DIAG_CROISEMENT_D",
-                "label_index": "46790",
+                "label_index": "@P46790",
                 "label_korean": "우측 하향등 헤드램프 진단",
                 "group_id": "매핑_누락",
                 "req_frame_id": "",
@@ -600,7 +600,7 @@
             {
                 "position": 2,
                 "mnemonic": "MP_FEU_ROUTE_D",
-                "label_index": "46791",
+                "label_index": "@P46791",
                 "label_korean": "우측 상향등 헤드램프 진단",
                 "group_id": "매핑_누락",
                 "req_frame_id": "",
@@ -630,7 +630,7 @@
             {
                 "position": 1,
                 "mnemonic": "CFG_____BVPR",
-                "label_index": "14682",
+                "label_index": "@P14682",
                 "label_korean": "변속기",
                 "group_id": "매핑_누락",
                 "req_frame_id": "",
@@ -657,7 +657,7 @@
             {
                 "position": 2,
                 "mnemonic": "CFG____CPR_NEW_1",
-                "label_index": "4339",
+                "label_index": "@P4339",
                 "label_korean": "차체 타입",
                 "group_id": "매핑_누락",
                 "req_frame_id": "",
@@ -687,7 +687,7 @@
             {
                 "position": 1,
                 "mnemonic": "CA_TENSION_BATTERIE",
-                "label_index": "18263",
+                "label_index": "@P18263",
                 "label_korean": "배터리 전압",
                 "group_id": "7289",
                 "req_frame_id": "21869",
@@ -709,7 +709,7 @@
             {
                 "position": 2,
                 "mnemonic": "CA_ETAT_MOTEUR",
-                "label_index": "11481",
+                "label_index": "@P11481",
                 "label_korean": "엔진 상태",
                 "group_id": "7289",
                 "req_frame_id": "21869",
@@ -755,7 +755,7 @@
             {
                 "position": 3,
                 "mnemonic": "CA_FEUX_DE_CROISEMENT",
-                "label_index": "11810",
+                "label_index": "@P11810",
                 "label_korean": "전조등 하향",
                 "group_id": "매핑_누락",
                 "req_frame_id": "",
@@ -780,7 +780,7 @@
             {
                 "position": 4,
                 "mnemonic": "CA_VITESSE_VEHICULE",
-                "label_index": "9267",
+                "label_index": "@P9267",
                 "label_korean": "차량 속도",
                 "group_id": "7289",
                 "req_frame_id": "21869",
@@ -804,7 +804,7 @@
             {
                 "position": 5,
                 "mnemonic": "CA_VITESSE_VEHICULE_2",
-                "label_index": "9267",
+                "label_index": "@P9267",
                 "label_korean": "차량 속도",
                 "group_id": "매핑_누락",
                 "req_frame_id": "",
@@ -828,7 +828,7 @@
             {
                 "position": 6,
                 "mnemonic": "CA_TENSION_CAPTEUR_HAUTEUR_CAISSE_AVANT",
-                "label_index": "4808",
+                "label_index": "@P4808",
                 "label_korean": "프론트 차고 높이 센서 신호 전압",
                 "group_id": "7289",
                 "req_frame_id": "21869",
@@ -850,8 +850,8 @@
             {
                 "position": 7,
                 "mnemonic": "CA_TENSION_CAPTEUR_HAUTEUR_CAISSE_ARD",
-                "label_index": "8893",
-                "label_korean": "리어 차고 높이 센서 신호 전압 우측 (존재할 경우)",
+                "label_index": "@P8893@\\+@P2803@T (@P275@T)",
+                "label_korean": "리어 차고 높이 센서 신호 전압우측 (존재할 경우)",
                 "group_id": "7289",
                 "req_frame_id": "21869",
                 "resp_frame_id": "21870",
@@ -872,7 +872,7 @@
             {
                 "position": 8,
                 "mnemonic": "CA_ANGLE_CORRECTION_SITE",
-                "label_index": "2813",
+                "label_index": "@P2813",
                 "label_korean": "수직 보정 각도",
                 "group_id": "7289",
                 "req_frame_id": "21869",

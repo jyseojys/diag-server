@@ -8,7 +8,7 @@
             {
                 "position": 1,
                 "mnemonic": "ID_NOM_DU_FOURNISSEUR",
-                "label_index": "5701",
+                "label_index": "@P5701",
                 "label_korean": "제조 업체명",
                 "group_id": "132265",
                 "req_frame_id": "397138",
@@ -38,7 +38,7 @@
             {
                 "position": 2,
                 "mnemonic": "ID_REFERENCE_MATERIEL",
-                "label_index": "1071",
+                "label_index": "@\\+@P1071",
                 "label_korean": "장치 부품 번호",
                 "group_id": "132265",
                 "req_frame_id": "397138",
@@ -60,7 +60,7 @@
             {
                 "position": 3,
                 "mnemonic": "ID_REFERENCE_COMPLEMENTAIRE_MATERIEL",
-                "label_index": "1634",
+                "label_index": "@P1634",
                 "label_korean": "장치 추가 참조 번호",
                 "group_id": "132265",
                 "req_frame_id": "397138",
@@ -82,7 +82,7 @@
             {
                 "position": 4,
                 "mnemonic": "ID_VERSION_LOGICIEL_new_1",
-                "label_index": "8662",
+                "label_index": "@P8662@\\*",
                 "label_korean": "소프트웨어 버전",
                 "group_id": "132265",
                 "req_frame_id": "397138",
@@ -104,7 +104,7 @@
             {
                 "position": 5,
                 "mnemonic": "ID_REF_CALIBRATION_new_1",
-                "label_index": "7014",
+                "label_index": "@P7014",
                 "label_korean": "캘리브레이션 버전",
                 "group_id": "132265",
                 "req_frame_id": "397138",
@@ -126,7 +126,7 @@
             {
                 "position": 6,
                 "mnemonic": "ID_MESS_DIAGNOSTIC",
-                "label_index": "2459",
+                "label_index": "@P2459",
                 "label_korean": "진단 이메일",
                 "group_id": "132265",
                 "req_frame_id": "397138",
@@ -148,7 +148,7 @@
             {
                 "position": 7,
                 "mnemonic": "ID_80_MP_INDICE_MESS",
-                "label_index": "2225",
+                "label_index": "@P2225",
                 "label_korean": "메시지 인덱스",
                 "group_id": "132265",
                 "req_frame_id": "397138",
@@ -170,7 +170,7 @@
             {
                 "position": 8,
                 "mnemonic": "ID_TRACABILITE_DATE_FABRICATION",
-                "label_index": "14355",
+                "label_index": "@P14355",
                 "label_korean": "제조일자",
                 "group_id": "132266",
                 "req_frame_id": "397141",
@@ -192,7 +192,7 @@
             {
                 "position": 9,
                 "mnemonic": "ID_TRACABILITE_NUMERO_DE_SERIE_PIECE",
-                "label_index": "7592",
+                "label_index": "@P7592",
                 "label_korean": "부품 일련 번호",
                 "group_id": "132267",
                 "req_frame_id": "397144",
@@ -214,7 +214,7 @@
             {
                 "position": 10,
                 "mnemonic": "ID_TRACABILITE_CONTROLE_USINE",
-                "label_index": "15521",
+                "label_index": "@P15521",
                 "label_korean": "공장 점검",
                 "group_id": "132268",
                 "req_frame_id": "397147",
@@ -236,7 +236,7 @@
             {
                 "position": 11,
                 "mnemonic": "ID_TRACABILITE_CONTROLE_FOURNISSEUR",
-                "label_index": "14346",
+                "label_index": "@P14346@\\*",
                 "label_korean": "제조업체 점검",
                 "group_id": "132269",
                 "req_frame_id": "397150",
@@ -258,7 +258,7 @@
             {
                 "position": 12,
                 "mnemonic": "ID_TRACABILITE_CONTROLE_APRES_VENTE",
-                "label_index": "10067",
+                "label_index": "@P10067",
                 "label_korean": "서비스 점검",
                 "group_id": "132268",
                 "req_frame_id": "397147",
@@ -280,7 +280,7 @@
             {
                 "position": 13,
                 "mnemonic": "ID_TRACABILITE_INTERVENTION_APRES_VENTE",
-                "label_index": "4297",
+                "label_index": "@P4297",
                 "label_korean": "서비스 작업 횟수",
                 "group_id": "132268",
                 "req_frame_id": "397147",
@@ -310,7 +310,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_RETIN_TYPE_VEH",
-                "label_index": "10663",
+                "label_index": "@P10663",
                 "label_korean": "차량 타입",
                 "group_id": "132270",
                 "req_frame_id": "397153",
@@ -334,7 +334,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_RETIN_TYPE_VEH",
-                "label_index": "10663",
+                "label_index": "@P10663",
                 "label_korean": "차량 타입",
                 "group_id": "132270",
                 "req_frame_id": "397153",
@@ -352,13 +352,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "20376",
+                "help_code": "@P20376",
                 "help_korean": "차량의 타입을 정의한다"
             },
             {
                 "position": 2,
                 "mnemonic": "MP_TYPE_DIRECTION",
-                "label_index": "3209",
+                "label_index": "@P3209",
                 "label_korean": "스티어링 타입",
                 "group_id": "132270",
                 "req_frame_id": "397153",
@@ -390,7 +390,7 @@
             {
                 "position": 2,
                 "mnemonic": "MP_TYPE_DIRECTION",
-                "label_index": "3209",
+                "label_index": "@P3209",
                 "label_korean": "스티어링 타입",
                 "group_id": "132270",
                 "req_frame_id": "397153",
@@ -416,13 +416,13 @@
                 "bit_mask": 1,
                 "bit_shift": 0,
                 "dynamic_arg": "",
-                "help_code": "16938",
+                "help_code": "@P16938",
                 "help_korean": "차량에서 스티어링 타입을 정의한다"
             },
             {
                 "position": 3,
                 "mnemonic": "MP_RETIN_COTE_CIRCU",
-                "label_index": "20091",
+                "label_index": "@P20091",
                 "label_korean": "주행 위치",
                 "group_id": "132270",
                 "req_frame_id": "397153",
@@ -447,7 +447,7 @@
             {
                 "position": 3,
                 "mnemonic": "MP_RETIN_COTE_CIRCU",
-                "label_index": "20091",
+                "label_index": "@P20091",
                 "label_korean": "주행 위치",
                 "group_id": "132270",
                 "req_frame_id": "397153",
@@ -466,13 +466,13 @@
                 "bit_mask": 2,
                 "bit_shift": 1,
                 "dynamic_arg": "",
-                "help_code": "20299",
+                "help_code": "@P20299",
                 "help_korean": "차량의 주행 위치를 정의한다"
             },
             {
                 "position": 4,
                 "mnemonic": "MP_RETIN_TYPE_ECL",
-                "label_index": "24418",
+                "label_index": "@P24418",
                 "label_korean": "라이팅 타입",
                 "group_id": "132270",
                 "req_frame_id": "397153",
@@ -498,7 +498,7 @@
             {
                 "position": 4,
                 "mnemonic": "MP_RETIN_TYPE_ECL",
-                "label_index": "24418",
+                "label_index": "@P24418",
                 "label_korean": "라이팅 타입",
                 "group_id": "132270",
                 "req_frame_id": "397153",
@@ -518,13 +518,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "20108",
+                "help_code": "@P20108",
                 "help_korean": "차량의 라이트 타입을 정의한다"
             },
             {
                 "position": 5,
                 "mnemonic": "MP_RETIN_TYPE_VITR",
-                "label_index": "29867",
+                "label_index": "@P29867",
                 "label_korean": "유리 타입",
                 "group_id": "132270",
                 "req_frame_id": "397153",
@@ -548,7 +548,7 @@
             {
                 "position": 5,
                 "mnemonic": "MP_RETIN_TYPE_VITR",
-                "label_index": "29867",
+                "label_index": "@P29867",
                 "label_korean": "유리 타입",
                 "group_id": "132270",
                 "req_frame_id": "397153",
@@ -566,13 +566,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "20185",
+                "help_code": "@P20185",
                 "help_korean": "차량에서 유리 타입을 정의한다"
             },
             {
                 "position": 6,
                 "mnemonic": "MP_RETIN_NIV_ECLAIRAGE",
-                "label_index": "22018",
+                "label_index": "@P22018",
                 "label_korean": "전조등 상향/전조등 하향 전환 모드",
                 "group_id": "132270",
                 "req_frame_id": "397153",
@@ -591,13 +591,13 @@
                 "bit_mask": 8,
                 "bit_shift": 3,
                 "dynamic_arg": "",
-                "help_code": "21733, 20209, 20234",
+                "help_code": "@P21733@\\n@P20209@\\n@P20234",
                 "help_korean": "전조등 하향/상향의 전환 모드를 정의한다\n\"기본\" 상태는 전조등 하향에서 전조등 상향으로 즉각적인 전환을 가능하게 한다\n\"점진적인\" 상태는 전조등 하향에서 전조등 상향으로 점진적인 전환을 가능하게 한다"
             },
             {
                 "position": 6,
                 "mnemonic": "MP_RETIN_NIV_ECLAIRAGE",
-                "label_index": "22018",
+                "label_index": "@P22018",
                 "label_korean": "전조등 상향/전조등 하향 전환 모드",
                 "group_id": "132270",
                 "req_frame_id": "397153",
@@ -616,13 +616,13 @@
                 "bit_mask": 8,
                 "bit_shift": 3,
                 "dynamic_arg": "",
-                "help_code": "21733, 20209, 20234",
+                "help_code": "@P21733@\\n@P20209@\\n@P20234",
                 "help_korean": "전조등 하향/상향의 전환 모드를 정의한다\n\"기본\" 상태는 전조등 하향에서 전조등 상향으로 즉각적인 전환을 가능하게 한다\n\"점진적인\" 상태는 전조등 하향에서 전조등 상향으로 점진적인 전환을 가능하게 한다"
             },
             {
                 "position": 7,
                 "mnemonic": "MP_RETIN_DET_VILLAGE",
-                "label_index": "20287",
+                "label_index": "@P20287",
                 "label_korean": "마을 감지",
                 "group_id": "132270",
                 "req_frame_id": "397153",
@@ -641,13 +641,13 @@
                 "bit_mask": 4,
                 "bit_shift": 2,
                 "dynamic_arg": "",
-                "help_code": "20192, 20381",
+                "help_code": "@P20192@\\n@P20381",
                 "help_korean": "기능이 작동하는지 여부를 나타낸다\n마을 감지 기능은 마을에 접근할 때 자동적으로 전조등 상향을 전조등 하향으로 전환한다"
             },
             {
                 "position": 7,
                 "mnemonic": "MP_RETIN_DET_VILLAGE",
-                "label_index": "20287",
+                "label_index": "@P20287",
                 "label_korean": "마을 감지",
                 "group_id": "132270",
                 "req_frame_id": "397153",
@@ -666,7 +666,7 @@
                 "bit_mask": 4,
                 "bit_shift": 2,
                 "dynamic_arg": "",
-                "help_code": "20192, 21737",
+                "help_code": "@P20192@\\n@P21737",
                 "help_korean": "기능이 작동하는지 여부를 나타낸다\n마을 감지 기능은 마을에 접근할 때 전조등 상향이 하향으로 자동적으로 바꾼다"
             }
         ]
@@ -680,7 +680,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_OBSC_ELEC",
-                "label_index": "20194",
+                "label_index": "@P20194",
                 "label_korean": "실내 ECU 룸미러의 감광",
                 "group_id": "132271",
                 "req_frame_id": "397156",
@@ -696,13 +696,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "20363",
+                "help_code": "@P20363",
                 "help_korean": "실내 미러의 감광 상태를 정의한다"
             },
             {
                 "position": 2,
                 "mnemonic": "MP_DMD_COMMUT_FCFR",
-                "label_index": "21879",
+                "label_index": "@P21879",
                 "label_korean": "전조등 상향/전조등 하향 전환 요청 상태",
                 "group_id": "132273",
                 "req_frame_id": "397162",
@@ -718,13 +718,13 @@
                 "bit_mask": 128,
                 "bit_shift": 7,
                 "dynamic_arg": "",
-                "help_code": "20257",
+                "help_code": "@P20257",
                 "help_korean": "ECU로부터 BSI까지, 전조등 하향에서 전조등 상향으로 전환 요청 상태를 정의한다"
             },
             {
                 "position": 3,
                 "mnemonic": "MP_ETAT_IAF",
-                "label_index": "20228",
+                "label_index": "@P20228",
                 "label_korean": "자동 헤드램프 전환 기능의 상태",
                 "group_id": "132273",
                 "req_frame_id": "397162",
@@ -740,13 +740,13 @@
                 "bit_mask": 32,
                 "bit_shift": 5,
                 "dynamic_arg": "",
-                "help_code": "20138",
+                "help_code": "@P20138",
                 "help_korean": "자동 헤드램프 전환 기능의 상태를 정의한다"
             },
             {
                 "position": 4,
                 "mnemonic": "MP_LUM_AMB_JN",
-                "label_index": "20256",
+                "label_index": "@P20256",
                 "label_korean": "외부 라이트 레벨",
                 "group_id": "132273",
                 "req_frame_id": "397162",
@@ -762,13 +762,13 @@
                 "bit_mask": 16,
                 "bit_shift": 4,
                 "dynamic_arg": "",
-                "help_code": "20130",
+                "help_code": "@P20130",
                 "help_korean": "현재 차량이 위치해 있는 곳의 환경을 나타낸다"
             },
             {
                 "position": 5,
                 "mnemonic": "MP_ALIGN",
-                "label_index": "20210",
+                "label_index": "@P20210",
                 "label_korean": "카메라 정렬 상태",
                 "group_id": "132272",
                 "req_frame_id": "397159",
@@ -784,7 +784,7 @@
                 "bit_mask": 3,
                 "bit_shift": 0,
                 "dynamic_arg": "",
-                "help_code": "20276, 20147",
+                "help_code": "@P20276@T. @P20147",
                 "help_korean": "카메라 정렬 상태를 정의한다. 이 정렬은 반드시 시스템의 최적의 작동을 위해서 반드시 실시해야 한다"
             }
         ]

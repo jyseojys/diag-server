@@ -8,7 +8,7 @@
             {
                 "position": 1,
                 "mnemonic": "PartNumber",
-                "label_index": "28154",
+                "label_index": "@P28154",
                 "label_korean": "부품 번호",
                 "group_id": "146641",
                 "req_frame_id": "440263",
@@ -30,7 +30,7 @@
             {
                 "position": 2,
                 "mnemonic": "Serial_Number",
-                "label_index": "13534",
+                "label_index": "@F13534",
                 "label_korean": "일련 번호",
                 "group_id": "146641",
                 "req_frame_id": "440263",
@@ -52,7 +52,7 @@
             {
                 "position": 3,
                 "mnemonic": "Software_Version",
-                "label_index": "2358",
+                "label_index": "@P2358",
                 "label_korean": "소프트웨어 버전",
                 "group_id": "146642",
                 "req_frame_id": "440266",
@@ -82,7 +82,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_CMD_LV",
-                "label_index": "5277",
+                "label_index": "@P5277",
                 "label_korean": "전동 윈도우 제어",
                 "group_id": "146644",
                 "req_frame_id": "440272",
@@ -104,7 +104,7 @@
             {
                 "position": 2,
                 "mnemonic": "RELAY_Out_UP",
-                "label_index": "10867",
+                "label_index": "@P10867",
                 "label_korean": "올림 제어 릴레이 출력",
                 "group_id": "146644",
                 "req_frame_id": "440272",
@@ -126,7 +126,7 @@
             {
                 "position": 3,
                 "mnemonic": "RELAY_Out_Down",
-                "label_index": "13436",
+                "label_index": "@P13436",
                 "label_korean": "내림 제어 릴레이 출력",
                 "group_id": "146644",
                 "req_frame_id": "440272",
@@ -148,7 +148,7 @@
             {
                 "position": 4,
                 "mnemonic": "P_W_voltage_sensor_value",
-                "label_index": "7793",
+                "label_index": "@P7793",
                 "label_korean": "도어 모듈에서 전압",
                 "group_id": "146644",
                 "req_frame_id": "440272",
@@ -170,7 +170,7 @@
             {
                 "position": 5,
                 "mnemonic": "MP_TENSION_BATTERIE",
-                "label_index": "18263",
+                "label_index": "@P18263",
                 "label_korean": "배터리 전압",
                 "group_id": "146644",
                 "req_frame_id": "440272",
@@ -202,7 +202,7 @@
             {
                 "position": 1,
                 "mnemonic": "Window_POS",
-                "label_index": "13985",
+                "label_index": "@P13985",
                 "label_korean": "윈도우 위치",
                 "group_id": "146643",
                 "req_frame_id": "440269",
@@ -218,13 +218,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "44346, 44347",
-                "help_korean": "이 값은 0에서 65535 사이클로 변한다. 최대 값에 도달했을 때, 카운터는 0으로 되돌아간다."
+                "help_code": "@P44346@\\*0@\\*65535@T.@\\+@P44347@T.",
+                "help_korean": "이 값은 0에서 65535 사이클로 변한다.최대 값에 도달했을 때, 카운터는 0으로 되돌아간다."
             },
             {
                 "position": 2,
                 "mnemonic": "LowMargine_POS",
-                "label_index": "10178",
+                "label_index": "@P10178",
                 "label_korean": "세이프티 오토-리버스의 작동에서 도달한 위치",
                 "group_id": "146643",
                 "req_frame_id": "440269",
@@ -254,7 +254,7 @@
             {
                 "position": 1,
                 "mnemonic": "Operation_Log_1",
-                "label_index": "4599",
+                "label_index": "@P4599",
                 "label_korean": "마지막 명령",
                 "group_id": "146645",
                 "req_frame_id": "440275",
@@ -270,13 +270,13 @@
                 "bit_mask": 15,
                 "bit_shift": 0,
                 "dynamic_arg": "",
-                "help_code": "144660, 45265, 24596, 11556, 17978, 42924, 17978, 6490, 17978, 10108, 17978, 42828, 17978, 42927, 17978, 42926, 6822, 23791, 6822, 42923, 6822, 42924, 23791, 6490, 6822, 10108, 6822, 42828, 6822, 42927, 6822, 42926, 6079",
-                "help_korean": "[미번역_F144660].\n- 가능한 값은:\n- 설정 없음\n- 키 ON/자동 또는 수동 올림\n- 키 ON/수동 내림\n- 키 ON/자동 내림\n- 키 ON/고장\n- 키 ON/운전자 제어 패드에 의한 수동 내림\n- 키 ON/운전자 제어 패드에 의한 자동 내림\n- 키 OFF/키 OFF\n- 키 OFF/모든 윈도우의 내림\n- 키 OFF/자동 또는 수동 올림\n- 키 OFF/수동 내림\n- 키 OFF/자동 내림\n- 키 OFF/고장\n- 키 OFF/운전자 제어 패드에 의한 수동 내림\n- 키 OFF/운전자 제어 패드에 의한 자동 내림\n- 안티-핀치"
+                "help_code": "@F144660@T.@\\n@P45265@\\n@F24596@\\+@F11556@\\n@T- @F17978@T/@F42924@\\n@T- @F17978@T/@F6490@\\n@T- @F17978@T/@F10108@\\n@T- @F17978@T/@F42828@\\n@T- @F17978@T/@F42927@\\n@T- @F17978@T/@F42926@\\n@T-@\\+@F6822@T/@P23791@\\n@T-@\\+@F6822@T/@F42923@\\n@T-@\\+@F6822@T/@F42924@\\n@T-@\\+@P23791@T/@F6490@\\n@T-@\\+@F6822@T/@F10108@\\n@T-@\\+@F6822@T/@F42828@\\n@T-@\\+@F6822@T/@F42927@\\n@T-@\\+@F6822@T/@F42926@\\n@T-@\\+@F6079",
+                "help_korean": "144660.\n가능한 값은:\n-설정 없음\n- 키 ON/자동 또는 수동 올림\n- 키 ON/수동 내림\n- 키 ON/자동 내림\n- 키 ON/고장\n- 키 ON/운전자 제어 패드에 의한 수동 내림\n- 키 ON/운전자 제어 패드에 의한 자동 내림\n-키 OFF/키 OFF\n-키 OFF/모든 윈도우의 내림\n-키 OFF/자동 또는 수동 올림\n-키 OFF/수동 내림\n-키 OFF/자동 내림\n-키 OFF/고장\n-키 OFF/운전자 제어 패드에 의한 수동 내림\n-키 OFF/운전자 제어 패드에 의한 자동 내림\n-안티-핀치"
             },
             {
                 "position": 2,
                 "mnemonic": "Operation_Log_2",
-                "label_index": "1839",
+                "label_index": "@P1839@\\*1",
                 "label_korean": "명령 -1",
                 "group_id": "146645",
                 "req_frame_id": "440275",
@@ -298,7 +298,7 @@
             {
                 "position": 3,
                 "mnemonic": "Operation_Log_3",
-                "label_index": "1839",
+                "label_index": "@P1839@\\*2",
                 "label_korean": "명령 -2",
                 "group_id": "146645",
                 "req_frame_id": "440275",
@@ -320,7 +320,7 @@
             {
                 "position": 4,
                 "mnemonic": "Operation_Log_4",
-                "label_index": "1839",
+                "label_index": "@P1839@\\*3",
                 "label_korean": "명령 -3",
                 "group_id": "146645",
                 "req_frame_id": "440275",
@@ -350,7 +350,7 @@
             {
                 "position": 1,
                 "mnemonic": "CUSTOMIZE_Lock_SW_new",
-                "label_index": "11708",
+                "label_index": "@P11708",
                 "label_korean": "잠금 모드",
                 "group_id": "146642",
                 "req_frame_id": "440266",
@@ -366,7 +366,7 @@
                 "bit_mask": 2,
                 "bit_shift": 1,
                 "dynamic_arg": "",
-                "help_code": "5431",
+                "help_code": "@F5431@T.",
                 "help_korean": "변수는 BSI \"고객 옵션\"의 \"액세스\" 메뉴에서 설정할 수 있다."
             }
         ]

@@ -8,7 +8,7 @@
             {
                 "position": 1,
                 "mnemonic": "CFG_FIAT_BCM",
-                "label_index": "54527",
+                "label_index": "@P54527@\\*(BCM)",
                 "label_korean": "BSI(BCM)",
                 "group_id": "123598",
                 "req_frame_id": "371136",
@@ -33,7 +33,7 @@
             {
                 "position": 2,
                 "mnemonic": "CFG_FIAT_DRIVER_SIDE",
-                "label_index": "23130",
+                "label_index": "@P23130",
                 "label_korean": "차량 주행 타입",
                 "group_id": "123598",
                 "req_frame_id": "371136",
@@ -58,7 +58,7 @@
             {
                 "position": 3,
                 "mnemonic": "CFG_FIAT_AUDIO_SYSTEM_TYPE",
-                "label_index": "10282",
+                "label_index": "@P10282",
                 "label_korean": "오디오 시스템 타입",
                 "group_id": "123598",
                 "req_frame_id": "371136",
@@ -86,8 +86,8 @@
             {
                 "position": 4,
                 "mnemonic": "CFG_FIAT_VEHICLE_LINE",
-                "label_index": "64596",
-                "label_korean": "[미번역_P64596]",
+                "label_index": "@P64596",
+                "label_korean": "64596",
                 "group_id": "123598",
                 "req_frame_id": "371136",
                 "resp_frame_id": "371137",
@@ -111,7 +111,7 @@
             {
                 "position": 5,
                 "mnemonic": "CFG_FIAT_ACOUSTIC_CONFIGURATION",
-                "label_index": "38990",
+                "label_index": "@P38990",
                 "label_korean": "음향 설정",
                 "group_id": "123598",
                 "req_frame_id": "371136",
@@ -148,8 +148,8 @@
             {
                 "position": 1,
                 "mnemonic": "ID_DIAGNOSTIC_VARIANT_ID",
-                "label_index": "64651",
-                "label_korean": "[미번역_P64651]",
+                "label_index": "@P64651",
+                "label_korean": "64651",
                 "group_id": "123603",
                 "req_frame_id": "371151",
                 "resp_frame_id": "371152",
@@ -170,8 +170,8 @@
             {
                 "position": 2,
                 "mnemonic": "ID_DIAGNOSTIC_VERSION",
-                "label_index": "64650",
-                "label_korean": "[미번역_P64650]",
+                "label_index": "@P64650",
+                "label_korean": "64650",
                 "group_id": "123603",
                 "req_frame_id": "371151",
                 "resp_frame_id": "371152",
@@ -192,7 +192,7 @@
             {
                 "position": 3,
                 "mnemonic": "ID_REFERENCE_MATERIEL",
-                "label_index": "1071",
+                "label_index": "@P1071",
                 "label_korean": "장치 부품 번호",
                 "group_id": "123606",
                 "req_frame_id": "371160",
@@ -214,7 +214,7 @@
             {
                 "position": 4,
                 "mnemonic": "ID_REFERENCE_LOGICIEL",
-                "label_index": "13263",
+                "label_index": "@F13263",
                 "label_korean": "소프트웨어 번호",
                 "group_id": "123606",
                 "req_frame_id": "371160",
@@ -236,7 +236,7 @@
             {
                 "position": 5,
                 "mnemonic": "ID_NOMBRE_DE_TELECHARGEMENT",
-                "label_index": "24589",
+                "label_index": "@P24589",
                 "label_korean": "다운로드의 수",
                 "group_id": "매핑_누락",
                 "req_frame_id": "",
@@ -258,7 +258,7 @@
             {
                 "position": 6,
                 "mnemonic": "ID_VIN_ORIGINE",
-                "label_index": "7959",
+                "label_index": "@P7959",
                 "label_korean": "차량 일련 번호 (원래 차대번호)",
                 "group_id": "123605",
                 "req_frame_id": "371157",
@@ -280,7 +280,7 @@
             {
                 "position": 7,
                 "mnemonic": "ID_VIN_ACTUEL",
-                "label_index": "15431",
+                "label_index": "@P15431",
                 "label_korean": "차량 일련 번호 (현재 차대번호)",
                 "group_id": "123607",
                 "req_frame_id": "371163",
@@ -302,7 +302,7 @@
             {
                 "position": 8,
                 "mnemonic": "ID_TRACA_NUM_SERIE_ASCII",
-                "label_index": "7592",
+                "label_index": "@P7592",
                 "label_korean": "부품 일련 번호",
                 "group_id": "123604",
                 "req_frame_id": "371154",
@@ -332,7 +332,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_BATTERIE_SERVITUDE",
-                "label_index": "27741",
+                "label_index": "@P27741",
                 "label_korean": "서비스 배터리 전압",
                 "group_id": "123588",
                 "req_frame_id": "371106",
@@ -354,7 +354,7 @@
             {
                 "position": 2,
                 "mnemonic": "MP_TENSION_ALIMENTATION_CALCULATEUR",
-                "label_index": "3663",
+                "label_index": "@P3663",
                 "label_korean": "ECU 공급 전압",
                 "group_id": "123589",
                 "req_frame_id": "371109",
@@ -378,8 +378,8 @@
             {
                 "position": 3,
                 "mnemonic": "MP_DERNIERE_CONDITION_REVEIL_RESEAU_CAN1",
-                "label_index": "64656",
-                "label_korean": "[미번역_P64656]-CAN1",
+                "label_index": "@P64656@\\*C-CAN1",
+                "label_korean": "64656-CAN1",
                 "group_id": "123602",
                 "req_frame_id": "371148",
                 "resp_frame_id": "371149",
@@ -423,8 +423,8 @@
             {
                 "position": 4,
                 "mnemonic": "MP_KM_VEH_DERNIERE_CONDITION_REVEIL_RESEAU_CAN1",
-                "label_index": "64652",
-                "label_korean": "[미번역_P64652]-CAN1",
+                "label_index": "@P64652@\\*C-CAN1",
+                "label_korean": "64652-CAN1",
                 "group_id": "123602",
                 "req_frame_id": "371148",
                 "resp_frame_id": "371149",
@@ -445,8 +445,8 @@
             {
                 "position": 5,
                 "mnemonic": "MP_DERNIERE_CONDITION_REVEIL_RESEAU_CAN3",
-                "label_index": "64656",
-                "label_korean": "[미번역_P64656]-CAN3",
+                "label_index": "@P64656@\\*C-CAN3",
+                "label_korean": "64656-CAN3",
                 "group_id": "123599",
                 "req_frame_id": "371139",
                 "resp_frame_id": "371140",
@@ -490,8 +490,8 @@
             {
                 "position": 6,
                 "mnemonic": "MP_KM_VEH_DERNIERE_CONDITION_REVEIL_RESEAU_CAN3",
-                "label_index": "64652",
-                "label_korean": "[미번역_P64652]-CAN3",
+                "label_index": "@P64652@\\*C-CAN3",
+                "label_korean": "64652-CAN3",
                 "group_id": "123599",
                 "req_frame_id": "371139",
                 "resp_frame_id": "371140",
@@ -512,8 +512,8 @@
             {
                 "position": 7,
                 "mnemonic": "MP_DERNIERE_CONDITION_REVEIL_RESEAU_CAN4",
-                "label_index": "64656",
-                "label_korean": "[미번역_P64656]-CAN4",
+                "label_index": "@P64656@\\*C-CAN4",
+                "label_korean": "64656-CAN4",
                 "group_id": "123600",
                 "req_frame_id": "371142",
                 "resp_frame_id": "371143",
@@ -557,8 +557,8 @@
             {
                 "position": 8,
                 "mnemonic": "MP_KM_VEH_DERNIERE_CONDITION_REVEIL_RESEAU_CAN4",
-                "label_index": "64652",
-                "label_korean": "[미번역_P64652]-CAN4",
+                "label_index": "@P64652@\\*C-CAN4",
+                "label_korean": "64652-CAN4",
                 "group_id": "123600",
                 "req_frame_id": "371142",
                 "resp_frame_id": "371143",
@@ -579,8 +579,8 @@
             {
                 "position": 9,
                 "mnemonic": "MP_DERNIERE_CONDITION_REVEIL_RESEAU_CAN5",
-                "label_index": "64656",
-                "label_korean": "[미번역_P64656]-CAN5",
+                "label_index": "@P64656@\\*C-CAN5",
+                "label_korean": "64656-CAN5",
                 "group_id": "123601",
                 "req_frame_id": "371145",
                 "resp_frame_id": "371146",
@@ -624,8 +624,8 @@
             {
                 "position": 10,
                 "mnemonic": "MP_KM_VEH_DERNIERE_CONDITION_REVEIL_RESEAU_CAN5",
-                "label_index": "64652",
-                "label_korean": "[미번역_P64652]-CAN5",
+                "label_index": "@P64652@\\*C-CAN5",
+                "label_korean": "64652-CAN5",
                 "group_id": "123601",
                 "req_frame_id": "371145",
                 "resp_frame_id": "371146",
@@ -654,7 +654,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_KILOMETRAGE_ODOMETRE",
-                "label_index": "61286",
+                "label_index": "@P61286",
                 "label_korean": "원래 VIN이 마지막으로 잠금 해제된 이후 주행한 거리(km)",
                 "group_id": "123585",
                 "req_frame_id": "371097",
@@ -670,13 +670,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "61287, 61288",
+                "help_code": "@P61287@\\*255@\\n@P61288@\\*5",
                 "help_korean": "최대 값은 255km이다\n원래 VIN은 255km 거리가 지나면 자동으로 잠긴다"
             },
             {
                 "position": 2,
                 "mnemonic": "MP_ETAT_VIN",
-                "label_index": "61282",
+                "label_index": "@P61282",
                 "label_korean": "원래 VIN 잠금 상태",
                 "group_id": "123585",
                 "req_frame_id": "371097",
@@ -702,7 +702,7 @@
             {
                 "position": 3,
                 "mnemonic": "MP_REGIME_MACHINE_ELECTRIQUE_TRACTION",
-                "label_index": "22344",
+                "label_index": "@P22344",
                 "label_korean": "전동 트랙션 머신의 속도",
                 "group_id": "123586",
                 "req_frame_id": "371100",
@@ -724,7 +724,7 @@
             {
                 "position": 4,
                 "mnemonic": "MP_VITESSE_VEHICULE",
-                "label_index": "9267",
+                "label_index": "@F9267",
                 "label_korean": "차량 속도",
                 "group_id": "123587",
                 "req_frame_id": "371103",
@@ -750,7 +750,7 @@
             {
                 "position": 5,
                 "mnemonic": "MP_TEMPS_FONCTIONNEMENT_CALCULATEUR",
-                "label_index": "20788",
+                "label_index": "@P20788",
                 "label_korean": "ECU 작동 시간",
                 "group_id": "123590",
                 "req_frame_id": "371112",
@@ -772,7 +772,7 @@
             {
                 "position": 6,
                 "mnemonic": "MP_COMPT_MISE_CONTACT",
-                "label_index": "26655",
+                "label_index": "@P26655",
                 "label_korean": "키 ON 카운터",
                 "group_id": "123595",
                 "req_frame_id": "371127",
@@ -794,7 +794,7 @@
             {
                 "position": 7,
                 "mnemonic": "MP_TEMPS_DEPUIS_APC",
-                "label_index": "61219",
+                "label_index": "@P61219",
                 "label_korean": "점화 스위치가 켜진 후 경과된 시간",
                 "group_id": "123591",
                 "req_frame_id": "371115",
@@ -816,7 +816,7 @@
             {
                 "position": 8,
                 "mnemonic": "MP_DUREE_POWER_LATCH",
-                "label_index": "61231",
+                "label_index": "@P61231",
                 "label_korean": "파워 래치의 기간",
                 "group_id": "123592",
                 "req_frame_id": "371118",
@@ -838,7 +838,7 @@
             {
                 "position": 9,
                 "mnemonic": "MP_KILOMETRAGE_DU_VEHICULE",
-                "label_index": "6315",
+                "label_index": "@F6315",
                 "label_korean": "차량 주행거리",
                 "group_id": "123593",
                 "req_frame_id": "371121",
@@ -860,8 +860,8 @@
             {
                 "position": 10,
                 "mnemonic": "MP_KILOMETRAGE_VEHICULE_DERNIER_TELECHARGEMENT_ECU",
-                "label_index": "64649",
-                "label_korean": "[미번역_P64649]",
+                "label_index": "@P64649",
+                "label_korean": "64649",
                 "group_id": "123594",
                 "req_frame_id": "371124",
                 "resp_frame_id": "371125",
@@ -882,7 +882,7 @@
             {
                 "position": 11,
                 "mnemonic": "MP_TEMPS_APPA_PREMIER_DEF",
-                "label_index": "5744",
+                "label_index": "@P5744",
                 "label_korean": "첫번째 결함이 발생한 후 경과된 시간",
                 "group_id": "123596",
                 "req_frame_id": "371130",
@@ -904,7 +904,7 @@
             {
                 "position": 12,
                 "mnemonic": "MP_TEMPERATURE_AIR_EXTERIEUR",
-                "label_index": "2649",
+                "label_index": "@F2649",
                 "label_korean": "외부 공기 온도",
                 "group_id": "123597",
                 "req_frame_id": "371133",
@@ -936,7 +936,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_TEMPS_FONCTIONNEMENT_CALCULATEUR",
-                "label_index": "20788",
+                "label_index": "@P20788",
                 "label_korean": "ECU 작동 시간",
                 "group_id": "123590",
                 "req_frame_id": "371112",
@@ -958,7 +958,7 @@
             {
                 "position": 2,
                 "mnemonic": "MP_TEMPS_DEPUIS_APC",
-                "label_index": "61219",
+                "label_index": "@P61219",
                 "label_korean": "점화 스위치가 켜진 후 경과된 시간",
                 "group_id": "123591",
                 "req_frame_id": "371115",
@@ -980,7 +980,7 @@
             {
                 "position": 3,
                 "mnemonic": "MP_COMPT_MISE_CONTACT",
-                "label_index": "26655",
+                "label_index": "@P26655",
                 "label_korean": "키 ON 카운터",
                 "group_id": "123595",
                 "req_frame_id": "371127",
@@ -1002,7 +1002,7 @@
             {
                 "position": 4,
                 "mnemonic": "MP_KILOMETRAGE_DU_VEHICULE",
-                "label_index": "6315",
+                "label_index": "@F6315",
                 "label_korean": "차량 주행거리",
                 "group_id": "123593",
                 "req_frame_id": "371121",
@@ -1024,7 +1024,7 @@
             {
                 "position": 5,
                 "mnemonic": "MP_BATTERIE_SERVITUDE",
-                "label_index": "27741",
+                "label_index": "@P27741",
                 "label_korean": "서비스 배터리 전압",
                 "group_id": "123588",
                 "req_frame_id": "371106",
@@ -1046,7 +1046,7 @@
             {
                 "position": 6,
                 "mnemonic": "MP_VITESSE_VEHICULE",
-                "label_index": "9267",
+                "label_index": "@F9267",
                 "label_korean": "차량 속도",
                 "group_id": "123587",
                 "req_frame_id": "371103",

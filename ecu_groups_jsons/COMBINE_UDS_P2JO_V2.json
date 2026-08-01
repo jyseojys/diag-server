@@ -8,7 +8,7 @@
             {
                 "position": 1,
                 "mnemonic": "ID_NOM_DU_FOURNISSEUR",
-                "label_index": "5701",
+                "label_index": "@P5701",
                 "label_korean": "제조 업체명",
                 "group_id": "107501",
                 "req_frame_id": "322850",
@@ -38,7 +38,7 @@
             {
                 "position": 2,
                 "mnemonic": "ID_REFERENCE_MATERIEL",
-                "label_index": "1071",
+                "label_index": "@P1071",
                 "label_korean": "장치 부품 번호",
                 "group_id": "107501",
                 "req_frame_id": "322850",
@@ -60,7 +60,7 @@
             {
                 "position": 3,
                 "mnemonic": "ID_REFERENCE_COMPLEMENTAIRE_MATERIEL",
-                "label_index": "1634",
+                "label_index": "@P1634",
                 "label_korean": "장치 추가 참조 번호",
                 "group_id": "107501",
                 "req_frame_id": "322850",
@@ -82,7 +82,7 @@
             {
                 "position": 4,
                 "mnemonic": "ID_VERSION_LOGICIEL_new_1",
-                "label_index": "8662",
+                "label_index": "@P8662@\\*",
                 "label_korean": "소프트웨어 버전",
                 "group_id": "107501",
                 "req_frame_id": "322850",
@@ -104,7 +104,7 @@
             {
                 "position": 5,
                 "mnemonic": "ID_REF_CALIBRATION_new_1",
-                "label_index": "7014",
+                "label_index": "@P7014",
                 "label_korean": "캘리브레이션 버전",
                 "group_id": "107501",
                 "req_frame_id": "322850",
@@ -126,7 +126,7 @@
             {
                 "position": 6,
                 "mnemonic": "ID_MESS_DIAGNOSTIC",
-                "label_index": "2459",
+                "label_index": "@P2459",
                 "label_korean": "진단 이메일",
                 "group_id": "107501",
                 "req_frame_id": "322850",
@@ -142,13 +142,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "60691",
+                "help_code": "@P60691@\\*FF",
                 "help_korean": "메시징 참조 및 메시징 인덱스는 다운로드 후 FF로 설정된다"
             },
             {
                 "position": 7,
                 "mnemonic": "ID_80_MP_INDICE_MESS",
-                "label_index": "2225",
+                "label_index": "@P2225",
                 "label_korean": "메시지 인덱스",
                 "group_id": "107501",
                 "req_frame_id": "322850",
@@ -164,13 +164,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "60691",
+                "help_code": "@P60691@\\*FF",
                 "help_korean": "메시징 참조 및 메시징 인덱스는 다운로드 후 FF로 설정된다"
             },
             {
                 "position": 8,
                 "mnemonic": "ID_TRACABILITE_NUMERO_DE_SERIE_PIECE",
-                "label_index": "7592",
+                "label_index": "@P7592",
                 "label_korean": "부품 일련 번호",
                 "group_id": "107503",
                 "req_frame_id": "322856",
@@ -192,7 +192,7 @@
             {
                 "position": 9,
                 "mnemonic": "ID_TRACABILITE_DATE_FABRICATION",
-                "label_index": "14355",
+                "label_index": "@P14355",
                 "label_korean": "제조일자",
                 "group_id": "107502",
                 "req_frame_id": "322853",
@@ -222,7 +222,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_AAS",
-                "label_index": "39544",
+                "label_index": "@P39544",
                 "label_korean": "주차 지원 버튼",
                 "group_id": "107505",
                 "req_frame_id": "322862",
@@ -238,13 +238,13 @@
                 "bit_mask": 128,
                 "bit_shift": 7,
                 "dynamic_arg": "",
-                "help_code": "34798, 34797",
+                "help_code": "@P34798@\\n@P34797",
                 "help_korean": "장치에 따라 버튼이 존재한다\n관련 버튼을 눌러서 변수의 상태를 변경한다"
             },
             {
                 "position": 2,
                 "mnemonic": "MP_ETAT_AFIL",
-                "label_index": "46673",
+                "label_index": "@P46673",
                 "label_korean": "차선 이탈 경고 버튼",
                 "group_id": "107505",
                 "req_frame_id": "322862",
@@ -260,13 +260,13 @@
                 "bit_mask": 64,
                 "bit_shift": 6,
                 "dynamic_arg": "",
-                "help_code": "34798, 34797",
+                "help_code": "@P34798@\\n@P34797",
                 "help_korean": "장치에 따라 버튼이 존재한다\n관련 버튼을 눌러서 변수의 상태를 변경한다"
             },
             {
                 "position": 3,
                 "mnemonic": "MP_TOUCHE_CONDUITE_DYNAMIQUE_COMBINE",
-                "label_index": "34799",
+                "label_index": "@P34799",
                 "label_korean": "다이내믹 주행 기능 버튼",
                 "group_id": "107505",
                 "req_frame_id": "322862",
@@ -282,13 +282,13 @@
                 "bit_mask": 32,
                 "bit_shift": 5,
                 "dynamic_arg": "",
-                "help_code": "34798, 34797",
+                "help_code": "@P34798@\\n@P34797",
                 "help_korean": "장치에 따라 버튼이 존재한다\n관련 버튼을 눌러서 변수의 상태를 변경한다"
             },
             {
                 "position": 4,
                 "mnemonic": "MP_TOUCHE_CITY_PARK_COMBINE",
-                "label_index": "31607",
+                "label_index": "@P31607",
                 "label_korean": "반-자동 주차 지원 버튼",
                 "group_id": "107505",
                 "req_frame_id": "322862",
@@ -307,13 +307,13 @@
                 "bit_mask": 32,
                 "bit_shift": 5,
                 "dynamic_arg": "",
-                "help_code": "34798, 34797",
+                "help_code": "@P34798@\\n@P34797",
                 "help_korean": "장치에 따라 버튼이 존재한다\n관련 버튼을 눌러서 변수의 상태를 변경한다"
             },
             {
                 "position": 5,
                 "mnemonic": "MP_TOUCHE_CHECK",
-                "label_index": "26753",
+                "label_index": "@P26753",
                 "label_korean": "\"체크\" 버튼",
                 "group_id": "매핑_누락",
                 "req_frame_id": "",
@@ -329,13 +329,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "34797",
+                "help_code": "@P34797",
                 "help_korean": "관련 버튼을 눌러서 변수의 상태를 변경한다"
             },
             {
                 "position": 6,
                 "mnemonic": "MP_TOUCHE_RAZ_ODOMETRE_COMBINE",
-                "label_index": "31901",
+                "label_index": "@P31901",
                 "label_korean": "주행거리계 제로 리셋 버튼",
                 "group_id": "107504",
                 "req_frame_id": "322859",
@@ -354,13 +354,13 @@
                 "bit_mask": 128,
                 "bit_shift": 7,
                 "dynamic_arg": "",
-                "help_code": "34797",
+                "help_code": "@P34797",
                 "help_korean": "관련 버튼을 눌러서 변수의 상태를 변경한다"
             },
             {
                 "position": 7,
                 "mnemonic": "MP_ETAT_RHEOSTAT_MOINS",
-                "label_index": "6476",
+                "label_index": "@P6476",
                 "label_korean": "밝기 조절 \"-\" 버튼의 상태",
                 "group_id": "매핑_누락",
                 "req_frame_id": "",
@@ -376,14 +376,14 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "34797",
+                "help_code": "@P34797",
                 "help_korean": "관련 버튼을 눌러서 변수의 상태를 변경한다"
             },
             {
                 "position": 8,
                 "mnemonic": "MP_ETAT_RHEOSTAT_PLUS",
-                "label_index": "9878",
-                "label_korean": "밝기 조절 \" \" 버튼 상태",
+                "label_index": "@P9878",
+                "label_korean": "밝기 조절 \"+\" 버튼 상태",
                 "group_id": "매핑_누락",
                 "req_frame_id": "",
                 "resp_frame_id": "",
@@ -398,13 +398,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "34797",
+                "help_code": "@P34797",
                 "help_korean": "관련 버튼을 눌러서 변수의 상태를 변경한다"
             },
             {
                 "position": 9,
                 "mnemonic": "MP_TOUCHE_DSG_COMBINE",
-                "label_index": "34785",
+                "label_index": "@P34785",
                 "label_korean": "타이어 공기압 감지 버튼",
                 "group_id": "107505",
                 "req_frame_id": "322862",
@@ -420,13 +420,13 @@
                 "bit_mask": 16,
                 "bit_shift": 4,
                 "dynamic_arg": "",
-                "help_code": "34798, 34797",
+                "help_code": "@P34798@\\n@P34797",
                 "help_korean": "장치에 따라 버튼이 존재한다\n관련 버튼을 눌러서 변수의 상태를 변경한다"
             },
             {
                 "position": 10,
                 "mnemonic": "MP_TOUCHE_ESP_COMBINE",
-                "label_index": "18564",
+                "label_index": "@P18564@\\*ESP",
                 "label_korean": "버튼ESP",
                 "group_id": "107505",
                 "req_frame_id": "322862",
@@ -442,13 +442,13 @@
                 "bit_mask": 8,
                 "bit_shift": 3,
                 "dynamic_arg": "ESP",
-                "help_code": "34798, 34797",
+                "help_code": "@P34798@\\n@P34797",
                 "help_korean": "장치에 따라 버튼이 존재한다\n관련 버튼을 눌러서 변수의 상태를 변경한다"
             },
             {
                 "position": 11,
                 "mnemonic": "MP_ETAT_SAM",
-                "label_index": "46674",
+                "label_index": "@P46674",
                 "label_korean": "사각지대 모니터링 버튼",
                 "group_id": "107505",
                 "req_frame_id": "322862",
@@ -464,13 +464,13 @@
                 "bit_mask": 4,
                 "bit_shift": 2,
                 "dynamic_arg": "",
-                "help_code": "34798, 34797",
+                "help_code": "@P34798@\\n@P34797",
                 "help_korean": "장치에 따라 버튼이 존재한다\n관련 버튼을 눌러서 변수의 상태를 변경한다"
             },
             {
                 "position": 12,
                 "mnemonic": "MP_COMMUTATEUR_STOP_AND_START",
-                "label_index": "1308",
+                "label_index": "@P1308",
                 "label_korean": "스탑 앤 스타트 스위치",
                 "group_id": "107505",
                 "req_frame_id": "322862",
@@ -494,13 +494,13 @@
                 "bit_mask": 2,
                 "bit_shift": 1,
                 "dynamic_arg": "",
-                "help_code": "34798, 34797",
+                "help_code": "@P34798@\\n@P34797",
                 "help_korean": "장치에 따라 버튼이 존재한다\n관련 버튼을 눌러서 변수의 상태를 변경한다"
             },
             {
                 "position": 13,
                 "mnemonic": "MP_COMMUTATEUR_INVERSION_AUTOMATIQUE_FEUX",
-                "label_index": "26803",
+                "label_index": "@P26803",
                 "label_korean": "자동 헤드램프 변환 스위치",
                 "group_id": "107505",
                 "req_frame_id": "322862",
@@ -516,13 +516,13 @@
                 "bit_mask": 1,
                 "bit_shift": 0,
                 "dynamic_arg": "",
-                "help_code": "34798, 34797",
+                "help_code": "@P34798@\\n@P34797",
                 "help_korean": "장치에 따라 버튼이 존재한다\n관련 버튼을 눌러서 변수의 상태를 변경한다"
             },
             {
                 "position": 14,
                 "mnemonic": "ETAT_TOUCHE_SYST_CONT_DESCENTE",
-                "label_index": "48957",
+                "label_index": "@P48957",
                 "label_korean": "내리막 제어 시스템 버튼",
                 "group_id": "107505",
                 "req_frame_id": "322862",
@@ -538,13 +538,13 @@
                 "bit_mask": 128,
                 "bit_shift": 7,
                 "dynamic_arg": "",
-                "help_code": "34798, 34797",
+                "help_code": "@P34798@\\n@P34797",
                 "help_korean": "장치에 따라 버튼이 존재한다\n관련 버튼을 눌러서 변수의 상태를 변경한다"
             },
             {
                 "position": 15,
                 "mnemonic": "MP_ETAT_FONCTION_LKA",
-                "label_index": "49390",
+                "label_index": "@P49390",
                 "label_korean": "차선 유지 지원 기능 상태",
                 "group_id": "107505",
                 "req_frame_id": "322862",
@@ -570,13 +570,13 @@
                 "bit_mask": 64,
                 "bit_shift": 6,
                 "dynamic_arg": "",
-                "help_code": "34798, 34797",
+                "help_code": "@P34798@\\n@P34797",
                 "help_korean": "장치에 따라 버튼이 존재한다\n관련 버튼을 눌러서 변수의 상태를 변경한다"
             },
             {
                 "position": 16,
                 "mnemonic": "MP_ETAT_MODE_ECO",
-                "label_index": "19009",
+                "label_index": "@P19009",
                 "label_korean": "ECO 모드의 상태",
                 "group_id": "107505",
                 "req_frame_id": "322862",
@@ -595,13 +595,13 @@
                 "bit_mask": 32,
                 "bit_shift": 5,
                 "dynamic_arg": "",
-                "help_code": "34798, 34797",
+                "help_code": "@P34798@\\n@P34797",
                 "help_korean": "장치에 따라 버튼이 존재한다\n관련 버튼을 눌러서 변수의 상태를 변경한다"
             },
             {
                 "position": 17,
                 "mnemonic": "MP_TOUCHE_RETROECLAIRAGE_COMBINE",
-                "label_index": "34784",
+                "label_index": "@P34784",
                 "label_korean": "계기판 백라이트 버튼",
                 "group_id": "107504",
                 "req_frame_id": "322859",
@@ -617,13 +617,13 @@
                 "bit_mask": 64,
                 "bit_shift": 6,
                 "dynamic_arg": "",
-                "help_code": "34797",
+                "help_code": "@P34797",
                 "help_korean": "관련 버튼을 눌러서 변수의 상태를 변경한다"
             },
             {
                 "position": 18,
                 "mnemonic": "MP_COMMUTATEUR_CHECK_RAZ_ODOMETRE",
-                "label_index": "17255",
+                "label_index": "@P17255",
                 "label_korean": "CHECK / RESET 주행 거리계 스위치",
                 "group_id": "매핑_누락",
                 "req_frame_id": "",
@@ -642,13 +642,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "17035",
+                "help_code": "@P17035",
                 "help_korean": "기능이 차량에 있을 경우, 변수 상태는 변해야 한다"
             },
             {
                 "position": 19,
                 "mnemonic": "MP_NOMBRE_RESET_CALCULATEUR",
-                "label_index": "7617",
+                "label_index": "@P7617",
                 "label_korean": "ECU 리셋 수",
                 "group_id": "매핑_누락",
                 "req_frame_id": "",
@@ -670,8 +670,8 @@
             {
                 "position": 20,
                 "mnemonic": "MP_NOMBRE_SAUT_ANORMAUX_KILOMETRAGE_TOTAL",
-                "label_index": "18375",
-                "label_korean": "차량의\n- 총 주행거리에서 비정상적인 점프 : 저장된 주행거리에 따른 수",
+                "label_index": "@P18375@T : @P18587",
+                "label_korean": "차량의 총 주행거리에서 비정상적인 점프 : 저장된 주행거리에 따른 수",
                 "group_id": "매핑_누락",
                 "req_frame_id": "",
                 "resp_frame_id": "",
@@ -692,8 +692,8 @@
             {
                 "position": 21,
                 "mnemonic": "MP_KILOMETRAGE_TOTAL_AVANT_SAUT_KILOMETRAGE",
-                "label_index": "18375",
-                "label_korean": "차량의\n- 총 주행거리에서 비정상적인 점프 : 점프 감지 이전에 저장된 총 주행거리",
+                "label_index": "@P18375@\\+@T:@\\+@P18452",
+                "label_korean": "차량의 총 주행거리에서 비정상적인 점프:점프 감지 이전에 저장된 총 주행거리",
                 "group_id": "매핑_누락",
                 "req_frame_id": "",
                 "resp_frame_id": "",
@@ -714,8 +714,8 @@
             {
                 "position": 22,
                 "mnemonic": "MP_KILOMETRAGE_TOTAL_APRES_SAUT_KILOMETRAGE",
-                "label_index": "18375",
-                "label_korean": "차량의\n- 총 주행거리에서 비정상적인 점프 : 고장 감지 이후 저장된 총 주행거리",
+                "label_index": "@P18375@\\+@T:@\\+@P18689",
+                "label_korean": "차량의 총 주행거리에서 비정상적인 점프:고장 감지 이후 저장된 총 주행거리",
                 "group_id": "매핑_누락",
                 "req_frame_id": "",
                 "resp_frame_id": "",
@@ -736,7 +736,7 @@
             {
                 "position": 23,
                 "mnemonic": "MP_TOUCHE_INT_DROITE",
-                "label_index": "46640",
+                "label_index": "@P46640",
                 "label_korean": "내부 우측 버튼",
                 "group_id": "107504",
                 "req_frame_id": "322859",
@@ -752,13 +752,13 @@
                 "bit_mask": 128,
                 "bit_shift": 7,
                 "dynamic_arg": "",
-                "help_code": "34798, 34797",
+                "help_code": "@P34798@\\n@P34797",
                 "help_korean": "장치에 따라 버튼이 존재한다\n관련 버튼을 눌러서 변수의 상태를 변경한다"
             },
             {
                 "position": 24,
                 "mnemonic": "MP_TOUCHE_EXT_DROITE",
-                "label_index": "46641",
+                "label_index": "@P46641",
                 "label_korean": "외부 우측 버튼",
                 "group_id": "107504",
                 "req_frame_id": "322859",
@@ -774,13 +774,13 @@
                 "bit_mask": 64,
                 "bit_shift": 6,
                 "dynamic_arg": "",
-                "help_code": "34798, 34797",
+                "help_code": "@P34798@\\n@P34797",
                 "help_korean": "장치에 따라 버튼이 존재한다\n관련 버튼을 눌러서 변수의 상태를 변경한다"
             },
             {
                 "position": 25,
                 "mnemonic": "MP_TOUCHE_INT_GAUCHE",
-                "label_index": "46642",
+                "label_index": "@P46642",
                 "label_korean": "내부 좌측 버튼",
                 "group_id": "107504",
                 "req_frame_id": "322859",
@@ -796,13 +796,13 @@
                 "bit_mask": 32,
                 "bit_shift": 5,
                 "dynamic_arg": "",
-                "help_code": "34798, 34797",
+                "help_code": "@P34798@\\n@P34797",
                 "help_korean": "장치에 따라 버튼이 존재한다\n관련 버튼을 눌러서 변수의 상태를 변경한다"
             },
             {
                 "position": 26,
                 "mnemonic": "MP_TOUCHE_EXT_GAUCHE",
-                "label_index": "46643",
+                "label_index": "@P46643",
                 "label_korean": "외부 좌측 버튼",
                 "group_id": "107504",
                 "req_frame_id": "322859",
@@ -818,13 +818,13 @@
                 "bit_mask": 16,
                 "bit_shift": 4,
                 "dynamic_arg": "",
-                "help_code": "34798, 34797",
+                "help_code": "@P34798@\\n@P34797",
                 "help_korean": "장치에 따라 버튼이 존재한다\n관련 버튼을 눌러서 변수의 상태를 변경한다"
             },
             {
                 "position": 27,
                 "mnemonic": "MP_ETAT_DYN_PUSH",
-                "label_index": "34799",
+                "label_index": "@P34799",
                 "label_korean": "다이내믹 주행 기능 버튼",
                 "group_id": "107505",
                 "req_frame_id": "322862",
@@ -840,7 +840,7 @@
                 "bit_mask": 16,
                 "bit_shift": 4,
                 "dynamic_arg": "",
-                "help_code": "34798, 34797",
+                "help_code": "@P34798@\\n@P34797",
                 "help_korean": "장치에 따라 버튼이 존재한다\n관련 버튼을 눌러서 변수의 상태를 변경한다"
             }
         ]
@@ -854,7 +854,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_AIGUILLE_TACHYMETRE_COMBINE",
-                "label_index": "35671",
+                "label_index": "@F35671",
                 "label_korean": "속도계",
                 "group_id": "107506",
                 "req_frame_id": "322865",
@@ -870,13 +870,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "34800, 34801",
+                "help_code": "@P34800@\\n@P34801",
                 "help_korean": "이 변수는 계기판에 표시되어야 할 기준 값을 나타낸다\n변수를 변경하기 위해서 도로 주행을 실시한다"
             },
             {
                 "position": 2,
                 "mnemonic": "MP_AIGUILLE_COMPTE_TOURS_COMBINE",
-                "label_index": "15197",
+                "label_index": "@P15197",
                 "label_korean": "rpm 카운터",
                 "group_id": "107507",
                 "req_frame_id": "322868",
@@ -892,13 +892,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "34800, 34802, 49526",
+                "help_code": "@P34800@\\n@P34802@\\n@P49526@\\*7.12",
                 "help_korean": "이 변수는 계기판에 표시되어야 할 기준 값을 나타낸다\n변수를 변경하기 위해서 가속 페달을 누른다\n이 변수는 7보다 오래된 소프트웨어 버전에서 작동하지 않는다.12"
             },
             {
                 "position": 3,
                 "mnemonic": "MP_AIGUILLE_JAUGE_CARBURANT_COMBINE",
-                "label_index": "34786",
+                "label_index": "@P34786",
                 "label_korean": "연료 게이지 표시계",
                 "group_id": "107508",
                 "req_frame_id": "322871",
@@ -914,13 +914,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "34800",
+                "help_code": "@P34800",
                 "help_korean": "이 변수는 계기판에 표시되어야 할 기준 값을 나타낸다"
             },
             {
                 "position": 4,
                 "mnemonic": "MP_AIGUILLE_TEMP_EAU_COMBINE",
-                "label_index": "35455",
+                "label_index": "@P35455",
                 "label_korean": "냉각수 온도 게이지",
                 "group_id": "107509",
                 "req_frame_id": "322874",
@@ -936,7 +936,7 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "34800, 49526",
+                "help_code": "@P34800@\\n@P49526@\\*7.12",
                 "help_korean": "이 변수는 계기판에 표시되어야 할 기준 값을 나타낸다\n이 변수는 7보다 오래된 소프트웨어 버전에서 작동하지 않는다.12"
             }
         ]

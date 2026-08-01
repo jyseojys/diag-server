@@ -8,7 +8,7 @@
             {
                 "position": 1,
                 "mnemonic": "ID_CODE_ISO",
-                "label_index": "13988",
+                "label_index": "@P13988",
                 "label_korean": "ISO 번호",
                 "group_id": "20342",
                 "req_frame_id": "61029",
@@ -30,7 +30,7 @@
             {
                 "position": 2,
                 "mnemonic": "ID_REF_CALCULATEUR",
-                "label_index": "9463",
+                "label_index": "@P9463",
                 "label_korean": "ECU 참조",
                 "group_id": "20342",
                 "req_frame_id": "61029",
@@ -52,7 +52,7 @@
             {
                 "position": 3,
                 "mnemonic": "VERSION_CALCULATEUR",
-                "label_index": "4106",
+                "label_index": "@P4106",
                 "label_korean": "ECU 버전",
                 "group_id": "20342",
                 "req_frame_id": "61029",
@@ -74,7 +74,7 @@
             {
                 "position": 4,
                 "mnemonic": "ID_REFERENCE_LOGICIEL",
-                "label_index": "4799",
+                "label_index": "@P4799@\\*",
                 "label_korean": "소프트웨어 번호",
                 "group_id": "20342",
                 "req_frame_id": "61029",
@@ -96,7 +96,7 @@
             {
                 "position": 5,
                 "mnemonic": "ID_VERSION_LOGICIEL_new_1",
-                "label_index": "8662",
+                "label_index": "@P8662@\\*",
                 "label_korean": "소프트웨어 버전",
                 "group_id": "20342",
                 "req_frame_id": "61029",
@@ -118,7 +118,7 @@
             {
                 "position": 6,
                 "mnemonic": "ID_ECU_NUMBER",
-                "label_index": "3320",
+                "label_index": "@P3320@\\*",
                 "label_korean": "평면 부품 번호",
                 "group_id": "20342",
                 "req_frame_id": "61029",
@@ -140,7 +140,7 @@
             {
                 "position": 7,
                 "mnemonic": "ID_DATE_2",
-                "label_index": "21670",
+                "label_index": "@P21670",
                 "label_korean": "다운로딩 날짜",
                 "group_id": "20342",
                 "req_frame_id": "61029",
@@ -170,7 +170,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_TENSION_ALIMENTATION",
-                "label_index": "7080",
+                "label_index": "@P7080",
                 "label_korean": "공급 전압",
                 "group_id": "20346",
                 "req_frame_id": "61041",
@@ -186,13 +186,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "10959",
+                "help_code": "@P10959",
                 "help_korean": "ECU에 의해 보여지는 공급 전압"
             },
             {
                 "position": 2,
                 "mnemonic": "MP_TEMPEAU",
-                "label_index": "10576",
+                "label_index": "@P10576",
                 "label_korean": "냉각수 온도",
                 "group_id": "20344",
                 "req_frame_id": "61035",
@@ -208,7 +208,7 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "7933",
+                "help_code": "@P7933",
                 "help_korean": "ECU에 의해 보여지는 냉각수 온도"
             }
         ]
@@ -222,7 +222,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_ETAT_POMPE_A_CARBURANT_CHAUDIERE",
-                "label_index": "8765",
+                "label_index": "@P8765",
                 "label_korean": "연료 펌프 상태",
                 "group_id": "20347",
                 "req_frame_id": "61044",
@@ -241,13 +241,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "9530, 45817, 12688, 45818",
-                "help_korean": "중단 :\n- 3분 넘게 보일러가 꺼짐\nON : 3분 미만으로 보일러가 작동하거나 꺼짐"
+                "help_code": "@P9530@T : @P45817@\\*3@\\n@P12688@T : @P45818@\\*3",
+                "help_korean": "중단 : 3분 넘게 보일러가 꺼짐\nON : 3분 미만으로 보일러가 작동하거나 꺼짐"
             },
             {
                 "position": 2,
                 "mnemonic": "MP_PRESENCE_FLAMME_CHAUDIERE",
-                "label_index": "9934",
+                "label_index": "@P9934",
                 "label_korean": "화염의 존재",
                 "group_id": "20345",
                 "req_frame_id": "61038",
@@ -263,13 +263,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "11638, 45664, 10111, 43910",
-                "help_korean": "불꽃\n- 감지 :\n- 보일러 작동\n불꽃 감지 없음 : 보일러 꺼짐"
+                "help_code": "@P11638@T : @P45664@\\n@P10111@T : @P43910",
+                "help_korean": "불꽃 감지 : 보일러 작동\n불꽃 감지 없음 : 보일러 꺼짐"
             },
             {
                 "position": 3,
                 "mnemonic": "MP_ETAT_DOIGT_INCANDESCENT_CHAUDIERE",
-                "label_index": "10967",
+                "label_index": "@P10967",
                 "label_korean": "백열 핑거의 상태",
                 "group_id": "20349",
                 "req_frame_id": "61050",
@@ -285,13 +285,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "9530, 45819, 12688, 45820",
-                "help_korean": "중단 :\n- 80초 넘게 보일러가 꺼짐\nON : 80초 미만으로 보일러가 작동함"
+                "help_code": "@P9530@T : @P45819@\\*80@\\n@P12688@T : @P45820@\\*80",
+                "help_korean": "중단 : 80초 넘게 보일러가 꺼짐\nON : 80초 미만으로 보일러가 작동함"
             },
             {
                 "position": 4,
                 "mnemonic": "TURBINE_A_AIR",
-                "label_index": "2531",
+                "label_index": "@P2531@\\*",
                 "label_korean": "공기 임펠러",
                 "group_id": "20348",
                 "req_frame_id": "61047",
@@ -307,13 +307,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "9530, 43910, 12688, 45664",
-                "help_korean": "중단 :\n- 보일러 꺼짐\nON : 보일러 작동"
+                "help_code": "@P9530@T : @P43910@\\n@P12688@T : @P45664",
+                "help_korean": "중단 : 보일러 꺼짐\nON : 보일러 작동"
             },
             {
                 "position": 5,
                 "mnemonic": "MP_ETAT_CHAUFFAGE_ADDITIONNEL",
-                "label_index": "6425",
+                "label_index": "@P6425",
                 "label_korean": "추가 히팅 상태",
                 "group_id": "20351",
                 "req_frame_id": "61056",
@@ -331,8 +331,8 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "43802, 43910",
-                "help_korean": "전기적인\n- 테스트 :\n- OK : 보일러 꺼짐"
+                "help_code": "@P43802@T : @P43910",
+                "help_korean": "전기적인 테스트 : OK : 보일러 꺼짐"
             }
         ]
     },
@@ -345,7 +345,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_VALEUR_GAZ_CO2",
-                "label_index": "3890",
+                "label_index": "@P3890",
                 "label_korean": "CO2 읽기",
                 "group_id": "20350",
                 "req_frame_id": "61053",
@@ -361,7 +361,7 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "6310",
+                "help_code": "@P6310@T.",
                 "help_korean": "이 값은 CO2 값에 해당하지 않지만 가스 분석 장치에서 읽은 CO2 값을 조정하는 데 사용한다."
             }
         ]
@@ -375,7 +375,7 @@
             {
                 "position": 1,
                 "mnemonic": "CA_TEMPERATURE_EAU_a",
-                "label_index": "10576",
+                "label_index": "@P10576",
                 "label_korean": "냉각수 온도",
                 "group_id": "20341",
                 "req_frame_id": "61026",
@@ -391,13 +391,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "7933",
+                "help_code": "@P7933",
                 "help_korean": "ECU에 의해 보여지는 냉각수 온도"
             },
             {
                 "position": 2,
                 "mnemonic": "SENSOR_STATUS",
-                "label_index": "8253",
+                "label_index": "@P8253",
                 "label_korean": "화염 존재 감지 센서 상태",
                 "group_id": "20341",
                 "req_frame_id": "61026",
@@ -422,7 +422,7 @@
             {
                 "position": 3,
                 "mnemonic": "CA_TENSION_ALIMENTATION",
-                "label_index": "7080",
+                "label_index": "@P7080",
                 "label_korean": "공급 전압",
                 "group_id": "20341",
                 "req_frame_id": "61026",
@@ -438,13 +438,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "10959",
+                "help_code": "@P10959",
                 "help_korean": "ECU에 의해 보여지는 공급 전압"
             },
             {
                 "position": 4,
                 "mnemonic": "VA_ETAT_POMPE_A_CARBURANT_CHAUDIERE",
-                "label_index": "15528",
+                "label_index": "@P15528",
                 "label_korean": "연료 펌프 상태",
                 "group_id": "20341",
                 "req_frame_id": "61026",
@@ -463,13 +463,13 @@
                 "bit_mask": 1,
                 "bit_shift": 0,
                 "dynamic_arg": "",
-                "help_code": "9530, 45817, 12688, 45818",
-                "help_korean": "중단 :\n- 3분 넘게 보일러가 꺼짐\nON : 3분 미만으로 보일러가 작동하거나 꺼짐"
+                "help_code": "@P9530@T : @P45817@\\*3@\\n@P12688@T : @P45818@\\*3",
+                "help_korean": "중단 : 3분 넘게 보일러가 꺼짐\nON : 3분 미만으로 보일러가 작동하거나 꺼짐"
             },
             {
                 "position": 5,
                 "mnemonic": "VA_ETATTURBINEAIR",
-                "label_index": "16210",
+                "label_index": "@P16210",
                 "label_korean": "연소 공기 터빈 상태",
                 "group_id": "20341",
                 "req_frame_id": "61026",
@@ -494,7 +494,7 @@
             {
                 "position": 6,
                 "mnemonic": "VA_ETAT_DOIGT_INCANDESCENT_CHAUDIERE",
-                "label_index": "4915",
+                "label_index": "@P4915",
                 "label_korean": "백열 장치 상태",
                 "group_id": "20341",
                 "req_frame_id": "61026",

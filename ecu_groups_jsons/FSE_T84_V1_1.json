@@ -8,7 +8,7 @@
             {
                 "position": 1,
                 "mnemonic": "ID_NOM_DU_FOURNISSEUR",
-                "label_index": "5701",
+                "label_index": "@P5701",
                 "label_korean": "제조 업체명",
                 "group_id": "117000",
                 "req_frame_id": "351346",
@@ -38,7 +38,7 @@
             {
                 "position": 2,
                 "mnemonic": "ID_REFERENCE_MATERIEL",
-                "label_index": "1071",
+                "label_index": "@P1071",
                 "label_korean": "장치 부품 번호",
                 "group_id": "117000",
                 "req_frame_id": "351346",
@@ -60,7 +60,7 @@
             {
                 "position": 3,
                 "mnemonic": "ID_REFERENCE_COMPLEMENTAIRE_MATERIEL",
-                "label_index": "1634",
+                "label_index": "@P1634",
                 "label_korean": "장치 추가 참조 번호",
                 "group_id": "117000",
                 "req_frame_id": "351346",
@@ -82,7 +82,7 @@
             {
                 "position": 4,
                 "mnemonic": "ID_REFERENCE_LOGICIEL",
-                "label_index": "13263",
+                "label_index": "@P13263@\\*",
                 "label_korean": "소프트웨어 번호",
                 "group_id": "117001",
                 "req_frame_id": "351349",
@@ -104,7 +104,7 @@
             {
                 "position": 5,
                 "mnemonic": "ID_TRACABILITE_INDICE_EVOLUTION_EDITION",
-                "label_index": "24601",
+                "label_index": "@P24601",
                 "label_korean": "소프트웨어 버전",
                 "group_id": "117001",
                 "req_frame_id": "351349",
@@ -126,7 +126,7 @@
             {
                 "position": 6,
                 "mnemonic": "ID_DATE_TELECH",
-                "label_index": "21670",
+                "label_index": "@P21670",
                 "label_korean": "다운로딩 날짜",
                 "group_id": "117001",
                 "req_frame_id": "351349",
@@ -148,7 +148,7 @@
             {
                 "position": 7,
                 "mnemonic": "ID_NOMBRE_DE_TELECHARGEMENT",
-                "label_index": "10072",
+                "label_index": "@P10072@\\*",
                 "label_korean": "다운로드의 수",
                 "group_id": "117001",
                 "req_frame_id": "351349",
@@ -178,7 +178,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_VITESSE_VEHICULE",
-                "label_index": "7997",
+                "label_index": "@P7997@\\*",
                 "label_korean": "차량 속도",
                 "group_id": "117002",
                 "req_frame_id": "351352",
@@ -198,13 +198,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "45909, 28",
-                "help_korean": "차량 속도는 프론트 휠 센서가 판독한 값의 평균을 취하고 ESP ECU에 설정된 타이어의 유형에 따라 계산된다. ESP ECU에 의해 전송된 이 차량 속도는 브레이크가 체결 또는 해제되었는지를 알기 위해서 전동 주차 브레이크의 자동 작동을 위한 기능의 맥락으로 전동 주차 브레이크에 의해서 분석된다."
+                "help_code": "@P45909@T.@\\+@P28@T.",
+                "help_korean": "차량 속도는 프론트 휠 센서가 판독한 값의 평균을 취하고 ESP ECU에 설정된 타이어의 유형에 따라 계산된다.ESP ECU에 의해 전송된 이 차량 속도는 브레이크가 체결 또는 해제되었는지를 알기 위해서 전동 주차 브레이크의 자동 작동을 위한 기능의 맥락으로 전동 주차 브레이크에 의해서 분석된다."
             },
             {
                 "position": 2,
                 "mnemonic": "MP_TENSIONALIM",
-                "label_index": "2209",
+                "label_index": "@P2209",
                 "label_korean": "전동 주차 브레이크 ECU 공급 전압",
                 "group_id": "117002",
                 "req_frame_id": "351352",
@@ -220,13 +220,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "44315, 44412, 44413, 44414",
-                "help_korean": "전동 주차 브레이크 ECU로 공급되는 배터리 전압. 기본 모드에서, 전압은 12에서 13V 사이에 있어야 한다.\n전압이 12V 미만이면, ECU는 낮은 전압 상태로 간주된다.\n전압이 12V 이상이면, ECU는 과도한 전압 상태로 간주된다."
+                "help_code": "@P44315@T.@\\+@P44412@\\*12@\\*13@T.@\\n@P44413@\\*8@T.@\\n@P44414@\\*18@T.",
+                "help_korean": "전동 주차 브레이크 ECU로 공급되는 배터리 전압.기본 모드에서, 전압은 12에서 13V 사이에 있어야 한다.\n전압이 12V 미만이면, ECU는 낮은 전압 상태로 간주된다.\n전압이 12V 이상이면, ECU는 과도한 전압 상태로 간주된다."
             },
             {
                 "position": 3,
                 "mnemonic": "TENSION_LIGNE_RCD",
-                "label_index": "10606",
+                "label_index": "@P10606",
                 "label_korean": "원격 제어 웨이크-업 라인 전압",
                 "group_id": "117004",
                 "req_frame_id": "351358",
@@ -242,13 +242,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "10606, 45749",
-                "help_korean": "원격 제어 웨이크-업 라인 전압. 이 라인은 전동식 주차 브레이크 ECU를 작동 상태로 유지할 때 사용된다."
+                "help_code": "@P10606@T.@\\+@P45749@T.",
+                "help_korean": "원격 제어 웨이크-업 라인 전압.이 라인은 전동식 주차 브레이크 ECU를 작동 상태로 유지할 때 사용된다."
             },
             {
                 "position": 4,
                 "mnemonic": "MP_TEMPERATURE_CALCULATEUR",
-                "label_index": "8677",
+                "label_index": "@P8677",
                 "label_korean": "ECU 온도",
                 "group_id": "117004",
                 "req_frame_id": "351358",
@@ -264,13 +264,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "44429, 44430",
-                "help_korean": "이 온도는 전동 주차 브레이크 장치 내부에 있는 센서에 의해서 측정된다. 이 온도가 일정 시간동안 105도를 초과하면, 결함이 보고된다."
+                "help_code": "@P44429@T.@\\+@P44430@\\*105@T.",
+                "help_korean": "이 온도는 전동 주차 브레이크 장치 내부에 있는 센서에 의해서 측정된다.이 온도가 일정 시간동안 105도를 초과하면, 결함이 보고된다."
             },
             {
                 "position": 5,
                 "mnemonic": "TEMPERATURE_MOTEUR_ELECTRIQUE",
-                "label_index": "4241",
+                "label_index": "@P4241",
                 "label_korean": "전동 모터 온도",
                 "group_id": "117004",
                 "req_frame_id": "351358",
@@ -286,13 +286,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "44431, 44432",
+                "help_code": "@P44431@T.@\\n@P44432@\\*120@T.",
                 "help_korean": "이 온도는 전동 주차 브레이크 ECU 내부에 있는 센서에 의해서 측정된다.\n이 온도가 일정 시간동안 120도를 초과하면, 결함이 보고되어야 한다."
             },
             {
                 "position": 6,
                 "mnemonic": "MP_EFFORT_APPLIQUE_CABLE_PRIMAIRE_FSE",
-                "label_index": "16735",
+                "label_index": "@P16735",
                 "label_korean": "메인 케이블에 가해진 장력",
                 "group_id": "117004",
                 "req_frame_id": "351358",
@@ -308,13 +308,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "44415, 44416, 44417, 44418, 44419",
-                "help_korean": "메인 브레이크 케이블에 가해진 장력. 차량이 위치한 경사도 및 차량 속도에 따라 장력 값이 변한다.\n최소 장력은 24daN이고 최대 장력은 105daN이다.\n경사도의 값이 24% 이하이면, 적용되어야 할 장력은 105daN 이거나 또는 그 이하이다.\n정보는 ECU 내부의 장력 센서에 의해서 읽힌다."
+                "help_code": "@P44415@T.@\\+@P44416@T.@\\n@P44417@\\*24@\\*105@T.@\\n@P44418@\\*15@\\*80@T.@\\n@P44419@T.",
+                "help_korean": "메인 브레이크 케이블에 가해진 장력.차량이 위치한 경사도 및 차량 속도에 따라 장력 값이 변한다.\n최소 장력은 24daN이고 최대 장력은 105daN이다.\n경사도의 값이 24% 이하이면, 적용되어야 할 장력은 105daN 이거나 또는 그 이하이다.\n정보는 ECU 내부의 장력 센서에 의해서 읽힌다."
             },
             {
                 "position": 7,
                 "mnemonic": "MP_CONSIGNE_EFFORT_REQUISE_PAR_FSE",
-                "label_index": "16118",
+                "label_index": "@P16118",
                 "label_korean": "전동 주차 브레이크에 의해서 요청된 장력 셋팅",
                 "group_id": "117004",
                 "req_frame_id": "351358",
@@ -330,13 +330,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "44427, 44428",
+                "help_code": "@P44427@T.@P44428@T.",
                 "help_korean": "브레이크 케이블에 가해지는 장력 값을 확인하기 위해서 ESP ECU에 의해서 전동 주차 브레이크로 보내지는 정보.이 정보는 휠 속도 센서와 가속도계 자이로미터 센서에 의해서 읽은 정보를 사용해서 추정된다."
             },
             {
                 "position": 8,
                 "mnemonic": "MP_CONSIGNE_DE_VITESSE_SERRAGE_ENVOYEE_PAR_ESP",
-                "label_index": "3226",
+                "label_index": "@P3226",
                 "label_korean": "ESP ECU에 의해 전송된 체결 속도 셋팅",
                 "group_id": "117004",
                 "req_frame_id": "351358",
@@ -352,13 +352,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "41947",
+                "help_code": "@P41947@T.",
                 "help_korean": "기본 모드에서, 브레이크는 최대 속도로 체결 또는 해제되어야 한다."
             },
             {
                 "position": 9,
                 "mnemonic": "MP_VITESSE_MOTEUR_FSE",
-                "label_index": "9985",
+                "label_index": "@P9985",
                 "label_korean": "전동 주차 브레이크 모터 속도",
                 "group_id": "117004",
                 "req_frame_id": "351358",
@@ -374,13 +374,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "13339, 45911",
-                "help_korean": "전동 모터 회전 속도. 이 회전 속도는 가해지는 힘에 따라 조절된다."
+                "help_code": "@P13339@T.@\\+@P45911@T.",
+                "help_korean": "전동 모터 회전 속도.이 회전 속도는 가해지는 힘에 따라 조절된다."
             },
             {
                 "position": 10,
                 "mnemonic": "TYPE_PILOTAGE_DU_FSE",
-                "label_index": "6833",
+                "label_index": "@P6833",
                 "label_korean": "전동 주차 브레이크 제어 타입",
                 "group_id": "117004",
                 "req_frame_id": "351358",
@@ -396,13 +396,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "5142",
+                "help_code": "@P5142",
                 "help_korean": "전동 주차 브레이크의 상태에 관한 정보를 제공한다 (ON, OFF, 체결중, 해제중 등)"
             },
             {
                 "position": 11,
                 "mnemonic": "MP_COURSE_FREIN_STATIONNEMENT_ELECTRIQUE",
-                "label_index": "6058",
+                "label_index": "@P6058",
                 "label_korean": "전동 주차 브레이크 이동거리",
                 "group_id": "117004",
                 "req_frame_id": "351358",
@@ -418,13 +418,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "42074",
+                "help_code": "@P42074@T.",
                 "help_korean": "전동 주차 브레이크 이동 거리는 차량이 있는 경사도에 따라 달라진다."
             },
             {
                 "position": 12,
                 "mnemonic": "MP_COURSE_FREIN_STATIONNEMENT_ELECTRIQUE_00_DAN",
-                "label_index": "6400",
+                "label_index": "@P6400@\\*0@\\*",
                 "label_korean": "0 daN에서 이동 거리 정보",
                 "group_id": "117004",
                 "req_frame_id": "351358",
@@ -440,13 +440,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "0",
-                "help_code": "29, 30, 31, 32",
+                "help_code": "@P29@\\*0@\\n@T- @P30@\\n@T-@P31@\\n@T-@P32",
                 "help_korean": "다음 경우에 0daN에서 이동 거리 정보는 \"유효하지 않음\"으로 바뀐다\n- 전동 주차 브레이크 캘리브레이션 되지 않음\n-전동 주차 브레이크가 캘리브레이션 중인 경우 \"제로 N 장력\"을 찾지 못한다\n-캘리브레이션 중에 결함이 발생하면"
             },
             {
                 "position": 13,
                 "mnemonic": "MP_ETAT_ELECTRONIQUE_FREIN_STATIONNEMENT_COMMANDE_ELECTRIQUE",
-                "label_index": "1237",
+                "label_index": "@P1237",
                 "label_korean": "전동 주차 브레이크 ECU 상태",
                 "group_id": "117004",
                 "req_frame_id": "351358",
@@ -476,7 +476,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_ETAT_BOUTON_FREIN_SECONDAIRE_ELECTRIQUE",
-                "label_index": "16053",
+                "label_index": "@P16053",
                 "label_korean": "전동 주차 브레이크 버튼 상태",
                 "group_id": "117002",
                 "req_frame_id": "351352",
@@ -507,13 +507,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "40516",
+                "help_code": "@P40516@T.",
                 "help_korean": "전동 주차 브레이크 버튼의 상태에 관한 정보를 제공한다."
             },
             {
                 "position": 2,
                 "mnemonic": "MP_ETAT_FREIN_SECONDAIRE_ELECTRIQUE",
-                "label_index": "15989",
+                "label_index": "@P15989",
                 "label_korean": "전동 주차 브레이크 상태",
                 "group_id": "117002",
                 "req_frame_id": "351352",
@@ -544,13 +544,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "5684",
+                "help_code": "@P5684",
                 "help_korean": "전동 주차 브레이크의 상태에 관한 정보를 제공한다 (ON, OFF, 체결중, 해제중 등)"
             },
             {
                 "position": 3,
                 "mnemonic": "MP_ETAT_PEDALE_DE_FREIN",
-                "label_index": "10258",
+                "label_index": "@P10258",
                 "label_korean": "브레이크 페달 위치",
                 "group_id": "117002",
                 "req_frame_id": "351352",
@@ -579,8 +579,8 @@
             {
                 "position": 4,
                 "mnemonic": "MP_DIAGNOSTIC_COMMUNICATION_RESEAU",
-                "label_index": "8094",
-                "label_korean": "네트워크통신 진단",
+                "label_index": "@P8094@\\*",
+                "label_korean": "네트워크 통신 진단",
                 "group_id": "117002",
                 "req_frame_id": "351352",
                 "resp_frame_id": "351353",
@@ -600,13 +600,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "41391",
+                "help_code": "@P41391@T.",
                 "help_korean": "엔진 구동, 키 ON 상태에서 작동."
             },
             {
                 "position": 5,
                 "mnemonic": "MP_ETAT_REVEIL_COMMD_DISTANCE",
-                "label_index": "16102",
+                "label_index": "@P16102",
                 "label_korean": "원격 제어 웨이크-업 라인 상태",
                 "group_id": "117004",
                 "req_frame_id": "351358",
@@ -630,7 +630,7 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "41532",
+                "help_code": "@P41532@T.",
                 "help_korean": "이 변수 측정은 RCD 라인이 양호한 상태인지 또는 결함인지를 확인하는 데 사용한다."
             }
         ]
@@ -644,7 +644,7 @@
             {
                 "position": 1,
                 "mnemonic": "NOMBRE_CYCLES_SERRAGE_DESSERRAGE",
-                "label_index": "15489",
+                "label_index": "@P15489",
                 "label_korean": "체결 / 해제 사이클 횟수를 읽는다",
                 "group_id": "117003",
                 "req_frame_id": "351355",
@@ -660,8 +660,8 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "44423, 44424",
-                "help_korean": "전동 주차 브레이크 체결/해제 사이클 횟수를 읽는 기능은 브레이크가 체결된 횟수에 관한 정보를 제공한다. 시스템은 100체결 사이클을 위해 작동하도록 설계되었다.000."
+                "help_code": "@P44423@T.@\\+@P44424@\\*100.000@T.",
+                "help_korean": "전동 주차 브레이크 체결/해제 사이클 횟수를 읽는 기능은 브레이크가 체결된 횟수에 관한 정보를 제공한다.시스템은 100체결 사이클을 위해 작동하도록 설계되었다.000."
             }
         ]
     },
@@ -674,7 +674,7 @@
             {
                 "position": 1,
                 "mnemonic": "NOMBRE_CYCLES_SERRAGE_DESSERRAGE_A_EFFORT_MAX",
-                "label_index": "15397",
+                "label_index": "@P15397",
                 "label_korean": "최대 장력에서 체결 /해제 사이클 횟수를 읽는다",
                 "group_id": "117003",
                 "req_frame_id": "351355",
@@ -690,8 +690,8 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "44425, 44426",
-                "help_korean": "전동 주차 브레이크 체결/해제 사이클 횟수를 읽는 기능은 전동 주차 브레이크가 최대 장력으로 체결된 횟수에 관한 정보를 제공한다. 시스템은 5000번 체결되도록 설계되었다."
+                "help_code": "@P44425@T.@\\+@P44426@\\*5000@T.",
+                "help_korean": "전동 주차 브레이크 체결/해제 사이클 횟수를 읽는 기능은 전동 주차 브레이크가 최대 장력으로 체결된 횟수에 관한 정보를 제공한다.시스템은 5000번 체결되도록 설계되었다."
             }
         ]
     },
@@ -704,7 +704,7 @@
             {
                 "position": 1,
                 "mnemonic": "CA_SYMPTOME",
-                "label_index": "3582",
+                "label_index": "@P3582@\\*",
                 "label_korean": "증상",
                 "group_id": "117006",
                 "req_frame_id": "351364",
@@ -726,7 +726,7 @@
             {
                 "position": 2,
                 "mnemonic": "CA_STATUT_DU_DEFAUT",
-                "label_index": "8016",
+                "label_index": "@P8016",
                 "label_korean": "결함 상태",
                 "group_id": "117006",
                 "req_frame_id": "351364",
@@ -757,7 +757,7 @@
             {
                 "position": 3,
                 "mnemonic": "CA_TENSION_ALIMENTATION_FREIN_SECONDAIRE_ELECTRIQUE",
-                "label_index": "2209",
+                "label_index": "@P2209",
                 "label_korean": "전동 주차 브레이크 ECU 공급 전압",
                 "group_id": "117006",
                 "req_frame_id": "351364",
@@ -779,7 +779,7 @@
             {
                 "position": 4,
                 "mnemonic": "CA_COMPTEUR_DE_POSITION_FSE",
-                "label_index": "15887",
+                "label_index": "@P15887",
                 "label_korean": "전동 주차 브레이크 포지션 카운터",
                 "group_id": "117006",
                 "req_frame_id": "351364",
@@ -801,7 +801,7 @@
             {
                 "position": 5,
                 "mnemonic": "CA_EFFORT_CIBLE_A_APPLIQUER_AUX_CABLES_DE_FREIN",
-                "label_index": "15346",
+                "label_index": "@P15346",
                 "label_korean": "브레이크 케이블에 가해져야 하는 목표 장력",
                 "group_id": "117006",
                 "req_frame_id": "351364",
@@ -823,7 +823,7 @@
             {
                 "position": 6,
                 "mnemonic": "CA_TENSION_ALIMENTATION_MOTEUR_ELECTRIQUE",
-                "label_index": "13217",
+                "label_index": "@P13217",
                 "label_korean": "전동 모터 공급 전압",
                 "group_id": "117006",
                 "req_frame_id": "351364",
@@ -845,7 +845,7 @@
             {
                 "position": 7,
                 "mnemonic": "CA_ETAT_BOUTON_FREIN_SECONDAIRE_ELECTRIQUE",
-                "label_index": "16053",
+                "label_index": "@P16053",
                 "label_korean": "전동 주차 브레이크 버튼 상태",
                 "group_id": "117006",
                 "req_frame_id": "351364",
@@ -872,7 +872,7 @@
             {
                 "position": 8,
                 "mnemonic": "CA_ETAT_LIGNE_RCD_a",
-                "label_index": "16102",
+                "label_index": "@P16102",
                 "label_korean": "원격 제어 웨이크-업 라인 상태",
                 "group_id": "117006",
                 "req_frame_id": "351364",
@@ -897,7 +897,7 @@
             {
                 "position": 9,
                 "mnemonic": "MP_TENSION_ELECT_FSE_BASSE",
-                "label_index": "66",
+                "label_index": "@P66",
                 "label_korean": "전동 주차 브레이크에서 낮은 전압",
                 "group_id": "117006",
                 "req_frame_id": "351364",
@@ -922,7 +922,7 @@
             {
                 "position": 10,
                 "mnemonic": "CA_CONSIGNE_VITESSE_SERRAGE_FSE",
-                "label_index": "3793",
+                "label_index": "@P3793",
                 "label_korean": "전동 주차 브레이크 체결 속도 셋팅",
                 "group_id": "117006",
                 "req_frame_id": "351364",
@@ -953,7 +953,7 @@
             {
                 "position": 11,
                 "mnemonic": "CA_VITESSE_ROTATION_MOTEUR_ELECTRIQUE",
-                "label_index": "13339",
+                "label_index": "@P13339",
                 "label_korean": "전동 모터 회전 속도",
                 "group_id": "117006",
                 "req_frame_id": "351364",
@@ -975,7 +975,7 @@
             {
                 "position": 12,
                 "mnemonic": "CA_INTENSITE_DU_MOTEUR",
-                "label_index": "14653",
+                "label_index": "@P14653",
                 "label_korean": "모터 전류",
                 "group_id": "117006",
                 "req_frame_id": "351364",
@@ -1000,7 +1000,7 @@
             {
                 "position": 13,
                 "mnemonic": "CA_MODE_FSE",
-                "label_index": "44421",
+                "label_index": "@P44421@\\n@\\+@P44422",
                 "label_korean": "전동 주차 브레이크 (FSE) 모드\n이 정보는 마지막 작동 요청 당시에 전동 주차 브레이크의 상태에 해당된다",
                 "group_id": "117006",
                 "req_frame_id": "351364",
@@ -1026,7 +1026,7 @@
             {
                 "position": 14,
                 "mnemonic": "CA_COMPTEUR_DESSERRAGE_EN_POSITION_ZERO_NOT_BUTEE",
-                "label_index": "14700",
+                "label_index": "@P14700@\\*0",
                 "label_korean": "위치0카운터까지 해제",
                 "group_id": "117006",
                 "req_frame_id": "351364",
@@ -1053,7 +1053,7 @@
             {
                 "position": 15,
                 "mnemonic": "CA_ETAT_FREIN_SECONDAIRE_ELECTRIQUE",
-                "label_index": "15989",
+                "label_index": "@P15989",
                 "label_korean": "전동 주차 브레이크 상태",
                 "group_id": "117006",
                 "req_frame_id": "351364",
@@ -1083,7 +1083,7 @@
             {
                 "position": 16,
                 "mnemonic": "CA_ETAT_SERRAGE_FREIN_SECONDAIRE_ELECTRIQUE",
-                "label_index": "22834",
+                "label_index": "@P22834",
                 "label_korean": "전동 제어 주차 브레이크의 체결 상태",
                 "group_id": "117006",
                 "req_frame_id": "351364",
@@ -1108,7 +1108,7 @@
             {
                 "position": 17,
                 "mnemonic": "CA_ETAT_CONSIGNE_SERRAGE_FREIN_SECONDAIRE_ELECTRIQUE",
-                "label_index": "22827",
+                "label_index": "@P22827",
                 "label_korean": "전동 제어 주차 브레이크의 체결 기준 값 상태",
                 "group_id": "117006",
                 "req_frame_id": "351364",
@@ -1133,7 +1133,7 @@
             {
                 "position": 18,
                 "mnemonic": "CA_ETAT_CALIBRATION_FREIN_SECONDAIRE_ELECTRIQUE",
-                "label_index": "22835",
+                "label_index": "@P22835",
                 "label_korean": "전동 제어 주차 브레이크의 캘리브레이션 상태",
                 "group_id": "117006",
                 "req_frame_id": "351364",
@@ -1158,7 +1158,7 @@
             {
                 "position": 19,
                 "mnemonic": "CA_ETAT_ACTIVATION_FREIN_SECONDAIRE_ELECTRIQUE",
-                "label_index": "22791",
+                "label_index": "@P22791",
                 "label_korean": "전동 제어 주차 브레이크의 작동 상태",
                 "group_id": "117006",
                 "req_frame_id": "351364",
@@ -1183,7 +1183,7 @@
             {
                 "position": 20,
                 "mnemonic": "CA_TYPE_CONSIGNE_ENVOYEE_PAR_CALCULATEUR_ESP",
-                "label_index": "6675",
+                "label_index": "@P6675",
                 "label_korean": "ESP ECU에 의해서 보내진 세팅 타입",
                 "group_id": "117006",
                 "req_frame_id": "351364",
@@ -1211,7 +1211,7 @@
             {
                 "position": 21,
                 "mnemonic": "CA_AUTORISATION_DE_SERRAGE",
-                "label_index": "15286",
+                "label_index": "@P15286",
                 "label_korean": "체결 승인",
                 "group_id": "117006",
                 "req_frame_id": "351364",
@@ -1236,7 +1236,7 @@
             {
                 "position": 22,
                 "mnemonic": "CA_SESSION_DE_DIAGNOSTIC",
-                "label_index": "2229",
+                "label_index": "@P2229",
                 "label_korean": "진단 과정",
                 "group_id": "117006",
                 "req_frame_id": "351364",
@@ -1261,7 +1261,7 @@
             {
                 "position": 23,
                 "mnemonic": "CA_COMPTEUR_CYCLES_DE_SERRAGE",
-                "label_index": "16005",
+                "label_index": "@P16005",
                 "label_korean": "체결 사이클 카운터",
                 "group_id": "117006",
                 "req_frame_id": "351364",

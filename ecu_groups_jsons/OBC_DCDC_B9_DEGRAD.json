@@ -8,7 +8,7 @@
             {
                 "position": 1,
                 "mnemonic": "ID_NOM_DU_FOURNISSEUR",
-                "label_index": "5701",
+                "label_index": "@P5701",
                 "label_korean": "제조 업체명",
                 "group_id": "88527",
                 "req_frame_id": "265934",
@@ -38,7 +38,7 @@
             {
                 "position": 2,
                 "mnemonic": "ID_REFERENCE_MATERIEL",
-                "label_index": "1071",
+                "label_index": "@P1071",
                 "label_korean": "장치 부품 번호",
                 "group_id": "88527",
                 "req_frame_id": "265934",
@@ -60,7 +60,7 @@
             {
                 "position": 3,
                 "mnemonic": "ID_REFERENCE_LOGICIEL",
-                "label_index": "13263",
+                "label_index": "@P13263",
                 "label_korean": "소프트웨어 번호",
                 "group_id": "88529",
                 "req_frame_id": "265940",
@@ -82,7 +82,7 @@
             {
                 "position": 4,
                 "mnemonic": "ID_HARD",
-                "label_index": "12954",
+                "label_index": "@P12954",
                 "label_korean": "하드웨어 버전",
                 "group_id": "88559",
                 "req_frame_id": "266030",
@@ -104,7 +104,7 @@
             {
                 "position": 5,
                 "mnemonic": "ID_VERSION_DU_LOGICIEL",
-                "label_index": "8662",
+                "label_index": "@P8662",
                 "label_korean": "소프트웨어 버전",
                 "group_id": "88529",
                 "req_frame_id": "265940",
@@ -126,7 +126,7 @@
             {
                 "position": 6,
                 "mnemonic": "ID_VERSION_DIAGNOSTIC",
-                "label_index": "15917",
+                "label_index": "@P15917",
                 "label_korean": "진단 메시지 시스템 인덱스 (변경)",
                 "group_id": "88529",
                 "req_frame_id": "265940",
@@ -148,7 +148,7 @@
             {
                 "position": 7,
                 "mnemonic": "ID_DATE_TELECH",
-                "label_index": "21670",
+                "label_index": "@P21670",
                 "label_korean": "다운로딩 날짜",
                 "group_id": "88528",
                 "req_frame_id": "265937",
@@ -170,7 +170,7 @@
             {
                 "position": 8,
                 "mnemonic": "ID_NOMBRE_DE_TELECHARGEMENT",
-                "label_index": "24589",
+                "label_index": "@P24589",
                 "label_korean": "다운로드의 수",
                 "group_id": "88513",
                 "req_frame_id": "265892",
@@ -192,7 +192,7 @@
             {
                 "position": 9,
                 "mnemonic": "MP_NUM_SERIE",
-                "label_index": "12519",
+                "label_index": "@P12519@\\*",
                 "label_korean": "일련 번호",
                 "group_id": "88512",
                 "req_frame_id": "265889",
@@ -222,7 +222,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_ETAT_CHARGE_BATTERIE_TRACTION",
-                "label_index": "29969",
+                "label_index": "@P29969",
                 "label_korean": "트랙션 배터리 충전 상태",
                 "group_id": "88487",
                 "req_frame_id": "265814",
@@ -256,7 +256,7 @@
             {
                 "position": 2,
                 "mnemonic": "MP_AUTORISATION_CHARGE_BATTERIE_TRACTION_PAR_EVECU",
-                "label_index": "32030",
+                "label_index": "@P32030",
                 "label_korean": "전기차 ECU에 의한 트랙션 배터리 충전 승인",
                 "group_id": "88487",
                 "req_frame_id": "265814",
@@ -278,7 +278,7 @@
             {
                 "position": 3,
                 "mnemonic": "MP_NOMBRE_CHARGE_BATTERIE_TRACTION_100V",
-                "label_index": "32014",
+                "label_index": "@P32014@\\*100",
                 "label_korean": "100V에서 트랙션 배터리의 충전 횟수",
                 "group_id": "88486",
                 "req_frame_id": "265811",
@@ -300,7 +300,7 @@
             {
                 "position": 4,
                 "mnemonic": "MP_NOMBRE_CHARGE_BATTERIE_TRACTION_200V",
-                "label_index": "32014",
+                "label_index": "@P32014@\\*200",
                 "label_korean": "200V에서 트랙션 배터리의 충전 횟수",
                 "group_id": "88486",
                 "req_frame_id": "265811",
@@ -322,7 +322,7 @@
             {
                 "position": 5,
                 "mnemonic": "MP_TEMPS_CHARGE_ACCUMULE_BATTERIE_TRACTION_100V",
-                "label_index": "32015",
+                "label_index": "@P32015@\\*100",
                 "label_korean": "100V에서 트랙션 배터리의 충전 축적 시간",
                 "group_id": "88486",
                 "req_frame_id": "265811",
@@ -344,7 +344,7 @@
             {
                 "position": 6,
                 "mnemonic": "MP_TEMPS_CHARGE_ACCUMULE_BATTERIE_TRACTION_200V",
-                "label_index": "32015",
+                "label_index": "@P32015@\\*200",
                 "label_korean": "200V에서 트랙션 배터리의 충전 축적 시간",
                 "group_id": "88486",
                 "req_frame_id": "265811",
@@ -366,7 +366,7 @@
             {
                 "position": 7,
                 "mnemonic": "MP_TEMPS_CHARGE",
-                "label_index": "32426",
+                "label_index": "@P32426",
                 "label_korean": "충전 시간",
                 "group_id": "88486",
                 "req_frame_id": "265811",
@@ -382,13 +382,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "32045",
+                "help_code": "@P32045",
                 "help_korean": "트랙션 배터리 충전 시작과 끝 사이에 경과된 시간"
             },
             {
                 "position": 8,
                 "mnemonic": "MP_COMPTEUR_ARRET_CHARGE_BATTERIE_TRACTION_ERREUR",
-                "label_index": "31998",
+                "label_index": "@P31998",
                 "label_korean": "오류로 인한 트랙션 배터리 충전 중단 카운터",
                 "group_id": "88486",
                 "req_frame_id": "265811",
@@ -418,7 +418,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_COMPTEUR_DEMARRAGE_CONVERTISSEUR_DCDC",
-                "label_index": "32010",
+                "label_index": "@P32010",
                 "label_korean": "직류 전압 변압기 시동 카운터",
                 "group_id": "88486",
                 "req_frame_id": "265811",
@@ -440,7 +440,7 @@
             {
                 "position": 2,
                 "mnemonic": "MP_DUREE_TOTALE_ACTIVATION_CONVERTISSEUR_DCDC",
-                "label_index": "32009",
+                "label_index": "@P32009",
                 "label_korean": "직류 전압 변압기 작동 총 시간",
                 "group_id": "88486",
                 "req_frame_id": "265811",
@@ -462,7 +462,7 @@
             {
                 "position": 3,
                 "mnemonic": "MP_DUREE_ACTIVATION_CONVERTISSEUR_DCDC",
-                "label_index": "32008",
+                "label_index": "@P32008",
                 "label_korean": "직류 전압 변압기의 작동 시간",
                 "group_id": "88486",
                 "req_frame_id": "265811",
@@ -484,7 +484,7 @@
             {
                 "position": 4,
                 "mnemonic": "MP_NOMBRE_ARRET_CONVERTISSEUR_TENSION_ERREUR",
-                "label_index": "32021",
+                "label_index": "@P32021",
                 "label_korean": "오류로 인한 직류 전압 변압기 차단 횟수",
                 "group_id": "88486",
                 "req_frame_id": "265811",
@@ -506,7 +506,7 @@
             {
                 "position": 5,
                 "mnemonic": "MP_ETAT_MODULE_REDRESSEUR_FILTRE_TENSION_DCDC",
-                "label_index": "33114",
+                "label_index": "@P33114",
                 "label_korean": "직류 전압 변압기 전압 정류장치 및 필터 모듈 상태",
                 "group_id": "88487",
                 "req_frame_id": "265814",
@@ -528,7 +528,7 @@
             {
                 "position": 6,
                 "mnemonic": "MP_TENSION_SORTIE_MODULE_REDRESS_FILTRE_CONVERT_DCDC",
-                "label_index": "32005",
+                "label_index": "@P32005",
                 "label_korean": "직류 전압 변압기 전압 정류기 및 필터 모듈 출력 전압",
                 "group_id": "88487",
                 "req_frame_id": "265814",
@@ -550,7 +550,7 @@
             {
                 "position": 7,
                 "mnemonic": "MP_TEMP_MODULE_REDRESSEUR_FILTRE_TENSION_CONVERTISSEUR_DCDC",
-                "label_index": "32006",
+                "label_index": "@P32006",
                 "label_korean": "직류 전압 변압기 전압 정류기 및 필터 모듈 온도",
                 "group_id": "88487",
                 "req_frame_id": "265814",
@@ -572,7 +572,7 @@
             {
                 "position": 8,
                 "mnemonic": "MP_TEMPERATURE_ONDULEUR_2_CONVERTISSEUR_DCDC",
-                "label_index": "32040",
+                "label_index": "@P32040@\\*2",
                 "label_korean": "직류 전압 변압기 인버터 2 온도",
                 "group_id": "88487",
                 "req_frame_id": "265814",
@@ -594,7 +594,7 @@
             {
                 "position": 9,
                 "mnemonic": "MP_DEMANDE_ACTIVATION_CONVERTISSEUR_DCDC_PAR_EVECU",
-                "label_index": "32055",
+                "label_index": "@P32055",
                 "label_korean": "전기 차량 ECU에 의해 직류 전압 변환 장치의 작동 요청",
                 "group_id": "88488",
                 "req_frame_id": "265817",
@@ -610,13 +610,13 @@
                 "bit_mask": 1,
                 "bit_shift": 0,
                 "dynamic_arg": "",
-                "help_code": "33115",
+                "help_code": "@P33115",
                 "help_korean": "이 변수는 \"차량 준비\" 표시등이 켜지거나 또는 차량이 충전되고 구동 트레인이 작동하면 \"Yes\" 이다"
             },
             {
                 "position": 10,
                 "mnemonic": "MP_ETAT_ACTIVATION_CONVERTISSEUR_DCDC_SUITE_DEMMANDE_EVECU",
-                "label_index": "32056",
+                "label_index": "@P32056",
                 "label_korean": "전기차 ECU에 의한 요청 후 직류 전압 변압기의 작동 상태",
                 "group_id": "88488",
                 "req_frame_id": "265817",
@@ -638,7 +638,7 @@
             {
                 "position": 11,
                 "mnemonic": "MP_DETECTION_PANNE_CONVETISSEUR_ECU",
-                "label_index": "32057",
+                "label_index": "@P32057",
                 "label_korean": "직류 전압 변압기 결함 감지",
                 "group_id": "88488",
                 "req_frame_id": "265817",
@@ -660,7 +660,7 @@
             {
                 "position": 12,
                 "mnemonic": "MP_DEMANDE_REFROIDISSEMENT_BATTERIE_TRACTION_PAR_EVECU",
-                "label_index": "33116",
+                "label_index": "@P33116",
                 "label_korean": "전기 차량 ECU에 의한 트랙션 배터리 냉각 요청",
                 "group_id": "88488",
                 "req_frame_id": "265817",
@@ -682,7 +682,7 @@
             {
                 "position": 13,
                 "mnemonic": "MP_CONSIGNE_SORTIE_DCDC",
-                "label_index": "32022",
+                "label_index": "@P32022",
                 "label_korean": "직류 전압 변압기 출력 전압 기준 값",
                 "group_id": "88488",
                 "req_frame_id": "265817",
@@ -698,13 +698,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "33117",
+                "help_code": "@P33117",
                 "help_korean": "전기 차량 ECU에 의해 보내진 기준 값"
             },
             {
                 "position": 14,
                 "mnemonic": "MP_TENSION_ENTREE_CONVERTISSEUR_DCDC",
-                "label_index": "22389",
+                "label_index": "@P22389",
                 "label_korean": "입력에서 직류 전압 변환장치 (DC/DC)의 전압",
                 "group_id": "88488",
                 "req_frame_id": "265817",
@@ -726,7 +726,7 @@
             {
                 "position": 15,
                 "mnemonic": "MP_COURANT_ENTREE_CONVERTISSEUR_DCDC",
-                "label_index": "22403",
+                "label_index": "@P22403",
                 "label_korean": "직류 전압 변환장치 (DC/DC)의 입력 전류",
                 "group_id": "88488",
                 "req_frame_id": "265817",
@@ -748,7 +748,7 @@
             {
                 "position": 16,
                 "mnemonic": "MP_TENSION_ALIMENTATION_CONVERTISSEUR_DCDC",
-                "label_index": "33028",
+                "label_index": "@P33028",
                 "label_korean": "직류 전압 변압기 공급 전압",
                 "group_id": "88488",
                 "req_frame_id": "265817",
@@ -770,7 +770,7 @@
             {
                 "position": 17,
                 "mnemonic": "MP_TENSION_SORTIE_CONVERTISSEUR_DCDC",
-                "label_index": "22425",
+                "label_index": "@P22425",
                 "label_korean": "출구에서 직류 전압 변환장치 (DC/DC)의 전압",
                 "group_id": "88488",
                 "req_frame_id": "265817",
@@ -792,7 +792,7 @@
             {
                 "position": 18,
                 "mnemonic": "MP_COURANT_SORTIE_CONVERTISSEUR_DCDC",
-                "label_index": "31976",
+                "label_index": "@P31976",
                 "label_korean": "출구에서 직류 전압 변압기 전류",
                 "group_id": "88488",
                 "req_frame_id": "265817",
@@ -814,7 +814,7 @@
             {
                 "position": 19,
                 "mnemonic": "MP_TEMPERATURE_ONDULEUR_CONVERTISSEUR_DCDC",
-                "label_index": "32024",
+                "label_index": "@P32024",
                 "label_korean": "직류 전압 변압기 인버터 온도",
                 "group_id": "88488",
                 "req_frame_id": "265817",
@@ -836,7 +836,7 @@
             {
                 "position": 20,
                 "mnemonic": "MP_TEMPERATURE_REDRESSEUR_TENSION_CONVERTISSEUR_DCDC",
-                "label_index": "32025",
+                "label_index": "@P32025",
                 "label_korean": "직류 전압 변압기 전압 정류기 온도",
                 "group_id": "88488",
                 "req_frame_id": "265817",
@@ -858,7 +858,7 @@
             {
                 "position": 21,
                 "mnemonic": "MP_TEMPERATURE_INTERNE_CALCULATEUR",
-                "label_index": "29166",
+                "label_index": "@P29166",
                 "label_korean": "ECU 내부 온도",
                 "group_id": "88488",
                 "req_frame_id": "265817",
@@ -888,7 +888,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_DETECTION_PANNE_OBC",
-                "label_index": "33118",
+                "label_index": "@P33118",
                 "label_korean": "트랙션 배터리 온보드 충전장치 결함 감지",
                 "group_id": "88487",
                 "req_frame_id": "265814",
@@ -910,7 +910,7 @@
             {
                 "position": 2,
                 "mnemonic": "MP_ACCES_POSSIBLE_MEMOIRE_OBC",
-                "label_index": "33119",
+                "label_index": "@P33119",
                 "label_korean": "트랙션 배터리 온보드 충전장치 메모리 접근 가능",
                 "group_id": "88487",
                 "req_frame_id": "265814",
@@ -932,7 +932,7 @@
             {
                 "position": 3,
                 "mnemonic": "MP_DEMANDE_TENSION_CONTROLE_EVECU",
-                "label_index": "33120",
+                "label_index": "@P33120",
                 "label_korean": "전기 차량 ECU 제어 전압 요청",
                 "group_id": "88487",
                 "req_frame_id": "265814",
@@ -954,7 +954,7 @@
             {
                 "position": 4,
                 "mnemonic": "MP_DEMANDE_REFROIDISSEMENT_BATTERIE_VERS_EVECU",
-                "label_index": "33121",
+                "label_index": "@P33121",
                 "label_korean": "전기 차량 ECU에 트랙션 배터리 냉각 요청",
                 "group_id": "88487",
                 "req_frame_id": "265814",
@@ -976,7 +976,7 @@
             {
                 "position": 5,
                 "mnemonic": "MP_HISTO_REGUL_OBC_TENSION_ENTREE",
-                "label_index": "33122",
+                "label_index": "@P33122",
                 "label_korean": "입력 전압과 관련된 트랙션 배터리 온보드 충전장치 제어 작동 내역",
                 "group_id": "88487",
                 "req_frame_id": "265814",
@@ -992,13 +992,13 @@
                 "bit_mask": 48,
                 "bit_shift": 4,
                 "dynamic_arg": "",
-                "help_code": "32036",
+                "help_code": "@P32036",
                 "help_korean": "입력 전압이 너무 낮으면 상태가 \"제어 중\" 상태로 변한다"
             },
             {
                 "position": 6,
                 "mnemonic": "MP_HISTO_REGUL_OBC_TEMPERATURE",
-                "label_index": "33123",
+                "label_index": "@P33123",
                 "label_korean": "온도와 관련된 트랙션 배터리 온보드 충전장치 제어 작동 내역",
                 "group_id": "88487",
                 "req_frame_id": "265814",
@@ -1014,13 +1014,13 @@
                 "bit_mask": 192,
                 "bit_shift": 6,
                 "dynamic_arg": "",
-                "help_code": "32041",
+                "help_code": "@P32041",
                 "help_korean": "온도가 너무 높으면 상태가 \"제어 중\" 상태로 변한다"
             },
             {
                 "position": 7,
                 "mnemonic": "MP_TYPE_TENSION_ENTREE_OBC",
-                "label_index": "33107",
+                "label_index": "@P33107",
                 "label_korean": "트랙션 배터리 온보드 충전장치 입력 전압 타입",
                 "group_id": "88487",
                 "req_frame_id": "265814",
@@ -1042,7 +1042,7 @@
             {
                 "position": 8,
                 "mnemonic": "MP_ETAT_FONCTIONNEMENT_OBC",
-                "label_index": "33124",
+                "label_index": "@P33124",
                 "label_korean": "트랙션 배터리 온보드 충전장치 작동 상태",
                 "group_id": "88487",
                 "req_frame_id": "265814",
@@ -1064,7 +1064,7 @@
             {
                 "position": 9,
                 "mnemonic": "MP_LIMIT_PUISSANCE_SORTIE_OBC",
-                "label_index": "33125",
+                "label_index": "@P33125",
                 "label_korean": "트랙션 배터리 온보드 충전장치를 벗어난 출력 제한",
                 "group_id": "88487",
                 "req_frame_id": "265814",
@@ -1086,7 +1086,7 @@
             {
                 "position": 10,
                 "mnemonic": "MP_LIMIT_PUISSANCE_SORTIE_TEMP_ELEVEE",
-                "label_index": "32043",
+                "label_index": "@P32043",
                 "label_korean": "고온으로 인한 출구에서 출력 제한",
                 "group_id": "88487",
                 "req_frame_id": "265814",
@@ -1108,7 +1108,7 @@
             {
                 "position": 11,
                 "mnemonic": "MP_LIMIT_PUISSANCE_SORTIE_TENSION_FAIBLE",
-                "label_index": "32044",
+                "label_index": "@P32044",
                 "label_korean": "입력 전압이 너무 낮아서 출구에서 출력 제한",
                 "group_id": "88487",
                 "req_frame_id": "265814",
@@ -1130,7 +1130,7 @@
             {
                 "position": 12,
                 "mnemonic": "MP_TENSION_ENTREE_OBC",
-                "label_index": "33109",
+                "label_index": "@P33109",
                 "label_korean": "트랙션 배터리 온보드 충전장치 입력 전압",
                 "group_id": "88487",
                 "req_frame_id": "265814",
@@ -1152,7 +1152,7 @@
             {
                 "position": 13,
                 "mnemonic": "MP_COURANT_ENTREE_OBC",
-                "label_index": "33104",
+                "label_index": "@P33104",
                 "label_korean": "트랙션 배터리 온보드 충전장치 입력 전류",
                 "group_id": "88487",
                 "req_frame_id": "265814",
@@ -1174,7 +1174,7 @@
             {
                 "position": 14,
                 "mnemonic": "MP_TENSION_SORTIE_OBC",
-                "label_index": "33105",
+                "label_index": "@P33105",
                 "label_korean": "트랙션 배터리 온보드 충전장치 출력 전압",
                 "group_id": "88487",
                 "req_frame_id": "265814",
@@ -1196,7 +1196,7 @@
             {
                 "position": 15,
                 "mnemonic": "MP_COURANT_SORTIE_OBC",
-                "label_index": "33106",
+                "label_index": "@P33106",
                 "label_korean": "트랙션 배터리 온보드 충전장치 출력 전류",
                 "group_id": "88487",
                 "req_frame_id": "265814",
@@ -1218,7 +1218,7 @@
             {
                 "position": 16,
                 "mnemonic": "MP_CONSIGNE_TENSION_CHARGE_BATT_TRACTION_EVECU",
-                "label_index": "33126",
+                "label_index": "@P33126",
                 "label_korean": "전기 차량 ECU로부터 트랙션 배터리 충전 전압을 위한 기준 값",
                 "group_id": "88487",
                 "req_frame_id": "265814",
@@ -1240,7 +1240,7 @@
             {
                 "position": 17,
                 "mnemonic": "MP_CONSIGNE_COURANT_CHARGE_BATT_TRACTION_EVECU",
-                "label_index": "33127",
+                "label_index": "@P33127",
                 "label_korean": "전기 차량 ECU로부터 트랙션 배터리 충전 전류를 위한 기준 값",
                 "group_id": "88487",
                 "req_frame_id": "265814",
@@ -1262,7 +1262,7 @@
             {
                 "position": 18,
                 "mnemonic": "MP_TENSION_ALIMENTATION_MESUREE_EVECU",
-                "label_index": "33128",
+                "label_index": "@P33128",
                 "label_korean": "전기 차량 ECU에 의해서 제공되는 측정된 공급 전압",
                 "group_id": "88487",
                 "req_frame_id": "265814",
@@ -1284,7 +1284,7 @@
             {
                 "position": 19,
                 "mnemonic": "MP_RAPPORT_CYCLIQUE_PILOTAGE_OBC_PAR_EVECU",
-                "label_index": "33129",
+                "label_index": "@P33129",
                 "label_korean": "전기 차량 ECU에 의해서 제어되는 트랙션 배터리 온보드 충전장치 OCR",
                 "group_id": "88487",
                 "req_frame_id": "265814",
@@ -1300,13 +1300,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "27640, 32050, 27640, 32051, 27640, 32050, 27640, 32052, 32053, 32054, 27640, 32052, 32744, 32050",
-                "help_korean": "0 to 3% = 충전 금지\n0 to 3% = 통신 필요\n0 to 3% = 충전 금지\n0 to 3% = 0A에서 최대 전류\n버튼 점등 제어 - 85% = 0A를 곱해 읽어온 값에서 최대 전류,6\n작업 이전에 로드를 분리한다 - 96% = 3A를 곱해 읽어온 (0, 3)값에서 최대 전류,5\n0 to 3% = 0A에서 최대 전류\n0 이상% = 충전 금지"
+                "help_code": "@P27640@\\*0@\\*3@T = @P32050@\\n@P27640@\\*3@\\*7@T = @P32051@\\n@P27640@\\*7@\\*8@T = @P32050@\\n@P27640@\\*8@\\*10@T = @P32052@\\*6@\\n@T10 - 85% = @P32053@\\*0,6@\\n@T85 - 96% = @P32054@\\*x@\\*64@\\*2,5@\\n@P27640@\\*96@\\*97@T = @P32052@\\*80@\\n@P32744@\\*97%@T = @P32050",
+                "help_korean": "0 to 3% = 충전 금지\n0 to 3% = 통신 필요\n0 to 3% = 충전 금지\n0 to 3% = 0A에서 최대 전류\n10 - 85% = 0A를 곱해 읽어온 값에서 최대 전류,6\n85 - 96% = 3A를 곱해 읽어온 (0, 3)값에서 최대 전류,5\n0 to 3% = 0A에서 최대 전류\n0 이상% = 충전 금지"
             },
             {
                 "position": 20,
                 "mnemonic": "MP_TEMPERATURE_ONDULEUR_1_OBC",
-                "label_index": "33130",
+                "label_index": "@P33130@\\*1",
                 "label_korean": "트랙션 배터리 온보드 충전장치 인버터1 온도",
                 "group_id": "88487",
                 "req_frame_id": "265814",
@@ -1328,7 +1328,7 @@
             {
                 "position": 21,
                 "mnemonic": "MP_TEMPERATURE_INTERNE_OBC",
-                "label_index": "33131",
+                "label_index": "@P33131",
                 "label_korean": "트랙션 배터리 온보드 충전장치 내부 온도",
                 "group_id": "88487",
                 "req_frame_id": "265814",
@@ -1350,7 +1350,7 @@
             {
                 "position": 22,
                 "mnemonic": "MP_VALEUR_TENSION_ALIMENTATION_EVECU_CAN",
-                "label_index": "33132",
+                "label_index": "@P33132",
                 "label_korean": "CAN에서 전기 차량 ECU에 의해서 제공되는 공급 전압 값",
                 "group_id": "88487",
                 "req_frame_id": "265814",
@@ -1380,7 +1380,7 @@
             {
                 "position": 1,
                 "mnemonic": "CA_KILOMETRAGE",
-                "label_index": "7845",
+                "label_index": "@P7845",
                 "label_korean": "주행거리",
                 "group_id": "88571",
                 "req_frame_id": "266066",
@@ -1404,7 +1404,7 @@
             {
                 "position": 2,
                 "mnemonic": "CA_DUREE_DE_FONCTIONNEMENT",
-                "label_index": "7397",
+                "label_index": "@P7397",
                 "label_korean": "작동 시간",
                 "group_id": "88571",
                 "req_frame_id": "266066",
@@ -1426,7 +1426,7 @@
             {
                 "position": 3,
                 "mnemonic": "CA_NB_DE_CYCLES_DE_FONCTIONNEMENT",
-                "label_index": "3761",
+                "label_index": "@P3761",
                 "label_korean": "작동 사이클 수",
                 "group_id": "88571",
                 "req_frame_id": "266066",
@@ -1448,7 +1448,7 @@
             {
                 "position": 4,
                 "mnemonic": "CA_DUREE_ECOULEE",
-                "label_index": "20781",
+                "label_index": "@P20781",
                 "label_korean": "경과된 시간",
                 "group_id": "88571",
                 "req_frame_id": "266066",
@@ -1470,7 +1470,7 @@
             {
                 "position": 5,
                 "mnemonic": "CA_NOMBRE_CHARGES_BATTERIE_TRACTION_100V",
-                "label_index": "32014",
+                "label_index": "@P32014@\\*100",
                 "label_korean": "100V에서 트랙션 배터리의 충전 횟수",
                 "group_id": "88571",
                 "req_frame_id": "266066",
@@ -1492,7 +1492,7 @@
             {
                 "position": 6,
                 "mnemonic": "CA_NOMBRE_CHARGES_BATTERIE_TRACTION_200V",
-                "label_index": "32014",
+                "label_index": "@P32014@\\*200",
                 "label_korean": "200V에서 트랙션 배터리의 충전 횟수",
                 "group_id": "88571",
                 "req_frame_id": "266066",
@@ -1514,7 +1514,7 @@
             {
                 "position": 7,
                 "mnemonic": "CA_TEMPS_CHARGE_ACCUMULE_100V",
-                "label_index": "32015",
+                "label_index": "@P32015@\\*100",
                 "label_korean": "100V에서 트랙션 배터리의 충전 축적 시간",
                 "group_id": "88571",
                 "req_frame_id": "266066",
@@ -1536,7 +1536,7 @@
             {
                 "position": 8,
                 "mnemonic": "CA_TEMPS_CHARGE_ACCUMULE_200V",
-                "label_index": "32015",
+                "label_index": "@P32015@\\*200",
                 "label_korean": "200V에서 트랙션 배터리의 충전 축적 시간",
                 "group_id": "88571",
                 "req_frame_id": "266066",
@@ -1558,7 +1558,7 @@
             {
                 "position": 9,
                 "mnemonic": "CA_TEMPS_CHARGE",
-                "label_index": "32426",
+                "label_index": "@P32426",
                 "label_korean": "충전 시간",
                 "group_id": "88571",
                 "req_frame_id": "266066",
@@ -1580,7 +1580,7 @@
             {
                 "position": 10,
                 "mnemonic": "CA_COMPTEUR_ARRET_CHARGE_ERREUR",
-                "label_index": "31998",
+                "label_index": "@P31998",
                 "label_korean": "오류로 인한 트랙션 배터리 충전 중단 카운터",
                 "group_id": "88571",
                 "req_frame_id": "266066",
@@ -1602,7 +1602,7 @@
             {
                 "position": 11,
                 "mnemonic": "CA_CONSIGNE_TENSION_SORTIE_OBC",
-                "label_index": "33102",
+                "label_index": "@P33102",
                 "label_korean": "트랙션 배터리 온보드 충전장치 출력 전압 기준 값",
                 "group_id": "88571",
                 "req_frame_id": "266066",
@@ -1624,7 +1624,7 @@
             {
                 "position": 12,
                 "mnemonic": "CA_CONSIGNE_COURANT_SORTIE_OBC",
-                "label_index": "33103",
+                "label_index": "@P33103",
                 "label_korean": "트랙션 배터리 온보드 충전장치 출력 전류 기준 값",
                 "group_id": "88571",
                 "req_frame_id": "266066",
@@ -1646,7 +1646,7 @@
             {
                 "position": 13,
                 "mnemonic": "CA_TENSION_ENTREE",
-                "label_index": "7159",
+                "label_index": "@P7159",
                 "label_korean": "입력 전압",
                 "group_id": "88571",
                 "req_frame_id": "266066",
@@ -1668,7 +1668,7 @@
             {
                 "position": 14,
                 "mnemonic": "CA_COURANT_ENTREE_OBC",
-                "label_index": "33104",
+                "label_index": "@P33104",
                 "label_korean": "트랙션 배터리 온보드 충전장치 입력 전류",
                 "group_id": "88571",
                 "req_frame_id": "266066",
@@ -1690,7 +1690,7 @@
             {
                 "position": 15,
                 "mnemonic": "CA_TENSION_SORTIE_OBC",
-                "label_index": "33105",
+                "label_index": "@P33105",
                 "label_korean": "트랙션 배터리 온보드 충전장치 출력 전압",
                 "group_id": "88571",
                 "req_frame_id": "266066",
@@ -1712,7 +1712,7 @@
             {
                 "position": 16,
                 "mnemonic": "CA_COURANT_SORTIE_OBC",
-                "label_index": "33106",
+                "label_index": "@P33106",
                 "label_korean": "트랙션 배터리 온보드 충전장치 출력 전류",
                 "group_id": "88571",
                 "req_frame_id": "266066",
@@ -1734,7 +1734,7 @@
             {
                 "position": 17,
                 "mnemonic": "CA_TENSION_SORTIE_MODULE_REDRESSEUR_FILTRE_TENSION",
-                "label_index": "32005",
+                "label_index": "@P32005",
                 "label_korean": "직류 전압 변압기 전압 정류기 및 필터 모듈 출력 전압",
                 "group_id": "88571",
                 "req_frame_id": "266066",
@@ -1756,7 +1756,7 @@
             {
                 "position": 18,
                 "mnemonic": "CA_TENSION_EVECU",
-                "label_index": "30279",
+                "label_index": "@P30279",
                 "label_korean": "전기 차량 ECU 제어 전압 값",
                 "group_id": "88571",
                 "req_frame_id": "266066",
@@ -1778,7 +1778,7 @@
             {
                 "position": 19,
                 "mnemonic": "CA_TEMPERATURE_MODULE_REDRESSEUR_FILTRE_TENSION",
-                "label_index": "32006",
+                "label_index": "@P32006",
                 "label_korean": "직류 전압 변압기 전압 정류기 및 필터 모듈 온도",
                 "group_id": "88571",
                 "req_frame_id": "266066",
@@ -1800,7 +1800,7 @@
             {
                 "position": 20,
                 "mnemonic": "CA_TEMPERATURE_ONDULEUR_1_DCDC",
-                "label_index": "32040",
+                "label_index": "@P32040@\\*1",
                 "label_korean": "직류 전압 변압기 인버터 1 온도",
                 "group_id": "88571",
                 "req_frame_id": "266066",
@@ -1822,7 +1822,7 @@
             {
                 "position": 21,
                 "mnemonic": "CA_TEMPERATURE_ONDULEUR_2_DCDC",
-                "label_index": "32040",
+                "label_index": "@P32040@\\*2",
                 "label_korean": "직류 전압 변압기 인버터 2 온도",
                 "group_id": "88571",
                 "req_frame_id": "266066",
@@ -1844,7 +1844,7 @@
             {
                 "position": 22,
                 "mnemonic": "CA_TEMPERATURE_INTERNE_CALCULATEUR",
-                "label_index": "29166",
+                "label_index": "@P29166",
                 "label_korean": "ECU 내부 온도",
                 "group_id": "88571",
                 "req_frame_id": "266066",
@@ -1866,7 +1866,7 @@
             {
                 "position": 23,
                 "mnemonic": "CA_RAPPORT_CYCLIQUE_PILOTAGE_OBC_PAR_EVECU",
-                "label_index": "33129",
+                "label_index": "@P33129",
                 "label_korean": "전기 차량 ECU에 의해서 제어되는 트랙션 배터리 온보드 충전장치 OCR",
                 "group_id": "88571",
                 "req_frame_id": "266066",
@@ -1888,7 +1888,7 @@
             {
                 "position": 24,
                 "mnemonic": "CA_TYPE_TENSION_ENTREE_OBC",
-                "label_index": "33107",
+                "label_index": "@P33107",
                 "label_korean": "트랙션 배터리 온보드 충전장치 입력 전압 타입",
                 "group_id": "88571",
                 "req_frame_id": "266066",
@@ -1914,7 +1914,7 @@
             {
                 "position": 25,
                 "mnemonic": "CA_ETAT_SEQUENCE",
-                "label_index": "32017",
+                "label_index": "@P32017",
                 "label_korean": "트랙션 배터리 충전 순서 상태",
                 "group_id": "88571",
                 "req_frame_id": "266066",
@@ -1943,7 +1943,7 @@
             {
                 "position": 26,
                 "mnemonic": "CA_STATUS_SIGNAL_DEMARRAGE_MODULE_REDRESSEUR_FILTRE_TENSION",
-                "label_index": "32018",
+                "label_index": "@P32018",
                 "label_korean": "직류 전압 변압기 전압 정류기 및 필터 모듈 시동 신호 상태",
                 "group_id": "88571",
                 "req_frame_id": "266066",
@@ -1968,7 +1968,7 @@
             {
                 "position": 27,
                 "mnemonic": "CA_ETAT_LIMITATION_TENSION_SORTIE_OBC",
-                "label_index": "33108",
+                "label_index": "@P33108",
                 "label_korean": "트랙션 배터리 온보드 충전장치 출력 전압 제한 상태",
                 "group_id": "88571",
                 "req_frame_id": "266066",
@@ -1993,7 +1993,7 @@
             {
                 "position": 28,
                 "mnemonic": "CA_ETAT_CHARGE_BATTERIE_DE_TRACTION",
-                "label_index": "21178",
+                "label_index": "@P21178",
                 "label_korean": "트랙션 배터리 충전 상태",
                 "group_id": "88571",
                 "req_frame_id": "266066",
@@ -2018,7 +2018,7 @@
             {
                 "position": 29,
                 "mnemonic": "CA_INFO_ERRONEE",
-                "label_index": "28332",
+                "label_index": "@P28332",
                 "label_korean": "부정확한 정보",
                 "group_id": "88571",
                 "req_frame_id": "266066",
@@ -2043,7 +2043,7 @@
             {
                 "position": 30,
                 "mnemonic": "CA_DEMANDE_REFROIDISSEMENT_BATTERIE_TRACTION",
-                "label_index": "32020",
+                "label_index": "@P32020",
                 "label_korean": "트랙션 배터리 냉각 요청",
                 "group_id": "88571",
                 "req_frame_id": "266066",
@@ -2070,7 +2070,7 @@
             {
                 "position": 31,
                 "mnemonic": "CA_MEMORISATION_TENSION_CONTROLE_EVECU",
-                "label_index": "32011",
+                "label_index": "@P32011",
                 "label_korean": "전기차 ECU 제어 전압 기억",
                 "group_id": "88571",
                 "req_frame_id": "266066",
@@ -2095,7 +2095,7 @@
             {
                 "position": 32,
                 "mnemonic": "CA_COMPTEUR_DEMARRAGE_CONVERTISSEUR_DCDC",
-                "label_index": "32010",
+                "label_index": "@P32010",
                 "label_korean": "직류 전압 변압기 시동 카운터",
                 "group_id": "88571",
                 "req_frame_id": "266066",
@@ -2117,7 +2117,7 @@
             {
                 "position": 33,
                 "mnemonic": "CA_DUREE_TOTALE_ACTIVATION_CONVERTISSEUR_DCDC",
-                "label_index": "32009",
+                "label_index": "@P32009",
                 "label_korean": "직류 전압 변압기 작동 총 시간",
                 "group_id": "88571",
                 "req_frame_id": "266066",
@@ -2139,7 +2139,7 @@
             {
                 "position": 34,
                 "mnemonic": "CA_DUREE_ACTIVATION_CONVERTISSEUR_DCDC",
-                "label_index": "32008",
+                "label_index": "@P32008",
                 "label_korean": "직류 전압 변압기의 작동 시간",
                 "group_id": "88571",
                 "req_frame_id": "266066",
@@ -2161,7 +2161,7 @@
             {
                 "position": 35,
                 "mnemonic": "CA_NOMBRE_ARRET_CONVERTISSEUR_ERREUR",
-                "label_index": "32021",
+                "label_index": "@P32021",
                 "label_korean": "오류로 인한 직류 전압 변압기 차단 횟수",
                 "group_id": "88571",
                 "req_frame_id": "266066",
@@ -2183,7 +2183,7 @@
             {
                 "position": 36,
                 "mnemonic": "CA_CONSIGNE_TENSION_SORTIE_CONVERTISSEUR_DCDC",
-                "label_index": "32022",
+                "label_index": "@P32022",
                 "label_korean": "직류 전압 변압기 출력 전압 기준 값",
                 "group_id": "88571",
                 "req_frame_id": "266066",
@@ -2205,7 +2205,7 @@
             {
                 "position": 37,
                 "mnemonic": "CA_TENSION_ENTREE_CONVERTISSEUR_DCDC",
-                "label_index": "22389",
+                "label_index": "@P22389",
                 "label_korean": "입력에서 직류 전압 변환장치 (DC/DC)의 전압",
                 "group_id": "88571",
                 "req_frame_id": "266066",
@@ -2227,7 +2227,7 @@
             {
                 "position": 38,
                 "mnemonic": "CA_COURANT_ENTREE_CONVERTISSEUR_DCDC",
-                "label_index": "22403",
+                "label_index": "@P22403",
                 "label_korean": "직류 전압 변환장치 (DC/DC)의 입력 전류",
                 "group_id": "88571",
                 "req_frame_id": "266066",
@@ -2249,7 +2249,7 @@
             {
                 "position": 39,
                 "mnemonic": "CA_TENSION_ALIMENTATION_CONVERTISSEUR_DCDC",
-                "label_index": "33028",
+                "label_index": "@P33028",
                 "label_korean": "직류 전압 변압기 공급 전압",
                 "group_id": "88571",
                 "req_frame_id": "266066",
@@ -2271,7 +2271,7 @@
             {
                 "position": 40,
                 "mnemonic": "CA_TENSION_SORTIE_CONVERTISSEUR_DCDC",
-                "label_index": "22425",
+                "label_index": "@P22425",
                 "label_korean": "출구에서 직류 전압 변환장치 (DC/DC)의 전압",
                 "group_id": "88571",
                 "req_frame_id": "266066",
@@ -2293,7 +2293,7 @@
             {
                 "position": 41,
                 "mnemonic": "CA_COURANT_SORTIE_CONVERTISSEUR_DCDC",
-                "label_index": "31976",
+                "label_index": "@P31976",
                 "label_korean": "출구에서 직류 전압 변압기 전류",
                 "group_id": "88571",
                 "req_frame_id": "266066",
@@ -2315,7 +2315,7 @@
             {
                 "position": 42,
                 "mnemonic": "CA_VALEUR_TENSION_EVECU",
-                "label_index": "30279",
+                "label_index": "@P30279",
                 "label_korean": "전기 차량 ECU 제어 전압 값",
                 "group_id": "88571",
                 "req_frame_id": "266066",
@@ -2337,7 +2337,7 @@
             {
                 "position": 43,
                 "mnemonic": "CA_TEMPERATURE_ONDULEUR_CONVERTISSEUR_DCDC",
-                "label_index": "32024",
+                "label_index": "@P32024",
                 "label_korean": "직류 전압 변압기 인버터 온도",
                 "group_id": "88571",
                 "req_frame_id": "266066",
@@ -2359,7 +2359,7 @@
             {
                 "position": 44,
                 "mnemonic": "CA_TEMPARATURE_REDRESSEUR_TENSION_CONVERTISSEUR_DCDC",
-                "label_index": "32025",
+                "label_index": "@P32025",
                 "label_korean": "직류 전압 변압기 전압 정류기 온도",
                 "group_id": "88571",
                 "req_frame_id": "266066",
@@ -2381,7 +2381,7 @@
             {
                 "position": 45,
                 "mnemonic": "CA_TEMPERATURE_CONVERTISSEUR_DCDC",
-                "label_index": "22360",
+                "label_index": "@P22360",
                 "label_korean": "직류 전압 변환장치 (DC/DC)의 온도",
                 "group_id": "88571",
                 "req_frame_id": "266066",
@@ -2403,7 +2403,7 @@
             {
                 "position": 46,
                 "mnemonic": "CA_AUTORISATION_CHARGE_BATTERIE_TRACTION_CONVERTISSEUR_DCDC",
-                "label_index": "32026",
+                "label_index": "@P32026",
                 "label_korean": "직류 전압 변압기에 의한 트랙션 배터리 충전 승인",
                 "group_id": "88571",
                 "req_frame_id": "266066",
@@ -2428,7 +2428,7 @@
             {
                 "position": 47,
                 "mnemonic": "CA_SIGNAL_ACTIVATION_CONVERTISSEUR_DCDC",
-                "label_index": "32001",
+                "label_index": "@P32001",
                 "label_korean": "직류 전압 변압기 작동 신호",
                 "group_id": "88571",
                 "req_frame_id": "266066",
@@ -2453,7 +2453,7 @@
             {
                 "position": 48,
                 "mnemonic": "CA_DEFAUT_CONVERTISSEUR_DCDC",
-                "label_index": "26143",
+                "label_index": "@P26143",
                 "label_korean": "직류 전압 변환장치 (DC/DC)에서 결함",
                 "group_id": "88571",
                 "req_frame_id": "266066",
@@ -2478,7 +2478,7 @@
             {
                 "position": 49,
                 "mnemonic": "CA_TENSION_RESEAU_CAN_APC_PILOTE_EVECU",
-                "label_index": "32027",
+                "label_index": "@P32027",
                 "label_korean": "전기차 ECU에 의해서 제어되는 키 ON, CAN에서 읽은 전압",
                 "group_id": "88571",
                 "req_frame_id": "266066",
@@ -2500,7 +2500,7 @@
             {
                 "position": 50,
                 "mnemonic": "CA_TEMPERATURE_EAU_CIRCUIT_REFROIDISSEMENT_CHAINE_TRACTION",
-                "label_index": "22996",
+                "label_index": "@P22996",
                 "label_korean": "구동 트레인 냉각 라인 냉각수 온도",
                 "group_id": "88571",
                 "req_frame_id": "266066",

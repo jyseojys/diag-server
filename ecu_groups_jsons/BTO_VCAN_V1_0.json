@@ -8,7 +8,7 @@
             {
                 "position": 1,
                 "mnemonic": "ID_REF_FOURNISSEUR",
-                "label_index": "633",
+                "label_index": "@P633",
                 "label_korean": "제조업체",
                 "group_id": "133622",
                 "req_frame_id": "401209",
@@ -30,7 +30,7 @@
             {
                 "position": 2,
                 "mnemonic": "ID_REF_PSA_new_2",
-                "label_index": "3565",
+                "label_index": "@P3565",
                 "label_korean": "하드웨어 번호",
                 "group_id": "133622",
                 "req_frame_id": "401209",
@@ -52,7 +52,7 @@
             {
                 "position": 3,
                 "mnemonic": "ID_NUM_COMP_new_3",
-                "label_index": "13910",
+                "label_index": "@P13910",
                 "label_korean": "작동 제품 참조",
                 "group_id": "133622",
                 "req_frame_id": "401209",
@@ -74,7 +74,7 @@
             {
                 "position": 4,
                 "mnemonic": "ID_MESS_DIAGNOSTIC",
-                "label_index": "2459",
+                "label_index": "@P2459",
                 "label_korean": "진단 이메일",
                 "group_id": "133622",
                 "req_frame_id": "401209",
@@ -96,7 +96,7 @@
             {
                 "position": 5,
                 "mnemonic": "ID_VERSION_SOFT_D1",
-                "label_index": "2358",
+                "label_index": "@P2358",
                 "label_korean": "소프트웨어 버전",
                 "group_id": "133622",
                 "req_frame_id": "401209",
@@ -118,7 +118,7 @@
             {
                 "position": 6,
                 "mnemonic": "ID_VERSION_DIAGNOSTIC_new_1",
-                "label_index": "14029",
+                "label_index": "@P14029",
                 "label_korean": "진단 버전",
                 "group_id": "133622",
                 "req_frame_id": "401209",
@@ -148,7 +148,7 @@
             {
                 "position": 1,
                 "mnemonic": "CFG_222_FONCTION_INDICATEUR_DE_MAINTENANCE",
-                "label_index": "15820",
+                "label_index": "@P15820",
                 "label_korean": "서비스 표시계 기능",
                 "group_id": "133624",
                 "req_frame_id": "401215",
@@ -164,13 +164,13 @@
                 "bit_mask": 8,
                 "bit_shift": 3,
                 "dynamic_arg": "",
-                "help_code": "42907, 42908",
-                "help_korean": "서비스 표시계는 엔진 시동을 걸 때 주행거리계 스크린에 표시된다 .\n서비스 표시계는 다음 서비스까지 남은 거리를 표시한다 ."
+                "help_code": "@P42907@\\+@T.@\\n@P42908@\\+@T.",
+                "help_korean": "서비스 표시계는 엔진 시동을 걸 때 주행거리계 스크린에 표시된다.\n서비스 표시계는 다음 서비스까지 남은 거리를 표시한다."
             },
             {
                 "position": 2,
                 "mnemonic": "CFG_222_INDICATEUR_NIVEAU_HUILE",
-                "label_index": "18093",
+                "label_index": "@P18093",
                 "label_korean": "오일 레벨",
                 "group_id": "133624",
                 "req_frame_id": "401215",
@@ -186,13 +186,13 @@
                 "bit_mask": 4,
                 "bit_shift": 2,
                 "dynamic_arg": "",
-                "help_code": "9809",
+                "help_code": "@P9809@T.",
                 "help_korean": "오일 레벨 표시계는 서비스 표시계가 표시된 후에 주행거리계 스크린에 표시된다."
             },
             {
                 "position": 3,
                 "mnemonic": "CFG_222_FONCTION_REGULATION_VITESSE_VEHICULE",
-                "label_index": "14654",
+                "label_index": "@P14654",
                 "label_korean": "크루즈 컨트롤 기능",
                 "group_id": "133624",
                 "req_frame_id": "401215",
@@ -208,13 +208,13 @@
                 "bit_mask": 8,
                 "bit_shift": 3,
                 "dynamic_arg": "",
-                "help_code": "14662",
+                "help_code": "@P14662@T.",
                 "help_korean": "크루즈 컨트롤 기능은 주행거리계 스크린에 표시된다."
             },
             {
                 "position": 4,
                 "mnemonic": "CFG_222_FONCTION_LIMITEUR_VITESSE_VEHICULE",
-                "label_index": "15462",
+                "label_index": "@P15462",
                 "label_korean": "스피드 리미터 기능",
                 "group_id": "133624",
                 "req_frame_id": "401215",
@@ -230,13 +230,13 @@
                 "bit_mask": 4,
                 "bit_shift": 2,
                 "dynamic_arg": "",
-                "help_code": "14621",
+                "help_code": "@P14621@T.",
                 "help_korean": "속도 제한 기능은 주행거리계 스크린에 표시된다."
             },
             {
                 "position": 5,
                 "mnemonic": "CFG_222_UNITE_DE_VITESSE_ODOMETRE",
-                "label_index": "4255",
+                "label_index": "@P4255",
                 "label_korean": "주행거리계 장치",
                 "group_id": "133624",
                 "req_frame_id": "401215",
@@ -252,7 +252,7 @@
                 "bit_mask": 1,
                 "bit_shift": 0,
                 "dynamic_arg": "",
-                "help_code": "15862",
+                "help_code": "@P15862@T.",
                 "help_korean": "속도, 총 주행거리, 구간 거리, 크루즈 컨트롤 및 스피드 리미터를 표시하기 위해 사용된 단위를 나타낸다."
             }
         ]
@@ -266,7 +266,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_COMMUTATEUR_REGLAGE_LUMINOSITE",
-                "label_index": "7770",
+                "label_index": "@P7770",
                 "label_korean": "밝기 조정 스위치",
                 "group_id": "133625",
                 "req_frame_id": "401218",
@@ -282,13 +282,13 @@
                 "bit_mask": 2,
                 "bit_shift": 1,
                 "dynamic_arg": "",
-                "help_code": "9866",
+                "help_code": "@P9866@T.",
                 "help_korean": "차량이 야간에 주행할 때 대시보드의 라이트를 조정하는 데 사용한다."
             },
             {
                 "position": 2,
                 "mnemonic": "MP_COMMUTATEUR_ODOMETRE",
-                "label_index": "6607",
+                "label_index": "@P6607",
                 "label_korean": "주행거리계 스위치",
                 "group_id": "133625",
                 "req_frame_id": "401218",
@@ -304,7 +304,7 @@
                 "bit_mask": 1,
                 "bit_shift": 0,
                 "dynamic_arg": "",
-                "help_code": "13665",
+                "help_code": "@P13665@T.",
                 "help_korean": "트립 미터를 0으로 한다."
             }
         ]
@@ -318,7 +318,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_NIVEAU_ECLAIRAGE_00",
-                "label_index": "14935",
+                "label_index": "@P14935@\\*0",
                 "label_korean": "라이팅0의 레벨",
                 "group_id": "133626",
                 "req_frame_id": "401221",
@@ -340,7 +340,7 @@
             {
                 "position": 2,
                 "mnemonic": "MP_NIVEAU_ECLAIRAGE_01",
-                "label_index": "14935",
+                "label_index": "@P14935@\\*1",
                 "label_korean": "라이팅1의 레벨",
                 "group_id": "133626",
                 "req_frame_id": "401221",
@@ -362,7 +362,7 @@
             {
                 "position": 3,
                 "mnemonic": "MP_NIVEAU_ECLAIRAGE_02",
-                "label_index": "14935",
+                "label_index": "@P14935@\\*2",
                 "label_korean": "라이팅2의 레벨",
                 "group_id": "133626",
                 "req_frame_id": "401221",
@@ -384,7 +384,7 @@
             {
                 "position": 4,
                 "mnemonic": "MP_NIVEAU_ECLAIRAGE_03",
-                "label_index": "14935",
+                "label_index": "@P14935@\\*3",
                 "label_korean": "라이팅3의 레벨",
                 "group_id": "133626",
                 "req_frame_id": "401221",
@@ -406,7 +406,7 @@
             {
                 "position": 5,
                 "mnemonic": "MP_NIVEAU_ECLAIRAGE_04",
-                "label_index": "14935",
+                "label_index": "@P14935@\\*4",
                 "label_korean": "라이팅4의 레벨",
                 "group_id": "133626",
                 "req_frame_id": "401221",
@@ -428,7 +428,7 @@
             {
                 "position": 6,
                 "mnemonic": "MP_NIVEAU_ECLAIRAGE_05",
-                "label_index": "14935",
+                "label_index": "@P14935@\\*5",
                 "label_korean": "라이팅5의 레벨",
                 "group_id": "133626",
                 "req_frame_id": "401221",
@@ -450,7 +450,7 @@
             {
                 "position": 7,
                 "mnemonic": "MP_NIVEAU_ECLAIRAGE_06",
-                "label_index": "14935",
+                "label_index": "@P14935@\\*6",
                 "label_korean": "라이팅6의 레벨",
                 "group_id": "133626",
                 "req_frame_id": "401221",
@@ -472,7 +472,7 @@
             {
                 "position": 8,
                 "mnemonic": "MP_NIVEAU_ECLAIRAGE_07",
-                "label_index": "14935",
+                "label_index": "@P14935@\\*7",
                 "label_korean": "라이팅7의 레벨",
                 "group_id": "133626",
                 "req_frame_id": "401221",
@@ -494,7 +494,7 @@
             {
                 "position": 9,
                 "mnemonic": "MP_NIVEAU_ECLAIRAGE_08",
-                "label_index": "14935",
+                "label_index": "@P14935@\\*8",
                 "label_korean": "라이팅8의 레벨",
                 "group_id": "133626",
                 "req_frame_id": "401221",
@@ -516,7 +516,7 @@
             {
                 "position": 10,
                 "mnemonic": "MP_NIVEAU_ECLAIRAGE_09",
-                "label_index": "14935",
+                "label_index": "@P14935@\\*9",
                 "label_korean": "라이팅9의 레벨",
                 "group_id": "133626",
                 "req_frame_id": "401221",
@@ -538,7 +538,7 @@
             {
                 "position": 11,
                 "mnemonic": "MP_NIVEAU_ECLAIRAGE_10",
-                "label_index": "14935",
+                "label_index": "@P14935@\\*10",
                 "label_korean": "라이팅10의 레벨",
                 "group_id": "133626",
                 "req_frame_id": "401221",
@@ -560,7 +560,7 @@
             {
                 "position": 12,
                 "mnemonic": "MP_NIVEAU_ECLAIRAGE_11",
-                "label_index": "14935",
+                "label_index": "@P14935@\\*11",
                 "label_korean": "라이팅11의 레벨",
                 "group_id": "133626",
                 "req_frame_id": "401221",
@@ -582,7 +582,7 @@
             {
                 "position": 13,
                 "mnemonic": "MP_NIVEAU_ECLAIRAGE_12",
-                "label_index": "14935",
+                "label_index": "@P14935@\\*12",
                 "label_korean": "라이팅12의 레벨",
                 "group_id": "133626",
                 "req_frame_id": "401221",
@@ -604,7 +604,7 @@
             {
                 "position": 14,
                 "mnemonic": "MP_NIVEAU_ECLAIRAGE_13",
-                "label_index": "14935",
+                "label_index": "@P14935@\\*13",
                 "label_korean": "라이팅13의 레벨",
                 "group_id": "133626",
                 "req_frame_id": "401221",
@@ -626,7 +626,7 @@
             {
                 "position": 15,
                 "mnemonic": "MP_NIVEAU_ECLAIRAGE_14",
-                "label_index": "14935",
+                "label_index": "@P14935@\\*14",
                 "label_korean": "라이팅14의 레벨",
                 "group_id": "133626",
                 "req_frame_id": "401221",
@@ -648,7 +648,7 @@
             {
                 "position": 16,
                 "mnemonic": "MP_NIVEAU_ECLAIRAGE_15",
-                "label_index": "14935",
+                "label_index": "@P14935@\\*15",
                 "label_korean": "라이팅15의 레벨",
                 "group_id": "133626",
                 "req_frame_id": "401221",

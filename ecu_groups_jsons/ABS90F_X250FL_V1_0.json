@@ -8,7 +8,7 @@
             {
                 "position": 1,
                 "mnemonic": "ID_CODE_ISO",
-                "label_index": "13988",
+                "label_index": "@P13988",
                 "label_korean": "ISO 번호",
                 "group_id": "89969",
                 "req_frame_id": "270258",
@@ -30,7 +30,7 @@
             {
                 "position": 2,
                 "mnemonic": "ID_REFERENCE_MATERIEL",
-                "label_index": "1071",
+                "label_index": "@P1071",
                 "label_korean": "장치 부품 번호",
                 "group_id": "89969",
                 "req_frame_id": "270258",
@@ -52,7 +52,7 @@
             {
                 "position": 3,
                 "mnemonic": "ID_HARD",
-                "label_index": "12954",
+                "label_index": "@P12954",
                 "label_korean": "하드웨어 버전",
                 "group_id": "89969",
                 "req_frame_id": "270258",
@@ -74,7 +74,7 @@
             {
                 "position": 4,
                 "mnemonic": "ID_REFERENCE_LOGICIEL",
-                "label_index": "13263",
+                "label_index": "@P13263",
                 "label_korean": "소프트웨어 번호",
                 "group_id": "89969",
                 "req_frame_id": "270258",
@@ -96,7 +96,7 @@
             {
                 "position": 5,
                 "mnemonic": "ID_TRACABILITE_INDICE_EVOLUTION_EDITION",
-                "label_index": "13235",
+                "label_index": "@P13235@\\*",
                 "label_korean": "소프트웨어 버전",
                 "group_id": "89969",
                 "req_frame_id": "270258",
@@ -118,7 +118,7 @@
             {
                 "position": 6,
                 "mnemonic": "ID_DATE_TELECH",
-                "label_index": "21670",
+                "label_index": "@P21670",
                 "label_korean": "다운로딩 날짜",
                 "group_id": "89970",
                 "req_frame_id": "270261",
@@ -148,7 +148,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_TENSION_ALIMENTATION",
-                "label_index": "7080",
+                "label_index": "@P7080",
                 "label_korean": "공급 전압",
                 "group_id": "89971",
                 "req_frame_id": "270264",
@@ -164,13 +164,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "656, 28921, 23032, 28921",
-                "help_korean": "엔진\n- 멈춤 : 10V와 12V\n- 사이\n엔진 구동 정보 릴레이 제어 결함 : 10V와 12V 사이.5"
+                "help_code": "@P656@T : @P28921@\\*10@\\*12@\\n@P23032@T : @P28921@\\*12@\\*14.5",
+                "help_korean": "엔진 멈춤 : 10V와 12V 사이\n엔진 구동 정보 릴레이 제어 결함 : 10V와 12V 사이.5"
             },
             {
                 "position": 2,
                 "mnemonic": "MP_VITESSE_VEHICULE_a",
-                "label_index": "7997",
+                "label_index": "@P7997@\\*",
                 "label_korean": "차량 속도",
                 "group_id": "89972",
                 "req_frame_id": "270267",
@@ -196,7 +196,7 @@
             {
                 "position": 3,
                 "mnemonic": "MP_VIT_ROUE_AVG",
-                "label_index": "11831",
+                "label_index": "@P11831",
                 "label_korean": "프론트 좌측 휠 속도",
                 "group_id": "89973",
                 "req_frame_id": "270270",
@@ -212,13 +212,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "10957",
+                "help_code": "@P10957",
                 "help_korean": "휠에 위치한 센서로부터 정보"
             },
             {
                 "position": 4,
                 "mnemonic": "MP_VIT_ROUE_AVD",
-                "label_index": "4748",
+                "label_index": "@P4748",
                 "label_korean": "프론트 우측 휠 속도",
                 "group_id": "89974",
                 "req_frame_id": "270273",
@@ -234,13 +234,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "10957",
+                "help_code": "@P10957",
                 "help_korean": "휠에 위치한 센서로부터 정보"
             },
             {
                 "position": 5,
                 "mnemonic": "MP_VIT_ROUE_ARG",
-                "label_index": "3744",
+                "label_index": "@P3744",
                 "label_korean": "리어 좌측 휠 속도",
                 "group_id": "89975",
                 "req_frame_id": "270276",
@@ -256,13 +256,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "10957",
+                "help_code": "@P10957",
                 "help_korean": "휠에 위치한 센서로부터 정보"
             },
             {
                 "position": 6,
                 "mnemonic": "MP_VIT_ROUE_ARD",
-                "label_index": "11915",
+                "label_index": "@P11915",
                 "label_korean": "리어 우측 휠 속도",
                 "group_id": "89976",
                 "req_frame_id": "270279",
@@ -278,13 +278,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "10957",
+                "help_code": "@P10957",
                 "help_korean": "휠에 위치한 센서로부터 정보"
             },
             {
                 "position": 7,
                 "mnemonic": "MP_ETAT_FONCTIONNEMENT",
-                "label_index": "26501",
+                "label_index": "@P26501",
                 "label_korean": "작동 상태",
                 "group_id": "89986",
                 "req_frame_id": "270309",
@@ -314,7 +314,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_TENSION_ALIMENTATION",
-                "label_index": "7080",
+                "label_index": "@P7080",
                 "label_korean": "공급 전압",
                 "group_id": "89971",
                 "req_frame_id": "270264",
@@ -330,13 +330,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "656, 28921, 23032, 28921",
-                "help_korean": "엔진\n- 멈춤 : 10V와 12V\n- 사이\n엔진 구동 정보 릴레이 제어 결함 : 10V와 12V 사이.5"
+                "help_code": "@P656@T : @P28921@\\*10@\\*12@\\n@P23032@T : @P28921@\\*12@\\*14.5",
+                "help_korean": "엔진 멈춤 : 10V와 12V 사이\n엔진 구동 정보 릴레이 제어 결함 : 10V와 12V 사이.5"
             },
             {
                 "position": 2,
                 "mnemonic": "MP_CONTACTEUR_FEUX_STOP",
-                "label_index": "12701",
+                "label_index": "@P12701",
                 "label_korean": "제동등 스위치",
                 "group_id": "89978",
                 "req_frame_id": "270285",
@@ -357,13 +357,13 @@
                 "bit_mask": 1,
                 "bit_shift": 0,
                 "dynamic_arg": "",
-                "help_code": "3694, 39918, 39919",
+                "help_code": "@F3694@T.@\\n@P39918@T.@\\n@P39919@T.",
                 "help_korean": "브레이크 페달의 한번 누름에 의한 정보 취득.\n브레이크 페달을 밟으면, 제동등 스위치가 닫힌다.\n브레이크 페달에서 발을 떼면, 제동등 스위치가 열린다."
             },
             {
                 "position": 3,
                 "mnemonic": "MP_CONTACTEUR_FEUX_STOP_SECONDAIRES",
-                "label_index": "15081",
+                "label_index": "@P15081",
                 "label_korean": "보조 제동등 스위치",
                 "group_id": "89978",
                 "req_frame_id": "270285",
@@ -382,7 +382,7 @@
                 "bit_mask": 1,
                 "bit_shift": 0,
                 "dynamic_arg": "",
-                "help_code": "13123",
+                "help_code": "@P13123@T.",
                 "help_korean": "메인 브레이크등 스위치와 연계된 스위치의 작동."
             }
         ]
@@ -396,7 +396,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_ETAT_RELAIS_ALIMENTATION_EV",
-                "label_index": "5399",
+                "label_index": "@P5399",
                 "label_korean": "솔레노이드 밸브 전원 릴레이 상태",
                 "group_id": "89979",
                 "req_frame_id": "270288",
@@ -418,13 +418,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "39920, 39921",
+                "help_code": "@P39920@T.@\\n@P39921@T.",
                 "help_korean": "정상 작동 중에, 키를 ON 하면 릴레이가 닫힌다.\n릴레이가 열림이면, 결함이고 에어빼기가 정상적으로 진행되지 않을 것이다."
             },
             {
                 "position": 2,
                 "mnemonic": "MP_ETAT_RELAIS_POMPE_RECIRCULATION",
-                "label_index": "10518",
+                "label_index": "@P10518",
                 "label_korean": "재순환 펌프 릴레이의 상태",
                 "group_id": "89980",
                 "req_frame_id": "270291",
@@ -444,13 +444,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "38000",
+                "help_code": "@P38000@T.",
                 "help_korean": "재순환 펌프가 작동하지 않을 때 릴레이가 열린다."
             },
             {
                 "position": 3,
                 "mnemonic": "EVADMAVD",
-                "label_index": "16788",
+                "label_index": "@P16788",
                 "label_korean": "프론트 우측 인렛 솔레노이드 밸브",
                 "group_id": "89981",
                 "req_frame_id": "270294",
@@ -466,13 +466,13 @@
                 "bit_mask": 32,
                 "bit_shift": 5,
                 "dynamic_arg": "",
-                "help_code": "13780",
+                "help_code": "@P13780@T.",
                 "help_korean": "모든 솔레노이드 밸브에 관한 이 테스트는 솔레노이드 밸브가 정상적으로 작동하는지를 확인할 수 있도록 한다."
             },
             {
                 "position": 4,
                 "mnemonic": "EVECHAVD",
-                "label_index": "12660",
+                "label_index": "@P12660",
                 "label_korean": "프론트 우측 출력 솔레노이드 밸브",
                 "group_id": "89981",
                 "req_frame_id": "270294",
@@ -488,13 +488,13 @@
                 "bit_mask": 128,
                 "bit_shift": 7,
                 "dynamic_arg": "",
-                "help_code": "13780",
+                "help_code": "@P13780@T.",
                 "help_korean": "모든 솔레노이드 밸브에 관한 이 테스트는 솔레노이드 밸브가 정상적으로 작동하는지를 확인할 수 있도록 한다."
             },
             {
                 "position": 5,
                 "mnemonic": "EVADMAVG",
-                "label_index": "8796",
+                "label_index": "@P8796",
                 "label_korean": "프론트 좌측 인렛 솔레노이드 밸브",
                 "group_id": "89981",
                 "req_frame_id": "270294",
@@ -510,13 +510,13 @@
                 "bit_mask": 2,
                 "bit_shift": 1,
                 "dynamic_arg": "",
-                "help_code": "13780",
+                "help_code": "@P13780@T.",
                 "help_korean": "모든 솔레노이드 밸브에 관한 이 테스트는 솔레노이드 밸브가 정상적으로 작동하는지를 확인할 수 있도록 한다."
             },
             {
                 "position": 6,
                 "mnemonic": "EVECHAVG",
-                "label_index": "15403",
+                "label_index": "@P15403",
                 "label_korean": "프론트 좌측 아울렛 솔레노이드 밸브",
                 "group_id": "89981",
                 "req_frame_id": "270294",
@@ -532,13 +532,13 @@
                 "bit_mask": 8,
                 "bit_shift": 3,
                 "dynamic_arg": "",
-                "help_code": "13780",
+                "help_code": "@P13780@T.",
                 "help_korean": "모든 솔레노이드 밸브에 관한 이 테스트는 솔레노이드 밸브가 정상적으로 작동하는지를 확인할 수 있도록 한다."
             },
             {
                 "position": 7,
                 "mnemonic": "EVADMARD",
-                "label_index": "7533",
+                "label_index": "@P7533",
                 "label_korean": "리어 우측 인렛 솔레노이드 밸브",
                 "group_id": "89981",
                 "req_frame_id": "270294",
@@ -554,13 +554,13 @@
                 "bit_mask": 8192,
                 "bit_shift": 13,
                 "dynamic_arg": "",
-                "help_code": "13780",
+                "help_code": "@P13780@T.",
                 "help_korean": "모든 솔레노이드 밸브에 관한 이 테스트는 솔레노이드 밸브가 정상적으로 작동하는지를 확인할 수 있도록 한다."
             },
             {
                 "position": 8,
                 "mnemonic": "EVECHARD",
-                "label_index": "15604",
+                "label_index": "@P15604",
                 "label_korean": "리어 우측 아울렛 솔레노이드 밸브",
                 "group_id": "89981",
                 "req_frame_id": "270294",
@@ -576,13 +576,13 @@
                 "bit_mask": 32768,
                 "bit_shift": 15,
                 "dynamic_arg": "",
-                "help_code": "13780",
+                "help_code": "@P13780@T.",
                 "help_korean": "모든 솔레노이드 밸브에 관한 이 테스트는 솔레노이드 밸브가 정상적으로 작동하는지를 확인할 수 있도록 한다."
             },
             {
                 "position": 9,
                 "mnemonic": "EVADMARG",
-                "label_index": "16711",
+                "label_index": "@P16711",
                 "label_korean": "리어 좌측 인렛 솔레노이드 밸브",
                 "group_id": "89981",
                 "req_frame_id": "270294",
@@ -598,13 +598,13 @@
                 "bit_mask": 512,
                 "bit_shift": 9,
                 "dynamic_arg": "",
-                "help_code": "13780",
+                "help_code": "@P13780@T.",
                 "help_korean": "모든 솔레노이드 밸브에 관한 이 테스트는 솔레노이드 밸브가 정상적으로 작동하는지를 확인할 수 있도록 한다."
             },
             {
                 "position": 10,
                 "mnemonic": "EVECHARG",
-                "label_index": "12630",
+                "label_index": "@P12630",
                 "label_korean": "리어 좌측 아울렛 솔레노이드 밸브",
                 "group_id": "89981",
                 "req_frame_id": "270294",
@@ -620,7 +620,7 @@
                 "bit_mask": 2048,
                 "bit_shift": 11,
                 "dynamic_arg": "",
-                "help_code": "13780",
+                "help_code": "@P13780@T.",
                 "help_korean": "모든 솔레노이드 밸브에 관한 이 테스트는 솔레노이드 밸브가 정상적으로 작동하는지를 확인할 수 있도록 한다."
             }
         ]
@@ -634,7 +634,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_ETAT_RELAIS_ALIMENTATION_EV",
-                "label_index": "5399",
+                "label_index": "@P5399",
                 "label_korean": "솔레노이드 밸브 전원 릴레이 상태",
                 "group_id": "89979",
                 "req_frame_id": "270288",
@@ -656,14 +656,14 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "39920, 39921",
+                "help_code": "@P39920@T.@\\n@P39921@T.",
                 "help_korean": "정상 작동 중에, 키를 ON 하면 릴레이가 닫힌다.\n릴레이가 열림이면, 결함이고 에어빼기가 정상적으로 진행되지 않을 것이다."
             },
             {
                 "position": 2,
                 "mnemonic": "ETATEVPIL1",
-                "label_index": "16789",
-                "label_korean": "스위칭 솔레노이드 밸브 1",
+                "label_index": "@P16789@\\+@P64@\\*1",
+                "label_korean": "스위칭 솔레노이드 밸브1",
                 "group_id": "89981",
                 "req_frame_id": "270294",
                 "resp_frame_id": "270295",
@@ -678,14 +678,14 @@
                 "bit_mask": 2097152,
                 "bit_shift": 21,
                 "dynamic_arg": "1",
-                "help_code": "13780",
+                "help_code": "@P13780@T.",
                 "help_korean": "모든 솔레노이드 밸브에 관한 이 테스트는 솔레노이드 밸브가 정상적으로 작동하는지를 확인할 수 있도록 한다."
             },
             {
                 "position": 3,
                 "mnemonic": "ETATEVPIL2",
-                "label_index": "16789",
-                "label_korean": "스위칭 솔레노이드 밸브 2",
+                "label_index": "@P16789@\\+@P64@\\*2",
+                "label_korean": "스위칭 솔레노이드 밸브2",
                 "group_id": "89981",
                 "req_frame_id": "270294",
                 "resp_frame_id": "270295",
@@ -700,14 +700,14 @@
                 "bit_mask": 8388608,
                 "bit_shift": 23,
                 "dynamic_arg": "2",
-                "help_code": "13780",
+                "help_code": "@P13780@T.",
                 "help_korean": "모든 솔레노이드 밸브에 관한 이 테스트는 솔레노이드 밸브가 정상적으로 작동하는지를 확인할 수 있도록 한다."
             },
             {
                 "position": 4,
                 "mnemonic": "ETATEVPRIM1",
-                "label_index": "5627",
-                "label_korean": "리미팅 솔레노이드 밸브 1",
+                "label_index": "@P5627@\\+@P64@\\*1",
+                "label_korean": "리미팅 솔레노이드 밸브1",
                 "group_id": "89981",
                 "req_frame_id": "270294",
                 "resp_frame_id": "270295",
@@ -722,14 +722,14 @@
                 "bit_mask": 131072,
                 "bit_shift": 17,
                 "dynamic_arg": "1",
-                "help_code": "13780",
+                "help_code": "@P13780@T.",
                 "help_korean": "모든 솔레노이드 밸브에 관한 이 테스트는 솔레노이드 밸브가 정상적으로 작동하는지를 확인할 수 있도록 한다."
             },
             {
                 "position": 5,
                 "mnemonic": "ETATEVPRIM2",
-                "label_index": "5627",
-                "label_korean": "리미팅 솔레노이드 밸브 2",
+                "label_index": "@P5627@\\+@P64@\\*2",
+                "label_korean": "리미팅 솔레노이드 밸브2",
                 "group_id": "89981",
                 "req_frame_id": "270294",
                 "resp_frame_id": "270295",
@@ -744,7 +744,7 @@
                 "bit_mask": 524288,
                 "bit_shift": 19,
                 "dynamic_arg": "2",
-                "help_code": "13780",
+                "help_code": "@P13780@T.",
                 "help_korean": "모든 솔레노이드 밸브에 관한 이 테스트는 솔레노이드 밸브가 정상적으로 작동하는지를 확인할 수 있도록 한다."
             }
         ]
@@ -758,7 +758,7 @@
             {
                 "position": 1,
                 "mnemonic": "CA_VITESSE_VEHICULE",
-                "label_index": "15603",
+                "label_index": "@P15603@\\*",
                 "label_korean": "차량 속도",
                 "group_id": "89989",
                 "req_frame_id": "270318",
@@ -782,7 +782,7 @@
             {
                 "position": 2,
                 "mnemonic": "CA_TENSION_BATTERIE",
-                "label_index": "18263",
+                "label_index": "@P18263",
                 "label_korean": "배터리 전압",
                 "group_id": "89989",
                 "req_frame_id": "270318",
@@ -804,7 +804,7 @@
             {
                 "position": 3,
                 "mnemonic": "CA_CONTACTEUR_FEUX_STOP",
-                "label_index": "9419",
+                "label_index": "@P9419",
                 "label_korean": "브레이크 램프 스위치",
                 "group_id": "89989",
                 "req_frame_id": "270318",
@@ -829,7 +829,7 @@
             {
                 "position": 4,
                 "mnemonic": "CA_REGULATION_ABS",
-                "label_index": "10730",
+                "label_index": "@P10730",
                 "label_korean": "ABS 제어",
                 "group_id": "89989",
                 "req_frame_id": "270318",
@@ -854,7 +854,7 @@
             {
                 "position": 5,
                 "mnemonic": "CA_REGULATION_ESP",
-                "label_index": "4865",
+                "label_index": "@P4865",
                 "label_korean": "ESP 제어",
                 "group_id": "89989",
                 "req_frame_id": "270318",
@@ -879,7 +879,7 @@
             {
                 "position": 6,
                 "mnemonic": "CA_REGULATION_ANTIPATINAGE",
-                "label_index": "38662",
+                "label_index": "@P38662",
                 "label_korean": "트랙션 컨트롤 제어",
                 "group_id": "89989",
                 "req_frame_id": "270318",
@@ -904,7 +904,7 @@
             {
                 "position": 7,
                 "mnemonic": "CA_REGULATION_AIDE_AU_DEMARRAGE_COTE",
-                "label_index": "38660",
+                "label_index": "@P38660",
                 "label_korean": "힐 스타트 어시스턴스 제어",
                 "group_id": "89989",
                 "req_frame_id": "270318",
@@ -929,7 +929,7 @@
             {
                 "position": 8,
                 "mnemonic": "CA_CONTROLE_TRAJECTOIRE_PHASE_DECELERATION",
-                "label_index": "38661",
+                "label_index": "@P38661",
                 "label_korean": "감속 단계에서 트랙션 컨트롤",
                 "group_id": "89989",
                 "req_frame_id": "270318",
@@ -954,7 +954,7 @@
             {
                 "position": 9,
                 "mnemonic": "CA_SECTEUR_MODE_ANTIPATINAGE_CONTROLE_TRAJECTOIRE_DECELERATION",
-                "label_index": "38663",
+                "label_index": "@P38663",
                 "label_korean": "감속 과정 모드 셀렉터에서 트랙션 컨트롤 및 궤도 제어",
                 "group_id": "89989",
                 "req_frame_id": "270318",
@@ -979,7 +979,7 @@
             {
                 "position": 10,
                 "mnemonic": "CA_CONTROLE_VITESSE_DESCENTE",
-                "label_index": "37979",
+                "label_index": "@P37979",
                 "label_korean": "내리막길 속도 제어",
                 "group_id": "89989",
                 "req_frame_id": "270318",

@@ -8,7 +8,7 @@
             {
                 "position": 1,
                 "mnemonic": "ID_NOM_DU_FOURNISSEUR",
-                "label_index": "5701",
+                "label_index": "@P5701",
                 "label_korean": "제조 업체명",
                 "group_id": "84788",
                 "req_frame_id": "254665",
@@ -38,7 +38,7 @@
             {
                 "position": 2,
                 "mnemonic": "ID_REFERENCE_MATERIEL",
-                "label_index": "1071",
+                "label_index": "@P1071",
                 "label_korean": "장치 부품 번호",
                 "group_id": "84788",
                 "req_frame_id": "254665",
@@ -60,7 +60,7 @@
             {
                 "position": 3,
                 "mnemonic": "ID_REFERENCE_COMPLEMENTAIRE_MATERIEL",
-                "label_index": "1634",
+                "label_index": "@P1634",
                 "label_korean": "장치 추가 참조 번호",
                 "group_id": "84788",
                 "req_frame_id": "254665",
@@ -82,7 +82,7 @@
             {
                 "position": 4,
                 "mnemonic": "ID_TRACABILITE_INDICE_EVOLUTION_EDITION",
-                "label_index": "24601",
+                "label_index": "@P24601",
                 "label_korean": "소프트웨어 버전",
                 "group_id": "84788",
                 "req_frame_id": "254665",
@@ -104,7 +104,7 @@
             {
                 "position": 5,
                 "mnemonic": "ID_MESS_DIAGNOSTIC",
-                "label_index": "2459",
+                "label_index": "@P2459",
                 "label_korean": "진단 이메일",
                 "group_id": "84788",
                 "req_frame_id": "254665",
@@ -126,7 +126,7 @@
             {
                 "position": 6,
                 "mnemonic": "ID_80_MP_INDICE_MESS",
-                "label_index": "2225",
+                "label_index": "@P2225",
                 "label_korean": "메시지 인덱스",
                 "group_id": "84788",
                 "req_frame_id": "254665",
@@ -148,7 +148,7 @@
             {
                 "position": 7,
                 "mnemonic": "ID_TRACABILITE_DATE_FABRICATION",
-                "label_index": "16589",
+                "label_index": "@P16589",
                 "label_korean": "제조 일자",
                 "group_id": "84790",
                 "req_frame_id": "254671",
@@ -170,7 +170,7 @@
             {
                 "position": 8,
                 "mnemonic": "ID_TRACABILITE_NUMERO_DE_SERIE_PIECE",
-                "label_index": "7592",
+                "label_index": "@P7592",
                 "label_korean": "부품 일련 번호",
                 "group_id": "84791",
                 "req_frame_id": "254674",
@@ -200,7 +200,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_TENSION_PULSEUR_AIR_HABITACLE",
-                "label_index": "1298",
+                "label_index": "@P1298",
                 "label_korean": "실내 에어 블로어 공급 전압",
                 "group_id": "84792",
                 "req_frame_id": "254677",
@@ -216,13 +216,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "1305",
+                "help_code": "@P1305",
                 "help_korean": "프론트 블로어 모터의 단자에서 전압 값"
             },
             {
                 "position": 2,
                 "mnemonic": "MP_CONSIGNE_VENTILATION",
-                "label_index": "13395",
+                "label_index": "@P13395",
                 "label_korean": "환기 기준 값",
                 "group_id": "84794",
                 "req_frame_id": "254683",
@@ -253,7 +253,7 @@
         ]
     },
     "MESUREPARAMETRE2A": {
-        "screen_title_korean": "액츄에이터상태",
+        "screen_title_korean": "액츄에이터 상태",
         "screen_label_index": "@P4101-POLUXDATA@\\*",
         "ecu_name": "TDC_CH_MUX_A9_V1",
         "total_sensors": 1,
@@ -261,7 +261,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_MOTEUR_ENTREE_AIR_RECY",
-                "label_index": "1631",
+                "label_index": "@P1631",
                 "label_korean": "흡기 및 재순환 모터의 위치",
                 "group_id": "84795",
                 "req_frame_id": "254686",
@@ -277,13 +277,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "17557",
+                "help_code": "@P17557",
                 "help_korean": "실내 공기 재순환 모터의 위치"
             }
         ]
     },
     "MESUREPARAMETRE3A": {
-        "screen_title_korean": "ECU설정",
+        "screen_title_korean": "ECU 설정",
         "screen_label_index": "@P12641-POLUXDATA@\\*",
         "ecu_name": "TDC_CH_MUX_A9_V1",
         "total_sensors": 7,
@@ -291,7 +291,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_ETAT_SONDE_EVAPO_AVT",
-                "label_index": "1674",
+                "label_index": "@P1674",
                 "label_korean": "프론트 증발기 센서의 상태",
                 "group_id": "84796",
                 "req_frame_id": "254689",
@@ -307,13 +307,13 @@
                 "bit_mask": 128,
                 "bit_shift": 7,
                 "dynamic_arg": "",
-                "help_code": "17542",
+                "help_code": "@P17542",
                 "help_korean": "에어컨의 재질 설정을 나타낸다"
             },
             {
                 "position": 2,
                 "mnemonic": "MP_ETAT_SONDE_ENSO_1",
-                "label_index": "1621",
+                "label_index": "@P1621",
                 "label_korean": "일광 센서의 상태",
                 "group_id": "84796",
                 "req_frame_id": "254689",
@@ -329,13 +329,13 @@
                 "bit_mask": 2,
                 "bit_shift": 1,
                 "dynamic_arg": "",
-                "help_code": "17542",
+                "help_code": "@P17542",
                 "help_korean": "에어컨의 재질 설정을 나타낸다"
             },
             {
                 "position": 3,
                 "mnemonic": "MP_ETAT_PULSEUR_AIR_HABITACLE",
-                "label_index": "1427",
+                "label_index": "@P1427",
                 "label_korean": "실내 에어 블로어의 상태",
                 "group_id": "84796",
                 "req_frame_id": "254689",
@@ -355,13 +355,13 @@
                 "bit_mask": 128,
                 "bit_shift": 7,
                 "dynamic_arg": "",
-                "help_code": "17542",
+                "help_code": "@P17542",
                 "help_korean": "에어컨의 재질 설정을 나타낸다"
             },
             {
                 "position": 4,
                 "mnemonic": "MP_ETAT_MOTEUR_ENTREEE_DAIR",
-                "label_index": "31500",
+                "label_index": "@P31500",
                 "label_korean": "흡기 플랩 감속 모터의 상태",
                 "group_id": "84796",
                 "req_frame_id": "254689",
@@ -377,13 +377,13 @@
                 "bit_mask": 16,
                 "bit_shift": 4,
                 "dynamic_arg": "",
-                "help_code": "17542",
+                "help_code": "@P17542",
                 "help_korean": "에어컨의 재질 설정을 나타낸다"
             },
             {
                 "position": 5,
                 "mnemonic": "MP_ETAT_MOTEUR_MIXAGE_AVG",
-                "label_index": "31497",
+                "label_index": "@P31497",
                 "label_korean": "프론트 좌측 믹싱 플랩 감속 모터의 상태",
                 "group_id": "84796",
                 "req_frame_id": "254689",
@@ -399,13 +399,13 @@
                 "bit_mask": 8,
                 "bit_shift": 3,
                 "dynamic_arg": "",
-                "help_code": "17542",
+                "help_code": "@P17542",
                 "help_korean": "에어컨의 재질 설정을 나타낸다"
             },
             {
                 "position": 6,
                 "mnemonic": "MP_ETAT_MOTEUR_MIXAGE_AVD",
-                "label_index": "31498",
+                "label_index": "@P31498",
                 "label_korean": "프론트 우측 믹싱 플랩 감속 모터의 상태",
                 "group_id": "84796",
                 "req_frame_id": "254689",
@@ -421,13 +421,13 @@
                 "bit_mask": 4,
                 "bit_shift": 2,
                 "dynamic_arg": "",
-                "help_code": "17542",
+                "help_code": "@P17542",
                 "help_korean": "에어컨의 재질 설정을 나타낸다"
             },
             {
                 "position": 7,
                 "mnemonic": "MP_ETAT_MOTEUR_DISTRIBUTION",
-                "label_index": "31499",
+                "label_index": "@P31499",
                 "label_korean": "분배 플랩 감속 모터의 상태",
                 "group_id": "84796",
                 "req_frame_id": "254689",
@@ -443,7 +443,7 @@
                 "bit_mask": 2,
                 "bit_shift": 1,
                 "dynamic_arg": "",
-                "help_code": "17542",
+                "help_code": "@P17542",
                 "help_korean": "에어컨의 재질 설정을 나타낸다"
             }
         ]
@@ -457,7 +457,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_DEMANDE_DE_RECYCLAGE",
-                "label_index": "5471",
+                "label_index": "@P5471",
                 "label_korean": "재순환 요청",
                 "group_id": "84793",
                 "req_frame_id": "254680",
@@ -482,7 +482,7 @@
             {
                 "position": 2,
                 "mnemonic": "MP_DEMANDE_DEGIVRAGE_LUNETTE_ARRIERE_RETRO_7",
-                "label_index": "6746",
+                "label_index": "@P6746",
                 "label_korean": "리어 스크린 및 도어 미러 성에 제거 요청",
                 "group_id": "84793",
                 "req_frame_id": "254680",

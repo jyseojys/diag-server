@@ -8,8 +8,8 @@
             {
                 "position": 1,
                 "mnemonic": "STATPIL1",
-                "label_index": "3011",
-                "label_korean": "액츄에이터테스트",
+                "label_index": "@P3011@\\*",
+                "label_korean": "액츄에이터 테스트",
                 "group_id": "매핑_누락",
                 "req_frame_id": "",
                 "resp_frame_id": "",
@@ -47,7 +47,7 @@
             {
                 "position": 1,
                 "mnemonic": "ID_NOM_DU_FOURNISSEUR",
-                "label_index": "5701",
+                "label_index": "@P5701",
                 "label_korean": "제조 업체명",
                 "group_id": "105830",
                 "req_frame_id": "317836",
@@ -77,7 +77,7 @@
             {
                 "position": 2,
                 "mnemonic": "ID_REFERENCE_MATERIEL",
-                "label_index": "1071",
+                "label_index": "@P1071",
                 "label_korean": "장치 부품 번호",
                 "group_id": "105830",
                 "req_frame_id": "317836",
@@ -99,7 +99,7 @@
             {
                 "position": 3,
                 "mnemonic": "ID_REFERENCE_COMPLEMENTAIRE_MATERIEL",
-                "label_index": "1634",
+                "label_index": "@P1634",
                 "label_korean": "장치 추가 참조 번호",
                 "group_id": "105830",
                 "req_frame_id": "317836",
@@ -121,7 +121,7 @@
             {
                 "position": 4,
                 "mnemonic": "ID_ZI_FILE",
-                "label_index": "3627",
+                "label_index": "@P3627@\\*",
                 "label_korean": "캘리브레이션 파일 번호",
                 "group_id": "105829",
                 "req_frame_id": "317833",
@@ -143,7 +143,7 @@
             {
                 "position": 5,
                 "mnemonic": "ID_TRACABILITE_INDICE_EVOLUTION_EDITION",
-                "label_index": "24601",
+                "label_index": "@P24601",
                 "label_korean": "소프트웨어 버전",
                 "group_id": "105830",
                 "req_frame_id": "317836",
@@ -165,7 +165,7 @@
             {
                 "position": 6,
                 "mnemonic": "ID_TRACABILITE_INDICE_EVOLUTION_EDITION_CALIBRATION",
-                "label_index": "7413",
+                "label_index": "@P7413",
                 "label_korean": "캘리브레이션 에디션",
                 "group_id": "105829",
                 "req_frame_id": "317833",
@@ -187,7 +187,7 @@
             {
                 "position": 7,
                 "mnemonic": "ID_DATE_TELECH",
-                "label_index": "21670",
+                "label_index": "@P21670",
                 "label_korean": "다운로딩 날짜",
                 "group_id": "105829",
                 "req_frame_id": "317833",
@@ -209,7 +209,7 @@
             {
                 "position": 8,
                 "mnemonic": "ID_NOMBRE_DE_TELECHARGEMENT",
-                "label_index": "10072",
+                "label_index": "@P10072@\\*",
                 "label_korean": "다운로드의 수",
                 "group_id": "105829",
                 "req_frame_id": "317833",
@@ -231,7 +231,7 @@
             {
                 "position": 9,
                 "mnemonic": "ID_MESS_DIAGNOSTIC",
-                "label_index": "2459",
+                "label_index": "@P2459",
                 "label_korean": "진단 이메일",
                 "group_id": "105830",
                 "req_frame_id": "317836",
@@ -253,7 +253,7 @@
             {
                 "position": 10,
                 "mnemonic": "ID_80_MP_INDICE_MESS",
-                "label_index": "2225",
+                "label_index": "@P2225",
                 "label_korean": "메시지 인덱스",
                 "group_id": "105830",
                 "req_frame_id": "317836",
@@ -275,7 +275,7 @@
             {
                 "position": 11,
                 "mnemonic": "ID_TRACABILITE_DATE_FABRICATION",
-                "label_index": "14355",
+                "label_index": "@P14355",
                 "label_korean": "제조일자",
                 "group_id": "105831",
                 "req_frame_id": "317839",
@@ -297,7 +297,7 @@
             {
                 "position": 12,
                 "mnemonic": "ID_TRACABILITE_NUMERO_DE_SERIE_PIECE",
-                "label_index": "7592",
+                "label_index": "@P7592",
                 "label_korean": "부품 일련 번호",
                 "group_id": "105831",
                 "req_frame_id": "317839",
@@ -319,7 +319,7 @@
             {
                 "position": 13,
                 "mnemonic": "MP_VIN",
-                "label_index": "3241",
+                "label_index": "@P3241",
                 "label_korean": "차량의 일련번호 - 차대번호 코드",
                 "group_id": "105832",
                 "req_frame_id": "317842",
@@ -335,7 +335,7 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "11080",
+                "help_code": "@P11080@T.",
                 "help_korean": "오디오 시스템에 입력된 차대번호를 읽는다 (BSI에 입력된 차대번호와 반드시 동일해야 한다)."
             }
         ]
@@ -349,7 +349,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_TOUCHE_SOURCE",
-                "label_index": "8241",
+                "label_index": "@P8241",
                 "label_korean": "소스 버튼",
                 "group_id": "105833",
                 "req_frame_id": "317845",
@@ -368,13 +368,13 @@
                 "bit_mask": 255,
                 "bit_shift": 0,
                 "dynamic_arg": "",
-                "help_code": "",
+                "help_code": "@T",
                 "help_korean": ""
             },
             {
                 "position": 2,
                 "mnemonic": "MP_TOUCHE_EJECTION_DISQUE",
-                "label_index": "12045",
+                "label_index": "@P12045",
                 "label_korean": "디스크 추출 버튼",
                 "group_id": "105833",
                 "req_frame_id": "317845",
@@ -390,13 +390,13 @@
                 "bit_mask": 255,
                 "bit_shift": 0,
                 "dynamic_arg": "",
-                "help_code": "",
+                "help_code": "@T",
                 "help_korean": ""
             },
             {
                 "position": 3,
                 "mnemonic": "MP_TOUCHE_AUDIO",
-                "label_index": "6983",
+                "label_index": "@P6983",
                 "label_korean": "오디오 버튼",
                 "group_id": "105833",
                 "req_frame_id": "317845",
@@ -415,13 +415,13 @@
                 "bit_mask": 255,
                 "bit_shift": 0,
                 "dynamic_arg": "",
-                "help_code": "",
+                "help_code": "@T",
                 "help_korean": ""
             },
             {
                 "position": 4,
                 "mnemonic": "MP_TOUCHE_MENU_RT",
-                "label_index": "8036",
+                "label_index": "@P8036",
                 "label_korean": "메뉴 버튼",
                 "group_id": "105833",
                 "req_frame_id": "317845",
@@ -437,13 +437,13 @@
                 "bit_mask": 255,
                 "bit_shift": 0,
                 "dynamic_arg": "",
-                "help_code": "",
+                "help_code": "@T",
                 "help_korean": ""
             },
             {
                 "position": 5,
                 "mnemonic": "MP_TOUCHE_LISTE_1",
-                "label_index": "11746",
+                "label_index": "@P11746",
                 "label_korean": "리스트 버튼",
                 "group_id": "105833",
                 "req_frame_id": "317845",
@@ -462,13 +462,13 @@
                 "bit_mask": 255,
                 "bit_shift": 0,
                 "dynamic_arg": "",
-                "help_code": "",
+                "help_code": "@T",
                 "help_korean": ""
             },
             {
                 "position": 6,
                 "mnemonic": "MP_TOUCHE_ESCAPE",
-                "label_index": "4327",
+                "label_index": "@P4327",
                 "label_korean": "ESP 버튼",
                 "group_id": "105833",
                 "req_frame_id": "317845",
@@ -484,13 +484,13 @@
                 "bit_mask": 255,
                 "bit_shift": 0,
                 "dynamic_arg": "",
-                "help_code": "",
+                "help_code": "@T",
                 "help_korean": ""
             },
             {
                 "position": 7,
                 "mnemonic": "CH_UP",
-                "label_index": "9446",
+                "label_index": "@P9446",
                 "label_korean": "다음 검색 버튼",
                 "group_id": "105833",
                 "req_frame_id": "317845",
@@ -506,13 +506,13 @@
                 "bit_mask": 255,
                 "bit_shift": 0,
                 "dynamic_arg": "",
-                "help_code": "",
+                "help_code": "@T",
                 "help_korean": ""
             },
             {
                 "position": 8,
                 "mnemonic": "CH_DOWN",
-                "label_index": "9101",
+                "label_index": "@P9101",
                 "label_korean": "이전 검색 버튼",
                 "group_id": "105833",
                 "req_frame_id": "317845",
@@ -528,13 +528,13 @@
                 "bit_mask": 255,
                 "bit_shift": 0,
                 "dynamic_arg": "",
-                "help_code": "",
+                "help_code": "@T",
                 "help_korean": ""
             },
             {
                 "position": 9,
                 "mnemonic": "MP_TOUCHE_FLECHE_VERS_LE_HAUT",
-                "label_index": "7455",
+                "label_index": "@P7455",
                 "label_korean": "위 화살표 버튼",
                 "group_id": "105833",
                 "req_frame_id": "317845",
@@ -553,13 +553,13 @@
                 "bit_mask": 255,
                 "bit_shift": 0,
                 "dynamic_arg": "",
-                "help_code": "",
+                "help_code": "@T",
                 "help_korean": ""
             },
             {
                 "position": 10,
                 "mnemonic": "MP_TOUCHE_FLECHE_VERS_LE_BAS",
-                "label_index": "1878",
+                "label_index": "@P1878",
                 "label_korean": "아래 화살표 버튼",
                 "group_id": "105833",
                 "req_frame_id": "317845",
@@ -578,13 +578,13 @@
                 "bit_mask": 255,
                 "bit_shift": 0,
                 "dynamic_arg": "",
-                "help_code": "",
+                "help_code": "@T",
                 "help_korean": ""
             },
             {
                 "position": 11,
                 "mnemonic": "MP_TOUCHE_01",
-                "label_index": "6398",
+                "label_index": "@P6398@\\*1",
                 "label_korean": "버튼1",
                 "group_id": "105833",
                 "req_frame_id": "317845",
@@ -603,13 +603,13 @@
                 "bit_mask": 255,
                 "bit_shift": 0,
                 "dynamic_arg": "1",
-                "help_code": "",
+                "help_code": "@T",
                 "help_korean": ""
             },
             {
                 "position": 12,
                 "mnemonic": "MP_TOUCHE_02",
-                "label_index": "6398",
+                "label_index": "@P6398@\\*2",
                 "label_korean": "버튼2",
                 "group_id": "105833",
                 "req_frame_id": "317845",
@@ -628,13 +628,13 @@
                 "bit_mask": 255,
                 "bit_shift": 0,
                 "dynamic_arg": "2",
-                "help_code": "",
+                "help_code": "@T",
                 "help_korean": ""
             },
             {
                 "position": 13,
                 "mnemonic": "MP_TOUCHE_03",
-                "label_index": "6398",
+                "label_index": "@P6398@\\*3",
                 "label_korean": "버튼3",
                 "group_id": "105833",
                 "req_frame_id": "317845",
@@ -653,13 +653,13 @@
                 "bit_mask": 255,
                 "bit_shift": 0,
                 "dynamic_arg": "3",
-                "help_code": "",
+                "help_code": "@T",
                 "help_korean": ""
             },
             {
                 "position": 14,
                 "mnemonic": "MP_TOUCHE_04",
-                "label_index": "6398",
+                "label_index": "@P6398@\\*4",
                 "label_korean": "버튼4",
                 "group_id": "105833",
                 "req_frame_id": "317845",
@@ -678,13 +678,13 @@
                 "bit_mask": 255,
                 "bit_shift": 0,
                 "dynamic_arg": "4",
-                "help_code": "",
+                "help_code": "@T",
                 "help_korean": ""
             },
             {
                 "position": 15,
                 "mnemonic": "MP_TOUCHE_05",
-                "label_index": "6398",
+                "label_index": "@P6398@\\*5",
                 "label_korean": "버튼5",
                 "group_id": "105833",
                 "req_frame_id": "317845",
@@ -703,13 +703,13 @@
                 "bit_mask": 255,
                 "bit_shift": 0,
                 "dynamic_arg": "5",
-                "help_code": "",
+                "help_code": "@T",
                 "help_korean": ""
             },
             {
                 "position": 16,
                 "mnemonic": "MP_TOUCHE_06",
-                "label_index": "6398",
+                "label_index": "@P6398@\\*6",
                 "label_korean": "버튼6",
                 "group_id": "105833",
                 "req_frame_id": "317845",
@@ -728,13 +728,13 @@
                 "bit_mask": 255,
                 "bit_shift": 0,
                 "dynamic_arg": "6",
-                "help_code": "",
+                "help_code": "@T",
                 "help_korean": ""
             },
             {
                 "position": 17,
                 "mnemonic": "MP_TOUCHE_ON_OFF",
-                "label_index": "7046",
+                "label_index": "@P7046",
                 "label_korean": "ON/OFF 버튼",
                 "group_id": "105833",
                 "req_frame_id": "317845",
@@ -753,13 +753,13 @@
                 "bit_mask": 255,
                 "bit_shift": 0,
                 "dynamic_arg": "",
-                "help_code": "",
+                "help_code": "@T",
                 "help_korean": ""
             },
             {
                 "position": 18,
                 "mnemonic": "MP_TOUCHE_TA_MUTE",
-                "label_index": "18564",
+                "label_index": "@P18564@\\*TA / MUTE",
                 "label_korean": "버튼TA / MUTE",
                 "group_id": "105833",
                 "req_frame_id": "317845",
@@ -775,13 +775,13 @@
                 "bit_mask": 255,
                 "bit_shift": 0,
                 "dynamic_arg": "TA",
-                "help_code": "",
+                "help_code": "@T",
                 "help_korean": ""
             },
             {
                 "position": 19,
                 "mnemonic": "MP_TOUCHE_DARK_MUTE",
-                "label_index": "18564",
+                "label_index": "@P18564@\\*DARK / MUTE",
                 "label_korean": "버튼DARK / MUTE",
                 "group_id": "105833",
                 "req_frame_id": "317845",
@@ -800,13 +800,13 @@
                 "bit_mask": 255,
                 "bit_shift": 0,
                 "dynamic_arg": "DARK",
-                "help_code": "",
+                "help_code": "@T",
                 "help_korean": ""
             },
             {
                 "position": 20,
                 "mnemonic": "MP_TOUCHE_MODE",
-                "label_index": "12533",
+                "label_index": "@P12533",
                 "label_korean": "모드 버튼",
                 "group_id": "105833",
                 "req_frame_id": "317845",
@@ -822,13 +822,13 @@
                 "bit_mask": 255,
                 "bit_shift": 0,
                 "dynamic_arg": "",
-                "help_code": "",
+                "help_code": "@T",
                 "help_korean": ""
             },
             {
                 "position": 21,
                 "mnemonic": "MP_TOUCHE_OK",
-                "label_index": "18564",
+                "label_index": "@P18564@\\*OK",
                 "label_korean": "버튼OK",
                 "group_id": "105833",
                 "req_frame_id": "317845",
@@ -847,13 +847,13 @@
                 "bit_mask": 255,
                 "bit_shift": 0,
                 "dynamic_arg": "OK",
-                "help_code": "",
+                "help_code": "@T",
                 "help_korean": ""
             },
             {
                 "position": 22,
                 "mnemonic": "MP_TOUCHE_BND_AST",
-                "label_index": "9092",
+                "label_index": "@P9092",
                 "label_korean": "밴드 버튼",
                 "group_id": "105833",
                 "req_frame_id": "317845",
@@ -869,7 +869,7 @@
                 "bit_mask": 255,
                 "bit_shift": 0,
                 "dynamic_arg": "",
-                "help_code": "",
+                "help_code": "@T",
                 "help_korean": ""
             }
         ]
@@ -883,7 +883,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_TEMPS_UTILISATION_FM",
-                "label_index": "16873",
+                "label_index": "@P16873",
                 "label_korean": "FM 튜너의 사용 시간",
                 "group_id": "105845",
                 "req_frame_id": "317881",
@@ -899,13 +899,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "",
+                "help_code": "@T",
                 "help_korean": ""
             },
             {
                 "position": 2,
                 "mnemonic": "MP_TEMPS_UTILISATION_AM",
-                "label_index": "16888",
+                "label_index": "@P16888",
                 "label_korean": "AM 튜너의 사용 시간",
                 "group_id": "105845",
                 "req_frame_id": "317881",
@@ -921,13 +921,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "",
+                "help_code": "@T",
                 "help_korean": ""
             },
             {
                 "position": 3,
                 "mnemonic": "MP_TEMPS_UTILISATION_CD",
-                "label_index": "16886",
+                "label_index": "@P16886",
                 "label_korean": "CD 플레이어 사용 시간",
                 "group_id": "105845",
                 "req_frame_id": "317881",
@@ -943,13 +943,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "",
+                "help_code": "@T",
                 "help_korean": ""
             },
             {
                 "position": 4,
                 "mnemonic": "MP_TEMPS_UTILISATION_USB",
-                "label_index": "16918",
+                "label_index": "@P16918",
                 "label_korean": "USB 사용 시간",
                 "group_id": "105845",
                 "req_frame_id": "317881",
@@ -965,13 +965,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "",
+                "help_code": "@T",
                 "help_korean": ""
             },
             {
                 "position": 5,
                 "mnemonic": "MP_TEMPS_UTILISATION_IPOD",
-                "label_index": "16898",
+                "label_index": "@P16898",
                 "label_korean": "IPOD 사용 시간",
                 "group_id": "105845",
                 "req_frame_id": "317881",
@@ -987,13 +987,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "",
+                "help_code": "@T",
                 "help_korean": ""
             },
             {
                 "position": 6,
                 "mnemonic": "MP_TEMPS_UTILISATION_AUXILIAIRE",
-                "label_index": "16935",
+                "label_index": "@P16935",
                 "label_korean": "외부 소스의 사용 시간",
                 "group_id": "105845",
                 "req_frame_id": "317881",
@@ -1009,13 +1009,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "",
+                "help_code": "@T",
                 "help_korean": ""
             },
             {
                 "position": 7,
                 "mnemonic": "MP_TEMPS_UTILISATION_STREAMING",
-                "label_index": "16885",
+                "label_index": "@P16885",
                 "label_korean": "스트리밍 소스의 사용 시간",
                 "group_id": "105845",
                 "req_frame_id": "317881",
@@ -1031,7 +1031,7 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "",
+                "help_code": "@T",
                 "help_korean": ""
             }
         ]
@@ -1045,7 +1045,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_TEMPS_UTILISATION_FM",
-                "label_index": "16873",
+                "label_index": "@P16873",
                 "label_korean": "FM 튜너의 사용 시간",
                 "group_id": "105845",
                 "req_frame_id": "317881",
@@ -1061,13 +1061,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "",
+                "help_code": "@T",
                 "help_korean": ""
             },
             {
                 "position": 2,
                 "mnemonic": "MP_TEMPS_UTILISATION_AM",
-                "label_index": "16888",
+                "label_index": "@P16888",
                 "label_korean": "AM 튜너의 사용 시간",
                 "group_id": "105845",
                 "req_frame_id": "317881",
@@ -1083,13 +1083,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "",
+                "help_code": "@T",
                 "help_korean": ""
             },
             {
                 "position": 3,
                 "mnemonic": "MP_TEMPS_UTILISATION_CD",
-                "label_index": "16886",
+                "label_index": "@P16886",
                 "label_korean": "CD 플레이어 사용 시간",
                 "group_id": "105845",
                 "req_frame_id": "317881",
@@ -1105,13 +1105,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "",
+                "help_code": "@T",
                 "help_korean": ""
             },
             {
                 "position": 4,
                 "mnemonic": "MP_TEMPS_UTILISATION_AUXILIAIRE",
-                "label_index": "16935",
+                "label_index": "@P16935",
                 "label_korean": "외부 소스의 사용 시간",
                 "group_id": "105845",
                 "req_frame_id": "317881",
@@ -1127,7 +1127,7 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "",
+                "help_code": "@T",
                 "help_korean": ""
             }
         ]
@@ -1141,7 +1141,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_VIN",
-                "label_index": "3241",
+                "label_index": "@P3241",
                 "label_korean": "차량의 일련번호 - 차대번호 코드",
                 "group_id": "105832",
                 "req_frame_id": "317842",
@@ -1157,7 +1157,7 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "11080",
+                "help_code": "@P11080@T.",
                 "help_korean": "오디오 시스템에 입력된 차대번호를 읽는다 (BSI에 입력된 차대번호와 반드시 동일해야 한다)."
             }
         ]

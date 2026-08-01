@@ -8,7 +8,7 @@
             {
                 "position": 1,
                 "mnemonic": "ID_NOM_DU_FOURNISSEUR",
-                "label_index": "5701",
+                "label_index": "@P5701",
                 "label_korean": "제조 업체명",
                 "group_id": "121097",
                 "req_frame_id": "363636",
@@ -38,7 +38,7 @@
             {
                 "position": 2,
                 "mnemonic": "ID_REFERENCE_MATERIEL",
-                "label_index": "1071",
+                "label_index": "@P1071",
                 "label_korean": "장치 부품 번호",
                 "group_id": "121098",
                 "req_frame_id": "363639",
@@ -60,7 +60,7 @@
             {
                 "position": 3,
                 "mnemonic": "ID_REFERENCE_COMPLEMENTAIRE_MATERIEL",
-                "label_index": "1634",
+                "label_index": "@P1634",
                 "label_korean": "장치 추가 참조 번호",
                 "group_id": "121100",
                 "req_frame_id": "363645",
@@ -82,7 +82,7 @@
             {
                 "position": 4,
                 "mnemonic": "ID_TRACABILITE_INDICE_EVOLUTION_EDITION",
-                "label_index": "13235",
+                "label_index": "@P13235@\\*",
                 "label_korean": "소프트웨어 버전",
                 "group_id": "121101",
                 "req_frame_id": "363648",
@@ -112,7 +112,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_TENSION_BATTERIE",
-                "label_index": "18263",
+                "label_index": "@P18263",
                 "label_korean": "배터리 전압",
                 "group_id": "121104",
                 "req_frame_id": "363657",
@@ -130,13 +130,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "44351, 44352",
+                "help_code": "@P44351@T. @P44352@T.",
                 "help_korean": "이 변수는 배터리 충전 상태 ECU에 의해 측정된 배터리 단자에서의 전압을 나타낸다. 이 전압은 배터리 충전 상태 ECU에 내장된 전압 센서를 사용해서 측정된다."
             },
             {
                 "position": 2,
                 "mnemonic": "MP_COURANT_BATTERIE",
-                "label_index": "11033",
+                "label_index": "@P11033",
                 "label_korean": "배터리 전류",
                 "group_id": "121104",
                 "req_frame_id": "363657",
@@ -152,13 +152,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "44353, 44354",
+                "help_code": "@P44353@T. @P44354@T.",
                 "help_korean": "이 변수는 배터리 충전 상태 ECU에 의해 측정된 배터리를 순환하는 전류의 암페어를 나타낸다. 이 변수는 배터리 충전 상태 ECU에 내장된 전류 센서를 사용해서 측정된다."
             },
             {
                 "position": 3,
                 "mnemonic": "MP_TEMPERATURE_BATTERIE_DE_DEMARRAGE",
-                "label_index": "2477",
+                "label_index": "@P2477",
                 "label_korean": "배터리 온도 센서",
                 "group_id": "121105",
                 "req_frame_id": "363660",
@@ -174,13 +174,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "44295, 44355",
+                "help_code": "@P44295@T. @P44355@T.",
                 "help_korean": "이 변수는 배터리 충전 상태 ECU에 의해 측정된 배터리의 온도를 나타낸다. 이 온도는 배터리 충전 상태 ECU에 내장된 온도 센서를 사용해서 측정된다."
             },
             {
                 "position": 4,
                 "mnemonic": "MP_ETAT_DE_CHARGE_BATTERIE_DE_DEMARRAGE",
-                "label_index": "20061",
+                "label_index": "@P20061",
                 "label_korean": "배터리 충전 상태",
                 "group_id": "121105",
                 "req_frame_id": "363660",
@@ -196,13 +196,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "19534, 19455, 19525, 40624",
+                "help_code": "@P19534@T.@\\n@F19455@T.@\\n@F19525@T.@\\n@P40624@\\*76",
                 "help_korean": "이 변수는 배터리 충전 상태 ECU에 의해 추정된 배터리 충전 상태를 나타낸다.\n이 값은 배터리 충전 상태 ECU의 센서에 의해 감지된 정보에 따라 1초에 한번씩 다시 계산된다 (전압, 전류, 온도).\n배터리 충전 상태에 관한 정보는 대기 및 시동 단계를 제외하고 모든 전기 시스템에서 이용할 수 있다.\n스탑 & 스타트 기능이 있을 경우, 변수 값이 76% 이상일 경우 시스템이 작동한다"
             },
             {
                 "position": 5,
                 "mnemonic": "MP_PRECISION_VALEUR_ETAT_DE_CHARGE_BATTERIE_DE_DEMARRAGE",
-                "label_index": "40777",
+                "label_index": "@P40777@T.",
                 "label_korean": "배터리 충전 상태 값의 정확성.",
                 "group_id": "121105",
                 "req_frame_id": "363660",
@@ -223,13 +223,13 @@
                 "bit_mask": 192,
                 "bit_shift": 6,
                 "dynamic_arg": "",
-                "help_code": "32760, 17057",
+                "help_code": "@P32760@T.@\\n@P17057@\\*10@\\*2@\\*5@\\*240@T.",
                 "help_korean": "이 변수는 \"배터리 충전 상태\" 변수의 정확도 상태에 관한 정보를 제공한다.\n배터리를 분리하고 다시 연결한 후에, ECU는 2분 미만으로 ±10% 미만의 저하된 정확성을 가진 배터리 충전 상태 값을 제공하고 240분 미만 동안 ±5% 미만의 일반적인 정확성을 제공한다."
             },
             {
                 "position": 6,
                 "mnemonic": "MP_TYPE_DE_BATTERIE",
-                "label_index": "30778",
+                "label_index": "@P30778",
                 "label_korean": "연결된 배터리 타입",
                 "group_id": "121106",
                 "req_frame_id": "363663",
@@ -257,13 +257,13 @@
                 "bit_mask": 31,
                 "bit_shift": 0,
                 "dynamic_arg": "",
-                "help_code": "43065, 18427",
+                "help_code": "@F43065@T.@\\n@\\n@\\n@P18427@\\*10",
                 "help_korean": "설정된 배터리 타입이 차량에 장착된 배터리 타입과 일치하지 않으면, BSI 대기 모드를 작동시키는 배터리 충전 상태를 계산할 때 문제가 발생한다.\n차량에 따라, 설정할 수 있는 10타입의 배터리가 있다"
             },
             {
                 "position": 7,
                 "mnemonic": "MP_TYPE_DE_TECHNO_BATTERIE",
-                "label_index": "17031",
+                "label_index": "@P17031",
                 "label_korean": "배터리 테크놀러지 타입",
                 "group_id": "121106",
                 "req_frame_id": "363663",
@@ -303,7 +303,7 @@
             {
                 "position": 8,
                 "mnemonic": "MP_NOM_FOURNISSEUR_BATTERIE",
-                "label_index": "17149",
+                "label_index": "@P17149",
                 "label_korean": "배터리 제조업체 명",
                 "group_id": "121106",
                 "req_frame_id": "363663",
@@ -327,7 +327,7 @@
             {
                 "position": 9,
                 "mnemonic": "MP_CALIB_SEUIL_REVEIL_BECB_CORRELATION_INFORMATION_PRE_DEMARRAGE",
-                "label_index": "41499",
+                "label_index": "@P41499",
                 "label_korean": "사전-시동 정보와 관련해서 배터리 충전 상태 ECU (BECB)를 위한 웨이크-업 한계치의 캘리브레이션",
                 "group_id": "121106",
                 "req_frame_id": "363663",
@@ -352,7 +352,7 @@
             {
                 "position": 10,
                 "mnemonic": "MP_TYPE_DE_MOTEUR",
-                "label_index": "6741",
+                "label_index": "@P6741",
                 "label_korean": "엔진 타입",
                 "group_id": "121106",
                 "req_frame_id": "363663",
@@ -400,7 +400,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_TENSION_BATTERIE",
-                "label_index": "18263",
+                "label_index": "@P18263",
                 "label_korean": "배터리 전압",
                 "group_id": "121104",
                 "req_frame_id": "363657",
@@ -418,13 +418,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "44351, 44352",
+                "help_code": "@P44351@T. @P44352@T.",
                 "help_korean": "이 변수는 배터리 충전 상태 ECU에 의해 측정된 배터리 단자에서의 전압을 나타낸다. 이 전압은 배터리 충전 상태 ECU에 내장된 전압 센서를 사용해서 측정된다."
             },
             {
                 "position": 2,
                 "mnemonic": "MP_COURANT_BATTERIE",
-                "label_index": "11033",
+                "label_index": "@P11033",
                 "label_korean": "배터리 전류",
                 "group_id": "121104",
                 "req_frame_id": "363657",
@@ -440,13 +440,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "44353, 44354",
+                "help_code": "@P44353@T. @P44354@T.",
                 "help_korean": "이 변수는 배터리 충전 상태 ECU에 의해 측정된 배터리를 순환하는 전류의 암페어를 나타낸다. 이 변수는 배터리 충전 상태 ECU에 내장된 전류 센서를 사용해서 측정된다."
             },
             {
                 "position": 3,
                 "mnemonic": "MP_TEMPERATURE_BATTERIE_DE_DEMARRAGE",
-                "label_index": "2477",
+                "label_index": "@P2477",
                 "label_korean": "배터리 온도 센서",
                 "group_id": "121105",
                 "req_frame_id": "363660",
@@ -462,13 +462,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "44295, 44355",
+                "help_code": "@P44295@T. @P44355@T.",
                 "help_korean": "이 변수는 배터리 충전 상태 ECU에 의해 측정된 배터리의 온도를 나타낸다. 이 온도는 배터리 충전 상태 ECU에 내장된 온도 센서를 사용해서 측정된다."
             },
             {
                 "position": 4,
                 "mnemonic": "MP_ETAT_DE_CHARGE_BATTERIE_DE_DEMARRAGE",
-                "label_index": "20061",
+                "label_index": "@P20061",
                 "label_korean": "배터리 충전 상태",
                 "group_id": "121105",
                 "req_frame_id": "363660",
@@ -484,13 +484,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "19534, 19455, 19525, 40624",
+                "help_code": "@P19534@T.@\\n@F19455@T.@\\n@F19525@T.@\\n@P40624@\\*76",
                 "help_korean": "이 변수는 배터리 충전 상태 ECU에 의해 추정된 배터리 충전 상태를 나타낸다.\n이 값은 배터리 충전 상태 ECU의 센서에 의해 감지된 정보에 따라 1초에 한번씩 다시 계산된다 (전압, 전류, 온도).\n배터리 충전 상태에 관한 정보는 대기 및 시동 단계를 제외하고 모든 전기 시스템에서 이용할 수 있다.\n스탑 & 스타트 기능이 있을 경우, 변수 값이 76% 이상일 경우 시스템이 작동한다"
             },
             {
                 "position": 5,
                 "mnemonic": "MP_PRECISION_VALEUR_ETAT_DE_CHARGE_BATTERIE_DE_DEMARRAGE",
-                "label_index": "40777",
+                "label_index": "@P40777@T.",
                 "label_korean": "배터리 충전 상태 값의 정확성.",
                 "group_id": "121105",
                 "req_frame_id": "363660",
@@ -511,13 +511,13 @@
                 "bit_mask": 192,
                 "bit_shift": 6,
                 "dynamic_arg": "",
-                "help_code": "32760, 17057",
+                "help_code": "@P32760@T.@\\n@P17057@\\*10@\\*2@\\*5@\\*240@T.",
                 "help_korean": "이 변수는 \"배터리 충전 상태\" 변수의 정확도 상태에 관한 정보를 제공한다.\n배터리를 분리하고 다시 연결한 후에, ECU는 2분 미만으로 ±10% 미만의 저하된 정확성을 가진 배터리 충전 상태 값을 제공하고 240분 미만 동안 ±5% 미만의 일반적인 정확성을 제공한다."
             },
             {
                 "position": 6,
                 "mnemonic": "MP_TYPE_DE_BATTERIE",
-                "label_index": "30778",
+                "label_index": "@P30778",
                 "label_korean": "연결된 배터리 타입",
                 "group_id": "121106",
                 "req_frame_id": "363663",
@@ -545,13 +545,13 @@
                 "bit_mask": 31,
                 "bit_shift": 0,
                 "dynamic_arg": "",
-                "help_code": "43065, 18427",
+                "help_code": "@F43065@T.@\\n@\\n@\\n@P18427@\\*10",
                 "help_korean": "설정된 배터리 타입이 차량에 장착된 배터리 타입과 일치하지 않으면, BSI 대기 모드를 작동시키는 배터리 충전 상태를 계산할 때 문제가 발생한다.\n차량에 따라, 설정할 수 있는 10타입의 배터리가 있다"
             },
             {
                 "position": 7,
                 "mnemonic": "MP_TYPE_DE_TECHNO_BATTERIE",
-                "label_index": "17031",
+                "label_index": "@P17031",
                 "label_korean": "배터리 테크놀러지 타입",
                 "group_id": "121106",
                 "req_frame_id": "363663",
@@ -591,7 +591,7 @@
             {
                 "position": 8,
                 "mnemonic": "MP_NOM_FOURNISSEUR_BATTERIE",
-                "label_index": "17149",
+                "label_index": "@P17149",
                 "label_korean": "배터리 제조업체 명",
                 "group_id": "121106",
                 "req_frame_id": "363663",
@@ -615,7 +615,7 @@
             {
                 "position": 9,
                 "mnemonic": "MP_CALIB_SEUIL_REVEIL_BECB_CORRELATION_INFORMATION_PRE_DEMARRAGE",
-                "label_index": "41499",
+                "label_index": "@P41499",
                 "label_korean": "사전-시동 정보와 관련해서 배터리 충전 상태 ECU (BECB)를 위한 웨이크-업 한계치의 캘리브레이션",
                 "group_id": "121106",
                 "req_frame_id": "363663",
@@ -640,7 +640,7 @@
             {
                 "position": 10,
                 "mnemonic": "MP_TYPE_DE_MOTEUR",
-                "label_index": "6741",
+                "label_index": "@P6741",
                 "label_korean": "엔진 타입",
                 "group_id": "121106",
                 "req_frame_id": "363663",
@@ -680,7 +680,7 @@
             {
                 "position": 11,
                 "mnemonic": "MP_COURANT_VEILLE_MINIMUM",
-                "label_index": "32419",
+                "label_index": "@P32419",
                 "label_korean": "최소 대기 전류",
                 "group_id": "121107",
                 "req_frame_id": "363666",
@@ -696,13 +696,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "31517, 31518",
+                "help_code": "@P31517@\\n@P31518",
                 "help_korean": "이 변수는 방전시 배터리의 대기 전류를 점검한다\n대기 중 배터리 전류가 상승했다가 감소할 경우, 가장 낮은 전류가 전달된다"
             },
             {
                 "position": 12,
                 "mnemonic": "MP_COMPTEUR_CHARGE_DECHARGE_BATTERIE_SERVITUDE",
-                "label_index": "31519",
+                "label_index": "@P31519",
                 "label_korean": "배터리 충전 및 방전 카운터",
                 "group_id": "121107",
                 "req_frame_id": "363666",
@@ -718,7 +718,7 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "31520",
+                "help_code": "@P31520",
                 "help_korean": "이 변수는 배터리의 모든 작동 과정에서 시간 당 충전과 방전된 암페어를 계산한다"
             }
         ]

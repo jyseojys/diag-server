@@ -8,7 +8,7 @@
             {
                 "position": 1,
                 "mnemonic": "ID_REFERENCE_FOURNISSEUR",
-                "label_index": "633",
+                "label_index": "@P633",
                 "label_korean": "제조업체",
                 "group_id": "123945",
                 "req_frame_id": "372177",
@@ -34,7 +34,7 @@
             {
                 "position": 2,
                 "mnemonic": "ID_REFERENCE_PSA",
-                "label_index": "8615",
+                "label_index": "@P8615",
                 "label_korean": "PSA 부품 번호",
                 "group_id": "123945",
                 "req_frame_id": "372177",
@@ -56,7 +56,7 @@
             {
                 "position": 3,
                 "mnemonic": "ID_NUM_COMP_new_2",
-                "label_index": "5292",
+                "label_index": "@P5292",
                 "label_korean": "추가 번호",
                 "group_id": "123945",
                 "req_frame_id": "372177",
@@ -78,7 +78,7 @@
             {
                 "position": 4,
                 "mnemonic": "ID_VERSION_SOFT_D1",
-                "label_index": "2358",
+                "label_index": "@P2358",
                 "label_korean": "소프트웨어 버전",
                 "group_id": "123945",
                 "req_frame_id": "372177",
@@ -100,7 +100,7 @@
             {
                 "position": 5,
                 "mnemonic": "ID_REF_CALIBRATION_new_1",
-                "label_index": "7014",
+                "label_index": "@P7014",
                 "label_korean": "캘리브레이션 버전",
                 "group_id": "123945",
                 "req_frame_id": "372177",
@@ -122,7 +122,7 @@
             {
                 "position": 6,
                 "mnemonic": "ID_80_MP_INDICE_MESS",
-                "label_index": "2225",
+                "label_index": "@P2225",
                 "label_korean": "메시지 인덱스",
                 "group_id": "123945",
                 "req_frame_id": "372177",
@@ -152,7 +152,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_TENSION_ALIMENTATION",
-                "label_index": "7080",
+                "label_index": "@P7080",
                 "label_korean": "공급 전압",
                 "group_id": "123947",
                 "req_frame_id": "372183",
@@ -168,13 +168,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "24835, 24873, 24855",
+                "help_code": "@P24835@T.@\\n@P24873@\\*9.3@T.@\\n@P24855@\\*16@T.",
                 "help_korean": "ESP ECU 공급되는 전압.\n전압이 9V 미만이면, 낮은 전압 결함이 존재한다.3.\n전압이 9V이상이면, 과도한 전압 결함이 존재한다."
             },
             {
                 "position": 2,
                 "mnemonic": "MP_VITESSE_ROUE_ARRIERE_GAUCHE",
-                "label_index": "3744",
+                "label_index": "@P3744",
                 "label_korean": "리어 좌측 휠 속도",
                 "group_id": "123947",
                 "req_frame_id": "372183",
@@ -192,13 +192,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "24803, 26004",
+                "help_code": "@P24803@T.@\\n@P26004@\\*0xFFFF.",
                 "help_korean": "이 정보는 타이어 직경 및 센서에 의해 리턴되는 정보로 부터 계산된다.\nESP가 설정되지 않으면, 진단기에 표시되는 값은 0xFFFF에 해당한다."
             },
             {
                 "position": 3,
                 "mnemonic": "MP_VITESSE_ROUE_ARRIERE_DROITE",
-                "label_index": "11915",
+                "label_index": "@P11915",
                 "label_korean": "리어 우측 휠 속도",
                 "group_id": "123947",
                 "req_frame_id": "372183",
@@ -216,13 +216,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "24803, 26004",
+                "help_code": "@P24803@T.@\\n@P26004@\\*0xFFFF.",
                 "help_korean": "이 정보는 타이어 직경 및 센서에 의해 리턴되는 정보로 부터 계산된다.\nESP가 설정되지 않으면, 진단기에 표시되는 값은 0xFFFF에 해당한다."
             },
             {
                 "position": 4,
                 "mnemonic": "MP_VITESSE_ROUE_AVANT_GAUCHE",
-                "label_index": "11831",
+                "label_index": "@P11831",
                 "label_korean": "프론트 좌측 휠 속도",
                 "group_id": "123947",
                 "req_frame_id": "372183",
@@ -240,13 +240,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "24803, 26004",
+                "help_code": "@P24803@T.@\\n@P26004@\\*0xFFFF.",
                 "help_korean": "이 정보는 타이어 직경 및 센서에 의해 리턴되는 정보로 부터 계산된다.\nESP가 설정되지 않으면, 진단기에 표시되는 값은 0xFFFF에 해당한다."
             },
             {
                 "position": 5,
                 "mnemonic": "MP_VITESSE_ROUE_AVANT_DROIT",
-                "label_index": "4748",
+                "label_index": "@P4748",
                 "label_korean": "프론트 우측 휠 속도",
                 "group_id": "123947",
                 "req_frame_id": "372183",
@@ -264,13 +264,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "24803, 26004",
+                "help_code": "@P24803@T.@\\n@P26004@\\*0xFFFF.",
                 "help_korean": "이 정보는 타이어 직경 및 센서에 의해 리턴되는 정보로 부터 계산된다.\nESP가 설정되지 않으면, 진단기에 표시되는 값은 0xFFFF에 해당한다."
             },
             {
                 "position": 6,
                 "mnemonic": "MP_VITESSE_VEHICULE_a",
-                "label_index": "7997",
+                "label_index": "@P7997@\\*",
                 "label_korean": "차량 속도",
                 "group_id": "123947",
                 "req_frame_id": "372183",
@@ -290,13 +290,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "24936, 24876, 24895, 24919",
+                "help_code": "@P24936@T.@\\n@P24876@T.@\\n@P24895@T.@\\n@P24919@T.",
                 "help_korean": "이는 차량의 프론트 액슬 속도이다.\n이 속도는 타이어 직경과 프론트 휠에 위치한 센서의 의해 리턴되는 정보로부터 계산된다.\n프론트 휠 센서 중 하나가 결함일 경우, 차량 속도 정보는 정상적인 프론트 휠 센서와 결함이 있는 프론트 휠의 맞은편 대각에 있는 리어 휠 속도로부터 계산된다.\n프론트 2개의 휠 센서가 결함이면, 차량 속도 정보는 2개의 리어 휠과 설정된 타이어 직경으로부터 계산된다."
             },
             {
                 "position": 7,
                 "mnemonic": "MP_VITESSE_ANG_LACET_new",
-                "label_index": "13865",
+                "label_index": "@P13865",
                 "label_korean": "요잉 각도 속도",
                 "group_id": "123948",
                 "req_frame_id": "372186",
@@ -312,13 +312,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "24880, 24849",
+                "help_code": "@P24880@T.@\\n@P24849@T.",
                 "help_korean": "가속도계 자이로스코프 센서에 의해 측정된 휠의 축 회전 속도.\n속도는 좌측으로 굽은 경우 양성이다."
             },
             {
                 "position": 8,
                 "mnemonic": "MP_ACC_TRANSVERSALE_new",
-                "label_index": "13706",
+                "label_index": "@P13706",
                 "label_korean": "횡가속도",
                 "group_id": "123948",
                 "req_frame_id": "372186",
@@ -334,13 +334,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "24909, 24930",
+                "help_code": "@P24909@T.@\\n@P24930@T.",
                 "help_korean": "자이로미터-가속도계 센서에 의해 측정된 속도.\n이 측정은 좌측으로 굽은 경우 양성이다."
             },
             {
                 "position": 9,
                 "mnemonic": "MP_REGIME_MOTEUR_a",
-                "label_index": "7917",
+                "label_index": "@P7917",
                 "label_korean": "엔진 속도",
                 "group_id": "123948",
                 "req_frame_id": "372186",
@@ -364,8 +364,8 @@
             {
                 "position": 10,
                 "mnemonic": "MP_DIAGNOSTIC_COMMUNICATION_RESEAU",
-                "label_index": "8094",
-                "label_korean": "네트워크통신 진단",
+                "label_index": "@F8094@\\*",
+                "label_korean": "네트워크 통신 진단",
                 "group_id": "123949",
                 "req_frame_id": "372189",
                 "resp_frame_id": "372190",
@@ -385,13 +385,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "2538",
+                "help_code": "@P2538@T.",
                 "help_korean": "키를 ON하고 엔진이 구동할 경우 작동."
             }
         ]
     },
     "MESUREPARAMETRE2": {
-        "screen_title_korean": "브레이크 스위치 및 릴레이정보",
+        "screen_title_korean": "브레이크 스위치 및 릴레이 정보",
         "screen_label_index": "@P9565-POLUXDATA@\\*",
         "ecu_name": "ESPMK60_O_LA_V1",
         "total_sensors": 7,
@@ -399,7 +399,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_TENSION_ALIMENTATION_CALCULATEUR_C0",
-                "label_index": "14064",
+                "label_index": "@P14064",
                 "label_korean": "제어 장치 공급 전압",
                 "group_id": "123947",
                 "req_frame_id": "372183",
@@ -415,13 +415,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "24835, 24873, 24855",
+                "help_code": "@P24835@T.@\\n@P24873@\\*9.3@T.@\\n@P24855@\\*16@T.",
                 "help_korean": "ESP ECU 공급되는 전압.\n전압이 9V 미만이면, 낮은 전압 결함이 존재한다.3.\n전압이 9V이상이면, 과도한 전압 결함이 존재한다."
             },
             {
                 "position": 2,
                 "mnemonic": "MP_CONTACTEUR_FEUX_STOP_1",
-                "label_index": "9419",
+                "label_index": "@P9419",
                 "label_korean": "브레이크 램프 스위치",
                 "group_id": "123947",
                 "req_frame_id": "372183",
@@ -440,13 +440,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "8151",
+                "help_code": "@P8151",
                 "help_korean": "브레이크 페달을 누름에 의한 취득"
             },
             {
                 "position": 3,
                 "mnemonic": "MP_CONTACTEUR_FEUX_STOP_SECONDAIRES",
-                "label_index": "10715",
+                "label_index": "@P10715@T (@P30614@T)",
                 "label_korean": "백업 브레이크등 스위치 (크루즈 컨트롤이 장착되어 있을 경우)",
                 "group_id": "123948",
                 "req_frame_id": "372186",
@@ -471,7 +471,7 @@
             {
                 "position": 4,
                 "mnemonic": "MP_ETAT_SERRAGE_FREIN_A_AMIN",
-                "label_index": "10188",
+                "label_index": "@P10188",
                 "label_korean": "주차브레이크 상태",
                 "group_id": "123948",
                 "req_frame_id": "372186",
@@ -496,7 +496,7 @@
             {
                 "position": 5,
                 "mnemonic": "MP_USURE_GARNITURES_FREIN",
-                "label_index": "8349",
+                "label_index": "@P8349",
                 "label_korean": "브레이크 라이닝 마모",
                 "group_id": "123947",
                 "req_frame_id": "372183",
@@ -522,7 +522,7 @@
             {
                 "position": 6,
                 "mnemonic": "MP_NIVEAU_LIQUIDE_DE_FREIN",
-                "label_index": "9366",
+                "label_index": "@P9366",
                 "label_korean": "브레이크 오일 레벨",
                 "group_id": "123947",
                 "req_frame_id": "372183",
@@ -541,13 +541,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "16347",
+                "help_code": "@P16347@T.",
                 "help_korean": "브레이크 오일 레벨이 충분하지 또는 부족한지를 확인하는 데 사용되는 정보."
             },
             {
                 "position": 7,
                 "mnemonic": "MP_ETAT_RELAIS_ALIMENTATION_EV",
-                "label_index": "5399",
+                "label_index": "@P5399",
                 "label_korean": "솔레노이드 밸브 전원 릴레이 상태",
                 "group_id": "123947",
                 "req_frame_id": "372183",
@@ -569,7 +569,7 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "2006",
+                "help_code": "@P2006@T.",
                 "help_korean": "정상 작동 중, 키를 ON 할 때 솔레노이드 전원 릴레이는 닫힌다."
             }
         ]
@@ -583,7 +583,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_ETAT_CAPTEUR_ANGLE_VOLANT_DIRECTION",
-                "label_index": "14189",
+                "label_index": "@P14189",
                 "label_korean": "스티어링 휠 앵글 센서 상태",
                 "group_id": "123949",
                 "req_frame_id": "372189",
@@ -605,13 +605,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "24940, 24846",
+                "help_code": "@P24940@T.@\\n@P24846@T.",
                 "help_korean": "센서가 작동하는지 또는 결함인지를 명시하는 정보.\n센서가 결함이면, 스티어링 휠 앵글과 관련된 정보를 사용할 수 없다."
             },
             {
                 "position": 2,
                 "mnemonic": "MP_CALIBRATION_DU_CAPTEUR_ANGLE_VOLANT_DE_DIRECTION",
-                "label_index": "5796",
+                "label_index": "@P5796",
                 "label_korean": "스티어링 휠 앵글 센서의 캘리브레이션",
                 "group_id": "123949",
                 "req_frame_id": "372189",
@@ -633,13 +633,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "24841, 24802",
+                "help_code": "@P24841@T.@\\n@P24802@T.",
                 "help_korean": "정보는 센서가 정확하게 캘리브레이션되었는지 명시한다.\n센서가 캘리브레이션되지 않을 경우, 새로운 캘리브레이션 작업은 진단기를 사용해서 진행해야 한다."
             },
             {
                 "position": 3,
                 "mnemonic": "MP_AJUSTEMENT_CAPTEUR_ANGLE_VOLANT_DE_DIRECTION",
-                "label_index": "8545",
+                "label_index": "@P8545",
                 "label_korean": "스티어링 휠 앵글 센서의 조정",
                 "group_id": "123949",
                 "req_frame_id": "372189",
@@ -661,13 +661,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "24902, 24857, 24783",
+                "help_code": "@P24902@T.@\\n@P24857@T.@\\n@P24783@T.",
                 "help_korean": "센서가 조정되었는지를 명시하는 정보.\n조정은 공장에서 이루어졌다.\n센서가 조정되지 않으면, 스티어링 휠 앵글과 관련된 정보는 사용할 수 없다."
             },
             {
                 "position": 4,
                 "mnemonic": "MP_ANG_VOL_new",
-                "label_index": "1274",
+                "label_index": "@P1274",
                 "label_korean": "스티어링 휠 앵글",
                 "group_id": "123948",
                 "req_frame_id": "372186",
@@ -683,13 +683,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "24914, 24810",
+                "help_code": "@P24914@T.@\\n@P24810@T.",
                 "help_korean": "센서에 의해 리턴되는 스티어링 휠 앵글 값 측정.\n이 값은 스티어링 휠을 반시계 방향으로 돌리면 증가하고 시계 방향으로 돌리면 감소한다."
             },
             {
                 "position": 5,
                 "mnemonic": "MP_SENS_ROTATION_VOLANT_DE_DIRECTION",
-                "label_index": "9111",
+                "label_index": "@P9111",
                 "label_korean": "스티어링 휠 회전 방향",
                 "group_id": "123949",
                 "req_frame_id": "372189",
@@ -710,7 +710,7 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "37545, 37566, 37580",
+                "help_code": "@P37545@T.@\\n@P37566@T.@\\n@P37580@T.",
                 "help_korean": "기본으로, 진단기는 회전의 \"좌측\" 방향을 표시한다.\n운전자가 스티어링 휠을 시계방향으로 회전했을 때, 진단기는 \"우측\" 단어를 표시한다.\n회전이 일단 끝나면, 진단기는 다시 \"좌측\" 단어를 표시한다."
             }
         ]
@@ -724,7 +724,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_REGIME_MOTEUR_a",
-                "label_index": "7917",
+                "label_index": "@P7917",
                 "label_korean": "엔진 속도",
                 "group_id": "123948",
                 "req_frame_id": "372186",
@@ -748,7 +748,7 @@
             {
                 "position": 2,
                 "mnemonic": "MP_COUPLE_DEMANDE_CONDUCTEUR",
-                "label_index": "9570",
+                "label_index": "@P9570",
                 "label_korean": "운전자가 요청한 토크",
                 "group_id": "123948",
                 "req_frame_id": "372186",
@@ -764,13 +764,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "24833, 24778",
+                "help_code": "@P24833@T.@\\n@P24778@T.",
                 "help_korean": "엔진 ECU에 의해 처리되지 전 운전자에 의해 요청된 토크.\n토크 값은 가속 페달에 가해진 압력에 따라 달라진다."
             },
             {
                 "position": 3,
                 "mnemonic": "MP_COUPLE_REEL",
-                "label_index": "13829",
+                "label_index": "@P13829",
                 "label_korean": "실제 토크",
                 "group_id": "123949",
                 "req_frame_id": "372189",
@@ -788,13 +788,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "24932",
+                "help_code": "@P24932@T.",
                 "help_korean": "엔진에 적용된 토크."
             },
             {
                 "position": 4,
                 "mnemonic": "MP_POSITION_PEDALE_ACCELERATION",
-                "label_index": "7897",
+                "label_index": "@P7897",
                 "label_korean": "가속 페달 위치",
                 "group_id": "123949",
                 "req_frame_id": "372189",
@@ -810,13 +810,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "16458",
+                "help_code": "@P16458@T.",
                 "help_korean": "가속 페달에 가해진 압력에 따라 변하는 정보."
             },
             {
                 "position": 5,
                 "mnemonic": "MP_ETAT_REL_ASR_MSR",
-                "label_index": "15839",
+                "label_index": "@P15839",
                 "label_korean": "ASR/MSR 세팅 성능 상태",
                 "group_id": "123949",
                 "req_frame_id": "372189",
@@ -838,13 +838,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "30583, 30584",
+                "help_code": "@P30583@T.@\\n@P30584@T.",
                 "help_korean": "ASR 토크 세팅은 슬립을 제한하기 위해서 엔진 토크를 감소하기 위해서 보내진다.\nMSR 세팅은 트랙션 컨트롤을 향상하기 위해서 엔진 토크를 증가하기 위해서 보내진다."
             },
             {
                 "position": 6,
                 "mnemonic": "MP_RAPPORT_ENGAGE_SI_BVA",
-                "label_index": "7966",
+                "label_index": "@P7966",
                 "label_korean": "체결된 변속기 기어",
                 "group_id": "123948",
                 "req_frame_id": "372186",
@@ -870,13 +870,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "24776, 30573, 24883",
+                "help_code": "@P24776@T.@\\n@P30573@\\n@P24883",
                 "help_korean": "어떤 기어가 체결되었는지를 확인하기 위해서 사용된 정보.\n자동 변속기 정보\n자동 변속기가 있을 경우"
             },
             {
                 "position": 7,
                 "mnemonic": "MP_RAPPORT_EN_COURS_SI_BVA",
-                "label_index": "13537",
+                "label_index": "@P13537",
                 "label_korean": "기어 변경 진행 중",
                 "group_id": "123949",
                 "req_frame_id": "372189",
@@ -895,13 +895,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "24826, 24883",
+                "help_code": "@P24826@T.@P24883",
                 "help_korean": "ESP ECU와 자동 변속기 ECU간의 통신이 정확한지를 점검하는 데 사용되는 정보.자동 변속기가 있을 경우"
             },
             {
                 "position": 8,
                 "mnemonic": "MP_ETAT_EMBRAYAGE_BVMP",
-                "label_index": "1989",
+                "label_index": "@P1989@\\*",
                 "label_korean": "클러치의 상태",
                 "group_id": "123949",
                 "req_frame_id": "372189",
@@ -920,13 +920,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "30738",
+                "help_code": "@P30738",
                 "help_korean": "시퀀셜 수동 변속기"
             },
             {
                 "position": 9,
                 "mnemonic": "MP_ETAT_CONVERTISSEUR_SI_BVA",
-                "label_index": "32808",
+                "label_index": "@P32808",
                 "label_korean": "변속기 토크 컨버터 상태",
                 "group_id": "123949",
                 "req_frame_id": "372189",
@@ -948,13 +948,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "7251, 30596, 30569, 10644, 24883",
-                "help_korean": "열림 : 일반적인 컨버터 모드.\n- 중간 상태 :\n컨버터 제어 또는 슬립핑.\n자동 변속기가 있을 경우"
+                "help_code": "@P7251@T : @P30596@T.@\\n@P30569@T : @\\n@P10644@T.@\\n@P24883",
+                "help_korean": "열림 : 일반적인 컨버터 모드.\n중간 상태 :\n컨버터 제어 또는 슬립핑.\n자동 변속기가 있을 경우"
             }
         ]
     },
     "MESUREPARAMETRE5": {
-        "screen_title_korean": "ECU\n- 다운로딩 : 현재 설정 읽기",
+        "screen_title_korean": "ECU 다운로딩 : 현재 설정 읽기",
         "screen_label_index": "@P5956-POLUXDATA@T : @P11175-POLUXDATA",
         "ecu_name": "ESPMK60_O_LA_V1",
         "total_sensors": 5,
@@ -962,7 +962,7 @@
             {
                 "position": 1,
                 "mnemonic": "CFG_____CONFIG_TYPE_MOTEUR",
-                "label_index": "2655",
+                "label_index": "@P2655@\\*",
                 "label_korean": "엔진",
                 "group_id": "123950",
                 "req_frame_id": "372192",
@@ -983,13 +983,13 @@
                 "bit_mask": 65535,
                 "bit_shift": 0,
                 "dynamic_arg": "",
-                "help_code": "3681",
+                "help_code": "@P3681",
                 "help_korean": "일반 메뉴로 되돌아 가기 위해 Return을 누른다"
             },
             {
                 "position": 2,
                 "mnemonic": "CFG_____CONFIG_CARROSSERIE",
-                "label_index": "28334",
+                "label_index": "@P28334",
                 "label_korean": "차체수리",
                 "group_id": "123950",
                 "req_frame_id": "372192",
@@ -1017,13 +1017,13 @@
                 "bit_mask": 65535,
                 "bit_shift": 0,
                 "dynamic_arg": "",
-                "help_code": "3681",
+                "help_code": "@P3681",
                 "help_korean": "일반 메뉴로 되돌아 가기 위해 Return을 누른다"
             },
             {
                 "position": 3,
                 "mnemonic": "CFG____DPPR",
-                "label_index": "8298",
+                "label_index": "@P8298",
                 "label_korean": "타이어 타입",
                 "group_id": "123950",
                 "req_frame_id": "372192",
@@ -1041,13 +1041,13 @@
                 "bit_mask": 65535,
                 "bit_shift": 0,
                 "dynamic_arg": "",
-                "help_code": "3681",
+                "help_code": "@P3681",
                 "help_korean": "일반 메뉴로 되돌아 가기 위해 Return을 누른다"
             },
             {
                 "position": 4,
                 "mnemonic": "CFG____COMBI_TYPE_BAV",
-                "label_index": "13122",
+                "label_index": "@P13122@\\*",
                 "label_korean": "변속기 타입",
                 "group_id": "123950",
                 "req_frame_id": "372192",
@@ -1067,13 +1067,13 @@
                 "bit_mask": 255,
                 "bit_shift": 0,
                 "dynamic_arg": "",
-                "help_code": "3681",
+                "help_code": "@P3681",
                 "help_korean": "일반 메뉴로 되돌아 가기 위해 Return을 누른다"
             },
             {
                 "position": 5,
                 "mnemonic": "CFG____ARCHITECTURE_ELECTRONIQUE",
-                "label_index": "3152",
+                "label_index": "@P3152",
                 "label_korean": "전자제어 구조",
                 "group_id": "123950",
                 "req_frame_id": "372192",
@@ -1094,7 +1094,7 @@
                 "bit_mask": 65535,
                 "bit_shift": 0,
                 "dynamic_arg": "",
-                "help_code": "3681",
+                "help_code": "@P3681",
                 "help_korean": "일반 메뉴로 되돌아 가기 위해 Return을 누른다"
             }
         ]

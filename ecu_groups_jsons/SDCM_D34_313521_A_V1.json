@@ -8,7 +8,7 @@
             {
                 "position": 1,
                 "mnemonic": "ID_NOM_DU_FOURNISSEUR",
-                "label_index": "5701",
+                "label_index": "@P5701",
                 "label_korean": "제조 업체명",
                 "group_id": "53345",
                 "req_frame_id": "160328",
@@ -38,7 +38,7 @@
             {
                 "position": 2,
                 "mnemonic": "ID_REFERENCE_MATERIEL",
-                "label_index": "1071",
+                "label_index": "@P1071",
                 "label_korean": "장치 부품 번호",
                 "group_id": "53345",
                 "req_frame_id": "160328",
@@ -60,7 +60,7 @@
             {
                 "position": 3,
                 "mnemonic": "ID_REFERENCE_COMPLEMENTAIRE_MATERIEL",
-                "label_index": "1634",
+                "label_index": "@P1634",
                 "label_korean": "장치 추가 참조 번호",
                 "group_id": "53345",
                 "req_frame_id": "160328",
@@ -82,7 +82,7 @@
             {
                 "position": 4,
                 "mnemonic": "ID_REFERENCE_LOGICIEL",
-                "label_index": "13263",
+                "label_index": "@P13263",
                 "label_korean": "소프트웨어 번호",
                 "group_id": "53346",
                 "req_frame_id": "160331",
@@ -104,7 +104,7 @@
             {
                 "position": 5,
                 "mnemonic": "ID_TRACABILITE_INDICE_EVOLUTION_EDITION_CALIBRATION",
-                "label_index": "7413",
+                "label_index": "@P7413",
                 "label_korean": "캘리브레이션 에디션",
                 "group_id": "53345",
                 "req_frame_id": "160328",
@@ -126,7 +126,7 @@
             {
                 "position": 6,
                 "mnemonic": "ID_TRACABILITE_INDICE_EVOLUTION_EDITION",
-                "label_index": "24601",
+                "label_index": "@P24601",
                 "label_korean": "소프트웨어 버전",
                 "group_id": "53345",
                 "req_frame_id": "160328",
@@ -148,7 +148,7 @@
             {
                 "position": 7,
                 "mnemonic": "ID_DATE_TELECH",
-                "label_index": "21670",
+                "label_index": "@P21670",
                 "label_korean": "다운로딩 날짜",
                 "group_id": "53346",
                 "req_frame_id": "160331",
@@ -170,7 +170,7 @@
             {
                 "position": 8,
                 "mnemonic": "ID_NOMBRE_DE_TELECHARGEMENT",
-                "label_index": "24589",
+                "label_index": "@P24589",
                 "label_korean": "다운로드의 수",
                 "group_id": "53346",
                 "req_frame_id": "160331",
@@ -192,7 +192,7 @@
             {
                 "position": 9,
                 "mnemonic": "ID_TRACABILITE_DATE_FABRICATION",
-                "label_index": "16589",
+                "label_index": "@P16589",
                 "label_korean": "제조 일자",
                 "group_id": "53343",
                 "req_frame_id": "160322",
@@ -214,7 +214,7 @@
             {
                 "position": 10,
                 "mnemonic": "VIN",
-                "label_index": "16222",
+                "label_index": "@P16222",
                 "label_korean": "차대번호 코드",
                 "group_id": "53342",
                 "req_frame_id": "160319",
@@ -244,7 +244,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_ETAT_CAPTEUR_MAINS_LIBRES_CONDUCTEUR",
-                "label_index": "52982",
+                "label_index": "@P52982",
                 "label_korean": "운전석 도어 외부 열림 제어 잠금/잠금 해제 센서의 상태",
                 "group_id": "53347",
                 "req_frame_id": "160334",
@@ -267,13 +267,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "54694",
+                "help_code": "@P54694",
                 "help_korean": "차량에 도어 잠금/잠금 해제 센서가 장착되어 있을 경우에만 이 변수 측정이 작동한다"
             },
             {
                 "position": 2,
                 "mnemonic": "MP_ETAT_CAPTEUR_MAINS_LIBRES_PASSAGER",
-                "label_index": "52992",
+                "label_index": "@P52992",
                 "label_korean": "조수석 도어 외부 열림 제어 잠금/잠금 해제 센서의 상태",
                 "group_id": "53347",
                 "req_frame_id": "160334",
@@ -296,13 +296,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "54694",
+                "help_code": "@P54694",
                 "help_korean": "차량에 도어 잠금/잠금 해제 센서가 장착되어 있을 경우에만 이 변수 측정이 작동한다"
             },
             {
                 "position": 3,
                 "mnemonic": "MP_ETAT_CAPTEUR_MAINS_LIBRES_CENTRAL",
-                "label_index": "53020",
+                "label_index": "@P53020",
                 "label_korean": "도어 잠금/잠금 해제 내부 버튼의 상태",
                 "group_id": "53347",
                 "req_frame_id": "160334",
@@ -325,13 +325,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "54694",
+                "help_code": "@P54694",
                 "help_korean": "차량에 도어 잠금/잠금 해제 센서가 장착되어 있을 경우에만 이 변수 측정이 작동한다"
             },
             {
                 "position": 4,
                 "mnemonic": "MP_TENSION_ALIMENTATION_SDCM",
-                "label_index": "53000",
+                "label_index": "@P53000@\\*(SDCM)",
                 "label_korean": "핸즈프리 장치 의 공급 전압(SDCM)",
                 "group_id": "53347",
                 "req_frame_id": "160334",
@@ -347,13 +347,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "",
+                "help_code": "@T",
                 "help_korean": ""
             },
             {
                 "position": 5,
                 "mnemonic": "MP_APPUI_LONG_DETECTE",
-                "label_index": "53014",
+                "label_index": "@P53014",
                 "label_korean": "도어 외부 열림 제어 잠금/잠금 해제 센서 중 하나에서 길게 누름이 감지됨",
                 "group_id": "53349",
                 "req_frame_id": "160340",
@@ -372,13 +372,13 @@
                 "bit_mask": 1,
                 "bit_shift": 0,
                 "dynamic_arg": "",
-                "help_code": "53030, 54694",
+                "help_code": "@P53030@\\*600@\\n@P54694",
                 "help_korean": "600ms\n차량에 도어 잠금/잠금 해제 센서가 장착되어 있을 경우에만 이 변수 측정이 작동한다"
             },
             {
                 "position": 6,
                 "mnemonic": "MP_APPUI_COURT_DETECTE",
-                "label_index": "53010",
+                "label_index": "@P53010",
                 "label_korean": "도어 외부 열림 제어 잠금/잠금 해제 센서 중 하나에서 짧게 누름이 감지됨",
                 "group_id": "53349",
                 "req_frame_id": "160340",
@@ -397,13 +397,13 @@
                 "bit_mask": 2,
                 "bit_shift": 1,
                 "dynamic_arg": "",
-                "help_code": "53030, 54694",
+                "help_code": "@P53030@\\*250@\\n@P54694",
                 "help_korean": "250ms\n차량에 도어 잠금/잠금 해제 센서가 장착되어 있을 경우에만 이 변수 측정이 작동한다"
             },
             {
                 "position": 7,
                 "mnemonic": "MP_APPUI_MAINTENU_DETECTE",
-                "label_index": "53002",
+                "label_index": "@P53002",
                 "label_korean": "도어 외부 열림 제어 잠금/잠금 해제 센서 중 하나에서 누름 유지가 감지됨",
                 "group_id": "53349",
                 "req_frame_id": "160340",
@@ -422,7 +422,7 @@
                 "bit_mask": 4,
                 "bit_shift": 2,
                 "dynamic_arg": "",
-                "help_code": "53030, 54694",
+                "help_code": "@P53030@\\*1100@\\n@P54694",
                 "help_korean": "1100ms\n차량에 도어 잠금/잠금 해제 센서가 장착되어 있을 경우에만 이 변수 측정이 작동한다"
             }
         ]
@@ -436,7 +436,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_ACTION_REALISE_1",
-                "label_index": "52969",
+                "label_index": "@P52969",
                 "label_korean": "작업 수행됨",
                 "group_id": "53353",
                 "req_frame_id": "160352",
@@ -462,7 +462,7 @@
             {
                 "position": 2,
                 "mnemonic": "MP_IDENTIFIANT_CLIENT_1",
-                "label_index": "52957",
+                "label_index": "@P52957",
                 "label_korean": "고객 사용자 이름",
                 "group_id": "53353",
                 "req_frame_id": "160352",
@@ -484,7 +484,7 @@
             {
                 "position": 3,
                 "mnemonic": "MP_KILOMETRAGE_DU_VEHICULE_1",
-                "label_index": "14658",
+                "label_index": "@P14658",
                 "label_korean": "차량 주행거리",
                 "group_id": "53353",
                 "req_frame_id": "160352",
@@ -506,7 +506,7 @@
             {
                 "position": 4,
                 "mnemonic": "MP_ANNEE_1",
-                "label_index": "14955",
+                "label_index": "@P14955",
                 "label_korean": "연도",
                 "group_id": "53353",
                 "req_frame_id": "160352",
@@ -528,7 +528,7 @@
             {
                 "position": 5,
                 "mnemonic": "MP_MOIS_1",
-                "label_index": "12928",
+                "label_index": "@P12928",
                 "label_korean": "월",
                 "group_id": "53353",
                 "req_frame_id": "160352",
@@ -550,7 +550,7 @@
             {
                 "position": 6,
                 "mnemonic": "MP_JOUR_1",
-                "label_index": "48188",
+                "label_index": "@P48188",
                 "label_korean": "날",
                 "group_id": "53353",
                 "req_frame_id": "160352",
@@ -572,7 +572,7 @@
             {
                 "position": 7,
                 "mnemonic": "MP_HEURE_1",
-                "label_index": "6005",
+                "label_index": "@P6005",
                 "label_korean": "시간",
                 "group_id": "53353",
                 "req_frame_id": "160352",
@@ -594,7 +594,7 @@
             {
                 "position": 8,
                 "mnemonic": "MP_MINUTE_1",
-                "label_index": "8240",
+                "label_index": "@P8240",
                 "label_korean": "분",
                 "group_id": "53353",
                 "req_frame_id": "160352",
@@ -616,7 +616,7 @@
             {
                 "position": 9,
                 "mnemonic": "MP_SECONDE_1",
-                "label_index": "10587",
+                "label_index": "@P10587",
                 "label_korean": "초",
                 "group_id": "53353",
                 "req_frame_id": "160352",
@@ -646,7 +646,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_ACTION_REALISE_2",
-                "label_index": "52969",
+                "label_index": "@P52969",
                 "label_korean": "작업 수행됨",
                 "group_id": "53353",
                 "req_frame_id": "160352",
@@ -672,7 +672,7 @@
             {
                 "position": 2,
                 "mnemonic": "MP_IDENTIFIANT_CLIENT_2",
-                "label_index": "52957",
+                "label_index": "@P52957",
                 "label_korean": "고객 사용자 이름",
                 "group_id": "53353",
                 "req_frame_id": "160352",
@@ -694,7 +694,7 @@
             {
                 "position": 3,
                 "mnemonic": "MP_KILOMETRAGE_DU_VEHICULE_2",
-                "label_index": "14658",
+                "label_index": "@P14658",
                 "label_korean": "차량 주행거리",
                 "group_id": "53353",
                 "req_frame_id": "160352",
@@ -716,7 +716,7 @@
             {
                 "position": 4,
                 "mnemonic": "MP_ANNEE_2",
-                "label_index": "14955",
+                "label_index": "@P14955",
                 "label_korean": "연도",
                 "group_id": "53353",
                 "req_frame_id": "160352",
@@ -738,7 +738,7 @@
             {
                 "position": 5,
                 "mnemonic": "MP_MOIS_2",
-                "label_index": "12928",
+                "label_index": "@P12928",
                 "label_korean": "월",
                 "group_id": "53353",
                 "req_frame_id": "160352",
@@ -760,7 +760,7 @@
             {
                 "position": 6,
                 "mnemonic": "MP_JOUR_2",
-                "label_index": "48188",
+                "label_index": "@P48188",
                 "label_korean": "날",
                 "group_id": "53353",
                 "req_frame_id": "160352",
@@ -782,7 +782,7 @@
             {
                 "position": 7,
                 "mnemonic": "MP_HEURE_2",
-                "label_index": "6005",
+                "label_index": "@P6005",
                 "label_korean": "시간",
                 "group_id": "53353",
                 "req_frame_id": "160352",
@@ -804,7 +804,7 @@
             {
                 "position": 8,
                 "mnemonic": "MP_MINUTE_2",
-                "label_index": "8240",
+                "label_index": "@P8240",
                 "label_korean": "분",
                 "group_id": "53353",
                 "req_frame_id": "160352",
@@ -826,7 +826,7 @@
             {
                 "position": 9,
                 "mnemonic": "MP_SECONDE_2",
-                "label_index": "10587",
+                "label_index": "@P10587",
                 "label_korean": "초",
                 "group_id": "53353",
                 "req_frame_id": "160352",
@@ -856,7 +856,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_ACTION_REALISE_3",
-                "label_index": "52969",
+                "label_index": "@P52969",
                 "label_korean": "작업 수행됨",
                 "group_id": "53353",
                 "req_frame_id": "160352",
@@ -882,7 +882,7 @@
             {
                 "position": 2,
                 "mnemonic": "MP_IDENTIFIANT_CLIENT_3",
-                "label_index": "52957",
+                "label_index": "@P52957",
                 "label_korean": "고객 사용자 이름",
                 "group_id": "53353",
                 "req_frame_id": "160352",
@@ -904,7 +904,7 @@
             {
                 "position": 3,
                 "mnemonic": "MP_KILOMETRAGE_DU_VEHICULE_3",
-                "label_index": "14658",
+                "label_index": "@P14658",
                 "label_korean": "차량 주행거리",
                 "group_id": "53353",
                 "req_frame_id": "160352",
@@ -926,7 +926,7 @@
             {
                 "position": 4,
                 "mnemonic": "MP_ANNEE_3",
-                "label_index": "14955",
+                "label_index": "@P14955",
                 "label_korean": "연도",
                 "group_id": "53353",
                 "req_frame_id": "160352",
@@ -948,7 +948,7 @@
             {
                 "position": 5,
                 "mnemonic": "MP_MOIS_3",
-                "label_index": "12928",
+                "label_index": "@P12928",
                 "label_korean": "월",
                 "group_id": "53353",
                 "req_frame_id": "160352",
@@ -970,7 +970,7 @@
             {
                 "position": 6,
                 "mnemonic": "MP_JOUR_3",
-                "label_index": "48188",
+                "label_index": "@P48188",
                 "label_korean": "날",
                 "group_id": "53353",
                 "req_frame_id": "160352",
@@ -992,7 +992,7 @@
             {
                 "position": 7,
                 "mnemonic": "MP_HEURE_3",
-                "label_index": "6005",
+                "label_index": "@P6005",
                 "label_korean": "시간",
                 "group_id": "53353",
                 "req_frame_id": "160352",
@@ -1014,7 +1014,7 @@
             {
                 "position": 8,
                 "mnemonic": "MP_MINUTE_3",
-                "label_index": "8240",
+                "label_index": "@P8240",
                 "label_korean": "분",
                 "group_id": "53353",
                 "req_frame_id": "160352",
@@ -1036,7 +1036,7 @@
             {
                 "position": 9,
                 "mnemonic": "MP_SECONDE_3",
-                "label_index": "10587",
+                "label_index": "@P10587",
                 "label_korean": "초",
                 "group_id": "53353",
                 "req_frame_id": "160352",
@@ -1066,7 +1066,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_ACTION_REALISE_4",
-                "label_index": "52969",
+                "label_index": "@P52969",
                 "label_korean": "작업 수행됨",
                 "group_id": "53353",
                 "req_frame_id": "160352",
@@ -1092,7 +1092,7 @@
             {
                 "position": 2,
                 "mnemonic": "MP_IDENTIFIANT_CLIENT_4",
-                "label_index": "52957",
+                "label_index": "@P52957",
                 "label_korean": "고객 사용자 이름",
                 "group_id": "53353",
                 "req_frame_id": "160352",
@@ -1114,7 +1114,7 @@
             {
                 "position": 3,
                 "mnemonic": "MP_KILOMETRAGE_DU_VEHICULE_4",
-                "label_index": "14658",
+                "label_index": "@P14658",
                 "label_korean": "차량 주행거리",
                 "group_id": "53353",
                 "req_frame_id": "160352",
@@ -1136,7 +1136,7 @@
             {
                 "position": 4,
                 "mnemonic": "MP_ANNEE_4",
-                "label_index": "14955",
+                "label_index": "@P14955",
                 "label_korean": "연도",
                 "group_id": "53353",
                 "req_frame_id": "160352",
@@ -1158,7 +1158,7 @@
             {
                 "position": 5,
                 "mnemonic": "MP_MOIS_4",
-                "label_index": "12928",
+                "label_index": "@P12928",
                 "label_korean": "월",
                 "group_id": "53353",
                 "req_frame_id": "160352",
@@ -1180,7 +1180,7 @@
             {
                 "position": 6,
                 "mnemonic": "MP_JOUR_4",
-                "label_index": "48188",
+                "label_index": "@P48188",
                 "label_korean": "날",
                 "group_id": "53353",
                 "req_frame_id": "160352",
@@ -1202,7 +1202,7 @@
             {
                 "position": 7,
                 "mnemonic": "MP_HEURE_4",
-                "label_index": "6005",
+                "label_index": "@P6005",
                 "label_korean": "시간",
                 "group_id": "53353",
                 "req_frame_id": "160352",
@@ -1224,7 +1224,7 @@
             {
                 "position": 8,
                 "mnemonic": "MP_MINUTE_4",
-                "label_index": "8240",
+                "label_index": "@P8240",
                 "label_korean": "분",
                 "group_id": "53353",
                 "req_frame_id": "160352",
@@ -1246,7 +1246,7 @@
             {
                 "position": 9,
                 "mnemonic": "MP_SECONDE_4",
-                "label_index": "10587",
+                "label_index": "@P10587",
                 "label_korean": "초",
                 "group_id": "53353",
                 "req_frame_id": "160352",
@@ -1276,7 +1276,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_ACTION_REALISE_5",
-                "label_index": "52969",
+                "label_index": "@P52969",
                 "label_korean": "작업 수행됨",
                 "group_id": "53353",
                 "req_frame_id": "160352",
@@ -1302,7 +1302,7 @@
             {
                 "position": 2,
                 "mnemonic": "MP_IDENTIFIANT_CLIENT_5",
-                "label_index": "52957",
+                "label_index": "@P52957",
                 "label_korean": "고객 사용자 이름",
                 "group_id": "53353",
                 "req_frame_id": "160352",
@@ -1324,7 +1324,7 @@
             {
                 "position": 3,
                 "mnemonic": "MP_KILOMETRAGE_DU_VEHICULE_5",
-                "label_index": "14658",
+                "label_index": "@P14658",
                 "label_korean": "차량 주행거리",
                 "group_id": "53353",
                 "req_frame_id": "160352",
@@ -1346,7 +1346,7 @@
             {
                 "position": 4,
                 "mnemonic": "MP_ANNEE_5",
-                "label_index": "14955",
+                "label_index": "@P14955",
                 "label_korean": "연도",
                 "group_id": "53353",
                 "req_frame_id": "160352",
@@ -1368,7 +1368,7 @@
             {
                 "position": 5,
                 "mnemonic": "MP_MOIS_5",
-                "label_index": "12928",
+                "label_index": "@P12928",
                 "label_korean": "월",
                 "group_id": "53353",
                 "req_frame_id": "160352",
@@ -1390,7 +1390,7 @@
             {
                 "position": 6,
                 "mnemonic": "MP_JOUR_5",
-                "label_index": "48188",
+                "label_index": "@P48188",
                 "label_korean": "날",
                 "group_id": "53353",
                 "req_frame_id": "160352",
@@ -1412,7 +1412,7 @@
             {
                 "position": 7,
                 "mnemonic": "MP_HEURE_5",
-                "label_index": "6005",
+                "label_index": "@P6005",
                 "label_korean": "시간",
                 "group_id": "53353",
                 "req_frame_id": "160352",
@@ -1434,7 +1434,7 @@
             {
                 "position": 8,
                 "mnemonic": "MP_MINUTE_5",
-                "label_index": "8240",
+                "label_index": "@P8240",
                 "label_korean": "분",
                 "group_id": "53353",
                 "req_frame_id": "160352",
@@ -1456,7 +1456,7 @@
             {
                 "position": 9,
                 "mnemonic": "MP_SECONDE_5",
-                "label_index": "10587",
+                "label_index": "@P10587",
                 "label_korean": "초",
                 "group_id": "53353",
                 "req_frame_id": "160352",
@@ -1486,7 +1486,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_ACTION_REALISE_6",
-                "label_index": "52969",
+                "label_index": "@P52969",
                 "label_korean": "작업 수행됨",
                 "group_id": "53353",
                 "req_frame_id": "160352",
@@ -1512,7 +1512,7 @@
             {
                 "position": 2,
                 "mnemonic": "MP_IDENTIFIANT_CLIENT_6",
-                "label_index": "52957",
+                "label_index": "@P52957",
                 "label_korean": "고객 사용자 이름",
                 "group_id": "53353",
                 "req_frame_id": "160352",
@@ -1534,7 +1534,7 @@
             {
                 "position": 3,
                 "mnemonic": "MP_KILOMETRAGE_DU_VEHICULE_6",
-                "label_index": "14658",
+                "label_index": "@P14658",
                 "label_korean": "차량 주행거리",
                 "group_id": "53353",
                 "req_frame_id": "160352",
@@ -1556,7 +1556,7 @@
             {
                 "position": 4,
                 "mnemonic": "MP_ANNEE_6",
-                "label_index": "14955",
+                "label_index": "@P14955",
                 "label_korean": "연도",
                 "group_id": "53353",
                 "req_frame_id": "160352",
@@ -1578,7 +1578,7 @@
             {
                 "position": 5,
                 "mnemonic": "MP_MOIS_6",
-                "label_index": "12928",
+                "label_index": "@P12928",
                 "label_korean": "월",
                 "group_id": "53353",
                 "req_frame_id": "160352",
@@ -1600,7 +1600,7 @@
             {
                 "position": 6,
                 "mnemonic": "MP_JOUR_6",
-                "label_index": "48188",
+                "label_index": "@P48188",
                 "label_korean": "날",
                 "group_id": "53353",
                 "req_frame_id": "160352",
@@ -1622,7 +1622,7 @@
             {
                 "position": 7,
                 "mnemonic": "MP_HEURE_6",
-                "label_index": "6005",
+                "label_index": "@P6005",
                 "label_korean": "시간",
                 "group_id": "53353",
                 "req_frame_id": "160352",
@@ -1644,7 +1644,7 @@
             {
                 "position": 8,
                 "mnemonic": "MP_MINUTE_6",
-                "label_index": "8240",
+                "label_index": "@P8240",
                 "label_korean": "분",
                 "group_id": "53353",
                 "req_frame_id": "160352",
@@ -1666,7 +1666,7 @@
             {
                 "position": 9,
                 "mnemonic": "MP_SECONDE_6",
-                "label_index": "10587",
+                "label_index": "@P10587",
                 "label_korean": "초",
                 "group_id": "53353",
                 "req_frame_id": "160352",
@@ -1696,7 +1696,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_ACTION_REALISE_7",
-                "label_index": "52969",
+                "label_index": "@P52969",
                 "label_korean": "작업 수행됨",
                 "group_id": "53353",
                 "req_frame_id": "160352",
@@ -1722,7 +1722,7 @@
             {
                 "position": 2,
                 "mnemonic": "MP_IDENTIFIANT_CLIENT_7",
-                "label_index": "52957",
+                "label_index": "@P52957",
                 "label_korean": "고객 사용자 이름",
                 "group_id": "53353",
                 "req_frame_id": "160352",
@@ -1744,7 +1744,7 @@
             {
                 "position": 3,
                 "mnemonic": "MP_KILOMETRAGE_DU_VEHICULE_7",
-                "label_index": "14658",
+                "label_index": "@P14658",
                 "label_korean": "차량 주행거리",
                 "group_id": "53353",
                 "req_frame_id": "160352",
@@ -1766,7 +1766,7 @@
             {
                 "position": 4,
                 "mnemonic": "MP_ANNEE_7",
-                "label_index": "14955",
+                "label_index": "@P14955",
                 "label_korean": "연도",
                 "group_id": "53353",
                 "req_frame_id": "160352",
@@ -1788,7 +1788,7 @@
             {
                 "position": 5,
                 "mnemonic": "MP_MOIS_7",
-                "label_index": "12928",
+                "label_index": "@P12928",
                 "label_korean": "월",
                 "group_id": "53353",
                 "req_frame_id": "160352",
@@ -1810,7 +1810,7 @@
             {
                 "position": 6,
                 "mnemonic": "MP_JOUR_7",
-                "label_index": "48188",
+                "label_index": "@P48188",
                 "label_korean": "날",
                 "group_id": "53353",
                 "req_frame_id": "160352",
@@ -1832,7 +1832,7 @@
             {
                 "position": 7,
                 "mnemonic": "MP_HEURE_7",
-                "label_index": "6005",
+                "label_index": "@P6005",
                 "label_korean": "시간",
                 "group_id": "53353",
                 "req_frame_id": "160352",
@@ -1854,7 +1854,7 @@
             {
                 "position": 8,
                 "mnemonic": "MP_MINUTE_7",
-                "label_index": "8240",
+                "label_index": "@P8240",
                 "label_korean": "분",
                 "group_id": "53353",
                 "req_frame_id": "160352",
@@ -1876,7 +1876,7 @@
             {
                 "position": 9,
                 "mnemonic": "MP_SECONDE_7",
-                "label_index": "10587",
+                "label_index": "@P10587",
                 "label_korean": "초",
                 "group_id": "53353",
                 "req_frame_id": "160352",
@@ -1906,7 +1906,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_ACTION_REALISE_8",
-                "label_index": "52969",
+                "label_index": "@P52969",
                 "label_korean": "작업 수행됨",
                 "group_id": "53353",
                 "req_frame_id": "160352",
@@ -1932,7 +1932,7 @@
             {
                 "position": 2,
                 "mnemonic": "MP_IDENTIFIANT_CLIENT_8",
-                "label_index": "52957",
+                "label_index": "@P52957",
                 "label_korean": "고객 사용자 이름",
                 "group_id": "53353",
                 "req_frame_id": "160352",
@@ -1954,7 +1954,7 @@
             {
                 "position": 3,
                 "mnemonic": "MP_KILOMETRAGE_DU_VEHICULE_8",
-                "label_index": "14658",
+                "label_index": "@P14658",
                 "label_korean": "차량 주행거리",
                 "group_id": "53353",
                 "req_frame_id": "160352",
@@ -1976,7 +1976,7 @@
             {
                 "position": 4,
                 "mnemonic": "MP_ANNEE_8",
-                "label_index": "14955",
+                "label_index": "@P14955",
                 "label_korean": "연도",
                 "group_id": "53353",
                 "req_frame_id": "160352",
@@ -1998,7 +1998,7 @@
             {
                 "position": 5,
                 "mnemonic": "MP_MOIS_8",
-                "label_index": "12928",
+                "label_index": "@P12928",
                 "label_korean": "월",
                 "group_id": "53353",
                 "req_frame_id": "160352",
@@ -2020,7 +2020,7 @@
             {
                 "position": 6,
                 "mnemonic": "MP_JOUR_8",
-                "label_index": "48188",
+                "label_index": "@P48188",
                 "label_korean": "날",
                 "group_id": "53353",
                 "req_frame_id": "160352",
@@ -2042,7 +2042,7 @@
             {
                 "position": 7,
                 "mnemonic": "MP_HEURE_8",
-                "label_index": "6005",
+                "label_index": "@P6005",
                 "label_korean": "시간",
                 "group_id": "53353",
                 "req_frame_id": "160352",
@@ -2064,7 +2064,7 @@
             {
                 "position": 8,
                 "mnemonic": "MP_MINUTE_8",
-                "label_index": "8240",
+                "label_index": "@P8240",
                 "label_korean": "분",
                 "group_id": "53353",
                 "req_frame_id": "160352",
@@ -2086,7 +2086,7 @@
             {
                 "position": 9,
                 "mnemonic": "MP_SECONDE_8",
-                "label_index": "10587",
+                "label_index": "@P10587",
                 "label_korean": "초",
                 "group_id": "53353",
                 "req_frame_id": "160352",
@@ -2116,7 +2116,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_ACTION_REALISE_9",
-                "label_index": "52969",
+                "label_index": "@P52969",
                 "label_korean": "작업 수행됨",
                 "group_id": "53353",
                 "req_frame_id": "160352",
@@ -2142,7 +2142,7 @@
             {
                 "position": 2,
                 "mnemonic": "MP_IDENTIFIANT_CLIENT_9",
-                "label_index": "52957",
+                "label_index": "@P52957",
                 "label_korean": "고객 사용자 이름",
                 "group_id": "53353",
                 "req_frame_id": "160352",
@@ -2164,7 +2164,7 @@
             {
                 "position": 3,
                 "mnemonic": "MP_KILOMETRAGE_DU_VEHICULE_9",
-                "label_index": "14658",
+                "label_index": "@P14658",
                 "label_korean": "차량 주행거리",
                 "group_id": "53353",
                 "req_frame_id": "160352",
@@ -2186,7 +2186,7 @@
             {
                 "position": 4,
                 "mnemonic": "MP_ANNEE_9",
-                "label_index": "14955",
+                "label_index": "@P14955",
                 "label_korean": "연도",
                 "group_id": "53353",
                 "req_frame_id": "160352",
@@ -2208,7 +2208,7 @@
             {
                 "position": 5,
                 "mnemonic": "MP_MOIS_9",
-                "label_index": "12928",
+                "label_index": "@P12928",
                 "label_korean": "월",
                 "group_id": "53353",
                 "req_frame_id": "160352",
@@ -2230,7 +2230,7 @@
             {
                 "position": 6,
                 "mnemonic": "MP_JOUR_9",
-                "label_index": "48188",
+                "label_index": "@P48188",
                 "label_korean": "날",
                 "group_id": "53353",
                 "req_frame_id": "160352",
@@ -2252,7 +2252,7 @@
             {
                 "position": 7,
                 "mnemonic": "MP_HEURE_9",
-                "label_index": "6005",
+                "label_index": "@P6005",
                 "label_korean": "시간",
                 "group_id": "53353",
                 "req_frame_id": "160352",
@@ -2274,7 +2274,7 @@
             {
                 "position": 8,
                 "mnemonic": "MP_MINUTE_9",
-                "label_index": "8240",
+                "label_index": "@P8240",
                 "label_korean": "분",
                 "group_id": "53353",
                 "req_frame_id": "160352",
@@ -2296,7 +2296,7 @@
             {
                 "position": 9,
                 "mnemonic": "MP_SECONDE_9",
-                "label_index": "10587",
+                "label_index": "@P10587",
                 "label_korean": "초",
                 "group_id": "53353",
                 "req_frame_id": "160352",
@@ -2326,7 +2326,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_ETAT_APPRENTISSAGE_ADC",
-                "label_index": "52978",
+                "label_index": "@P52978",
                 "label_korean": "암호화된 이모빌라이저 코드의 프로그래밍 상태",
                 "group_id": "53348",
                 "req_frame_id": "160337",
@@ -2345,13 +2345,13 @@
                 "bit_mask": 1,
                 "bit_shift": 0,
                 "dynamic_arg": "",
-                "help_code": "",
+                "help_code": "@T",
                 "help_korean": ""
             },
             {
                 "position": 2,
                 "mnemonic": "MP_ETAT_SDCM_TELECHARGEMENT_OTA",
-                "label_index": "53027",
+                "label_index": "@P53027@\\*(SDCM)",
                 "label_korean": "OTA가 다운로드할 핸즈프리 장치의 상태(SDCM)",
                 "group_id": "53356",
                 "req_frame_id": "160361",
@@ -2370,13 +2370,13 @@
                 "bit_mask": 7,
                 "bit_shift": 0,
                 "dynamic_arg": "",
-                "help_code": "52980",
-                "help_korean": "OTA(Over\n- The Air): 무선 통신 시스템에서 애플리케이션 관련 정보를 송수신하기 위한 표준"
+                "help_code": "@P52980",
+                "help_korean": "OTA(Over The Air): 무선 통신 시스템에서 애플리케이션 관련 정보를 송수신하기 위한 표준"
             },
             {
                 "position": 3,
                 "mnemonic": "MP_ERREUR_DERNIER_TELECHARGEMENT_OTA",
-                "label_index": "53022",
+                "label_index": "@P53022",
                 "label_korean": "최신 OTA 다운로드 중 오류 감지됨",
                 "group_id": "53356",
                 "req_frame_id": "160361",
@@ -2403,13 +2403,13 @@
                 "bit_mask": 120,
                 "bit_shift": 3,
                 "dynamic_arg": "",
-                "help_code": "52980",
-                "help_korean": "OTA(Over\n- The Air): 무선 통신 시스템에서 애플리케이션 관련 정보를 송수신하기 위한 표준"
+                "help_code": "@P52980",
+                "help_korean": "OTA(Over The Air): 무선 통신 시스템에서 애플리케이션 관련 정보를 송수신하기 위한 표준"
             },
             {
                 "position": 4,
                 "mnemonic": "MP_ETAT_SDCM",
-                "label_index": "52968",
+                "label_index": "@P52968@\\*(SDCM)",
                 "label_korean": "핸즈프리 장치 의 상태(SDCM)",
                 "group_id": "53351",
                 "req_frame_id": "160346",
@@ -2428,7 +2428,7 @@
                 "bit_mask": 1,
                 "bit_shift": 0,
                 "dynamic_arg": "",
-                "help_code": "",
+                "help_code": "@T",
                 "help_korean": ""
             }
         ]
@@ -2442,7 +2442,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_ACTION_REALISE_10",
-                "label_index": "52969",
+                "label_index": "@P52969",
                 "label_korean": "작업 수행됨",
                 "group_id": "53353",
                 "req_frame_id": "160352",
@@ -2468,7 +2468,7 @@
             {
                 "position": 2,
                 "mnemonic": "MP_IDENTIFIANT_CLIENT_10",
-                "label_index": "52957",
+                "label_index": "@P52957",
                 "label_korean": "고객 사용자 이름",
                 "group_id": "53353",
                 "req_frame_id": "160352",
@@ -2490,7 +2490,7 @@
             {
                 "position": 3,
                 "mnemonic": "MP_KILOMETRAGE_DU_VEHICULE_10",
-                "label_index": "14658",
+                "label_index": "@P14658",
                 "label_korean": "차량 주행거리",
                 "group_id": "53353",
                 "req_frame_id": "160352",
@@ -2512,7 +2512,7 @@
             {
                 "position": 4,
                 "mnemonic": "MP_ANNEE_10",
-                "label_index": "14955",
+                "label_index": "@P14955",
                 "label_korean": "연도",
                 "group_id": "53353",
                 "req_frame_id": "160352",
@@ -2534,7 +2534,7 @@
             {
                 "position": 5,
                 "mnemonic": "MP_MOIS_10",
-                "label_index": "12928",
+                "label_index": "@P12928",
                 "label_korean": "월",
                 "group_id": "53353",
                 "req_frame_id": "160352",
@@ -2556,7 +2556,7 @@
             {
                 "position": 6,
                 "mnemonic": "MP_JOUR_10",
-                "label_index": "48188",
+                "label_index": "@P48188",
                 "label_korean": "날",
                 "group_id": "53353",
                 "req_frame_id": "160352",
@@ -2578,7 +2578,7 @@
             {
                 "position": 7,
                 "mnemonic": "MP_HEURE_10",
-                "label_index": "6005",
+                "label_index": "@P6005",
                 "label_korean": "시간",
                 "group_id": "53353",
                 "req_frame_id": "160352",
@@ -2600,7 +2600,7 @@
             {
                 "position": 8,
                 "mnemonic": "MP_MINUTE_10",
-                "label_index": "8240",
+                "label_index": "@P8240",
                 "label_korean": "분",
                 "group_id": "53353",
                 "req_frame_id": "160352",
@@ -2622,7 +2622,7 @@
             {
                 "position": 9,
                 "mnemonic": "MP_SECONDE_10",
-                "label_index": "10587",
+                "label_index": "@P10587",
                 "label_korean": "초",
                 "group_id": "53353",
                 "req_frame_id": "160352",
@@ -2652,7 +2652,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_ACTION_REALISE_11",
-                "label_index": "52969",
+                "label_index": "@P52969",
                 "label_korean": "작업 수행됨",
                 "group_id": "53354",
                 "req_frame_id": "160355",
@@ -2680,7 +2680,7 @@
             {
                 "position": 2,
                 "mnemonic": "MP_IDENTIFIANT_CLIENT_11",
-                "label_index": "52957",
+                "label_index": "@P52957",
                 "label_korean": "고객 사용자 이름",
                 "group_id": "53354",
                 "req_frame_id": "160355",
@@ -2702,7 +2702,7 @@
             {
                 "position": 3,
                 "mnemonic": "MP_KILOMETRAGE_DU_VEHICULE_11",
-                "label_index": "14658",
+                "label_index": "@P14658",
                 "label_korean": "차량 주행거리",
                 "group_id": "53354",
                 "req_frame_id": "160355",
@@ -2724,7 +2724,7 @@
             {
                 "position": 4,
                 "mnemonic": "MP_ANNEE_11",
-                "label_index": "14955",
+                "label_index": "@P14955",
                 "label_korean": "연도",
                 "group_id": "53354",
                 "req_frame_id": "160355",
@@ -2746,7 +2746,7 @@
             {
                 "position": 5,
                 "mnemonic": "MP_MOIS_11",
-                "label_index": "12928",
+                "label_index": "@P12928",
                 "label_korean": "월",
                 "group_id": "53354",
                 "req_frame_id": "160355",
@@ -2768,7 +2768,7 @@
             {
                 "position": 6,
                 "mnemonic": "MP_JOUR_11",
-                "label_index": "48188",
+                "label_index": "@P48188",
                 "label_korean": "날",
                 "group_id": "53354",
                 "req_frame_id": "160355",
@@ -2790,7 +2790,7 @@
             {
                 "position": 7,
                 "mnemonic": "MP_HEURE_11",
-                "label_index": "6005",
+                "label_index": "@P6005",
                 "label_korean": "시간",
                 "group_id": "53354",
                 "req_frame_id": "160355",
@@ -2812,7 +2812,7 @@
             {
                 "position": 8,
                 "mnemonic": "MP_MINUTE_11",
-                "label_index": "8240",
+                "label_index": "@P8240",
                 "label_korean": "분",
                 "group_id": "53354",
                 "req_frame_id": "160355",
@@ -2834,7 +2834,7 @@
             {
                 "position": 9,
                 "mnemonic": "MP_SECONDE_11",
-                "label_index": "10587",
+                "label_index": "@P10587",
                 "label_korean": "초",
                 "group_id": "53354",
                 "req_frame_id": "160355",
@@ -2864,7 +2864,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_ACTION_REALISE_12",
-                "label_index": "52969",
+                "label_index": "@P52969",
                 "label_korean": "작업 수행됨",
                 "group_id": "53354",
                 "req_frame_id": "160355",
@@ -2892,7 +2892,7 @@
             {
                 "position": 2,
                 "mnemonic": "MP_IDENTIFIANT_CLIENT_12",
-                "label_index": "52957",
+                "label_index": "@P52957",
                 "label_korean": "고객 사용자 이름",
                 "group_id": "53354",
                 "req_frame_id": "160355",
@@ -2914,7 +2914,7 @@
             {
                 "position": 3,
                 "mnemonic": "MP_KILOMETRAGE_DU_VEHICULE_12",
-                "label_index": "14658",
+                "label_index": "@P14658",
                 "label_korean": "차량 주행거리",
                 "group_id": "53354",
                 "req_frame_id": "160355",
@@ -2936,7 +2936,7 @@
             {
                 "position": 4,
                 "mnemonic": "MP_ANNEE_12",
-                "label_index": "14955",
+                "label_index": "@P14955",
                 "label_korean": "연도",
                 "group_id": "53354",
                 "req_frame_id": "160355",
@@ -2958,7 +2958,7 @@
             {
                 "position": 5,
                 "mnemonic": "MP_MOIS_12",
-                "label_index": "12928",
+                "label_index": "@P12928",
                 "label_korean": "월",
                 "group_id": "53354",
                 "req_frame_id": "160355",
@@ -2980,7 +2980,7 @@
             {
                 "position": 6,
                 "mnemonic": "MP_JOUR_12",
-                "label_index": "48188",
+                "label_index": "@P48188",
                 "label_korean": "날",
                 "group_id": "53354",
                 "req_frame_id": "160355",
@@ -3002,7 +3002,7 @@
             {
                 "position": 7,
                 "mnemonic": "MP_HEURE_12",
-                "label_index": "6005",
+                "label_index": "@P6005",
                 "label_korean": "시간",
                 "group_id": "53354",
                 "req_frame_id": "160355",
@@ -3024,7 +3024,7 @@
             {
                 "position": 8,
                 "mnemonic": "MP_MINUTE_12",
-                "label_index": "8240",
+                "label_index": "@P8240",
                 "label_korean": "분",
                 "group_id": "53354",
                 "req_frame_id": "160355",
@@ -3046,7 +3046,7 @@
             {
                 "position": 9,
                 "mnemonic": "MP_SECONDE_12",
-                "label_index": "10587",
+                "label_index": "@P10587",
                 "label_korean": "초",
                 "group_id": "53354",
                 "req_frame_id": "160355",
@@ -3076,7 +3076,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_ACTION_REALISE_13",
-                "label_index": "52969",
+                "label_index": "@P52969",
                 "label_korean": "작업 수행됨",
                 "group_id": "53354",
                 "req_frame_id": "160355",
@@ -3104,7 +3104,7 @@
             {
                 "position": 2,
                 "mnemonic": "MP_IDENTIFIANT_CLIENT_13",
-                "label_index": "52957",
+                "label_index": "@P52957",
                 "label_korean": "고객 사용자 이름",
                 "group_id": "53354",
                 "req_frame_id": "160355",
@@ -3126,7 +3126,7 @@
             {
                 "position": 3,
                 "mnemonic": "MP_KILOMETRAGE_DU_VEHICULE_13",
-                "label_index": "14658",
+                "label_index": "@P14658",
                 "label_korean": "차량 주행거리",
                 "group_id": "53354",
                 "req_frame_id": "160355",
@@ -3148,7 +3148,7 @@
             {
                 "position": 4,
                 "mnemonic": "MP_ANNEE_13",
-                "label_index": "14955",
+                "label_index": "@P14955",
                 "label_korean": "연도",
                 "group_id": "53354",
                 "req_frame_id": "160355",
@@ -3170,7 +3170,7 @@
             {
                 "position": 5,
                 "mnemonic": "MP_MOIS_13",
-                "label_index": "12928",
+                "label_index": "@P12928",
                 "label_korean": "월",
                 "group_id": "53354",
                 "req_frame_id": "160355",
@@ -3192,7 +3192,7 @@
             {
                 "position": 6,
                 "mnemonic": "MP_JOUR_13",
-                "label_index": "48188",
+                "label_index": "@P48188",
                 "label_korean": "날",
                 "group_id": "53354",
                 "req_frame_id": "160355",
@@ -3214,7 +3214,7 @@
             {
                 "position": 7,
                 "mnemonic": "MP_HEURE_13",
-                "label_index": "6005",
+                "label_index": "@P6005",
                 "label_korean": "시간",
                 "group_id": "53354",
                 "req_frame_id": "160355",
@@ -3236,7 +3236,7 @@
             {
                 "position": 8,
                 "mnemonic": "MP_MINUTE_13",
-                "label_index": "8240",
+                "label_index": "@P8240",
                 "label_korean": "분",
                 "group_id": "53354",
                 "req_frame_id": "160355",
@@ -3258,7 +3258,7 @@
             {
                 "position": 9,
                 "mnemonic": "MP_SECONDE_13",
-                "label_index": "10587",
+                "label_index": "@P10587",
                 "label_korean": "초",
                 "group_id": "53354",
                 "req_frame_id": "160355",
@@ -3288,7 +3288,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_ACTION_REALISE_14",
-                "label_index": "52969",
+                "label_index": "@P52969",
                 "label_korean": "작업 수행됨",
                 "group_id": "53354",
                 "req_frame_id": "160355",
@@ -3316,7 +3316,7 @@
             {
                 "position": 2,
                 "mnemonic": "MP_IDENTIFIANT_CLIENT_14",
-                "label_index": "52957",
+                "label_index": "@P52957",
                 "label_korean": "고객 사용자 이름",
                 "group_id": "53354",
                 "req_frame_id": "160355",
@@ -3338,7 +3338,7 @@
             {
                 "position": 3,
                 "mnemonic": "MP_KILOMETRAGE_DU_VEHICULE_14",
-                "label_index": "14658",
+                "label_index": "@P14658",
                 "label_korean": "차량 주행거리",
                 "group_id": "53354",
                 "req_frame_id": "160355",
@@ -3360,7 +3360,7 @@
             {
                 "position": 4,
                 "mnemonic": "MP_ANNEE_14",
-                "label_index": "14955",
+                "label_index": "@P14955",
                 "label_korean": "연도",
                 "group_id": "53354",
                 "req_frame_id": "160355",
@@ -3382,7 +3382,7 @@
             {
                 "position": 5,
                 "mnemonic": "MP_MOIS_14",
-                "label_index": "12928",
+                "label_index": "@P12928",
                 "label_korean": "월",
                 "group_id": "53354",
                 "req_frame_id": "160355",
@@ -3404,7 +3404,7 @@
             {
                 "position": 6,
                 "mnemonic": "MP_JOUR_14",
-                "label_index": "48188",
+                "label_index": "@P48188",
                 "label_korean": "날",
                 "group_id": "53354",
                 "req_frame_id": "160355",
@@ -3426,7 +3426,7 @@
             {
                 "position": 7,
                 "mnemonic": "MP_HEURE_14",
-                "label_index": "6005",
+                "label_index": "@P6005",
                 "label_korean": "시간",
                 "group_id": "53354",
                 "req_frame_id": "160355",
@@ -3448,7 +3448,7 @@
             {
                 "position": 8,
                 "mnemonic": "MP_MINUTE_14",
-                "label_index": "8240",
+                "label_index": "@P8240",
                 "label_korean": "분",
                 "group_id": "53354",
                 "req_frame_id": "160355",
@@ -3470,7 +3470,7 @@
             {
                 "position": 9,
                 "mnemonic": "MP_SECONDE_14",
-                "label_index": "10587",
+                "label_index": "@P10587",
                 "label_korean": "초",
                 "group_id": "53354",
                 "req_frame_id": "160355",
@@ -3500,7 +3500,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_ACTION_REALISE_15",
-                "label_index": "52969",
+                "label_index": "@P52969",
                 "label_korean": "작업 수행됨",
                 "group_id": "53354",
                 "req_frame_id": "160355",
@@ -3528,7 +3528,7 @@
             {
                 "position": 2,
                 "mnemonic": "MP_IDENTIFIANT_CLIENT_15",
-                "label_index": "52957",
+                "label_index": "@P52957",
                 "label_korean": "고객 사용자 이름",
                 "group_id": "53354",
                 "req_frame_id": "160355",
@@ -3550,7 +3550,7 @@
             {
                 "position": 3,
                 "mnemonic": "MP_KILOMETRAGE_DU_VEHICULE_15",
-                "label_index": "14658",
+                "label_index": "@P14658",
                 "label_korean": "차량 주행거리",
                 "group_id": "53354",
                 "req_frame_id": "160355",
@@ -3572,7 +3572,7 @@
             {
                 "position": 4,
                 "mnemonic": "MP_ANNEE_15",
-                "label_index": "14955",
+                "label_index": "@P14955",
                 "label_korean": "연도",
                 "group_id": "53354",
                 "req_frame_id": "160355",
@@ -3594,7 +3594,7 @@
             {
                 "position": 5,
                 "mnemonic": "MP_MOIS_15",
-                "label_index": "12928",
+                "label_index": "@P12928",
                 "label_korean": "월",
                 "group_id": "53354",
                 "req_frame_id": "160355",
@@ -3616,7 +3616,7 @@
             {
                 "position": 6,
                 "mnemonic": "MP_JOUR_15",
-                "label_index": "48188",
+                "label_index": "@P48188",
                 "label_korean": "날",
                 "group_id": "53354",
                 "req_frame_id": "160355",
@@ -3638,7 +3638,7 @@
             {
                 "position": 7,
                 "mnemonic": "MP_HEURE_15",
-                "label_index": "6005",
+                "label_index": "@P6005",
                 "label_korean": "시간",
                 "group_id": "53354",
                 "req_frame_id": "160355",
@@ -3660,7 +3660,7 @@
             {
                 "position": 8,
                 "mnemonic": "MP_MINUTE_15",
-                "label_index": "8240",
+                "label_index": "@P8240",
                 "label_korean": "분",
                 "group_id": "53354",
                 "req_frame_id": "160355",
@@ -3682,7 +3682,7 @@
             {
                 "position": 9,
                 "mnemonic": "MP_SECONDE_15",
-                "label_index": "10587",
+                "label_index": "@P10587",
                 "label_korean": "초",
                 "group_id": "53354",
                 "req_frame_id": "160355",
@@ -3712,7 +3712,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_ACTION_REALISE_16",
-                "label_index": "52969",
+                "label_index": "@P52969",
                 "label_korean": "작업 수행됨",
                 "group_id": "53354",
                 "req_frame_id": "160355",
@@ -3740,7 +3740,7 @@
             {
                 "position": 2,
                 "mnemonic": "MP_IDENTIFIANT_CLIENT_16",
-                "label_index": "52957",
+                "label_index": "@P52957",
                 "label_korean": "고객 사용자 이름",
                 "group_id": "53354",
                 "req_frame_id": "160355",
@@ -3762,7 +3762,7 @@
             {
                 "position": 3,
                 "mnemonic": "MP_KILOMETRAGE_DU_VEHICULE_16",
-                "label_index": "14658",
+                "label_index": "@P14658",
                 "label_korean": "차량 주행거리",
                 "group_id": "53354",
                 "req_frame_id": "160355",
@@ -3784,7 +3784,7 @@
             {
                 "position": 4,
                 "mnemonic": "MP_ANNEE_16",
-                "label_index": "14955",
+                "label_index": "@P14955",
                 "label_korean": "연도",
                 "group_id": "53354",
                 "req_frame_id": "160355",
@@ -3806,7 +3806,7 @@
             {
                 "position": 5,
                 "mnemonic": "MP_MOIS_16",
-                "label_index": "12928",
+                "label_index": "@P12928",
                 "label_korean": "월",
                 "group_id": "53354",
                 "req_frame_id": "160355",
@@ -3828,7 +3828,7 @@
             {
                 "position": 6,
                 "mnemonic": "MP_JOUR_16",
-                "label_index": "48188",
+                "label_index": "@P48188",
                 "label_korean": "날",
                 "group_id": "53354",
                 "req_frame_id": "160355",
@@ -3850,7 +3850,7 @@
             {
                 "position": 7,
                 "mnemonic": "MP_HEURE_16",
-                "label_index": "6005",
+                "label_index": "@P6005",
                 "label_korean": "시간",
                 "group_id": "53354",
                 "req_frame_id": "160355",
@@ -3872,7 +3872,7 @@
             {
                 "position": 8,
                 "mnemonic": "MP_MINUTE_16",
-                "label_index": "8240",
+                "label_index": "@P8240",
                 "label_korean": "분",
                 "group_id": "53354",
                 "req_frame_id": "160355",
@@ -3894,7 +3894,7 @@
             {
                 "position": 9,
                 "mnemonic": "MP_SECONDE_16",
-                "label_index": "10587",
+                "label_index": "@P10587",
                 "label_korean": "초",
                 "group_id": "53354",
                 "req_frame_id": "160355",
@@ -3924,7 +3924,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_ACTION_REALISE_17",
-                "label_index": "52969",
+                "label_index": "@P52969",
                 "label_korean": "작업 수행됨",
                 "group_id": "53354",
                 "req_frame_id": "160355",
@@ -3952,7 +3952,7 @@
             {
                 "position": 2,
                 "mnemonic": "MP_IDENTIFIANT_CLIENT_17",
-                "label_index": "52957",
+                "label_index": "@P52957",
                 "label_korean": "고객 사용자 이름",
                 "group_id": "53354",
                 "req_frame_id": "160355",
@@ -3974,7 +3974,7 @@
             {
                 "position": 3,
                 "mnemonic": "MP_KILOMETRAGE_DU_VEHICULE_17",
-                "label_index": "14658",
+                "label_index": "@P14658",
                 "label_korean": "차량 주행거리",
                 "group_id": "53354",
                 "req_frame_id": "160355",
@@ -3996,7 +3996,7 @@
             {
                 "position": 4,
                 "mnemonic": "MP_ANNEE_17",
-                "label_index": "14955",
+                "label_index": "@P14955",
                 "label_korean": "연도",
                 "group_id": "53354",
                 "req_frame_id": "160355",
@@ -4018,7 +4018,7 @@
             {
                 "position": 5,
                 "mnemonic": "MP_MOIS_17",
-                "label_index": "12928",
+                "label_index": "@P12928",
                 "label_korean": "월",
                 "group_id": "53354",
                 "req_frame_id": "160355",
@@ -4040,7 +4040,7 @@
             {
                 "position": 6,
                 "mnemonic": "MP_JOUR_17",
-                "label_index": "48188",
+                "label_index": "@P48188",
                 "label_korean": "날",
                 "group_id": "53354",
                 "req_frame_id": "160355",
@@ -4062,7 +4062,7 @@
             {
                 "position": 7,
                 "mnemonic": "MP_HEURE_17",
-                "label_index": "6005",
+                "label_index": "@P6005",
                 "label_korean": "시간",
                 "group_id": "53354",
                 "req_frame_id": "160355",
@@ -4084,7 +4084,7 @@
             {
                 "position": 8,
                 "mnemonic": "MP_MINUTE_17",
-                "label_index": "8240",
+                "label_index": "@P8240",
                 "label_korean": "분",
                 "group_id": "53354",
                 "req_frame_id": "160355",
@@ -4106,7 +4106,7 @@
             {
                 "position": 9,
                 "mnemonic": "MP_SECONDE_17",
-                "label_index": "10587",
+                "label_index": "@P10587",
                 "label_korean": "초",
                 "group_id": "53354",
                 "req_frame_id": "160355",
@@ -4136,7 +4136,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_ACTION_REALISE_18",
-                "label_index": "52969",
+                "label_index": "@P52969",
                 "label_korean": "작업 수행됨",
                 "group_id": "53354",
                 "req_frame_id": "160355",
@@ -4164,7 +4164,7 @@
             {
                 "position": 2,
                 "mnemonic": "MP_IDENTIFIANT_CLIENT_18",
-                "label_index": "52957",
+                "label_index": "@P52957",
                 "label_korean": "고객 사용자 이름",
                 "group_id": "53354",
                 "req_frame_id": "160355",
@@ -4186,7 +4186,7 @@
             {
                 "position": 3,
                 "mnemonic": "MP_KILOMETRAGE_DU_VEHICULE_18",
-                "label_index": "14658",
+                "label_index": "@P14658",
                 "label_korean": "차량 주행거리",
                 "group_id": "53354",
                 "req_frame_id": "160355",
@@ -4208,7 +4208,7 @@
             {
                 "position": 4,
                 "mnemonic": "MP_ANNEE_18",
-                "label_index": "14955",
+                "label_index": "@P14955",
                 "label_korean": "연도",
                 "group_id": "53354",
                 "req_frame_id": "160355",
@@ -4230,7 +4230,7 @@
             {
                 "position": 5,
                 "mnemonic": "MP_MOIS_18",
-                "label_index": "12928",
+                "label_index": "@P12928",
                 "label_korean": "월",
                 "group_id": "53354",
                 "req_frame_id": "160355",
@@ -4252,7 +4252,7 @@
             {
                 "position": 6,
                 "mnemonic": "MP_JOUR_18",
-                "label_index": "48188",
+                "label_index": "@P48188",
                 "label_korean": "날",
                 "group_id": "53354",
                 "req_frame_id": "160355",
@@ -4274,7 +4274,7 @@
             {
                 "position": 7,
                 "mnemonic": "MP_HEURE_18",
-                "label_index": "6005",
+                "label_index": "@P6005",
                 "label_korean": "시간",
                 "group_id": "53354",
                 "req_frame_id": "160355",
@@ -4296,7 +4296,7 @@
             {
                 "position": 8,
                 "mnemonic": "MP_MINUTE_18",
-                "label_index": "8240",
+                "label_index": "@P8240",
                 "label_korean": "분",
                 "group_id": "53354",
                 "req_frame_id": "160355",
@@ -4318,7 +4318,7 @@
             {
                 "position": 9,
                 "mnemonic": "MP_SECONDE_18",
-                "label_index": "10587",
+                "label_index": "@P10587",
                 "label_korean": "초",
                 "group_id": "53354",
                 "req_frame_id": "160355",
@@ -4348,7 +4348,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_ACTION_REALISE_19",
-                "label_index": "52969",
+                "label_index": "@P52969",
                 "label_korean": "작업 수행됨",
                 "group_id": "53354",
                 "req_frame_id": "160355",
@@ -4376,7 +4376,7 @@
             {
                 "position": 2,
                 "mnemonic": "MP_IDENTIFIANT_CLIENT_19",
-                "label_index": "52957",
+                "label_index": "@P52957",
                 "label_korean": "고객 사용자 이름",
                 "group_id": "53354",
                 "req_frame_id": "160355",
@@ -4398,7 +4398,7 @@
             {
                 "position": 3,
                 "mnemonic": "MP_KILOMETRAGE_DU_VEHICULE_19",
-                "label_index": "14658",
+                "label_index": "@P14658",
                 "label_korean": "차량 주행거리",
                 "group_id": "53354",
                 "req_frame_id": "160355",
@@ -4420,7 +4420,7 @@
             {
                 "position": 4,
                 "mnemonic": "MP_ANNEE_19",
-                "label_index": "14955",
+                "label_index": "@P14955",
                 "label_korean": "연도",
                 "group_id": "53354",
                 "req_frame_id": "160355",
@@ -4442,7 +4442,7 @@
             {
                 "position": 5,
                 "mnemonic": "MP_MOIS_19",
-                "label_index": "12928",
+                "label_index": "@P12928",
                 "label_korean": "월",
                 "group_id": "53354",
                 "req_frame_id": "160355",
@@ -4464,7 +4464,7 @@
             {
                 "position": 6,
                 "mnemonic": "MP_JOUR_19",
-                "label_index": "48188",
+                "label_index": "@P48188",
                 "label_korean": "날",
                 "group_id": "53354",
                 "req_frame_id": "160355",
@@ -4486,7 +4486,7 @@
             {
                 "position": 7,
                 "mnemonic": "MP_HEURE_19",
-                "label_index": "6005",
+                "label_index": "@P6005",
                 "label_korean": "시간",
                 "group_id": "53354",
                 "req_frame_id": "160355",
@@ -4508,7 +4508,7 @@
             {
                 "position": 8,
                 "mnemonic": "MP_MINUTE_19",
-                "label_index": "8240",
+                "label_index": "@P8240",
                 "label_korean": "분",
                 "group_id": "53354",
                 "req_frame_id": "160355",
@@ -4530,7 +4530,7 @@
             {
                 "position": 9,
                 "mnemonic": "MP_SECONDE_19",
-                "label_index": "10587",
+                "label_index": "@P10587",
                 "label_korean": "초",
                 "group_id": "53354",
                 "req_frame_id": "160355",
@@ -4560,7 +4560,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_ETAT_APPRENTISSAGE_ADC",
-                "label_index": "52978",
+                "label_index": "@P52978",
                 "label_korean": "암호화된 이모빌라이저 코드의 프로그래밍 상태",
                 "group_id": "53348",
                 "req_frame_id": "160337",
@@ -4579,13 +4579,13 @@
                 "bit_mask": 1,
                 "bit_shift": 0,
                 "dynamic_arg": "",
-                "help_code": "",
+                "help_code": "@T",
                 "help_korean": ""
             },
             {
                 "position": 2,
                 "mnemonic": "MP_ETAT_SDCM",
-                "label_index": "52968",
+                "label_index": "@P52968@\\*(SDCM)",
                 "label_korean": "핸즈프리 장치 의 상태(SDCM)",
                 "group_id": "53351",
                 "req_frame_id": "160346",
@@ -4604,7 +4604,7 @@
                 "bit_mask": 1,
                 "bit_shift": 0,
                 "dynamic_arg": "",
-                "help_code": "",
+                "help_code": "@T",
                 "help_korean": ""
             }
         ]
@@ -4618,7 +4618,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_RECEPTION_MESSAGE_TELECOMMANDE",
-                "label_index": "53776",
+                "label_index": "@P53776",
                 "label_korean": "프로그래밍된 핸즈프리 리모컨에서 신호 수신",
                 "group_id": "53350",
                 "req_frame_id": "160343",
@@ -4643,7 +4643,7 @@
             {
                 "position": 2,
                 "mnemonic": "MP_NUMERO_TELECOMMANDE",
-                "label_index": "52975",
+                "label_index": "@P52975",
                 "label_korean": "감지된 핸즈프리 리모컨 수",
                 "group_id": "53350",
                 "req_frame_id": "160343",
@@ -4665,7 +4665,7 @@
             {
                 "position": 3,
                 "mnemonic": "MP_RECEPTION_MESSAGE_TELECOMMANDE_NON_APPRISE",
-                "label_index": "53775",
+                "label_index": "@P53775",
                 "label_korean": "프로그래밍되지 않은 핸즈프리 리모컨에서 신호 수신",
                 "group_id": "53350",
                 "req_frame_id": "160343",
@@ -4690,7 +4690,7 @@
             {
                 "position": 4,
                 "mnemonic": "MP_NOMBRE_TELECOMMANDE_ENREGISTRE",
-                "label_index": "53012",
+                "label_index": "@P53012",
                 "label_korean": "등록된 핸즈프리 리모컨의 총 수",
                 "group_id": "53350",
                 "req_frame_id": "160343",
@@ -4712,7 +4712,7 @@
             {
                 "position": 5,
                 "mnemonic": "MP_NB_ATTACK_DETECTE",
-                "label_index": "53039",
+                "label_index": "@P53039",
                 "label_korean": "단일 안테나에서 핸즈프리 리모컨 감지 횟수 카운터",
                 "group_id": "53350",
                 "req_frame_id": "160343",
@@ -4734,7 +4734,7 @@
             {
                 "position": 6,
                 "mnemonic": "MP_ETAT_FONCTION_ADML",
-                "label_index": "53034",
+                "label_index": "@P53034",
                 "label_korean": "키리스 승차 및 시동 기능의 상태",
                 "group_id": "53351",
                 "req_frame_id": "160346",
@@ -4753,13 +4753,13 @@
                 "bit_mask": 4,
                 "bit_shift": 2,
                 "dynamic_arg": "",
-                "help_code": "",
+                "help_code": "@T",
                 "help_korean": ""
             },
             {
                 "position": 7,
                 "mnemonic": "MP_ETAT_FONCTION_UIR",
-                "label_index": "53037",
+                "label_index": "@P53037",
                 "label_korean": "차량 잠금 해제 감지 영역 기능(UIR)의 상태",
                 "group_id": "53351",
                 "req_frame_id": "160346",
@@ -4778,13 +4778,13 @@
                 "bit_mask": 2,
                 "bit_shift": 1,
                 "dynamic_arg": "",
-                "help_code": "53036",
+                "help_code": "@P53036",
                 "help_korean": "UIR: 핸즈프리 리모컨이 접근하면 차량을 잠금 해제하는 기능"
             },
             {
                 "position": 8,
                 "mnemonic": "MP_ETAT_INTEROGATION_WAL_SDCM",
-                "label_index": "53033",
+                "label_index": "@P53033",
                 "label_korean": "차량 잠금 감지 영역 기능(WAL)의 상태",
                 "group_id": "53351",
                 "req_frame_id": "160346",
@@ -4803,13 +4803,13 @@
                 "bit_mask": 8,
                 "bit_shift": 3,
                 "dynamic_arg": "",
-                "help_code": "53038",
+                "help_code": "@P53038",
                 "help_korean": "WAL: 핸즈프리 리모컨이 멀어지면 차량을 잠그는 기능"
             },
             {
                 "position": 9,
                 "mnemonic": "MP_ETAT_TELECOMMANDE_1",
-                "label_index": "52985",
+                "label_index": "@P52985@\\*1",
                 "label_korean": "핸즈프리 리모컨 1의 상태",
                 "group_id": "53351",
                 "req_frame_id": "160346",
@@ -4834,7 +4834,7 @@
             {
                 "position": 10,
                 "mnemonic": "MP_ETAT_TELECOMMANDE_2",
-                "label_index": "52985",
+                "label_index": "@P52985@\\*2",
                 "label_korean": "핸즈프리 리모컨 2의 상태",
                 "group_id": "53351",
                 "req_frame_id": "160346",
@@ -4859,7 +4859,7 @@
             {
                 "position": 11,
                 "mnemonic": "MP_ETAT_TELECOMMANDE_3",
-                "label_index": "52985",
+                "label_index": "@P52985@\\*3",
                 "label_korean": "핸즈프리 리모컨 3의 상태",
                 "group_id": "53351",
                 "req_frame_id": "160346",
@@ -4884,7 +4884,7 @@
             {
                 "position": 12,
                 "mnemonic": "MP_ETAT_TELECOMMANDE_4",
-                "label_index": "52985",
+                "label_index": "@P52985@\\*4",
                 "label_korean": "핸즈프리 리모컨 4의 상태",
                 "group_id": "53351",
                 "req_frame_id": "160346",
@@ -4909,7 +4909,7 @@
             {
                 "position": 13,
                 "mnemonic": "MP_ETAT_TELECOMMANDE_5",
-                "label_index": "52985",
+                "label_index": "@P52985@\\*5",
                 "label_korean": "핸즈프리 리모컨 5의 상태",
                 "group_id": "53351",
                 "req_frame_id": "160346",
@@ -4942,7 +4942,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_ACTION_REALISE_20",
-                "label_index": "52969",
+                "label_index": "@P52969",
                 "label_korean": "작업 수행됨",
                 "group_id": "53354",
                 "req_frame_id": "160355",
@@ -4970,7 +4970,7 @@
             {
                 "position": 2,
                 "mnemonic": "MP_IDENTIFIANT_CLIENT_20",
-                "label_index": "52957",
+                "label_index": "@P52957",
                 "label_korean": "고객 사용자 이름",
                 "group_id": "53354",
                 "req_frame_id": "160355",
@@ -4992,7 +4992,7 @@
             {
                 "position": 3,
                 "mnemonic": "MP_KILOMETRAGE_DU_VEHICULE_20",
-                "label_index": "14658",
+                "label_index": "@P14658",
                 "label_korean": "차량 주행거리",
                 "group_id": "53354",
                 "req_frame_id": "160355",
@@ -5014,7 +5014,7 @@
             {
                 "position": 4,
                 "mnemonic": "MP_ANNEE_20",
-                "label_index": "14955",
+                "label_index": "@P14955",
                 "label_korean": "연도",
                 "group_id": "53354",
                 "req_frame_id": "160355",
@@ -5036,7 +5036,7 @@
             {
                 "position": 5,
                 "mnemonic": "MP_MOIS_20",
-                "label_index": "12928",
+                "label_index": "@P12928",
                 "label_korean": "월",
                 "group_id": "53354",
                 "req_frame_id": "160355",
@@ -5058,7 +5058,7 @@
             {
                 "position": 6,
                 "mnemonic": "MP_JOUR_20",
-                "label_index": "48188",
+                "label_index": "@P48188",
                 "label_korean": "날",
                 "group_id": "53354",
                 "req_frame_id": "160355",
@@ -5080,7 +5080,7 @@
             {
                 "position": 7,
                 "mnemonic": "MP_HEURE_20",
-                "label_index": "6005",
+                "label_index": "@P6005",
                 "label_korean": "시간",
                 "group_id": "53354",
                 "req_frame_id": "160355",
@@ -5102,7 +5102,7 @@
             {
                 "position": 8,
                 "mnemonic": "MP_MINUTE_20",
-                "label_index": "8240",
+                "label_index": "@P8240",
                 "label_korean": "분",
                 "group_id": "53354",
                 "req_frame_id": "160355",
@@ -5124,7 +5124,7 @@
             {
                 "position": 9,
                 "mnemonic": "MP_SECONDE_20",
-                "label_index": "10587",
+                "label_index": "@P10587",
                 "label_korean": "초",
                 "group_id": "53354",
                 "req_frame_id": "160355",
@@ -5154,7 +5154,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_ACTION_REALISE_21",
-                "label_index": "52969",
+                "label_index": "@P52969",
                 "label_korean": "작업 수행됨",
                 "group_id": "53355",
                 "req_frame_id": "160358",
@@ -5184,7 +5184,7 @@
             {
                 "position": 2,
                 "mnemonic": "MP_IDENTIFIANT_CLIENT_21",
-                "label_index": "52957",
+                "label_index": "@P52957",
                 "label_korean": "고객 사용자 이름",
                 "group_id": "53355",
                 "req_frame_id": "160358",
@@ -5206,7 +5206,7 @@
             {
                 "position": 3,
                 "mnemonic": "MP_KILOMETRAGE_DU_VEHICULE_21",
-                "label_index": "14658",
+                "label_index": "@P14658",
                 "label_korean": "차량 주행거리",
                 "group_id": "53355",
                 "req_frame_id": "160358",
@@ -5228,7 +5228,7 @@
             {
                 "position": 4,
                 "mnemonic": "MP_ANNEE_21",
-                "label_index": "14955",
+                "label_index": "@P14955",
                 "label_korean": "연도",
                 "group_id": "53355",
                 "req_frame_id": "160358",
@@ -5250,7 +5250,7 @@
             {
                 "position": 5,
                 "mnemonic": "MP_MOIS_21",
-                "label_index": "12928",
+                "label_index": "@P12928",
                 "label_korean": "월",
                 "group_id": "53355",
                 "req_frame_id": "160358",
@@ -5272,7 +5272,7 @@
             {
                 "position": 6,
                 "mnemonic": "MP_JOUR_21",
-                "label_index": "48188",
+                "label_index": "@P48188",
                 "label_korean": "날",
                 "group_id": "53355",
                 "req_frame_id": "160358",
@@ -5294,7 +5294,7 @@
             {
                 "position": 7,
                 "mnemonic": "MP_HEURE_21",
-                "label_index": "6005",
+                "label_index": "@P6005",
                 "label_korean": "시간",
                 "group_id": "53355",
                 "req_frame_id": "160358",
@@ -5316,7 +5316,7 @@
             {
                 "position": 8,
                 "mnemonic": "MP_MINUTE_21",
-                "label_index": "8240",
+                "label_index": "@P8240",
                 "label_korean": "분",
                 "group_id": "53355",
                 "req_frame_id": "160358",
@@ -5338,7 +5338,7 @@
             {
                 "position": 9,
                 "mnemonic": "MP_SECONDE_21",
-                "label_index": "10587",
+                "label_index": "@P10587",
                 "label_korean": "초",
                 "group_id": "53355",
                 "req_frame_id": "160358",
@@ -5368,7 +5368,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_ACTION_REALISE_22",
-                "label_index": "52969",
+                "label_index": "@P52969",
                 "label_korean": "작업 수행됨",
                 "group_id": "53355",
                 "req_frame_id": "160358",
@@ -5398,7 +5398,7 @@
             {
                 "position": 2,
                 "mnemonic": "MP_IDENTIFIANT_CLIENT_22",
-                "label_index": "52957",
+                "label_index": "@P52957",
                 "label_korean": "고객 사용자 이름",
                 "group_id": "53355",
                 "req_frame_id": "160358",
@@ -5420,7 +5420,7 @@
             {
                 "position": 3,
                 "mnemonic": "MP_KILOMETRAGE_DU_VEHICULE_22",
-                "label_index": "14658",
+                "label_index": "@P14658",
                 "label_korean": "차량 주행거리",
                 "group_id": "53355",
                 "req_frame_id": "160358",
@@ -5442,7 +5442,7 @@
             {
                 "position": 4,
                 "mnemonic": "MP_ANNEE_22",
-                "label_index": "14955",
+                "label_index": "@P14955",
                 "label_korean": "연도",
                 "group_id": "53355",
                 "req_frame_id": "160358",
@@ -5464,7 +5464,7 @@
             {
                 "position": 5,
                 "mnemonic": "MP_MOIS_22",
-                "label_index": "12928",
+                "label_index": "@P12928",
                 "label_korean": "월",
                 "group_id": "53355",
                 "req_frame_id": "160358",
@@ -5486,7 +5486,7 @@
             {
                 "position": 6,
                 "mnemonic": "MP_JOUR_22",
-                "label_index": "48188",
+                "label_index": "@P48188",
                 "label_korean": "날",
                 "group_id": "53355",
                 "req_frame_id": "160358",
@@ -5508,7 +5508,7 @@
             {
                 "position": 7,
                 "mnemonic": "MP_HEURE_22",
-                "label_index": "6005",
+                "label_index": "@P6005",
                 "label_korean": "시간",
                 "group_id": "53355",
                 "req_frame_id": "160358",
@@ -5530,7 +5530,7 @@
             {
                 "position": 8,
                 "mnemonic": "MP_MINUTE_22",
-                "label_index": "8240",
+                "label_index": "@P8240",
                 "label_korean": "분",
                 "group_id": "53355",
                 "req_frame_id": "160358",
@@ -5552,7 +5552,7 @@
             {
                 "position": 9,
                 "mnemonic": "MP_SECONDE_22",
-                "label_index": "10587",
+                "label_index": "@P10587",
                 "label_korean": "초",
                 "group_id": "53355",
                 "req_frame_id": "160358",
@@ -5582,7 +5582,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_ACTION_REALISE_23",
-                "label_index": "52969",
+                "label_index": "@P52969",
                 "label_korean": "작업 수행됨",
                 "group_id": "53355",
                 "req_frame_id": "160358",
@@ -5612,7 +5612,7 @@
             {
                 "position": 2,
                 "mnemonic": "MP_IDENTIFIANT_CLIENT_23",
-                "label_index": "52957",
+                "label_index": "@P52957",
                 "label_korean": "고객 사용자 이름",
                 "group_id": "53355",
                 "req_frame_id": "160358",
@@ -5634,7 +5634,7 @@
             {
                 "position": 3,
                 "mnemonic": "MP_KILOMETRAGE_DU_VEHICULE_23",
-                "label_index": "14658",
+                "label_index": "@P14658",
                 "label_korean": "차량 주행거리",
                 "group_id": "53355",
                 "req_frame_id": "160358",
@@ -5656,7 +5656,7 @@
             {
                 "position": 4,
                 "mnemonic": "MP_ANNEE_23",
-                "label_index": "14955",
+                "label_index": "@P14955",
                 "label_korean": "연도",
                 "group_id": "53355",
                 "req_frame_id": "160358",
@@ -5678,7 +5678,7 @@
             {
                 "position": 5,
                 "mnemonic": "MP_MOIS_23",
-                "label_index": "12928",
+                "label_index": "@P12928",
                 "label_korean": "월",
                 "group_id": "53355",
                 "req_frame_id": "160358",
@@ -5700,7 +5700,7 @@
             {
                 "position": 6,
                 "mnemonic": "MP_JOUR_23",
-                "label_index": "48188",
+                "label_index": "@P48188",
                 "label_korean": "날",
                 "group_id": "53355",
                 "req_frame_id": "160358",
@@ -5722,7 +5722,7 @@
             {
                 "position": 7,
                 "mnemonic": "MP_HEURE_23",
-                "label_index": "6005",
+                "label_index": "@P6005",
                 "label_korean": "시간",
                 "group_id": "53355",
                 "req_frame_id": "160358",
@@ -5744,7 +5744,7 @@
             {
                 "position": 8,
                 "mnemonic": "MP_MINUTE_23",
-                "label_index": "8240",
+                "label_index": "@P8240",
                 "label_korean": "분",
                 "group_id": "53355",
                 "req_frame_id": "160358",
@@ -5766,7 +5766,7 @@
             {
                 "position": 9,
                 "mnemonic": "MP_SECONDE_23",
-                "label_index": "10587",
+                "label_index": "@P10587",
                 "label_korean": "초",
                 "group_id": "53355",
                 "req_frame_id": "160358",
@@ -5796,7 +5796,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_ACTION_REALISE_24",
-                "label_index": "52969",
+                "label_index": "@P52969",
                 "label_korean": "작업 수행됨",
                 "group_id": "53355",
                 "req_frame_id": "160358",
@@ -5826,7 +5826,7 @@
             {
                 "position": 2,
                 "mnemonic": "MP_IDENTIFIANT_CLIENT_24",
-                "label_index": "52957",
+                "label_index": "@P52957",
                 "label_korean": "고객 사용자 이름",
                 "group_id": "53355",
                 "req_frame_id": "160358",
@@ -5848,7 +5848,7 @@
             {
                 "position": 3,
                 "mnemonic": "MP_KILOMETRAGE_DU_VEHICULE_24",
-                "label_index": "14658",
+                "label_index": "@P14658",
                 "label_korean": "차량 주행거리",
                 "group_id": "53355",
                 "req_frame_id": "160358",
@@ -5870,7 +5870,7 @@
             {
                 "position": 4,
                 "mnemonic": "MP_ANNEE_24",
-                "label_index": "14955",
+                "label_index": "@P14955",
                 "label_korean": "연도",
                 "group_id": "53355",
                 "req_frame_id": "160358",
@@ -5892,7 +5892,7 @@
             {
                 "position": 5,
                 "mnemonic": "MP_MOIS_24",
-                "label_index": "12928",
+                "label_index": "@P12928",
                 "label_korean": "월",
                 "group_id": "53355",
                 "req_frame_id": "160358",
@@ -5914,7 +5914,7 @@
             {
                 "position": 6,
                 "mnemonic": "MP_JOUR_24",
-                "label_index": "48188",
+                "label_index": "@P48188",
                 "label_korean": "날",
                 "group_id": "53355",
                 "req_frame_id": "160358",
@@ -5936,7 +5936,7 @@
             {
                 "position": 7,
                 "mnemonic": "MP_HEURE_24",
-                "label_index": "6005",
+                "label_index": "@P6005",
                 "label_korean": "시간",
                 "group_id": "53355",
                 "req_frame_id": "160358",
@@ -5958,7 +5958,7 @@
             {
                 "position": 8,
                 "mnemonic": "MP_MINUTE_24",
-                "label_index": "8240",
+                "label_index": "@P8240",
                 "label_korean": "분",
                 "group_id": "53355",
                 "req_frame_id": "160358",
@@ -5980,7 +5980,7 @@
             {
                 "position": 9,
                 "mnemonic": "MP_SECONDE_24",
-                "label_index": "10587",
+                "label_index": "@P10587",
                 "label_korean": "초",
                 "group_id": "53355",
                 "req_frame_id": "160358",
@@ -6010,7 +6010,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_ACTION_REALISE_25",
-                "label_index": "52969",
+                "label_index": "@P52969",
                 "label_korean": "작업 수행됨",
                 "group_id": "53355",
                 "req_frame_id": "160358",
@@ -6040,7 +6040,7 @@
             {
                 "position": 2,
                 "mnemonic": "MP_IDENTIFIANT_CLIENT_25",
-                "label_index": "52957",
+                "label_index": "@P52957",
                 "label_korean": "고객 사용자 이름",
                 "group_id": "53355",
                 "req_frame_id": "160358",
@@ -6062,7 +6062,7 @@
             {
                 "position": 3,
                 "mnemonic": "MP_KILOMETRAGE_DU_VEHICULE_25",
-                "label_index": "14658",
+                "label_index": "@P14658",
                 "label_korean": "차량 주행거리",
                 "group_id": "53355",
                 "req_frame_id": "160358",
@@ -6084,7 +6084,7 @@
             {
                 "position": 4,
                 "mnemonic": "MP_ANNEE_25",
-                "label_index": "14955",
+                "label_index": "@P14955",
                 "label_korean": "연도",
                 "group_id": "53355",
                 "req_frame_id": "160358",
@@ -6106,7 +6106,7 @@
             {
                 "position": 5,
                 "mnemonic": "MP_MOIS_25",
-                "label_index": "12928",
+                "label_index": "@P12928",
                 "label_korean": "월",
                 "group_id": "53355",
                 "req_frame_id": "160358",
@@ -6128,7 +6128,7 @@
             {
                 "position": 6,
                 "mnemonic": "MP_JOUR_25",
-                "label_index": "48188",
+                "label_index": "@P48188",
                 "label_korean": "날",
                 "group_id": "53355",
                 "req_frame_id": "160358",
@@ -6150,7 +6150,7 @@
             {
                 "position": 7,
                 "mnemonic": "MP_HEURE_25",
-                "label_index": "6005",
+                "label_index": "@P6005",
                 "label_korean": "시간",
                 "group_id": "53355",
                 "req_frame_id": "160358",
@@ -6172,7 +6172,7 @@
             {
                 "position": 8,
                 "mnemonic": "MP_MINUTE_25",
-                "label_index": "8240",
+                "label_index": "@P8240",
                 "label_korean": "분",
                 "group_id": "53355",
                 "req_frame_id": "160358",
@@ -6194,7 +6194,7 @@
             {
                 "position": 9,
                 "mnemonic": "MP_SECONDE_25",
-                "label_index": "10587",
+                "label_index": "@P10587",
                 "label_korean": "초",
                 "group_id": "53355",
                 "req_frame_id": "160358",
@@ -6224,7 +6224,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_ACTION_REALISE_26",
-                "label_index": "52969",
+                "label_index": "@P52969",
                 "label_korean": "작업 수행됨",
                 "group_id": "53355",
                 "req_frame_id": "160358",
@@ -6254,7 +6254,7 @@
             {
                 "position": 2,
                 "mnemonic": "MP_IDENTIFIANT_CLIENT_26",
-                "label_index": "52957",
+                "label_index": "@P52957",
                 "label_korean": "고객 사용자 이름",
                 "group_id": "53355",
                 "req_frame_id": "160358",
@@ -6276,7 +6276,7 @@
             {
                 "position": 3,
                 "mnemonic": "MP_KILOMETRAGE_DU_VEHICULE_26",
-                "label_index": "14658",
+                "label_index": "@P14658",
                 "label_korean": "차량 주행거리",
                 "group_id": "53355",
                 "req_frame_id": "160358",
@@ -6298,7 +6298,7 @@
             {
                 "position": 4,
                 "mnemonic": "MP_ANNEE_26",
-                "label_index": "14955",
+                "label_index": "@P14955",
                 "label_korean": "연도",
                 "group_id": "53355",
                 "req_frame_id": "160358",
@@ -6320,7 +6320,7 @@
             {
                 "position": 5,
                 "mnemonic": "MP_MOIS_26",
-                "label_index": "12928",
+                "label_index": "@P12928",
                 "label_korean": "월",
                 "group_id": "53355",
                 "req_frame_id": "160358",
@@ -6342,7 +6342,7 @@
             {
                 "position": 6,
                 "mnemonic": "MP_JOUR_26",
-                "label_index": "48188",
+                "label_index": "@P48188",
                 "label_korean": "날",
                 "group_id": "53355",
                 "req_frame_id": "160358",
@@ -6364,7 +6364,7 @@
             {
                 "position": 7,
                 "mnemonic": "MP_HEURE_26",
-                "label_index": "6005",
+                "label_index": "@P6005",
                 "label_korean": "시간",
                 "group_id": "53355",
                 "req_frame_id": "160358",
@@ -6386,7 +6386,7 @@
             {
                 "position": 8,
                 "mnemonic": "MP_MINUTE_26",
-                "label_index": "8240",
+                "label_index": "@P8240",
                 "label_korean": "분",
                 "group_id": "53355",
                 "req_frame_id": "160358",
@@ -6408,7 +6408,7 @@
             {
                 "position": 9,
                 "mnemonic": "MP_SECONDE_26",
-                "label_index": "10587",
+                "label_index": "@P10587",
                 "label_korean": "초",
                 "group_id": "53355",
                 "req_frame_id": "160358",
@@ -6438,7 +6438,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_ACTION_REALISE_27",
-                "label_index": "52969",
+                "label_index": "@P52969",
                 "label_korean": "작업 수행됨",
                 "group_id": "53355",
                 "req_frame_id": "160358",
@@ -6468,7 +6468,7 @@
             {
                 "position": 2,
                 "mnemonic": "MP_IDENTIFIANT_CLIENT_27",
-                "label_index": "52957",
+                "label_index": "@P52957",
                 "label_korean": "고객 사용자 이름",
                 "group_id": "53355",
                 "req_frame_id": "160358",
@@ -6490,7 +6490,7 @@
             {
                 "position": 3,
                 "mnemonic": "MP_KILOMETRAGE_DU_VEHICULE_27",
-                "label_index": "14658",
+                "label_index": "@P14658",
                 "label_korean": "차량 주행거리",
                 "group_id": "53355",
                 "req_frame_id": "160358",
@@ -6512,7 +6512,7 @@
             {
                 "position": 4,
                 "mnemonic": "MP_ANNEE_27",
-                "label_index": "14955",
+                "label_index": "@P14955",
                 "label_korean": "연도",
                 "group_id": "53355",
                 "req_frame_id": "160358",
@@ -6534,7 +6534,7 @@
             {
                 "position": 5,
                 "mnemonic": "MP_MOIS_27",
-                "label_index": "12928",
+                "label_index": "@P12928",
                 "label_korean": "월",
                 "group_id": "53355",
                 "req_frame_id": "160358",
@@ -6556,7 +6556,7 @@
             {
                 "position": 6,
                 "mnemonic": "MP_JOUR_27",
-                "label_index": "48188",
+                "label_index": "@P48188",
                 "label_korean": "날",
                 "group_id": "53355",
                 "req_frame_id": "160358",
@@ -6578,7 +6578,7 @@
             {
                 "position": 7,
                 "mnemonic": "MP_HEURE_27",
-                "label_index": "6005",
+                "label_index": "@P6005",
                 "label_korean": "시간",
                 "group_id": "53355",
                 "req_frame_id": "160358",
@@ -6600,7 +6600,7 @@
             {
                 "position": 8,
                 "mnemonic": "MP_MINUTE_27",
-                "label_index": "8240",
+                "label_index": "@P8240",
                 "label_korean": "분",
                 "group_id": "53355",
                 "req_frame_id": "160358",
@@ -6622,7 +6622,7 @@
             {
                 "position": 9,
                 "mnemonic": "MP_SECONDE_27",
-                "label_index": "10587",
+                "label_index": "@P10587",
                 "label_korean": "초",
                 "group_id": "53355",
                 "req_frame_id": "160358",
@@ -6652,7 +6652,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_ACTION_REALISE_28",
-                "label_index": "52969",
+                "label_index": "@P52969",
                 "label_korean": "작업 수행됨",
                 "group_id": "53355",
                 "req_frame_id": "160358",
@@ -6682,7 +6682,7 @@
             {
                 "position": 2,
                 "mnemonic": "MP_IDENTIFIANT_CLIENT_28",
-                "label_index": "52957",
+                "label_index": "@P52957",
                 "label_korean": "고객 사용자 이름",
                 "group_id": "53355",
                 "req_frame_id": "160358",
@@ -6704,7 +6704,7 @@
             {
                 "position": 3,
                 "mnemonic": "MP_KILOMETRAGE_DU_VEHICULE_28",
-                "label_index": "14658",
+                "label_index": "@P14658",
                 "label_korean": "차량 주행거리",
                 "group_id": "53355",
                 "req_frame_id": "160358",
@@ -6726,7 +6726,7 @@
             {
                 "position": 4,
                 "mnemonic": "MP_ANNEE_28",
-                "label_index": "14955",
+                "label_index": "@P14955",
                 "label_korean": "연도",
                 "group_id": "53355",
                 "req_frame_id": "160358",
@@ -6748,7 +6748,7 @@
             {
                 "position": 5,
                 "mnemonic": "MP_MOIS_28",
-                "label_index": "12928",
+                "label_index": "@P12928",
                 "label_korean": "월",
                 "group_id": "53355",
                 "req_frame_id": "160358",
@@ -6770,7 +6770,7 @@
             {
                 "position": 6,
                 "mnemonic": "MP_JOUR_28",
-                "label_index": "48188",
+                "label_index": "@P48188",
                 "label_korean": "날",
                 "group_id": "53355",
                 "req_frame_id": "160358",
@@ -6792,7 +6792,7 @@
             {
                 "position": 7,
                 "mnemonic": "MP_HEURE_28",
-                "label_index": "6005",
+                "label_index": "@P6005",
                 "label_korean": "시간",
                 "group_id": "53355",
                 "req_frame_id": "160358",
@@ -6814,7 +6814,7 @@
             {
                 "position": 8,
                 "mnemonic": "MP_MINUTE_28",
-                "label_index": "8240",
+                "label_index": "@P8240",
                 "label_korean": "분",
                 "group_id": "53355",
                 "req_frame_id": "160358",
@@ -6836,7 +6836,7 @@
             {
                 "position": 9,
                 "mnemonic": "MP_SECONDE_28",
-                "label_index": "10587",
+                "label_index": "@P10587",
                 "label_korean": "초",
                 "group_id": "53355",
                 "req_frame_id": "160358",
@@ -6866,7 +6866,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_ACTION_REALISE_29",
-                "label_index": "52969",
+                "label_index": "@P52969",
                 "label_korean": "작업 수행됨",
                 "group_id": "53355",
                 "req_frame_id": "160358",
@@ -6896,7 +6896,7 @@
             {
                 "position": 2,
                 "mnemonic": "MP_IDENTIFIANT_CLIENT_29",
-                "label_index": "52957",
+                "label_index": "@P52957",
                 "label_korean": "고객 사용자 이름",
                 "group_id": "53355",
                 "req_frame_id": "160358",
@@ -6918,7 +6918,7 @@
             {
                 "position": 3,
                 "mnemonic": "MP_KILOMETRAGE_DU_VEHICULE_29",
-                "label_index": "14658",
+                "label_index": "@P14658",
                 "label_korean": "차량 주행거리",
                 "group_id": "53355",
                 "req_frame_id": "160358",
@@ -6940,7 +6940,7 @@
             {
                 "position": 4,
                 "mnemonic": "MP_ANNEE_29",
-                "label_index": "14955",
+                "label_index": "@P14955",
                 "label_korean": "연도",
                 "group_id": "53355",
                 "req_frame_id": "160358",
@@ -6962,7 +6962,7 @@
             {
                 "position": 5,
                 "mnemonic": "MP_MOIS_29",
-                "label_index": "12928",
+                "label_index": "@P12928",
                 "label_korean": "월",
                 "group_id": "53355",
                 "req_frame_id": "160358",
@@ -6984,7 +6984,7 @@
             {
                 "position": 6,
                 "mnemonic": "MP_JOUR_29",
-                "label_index": "48188",
+                "label_index": "@P48188",
                 "label_korean": "날",
                 "group_id": "53355",
                 "req_frame_id": "160358",
@@ -7006,7 +7006,7 @@
             {
                 "position": 7,
                 "mnemonic": "MP_HEURE_29",
-                "label_index": "6005",
+                "label_index": "@P6005",
                 "label_korean": "시간",
                 "group_id": "53355",
                 "req_frame_id": "160358",
@@ -7028,7 +7028,7 @@
             {
                 "position": 8,
                 "mnemonic": "MP_MINUTE_29",
-                "label_index": "8240",
+                "label_index": "@P8240",
                 "label_korean": "분",
                 "group_id": "53355",
                 "req_frame_id": "160358",
@@ -7050,7 +7050,7 @@
             {
                 "position": 9,
                 "mnemonic": "MP_SECONDE_29",
-                "label_index": "10587",
+                "label_index": "@P10587",
                 "label_korean": "초",
                 "group_id": "53355",
                 "req_frame_id": "160358",
@@ -7080,7 +7080,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_ETAT_FONCTION_SMART_DEVICE",
-                "label_index": "53024",
+                "label_index": "@P53024",
                 "label_korean": "스마트폰 연결 기능의 상태",
                 "group_id": "53351",
                 "req_frame_id": "160346",
@@ -7099,13 +7099,13 @@
                 "bit_mask": 16,
                 "bit_shift": 4,
                 "dynamic_arg": "",
-                "help_code": "",
+                "help_code": "@T",
                 "help_korean": ""
             },
             {
                 "position": 2,
                 "mnemonic": "MP_ETAT_CERTIFICAT",
-                "label_index": "57369",
+                "label_index": "@P57369",
                 "label_korean": "인증서 상태",
                 "group_id": "53352",
                 "req_frame_id": "160349",
@@ -7124,13 +7124,13 @@
                 "bit_mask": 3,
                 "bit_shift": 0,
                 "dynamic_arg": "",
-                "help_code": "",
+                "help_code": "@T",
                 "help_korean": ""
             },
             {
                 "position": 3,
                 "mnemonic": "MP_ETAT_CONNEXION_BLUETOOTH_1",
-                "label_index": "52964",
+                "label_index": "@P52964@\\*1",
                 "label_korean": "채널 1의 Bluetooth 연결 상태",
                 "group_id": "53352",
                 "req_frame_id": "160349",
@@ -7156,7 +7156,7 @@
             {
                 "position": 4,
                 "mnemonic": "MP_ZONE_DETECTION_BLUETOOTH_1",
-                "label_index": "53007",
+                "label_index": "@P53007@\\*1",
                 "label_korean": "Bluetooth 채널 1 감지 영역",
                 "group_id": "53352",
                 "req_frame_id": "160349",
@@ -7183,7 +7183,7 @@
             {
                 "position": 5,
                 "mnemonic": "MP_ETAT_COMMUNICATION_SMARTPHONE_1",
-                "label_index": "52970",
+                "label_index": "@P52970@\\*1",
                 "label_korean": "채널 1에서 스마트폰과의 통신 상태",
                 "group_id": "53352",
                 "req_frame_id": "160349",
@@ -7230,7 +7230,7 @@
             {
                 "position": 6,
                 "mnemonic": "MP_ETAT_CONNEXION_BLUETOOTH_2",
-                "label_index": "52964",
+                "label_index": "@P52964@\\*2",
                 "label_korean": "채널 2의 Bluetooth 연결 상태",
                 "group_id": "53352",
                 "req_frame_id": "160349",
@@ -7256,7 +7256,7 @@
             {
                 "position": 7,
                 "mnemonic": "MP_ZONE_DETECTION_BLUETOOTH_2",
-                "label_index": "53007",
+                "label_index": "@P53007@\\*2",
                 "label_korean": "Bluetooth 채널 2 감지 영역",
                 "group_id": "53352",
                 "req_frame_id": "160349",
@@ -7283,7 +7283,7 @@
             {
                 "position": 8,
                 "mnemonic": "MP_ETAT_COMMUNICATION_SMARTPHONE_2",
-                "label_index": "52970",
+                "label_index": "@P52970@\\*2",
                 "label_korean": "채널 2에서 스마트폰과의 통신 상태",
                 "group_id": "53352",
                 "req_frame_id": "160349",
@@ -7330,7 +7330,7 @@
             {
                 "position": 9,
                 "mnemonic": "MP_ETAT_CONNEXION_BLUETOOTH_3",
-                "label_index": "52964",
+                "label_index": "@P52964@\\*3",
                 "label_korean": "채널 3의 Bluetooth 연결 상태",
                 "group_id": "53352",
                 "req_frame_id": "160349",
@@ -7356,7 +7356,7 @@
             {
                 "position": 10,
                 "mnemonic": "MP_ZONE_DETECTION_BLUETOOTH_3",
-                "label_index": "53007",
+                "label_index": "@P53007@\\*3",
                 "label_korean": "Bluetooth 채널 3 감지 영역",
                 "group_id": "53352",
                 "req_frame_id": "160349",
@@ -7383,7 +7383,7 @@
             {
                 "position": 11,
                 "mnemonic": "MP_ETAT_COMMUNICATION_SMARTPHONE_3",
-                "label_index": "52970",
+                "label_index": "@P52970@\\*3",
                 "label_korean": "채널 3에서 스마트폰과의 통신 상태",
                 "group_id": "53352",
                 "req_frame_id": "160349",
@@ -7430,7 +7430,7 @@
             {
                 "position": 12,
                 "mnemonic": "MP_ETAT_CONNEXION_BLUETOOTH_4",
-                "label_index": "52964",
+                "label_index": "@P52964@\\*4",
                 "label_korean": "채널 4의 Bluetooth 연결 상태",
                 "group_id": "53352",
                 "req_frame_id": "160349",
@@ -7456,7 +7456,7 @@
             {
                 "position": 13,
                 "mnemonic": "MP_ZONE_DETECTION_BLUETOOTH_4",
-                "label_index": "53007",
+                "label_index": "@P53007@\\*4",
                 "label_korean": "Bluetooth 채널 4 감지 영역",
                 "group_id": "53352",
                 "req_frame_id": "160349",
@@ -7483,7 +7483,7 @@
             {
                 "position": 14,
                 "mnemonic": "MP_ETAT_COMMUNICATION_SMARTPHONE_4",
-                "label_index": "52970",
+                "label_index": "@P52970@\\*4",
                 "label_korean": "채널 4에서 스마트폰과의 통신 상태",
                 "group_id": "53352",
                 "req_frame_id": "160349",
@@ -7530,7 +7530,7 @@
             {
                 "position": 15,
                 "mnemonic": "MP_TEMPS_RAFRAICHISSEMENT_SD_SDCM",
-                "label_index": "53035",
+                "label_index": "@P53035@\\*(SDCM)",
                 "label_korean": "핸즈프리 장치 가 스마트폰에 전송한 정보의 새로 고침 시간(SDCM)",
                 "group_id": "53352",
                 "req_frame_id": "160349",
@@ -7560,7 +7560,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_ACTION_REALISE_30",
-                "label_index": "52969",
+                "label_index": "@P52969",
                 "label_korean": "작업 수행됨",
                 "group_id": "53355",
                 "req_frame_id": "160358",
@@ -7590,7 +7590,7 @@
             {
                 "position": 2,
                 "mnemonic": "MP_IDENTIFIANT_CLIENT_30",
-                "label_index": "52957",
+                "label_index": "@P52957",
                 "label_korean": "고객 사용자 이름",
                 "group_id": "53355",
                 "req_frame_id": "160358",
@@ -7612,7 +7612,7 @@
             {
                 "position": 3,
                 "mnemonic": "MP_KILOMETRAGE_DU_VEHICULE_30",
-                "label_index": "14658",
+                "label_index": "@P14658",
                 "label_korean": "차량 주행거리",
                 "group_id": "53355",
                 "req_frame_id": "160358",
@@ -7634,7 +7634,7 @@
             {
                 "position": 4,
                 "mnemonic": "MP_ANNEE_30",
-                "label_index": "14955",
+                "label_index": "@P14955",
                 "label_korean": "연도",
                 "group_id": "53355",
                 "req_frame_id": "160358",
@@ -7656,7 +7656,7 @@
             {
                 "position": 5,
                 "mnemonic": "MP_MOIS_30",
-                "label_index": "12928",
+                "label_index": "@P12928",
                 "label_korean": "월",
                 "group_id": "53355",
                 "req_frame_id": "160358",
@@ -7678,7 +7678,7 @@
             {
                 "position": 6,
                 "mnemonic": "MP_JOUR_30",
-                "label_index": "48188",
+                "label_index": "@P48188",
                 "label_korean": "날",
                 "group_id": "53355",
                 "req_frame_id": "160358",
@@ -7700,7 +7700,7 @@
             {
                 "position": 7,
                 "mnemonic": "MP_HEURE_30",
-                "label_index": "6005",
+                "label_index": "@P6005",
                 "label_korean": "시간",
                 "group_id": "53355",
                 "req_frame_id": "160358",
@@ -7722,7 +7722,7 @@
             {
                 "position": 8,
                 "mnemonic": "MP_MINUTE_30",
-                "label_index": "8240",
+                "label_index": "@P8240",
                 "label_korean": "분",
                 "group_id": "53355",
                 "req_frame_id": "160358",
@@ -7744,7 +7744,7 @@
             {
                 "position": 9,
                 "mnemonic": "MP_SECONDE_30",
-                "label_index": "10587",
+                "label_index": "@P10587",
                 "label_korean": "초",
                 "group_id": "53355",
                 "req_frame_id": "160358",
@@ -7774,7 +7774,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_ACTION_REALISE_31",
-                "label_index": "52969",
+                "label_index": "@P52969",
                 "label_korean": "작업 수행됨",
                 "group_id": "53355",
                 "req_frame_id": "160358",
@@ -7804,7 +7804,7 @@
             {
                 "position": 2,
                 "mnemonic": "MP_IDENTIFIANT_CLIENT_31",
-                "label_index": "52957",
+                "label_index": "@P52957",
                 "label_korean": "고객 사용자 이름",
                 "group_id": "53355",
                 "req_frame_id": "160358",
@@ -7826,7 +7826,7 @@
             {
                 "position": 3,
                 "mnemonic": "MP_KILOMETRAGE_DU_VEHICULE_31",
-                "label_index": "14658",
+                "label_index": "@P14658",
                 "label_korean": "차량 주행거리",
                 "group_id": "53355",
                 "req_frame_id": "160358",
@@ -7848,7 +7848,7 @@
             {
                 "position": 4,
                 "mnemonic": "MP_ANNEE_31",
-                "label_index": "14955",
+                "label_index": "@P14955",
                 "label_korean": "연도",
                 "group_id": "53355",
                 "req_frame_id": "160358",
@@ -7870,7 +7870,7 @@
             {
                 "position": 5,
                 "mnemonic": "MP_MOIS_31",
-                "label_index": "12928",
+                "label_index": "@P12928",
                 "label_korean": "월",
                 "group_id": "53355",
                 "req_frame_id": "160358",
@@ -7892,7 +7892,7 @@
             {
                 "position": 6,
                 "mnemonic": "MP_JOUR_31",
-                "label_index": "48188",
+                "label_index": "@P48188",
                 "label_korean": "날",
                 "group_id": "53355",
                 "req_frame_id": "160358",
@@ -7914,7 +7914,7 @@
             {
                 "position": 7,
                 "mnemonic": "MP_HEURE_31",
-                "label_index": "6005",
+                "label_index": "@P6005",
                 "label_korean": "시간",
                 "group_id": "53355",
                 "req_frame_id": "160358",
@@ -7936,7 +7936,7 @@
             {
                 "position": 8,
                 "mnemonic": "MP_MINUTE_31",
-                "label_index": "8240",
+                "label_index": "@P8240",
                 "label_korean": "분",
                 "group_id": "53355",
                 "req_frame_id": "160358",
@@ -7958,7 +7958,7 @@
             {
                 "position": 9,
                 "mnemonic": "MP_SECONDE_31",
-                "label_index": "10587",
+                "label_index": "@P10587",
                 "label_korean": "초",
                 "group_id": "53355",
                 "req_frame_id": "160358",
@@ -7988,7 +7988,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_ACTION_REALISE_32",
-                "label_index": "52969",
+                "label_index": "@P52969",
                 "label_korean": "작업 수행됨",
                 "group_id": "53355",
                 "req_frame_id": "160358",
@@ -8018,7 +8018,7 @@
             {
                 "position": 2,
                 "mnemonic": "MP_IDENTIFIANT_CLIENT_32",
-                "label_index": "52957",
+                "label_index": "@P52957",
                 "label_korean": "고객 사용자 이름",
                 "group_id": "53355",
                 "req_frame_id": "160358",
@@ -8040,7 +8040,7 @@
             {
                 "position": 3,
                 "mnemonic": "MP_KILOMETRAGE_DU_VEHICULE_32",
-                "label_index": "14658",
+                "label_index": "@P14658",
                 "label_korean": "차량 주행거리",
                 "group_id": "53355",
                 "req_frame_id": "160358",
@@ -8062,7 +8062,7 @@
             {
                 "position": 4,
                 "mnemonic": "MP_ANNEE_32",
-                "label_index": "14955",
+                "label_index": "@P14955",
                 "label_korean": "연도",
                 "group_id": "53355",
                 "req_frame_id": "160358",
@@ -8084,7 +8084,7 @@
             {
                 "position": 5,
                 "mnemonic": "MP_MOIS_32",
-                "label_index": "12928",
+                "label_index": "@P12928",
                 "label_korean": "월",
                 "group_id": "53355",
                 "req_frame_id": "160358",
@@ -8106,7 +8106,7 @@
             {
                 "position": 6,
                 "mnemonic": "MP_JOUR_32",
-                "label_index": "48188",
+                "label_index": "@P48188",
                 "label_korean": "날",
                 "group_id": "53355",
                 "req_frame_id": "160358",
@@ -8128,7 +8128,7 @@
             {
                 "position": 7,
                 "mnemonic": "MP_HEURE_32",
-                "label_index": "6005",
+                "label_index": "@P6005",
                 "label_korean": "시간",
                 "group_id": "53355",
                 "req_frame_id": "160358",
@@ -8150,7 +8150,7 @@
             {
                 "position": 8,
                 "mnemonic": "MP_MINUTE_32",
-                "label_index": "8240",
+                "label_index": "@P8240",
                 "label_korean": "분",
                 "group_id": "53355",
                 "req_frame_id": "160358",
@@ -8172,7 +8172,7 @@
             {
                 "position": 9,
                 "mnemonic": "MP_SECONDE_32",
-                "label_index": "10587",
+                "label_index": "@P10587",
                 "label_korean": "초",
                 "group_id": "53355",
                 "req_frame_id": "160358",
@@ -8202,7 +8202,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_ACTION_REALISE_33",
-                "label_index": "52969",
+                "label_index": "@P52969",
                 "label_korean": "작업 수행됨",
                 "group_id": "53355",
                 "req_frame_id": "160358",
@@ -8232,7 +8232,7 @@
             {
                 "position": 2,
                 "mnemonic": "MP_IDENTIFIANT_CLIENT_33",
-                "label_index": "52957",
+                "label_index": "@P52957",
                 "label_korean": "고객 사용자 이름",
                 "group_id": "53355",
                 "req_frame_id": "160358",
@@ -8254,7 +8254,7 @@
             {
                 "position": 3,
                 "mnemonic": "MP_KILOMETRAGE_DU_VEHICULE_33",
-                "label_index": "14658",
+                "label_index": "@P14658",
                 "label_korean": "차량 주행거리",
                 "group_id": "53355",
                 "req_frame_id": "160358",
@@ -8276,7 +8276,7 @@
             {
                 "position": 4,
                 "mnemonic": "MP_ANNEE_33",
-                "label_index": "14955",
+                "label_index": "@P14955",
                 "label_korean": "연도",
                 "group_id": "53355",
                 "req_frame_id": "160358",
@@ -8298,7 +8298,7 @@
             {
                 "position": 5,
                 "mnemonic": "MP_MOIS_33",
-                "label_index": "12928",
+                "label_index": "@P12928",
                 "label_korean": "월",
                 "group_id": "53355",
                 "req_frame_id": "160358",
@@ -8320,7 +8320,7 @@
             {
                 "position": 6,
                 "mnemonic": "MP_JOUR_33",
-                "label_index": "48188",
+                "label_index": "@P48188",
                 "label_korean": "날",
                 "group_id": "53355",
                 "req_frame_id": "160358",
@@ -8342,7 +8342,7 @@
             {
                 "position": 7,
                 "mnemonic": "MP_HEURE_33",
-                "label_index": "6005",
+                "label_index": "@P6005",
                 "label_korean": "시간",
                 "group_id": "53355",
                 "req_frame_id": "160358",
@@ -8364,7 +8364,7 @@
             {
                 "position": 8,
                 "mnemonic": "MP_MINUTE_33",
-                "label_index": "8240",
+                "label_index": "@P8240",
                 "label_korean": "분",
                 "group_id": "53355",
                 "req_frame_id": "160358",
@@ -8386,7 +8386,7 @@
             {
                 "position": 9,
                 "mnemonic": "MP_SECONDE_33",
-                "label_index": "10587",
+                "label_index": "@P10587",
                 "label_korean": "초",
                 "group_id": "53355",
                 "req_frame_id": "160358",
@@ -8416,7 +8416,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_ACTION_REALISE_34",
-                "label_index": "52969",
+                "label_index": "@P52969",
                 "label_korean": "작업 수행됨",
                 "group_id": "53355",
                 "req_frame_id": "160358",
@@ -8446,7 +8446,7 @@
             {
                 "position": 2,
                 "mnemonic": "MP_IDENTIFIANT_CLIENT_34",
-                "label_index": "52957",
+                "label_index": "@P52957",
                 "label_korean": "고객 사용자 이름",
                 "group_id": "53355",
                 "req_frame_id": "160358",
@@ -8468,7 +8468,7 @@
             {
                 "position": 3,
                 "mnemonic": "MP_KILOMETRAGE_DU_VEHICULE_34",
-                "label_index": "14658",
+                "label_index": "@P14658",
                 "label_korean": "차량 주행거리",
                 "group_id": "53355",
                 "req_frame_id": "160358",
@@ -8490,7 +8490,7 @@
             {
                 "position": 4,
                 "mnemonic": "MP_ANNEE_34",
-                "label_index": "14955",
+                "label_index": "@P14955",
                 "label_korean": "연도",
                 "group_id": "53355",
                 "req_frame_id": "160358",
@@ -8512,7 +8512,7 @@
             {
                 "position": 5,
                 "mnemonic": "MP_MOIS_34",
-                "label_index": "12928",
+                "label_index": "@P12928",
                 "label_korean": "월",
                 "group_id": "53355",
                 "req_frame_id": "160358",
@@ -8534,7 +8534,7 @@
             {
                 "position": 6,
                 "mnemonic": "MP_JOUR_34",
-                "label_index": "48188",
+                "label_index": "@P48188",
                 "label_korean": "날",
                 "group_id": "53355",
                 "req_frame_id": "160358",
@@ -8556,7 +8556,7 @@
             {
                 "position": 7,
                 "mnemonic": "MP_HEURE_34",
-                "label_index": "6005",
+                "label_index": "@P6005",
                 "label_korean": "시간",
                 "group_id": "53355",
                 "req_frame_id": "160358",
@@ -8578,7 +8578,7 @@
             {
                 "position": 8,
                 "mnemonic": "MP_MINUTE_34",
-                "label_index": "8240",
+                "label_index": "@P8240",
                 "label_korean": "분",
                 "group_id": "53355",
                 "req_frame_id": "160358",
@@ -8600,7 +8600,7 @@
             {
                 "position": 9,
                 "mnemonic": "MP_SECONDE_34",
-                "label_index": "10587",
+                "label_index": "@P10587",
                 "label_korean": "초",
                 "group_id": "53355",
                 "req_frame_id": "160358",
@@ -8630,7 +8630,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_ACTION_REALISE_35",
-                "label_index": "52969",
+                "label_index": "@P52969",
                 "label_korean": "작업 수행됨",
                 "group_id": "53355",
                 "req_frame_id": "160358",
@@ -8660,7 +8660,7 @@
             {
                 "position": 2,
                 "mnemonic": "MP_IDENTIFIANT_CLIENT_35",
-                "label_index": "52957",
+                "label_index": "@P52957",
                 "label_korean": "고객 사용자 이름",
                 "group_id": "53355",
                 "req_frame_id": "160358",
@@ -8682,7 +8682,7 @@
             {
                 "position": 3,
                 "mnemonic": "MP_KILOMETRAGE_DU_VEHICULE_35",
-                "label_index": "14658",
+                "label_index": "@P14658",
                 "label_korean": "차량 주행거리",
                 "group_id": "53355",
                 "req_frame_id": "160358",
@@ -8704,7 +8704,7 @@
             {
                 "position": 4,
                 "mnemonic": "MP_ANNEE_35",
-                "label_index": "14955",
+                "label_index": "@P14955",
                 "label_korean": "연도",
                 "group_id": "53355",
                 "req_frame_id": "160358",
@@ -8726,7 +8726,7 @@
             {
                 "position": 5,
                 "mnemonic": "MP_MOIS_35",
-                "label_index": "12928",
+                "label_index": "@P12928",
                 "label_korean": "월",
                 "group_id": "53355",
                 "req_frame_id": "160358",
@@ -8748,7 +8748,7 @@
             {
                 "position": 6,
                 "mnemonic": "MP_JOUR_35",
-                "label_index": "48188",
+                "label_index": "@P48188",
                 "label_korean": "날",
                 "group_id": "53355",
                 "req_frame_id": "160358",
@@ -8770,7 +8770,7 @@
             {
                 "position": 7,
                 "mnemonic": "MP_HEURE_35",
-                "label_index": "6005",
+                "label_index": "@P6005",
                 "label_korean": "시간",
                 "group_id": "53355",
                 "req_frame_id": "160358",
@@ -8792,7 +8792,7 @@
             {
                 "position": 8,
                 "mnemonic": "MP_MINUTE_35",
-                "label_index": "8240",
+                "label_index": "@P8240",
                 "label_korean": "분",
                 "group_id": "53355",
                 "req_frame_id": "160358",
@@ -8814,7 +8814,7 @@
             {
                 "position": 9,
                 "mnemonic": "MP_SECONDE_35",
-                "label_index": "10587",
+                "label_index": "@P10587",
                 "label_korean": "초",
                 "group_id": "53355",
                 "req_frame_id": "160358",
@@ -8844,7 +8844,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_ACTION_REALISE_36",
-                "label_index": "52969",
+                "label_index": "@P52969",
                 "label_korean": "작업 수행됨",
                 "group_id": "53355",
                 "req_frame_id": "160358",
@@ -8874,7 +8874,7 @@
             {
                 "position": 2,
                 "mnemonic": "MP_IDENTIFIANT_CLIENT_36",
-                "label_index": "52957",
+                "label_index": "@P52957",
                 "label_korean": "고객 사용자 이름",
                 "group_id": "53355",
                 "req_frame_id": "160358",
@@ -8896,7 +8896,7 @@
             {
                 "position": 3,
                 "mnemonic": "MP_KILOMETRAGE_DU_VEHICULE_36",
-                "label_index": "14658",
+                "label_index": "@P14658",
                 "label_korean": "차량 주행거리",
                 "group_id": "53355",
                 "req_frame_id": "160358",
@@ -8918,7 +8918,7 @@
             {
                 "position": 4,
                 "mnemonic": "MP_ANNEE_36",
-                "label_index": "14955",
+                "label_index": "@P14955",
                 "label_korean": "연도",
                 "group_id": "53355",
                 "req_frame_id": "160358",
@@ -8940,7 +8940,7 @@
             {
                 "position": 5,
                 "mnemonic": "MP_MOIS_36",
-                "label_index": "12928",
+                "label_index": "@P12928",
                 "label_korean": "월",
                 "group_id": "53355",
                 "req_frame_id": "160358",
@@ -8962,7 +8962,7 @@
             {
                 "position": 6,
                 "mnemonic": "MP_JOUR_36",
-                "label_index": "48188",
+                "label_index": "@P48188",
                 "label_korean": "날",
                 "group_id": "53355",
                 "req_frame_id": "160358",
@@ -8984,7 +8984,7 @@
             {
                 "position": 7,
                 "mnemonic": "MP_HEURE_36",
-                "label_index": "6005",
+                "label_index": "@P6005",
                 "label_korean": "시간",
                 "group_id": "53355",
                 "req_frame_id": "160358",
@@ -9006,7 +9006,7 @@
             {
                 "position": 8,
                 "mnemonic": "MP_MINUTE_36",
-                "label_index": "8240",
+                "label_index": "@P8240",
                 "label_korean": "분",
                 "group_id": "53355",
                 "req_frame_id": "160358",
@@ -9028,7 +9028,7 @@
             {
                 "position": 9,
                 "mnemonic": "MP_SECONDE_36",
-                "label_index": "10587",
+                "label_index": "@P10587",
                 "label_korean": "초",
                 "group_id": "53355",
                 "req_frame_id": "160358",
@@ -9058,7 +9058,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_ACTION_REALISE_37",
-                "label_index": "52969",
+                "label_index": "@P52969",
                 "label_korean": "작업 수행됨",
                 "group_id": "53355",
                 "req_frame_id": "160358",
@@ -9088,7 +9088,7 @@
             {
                 "position": 2,
                 "mnemonic": "MP_IDENTIFIANT_CLIENT_37",
-                "label_index": "52957",
+                "label_index": "@P52957",
                 "label_korean": "고객 사용자 이름",
                 "group_id": "53355",
                 "req_frame_id": "160358",
@@ -9110,7 +9110,7 @@
             {
                 "position": 3,
                 "mnemonic": "MP_KILOMETRAGE_DU_VEHICULE_37",
-                "label_index": "14658",
+                "label_index": "@P14658",
                 "label_korean": "차량 주행거리",
                 "group_id": "53355",
                 "req_frame_id": "160358",
@@ -9132,7 +9132,7 @@
             {
                 "position": 4,
                 "mnemonic": "MP_ANNEE_37",
-                "label_index": "14955",
+                "label_index": "@P14955",
                 "label_korean": "연도",
                 "group_id": "53355",
                 "req_frame_id": "160358",
@@ -9154,7 +9154,7 @@
             {
                 "position": 5,
                 "mnemonic": "MP_MOIS_37",
-                "label_index": "12928",
+                "label_index": "@P12928",
                 "label_korean": "월",
                 "group_id": "53355",
                 "req_frame_id": "160358",
@@ -9176,7 +9176,7 @@
             {
                 "position": 6,
                 "mnemonic": "MP_JOUR_37",
-                "label_index": "48188",
+                "label_index": "@P48188",
                 "label_korean": "날",
                 "group_id": "53355",
                 "req_frame_id": "160358",
@@ -9198,7 +9198,7 @@
             {
                 "position": 7,
                 "mnemonic": "MP_HEURE_37",
-                "label_index": "6005",
+                "label_index": "@P6005",
                 "label_korean": "시간",
                 "group_id": "53355",
                 "req_frame_id": "160358",
@@ -9220,7 +9220,7 @@
             {
                 "position": 8,
                 "mnemonic": "MP_MINUTE_37",
-                "label_index": "8240",
+                "label_index": "@P8240",
                 "label_korean": "분",
                 "group_id": "53355",
                 "req_frame_id": "160358",
@@ -9242,7 +9242,7 @@
             {
                 "position": 9,
                 "mnemonic": "MP_SECONDE_37",
-                "label_index": "10587",
+                "label_index": "@P10587",
                 "label_korean": "초",
                 "group_id": "53355",
                 "req_frame_id": "160358",
@@ -9272,7 +9272,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_ACTION_REALISE_38",
-                "label_index": "52969",
+                "label_index": "@P52969",
                 "label_korean": "작업 수행됨",
                 "group_id": "53355",
                 "req_frame_id": "160358",
@@ -9302,7 +9302,7 @@
             {
                 "position": 2,
                 "mnemonic": "MP_IDENTIFIANT_CLIENT_38",
-                "label_index": "52957",
+                "label_index": "@P52957",
                 "label_korean": "고객 사용자 이름",
                 "group_id": "53355",
                 "req_frame_id": "160358",
@@ -9324,7 +9324,7 @@
             {
                 "position": 3,
                 "mnemonic": "MP_KILOMETRAGE_DU_VEHICULE_38",
-                "label_index": "14658",
+                "label_index": "@P14658",
                 "label_korean": "차량 주행거리",
                 "group_id": "53355",
                 "req_frame_id": "160358",
@@ -9346,7 +9346,7 @@
             {
                 "position": 4,
                 "mnemonic": "MP_ANNEE_38",
-                "label_index": "14955",
+                "label_index": "@P14955",
                 "label_korean": "연도",
                 "group_id": "53355",
                 "req_frame_id": "160358",
@@ -9368,7 +9368,7 @@
             {
                 "position": 5,
                 "mnemonic": "MP_MOIS_38",
-                "label_index": "12928",
+                "label_index": "@P12928",
                 "label_korean": "월",
                 "group_id": "53355",
                 "req_frame_id": "160358",
@@ -9390,7 +9390,7 @@
             {
                 "position": 6,
                 "mnemonic": "MP_JOUR_38",
-                "label_index": "48188",
+                "label_index": "@P48188",
                 "label_korean": "날",
                 "group_id": "53355",
                 "req_frame_id": "160358",
@@ -9412,7 +9412,7 @@
             {
                 "position": 7,
                 "mnemonic": "MP_HEURE_38",
-                "label_index": "6005",
+                "label_index": "@P6005",
                 "label_korean": "시간",
                 "group_id": "53355",
                 "req_frame_id": "160358",
@@ -9434,7 +9434,7 @@
             {
                 "position": 8,
                 "mnemonic": "MP_MINUTE_38",
-                "label_index": "8240",
+                "label_index": "@P8240",
                 "label_korean": "분",
                 "group_id": "53355",
                 "req_frame_id": "160358",
@@ -9456,7 +9456,7 @@
             {
                 "position": 9,
                 "mnemonic": "MP_SECONDE_38",
-                "label_index": "10587",
+                "label_index": "@P10587",
                 "label_korean": "초",
                 "group_id": "53355",
                 "req_frame_id": "160358",
@@ -9486,7 +9486,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_ACTION_REALISE_39",
-                "label_index": "52969",
+                "label_index": "@P52969",
                 "label_korean": "작업 수행됨",
                 "group_id": "53355",
                 "req_frame_id": "160358",
@@ -9516,7 +9516,7 @@
             {
                 "position": 2,
                 "mnemonic": "MP_IDENTIFIANT_CLIENT_39",
-                "label_index": "52957",
+                "label_index": "@P52957",
                 "label_korean": "고객 사용자 이름",
                 "group_id": "53355",
                 "req_frame_id": "160358",
@@ -9538,7 +9538,7 @@
             {
                 "position": 3,
                 "mnemonic": "MP_KILOMETRAGE_DU_VEHICULE_39",
-                "label_index": "14658",
+                "label_index": "@P14658",
                 "label_korean": "차량 주행거리",
                 "group_id": "53355",
                 "req_frame_id": "160358",
@@ -9560,7 +9560,7 @@
             {
                 "position": 4,
                 "mnemonic": "MP_ANNEE_39",
-                "label_index": "14955",
+                "label_index": "@P14955",
                 "label_korean": "연도",
                 "group_id": "53355",
                 "req_frame_id": "160358",
@@ -9582,7 +9582,7 @@
             {
                 "position": 5,
                 "mnemonic": "MP_MOIS_39",
-                "label_index": "12928",
+                "label_index": "@P12928",
                 "label_korean": "월",
                 "group_id": "53355",
                 "req_frame_id": "160358",
@@ -9604,7 +9604,7 @@
             {
                 "position": 6,
                 "mnemonic": "MP_JOUR_39",
-                "label_index": "48188",
+                "label_index": "@P48188",
                 "label_korean": "날",
                 "group_id": "53355",
                 "req_frame_id": "160358",
@@ -9626,7 +9626,7 @@
             {
                 "position": 7,
                 "mnemonic": "MP_HEURE_39",
-                "label_index": "6005",
+                "label_index": "@P6005",
                 "label_korean": "시간",
                 "group_id": "53355",
                 "req_frame_id": "160358",
@@ -9648,7 +9648,7 @@
             {
                 "position": 8,
                 "mnemonic": "MP_MINUTE_39",
-                "label_index": "8240",
+                "label_index": "@P8240",
                 "label_korean": "분",
                 "group_id": "53355",
                 "req_frame_id": "160358",
@@ -9670,7 +9670,7 @@
             {
                 "position": 9,
                 "mnemonic": "MP_SECONDE_39",
-                "label_index": "10587",
+                "label_index": "@P10587",
                 "label_korean": "초",
                 "group_id": "53355",
                 "req_frame_id": "160358",
@@ -9700,7 +9700,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_ACTION_REALISE_40",
-                "label_index": "52969",
+                "label_index": "@P52969",
                 "label_korean": "작업 수행됨",
                 "group_id": "53355",
                 "req_frame_id": "160358",
@@ -9730,7 +9730,7 @@
             {
                 "position": 2,
                 "mnemonic": "MP_IDENTIFIANT_CLIENT_40",
-                "label_index": "52957",
+                "label_index": "@P52957",
                 "label_korean": "고객 사용자 이름",
                 "group_id": "53355",
                 "req_frame_id": "160358",
@@ -9752,7 +9752,7 @@
             {
                 "position": 3,
                 "mnemonic": "MP_KILOMETRAGE_DU_VEHICULE_40",
-                "label_index": "14658",
+                "label_index": "@P14658",
                 "label_korean": "차량 주행거리",
                 "group_id": "53355",
                 "req_frame_id": "160358",
@@ -9774,7 +9774,7 @@
             {
                 "position": 4,
                 "mnemonic": "MP_ANNEE_40",
-                "label_index": "14955",
+                "label_index": "@P14955",
                 "label_korean": "연도",
                 "group_id": "53355",
                 "req_frame_id": "160358",
@@ -9796,7 +9796,7 @@
             {
                 "position": 5,
                 "mnemonic": "MP_MOIS_40",
-                "label_index": "12928",
+                "label_index": "@P12928",
                 "label_korean": "월",
                 "group_id": "53355",
                 "req_frame_id": "160358",
@@ -9818,7 +9818,7 @@
             {
                 "position": 6,
                 "mnemonic": "MP_JOUR_40",
-                "label_index": "48188",
+                "label_index": "@P48188",
                 "label_korean": "날",
                 "group_id": "53355",
                 "req_frame_id": "160358",
@@ -9840,7 +9840,7 @@
             {
                 "position": 7,
                 "mnemonic": "MP_HEURE_40",
-                "label_index": "6005",
+                "label_index": "@P6005",
                 "label_korean": "시간",
                 "group_id": "53355",
                 "req_frame_id": "160358",
@@ -9862,7 +9862,7 @@
             {
                 "position": 8,
                 "mnemonic": "MP_MINUTE_40",
-                "label_index": "8240",
+                "label_index": "@P8240",
                 "label_korean": "분",
                 "group_id": "53355",
                 "req_frame_id": "160358",
@@ -9884,7 +9884,7 @@
             {
                 "position": 9,
                 "mnemonic": "MP_SECONDE_40",
-                "label_index": "10587",
+                "label_index": "@P10587",
                 "label_korean": "초",
                 "group_id": "53355",
                 "req_frame_id": "160358",
@@ -9914,7 +9914,7 @@
             {
                 "position": 1,
                 "mnemonic": "ETAT_DETAIL_DF05_O8",
-                "label_index": "7584",
+                "label_index": "@P7584",
                 "label_korean": "신호 레벨",
                 "group_id": "53365",
                 "req_frame_id": "160388",
@@ -9936,7 +9936,7 @@
             {
                 "position": 2,
                 "mnemonic": "ID_TRACA_NUM_SERIE_ASCII",
-                "label_index": "7592",
+                "label_index": "@P7592",
                 "label_korean": "부품 일련 번호",
                 "group_id": "53344",
                 "req_frame_id": "160325",

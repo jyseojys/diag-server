@@ -8,7 +8,7 @@
             {
                 "position": 1,
                 "mnemonic": "ID_NOM_DU_FOURNISSEUR",
-                "label_index": "5701",
+                "label_index": "@P5701",
                 "label_korean": "제조 업체명",
                 "group_id": "111997",
                 "req_frame_id": "336336",
@@ -38,7 +38,7 @@
             {
                 "position": 2,
                 "mnemonic": "ID_REFERENCE_MATERIEL",
-                "label_index": "1071",
+                "label_index": "@P1071",
                 "label_korean": "장치 부품 번호",
                 "group_id": "111997",
                 "req_frame_id": "336336",
@@ -60,7 +60,7 @@
             {
                 "position": 3,
                 "mnemonic": "ID_REFERENCE_COMPLEMENTAIRE_MATERIEL",
-                "label_index": "1634",
+                "label_index": "@P1634",
                 "label_korean": "장치 추가 참조 번호",
                 "group_id": "111997",
                 "req_frame_id": "336336",
@@ -82,7 +82,7 @@
             {
                 "position": 4,
                 "mnemonic": "ID_INDICE_DE_MESSAGERIE",
-                "label_index": "2225",
+                "label_index": "@P2225",
                 "label_korean": "메시지 인덱스",
                 "group_id": "111997",
                 "req_frame_id": "336336",
@@ -112,7 +112,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_VOLUME_ADDITIF_NEUF",
-                "label_index": "7445",
+                "label_index": "@P7445",
                 "label_korean": "신품일 때 첨가제의 양",
                 "group_id": "111992",
                 "req_frame_id": "336321",
@@ -128,7 +128,7 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "1045",
+                "help_code": "@P1045",
                 "help_korean": "신품일 때 차량에서 제품의 양"
             },
             {
@@ -156,7 +156,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_VOLUME_ADDITIF_NEUF",
-                "label_index": "7445",
+                "label_index": "@P7445",
                 "label_korean": "신품일 때 첨가제의 양",
                 "group_id": "111992",
                 "req_frame_id": "336321",
@@ -172,13 +172,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "150, 35024, 451, 35024, 451, 35024, 451, 35024, 451",
-                "help_korean": "푸조308의\n- 경우, 설정되어야 할 첨가제 백 탱크의 볼륨은 : (T9)\n-\n- 엔진308 ( AHW, AHX, EHZ ) : 308리터,32\n-\n- 엔진308 ( 9HC ) : 308리터,92\n-\n- 엔진308 ( 9HP ) : 308리터,92\n-\n- 엔진308 ( BHY, BHZ ) : 308리터,08"
+                "help_code": "@P150@\\*308 (T9)@\\n@T-@\\+@F35024@\\*DW10F ( AHW, AHX, EHZ )@T : @P451@\\*1,32@\\n@T-@\\+@F35024@\\*DV6C ( 9HC )@T : @P451@\\*0,92@\\n@T-@\\+@F35024@\\*DV6D ( 9HP )@T : @P451@\\*0,92@\\n@T-@\\+@F35024@\\*DV6F ( BHY, BHZ )@T : @P451@\\*1,08",
+                "help_korean": "푸조308의 경우, 설정되어야 할 첨가제 백 탱크의 볼륨은 : (T9)\n-엔진308 (AHW, AHX, EHZ) : 308리터,32\n-엔진308 (9HC) : 308리터,92\n-엔진308 (9HP) : 308리터,92\n-엔진308 (BHY, BHZ) : 308리터,08"
             },
             {
                 "position": 2,
                 "mnemonic": "MP_NIV_ADDITIF_RESER",
-                "label_index": "990",
+                "label_index": "@P990",
                 "label_korean": "첨가제 탱크에 첨가제의 양",
                 "group_id": "112002",
                 "req_frame_id": "336351",
@@ -194,13 +194,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "32622",
+                "help_code": "@P32622",
                 "help_korean": "연료 첨가제 탱크내에 남아 있는 첨가제의 양 (ml)"
             },
             {
                 "position": 3,
                 "mnemonic": "MP_CYLINDREE_POMPE_ADDITIVATION",
-                "label_index": "33739",
+                "label_index": "@P33739",
                 "label_korean": "연료 첨가제 펌프 용량",
                 "group_id": "112003",
                 "req_frame_id": "336354",
@@ -222,7 +222,7 @@
             {
                 "position": 4,
                 "mnemonic": "MP_TEMPERATURE_ADDITIF_DEMARRAGE_VEHICULE",
-                "label_index": "33741",
+                "label_index": "@P33741",
                 "label_korean": "차량 시동시 연료 첨가제의 온도",
                 "group_id": "112005",
                 "req_frame_id": "336360",
@@ -244,7 +244,7 @@
             {
                 "position": 5,
                 "mnemonic": "MP_POMPE_ADDITIF",
-                "label_index": "33742",
+                "label_index": "@P33742",
                 "label_korean": "연료 첨가제 펌프의 상태",
                 "group_id": "112006",
                 "req_frame_id": "336363",
@@ -271,7 +271,7 @@
             {
                 "position": 6,
                 "mnemonic": "MP_ETAT_DEMANDE_AMORCAGE_POMPE_ADDITIF",
-                "label_index": "33743",
+                "label_index": "@P33743",
                 "label_korean": "연료 첨가제 프라이밍 상태",
                 "group_id": "112007",
                 "req_frame_id": "336366",

@@ -8,7 +8,7 @@
             {
                 "position": 1,
                 "mnemonic": "ID_REFERENCE_FOURNISSEUR",
-                "label_index": "633",
+                "label_index": "@P633",
                 "label_korean": "제조업체",
                 "group_id": "129615",
                 "req_frame_id": "389188",
@@ -34,7 +34,7 @@
             {
                 "position": 2,
                 "mnemonic": "ID_REFERENCE_PSA",
-                "label_index": "8615",
+                "label_index": "@P8615",
                 "label_korean": "PSA 부품 번호",
                 "group_id": "129615",
                 "req_frame_id": "389188",
@@ -56,7 +56,7 @@
             {
                 "position": 3,
                 "mnemonic": "ID_NUM_COMP_new_2",
-                "label_index": "5292",
+                "label_index": "@P5292",
                 "label_korean": "추가 번호",
                 "group_id": "129615",
                 "req_frame_id": "389188",
@@ -78,7 +78,7 @@
             {
                 "position": 4,
                 "mnemonic": "ID_VERSION_LOGICIEL_new_1",
-                "label_index": "8662",
+                "label_index": "@P8662@\\*",
                 "label_korean": "소프트웨어 버전",
                 "group_id": "129615",
                 "req_frame_id": "389188",
@@ -100,7 +100,7 @@
             {
                 "position": 5,
                 "mnemonic": "ID_REF_CALIBRATION_new_1",
-                "label_index": "7014",
+                "label_index": "@P7014",
                 "label_korean": "캘리브레이션 버전",
                 "group_id": "129615",
                 "req_frame_id": "389188",
@@ -122,7 +122,7 @@
             {
                 "position": 6,
                 "mnemonic": "ID_VERSION_DIAGNOSTIC_new_1",
-                "label_index": "14029",
+                "label_index": "@P14029",
                 "label_korean": "진단 버전",
                 "group_id": "129615",
                 "req_frame_id": "389188",
@@ -152,7 +152,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_TENSION_ALIM_C0_PAC",
-                "label_index": "3327",
+                "label_index": "@P3327",
                 "label_korean": "ECU 공급 전압 (키 ON)",
                 "group_id": "129616",
                 "req_frame_id": "389191",
@@ -168,13 +168,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "45645, 23848",
+                "help_code": "@P45645@T.@\\n@F23848@\\*6@\\*16@T.",
                 "help_korean": "엔진 퓨즈 박스에서 전송된 키 ON 전압.\n6과 16볼트 사이에 있어야 한다."
             },
             {
                 "position": 2,
                 "mnemonic": "MP_TENSION_ALIMENTATION_CODE",
-                "label_index": "12077",
+                "label_index": "@P12077",
                 "label_korean": "전조등 하향 헤드램프 공급 전압",
                 "group_id": "129616",
                 "req_frame_id": "389191",
@@ -190,13 +190,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "44063, 44047",
+                "help_code": "@P44063@T.@\\n@P44047@\\*9@T.",
                 "help_korean": "엔진 퓨즈 박스로부터 전조등 하향 전원 공급.\n전구가 켜질 때 최소 9V 이어야 한다."
             },
             {
                 "position": 3,
                 "mnemonic": "MP_TENSION_IGNITEUR_LAMPE",
-                "label_index": "9974",
+                "label_index": "@P9974",
                 "label_korean": "전구 점화 장치로 보내진 전압",
                 "group_id": "129616",
                 "req_frame_id": "389191",
@@ -212,13 +212,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "3561",
+                "help_code": "@P3561@T.",
                 "help_korean": "ECU에 의해 점화 장치에 보내진 전압."
             },
             {
                 "position": 4,
                 "mnemonic": "MP_PUISSANCE_CONSO_LAMPE_IGNITEUR",
-                "label_index": "6930",
+                "label_index": "@P6930",
                 "label_korean": "램프 및 점화 장치에 의해 소모된 출력",
                 "group_id": "129616",
                 "req_frame_id": "389191",
@@ -234,13 +234,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "13813",
-                "help_korean": "전구와 점화 장치에 의해 소모되는 출력이 35 W ( /- 3W)에 가까워야 한다"
+                "help_code": "@P13813@\\*35@\\*3",
+                "help_korean": "전구와 점화 장치에 의해 소모되는 출력이 35 W (+/- 3W)에 가까워야 한다"
             },
             {
                 "position": 5,
                 "mnemonic": "MP_POSITION_MOTEUR_PAS_A_PAS",
-                "label_index": "12339",
+                "label_index": "@P12339",
                 "label_korean": "스텝퍼 모터 위치",
                 "group_id": "129616",
                 "req_frame_id": "389191",
@@ -262,7 +262,7 @@
             {
                 "position": 6,
                 "mnemonic": "MP_CONSIGNE_CORRECTION_PROJECTEUR_DROIT",
-                "label_index": "14206",
+                "label_index": "@P14206",
                 "label_korean": "우측 헤드램프로 보내진 높이 조정 기준 값",
                 "group_id": "129616",
                 "req_frame_id": "389191",
@@ -278,8 +278,8 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "43876, 43909",
-                "help_korean": "좌측 헤드램프(마스터)에 의해 보내진 전조등 하향 각도의 변경을 위한 요청 수신.\n이 기준 값은 3°에서 -3°으로 변할 수 있다."
+                "help_code": "@P43876@T.@\\n@P43909@T.",
+                "help_korean": "좌측 헤드램프(마스터)에 의해 보내진 전조등 하향 각도의 변경을 위한 요청 수신.\n이 기준 값은 +3°에서 -3°으로 변할 수 있다."
             }
         ]
     },
@@ -292,7 +292,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_TENSION_PROJ",
-                "label_index": "13411",
+                "label_index": "@P13411",
                 "label_korean": "헤드램프 공급 전압",
                 "group_id": "129616",
                 "req_frame_id": "389191",
@@ -308,13 +308,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "45645, 23848",
-                "help_korean": "엔진 퓨즈 박스에서 전송된 키 ON 전압 6과 12볼트 사이에 있어야 한다 ."
+                "help_code": "@P45645@\\+@F23848@\\*6@\\*12@\\+@T.",
+                "help_korean": "엔진 퓨즈 박스에서 전송된 키 ON 전압6과 12볼트 사이에 있어야 한다."
             },
             {
                 "position": 2,
                 "mnemonic": "ULAMP",
-                "label_index": "2798",
+                "label_index": "@P2798",
                 "label_korean": "제논 전구 전압",
                 "group_id": "129616",
                 "req_frame_id": "389191",
@@ -330,13 +330,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "9059",
+                "help_code": "@P9059",
                 "help_korean": "ECU에 의해 점화장치에 보내진 전압"
             },
             {
                 "position": 3,
                 "mnemonic": "MP_PUISSANCE_CONSO_LAMPE_IGNITEUR",
-                "label_index": "6930",
+                "label_index": "@P6930",
                 "label_korean": "램프 및 점화 장치에 의해 소모된 출력",
                 "group_id": "129616",
                 "req_frame_id": "389191",
@@ -352,13 +352,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "13813",
-                "help_korean": "전구와 점화 장치에 의해 소모되는 출력이 35 W ( /- 3W)에 가까워야 한다"
+                "help_code": "@P13813@\\*35@\\*3",
+                "help_korean": "전구와 점화 장치에 의해 소모되는 출력이 35 W (+/- 3W)에 가까워야 한다"
             },
             {
                 "position": 4,
                 "mnemonic": "MOTSIT",
-                "label_index": "13754",
+                "label_index": "@P13754",
                 "label_korean": "헤드램프 빔 모터의 위치",
                 "group_id": "129616",
                 "req_frame_id": "389191",

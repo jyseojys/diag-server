@@ -8,7 +8,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_ID_FOURNISSEUR",
-                "label_index": "5701",
+                "label_index": "@P5701",
                 "label_korean": "제조 업체명",
                 "group_id": "40990",
                 "req_frame_id": "123268",
@@ -35,7 +35,7 @@
             {
                 "position": 2,
                 "mnemonic": "ID_REFERENCE_MATERIEL",
-                "label_index": "1071",
+                "label_index": "@P1071",
                 "label_korean": "장치 부품 번호",
                 "group_id": "40990",
                 "req_frame_id": "123268",
@@ -57,7 +57,7 @@
             {
                 "position": 3,
                 "mnemonic": "ID_REFERENCE_COMPLEMENTAIRE_MATERIEL",
-                "label_index": "1634",
+                "label_index": "@P1634",
                 "label_korean": "장치 추가 참조 번호",
                 "group_id": "40990",
                 "req_frame_id": "123268",
@@ -79,7 +79,7 @@
             {
                 "position": 4,
                 "mnemonic": "ID_VERSION_LOGICIEL_new_1",
-                "label_index": "8662",
+                "label_index": "@P8662@\\*",
                 "label_korean": "소프트웨어 버전",
                 "group_id": "40990",
                 "req_frame_id": "123268",
@@ -101,7 +101,7 @@
             {
                 "position": 5,
                 "mnemonic": "ID_MESS_DIAGNOSTIC",
-                "label_index": "2459",
+                "label_index": "@P2459",
                 "label_korean": "진단 이메일",
                 "group_id": "40990",
                 "req_frame_id": "123268",
@@ -123,7 +123,7 @@
             {
                 "position": 6,
                 "mnemonic": "ID_80_MP_INDICE_MESS",
-                "label_index": "2225",
+                "label_index": "@P2225",
                 "label_korean": "메시지 인덱스",
                 "group_id": "40990",
                 "req_frame_id": "123268",
@@ -145,7 +145,7 @@
             {
                 "position": 7,
                 "mnemonic": "ID_TRACABILITE_MP_NUM_SERIE_PIECE",
-                "label_index": "7592",
+                "label_index": "@P7592",
                 "label_korean": "부품 일련 번호",
                 "group_id": "40989",
                 "req_frame_id": "123265",
@@ -167,7 +167,7 @@
             {
                 "position": 8,
                 "mnemonic": "ID_TRACABILITE_DATE_FABRICATION",
-                "label_index": "14355",
+                "label_index": "@P14355",
                 "label_korean": "제조일자",
                 "group_id": "40989",
                 "req_frame_id": "123265",
@@ -197,7 +197,7 @@
             {
                 "position": 1,
                 "mnemonic": "MPTACTIV",
-                "label_index": "4932",
+                "label_index": "@P4932",
                 "label_korean": "\"작동\" 버튼",
                 "group_id": "40995",
                 "req_frame_id": "123283",
@@ -216,13 +216,13 @@
                 "bit_mask": 128,
                 "bit_shift": 7,
                 "dynamic_arg": "",
-                "help_code": "37259, 37397",
+                "help_code": "@P37259@\\n@P37397",
                 "help_korean": "\"OK\" 버튼의 상태 변화를 나타낸다\n버튼이 중앙 컬럼에 위치해 있다"
             },
             {
                 "position": 2,
                 "mnemonic": "MP_TOUCHE_ESC",
-                "label_index": "11397",
+                "label_index": "@P11397",
                 "label_korean": "\"ESC\" 키",
                 "group_id": "40995",
                 "req_frame_id": "123283",
@@ -241,13 +241,13 @@
                 "bit_mask": 64,
                 "bit_shift": 6,
                 "dynamic_arg": "",
-                "help_code": "44302, 37397",
+                "help_code": "@P44302@\\n@P37397",
                 "help_korean": "\"ESC\"키의 상태 변화를 나타낸다\n버튼이 중앙 컬럼에 위치해 있다"
             },
             {
                 "position": 3,
                 "mnemonic": "MPTPLUS",
-                "label_index": "1909",
+                "label_index": "@P1909",
                 "label_korean": "\"Plus\" 버튼",
                 "group_id": "40995",
                 "req_frame_id": "123283",
@@ -266,13 +266,13 @@
                 "bit_mask": 32,
                 "bit_shift": 5,
                 "dynamic_arg": "",
-                "help_code": "44307, 37397",
+                "help_code": "@P44307@\\n@P37397",
                 "help_korean": "\"위로\"버튼의 상태 변화를 나타낸다\n버튼이 중앙 컬럼에 위치해 있다"
             },
             {
                 "position": 4,
                 "mnemonic": "MPTMOINS",
-                "label_index": "6007",
+                "label_index": "@P6007",
                 "label_korean": "\"Minus\" 버튼",
                 "group_id": "40995",
                 "req_frame_id": "123283",
@@ -291,7 +291,7 @@
                 "bit_mask": 16,
                 "bit_shift": 4,
                 "dynamic_arg": "",
-                "help_code": "44306, 37397",
+                "help_code": "@P44306@\\n@P37397",
                 "help_korean": "\"아래로\"버튼의 상태 변화를 나타낸다\n버튼이 중앙 컬럼에 위치해 있다"
             }
         ]

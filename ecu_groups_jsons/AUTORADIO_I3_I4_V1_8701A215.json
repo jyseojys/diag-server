@@ -8,7 +8,7 @@
             {
                 "position": 1,
                 "mnemonic": "ID_REFERENCE_FOURNISSEUR",
-                "label_index": "633",
+                "label_index": "@P633",
                 "label_korean": "제조업체",
                 "group_id": "121120",
                 "req_frame_id": "363705",
@@ -34,7 +34,7 @@
             {
                 "position": 2,
                 "mnemonic": "ID_REF_CALCULATEUR",
-                "label_index": "9463",
+                "label_index": "@P9463",
                 "label_korean": "ECU 참조",
                 "group_id": "121120",
                 "req_frame_id": "363705",
@@ -56,7 +56,7 @@
             {
                 "position": 3,
                 "mnemonic": "ID_ORIGINE_CALCULATEUR",
-                "label_index": "3601",
+                "label_index": "@P3601",
                 "label_korean": "원래 ECU",
                 "group_id": "121120",
                 "req_frame_id": "363705",
@@ -80,7 +80,7 @@
             {
                 "position": 4,
                 "mnemonic": "ID_VERSION_DIAGNOSTIC_new_1",
-                "label_index": "14029",
+                "label_index": "@P14029",
                 "label_korean": "진단 버전",
                 "group_id": "121120",
                 "req_frame_id": "363705",
@@ -102,7 +102,7 @@
             {
                 "position": 5,
                 "mnemonic": "ID_HARD",
-                "label_index": "12954",
+                "label_index": "@P12954",
                 "label_korean": "하드웨어 버전",
                 "group_id": "121120",
                 "req_frame_id": "363705",
@@ -124,7 +124,7 @@
             {
                 "position": 6,
                 "mnemonic": "Software_Version",
-                "label_index": "2358",
+                "label_index": "@P2358",
                 "label_korean": "소프트웨어 버전",
                 "group_id": "121120",
                 "req_frame_id": "363705",
@@ -146,7 +146,7 @@
             {
                 "position": 7,
                 "mnemonic": "ID_VIN_ORIGINE",
-                "label_index": "7959",
+                "label_index": "@P7959",
                 "label_korean": "차량 일련 번호 (원래 차대번호)",
                 "group_id": "121121",
                 "req_frame_id": "363708",
@@ -168,7 +168,7 @@
             {
                 "position": 8,
                 "mnemonic": "ID_VIN_ACTUEL",
-                "label_index": "15431",
+                "label_index": "@P15431",
                 "label_korean": "차량 일련 번호 (현재 차대번호)",
                 "group_id": "121122",
                 "req_frame_id": "363711",
@@ -198,7 +198,7 @@
             {
                 "position": 1,
                 "mnemonic": "Internal_Single_Disk_CD_Player",
-                "label_index": "5035",
+                "label_index": "@P5035",
                 "label_korean": "싱글 CD 플레이어",
                 "group_id": "121116",
                 "req_frame_id": "363693",
@@ -214,13 +214,13 @@
                 "bit_mask": 1,
                 "bit_shift": 0,
                 "dynamic_arg": "",
-                "help_code": "38922",
+                "help_code": "@P38922@T.",
                 "help_korean": "싱글 CD 오디오 시스템의 존재 여부를 명시한다."
             },
             {
                 "position": 2,
                 "mnemonic": "Internal_Multi_Disk_CD_Changer",
-                "label_index": "2590",
+                "label_index": "@P2590",
                 "label_korean": "멀티 CD 플레이어",
                 "group_id": "121116",
                 "req_frame_id": "363693",
@@ -236,13 +236,13 @@
                 "bit_mask": 2,
                 "bit_shift": 1,
                 "dynamic_arg": "",
-                "help_code": "42747, 44227",
+                "help_code": "@P42747@T. @\\+@P44227@T.",
                 "help_korean": "멀티 CD 오디오 시스템이 장착되었는지 명시한다. 오디오 장치는 최대 6장의 CD를 포함할 수 있다."
             },
             {
                 "position": 3,
                 "mnemonic": "Navigation_Unit_Capable",
-                "label_index": "14095",
+                "label_index": "@P14095",
                 "label_korean": "네비게이션 시스템의 제어",
                 "group_id": "121116",
                 "req_frame_id": "363693",
@@ -258,13 +258,13 @@
                 "bit_mask": 1,
                 "bit_shift": 0,
                 "dynamic_arg": "",
-                "help_code": "38920",
+                "help_code": "@P38920@T.",
                 "help_korean": "네비게이션 시스템의 수신 또는 거절을 나타낸다."
             },
             {
                 "position": 4,
                 "mnemonic": "Amplifier_Capable",
-                "label_index": "2029",
+                "label_index": "@P2029",
                 "label_korean": "하이-파이 앰프의 제어",
                 "group_id": "121116",
                 "req_frame_id": "363693",
@@ -280,13 +280,13 @@
                 "bit_mask": 8,
                 "bit_shift": 3,
                 "dynamic_arg": "",
-                "help_code": "38921",
+                "help_code": "@P38921@T.",
                 "help_korean": "하이파이 앰프가 포함될 수 있는지 여부를 명시한다."
             },
             {
                 "position": 5,
                 "mnemonic": "NUM_SP",
-                "label_index": "3680",
+                "label_index": "@P3680",
                 "label_korean": "오디오 출력 설정",
                 "group_id": "121117",
                 "req_frame_id": "363696",
@@ -302,7 +302,7 @@
                 "bit_mask": 15,
                 "bit_shift": 0,
                 "dynamic_arg": "",
-                "help_code": "44228, 42748",
+                "help_code": "@P44228@T. @\\+@P42748@T.",
                 "help_korean": "차량에 있는 스피커의 수를 나타낸다. 프리미엄 옵션은 특정한 하이파이 앰프를 가지고 있다는 것을 참조한다."
             }
         ]
@@ -316,7 +316,7 @@
             {
                 "position": 1,
                 "mnemonic": "MODE",
-                "label_index": "12533",
+                "label_index": "@P12533",
                 "label_korean": "모드 버튼",
                 "group_id": "121115",
                 "req_frame_id": "363690",
@@ -338,7 +338,7 @@
             {
                 "position": 2,
                 "mnemonic": "CH_UP",
-                "label_index": "9446",
+                "label_index": "@P9446",
                 "label_korean": "다음 검색 버튼",
                 "group_id": "121115",
                 "req_frame_id": "363690",
@@ -360,7 +360,7 @@
             {
                 "position": 3,
                 "mnemonic": "CH_DOWN",
-                "label_index": "9101",
+                "label_index": "@P9101",
                 "label_korean": "이전 검색 버튼",
                 "group_id": "121115",
                 "req_frame_id": "363690",
@@ -382,8 +382,8 @@
             {
                 "position": 4,
                 "mnemonic": "VOL_UP",
-                "label_index": "6432",
-                "label_korean": "볼륨버튼",
+                "label_index": "@P6432@\\*+",
+                "label_korean": "볼륨버튼+",
                 "group_id": "121115",
                 "req_frame_id": "363690",
                 "resp_frame_id": "363691",
@@ -404,7 +404,7 @@
             {
                 "position": 5,
                 "mnemonic": "VOL_DOWN",
-                "label_index": "6432",
+                "label_index": "@P6432@\\*-",
                 "label_korean": "볼륨버튼-",
                 "group_id": "121115",
                 "req_frame_id": "363690",
@@ -426,7 +426,7 @@
             {
                 "position": 6,
                 "mnemonic": "Speech_recognition_on_off",
-                "label_index": "6989",
+                "label_index": "@P6989",
                 "label_korean": "음성 인식 버튼",
                 "group_id": "121115",
                 "req_frame_id": "363690",
@@ -448,7 +448,7 @@
             {
                 "position": 7,
                 "mnemonic": "on_hook_Utterance",
-                "label_index": "9045",
+                "label_index": "@P9045",
                 "label_korean": "전화 받기 버튼",
                 "group_id": "121115",
                 "req_frame_id": "363690",
@@ -470,7 +470,7 @@
             {
                 "position": 8,
                 "mnemonic": "on_hook_end_of_utterance",
-                "label_index": "13603",
+                "label_index": "@P13603",
                 "label_korean": "전화 끊기 버튼",
                 "group_id": "121115",
                 "req_frame_id": "363690",
@@ -500,7 +500,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_TEMPS_UTILISATION_FM",
-                "label_index": "16873",
+                "label_index": "@P16873",
                 "label_korean": "FM 튜너의 사용 시간",
                 "group_id": "121118",
                 "req_frame_id": "363699",
@@ -522,7 +522,7 @@
             {
                 "position": 2,
                 "mnemonic": "MP_TEMPS_UTILISATION_AM",
-                "label_index": "16888",
+                "label_index": "@P16888",
                 "label_korean": "AM 튜너의 사용 시간",
                 "group_id": "121118",
                 "req_frame_id": "363699",
@@ -544,7 +544,7 @@
             {
                 "position": 3,
                 "mnemonic": "MP_TEMPS_UTILISATION_CD",
-                "label_index": "16886",
+                "label_index": "@P16886",
                 "label_korean": "CD 플레이어 사용 시간",
                 "group_id": "121119",
                 "req_frame_id": "363702",
@@ -574,7 +574,7 @@
             {
                 "position": 1,
                 "mnemonic": "CA_ODOMETRE",
-                "label_index": "12961",
+                "label_index": "@P12961",
                 "label_korean": "주행 거리계",
                 "group_id": "121124",
                 "req_frame_id": "363717",
@@ -598,7 +598,7 @@
             {
                 "position": 2,
                 "mnemonic": "CA_MinACCUMULEES",
-                "label_index": "11104",
+                "label_index": "@P11104",
                 "label_korean": "누적 분",
                 "group_id": "121124",
                 "req_frame_id": "363717",
@@ -620,7 +620,7 @@
             {
                 "position": 3,
                 "mnemonic": "CA_CycleALLUMAGE",
-                "label_index": "13273",
+                "label_index": "@P13273",
                 "label_korean": "점등 사이클",
                 "group_id": "121124",
                 "req_frame_id": "363717",

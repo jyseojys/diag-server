@@ -8,7 +8,7 @@
             {
                 "position": 1,
                 "mnemonic": "ID_NOM_DU_FOURNISSEUR",
-                "label_index": "5701",
+                "label_index": "@P5701",
                 "label_korean": "제조 업체명",
                 "group_id": "133534",
                 "req_frame_id": "400945",
@@ -38,7 +38,7 @@
             {
                 "position": 2,
                 "mnemonic": "ID_REFERENCE_MATERIEL",
-                "label_index": "1071",
+                "label_index": "@P1071",
                 "label_korean": "장치 부품 번호",
                 "group_id": "133534",
                 "req_frame_id": "400945",
@@ -60,7 +60,7 @@
             {
                 "position": 3,
                 "mnemonic": "ID_REFERENCE_COMPLEMENTAIRE_MATERIEL",
-                "label_index": "1634",
+                "label_index": "@P1634",
                 "label_korean": "장치 추가 참조 번호",
                 "group_id": "133534",
                 "req_frame_id": "400945",
@@ -82,7 +82,7 @@
             {
                 "position": 4,
                 "mnemonic": "ID_REFERENCE_LOGICIEL",
-                "label_index": "13263",
+                "label_index": "@P13263",
                 "label_korean": "소프트웨어 번호",
                 "group_id": "133535",
                 "req_frame_id": "400948",
@@ -104,7 +104,7 @@
             {
                 "position": 5,
                 "mnemonic": "ID_TRACABILITE_INDICE_EVOLUTION_EDITION",
-                "label_index": "24601",
+                "label_index": "@P24601",
                 "label_korean": "소프트웨어 버전",
                 "group_id": "133535",
                 "req_frame_id": "400948",
@@ -126,7 +126,7 @@
             {
                 "position": 6,
                 "mnemonic": "ID_DATE_TELECH",
-                "label_index": "21670",
+                "label_index": "@P21670",
                 "label_korean": "다운로딩 날짜",
                 "group_id": "133535",
                 "req_frame_id": "400948",
@@ -148,7 +148,7 @@
             {
                 "position": 7,
                 "mnemonic": "ID_NOMBRE_DE_TELECHARGEMENT",
-                "label_index": "24589",
+                "label_index": "@P24589",
                 "label_korean": "다운로드의 수",
                 "group_id": "133535",
                 "req_frame_id": "400948",
@@ -170,7 +170,7 @@
             {
                 "position": 8,
                 "mnemonic": "ID_TRACABILITE_DATE_FABRICATION",
-                "label_index": "14355",
+                "label_index": "@F14355",
                 "label_korean": "제조일자",
                 "group_id": "133577",
                 "req_frame_id": "401074",
@@ -200,7 +200,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_VEHICULE_VITESSE",
-                "label_index": "9267",
+                "label_index": "@P9267",
                 "label_korean": "차량 속도",
                 "group_id": "133548",
                 "req_frame_id": "400987",
@@ -222,7 +222,7 @@
             {
                 "position": 2,
                 "mnemonic": "MP_NOMBRE_KILOMETRAGE",
-                "label_index": "14658",
+                "label_index": "@P14658",
                 "label_korean": "차량 주행거리",
                 "group_id": "133572",
                 "req_frame_id": "401059",
@@ -244,7 +244,7 @@
             {
                 "position": 3,
                 "mnemonic": "MP_DEMANDE_REVEIL_PRINCIPAL",
-                "label_index": "5962",
+                "label_index": "@P5962",
                 "label_korean": "메인 웨이크-업 요청",
                 "group_id": "133566",
                 "req_frame_id": "401041",
@@ -274,7 +274,7 @@
             {
                 "position": 4,
                 "mnemonic": "MP_ETAT_RCD",
-                "label_index": "16191",
+                "label_index": "@P16191",
                 "label_korean": "원격 제어 웨이크-업 상태",
                 "group_id": "133562",
                 "req_frame_id": "401029",
@@ -361,8 +361,8 @@
             {
                 "position": 1,
                 "mnemonic": "MP_HV_TENSION_ENTREE_DCDC_SEA",
-                "label_index": "61105",
-                "label_korean": "직류 전압 변압기입력 전압 값(DC / DC)",
+                "label_index": "@P61105@\\*(DC / DC)",
+                "label_korean": "직류 전압 변압기 입력 전압 값(DC / DC)",
                 "group_id": "133536",
                 "req_frame_id": "400951",
                 "resp_frame_id": "400952",
@@ -383,8 +383,8 @@
             {
                 "position": 2,
                 "mnemonic": "MP_HV_COURANT_ENTRE_DCDC_SEA",
-                "label_index": "61106",
-                "label_korean": "직류 전압 변압기입력 전류 값(DC / DC)",
+                "label_index": "@P61106@\\*(DC / DC)",
+                "label_korean": "직류 전압 변압기 입력 전류 값(DC / DC)",
                 "group_id": "133537",
                 "req_frame_id": "400954",
                 "resp_frame_id": "400955",
@@ -405,8 +405,8 @@
             {
                 "position": 3,
                 "mnemonic": "MP_LV_TENSION_SORTIE_DCDC_SEA",
-                "label_index": "61107",
-                "label_korean": "직류 전압 변압기출력 전압 값(DC / DC)",
+                "label_index": "@P61107@\\*(DC / DC)",
+                "label_korean": "직류 전압 변압기 출력 전압 값(DC / DC)",
                 "group_id": "133538",
                 "req_frame_id": "400957",
                 "resp_frame_id": "400958",
@@ -427,8 +427,8 @@
             {
                 "position": 4,
                 "mnemonic": "MP_LV_COURANT_ENTRE_DCDC_SEA",
-                "label_index": "61108",
-                "label_korean": "직류 전압 변압기출력 전류 값(DC / DC)",
+                "label_index": "@P61108@\\*(DC / DC)",
+                "label_korean": "직류 전압 변압기 출력 전류 값(DC / DC)",
                 "group_id": "133539",
                 "req_frame_id": "400960",
                 "resp_frame_id": "400961",
@@ -471,7 +471,7 @@
             {
                 "position": 6,
                 "mnemonic": "MP_ETAT_DU_CONVERTISSEUR_DE_COURANT_DCDC",
-                "label_index": "55210",
+                "label_index": "@P55210",
                 "label_korean": "직류 전압 변압기의 상태",
                 "group_id": "133541",
                 "req_frame_id": "400966",
@@ -507,7 +507,7 @@
             {
                 "position": 7,
                 "mnemonic": "MP_ETAT_COMMANDE_VCU_DCDC",
-                "label_index": "@TTBT�tat de la commande du convertisseur de tension continue ",
+                "label_index": "@TTBT�tat de la commande du convertisseur de tension continue",
                 "label_korean": "TBT�tat de la commande du convertisseur de tension continue",
                 "group_id": "133543",
                 "req_frame_id": "400972",
@@ -575,7 +575,7 @@
             {
                 "position": 10,
                 "mnemonic": "MP_ALIMENTASION_BASSE_TENSION",
-                "label_index": "27741",
+                "label_index": "@P27741",
                 "label_korean": "서비스 배터리 전압",
                 "group_id": "133547",
                 "req_frame_id": "400984",
@@ -641,7 +641,7 @@
             {
                 "position": 13,
                 "mnemonic": "MP_TEMP_LIQUIDE_REFROIDISSEMENT",
-                "label_index": "12596",
+                "label_index": "@P12596",
                 "label_korean": "냉각수 온도",
                 "group_id": "133551",
                 "req_frame_id": "400996",
@@ -1081,7 +1081,7 @@
             {
                 "position": 32,
                 "mnemonic": "MP_ETAT_CABLE_CHARGE",
-                "label_index": "62391",
+                "label_index": "@P62391",
                 "label_korean": "condition of charging cable",
                 "group_id": "133571",
                 "req_frame_id": "401056",
@@ -1139,7 +1139,7 @@
             {
                 "position": 2,
                 "mnemonic": "MP_ETAT_CONTACTEUR_POSITIF_PUISSANCE_INTERNE_BATT_TRACTION",
-                "label_index": "54363",
+                "label_index": "@P54363",
                 "label_korean": "트랙션 배터리 내부 양극 전원 스위치 상태",
                 "group_id": "133574",
                 "req_frame_id": "401065",
@@ -1169,7 +1169,7 @@
             {
                 "position": 3,
                 "mnemonic": "MP_ETAT_CONTACTEUR_NEGATIF_PUISSANCE_INTERNE_BATT_TRACTION",
-                "label_index": "54364",
+                "label_index": "@P54364",
                 "label_korean": "트랙션 배터리 내부 음극 전원 스위치 상태",
                 "group_id": "133575",
                 "req_frame_id": "401068",
@@ -1207,8 +1207,8 @@
             {
                 "position": 1,
                 "mnemonic": "MP_HV_TENSION_ENTREE_DCDC_SEA",
-                "label_index": "61105",
-                "label_korean": "직류 전압 변압기입력 전압 값(DC / DC)",
+                "label_index": "@P61105@\\*(DC / DC)",
+                "label_korean": "직류 전압 변압기 입력 전압 값(DC / DC)",
                 "group_id": "133536",
                 "req_frame_id": "400951",
                 "resp_frame_id": "400952",
@@ -1229,8 +1229,8 @@
             {
                 "position": 2,
                 "mnemonic": "MP_HV_COURANT_ENTRE_DCDC_SEA",
-                "label_index": "61106",
-                "label_korean": "직류 전압 변압기입력 전류 값(DC / DC)",
+                "label_index": "@P61106@\\*(DC / DC)",
+                "label_korean": "직류 전압 변압기 입력 전류 값(DC / DC)",
                 "group_id": "133537",
                 "req_frame_id": "400954",
                 "resp_frame_id": "400955",
@@ -1251,8 +1251,8 @@
             {
                 "position": 3,
                 "mnemonic": "MP_LV_TENSION_SORTIE_DCDC_SEA",
-                "label_index": "61107",
-                "label_korean": "직류 전압 변압기출력 전압 값(DC / DC)",
+                "label_index": "@P61107@\\*(DC / DC)",
+                "label_korean": "직류 전압 변압기 출력 전압 값(DC / DC)",
                 "group_id": "133538",
                 "req_frame_id": "400957",
                 "resp_frame_id": "400958",
@@ -1273,8 +1273,8 @@
             {
                 "position": 4,
                 "mnemonic": "MP_LV_COURANT_ENTRE_DCDC_SEA",
-                "label_index": "61108",
-                "label_korean": "직류 전압 변압기출력 전류 값(DC / DC)",
+                "label_index": "@P61108@\\*(DC / DC)",
+                "label_korean": "직류 전압 변압기 출력 전류 값(DC / DC)",
                 "group_id": "133539",
                 "req_frame_id": "400960",
                 "resp_frame_id": "400961",
@@ -1317,7 +1317,7 @@
             {
                 "position": 6,
                 "mnemonic": "MP_ALIMENTASION_BASSE_TENSION",
-                "label_index": "27741",
+                "label_index": "@P27741",
                 "label_korean": "서비스 배터리 전압",
                 "group_id": "133547",
                 "req_frame_id": "400984",
@@ -1339,7 +1339,7 @@
             {
                 "position": 7,
                 "mnemonic": "MP_VEHICULE_VITESSE",
-                "label_index": "9267",
+                "label_index": "@P9267",
                 "label_korean": "차량 속도",
                 "group_id": "133548",
                 "req_frame_id": "400987",
@@ -1361,7 +1361,7 @@
             {
                 "position": 8,
                 "mnemonic": "MP_NOMBRE_KILOMETRAGE",
-                "label_index": "14658",
+                "label_index": "@P14658",
                 "label_korean": "차량 주행거리",
                 "group_id": "133572",
                 "req_frame_id": "401059",

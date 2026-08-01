@@ -8,7 +8,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_ETAT_ANTIDEMARRAGE",
-                "label_index": "29104",
+                "label_index": "@P29104",
                 "label_korean": "엔진 이모빌라이저의 상태",
                 "group_id": "39951",
                 "req_frame_id": "120151",
@@ -48,7 +48,7 @@
             {
                 "position": 1,
                 "mnemonic": "ID_NOM_DU_FOURNISSEUR",
-                "label_index": "5701",
+                "label_index": "@P5701",
                 "label_korean": "제조 업체명",
                 "group_id": "39946",
                 "req_frame_id": "120136",
@@ -78,7 +78,7 @@
             {
                 "position": 2,
                 "mnemonic": "ID_REFERENCE_MATERIEL",
-                "label_index": "1071",
+                "label_index": "@P1071",
                 "label_korean": "장치 부품 번호",
                 "group_id": "39946",
                 "req_frame_id": "120136",
@@ -100,7 +100,7 @@
             {
                 "position": 3,
                 "mnemonic": "ID_REFERENCE_COMPLEMENTAIRE_MATERIEL",
-                "label_index": "1634",
+                "label_index": "@P1634",
                 "label_korean": "장치 추가 참조 번호",
                 "group_id": "39946",
                 "req_frame_id": "120136",
@@ -122,7 +122,7 @@
             {
                 "position": 4,
                 "mnemonic": "ID_REFERENCE_LOGICIEL",
-                "label_index": "13263",
+                "label_index": "@P13263",
                 "label_korean": "소프트웨어 번호",
                 "group_id": "39947",
                 "req_frame_id": "120139",
@@ -144,7 +144,7 @@
             {
                 "position": 5,
                 "mnemonic": "ID_TRACABILITE_INDICE_EVOLUTION_EDITION",
-                "label_index": "24601",
+                "label_index": "@P24601",
                 "label_korean": "소프트웨어 버전",
                 "group_id": "39947",
                 "req_frame_id": "120139",
@@ -166,7 +166,7 @@
             {
                 "position": 6,
                 "mnemonic": "ID_DATE_TELECH",
-                "label_index": "21670",
+                "label_index": "@P21670",
                 "label_korean": "다운로딩 날짜",
                 "group_id": "39947",
                 "req_frame_id": "120139",
@@ -188,7 +188,7 @@
             {
                 "position": 7,
                 "mnemonic": "ID_NOMBRE_DE_TELECHARGEMENT",
-                "label_index": "24589",
+                "label_index": "@P24589",
                 "label_korean": "다운로드의 수",
                 "group_id": "39947",
                 "req_frame_id": "120139",
@@ -210,7 +210,7 @@
             {
                 "position": 8,
                 "mnemonic": "ID_REFERENCE_HOMOLOGATION_EOBD",
-                "label_index": "31252",
+                "label_index": "@P31252",
                 "label_korean": "EOBD 승인 번호",
                 "group_id": "39948",
                 "req_frame_id": "120142",
@@ -232,7 +232,7 @@
             {
                 "position": 9,
                 "mnemonic": "ID_TRACABILITE_DATE_FABRICATION",
-                "label_index": "14355",
+                "label_index": "@F14355",
                 "label_korean": "제조일자",
                 "group_id": "39949",
                 "req_frame_id": "120145",
@@ -262,7 +262,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_TENSION_BATTERIE",
-                "label_index": "18263",
+                "label_index": "@P18263",
                 "label_korean": "배터리 전압",
                 "group_id": "39953",
                 "req_frame_id": "120157",
@@ -280,13 +280,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "",
+                "help_code": "@T",
                 "help_korean": ""
             },
             {
                 "position": 2,
                 "mnemonic": "MP_TEMP_OND_MEL_AR",
-                "label_index": "23024",
+                "label_index": "@P23024",
                 "label_korean": "전동 구동 머신 인버터 온도",
                 "group_id": "39968",
                 "req_frame_id": "120202",
@@ -302,13 +302,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "",
+                "help_code": "@T",
                 "help_korean": ""
             },
             {
                 "position": 3,
                 "mnemonic": "MP_TEMPERATURE_MEL",
-                "label_index": "53554",
+                "label_index": "@P53554",
                 "label_korean": "전동 구동 머신 온도",
                 "group_id": "39969",
                 "req_frame_id": "120205",
@@ -324,13 +324,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "",
+                "help_code": "@T",
                 "help_korean": ""
             },
             {
                 "position": 4,
                 "mnemonic": "MP_TEMPERATURE_CONDENSATEUR_ONDULEUR_MEL",
-                "label_index": "53549",
+                "label_index": "@P53549",
                 "label_korean": "프론트 전동 구동 머신 인버터 콘덴서의 온도",
                 "group_id": "39970",
                 "req_frame_id": "120208",
@@ -346,13 +346,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "",
+                "help_code": "@T",
                 "help_korean": ""
             },
             {
                 "position": 5,
                 "mnemonic": "MP_TEMPERATURE_BOBINE_MACHINE_ELECTRIQUE_TRACTION",
-                "label_index": "32976",
+                "label_index": "@P32976",
                 "label_korean": "전동 구동 머신 코일 온도",
                 "group_id": "39971",
                 "req_frame_id": "120211",
@@ -368,13 +368,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "",
+                "help_code": "@T",
                 "help_korean": ""
             },
             {
                 "position": 6,
                 "mnemonic": "MP_REGIME_MEL",
-                "label_index": "22344",
+                "label_index": "@P22344",
                 "label_korean": "전동 트랙션 머신의 속도",
                 "group_id": "39972",
                 "req_frame_id": "120214",
@@ -390,13 +390,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "",
+                "help_code": "@T",
                 "help_korean": ""
             },
             {
                 "position": 7,
                 "mnemonic": "MP_ETAT_AUTODIAGNOSTIC_MOTEUR",
-                "label_index": "53547",
+                "label_index": "@P53547",
                 "label_korean": "엔진 자체 진단 경고등 상태",
                 "group_id": "39973",
                 "req_frame_id": "120217",
@@ -415,13 +415,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "",
+                "help_code": "@T",
                 "help_korean": ""
             },
             {
                 "position": 8,
                 "mnemonic": "MP_ETAT_CHARGE_BATTERIE_1",
-                "label_index": "27867",
+                "label_index": "@P27867",
                 "label_korean": "배터리의 상태",
                 "group_id": "39974",
                 "req_frame_id": "120220",
@@ -443,13 +443,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "",
+                "help_code": "@T",
                 "help_korean": ""
             },
             {
                 "position": 9,
                 "mnemonic": "MP_MOTEUR_THERMIQUE",
-                "label_index": "19321",
+                "label_index": "@P19321",
                 "label_korean": "내연 기관",
                 "group_id": "39975",
                 "req_frame_id": "120223",
@@ -465,13 +465,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "",
+                "help_code": "@T",
                 "help_korean": ""
             },
             {
                 "position": 10,
                 "mnemonic": "MP_TEMPERATURE_LIQUIDE_REFROIDISSEMENT_MOTEUR",
-                "label_index": "12962",
+                "label_index": "@P12962",
                 "label_korean": "엔진 냉각수 온도",
                 "group_id": "39976",
                 "req_frame_id": "120226",
@@ -487,13 +487,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "",
+                "help_code": "@T",
                 "help_korean": ""
             },
             {
                 "position": 11,
                 "mnemonic": "MP_TENSION_MEL",
-                "label_index": "53551",
+                "label_index": "@P53551",
                 "label_korean": "전동 구동 머신 전압",
                 "group_id": "39977",
                 "req_frame_id": "120229",
@@ -509,13 +509,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "",
+                "help_code": "@T",
                 "help_korean": ""
             },
             {
                 "position": 12,
                 "mnemonic": "MP_ETAT_LIGNE_RCD",
-                "label_index": "33773",
+                "label_index": "@P33773",
                 "label_korean": "웨이크-온-랜 라인의 상태",
                 "group_id": "39978",
                 "req_frame_id": "120232",
@@ -544,7 +544,7 @@
             {
                 "position": 13,
                 "mnemonic": "MP_VITESSE_VEHICULE",
-                "label_index": "9267",
+                "label_index": "@F9267",
                 "label_korean": "차량 속도",
                 "group_id": "39979",
                 "req_frame_id": "120235",
@@ -564,13 +564,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "",
+                "help_code": "@T",
                 "help_korean": ""
             },
             {
                 "position": 14,
                 "mnemonic": "MP_DEMANDE_INFO_MUX",
-                "label_index": "53550",
+                "label_index": "@P53550",
                 "label_korean": "멀티플렉스 정보 요청",
                 "group_id": "39980",
                 "req_frame_id": "120238",
@@ -589,13 +589,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "",
+                "help_code": "@T",
                 "help_korean": ""
             },
             {
                 "position": 15,
                 "mnemonic": "MP_ETAT_ACTIVATION_BVA_HYBRIQDE",
-                "label_index": "53548",
+                "label_index": "@P53548",
                 "label_korean": "하이브리드 자동 변속기 작동 상태",
                 "group_id": "39981",
                 "req_frame_id": "120241",
@@ -616,13 +616,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "",
+                "help_code": "@T",
                 "help_korean": ""
             },
             {
                 "position": 16,
                 "mnemonic": "MP_DMD_INFO_VITESSE_MEL_PAR_CMM",
-                "label_index": "53555",
+                "label_index": "@P53555",
                 "label_korean": "엔진 ECU에 의한 전동 구동 머신 속도 정보 요청",
                 "group_id": "39982",
                 "req_frame_id": "120244",
@@ -638,13 +638,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "",
+                "help_code": "@T",
                 "help_korean": ""
             },
             {
                 "position": 17,
                 "mnemonic": "MP_DEMANDE_CONTROLE_MOTEUR",
-                "label_index": "53887",
+                "label_index": "@P53887",
                 "label_korean": "프론트 전동 구동 머신의 작동을 제어한다",
                 "group_id": "39954",
                 "req_frame_id": "120160",
@@ -671,7 +671,7 @@
             {
                 "position": 18,
                 "mnemonic": "MP_ETAT_MACHINE_ELECTRIQUE_TRACTION",
-                "label_index": "32945",
+                "label_index": "@P32945",
                 "label_korean": "전동 트랙션 머신 상태",
                 "group_id": "39955",
                 "req_frame_id": "120163",
@@ -703,7 +703,7 @@
             {
                 "position": 19,
                 "mnemonic": "MP_DEMANDE_DECHARGE",
-                "label_index": "53885",
+                "label_index": "@P53885",
                 "label_korean": "하이브리드 자동 변속기 콘덴서 방전 요청",
                 "group_id": "39964",
                 "req_frame_id": "120190",
@@ -728,7 +728,7 @@
             {
                 "position": 20,
                 "mnemonic": "MP_BOITE_VITESSE_MODE_URGENCE",
-                "label_index": "53877",
+                "label_index": "@P53877",
                 "label_korean": "하이브리드 자동 변속기가 비상 모드에 있음",
                 "group_id": "39965",
                 "req_frame_id": "120193",
@@ -756,7 +756,7 @@
             {
                 "position": 21,
                 "mnemonic": "MP_BOITE_VITESSE_DEJA_MODE_URGENCE",
-                "label_index": "53884",
+                "label_index": "@P53884",
                 "label_korean": "하이브리드 자동 변속기가 이미 비상 모드로 전환됨",
                 "group_id": "39966",
                 "req_frame_id": "120196",
@@ -781,7 +781,7 @@
             {
                 "position": 22,
                 "mnemonic": "MP_POSITION_PEDALE_ACCELERATION",
-                "label_index": "7897",
+                "label_index": "@P7897",
                 "label_korean": "가속 페달 위치",
                 "group_id": "39967",
                 "req_frame_id": "120199",
@@ -803,7 +803,7 @@
             {
                 "position": 23,
                 "mnemonic": "MP_ETAT_REVEIL_COMMD_DISTANCE",
-                "label_index": "33773",
+                "label_index": "@P33773",
                 "label_korean": "웨이크-온-랜 라인의 상태",
                 "group_id": "39961",
                 "req_frame_id": "120181",
@@ -833,7 +833,7 @@
             {
                 "position": 24,
                 "mnemonic": "MP_ETAT_MOTEUR_THERMIQUE",
-                "label_index": "5417",
+                "label_index": "@P5417",
                 "label_korean": "내연 기관 엔진 상태",
                 "group_id": "39962",
                 "req_frame_id": "120184",
@@ -887,7 +887,7 @@
             {
                 "position": 25,
                 "mnemonic": "MP_VALEUR_CHARGE_CALCULEE",
-                "label_index": "31280",
+                "label_index": "@P31280",
                 "label_korean": "계산된 부하 값",
                 "group_id": "39963",
                 "req_frame_id": "120187",
@@ -954,7 +954,7 @@
             {
                 "position": 27,
                 "mnemonic": "MP_COUPLE_MOTEUR_REEL_01",
-                "label_index": "11944",
+                "label_index": "@P11944",
                 "label_korean": "실제 엔진 토크",
                 "group_id": "39957",
                 "req_frame_id": "120169",
@@ -976,7 +976,7 @@
             {
                 "position": 28,
                 "mnemonic": "MP_ETATS_CONTACTEURS_BATTERIE_TRACTION",
-                "label_index": "22484",
+                "label_index": "@P22484",
                 "label_korean": "트랙션 배터리의 스위치 상태",
                 "group_id": "39960",
                 "req_frame_id": "120178",
@@ -1008,7 +1008,7 @@
             {
                 "position": 29,
                 "mnemonic": "MP_LECTURE_VITESSE_POMPE_HUILE_ELECTRIQUE",
-                "label_index": "53883",
+                "label_index": "@P53883",
                 "label_korean": "전동 오일 펌프 속도",
                 "group_id": "39958",
                 "req_frame_id": "120172",
@@ -1030,7 +1030,7 @@
             {
                 "position": 30,
                 "mnemonic": "MP_COUPLE_POMPE_HUILE_ELECTRIQUE",
-                "label_index": "53880",
+                "label_index": "@P53880",
                 "label_korean": "전동 오일 펌프 토크",
                 "group_id": "39959",
                 "req_frame_id": "120175",
@@ -1052,7 +1052,7 @@
             {
                 "position": 31,
                 "mnemonic": "MP_ETAT_VERROUILLAGE_DEVERROUILLAGE_CALCULTATEUR",
-                "label_index": "7701",
+                "label_index": "@F7701",
                 "label_korean": "ECU 상태",
                 "group_id": "39952",
                 "req_frame_id": "120154",
@@ -1080,13 +1080,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "52026",
+                "help_code": "@P52026",
                 "help_korean": "이 변수는 순차적 기어 레버가 장착된 자동 변속기에만 적용된다"
             },
             {
                 "position": 32,
                 "mnemonic": "MP_ETAT_PROGRAMMATION_ANTI_DEMARRAGE",
-                "label_index": "4427",
+                "label_index": "@F4427",
                 "label_korean": "코드화된 엔진 이모빌라이저 프로그래밍 상태",
                 "group_id": "39952",
                 "req_frame_id": "120154",
@@ -1115,13 +1115,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "52026",
+                "help_code": "@P52026",
                 "help_korean": "이 변수는 순차적 기어 레버가 장착된 자동 변속기에만 적용된다"
             },
             {
                 "position": 33,
                 "mnemonic": "MP_PB_TRANSMISSION_CODE_DEVERROUILLAGE",
-                "label_index": "12495",
+                "label_index": "@P12495",
                 "label_korean": "잠금 해제 코드 전송 중 감지된 문제",
                 "group_id": "39952",
                 "req_frame_id": "120154",
@@ -1162,7 +1162,7 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "52026",
+                "help_code": "@P52026",
                 "help_korean": "이 변수는 순차적 기어 레버가 장착된 자동 변속기에만 적용된다"
             }
         ]
@@ -1176,7 +1176,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_TEMP_OND_MEL_AR",
-                "label_index": "23024",
+                "label_index": "@P23024",
                 "label_korean": "전동 구동 머신 인버터 온도",
                 "group_id": "39968",
                 "req_frame_id": "120202",
@@ -1192,13 +1192,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "",
+                "help_code": "@T",
                 "help_korean": ""
             },
             {
                 "position": 2,
                 "mnemonic": "MP_TEMPERATURE_MEL",
-                "label_index": "53554",
+                "label_index": "@P53554",
                 "label_korean": "전동 구동 머신 온도",
                 "group_id": "39969",
                 "req_frame_id": "120205",
@@ -1214,13 +1214,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "",
+                "help_code": "@T",
                 "help_korean": ""
             },
             {
                 "position": 3,
                 "mnemonic": "MP_TEMPERATURE_CONDENSATEUR_ONDULEUR_MEL",
-                "label_index": "53549",
+                "label_index": "@P53549",
                 "label_korean": "프론트 전동 구동 머신 인버터 콘덴서의 온도",
                 "group_id": "39970",
                 "req_frame_id": "120208",
@@ -1236,13 +1236,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "",
+                "help_code": "@T",
                 "help_korean": ""
             },
             {
                 "position": 4,
                 "mnemonic": "MP_TEMPERATURE_BOBINE_MACHINE_ELECTRIQUE_TRACTION",
-                "label_index": "32976",
+                "label_index": "@P32976",
                 "label_korean": "전동 구동 머신 코일 온도",
                 "group_id": "39971",
                 "req_frame_id": "120211",
@@ -1258,13 +1258,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "",
+                "help_code": "@T",
                 "help_korean": ""
             },
             {
                 "position": 5,
                 "mnemonic": "MP_ETAT_MACHINE_ELECTRIQUE_TRACTION",
-                "label_index": "32945",
+                "label_index": "@P32945",
                 "label_korean": "전동 트랙션 머신 상태",
                 "group_id": "39955",
                 "req_frame_id": "120163",
@@ -1296,7 +1296,7 @@
             {
                 "position": 6,
                 "mnemonic": "MP_REGIME_MEL",
-                "label_index": "22344",
+                "label_index": "@P22344",
                 "label_korean": "전동 트랙션 머신의 속도",
                 "group_id": "39972",
                 "req_frame_id": "120214",
@@ -1312,13 +1312,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "",
+                "help_code": "@T",
                 "help_korean": ""
             },
             {
                 "position": 7,
                 "mnemonic": "MP_POSITION_PEDALE_ACCELERATION",
-                "label_index": "7897",
+                "label_index": "@P7897",
                 "label_korean": "가속 페달 위치",
                 "group_id": "39967",
                 "req_frame_id": "120199",
@@ -1340,7 +1340,7 @@
             {
                 "position": 8,
                 "mnemonic": "MP_ETAT_CHARGE_BATTERIE_1",
-                "label_index": "27867",
+                "label_index": "@P27867",
                 "label_korean": "배터리의 상태",
                 "group_id": "39974",
                 "req_frame_id": "120220",
@@ -1362,13 +1362,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "",
+                "help_code": "@T",
                 "help_korean": ""
             },
             {
                 "position": 9,
                 "mnemonic": "MP_MOTEUR_THERMIQUE",
-                "label_index": "19321",
+                "label_index": "@P19321",
                 "label_korean": "내연 기관",
                 "group_id": "39975",
                 "req_frame_id": "120223",
@@ -1384,13 +1384,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "",
+                "help_code": "@T",
                 "help_korean": ""
             },
             {
                 "position": 10,
                 "mnemonic": "MP_TEMPERATURE_LIQUIDE_REFROIDISSEMENT_MOTEUR",
-                "label_index": "12962",
+                "label_index": "@P12962",
                 "label_korean": "엔진 냉각수 온도",
                 "group_id": "39976",
                 "req_frame_id": "120226",
@@ -1406,13 +1406,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "",
+                "help_code": "@T",
                 "help_korean": ""
             },
             {
                 "position": 11,
                 "mnemonic": "MP_VALEUR_CHARGE_CALCULEE",
-                "label_index": "31280",
+                "label_index": "@P31280",
                 "label_korean": "계산된 부하 값",
                 "group_id": "39963",
                 "req_frame_id": "120187",
@@ -1434,7 +1434,7 @@
             {
                 "position": 12,
                 "mnemonic": "MP_VITESSE_VEHICULE",
-                "label_index": "9267",
+                "label_index": "@F9267",
                 "label_korean": "차량 속도",
                 "group_id": "39979",
                 "req_frame_id": "120235",
@@ -1454,7 +1454,7 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "",
+                "help_code": "@T",
                 "help_korean": ""
             },
             {
@@ -1505,7 +1505,7 @@
             {
                 "position": 14,
                 "mnemonic": "MP_ETAT_ACTIVATION_BVA_HYBRIQDE",
-                "label_index": "53548",
+                "label_index": "@P53548",
                 "label_korean": "하이브리드 자동 변속기 작동 상태",
                 "group_id": "39981",
                 "req_frame_id": "120241",
@@ -1526,13 +1526,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "",
+                "help_code": "@T",
                 "help_korean": ""
             },
             {
                 "position": 15,
                 "mnemonic": "MP_DEMANDE_CONTROLE_MOTEUR",
-                "label_index": "53887",
+                "label_index": "@P53887",
                 "label_korean": "프론트 전동 구동 머신의 작동을 제어한다",
                 "group_id": "39954",
                 "req_frame_id": "120160",
@@ -1559,7 +1559,7 @@
             {
                 "position": 16,
                 "mnemonic": "MP_DEMANDE_DECHARGE",
-                "label_index": "53885",
+                "label_index": "@P53885",
                 "label_korean": "하이브리드 자동 변속기 콘덴서 방전 요청",
                 "group_id": "39964",
                 "req_frame_id": "120190",
@@ -1584,7 +1584,7 @@
             {
                 "position": 17,
                 "mnemonic": "MP_BOITE_VITESSE_MODE_URGENCE",
-                "label_index": "53877",
+                "label_index": "@P53877",
                 "label_korean": "하이브리드 자동 변속기가 비상 모드에 있음",
                 "group_id": "39965",
                 "req_frame_id": "120193",
@@ -1612,7 +1612,7 @@
             {
                 "position": 18,
                 "mnemonic": "MP_BOITE_VITESSE_DEJA_MODE_URGENCE",
-                "label_index": "53884",
+                "label_index": "@P53884",
                 "label_korean": "하이브리드 자동 변속기가 이미 비상 모드로 전환됨",
                 "group_id": "39966",
                 "req_frame_id": "120196",
@@ -1637,7 +1637,7 @@
             {
                 "position": 19,
                 "mnemonic": "MP_DEMANDE_INFO_MUX",
-                "label_index": "53550",
+                "label_index": "@P53550",
                 "label_korean": "멀티플렉스 정보 요청",
                 "group_id": "39980",
                 "req_frame_id": "120238",
@@ -1656,13 +1656,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "",
+                "help_code": "@T",
                 "help_korean": ""
             },
             {
                 "position": 20,
                 "mnemonic": "MP_DMD_INFO_VITESSE_MEL_PAR_CMM",
-                "label_index": "53555",
+                "label_index": "@P53555",
                 "label_korean": "엔진 ECU에 의한 전동 구동 머신 속도 정보 요청",
                 "group_id": "39982",
                 "req_frame_id": "120244",
@@ -1678,13 +1678,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "",
+                "help_code": "@T",
                 "help_korean": ""
             },
             {
                 "position": 21,
                 "mnemonic": "MP_ETAT_LIGNE_RCD",
-                "label_index": "33773",
+                "label_index": "@P33773",
                 "label_korean": "웨이크-온-랜 라인의 상태",
                 "group_id": "39978",
                 "req_frame_id": "120232",
@@ -1713,7 +1713,7 @@
             {
                 "position": 22,
                 "mnemonic": "MP_ETAT_REVEIL_COMMD_DISTANCE",
-                "label_index": "33773",
+                "label_index": "@P33773",
                 "label_korean": "웨이크-온-랜 라인의 상태",
                 "group_id": "39961",
                 "req_frame_id": "120181",

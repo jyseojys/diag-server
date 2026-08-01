@@ -8,7 +8,7 @@
             {
                 "position": 1,
                 "mnemonic": "ID_NOM_DU_FOURNISSEUR",
-                "label_index": "5701",
+                "label_index": "@P5701",
                 "label_korean": "제조 업체명",
                 "group_id": "135470",
                 "req_frame_id": "406754",
@@ -38,7 +38,7 @@
             {
                 "position": 2,
                 "mnemonic": "ID_REFERENCE_MATERIEL",
-                "label_index": "1071",
+                "label_index": "@P1071",
                 "label_korean": "장치 부품 번호",
                 "group_id": "135470",
                 "req_frame_id": "406754",
@@ -60,7 +60,7 @@
             {
                 "position": 3,
                 "mnemonic": "ID_REFERENCE_COMPLEMENTAIRE_MATERIEL",
-                "label_index": "1634",
+                "label_index": "@P1634",
                 "label_korean": "장치 추가 참조 번호",
                 "group_id": "135470",
                 "req_frame_id": "406754",
@@ -82,7 +82,7 @@
             {
                 "position": 4,
                 "mnemonic": "ID_TRACABILITE_INDICE_EVOLUTION_EDITION",
-                "label_index": "24601",
+                "label_index": "@P24601",
                 "label_korean": "소프트웨어 버전",
                 "group_id": "135470",
                 "req_frame_id": "406754",
@@ -104,7 +104,7 @@
             {
                 "position": 5,
                 "mnemonic": "ID_TRACABILITE_INDICE_EVOLUTION_EDITION_CALIBRATION",
-                "label_index": "7413",
+                "label_index": "@P7413",
                 "label_korean": "캘리브레이션 에디션",
                 "group_id": "135470",
                 "req_frame_id": "406754",
@@ -126,7 +126,7 @@
             {
                 "position": 6,
                 "mnemonic": "ID_TRACABILITE_NUMERO_DE_SERIE_PIECE",
-                "label_index": "7592",
+                "label_index": "@P7592",
                 "label_korean": "부품 일련 번호",
                 "group_id": "135472",
                 "req_frame_id": "406760",
@@ -148,7 +148,7 @@
             {
                 "position": 7,
                 "mnemonic": "ID_TRACABILITE_DATE_FABRICATION",
-                "label_index": "14355",
+                "label_index": "@P14355",
                 "label_korean": "제조일자",
                 "group_id": "135471",
                 "req_frame_id": "406757",
@@ -178,7 +178,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_PRESENCE_MONTRE",
-                "label_index": "17042",
+                "label_index": "@P17042",
                 "label_korean": "계기판에 시계 장착",
                 "group_id": "135475",
                 "req_frame_id": "406769",
@@ -203,7 +203,7 @@
                 "bit_mask": 8,
                 "bit_shift": 3,
                 "dynamic_arg": "",
-                "help_code": "17242",
+                "help_code": "@P17242@T.",
                 "help_korean": "차량에 다기능 스크린 또는 라디오 네비게이션이 장착되어 있지 않을 경우 시계는 계기판에 존재한다."
             }
         ]
@@ -217,7 +217,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_COMMUTATEUR_AIDE_STATIONNEMENT",
-                "label_index": "8194",
+                "label_index": "@P8194",
                 "label_korean": "주차 지원 스위치",
                 "group_id": "135474",
                 "req_frame_id": "406766",
@@ -233,13 +233,13 @@
                 "bit_mask": 64,
                 "bit_shift": 6,
                 "dynamic_arg": "",
-                "help_code": "17035",
+                "help_code": "@P17035@T.",
                 "help_korean": "기능이 차량에 있을 경우, 변수 상태는 변해야 한다."
             },
             {
                 "position": 2,
                 "mnemonic": "MP_COMMUTATEUR_ESP",
-                "label_index": "7689",
+                "label_index": "@P7689",
                 "label_korean": "ESP 스위치",
                 "group_id": "135474",
                 "req_frame_id": "406766",
@@ -255,13 +255,13 @@
                 "bit_mask": 128,
                 "bit_shift": 7,
                 "dynamic_arg": "",
-                "help_code": "17035",
+                "help_code": "@P17035@T.",
                 "help_korean": "기능이 차량에 있을 경우, 변수 상태는 변해야 한다."
             },
             {
                 "position": 3,
                 "mnemonic": "MP_COMMUTATEUR_SYSTEME_ALERTE_FRANCH_INVOL_LIGNE",
-                "label_index": "16195",
+                "label_index": "@P16195",
                 "label_korean": "차선 이탈 경고 시스템 스위치",
                 "group_id": "매핑_누락",
                 "req_frame_id": "",
@@ -277,13 +277,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "17035",
+                "help_code": "@P17035@T.",
                 "help_korean": "기능이 차량에 있을 경우, 변수 상태는 변해야 한다."
             },
             {
                 "position": 4,
                 "mnemonic": "MP_COMMUTATEUR_SAM",
-                "label_index": "17009",
+                "label_index": "@P17009",
                 "label_korean": "사각지대 모니터링 스위치",
                 "group_id": "135474",
                 "req_frame_id": "406766",
@@ -299,13 +299,13 @@
                 "bit_mask": 16,
                 "bit_shift": 4,
                 "dynamic_arg": "",
-                "help_code": "17035",
+                "help_code": "@P17035@T.",
                 "help_korean": "기능이 차량에 있을 경우, 변수 상태는 변해야 한다."
             },
             {
                 "position": 5,
                 "mnemonic": "MP_COMMUTATEUR_REGLAGE_LUMINOSITE",
-                "label_index": "7770",
+                "label_index": "@P7770",
                 "label_korean": "밝기 조정 스위치",
                 "group_id": "135476",
                 "req_frame_id": "406772",
@@ -321,13 +321,13 @@
                 "bit_mask": 128,
                 "bit_shift": 7,
                 "dynamic_arg": "",
-                "help_code": "",
+                "help_code": "@T",
                 "help_korean": ""
             },
             {
                 "position": 6,
                 "mnemonic": "MP_COMMUTATEUR_CHECK_RAZ_ODOMETRE",
-                "label_index": "17255",
+                "label_index": "@P17255",
                 "label_korean": "CHECK / RESET 주행 거리계 스위치",
                 "group_id": "135476",
                 "req_frame_id": "406772",
@@ -346,13 +346,13 @@
                 "bit_mask": 128,
                 "bit_shift": 7,
                 "dynamic_arg": "",
-                "help_code": "",
+                "help_code": "@T",
                 "help_korean": ""
             },
             {
                 "position": 7,
                 "mnemonic": "MP_COMMUTATEUR_CHANGE_COULEUR_LCD",
-                "label_index": "17421",
+                "label_index": "@P17421",
                 "label_korean": "LCD 스크린에서 색상 변환을 위한 스위치",
                 "group_id": "135476",
                 "req_frame_id": "406772",
@@ -368,13 +368,13 @@
                 "bit_mask": 32,
                 "bit_shift": 5,
                 "dynamic_arg": "",
-                "help_code": "17021",
+                "help_code": "@P17021@T.",
                 "help_korean": "이 스위치는 차량에서 계기판의 색상을 변경할 수 있을 경우 사용할 수 있다."
             },
             {
                 "position": 8,
                 "mnemonic": "MP_COMMUTATEUR_CHANGE_COULEUR_COURONNE",
-                "label_index": "17084",
+                "label_index": "@P17084",
                 "label_korean": "주위 색상 변경을 위한 스위치",
                 "group_id": "135476",
                 "req_frame_id": "406772",
@@ -390,7 +390,7 @@
                 "bit_mask": 16,
                 "bit_shift": 4,
                 "dynamic_arg": "",
-                "help_code": "17021",
+                "help_code": "@P17021@T.",
                 "help_korean": "이 스위치는 차량에서 계기판의 색상을 변경할 수 있을 경우 사용할 수 있다."
             }
         ]
@@ -404,7 +404,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_COMMUTATEUR_AIDE_STATIONNEMENT",
-                "label_index": "8194",
+                "label_index": "@P8194",
                 "label_korean": "주차 지원 스위치",
                 "group_id": "135474",
                 "req_frame_id": "406766",
@@ -420,13 +420,13 @@
                 "bit_mask": 64,
                 "bit_shift": 6,
                 "dynamic_arg": "",
-                "help_code": "17035",
+                "help_code": "@P17035@T.",
                 "help_korean": "기능이 차량에 있을 경우, 변수 상태는 변해야 한다."
             },
             {
                 "position": 2,
                 "mnemonic": "MP_COMMUTATEUR_ESP",
-                "label_index": "7689",
+                "label_index": "@P7689",
                 "label_korean": "ESP 스위치",
                 "group_id": "135474",
                 "req_frame_id": "406766",
@@ -442,13 +442,13 @@
                 "bit_mask": 128,
                 "bit_shift": 7,
                 "dynamic_arg": "",
-                "help_code": "17035",
+                "help_code": "@P17035@T.",
                 "help_korean": "기능이 차량에 있을 경우, 변수 상태는 변해야 한다."
             },
             {
                 "position": 3,
                 "mnemonic": "MP_COMMUTATEUR_SYSTEME_ALERTE_FRANCH_INVOL_LIGNE",
-                "label_index": "16195",
+                "label_index": "@P16195",
                 "label_korean": "차선 이탈 경고 시스템 스위치",
                 "group_id": "매핑_누락",
                 "req_frame_id": "",
@@ -464,13 +464,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "17035",
+                "help_code": "@P17035@T.",
                 "help_korean": "기능이 차량에 있을 경우, 변수 상태는 변해야 한다."
             },
             {
                 "position": 4,
                 "mnemonic": "MP_COMMUTATEUR_SAM",
-                "label_index": "17009",
+                "label_index": "@P17009",
                 "label_korean": "사각지대 모니터링 스위치",
                 "group_id": "135474",
                 "req_frame_id": "406766",
@@ -486,13 +486,13 @@
                 "bit_mask": 16,
                 "bit_shift": 4,
                 "dynamic_arg": "",
-                "help_code": "17035",
+                "help_code": "@P17035@T.",
                 "help_korean": "기능이 차량에 있을 경우, 변수 상태는 변해야 한다."
             },
             {
                 "position": 5,
                 "mnemonic": "MP_COMMUTATEUR_REGLAGE_LUMINOSITE",
-                "label_index": "7770",
+                "label_index": "@P7770",
                 "label_korean": "밝기 조정 스위치",
                 "group_id": "135476",
                 "req_frame_id": "406772",
@@ -508,13 +508,13 @@
                 "bit_mask": 128,
                 "bit_shift": 7,
                 "dynamic_arg": "",
-                "help_code": "",
+                "help_code": "@T",
                 "help_korean": ""
             },
             {
                 "position": 6,
                 "mnemonic": "MP_COMMUTATEUR_CHECK_RAZ_ODOMETRE",
-                "label_index": "17255",
+                "label_index": "@P17255",
                 "label_korean": "CHECK / RESET 주행 거리계 스위치",
                 "group_id": "135476",
                 "req_frame_id": "406772",
@@ -533,7 +533,7 @@
                 "bit_mask": 128,
                 "bit_shift": 7,
                 "dynamic_arg": "",
-                "help_code": "",
+                "help_code": "@T",
                 "help_korean": ""
             }
         ]
@@ -547,7 +547,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_COMMUTATEUR_AIDE_STATIONNEMENT",
-                "label_index": "8194",
+                "label_index": "@P8194",
                 "label_korean": "주차 지원 스위치",
                 "group_id": "135474",
                 "req_frame_id": "406766",
@@ -563,13 +563,13 @@
                 "bit_mask": 64,
                 "bit_shift": 6,
                 "dynamic_arg": "",
-                "help_code": "17035",
+                "help_code": "@P17035@T.",
                 "help_korean": "기능이 차량에 있을 경우, 변수 상태는 변해야 한다."
             },
             {
                 "position": 2,
                 "mnemonic": "MP_COMMUTATEUR_ESP",
-                "label_index": "7689",
+                "label_index": "@P7689",
                 "label_korean": "ESP 스위치",
                 "group_id": "135474",
                 "req_frame_id": "406766",
@@ -585,13 +585,13 @@
                 "bit_mask": 128,
                 "bit_shift": 7,
                 "dynamic_arg": "",
-                "help_code": "17035",
+                "help_code": "@P17035@T.",
                 "help_korean": "기능이 차량에 있을 경우, 변수 상태는 변해야 한다."
             },
             {
                 "position": 3,
                 "mnemonic": "MP_COMMUTATEUR_SYSTEME_ALERTE_FRANCH_INVOL_LIGNE",
-                "label_index": "16195",
+                "label_index": "@P16195",
                 "label_korean": "차선 이탈 경고 시스템 스위치",
                 "group_id": "매핑_누락",
                 "req_frame_id": "",
@@ -607,13 +607,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "17035",
+                "help_code": "@P17035@T.",
                 "help_korean": "기능이 차량에 있을 경우, 변수 상태는 변해야 한다."
             },
             {
                 "position": 4,
                 "mnemonic": "MP_COMMUTATEUR_SAM",
-                "label_index": "17009",
+                "label_index": "@P17009",
                 "label_korean": "사각지대 모니터링 스위치",
                 "group_id": "135474",
                 "req_frame_id": "406766",
@@ -629,7 +629,7 @@
                 "bit_mask": 16,
                 "bit_shift": 4,
                 "dynamic_arg": "",
-                "help_code": "17035",
+                "help_code": "@P17035@T.",
                 "help_korean": "기능이 차량에 있을 경우, 변수 상태는 변해야 한다."
             }
         ]

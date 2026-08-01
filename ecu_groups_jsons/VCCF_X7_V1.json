@@ -8,7 +8,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_ID_FOURNISSEUR",
-                "label_index": "5701",
+                "label_index": "@P5701",
                 "label_korean": "제조 업체명",
                 "group_id": "72868",
                 "req_frame_id": "218892",
@@ -35,7 +35,7 @@
             {
                 "position": 2,
                 "mnemonic": "ID_REFERENCE_MATERIEL",
-                "label_index": "1071",
+                "label_index": "@P1071",
                 "label_korean": "장치 부품 번호",
                 "group_id": "72868",
                 "req_frame_id": "218892",
@@ -57,7 +57,7 @@
             {
                 "position": 3,
                 "mnemonic": "ID_REFERENCE_COMPLEMENTAIRE_MATERIEL",
-                "label_index": "1634",
+                "label_index": "@P1634",
                 "label_korean": "장치 추가 참조 번호",
                 "group_id": "72868",
                 "req_frame_id": "218892",
@@ -79,7 +79,7 @@
             {
                 "position": 4,
                 "mnemonic": "ID_VERSION_LOGICIEL_new_1",
-                "label_index": "8662",
+                "label_index": "@P8662@\\*",
                 "label_korean": "소프트웨어 버전",
                 "group_id": "72868",
                 "req_frame_id": "218892",
@@ -101,7 +101,7 @@
             {
                 "position": 5,
                 "mnemonic": "ID_MESS_DIAGNOSTIC",
-                "label_index": "2459",
+                "label_index": "@P2459",
                 "label_korean": "진단 이메일",
                 "group_id": "72868",
                 "req_frame_id": "218892",
@@ -123,7 +123,7 @@
             {
                 "position": 6,
                 "mnemonic": "ID_INDICE_MESS_DIAGNOSTIC",
-                "label_index": "8929",
+                "label_index": "@P8929",
                 "label_korean": "메시지 인덱스",
                 "group_id": "72868",
                 "req_frame_id": "218892",
@@ -145,7 +145,7 @@
             {
                 "position": 7,
                 "mnemonic": "ID_EDITION_DU_LOGICIEL",
-                "label_index": "12874",
+                "label_index": "@P12874",
                 "label_korean": "소프트웨어 버전",
                 "group_id": "72868",
                 "req_frame_id": "218892",
@@ -175,7 +175,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_COMMUTATEUR_ECLAIRAGE_POSITION_04",
-                "label_index": "7221",
+                "label_index": "@P7221@\\*4",
                 "label_korean": "4-포지션 라이트 제어 / 스위치",
                 "group_id": "72870",
                 "req_frame_id": "218898",
@@ -191,13 +191,13 @@
                 "bit_mask": 30,
                 "bit_shift": 1,
                 "dynamic_arg": "4",
-                "help_code": "6482",
+                "help_code": "@P6482@T.",
                 "help_korean": "라이트 스톡에 의한 헤드램프 작동 요청에 해당된다."
             },
             {
                 "position": 2,
                 "mnemonic": "MP_COMMUTATEUR_ECLAIRAGE_POSITION_03",
-                "label_index": "7221",
+                "label_index": "@P7221@\\*3",
                 "label_korean": "3-포지션 라이트 제어 / 스위치",
                 "group_id": "72870",
                 "req_frame_id": "218898",
@@ -213,13 +213,13 @@
                 "bit_mask": 224,
                 "bit_shift": 5,
                 "dynamic_arg": "3",
-                "help_code": "6482",
+                "help_code": "@P6482@T.",
                 "help_korean": "라이트 스톡에 의한 헤드램프 작동 요청에 해당된다."
             },
             {
                 "position": 3,
                 "mnemonic": "MP_COMMANDE_INVERSEUR_FEUX_DE_CROISEMENT_FEUX_DE_ROUTE",
-                "label_index": "10526",
+                "label_index": "@P10526",
                 "label_korean": "전조등 하향/전조등 상향 인버터",
                 "group_id": "72870",
                 "req_frame_id": "218898",
@@ -238,13 +238,13 @@
                 "bit_mask": 16,
                 "bit_shift": 4,
                 "dynamic_arg": "",
-                "help_code": "41648, 43113",
+                "help_code": "@P41648@\\n@\\+@P43113",
                 "help_korean": "라이트 스위치에 의한 전조등 상향 및 전조등 하향간의 변경 요청에 해당된다\n라이트 스위치로부터 ECU로 오는 정보"
             },
             {
                 "position": 4,
                 "mnemonic": "MP_APPEL_PHARE",
-                "label_index": "1303",
+                "label_index": "@P1303",
                 "label_korean": "헤드램프 플래시",
                 "group_id": "72870",
                 "req_frame_id": "218898",
@@ -260,14 +260,14 @@
                 "bit_mask": 8,
                 "bit_shift": 3,
                 "dynamic_arg": "",
-                "help_code": "43654, 43113",
+                "help_code": "@P43654@\\n@\\+@P43113",
                 "help_korean": "라이트 스톡에 의한 메인 빔 헤드램프를 작동하기 위한 요청에 해당된다\n라이트 스위치로부터 ECU로 오는 정보"
             },
             {
                 "position": 5,
                 "mnemonic": "MP_FEUX_DE_BROUILLARD_PLUS",
-                "label_index": "1332",
-                "label_korean": "안개등",
+                "label_index": "@P1332",
+                "label_korean": "안개등 +",
                 "group_id": "72870",
                 "req_frame_id": "218898",
                 "resp_frame_id": "218899",
@@ -282,13 +282,13 @@
                 "bit_mask": 4,
                 "bit_shift": 2,
                 "dynamic_arg": "",
-                "help_code": "43655, 43113",
+                "help_code": "@P43655@\\n@\\+@P43113",
                 "help_korean": "라이트 스톡에 의한 안개등 또는 헤드램프를 작동하기 위한 요청에 해당된다\n라이트 스위치로부터 ECU로 오는 정보"
             },
             {
                 "position": 6,
                 "mnemonic": "MP_FEUX_DE_BROUILLARD_MOINS",
-                "label_index": "1254",
+                "label_index": "@P1254",
                 "label_korean": "안개등 -",
                 "group_id": "72870",
                 "req_frame_id": "218898",
@@ -304,13 +304,13 @@
                 "bit_mask": 2,
                 "bit_shift": 1,
                 "dynamic_arg": "",
-                "help_code": "43656, 43113",
+                "help_code": "@P43656@\\n@\\+@P43113",
                 "help_korean": "라이트 스톡에 의한 헤드램프 또는 안개등을 차단하기 위한 요청에 해당된다\n라이트 스위치로부터 ECU로 오는 정보"
             },
             {
                 "position": 7,
                 "mnemonic": "MP_PUSH_CDE_GH",
-                "label_index": "12363",
+                "label_index": "@P12363",
                 "label_korean": "라이팅 스위치 푸시버튼 제어",
                 "group_id": "72870",
                 "req_frame_id": "218898",
@@ -326,13 +326,13 @@
                 "bit_mask": 1,
                 "bit_shift": 0,
                 "dynamic_arg": "",
-                "help_code": "43537, 43113",
+                "help_code": "@P43537@\\n@\\+@P43113",
                 "help_korean": "마지막 네비게이션 메시지를 다시 불러내기 위한 요청에 해당된다\n라이트 스위치로부터 ECU로 오는 정보"
             },
             {
                 "position": 8,
                 "mnemonic": "MP_HDC_CDE_CLIGNO_new",
-                "label_index": "16828",
+                "label_index": "@P16828",
                 "label_korean": "표시등",
                 "group_id": "72870",
                 "req_frame_id": "218898",
@@ -348,7 +348,7 @@
                 "bit_mask": 192,
                 "bit_shift": 6,
                 "dynamic_arg": "",
-                "help_code": "42392, 43113",
+                "help_code": "@P42392@\\n@\\+@P43113",
                 "help_korean": "라이트 스위치에 의한 방향 지시등 작동 요청에 해당된다\n라이트 스위치로부터 ECU로 오는 정보"
             }
         ]
@@ -362,7 +362,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_COMMANDE_ESSUYAGE_PARE_BRISE",
-                "label_index": "4962",
+                "label_index": "@P4962",
                 "label_korean": "윈드스크린 와이퍼",
                 "group_id": "72870",
                 "req_frame_id": "218898",
@@ -394,13 +394,13 @@
                 "bit_mask": 224,
                 "bit_shift": 5,
                 "dynamic_arg": "",
-                "help_code": "42395, 43114",
+                "help_code": "@P42395@\\n@\\+@P43114",
                 "help_korean": "와이퍼 스위치에 의한 윈드스크린 와이퍼 작동 요청에 해당된다\n윈드스크린 와이퍼 스톡으로부터 ECU로 오는 정보"
             },
             {
                 "position": 2,
                 "mnemonic": "MP_DEMANDE_ESSUYAGE_IMPULSIONNEL_PARE_BRISe",
-                "label_index": "14715",
+                "label_index": "@P14715",
                 "label_korean": "싱글 윈드스크린 와이퍼 작동",
                 "group_id": "72870",
                 "req_frame_id": "218898",
@@ -416,13 +416,13 @@
                 "bit_mask": 16,
                 "bit_shift": 4,
                 "dynamic_arg": "",
-                "help_code": "43657, 43114",
+                "help_code": "@P43657@\\n@\\+@P43114",
                 "help_korean": "와이퍼 스톡에 의한 싱글 윈드스크린 와이퍼 작동에 해당된다\n윈드스크린 와이퍼 스톡으로부터 ECU로 오는 정보"
             },
             {
                 "position": 3,
                 "mnemonic": "MP_LAVAGE_PARE_BRISE",
-                "label_index": "16015",
+                "label_index": "@P16015",
                 "label_korean": "윈드스크린 와셔 작동",
                 "group_id": "72870",
                 "req_frame_id": "218898",
@@ -441,13 +441,13 @@
                 "bit_mask": 8,
                 "bit_shift": 3,
                 "dynamic_arg": "",
-                "help_code": "43658, 45161",
+                "help_code": "@P43658@\\n@\\+@P45161",
                 "help_korean": "와셔 스톡에 의한 윈드스크린 와셔 요청에 해당된다\n워싱 스위치로부터 ECU에 정보"
             },
             {
                 "position": 4,
                 "mnemonic": "MP_ESSUYAGE_LUNETTE_ARRIERE",
-                "label_index": "1717",
+                "label_index": "@P1717",
                 "label_korean": "리어 스크린 와이퍼",
                 "group_id": "72870",
                 "req_frame_id": "218898",
@@ -463,13 +463,13 @@
                 "bit_mask": 4,
                 "bit_shift": 2,
                 "dynamic_arg": "",
-                "help_code": "41651, 43114",
+                "help_code": "@P41651@\\+@\\n@\\+@P43114",
                 "help_korean": "와이퍼 스위치에 의한 리어 스크린 와이퍼 작동 요청에 해당된다\n윈드스크린 와이퍼 스톡으로부터 ECU로 오는 정보"
             },
             {
                 "position": 5,
                 "mnemonic": "MP_ETAT_LAVE_VITRE_ARRIERE",
-                "label_index": "15659",
+                "label_index": "@P15659",
                 "label_korean": "리어 스크린 와셔",
                 "group_id": "72870",
                 "req_frame_id": "218898",
@@ -485,7 +485,7 @@
                 "bit_mask": 2,
                 "bit_shift": 1,
                 "dynamic_arg": "",
-                "help_code": "41649, 42838",
+                "help_code": "@P41649@\\n@\\+@P42838",
                 "help_korean": "와이퍼 스위치에 의한 리어 스크린 와셔 작동 요청에 해당된다\n와이퍼 스톡에서 ECU로 오는 정보"
             }
         ]
@@ -499,7 +499,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_ACTIVATION_LVV_RVV",
-                "label_index": "7385",
+                "label_index": "@P7385",
                 "label_korean": "\"크루즈 컨트롤 / 스피드 리미터\" 작동 버튼",
                 "group_id": "72870",
                 "req_frame_id": "218898",
@@ -515,13 +515,13 @@
                 "bit_mask": 2,
                 "bit_shift": 1,
                 "dynamic_arg": "",
-                "help_code": "",
+                "help_code": "@T",
                 "help_korean": ""
             },
             {
                 "position": 2,
                 "mnemonic": "MP_DESACTIVATION_LVV_RVV",
-                "label_index": "4982",
+                "label_index": "@P4982",
                 "label_korean": "\"크루즈 컨트롤 / 스피드 리미터\" 차단 버튼",
                 "group_id": "72870",
                 "req_frame_id": "218898",
@@ -537,13 +537,13 @@
                 "bit_mask": 1,
                 "bit_shift": 0,
                 "dynamic_arg": "",
-                "help_code": "",
+                "help_code": "@T",
                 "help_korean": ""
             },
             {
                 "position": 3,
                 "mnemonic": "MP_AUGMENTATION_CONSIGNE_DE_VITESSE",
-                "label_index": "13767",
+                "label_index": "@P13767",
                 "label_korean": "속도 기준 값 올림",
                 "group_id": "72870",
                 "req_frame_id": "218898",
@@ -559,13 +559,13 @@
                 "bit_mask": 32,
                 "bit_shift": 5,
                 "dynamic_arg": "",
-                "help_code": "43659, 42951",
+                "help_code": "@P43659@\\n@\\+@P42951",
                 "help_korean": "크루즈 컨트롤 또는 스피드 리미터 세팅을 증가하기 위한 요청에 해당된다\n크루즈 컨트롤 스위치로부터 ECU로 오는 정보"
             },
             {
                 "position": 4,
                 "mnemonic": "MP_REGULATION_DE_VITESSE_MOINS",
-                "label_index": "8074",
+                "label_index": "@P8074",
                 "label_korean": "속도 기준 값 내림",
                 "group_id": "72870",
                 "req_frame_id": "218898",
@@ -581,13 +581,13 @@
                 "bit_mask": 16,
                 "bit_shift": 4,
                 "dynamic_arg": "",
-                "help_code": "42950, 42951",
+                "help_code": "@P42950@\\n@\\+@P42951",
                 "help_korean": "크루즈 속도 또는 속도 제한 세팅을 감소하기 위한 요청에 해당된다\n크루즈 컨트롤 스위치로부터 ECU로 오는 정보"
             },
             {
                 "position": 5,
                 "mnemonic": "MP_REGUL_ON_OFF",
-                "label_index": "13502",
+                "label_index": "@P13502",
                 "label_korean": "스피드 리미터/크루즈 컨트롤 대기",
                 "group_id": "72870",
                 "req_frame_id": "218898",
@@ -603,7 +603,7 @@
                 "bit_mask": 8,
                 "bit_shift": 3,
                 "dynamic_arg": "",
-                "help_code": "42952, 42951",
+                "help_code": "@P42952@\\n@\\+@P42951",
                 "help_korean": "크루즈 컨트롤 또는 스피드 리미터를 대기로의 전환하기 위한 요청에 해당된다\n크루즈 컨트롤 스위치로부터 ECU로 오는 정보"
             }
         ]
@@ -617,7 +617,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_RECHERCHE_STATION_MONTANTE",
-                "label_index": "1444",
+                "label_index": "@P1444",
                 "label_korean": "위로 채널 검색",
                 "group_id": "72871",
                 "req_frame_id": "218901",
@@ -633,13 +633,13 @@
                 "bit_mask": 128,
                 "bit_shift": 7,
                 "dynamic_arg": "",
-                "help_code": "43246, 43130",
+                "help_code": "@P43246@\\n@\\+@P43130",
                 "help_korean": "라디오 스위치에 의해 위로 채널 검색을 위한 요청에 해당된다\n라디오 스위치로부터 ECU로 오는 정보"
             },
             {
                 "position": 2,
                 "mnemonic": "MP_RECHERCHE_STATION_DESCENDANTE",
-                "label_index": "8547",
+                "label_index": "@P8547",
                 "label_korean": "아래로 채널 검색",
                 "group_id": "72871",
                 "req_frame_id": "218901",
@@ -655,13 +655,13 @@
                 "bit_mask": 64,
                 "bit_shift": 6,
                 "dynamic_arg": "",
-                "help_code": "43247, 43130",
+                "help_code": "@P43247@\\n@\\+@P43130",
                 "help_korean": "라디오 스위치에 의해 아래로 채널 검색을 위한 요청에 해당된다\n라디오 스위치로부터 ECU로 오는 정보"
             },
             {
                 "position": 3,
                 "mnemonic": "MP_AUGMENTATION_VOLUME_SONORE",
-                "label_index": "3956",
+                "label_index": "@P3956",
                 "label_korean": "볼륨 증가",
                 "group_id": "72871",
                 "req_frame_id": "218901",
@@ -677,13 +677,13 @@
                 "bit_mask": 8,
                 "bit_shift": 3,
                 "dynamic_arg": "",
-                "help_code": "43128, 43130",
+                "help_code": "@P43128@\\n@\\+@P43130",
                 "help_korean": "라디오 스위치에 의해 볼륨 증가를 위한 요청에 해당된다\n라디오 스위치로부터 ECU로 오는 정보"
             },
             {
                 "position": 4,
                 "mnemonic": "MP_DIMINUTION_VOLUME_SONORE",
-                "label_index": "1541",
+                "label_index": "@P1541",
                 "label_korean": "볼륨 감소",
                 "group_id": "72871",
                 "req_frame_id": "218901",
@@ -699,13 +699,13 @@
                 "bit_mask": 4,
                 "bit_shift": 2,
                 "dynamic_arg": "",
-                "help_code": "43129, 43130",
+                "help_code": "@P43129@\\n@\\+@P43130",
                 "help_korean": "라디오 스위치에 의해 볼륨 감소를 위한 요청에 해당된다\n라디오 스위치로부터 ECU로 오는 정보"
             },
             {
                 "position": 5,
                 "mnemonic": "MP_TOUCHE_LISTE",
-                "label_index": "6842",
+                "label_index": "@P6842",
                 "label_korean": "\"리스트\" 버튼",
                 "group_id": "72871",
                 "req_frame_id": "218901",
@@ -721,7 +721,7 @@
                 "bit_mask": 1,
                 "bit_shift": 0,
                 "dynamic_arg": "",
-                "help_code": "43589, 43130",
+                "help_code": "@P43589@\\n@P43130",
                 "help_korean": "저장된 라디오 채널 리스트로 접속하기 위한 요청에 해당된다\n라디오 스위치로부터 ECU로 오는 정보"
             }
         ]
@@ -735,7 +735,7 @@
             {
                 "position": 1,
                 "mnemonic": "POSITION_COMMUTATEUR_EMF",
-                "label_index": "10998",
+                "label_index": "@P10998",
                 "label_korean": "다기능 디스플레이 스위치 위치",
                 "group_id": "72872",
                 "req_frame_id": "218904",
@@ -751,13 +751,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "42953, 42954",
+                "help_code": "@P42953@\\n@\\+@P42954",
                 "help_korean": "다기능 스크린 메뉴에서 기능을 표시하기 위한 요청에 해당된다\nCV00로부터 ECU로 오는 정보"
             },
             {
                 "position": 2,
                 "mnemonic": "MP_TOUCHE_OK",
-                "label_index": "9142",
+                "label_index": "@P9142",
                 "label_korean": "\"OK\" 버튼",
                 "group_id": "72872",
                 "req_frame_id": "218904",
@@ -776,13 +776,13 @@
                 "bit_mask": 32,
                 "bit_shift": 5,
                 "dynamic_arg": "",
-                "help_code": "42955, 42954",
+                "help_code": "@P42955@\\n@\\+@P42954",
                 "help_korean": "다기능 스크린 메뉴로부터 선택된 기능을 확인하기 위한 요청에 해당된다\nCV00로부터 ECU로 오는 정보"
             },
             {
                 "position": 3,
                 "mnemonic": "MP_TOUCHE_ESC",
-                "label_index": "11397",
+                "label_index": "@P11397",
                 "label_korean": "\"ESC\" 키",
                 "group_id": "72872",
                 "req_frame_id": "218904",
@@ -801,13 +801,13 @@
                 "bit_mask": 16,
                 "bit_shift": 4,
                 "dynamic_arg": "",
-                "help_code": "43009, 42954",
+                "help_code": "@P43009@\\n@\\+@P42954",
                 "help_korean": "다기능 스크린 메뉴로부터 선택된 명령을 취소하기 위한 요청에 해당된다\nCV00로부터 ECU로 오는 정보"
             },
             {
                 "position": 4,
                 "mnemonic": "MP_TOUCHE_MENU",
-                "label_index": "12697",
+                "label_index": "@P12697",
                 "label_korean": "메뉴 키",
                 "group_id": "72872",
                 "req_frame_id": "218904",
@@ -823,13 +823,13 @@
                 "bit_mask": 8,
                 "bit_shift": 3,
                 "dynamic_arg": "",
-                "help_code": "42956, 42954",
+                "help_code": "@P42956@\\n@\\+@P42954",
                 "help_korean": "메인 메뉴로 접근 요청에 해당된다\nCV00로부터 ECU로 오는 정보"
             },
             {
                 "position": 5,
                 "mnemonic": "MP_TOUCHE_MODE",
-                "label_index": "12533",
+                "label_index": "@P12533",
                 "label_korean": "모드 버튼",
                 "group_id": "72872",
                 "req_frame_id": "218904",
@@ -845,7 +845,7 @@
                 "bit_mask": 4,
                 "bit_shift": 2,
                 "dynamic_arg": "",
-                "help_code": "42957, 42954",
+                "help_code": "@P42957@\\n@\\+@P42954",
                 "help_korean": "다기능 스크린에서 표시된 정보를 선택하기 위한 요청에 해당된다\nCV00로부터 ECU로 오는 정보"
             }
         ]
@@ -859,7 +859,7 @@
             {
                 "position": 1,
                 "mnemonic": "POSTITION_COMMUTATEUR_COMB",
-                "label_index": "20114",
+                "label_index": "@P20114",
                 "label_korean": "계기판 스위치의 위치",
                 "group_id": "72872",
                 "req_frame_id": "218904",
@@ -875,13 +875,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "16123",
+                "help_code": "@P16123",
                 "help_korean": "제어 패널 메뉴에서 기능을 표시하기 위한 요청에 해당된다"
             },
             {
                 "position": 2,
                 "mnemonic": "MP_TOUCHE_OK_1",
-                "label_index": "10447",
+                "label_index": "@P10447",
                 "label_korean": "\"OK\" 키",
                 "group_id": "72872",
                 "req_frame_id": "218904",
@@ -897,13 +897,13 @@
                 "bit_mask": 32,
                 "bit_shift": 5,
                 "dynamic_arg": "",
-                "help_code": "16739",
+                "help_code": "@P16739",
                 "help_korean": "제어 패널 메뉴에서 선택된 기능을 확인한기 위한 요청에 해당된다"
             },
             {
                 "position": 3,
                 "mnemonic": "MP_TOUCHE_ESCAPE",
-                "label_index": "4327",
+                "label_index": "@P4327",
                 "label_korean": "ESP 버튼",
                 "group_id": "72872",
                 "req_frame_id": "218904",
@@ -919,7 +919,7 @@
                 "bit_mask": 16,
                 "bit_shift": 4,
                 "dynamic_arg": "",
-                "help_code": "16292",
+                "help_code": "@P16292",
                 "help_korean": "제어 패널 메뉴에서 선택된 명령을 취소하기 위한 요청에 해당된다"
             }
         ]
@@ -933,7 +933,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_AVERTISSEUR_SONORE",
-                "label_index": "11277",
+                "label_index": "@P11277",
                 "label_korean": "혼",
                 "group_id": "72870",
                 "req_frame_id": "218898",
@@ -952,13 +952,13 @@
                 "bit_mask": 128,
                 "bit_shift": 7,
                 "dynamic_arg": "",
-                "help_code": "18686, 42960",
+                "help_code": "@P18686@\\n@\\+@P42960",
                 "help_korean": "혼의 작동 요청\nCV00에서 스위치로부터 ECU로 오는 정보"
             },
             {
                 "position": 2,
                 "mnemonic": "TOUCHE_TELEPHONE",
-                "label_index": "7088",
+                "label_index": "@P7088",
                 "label_korean": "전화 버튼",
                 "group_id": "72872",
                 "req_frame_id": "218904",
@@ -974,13 +974,13 @@
                 "bit_mask": 128,
                 "bit_shift": 7,
                 "dynamic_arg": "",
-                "help_code": "43590, 42960",
+                "help_code": "@P43590@\\n@P42960",
                 "help_korean": "전화 메뉴로 접속하기 위한 요청에 해당된다\nCV00에서 스위치로부터 ECU로 오는 정보"
             },
             {
                 "position": 3,
                 "mnemonic": "MP_TOUCHE_BLACK_PANEL",
-                "label_index": "18564",
+                "label_index": "@P18564@\\*@P6493",
                 "label_korean": "버튼블랙 패널",
                 "group_id": "72870",
                 "req_frame_id": "218898",
@@ -996,7 +996,7 @@
                 "bit_mask": 128,
                 "bit_shift": 7,
                 "dynamic_arg": "",
-                "help_code": "43591, 42960",
+                "help_code": "@P43591@\\n@P42960",
                 "help_korean": "제어 패널, 에어컨 패널 및 다기능 디스플레이를 끄기 위한 요청에 해당된다\nCV00에서 스위치로부터 ECU로 오는 정보"
             }
         ]

@@ -8,7 +8,7 @@
             {
                 "position": 1,
                 "mnemonic": "ID_ORIGINE_CALCULO",
-                "label_index": "3601",
+                "label_index": "@P3601",
                 "label_korean": "원래 ECU",
                 "group_id": "34084",
                 "req_frame_id": "102549",
@@ -32,7 +32,7 @@
             {
                 "position": 2,
                 "mnemonic": "ID_NOM_DU_FOURNISSEUR",
-                "label_index": "5701",
+                "label_index": "@P5701",
                 "label_korean": "제조 업체명",
                 "group_id": "34084",
                 "req_frame_id": "102549",
@@ -62,7 +62,7 @@
             {
                 "position": 3,
                 "mnemonic": "ID_REFERENCE_MATERIEL",
-                "label_index": "1071",
+                "label_index": "@P1071",
                 "label_korean": "장치 부품 번호",
                 "group_id": "34084",
                 "req_frame_id": "102549",
@@ -84,7 +84,7 @@
             {
                 "position": 4,
                 "mnemonic": "ID_VERSION_MATERIEL",
-                "label_index": "12954",
+                "label_index": "@P12954",
                 "label_korean": "하드웨어 버전",
                 "group_id": "34084",
                 "req_frame_id": "102549",
@@ -106,7 +106,7 @@
             {
                 "position": 5,
                 "mnemonic": "ID_REFERENCE_LOGICIEL",
-                "label_index": "13263",
+                "label_index": "@P13263",
                 "label_korean": "소프트웨어 번호",
                 "group_id": "34087",
                 "req_frame_id": "102558",
@@ -128,7 +128,7 @@
             {
                 "position": 6,
                 "mnemonic": "ID_VERSION_DU_LOGICIEL",
-                "label_index": "8662",
+                "label_index": "@P8662",
                 "label_korean": "소프트웨어 버전",
                 "group_id": "34084",
                 "req_frame_id": "102549",
@@ -150,7 +150,7 @@
             {
                 "position": 7,
                 "mnemonic": "ID_VERSION_DIAGNOSTIC_new_1",
-                "label_index": "14029",
+                "label_index": "@P14029",
                 "label_korean": "진단 버전",
                 "group_id": "34084",
                 "req_frame_id": "102549",
@@ -172,7 +172,7 @@
             {
                 "position": 8,
                 "mnemonic": "ID_VIN_ORIGINE",
-                "label_index": "7959",
+                "label_index": "@P7959",
                 "label_korean": "차량 일련 번호 (원래 차대번호)",
                 "group_id": "34085",
                 "req_frame_id": "102552",
@@ -194,7 +194,7 @@
             {
                 "position": 9,
                 "mnemonic": "ID_VIN_ACTUEL",
-                "label_index": "15431",
+                "label_index": "@P15431",
                 "label_korean": "차량 일련 번호 (현재 차대번호)",
                 "group_id": "34086",
                 "req_frame_id": "102555",
@@ -224,7 +224,7 @@
             {
                 "position": 1,
                 "mnemonic": "ID_ORIGINE_CALCULO",
-                "label_index": "3601",
+                "label_index": "@P3601",
                 "label_korean": "원래 ECU",
                 "group_id": "34084",
                 "req_frame_id": "102549",
@@ -248,7 +248,7 @@
             {
                 "position": 2,
                 "mnemonic": "ID_NOM_DU_FOURNISSEUR",
-                "label_index": "5701",
+                "label_index": "@P5701",
                 "label_korean": "제조 업체명",
                 "group_id": "34084",
                 "req_frame_id": "102549",
@@ -278,7 +278,7 @@
             {
                 "position": 3,
                 "mnemonic": "ID_REFERENCE_MATERIEL",
-                "label_index": "1071",
+                "label_index": "@P1071",
                 "label_korean": "장치 부품 번호",
                 "group_id": "34084",
                 "req_frame_id": "102549",
@@ -300,7 +300,7 @@
             {
                 "position": 4,
                 "mnemonic": "ID_VERSION_MATERIEL",
-                "label_index": "12954",
+                "label_index": "@P12954",
                 "label_korean": "하드웨어 버전",
                 "group_id": "34084",
                 "req_frame_id": "102549",
@@ -322,7 +322,7 @@
             {
                 "position": 5,
                 "mnemonic": "ID_REFERENCE_LOGICIEL",
-                "label_index": "13263",
+                "label_index": "@P13263",
                 "label_korean": "소프트웨어 번호",
                 "group_id": "34087",
                 "req_frame_id": "102558",
@@ -344,7 +344,7 @@
             {
                 "position": 6,
                 "mnemonic": "ID_VERSION_DU_LOGICIEL",
-                "label_index": "8662",
+                "label_index": "@P8662",
                 "label_korean": "소프트웨어 버전",
                 "group_id": "34084",
                 "req_frame_id": "102549",
@@ -366,7 +366,7 @@
             {
                 "position": 7,
                 "mnemonic": "ID_VERSION_DIAGNOSTIC_new_1",
-                "label_index": "14029",
+                "label_index": "@P14029",
                 "label_korean": "진단 버전",
                 "group_id": "34084",
                 "req_frame_id": "102549",
@@ -396,7 +396,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_REGIME_MOTEUR",
-                "label_index": "7917",
+                "label_index": "@P7917",
                 "label_korean": "엔진 속도",
                 "group_id": "34077",
                 "req_frame_id": "102528",
@@ -414,13 +414,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "8204",
+                "help_code": "@P8204@T.",
                 "help_korean": "분당 회전수로 엔진의 회전 속도."
             },
             {
                 "position": 2,
                 "mnemonic": "VITESSECALCUL",
-                "label_index": "10593",
+                "label_index": "@P10593",
                 "label_korean": "계산된 차량 속도",
                 "group_id": "34077",
                 "req_frame_id": "102528",
@@ -436,13 +436,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "8736",
+                "help_code": "@P8736@T.",
                 "help_korean": "변속비에 따라 변속기 ECU에 의해서 계산된 속도."
             },
             {
                 "position": 3,
                 "mnemonic": "VITESSE",
-                "label_index": "10589",
+                "label_index": "@P10589",
                 "label_korean": "실제 차량 속도",
                 "group_id": "34077",
                 "req_frame_id": "102528",
@@ -458,13 +458,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "5308",
+                "help_code": "@P5308@T.",
                 "help_korean": "ESP ECU로 부터 속도."
             },
             {
                 "position": 4,
                 "mnemonic": "CONSIGNEPRESSIONENTREE",
-                "label_index": "8015",
+                "label_index": "@P8015",
                 "label_korean": "변속기 입력 압력 기준 값",
                 "group_id": "34078",
                 "req_frame_id": "102531",
@@ -486,7 +486,7 @@
             {
                 "position": 5,
                 "mnemonic": "PRESSENTREEBOITE",
-                "label_index": "3171",
+                "label_index": "@P3171",
                 "label_korean": "변속기 입력 압력",
                 "group_id": "34077",
                 "req_frame_id": "102528",
@@ -502,13 +502,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "11618",
+                "help_code": "@P11618@T.",
                 "help_korean": "변속기 입력 압력 센서에 의해 제공되는 정보."
             },
             {
                 "position": 6,
                 "mnemonic": "CONSPRESSSORTIEBOITE",
-                "label_index": "7778",
+                "label_index": "@P7778",
                 "label_korean": "변속기 출력 압력 셋팅",
                 "group_id": "34078",
                 "req_frame_id": "102531",
@@ -530,7 +530,7 @@
             {
                 "position": 7,
                 "mnemonic": "PRESSSORTIEBOITE",
-                "label_index": "5533",
+                "label_index": "@P5533",
                 "label_korean": "변속기 출력 압력",
                 "group_id": "34077",
                 "req_frame_id": "102528",
@@ -546,13 +546,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "7245",
+                "help_code": "@P7245@T.",
                 "help_korean": "변속기 출력 압력 속도에 의해 제공되는 정보."
             },
             {
                 "position": 8,
                 "mnemonic": "GLISSEMENT",
-                "label_index": "2221",
+                "label_index": "@P2221",
                 "label_korean": "벨트 슬립",
                 "group_id": "34077",
                 "req_frame_id": "102528",
@@ -568,13 +568,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "13480",
+                "help_code": "@P13480@\\*128@T.",
                 "help_korean": "최대 값=128."
             },
             {
                 "position": 9,
                 "mnemonic": "MP_COUPLE_MOTEUR",
-                "label_index": "13664",
+                "label_index": "@P13664",
                 "label_korean": "엔진 토크",
                 "group_id": "34077",
                 "req_frame_id": "102528",
@@ -596,7 +596,7 @@
             {
                 "position": 10,
                 "mnemonic": "MP_COUPLE_MOTEUR_CALCULE",
-                "label_index": "10017",
+                "label_index": "@P10017",
                 "label_korean": "계산된 엔진 토크",
                 "group_id": "34077",
                 "req_frame_id": "102528",
@@ -618,7 +618,7 @@
             {
                 "position": 11,
                 "mnemonic": "COUPLEENTREEBOITE",
-                "label_index": "16688",
+                "label_index": "@P16688",
                 "label_korean": "변속기 입력 토크",
                 "group_id": "34077",
                 "req_frame_id": "102528",
@@ -640,7 +640,7 @@
             {
                 "position": 12,
                 "mnemonic": "MP_POSITION_PEDALE_ACCELERATEUR",
-                "label_index": "11435",
+                "label_index": "@P11435",
                 "label_korean": "가속 페달 위치",
                 "group_id": "34077",
                 "req_frame_id": "102528",
@@ -662,7 +662,7 @@
             {
                 "position": 13,
                 "mnemonic": "MP_FREIN_REDONDANT",
-                "label_index": "16323",
+                "label_index": "@P16323",
                 "label_korean": "백업 브레이크 (CAN)",
                 "group_id": "34081",
                 "req_frame_id": "102540",
@@ -684,7 +684,7 @@
             {
                 "position": 14,
                 "mnemonic": "INFORALENTI",
-                "label_index": "15565",
+                "label_index": "@P15565",
                 "label_korean": "공회전 속도로 엔진 구동",
                 "group_id": "34081",
                 "req_frame_id": "102540",
@@ -706,7 +706,7 @@
             {
                 "position": 15,
                 "mnemonic": "MP_TEMPERATURE_HUILE",
-                "label_index": "11459",
+                "label_index": "@P11459",
                 "label_korean": "오일 온도",
                 "group_id": "34077",
                 "req_frame_id": "102528",
@@ -722,13 +722,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "23600",
-                "help_korean": "0에서 255사이로 변한다.\n[미번역_T0]=-50�C\n우측 및 트레일러 미등0 제어=0�C\n측정된 공기량이 최소 한계치 미만이다=20�C\n에어 블로어 반복 전압 결함=50�C\n백레스트 업라이트 스위치에서 고착 결함=70�C\n- DAM no가 0보다 낮고 수동변속기가 장착된 DV6TED4(9HZ)엔진 : 255리터=75�C\nESP LED 디스플레이=80�C\n운전 학원 모드=100�C\n시스템 정보를 일시적으로 사용할 수 없다=110�C\n승객석 시트 패널=150�C\n이중 잠금=200�C"
+                "help_code": "@P23600@\\*0@\\*255@T.@\\n@T0=-50�C@\\n@T17=0�C@\\n@T47=20�C@\\n@T100=50�C@\\n@T140=70�C@\\n@T155=75�C@\\n@T161=80�C@\\n@T190=100�C@\\n@T200=110�C@\\n@T225=150�C@\\n@T240=200�C",
+                "help_korean": "0에서 255사이로 변한다.\n0=-50�C\n17=0�C\n47=20�C\n100=50�C\n140=70�C\n155=75�C\n161=80�C\n190=100�C\n200=110�C\n225=150�C\n240=200�C"
             },
             {
                 "position": 16,
                 "mnemonic": "MP_TENSION_ALIMENTATION_CALCULATEUR_C1",
-                "label_index": "14064",
+                "label_index": "@P14064",
                 "label_korean": "제어 장치 공급 전압",
                 "group_id": "34076",
                 "req_frame_id": "102525",
@@ -748,13 +748,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "10229",
+                "help_code": "@P10229@T.",
                 "help_korean": "ECU 입력에서 측정된 전압."
             },
             {
                 "position": 17,
                 "mnemonic": "MP_TEMPERATURE_D_EAU_MOTEUR_a",
-                "label_index": "11092",
+                "label_index": "@P11092",
                 "label_korean": "엔진 냉각수 온도",
                 "group_id": "34083",
                 "req_frame_id": "102546",
@@ -770,7 +770,7 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "3456",
+                "help_code": "@P3456@T.",
                 "help_korean": "엔진 ECU에 의해 보내진 엔진 냉각수 온도."
             }
         ]
@@ -784,7 +784,7 @@
             {
                 "position": 1,
                 "mnemonic": "RAPPORTAFFICHE",
-                "label_index": "8511",
+                "label_index": "@P8511",
                 "label_korean": "컨트롤 패널에 표시된 기어",
                 "group_id": "34080",
                 "req_frame_id": "102537",
@@ -821,7 +821,7 @@
             {
                 "position": 2,
                 "mnemonic": "POSITIONCONTACTEUR",
-                "label_index": "7754",
+                "label_index": "@P7754",
                 "label_korean": "다기능 스위치의 위치",
                 "group_id": "34081",
                 "req_frame_id": "102540",
@@ -843,8 +843,8 @@
             {
                 "position": 3,
                 "mnemonic": "SELECTEURPLUS",
-                "label_index": "13151",
-                "label_korean": "수동 모드()에서 기어 셀렉터",
+                "label_index": "@P13151@\\*+",
+                "label_korean": "수동 모드에서 기어 셀렉터+",
                 "group_id": "34081",
                 "req_frame_id": "102540",
                 "resp_frame_id": "102541",
@@ -865,8 +865,8 @@
             {
                 "position": 4,
                 "mnemonic": "SELECTEURMOINS",
-                "label_index": "13151",
-                "label_korean": "수동 모드()에서 기어 셀렉터-",
+                "label_index": "@P13151@\\*-",
+                "label_korean": "수동 모드에서 기어 셀렉터-",
                 "group_id": "34081",
                 "req_frame_id": "102540",
                 "resp_frame_id": "102541",
@@ -887,8 +887,8 @@
             {
                 "position": 5,
                 "mnemonic": "COMMANDEPLUS",
-                "label_index": "16081",
-                "label_korean": "스티어링 휠 패들()",
+                "label_index": "@P16081@\\*+",
+                "label_korean": "스티어링 휠 패들+",
                 "group_id": "34081",
                 "req_frame_id": "102540",
                 "resp_frame_id": "102541",
@@ -909,8 +909,8 @@
             {
                 "position": 6,
                 "mnemonic": "COMMANDEMOINS",
-                "label_index": "16081",
-                "label_korean": "스티어링 휠 패들()-",
+                "label_index": "@P16081@\\*-",
+                "label_korean": "스티어링 휠 패들-",
                 "group_id": "34081",
                 "req_frame_id": "102540",
                 "resp_frame_id": "102541",
@@ -931,7 +931,7 @@
             {
                 "position": 7,
                 "mnemonic": "POSITION_SELECTEUR_DE_RAPPORT",
-                "label_index": "23108",
+                "label_index": "@P23108",
                 "label_korean": "기어 셀렉터 위치",
                 "group_id": "34081",
                 "req_frame_id": "102540",
@@ -964,7 +964,7 @@
             {
                 "position": 1,
                 "mnemonic": "CONSREGIMEENTREEBOITE",
-                "label_index": "15417",
+                "label_index": "@P15417",
                 "label_korean": "변속기 입력 속도 기준 값",
                 "group_id": "34078",
                 "req_frame_id": "102531",
@@ -986,7 +986,7 @@
             {
                 "position": 2,
                 "mnemonic": "REGIMEENTREEBOITE",
-                "label_index": "5362",
+                "label_index": "@P5362",
                 "label_korean": "변속기 입력 속도",
                 "group_id": "34076",
                 "req_frame_id": "102525",
@@ -1008,7 +1008,7 @@
             {
                 "position": 3,
                 "mnemonic": "REGIMESORTIEBOITE",
-                "label_index": "8394",
+                "label_index": "@P8394",
                 "label_korean": "변속기 출력 속도",
                 "group_id": "34077",
                 "req_frame_id": "102528",
@@ -1024,13 +1024,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "9608",
+                "help_code": "@P9608@\\*0@T.",
                 "help_korean": "실제 출력 속도는 0이지만, 센서의 정확도는 충분하지 않다."
             },
             {
                 "position": 4,
                 "mnemonic": "CONSIGNECOURANTEVENTREE",
-                "label_index": "10763",
+                "label_index": "@P10763",
                 "label_korean": "변속기 입력 압력 솔레노이드 밸브 전류 기준 값",
                 "group_id": "34079",
                 "req_frame_id": "102534",
@@ -1052,7 +1052,7 @@
             {
                 "position": 5,
                 "mnemonic": "COURANTEVENTREEMESURE",
-                "label_index": "2171",
+                "label_index": "@P2171",
                 "label_korean": "측정된 변속기 입력 압력 솔레노이드 밸브 전류",
                 "group_id": "34079",
                 "req_frame_id": "102534",
@@ -1074,7 +1074,7 @@
             {
                 "position": 6,
                 "mnemonic": "CONSIGNECOURANTEV2",
-                "label_index": "4831",
+                "label_index": "@P4831",
                 "label_korean": "변속기 출력 압력 EV 전류 세팅",
                 "group_id": "34079",
                 "req_frame_id": "102534",
@@ -1096,7 +1096,7 @@
             {
                 "position": 7,
                 "mnemonic": "COURANTEV2MESURE",
-                "label_index": "9947",
+                "label_index": "@P9947",
                 "label_korean": "측정된 변속기 출력 압력 솔레노이드 밸브 전류",
                 "group_id": "34079",
                 "req_frame_id": "102534",
@@ -1118,7 +1118,7 @@
             {
                 "position": 8,
                 "mnemonic": "CONSIGNERAPPORTDEMUL",
-                "label_index": "15278",
+                "label_index": "@P15278",
                 "label_korean": "기어비 셋팅",
                 "group_id": "34078",
                 "req_frame_id": "102531",
@@ -1134,13 +1134,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "12784",
+                "help_code": "@P12784@\\*2.35@\\*0.39@T.",
                 "help_korean": "벨트의 감속비. 2에서 0까지 변한다.35.39."
             },
             {
                 "position": 8,
                 "mnemonic": "CONSIGNERAPPORTDEMUL",
-                "label_index": "15278",
+                "label_index": "@P15278",
                 "label_korean": "기어비 셋팅",
                 "group_id": "34078",
                 "req_frame_id": "102531",
@@ -1156,13 +1156,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "23749",
+                "help_code": "@P23749",
                 "help_korean": "벨트 기어 비"
             },
             {
                 "position": 9,
                 "mnemonic": "RAPPORTDEMUL",
-                "label_index": "3210",
+                "label_index": "@P3210",
                 "label_korean": "기어비",
                 "group_id": "34077",
                 "req_frame_id": "102528",
@@ -1178,13 +1178,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "12784",
+                "help_code": "@P12784@\\*2,35@\\*0,39@T.",
                 "help_korean": "벨트의 감속비. 2에서 0까지 변한다,35,39."
             },
             {
                 "position": 9,
                 "mnemonic": "RAPPORTDEMUL",
-                "label_index": "3210",
+                "label_index": "@P3210",
                 "label_korean": "기어비",
                 "group_id": "34077",
                 "req_frame_id": "102528",
@@ -1200,13 +1200,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "23749",
+                "help_code": "@P23749",
                 "help_korean": "벨트 기어 비"
             },
             {
                 "position": 10,
                 "mnemonic": "CONSIGNEPRESLOCKUP",
-                "label_index": "11676",
+                "label_index": "@P11676",
                 "label_korean": "컨버터 록업 압력 기준 값",
                 "group_id": "34078",
                 "req_frame_id": "102531",
@@ -1228,7 +1228,7 @@
             {
                 "position": 11,
                 "mnemonic": "CONSIGNECOURANTEVLOCKUP",
-                "label_index": "5413",
+                "label_index": "@P5413",
                 "label_korean": "컨버터 록업 압력 솔레노이드 밸브 전류 기준 값",
                 "group_id": "34079",
                 "req_frame_id": "102534",
@@ -1250,7 +1250,7 @@
             {
                 "position": 12,
                 "mnemonic": "COURANTEVLOCKUPMESURE",
-                "label_index": "5481",
+                "label_index": "@P5481",
                 "label_korean": "측정된 컨버터 록업 압력 솔레노이드 밸브 전류",
                 "group_id": "34079",
                 "req_frame_id": "102534",
@@ -1272,7 +1272,7 @@
             {
                 "position": 13,
                 "mnemonic": "CONSIGNEEVLOCKUP",
-                "label_index": "8614",
+                "label_index": "@P8614",
                 "label_korean": "선택-컨버터 록업 솔레노이드 밸브 제어 기준 값",
                 "group_id": "34079",
                 "req_frame_id": "102534",
@@ -1294,7 +1294,7 @@
             {
                 "position": 14,
                 "mnemonic": "EVLOCKUPMESURE",
-                "label_index": "11114",
+                "label_index": "@P11114",
                 "label_korean": "컨버터 록업 - 선택 솔레노이드 밸브 제어 진행",
                 "group_id": "34079",
                 "req_frame_id": "102534",
@@ -1316,7 +1316,7 @@
             {
                 "position": 15,
                 "mnemonic": "CONSIGNEPASAPAS",
-                "label_index": "7377",
+                "label_index": "@P7377",
                 "label_korean": "스텝퍼 모터 포지션 세팅",
                 "group_id": "34078",
                 "req_frame_id": "102531",
@@ -1338,7 +1338,7 @@
             {
                 "position": 16,
                 "mnemonic": "PASAPASMESURE",
-                "label_index": "5785",
+                "label_index": "@P5785",
                 "label_korean": "측정된 스텝퍼 모터 위치",
                 "group_id": "34078",
                 "req_frame_id": "102531",
@@ -1354,14 +1354,14 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "23264",
-                "help_korean": "단계부터 단계까지 변한다-20 190."
+                "help_code": "@P23264@\\*-20@\\*+190@T.",
+                "help_korean": "단계부터 단계까지 변한다-20+190."
             },
             {
                 "position": 17,
                 "mnemonic": "PASAPASSORTIEA",
-                "label_index": "15698",
-                "label_korean": "스텝퍼\n- 모터 : 출력 제어A",
+                "label_index": "@P15698@\\*A",
+                "label_korean": "스텝퍼 모터 : 출력 제어A",
                 "group_id": "34079",
                 "req_frame_id": "102534",
                 "resp_frame_id": "102535",
@@ -1382,8 +1382,8 @@
             {
                 "position": 18,
                 "mnemonic": "PASAPASSORTIEB",
-                "label_index": "15698",
-                "label_korean": "스텝퍼\n- 모터 : 출력 제어B",
+                "label_index": "@P15698@\\*B",
+                "label_korean": "스텝퍼 모터 : 출력 제어B",
                 "group_id": "34079",
                 "req_frame_id": "102534",
                 "resp_frame_id": "102535",
@@ -1404,8 +1404,8 @@
             {
                 "position": 19,
                 "mnemonic": "PASAPASSORTIEC",
-                "label_index": "15698",
-                "label_korean": "스텝퍼\n- 모터 : 출력 제어C",
+                "label_index": "@P15698@\\*C",
+                "label_korean": "스텝퍼 모터 : 출력 제어C",
                 "group_id": "34079",
                 "req_frame_id": "102534",
                 "resp_frame_id": "102535",
@@ -1426,8 +1426,8 @@
             {
                 "position": 20,
                 "mnemonic": "PASAPASSORTIED",
-                "label_index": "15698",
-                "label_korean": "스텝퍼\n- 모터 : 출력 제어D",
+                "label_index": "@P15698@\\*D",
+                "label_korean": "스텝퍼 모터 : 출력 제어D",
                 "group_id": "34079",
                 "req_frame_id": "102534",
                 "resp_frame_id": "102535",
@@ -1448,7 +1448,7 @@
             {
                 "position": 21,
                 "mnemonic": "USUREHUILE",
-                "label_index": "3870",
+                "label_index": "@P3870",
                 "label_korean": "오일 마모 카운터",
                 "group_id": "34082",
                 "req_frame_id": "102543",
@@ -1464,7 +1464,7 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "23494",
+                "help_code": "@P23494@\\*210000",
                 "help_korean": "값이 210000보다 높으면 변속기의 오일을 배출한다"
             }
         ]
@@ -1478,7 +1478,7 @@
             {
                 "position": 1,
                 "mnemonic": "CONSREGIMEENTREEBOITE",
-                "label_index": "15417",
+                "label_index": "@P15417",
                 "label_korean": "변속기 입력 속도 기준 값",
                 "group_id": "34078",
                 "req_frame_id": "102531",
@@ -1500,7 +1500,7 @@
             {
                 "position": 2,
                 "mnemonic": "REGIMEENTREEBOITE",
-                "label_index": "5362",
+                "label_index": "@P5362",
                 "label_korean": "변속기 입력 속도",
                 "group_id": "34076",
                 "req_frame_id": "102525",
@@ -1522,7 +1522,7 @@
             {
                 "position": 3,
                 "mnemonic": "REGIMESORTIEBOITE",
-                "label_index": "8394",
+                "label_index": "@P8394",
                 "label_korean": "변속기 출력 속도",
                 "group_id": "34077",
                 "req_frame_id": "102528",
@@ -1538,13 +1538,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "9608",
+                "help_code": "@P9608@\\*0@T.",
                 "help_korean": "실제 출력 속도는 0이지만, 센서의 정확도는 충분하지 않다."
             },
             {
                 "position": 4,
                 "mnemonic": "CONSIGNECOURANTEVENTREE",
-                "label_index": "10763",
+                "label_index": "@P10763",
                 "label_korean": "변속기 입력 압력 솔레노이드 밸브 전류 기준 값",
                 "group_id": "34079",
                 "req_frame_id": "102534",
@@ -1566,7 +1566,7 @@
             {
                 "position": 5,
                 "mnemonic": "COURANTEVENTREEMESURE",
-                "label_index": "2171",
+                "label_index": "@P2171",
                 "label_korean": "측정된 변속기 입력 압력 솔레노이드 밸브 전류",
                 "group_id": "34079",
                 "req_frame_id": "102534",
@@ -1588,7 +1588,7 @@
             {
                 "position": 6,
                 "mnemonic": "CONSIGNECOURANTEV2",
-                "label_index": "4831",
+                "label_index": "@P4831",
                 "label_korean": "변속기 출력 압력 EV 전류 세팅",
                 "group_id": "34079",
                 "req_frame_id": "102534",
@@ -1610,7 +1610,7 @@
             {
                 "position": 7,
                 "mnemonic": "COURANTEV2MESURE",
-                "label_index": "9947",
+                "label_index": "@P9947",
                 "label_korean": "측정된 변속기 출력 압력 솔레노이드 밸브 전류",
                 "group_id": "34079",
                 "req_frame_id": "102534",
@@ -1632,7 +1632,7 @@
             {
                 "position": 8,
                 "mnemonic": "CONSIGNERAPPORTDEMUL",
-                "label_index": "15278",
+                "label_index": "@P15278",
                 "label_korean": "기어비 셋팅",
                 "group_id": "34078",
                 "req_frame_id": "102531",
@@ -1648,13 +1648,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "23749",
+                "help_code": "@P23749",
                 "help_korean": "벨트 기어 비"
             },
             {
                 "position": 9,
                 "mnemonic": "RAPPORTDEMUL",
-                "label_index": "3210",
+                "label_index": "@P3210",
                 "label_korean": "기어비",
                 "group_id": "34077",
                 "req_frame_id": "102528",
@@ -1670,13 +1670,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "23749",
+                "help_code": "@P23749",
                 "help_korean": "벨트 기어 비"
             },
             {
                 "position": 10,
                 "mnemonic": "CONSIGNEPRESLOCKUP",
-                "label_index": "11676",
+                "label_index": "@P11676",
                 "label_korean": "컨버터 록업 압력 기준 값",
                 "group_id": "34078",
                 "req_frame_id": "102531",
@@ -1698,7 +1698,7 @@
             {
                 "position": 11,
                 "mnemonic": "CONSIGNECOURANTEVLOCKUP",
-                "label_index": "5413",
+                "label_index": "@P5413",
                 "label_korean": "컨버터 록업 압력 솔레노이드 밸브 전류 기준 값",
                 "group_id": "34079",
                 "req_frame_id": "102534",
@@ -1720,7 +1720,7 @@
             {
                 "position": 12,
                 "mnemonic": "COURANTEVLOCKUPMESURE",
-                "label_index": "5481",
+                "label_index": "@P5481",
                 "label_korean": "측정된 컨버터 록업 압력 솔레노이드 밸브 전류",
                 "group_id": "34079",
                 "req_frame_id": "102534",
@@ -1742,7 +1742,7 @@
             {
                 "position": 13,
                 "mnemonic": "USUREHUILE",
-                "label_index": "3870",
+                "label_index": "@P3870",
                 "label_korean": "오일 마모 카운터",
                 "group_id": "34082",
                 "req_frame_id": "102543",
@@ -1758,7 +1758,7 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "23494",
+                "help_code": "@P23494@\\*210000",
                 "help_korean": "값이 210000보다 높으면 변속기의 오일을 배출한다"
             }
         ]
@@ -1772,7 +1772,7 @@
             {
                 "position": 1,
                 "mnemonic": "CA_KILOMETRAGE",
-                "label_index": "7845",
+                "label_index": "@P7845",
                 "label_korean": "주행거리",
                 "group_id": "34095",
                 "req_frame_id": "102582",
@@ -1796,7 +1796,7 @@
             {
                 "position": 2,
                 "mnemonic": "CA_DUREE_FONCTIONNEMENT",
-                "label_index": "9024",
+                "label_index": "@P9024",
                 "label_korean": "작동 시간",
                 "group_id": "34095",
                 "req_frame_id": "102582",
@@ -1818,7 +1818,7 @@
             {
                 "position": 3,
                 "mnemonic": "CA_NBR_CYCLES_FONCTIONNEMENT",
-                "label_index": "4028",
+                "label_index": "@P4028",
                 "label_korean": "작동 사이클 수",
                 "group_id": "34095",
                 "req_frame_id": "102582",

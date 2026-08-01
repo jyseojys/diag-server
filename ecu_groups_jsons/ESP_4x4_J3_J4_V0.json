@@ -8,7 +8,7 @@
             {
                 "position": 1,
                 "mnemonic": "ID_NOM_DU_FOURNISSEUR",
-                "label_index": "5701",
+                "label_index": "@P5701",
                 "label_korean": "제조 업체명",
                 "group_id": "140339",
                 "req_frame_id": "421359",
@@ -38,7 +38,7 @@
             {
                 "position": 2,
                 "mnemonic": "ID_REFERENCE_MATERIEL",
-                "label_index": "1071",
+                "label_index": "@P1071",
                 "label_korean": "장치 부품 번호",
                 "group_id": "140339",
                 "req_frame_id": "421359",
@@ -60,7 +60,7 @@
             {
                 "position": 3,
                 "mnemonic": "ID_HARD",
-                "label_index": "12954",
+                "label_index": "@P12954",
                 "label_korean": "하드웨어 버전",
                 "group_id": "140339",
                 "req_frame_id": "421359",
@@ -82,7 +82,7 @@
             {
                 "position": 4,
                 "mnemonic": "ID_VERSION_DU_LOGICIEL",
-                "label_index": "8662",
+                "label_index": "@P8662",
                 "label_korean": "소프트웨어 버전",
                 "group_id": "140339",
                 "req_frame_id": "421359",
@@ -104,7 +104,7 @@
             {
                 "position": 5,
                 "mnemonic": "ID_VERSION_DIAGNOSTIC",
-                "label_index": "15917",
+                "label_index": "@P15917",
                 "label_korean": "진단 메시지 시스템 인덱스 (변경)",
                 "group_id": "140339",
                 "req_frame_id": "421359",
@@ -134,7 +134,7 @@
             {
                 "position": 1,
                 "mnemonic": "I3I4_ABS_ESP_MP_1",
-                "label_index": "11831",
+                "label_index": "@P11831",
                 "label_korean": "프론트 좌측 휠 속도",
                 "group_id": "140311",
                 "req_frame_id": "421275",
@@ -150,13 +150,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "19753, 19882",
+                "help_code": "@P19753@T.@\\n@P19882@T.",
                 "help_korean": "이 정보는 ECU에 설정된 휠의 직경과 센서 정보로 계산된 휠의 회전 속도를 나타낸다.\nECU를 설정하지 않으면, 휠 속도 정보는 유효하지 않는 값을 가진다."
             },
             {
                 "position": 2,
                 "mnemonic": "I3I4_ABS_ESP_MP_2",
-                "label_index": "4748",
+                "label_index": "@P4748",
                 "label_korean": "프론트 우측 휠 속도",
                 "group_id": "140311",
                 "req_frame_id": "421275",
@@ -172,13 +172,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "19753, 19882",
+                "help_code": "@P19753@T.@\\n@P19882@T.",
                 "help_korean": "이 정보는 ECU에 설정된 휠의 직경과 센서 정보로 계산된 휠의 회전 속도를 나타낸다.\nECU를 설정하지 않으면, 휠 속도 정보는 유효하지 않는 값을 가진다."
             },
             {
                 "position": 3,
                 "mnemonic": "I3I4_ABS_ESP_MP_3",
-                "label_index": "3744",
+                "label_index": "@P3744",
                 "label_korean": "리어 좌측 휠 속도",
                 "group_id": "140311",
                 "req_frame_id": "421275",
@@ -194,13 +194,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "19753, 19882",
+                "help_code": "@P19753@T.@\\n@P19882@T.",
                 "help_korean": "이 정보는 ECU에 설정된 휠의 직경과 센서 정보로 계산된 휠의 회전 속도를 나타낸다.\nECU를 설정하지 않으면, 휠 속도 정보는 유효하지 않는 값을 가진다."
             },
             {
                 "position": 4,
                 "mnemonic": "I3I4_ABS_ESP_MP_4",
-                "label_index": "11915",
+                "label_index": "@P11915",
                 "label_korean": "리어 우측 휠 속도",
                 "group_id": "140311",
                 "req_frame_id": "421275",
@@ -216,7 +216,7 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "19753, 19882",
+                "help_code": "@P19753@T.@\\n@P19882@T.",
                 "help_korean": "이 정보는 ECU에 설정된 휠의 직경과 센서 정보로 계산된 휠의 회전 속도를 나타낸다.\nECU를 설정하지 않으면, 휠 속도 정보는 유효하지 않는 값을 가진다."
             }
         ]
@@ -230,7 +230,7 @@
             {
                 "position": 1,
                 "mnemonic": "I3I4_ABS_ESP_TELEC_1",
-                "label_index": "27270",
+                "label_index": "@P27270",
                 "label_korean": "CAN의 상태",
                 "group_id": "140327",
                 "req_frame_id": "421323",
@@ -257,7 +257,7 @@
             {
                 "position": 2,
                 "mnemonic": "I3I4_ABS_ESP_TELEC_2",
-                "label_index": "10375",
+                "label_index": "@P10375",
                 "label_korean": "타이어 직경",
                 "group_id": "140327",
                 "req_frame_id": "421323",
@@ -279,7 +279,7 @@
             {
                 "position": 3,
                 "mnemonic": "I3I4_ABS_ESP_TELEC_3",
-                "label_index": "10657",
+                "label_index": "@P10657",
                 "label_korean": "엔진 타입",
                 "group_id": "140327",
                 "req_frame_id": "421323",
@@ -303,7 +303,7 @@
             {
                 "position": 4,
                 "mnemonic": "I3I4_ABS_ESP_TELEC_4",
-                "label_index": "7936",
+                "label_index": "@P7936",
                 "label_korean": "전송 타입",
                 "group_id": "140327",
                 "req_frame_id": "421323",
@@ -330,7 +330,7 @@
             {
                 "position": 5,
                 "mnemonic": "I3I4_ABS_ESP_TELEC_5",
-                "label_index": "3063",
+                "label_index": "@P3063",
                 "label_korean": "주행 타입",
                 "group_id": "140327",
                 "req_frame_id": "421323",
@@ -358,7 +358,7 @@
             {
                 "position": 6,
                 "mnemonic": "I3I4_ABS_ESP_TELEC_6",
-                "label_index": "9220",
+                "label_index": "@P9220",
                 "label_korean": "트랜스퍼 박스의 타입",
                 "group_id": "140327",
                 "req_frame_id": "421323",
@@ -386,7 +386,7 @@
             {
                 "position": 7,
                 "mnemonic": "I3I4_ABS_ESP_TELEC_7",
-                "label_index": "1797",
+                "label_index": "@P1797",
                 "label_korean": "프론트 디퍼런셜",
                 "group_id": "140327",
                 "req_frame_id": "421323",
@@ -411,7 +411,7 @@
             {
                 "position": 8,
                 "mnemonic": "I3I4_ABS_ESP_TELEC_8",
-                "label_index": "14391",
+                "label_index": "@P14391",
                 "label_korean": "리어 디퍼런셜",
                 "group_id": "140327",
                 "req_frame_id": "421323",
@@ -445,7 +445,7 @@
             {
                 "position": 1,
                 "mnemonic": "I3I4_ABS_ESP_MP_5",
-                "label_index": "1274",
+                "label_index": "@P1274",
                 "label_korean": "스티어링 휠 앵글",
                 "group_id": "140312",
                 "req_frame_id": "421278",
@@ -461,13 +461,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "9606",
+                "help_code": "@P9606@\\*-1433,6 @\\*1433,56",
                 "help_korean": "1433과 도사이의 값-1433,6 ,56"
             },
             {
                 "position": 2,
                 "mnemonic": "MP_ECART_ANGLE_DE_VOLANT",
-                "label_index": "36229",
+                "label_index": "@P36229",
                 "label_korean": "스티어링 휠 앵글 차이",
                 "group_id": "140314",
                 "req_frame_id": "421284",
@@ -489,7 +489,7 @@
             {
                 "position": 3,
                 "mnemonic": "I3I4_ABS_ESP_MP_6",
-                "label_index": "2526",
+                "label_index": "@P2526",
                 "label_korean": "스티어링 휠 앵글 캘리브레이션 상태",
                 "group_id": "140320",
                 "req_frame_id": "421302",
@@ -511,7 +511,7 @@
             {
                 "position": 4,
                 "mnemonic": "I3I4_ABS_ESP_MP_7",
-                "label_index": "2099",
+                "label_index": "@P2099",
                 "label_korean": "롤 앵글 속도",
                 "group_id": "140312",
                 "req_frame_id": "421278",
@@ -527,13 +527,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "19980, 19730, 40096",
-                "help_korean": "수직 축에 관한 차량 회전 속도. 이 속도는 LH 벤드에서 포지티브이다.\n74과 도 사이의 값-75,5,9"
+                "help_code": "@P19980@T.@\\+@P19730@T.@\\+@\\n@P40096@\\*-75,5@\\*74,9",
+                "help_korean": "수직 축에 관한 차량 회전 속도.이 속도는 LH 벤드에서 포지티브이다.\n74과 도 사이의 값-75,5,9"
             },
             {
                 "position": 5,
                 "mnemonic": "MP_ECART_ANGLE_DE_LACET",
-                "label_index": "36224",
+                "label_index": "@P36224",
                 "label_korean": "요잉 각도 속도 차이",
                 "group_id": "140314",
                 "req_frame_id": "421284",
@@ -555,7 +555,7 @@
             {
                 "position": 6,
                 "mnemonic": "I3I4_ABS_ESP_MP_8",
-                "label_index": "13019",
+                "label_index": "@P13019",
                 "label_korean": "마스터 실린더 압력",
                 "group_id": "140312",
                 "req_frame_id": "421278",
@@ -571,13 +571,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "19800, 19799, 19763",
+                "help_code": "@P19800@T.@\\n@P19799@T.@\\n@P19763@T.",
                 "help_korean": "마스터 실린더에서 압력 센서에 의해 측정된 정보.\n브레이크 페달을 밟지 않고 재순환 펌프가 작동하지 않을 경우 압력은 0bar이어야 한다.\n압력 센서가 결함이면, 읽은 정보는 유효하지 않는 값을 취한다."
             },
             {
                 "position": 7,
                 "mnemonic": "MP_ECART_PRESSION_MAITRE_CYLINDRE",
-                "label_index": "36228",
+                "label_index": "@P36228",
                 "label_korean": "마스터 실린더 압력 차이",
                 "group_id": "140314",
                 "req_frame_id": "421284",
@@ -599,7 +599,7 @@
             {
                 "position": 8,
                 "mnemonic": "I3I4_ABS_ESP_MP_9",
-                "label_index": "15945",
+                "label_index": "@P15945",
                 "label_korean": "측면 가속도",
                 "group_id": "140312",
                 "req_frame_id": "421278",
@@ -615,13 +615,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "27908, 40095",
+                "help_code": "@P27908@T.@\\+@\\n@P40095@\\*-32,768@\\*32,767",
                 "help_korean": "자이로스코픽/가속도계 센서로 부터 정보.\n32 과 g 사이의 가속 값-32,768,767"
             },
             {
                 "position": 9,
                 "mnemonic": "I3I4_ABS_ESP_MP_10",
-                "label_index": "3354",
+                "label_index": "@P3354",
                 "label_korean": "종가속도",
                 "group_id": "140312",
                 "req_frame_id": "421278",
@@ -637,13 +637,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "27908, 43111",
+                "help_code": "@P27908@T.@\\+@\\n@P43111@\\*-1,28@\\*1,27 G",
                 "help_korean": "자이로스코픽/가속도계 센서로 부터 정보.\n1과 사이의 값-1,28,27 G"
             },
             {
                 "position": 10,
                 "mnemonic": "I3I4_ABS_ESP_MP_11",
-                "label_index": "18263",
+                "label_index": "@P18263",
                 "label_korean": "배터리 전압",
                 "group_id": "140317",
                 "req_frame_id": "421293",
@@ -659,7 +659,7 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "6853",
+                "help_code": "@P6853@\\*-5@\\*20,5",
                 "help_korean": "20와 V 사이의 값-5,5"
             }
         ]
@@ -673,7 +673,7 @@
             {
                 "position": 1,
                 "mnemonic": "I3I4_ABS_ESP_MP_12",
-                "label_index": "7917",
+                "label_index": "@P7917",
                 "label_korean": "엔진 속도",
                 "group_id": "140313",
                 "req_frame_id": "421281",
@@ -689,13 +689,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "27798, 27817, 27771",
-                "help_korean": "엔진 회전 속도. 300rpm 이하의 속도에서 정확도는 0이다.\n3rpm과 300rpm간의 회전 속도에서 정확한 것은 300rpm이다."
+                "help_code": "@P27798@T.@\\+@P27817@\\*300@T.@\\n@P27771@\\*3@\\*300@\\*3000@T.",
+                "help_korean": "엔진 회전 속도.300rpm 이하의 속도에서 정확도는 0이다.\n3rpm과 300rpm간의 회전 속도에서 정확한 것은 300rpm이다."
             },
             {
                 "position": 2,
                 "mnemonic": "I3I4_ABS_ESP_MP_13",
-                "label_index": "15080",
+                "label_index": "@P15080",
                 "label_korean": "엔진 토크",
                 "group_id": "140313",
                 "req_frame_id": "421281",
@@ -711,13 +711,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "13925",
-                "help_korean": "이용\n- 가능한 실제 토크 : 엔진에 의해 제공된 현재 엔진 토크"
+                "help_code": "@P13925",
+                "help_korean": "이용 가능한 실제 토크 : 엔진에 의해 제공된 현재 엔진 토크"
             },
             {
                 "position": 3,
                 "mnemonic": "I3I4_ABS_ESP_MP_14",
-                "label_index": "3414",
+                "label_index": "@P3414",
                 "label_korean": "가속 페달 센서 포지션",
                 "group_id": "140313",
                 "req_frame_id": "421281",
@@ -739,7 +739,7 @@
             {
                 "position": 4,
                 "mnemonic": "I3I4_ABS_ESP_MP_15",
-                "label_index": "11558",
+                "label_index": "@P11558",
                 "label_korean": "ESP로부터 엔진 토크 요청",
                 "group_id": "140313",
                 "req_frame_id": "421281",
@@ -761,7 +761,7 @@
             {
                 "position": 5,
                 "mnemonic": "MP_RAPPORT_ENGAGE",
-                "label_index": "9398",
+                "label_index": "@P9398",
                 "label_korean": "체결 기어",
                 "group_id": "140313",
                 "req_frame_id": "421281",
@@ -824,7 +824,7 @@
             {
                 "position": 6,
                 "mnemonic": "MP_RAPPORT_BV_SELECTIONNE",
-                "label_index": "12694",
+                "label_index": "@P12694",
                 "label_korean": "선택한 기어",
                 "group_id": "140313",
                 "req_frame_id": "421281",
@@ -870,7 +870,7 @@
             {
                 "position": 1,
                 "mnemonic": "I3I4_ABS_ESP_MP_16",
-                "label_index": "998",
+                "label_index": "@P998",
                 "label_korean": "브레이크 압력 센서 상태",
                 "group_id": "140323",
                 "req_frame_id": "421311",
@@ -892,7 +892,7 @@
             {
                 "position": 2,
                 "mnemonic": "I3I4_ABS_ESP_MP_17",
-                "label_index": "3502",
+                "label_index": "@P3502",
                 "label_korean": "ESP 차단 스위치 상태",
                 "group_id": "140322",
                 "req_frame_id": "421308",
@@ -908,13 +908,13 @@
                 "bit_mask": 1,
                 "bit_shift": 0,
                 "dynamic_arg": "",
-                "help_code": "4256",
+                "help_code": "@P4256",
                 "help_korean": "ESP 기능을 차단 또는 작동을 승인하는 스위치"
             },
             {
                 "position": 3,
                 "mnemonic": "I3I4_ABS_ESP_MP_18",
-                "label_index": "27824",
+                "label_index": "@P27824",
                 "label_korean": "브레이크 페달 스위치 상태",
                 "group_id": "140323",
                 "req_frame_id": "421311",
@@ -933,13 +933,13 @@
                 "bit_mask": 2,
                 "bit_shift": 1,
                 "dynamic_arg": "",
-                "help_code": "3694",
+                "help_code": "@F3694@T.",
                 "help_korean": "브레이크 페달의 한번 누름에 의한 정보 취득."
             },
             {
                 "position": 4,
                 "mnemonic": "MP_DEFAUT_ETAT_CONTACTEUR_PEDALE_FREIN",
-                "label_index": "22166",
+                "label_index": "@P22166",
                 "label_korean": "브레이크 페달 스위치 상태 결함",
                 "group_id": "140323",
                 "req_frame_id": "421311",
@@ -964,7 +964,7 @@
             {
                 "position": 5,
                 "mnemonic": "I3I4_ABS_ESP_MP_19",
-                "label_index": "3777",
+                "label_index": "@P3777@\\*1",
                 "label_korean": "브레이크 페달 스위치 라인1 상태",
                 "group_id": "140322",
                 "req_frame_id": "421308",
@@ -986,7 +986,7 @@
             {
                 "position": 6,
                 "mnemonic": "I3I4_ABS_ESP_MP_21",
-                "label_index": "12165",
+                "label_index": "@P12165",
                 "label_korean": "주차브레이크 상태",
                 "group_id": "140322",
                 "req_frame_id": "421308",
@@ -1016,7 +1016,7 @@
             {
                 "position": 1,
                 "mnemonic": "I3I4_ABS_ESP_MP_22",
-                "label_index": "7997",
+                "label_index": "@P7997",
                 "label_korean": "차량 속도",
                 "group_id": "140321",
                 "req_frame_id": "421305",
@@ -1038,7 +1038,7 @@
             {
                 "position": 2,
                 "mnemonic": "I3I4_ABS_ESP_MP_23",
-                "label_index": "3925",
+                "label_index": "@P3925",
                 "label_korean": "좌측 휠 주행 거리",
                 "group_id": "140321",
                 "req_frame_id": "421305",
@@ -1060,7 +1060,7 @@
             {
                 "position": 3,
                 "mnemonic": "I3I4_ABS_ESP_MP_24",
-                "label_index": "3501",
+                "label_index": "@P3501",
                 "label_korean": "우측 휠 주행 거리",
                 "group_id": "140321",
                 "req_frame_id": "421305",
@@ -1090,7 +1090,7 @@
             {
                 "position": 1,
                 "mnemonic": "I3I4_ESP_CA_1",
-                "label_index": "8714",
+                "label_index": "@P8714",
                 "label_korean": "결함이 사라진 후 키를 ON한 횟수",
                 "group_id": "140398",
                 "req_frame_id": "421536",
@@ -1112,7 +1112,7 @@
             {
                 "position": 2,
                 "mnemonic": "I3I4_ESP_CA_2",
-                "label_index": "6500",
+                "label_index": "@P6500",
                 "label_korean": "결함 발생 이후 경과된 시간",
                 "group_id": "매핑_누락",
                 "req_frame_id": "",
@@ -1134,7 +1134,7 @@
             {
                 "position": 3,
                 "mnemonic": "I3I4_ESP_CA_3",
-                "label_index": "14213",
+                "label_index": "@P14213@\\*",
                 "label_korean": "결함이 발생했을 때 주행거리",
                 "group_id": "140398",
                 "req_frame_id": "421536",
@@ -1156,7 +1156,7 @@
             {
                 "position": 4,
                 "mnemonic": "I3I4_ESP_CA_4",
-                "label_index": "5838",
+                "label_index": "@P5838",
                 "label_korean": "ABS 제어",
                 "group_id": "140398",
                 "req_frame_id": "421536",
@@ -1178,7 +1178,7 @@
             {
                 "position": 5,
                 "mnemonic": "I3I4_ESP_CA_5",
-                "label_index": "10659",
+                "label_index": "@P10659",
                 "label_korean": "브레이크 작동으로 트랙션 컨트롤",
                 "group_id": "140398",
                 "req_frame_id": "421536",
@@ -1200,7 +1200,7 @@
             {
                 "position": 6,
                 "mnemonic": "I3I4_ESP_CA_6",
-                "label_index": "13582",
+                "label_index": "@P13582",
                 "label_korean": "엔진 토크 감소로 트랙션 컨트롤",
                 "group_id": "140398",
                 "req_frame_id": "421536",
@@ -1222,7 +1222,7 @@
             {
                 "position": 7,
                 "mnemonic": "I3I4_ESP_CA_7",
-                "label_index": "11018",
+                "label_index": "@P11018",
                 "label_korean": "ESP 제어",
                 "group_id": "140398",
                 "req_frame_id": "421536",
@@ -1244,7 +1244,7 @@
             {
                 "position": 8,
                 "mnemonic": "I3I4_ESP_CA_8",
-                "label_index": "14511",
+                "label_index": "@P14511",
                 "label_korean": "토크 증가 제어",
                 "group_id": "140398",
                 "req_frame_id": "421536",
@@ -1266,7 +1266,7 @@
             {
                 "position": 9,
                 "mnemonic": "CA_ETAT_CONTACTEUR_INHIBITION_CONTROLE_DE_STABILITE",
-                "label_index": "3502",
+                "label_index": "@P3502",
                 "label_korean": "ESP 차단 스위치 상태",
                 "group_id": "140398",
                 "req_frame_id": "421536",
@@ -1288,7 +1288,7 @@
             {
                 "position": 10,
                 "mnemonic": "I3I4_ESP_CA_9",
-                "label_index": "14499",
+                "label_index": "@P14499",
                 "label_korean": "STOP 제동등 점등",
                 "group_id": "140398",
                 "req_frame_id": "421536",
@@ -1310,7 +1310,7 @@
             {
                 "position": 11,
                 "mnemonic": "I3I4_ESP_CA_10",
-                "label_index": "11506",
+                "label_index": "@P11506",
                 "label_korean": "트랙션 컨트롤 승인",
                 "group_id": "140398",
                 "req_frame_id": "421536",
@@ -1332,7 +1332,7 @@
             {
                 "position": 12,
                 "mnemonic": "I3I4_ESP_CA_11",
-                "label_index": "11497",
+                "label_index": "@P11497",
                 "label_korean": "ESP 차단 스위치",
                 "group_id": "140398",
                 "req_frame_id": "421536",
@@ -1354,7 +1354,7 @@
             {
                 "position": 13,
                 "mnemonic": "I3I4_ESP_CA_12",
-                "label_index": "1274",
+                "label_index": "@P1274",
                 "label_korean": "스티어링 휠 앵글",
                 "group_id": "140398",
                 "req_frame_id": "421536",
@@ -1376,7 +1376,7 @@
             {
                 "position": 14,
                 "mnemonic": "I3I4_ESP_CA_13",
-                "label_index": "13865",
+                "label_index": "@P13865",
                 "label_korean": "요잉 각도 속도",
                 "group_id": "140398",
                 "req_frame_id": "421536",
@@ -1398,7 +1398,7 @@
             {
                 "position": 15,
                 "mnemonic": "I3I4_ESP_CA_14",
-                "label_index": "12746",
+                "label_index": "@P12746",
                 "label_korean": "듀얼 기능 가속도계-자이로미터 센서",
                 "group_id": "140398",
                 "req_frame_id": "421536",
@@ -1420,7 +1420,7 @@
             {
                 "position": 16,
                 "mnemonic": "I3I4_ESP_CA_15",
-                "label_index": "15945",
+                "label_index": "@P15945",
                 "label_korean": "측면 가속도",
                 "group_id": "140398",
                 "req_frame_id": "421536",
@@ -1442,7 +1442,7 @@
             {
                 "position": 17,
                 "mnemonic": "I3I4_ESP_CA_16",
-                "label_index": "3354",
+                "label_index": "@P3354",
                 "label_korean": "종가속도",
                 "group_id": "140398",
                 "req_frame_id": "421536",
@@ -1464,7 +1464,7 @@
             {
                 "position": 18,
                 "mnemonic": "I3I4_ESP_CA_17",
-                "label_index": "13019",
+                "label_index": "@P13019",
                 "label_korean": "마스터 실린더 압력",
                 "group_id": "140398",
                 "req_frame_id": "421536",
@@ -1486,7 +1486,7 @@
             {
                 "position": 19,
                 "mnemonic": "I3I4_ESP_CA_18",
-                "label_index": "18263",
+                "label_index": "@P18263",
                 "label_korean": "배터리 전압",
                 "group_id": "140398",
                 "req_frame_id": "421536",
@@ -1508,7 +1508,7 @@
             {
                 "position": 20,
                 "mnemonic": "I3I4_ESP_CA_19",
-                "label_index": "11831",
+                "label_index": "@P11831",
                 "label_korean": "프론트 좌측 휠 속도",
                 "group_id": "140398",
                 "req_frame_id": "421536",
@@ -1530,7 +1530,7 @@
             {
                 "position": 21,
                 "mnemonic": "I3I4_ESP_CA_20",
-                "label_index": "4748",
+                "label_index": "@P4748",
                 "label_korean": "프론트 우측 휠 속도",
                 "group_id": "140398",
                 "req_frame_id": "421536",
@@ -1552,7 +1552,7 @@
             {
                 "position": 22,
                 "mnemonic": "I3I4_ESP_CA_21",
-                "label_index": "3744",
+                "label_index": "@P3744",
                 "label_korean": "리어 좌측 휠 속도",
                 "group_id": "140398",
                 "req_frame_id": "421536",
@@ -1574,7 +1574,7 @@
             {
                 "position": 23,
                 "mnemonic": "I3I4_ESP_CA_22",
-                "label_index": "11915",
+                "label_index": "@P11915",
                 "label_korean": "리어 우측 휠 속도",
                 "group_id": "140398",
                 "req_frame_id": "421536",

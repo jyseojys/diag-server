@@ -8,7 +8,7 @@
             {
                 "position": 1,
                 "mnemonic": "ID_NOM_DU_FOURNISSEUR",
-                "label_index": "5701",
+                "label_index": "@P5701",
                 "label_korean": "제조 업체명",
                 "group_id": "33941",
                 "req_frame_id": "102119",
@@ -38,7 +38,7 @@
             {
                 "position": 2,
                 "mnemonic": "ID_REFERENCE_MATERIEL",
-                "label_index": "1071",
+                "label_index": "@P1071",
                 "label_korean": "장치 부품 번호",
                 "group_id": "33941",
                 "req_frame_id": "102119",
@@ -60,7 +60,7 @@
             {
                 "position": 3,
                 "mnemonic": "ID_REFERENCE_COMPLEMENTAIRE_MATERIEL",
-                "label_index": "1634",
+                "label_index": "@P1634",
                 "label_korean": "장치 추가 참조 번호",
                 "group_id": "33941",
                 "req_frame_id": "102119",
@@ -82,7 +82,7 @@
             {
                 "position": 4,
                 "mnemonic": "ID_TRACABILITE_INDICE_EVOLUTION_EDITION",
-                "label_index": "13235",
+                "label_index": "@P13235@\\*",
                 "label_korean": "소프트웨어 버전",
                 "group_id": "33941",
                 "req_frame_id": "102119",
@@ -112,7 +112,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_INFORMATION_CAPTEUR_ARRRIERE_1",
-                "label_index": "16762",
+                "label_index": "@P16762",
                 "label_korean": "레인 센서 정보",
                 "group_id": "33946",
                 "req_frame_id": "102134",
@@ -128,13 +128,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "41003",
+                "help_code": "@P41003@\\*30@\\*70@T.",
                 "help_korean": "값은 프로그래밍 작업을 정확하기 실시하기 위해서 반드시 30%에서 70% 사이에 있어야 한다."
             },
             {
                 "position": 2,
                 "mnemonic": "MP_INFORMATION_CAPTEUR_AVANT_1",
-                "label_index": "10287",
+                "label_index": "@P10287",
                 "label_korean": "프론트 센서 정보",
                 "group_id": "33946",
                 "req_frame_id": "102134",
@@ -150,7 +150,7 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "41003",
+                "help_code": "@P41003@\\*30@\\*70@T.",
                 "help_korean": "값은 프로그래밍 작업을 정확하기 실시하기 위해서 반드시 30%에서 70% 사이에 있어야 한다."
             }
         ]
@@ -164,7 +164,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_INFORMATION_CAPTEUR_AVANT",
-                "label_index": "10287",
+                "label_index": "@P10287",
                 "label_korean": "프론트 센서 정보",
                 "group_id": "33944",
                 "req_frame_id": "102128",
@@ -180,13 +180,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "4574, 45168",
+                "help_code": "@P4574@\\*0@\\*5@T.@P45168@T.",
                 "help_korean": "값은 반드시 0에서 5V 사이어야 한다.이것은 아날로그 신호이며 전압으로 표시된다."
             },
             {
                 "position": 2,
                 "mnemonic": "MP_INFORMATION_CAPTEUR_ARRIERE",
-                "label_index": "16762",
+                "label_index": "@P16762",
                 "label_korean": "레인 센서 정보",
                 "group_id": "33944",
                 "req_frame_id": "102128",
@@ -202,13 +202,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "27438, 40133",
+                "help_code": "@P27438@\\*0@\\*100@T. @P40133",
                 "help_korean": "값은 0과 100% 사이에 있어야 한다. 이는 PWM이고 %로 표시된다"
             },
             {
                 "position": 3,
                 "mnemonic": "MP_VITESSE_VEHICULE",
-                "label_index": "7997",
+                "label_index": "@P7997",
                 "label_korean": "차량 속도",
                 "group_id": "33944",
                 "req_frame_id": "102128",
@@ -228,13 +228,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "8088",
+                "help_code": "@P8088@\\*0",
                 "help_korean": "차량의 최대 속도와 0간의 실제 차량 속도"
             },
             {
                 "position": 4,
                 "mnemonic": "MP_ANGLE_VOLANT",
-                "label_index": "1274",
+                "label_index": "@P1274",
                 "label_korean": "스티어링 휠 앵글",
                 "group_id": "33944",
                 "req_frame_id": "102128",
@@ -252,13 +252,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "43550, 43551, 43552",
+                "help_code": "@P43550@T. @P43551@\\*0@T. @P43552@\\*0@T.",
                 "help_korean": "차량의 스티어링 휠 앵글 값. 스티어링 휠이 직선일 때 0°. 스티어링 휠 앵글 센서 결함이 발생할 경우, ECU는 대체 값으로 0°을 가지고 헤드램프의 방위 조정을 차단한다."
             },
             {
                 "position": 5,
                 "mnemonic": "MP_FONCTION_PROJECTEURS_DIRECTIONNELS",
-                "label_index": "16599",
+                "label_index": "@P16599",
                 "label_korean": "방향형 헤드램프 기능",
                 "group_id": "33942",
                 "req_frame_id": "102122",
@@ -277,13 +277,13 @@
                 "bit_mask": 2,
                 "bit_shift": 1,
                 "dynamic_arg": "",
-                "help_code": "12468",
+                "help_code": "@P12468",
                 "help_korean": "이 변수는 헤드램프 방위 조정 기능이 차단되었는지 확인하는데 사용한다 (BSI 또는 차량 트립 컴퓨터를 통해)"
             },
             {
                 "position": 6,
                 "mnemonic": "MP_INFORMATION_PEDALE_DE_FREIN",
-                "label_index": "7590",
+                "label_index": "@P7590",
                 "label_korean": "브레이크 페달 정보",
                 "group_id": "33942",
                 "req_frame_id": "102122",
@@ -304,13 +304,13 @@
                 "bit_mask": 8,
                 "bit_shift": 3,
                 "dynamic_arg": "",
-                "help_code": "1849",
+                "help_code": "@P1849",
                 "help_korean": "이 변수는 ECU가 브레이크 센서로부터 정상적으로 정보를 수신하는지를 확인하는 데 사용한다"
             },
             {
                 "position": 7,
                 "mnemonic": "MP_CONTACT_PEDALE_FREIN",
-                "label_index": "6213",
+                "label_index": "@P6213",
                 "label_korean": "브레이크 페달",
                 "group_id": "33942",
                 "req_frame_id": "102122",
@@ -331,13 +331,13 @@
                 "bit_mask": 16,
                 "bit_shift": 4,
                 "dynamic_arg": "",
-                "help_code": "10258, 40134",
-                "help_korean": "브레이크 페달 위치.\n- 경고 : 이 변수는 브레이크 페달 정보가 \"유효하지 않음\" 일 경우 정확하지 않을 수 있다"
+                "help_code": "@P10258@T. @P40134",
+                "help_korean": "브레이크 페달 위치. 경고 : 이 변수는 브레이크 페달 정보가 \"유효하지 않음\" 일 경우 정확하지 않을 수 있다"
             },
             {
                 "position": 8,
                 "mnemonic": "MP_INFORMATION_MOTEUR_TOURNANT",
-                "label_index": "5095",
+                "label_index": "@P5095",
                 "label_korean": "엔진 구동 정보",
                 "group_id": "33942",
                 "req_frame_id": "102122",
@@ -356,13 +356,13 @@
                 "bit_mask": 32,
                 "bit_shift": 5,
                 "dynamic_arg": "",
-                "help_code": "15319",
+                "help_code": "@P15319",
                 "help_korean": "이 변수는 ECU가 엔진 구동 정보를 정상적으로 수신하는지를 확인하는 데 사용한다"
             },
             {
                 "position": 9,
                 "mnemonic": "MP_ETAT_MOTEUR",
-                "label_index": "14427",
+                "label_index": "@P14427@\\*",
                 "label_korean": "엔진 상태",
                 "group_id": "33942",
                 "req_frame_id": "102122",
@@ -410,13 +410,13 @@
                 "bit_mask": 64,
                 "bit_shift": 6,
                 "dynamic_arg": "",
-                "help_code": "11481, 43074",
-                "help_korean": "엔진 상태.\n- 경고 : 이 변수는 엔진 구동 정보가 \"유효하지 않음\"일 경우 정확하지 않을 수 있다"
+                "help_code": "@P11481@T. @P43074",
+                "help_korean": "엔진 상태. 경고 : 이 변수는 엔진 구동 정보가 \"유효하지 않음\"일 경우 정확하지 않을 수 있다"
             },
             {
                 "position": 10,
                 "mnemonic": "MP_INFORMATION_LUMINOSITE",
-                "label_index": "15002",
+                "label_index": "@P15002",
                 "label_korean": "밝기 정보",
                 "group_id": "33942",
                 "req_frame_id": "102122",
@@ -435,7 +435,7 @@
                 "bit_mask": 128,
                 "bit_shift": 7,
                 "dynamic_arg": "",
-                "help_code": "43553, 43554",
+                "help_code": "@P43553@T. @P43554@T.",
                 "help_korean": "이 변수는 ECU가 외부 밝기를 주간 또는 야간으로 분석하는지를 확인하는 데 사용한다. 변수가 \"주간\"일 때, 방위 보정이 차단되고 빔 보정은 정적으로만 이뤄진다."
             }
         ]
@@ -449,7 +449,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_CONFIG_VEHICULE",
-                "label_index": "11375",
+                "label_index": "@P11375",
                 "label_korean": "차량",
                 "group_id": "33947",
                 "req_frame_id": "102137",
@@ -474,7 +474,7 @@
             {
                 "position": 2,
                 "mnemonic": "CFG_____BVPR",
-                "label_index": "14682",
+                "label_index": "@P14682",
                 "label_korean": "변속기",
                 "group_id": "매핑_누락",
                 "req_frame_id": "",
@@ -501,7 +501,7 @@
             {
                 "position": 3,
                 "mnemonic": "CFG_____CONFIG_PRJ_UCPR_LAD_GAUCHE",
-                "label_index": "2484",
+                "label_index": "@P2484",
                 "label_korean": "차고 높이 센서",
                 "group_id": "매핑_누락",
                 "req_frame_id": "",

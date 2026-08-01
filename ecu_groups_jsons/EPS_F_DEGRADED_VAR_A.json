@@ -8,7 +8,7 @@
             {
                 "position": 1,
                 "mnemonic": "CFG_MCA21_SYSTEME_STATIONNEMENT_SEMI_AUTOMATIQUE",
-                "label_index": "34329",
+                "label_index": "@P34329",
                 "label_korean": "반자동 주차 시스템",
                 "group_id": "3104",
                 "req_frame_id": "9310",
@@ -33,7 +33,7 @@
             {
                 "position": 2,
                 "mnemonic": "CFG_MCA21_AIDE_CONDUITE",
-                "label_index": "7665",
+                "label_index": "@P7665",
                 "label_korean": "주행 지원",
                 "group_id": "3104",
                 "req_frame_id": "9310",
@@ -58,7 +58,7 @@
             {
                 "position": 3,
                 "mnemonic": "CFG_MCA21_AIDE_MAINTIEN_VOIE",
-                "label_index": "48916",
+                "label_index": "@P48916",
                 "label_korean": "차선 유지 지원",
                 "group_id": "3104",
                 "req_frame_id": "9310",
@@ -85,7 +85,7 @@
             {
                 "position": 4,
                 "mnemonic": "CFG_MCA21_PRESENCE_EMBOUTEILLAGE",
-                "label_index": "35177",
+                "label_index": "@P35177",
                 "label_korean": "교통 정보 서비스",
                 "group_id": "3104",
                 "req_frame_id": "9310",
@@ -110,7 +110,7 @@
             {
                 "position": 5,
                 "mnemonic": "CFG_MCA21_CODE_PROJET_VEHICULE",
-                "label_index": "63470",
+                "label_index": "@P63470",
                 "label_korean": "차량 프로젝트 코드",
                 "group_id": "3104",
                 "req_frame_id": "9310",
@@ -135,7 +135,7 @@
             {
                 "position": 6,
                 "mnemonic": "CFG_MCA21_DIMENSION_PNEUMATIQUES",
-                "label_index": "26225",
+                "label_index": "@P26225",
                 "label_korean": "타이어 사이즈",
                 "group_id": "3104",
                 "req_frame_id": "9310",
@@ -157,7 +157,7 @@
             {
                 "position": 7,
                 "mnemonic": "CFG_MCA21_CONFIGURATION_DIRECTION_ELECTRIQUE",
-                "label_index": "63466",
+                "label_index": "@P63466",
                 "label_korean": "전동 파워 스티어링에 대한 설정 유형",
                 "group_id": "3104",
                 "req_frame_id": "9310",
@@ -191,7 +191,7 @@
             {
                 "position": 1,
                 "mnemonic": "ID_CODE_ISO",
-                "label_index": "13988",
+                "label_index": "@P13988",
                 "label_korean": "ISO 번호",
                 "group_id": "3087",
                 "req_frame_id": "9259",
@@ -213,7 +213,7 @@
             {
                 "position": 2,
                 "mnemonic": "ID_REFERENCE_MATERIEL",
-                "label_index": "1071",
+                "label_index": "@P1071",
                 "label_korean": "장치 부품 번호",
                 "group_id": "3087",
                 "req_frame_id": "9259",
@@ -235,7 +235,7 @@
             {
                 "position": 3,
                 "mnemonic": "ID_HARD",
-                "label_index": "12954",
+                "label_index": "@P12954",
                 "label_korean": "하드웨어 버전",
                 "group_id": "3087",
                 "req_frame_id": "9259",
@@ -257,7 +257,7 @@
             {
                 "position": 4,
                 "mnemonic": "ID_REFERENCE_LOGICIEL",
-                "label_index": "13263",
+                "label_index": "@P13263",
                 "label_korean": "소프트웨어 번호",
                 "group_id": "3087",
                 "req_frame_id": "9259",
@@ -279,7 +279,7 @@
             {
                 "position": 5,
                 "mnemonic": "ID_TRACABILITE_INDICE_EVOLUTION_EDITION",
-                "label_index": "13235",
+                "label_index": "@P13235@\\*",
                 "label_korean": "소프트웨어 버전",
                 "group_id": "3087",
                 "req_frame_id": "9259",
@@ -301,7 +301,7 @@
             {
                 "position": 6,
                 "mnemonic": "ID_DATE_TELECH",
-                "label_index": "21670",
+                "label_index": "@P21670",
                 "label_korean": "다운로딩 날짜",
                 "group_id": "3088",
                 "req_frame_id": "9262",
@@ -331,7 +331,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_KILOMETRAGE_ODOMETRE",
-                "label_index": "61286",
+                "label_index": "@P61286",
                 "label_korean": "원래 VIN이 마지막으로 잠금 해제된 이후 주행한 거리(km)",
                 "group_id": "3100",
                 "req_frame_id": "9298",
@@ -347,13 +347,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "61287, 61288",
+                "help_code": "@P61287@\\*255@\\n@P61288@\\*5",
                 "help_korean": "최대 값은 255km이다\n원래 VIN은 255km 거리가 지나면 자동으로 잠긴다"
             },
             {
                 "position": 2,
                 "mnemonic": "MP_ETAT_VERROUILLAGE_VIN_ORIGINAL_ODOMETRE",
-                "label_index": "61284",
+                "label_index": "@P61284",
                 "label_korean": "주행 기록계를 기준으로 원래 VIN의 잠금 상태",
                 "group_id": "3100",
                 "req_frame_id": "9298",
@@ -380,7 +380,7 @@
             {
                 "position": 3,
                 "mnemonic": "MP_ANGLE_VOLANT_DE_DIRECTION",
-                "label_index": "22910",
+                "label_index": "@P22910",
                 "label_korean": "스티어링 휠 앵글",
                 "group_id": "3089",
                 "req_frame_id": "9265",
@@ -402,7 +402,7 @@
             {
                 "position": 4,
                 "mnemonic": "MP_PARAMETRES_REGLAGE_VEHICULE",
-                "label_index": "63468",
+                "label_index": "@P63468",
                 "label_korean": "전동 파워 스티어링에 대한 설정 유형",
                 "group_id": "3099",
                 "req_frame_id": "9295",
@@ -446,7 +446,7 @@
             {
                 "position": 5,
                 "mnemonic": "MP_ETAT_AIDE_STATIONNEMENT_SEMI_AUTOMATIQUE",
-                "label_index": "61939",
+                "label_index": "@P61939",
                 "label_korean": "반자동 주차 지원 상태",
                 "group_id": "3093",
                 "req_frame_id": "9277",
@@ -471,7 +471,7 @@
             {
                 "position": 6,
                 "mnemonic": "MP_ETAT_CALCULATEUR_ALERTE_FRANCHISSEMENT_INVENLOTAIRE_LIGNE",
-                "label_index": "62895",
+                "label_index": "@P62895",
                 "label_korean": "condition of the lane wandering alert ECU",
                 "group_id": "3093",
                 "req_frame_id": "9277",
@@ -496,7 +496,7 @@
             {
                 "position": 7,
                 "mnemonic": "MP_PILOTAGE_COUPLE_VOLANT_DIRECTION",
-                "label_index": "62984",
+                "label_index": "@P62984",
                 "label_korean": "스티어링 휠 토크 컨트롤",
                 "group_id": "3091",
                 "req_frame_id": "9271",
@@ -518,7 +518,7 @@
             {
                 "position": 8,
                 "mnemonic": "MP_TEMPERATURE_EPS",
-                "label_index": "3001",
+                "label_index": "@P3001",
                 "label_korean": "전동 파워 스티어링 ECU 온도",
                 "group_id": "3096",
                 "req_frame_id": "9286",
@@ -540,7 +540,7 @@
             {
                 "position": 9,
                 "mnemonic": "MP_VITESSE_VEHICULE",
-                "label_index": "9267",
+                "label_index": "@P9267",
                 "label_korean": "차량 속도",
                 "group_id": "3102",
                 "req_frame_id": "9304",
@@ -566,7 +566,7 @@
             {
                 "position": 10,
                 "mnemonic": "MP_TENSION_BATTERIE",
-                "label_index": "27741",
+                "label_index": "@P27741",
                 "label_korean": "서비스 배터리 전압",
                 "group_id": "3101",
                 "req_frame_id": "9301",
@@ -590,7 +590,7 @@
             {
                 "position": 11,
                 "mnemonic": "MP_REGULATEUR_TENSION",
-                "label_index": "60914",
+                "label_index": "@P60914",
                 "label_korean": "레귤레이터 전압",
                 "group_id": "3095",
                 "req_frame_id": "9283",
@@ -612,7 +612,7 @@
             {
                 "position": 12,
                 "mnemonic": "MP_ETAT_CLE_EPS_F",
-                "label_index": "63467",
+                "label_index": "@P63467",
                 "label_korean": "전동 파워 스티어링 ECU에 의해 전송되는 점화 스위치 켜짐 상태",
                 "group_id": "3086",
                 "req_frame_id": "9256",
@@ -643,7 +643,7 @@
             {
                 "position": 13,
                 "mnemonic": "MP_POSITION_CLE",
-                "label_index": "6016",
+                "label_index": "@P6016",
                 "label_korean": "점화 키 위치",
                 "group_id": "3086",
                 "req_frame_id": "9256",
@@ -684,7 +684,7 @@
             {
                 "position": 14,
                 "mnemonic": "MP_KILOMETRAGE_TOTAL",
-                "label_index": "13763",
+                "label_index": "@P13763",
                 "label_korean": "주행한 총 거리",
                 "group_id": "3098",
                 "req_frame_id": "9292",
@@ -706,7 +706,7 @@
             {
                 "position": 15,
                 "mnemonic": "MP_ETAT_DEVEROUILLAGE_VIN",
-                "label_index": "61282",
+                "label_index": "@P61282",
                 "label_korean": "원래 VIN 잠금 상태",
                 "group_id": "3090",
                 "req_frame_id": "9268",
@@ -740,7 +740,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_ETAT_CLE_EPS_F",
-                "label_index": "63467",
+                "label_index": "@P63467",
                 "label_korean": "전동 파워 스티어링 ECU에 의해 전송되는 점화 스위치 켜짐 상태",
                 "group_id": "3086",
                 "req_frame_id": "9256",
@@ -771,7 +771,7 @@
             {
                 "position": 2,
                 "mnemonic": "MP_POSITION_CLE",
-                "label_index": "6016",
+                "label_index": "@P6016",
                 "label_korean": "점화 키 위치",
                 "group_id": "3086",
                 "req_frame_id": "9256",
@@ -812,7 +812,7 @@
             {
                 "position": 3,
                 "mnemonic": "MP_VITESSE_VEHICULE",
-                "label_index": "9267",
+                "label_index": "@P9267",
                 "label_korean": "차량 속도",
                 "group_id": "3102",
                 "req_frame_id": "9304",
@@ -838,7 +838,7 @@
             {
                 "position": 4,
                 "mnemonic": "MP_TENSION_BATTERIE",
-                "label_index": "27741",
+                "label_index": "@P27741",
                 "label_korean": "서비스 배터리 전압",
                 "group_id": "3101",
                 "req_frame_id": "9301",
@@ -862,7 +862,7 @@
             {
                 "position": 5,
                 "mnemonic": "MP_ANGLE_VOLANT_DE_DIRECTION",
-                "label_index": "22910",
+                "label_index": "@P22910",
                 "label_korean": "스티어링 휠 앵글",
                 "group_id": "3089",
                 "req_frame_id": "9265",

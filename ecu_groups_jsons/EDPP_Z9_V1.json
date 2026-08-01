@@ -8,7 +8,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_ID_FOURNISSEUR",
-                "label_index": "5701",
+                "label_index": "@P5701",
                 "label_korean": "제조 업체명",
                 "group_id": "36046",
                 "req_frame_id": "108435",
@@ -35,7 +35,7 @@
             {
                 "position": 2,
                 "mnemonic": "ID_REFERENCE_MATERIEL",
-                "label_index": "1071",
+                "label_index": "@P1071",
                 "label_korean": "장치 부품 번호",
                 "group_id": "36046",
                 "req_frame_id": "108435",
@@ -57,7 +57,7 @@
             {
                 "position": 3,
                 "mnemonic": "ID_REFERENCE_COMPLEMENTAIRE_MATERIEL",
-                "label_index": "1634",
+                "label_index": "@P1634",
                 "label_korean": "장치 추가 참조 번호",
                 "group_id": "36046",
                 "req_frame_id": "108435",
@@ -79,7 +79,7 @@
             {
                 "position": 4,
                 "mnemonic": "ID_VERSION_LOGICIEL_new_1",
-                "label_index": "8662",
+                "label_index": "@P8662@\\*",
                 "label_korean": "소프트웨어 버전",
                 "group_id": "36046",
                 "req_frame_id": "108435",
@@ -101,7 +101,7 @@
             {
                 "position": 5,
                 "mnemonic": "ID_MESS_DIAGNOSTIC",
-                "label_index": "2459",
+                "label_index": "@P2459",
                 "label_korean": "진단 이메일",
                 "group_id": "36046",
                 "req_frame_id": "108435",
@@ -123,7 +123,7 @@
             {
                 "position": 6,
                 "mnemonic": "ID_80_MP_INDICE_MESS",
-                "label_index": "2225",
+                "label_index": "@P2225",
                 "label_korean": "메시지 인덱스",
                 "group_id": "36046",
                 "req_frame_id": "108435",
@@ -153,7 +153,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_REGLAGE_VERTICAL_RETROVISEUR_PASSAGER",
-                "label_index": "6472",
+                "label_index": "@P6472",
                 "label_korean": "승객석 도어 미러 수직 조정",
                 "group_id": "36048",
                 "req_frame_id": "108441",
@@ -169,13 +169,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "42026, 41062, 41514",
+                "help_code": "@P42026@\\n@\\+@P41062@\\n@\\+@P41514",
                 "help_korean": "미러의 수직 각도를 명시한다\n각도는 미러 조정 스위치를 사용해서 조정할 수 있다\n이 변수는 차량이 후진 기어와 연계된 도어 미러를 장착하고 있을 경우에만 작동한다"
             },
             {
                 "position": 2,
                 "mnemonic": "MP_REG_HORIZONTALE_RETRO_PASS",
-                "label_index": "11274",
+                "label_index": "@P11274",
                 "label_korean": "승객석 도어 미러 수평 조정",
                 "group_id": "36048",
                 "req_frame_id": "108441",
@@ -191,13 +191,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "42994, 41062, 41514",
+                "help_code": "@P42994@\\n@\\+@P41062@\\n@\\+@P41514",
                 "help_korean": "미러의 수평 각도를 명시한다\n각도는 미러 조정 스위치를 사용해서 조정할 수 있다\n이 변수는 차량이 후진 기어와 연계된 도어 미러를 장착하고 있을 경우에만 작동한다"
             },
             {
                 "position": 3,
                 "mnemonic": "MP_TEMPERATURE_EXTERIEURE",
-                "label_index": "5253",
+                "label_index": "@P5253",
                 "label_korean": "외부 온도",
                 "group_id": "36048",
                 "req_frame_id": "108441",
@@ -213,13 +213,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "8552, 13735",
-                "help_korean": "외부 온도 센서는 -40°C 에서 80°C 사이의 온도를 측정할 수 있다\n경고, 미러에 센서가 장착되어 있지 않으면 변수는 작동하지 않는다."
+                "help_code": "@P8552@\\*40@\\*80@\\n@P13735@T.",
+                "help_korean": "외부 온도 센서는 -40°C 에서 +80°C 사이의 온도를 측정할 수 있다\n경고, 미러에 센서가 장착되어 있지 않으면 변수는 작동하지 않는다."
             },
             {
                 "position": 4,
                 "mnemonic": "MP_TENSION_BATTERIE",
-                "label_index": "18263",
+                "label_index": "@P18263",
                 "label_korean": "배터리 전압",
                 "group_id": "36048",
                 "req_frame_id": "108441",
@@ -237,13 +237,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "4750",
+                "help_code": "@P4750",
                 "help_korean": "배터리 충전 상태를 확인하기 위해서 사용하는 변수"
             }
         ]
     },
     "MESUREPARAMETRE2": {
-        "screen_title_korean": "전동 윈도우 제어 운전자",
+        "screen_title_korean": "전동 윈도우 제어운전자",
         "screen_label_index": "@P2014-POLUXDATA@\\+@P4386-POLUXDATA",
         "ecu_name": "EDPP_Z9_V1",
         "total_sensors": 2,
@@ -251,7 +251,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_COMMUTATEUR_LEVE_VITRE_AVANT_DROIT",
-                "label_index": "6133",
+                "label_index": "@P6133",
                 "label_korean": "프론트 우측 전동 윈도우 스위치",
                 "group_id": "36048",
                 "req_frame_id": "108441",
@@ -267,13 +267,13 @@
                 "bit_mask": 240,
                 "bit_shift": 4,
                 "dynamic_arg": "",
-                "help_code": "18474",
+                "help_code": "@P18474@T.",
                 "help_korean": "프론트 우측 윈도우 제어 스위치는 승객석 도어 제어 모듈에 위치해 있다."
             },
             {
                 "position": 2,
                 "mnemonic": "MP_TENSION_BATTERIE",
-                "label_index": "18263",
+                "label_index": "@P18263",
                 "label_korean": "배터리 전압",
                 "group_id": "36048",
                 "req_frame_id": "108441",
@@ -291,7 +291,7 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "4750",
+                "help_code": "@P4750",
                 "help_korean": "배터리 충전 상태를 확인하기 위해서 사용하는 변수"
             }
         ]
@@ -305,7 +305,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_TYPE_DIRECTION",
-                "label_index": "3209",
+                "label_index": "@P3209",
                 "label_korean": "스티어링 타입",
                 "group_id": "36050",
                 "req_frame_id": "108447",
@@ -331,14 +331,14 @@
                 "bit_mask": 3,
                 "bit_shift": 0,
                 "dynamic_arg": "",
-                "help_code": "42995, 42996",
+                "help_code": "@P42995@\\n@\\+@P42996",
                 "help_korean": "주행 타입은 차량에서 스티어링 휠의 위치를 명시한다\n위치가 \"결정되지 않음\"일 경우, 도어 모듈은 다운그레이드된 모드로 작동한다"
             },
             {
                 "position": 2,
                 "mnemonic": "MP_TYPE",
-                "label_index": "4232",
-                "label_korean": "타입",
+                "label_index": "@P4232@\\*",
+                "label_korean": "타입 :",
                 "group_id": "36050",
                 "req_frame_id": "108447",
                 "resp_frame_id": "108448",
@@ -353,13 +353,13 @@
                 "bit_mask": 192,
                 "bit_shift": 6,
                 "dynamic_arg": "",
-                "help_code": "43149, 43150, 43151, 43152, 33278, 43153, 45207, 43154, 43116, 43155, 43156",
-                "help_korean": "ECU가 어떤 패밀리에 속하는지를 명시한다 (운전석 또는 승객석).\nECU는 첫번째 확인 요청을 받을 때 어떤 패밀리에 속하는지를 자동으로 결정한다 (전체 테스트).\n패밀리가 일단 결정되면, 변경할 수 없다.\n값이 \"결정되지 않음\"이면, 도어 모듈은 다운그레이된 모드로 작동한다.\n- 백업 모드 :\n도어 열림, 윈도우 이동이 불가능하다.\n도어 닫힘, 윈도우 이동이 단계적으로 일어난다.\n- 도어 ECU를 초기화하기 위해서 :\n도어를 닫는다\n윈도우를 완전히 올린다\n몇 초동안 전동 윈도우 스위치를 \"자동 닫힘\" 위치에서 누르고 있는다."
+                "help_code": "@P43149@T.@\\n@P43150@T.@\\n@P43151@T.@\\n@P43152@T.@\\n@P33278@T :@\\n@P43153@T.@\\n@P45207@T.@\\n@P43154@\\n@P43116@\\n@P43155@\\n@P43156@T.",
+                "help_korean": "ECU가 어떤 패밀리에 속하는지를 명시한다 (운전석 또는 승객석).\nECU는 첫번째 확인 요청을 받을 때 어떤 패밀리에 속하는지를 자동으로 결정한다 (전체 테스트).\n패밀리가 일단 결정되면, 변경할 수 없다.\n값이 \"결정되지 않음\"이면, 도어 모듈은 다운그레이된 모드로 작동한다.\n백업 모드 :\n도어 열림, 윈도우 이동이 불가능하다.\n도어 닫힘, 윈도우 이동이 단계적으로 일어난다.\n도어 ECU를 초기화하기 위해서 :\n도어를 닫는다\n윈도우를 완전히 올린다\n몇 초동안 전동 윈도우 스위치를 \"자동 닫힘\" 위치에서 누르고 있는다."
             },
             {
                 "position": 3,
                 "mnemonic": "MP_ETAT_BOITIER",
-                "label_index": "3424",
+                "label_index": "@P3424",
                 "label_korean": "장치의 상태",
                 "group_id": "36050",
                 "req_frame_id": "108447",
@@ -375,7 +375,7 @@
                 "bit_mask": 32,
                 "bit_shift": 5,
                 "dynamic_arg": "",
-                "help_code": "1117",
+                "help_code": "@P1117@T.",
                 "help_korean": "ECU의 작동 상태를 나타낸다."
             }
         ]

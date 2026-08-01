@@ -8,7 +8,7 @@
             {
                 "position": 1,
                 "mnemonic": "ID_REFERENCE_FOURNISSEUR",
-                "label_index": "633",
+                "label_index": "@P633",
                 "label_korean": "제조업체",
                 "group_id": "86145",
                 "req_frame_id": "258736",
@@ -34,7 +34,7 @@
             {
                 "position": 2,
                 "mnemonic": "ID_REFERENCE_PSA",
-                "label_index": "8615",
+                "label_index": "@P8615",
                 "label_korean": "PSA 부품 번호",
                 "group_id": "86145",
                 "req_frame_id": "258736",
@@ -56,7 +56,7 @@
             {
                 "position": 3,
                 "mnemonic": "ID_NUM_COMP_new_2",
-                "label_index": "7947",
+                "label_index": "@P7947",
                 "label_korean": "추가적인 참조",
                 "group_id": "86145",
                 "req_frame_id": "258736",
@@ -78,7 +78,7 @@
             {
                 "position": 4,
                 "mnemonic": "ID_REFERENCE_LOGICIEL",
-                "label_index": "4799",
+                "label_index": "@P4799@\\*",
                 "label_korean": "소프트웨어 번호",
                 "group_id": "86145",
                 "req_frame_id": "258736",
@@ -100,7 +100,7 @@
             {
                 "position": 5,
                 "mnemonic": "ID_VERSION_LOGICIEL_new_1",
-                "label_index": "8662",
+                "label_index": "@P8662@\\*",
                 "label_korean": "소프트웨어 버전",
                 "group_id": "86145",
                 "req_frame_id": "258736",
@@ -130,7 +130,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_NIVEAU_MINI_ADDITIF",
-                "label_index": "13762",
+                "label_index": "@P13762@\\*",
                 "label_korean": "첨가제 최소 레벨",
                 "group_id": "86147",
                 "req_frame_id": "258742",
@@ -149,13 +149,13 @@
                 "bit_mask": 192,
                 "bit_shift": 6,
                 "dynamic_arg": "",
-                "help_code": "40714, 41528",
-                "help_korean": "첨가제 탱크 레벨 낮음 .\n이 정보는 엔진에 분사된 연료량에 따라 계산된다 ."
+                "help_code": "@P40714@\\+@\\+@T.@\\n@\\+@F41528@\\+@T.",
+                "help_korean": "첨가제 탱크 레벨 낮음.\n이 정보는 엔진에 분사된 연료량에 따라 계산된다."
             },
             {
                 "position": 2,
                 "mnemonic": "MP_BOUCHON_RESERVOIR_CARBURANT",
-                "label_index": "3621",
+                "label_index": "@P3621",
                 "label_korean": "연료 탱크 캡",
                 "group_id": "86147",
                 "req_frame_id": "258742",
@@ -174,13 +174,13 @@
                 "bit_mask": 48,
                 "bit_shift": 4,
                 "dynamic_arg": "",
-                "help_code": "42840, 42841, 42842",
-                "help_korean": "디젤 탱크 필러 캡의 상태 .\n필러 캡 장착 센서에서 ECU로 오는 정보 .\n디젤 탱크 캡의 장착 유무 감지에 해당된다 ."
+                "help_code": "@P42840@\\+@T.@\\n@\\+@F42841@\\+@T.@\\n@P42842@\\+@T.",
+                "help_korean": "디젤 탱크 필러 캡의 상태.\n필러 캡 장착 센서에서 ECU로 오는 정보.\n디젤 탱크 캡의 장착 유무 감지에 해당된다."
             },
             {
                 "position": 3,
                 "mnemonic": "MP_QUANTITE_TOTALE_ADDITIF_INJECTEE_DANS_FAP",
-                "label_index": "6752",
+                "label_index": "@P6752@\\*@\\+@T (@P29747@T)",
                 "label_korean": "분진 필터에 분사된 첨가제의 총량 (1번째 카운터)",
                 "group_id": "86148",
                 "req_frame_id": "258745",
@@ -196,13 +196,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "423, 45129, 45011, 45012, 45090, 45018",
-                "help_korean": "예열 시스템 .\nECU 내부 정보 .\n필터 안의 활성 물질 중량과 일치하며 연료를 보충할 때마다 업데이트된다. ( 첨가제 = 활성 물질 솔벤트 ) .\n새 분진필터에 쌓인 양 = 0 그램 .\n다른 값은 0 구성 지원표를 참조한다 ."
+                "help_code": "@P423@\\+@T.@\\n@\\+@F45129@\\+@T.@\\n@P45011@T.@\\+@T(@\\+@F45012@\\+@T)@\\+@T.@\\n@\\+@F45090@\\*0@\\+@T.@\\n@\\+@F45018@\\*3@\\+@T.",
+                "help_korean": "예열 시스템.\nECU 내부 정보.\n필터 안의 활성 물질 중량과 일치하며 연료를 보충할 때마다 업데이트된다.(첨가제 = 활성 물질 + 솔벤트).\n새 분진필터에 쌓인 양 = 0 그램.\n다른 값은 0 구성 지원표를 참조한다."
             },
             {
                 "position": 4,
                 "mnemonic": "MP_QUANTITE_TOTALE_ADDITIF_INJECTEE_DEUXIEME_COMPTEUR",
-                "label_index": "45297",
+                "label_index": "@P45297@\\+@T (@P29744@T)",
                 "label_korean": "첨가제 탱크에서 분사된 첨가제 총량 (2번째 카운터)",
                 "group_id": "86148",
                 "req_frame_id": "258745",
@@ -218,13 +218,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "7287",
+                "help_code": "@P7287",
                 "help_korean": "첨가제를 마지막으로 보충한 후 분사된 첨가제의 양"
             },
             {
                 "position": 5,
                 "mnemonic": "MP_VOLUME_RESERVOIR",
-                "label_index": "5011",
+                "label_index": "@P5011",
                 "label_korean": "탱크 볼륨",
                 "group_id": "86148",
                 "req_frame_id": "258745",
@@ -254,7 +254,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_QUANTITE_TOTALE_ADDITIF_INJECTEE_DANS_FAP",
-                "label_index": "6752",
+                "label_index": "@P6752@\\*@\\+@T (@P29747@T)",
                 "label_korean": "분진 필터에 분사된 첨가제의 총량 (1번째 카운터)",
                 "group_id": "86148",
                 "req_frame_id": "258745",
@@ -270,13 +270,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "423, 45129, 45011, 45012, 45090, 45018",
-                "help_korean": "예열 시스템 .\nECU 내부 정보 .\n필터 안의 활성 물질 중량과 일치하며 연료를 보충할 때마다 업데이트된다. ( 첨가제 = 활성 물질 솔벤트 ) .\n새 분진필터에 쌓인 양 = 0 그램 .\n다른 값은 0 구성 지원표를 참조한다 ."
+                "help_code": "@P423@\\+@T.@\\n@\\+@F45129@\\+@T.@\\n@P45011@T.@\\+@T(@\\+@F45012@\\+@T)@\\+@T.@\\n@\\+@F45090@\\*0@\\+@T.@\\n@\\+@F45018@\\*3@\\+@T.",
+                "help_korean": "예열 시스템.\nECU 내부 정보.\n필터 안의 활성 물질 중량과 일치하며 연료를 보충할 때마다 업데이트된다.(첨가제 = 활성 물질 + 솔벤트).\n새 분진필터에 쌓인 양 = 0 그램.\n다른 값은 0 구성 지원표를 참조한다."
             },
             {
                 "position": 2,
                 "mnemonic": "MP_QUANTITE_TOTALE_ADDITIF_INJECTEE_DEUXIEME_COMPTEUR",
-                "label_index": "45297",
+                "label_index": "@P45297@\\+@T (@P29744@T)",
                 "label_korean": "첨가제 탱크에서 분사된 첨가제 총량 (2번째 카운터)",
                 "group_id": "86148",
                 "req_frame_id": "258745",
@@ -292,7 +292,7 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "7287",
+                "help_code": "@P7287",
                 "help_korean": "첨가제를 마지막으로 보충한 후 분사된 첨가제의 양"
             }
         ]

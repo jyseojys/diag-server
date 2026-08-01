@@ -8,7 +8,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_ID_FOURNISSEUR",
-                "label_index": "5701",
+                "label_index": "@P5701",
                 "label_korean": "제조 업체명",
                 "group_id": "150988",
                 "req_frame_id": "453307",
@@ -35,7 +35,7 @@
             {
                 "position": 2,
                 "mnemonic": "ID_REFERENCE_MATERIEL",
-                "label_index": "1071",
+                "label_index": "@P1071",
                 "label_korean": "장치 부품 번호",
                 "group_id": "150988",
                 "req_frame_id": "453307",
@@ -57,7 +57,7 @@
             {
                 "position": 3,
                 "mnemonic": "ID_REFERENCE_COMPLEMENTAIRE_MATERIEL",
-                "label_index": "1634",
+                "label_index": "@P1634",
                 "label_korean": "장치 추가 참조 번호",
                 "group_id": "150988",
                 "req_frame_id": "453307",
@@ -79,7 +79,7 @@
             {
                 "position": 4,
                 "mnemonic": "ID_REFERENCE_LOGICIEL",
-                "label_index": "13263",
+                "label_index": "@P13263",
                 "label_korean": "소프트웨어 번호",
                 "group_id": "150989",
                 "req_frame_id": "453310",
@@ -101,7 +101,7 @@
             {
                 "position": 5,
                 "mnemonic": "ID_TRACABILITE_INDICE_EVOLUTION_EDITION",
-                "label_index": "13235",
+                "label_index": "@P13235@\\*",
                 "label_korean": "소프트웨어 버전",
                 "group_id": "150989",
                 "req_frame_id": "453310",
@@ -123,7 +123,7 @@
             {
                 "position": 6,
                 "mnemonic": "ID_DATE_TELECH",
-                "label_index": "21670",
+                "label_index": "@P21670",
                 "label_korean": "다운로딩 날짜",
                 "group_id": "150989",
                 "req_frame_id": "453310",
@@ -145,7 +145,7 @@
             {
                 "position": 7,
                 "mnemonic": "ID_NOMBRE_DE_TELECHARGEMENT",
-                "label_index": "10072",
+                "label_index": "@P10072@\\*",
                 "label_korean": "다운로드의 수",
                 "group_id": "150989",
                 "req_frame_id": "453310",
@@ -167,7 +167,7 @@
             {
                 "position": 8,
                 "mnemonic": "ID_TRACABILITE_NUMSERIE",
-                "label_index": "16121",
+                "label_index": "@P16121",
                 "label_korean": "일련번호",
                 "group_id": "150990",
                 "req_frame_id": "453313",
@@ -197,7 +197,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_REGIME_ALTERNATEUR_REVERSIBLE",
-                "label_index": "22391",
+                "label_index": "@P22391",
                 "label_korean": "가역성 발전기의 속도",
                 "group_id": "150992",
                 "req_frame_id": "453319",
@@ -219,7 +219,7 @@
             {
                 "position": 2,
                 "mnemonic": "MP_ETAT_ONDULEUR_ALTERNATEUR_REVERSIBLE",
-                "label_index": "22367",
+                "label_index": "@P22367",
                 "label_korean": "가역성 발전기의 정류자 상태",
                 "group_id": "150992",
                 "req_frame_id": "453319",
@@ -244,7 +244,7 @@
             {
                 "position": 3,
                 "mnemonic": "MP_CONSIGNE_COUPLE_ALTENATEUR_REVERSIBLE",
-                "label_index": "22335",
+                "label_index": "@P22335",
                 "label_korean": "가역성 발전기의 토크 기준 값",
                 "group_id": "150992",
                 "req_frame_id": "453319",
@@ -266,7 +266,7 @@
             {
                 "position": 4,
                 "mnemonic": "MP_COUPLE_ALTENATEUR_REVERSIBLE_ESTIME",
-                "label_index": "22439",
+                "label_index": "@P22439",
                 "label_korean": "가역성 발전기의 추정된 토크",
                 "group_id": "150992",
                 "req_frame_id": "453319",
@@ -288,7 +288,7 @@
             {
                 "position": 5,
                 "mnemonic": "MP_TEMPERATURE_STATOR_ALTENATEUR_REVERSIBLE",
-                "label_index": "22334",
+                "label_index": "@P22334",
                 "label_korean": "가역성 발전기의 스테이터 온도",
                 "group_id": "150992",
                 "req_frame_id": "453319",
@@ -310,7 +310,7 @@
             {
                 "position": 6,
                 "mnemonic": "MP_TEMPERATURE_ONDULEUR_ALTENATEUR_REVERSIBLE",
-                "label_index": "22380",
+                "label_index": "@P22380",
                 "label_korean": "가역성 발전기의 정류자 온도",
                 "group_id": "150992",
                 "req_frame_id": "453319",
@@ -332,7 +332,7 @@
             {
                 "position": 7,
                 "mnemonic": "MP_COURANT_ONDULEUR_ALTENATEUR_REVERSIBLE",
-                "label_index": "22356",
+                "label_index": "@P22356",
                 "label_korean": "가역성 발전기의 정류자 전류",
                 "group_id": "150992",
                 "req_frame_id": "453319",
@@ -354,7 +354,7 @@
             {
                 "position": 8,
                 "mnemonic": "MP_CONDITIONS_AUTORISATION_APPRENTISSAGE_ALTERNATEUR_REVERSIBLE",
-                "label_index": "25708",
+                "label_index": "@P25708",
                 "label_korean": "가역성 발전기 프로그래밍을 승인하기 위한 조건을 만족한다",
                 "group_id": "150992",
                 "req_frame_id": "453319",
@@ -370,7 +370,7 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "25709",
+                "help_code": "@P25709",
                 "help_korean": "가역성 발전기 프로그래밍 조건의 요약은 반드시 프로그래밍 요청을 하기 전에 \"예\"가 되어야 한다"
             }
         ]
@@ -384,7 +384,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_CONSIGNE_COUPLE_MEL_AR",
-                "label_index": "22442",
+                "label_index": "@P22442",
                 "label_korean": "전동 트랙션 머신의 토크 기준 세팅",
                 "group_id": "150992",
                 "req_frame_id": "453319",
@@ -406,7 +406,7 @@
             {
                 "position": 2,
                 "mnemonic": "MP_REGIME_MEL_AR",
-                "label_index": "22344",
+                "label_index": "@P22344",
                 "label_korean": "전동 트랙션 머신의 속도",
                 "group_id": "150992",
                 "req_frame_id": "453319",
@@ -428,7 +428,7 @@
             {
                 "position": 3,
                 "mnemonic": "MP_ETAT_FONCTIONNEMENT_MEL_AR",
-                "label_index": "22417",
+                "label_index": "@P22417",
                 "label_korean": "트랙션 체인의 작동 상태",
                 "group_id": "150993",
                 "req_frame_id": "453322",
@@ -444,8 +444,8 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "22339, 22401, 22365, 22354, 22432, 22329",
-                "help_korean": "상태는 키를 ON하고 \"준비\" 시동 승인 표시등이 꺼질 때 \"차단\"이다\n상태는 시동 후 순간에 \"작동\"이다\n상태는 \"준비\" 표시등이 켜질 때 \"작동\"이다\n상태는 작동이 불가능할 경우 \"차단\"이다\n키를 OFF 한후 ECU가 깨어 있을 때 상태는 \"차단 후 유지\"이다\n상태는 차량에 아무런 작동을 하지 않고 6분 이후에 \"공회전\"이다"
+                "help_code": "@P22339@\\n@P22401@\\n@P22365@\\n@P22354@\\n@P22432@\\n@P22329@\\*6",
+                "help_korean": "상태는 키를 ON하고 \"준비\" 시동 승인 표시등이 꺼질 때 \"차단\"이다\n상태는 시동 후 + 순간에 \"작동\"이다\n상태는 \"준비\" 표시등이 켜질 때 \"작동\"이다\n상태는 작동이 불가능할 경우 \"차단\"이다\n키를 OFF 한후 ECU가 깨어 있을 때 상태는 \"차단 후 유지\"이다\n상태는 차량에 아무런 작동을 하지 않고 6분 이후에 \"공회전\"이다"
             }
         ]
     },
@@ -458,7 +458,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_ETAT_CONVERTISSEUR_CONTINU",
-                "label_index": "22332",
+                "label_index": "@P22332",
                 "label_korean": "직류 전압 변환장치 (DC/DC) 상태",
                 "group_id": "150992",
                 "req_frame_id": "453319",
@@ -489,7 +489,7 @@
             {
                 "position": 2,
                 "mnemonic": "MP_TEMPERATURE_CONVERTISSEUR_CONTINU",
-                "label_index": "22360",
+                "label_index": "@P22360",
                 "label_korean": "직류 전압 변환장치 (DC/DC)의 온도",
                 "group_id": "150992",
                 "req_frame_id": "453319",
@@ -511,7 +511,7 @@
             {
                 "position": 3,
                 "mnemonic": "MP_COURANT_CONVERTISSEUR_CONTINU_ENTREE",
-                "label_index": "22403",
+                "label_index": "@P22403",
                 "label_korean": "직류 전압 변환장치 (DC/DC)의 입력 전류",
                 "group_id": "150992",
                 "req_frame_id": "453319",
@@ -533,7 +533,7 @@
             {
                 "position": 4,
                 "mnemonic": "MP_TENSION_CONVERTISSEUR_CONTINU_ENTREE",
-                "label_index": "22389",
+                "label_index": "@P22389",
                 "label_korean": "입력에서 직류 전압 변환장치 (DC/DC)의 전압",
                 "group_id": "150992",
                 "req_frame_id": "453319",
@@ -555,7 +555,7 @@
             {
                 "position": 5,
                 "mnemonic": "MP_TENSION_CONVERTISSEUR_CONTINU_SORTIE",
-                "label_index": "22425",
+                "label_index": "@P22425",
                 "label_korean": "출구에서 직류 전압 변환장치 (DC/DC)의 전압",
                 "group_id": "150992",
                 "req_frame_id": "453319",
@@ -585,7 +585,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_REGIME_MOTEUR_THERMIQUE",
-                "label_index": "23007",
+                "label_index": "@P23007",
                 "label_korean": "엔진 속도",
                 "group_id": "150994",
                 "req_frame_id": "453325",
@@ -607,7 +607,7 @@
             {
                 "position": 2,
                 "mnemonic": "MP_ETAT_MTH",
-                "label_index": "33291",
+                "label_index": "@P33291",
                 "label_korean": "내연 기관 엔진의 상태",
                 "group_id": "150994",
                 "req_frame_id": "453325",
@@ -623,13 +623,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "25637, 25689",
-                "help_korean": "시동 또는 재시동시,\n- 엔진 속도 시동 한계치에 도달하지 않을 경우: 시동 장치를 작동할 필요가 있다.\n개별적인 시동\n- 또는 재시동에서, 엔진 속도가 시동 한계치를 넘으면 : 시동 장치를 더 이상 작동하지 않는다."
+                "help_code": "@P25637@T.@\\n@P25689@T.",
+                "help_korean": "시동 또는 재시동시, 엔진 속도 시동 한계치에 도달하지 않을 경우: 시동 장치를 작동할 필요가 있다.\n개별적인 시동 또는 재시동에서, 엔진 속도가 시동 한계치를 넘으면 : 시동 장치를 더 이상 작동하지 않는다."
             },
             {
                 "position": 3,
                 "mnemonic": "MP_TEMP_EAU_MTH",
-                "label_index": "22415",
+                "label_index": "@P22415",
                 "label_korean": "내연 기관 엔진의 냉각수 온도",
                 "group_id": "150994",
                 "req_frame_id": "453325",
@@ -659,7 +659,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_VITESSE_VEHICULE_c",
-                "label_index": "7997",
+                "label_index": "@P7997",
                 "label_korean": "차량 속도",
                 "group_id": "150993",
                 "req_frame_id": "453322",
@@ -685,7 +685,7 @@
             {
                 "position": 2,
                 "mnemonic": "DISTANCEPARC",
-                "label_index": "10346",
+                "label_index": "@P10346",
                 "label_korean": "주행한 거리",
                 "group_id": "150993",
                 "req_frame_id": "453322",
@@ -715,7 +715,7 @@
             {
                 "position": 1,
                 "mnemonic": "CA_KILOMETRAGE_VEHICULE",
-                "label_index": "6315",
+                "label_index": "@P6315",
                 "label_korean": "차량 주행거리",
                 "group_id": "150991",
                 "req_frame_id": "453316",
@@ -739,7 +739,7 @@
             {
                 "position": 2,
                 "mnemonic": "CA_REGIME_ALTERNATEUR_REVERSIBLE",
-                "label_index": "19766",
+                "label_index": "@P19766",
                 "label_korean": "가역성 발전기의 회전 속도",
                 "group_id": "150991",
                 "req_frame_id": "453316",
@@ -761,7 +761,7 @@
             {
                 "position": 3,
                 "mnemonic": "CA_TENSION_BATTERIE_DE_TRACTION",
-                "label_index": "19805",
+                "label_index": "@P19805",
                 "label_korean": "트랙션 배터리 전압",
                 "group_id": "매핑_누락",
                 "req_frame_id": "",
@@ -783,7 +783,7 @@
             {
                 "position": 4,
                 "mnemonic": "CA_COURANT_BATTERIE_DE_TRACTION",
-                "label_index": "22376",
+                "label_index": "@P22376",
                 "label_korean": "트랙션 배터리의 전류",
                 "group_id": "매핑_누락",
                 "req_frame_id": "",
@@ -805,7 +805,7 @@
             {
                 "position": 5,
                 "mnemonic": "CA_ETAT_FONCTIONNEMENT_MEL_AR",
-                "label_index": "22417",
+                "label_index": "@P22417",
                 "label_korean": "트랙션 체인의 작동 상태",
                 "group_id": "150991",
                 "req_frame_id": "453316",
@@ -827,7 +827,7 @@
             {
                 "position": 6,
                 "mnemonic": "CA_TENSION_BATTERIE_DE_TRACTION_VC4",
-                "label_index": "19805",
+                "label_index": "@P19805",
                 "label_korean": "트랙션 배터리 전압",
                 "group_id": "150991",
                 "req_frame_id": "453316",
@@ -849,7 +849,7 @@
             {
                 "position": 7,
                 "mnemonic": "CA_COURANT_BATTERIE_DE_TRACTION_VC4",
-                "label_index": "22376",
+                "label_index": "@P22376",
                 "label_korean": "트랙션 배터리의 전류",
                 "group_id": "150991",
                 "req_frame_id": "453316",
@@ -871,7 +871,7 @@
             {
                 "position": 8,
                 "mnemonic": "CA_APPUI_VOLONTAIRE_CONDUCTEUR_PEDALE_ACCELERATEUR",
-                "label_index": "22392",
+                "label_index": "@P22392",
                 "label_korean": "가속 페달에서 운전자에 의한 고의적인 누름",
                 "group_id": "150991",
                 "req_frame_id": "453316",
@@ -893,7 +893,7 @@
             {
                 "position": 9,
                 "mnemonic": "CA_TENSION_MESUREE_BATTERIE_DE_SERVITUDE",
-                "label_index": "22443",
+                "label_index": "@P22443",
                 "label_korean": "서비스 배터리의 측정 전압",
                 "group_id": "150991",
                 "req_frame_id": "453316",
@@ -915,7 +915,7 @@
             {
                 "position": 10,
                 "mnemonic": "CA_ETAT_CONVERTISSEUR_CONTINU",
-                "label_index": "22332",
+                "label_index": "@P22332",
                 "label_korean": "직류 전압 변환장치 (DC/DC) 상태",
                 "group_id": "150991",
                 "req_frame_id": "453316",
@@ -937,7 +937,7 @@
             {
                 "position": 11,
                 "mnemonic": "CA_TEMPERATURE_CONVERTISSEUR_CONTINU",
-                "label_index": "22360",
+                "label_index": "@P22360",
                 "label_korean": "직류 전압 변환장치 (DC/DC)의 온도",
                 "group_id": "150991",
                 "req_frame_id": "453316",
@@ -967,7 +967,7 @@
             {
                 "position": 1,
                 "mnemonic": "CA_KILOMETRAGE_VEHICULE",
-                "label_index": "6315",
+                "label_index": "@P6315",
                 "label_korean": "차량 주행거리",
                 "group_id": "150991",
                 "req_frame_id": "453316",
@@ -991,7 +991,7 @@
             {
                 "position": 2,
                 "mnemonic": "CA_REGIME_ALTERNATEUR_REVERSIBLE",
-                "label_index": "19766",
+                "label_index": "@P19766",
                 "label_korean": "가역성 발전기의 회전 속도",
                 "group_id": "150991",
                 "req_frame_id": "453316",
@@ -1013,7 +1013,7 @@
             {
                 "position": 3,
                 "mnemonic": "CA_TENSION_BATTERIE_DE_TRACTION",
-                "label_index": "19805",
+                "label_index": "@P19805",
                 "label_korean": "트랙션 배터리 전압",
                 "group_id": "매핑_누락",
                 "req_frame_id": "",
@@ -1035,7 +1035,7 @@
             {
                 "position": 4,
                 "mnemonic": "CA_COURANT_BATTERIE_DE_TRACTION",
-                "label_index": "22376",
+                "label_index": "@P22376",
                 "label_korean": "트랙션 배터리의 전류",
                 "group_id": "매핑_누락",
                 "req_frame_id": "",
@@ -1057,7 +1057,7 @@
             {
                 "position": 5,
                 "mnemonic": "CA_ETAT_FONCTIONNEMENT_MEL_AR",
-                "label_index": "22417",
+                "label_index": "@P22417",
                 "label_korean": "트랙션 체인의 작동 상태",
                 "group_id": "150991",
                 "req_frame_id": "453316",
@@ -1079,7 +1079,7 @@
             {
                 "position": 6,
                 "mnemonic": "CA_TENSION_BATTERIE_DE_TRACTION_VC4",
-                "label_index": "19805",
+                "label_index": "@P19805",
                 "label_korean": "트랙션 배터리 전압",
                 "group_id": "150991",
                 "req_frame_id": "453316",
@@ -1101,7 +1101,7 @@
             {
                 "position": 7,
                 "mnemonic": "CA_COURANT_BATTERIE_DE_TRACTION_VC4",
-                "label_index": "22376",
+                "label_index": "@P22376",
                 "label_korean": "트랙션 배터리의 전류",
                 "group_id": "150991",
                 "req_frame_id": "453316",
@@ -1123,7 +1123,7 @@
             {
                 "position": 8,
                 "mnemonic": "CA_APPUI_VOLONTAIRE_CONDUCTEUR_PEDALE_ACCELERATEUR",
-                "label_index": "22392",
+                "label_index": "@P22392",
                 "label_korean": "가속 페달에서 운전자에 의한 고의적인 누름",
                 "group_id": "150991",
                 "req_frame_id": "453316",
@@ -1145,7 +1145,7 @@
             {
                 "position": 9,
                 "mnemonic": "CA_TENSION_MESUREE_BATTERIE_DE_SERVITUDE",
-                "label_index": "22443",
+                "label_index": "@P22443",
                 "label_korean": "서비스 배터리의 측정 전압",
                 "group_id": "150991",
                 "req_frame_id": "453316",
@@ -1175,7 +1175,7 @@
             {
                 "position": 1,
                 "mnemonic": "CA_KILOMETRAGE_VEHICULE",
-                "label_index": "6315",
+                "label_index": "@P6315",
                 "label_korean": "차량 주행거리",
                 "group_id": "150991",
                 "req_frame_id": "453316",
@@ -1199,7 +1199,7 @@
             {
                 "position": 2,
                 "mnemonic": "CA_REGIME_ALTERNATEUR_REVERSIBLE",
-                "label_index": "19766",
+                "label_index": "@P19766",
                 "label_korean": "가역성 발전기의 회전 속도",
                 "group_id": "150991",
                 "req_frame_id": "453316",
@@ -1221,7 +1221,7 @@
             {
                 "position": 3,
                 "mnemonic": "CA_TENSION_BATTERIE_DE_TRACTION",
-                "label_index": "19805",
+                "label_index": "@P19805",
                 "label_korean": "트랙션 배터리 전압",
                 "group_id": "매핑_누락",
                 "req_frame_id": "",
@@ -1243,7 +1243,7 @@
             {
                 "position": 4,
                 "mnemonic": "CA_COURANT_BATTERIE_DE_TRACTION",
-                "label_index": "22376",
+                "label_index": "@P22376",
                 "label_korean": "트랙션 배터리의 전류",
                 "group_id": "매핑_누락",
                 "req_frame_id": "",
@@ -1265,7 +1265,7 @@
             {
                 "position": 5,
                 "mnemonic": "CA_ETAT_FONCTIONNEMENT_MEL_AR",
-                "label_index": "22417",
+                "label_index": "@P22417",
                 "label_korean": "트랙션 체인의 작동 상태",
                 "group_id": "150991",
                 "req_frame_id": "453316",
@@ -1287,7 +1287,7 @@
             {
                 "position": 6,
                 "mnemonic": "CA_TENSION_BATTERIE_DE_TRACTION_VC4",
-                "label_index": "19805",
+                "label_index": "@P19805",
                 "label_korean": "트랙션 배터리 전압",
                 "group_id": "150991",
                 "req_frame_id": "453316",
@@ -1309,7 +1309,7 @@
             {
                 "position": 7,
                 "mnemonic": "CA_COURANT_BATTERIE_DE_TRACTION_VC4",
-                "label_index": "22376",
+                "label_index": "@P22376",
                 "label_korean": "트랙션 배터리의 전류",
                 "group_id": "150991",
                 "req_frame_id": "453316",
@@ -1331,7 +1331,7 @@
             {
                 "position": 8,
                 "mnemonic": "CA_APPUI_VOLONTAIRE_CONDUCTEUR_PEDALE_ACCELERATEUR",
-                "label_index": "22392",
+                "label_index": "@P22392",
                 "label_korean": "가속 페달에서 운전자에 의한 고의적인 누름",
                 "group_id": "150991",
                 "req_frame_id": "453316",
@@ -1353,7 +1353,7 @@
             {
                 "position": 9,
                 "mnemonic": "CA_APPUI_VOLONTAIRE_CONDUCTEUR_PEDALE_ACCELERATEUR_VC4",
-                "label_index": "22392",
+                "label_index": "@P22392",
                 "label_korean": "가속 페달에서 운전자에 의한 고의적인 누름",
                 "group_id": "150991",
                 "req_frame_id": "453316",
@@ -1375,7 +1375,7 @@
             {
                 "position": 10,
                 "mnemonic": "CA_ETAT_CONDITIONS_APPRENTISSAGE",
-                "label_index": "25708",
+                "label_index": "@P25708",
                 "label_korean": "가역성 발전기 프로그래밍을 승인하기 위한 조건을 만족한다",
                 "group_id": "150991",
                 "req_frame_id": "453316",
@@ -1400,7 +1400,7 @@
             {
                 "position": 11,
                 "mnemonic": "CA_ETAT_APPRENTISSAGE_ALTERNATEUR_REVERSIBLE",
-                "label_index": "22421",
+                "label_index": "@P22421",
                 "label_korean": "가역성 발전기의 프로그래밍 상태",
                 "group_id": "150991",
                 "req_frame_id": "453316",
@@ -1433,7 +1433,7 @@
             {
                 "position": 1,
                 "mnemonic": "CA_KILOMETRAGE_VEHICULE",
-                "label_index": "6315",
+                "label_index": "@P6315",
                 "label_korean": "차량 주행거리",
                 "group_id": "150991",
                 "req_frame_id": "453316",
@@ -1457,7 +1457,7 @@
             {
                 "position": 2,
                 "mnemonic": "CA_REGIME_ALTERNATEUR_REVERSIBLE",
-                "label_index": "19766",
+                "label_index": "@P19766",
                 "label_korean": "가역성 발전기의 회전 속도",
                 "group_id": "150991",
                 "req_frame_id": "453316",
@@ -1479,7 +1479,7 @@
             {
                 "position": 3,
                 "mnemonic": "CA_TENSION_BATTERIE_DE_TRACTION",
-                "label_index": "19805",
+                "label_index": "@P19805",
                 "label_korean": "트랙션 배터리 전압",
                 "group_id": "매핑_누락",
                 "req_frame_id": "",
@@ -1501,7 +1501,7 @@
             {
                 "position": 4,
                 "mnemonic": "CA_COURANT_BATTERIE_DE_TRACTION",
-                "label_index": "22376",
+                "label_index": "@P22376",
                 "label_korean": "트랙션 배터리의 전류",
                 "group_id": "매핑_누락",
                 "req_frame_id": "",
@@ -1523,7 +1523,7 @@
             {
                 "position": 5,
                 "mnemonic": "CA_ETAT_FONCTIONNEMENT_MEL_AR",
-                "label_index": "22417",
+                "label_index": "@P22417",
                 "label_korean": "트랙션 체인의 작동 상태",
                 "group_id": "150991",
                 "req_frame_id": "453316",
@@ -1545,7 +1545,7 @@
             {
                 "position": 6,
                 "mnemonic": "CA_TENSION_BATTERIE_DE_TRACTION_VC4",
-                "label_index": "19805",
+                "label_index": "@P19805",
                 "label_korean": "트랙션 배터리 전압",
                 "group_id": "150991",
                 "req_frame_id": "453316",
@@ -1567,7 +1567,7 @@
             {
                 "position": 7,
                 "mnemonic": "CA_COURANT_BATTERIE_DE_TRACTION_VC4",
-                "label_index": "22376",
+                "label_index": "@P22376",
                 "label_korean": "트랙션 배터리의 전류",
                 "group_id": "150991",
                 "req_frame_id": "453316",
@@ -1589,7 +1589,7 @@
             {
                 "position": 8,
                 "mnemonic": "CA_ETAT_CONVERTISSEUR_CONTINU",
-                "label_index": "22332",
+                "label_index": "@P22332",
                 "label_korean": "직류 전압 변환장치 (DC/DC) 상태",
                 "group_id": "150991",
                 "req_frame_id": "453316",
@@ -1611,7 +1611,7 @@
             {
                 "position": 9,
                 "mnemonic": "CA_TEMPERATURE_ONDULEUR_ALTERNATEUR_REVERSIBLE",
-                "label_index": "22380",
+                "label_index": "@P22380",
                 "label_korean": "가역성 발전기의 정류자 온도",
                 "group_id": "150991",
                 "req_frame_id": "453316",
@@ -1633,7 +1633,7 @@
             {
                 "position": 10,
                 "mnemonic": "CA_TEMPERATURE_STATOR_ALTERNATEUR_REVERSIBLE",
-                "label_index": "22334",
+                "label_index": "@P22334",
                 "label_korean": "가역성 발전기의 스테이터 온도",
                 "group_id": "150991",
                 "req_frame_id": "453316",
@@ -1655,7 +1655,7 @@
             {
                 "position": 11,
                 "mnemonic": "CA_REGIME_MOTEUR_THERMIQUE",
-                "label_index": "14034",
+                "label_index": "@P14034",
                 "label_korean": "엔진 회전 속도",
                 "group_id": "150991",
                 "req_frame_id": "453316",
@@ -1685,7 +1685,7 @@
             {
                 "position": 1,
                 "mnemonic": "CA_KILOMETRAGE_VEHICULE",
-                "label_index": "6315",
+                "label_index": "@P6315",
                 "label_korean": "차량 주행거리",
                 "group_id": "150991",
                 "req_frame_id": "453316",
@@ -1709,7 +1709,7 @@
             {
                 "position": 2,
                 "mnemonic": "CA_REGIME_ALTERNATEUR_REVERSIBLE",
-                "label_index": "19766",
+                "label_index": "@P19766",
                 "label_korean": "가역성 발전기의 회전 속도",
                 "group_id": "150991",
                 "req_frame_id": "453316",
@@ -1731,7 +1731,7 @@
             {
                 "position": 3,
                 "mnemonic": "CA_ETAT_FONCTIONNEMENT_CHAINE_TRACTION",
-                "label_index": "22417",
+                "label_index": "@P22417",
                 "label_korean": "트랙션 체인의 작동 상태",
                 "group_id": "매핑_누락",
                 "req_frame_id": "",
@@ -1753,7 +1753,7 @@
             {
                 "position": 4,
                 "mnemonic": "CA_ETAT_FONCTIONNEMENT_MEL_AR",
-                "label_index": "22417",
+                "label_index": "@P22417",
                 "label_korean": "트랙션 체인의 작동 상태",
                 "group_id": "150991",
                 "req_frame_id": "453316",
@@ -1775,7 +1775,7 @@
             {
                 "position": 5,
                 "mnemonic": "CA_APPUI_VOLONTAIRE_CONDUCTEUR_PEDALE_ACCELERATEUR",
-                "label_index": "22392",
+                "label_index": "@P22392",
                 "label_korean": "가속 페달에서 운전자에 의한 고의적인 누름",
                 "group_id": "150991",
                 "req_frame_id": "453316",
@@ -1797,7 +1797,7 @@
             {
                 "position": 6,
                 "mnemonic": "CA_CONSIGNE_COUPLE_ALTERNATEUR_REVERSIBLE",
-                "label_index": "22335",
+                "label_index": "@P22335",
                 "label_korean": "가역성 발전기의 토크 기준 값",
                 "group_id": "매핑_누락",
                 "req_frame_id": "",
@@ -1819,7 +1819,7 @@
             {
                 "position": 7,
                 "mnemonic": "CA_CONSIGNE_COUPLE_MEL_AR",
-                "label_index": "22442",
+                "label_index": "@P22442",
                 "label_korean": "전동 트랙션 머신의 토크 기준 세팅",
                 "group_id": "150991",
                 "req_frame_id": "453316",
@@ -1841,7 +1841,7 @@
             {
                 "position": 8,
                 "mnemonic": "CA_APPUI_VOLONTAIRE_CONDUCTEUR_PEDALE_ACCELERATEUR_VC4",
-                "label_index": "22392",
+                "label_index": "@P22392",
                 "label_korean": "가속 페달에서 운전자에 의한 고의적인 누름",
                 "group_id": "150991",
                 "req_frame_id": "453316",
@@ -1863,7 +1863,7 @@
             {
                 "position": 9,
                 "mnemonic": "CA_CONSIGNE_COUPLE_ALTERNATEUR_REVERSIBLE_VC4",
-                "label_index": "22335",
+                "label_index": "@P22335",
                 "label_korean": "가역성 발전기의 토크 기준 값",
                 "group_id": "150991",
                 "req_frame_id": "453316",
@@ -1885,7 +1885,7 @@
             {
                 "position": 10,
                 "mnemonic": "CA_REGIME_MEL_AR",
-                "label_index": "22344",
+                "label_index": "@P22344",
                 "label_korean": "전동 트랙션 머신의 속도",
                 "group_id": "150991",
                 "req_frame_id": "453316",
@@ -1907,7 +1907,7 @@
             {
                 "position": 11,
                 "mnemonic": "CA_REGIME_MOTEUR_THERMIQUE",
-                "label_index": "14034",
+                "label_index": "@P14034",
                 "label_korean": "엔진 회전 속도",
                 "group_id": "150991",
                 "req_frame_id": "453316",
@@ -1929,7 +1929,7 @@
             {
                 "position": 12,
                 "mnemonic": "CA_ETAT_FONCTIONNEMENT_MACHINE_ELECTRIQUE_TRACTION",
-                "label_index": "22412",
+                "label_index": "@P22412",
                 "label_korean": "전동 트랙션 머신의 작동 상태",
                 "group_id": "매핑_누락",
                 "req_frame_id": "",
@@ -1951,7 +1951,7 @@
             {
                 "position": 13,
                 "mnemonic": "CA_FLUX_MTH",
-                "label_index": "22441",
+                "label_index": "@P22441",
                 "label_korean": "내연 기관 엔진의 플럭스 상태",
                 "group_id": "매핑_누락",
                 "req_frame_id": "",
@@ -1973,7 +1973,7 @@
             {
                 "position": 14,
                 "mnemonic": "CA_ETAT_COUPLAGE_AR",
-                "label_index": "22446",
+                "label_index": "@P22446",
                 "label_korean": "리어 연결 상태",
                 "group_id": "매핑_누락",
                 "req_frame_id": "",
@@ -2003,7 +2003,7 @@
             {
                 "position": 1,
                 "mnemonic": "CA_KILOMETRAGE_VEHICULE",
-                "label_index": "6315",
+                "label_index": "@P6315",
                 "label_korean": "차량 주행거리",
                 "group_id": "150991",
                 "req_frame_id": "453316",
@@ -2027,7 +2027,7 @@
             {
                 "position": 2,
                 "mnemonic": "CA_REGIME_ALTERNATEUR_REVERSIBLE",
-                "label_index": "19766",
+                "label_index": "@P19766",
                 "label_korean": "가역성 발전기의 회전 속도",
                 "group_id": "150991",
                 "req_frame_id": "453316",
@@ -2049,7 +2049,7 @@
             {
                 "position": 3,
                 "mnemonic": "CA_TENSION_BATTERIE_DE_TRACTION",
-                "label_index": "19805",
+                "label_index": "@P19805",
                 "label_korean": "트랙션 배터리 전압",
                 "group_id": "매핑_누락",
                 "req_frame_id": "",
@@ -2071,7 +2071,7 @@
             {
                 "position": 4,
                 "mnemonic": "CA_COURANT_BATTERIE_DE_TRACTION",
-                "label_index": "22376",
+                "label_index": "@P22376",
                 "label_korean": "트랙션 배터리의 전류",
                 "group_id": "매핑_누락",
                 "req_frame_id": "",
@@ -2093,7 +2093,7 @@
             {
                 "position": 5,
                 "mnemonic": "CA_ETAT_FONCTIONNEMENT_MEL_AR",
-                "label_index": "22417",
+                "label_index": "@P22417",
                 "label_korean": "트랙션 체인의 작동 상태",
                 "group_id": "150991",
                 "req_frame_id": "453316",
@@ -2115,7 +2115,7 @@
             {
                 "position": 6,
                 "mnemonic": "CA_TENSION_BATTERIE_DE_TRACTION_VC4",
-                "label_index": "19805",
+                "label_index": "@P19805",
                 "label_korean": "트랙션 배터리 전압",
                 "group_id": "150991",
                 "req_frame_id": "453316",
@@ -2137,7 +2137,7 @@
             {
                 "position": 7,
                 "mnemonic": "CA_COURANT_BATTERIE_DE_TRACTION_VC4",
-                "label_index": "22376",
+                "label_index": "@P22376",
                 "label_korean": "트랙션 배터리의 전류",
                 "group_id": "150991",
                 "req_frame_id": "453316",
@@ -2159,7 +2159,7 @@
             {
                 "position": 8,
                 "mnemonic": "CA_ETAT_CONVERTISSEUR_CONTINU",
-                "label_index": "22332",
+                "label_index": "@P22332",
                 "label_korean": "직류 전압 변환장치 (DC/DC) 상태",
                 "group_id": "150991",
                 "req_frame_id": "453316",
@@ -2181,7 +2181,7 @@
             {
                 "position": 9,
                 "mnemonic": "CA_TEMPERATURE_ONDULEUR_ALTERNATEUR_REVERSIBLE",
-                "label_index": "22380",
+                "label_index": "@P22380",
                 "label_korean": "가역성 발전기의 정류자 온도",
                 "group_id": "150991",
                 "req_frame_id": "453316",
@@ -2203,7 +2203,7 @@
             {
                 "position": 10,
                 "mnemonic": "CA_REGIME_MOTEUR_THERMIQUE",
-                "label_index": "14034",
+                "label_index": "@P14034",
                 "label_korean": "엔진 회전 속도",
                 "group_id": "150991",
                 "req_frame_id": "453316",
@@ -2233,7 +2233,7 @@
             {
                 "position": 1,
                 "mnemonic": "CA_KILOMETRAGE_VEHICULE",
-                "label_index": "6315",
+                "label_index": "@P6315",
                 "label_korean": "차량 주행거리",
                 "group_id": "150991",
                 "req_frame_id": "453316",
@@ -2257,7 +2257,7 @@
             {
                 "position": 2,
                 "mnemonic": "CA_REGIME_ALTERNATEUR_REVERSIBLE",
-                "label_index": "19766",
+                "label_index": "@P19766",
                 "label_korean": "가역성 발전기의 회전 속도",
                 "group_id": "150991",
                 "req_frame_id": "453316",
@@ -2279,7 +2279,7 @@
             {
                 "position": 3,
                 "mnemonic": "CA_TENSION_BATTERIE_DE_TRACTION",
-                "label_index": "19805",
+                "label_index": "@P19805",
                 "label_korean": "트랙션 배터리 전압",
                 "group_id": "매핑_누락",
                 "req_frame_id": "",
@@ -2301,7 +2301,7 @@
             {
                 "position": 4,
                 "mnemonic": "CA_COURANT_BATTERIE_DE_TRACTION",
-                "label_index": "22376",
+                "label_index": "@P22376",
                 "label_korean": "트랙션 배터리의 전류",
                 "group_id": "매핑_누락",
                 "req_frame_id": "",
@@ -2323,7 +2323,7 @@
             {
                 "position": 5,
                 "mnemonic": "CA_ETAT_FONCTIONNEMENT_MEL_AR",
-                "label_index": "22417",
+                "label_index": "@P22417",
                 "label_korean": "트랙션 체인의 작동 상태",
                 "group_id": "150991",
                 "req_frame_id": "453316",
@@ -2345,7 +2345,7 @@
             {
                 "position": 6,
                 "mnemonic": "CA_TENSION_BATTERIE_DE_TRACTION_VC4",
-                "label_index": "19805",
+                "label_index": "@P19805",
                 "label_korean": "트랙션 배터리 전압",
                 "group_id": "150991",
                 "req_frame_id": "453316",
@@ -2367,7 +2367,7 @@
             {
                 "position": 7,
                 "mnemonic": "CA_COURANT_BATTERIE_DE_TRACTION_VC4",
-                "label_index": "22376",
+                "label_index": "@P22376",
                 "label_korean": "트랙션 배터리의 전류",
                 "group_id": "150991",
                 "req_frame_id": "453316",
@@ -2389,7 +2389,7 @@
             {
                 "position": 8,
                 "mnemonic": "CA_TEMPERATURE_CONVERTISSEUR_CONTINU",
-                "label_index": "22360",
+                "label_index": "@P22360",
                 "label_korean": "직류 전압 변환장치 (DC/DC)의 온도",
                 "group_id": "150991",
                 "req_frame_id": "453316",
@@ -2411,7 +2411,7 @@
             {
                 "position": 9,
                 "mnemonic": "CA_ETAT_CONVERTISSEUR_CONTINU",
-                "label_index": "22332",
+                "label_index": "@P22332",
                 "label_korean": "직류 전압 변환장치 (DC/DC) 상태",
                 "group_id": "150991",
                 "req_frame_id": "453316",
@@ -2433,7 +2433,7 @@
             {
                 "position": 10,
                 "mnemonic": "CA_TENSION_MESUREE_BATTERIE_DE_SERVITUDE",
-                "label_index": "22443",
+                "label_index": "@P22443",
                 "label_korean": "서비스 배터리의 측정 전압",
                 "group_id": "150991",
                 "req_frame_id": "453316",
@@ -2455,7 +2455,7 @@
             {
                 "position": 11,
                 "mnemonic": "CA_ETAT_ONDULEUR_ALTERNATEUR_REVERSIBLE",
-                "label_index": "22367",
+                "label_index": "@P22367",
                 "label_korean": "가역성 발전기의 정류자 상태",
                 "group_id": "150991",
                 "req_frame_id": "453316",
@@ -2485,7 +2485,7 @@
             {
                 "position": 1,
                 "mnemonic": "CA_KILOMETRAGE_VEHICULE",
-                "label_index": "6315",
+                "label_index": "@P6315",
                 "label_korean": "차량 주행거리",
                 "group_id": "150991",
                 "req_frame_id": "453316",
@@ -2509,7 +2509,7 @@
             {
                 "position": 2,
                 "mnemonic": "CA_REGIME_ALTERNATEUR_REVERSIBLE",
-                "label_index": "19766",
+                "label_index": "@P19766",
                 "label_korean": "가역성 발전기의 회전 속도",
                 "group_id": "150991",
                 "req_frame_id": "453316",
@@ -2531,7 +2531,7 @@
             {
                 "position": 3,
                 "mnemonic": "CA_TENSION_BATTERIE_DE_TRACTION",
-                "label_index": "19805",
+                "label_index": "@P19805",
                 "label_korean": "트랙션 배터리 전압",
                 "group_id": "매핑_누락",
                 "req_frame_id": "",
@@ -2553,7 +2553,7 @@
             {
                 "position": 4,
                 "mnemonic": "CA_COURANT_BATTERIE_DE_TRACTION",
-                "label_index": "22376",
+                "label_index": "@P22376",
                 "label_korean": "트랙션 배터리의 전류",
                 "group_id": "매핑_누락",
                 "req_frame_id": "",
@@ -2575,7 +2575,7 @@
             {
                 "position": 5,
                 "mnemonic": "CA_ETAT_FONCTIONNEMENT_MEL_AR",
-                "label_index": "22417",
+                "label_index": "@P22417",
                 "label_korean": "트랙션 체인의 작동 상태",
                 "group_id": "150991",
                 "req_frame_id": "453316",
@@ -2597,7 +2597,7 @@
             {
                 "position": 6,
                 "mnemonic": "CA_TENSION_BATTERIE_DE_TRACTION_VC4",
-                "label_index": "19805",
+                "label_index": "@P19805",
                 "label_korean": "트랙션 배터리 전압",
                 "group_id": "150991",
                 "req_frame_id": "453316",
@@ -2619,7 +2619,7 @@
             {
                 "position": 7,
                 "mnemonic": "CA_COURANT_BATTERIE_DE_TRACTION_VC4",
-                "label_index": "22376",
+                "label_index": "@P22376",
                 "label_korean": "트랙션 배터리의 전류",
                 "group_id": "150991",
                 "req_frame_id": "453316",
@@ -2641,7 +2641,7 @@
             {
                 "position": 8,
                 "mnemonic": "CA_TENSION_MESUREE_BATTERIE_DE_SERVITUDE",
-                "label_index": "22443",
+                "label_index": "@P22443",
                 "label_korean": "서비스 배터리의 측정 전압",
                 "group_id": "150991",
                 "req_frame_id": "453316",
@@ -2663,7 +2663,7 @@
             {
                 "position": 9,
                 "mnemonic": "CA_ETAT_CONVERTISSEUR_CONTINU",
-                "label_index": "22332",
+                "label_index": "@P22332",
                 "label_korean": "직류 전압 변환장치 (DC/DC) 상태",
                 "group_id": "150991",
                 "req_frame_id": "453316",
@@ -2685,7 +2685,7 @@
             {
                 "position": 10,
                 "mnemonic": "CA_TEMPERATURE_CONVERTISSEUR_CONTINU",
-                "label_index": "22360",
+                "label_index": "@P22360",
                 "label_korean": "직류 전압 변환장치 (DC/DC)의 온도",
                 "group_id": "150991",
                 "req_frame_id": "453316",
@@ -2707,7 +2707,7 @@
             {
                 "position": 11,
                 "mnemonic": "CA_ONDULEUR_ALTENATEUR_REVERSIBLE",
-                "label_index": "22356",
+                "label_index": "@P22356",
                 "label_korean": "가역성 발전기의 정류자 전류",
                 "group_id": "150991",
                 "req_frame_id": "453316",
@@ -2737,7 +2737,7 @@
             {
                 "position": 1,
                 "mnemonic": "CA_KILOMETRAGE_VEHICULE",
-                "label_index": "6315",
+                "label_index": "@P6315",
                 "label_korean": "차량 주행거리",
                 "group_id": "150991",
                 "req_frame_id": "453316",
@@ -2761,7 +2761,7 @@
             {
                 "position": 2,
                 "mnemonic": "CA_REGIME_ALTERNATEUR_REVERSIBLE",
-                "label_index": "19766",
+                "label_index": "@P19766",
                 "label_korean": "가역성 발전기의 회전 속도",
                 "group_id": "150991",
                 "req_frame_id": "453316",
@@ -2783,7 +2783,7 @@
             {
                 "position": 3,
                 "mnemonic": "CA_TENSION_BATTERIE_DE_TRACTION",
-                "label_index": "19805",
+                "label_index": "@P19805",
                 "label_korean": "트랙션 배터리 전압",
                 "group_id": "매핑_누락",
                 "req_frame_id": "",
@@ -2805,7 +2805,7 @@
             {
                 "position": 4,
                 "mnemonic": "CA_COURANT_BATTERIE_DE_TRACTION",
-                "label_index": "22376",
+                "label_index": "@P22376",
                 "label_korean": "트랙션 배터리의 전류",
                 "group_id": "매핑_누락",
                 "req_frame_id": "",
@@ -2827,7 +2827,7 @@
             {
                 "position": 5,
                 "mnemonic": "CA_ETAT_FONCTIONNEMENT_MEL_AR",
-                "label_index": "22417",
+                "label_index": "@P22417",
                 "label_korean": "트랙션 체인의 작동 상태",
                 "group_id": "150991",
                 "req_frame_id": "453316",
@@ -2849,7 +2849,7 @@
             {
                 "position": 6,
                 "mnemonic": "CA_TENSION_BATTERIE_DE_TRACTION_VC4",
-                "label_index": "19805",
+                "label_index": "@P19805",
                 "label_korean": "트랙션 배터리 전압",
                 "group_id": "150991",
                 "req_frame_id": "453316",
@@ -2871,7 +2871,7 @@
             {
                 "position": 7,
                 "mnemonic": "CA_COURANT_BATTERIE_DE_TRACTION_VC4",
-                "label_index": "22376",
+                "label_index": "@P22376",
                 "label_korean": "트랙션 배터리의 전류",
                 "group_id": "150991",
                 "req_frame_id": "453316",
@@ -2893,7 +2893,7 @@
             {
                 "position": 8,
                 "mnemonic": "CA_TEMPERATURE_CONVERTISSEUR_CONTINU",
-                "label_index": "22360",
+                "label_index": "@P22360",
                 "label_korean": "직류 전압 변환장치 (DC/DC)의 온도",
                 "group_id": "150991",
                 "req_frame_id": "453316",
@@ -2915,7 +2915,7 @@
             {
                 "position": 9,
                 "mnemonic": "CA_TEMPERATURE_ONDULEUR_ALTERNATEUR_REVERSIBLE",
-                "label_index": "22380",
+                "label_index": "@P22380",
                 "label_korean": "가역성 발전기의 정류자 온도",
                 "group_id": "150991",
                 "req_frame_id": "453316",
@@ -2937,7 +2937,7 @@
             {
                 "position": 10,
                 "mnemonic": "CA_TEMPERATURE_STATOR_ALTERNATEUR_REVERSIBLE",
-                "label_index": "22334",
+                "label_index": "@P22334",
                 "label_korean": "가역성 발전기의 스테이터 온도",
                 "group_id": "150991",
                 "req_frame_id": "453316",
@@ -2959,7 +2959,7 @@
             {
                 "position": 11,
                 "mnemonic": "CA_TEMPERATURE_MTH",
-                "label_index": "22415",
+                "label_index": "@P22415",
                 "label_korean": "내연 기관 엔진의 냉각수 온도",
                 "group_id": "150991",
                 "req_frame_id": "453316",

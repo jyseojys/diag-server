@@ -8,7 +8,7 @@
             {
                 "position": 1,
                 "mnemonic": "ID_NOM_DU_FOURNISSEUR",
-                "label_index": "5701",
+                "label_index": "@P5701",
                 "label_korean": "제조 업체명",
                 "group_id": "60297",
                 "req_frame_id": "181184",
@@ -38,7 +38,7 @@
             {
                 "position": 2,
                 "mnemonic": "ID_REFERENCE_MATERIEL",
-                "label_index": "1071",
+                "label_index": "@P1071",
                 "label_korean": "장치 부품 번호",
                 "group_id": "60297",
                 "req_frame_id": "181184",
@@ -60,7 +60,7 @@
             {
                 "position": 3,
                 "mnemonic": "ID_REFERENCE_COMPLEMENTAIRE_MATERIEL",
-                "label_index": "1634",
+                "label_index": "@P1634",
                 "label_korean": "장치 추가 참조 번호",
                 "group_id": "60297",
                 "req_frame_id": "181184",
@@ -82,7 +82,7 @@
             {
                 "position": 4,
                 "mnemonic": "ID_REFERENCE_LOGICIEL",
-                "label_index": "13263",
+                "label_index": "@P13263",
                 "label_korean": "소프트웨어 번호",
                 "group_id": "60298",
                 "req_frame_id": "181187",
@@ -104,7 +104,7 @@
             {
                 "position": 5,
                 "mnemonic": "ID_TRACABILITE_INDICE_EVOLUTION_EDITION",
-                "label_index": "24601",
+                "label_index": "@P24601",
                 "label_korean": "소프트웨어 버전",
                 "group_id": "60298",
                 "req_frame_id": "181187",
@@ -126,7 +126,7 @@
             {
                 "position": 6,
                 "mnemonic": "ID_DATE_TELECH",
-                "label_index": "21670",
+                "label_index": "@P21670",
                 "label_korean": "다운로딩 날짜",
                 "group_id": "60298",
                 "req_frame_id": "181187",
@@ -148,7 +148,7 @@
             {
                 "position": 7,
                 "mnemonic": "ID_NOMBRE_DE_TELECHARGEMENT",
-                "label_index": "24589",
+                "label_index": "@P24589",
                 "label_korean": "다운로드의 수",
                 "group_id": "60298",
                 "req_frame_id": "181187",
@@ -170,7 +170,7 @@
             {
                 "position": 8,
                 "mnemonic": "ID_TRACABILITE_DATE_FABRICATION",
-                "label_index": "14355",
+                "label_index": "@F14355",
                 "label_korean": "제조일자",
                 "group_id": "60325",
                 "req_frame_id": "181268",
@@ -200,7 +200,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_POSITION_PEDALE_ACCELERATION",
-                "label_index": "7897",
+                "label_index": "@P7897",
                 "label_korean": "가속 페달 위치",
                 "group_id": "60299",
                 "req_frame_id": "181190",
@@ -216,13 +216,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "",
+                "help_code": "@T",
                 "help_korean": ""
             },
             {
                 "position": 2,
                 "mnemonic": "MP_KILOMETRAGE_VEHICULE",
-                "label_index": "6315",
+                "label_index": "@P6315",
                 "label_korean": "차량 주행거리",
                 "group_id": "60303",
                 "req_frame_id": "181202",
@@ -238,13 +238,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "",
+                "help_code": "@T",
                 "help_korean": ""
             },
             {
                 "position": 3,
                 "mnemonic": "MP_VITESSE_VEHICULE",
-                "label_index": "9267",
+                "label_index": "@F9267",
                 "label_korean": "차량 속도",
                 "group_id": "60304",
                 "req_frame_id": "181205",
@@ -264,13 +264,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "",
+                "help_code": "@T",
                 "help_korean": ""
             },
             {
                 "position": 4,
                 "mnemonic": "MP_ETAT_CALCULATEUR",
-                "label_index": "14934",
+                "label_index": "@P14934",
                 "label_korean": "ECU 상태",
                 "group_id": "60305",
                 "req_frame_id": "181208",
@@ -298,13 +298,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "",
+                "help_code": "@T",
                 "help_korean": ""
             },
             {
                 "position": 5,
                 "mnemonic": "MP_VITESSE_MOTEUR",
-                "label_index": "7350",
+                "label_index": "@P7350",
                 "label_korean": "모터 속도",
                 "group_id": "60306",
                 "req_frame_id": "181211",
@@ -320,13 +320,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "",
+                "help_code": "@T",
                 "help_korean": ""
             },
             {
                 "position": 6,
                 "mnemonic": "MP_DECALAGE_POSITION_ROTOR_MEL",
-                "label_index": "54751",
+                "label_index": "@P54751",
                 "label_korean": "전동 구동 머신 로터 위치 각도의 오프셋",
                 "group_id": "60307",
                 "req_frame_id": "181214",
@@ -342,13 +342,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "",
+                "help_code": "@T",
                 "help_korean": ""
             },
             {
                 "position": 7,
                 "mnemonic": "MP_ETAT_CALIBRATION_ANGLE_POSITION_ROTOR_MEL",
-                "label_index": "54753",
+                "label_index": "@P54753",
                 "label_korean": "리어 전동 구동 머신 로터 위치 각도 캘리브레이션 상태",
                 "group_id": "60309",
                 "req_frame_id": "181220",
@@ -364,13 +364,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "",
+                "help_code": "@T",
                 "help_korean": ""
             },
             {
                 "position": 8,
                 "mnemonic": "MP_COMPTEUR_TEMPOREL_VEHICULE_BSI",
-                "label_index": "51826",
+                "label_index": "@P51826",
                 "label_korean": "BSI에서 전송된 차량 시간 카운터",
                 "group_id": "60300",
                 "req_frame_id": "181193",
@@ -400,7 +400,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_POSITION_PEDALE_ACCELERATION",
-                "label_index": "7897",
+                "label_index": "@P7897",
                 "label_korean": "가속 페달 위치",
                 "group_id": "60299",
                 "req_frame_id": "181190",
@@ -416,13 +416,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "",
+                "help_code": "@T",
                 "help_korean": ""
             },
             {
                 "position": 2,
                 "mnemonic": "MP_KILOMETRAGE_VEHICULE",
-                "label_index": "6315",
+                "label_index": "@P6315",
                 "label_korean": "차량 주행거리",
                 "group_id": "60303",
                 "req_frame_id": "181202",
@@ -438,13 +438,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "",
+                "help_code": "@T",
                 "help_korean": ""
             },
             {
                 "position": 3,
                 "mnemonic": "MP_VITESSE_VEHICULE",
-                "label_index": "9267",
+                "label_index": "@F9267",
                 "label_korean": "차량 속도",
                 "group_id": "60304",
                 "req_frame_id": "181205",
@@ -464,13 +464,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "",
+                "help_code": "@T",
                 "help_korean": ""
             },
             {
                 "position": 4,
                 "mnemonic": "MP_ETAT_CALCULATEUR",
-                "label_index": "14934",
+                "label_index": "@P14934",
                 "label_korean": "ECU 상태",
                 "group_id": "60305",
                 "req_frame_id": "181208",
@@ -498,13 +498,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "",
+                "help_code": "@T",
                 "help_korean": ""
             },
             {
                 "position": 5,
                 "mnemonic": "MP_VITESSE_MOTEUR",
-                "label_index": "7350",
+                "label_index": "@P7350",
                 "label_korean": "모터 속도",
                 "group_id": "60306",
                 "req_frame_id": "181211",
@@ -520,13 +520,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "",
+                "help_code": "@T",
                 "help_korean": ""
             },
             {
                 "position": 6,
                 "mnemonic": "MP_DECALAGE_POSITION_ROTOR_MEL",
-                "label_index": "54751",
+                "label_index": "@P54751",
                 "label_korean": "전동 구동 머신 로터 위치 각도의 오프셋",
                 "group_id": "60307",
                 "req_frame_id": "181214",
@@ -542,13 +542,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "",
+                "help_code": "@T",
                 "help_korean": ""
             },
             {
                 "position": 7,
                 "mnemonic": "MP_ETAT_CALIBRATION_ANGLE_POSITION_ROTOR_MEL",
-                "label_index": "54753",
+                "label_index": "@P54753",
                 "label_korean": "리어 전동 구동 머신 로터 위치 각도 캘리브레이션 상태",
                 "group_id": "60309",
                 "req_frame_id": "181220",
@@ -564,13 +564,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "",
+                "help_code": "@T",
                 "help_korean": ""
             },
             {
                 "position": 8,
                 "mnemonic": "MP_COMPTEUR_TEMPOREL_VEHICULE_BSI",
-                "label_index": "51826",
+                "label_index": "@P51826",
                 "label_korean": "BSI에서 전송된 차량 시간 카운터",
                 "group_id": "60300",
                 "req_frame_id": "181193",
@@ -600,7 +600,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_COUPLE_MACHINE_ELECTRIQUE_TRACTION",
-                "label_index": "33016",
+                "label_index": "@P33016",
                 "label_korean": "전동 구동 머신 토크",
                 "group_id": "60310",
                 "req_frame_id": "181223",
@@ -616,13 +616,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "",
+                "help_code": "@T",
                 "help_korean": ""
             },
             {
                 "position": 2,
                 "mnemonic": "MP_COUPLE_REDUIT_MEL",
-                "label_index": "54752",
+                "label_index": "@P54752",
                 "label_korean": "전동 구동 머신 토크 감소",
                 "group_id": "60311",
                 "req_frame_id": "181226",
@@ -638,13 +638,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "",
+                "help_code": "@T",
                 "help_korean": ""
             },
             {
                 "position": 3,
                 "mnemonic": "MP_COUPLE_MOTEUR_ELECTRIQUE",
-                "label_index": "19822",
+                "label_index": "@L19822",
                 "label_korean": "전동 모터의 토크",
                 "group_id": "60312",
                 "req_frame_id": "181229",
@@ -660,7 +660,7 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "",
+                "help_code": "@T",
                 "help_korean": ""
             }
         ]
@@ -674,7 +674,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_INTENSITE_BATTERIE_DE_TRACTION",
-                "label_index": "19967",
+                "label_index": "@P19967",
                 "label_korean": "트랙션 배터리의 전류",
                 "group_id": "60313",
                 "req_frame_id": "181232",
@@ -690,13 +690,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "",
+                "help_code": "@T",
                 "help_korean": ""
             },
             {
                 "position": 2,
                 "mnemonic": "MP_TENSION_BATTERIE_DE_TRACTION",
-                "label_index": "19805",
+                "label_index": "@P19805",
                 "label_korean": "트랙션 배터리 전압",
                 "group_id": "60314",
                 "req_frame_id": "181235",
@@ -712,13 +712,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "",
+                "help_code": "@T",
                 "help_korean": ""
             },
             {
                 "position": 3,
                 "mnemonic": "MP_CONSIGNE_TENSION_BATTERIE_TRACTION",
-                "label_index": "54747",
+                "label_index": "@P54747",
                 "label_korean": "트랙션 배터리 전압 기준 값",
                 "group_id": "60315",
                 "req_frame_id": "181238",
@@ -734,7 +734,7 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "",
+                "help_code": "@T",
                 "help_korean": ""
             }
         ]
@@ -748,7 +748,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_TEMPERATURE_LIQUIDE_REFROIDISSEMENT",
-                "label_index": "21473",
+                "label_index": "@P21473",
                 "label_korean": "냉각수 온도",
                 "group_id": "60316",
                 "req_frame_id": "181241",
@@ -764,13 +764,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "",
+                "help_code": "@T",
                 "help_korean": ""
             },
             {
                 "position": 2,
                 "mnemonic": "MP_CONSIGNE_TEMPERATURE_ONDULEUR_MEL",
-                "label_index": "54748",
+                "label_index": "@P54748",
                 "label_korean": "전동 구동 머신 인버터 온도 기준 값",
                 "group_id": "60317",
                 "req_frame_id": "181244",
@@ -786,13 +786,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "",
+                "help_code": "@T",
                 "help_korean": ""
             },
             {
                 "position": 3,
                 "mnemonic": "MP_TEMP_OND_MEL_AR",
-                "label_index": "23024",
+                "label_index": "@P23024",
                 "label_korean": "전동 구동 머신 인버터 온도",
                 "group_id": "60318",
                 "req_frame_id": "181247",
@@ -808,13 +808,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "",
+                "help_code": "@T",
                 "help_korean": ""
             },
             {
                 "position": 4,
                 "mnemonic": "MP_ESTIME_ONDULEUR_MEL",
-                "label_index": "54749",
+                "label_index": "@P54749",
                 "label_korean": "전동 구동 머신 인버터 예상 온도",
                 "group_id": "60320",
                 "req_frame_id": "181253",
@@ -830,13 +830,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "",
+                "help_code": "@T",
                 "help_korean": ""
             },
             {
                 "position": 5,
                 "mnemonic": "MP_TEMPERATURE_CONDENSATEUR",
-                "label_index": "33601",
+                "label_index": "@P33601",
                 "label_korean": "콘덴서의 온도",
                 "group_id": "60321",
                 "req_frame_id": "181256",
@@ -852,13 +852,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "",
+                "help_code": "@T",
                 "help_korean": ""
             },
             {
                 "position": 6,
                 "mnemonic": "MP_TEMPERATURE_REELLE_DU_STATOR_DE_MACHINE_ELECTRIQUE",
-                "label_index": "22943",
+                "label_index": "@P22943",
                 "label_korean": "전동 구동 머신 스테이터 온도",
                 "group_id": "60322",
                 "req_frame_id": "181259",
@@ -874,13 +874,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "",
+                "help_code": "@T",
                 "help_korean": ""
             },
             {
                 "position": 7,
                 "mnemonic": "MP_TEMPERATURE_ROTOR_MEL",
-                "label_index": "54750",
+                "label_index": "@P54750",
                 "label_korean": "전동 구동 머신 로터 온도",
                 "group_id": "60323",
                 "req_frame_id": "181262",
@@ -896,7 +896,7 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "",
+                "help_code": "@T",
                 "help_korean": ""
             }
         ]
@@ -910,7 +910,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_ETAT_PROGRAMMATION_ANTI_DEMARRAGE",
-                "label_index": "4427",
+                "label_index": "@F4427",
                 "label_korean": "코드화된 엔진 이모빌라이저 프로그래밍 상태",
                 "group_id": "60305",
                 "req_frame_id": "181208",
@@ -945,7 +945,7 @@
             {
                 "position": 2,
                 "mnemonic": "MP_PB_TRANSMISSION_CODE_DEVERROUILLAGE",
-                "label_index": "12495",
+                "label_index": "@P12495",
                 "label_korean": "잠금 해제 코드 전송 중 감지된 문제",
                 "group_id": "60305",
                 "req_frame_id": "181208",
@@ -1000,7 +1000,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_POSITION_PEDALE_ACCELERATION",
-                "label_index": "7897",
+                "label_index": "@P7897",
                 "label_korean": "가속 페달 위치",
                 "group_id": "60299",
                 "req_frame_id": "181190",
@@ -1016,13 +1016,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "",
+                "help_code": "@T",
                 "help_korean": ""
             },
             {
                 "position": 2,
                 "mnemonic": "MP_KILOMETRAGE_VEHICULE",
-                "label_index": "6315",
+                "label_index": "@P6315",
                 "label_korean": "차량 주행거리",
                 "group_id": "60303",
                 "req_frame_id": "181202",
@@ -1038,13 +1038,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "",
+                "help_code": "@T",
                 "help_korean": ""
             },
             {
                 "position": 3,
                 "mnemonic": "MP_VALEUR_INITIALISATION_MACHINE_TRACTION_ELECTRIQUE_AVANT",
-                "label_index": "56474",
+                "label_index": "@P56474",
                 "label_korean": "프론트 전동 구동 머신의 초기화 단계 값",
                 "group_id": "60302",
                 "req_frame_id": "181199",
@@ -1060,13 +1060,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "",
+                "help_code": "@T",
                 "help_korean": ""
             },
             {
                 "position": 4,
                 "mnemonic": "MP_VITESSE_VEHICULE",
-                "label_index": "9267",
+                "label_index": "@F9267",
                 "label_korean": "차량 속도",
                 "group_id": "60304",
                 "req_frame_id": "181205",
@@ -1086,13 +1086,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "",
+                "help_code": "@T",
                 "help_korean": ""
             },
             {
                 "position": 5,
                 "mnemonic": "MP_VITESSE_MOTEUR",
-                "label_index": "7350",
+                "label_index": "@P7350",
                 "label_korean": "모터 속도",
                 "group_id": "60306",
                 "req_frame_id": "181211",
@@ -1108,13 +1108,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "",
+                "help_code": "@T",
                 "help_korean": ""
             },
             {
                 "position": 6,
                 "mnemonic": "MP_DECALAGE_POSITION_ROTOR_MEL",
-                "label_index": "54751",
+                "label_index": "@P54751",
                 "label_korean": "전동 구동 머신 로터 위치 각도의 오프셋",
                 "group_id": "60307",
                 "req_frame_id": "181214",
@@ -1130,13 +1130,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "",
+                "help_code": "@T",
                 "help_korean": ""
             },
             {
                 "position": 7,
                 "mnemonic": "MP_ETAT_CALIBRATION_ANGLE_POSITION_ROTOR_MEL",
-                "label_index": "54753",
+                "label_index": "@P54753",
                 "label_korean": "리어 전동 구동 머신 로터 위치 각도 캘리브레이션 상태",
                 "group_id": "60309",
                 "req_frame_id": "181220",
@@ -1152,13 +1152,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "",
+                "help_code": "@T",
                 "help_korean": ""
             },
             {
                 "position": 8,
                 "mnemonic": "MP_COUPLE_MACHINE_ELECTRIQUE_TRACTION",
-                "label_index": "33016",
+                "label_index": "@P33016",
                 "label_korean": "전동 구동 머신 토크",
                 "group_id": "60310",
                 "req_frame_id": "181223",
@@ -1174,13 +1174,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "",
+                "help_code": "@T",
                 "help_korean": ""
             },
             {
                 "position": 9,
                 "mnemonic": "MP_COUPLE_REDUIT_MEL",
-                "label_index": "54752",
+                "label_index": "@P54752",
                 "label_korean": "전동 구동 머신 토크 감소",
                 "group_id": "60311",
                 "req_frame_id": "181226",
@@ -1196,13 +1196,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "",
+                "help_code": "@T",
                 "help_korean": ""
             },
             {
                 "position": 10,
                 "mnemonic": "MP_COUPLE_MOTEUR_ELECTRIQUE",
-                "label_index": "19822",
+                "label_index": "@L19822",
                 "label_korean": "전동 모터의 토크",
                 "group_id": "60312",
                 "req_frame_id": "181229",
@@ -1218,13 +1218,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "",
+                "help_code": "@T",
                 "help_korean": ""
             },
             {
                 "position": 11,
                 "mnemonic": "MP_INTENSITE_BATTERIE_DE_TRACTION",
-                "label_index": "19967",
+                "label_index": "@P19967",
                 "label_korean": "트랙션 배터리의 전류",
                 "group_id": "60313",
                 "req_frame_id": "181232",
@@ -1240,13 +1240,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "",
+                "help_code": "@T",
                 "help_korean": ""
             },
             {
                 "position": 12,
                 "mnemonic": "MP_TENSION_BATTERIE_DE_TRACTION",
-                "label_index": "19805",
+                "label_index": "@P19805",
                 "label_korean": "트랙션 배터리 전압",
                 "group_id": "60314",
                 "req_frame_id": "181235",
@@ -1262,13 +1262,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "",
+                "help_code": "@T",
                 "help_korean": ""
             },
             {
                 "position": 13,
                 "mnemonic": "MP_CONSIGNE_TENSION_BATTERIE_TRACTION",
-                "label_index": "54747",
+                "label_index": "@P54747",
                 "label_korean": "트랙션 배터리 전압 기준 값",
                 "group_id": "60315",
                 "req_frame_id": "181238",
@@ -1284,13 +1284,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "",
+                "help_code": "@T",
                 "help_korean": ""
             },
             {
                 "position": 14,
                 "mnemonic": "MP_TEMPERATURE_LIQUIDE_REFROIDISSEMENT",
-                "label_index": "21473",
+                "label_index": "@P21473",
                 "label_korean": "냉각수 온도",
                 "group_id": "60316",
                 "req_frame_id": "181241",
@@ -1306,13 +1306,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "",
+                "help_code": "@T",
                 "help_korean": ""
             },
             {
                 "position": 15,
                 "mnemonic": "MP_CONSIGNE_TEMPERATURE_ONDULEUR_MEL",
-                "label_index": "54748",
+                "label_index": "@P54748",
                 "label_korean": "전동 구동 머신 인버터 온도 기준 값",
                 "group_id": "60317",
                 "req_frame_id": "181244",
@@ -1328,13 +1328,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "",
+                "help_code": "@T",
                 "help_korean": ""
             },
             {
                 "position": 16,
                 "mnemonic": "MP_TEMP_OND_MEL_AR",
-                "label_index": "23024",
+                "label_index": "@P23024",
                 "label_korean": "전동 구동 머신 인버터 온도",
                 "group_id": "60318",
                 "req_frame_id": "181247",
@@ -1350,13 +1350,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "",
+                "help_code": "@T",
                 "help_korean": ""
             },
             {
                 "position": 17,
                 "mnemonic": "MP_ESTIME_ONDULEUR_MEL",
-                "label_index": "54749",
+                "label_index": "@P54749",
                 "label_korean": "전동 구동 머신 인버터 예상 온도",
                 "group_id": "60320",
                 "req_frame_id": "181253",
@@ -1372,13 +1372,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "",
+                "help_code": "@T",
                 "help_korean": ""
             },
             {
                 "position": 18,
                 "mnemonic": "MP_TEMPERATURE_CONDENSATEUR",
-                "label_index": "33601",
+                "label_index": "@P33601",
                 "label_korean": "콘덴서의 온도",
                 "group_id": "60321",
                 "req_frame_id": "181256",
@@ -1394,13 +1394,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "",
+                "help_code": "@T",
                 "help_korean": ""
             },
             {
                 "position": 19,
                 "mnemonic": "MP_TEMPERATURE_REELLE_DU_STATOR_DE_MACHINE_ELECTRIQUE",
-                "label_index": "22943",
+                "label_index": "@P22943",
                 "label_korean": "전동 구동 머신 스테이터 온도",
                 "group_id": "60322",
                 "req_frame_id": "181259",
@@ -1416,13 +1416,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "",
+                "help_code": "@T",
                 "help_korean": ""
             },
             {
                 "position": 20,
                 "mnemonic": "MP_TEMPERATURE_ROTOR_MEL",
-                "label_index": "54750",
+                "label_index": "@P54750",
                 "label_korean": "전동 구동 머신 로터 온도",
                 "group_id": "60323",
                 "req_frame_id": "181262",
@@ -1438,13 +1438,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "",
+                "help_code": "@T",
                 "help_korean": ""
             },
             {
                 "position": 21,
                 "mnemonic": "MP_COMPTEUR_TEMPOREL_VEHICULE_BSI",
-                "label_index": "51826",
+                "label_index": "@P51826",
                 "label_korean": "BSI에서 전송된 차량 시간 카운터",
                 "group_id": "60300",
                 "req_frame_id": "181193",
@@ -1466,7 +1466,7 @@
             {
                 "position": 22,
                 "mnemonic": "MP_CONTROLE_PLAUSIBILITE",
-                "label_index": "58350",
+                "label_index": "@P58350",
                 "label_korean": "타당성 점검",
                 "group_id": "60295",
                 "req_frame_id": "181178",

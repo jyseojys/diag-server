@@ -8,7 +8,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_REGIME_MOTEUR_a",
-                "label_index": "7917",
+                "label_index": "@P7917",
                 "label_korean": "엔진 속도",
                 "group_id": "75538",
                 "req_frame_id": "226892",
@@ -26,13 +26,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "39539",
+                "help_code": "@P39539@T.",
                 "help_korean": "엔진 회전 속도는 분당 회전수로 표시한다."
             },
             {
                 "position": 2,
                 "mnemonic": "MP_TPSINJECTION",
-                "label_index": "5884",
+                "label_index": "@P5884",
                 "label_korean": "분사 시간",
                 "group_id": "75548",
                 "req_frame_id": "226922",
@@ -48,13 +48,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "39542",
+                "help_code": "@P39542@T.",
                 "help_korean": "ms로 표현된 각 인젝터에 엔진 ECU에 의해서 보내진 연료 분사 명령 시간."
             },
             {
                 "position": 3,
                 "mnemonic": "MP_TEMPERATURE_EAU_MOTEUR_a",
-                "label_index": "4789",
+                "label_index": "@P4789@\\*",
                 "label_korean": "엔진 냉각수 온도",
                 "group_id": "75536",
                 "req_frame_id": "226886",
@@ -70,13 +70,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "44055, 44054, 25652, 39498",
-                "help_korean": "냉각 시스템에서 냉각수 온도는 °C로 표시된다.\n값이 차량에 존재하는 조건과 일치하지 않을 경우, 안내된 방법을 사용한다.\n- 참고 : 냉각수 온도 정보가 정확하지 않을 경우, 냉간시 주행 즐거움, 공회전 세팅 및 배출 가스 제어가 영향받을 수 있다."
+                "help_code": "@P44055@T.@\\n@P44054@T.@\\n@P25652@T : @P39498@T.",
+                "help_korean": "냉각 시스템에서 냉각수 온도는 °C로 표시된다.\n값이 차량에 존재하는 조건과 일치하지 않을 경우, 안내된 방법을 사용한다.\n참고 : 냉각수 온도 정보가 정확하지 않을 경우, 냉간시 주행 즐거움, 공회전 세팅 및 배출 가스 제어가 영향받을 수 있다."
             },
             {
                 "position": 4,
                 "mnemonic": "MP_TENSION_SONDE_A_OXYGENE_AMONT",
-                "label_index": "11026",
+                "label_index": "@P11026",
                 "label_korean": "업스트림 산소 센서 전압",
                 "group_id": "75543",
                 "req_frame_id": "226907",
@@ -92,13 +92,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "23828, 39467, 23745, 23639, 25652, 39545",
-                "help_korean": "업스트림 센서에 의해 제공된 전압. V로 표시된다.\n- 개회로 : 전압은 0볼트와\n- 1볼트 사이에 있어야 하고 고정되어야 한다\n폐회로 : 전압은 반드시 0에서 1볼트 사이에서 변동해야 한다.1\n- 참고 : 업스트림 산소 센서로부터 정보가 정확하지 않으면, 엔진이 열간 상태일 때 주행 즐거움 및 배출 가스 제어는 저하될 수 있다."
+                "help_code": "@P23828@T.@\\+@P39467@T.@\\n@P23745@\\*0@\\*1@\\n@P23639@\\*0.1@\\*1@\\n@P25652@T : @P39545@T.",
+                "help_korean": "업스트림 센서에 의해 제공된 전압.V로 표시된다.\n개회로 : 전압은 0볼트와 1볼트 사이에 있어야 하고 고정되어야 한다\n폐회로 : 전압은 반드시 0에서 1볼트 사이에서 변동해야 한다.1\n참고 : 업스트림 산소 센서로부터 정보가 정확하지 않으면, 엔진이 열간 상태일 때 주행 즐거움 및 배출 가스 제어는 저하될 수 있다."
             },
             {
                 "position": 5,
                 "mnemonic": "MP_TENSION_SONDE_A_OXYGENE_AVAL",
-                "label_index": "2071",
+                "label_index": "@P2071",
                 "label_korean": "다운스트림 산소 센서 전압",
                 "group_id": "75544",
                 "req_frame_id": "226910",
@@ -114,13 +114,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "23994, 39467, 23745, 23804, 25652, 39545",
-                "help_korean": "다운스트림 센서에 의해 제공되는 전압. V로 표시된다.\n- 개회로 : 전압은 0볼트와\n- 1볼트 사이에 있어야 하고 고정되어야 한다\n폐회로에서 : 전압은 아주 약간 변동되어야 하고 0에서 1볼트 사이어야 한다,1.\n- 참고 : 업스트림 산소 센서로부터 정보가 정확하지 않으면, 엔진이 열간 상태일 때 주행 즐거움 및 배출 가스 제어는 저하될 수 있다."
+                "help_code": "@P23994@T.@\\+@P39467@T.@\\n@P23745@\\*0@\\*1@\\n@P23804@\\*0,1@\\*1@T.@\\n@P25652@T : @P39545@T.",
+                "help_korean": "다운스트림 센서에 의해 제공되는 전압.V로 표시된다.\n개회로 : 전압은 0볼트와 1볼트 사이에 있어야 하고 고정되어야 한다\n폐회로에서 : 전압은 아주 약간 변동되어야 하고 0에서 1볼트 사이어야 한다,1.\n참고 : 업스트림 산소 센서로부터 정보가 정확하지 않으면, 엔진이 열간 상태일 때 주행 즐거움 및 배출 가스 제어는 저하될 수 있다."
             },
             {
                 "position": 6,
                 "mnemonic": "MP_ETATMOTRALENTI",
-                "label_index": "40460",
+                "label_index": "@P40460",
                 "label_korean": "공회전 단계에서 엔진 상태",
                 "group_id": "75550",
                 "req_frame_id": "226928",
@@ -136,14 +136,14 @@
                 "bit_mask": 64,
                 "bit_shift": 6,
                 "dynamic_arg": "",
-                "help_code": "41021",
+                "help_code": "@P41021@T.",
                 "help_korean": "엔진 ECU는 시동 모드이고, 엔진은 시동 모터에 의해서 구동 중이다."
             },
             {
                 "position": 7,
                 "mnemonic": "MP_ETATMOTENDEM",
-                "label_index": "11481",
-                "label_korean": "엔진\n- 상태 : 시동 단계에서",
+                "label_index": "@P11481@T : @P14905",
+                "label_korean": "엔진 상태 : 시동 단계에서",
                 "group_id": "75550",
                 "req_frame_id": "226928",
                 "resp_frame_id": "226929",
@@ -158,13 +158,13 @@
                 "bit_mask": 128,
                 "bit_shift": 7,
                 "dynamic_arg": "",
-                "help_code": "41021",
+                "help_code": "@P41021@T.",
                 "help_korean": "엔진 ECU는 시동 모드이고, 엔진은 시동 모터에 의해서 구동 중이다."
             },
             {
                 "position": 8,
                 "mnemonic": "ANGLEPAPILLON",
-                "label_index": "13992",
+                "label_index": "@P13992",
                 "label_korean": "드로틀 열림 퍼센트",
                 "group_id": "75542",
                 "req_frame_id": "226904",
@@ -180,8 +180,8 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "37573, 24590, 37557, 24590, 37568",
-                "help_korean": "드로틀 하우징 포지션 센서로부터 정보.\n11에서 12% = 페달 해제\n11에서 12% = 최대 부하"
+                "help_code": "@P37573@T.@\\n@P24590@\\*11@\\*12%@\\+@T=@\\+@P37557@\\n@P24590@\\*11@\\*12%@\\+@T=@\\+@P37568",
+                "help_korean": "드로틀 하우징 포지션 센서로부터 정보.\n11에서 12%=페달 해제\n11에서 12%=최대 부하"
             }
         ]
     },
@@ -194,7 +194,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_REGIME_MOTEUR_a",
-                "label_index": "7917",
+                "label_index": "@P7917",
                 "label_korean": "엔진 속도",
                 "group_id": "75538",
                 "req_frame_id": "226892",
@@ -212,13 +212,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "39539",
+                "help_code": "@P39539@T.",
                 "help_korean": "엔진 회전 속도는 분당 회전수로 표시한다."
             },
             {
                 "position": 2,
                 "mnemonic": "MP_ETATMOTRALENTI2",
-                "label_index": "42370",
+                "label_index": "@P42370",
                 "label_korean": "공회전 상태는 엔진 ECU에 의해서 감지된다",
                 "group_id": "75550",
                 "req_frame_id": "226928",
@@ -234,13 +234,13 @@
                 "bit_mask": 64,
                 "bit_shift": 6,
                 "dynamic_arg": "",
-                "help_code": "41022",
+                "help_code": "@P41022@T.",
                 "help_korean": "엔진 ECU는 공회전 모드이다."
             },
             {
                 "position": 3,
                 "mnemonic": "MP_PRESSIONTUBULURE",
-                "label_index": "31392",
+                "label_index": "@P31392",
                 "label_korean": "흡기 매니폴드 압력",
                 "group_id": "75537",
                 "req_frame_id": "226889",
@@ -256,13 +256,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "39558, 25652, 39499",
-                "help_korean": "흡기 매니폴드에서 측정된 압력, mbar로 표시된다.\n- 참고 : 흡기 매니폴드에서 흡기 압력이 정확하지 않으면, 주행 즐거움과 특히 실화 및 배출가스 조절에 영향이 있을 수 있다."
+                "help_code": "@P39558@T.@\\n@P25652@T : @P39499@T.",
+                "help_korean": "흡기 매니폴드에서 측정된 압력, mbar로 표시된다.\n참고 : 흡기 매니폴드에서 흡기 압력이 정확하지 않으면, 주행 즐거움과 특히 실화 및 배출가스 조절에 영향이 있을 수 있다."
             },
             {
                 "position": 4,
                 "mnemonic": "MP_TEMP_AIR_ADMISSION_SUP",
-                "label_index": "2380",
+                "label_index": "@P2380",
                 "label_korean": "흡기 온도",
                 "group_id": "75541",
                 "req_frame_id": "226901",
@@ -278,13 +278,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "29393, 39531, 39472, 25652, 45253",
-                "help_korean": "흡기 매니폴드에서 공기 온도. °C로 표시한다.\n외부 온도에 따라 다르다.\n- 참고 : 냉간 시 구동 압력, 인렛 기온 정보가 정확하기 않으면, 공회전 설정 및 배출 조절은 영향 받을 수 있다."
+                "help_code": "@P29393@T.@\\+@P39531@T.@\\n@P39472@T.@\\n@P25652@T : @P45253@T.",
+                "help_korean": "흡기 매니폴드에서 공기 온도.°C로 표시한다.\n외부 온도에 따라 다르다.\n참고 : 냉간 시 구동 압력, 인렛 기온 정보가 정확하기 않으면, 공회전 설정 및 배출 조절은 영향 받을 수 있다."
             },
             {
                 "position": 5,
                 "mnemonic": "MP_POSITIOMOTRALENTI",
-                "label_index": "40767",
+                "label_index": "@P40767@T(IAC)",
                 "label_korean": "공회전 조절 스텝퍼 모터 위치(IAC)",
                 "group_id": "75549",
                 "req_frame_id": "226925",
@@ -300,13 +300,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "43143, 43144",
+                "help_code": "@P43143@T.@\\n@P43144@T.",
                 "help_korean": "공회전 스텝퍼 모터의 위치에서 엔진 ECU에 의해 수신된 정보는 단계로 표현된다.\n이 변수 측정은 수동 변속기가 장착된 차량에서만 유효하다."
             },
             {
                 "position": 6,
                 "mnemonic": "MP_ETATCANISTER",
-                "label_index": "40459",
+                "label_index": "@P40459",
                 "label_korean": "퍼지 캐니스터 솔레노이드 밸브 상태",
                 "group_id": "75552",
                 "req_frame_id": "226934",
@@ -325,13 +325,13 @@
                 "bit_mask": 16,
                 "bit_shift": 4,
                 "dynamic_arg": "",
-                "help_code": "39532, 39563",
+                "help_code": "@P39532@T. @P39563@T.",
                 "help_korean": "캐니스터 블리드 솔레노이드 밸브는 연료 탱크로부터 가솔린 증발 가스를 재순환하는 데 사용한다. 환기에 의해 탱크의 압력을 조절한다."
             },
             {
                 "position": 7,
                 "mnemonic": "MP_ETATVVT",
-                "label_index": "40400",
+                "label_index": "@P40400",
                 "label_korean": "캠축 가변 장치",
                 "group_id": "75552",
                 "req_frame_id": "226934",
@@ -347,8 +347,8 @@
                 "bit_mask": 2,
                 "bit_shift": 1,
                 "dynamic_arg": "",
-                "help_code": "45200, 45201, 45202, 25652, 45203, 45204",
-                "help_korean": "VVT(가변 밸브 타이밍) 기능은 엔진 속도 및 엔진 부하에 따라 밸브 타이밍 다이어그램을 계속적으로 수정하는 시스템이다.\n이 시스템의 목적은 엔진 충전을 개선하기 위함이다 그리고 연속적으로 성능을 최적화할 뿐만 아니라 오염 배출을 줄이기 위해 내부 EGR(배출 가스 순환)을 제공한다.\n- 참고 : 캠축 가변 각도가 정확하지 않으면, 공회전 속도는 불안정(=엔진 헌팅)하고, 엔진 파워는 제한 될 수 있으며 배출 제어에 영향을 준다 엔진 시동은 어렵게 만들 수 있으며 몇몇 상황을 불가능하게 할 수 있다."
+                "help_code": "@P45200@T.@\\n@P45201@\\+@P45202@T.@\\n@P25652@T : @P45203@\\+@P45204@T.",
+                "help_korean": "VVT(가변 밸브 타이밍) 기능은 엔진 속도 및 엔진 부하에 따라 밸브 타이밍 다이어그램을 계속적으로 수정하는 시스템이다.\n이 시스템의 목적은 엔진 충전을 개선하기 위함이다그리고 연속적으로 성능을 최적화할 뿐만 아니라 오염 배출을 줄이기 위해 내부 EGR(배출 가스 순환)을 제공한다.\n참고 : 캠축 가변 각도가 정확하지 않으면, 공회전 속도는 불안정(=엔진 헌팅)하고, 엔진 파워는 제한 될 수 있으며 배출 제어에 영향을 준다엔진 시동은 어렵게 만들 수 있으며 몇몇 상황을 불가능하게 할 수 있다."
             }
         ]
     },
@@ -361,7 +361,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_REGIME_MOTEUR_a",
-                "label_index": "7917",
+                "label_index": "@P7917",
                 "label_korean": "엔진 속도",
                 "group_id": "75538",
                 "req_frame_id": "226892",
@@ -379,13 +379,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "39539",
+                "help_code": "@P39539@T.",
                 "help_korean": "엔진 회전 속도는 분당 회전수로 표시한다."
             },
             {
                 "position": 2,
                 "mnemonic": "AVANCEALL",
-                "label_index": "13174",
+                "label_index": "@P13174",
                 "label_korean": "점화 진각",
                 "group_id": "75540",
                 "req_frame_id": "226898",
@@ -401,13 +401,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "9162, 44054",
+                "help_code": "@F9162@T.@\\n@P44054@T.",
                 "help_korean": "상사점에 따라 점화 진각은 크랭크축 회전 각도로 표시된다.\n값이 차량에 존재하는 조건과 일치하지 않을 경우, 안내된 방법을 사용한다."
             },
             {
                 "position": 3,
                 "mnemonic": "MP_RATESALLUMAGECYL1",
-                "label_index": "8909",
+                "label_index": "@P8909@\\*1",
                 "label_korean": "실린더1에서 실화",
                 "group_id": "75551",
                 "req_frame_id": "226931",
@@ -423,13 +423,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "1",
-                "help_code": "39537",
+                "help_code": "@P39537@T.",
                 "help_korean": "실린더별로 엔진 ECU에 의해 감지된 실화의 수."
             },
             {
                 "position": 4,
                 "mnemonic": "MP_RATESALLUMAGECYL2",
-                "label_index": "8909",
+                "label_index": "@P8909@\\*2",
                 "label_korean": "실린더2에서 실화",
                 "group_id": "75551",
                 "req_frame_id": "226931",
@@ -445,13 +445,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "2",
-                "help_code": "39537",
+                "help_code": "@P39537@T.",
                 "help_korean": "실린더별로 엔진 ECU에 의해 감지된 실화의 수."
             },
             {
                 "position": 5,
                 "mnemonic": "MP_RATESALLUMAGECYL3",
-                "label_index": "8909",
+                "label_index": "@P8909@\\*3",
                 "label_korean": "실린더3에서 실화",
                 "group_id": "75551",
                 "req_frame_id": "226931",
@@ -467,7 +467,7 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "3",
-                "help_code": "39537",
+                "help_code": "@P39537@T.",
                 "help_korean": "실린더별로 엔진 ECU에 의해 감지된 실화의 수."
             }
         ]
@@ -481,7 +481,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_REGIME_MOTEUR_a",
-                "label_index": "7917",
+                "label_index": "@P7917",
                 "label_korean": "엔진 속도",
                 "group_id": "75538",
                 "req_frame_id": "226892",
@@ -499,13 +499,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "39539",
+                "help_code": "@P39539@T.",
                 "help_korean": "엔진 회전 속도는 분당 회전수로 표시한다."
             },
             {
                 "position": 2,
                 "mnemonic": "MP_TEMPERATURE_EAU_MOTEUR_a",
-                "label_index": "4789",
+                "label_index": "@P4789@\\*",
                 "label_korean": "엔진 냉각수 온도",
                 "group_id": "75536",
                 "req_frame_id": "226886",
@@ -521,13 +521,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "44055, 44054, 25652, 39498",
-                "help_korean": "냉각 시스템에서 냉각수 온도는 °C로 표시된다.\n값이 차량에 존재하는 조건과 일치하지 않을 경우, 안내된 방법을 사용한다.\n- 참고 : 냉각수 온도 정보가 정확하지 않을 경우, 냉간시 주행 즐거움, 공회전 세팅 및 배출 가스 제어가 영향받을 수 있다."
+                "help_code": "@P44055@T.@\\n@P44054@T.@\\n@P25652@T : @P39498@T.",
+                "help_korean": "냉각 시스템에서 냉각수 온도는 °C로 표시된다.\n값이 차량에 존재하는 조건과 일치하지 않을 경우, 안내된 방법을 사용한다.\n참고 : 냉각수 온도 정보가 정확하지 않을 경우, 냉간시 주행 즐거움, 공회전 세팅 및 배출 가스 제어가 영향받을 수 있다."
             },
             {
                 "position": 3,
                 "mnemonic": "MP_TEMPERATUREAIR",
-                "label_index": "29393",
+                "label_index": "@P29393",
                 "label_korean": "흡기 매니폴드에서 공기 온도",
                 "group_id": "75541",
                 "req_frame_id": "226901",
@@ -543,13 +543,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "29393, 39531, 39472, 25652, 45253",
-                "help_korean": "흡기 매니폴드에서 공기 온도. °C로 표시한다.\n외부 온도에 따라 다르다.\n- 참고 : 냉간 시 구동 압력, 인렛 기온 정보가 정확하기 않으면, 공회전 설정 및 배출 조절은 영향 받을 수 있다."
+                "help_code": "@P29393@T.@\\+@P39531@T.@\\n@P39472@T.@\\n@P25652@T : @P45253@T.",
+                "help_korean": "흡기 매니폴드에서 공기 온도.°C로 표시한다.\n외부 온도에 따라 다르다.\n참고 : 냉간 시 구동 압력, 인렛 기온 정보가 정확하기 않으면, 공회전 설정 및 배출 조절은 영향 받을 수 있다."
             },
             {
                 "position": 4,
                 "mnemonic": "MP_ENTREE_DEMANDE_CLIMATISATION_C5",
-                "label_index": "10562",
+                "label_index": "@P10562",
                 "label_korean": "에어컨 요청 입력",
                 "group_id": "75552",
                 "req_frame_id": "226934",
@@ -568,8 +568,8 @@
                 "bit_mask": 1,
                 "bit_shift": 0,
                 "dynamic_arg": "",
-                "help_code": "43115, 43145, 43146",
-                "help_korean": "에어컨 시스템이 엔진 ECU로부터 에어컨 컴프레서의 체결을 요구하는지 여부를 나타낸다.\n- 상태가 일치하지 않으면 : 안내된 방법을 사용한다."
+                "help_code": "@P43115@T.@\\n@P43145@T : @P43146@T.",
+                "help_korean": "에어컨 시스템이 엔진 ECU로부터 에어컨 컴프레서의 체결을 요구하는지 여부를 나타낸다.\n상태가 일치하지 않으면 : 안내된 방법을 사용한다."
             }
         ]
     },
@@ -582,7 +582,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_REGIME_MOTEUR_a",
-                "label_index": "7917",
+                "label_index": "@P7917",
                 "label_korean": "엔진 속도",
                 "group_id": "75538",
                 "req_frame_id": "226892",
@@ -600,13 +600,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "39539",
+                "help_code": "@P39539@T.",
                 "help_korean": "엔진 회전 속도는 분당 회전수로 표시한다."
             },
             {
                 "position": 2,
                 "mnemonic": "MP_TEMPERATURE_EAU_MOTEUR_a",
-                "label_index": "4789",
+                "label_index": "@P4789@\\*",
                 "label_korean": "엔진 냉각수 온도",
                 "group_id": "75536",
                 "req_frame_id": "226886",
@@ -622,14 +622,14 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "44055, 44054, 25652, 39498",
-                "help_korean": "냉각 시스템에서 냉각수 온도는 °C로 표시된다.\n값이 차량에 존재하는 조건과 일치하지 않을 경우, 안내된 방법을 사용한다.\n- 참고 : 냉각수 온도 정보가 정확하지 않을 경우, 냉간시 주행 즐거움, 공회전 세팅 및 배출 가스 제어가 영향받을 수 있다."
+                "help_code": "@P44055@T.@\\n@P44054@T.@\\n@P25652@T : @P39498@T.",
+                "help_korean": "냉각 시스템에서 냉각수 온도는 °C로 표시된다.\n값이 차량에 존재하는 조건과 일치하지 않을 경우, 안내된 방법을 사용한다.\n참고 : 냉각수 온도 정보가 정확하지 않을 경우, 냉간시 주행 즐거움, 공회전 세팅 및 배출 가스 제어가 영향받을 수 있다."
             },
             {
                 "position": 3,
                 "mnemonic": "MP_CHARGEMOTEUR",
-                "label_index": "25869",
-                "label_korean": "정보 엔진 부하",
+                "label_index": "@P25869@\\+@P14228",
+                "label_korean": "정보엔진 부하",
                 "group_id": "75535",
                 "req_frame_id": "226883",
                 "resp_frame_id": "226884",
@@ -644,13 +644,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "39508, 45205, 39474, 45218, 39561, 25652, 39551, 25652, 25652, 39474",
-                "help_korean": "ECU는 엔진의 요구와 운전자의 요구 (페달의 위치)에 따라 흡기 매니폴드에서 공기량을 반드시 계산해야 하는 페어 구조로 작동한다 (발전기, 에어 콘 컴프레서, 등에서 얻어진 토크).\n이 변수는 참고용으로만 제공된다, ECU가 엔진 부하와 관련된 여러 요청을 받는다면 사용자가 볼 수 있도록 한다.\n전기 소모 장치 없이 공회전 속도 = 참고.5%\n소모 장치 없이 1rpm에서 = 참고%\n- 참고 : 이 변수는 참고용으로만 제공된다."
+                "help_code": "@P39508@\\+@P45205@T.@\\n@P39474@T,@\\+@P45218@T.@\\n@P39561@T = @P25652@\\*1.5@\\*3%@\\n@P39551@\\*2500@T = @P25652@\\*4@\\*10%@\\n@P25652@T : @P39474@T.",
+                "help_korean": "ECU는 엔진의 요구와 운전자의 요구 (페달의 위치)에 따라 흡기 매니폴드에서 공기량을 반드시 계산해야 하는 페어 구조로 작동한다(발전기, 에어 콘 컴프레서, 등에서 얻어진 토크).\n이 변수는 참고용으로만 제공된다,ECU가 엔진 부하와 관련된 여러 요청을 받는다면 사용자가 볼 수 있도록 한다.\n전기 소모 장치 없이 공회전 속도 = 참고.5%\n소모 장치 없이 1rpm에서 = 참고%\n참고 : 이 변수는 참고용으로만 제공된다."
             },
             {
                 "position": 4,
                 "mnemonic": "MP_ETATPEDALEFREIN",
-                "label_index": "22767",
+                "label_index": "@P22767",
                 "label_korean": "브레이크 페달 위치",
                 "group_id": "75550",
                 "req_frame_id": "226928",
@@ -669,13 +669,13 @@
                 "bit_mask": 4,
                 "bit_shift": 2,
                 "dynamic_arg": "",
-                "help_code": "39543",
+                "help_code": "@P39543@T.",
                 "help_korean": "브레이크 페달 포지션 센서로부터 엔진 ECU에 의해 수신된 정보."
             },
             {
                 "position": 5,
                 "mnemonic": "MP_VITESSE_VEHICULE_a",
-                "label_index": "7997",
+                "label_index": "@P7997@\\*",
                 "label_korean": "차량 속도",
                 "group_id": "75539",
                 "req_frame_id": "226895",
@@ -695,8 +695,8 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "39477, 39541, 39509, 39536, 43996, 45206, 25652, 39565",
-                "help_korean": "실제 차량 속도.kph로 표시한다.\n이 속도는 제어 패널에 표시된 속도 아래이다.\n이 정보는 CAN를 통해서 ABS ECU로 부터 제공된다.\n- 값이 일치하지 않을 경우 :\nABS ECU에 결함이 존재하는지 점검한다.\n- 참고 : 차량 속도 정보가 정확하지 않을 경우, 주행 즐거움 뿐만 아니라 배출 가스 제어에도 영향을 줄 수 있다."
+                "help_code": "@P39477@T.@P39541@T.@\\n@P39509@T.@\\n@P39536@T.@\\n@P43996@T :@\\n@P45206@T.@\\n@P25652@T : @P39565@T.",
+                "help_korean": "실제 차량 속도.kph로 표시한다.\n이 속도는 제어 패널에 표시된 속도 아래이다.\n이 정보는 CAN를 통해서 ABS ECU로 부터 제공된다.\n값이 일치하지 않을 경우 :\nABS ECU에 결함이 존재하는지 점검한다.\n참고 : 차량 속도 정보가 정확하지 않을 경우, 주행 즐거움 뿐만 아니라 배출 가스 제어에도 영향을 줄 수 있다."
             }
         ]
     },
@@ -709,7 +709,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_NBREPCODPRESENT",
-                "label_index": "40715",
+                "label_index": "@P40715",
                 "label_korean": "엔진 ECU에 존재하는 결함의 수",
                 "group_id": "75547",
                 "req_frame_id": "226919",
@@ -725,13 +725,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "39530",
+                "help_code": "@P39530@T.",
                 "help_korean": "변수 측정 당시 ECU에 존재한 결함의 수."
             },
             {
                 "position": 2,
                 "mnemonic": "MP_NIVEAUDEPOLL",
-                "label_index": "40973",
+                "label_index": "@P40973",
                 "label_korean": "ECU의 배출가스 제어 버전",
                 "group_id": "75545",
                 "req_frame_id": "226913",
@@ -747,13 +747,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "43147, 43148",
+                "help_code": "@P43147@T.@\\n@P43148@T.",
                 "help_korean": "ECU의 배출 가스 제어 레벨 표시.\n엔진 ECU를 교환할 경우, ECU가 차량과 올바르게 매칭되었는지를 점검할 수 있도록 한다 (교환된 ECU에 맞게 점검되어야 한다)."
             },
             {
                 "position": 3,
                 "mnemonic": "MP_ALLUMAGEMIL",
-                "label_index": "19547",
+                "label_index": "@P19547@T : @P934",
                 "label_korean": "상태 : MIL의 점등",
                 "group_id": "75533",
                 "req_frame_id": "226877",
@@ -772,13 +772,13 @@
                 "bit_mask": 128,
                 "bit_shift": 7,
                 "dynamic_arg": "",
-                "help_code": "39547",
-                "help_korean": "계기판에서 MIL 점등 상태, 이는 배출 가스 및 작동 안전과 관련된 엔진 문제가\n- 발생했다는 것을 운전자에 알리기 위해서 점등된다 (예: 촉매 결함)"
+                "help_code": "@P39547",
+                "help_korean": "계기판에서 MIL 점등 상태, 이는 배출 가스 및 작동 안전과 관련된 엔진 문제가 발생했다는 것을 운전자에 알리기 위해서 점등된다 (예: 촉매 결함)"
             },
             {
                 "position": 4,
                 "mnemonic": "MP_COMPTAGEMIL",
-                "label_index": "40409",
+                "label_index": "@P40409",
                 "label_korean": "경고등이 점등된 후 주행한 거리 (경고등 결함이 있을 경우)",
                 "group_id": "75546",
                 "req_frame_id": "226916",
@@ -794,7 +794,7 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "39520",
+                "help_code": "@P39520@T.",
                 "help_korean": "MIL 결함이 있을 경우 MIL이 점등된 마지막 시간 이후 주행한 거리."
             }
         ]
@@ -808,7 +808,7 @@
             {
                 "position": 1,
                 "mnemonic": "CODEDEFAUT",
-                "label_index": "9448",
+                "label_index": "@P9448",
                 "label_korean": "결함 코드",
                 "group_id": "매핑_누락",
                 "req_frame_id": "",
@@ -830,7 +830,7 @@
             {
                 "position": 2,
                 "mnemonic": "CA_REGIME_MOTEUR",
-                "label_index": "7917",
+                "label_index": "@P7917",
                 "label_korean": "엔진 속도",
                 "group_id": "매핑_누락",
                 "req_frame_id": "",
@@ -852,7 +852,7 @@
             {
                 "position": 3,
                 "mnemonic": "CA_TEMPERATURE_EAU_a",
-                "label_index": "10576",
+                "label_index": "@P10576",
                 "label_korean": "냉각수 온도",
                 "group_id": "매핑_누락",
                 "req_frame_id": "",
@@ -874,7 +874,7 @@
             {
                 "position": 4,
                 "mnemonic": "MP_VITESSE_VEHICULE_e",
-                "label_index": "7997",
+                "label_index": "@P7997@\\*",
                 "label_korean": "차량 속도",
                 "group_id": "매핑_누락",
                 "req_frame_id": "",
@@ -900,7 +900,7 @@
             {
                 "position": 5,
                 "mnemonic": "CA_INFORMATION_CHARGE_MOTEUR",
-                "label_index": "40500",
+                "label_index": "@P40500",
                 "label_korean": "엔진 부하 정보",
                 "group_id": "매핑_누락",
                 "req_frame_id": "",
@@ -922,7 +922,7 @@
             {
                 "position": 6,
                 "mnemonic": "CA_PRESSION_TUBULURE_ADMISSION",
-                "label_index": "9529",
+                "label_index": "@P9529",
                 "label_korean": "흡기 매니폴드 압력",
                 "group_id": "매핑_누락",
                 "req_frame_id": "",

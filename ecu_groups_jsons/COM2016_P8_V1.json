@@ -8,7 +8,7 @@
             {
                 "position": 1,
                 "mnemonic": "ID_NOM_DU_FOURNISSEUR",
-                "label_index": "5701",
+                "label_index": "@P5701",
                 "label_korean": "제조 업체명",
                 "group_id": "153129",
                 "req_frame_id": "459730",
@@ -38,7 +38,7 @@
             {
                 "position": 2,
                 "mnemonic": "ID_REFERENCE_MATERIEL",
-                "label_index": "1071",
+                "label_index": "@P1071",
                 "label_korean": "장치 부품 번호",
                 "group_id": "153129",
                 "req_frame_id": "459730",
@@ -60,7 +60,7 @@
             {
                 "position": 3,
                 "mnemonic": "ID_REFERENCE_COMPLEMENTAIRE_MATERIEL",
-                "label_index": "1634",
+                "label_index": "@P1634",
                 "label_korean": "장치 추가 참조 번호",
                 "group_id": "153129",
                 "req_frame_id": "459730",
@@ -82,7 +82,7 @@
             {
                 "position": 4,
                 "mnemonic": "ID_TRACABILITE_INDICE_EVOLUTION_EDITION",
-                "label_index": "24601",
+                "label_index": "@P24601",
                 "label_korean": "소프트웨어 버전",
                 "group_id": "153129",
                 "req_frame_id": "459730",
@@ -112,7 +112,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_COMMANDE_IMPULSIONNELLE_FEUX_DE_ROUTE",
-                "label_index": "35361",
+                "label_index": "@P35361",
                 "label_korean": "전조등 상향 헤드램프 푸시 컨트롤",
                 "group_id": "153132",
                 "req_frame_id": "459739",
@@ -131,13 +131,13 @@
                 "bit_mask": 64,
                 "bit_shift": 6,
                 "dynamic_arg": "",
-                "help_code": "42393",
+                "help_code": "@P42393",
                 "help_korean": "라이트 스위치에 의한 헤드램프 깜박거림 요청에 해당된다"
             },
             {
                 "position": 2,
                 "mnemonic": "MP_PUSH_COMMANDE_ECLAIRAGE",
-                "label_index": "17330",
+                "label_index": "@P17330",
                 "label_korean": "라이트 스위치 끝단에서 푸시 버튼",
                 "group_id": "153132",
                 "req_frame_id": "459739",
@@ -156,13 +156,13 @@
                 "bit_mask": 32,
                 "bit_shift": 5,
                 "dynamic_arg": "",
-                "help_code": "42391",
+                "help_code": "@P42391",
                 "help_korean": "라이트 스위치에 의한 푸시버튼에서 누름에 해당된다"
             },
             {
                 "position": 3,
                 "mnemonic": "MP_COMMANDE_CLIGNOTANTS",
-                "label_index": "13624",
+                "label_index": "@P13624@\\*",
                 "label_korean": "표시계 라이트 제어",
                 "group_id": "153132",
                 "req_frame_id": "459739",
@@ -183,13 +183,13 @@
                 "bit_mask": 24,
                 "bit_shift": 3,
                 "dynamic_arg": "",
-                "help_code": "42392",
+                "help_code": "@P42392",
                 "help_korean": "라이트 스위치에 의한 방향 지시등 작동 요청에 해당된다"
             },
             {
                 "position": 4,
                 "mnemonic": "MP_COMMANDE_INVERSEUR_FEUX_DE_CROISEMENT_FEUX_DE_ROUTE",
-                "label_index": "10526",
+                "label_index": "@P10526",
                 "label_korean": "전조등 하향/전조등 상향 인버터",
                 "group_id": "153132",
                 "req_frame_id": "459739",
@@ -208,7 +208,7 @@
                 "bit_mask": 128,
                 "bit_shift": 7,
                 "dynamic_arg": "",
-                "help_code": "41648",
+                "help_code": "@P41648",
                 "help_korean": "라이트 스위치에 의한 전조등 상향 및 전조등 하향간의 변경 요청에 해당된다"
             }
         ]
@@ -222,7 +222,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_COMMANDE_ESSUYAGE_PARE_BRISE",
-                "label_index": "4685",
+                "label_index": "@P4685",
                 "label_korean": "윈드스크린 와이퍼 제어",
                 "group_id": "153131",
                 "req_frame_id": "459736",
@@ -254,13 +254,13 @@
                 "bit_mask": 224,
                 "bit_shift": 5,
                 "dynamic_arg": "",
-                "help_code": "42395",
+                "help_code": "@P42395",
                 "help_korean": "와이퍼 스위치에 의한 윈드스크린 와이퍼 작동 요청에 해당된다"
             },
             {
                 "position": 2,
                 "mnemonic": "MP_COMMANDE_ESSUYAGE_IMPULSIONNELLE_AVANT",
-                "label_index": "5531",
+                "label_index": "@P5531",
                 "label_korean": "프론트 원터치 와이핑 제어",
                 "group_id": "153131",
                 "req_frame_id": "459736",
@@ -279,13 +279,13 @@
                 "bit_mask": 16,
                 "bit_shift": 4,
                 "dynamic_arg": "",
-                "help_code": "41650",
+                "help_code": "@P41650",
                 "help_korean": "와이퍼 스위치에 의한 윈드스크린 와이퍼 및 와셔 작동 요청에 해당된다"
             },
             {
                 "position": 3,
                 "mnemonic": "MP_COMMANDE_LAVAGE_PARE_BRISE",
-                "label_index": "3116",
+                "label_index": "@F3116",
                 "label_korean": "윈드스크린 와셔 작동 제어",
                 "group_id": "153131",
                 "req_frame_id": "459736",
@@ -306,13 +306,13 @@
                 "bit_mask": 8,
                 "bit_shift": 3,
                 "dynamic_arg": "",
-                "help_code": "42394",
+                "help_code": "@P42394",
                 "help_korean": "와이퍼 스위치에 의한 윈드스크린 와이퍼 작동 요청에 해당된다"
             },
             {
                 "position": 4,
                 "mnemonic": "MP_COMMANDE_ESSUYAGE_LUNETTE_ARRIERE",
-                "label_index": "7042",
+                "label_index": "@P7042",
                 "label_korean": "리어 스크린 와이퍼 명령",
                 "group_id": "153131",
                 "req_frame_id": "459736",
@@ -331,13 +331,13 @@
                 "bit_mask": 4,
                 "bit_shift": 2,
                 "dynamic_arg": "",
-                "help_code": "41651",
+                "help_code": "@P41651",
                 "help_korean": "와이퍼 스위치에 의한 리어 스크린 와이퍼 작동 요청에 해당된다"
             },
             {
                 "position": 5,
                 "mnemonic": "MP_DEMANDE_LAVAGE_LUNETTE",
-                "label_index": "11753",
+                "label_index": "@P11753",
                 "label_korean": "리어 스크린 와셔 요청",
                 "group_id": "153131",
                 "req_frame_id": "459736",
@@ -356,13 +356,13 @@
                 "bit_mask": 2,
                 "bit_shift": 1,
                 "dynamic_arg": "",
-                "help_code": "41649",
+                "help_code": "@P41649",
                 "help_korean": "와이퍼 스위치에 의한 리어 스크린 와셔 작동 요청에 해당된다"
             },
             {
                 "position": 6,
                 "mnemonic": "MP_PUSH_COMMANDE_ESSUYAGE",
-                "label_index": "17022",
+                "label_index": "@P17022",
                 "label_korean": "와이퍼 스위치 끝단에서 푸시 버튼",
                 "group_id": "153131",
                 "req_frame_id": "459736",
@@ -381,13 +381,13 @@
                 "bit_mask": 1,
                 "bit_shift": 0,
                 "dynamic_arg": "",
-                "help_code": "21748",
+                "help_code": "@P21748@T.",
                 "help_korean": "와이퍼 스위치 푸시 버튼에서 누름에 해당된다."
             },
             {
                 "position": 7,
                 "mnemonic": "MP_REGLAGE_SENSIBILISATION_FONCTION_ESSUIE_VITRE",
-                "label_index": "54394",
+                "label_index": "@P54394",
                 "label_korean": "와이퍼 감도 조정 상태",
                 "group_id": "153131",
                 "req_frame_id": "459736",
@@ -417,7 +417,7 @@
             {
                 "position": 8,
                 "mnemonic": "MP_ETAT_COMMANDE_ESSUIE_VITRE",
-                "label_index": "54502",
+                "label_index": "@P54502",
                 "label_korean": "와이퍼 컨트롤 상태",
                 "group_id": "153131",
                 "req_frame_id": "459736",
@@ -453,7 +453,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_AVERTISSEUR_SONORE",
-                "label_index": "11277",
+                "label_index": "@P11277",
                 "label_korean": "혼",
                 "group_id": "153133",
                 "req_frame_id": "459742",
@@ -472,7 +472,7 @@
                 "bit_mask": 128,
                 "bit_shift": 7,
                 "dynamic_arg": "",
-                "help_code": "41647",
+                "help_code": "@P41647",
                 "help_korean": "스티어링 휠에서 혼 요청에 해당된다"
             }
         ]
@@ -486,7 +486,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_SYNCHRO_CLE",
-                "label_index": "17305",
+                "label_index": "@P17305",
                 "label_korean": "키의 동기화",
                 "group_id": "153134",
                 "req_frame_id": "459745",
@@ -505,13 +505,13 @@
                 "bit_mask": 128,
                 "bit_shift": 7,
                 "dynamic_arg": "",
-                "help_code": "34910, 34338",
+                "help_code": "@P34910@T.@\\n@P34338",
                 "help_korean": "변수 측정은 핸즈-프리 시동 기능이 장착된 차량에는 유효하지 않다.\n리모컨의 버튼을 누르고 변수 측정의 상태를 점검한다"
             },
             {
                 "position": 2,
                 "mnemonic": "MP_PRESENCE_CLE",
-                "label_index": "3979",
+                "label_index": "@P3979",
                 "label_korean": "키 존재",
                 "group_id": "153134",
                 "req_frame_id": "459745",
@@ -532,7 +532,7 @@
                 "bit_mask": 64,
                 "bit_shift": 6,
                 "dynamic_arg": "",
-                "help_code": "34910, 34338",
+                "help_code": "@P34910@T.@\\n@P34338",
                 "help_korean": "변수 측정은 핸즈-프리 시동 기능이 장착된 차량에는 유효하지 않다.\n리모컨의 버튼을 누르고 변수 측정의 상태를 점검한다"
             }
         ]
@@ -546,7 +546,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_COMMANDE_FEUX_BROUILLARD_ARRIERE",
-                "label_index": "28787",
+                "label_index": "@P28787",
                 "label_korean": "리어 안개등 제어",
                 "group_id": "153135",
                 "req_frame_id": "459748",
@@ -572,7 +572,7 @@
             {
                 "position": 2,
                 "mnemonic": "MP_COMMANDE_FEUX_BROUILLARD_AVANT",
-                "label_index": "27890",
+                "label_index": "@P27890",
                 "label_korean": "프론트 안개등 제어",
                 "group_id": "153135",
                 "req_frame_id": "459748",

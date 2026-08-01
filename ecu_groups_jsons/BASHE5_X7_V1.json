@@ -8,7 +8,7 @@
             {
                 "position": 1,
                 "mnemonic": "ID_REFERENCE_FOURNISSEUR",
-                "label_index": "633",
+                "label_index": "@P633",
                 "label_korean": "제조업체",
                 "group_id": "115399",
                 "req_frame_id": "346543",
@@ -34,7 +34,7 @@
             {
                 "position": 2,
                 "mnemonic": "ID_REFERENCE_PSA",
-                "label_index": "8615",
+                "label_index": "@P8615",
                 "label_korean": "PSA 부품 번호",
                 "group_id": "115399",
                 "req_frame_id": "346543",
@@ -56,7 +56,7 @@
             {
                 "position": 3,
                 "mnemonic": "ID_NUM_COMP_new_2",
-                "label_index": "5292",
+                "label_index": "@P5292",
                 "label_korean": "추가 번호",
                 "group_id": "115399",
                 "req_frame_id": "346543",
@@ -78,7 +78,7 @@
             {
                 "position": 4,
                 "mnemonic": "ID_REF_LOGICIEL_NEW_1",
-                "label_index": "4799",
+                "label_index": "@P4799@\\*",
                 "label_korean": "소프트웨어 번호",
                 "group_id": "115403",
                 "req_frame_id": "346555",
@@ -100,7 +100,7 @@
             {
                 "position": 5,
                 "mnemonic": "ID_INDICE_EVOLUTION_LOGICIEL",
-                "label_index": "11662",
+                "label_index": "@P11662",
                 "label_korean": "소프트웨어 버전 인덱스",
                 "group_id": "115399",
                 "req_frame_id": "346543",
@@ -122,7 +122,7 @@
             {
                 "position": 6,
                 "mnemonic": "ID_80_MP_INDICE_MESS",
-                "label_index": "2225",
+                "label_index": "@P2225",
                 "label_korean": "메시지 인덱스",
                 "group_id": "115399",
                 "req_frame_id": "346543",
@@ -152,7 +152,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_DEBATTEMENT_INSTANTANE_LU_SUR_CAPTEUR_ARG",
-                "label_index": "19366",
+                "label_index": "@P19366",
                 "label_korean": "리어 좌측 센서에서 읽은 즉각적인 이동 거리",
                 "group_id": "115400",
                 "req_frame_id": "346546",
@@ -174,7 +174,7 @@
             {
                 "position": 2,
                 "mnemonic": "MP_DEBATTEMENT_INSTANTANE_LU_SUR_CAPTEUR_ARD",
-                "label_index": "19310",
+                "label_index": "@P19310",
                 "label_korean": "리어 우측 센서에서 읽은 즉각적인 디옹 거리",
                 "group_id": "115400",
                 "req_frame_id": "346546",
@@ -196,7 +196,7 @@
             {
                 "position": 3,
                 "mnemonic": "MP_TENSION_CAPTEUR_HAUTEUR_DE_CAISSE_ARG",
-                "label_index": "19271",
+                "label_index": "@P19271",
                 "label_korean": "리어 좌측 차고 높이 센서 전압",
                 "group_id": "115401",
                 "req_frame_id": "346549",
@@ -218,7 +218,7 @@
             {
                 "position": 4,
                 "mnemonic": "MP_TENSION_CAPTEUR_HAUTEUR_DE_CAISSE_ARD",
-                "label_index": "19123",
+                "label_index": "@P19123",
                 "label_korean": "리어 우측 차고 높이 센서 전압",
                 "group_id": "115401",
                 "req_frame_id": "346549",
@@ -240,7 +240,7 @@
             {
                 "position": 5,
                 "mnemonic": "MP_VITESSE_VEHICULE_d",
-                "label_index": "7997",
+                "label_index": "@P7997@\\*",
                 "label_korean": "차량 속도",
                 "group_id": "115400",
                 "req_frame_id": "346546",
@@ -260,13 +260,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "8755",
+                "help_code": "@P8755",
                 "help_korean": "km/h의 차량 속도"
             },
             {
                 "position": 6,
                 "mnemonic": "MP_TENSION_EMISE_EN_SORTIE_DU_BASHE5",
-                "label_index": "19110",
+                "label_index": "@P19110",
                 "label_korean": "바쉬 5 (BHI 향한) 로부터 방출 출력 전압",
                 "group_id": "115401",
                 "req_frame_id": "346549",
@@ -288,7 +288,7 @@
             {
                 "position": 7,
                 "mnemonic": "MP_TENSION_BATTERIE",
-                "label_index": "18263",
+                "label_index": "@P18263",
                 "label_korean": "배터리 전압",
                 "group_id": "115400",
                 "req_frame_id": "346546",
@@ -306,13 +306,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "4036",
+                "help_code": "@P4036",
                 "help_korean": "ECU에 의해 측정된 배터리 전압이 배터리 단자에서 측정된 전압과 약간 다를 수 있다"
             },
             {
                 "position": 8,
                 "mnemonic": "MP_ALIM_DES_CAPTEURS_DE_HAUTEUR_DE_CAISSE",
-                "label_index": "9615",
+                "label_index": "@P9615",
                 "label_korean": "차고 높이 센서 전원",
                 "group_id": "115401",
                 "req_frame_id": "346549",
@@ -342,7 +342,7 @@
             {
                 "position": 1,
                 "mnemonic": "APPCAPTHAUTEURARG",
-                "label_index": "16078",
+                "label_index": "@P16078",
                 "label_korean": "리어 좌측 높이 센서 프로그래밍",
                 "group_id": "115400",
                 "req_frame_id": "346546",
@@ -361,13 +361,13 @@
                 "bit_mask": 64,
                 "bit_shift": 6,
                 "dynamic_arg": "",
-                "help_code": "8249",
+                "help_code": "@P8249",
                 "help_korean": "이 변수는 리어 좌측 차고 높이 센서에서 프로그래밍이 정상적으로 진행되었는지를 표시하기 위해서 사용한다"
             },
             {
                 "position": 2,
                 "mnemonic": "APPCAPTHAUTEURARD",
-                "label_index": "4433",
+                "label_index": "@P4433",
                 "label_korean": "리어 우측 높이 센서 프로그래밍",
                 "group_id": "115400",
                 "req_frame_id": "346546",
@@ -386,7 +386,7 @@
                 "bit_mask": 128,
                 "bit_shift": 7,
                 "dynamic_arg": "",
-                "help_code": "15825",
+                "help_code": "@P15825",
                 "help_korean": "이 변수는 리어 우측 차고 높이 센서에서 프로그래밍이 정상적으로 진행되었는지를 표시하기 위해서 사용한다"
             }
         ]
@@ -400,7 +400,7 @@
             {
                 "position": 1,
                 "mnemonic": "CA_TENSION_ALIMENTATION",
-                "label_index": "7080",
+                "label_index": "@P7080",
                 "label_korean": "공급 전압",
                 "group_id": "115402",
                 "req_frame_id": "346552",
@@ -422,7 +422,7 @@
             {
                 "position": 2,
                 "mnemonic": "CA_VITESSE_VEHICULE",
-                "label_index": "15603",
+                "label_index": "@P15603@\\*",
                 "label_korean": "차량 속도",
                 "group_id": "115402",
                 "req_frame_id": "346552",

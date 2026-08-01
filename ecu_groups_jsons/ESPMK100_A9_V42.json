@@ -8,7 +8,7 @@
             {
                 "position": 1,
                 "mnemonic": "ID_NOM_DU_FOURNISSEUR",
-                "label_index": "5701",
+                "label_index": "@P5701",
                 "label_korean": "제조 업체명",
                 "group_id": "43720",
                 "req_frame_id": "131458",
@@ -38,7 +38,7 @@
             {
                 "position": 2,
                 "mnemonic": "ID_REFERENCE_MATERIEL",
-                "label_index": "1071",
+                "label_index": "@P1071",
                 "label_korean": "장치 부품 번호",
                 "group_id": "43720",
                 "req_frame_id": "131458",
@@ -60,7 +60,7 @@
             {
                 "position": 3,
                 "mnemonic": "ID_REFERENCE_COMPLEMENTAIRE_MATERIEL",
-                "label_index": "1634",
+                "label_index": "@P1634",
                 "label_korean": "장치 추가 참조 번호",
                 "group_id": "43720",
                 "req_frame_id": "131458",
@@ -82,7 +82,7 @@
             {
                 "position": 4,
                 "mnemonic": "ID_REFERENCE_LOGICIEL",
-                "label_index": "13263",
+                "label_index": "@P13263",
                 "label_korean": "소프트웨어 번호",
                 "group_id": "43721",
                 "req_frame_id": "131461",
@@ -104,7 +104,7 @@
             {
                 "position": 5,
                 "mnemonic": "ID_VERSION_DU_LOGICIEL",
-                "label_index": "8662",
+                "label_index": "@P8662",
                 "label_korean": "소프트웨어 버전",
                 "group_id": "43720",
                 "req_frame_id": "131458",
@@ -126,7 +126,7 @@
             {
                 "position": 6,
                 "mnemonic": "ID_REF_CALIBRATION_new_1",
-                "label_index": "7014",
+                "label_index": "@P7014",
                 "label_korean": "캘리브레이션 버전",
                 "group_id": "43720",
                 "req_frame_id": "131458",
@@ -148,7 +148,7 @@
             {
                 "position": 7,
                 "mnemonic": "ID_80_MP_INDICE_MESS",
-                "label_index": "2225",
+                "label_index": "@P2225",
                 "label_korean": "메시지 인덱스",
                 "group_id": "43720",
                 "req_frame_id": "131458",
@@ -208,7 +208,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_TENSION_ALIMENTATION",
-                "label_index": "7080",
+                "label_index": "@P7080",
                 "label_korean": "공급 전압",
                 "group_id": "43723",
                 "req_frame_id": "131467",
@@ -224,13 +224,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "24873, 24855",
+                "help_code": "@P24873@\\*9,3@\\n@P24855@\\*16",
                 "help_korean": "전압이 9V 미만이면, 낮은 전압 결함이 존재한다,3\n전압이 9V이상이면, 과도한 전압 결함이 존재한다"
             },
             {
                 "position": 2,
                 "mnemonic": "MP_VIT_ROUE_AR_G",
-                "label_index": "13812",
+                "label_index": "@P13812",
                 "label_korean": "리어 좌측 휠 속도",
                 "group_id": "43723",
                 "req_frame_id": "131467",
@@ -248,13 +248,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "24803, 26004",
+                "help_code": "@P24803@T.@\\n@P26004@\\*0xFFFF",
                 "help_korean": "이 정보는 타이어 직경 및 센서에 의해 리턴되는 정보로 부터 계산된다.\nESP가 설정되지 않으면, 진단기에 표시되는 값은 0xFFFF에 해당한다"
             },
             {
                 "position": 3,
                 "mnemonic": "MP_VITESSE_ROUE_ARRIERE_DROITE_a",
-                "label_index": "8028",
+                "label_index": "@P8028",
                 "label_korean": "리어 우측 휠 속도",
                 "group_id": "43723",
                 "req_frame_id": "131467",
@@ -272,13 +272,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "24803, 26004",
+                "help_code": "@P24803@T.@\\n@P26004@\\*0xFFFF",
                 "help_korean": "이 정보는 타이어 직경 및 센서에 의해 리턴되는 정보로 부터 계산된다.\nESP가 설정되지 않으면, 진단기에 표시되는 값은 0xFFFF에 해당한다"
             },
             {
                 "position": 4,
                 "mnemonic": "MP_VITESSE_ROUE_AVANT_GAUCHE_a",
-                "label_index": "8278",
+                "label_index": "@P8278",
                 "label_korean": "프론트 좌측 휠 속도",
                 "group_id": "43723",
                 "req_frame_id": "131467",
@@ -296,13 +296,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "24803, 26004",
+                "help_code": "@P24803@T.@\\n@P26004@\\*0xFFFF",
                 "help_korean": "이 정보는 타이어 직경 및 센서에 의해 리턴되는 정보로 부터 계산된다.\nESP가 설정되지 않으면, 진단기에 표시되는 값은 0xFFFF에 해당한다"
             },
             {
                 "position": 5,
                 "mnemonic": "MP_VITESSE_ROUE_AVANT_DROITE_a",
-                "label_index": "11398",
+                "label_index": "@P11398",
                 "label_korean": "프론트 우측 휠 속도",
                 "group_id": "43723",
                 "req_frame_id": "131467",
@@ -320,13 +320,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "24803, 26004",
+                "help_code": "@P24803@T.@\\n@P26004@\\*0xFFFF",
                 "help_korean": "이 정보는 타이어 직경 및 센서에 의해 리턴되는 정보로 부터 계산된다.\nESP가 설정되지 않으면, 진단기에 표시되는 값은 0xFFFF에 해당한다"
             },
             {
                 "position": 6,
                 "mnemonic": "MP_VITESSE_VEHICULE",
-                "label_index": "7997",
+                "label_index": "@P7997@\\*",
                 "label_korean": "차량 속도",
                 "group_id": "43723",
                 "req_frame_id": "131467",
@@ -346,13 +346,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "24936, 24876, 24895, 24919",
-                "help_korean": "이는 차량의 프론트 액슬 속도이다.\n이 속도는 타이어 직경과 프론트 휠에 위치한 센서의 의해 리턴되는 정보로부터 계산된다.\n프론트 휠 센서 중 하나가 결함일 경우, 차량 속도 정보는 정상적인 프론트 휠 센서와 결함이 있는 프론트 휠의 맞은편 대각에 있는 리어 휠 속도로부터 계산된다. 프론트 2개의 휠 센서가 결함이면, 차량 속도 정보는 2개의 리어 휠과 설정된 타이어 직경으로부터 계산된다."
+                "help_code": "@P24936@T.@\\n@P24876@T.@\\n@P24895@T.@\\+@P24919@T.",
+                "help_korean": "이는 차량의 프론트 액슬 속도이다.\n이 속도는 타이어 직경과 프론트 휠에 위치한 센서의 의해 리턴되는 정보로부터 계산된다.\n프론트 휠 센서 중 하나가 결함일 경우, 차량 속도 정보는 정상적인 프론트 휠 센서와 결함이 있는 프론트 휠의 맞은편 대각에 있는 리어 휠 속도로부터 계산된다.프론트 2개의 휠 센서가 결함이면, 차량 속도 정보는 2개의 리어 휠과 설정된 타이어 직경으로부터 계산된다."
             },
             {
                 "position": 7,
                 "mnemonic": "MP_VITESSE_ANGLE_LACET",
-                "label_index": "7157",
+                "label_index": "@P7157",
                 "label_korean": "요잉 각도 속도",
                 "group_id": "43728",
                 "req_frame_id": "131482",
@@ -368,13 +368,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "24880, 24849",
-                "help_korean": "가속도계 자이로스코프 센서에 의해 측정된 휠의 축 회전 속도. 속도는 좌측으로 굽은 경우 양성이다."
+                "help_code": "@P24880@T.@\\+@P24849@T.",
+                "help_korean": "가속도계 자이로스코프 센서에 의해 측정된 휠의 축 회전 속도.속도는 좌측으로 굽은 경우 양성이다."
             },
             {
                 "position": 8,
                 "mnemonic": "MP_ACCELERATION_TRANSVERSALE",
-                "label_index": "13706",
+                "label_index": "@P13706",
                 "label_korean": "횡가속도",
                 "group_id": "43728",
                 "req_frame_id": "131482",
@@ -393,13 +393,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "24909, 24930",
-                "help_korean": "자이로미터-가속도계 센서에 의해 측정된 속도. 이 측정은 좌측으로 굽은 경우 양성이다."
+                "help_code": "@P24909@T.@\\+@P24930@T.",
+                "help_korean": "자이로미터-가속도계 센서에 의해 측정된 속도.이 측정은 좌측으로 굽은 경우 양성이다."
             },
             {
                 "position": 9,
                 "mnemonic": "MP_PRESSION_DE_FREINAGE",
-                "label_index": "9084",
+                "label_index": "@P9084",
                 "label_korean": "제동 압력",
                 "group_id": "43728",
                 "req_frame_id": "131482",
@@ -417,13 +417,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "15530",
+                "help_code": "@P15530",
                 "help_korean": "마스터 실린더에 있는 압력 센서에 의해 측정된 정보"
             },
             {
                 "position": 10,
                 "mnemonic": "MP_REGIME_MOTEUR",
-                "label_index": "7917",
+                "label_index": "@P7917",
                 "label_korean": "엔진 속도",
                 "group_id": "43728",
                 "req_frame_id": "131482",
@@ -447,8 +447,8 @@
             {
                 "position": 11,
                 "mnemonic": "MP_DIAGNOSTIC_COMMUNICATION_RESEAU",
-                "label_index": "8094",
-                "label_korean": "네트워크통신 진단",
+                "label_index": "@P8094@\\*",
+                "label_korean": "네트워크 통신 진단",
                 "group_id": "43729",
                 "req_frame_id": "131485",
                 "resp_frame_id": "131486",
@@ -468,13 +468,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "2538",
+                "help_code": "@P2538@T.",
                 "help_korean": "키를 ON하고 엔진이 구동할 경우 작동."
             },
             {
                 "position": 12,
                 "mnemonic": "MP_ACQUITTEMENT_MOTEUR",
-                "label_index": "5542",
+                "label_index": "@P5542",
                 "label_korean": "엔진 인식",
                 "group_id": "43728",
                 "req_frame_id": "131482",
@@ -501,7 +501,7 @@
             {
                 "position": 13,
                 "mnemonic": "MP_ACCELERATION_LONGITUDINALE",
-                "label_index": "3354",
+                "label_index": "@P3354",
                 "label_korean": "종가속도",
                 "group_id": "43728",
                 "req_frame_id": "131482",
@@ -519,7 +519,7 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "29912",
+                "help_code": "@P29912",
                 "help_korean": "차량에 제어형 수동 변속기가 장착되어 있지 않으면, 이변 수를 고려하지 않는다"
             }
         ]
@@ -533,7 +533,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_ETAT_GENERAL_DSG_APPUI_PUSH",
-                "label_index": "9712",
+                "label_index": "@P9712",
                 "label_korean": "타이어 공기압 감지 시스템의 전반전인 상태",
                 "group_id": "43727",
                 "req_frame_id": "131479",
@@ -555,7 +555,7 @@
             {
                 "position": 2,
                 "mnemonic": "MP_ETAT_ROUE_AVANT_GAUCHE_APPUI_PUSH",
-                "label_index": "4804",
+                "label_index": "@F4804",
                 "label_korean": "프론트 좌측 휠의 상태",
                 "group_id": "43727",
                 "req_frame_id": "131479",
@@ -577,7 +577,7 @@
             {
                 "position": 3,
                 "mnemonic": "MP_ETAT_ROUE_AVANT_DROITE_APPUI_PUSH",
-                "label_index": "10352",
+                "label_index": "@F10352",
                 "label_korean": "프론트 우측 휠 상태",
                 "group_id": "43727",
                 "req_frame_id": "131479",
@@ -599,7 +599,7 @@
             {
                 "position": 4,
                 "mnemonic": "MP_ETAT_ROUE_ARRIERE_GAUCHE_APPUI_PUSH",
-                "label_index": "10520",
+                "label_index": "@F10520",
                 "label_korean": "리어 좌측 휠의 상태",
                 "group_id": "43727",
                 "req_frame_id": "131479",
@@ -621,7 +621,7 @@
             {
                 "position": 5,
                 "mnemonic": "MP_ETAT_ROUE_ARRIERE_DROITE_APPUI_PUSH",
-                "label_index": "13892",
+                "label_index": "@F13892",
                 "label_korean": "리어 우측 휠 상태",
                 "group_id": "43727",
                 "req_frame_id": "131479",
@@ -643,7 +643,7 @@
             {
                 "position": 6,
                 "mnemonic": "MP_POURCENTAGE_NIVEAU_DETECTION_DSG_APPUI_PUSH",
-                "label_index": "31686",
+                "label_index": "@P31686",
                 "label_korean": "타이어 공기압 감지 기능의 프로그래밍 레벨 퍼센트",
                 "group_id": "43727",
                 "req_frame_id": "131479",
@@ -667,7 +667,7 @@
             {
                 "position": 7,
                 "mnemonic": "MP_PROBABILITE_SOUS_GONFLAGE_APPUI_PUSH",
-                "label_index": "31689",
+                "label_index": "@P31689",
                 "label_korean": "타이어 공기압 감지 퍼센트",
                 "group_id": "43727",
                 "req_frame_id": "131479",
@@ -691,7 +691,7 @@
             {
                 "position": 8,
                 "mnemonic": "MP_TYPE_DERNIERE_ALERTE_DSG_APPUI_PUSH",
-                "label_index": "31688",
+                "label_index": "@P31688",
                 "label_korean": "마지막 타이어 공기압 감지 경고 타입",
                 "group_id": "매핑_누락",
                 "req_frame_id": "",
@@ -713,7 +713,7 @@
             {
                 "position": 9,
                 "mnemonic": "MP_ETAT_BOUTON_RAZ_DSG_APPUI_PUSH",
-                "label_index": "37586",
+                "label_index": "@P37586",
                 "label_korean": "타이어 공기압 감지 기능 리셋 버튼 상태",
                 "group_id": "매핑_누락",
                 "req_frame_id": "",
@@ -735,7 +735,7 @@
             {
                 "position": 10,
                 "mnemonic": "MP_DISTANCE_DEPUIS_DERNIERE_ALERTE_DSG_APPUI_PUSH",
-                "label_index": "31700",
+                "label_index": "@P31700",
                 "label_korean": "마지막 타이어 감지 기능 경고가 시작된 후 거리",
                 "group_id": "매핑_누락",
                 "req_frame_id": "",
@@ -757,7 +757,7 @@
             {
                 "position": 11,
                 "mnemonic": "MP_CHARGE_VEHICULE_FONCTION_DSG_APPUI_PUSH",
-                "label_index": "31699",
+                "label_index": "@P31699",
                 "label_korean": "타이어 공기압 감지 기능에 의해 추정된 차량 부하",
                 "group_id": "매핑_누락",
                 "req_frame_id": "",
@@ -787,7 +787,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_ETAT_GENERAL_DSG_APPUI_PUSH",
-                "label_index": "9712",
+                "label_index": "@P9712",
                 "label_korean": "타이어 공기압 감지 시스템의 전반전인 상태",
                 "group_id": "43727",
                 "req_frame_id": "131479",
@@ -809,7 +809,7 @@
             {
                 "position": 2,
                 "mnemonic": "MP_ETAT_ROUE_AVANT_GAUCHE_APPUI_PUSH",
-                "label_index": "4804",
+                "label_index": "@F4804",
                 "label_korean": "프론트 좌측 휠의 상태",
                 "group_id": "43727",
                 "req_frame_id": "131479",
@@ -831,7 +831,7 @@
             {
                 "position": 3,
                 "mnemonic": "MP_ETAT_ROUE_AVANT_DROITE_APPUI_PUSH",
-                "label_index": "10352",
+                "label_index": "@F10352",
                 "label_korean": "프론트 우측 휠 상태",
                 "group_id": "43727",
                 "req_frame_id": "131479",
@@ -853,7 +853,7 @@
             {
                 "position": 4,
                 "mnemonic": "MP_ETAT_ROUE_ARRIERE_GAUCHE_APPUI_PUSH",
-                "label_index": "10520",
+                "label_index": "@F10520",
                 "label_korean": "리어 좌측 휠의 상태",
                 "group_id": "43727",
                 "req_frame_id": "131479",
@@ -875,7 +875,7 @@
             {
                 "position": 5,
                 "mnemonic": "MP_ETAT_ROUE_ARRIERE_DROITE_APPUI_PUSH",
-                "label_index": "13892",
+                "label_index": "@F13892",
                 "label_korean": "리어 우측 휠 상태",
                 "group_id": "43727",
                 "req_frame_id": "131479",
@@ -897,7 +897,7 @@
             {
                 "position": 6,
                 "mnemonic": "MP_POURCENTAGE_NIVEAU_DETECTION_DSG_APPUI_PUSH",
-                "label_index": "31686",
+                "label_index": "@P31686",
                 "label_korean": "타이어 공기압 감지 기능의 프로그래밍 레벨 퍼센트",
                 "group_id": "43727",
                 "req_frame_id": "131479",
@@ -921,7 +921,7 @@
             {
                 "position": 7,
                 "mnemonic": "MP_PROBABILITE_SOUS_GONFLAGE_APPUI_PUSH",
-                "label_index": "31689",
+                "label_index": "@P31689",
                 "label_korean": "타이어 공기압 감지 퍼센트",
                 "group_id": "43727",
                 "req_frame_id": "131479",
@@ -945,7 +945,7 @@
             {
                 "position": 8,
                 "mnemonic": "MP_VITESSE_VEHICULE_ESTIMEE_DSG",
-                "label_index": "31691",
+                "label_index": "@P31691",
                 "label_korean": "타이어 공기압 감지 기능에 의해 추정된 차량 속도",
                 "group_id": "43727",
                 "req_frame_id": "131479",
@@ -969,7 +969,7 @@
             {
                 "position": 9,
                 "mnemonic": "MP_DISTANCE_DEPUIS_DERNIERE_RAZ_DSG",
-                "label_index": "31685",
+                "label_index": "@P31685",
                 "label_korean": "마지막 타이어 공기압 감지 기능 리셋 이후 거리",
                 "group_id": "43726",
                 "req_frame_id": "131476",
@@ -991,7 +991,7 @@
             {
                 "position": 10,
                 "mnemonic": "MP_DISTANCE_PARCOURUE_PENDANT_DERNIERE_ALERTE_DSG",
-                "label_index": "48756",
+                "label_index": "@P48756",
                 "label_korean": "최근 타이어 공기압 부족 감지 기능 경고 중 주행 거리",
                 "group_id": "43726",
                 "req_frame_id": "131476",
@@ -1015,7 +1015,7 @@
             {
                 "position": 11,
                 "mnemonic": "MP_DISTANCE_DEPUIS_DERNIERE_ALERTE_DSG_FIGE_ALERTE",
-                "label_index": "31700",
+                "label_index": "@P31700",
                 "label_korean": "마지막 타이어 감지 기능 경고가 시작된 후 거리",
                 "group_id": "43726",
                 "req_frame_id": "131476",
@@ -1037,7 +1037,7 @@
             {
                 "position": 12,
                 "mnemonic": "MP_CHARGE_VEHICULE_FONCTION_DSG_FIGE_ALERTE",
-                "label_index": "31699",
+                "label_index": "@P31699",
                 "label_korean": "타이어 공기압 감지 기능에 의해 추정된 차량 부하",
                 "group_id": "43726",
                 "req_frame_id": "131476",
@@ -1067,7 +1067,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_TENSION_ALIMENTATION_CALCULATEUR",
-                "label_index": "14064",
+                "label_index": "@P14064",
                 "label_korean": "제어 장치 공급 전압",
                 "group_id": "43723",
                 "req_frame_id": "131467",
@@ -1085,13 +1085,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "24835, 24873, 24855",
-                "help_korean": "ESP ECU 공급되는 전압. 전압이 9V 미만이면, 낮은 전압 결함이 존재한다,3. 전압이 9V이상이면, 과도한 전압 결함이 존재한다."
+                "help_code": "@P24835@T.@\\+@P24873@\\*9,3@T.@\\+@P24855@\\*16@T.",
+                "help_korean": "ESP ECU 공급되는 전압.전압이 9V 미만이면, 낮은 전압 결함이 존재한다,3.전압이 9V이상이면, 과도한 전압 결함이 존재한다."
             },
             {
                 "position": 2,
                 "mnemonic": "MP_PRESSION_DE_FREINAGE",
-                "label_index": "9084",
+                "label_index": "@P9084",
                 "label_korean": "제동 압력",
                 "group_id": "43728",
                 "req_frame_id": "131482",
@@ -1109,13 +1109,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "15530",
+                "help_code": "@P15530",
                 "help_korean": "마스터 실린더에 있는 압력 센서에 의해 측정된 정보"
             },
             {
                 "position": 3,
                 "mnemonic": "MP_CONTACTEUR_FEUX_STOP",
-                "label_index": "12701",
+                "label_index": "@P12701",
                 "label_korean": "제동등 스위치",
                 "group_id": "43723",
                 "req_frame_id": "131467",
@@ -1136,13 +1136,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "8151",
+                "help_code": "@P8151",
                 "help_korean": "브레이크 페달을 누름에 의한 취득"
             },
             {
                 "position": 4,
                 "mnemonic": "MP_ETAT_SERRAGE_FREIN_A_AMIN_1",
-                "label_index": "12165",
+                "label_index": "@P12165",
                 "label_korean": "주차브레이크 상태",
                 "group_id": "43728",
                 "req_frame_id": "131482",
@@ -1164,7 +1164,7 @@
             {
                 "position": 5,
                 "mnemonic": "MP_NIVEAU_LIQUIDE_DE_FREIN",
-                "label_index": "9366",
+                "label_index": "@P9366",
                 "label_korean": "브레이크 오일 레벨",
                 "group_id": "43723",
                 "req_frame_id": "131467",
@@ -1183,13 +1183,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "16347",
+                "help_code": "@P16347",
                 "help_korean": "브레이크 오일 레벨이 충분하지 또는 부족한지를 확인하는 데 사용되는 정보"
             },
             {
                 "position": 6,
                 "mnemonic": "MP_ETAT_ALIMENTATION_EV",
-                "label_index": "28942",
+                "label_index": "@P28942",
                 "label_korean": "솔레노이드 밸브 전원 릴레이 상태",
                 "group_id": "43723",
                 "req_frame_id": "131467",
@@ -1205,13 +1205,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "2006",
+                "help_code": "@P2006",
                 "help_korean": "정상 작동 중, 키를 ON 할 때 솔레노이드 전원 릴레이는 닫힌다"
             },
             {
                 "position": 7,
                 "mnemonic": "MP_COMMUTATEUR_INHIBITION_ABS_ESP",
-                "label_index": "12489",
+                "label_index": "@P12489",
                 "label_korean": "ABS / ESP 차단 스위치",
                 "group_id": "43728",
                 "req_frame_id": "131482",
@@ -1238,7 +1238,7 @@
             {
                 "position": 8,
                 "mnemonic": "MP_ETAT_RELAIS_POMPE_RECIRCULATION_1",
-                "label_index": "2594",
+                "label_index": "@P2594",
                 "label_korean": "재순환 펌프 릴레이 상태",
                 "group_id": "43723",
                 "req_frame_id": "131467",
@@ -1254,13 +1254,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "3406",
+                "help_code": "@P3406@T.",
                 "help_korean": "정상 작동 중, 키를 ON하면 재순환 펌프가 작동하지 않으면 재순환 펌프 릴레이는 열린다."
             },
             {
                 "position": 9,
                 "mnemonic": "MP_TENSION_BORNES_CAPTEUR_NIVEAU_LIQUIDE_FREIN",
-                "label_index": "24893",
+                "label_index": "@P24893",
                 "label_korean": "브레이크 오일 레벨 센서의 단자에서 전압",
                 "group_id": "43723",
                 "req_frame_id": "131467",
@@ -1282,7 +1282,7 @@
             {
                 "position": 10,
                 "mnemonic": "MP_ETAT_TENSION_CAPTEUR_VITESSE_ROUE_ARRIERE_GAUCHE",
-                "label_index": "24811",
+                "label_index": "@P24811",
                 "label_korean": "리어 좌측 휠 속도 센서 전압의 상태",
                 "group_id": "43723",
                 "req_frame_id": "131467",
@@ -1304,7 +1304,7 @@
             {
                 "position": 11,
                 "mnemonic": "MP_ETAT_TENSION_CAPTEUR_VITESSE_ROUE_ARRIERE_DROITE",
-                "label_index": "24939",
+                "label_index": "@P24939",
                 "label_korean": "리어 우측 휠 속도 센서 전압의 상태",
                 "group_id": "43723",
                 "req_frame_id": "131467",
@@ -1326,7 +1326,7 @@
             {
                 "position": 12,
                 "mnemonic": "MP_ETAT_TENSION_CAPTEUR_VITESSE_ROUE_AVANT_DROITE",
-                "label_index": "24920",
+                "label_index": "@P24920",
                 "label_korean": "프론트 우측 휠 속도 센서 전압의 상태",
                 "group_id": "43723",
                 "req_frame_id": "131467",
@@ -1348,7 +1348,7 @@
             {
                 "position": 13,
                 "mnemonic": "MP_ETAT_TENSION_CAPTEUR_VITESSE_ROUE_AVANT_GAUCHE",
-                "label_index": "24782",
+                "label_index": "@P24782",
                 "label_korean": "프론트 좌측 휠 속도 센서 전압의 상태",
                 "group_id": "43723",
                 "req_frame_id": "131467",
@@ -1370,7 +1370,7 @@
             {
                 "position": 14,
                 "mnemonic": "MP_TEMPERATURE_ELECTROVANNES",
-                "label_index": "24815",
+                "label_index": "@P24815",
                 "label_korean": "ABS/ESP 솔레노이드 밸브 온도",
                 "group_id": "43723",
                 "req_frame_id": "131467",
@@ -1400,7 +1400,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_ETAT_CAPTEUR_ANGLE_VOLANT_DIRECTION_1",
-                "label_index": "2986",
+                "label_index": "@P2986",
                 "label_korean": "스티어링 휠 앵글 센서의 상태",
                 "group_id": "43729",
                 "req_frame_id": "131485",
@@ -1416,13 +1416,13 @@
                 "bit_mask": 1,
                 "bit_shift": 0,
                 "dynamic_arg": "",
-                "help_code": "24940, 24846",
-                "help_korean": "센서가 작동하는지 또는 결함인지를 명시하는 정보. 센서가 결함이면, 스티어링 휠 앵글과 관련된 정보를 사용할 수 없다."
+                "help_code": "@P24940@T.@\\+@P24846@T.",
+                "help_korean": "센서가 작동하는지 또는 결함인지를 명시하는 정보.센서가 결함이면, 스티어링 휠 앵글과 관련된 정보를 사용할 수 없다."
             },
             {
                 "position": 2,
                 "mnemonic": "MP_CALIBRATION_DU_CAPTEUR_ANGLE_VOLANT_DE_DIRECTION",
-                "label_index": "5796",
+                "label_index": "@P5796",
                 "label_korean": "스티어링 휠 앵글 센서의 캘리브레이션",
                 "group_id": "43729",
                 "req_frame_id": "131485",
@@ -1444,13 +1444,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "24841, 24802",
-                "help_korean": "정보는 센서가 정확하게 캘리브레이션되었는지 명시한다. 센서가 캘리브레이션되지 않을 경우, 새로운 캘리브레이션 작업은 진단기를 사용해서 진행해야 한다."
+                "help_code": "@P24841@T.@\\+@P24802@T.",
+                "help_korean": "정보는 센서가 정확하게 캘리브레이션되었는지 명시한다.센서가 캘리브레이션되지 않을 경우, 새로운 캘리브레이션 작업은 진단기를 사용해서 진행해야 한다."
             },
             {
                 "position": 3,
                 "mnemonic": "MP_AJUSTEMENT_CAPTEUR_ANGLE_VOLANT_DE_DIRECTION",
-                "label_index": "8545",
+                "label_index": "@P8545",
                 "label_korean": "스티어링 휠 앵글 센서의 조정",
                 "group_id": "43729",
                 "req_frame_id": "131485",
@@ -1472,13 +1472,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "24902, 24857, 24783",
+                "help_code": "@P24902@T. @P24857@T. @P24783@T.",
                 "help_korean": "센서가 조정되었는지를 명시하는 정보. 조정은 공장에서 이루어졌다. 센서가 조정되지 않으면, 스티어링 휠 앵글과 관련된 정보는 사용할 수 없다."
             },
             {
                 "position": 4,
                 "mnemonic": "MP_ANGLE_VOLANT",
-                "label_index": "1274",
+                "label_index": "@P1274",
                 "label_korean": "스티어링 휠 앵글",
                 "group_id": "43728",
                 "req_frame_id": "131482",
@@ -1496,13 +1496,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "24914, 24810, 30340",
-                "help_korean": "센서에 의해 리턴되는 스티어링 휠 앵글 값 측정. 이 값은 스티어링 휠을 반시계 방향으로 돌리면 증가하고 시계 방향으로 돌리면 감소한다.\n반-자동 주차 시스템이 장착된 208차량의 경우 이 변수를 고려한다"
+                "help_code": "@P24914@T.@\\+@P24810@T.@\\n@P30340@\\*208",
+                "help_korean": "센서에 의해 리턴되는 스티어링 휠 앵글 값 측정.이 값은 스티어링 휠을 반시계 방향으로 돌리면 증가하고 시계 방향으로 돌리면 감소한다.\n반-자동 주차 시스템이 장착된 208차량의 경우 이 변수를 고려한다"
             },
             {
                 "position": 5,
                 "mnemonic": "MP_ETAT_ANGLE_VOLANT_DIRECTION_INTERPRETE_ESP",
-                "label_index": "24767",
+                "label_index": "@P24767",
                 "label_korean": "ESP에 의해 해석된 스티어링 휠 앵글 상태",
                 "group_id": "43729",
                 "req_frame_id": "131485",
@@ -1524,7 +1524,7 @@
             {
                 "position": 6,
                 "mnemonic": "MP_ANG_COL_DIRECTION",
-                "label_index": "14875",
+                "label_index": "@P14875",
                 "label_korean": "스티어링 컬럼 앵글",
                 "group_id": "43728",
                 "req_frame_id": "131482",
@@ -1540,13 +1540,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "27463",
+                "help_code": "@P27463",
                 "help_korean": "전동 파워 스티어링에 의해 보고된 정보"
             },
             {
                 "position": 7,
                 "mnemonic": "MP_TOLERANCE_CAPTEUR_ANGLE_VOLANT_DIRECTION",
-                "label_index": "24762",
+                "label_index": "@P24762",
                 "label_korean": "스티어링 휠 앵글 센서 허용치",
                 "group_id": "43730",
                 "req_frame_id": "131488",
@@ -1568,7 +1568,7 @@
             {
                 "position": 8,
                 "mnemonic": "MP_REMONTE_INFORMATION_CAPTEUR_ANGLE_VOLANT_DIRECTION",
-                "label_index": "24761",
+                "label_index": "@P24761",
                 "label_korean": "스티어링 휠 앵글 센서 정보 기록",
                 "group_id": "43730",
                 "req_frame_id": "131488",
@@ -1598,7 +1598,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_ETAT_CAPTEUR_ANGLE_VOLANT_DIRECTION_1",
-                "label_index": "2986",
+                "label_index": "@P2986",
                 "label_korean": "스티어링 휠 앵글 센서의 상태",
                 "group_id": "43729",
                 "req_frame_id": "131485",
@@ -1614,13 +1614,13 @@
                 "bit_mask": 1,
                 "bit_shift": 0,
                 "dynamic_arg": "",
-                "help_code": "24940, 24846",
-                "help_korean": "센서가 작동하는지 또는 결함인지를 명시하는 정보. 센서가 결함이면, 스티어링 휠 앵글과 관련된 정보를 사용할 수 없다."
+                "help_code": "@P24940@T.@\\+@P24846@T.",
+                "help_korean": "센서가 작동하는지 또는 결함인지를 명시하는 정보.센서가 결함이면, 스티어링 휠 앵글과 관련된 정보를 사용할 수 없다."
             },
             {
                 "position": 2,
                 "mnemonic": "MP_CALIBRATION_DU_CAPTEUR_ANGLE_VOLANT_DE_DIRECTION",
-                "label_index": "5796",
+                "label_index": "@P5796",
                 "label_korean": "스티어링 휠 앵글 센서의 캘리브레이션",
                 "group_id": "43729",
                 "req_frame_id": "131485",
@@ -1642,13 +1642,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "24841, 24802",
-                "help_korean": "정보는 센서가 정확하게 캘리브레이션되었는지 명시한다. 센서가 캘리브레이션되지 않을 경우, 새로운 캘리브레이션 작업은 진단기를 사용해서 진행해야 한다."
+                "help_code": "@P24841@T.@\\+@P24802@T.",
+                "help_korean": "정보는 센서가 정확하게 캘리브레이션되었는지 명시한다.센서가 캘리브레이션되지 않을 경우, 새로운 캘리브레이션 작업은 진단기를 사용해서 진행해야 한다."
             },
             {
                 "position": 3,
                 "mnemonic": "MP_AJUSTEMENT_CAPTEUR_ANGLE_VOLANT_DE_DIRECTION",
-                "label_index": "8545",
+                "label_index": "@P8545",
                 "label_korean": "스티어링 휠 앵글 센서의 조정",
                 "group_id": "43729",
                 "req_frame_id": "131485",
@@ -1670,13 +1670,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "24902, 24857, 24783",
+                "help_code": "@P24902@T. @P24857@T. @P24783@T.",
                 "help_korean": "센서가 조정되었는지를 명시하는 정보. 조정은 공장에서 이루어졌다. 센서가 조정되지 않으면, 스티어링 휠 앵글과 관련된 정보는 사용할 수 없다."
             },
             {
                 "position": 4,
                 "mnemonic": "MP_ETAT_ANGLE_VOLANT_DIRECTION_INTERPRETE_ESP",
-                "label_index": "24767",
+                "label_index": "@P24767",
                 "label_korean": "ESP에 의해 해석된 스티어링 휠 앵글 상태",
                 "group_id": "43729",
                 "req_frame_id": "131485",
@@ -1698,7 +1698,7 @@
             {
                 "position": 5,
                 "mnemonic": "MP_ANG_COL_DIRECTION",
-                "label_index": "14875",
+                "label_index": "@P14875",
                 "label_korean": "스티어링 컬럼 앵글",
                 "group_id": "43728",
                 "req_frame_id": "131482",
@@ -1714,13 +1714,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "27463, 30341",
+                "help_code": "@P27463@\\n@P30341@\\*208",
                 "help_korean": "전동 파워 스티어링에 의해 보고된 정보\n반-자동 주차 시스템이 장착된 208차량의 경우 이 변수를 무시한다"
             },
             {
                 "position": 6,
                 "mnemonic": "MP_TOLERANCE_CAPTEUR_ANGLE_VOLANT_DIRECTION",
-                "label_index": "24762",
+                "label_index": "@P24762",
                 "label_korean": "스티어링 휠 앵글 센서 허용치",
                 "group_id": "43730",
                 "req_frame_id": "131488",
@@ -1742,7 +1742,7 @@
             {
                 "position": 7,
                 "mnemonic": "MP_REMONTE_INFORMATION_CAPTEUR_ANGLE_VOLANT_DIRECTION",
-                "label_index": "24761",
+                "label_index": "@P24761",
                 "label_korean": "스티어링 휠 앵글 센서 정보 기록",
                 "group_id": "43730",
                 "req_frame_id": "131488",
@@ -1772,7 +1772,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_ETAT_CAPTEUR_ANGLE_VOLANT_DIRECTION_1",
-                "label_index": "2986",
+                "label_index": "@P2986",
                 "label_korean": "스티어링 휠 앵글 센서의 상태",
                 "group_id": "43729",
                 "req_frame_id": "131485",
@@ -1788,13 +1788,13 @@
                 "bit_mask": 1,
                 "bit_shift": 0,
                 "dynamic_arg": "",
-                "help_code": "24940, 24846",
-                "help_korean": "센서가 작동하는지 또는 결함인지를 명시하는 정보. 센서가 결함이면, 스티어링 휠 앵글과 관련된 정보를 사용할 수 없다."
+                "help_code": "@P24940@T.@\\+@P24846@T.",
+                "help_korean": "센서가 작동하는지 또는 결함인지를 명시하는 정보.센서가 결함이면, 스티어링 휠 앵글과 관련된 정보를 사용할 수 없다."
             },
             {
                 "position": 2,
                 "mnemonic": "MP_CALIBRATION_DU_CAPTEUR_ANGLE_VOLANT_DE_DIRECTION",
-                "label_index": "5796",
+                "label_index": "@P5796",
                 "label_korean": "스티어링 휠 앵글 센서의 캘리브레이션",
                 "group_id": "43729",
                 "req_frame_id": "131485",
@@ -1816,13 +1816,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "24841, 24802",
-                "help_korean": "정보는 센서가 정확하게 캘리브레이션되었는지 명시한다. 센서가 캘리브레이션되지 않을 경우, 새로운 캘리브레이션 작업은 진단기를 사용해서 진행해야 한다."
+                "help_code": "@P24841@T.@\\+@P24802@T.",
+                "help_korean": "정보는 센서가 정확하게 캘리브레이션되었는지 명시한다.센서가 캘리브레이션되지 않을 경우, 새로운 캘리브레이션 작업은 진단기를 사용해서 진행해야 한다."
             },
             {
                 "position": 3,
                 "mnemonic": "MP_AJUSTEMENT_CAPTEUR_ANGLE_VOLANT_DE_DIRECTION",
-                "label_index": "8545",
+                "label_index": "@P8545",
                 "label_korean": "스티어링 휠 앵글 센서의 조정",
                 "group_id": "43729",
                 "req_frame_id": "131485",
@@ -1844,13 +1844,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "24902, 24857, 24783",
+                "help_code": "@P24902@T. @P24857@T. @P24783@T.",
                 "help_korean": "센서가 조정되었는지를 명시하는 정보. 조정은 공장에서 이루어졌다. 센서가 조정되지 않으면, 스티어링 휠 앵글과 관련된 정보는 사용할 수 없다."
             },
             {
                 "position": 4,
                 "mnemonic": "MP_ETAT_ANGLE_VOLANT_DIRECTION_INTERPRETE_ESP",
-                "label_index": "24767",
+                "label_index": "@P24767",
                 "label_korean": "ESP에 의해 해석된 스티어링 휠 앵글 상태",
                 "group_id": "43729",
                 "req_frame_id": "131485",
@@ -1872,7 +1872,7 @@
             {
                 "position": 5,
                 "mnemonic": "MP_TOLERANCE_CAPTEUR_ANGLE_VOLANT_DIRECTION",
-                "label_index": "24762",
+                "label_index": "@P24762",
                 "label_korean": "스티어링 휠 앵글 센서 허용치",
                 "group_id": "43730",
                 "req_frame_id": "131488",
@@ -1894,7 +1894,7 @@
             {
                 "position": 6,
                 "mnemonic": "MP_REMONTE_INFORMATION_CAPTEUR_ANGLE_VOLANT_DIRECTION",
-                "label_index": "24761",
+                "label_index": "@P24761",
                 "label_korean": "스티어링 휠 앵글 센서 정보 기록",
                 "group_id": "43730",
                 "req_frame_id": "131488",
@@ -1924,7 +1924,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_ETAT_CAPTEUR_ANGLE_VOLANT_DIRECTION_1",
-                "label_index": "2986",
+                "label_index": "@P2986",
                 "label_korean": "스티어링 휠 앵글 센서의 상태",
                 "group_id": "43729",
                 "req_frame_id": "131485",
@@ -1940,13 +1940,13 @@
                 "bit_mask": 1,
                 "bit_shift": 0,
                 "dynamic_arg": "",
-                "help_code": "24940, 24846",
-                "help_korean": "센서가 작동하는지 또는 결함인지를 명시하는 정보. 센서가 결함이면, 스티어링 휠 앵글과 관련된 정보를 사용할 수 없다."
+                "help_code": "@P24940@T.@\\+@P24846@T.",
+                "help_korean": "센서가 작동하는지 또는 결함인지를 명시하는 정보.센서가 결함이면, 스티어링 휠 앵글과 관련된 정보를 사용할 수 없다."
             },
             {
                 "position": 2,
                 "mnemonic": "MP_CALIBRATION_DU_CAPTEUR_ANGLE_VOLANT_DE_DIRECTION",
-                "label_index": "5796",
+                "label_index": "@P5796",
                 "label_korean": "스티어링 휠 앵글 센서의 캘리브레이션",
                 "group_id": "43729",
                 "req_frame_id": "131485",
@@ -1968,13 +1968,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "24841, 24802",
-                "help_korean": "정보는 센서가 정확하게 캘리브레이션되었는지 명시한다. 센서가 캘리브레이션되지 않을 경우, 새로운 캘리브레이션 작업은 진단기를 사용해서 진행해야 한다."
+                "help_code": "@P24841@T.@\\+@P24802@T.",
+                "help_korean": "정보는 센서가 정확하게 캘리브레이션되었는지 명시한다.센서가 캘리브레이션되지 않을 경우, 새로운 캘리브레이션 작업은 진단기를 사용해서 진행해야 한다."
             },
             {
                 "position": 3,
                 "mnemonic": "MP_AJUSTEMENT_CAPTEUR_ANGLE_VOLANT_DE_DIRECTION",
-                "label_index": "8545",
+                "label_index": "@P8545",
                 "label_korean": "스티어링 휠 앵글 센서의 조정",
                 "group_id": "43729",
                 "req_frame_id": "131485",
@@ -1996,13 +1996,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "24902, 24857, 24783",
+                "help_code": "@P24902@T. @P24857@T. @P24783@T.",
                 "help_korean": "센서가 조정되었는지를 명시하는 정보. 조정은 공장에서 이루어졌다. 센서가 조정되지 않으면, 스티어링 휠 앵글과 관련된 정보는 사용할 수 없다."
             },
             {
                 "position": 4,
                 "mnemonic": "MP_ANGLE_VOLANT",
-                "label_index": "1274",
+                "label_index": "@P1274",
                 "label_korean": "스티어링 휠 앵글",
                 "group_id": "43728",
                 "req_frame_id": "131482",
@@ -2020,13 +2020,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "24914, 24810, 30340",
-                "help_korean": "센서에 의해 리턴되는 스티어링 휠 앵글 값 측정. 이 값은 스티어링 휠을 반시계 방향으로 돌리면 증가하고 시계 방향으로 돌리면 감소한다.\n반-자동 주차 시스템이 장착된 208차량의 경우 이 변수를 고려한다"
+                "help_code": "@P24914@T.@\\+@P24810@T.@\\n@P30340@\\*208",
+                "help_korean": "센서에 의해 리턴되는 스티어링 휠 앵글 값 측정.이 값은 스티어링 휠을 반시계 방향으로 돌리면 증가하고 시계 방향으로 돌리면 감소한다.\n반-자동 주차 시스템이 장착된 208차량의 경우 이 변수를 고려한다"
             },
             {
                 "position": 5,
                 "mnemonic": "MP_ETAT_ANGLE_VOLANT_DIRECTION_INTERPRETE_ESP",
-                "label_index": "24767",
+                "label_index": "@P24767",
                 "label_korean": "ESP에 의해 해석된 스티어링 휠 앵글 상태",
                 "group_id": "43729",
                 "req_frame_id": "131485",
@@ -2048,7 +2048,7 @@
             {
                 "position": 6,
                 "mnemonic": "MP_ANG_COL_DIRECTION",
-                "label_index": "14875",
+                "label_index": "@P14875",
                 "label_korean": "스티어링 컬럼 앵글",
                 "group_id": "43728",
                 "req_frame_id": "131482",
@@ -2064,13 +2064,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "27463, 30341",
+                "help_code": "@P27463@\\n@P30341@\\*208",
                 "help_korean": "전동 파워 스티어링에 의해 보고된 정보\n반-자동 주차 시스템이 장착된 208차량의 경우 이 변수를 무시한다"
             },
             {
                 "position": 7,
                 "mnemonic": "MP_TOLERANCE_CAPTEUR_ANGLE_VOLANT_DIRECTION",
-                "label_index": "24762",
+                "label_index": "@P24762",
                 "label_korean": "스티어링 휠 앵글 센서 허용치",
                 "group_id": "43730",
                 "req_frame_id": "131488",
@@ -2092,7 +2092,7 @@
             {
                 "position": 8,
                 "mnemonic": "MP_REMONTE_INFORMATION_CAPTEUR_ANGLE_VOLANT_DIRECTION",
-                "label_index": "24761",
+                "label_index": "@P24761",
                 "label_korean": "스티어링 휠 앵글 센서 정보 기록",
                 "group_id": "43730",
                 "req_frame_id": "131488",
@@ -2122,7 +2122,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_ETAT_CAPTEUR_ANGLE_VOLANT_DIRECTION_1",
-                "label_index": "2986",
+                "label_index": "@P2986",
                 "label_korean": "스티어링 휠 앵글 센서의 상태",
                 "group_id": "43729",
                 "req_frame_id": "131485",
@@ -2138,13 +2138,13 @@
                 "bit_mask": 1,
                 "bit_shift": 0,
                 "dynamic_arg": "",
-                "help_code": "24940, 24846",
-                "help_korean": "센서가 작동하는지 또는 결함인지를 명시하는 정보. 센서가 결함이면, 스티어링 휠 앵글과 관련된 정보를 사용할 수 없다."
+                "help_code": "@P24940@T.@\\+@P24846@T.",
+                "help_korean": "센서가 작동하는지 또는 결함인지를 명시하는 정보.센서가 결함이면, 스티어링 휠 앵글과 관련된 정보를 사용할 수 없다."
             },
             {
                 "position": 2,
                 "mnemonic": "MP_CALIBRATION_DU_CAPTEUR_ANGLE_VOLANT_DE_DIRECTION",
-                "label_index": "5796",
+                "label_index": "@P5796",
                 "label_korean": "스티어링 휠 앵글 센서의 캘리브레이션",
                 "group_id": "43729",
                 "req_frame_id": "131485",
@@ -2166,13 +2166,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "24841, 24802",
-                "help_korean": "정보는 센서가 정확하게 캘리브레이션되었는지 명시한다. 센서가 캘리브레이션되지 않을 경우, 새로운 캘리브레이션 작업은 진단기를 사용해서 진행해야 한다."
+                "help_code": "@P24841@T.@\\+@P24802@T.",
+                "help_korean": "정보는 센서가 정확하게 캘리브레이션되었는지 명시한다.센서가 캘리브레이션되지 않을 경우, 새로운 캘리브레이션 작업은 진단기를 사용해서 진행해야 한다."
             },
             {
                 "position": 3,
                 "mnemonic": "MP_AJUSTEMENT_CAPTEUR_ANGLE_VOLANT_DE_DIRECTION",
-                "label_index": "8545",
+                "label_index": "@P8545",
                 "label_korean": "스티어링 휠 앵글 센서의 조정",
                 "group_id": "43729",
                 "req_frame_id": "131485",
@@ -2194,13 +2194,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "24902, 24857, 24783",
+                "help_code": "@P24902@T. @P24857@T. @P24783@T.",
                 "help_korean": "센서가 조정되었는지를 명시하는 정보. 조정은 공장에서 이루어졌다. 센서가 조정되지 않으면, 스티어링 휠 앵글과 관련된 정보는 사용할 수 없다."
             },
             {
                 "position": 4,
                 "mnemonic": "MP_ETAT_ANGLE_VOLANT_DIRECTION_INTERPRETE_ESP",
-                "label_index": "24767",
+                "label_index": "@P24767",
                 "label_korean": "ESP에 의해 해석된 스티어링 휠 앵글 상태",
                 "group_id": "43729",
                 "req_frame_id": "131485",
@@ -2222,7 +2222,7 @@
             {
                 "position": 5,
                 "mnemonic": "MP_TOLERANCE_CAPTEUR_ANGLE_VOLANT_DIRECTION",
-                "label_index": "24762",
+                "label_index": "@P24762",
                 "label_korean": "스티어링 휠 앵글 센서 허용치",
                 "group_id": "43730",
                 "req_frame_id": "131488",
@@ -2244,7 +2244,7 @@
             {
                 "position": 6,
                 "mnemonic": "MP_REMONTE_INFORMATION_CAPTEUR_ANGLE_VOLANT_DIRECTION",
-                "label_index": "24761",
+                "label_index": "@P24761",
                 "label_korean": "스티어링 휠 앵글 센서 정보 기록",
                 "group_id": "43730",
                 "req_frame_id": "131488",
@@ -2274,7 +2274,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_REGIME_MOTEUR",
-                "label_index": "7917",
+                "label_index": "@P7917",
                 "label_korean": "엔진 속도",
                 "group_id": "43728",
                 "req_frame_id": "131482",
@@ -2298,7 +2298,7 @@
             {
                 "position": 2,
                 "mnemonic": "MP_COUPLE_DEMANDE_CONDUCTEUR",
-                "label_index": "9570",
+                "label_index": "@P9570",
                 "label_korean": "운전자가 요청한 토크",
                 "group_id": "43728",
                 "req_frame_id": "131482",
@@ -2314,13 +2314,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "24833, 24778",
+                "help_code": "@P24833@T. @P24778@T.",
                 "help_korean": "엔진 ECU에 의해 처리되지 전 운전자에 의해 요청된 토크. 토크 값은 가속 페달에 가해진 압력에 따라 달라진다."
             },
             {
                 "position": 3,
                 "mnemonic": "MP_COUPLE_REEL",
-                "label_index": "13829",
+                "label_index": "@P13829",
                 "label_korean": "실제 토크",
                 "group_id": "43729",
                 "req_frame_id": "131485",
@@ -2338,13 +2338,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "24932",
+                "help_code": "@P24932@T.",
                 "help_korean": "엔진에 적용된 토크."
             },
             {
                 "position": 4,
                 "mnemonic": "MP_POSITION_PEDALE_ACCELERATION",
-                "label_index": "7897",
+                "label_index": "@P7897",
                 "label_korean": "가속 페달 위치",
                 "group_id": "43729",
                 "req_frame_id": "131485",
@@ -2360,13 +2360,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "16458",
+                "help_code": "@P16458",
                 "help_korean": "가속 페달에 가해진 압력에 따라 변하는 정보"
             },
             {
                 "position": 5,
                 "mnemonic": "MP_RAPPORT_BOITE_DE_VITESSES_ENGAGE",
-                "label_index": "2878",
+                "label_index": "@P2878@\\+@T (@P30573@T)",
                 "label_korean": "체결된 변속기 기어 (자동 변속기 정보)",
                 "group_id": "43728",
                 "req_frame_id": "131482",
@@ -2402,13 +2402,13 @@
                 "bit_mask": 15,
                 "bit_shift": 0,
                 "dynamic_arg": "",
-                "help_code": "24776, 24892, 24883",
-                "help_korean": "어떤 기어가 체결되었는지를 확인하기 위해서 사용된 정보. 자동 변속기 정보, 자동 변속기가 있을 경우."
+                "help_code": "@P24776@T.@\\+@P24892@T, @P24883@T.",
+                "help_korean": "어떤 기어가 체결되었는지를 확인하기 위해서 사용된 정보.자동 변속기 정보, 자동 변속기가 있을 경우."
             },
             {
                 "position": 6,
                 "mnemonic": "MP_RAPPORT_EN_COURS_SI_BVA",
-                "label_index": "15209",
+                "label_index": "@P15209@T (@P24883@T)",
                 "label_korean": "기어 변속 (자동 변속기가 있을 경우)",
                 "group_id": "43729",
                 "req_frame_id": "131485",
@@ -2427,13 +2427,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "24826",
+                "help_code": "@P24826@T.",
                 "help_korean": "ESP ECU와 자동 변속기 ECU간의 통신이 정확한지를 점검하는 데 사용되는 정보."
             },
             {
                 "position": 7,
                 "mnemonic": "MP_ETAT_EMBRAYAGE",
-                "label_index": "3868",
+                "label_index": "@P3868",
                 "label_korean": "클러치 상태",
                 "group_id": "43729",
                 "req_frame_id": "131485",
@@ -2465,7 +2465,7 @@
             {
                 "position": 8,
                 "mnemonic": "MP_ETAT_CONVERTISSEUR_SI_BVA",
-                "label_index": "32808",
+                "label_index": "@P32808",
                 "label_korean": "변속기 토크 컨버터 상태",
                 "group_id": "43729",
                 "req_frame_id": "131485",
@@ -2487,13 +2487,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "5891, 24780, 9671, 24861",
-                "help_korean": "컨버터\n- 열림 :\n- 정상 작동\n조절 : 토크 컨버터의 슬립핑"
+                "help_code": "@P5891@T : @P24780@\\n@P9671@T : @P24861",
+                "help_korean": "컨버터 열림 : 정상 작동\n조절 : 토크 컨버터의 슬립핑"
             },
             {
                 "position": 9,
                 "mnemonic": "MP_RAPPORT_BOITE_VITESSE_DEMANDE",
-                "label_index": "24885",
+                "label_index": "@P24885",
                 "label_korean": "기어 요청됨",
                 "group_id": "43729",
                 "req_frame_id": "131485",
@@ -2509,7 +2509,7 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "24905",
+                "help_code": "@P24905@T.",
                 "help_korean": "이 변수는 제어형 수동 변속기에만 유효하다."
             }
         ]
@@ -2523,7 +2523,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_REGIME_MOTEUR",
-                "label_index": "7917",
+                "label_index": "@P7917",
                 "label_korean": "엔진 속도",
                 "group_id": "43728",
                 "req_frame_id": "131482",
@@ -2547,7 +2547,7 @@
             {
                 "position": 2,
                 "mnemonic": "MP_COUPLE_DEMANDE_CONDUCTEUR",
-                "label_index": "9570",
+                "label_index": "@P9570",
                 "label_korean": "운전자가 요청한 토크",
                 "group_id": "43728",
                 "req_frame_id": "131482",
@@ -2563,13 +2563,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "24833, 24778",
+                "help_code": "@P24833@T. @P24778@T.",
                 "help_korean": "엔진 ECU에 의해 처리되지 전 운전자에 의해 요청된 토크. 토크 값은 가속 페달에 가해진 압력에 따라 달라진다."
             },
             {
                 "position": 3,
                 "mnemonic": "MP_COUPLE_REEL",
-                "label_index": "13829",
+                "label_index": "@P13829",
                 "label_korean": "실제 토크",
                 "group_id": "43729",
                 "req_frame_id": "131485",
@@ -2587,13 +2587,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "24932",
+                "help_code": "@P24932@T.",
                 "help_korean": "엔진에 적용된 토크."
             },
             {
                 "position": 4,
                 "mnemonic": "MP_POSITION_PEDALE_ACCELERATION",
-                "label_index": "7897",
+                "label_index": "@P7897",
                 "label_korean": "가속 페달 위치",
                 "group_id": "43729",
                 "req_frame_id": "131485",
@@ -2609,13 +2609,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "16458",
+                "help_code": "@P16458",
                 "help_korean": "가속 페달에 가해진 압력에 따라 변하는 정보"
             },
             {
                 "position": 5,
                 "mnemonic": "MP_RAPPORT_BOITE_DE_VITESSES_ENGAGE",
-                "label_index": "2878",
+                "label_index": "@P2878@\\+@T (@P30573@T)",
                 "label_korean": "체결된 변속기 기어 (자동 변속기 정보)",
                 "group_id": "43728",
                 "req_frame_id": "131482",
@@ -2651,13 +2651,13 @@
                 "bit_mask": 15,
                 "bit_shift": 0,
                 "dynamic_arg": "",
-                "help_code": "24776, 24892, 24883",
-                "help_korean": "어떤 기어가 체결되었는지를 확인하기 위해서 사용된 정보. 자동 변속기 정보, 자동 변속기가 있을 경우."
+                "help_code": "@P24776@T.@\\+@P24892@T, @P24883@T.",
+                "help_korean": "어떤 기어가 체결되었는지를 확인하기 위해서 사용된 정보.자동 변속기 정보, 자동 변속기가 있을 경우."
             },
             {
                 "position": 6,
                 "mnemonic": "MP_RAPPORT_EN_COURS_SI_BVA",
-                "label_index": "15209",
+                "label_index": "@P15209@T (@P24883@T)",
                 "label_korean": "기어 변속 (자동 변속기가 있을 경우)",
                 "group_id": "43729",
                 "req_frame_id": "131485",
@@ -2676,13 +2676,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "24826",
+                "help_code": "@P24826@T.",
                 "help_korean": "ESP ECU와 자동 변속기 ECU간의 통신이 정확한지를 점검하는 데 사용되는 정보."
             },
             {
                 "position": 7,
                 "mnemonic": "MP_ETAT_EMBRAYAGE",
-                "label_index": "3868",
+                "label_index": "@P3868",
                 "label_korean": "클러치 상태",
                 "group_id": "43729",
                 "req_frame_id": "131485",
@@ -2714,7 +2714,7 @@
             {
                 "position": 8,
                 "mnemonic": "MP_ETAT_CONVERTISSEUR_SI_BVA",
-                "label_index": "32808",
+                "label_index": "@P32808",
                 "label_korean": "변속기 토크 컨버터 상태",
                 "group_id": "43729",
                 "req_frame_id": "131485",
@@ -2736,13 +2736,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "5891, 24780, 9671, 24861",
-                "help_korean": "컨버터\n- 열림 :\n- 정상 작동\n조절 : 토크 컨버터의 슬립핑"
+                "help_code": "@P5891@T : @P24780@\\n@P9671@T : @P24861",
+                "help_korean": "컨버터 열림 : 정상 작동\n조절 : 토크 컨버터의 슬립핑"
             },
             {
                 "position": 9,
                 "mnemonic": "MP_RAPPORT_BOITE_VITESSE_DEMANDE",
-                "label_index": "24885",
+                "label_index": "@P24885",
                 "label_korean": "기어 요청됨",
                 "group_id": "43729",
                 "req_frame_id": "131485",
@@ -2758,14 +2758,14 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "24905",
+                "help_code": "@P24905@T.",
                 "help_korean": "이 변수는 제어형 수동 변속기에만 유효하다."
             },
             {
                 "position": 10,
                 "mnemonic": "CPT_MOLETTE_ASR_PLUS",
-                "label_index": "33220",
-                "label_korean": "트랙션 컨트롤 (ASR ) 다이얼 카운터",
+                "label_index": "@P33220",
+                "label_korean": "트랙션 컨트롤 (ASR+) 다이얼 카운터",
                 "group_id": "매핑_누락",
                 "req_frame_id": "",
                 "resp_frame_id": "",
@@ -2786,8 +2786,8 @@
             {
                 "position": 11,
                 "mnemonic": "ETAT_MOLETTE_ASR_PLUS",
-                "label_index": "33221",
-                "label_korean": "트랙션 컨트롤 (ASR ) 다이얼 상태",
+                "label_index": "@P33221",
+                "label_korean": "트랙션 컨트롤 (ASR+) 다이얼 상태",
                 "group_id": "매핑_누락",
                 "req_frame_id": "",
                 "resp_frame_id": "",
@@ -2825,7 +2825,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_INFORMATION_DEPLACEMENT_VEHICULE_EN_COURS",
-                "label_index": "24869",
+                "label_index": "@P24869",
                 "label_korean": "차량 이동 진행 중",
                 "group_id": "43730",
                 "req_frame_id": "131488",
@@ -2847,7 +2847,7 @@
             {
                 "position": 2,
                 "mnemonic": "MP_ACCELERATION_TRANSVERSALE_SANS_CORRECTION",
-                "label_index": "24770",
+                "label_index": "@P24770",
                 "label_korean": "보정 없이 횡가속도",
                 "group_id": "43730",
                 "req_frame_id": "131488",
@@ -2869,7 +2869,7 @@
             {
                 "position": 3,
                 "mnemonic": "MP_ACCELERATION_LONGITUDINALE_SANS_CORRECTION",
-                "label_index": "24774",
+                "label_index": "@P24774",
                 "label_korean": "보정 없이 종가속도",
                 "group_id": "43730",
                 "req_frame_id": "131488",
@@ -2887,13 +2887,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "37468",
+                "help_code": "@P37468",
                 "help_korean": "트리플 센서에 의해 제공된 정보"
             },
             {
                 "position": 4,
                 "mnemonic": "MP_VITESSE_ANGLE_LACET_SANS_CORRECTION",
-                "label_index": "24836",
+                "label_index": "@P24836",
                 "label_korean": "보정 없이 요잉 각도 속도",
                 "group_id": "43730",
                 "req_frame_id": "131488",
@@ -2915,7 +2915,7 @@
             {
                 "position": 5,
                 "mnemonic": "MP_TOLERANCE_ACCELERATION_TRANSVERSALE",
-                "label_index": "24904",
+                "label_index": "@P24904",
                 "label_korean": "횡가속도계 허용치",
                 "group_id": "43730",
                 "req_frame_id": "131488",
@@ -2937,7 +2937,7 @@
             {
                 "position": 6,
                 "mnemonic": "MP_TOLERANCE_ACCELERATION_LONGITUDINALE",
-                "label_index": "24775",
+                "label_index": "@P24775",
                 "label_korean": "종가속도계 허용치",
                 "group_id": "43730",
                 "req_frame_id": "131488",
@@ -2959,7 +2959,7 @@
             {
                 "position": 7,
                 "mnemonic": "MP_TOLERANCE_VITESSE_ANGLE_LACET",
-                "label_index": "24929",
+                "label_index": "@P24929",
                 "label_korean": "요잉 각도 속도 허용치",
                 "group_id": "43730",
                 "req_frame_id": "131488",
@@ -2989,7 +2989,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_INFORMATION_DEPLACEMENT_VEHICULE_EN_COURS",
-                "label_index": "24869",
+                "label_index": "@P24869",
                 "label_korean": "차량 이동 진행 중",
                 "group_id": "43730",
                 "req_frame_id": "131488",
@@ -3011,7 +3011,7 @@
             {
                 "position": 2,
                 "mnemonic": "MP_ACCELERATION_TRANSVERSALE_SANS_CORRECTION",
-                "label_index": "24770",
+                "label_index": "@P24770",
                 "label_korean": "보정 없이 횡가속도",
                 "group_id": "43730",
                 "req_frame_id": "131488",
@@ -3033,7 +3033,7 @@
             {
                 "position": 3,
                 "mnemonic": "MP_ACCELERATION_LONGITUDINALE_SANS_CORRECTION",
-                "label_index": "24774",
+                "label_index": "@P24774",
                 "label_korean": "보정 없이 종가속도",
                 "group_id": "43730",
                 "req_frame_id": "131488",
@@ -3051,13 +3051,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "37468",
+                "help_code": "@P37468",
                 "help_korean": "트리플 센서에 의해 제공된 정보"
             },
             {
                 "position": 4,
                 "mnemonic": "MP_VITESSE_ANGLE_LACET_SANS_CORRECTION",
-                "label_index": "24836",
+                "label_index": "@P24836",
                 "label_korean": "보정 없이 요잉 각도 속도",
                 "group_id": "43730",
                 "req_frame_id": "131488",
@@ -3087,7 +3087,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_ETAT_MONTAGE_CAPTEUR_VITESSE_ROUE_ARRIERE_GAUCHE",
-                "label_index": "27865",
+                "label_index": "@P27865",
                 "label_korean": "리어 좌측 휠 속도 센서 장착 상태",
                 "group_id": "43724",
                 "req_frame_id": "131470",
@@ -3109,7 +3109,7 @@
             {
                 "position": 2,
                 "mnemonic": "MP_COMMUNICATION_CAPTEUR_VITESSE_ROUE_ARRIERE_GAUCHE",
-                "label_index": "27753",
+                "label_index": "@P27753",
                 "label_korean": "리어 좌측 휠 속도 센서와 통신",
                 "group_id": "43724",
                 "req_frame_id": "131470",
@@ -3131,7 +3131,7 @@
             {
                 "position": 3,
                 "mnemonic": "MP_ROTATION_EN_MARCHE_AVANT_CAPTEUR_VITESSE_ROUE_ARRIERE_GAUCHE",
-                "label_index": "27781",
+                "label_index": "@P27781",
                 "label_korean": "전진 기어에서 리어 좌측 휠 속도 센서의 회전",
                 "group_id": "43724",
                 "req_frame_id": "131470",
@@ -3153,7 +3153,7 @@
             {
                 "position": 4,
                 "mnemonic": "MP_ROTATION_EN_MARCHE_ARRIERE_CAPTEUR_VIT_ROUE_ARRIERE_GAUCHE",
-                "label_index": "27846",
+                "label_index": "@P27846",
                 "label_korean": "후진 기어에서 리어 좌측 휠 속도 센서의 회전",
                 "group_id": "43724",
                 "req_frame_id": "131470",
@@ -3175,7 +3175,7 @@
             {
                 "position": 5,
                 "mnemonic": "MP_ETAT_DETERMINATION_DIRECTION_CAPTEUR_VIT_ROUE_ARRIERE_GAUCHE",
-                "label_index": "27878",
+                "label_index": "@P27878",
                 "label_korean": "리어 좌측 휠 속도 센서 방향 결정 상태",
                 "group_id": "43724",
                 "req_frame_id": "131470",
@@ -3200,7 +3200,7 @@
             {
                 "position": 6,
                 "mnemonic": "MP_ETAT_MOUVEMENT_ROUE_CAPTEUR_VIT_ROUE_AR_GAUCHE",
-                "label_index": "27903",
+                "label_index": "@P27903",
                 "label_korean": "리어 좌측 휠 속도 센서에 의해 확인된 휠 이동 상태",
                 "group_id": "43724",
                 "req_frame_id": "131470",
@@ -3225,7 +3225,7 @@
             {
                 "position": 7,
                 "mnemonic": "MP_TYPE_CAPTEUR_VITESSE_ROUE_ARRIERE_GAUCHE_VU_PAR_CALCULATEUR",
-                "label_index": "27850",
+                "label_index": "@P27850",
                 "label_korean": "ESP ECU에 의해 감지된 리어 좌측 휠 센서의 타입",
                 "group_id": "43724",
                 "req_frame_id": "131470",
@@ -3252,7 +3252,7 @@
             {
                 "position": 7,
                 "mnemonic": "MP_TYPE_CAPTEUR_VITESSE_ROUE_ARRIERE_GAUCHE_VU_PAR_CALCULATEUR",
-                "label_index": "27850",
+                "label_index": "@P27850",
                 "label_korean": "ESP ECU에 의해 감지된 리어 좌측 휠 센서의 타입",
                 "group_id": "43724",
                 "req_frame_id": "131470",
@@ -3279,7 +3279,7 @@
             {
                 "position": 8,
                 "mnemonic": "MP_ETAT_MONTAGE_CAPTEUR_VITESSE_ROUE_ARRIERE_DROITE",
-                "label_index": "27875",
+                "label_index": "@P27875",
                 "label_korean": "리어 우측 휠 속도 센서 장착 상태",
                 "group_id": "43724",
                 "req_frame_id": "131470",
@@ -3301,7 +3301,7 @@
             {
                 "position": 9,
                 "mnemonic": "MP_COMMUNICATION_CAPTEUR_VITESSE_ROUE_ARRIERE_DROITE",
-                "label_index": "27804",
+                "label_index": "@P27804",
                 "label_korean": "리어 우측 휠 속도 센서와 통신",
                 "group_id": "43724",
                 "req_frame_id": "131470",
@@ -3323,7 +3323,7 @@
             {
                 "position": 10,
                 "mnemonic": "MP_ROTATION_EN_MARCHE_AVANT_CAPTEUR_VITESSE_ROUE_ARRIERE_DROITE",
-                "label_index": "27801",
+                "label_index": "@P27801",
                 "label_korean": "전진 기어에서 리어 우측 휠 속도 센서의 회전",
                 "group_id": "43724",
                 "req_frame_id": "131470",
@@ -3345,7 +3345,7 @@
             {
                 "position": 11,
                 "mnemonic": "MP_ROTATION_EN_MARCHE_ARRIERE_CAPTEUR_VIT_ROUE_ARRIERE_DROITE",
-                "label_index": "27862",
+                "label_index": "@P27862",
                 "label_korean": "후진 기어에서 리어 우측 휠 속도 센서의 회전",
                 "group_id": "43724",
                 "req_frame_id": "131470",
@@ -3367,7 +3367,7 @@
             {
                 "position": 12,
                 "mnemonic": "MP_ETAT_DETERMINATION_DIRECTION_CAPTEUR_VIT_ROUE_ARRIERE_DROITE",
-                "label_index": "27794",
+                "label_index": "@P27794",
                 "label_korean": "리어 우측 휠 속도 센서 방향 결정 상태",
                 "group_id": "43724",
                 "req_frame_id": "131470",
@@ -3392,7 +3392,7 @@
             {
                 "position": 13,
                 "mnemonic": "MP_ETAT_MOUVEMENT_ROUE_CAPTEUR_VIT_ROUE_AR_DROITE",
-                "label_index": "28773",
+                "label_index": "@P28773",
                 "label_korean": "리어 우측 휠 속도 센서에 의해 확인된 휠 이동 상태",
                 "group_id": "43724",
                 "req_frame_id": "131470",
@@ -3417,7 +3417,7 @@
             {
                 "position": 14,
                 "mnemonic": "MP_TYPE_CAPTEUR_VITESSE_ROUE_ARRIERE_DROITE_VU_PAR_CALCULATEUR",
-                "label_index": "27851",
+                "label_index": "@P27851",
                 "label_korean": "ESP ECU에 의해서 보여지는 리어 우측 휠 속도 센서의 타입",
                 "group_id": "43724",
                 "req_frame_id": "131470",
@@ -3444,7 +3444,7 @@
             {
                 "position": 14,
                 "mnemonic": "MP_TYPE_CAPTEUR_VITESSE_ROUE_ARRIERE_DROITE_VU_PAR_CALCULATEUR",
-                "label_index": "27851",
+                "label_index": "@P27851",
                 "label_korean": "ESP ECU에 의해서 보여지는 리어 우측 휠 속도 센서의 타입",
                 "group_id": "43724",
                 "req_frame_id": "131470",
@@ -3479,7 +3479,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_ETAT_MONTAGE_CAPTEUR_VITESSE_ROUE_ARRIERE_GAUCHE",
-                "label_index": "27865",
+                "label_index": "@P27865",
                 "label_korean": "리어 좌측 휠 속도 센서 장착 상태",
                 "group_id": "43724",
                 "req_frame_id": "131470",
@@ -3501,7 +3501,7 @@
             {
                 "position": 2,
                 "mnemonic": "MP_COMMUNICATION_CAPTEUR_VITESSE_ROUE_ARRIERE_GAUCHE",
-                "label_index": "27753",
+                "label_index": "@P27753",
                 "label_korean": "리어 좌측 휠 속도 센서와 통신",
                 "group_id": "43724",
                 "req_frame_id": "131470",
@@ -3523,7 +3523,7 @@
             {
                 "position": 3,
                 "mnemonic": "MP_ROTATION_EN_MARCHE_AVANT_CAPTEUR_VITESSE_ROUE_ARRIERE_GAUCHE",
-                "label_index": "27781",
+                "label_index": "@P27781",
                 "label_korean": "전진 기어에서 리어 좌측 휠 속도 센서의 회전",
                 "group_id": "43724",
                 "req_frame_id": "131470",
@@ -3545,7 +3545,7 @@
             {
                 "position": 4,
                 "mnemonic": "MP_ROTATION_EN_MARCHE_ARRIERE_CAPTEUR_VIT_ROUE_ARRIERE_GAUCHE",
-                "label_index": "27846",
+                "label_index": "@P27846",
                 "label_korean": "후진 기어에서 리어 좌측 휠 속도 센서의 회전",
                 "group_id": "43724",
                 "req_frame_id": "131470",
@@ -3567,7 +3567,7 @@
             {
                 "position": 5,
                 "mnemonic": "MP_ETAT_DETERMINATION_DIRECTION_CAPTEUR_VIT_ROUE_ARRIERE_GAUCHE",
-                "label_index": "27878",
+                "label_index": "@P27878",
                 "label_korean": "리어 좌측 휠 속도 센서 방향 결정 상태",
                 "group_id": "43724",
                 "req_frame_id": "131470",
@@ -3592,7 +3592,7 @@
             {
                 "position": 6,
                 "mnemonic": "MP_ETAT_MOUVEMENT_ROUE_CAPTEUR_VIT_ROUE_AR_GAUCHE",
-                "label_index": "27903",
+                "label_index": "@P27903",
                 "label_korean": "리어 좌측 휠 속도 센서에 의해 확인된 휠 이동 상태",
                 "group_id": "43724",
                 "req_frame_id": "131470",
@@ -3617,7 +3617,7 @@
             {
                 "position": 7,
                 "mnemonic": "MP_TYPE_CAPTEUR_VITESSE_ROUE_ARRIERE_GAUCHE_VU_PAR_CALCULATEUR",
-                "label_index": "27850",
+                "label_index": "@P27850",
                 "label_korean": "ESP ECU에 의해 감지된 리어 좌측 휠 센서의 타입",
                 "group_id": "43724",
                 "req_frame_id": "131470",
@@ -3644,7 +3644,7 @@
             {
                 "position": 8,
                 "mnemonic": "MP_ETAT_MONTAGE_CAPTEUR_VITESSE_ROUE_ARRIERE_DROITE",
-                "label_index": "27875",
+                "label_index": "@P27875",
                 "label_korean": "리어 우측 휠 속도 센서 장착 상태",
                 "group_id": "43724",
                 "req_frame_id": "131470",
@@ -3666,7 +3666,7 @@
             {
                 "position": 9,
                 "mnemonic": "MP_COMMUNICATION_CAPTEUR_VITESSE_ROUE_ARRIERE_DROITE",
-                "label_index": "27804",
+                "label_index": "@P27804",
                 "label_korean": "리어 우측 휠 속도 센서와 통신",
                 "group_id": "43724",
                 "req_frame_id": "131470",
@@ -3688,7 +3688,7 @@
             {
                 "position": 10,
                 "mnemonic": "MP_ROTATION_EN_MARCHE_AVANT_CAPTEUR_VITESSE_ROUE_ARRIERE_DROITE",
-                "label_index": "27801",
+                "label_index": "@P27801",
                 "label_korean": "전진 기어에서 리어 우측 휠 속도 센서의 회전",
                 "group_id": "43724",
                 "req_frame_id": "131470",
@@ -3710,7 +3710,7 @@
             {
                 "position": 11,
                 "mnemonic": "MP_ROTATION_EN_MARCHE_ARRIERE_CAPTEUR_VIT_ROUE_ARRIERE_DROITE",
-                "label_index": "27862",
+                "label_index": "@P27862",
                 "label_korean": "후진 기어에서 리어 우측 휠 속도 센서의 회전",
                 "group_id": "43724",
                 "req_frame_id": "131470",
@@ -3732,7 +3732,7 @@
             {
                 "position": 12,
                 "mnemonic": "MP_ETAT_DETERMINATION_DIRECTION_CAPTEUR_VIT_ROUE_ARRIERE_DROITE",
-                "label_index": "27794",
+                "label_index": "@P27794",
                 "label_korean": "리어 우측 휠 속도 센서 방향 결정 상태",
                 "group_id": "43724",
                 "req_frame_id": "131470",
@@ -3757,7 +3757,7 @@
             {
                 "position": 13,
                 "mnemonic": "MP_ETAT_MOUVEMENT_ROUE_CAPTEUR_VIT_ROUE_AR_DROITE",
-                "label_index": "28773",
+                "label_index": "@P28773",
                 "label_korean": "리어 우측 휠 속도 센서에 의해 확인된 휠 이동 상태",
                 "group_id": "43724",
                 "req_frame_id": "131470",
@@ -3782,7 +3782,7 @@
             {
                 "position": 14,
                 "mnemonic": "MP_TYPE_CAPTEUR_VITESSE_ROUE_ARRIERE_DROITE_VU_PAR_CALCULATEUR",
-                "label_index": "27851",
+                "label_index": "@P27851",
                 "label_korean": "ESP ECU에 의해서 보여지는 리어 우측 휠 속도 센서의 타입",
                 "group_id": "43724",
                 "req_frame_id": "131470",
@@ -3817,7 +3817,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_ETAT_FONCTION_FARC",
-                "label_index": "31542",
+                "label_index": "@P31542",
                 "label_korean": "충돌 위험시 자동 제동 기능 상태",
                 "group_id": "43731",
                 "req_frame_id": "131491",
@@ -3857,7 +3857,7 @@
             {
                 "position": 2,
                 "mnemonic": "MP_TYPE_DECELERATION",
-                "label_index": "35582",
+                "label_index": "@P35582",
                 "label_korean": "감속도 타입",
                 "group_id": "43731",
                 "req_frame_id": "131491",
@@ -3884,7 +3884,7 @@
             {
                 "position": 3,
                 "mnemonic": "MP_DEMANDE_PILOTAGE_DECELERATION",
-                "label_index": "40598",
+                "label_index": "@P40598",
                 "label_korean": "비상 충돌 제동 기능에 의한 감속 제어 요청",
                 "group_id": "43731",
                 "req_frame_id": "131491",
@@ -3906,7 +3906,7 @@
             {
                 "position": 4,
                 "mnemonic": "MP_DEMANDE_PREREMPLISSAGE_ETRIERS_FREIN",
-                "label_index": "42505",
+                "label_index": "@P42505",
                 "label_korean": "브레이크 캘리퍼를 미리 채우도록 요청",
                 "group_id": "43731",
                 "req_frame_id": "131491",
@@ -3928,7 +3928,7 @@
             {
                 "position": 5,
                 "mnemonic": "MP_ETAT_FONCTION_FARC_DANS_ESP",
-                "label_index": "40594",
+                "label_index": "@P40594",
                 "label_korean": "ESP ECU에서 비상 충돌 제동 기능의 상태",
                 "group_id": "43731",
                 "req_frame_id": "131491",
@@ -3950,7 +3950,7 @@
             {
                 "position": 6,
                 "mnemonic": "MP_PREPARATION_FREINAGE_AUTOMATIQUE",
-                "label_index": "40599",
+                "label_index": "@P40599",
                 "label_korean": "비상 충돌 제동을 위한 준비",
                 "group_id": "43731",
                 "req_frame_id": "131491",
@@ -3972,7 +3972,7 @@
             {
                 "position": 7,
                 "mnemonic": "MP_CONSIGNE_DECELERATION_DEMANDEE",
-                "label_index": "40600",
+                "label_index": "@P40600",
                 "label_korean": "비상 충돌 제동 기능에 의해 요청된 차량 감속 기준 값",
                 "group_id": "43731",
                 "req_frame_id": "131491",
@@ -3994,7 +3994,7 @@
             {
                 "position": 8,
                 "mnemonic": "MP_INHIBITION_FONCTION_FARC",
-                "label_index": "40595",
+                "label_index": "@P40595",
                 "label_korean": "비상 충돌 제동 기능의 차단",
                 "group_id": "43731",
                 "req_frame_id": "131491",
@@ -4024,7 +4024,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_ETAT_GENERAL_DSG",
-                "label_index": "9712",
+                "label_index": "@P9712",
                 "label_korean": "타이어 공기압 감지 시스템의 전반전인 상태",
                 "group_id": "43725",
                 "req_frame_id": "131473",
@@ -4062,7 +4062,7 @@
             {
                 "position": 2,
                 "mnemonic": "MP_ETAT_ROUE_AVANT_GAUCHE",
-                "label_index": "4804",
+                "label_index": "@P4804",
                 "label_korean": "프론트 좌측 휠의 상태",
                 "group_id": "43725",
                 "req_frame_id": "131473",
@@ -4099,7 +4099,7 @@
             {
                 "position": 3,
                 "mnemonic": "MP_ETAT_ROUE_AVANT_DROITE",
-                "label_index": "10352",
+                "label_index": "@P10352",
                 "label_korean": "프론트 우측 휠 상태",
                 "group_id": "43725",
                 "req_frame_id": "131473",
@@ -4136,7 +4136,7 @@
             {
                 "position": 4,
                 "mnemonic": "MP_ETAT_ROUE_ARRIERE_GAUCHE",
-                "label_index": "10520",
+                "label_index": "@P10520",
                 "label_korean": "리어 좌측 휠의 상태",
                 "group_id": "43725",
                 "req_frame_id": "131473",
@@ -4175,7 +4175,7 @@
             {
                 "position": 5,
                 "mnemonic": "MP_ETAT_ROUE_ARRIERE_DROITE",
-                "label_index": "13892",
+                "label_index": "@P13892",
                 "label_korean": "리어 우측 휠 상태",
                 "group_id": "43725",
                 "req_frame_id": "131473",
@@ -4220,7 +4220,7 @@
             {
                 "position": 6,
                 "mnemonic": "MP_POURCENTAGE_NIVEAU_DETECTION_DSG",
-                "label_index": "31686",
+                "label_index": "@P31686",
                 "label_korean": "타이어 공기압 감지 기능의 프로그래밍 레벨 퍼센트",
                 "group_id": "43725",
                 "req_frame_id": "131473",
@@ -4244,7 +4244,7 @@
             {
                 "position": 7,
                 "mnemonic": "MP_PROBABILITE_SOUS_GONFLAGE",
-                "label_index": "31689",
+                "label_index": "@P31689",
                 "label_korean": "타이어 공기압 감지 퍼센트",
                 "group_id": "43725",
                 "req_frame_id": "131473",
@@ -4268,7 +4268,7 @@
             {
                 "position": 8,
                 "mnemonic": "MP_TYPE_DERNIERE_ALERTE_DSG",
-                "label_index": "31688",
+                "label_index": "@P31688",
                 "label_korean": "마지막 타이어 공기압 감지 경고 타입",
                 "group_id": "43725",
                 "req_frame_id": "131473",
@@ -4297,7 +4297,7 @@
             {
                 "position": 9,
                 "mnemonic": "MP_ETAT_BOUTON_RAZ_DSG",
-                "label_index": "37586",
+                "label_index": "@P37586",
                 "label_korean": "타이어 공기압 감지 기능 리셋 버튼 상태",
                 "group_id": "43725",
                 "req_frame_id": "131473",
@@ -4322,7 +4322,7 @@
             {
                 "position": 10,
                 "mnemonic": "MP_DISTANCE_DEPUIS_DERNIERE_ALERTE_DSG",
-                "label_index": "31700",
+                "label_index": "@P31700",
                 "label_korean": "마지막 타이어 감지 기능 경고가 시작된 후 거리",
                 "group_id": "43725",
                 "req_frame_id": "131473",
@@ -4346,7 +4346,7 @@
             {
                 "position": 11,
                 "mnemonic": "MP_CHARGE_VEHICULE_FONCTION_DSG",
-                "label_index": "31699",
+                "label_index": "@P31699",
                 "label_korean": "타이어 공기압 감지 기능에 의해 추정된 차량 부하",
                 "group_id": "43725",
                 "req_frame_id": "131473",
@@ -4386,7 +4386,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_ETAT_GENERAL_DSG_FIGE_ALERTE",
-                "label_index": "9712",
+                "label_index": "@P9712",
                 "label_korean": "타이어 공기압 감지 시스템의 전반전인 상태",
                 "group_id": "43726",
                 "req_frame_id": "131476",
@@ -4408,7 +4408,7 @@
             {
                 "position": 2,
                 "mnemonic": "MP_ETAT_ROUE_AVANT_GAUCHE_FIGE_ALERTE",
-                "label_index": "4804",
+                "label_index": "@F4804",
                 "label_korean": "프론트 좌측 휠의 상태",
                 "group_id": "43726",
                 "req_frame_id": "131476",
@@ -4430,7 +4430,7 @@
             {
                 "position": 3,
                 "mnemonic": "MP_ETAT_ROUE_AVANT_DROITE_FIGE_ALERTE",
-                "label_index": "10352",
+                "label_index": "@F10352",
                 "label_korean": "프론트 우측 휠 상태",
                 "group_id": "43726",
                 "req_frame_id": "131476",
@@ -4452,7 +4452,7 @@
             {
                 "position": 4,
                 "mnemonic": "MP_ETAT_ROUE_ARRIERE_GAUCHE_FIGE_ALERTE",
-                "label_index": "10520",
+                "label_index": "@F10520",
                 "label_korean": "리어 좌측 휠의 상태",
                 "group_id": "43726",
                 "req_frame_id": "131476",
@@ -4474,7 +4474,7 @@
             {
                 "position": 5,
                 "mnemonic": "MP_ETAT_ROUE_ARRIERE_DROITE_FIGE_ALERTE",
-                "label_index": "13892",
+                "label_index": "@F13892",
                 "label_korean": "리어 우측 휠 상태",
                 "group_id": "43726",
                 "req_frame_id": "131476",
@@ -4496,7 +4496,7 @@
             {
                 "position": 6,
                 "mnemonic": "MP_POURCENTAGE_NIVEAU_DETECTION_DSG_FIGE_ALERTE",
-                "label_index": "31686",
+                "label_index": "@P31686",
                 "label_korean": "타이어 공기압 감지 기능의 프로그래밍 레벨 퍼센트",
                 "group_id": "43726",
                 "req_frame_id": "131476",
@@ -4520,7 +4520,7 @@
             {
                 "position": 7,
                 "mnemonic": "MP_PROBABILITE_SOUS_GONFLAGE_FIGE_ALERTE",
-                "label_index": "31689",
+                "label_index": "@P31689",
                 "label_korean": "타이어 공기압 감지 퍼센트",
                 "group_id": "43726",
                 "req_frame_id": "131476",
@@ -4544,7 +4544,7 @@
             {
                 "position": 8,
                 "mnemonic": "MP_TYPE_DERNIERE_ALERTE_DSG_FIGE_ALERTE",
-                "label_index": "31688",
+                "label_index": "@P31688",
                 "label_korean": "마지막 타이어 공기압 감지 경고 타입",
                 "group_id": "매핑_누락",
                 "req_frame_id": "",
@@ -4566,7 +4566,7 @@
             {
                 "position": 9,
                 "mnemonic": "MP_ETAT_BOUTON_RAZ_DSG_FIGE_ALERTE",
-                "label_index": "37586",
+                "label_index": "@P37586",
                 "label_korean": "타이어 공기압 감지 기능 리셋 버튼 상태",
                 "group_id": "매핑_누락",
                 "req_frame_id": "",
@@ -4588,7 +4588,7 @@
             {
                 "position": 10,
                 "mnemonic": "MP_DISTANCE_DEPUIS_DERNIERE_ALERTE_DSG_FIGE_ALERTE",
-                "label_index": "31700",
+                "label_index": "@P31700",
                 "label_korean": "마지막 타이어 감지 기능 경고가 시작된 후 거리",
                 "group_id": "43726",
                 "req_frame_id": "131476",
@@ -4610,7 +4610,7 @@
             {
                 "position": 11,
                 "mnemonic": "MP_CHARGE_VEHICULE_FONCTION_DSG_FIGE_ALERTE",
-                "label_index": "31699",
+                "label_index": "@P31699",
                 "label_korean": "타이어 공기압 감지 기능에 의해 추정된 차량 부하",
                 "group_id": "43726",
                 "req_frame_id": "131476",
@@ -4640,7 +4640,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_ETAT_GENERAL_DSG_FIGE_ALERTE",
-                "label_index": "9712",
+                "label_index": "@P9712",
                 "label_korean": "타이어 공기압 감지 시스템의 전반전인 상태",
                 "group_id": "43726",
                 "req_frame_id": "131476",
@@ -4662,7 +4662,7 @@
             {
                 "position": 2,
                 "mnemonic": "MP_ETAT_ROUE_AVANT_GAUCHE_FIGE_ALERTE",
-                "label_index": "4804",
+                "label_index": "@F4804",
                 "label_korean": "프론트 좌측 휠의 상태",
                 "group_id": "43726",
                 "req_frame_id": "131476",
@@ -4684,7 +4684,7 @@
             {
                 "position": 3,
                 "mnemonic": "MP_ETAT_ROUE_AVANT_DROITE_FIGE_ALERTE",
-                "label_index": "10352",
+                "label_index": "@F10352",
                 "label_korean": "프론트 우측 휠 상태",
                 "group_id": "43726",
                 "req_frame_id": "131476",
@@ -4706,7 +4706,7 @@
             {
                 "position": 4,
                 "mnemonic": "MP_ETAT_ROUE_ARRIERE_GAUCHE_FIGE_ALERTE",
-                "label_index": "10520",
+                "label_index": "@F10520",
                 "label_korean": "리어 좌측 휠의 상태",
                 "group_id": "43726",
                 "req_frame_id": "131476",
@@ -4728,7 +4728,7 @@
             {
                 "position": 5,
                 "mnemonic": "MP_ETAT_ROUE_ARRIERE_DROITE_FIGE_ALERTE",
-                "label_index": "13892",
+                "label_index": "@F13892",
                 "label_korean": "리어 우측 휠 상태",
                 "group_id": "43726",
                 "req_frame_id": "131476",
@@ -4750,7 +4750,7 @@
             {
                 "position": 6,
                 "mnemonic": "MP_POURCENTAGE_NIVEAU_DETECTION_DSG_FIGE_ALERTE",
-                "label_index": "31686",
+                "label_index": "@P31686",
                 "label_korean": "타이어 공기압 감지 기능의 프로그래밍 레벨 퍼센트",
                 "group_id": "43726",
                 "req_frame_id": "131476",
@@ -4774,7 +4774,7 @@
             {
                 "position": 7,
                 "mnemonic": "MP_PROBABILITE_SOUS_GONFLAGE_FIGE_ALERTE",
-                "label_index": "31689",
+                "label_index": "@P31689",
                 "label_korean": "타이어 공기압 감지 퍼센트",
                 "group_id": "43726",
                 "req_frame_id": "131476",
@@ -4798,7 +4798,7 @@
             {
                 "position": 8,
                 "mnemonic": "MP_CHARGE_VEHICULE_FONCTION_DSG_FIGE_ALERTE",
-                "label_index": "31699",
+                "label_index": "@P31699",
                 "label_korean": "타이어 공기압 감지 기능에 의해 추정된 차량 부하",
                 "group_id": "43726",
                 "req_frame_id": "131476",
@@ -4820,7 +4820,7 @@
             {
                 "position": 9,
                 "mnemonic": "MP_DISTANCE_DEPUIS_DERNIERE_RAZ_DSG",
-                "label_index": "31685",
+                "label_index": "@P31685",
                 "label_korean": "마지막 타이어 공기압 감지 기능 리셋 이후 거리",
                 "group_id": "43726",
                 "req_frame_id": "131476",
@@ -4842,7 +4842,7 @@
             {
                 "position": 10,
                 "mnemonic": "MP_DISTANCE_DEPUIS_DERNIERE_ALERTE_DSG_FIGE_ALERTE",
-                "label_index": "31700",
+                "label_index": "@P31700",
                 "label_korean": "마지막 타이어 감지 기능 경고가 시작된 후 거리",
                 "group_id": "43726",
                 "req_frame_id": "131476",
@@ -4864,7 +4864,7 @@
             {
                 "position": 11,
                 "mnemonic": "MP_DISTANCE_PARCOURUE_PENDANT_DERNIERE_ALERTE_DSG",
-                "label_index": "48756",
+                "label_index": "@P48756",
                 "label_korean": "최근 타이어 공기압 부족 감지 기능 경고 중 주행 거리",
                 "group_id": "43726",
                 "req_frame_id": "131476",
@@ -4896,7 +4896,7 @@
             {
                 "position": 1,
                 "mnemonic": "CA_REF_HORAIRE",
-                "label_index": "1202",
+                "label_index": "@P1202",
                 "label_korean": "시간 기준",
                 "group_id": "43733",
                 "req_frame_id": "131497",
@@ -4918,7 +4918,7 @@
             {
                 "position": 2,
                 "mnemonic": "CA_KILOMETRAGE",
-                "label_index": "7845",
+                "label_index": "@P7845",
                 "label_korean": "주행거리",
                 "group_id": "43733",
                 "req_frame_id": "131497",
@@ -4942,7 +4942,7 @@
             {
                 "position": 3,
                 "mnemonic": "CA_PLUS_ACCESSOIRE",
-                "label_index": "27899",
+                "label_index": "@P27899",
                 "label_korean": "액세서리 전원",
                 "group_id": "43733",
                 "req_frame_id": "131497",
@@ -4964,7 +4964,7 @@
             {
                 "position": 4,
                 "mnemonic": "CA_PLUS_APRES_CONTACT",
-                "label_index": "5032",
+                "label_index": "@P5032",
                 "label_korean": "키 ON 전원",
                 "group_id": "43733",
                 "req_frame_id": "131497",
@@ -4986,7 +4986,7 @@
             {
                 "position": 5,
                 "mnemonic": "CA_ETAT_INFORMATION_CONTROLE_MOTEUR",
-                "label_index": "27920",
+                "label_index": "@P27920",
                 "label_korean": "엔진 제어 정보 상태",
                 "group_id": "43733",
                 "req_frame_id": "131497",
@@ -5008,7 +5008,7 @@
             {
                 "position": 6,
                 "mnemonic": "CA_PERTINANCE_INFO_VENANT_BSI",
-                "label_index": "20216",
+                "label_index": "@P20216",
                 "label_korean": "BSI로부터 오는 정보의 타당성",
                 "group_id": "43733",
                 "req_frame_id": "131497",
@@ -5030,7 +5030,7 @@
             {
                 "position": 7,
                 "mnemonic": "CA_ETAT_MOTEUR_THERMIQUE_a",
-                "label_index": "6134",
+                "label_index": "@P6134",
                 "label_korean": "엔진 상태",
                 "group_id": "43733",
                 "req_frame_id": "131497",
@@ -5067,7 +5067,7 @@
             {
                 "position": 8,
                 "mnemonic": "CA_COMMANDE_RELAIS_PRINCIPAL",
-                "label_index": "14538",
+                "label_index": "@P14538",
                 "label_korean": "메인 릴레이 제어",
                 "group_id": "43733",
                 "req_frame_id": "131497",
@@ -5089,7 +5089,7 @@
             {
                 "position": 9,
                 "mnemonic": "CA_POSITION_PARKING",
-                "label_index": "10736",
+                "label_index": "@P10736",
                 "label_korean": "주차 위치",
                 "group_id": "43733",
                 "req_frame_id": "131497",
@@ -5111,7 +5111,7 @@
             {
                 "position": 10,
                 "mnemonic": "CA_ETAT_RESEAU_ELECTRIQUE",
-                "label_index": "17734",
+                "label_index": "@P17734",
                 "label_korean": "전기 네트워크의 상태",
                 "group_id": "43733",
                 "req_frame_id": "131497",
@@ -5142,7 +5142,7 @@
             {
                 "position": 11,
                 "mnemonic": "CA_VITESSE_VEHICULE",
-                "label_index": "15603",
+                "label_index": "@P15603@\\*",
                 "label_korean": "차량 속도",
                 "group_id": "43733",
                 "req_frame_id": "131497",
@@ -5166,7 +5166,7 @@
             {
                 "position": 12,
                 "mnemonic": "CA_VITESSE_ROUE_AVANT_GAUCHE_a",
-                "label_index": "8278",
+                "label_index": "@P8278",
                 "label_korean": "프론트 좌측 휠 속도",
                 "group_id": "43733",
                 "req_frame_id": "131497",
@@ -5188,7 +5188,7 @@
             {
                 "position": 13,
                 "mnemonic": "CA_VITESSE_ROUE_AVANT_DROITE_a",
-                "label_index": "11398",
+                "label_index": "@P11398",
                 "label_korean": "프론트 우측 휠 속도",
                 "group_id": "43733",
                 "req_frame_id": "131497",
@@ -5210,7 +5210,7 @@
             {
                 "position": 14,
                 "mnemonic": "CA_VITESSE_ROUE_ARRIERE_GAUCHE_a",
-                "label_index": "13812",
+                "label_index": "@P13812",
                 "label_korean": "리어 좌측 휠 속도",
                 "group_id": "43733",
                 "req_frame_id": "131497",
@@ -5232,7 +5232,7 @@
             {
                 "position": 15,
                 "mnemonic": "CA_VITESSE_ROUE_ARRIERE_DROITE_a",
-                "label_index": "8028",
+                "label_index": "@P8028",
                 "label_korean": "리어 우측 휠 속도",
                 "group_id": "43733",
                 "req_frame_id": "131497",
@@ -5254,7 +5254,7 @@
             {
                 "position": 16,
                 "mnemonic": "CA_ETAT_REVEIL_PRINCIPAL",
-                "label_index": "8973",
+                "label_index": "@P8973",
                 "label_korean": "메인 작동 상태",
                 "group_id": "43733",
                 "req_frame_id": "131497",
@@ -5276,7 +5276,7 @@
             {
                 "position": 17,
                 "mnemonic": "CA_ETAT_LIGNE_REVEIL_PLUS_APRES_CONTACT",
-                "label_index": "27848",
+                "label_index": "@P27848",
                 "label_korean": "키 ON 작동 라인 상태",
                 "group_id": "43733",
                 "req_frame_id": "131497",
@@ -5298,7 +5298,7 @@
             {
                 "position": 18,
                 "mnemonic": "CA_REGULATION_ANTI_FREIN_MOTEUR_MSR",
-                "label_index": "10115",
+                "label_index": "@P10115",
                 "label_korean": "안티-엔진 브레이크 제어 (MSR)",
                 "group_id": "43733",
                 "req_frame_id": "131497",
@@ -5323,7 +5323,7 @@
             {
                 "position": 19,
                 "mnemonic": "CA_REGULATION_ANTIPATINAGE_AVEC_ACTION_COUPLE_MOTEUR",
-                "label_index": "12728",
+                "label_index": "@P12728",
                 "label_korean": "엔진 토크에 영향을 주는 안티-슬립 제어 (ASR)",
                 "group_id": "43733",
                 "req_frame_id": "131497",
@@ -5348,7 +5348,7 @@
             {
                 "position": 20,
                 "mnemonic": "CA_REGULATION_ESP_a",
-                "label_index": "4865",
+                "label_index": "@P4865",
                 "label_korean": "ESP 제어",
                 "group_id": "43733",
                 "req_frame_id": "131497",
@@ -5373,7 +5373,7 @@
             {
                 "position": 21,
                 "mnemonic": "MP_REGAR",
-                "label_index": "10730",
+                "label_index": "@P10730",
                 "label_korean": "ABS 제어",
                 "group_id": "43733",
                 "req_frame_id": "131497",
@@ -5395,7 +5395,7 @@
             {
                 "position": 22,
                 "mnemonic": "CA_ETAT_ALIMENTATION_POMPE_HYDRAULIQUE_FREINAGE",
-                "label_index": "27923",
+                "label_index": "@P27923",
                 "label_korean": "유압 제동 펌프 전원 상태",
                 "group_id": "43733",
                 "req_frame_id": "131497",
@@ -5417,7 +5417,7 @@
             {
                 "position": 23,
                 "mnemonic": "CA_REGULATION_AFU_a",
-                "label_index": "13585",
+                "label_index": "@P13585",
                 "label_korean": "EBA 제어",
                 "group_id": "43733",
                 "req_frame_id": "131497",
@@ -5439,7 +5439,7 @@
             {
                 "position": 24,
                 "mnemonic": "CA_REGULATION_REF",
-                "label_index": "7078",
+                "label_index": "@P7078@T (REF)",
                 "label_korean": "EBD 제어 (REF)",
                 "group_id": "43733",
                 "req_frame_id": "131497",
@@ -5464,7 +5464,7 @@
             {
                 "position": 25,
                 "mnemonic": "CA_REGULATION_ANTIPATINAGE_ACTION_FREIN_NOT_BASR",
-                "label_index": "12345",
+                "label_index": "@P12345",
                 "label_korean": "브레이크에 영향을 주는 안티-슬립 제어(BASR)",
                 "group_id": "43733",
                 "req_frame_id": "131497",
@@ -5486,7 +5486,7 @@
             {
                 "position": 26,
                 "mnemonic": "CA_ESP_DECONNECTE",
-                "label_index": "7657",
+                "label_index": "@P7657@\\*ESP",
                 "label_korean": "ESP분리",
                 "group_id": "43733",
                 "req_frame_id": "131497",
@@ -5511,7 +5511,7 @@
             {
                 "position": 27,
                 "mnemonic": "CA_ETAT_DU_FREINAGE",
-                "label_index": "15190",
+                "label_index": "@P15190",
                 "label_korean": "제동 상태",
                 "group_id": "43733",
                 "req_frame_id": "131497",
@@ -5533,7 +5533,7 @@
             {
                 "position": 28,
                 "mnemonic": "CA_VITESSE_ANGLE_LACET_a",
-                "label_index": "13865",
+                "label_index": "@P13865",
                 "label_korean": "요잉 각도 속도",
                 "group_id": "43733",
                 "req_frame_id": "131497",
@@ -5555,7 +5555,7 @@
             {
                 "position": 29,
                 "mnemonic": "CA_ACCELERATION_TRANSVERSALE",
-                "label_index": "13706",
+                "label_index": "@P13706",
                 "label_korean": "횡가속도",
                 "group_id": "43733",
                 "req_frame_id": "131497",
@@ -5577,7 +5577,7 @@
             {
                 "position": 30,
                 "mnemonic": "CA_ANGLE_VOLANT",
-                "label_index": "1274",
+                "label_index": "@P1274",
                 "label_korean": "스티어링 휠 앵글",
                 "group_id": "43733",
                 "req_frame_id": "131497",
@@ -5601,7 +5601,7 @@
             {
                 "position": 31,
                 "mnemonic": "CA_DISTANCE_PARCURUE_DEPUIS_DERNIERE_MISE_CONTACT",
-                "label_index": "16187",
+                "label_index": "@P16187",
                 "label_korean": "키를 마지막으로 ON 한 후 주행한 거리",
                 "group_id": "43733",
                 "req_frame_id": "131497",
@@ -5623,7 +5623,7 @@
             {
                 "position": 32,
                 "mnemonic": "CA_TENSION_ALIMENTATION",
-                "label_index": "7080",
+                "label_index": "@P7080",
                 "label_korean": "공급 전압",
                 "group_id": "43733",
                 "req_frame_id": "131497",
@@ -5645,7 +5645,7 @@
             {
                 "position": 33,
                 "mnemonic": "CA_ACCELERATION_LONGITUDINALE_2",
-                "label_index": "7872",
+                "label_index": "@P7872",
                 "label_korean": "종가속도",
                 "group_id": "43733",
                 "req_frame_id": "131497",
@@ -5667,7 +5667,7 @@
             {
                 "position": 34,
                 "mnemonic": "CA_ANGLE_COLONNE_DIRECTION_DONNE_DIRECTION_ASSISTEE_ELECTRIQUE",
-                "label_index": "27828",
+                "label_index": "@P27828",
                 "label_korean": "전동 파워 스티어링에 의해 공급되는 스티어링 컬럼 앵글",
                 "group_id": "43733",
                 "req_frame_id": "131497",
@@ -5689,7 +5689,7 @@
             {
                 "position": 35,
                 "mnemonic": "CA_CODE_STRATEGIE_FOURNISSEUR",
-                "label_index": "27797",
+                "label_index": "@P27797",
                 "label_korean": "제조업체 모드 코드",
                 "group_id": "43733",
                 "req_frame_id": "131497",

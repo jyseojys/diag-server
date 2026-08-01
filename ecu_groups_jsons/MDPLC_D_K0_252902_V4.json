@@ -8,7 +8,7 @@
             {
                 "position": 1,
                 "mnemonic": "ID_NOM_DU_FOURNISSEUR",
-                "label_index": "5701",
+                "label_index": "@P5701",
                 "label_korean": "제조 업체명",
                 "group_id": "52828",
                 "req_frame_id": "158777",
@@ -38,7 +38,7 @@
             {
                 "position": 2,
                 "mnemonic": "ID_REFERENCE_MATERIEL",
-                "label_index": "1071",
+                "label_index": "@P1071",
                 "label_korean": "장치 부품 번호",
                 "group_id": "52828",
                 "req_frame_id": "158777",
@@ -60,7 +60,7 @@
             {
                 "position": 3,
                 "mnemonic": "ID_REFERENCE_COMPLEMENTAIRE_MATERIEL",
-                "label_index": "1634",
+                "label_index": "@P1634",
                 "label_korean": "장치 추가 참조 번호",
                 "group_id": "52828",
                 "req_frame_id": "158777",
@@ -82,7 +82,7 @@
             {
                 "position": 4,
                 "mnemonic": "ID_ZI_FILE",
-                "label_index": "3627",
+                "label_index": "@P3627",
                 "label_korean": "캘리브레이션 파일 번호",
                 "group_id": "52827",
                 "req_frame_id": "158774",
@@ -104,7 +104,7 @@
             {
                 "position": 5,
                 "mnemonic": "ID_TRACABILITE_INDICE_EVOLUTION_EDITION_CALIBRATION",
-                "label_index": "7413",
+                "label_index": "@P7413",
                 "label_korean": "캘리브레이션 에디션",
                 "group_id": "52827",
                 "req_frame_id": "158774",
@@ -126,7 +126,7 @@
             {
                 "position": 6,
                 "mnemonic": "ID_TRACABILITE_INDICE_EVOLUTION_EDITION",
-                "label_index": "24601",
+                "label_index": "@P24601",
                 "label_korean": "소프트웨어 버전",
                 "group_id": "52828",
                 "req_frame_id": "158777",
@@ -148,7 +148,7 @@
             {
                 "position": 7,
                 "mnemonic": "ID_DATE_TELECH",
-                "label_index": "21670",
+                "label_index": "@P21670",
                 "label_korean": "다운로딩 날짜",
                 "group_id": "52827",
                 "req_frame_id": "158774",
@@ -170,7 +170,7 @@
             {
                 "position": 8,
                 "mnemonic": "ID_NOMBRE_DE_TELECHARGEMENT",
-                "label_index": "24589",
+                "label_index": "@P24589",
                 "label_korean": "다운로드의 수",
                 "group_id": "52827",
                 "req_frame_id": "158774",
@@ -200,8 +200,8 @@
             {
                 "position": 1,
                 "mnemonic": "MP_TENSION_ALIMENTATION_PLUS_BATT",
-                "label_index": "46945",
-                "label_korean": "슬라이딩 사이드 도어 ECU \"서비스 배터리 \" 전원 공급 전압 값",
+                "label_index": "@P46945",
+                "label_korean": "슬라이딩 사이드 도어 ECU \"서비스 배터리+\" 전원 공급 전압 값",
                 "group_id": "52830",
                 "req_frame_id": "158783",
                 "resp_frame_id": "158784",
@@ -222,8 +222,8 @@
             {
                 "position": 2,
                 "mnemonic": "MP_TENSION_ALIMENTATION_PLUS_CPC",
-                "label_index": "46946",
-                "label_korean": "슬라이딩 사이드 도어 ECU \"중앙 전원 스위치 \" 전원 공급 전압 값",
+                "label_index": "@P46946",
+                "label_korean": "슬라이딩 사이드 도어 ECU \"중앙 전원 스위치+\" 전원 공급 전압 값",
                 "group_id": "52830",
                 "req_frame_id": "158783",
                 "resp_frame_id": "158784",
@@ -244,7 +244,7 @@
             {
                 "position": 3,
                 "mnemonic": "MP_TENSION_ALIMENTATION_PLUS_APC",
-                "label_index": "46947",
+                "label_index": "@P46947",
                 "label_korean": "슬라이딩 사이드 도어 ECU \"키 ON\" 전원 공급 상태",
                 "group_id": "52830",
                 "req_frame_id": "158783",
@@ -266,8 +266,8 @@
             {
                 "position": 4,
                 "mnemonic": "MP_TENSION_ALIMENTATION_PLUS_CAN",
-                "label_index": "46948",
-                "label_korean": "슬라이딩 사이드 도어 ECU \"CAN \" 전원 공급 상태",
+                "label_index": "@P46948",
+                "label_korean": "슬라이딩 사이드 도어 ECU \"CAN+\" 전원 공급 상태",
                 "group_id": "52830",
                 "req_frame_id": "158783",
                 "resp_frame_id": "158784",
@@ -296,7 +296,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_ETAT_AUTORISATION_FONCTIONNEMENT_PLC",
-                "label_index": "46949",
+                "label_index": "@P46949",
                 "label_korean": "슬라이딩 사이드 도어 작동 승인 상태",
                 "group_id": "52831",
                 "req_frame_id": "158786",
@@ -322,7 +322,7 @@
             {
                 "position": 2,
                 "mnemonic": "MP_ETAT_INFO_VITESSE_VEHICULE",
-                "label_index": "46950",
+                "label_index": "@P46950",
                 "label_korean": "차량 속도 정보 상태",
                 "group_id": "52831",
                 "req_frame_id": "158786",
@@ -342,13 +342,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "46986, 827, 46987, 46988, 46989, 46990, 827, 46991",
-                "help_korean": "-\n- 유효하지 않거나 한계치2를 초과하는 속도 (2kph) : 슬라이딩 사이드 도어 열림 및 닫힘이 승인되지 않음\n- 한계치 2 (30 km/h) -\n- 1 (3 km/h) 사이의 유효한 속도 : 슬라이딩 사이드 도어 열림 차단 및 닫힘 승인\n-\n- 한계치 2 미만의 유효한 속도 (2kph) : 슬라이딩 사이드 도어 열림 및 닫힘 승인"
+                "help_code": "@T- @P46986@\\*2@T (@P827@\\*30@T)@T : @P46987@\\n@T- @P46988@\\*1@\\*3@\\*2@\\*30@T : @P46989@\\n@T- @P46990@\\*1@T (@P827@\\*3@T)@T : @P46991",
+                "help_korean": "- 유효하지 않거나 한계치2를 초과하는 속도 (2kph) : 슬라이딩 사이드 도어 열림 및 닫힘이 승인되지 않음\n- 한계치 2 (30 km/h) - 1 (3 km/h) 사이의 유효한 속도 : 슬라이딩 사이드 도어 열림 차단 및 닫힘 승인\n- 한계치 2 미만의 유효한 속도 (2kph) : 슬라이딩 사이드 도어 열림 및 닫힘 승인"
             },
             {
                 "position": 3,
                 "mnemonic": "MP_INFO_CHOC_VEHICULE",
-                "label_index": "46951",
+                "label_index": "@P46951",
                 "label_korean": "차량 충격 정보",
                 "group_id": "52831",
                 "req_frame_id": "158786",
@@ -375,7 +375,7 @@
             {
                 "position": 4,
                 "mnemonic": "MP_ETAT_DEMARRAGE_MOTEUR_THERMIQUE",
-                "label_index": "34456",
+                "label_index": "@P34456",
                 "label_korean": "내연 기관 엔진 시동 상태",
                 "group_id": "52831",
                 "req_frame_id": "158786",
@@ -394,13 +394,13 @@
                 "bit_mask": 4,
                 "bit_shift": 2,
                 "dynamic_arg": "",
-                "help_code": "46992",
+                "help_code": "@P46992",
                 "help_korean": "내부 연소 엔진이 시동 중이 아니거나 자동 재시동 단계인 경우 슬라이딩 사이드 도어의 전동 작동이 승인된다"
             },
             {
                 "position": 5,
                 "mnemonic": "MP_ETAT_MOTEUR_THERMIQUE_1_2",
-                "label_index": "6134",
+                "label_index": "@P6134",
                 "label_korean": "엔진 상태",
                 "group_id": "52831",
                 "req_frame_id": "158786",
@@ -443,7 +443,7 @@
             {
                 "position": 6,
                 "mnemonic": "MP_ETAT_FONCTIONNEMENT_BSI",
-                "label_index": "18286",
+                "label_index": "@P18286",
                 "label_korean": "BSI 작동 상태",
                 "group_id": "52831",
                 "req_frame_id": "158786",
@@ -462,13 +462,13 @@
                 "bit_mask": 2,
                 "bit_shift": 1,
                 "dynamic_arg": "",
-                "help_code": "46993",
+                "help_code": "@P46993",
                 "help_korean": "BSI(Built-in Systems Interface)가 어셈블리 모드인 경우 슬라이딩 사이드 도어의 전동 작동이 승인된다"
             },
             {
                 "position": 7,
                 "mnemonic": "MP_INFO_LONGUEUR_VEHICULE",
-                "label_index": "46952",
+                "label_index": "@P46952",
                 "label_korean": "차량 길이 정보",
                 "group_id": "52831",
                 "req_frame_id": "158786",
@@ -501,7 +501,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_ETAT_PUSH_AVANT_PLCM",
-                "label_index": "46953",
+                "label_index": "@P46953",
                 "label_korean": "슬라이딩 사이드 도어 프론트 제어 스위치 상태",
                 "group_id": "52832",
                 "req_frame_id": "158789",
@@ -527,7 +527,7 @@
             {
                 "position": 2,
                 "mnemonic": "MP_ETAT_PUSH_ARRIERE_PLCM",
-                "label_index": "46954",
+                "label_index": "@P46954@T (@P275@T)",
                 "label_korean": "슬라이딩 사이드 도어 리어 제어 스위치 상태 (존재할 경우)",
                 "group_id": "52832",
                 "req_frame_id": "158789",
@@ -553,7 +553,7 @@
             {
                 "position": 3,
                 "mnemonic": "MP_ETAT_CMD_OUVERTURE_EXTERIEUR_PLC",
-                "label_index": "46955",
+                "label_index": "@P46955",
                 "label_korean": "슬라이딩 사이드 도어 외부 열림 제어 상태",
                 "group_id": "52832",
                 "req_frame_id": "158789",
@@ -579,7 +579,7 @@
             {
                 "position": 4,
                 "mnemonic": "MP_ETAT_CPO_PLC",
-                "label_index": "46956",
+                "label_index": "@P46956",
                 "label_korean": "슬라이딩 사이드 도어 \"도어 열림\" 스위치 상태",
                 "group_id": "52832",
                 "req_frame_id": "158789",
@@ -604,7 +604,7 @@
             {
                 "position": 5,
                 "mnemonic": "MP_POSITION_GACHE_MOTORISEE",
-                "label_index": "46957",
+                "label_index": "@P46957",
                 "label_korean": "전동 스트라이커의 위치",
                 "group_id": "52832",
                 "req_frame_id": "158789",
@@ -624,13 +624,13 @@
                 "bit_mask": 12,
                 "bit_shift": 2,
                 "dynamic_arg": "",
-                "help_code": "46994",
+                "help_code": "@P46994",
                 "help_korean": "전동 스트라이커 내부의 상태 스위치에서 추정된 위치"
             },
             {
                 "position": 6,
                 "mnemonic": "MP_ETAT_TRAPPE_CARBURANT",
-                "label_index": "18267",
+                "label_index": "@P18267",
                 "label_korean": "연료 플랩 상태",
                 "group_id": "52832",
                 "req_frame_id": "158789",
@@ -650,13 +650,13 @@
                 "bit_mask": 48,
                 "bit_shift": 4,
                 "dynamic_arg": "",
-                "help_code": "46995",
+                "help_code": "@P46995",
                 "help_korean": "연료 필러 플랩이 좌측에 위치해 있다"
             },
             {
                 "position": 7,
                 "mnemonic": "MP_ETAT_CAPTEUR_ANTIPINCEMENT",
-                "label_index": "46958",
+                "label_index": "@P46958",
                 "label_korean": "안티-핀치 센서의 상태",
                 "group_id": "52833",
                 "req_frame_id": "158792",
@@ -676,13 +676,13 @@
                 "bit_mask": 192,
                 "bit_shift": 6,
                 "dynamic_arg": "",
-                "help_code": "46996",
+                "help_code": "@P46996",
                 "help_korean": "안티-핀치 센서는 슬라이딩 사이드 도어의 프론트 부분에 고정되어 있다"
             },
             {
                 "position": 8,
                 "mnemonic": "MP_ETAT_CAPTEURS_POSITION_MOTEUR_PLC",
-                "label_index": "46959",
+                "label_index": "@P46959",
                 "label_korean": "슬라이딩 사이드 도어 전동 모터 위치 센서 작동 상태",
                 "group_id": "52833",
                 "req_frame_id": "158792",
@@ -701,13 +701,13 @@
                 "bit_mask": 32,
                 "bit_shift": 5,
                 "dynamic_arg": "",
-                "help_code": "46997",
+                "help_code": "@P46997",
                 "help_korean": "센서는 슬라이딩 사이드 도어 전동 모터에 고정되어 있다"
             },
             {
                 "position": 9,
                 "mnemonic": "MP_ETAT_BROCHE_SELECTION_COTE_DE_MONTAGE_ECU",
-                "label_index": "46960",
+                "label_index": "@P46960",
                 "label_korean": "슬라이딩 사이드 도어 ECU 장착 측 선택 핀 상태",
                 "group_id": "52832",
                 "req_frame_id": "158789",
@@ -726,13 +726,13 @@
                 "bit_mask": 128,
                 "bit_shift": 7,
                 "dynamic_arg": "",
-                "help_code": "46998, 46999, 47000, 47001",
-                "help_korean": "접지에\n- 연결된 핀 : 좌측에 장착된\n- 슬라이딩 사이드 도어 ECU\n연결되지 않은 핀 : 우측에 장착된 슬라이딩 사이드 도어 ECU"
+                "help_code": "@P46998@T : @P46999@\\n@P47000@T : @P47001",
+                "help_korean": "접지에 연결된 핀 : 좌측에 장착된 슬라이딩 사이드 도어 ECU\n연결되지 않은 핀 : 우측에 장착된 슬라이딩 사이드 도어 ECU"
             },
             {
                 "position": 10,
                 "mnemonic": "MP_ETAT_ROULAGE_VEHICULE",
-                "label_index": "47147",
+                "label_index": "@P47147",
                 "label_korean": "차량 주행 상태",
                 "group_id": "52832",
                 "req_frame_id": "158789",
@@ -753,7 +753,7 @@
                 "bit_mask": 3,
                 "bit_shift": 0,
                 "dynamic_arg": "",
-                "help_code": "47002",
+                "help_code": "@P47002",
                 "help_korean": "유선을 통해 ESP ECU에 의해 전송된 정보"
             }
         ]
@@ -767,7 +767,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_AUTORISATION_PRISE_EN_COMPTE_CMD_PLC_AV",
-                "label_index": "46934",
+                "label_index": "@P46934",
                 "label_korean": "슬라이딩 사이드 도어 이동 전방 제어 고려 승인",
                 "group_id": "52834",
                 "req_frame_id": "158795",
@@ -786,13 +786,13 @@
                 "bit_mask": 8,
                 "bit_shift": 3,
                 "dynamic_arg": "",
-                "help_code": "46938",
+                "help_code": "@P46938",
                 "help_korean": "CAN에서 수신된 멀티플렉스 정보"
             },
             {
                 "position": 2,
                 "mnemonic": "MP_AUTORISATION_PRISE_EN_COMPTE_CMD_PLC_AR",
-                "label_index": "46933",
+                "label_index": "@P46933",
                 "label_korean": "슬라이딩 사이드 도어 이동 후방 제어 고려 승인",
                 "group_id": "52834",
                 "req_frame_id": "158795",
@@ -811,13 +811,13 @@
                 "bit_mask": 4,
                 "bit_shift": 2,
                 "dynamic_arg": "",
-                "help_code": "47003, 47004",
-                "help_korean": "미승인\n- 고려 : 어린이 보호장치 작동 또는 슬라이딩 사이드 도어 리어 컨트롤 스위치 없음"
+                "help_code": "@P47003@T : @P47004",
+                "help_korean": "미승인 고려 : 어린이 보호장치 작동 또는 슬라이딩 사이드 도어 리어 컨트롤 스위치 없음"
             },
             {
                 "position": 3,
                 "mnemonic": "MP_DMD_EXT_DE_FONCTIONNEMENT_PLC",
-                "label_index": "46961",
+                "label_index": "@P46961",
                 "label_korean": "외부 슬라이딩 사이드 도어 작동 요청",
                 "group_id": "52834",
                 "req_frame_id": "158795",
@@ -842,7 +842,7 @@
             {
                 "position": 4,
                 "mnemonic": "MP_SENS_MOUVEMENT_PLC",
-                "label_index": "46962",
+                "label_index": "@P46962@T (@P46963@T)",
                 "label_korean": "슬라이딩 사이드 도어 이동 방향 (전동 작동)",
                 "group_id": "52835",
                 "req_frame_id": "158798",
@@ -868,7 +868,7 @@
             {
                 "position": 5,
                 "mnemonic": "MP_COMMANDE_SEQUENTIEL_EMBRAYAGE_PLCM",
-                "label_index": "46964",
+                "label_index": "@P46964",
                 "label_korean": "슬라이딩 사이드 도어 전동 모터 클러치 순차 제어 기능 상태",
                 "group_id": "52835",
                 "req_frame_id": "158798",
@@ -887,13 +887,13 @@
                 "bit_mask": 4,
                 "bit_shift": 2,
                 "dynamic_arg": "",
-                "help_code": "33278, 47005",
-                "help_korean": "백업\n- 모드 : 슬라이딩 사이드 도어 전동 모터 클러치 순차 제어"
+                "help_code": "@P33278@T : @P47005",
+                "help_korean": "백업 모드 : 슬라이딩 사이드 도어 전동 모터 클러치 순차 제어"
             },
             {
                 "position": 6,
                 "mnemonic": "MP_DMD_EMISSION_SON_BAAS",
-                "label_index": "46965",
+                "label_index": "@P46965",
                 "label_korean": "핸즈프리 트렁크 액세스 기능을 통한 음향 방출 요청",
                 "group_id": "52834",
                 "req_frame_id": "158795",
@@ -918,7 +918,7 @@
             {
                 "position": 7,
                 "mnemonic": "MP_ETAT_DETECTION_OBSTACLE",
-                "label_index": "46966",
+                "label_index": "@P46966",
                 "label_korean": "장애물 감지 상태",
                 "group_id": "52835",
                 "req_frame_id": "158798",
@@ -944,7 +944,7 @@
             {
                 "position": 8,
                 "mnemonic": "MP_ETAT_PROTECTION_THERMIQUE_MOTORISATION_PLC",
-                "label_index": "46967",
+                "label_index": "@P46967",
                 "label_korean": "슬라이딩 사이드 도어 전동 모터/클러치 어셈블리 과열 방지장치 상태",
                 "group_id": "52835",
                 "req_frame_id": "158798",
@@ -969,7 +969,7 @@
             {
                 "position": 9,
                 "mnemonic": "MP_VALEUR_PROTECTION_THERMIQUE_MOTORISATION_PLC",
-                "label_index": "46968",
+                "label_index": "@P46968",
                 "label_korean": "슬라이딩 사이드 도어 전동 모터/클러치 어셈블리 과열 방지장치의 값",
                 "group_id": "52835",
                 "req_frame_id": "158798",
@@ -985,13 +985,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "47007, 47008, 47009, 47010, 47011, 47009, 47012, 47013, 47014, 47015",
-                "help_korean": "- 100%와\n- 동일한 값 : 닫힐 때에만 슬라이딩 사이드 도어 전동 모터 작동 승인 (온도 보호 작동)\n- 100%보다\n- 높은 값 : 마지막 슬라이딩 사이드 도어 닫힘 승인 시 (온도 보호 작동)\n- 100%보다\n- 낮은 값 : 슬라이딩 사이드 도어의 정상 작동\n- 100%의\n- 값 : 슬라이딩 사이드 도어 전동 모터 과열 보호장치 작동 후 슬라이딩 사이드 도어의 정상 작동 재승인"
+                "help_code": "@T- @P47007@\\*100@T : @P47008@T (@P47009@T)@\\n@T- @P47010@\\*100@T : @P47011@T (@P47009@T)@\\n@T- @P47012@\\*100@T : @P47013@\\n@T- @P47014@\\*0@T : @P47015",
+                "help_korean": "- 100%와 동일한 값 : 닫힐 때에만 슬라이딩 사이드 도어 전동 모터 작동 승인 (온도 보호 작동)\n- 100%보다 높은 값 : 마지막 슬라이딩 사이드 도어 닫힘 승인 시 (온도 보호 작동)\n- 100%보다 낮은 값 : 슬라이딩 사이드 도어의 정상 작동\n- 100%의 값 : 슬라이딩 사이드 도어 전동 모터 과열 보호장치 작동 후 슬라이딩 사이드 도어의 정상 작동 재승인"
             },
             {
                 "position": 10,
                 "mnemonic": "MP_VALEUR_POSITION_PLC",
-                "label_index": "46969",
+                "label_index": "@P46969",
                 "label_korean": "슬라이딩 사이드 도어 위치 값",
                 "group_id": "52835",
                 "req_frame_id": "158798",
@@ -1007,13 +1007,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "47016",
+                "help_code": "@P47016@\\*''0''",
                 "help_korean": "값은 최대로 열린 슬라이딩 사이드 도어에 해당된다''0''"
             },
             {
                 "position": 11,
                 "mnemonic": "MP_VALEUR_OUVERTURE_MAX_PLC_APPRISE",
-                "label_index": "46970",
+                "label_index": "@P46970",
                 "label_korean": "슬라이딩 사이드 도어에 의해 프로그래밍된 열림 값",
                 "group_id": "52835",
                 "req_frame_id": "158798",
@@ -1043,7 +1043,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_CMD_ACTIONNEUR_OUVERTURE_SERRURE_PLC",
-                "label_index": "46971",
+                "label_index": "@P46971",
                 "label_korean": "슬라이딩 사이드 도어 잠금장치 열림 액츄에이터 제어",
                 "group_id": "52836",
                 "req_frame_id": "158801",
@@ -1068,7 +1068,7 @@
             {
                 "position": 2,
                 "mnemonic": "MP_CMD_GACHE_MOTORISE",
-                "label_index": "46972",
+                "label_index": "@P46972",
                 "label_korean": "전동 스트라이커 제어",
                 "group_id": "52837",
                 "req_frame_id": "158804",
@@ -1088,13 +1088,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "47017, 1069, 47018",
-                "help_korean": "전동 스트라이커 제어 방향은 상태 스위치에\n- 의해 결정된 스트라이커의 위치에 따라 달라진다\n경고 : 제어 명령이 펄스 형태이기 때문에 진단기에서 확인하기 어려울 수 있다"
+                "help_code": "@P47017@\\n@F1069@T : @P47018",
+                "help_korean": "전동 스트라이커 제어 방향은 상태 스위치에 의해 결정된 스트라이커의 위치에 따라 달라진다\n경고 : 제어 명령이 펄스 형태이기 때문에 진단기에서 확인하기 어려울 수 있다"
             },
             {
                 "position": 3,
                 "mnemonic": "MP_CMD_EMBRAYAGE_PLC",
-                "label_index": "46973",
+                "label_index": "@P46973",
                 "label_korean": "슬라이딩 사이드 도어 클러치 제어",
                 "group_id": "52841",
                 "req_frame_id": "158816",
@@ -1119,7 +1119,7 @@
             {
                 "position": 4,
                 "mnemonic": "MP_CMD_MOTEUR_PLC",
-                "label_index": "47148",
+                "label_index": "@P47148",
                 "label_korean": "슬라이딩 사이드 도어 모터 제어",
                 "group_id": "52840",
                 "req_frame_id": "158813",
@@ -1151,7 +1151,7 @@
             {
                 "position": 5,
                 "mnemonic": "MP_ETAT_SON_BRUITEUR_PLC",
-                "label_index": "46974",
+                "label_index": "@P46974",
                 "label_korean": "슬라이딩 사이드 도어 부저음 상태",
                 "group_id": "52838",
                 "req_frame_id": "158807",
@@ -1174,13 +1174,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "1069, 47467",
+                "help_code": "@F1069@T : @P47467",
                 "help_korean": "경고 : 계기판 버저 작동은 설정에 의해 차단할 수 있다"
             },
             {
                 "position": 6,
                 "mnemonic": "MP_CMD_ECLAIRAGE_PUSH_COMMANDE_PLC_AR",
-                "label_index": "46976",
+                "label_index": "@P46976",
                 "label_korean": "슬라이딩 사이드 도어 리어 제어 스위치 점등 제어",
                 "group_id": "52839",
                 "req_frame_id": "158810",
@@ -1213,7 +1213,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_CAUSE_MEMORISE_1_DE_CMD_OUVERTURE_FERMETURE_PLCM",
-                "label_index": "46977",
+                "label_index": "@P46977@\\*1",
                 "label_korean": "슬라이딩 사이드 도어의 전동 열림/닫힘 이동 제어 원인1 메모리",
                 "group_id": "52842",
                 "req_frame_id": "158819",
@@ -1229,13 +1229,13 @@
                 "bit_mask": 56,
                 "bit_shift": 3,
                 "dynamic_arg": "1",
-                "help_code": "47019, 34497, 34498, 47020",
+                "help_code": "@P47019@\\n@P34497@\\*1@\\*5@\\n@P34498@\\*5@\\n@P47020@\\*5",
                 "help_korean": "메모리 원인은 메모리 발생 순서대로 분류된다\n저장된 원인1이 저장된 원인5보다 더 최근 것이다\n1원인이 일단 저장되면, 가장 오래된 원인들은 점진적으로 삭제된다\n작동 테스트인 \"마지막 1개의 슬라이딩 사이드 도어 전동 열림/닫힘 이동 명령의 메모리 변수 소거\"를 사용하면 원인 메모리를 소거할 수 있다"
             },
             {
                 "position": 2,
                 "mnemonic": "MP_CAUSE_MEMORISE_2_DE_CMD_OUVERTURE_FERMETURE_PLCM",
-                "label_index": "46977",
+                "label_index": "@P46977@\\*2",
                 "label_korean": "슬라이딩 사이드 도어의 전동 열림/닫힘 이동 제어 원인2 메모리",
                 "group_id": "52842",
                 "req_frame_id": "158819",
@@ -1251,13 +1251,13 @@
                 "bit_mask": 7,
                 "bit_shift": 0,
                 "dynamic_arg": "2",
-                "help_code": "47019, 34497, 34498, 47020",
+                "help_code": "@P47019@\\n@P34497@\\*1@\\*5@\\n@P34498@\\*5@\\n@P47020@\\*5",
                 "help_korean": "메모리 원인은 메모리 발생 순서대로 분류된다\n저장된 원인1이 저장된 원인5보다 더 최근 것이다\n1원인이 일단 저장되면, 가장 오래된 원인들은 점진적으로 삭제된다\n작동 테스트인 \"마지막 1개의 슬라이딩 사이드 도어 전동 열림/닫힘 이동 명령의 메모리 변수 소거\"를 사용하면 원인 메모리를 소거할 수 있다"
             },
             {
                 "position": 3,
                 "mnemonic": "MP_CAUSE_MEMORISE_3_DE_CMD_OUVERTURE_FERMETURE_PLCM",
-                "label_index": "46977",
+                "label_index": "@P46977@\\*3",
                 "label_korean": "슬라이딩 사이드 도어의 전동 열림/닫힘 이동 제어 원인3 메모리",
                 "group_id": "52842",
                 "req_frame_id": "158819",
@@ -1273,13 +1273,13 @@
                 "bit_mask": 56,
                 "bit_shift": 3,
                 "dynamic_arg": "3",
-                "help_code": "47019, 34497, 34498, 47020",
+                "help_code": "@P47019@\\n@P34497@\\*1@\\*5@\\n@P34498@\\*5@\\n@P47020@\\*5",
                 "help_korean": "메모리 원인은 메모리 발생 순서대로 분류된다\n저장된 원인1이 저장된 원인5보다 더 최근 것이다\n1원인이 일단 저장되면, 가장 오래된 원인들은 점진적으로 삭제된다\n작동 테스트인 \"마지막 1개의 슬라이딩 사이드 도어 전동 열림/닫힘 이동 명령의 메모리 변수 소거\"를 사용하면 원인 메모리를 소거할 수 있다"
             },
             {
                 "position": 4,
                 "mnemonic": "MP_CAUSE_MEMORISE_4_DE_CMD_OUVERTURE_FERMETURE_PLCM",
-                "label_index": "46977",
+                "label_index": "@P46977@\\*4",
                 "label_korean": "슬라이딩 사이드 도어의 전동 열림/닫힘 이동 제어 원인4 메모리",
                 "group_id": "52842",
                 "req_frame_id": "158819",
@@ -1295,13 +1295,13 @@
                 "bit_mask": 7,
                 "bit_shift": 0,
                 "dynamic_arg": "4",
-                "help_code": "47019, 34497, 34498, 47020",
+                "help_code": "@P47019@\\n@P34497@\\*1@\\*5@\\n@P34498@\\*5@\\n@P47020@\\*5",
                 "help_korean": "메모리 원인은 메모리 발생 순서대로 분류된다\n저장된 원인1이 저장된 원인5보다 더 최근 것이다\n1원인이 일단 저장되면, 가장 오래된 원인들은 점진적으로 삭제된다\n작동 테스트인 \"마지막 1개의 슬라이딩 사이드 도어 전동 열림/닫힘 이동 명령의 메모리 변수 소거\"를 사용하면 원인 메모리를 소거할 수 있다"
             },
             {
                 "position": 5,
                 "mnemonic": "MP_CAUSE_MEMORISE_5_DE_CMD_OUVERTURE_FERMETURE_PLCM",
-                "label_index": "46977",
+                "label_index": "@P46977@\\*5",
                 "label_korean": "슬라이딩 사이드 도어의 전동 열림/닫힘 이동 제어 원인5 메모리",
                 "group_id": "52842",
                 "req_frame_id": "158819",
@@ -1317,7 +1317,7 @@
                 "bit_mask": 7,
                 "bit_shift": 0,
                 "dynamic_arg": "5",
-                "help_code": "47019, 34497, 34498, 47020",
+                "help_code": "@P47019@\\n@P34497@\\*1@\\*5@\\n@P34498@\\*5@\\n@P47020@\\*5",
                 "help_korean": "메모리 원인은 메모리 발생 순서대로 분류된다\n저장된 원인1이 저장된 원인5보다 더 최근 것이다\n1원인이 일단 저장되면, 가장 오래된 원인들은 점진적으로 삭제된다\n작동 테스트인 \"마지막 1개의 슬라이딩 사이드 도어 전동 열림/닫힘 이동 명령의 메모리 변수 소거\"를 사용하면 원인 메모리를 소거할 수 있다"
             }
         ]
@@ -1331,7 +1331,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_CAUSE_MEMORISE_1_ARRET_MOUVEMENT_MOTORISE_PLCM",
-                "label_index": "46978",
+                "label_index": "@P46978@\\*1",
                 "label_korean": "슬라이딩 사이드 도어의 전동 이동 제어 정지 또는 차단 원인1 메모리",
                 "group_id": "52843",
                 "req_frame_id": "158822",
@@ -1347,13 +1347,13 @@
                 "bit_mask": 240,
                 "bit_shift": 4,
                 "dynamic_arg": "1",
-                "help_code": "47019, 34497, 34498, 47021",
+                "help_code": "@P47019@\\n@P34497@\\*1@\\*5@\\n@P34498@\\*5@\\n@P47021@\\*5",
                 "help_korean": "메모리 원인은 메모리 발생 순서대로 분류된다\n저장된 원인1이 저장된 원인5보다 더 최근 것이다\n1원인이 일단 저장되면, 가장 오래된 원인들은 점진적으로 삭제된다\n작동 테스트인 \"마지막 1개의 슬라이딩 사이드 도어 전동 이동 정지 또는 차단 원인에 대한 메모리 변수 소거\"를 사용하면 원인 메모리를 소거할 수 있다"
             },
             {
                 "position": 2,
                 "mnemonic": "MP_CAUSE_MEMORISE_2_ARRET_MOUVEMENT_MOTORISE_PLCM",
-                "label_index": "46978",
+                "label_index": "@P46978@\\*2",
                 "label_korean": "슬라이딩 사이드 도어의 전동 이동 제어 정지 또는 차단 원인2 메모리",
                 "group_id": "52843",
                 "req_frame_id": "158822",
@@ -1369,13 +1369,13 @@
                 "bit_mask": 15,
                 "bit_shift": 0,
                 "dynamic_arg": "2",
-                "help_code": "47019, 34497, 34498, 47021",
+                "help_code": "@P47019@\\n@P34497@\\*1@\\*5@\\n@P34498@\\*5@\\n@P47021@\\*5",
                 "help_korean": "메모리 원인은 메모리 발생 순서대로 분류된다\n저장된 원인1이 저장된 원인5보다 더 최근 것이다\n1원인이 일단 저장되면, 가장 오래된 원인들은 점진적으로 삭제된다\n작동 테스트인 \"마지막 1개의 슬라이딩 사이드 도어 전동 이동 정지 또는 차단 원인에 대한 메모리 변수 소거\"를 사용하면 원인 메모리를 소거할 수 있다"
             },
             {
                 "position": 3,
                 "mnemonic": "MP_CAUSE_MEMORISE_3_ARRET_MOUVEMENT_MOTORISE_PLCM",
-                "label_index": "46978",
+                "label_index": "@P46978@\\*3",
                 "label_korean": "슬라이딩 사이드 도어의 전동 이동 제어 정지 또는 차단 원인3 메모리",
                 "group_id": "52843",
                 "req_frame_id": "158822",
@@ -1391,13 +1391,13 @@
                 "bit_mask": 240,
                 "bit_shift": 4,
                 "dynamic_arg": "3",
-                "help_code": "47019, 34497, 34498, 47021",
+                "help_code": "@P47019@\\n@P34497@\\*1@\\*5@\\n@P34498@\\*5@\\n@P47021@\\*5",
                 "help_korean": "메모리 원인은 메모리 발생 순서대로 분류된다\n저장된 원인1이 저장된 원인5보다 더 최근 것이다\n1원인이 일단 저장되면, 가장 오래된 원인들은 점진적으로 삭제된다\n작동 테스트인 \"마지막 1개의 슬라이딩 사이드 도어 전동 이동 정지 또는 차단 원인에 대한 메모리 변수 소거\"를 사용하면 원인 메모리를 소거할 수 있다"
             },
             {
                 "position": 4,
                 "mnemonic": "MP_CAUSE_MEMORISE_4_ARRET_MOUVEMENT_MOTORISE_PLCM",
-                "label_index": "46978",
+                "label_index": "@P46978@\\*4",
                 "label_korean": "슬라이딩 사이드 도어의 전동 이동 제어 정지 또는 차단 원인4 메모리",
                 "group_id": "52843",
                 "req_frame_id": "158822",
@@ -1413,13 +1413,13 @@
                 "bit_mask": 15,
                 "bit_shift": 0,
                 "dynamic_arg": "4",
-                "help_code": "47019, 34497, 34498, 47021",
+                "help_code": "@P47019@\\n@P34497@\\*1@\\*5@\\n@P34498@\\*5@\\n@P47021@\\*5",
                 "help_korean": "메모리 원인은 메모리 발생 순서대로 분류된다\n저장된 원인1이 저장된 원인5보다 더 최근 것이다\n1원인이 일단 저장되면, 가장 오래된 원인들은 점진적으로 삭제된다\n작동 테스트인 \"마지막 1개의 슬라이딩 사이드 도어 전동 이동 정지 또는 차단 원인에 대한 메모리 변수 소거\"를 사용하면 원인 메모리를 소거할 수 있다"
             },
             {
                 "position": 5,
                 "mnemonic": "MP_CAUSE_MEMORISE_5_ARRET_MOUVEMENT_MOTORISE_PLCM",
-                "label_index": "46978",
+                "label_index": "@P46978@\\*5",
                 "label_korean": "슬라이딩 사이드 도어의 전동 이동 제어 정지 또는 차단 원인5 메모리",
                 "group_id": "52843",
                 "req_frame_id": "158822",
@@ -1435,7 +1435,7 @@
                 "bit_mask": 240,
                 "bit_shift": 4,
                 "dynamic_arg": "5",
-                "help_code": "47019, 34497, 34498, 47021",
+                "help_code": "@P47019@\\n@P34497@\\*1@\\*5@\\n@P34498@\\*5@\\n@P47021@\\*5",
                 "help_korean": "메모리 원인은 메모리 발생 순서대로 분류된다\n저장된 원인1이 저장된 원인5보다 더 최근 것이다\n1원인이 일단 저장되면, 가장 오래된 원인들은 점진적으로 삭제된다\n작동 테스트인 \"마지막 1개의 슬라이딩 사이드 도어 전동 이동 정지 또는 차단 원인에 대한 메모리 변수 소거\"를 사용하면 원인 메모리를 소거할 수 있다"
             }
         ]
@@ -1449,7 +1449,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_NB_CYCLE_COMPLET_PLC",
-                "label_index": "46979",
+                "label_index": "@P46979@T (@P46980@\\*2@T)",
                 "label_korean": "완료된 사이클의 수 (2번의 슬라이딩 사이드 도어 열림/닫힘 이동)",
                 "group_id": "52844",
                 "req_frame_id": "158825",
@@ -1465,13 +1465,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "2",
-                "help_code": "47022",
+                "help_code": "@P47022",
                 "help_korean": "이 카운터는 0점을 재설정되지 않는다"
             },
             {
                 "position": 2,
                 "mnemonic": "MP_NB_PERTE_INITIALISATION_PLC",
-                "label_index": "46981",
+                "label_index": "@P46981",
                 "label_korean": "슬라이딩 사이드 도어 초기화 상실 횟수",
                 "group_id": "52844",
                 "req_frame_id": "158825",
@@ -1487,13 +1487,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "47023, 47024, 47025, 47026, 47027, 47028, 47029, 47030, 47031, 47032, 47033, 47022",
-                "help_korean": "숫자\n- 증가에 대한 추정 원인 :\n- 차량 충돌 정보 수신\n- 전동 스트라이커 위치와 슬라이딩 사이드 도어 위치 간 불일치\n- 동일한 슬라이딩 사이드 도어 제어 방향으로 3번 연속으로 안티-핀치 감지 (열림 또는 닫힘)\n- 슬라이딩 사이드 도어 이동 중 \"중앙 전원 스위치 \" 전원 공급 저전압\n- 과열 보호장치 작동 후 슬라이딩 사이드 도어 닫힘 중단 (안티-핀치 또는 이동 요청 반전으로 인한 중단)\n- 슬라이딩 사이드 도어 작동 저하\n- 하나 이상의 결함 코드 메모리\n- 슬라이딩 사이드 도어의 이동 중 3번 연속으로 안티-핀치 작동이 감지된다\n이 카운터는 0점을 재설정되지 않는다"
+                "help_code": "@P47023@T :@\\n@T- @P47024@\\n@T- @P47025@\\n@T- @P47026@\\*3@T (@P47027@T)@\\n@T- @P47028@\\n@T- @P47029@T (@P47030@T)@\\n@T- @P47031@\\n@T- @P47032@\\n@T- @P47033@\\*2@\\n@P47022",
+                "help_korean": "숫자 증가에 대한 추정 원인 :\n- 차량 충돌 정보 수신\n- 전동 스트라이커 위치와 슬라이딩 사이드 도어 위치 간 불일치\n- 동일한 슬라이딩 사이드 도어 제어 방향으로 3번 연속으로 안티-핀치 감지 (열림 또는 닫힘)\n- 슬라이딩 사이드 도어 이동 중 \"중앙 전원 스위치+\" 전원 공급 저전압\n- 과열 보호장치 작동 후 슬라이딩 사이드 도어 닫힘 중단 (안티-핀치 또는 이동 요청 반전으로 인한 중단)\n- 슬라이딩 사이드 도어 작동 저하\n- 하나 이상의 결함 코드 메모리\n- 슬라이딩 사이드 도어의 이동 중 3번 연속으로 안티-핀치 작동이 감지된다\n이 카운터는 0점을 재설정되지 않는다"
             },
             {
                 "position": 3,
                 "mnemonic": "MP_NB_ACTIVATION_PROTECTION_THERMIQUE",
-                "label_index": "46982",
+                "label_index": "@P46982",
                 "label_korean": "과열 보호장치 작동 횟수",
                 "group_id": "52844",
                 "req_frame_id": "158825",
@@ -1509,13 +1509,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "47022",
+                "help_code": "@P47022",
                 "help_korean": "이 카운터는 0점을 재설정되지 않는다"
             },
             {
                 "position": 4,
                 "mnemonic": "MP_NB_SOUS_TENSION_ALIMENTATION",
-                "label_index": "46983",
+                "label_index": "@P46983",
                 "label_korean": "전원 공급 저전압 감지 횟수",
                 "group_id": "52844",
                 "req_frame_id": "158825",
@@ -1531,13 +1531,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "47022",
+                "help_code": "@P47022",
                 "help_korean": "이 카운터는 0점을 재설정되지 않는다"
             },
             {
                 "position": 5,
                 "mnemonic": "MP_NB_ACTIVATION_ANTIPINCEMENT_PAR_CAPTEURS_DU_MOTEUR_DE_PLC",
-                "label_index": "46984",
+                "label_index": "@P46984",
                 "label_korean": "전동 모터 센서에 의한 안티-핀치 작동 횟수",
                 "group_id": "52844",
                 "req_frame_id": "158825",
@@ -1553,13 +1553,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "47022",
+                "help_code": "@P47022",
                 "help_korean": "이 카운터는 0점을 재설정되지 않는다"
             },
             {
                 "position": 6,
                 "mnemonic": "MP_NB_ACTIVATION_ANTIPINCEMENT_PAR_CAPTEUR_JOINT_DE_PORTE",
-                "label_index": "46985",
+                "label_index": "@P46985",
                 "label_korean": "슬라이딩 사이드 도어 실 센서에 의한 안티-핀치 기능 작동 횟수",
                 "group_id": "52844",
                 "req_frame_id": "158825",
@@ -1575,7 +1575,7 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "47022",
+                "help_code": "@P47022",
                 "help_korean": "이 카운터는 0점을 재설정되지 않는다"
             }
         ]

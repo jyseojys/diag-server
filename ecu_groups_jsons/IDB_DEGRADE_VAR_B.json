@@ -8,7 +8,7 @@
             {
                 "position": 1,
                 "mnemonic": "ID_NOM_DU_FOURNISSEUR",
-                "label_index": "5701",
+                "label_index": "@P5701",
                 "label_korean": "제조 업체명",
                 "group_id": "8735",
                 "req_frame_id": "26206",
@@ -38,7 +38,7 @@
             {
                 "position": 2,
                 "mnemonic": "ID_REFERENCE_MATERIEL",
-                "label_index": "1071",
+                "label_index": "@P1071",
                 "label_korean": "장치 부품 번호",
                 "group_id": "8735",
                 "req_frame_id": "26206",
@@ -60,7 +60,7 @@
             {
                 "position": 3,
                 "mnemonic": "ID_REFERENCE_COMPLEMENTAIRE_MATERIEL",
-                "label_index": "1634",
+                "label_index": "@P1634",
                 "label_korean": "장치 추가 참조 번호",
                 "group_id": "8735",
                 "req_frame_id": "26206",
@@ -82,7 +82,7 @@
             {
                 "position": 4,
                 "mnemonic": "ID_REFERENCE_LOGICIEL",
-                "label_index": "13263",
+                "label_index": "@F13263",
                 "label_korean": "소프트웨어 번호",
                 "group_id": "8736",
                 "req_frame_id": "26209",
@@ -104,7 +104,7 @@
             {
                 "position": 5,
                 "mnemonic": "ID_TRACABILITE_INDICE_EVOLUTION_EDITION",
-                "label_index": "24601",
+                "label_index": "@P24601",
                 "label_korean": "소프트웨어 버전",
                 "group_id": "8736",
                 "req_frame_id": "26209",
@@ -126,7 +126,7 @@
             {
                 "position": 6,
                 "mnemonic": "ID_DATE_TELECH",
-                "label_index": "21670",
+                "label_index": "@P21670",
                 "label_korean": "다운로딩 날짜",
                 "group_id": "8736",
                 "req_frame_id": "26209",
@@ -148,7 +148,7 @@
             {
                 "position": 7,
                 "mnemonic": "ID_NOMBRE_DE_TELECHARGEMENT",
-                "label_index": "24589",
+                "label_index": "@P24589",
                 "label_korean": "다운로드의 수",
                 "group_id": "8736",
                 "req_frame_id": "26209",
@@ -170,7 +170,7 @@
             {
                 "position": 8,
                 "mnemonic": "ID_TRACABILITE_DATE_FABRICATION",
-                "label_index": "14355",
+                "label_index": "@F14355",
                 "label_korean": "제조일자",
                 "group_id": "8737",
                 "req_frame_id": "26212",
@@ -200,7 +200,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_I_IDB_APC_PM1_02_READ",
-                "label_index": "56872",
+                "label_index": "@P56872@\\*2@\\*3",
                 "label_korean": "녹색 3방향 커넥터 핀 2의 입력 신호(키 ON)",
                 "group_id": "8739",
                 "req_frame_id": "26218",
@@ -222,7 +222,7 @@
             {
                 "position": 2,
                 "mnemonic": "MP_I_IDB_BAT_CSP_PB1_27_READ",
-                "label_index": "56873",
+                "label_index": "@P56873@\\*27@\\*28",
                 "label_korean": "파란색 28방향 커넥터 핀 27의 입력 신호",
                 "group_id": "8740",
                 "req_frame_id": "26221",
@@ -244,7 +244,7 @@
             {
                 "position": 3,
                 "mnemonic": "MP_I_MAIN_RELAY_EM1_16_READ",
-                "label_index": "56876",
+                "label_index": "@P56876@\\*16@\\*26",
                 "label_korean": "검은색 26방향 커넥터(메인 릴레이) 핀 16의 입력 신호",
                 "group_id": "8746",
                 "req_frame_id": "26239",
@@ -269,8 +269,8 @@
             {
                 "position": 4,
                 "mnemonic": "MP_I_IDB_DIG_IF26_CAN2_MICROCINPUT_EB1_66_READ",
-                "label_index": "56877",
-                "label_korean": "갈색 76방향 커넥터(CAN 릴레이) 핀 66의 입력 신호",
+                "label_index": "@P56877@\\*66@\\*76",
+                "label_korean": "갈색 76방향 커넥터(CAN+ 릴레이) 핀 66의 입력 신호",
                 "group_id": "8747",
                 "req_frame_id": "26242",
                 "resp_frame_id": "26243",
@@ -294,7 +294,7 @@
             {
                 "position": 5,
                 "mnemonic": "MP_I_IDB_ANA_IF18_05_EB1_54_READ",
-                "label_index": "56874",
+                "label_index": "@P56874@\\*54@\\*76",
                 "label_korean": "갈색 76방향 커넥터 핀 54의 입력 신호",
                 "group_id": "8741",
                 "req_frame_id": "26224",
@@ -316,7 +316,7 @@
             {
                 "position": 6,
                 "mnemonic": "MP_I_IDB_DIG_IF05_01_EM1_17_READ",
-                "label_index": "56875",
+                "label_index": "@P56875@\\*17@\\*26",
                 "label_korean": "검은색 26방향 커넥터 핀 17의 입력 신호",
                 "group_id": "8742",
                 "req_frame_id": "26227",
@@ -341,7 +341,7 @@
             {
                 "position": 7,
                 "mnemonic": "MP_I_IDB_DIG_IF05_14_EB1_49_READ",
-                "label_index": "56874",
+                "label_index": "@P56874@\\*49@\\*76",
                 "label_korean": "갈색 76방향 커넥터 핀 49의 입력 신호",
                 "group_id": "8743",
                 "req_frame_id": "26230",
@@ -366,7 +366,7 @@
             {
                 "position": 8,
                 "mnemonic": "MP_I_IDB_DIG_IF05_19_EB1_67_READ",
-                "label_index": "56874",
+                "label_index": "@P56874@\\*67@\\*76",
                 "label_korean": "갈색 76방향 커넥터 핀 67의 입력 신호",
                 "group_id": "8744",
                 "req_frame_id": "26233",
@@ -391,7 +391,7 @@
             {
                 "position": 9,
                 "mnemonic": "MP_I_IDB_DIG_IF05_21_EB1_56_READ",
-                "label_index": "56874",
+                "label_index": "@P56874@\\*56@\\*76",
                 "label_korean": "갈색 76방향 커넥터 핀 56의 입력 신호",
                 "group_id": "8745",
                 "req_frame_id": "26236",
@@ -416,7 +416,7 @@
             {
                 "position": 10,
                 "mnemonic": "MP_I_IDB_ANA_IF18_03_EB1_55_READ",
-                "label_index": "56874",
+                "label_index": "@P56874@\\*55@\\*76",
                 "label_korean": "갈색 76방향 커넥터 핀 55의 입력 신호",
                 "group_id": "매핑_누락",
                 "req_frame_id": "",
@@ -438,7 +438,7 @@
             {
                 "position": 11,
                 "mnemonic": "MP_I_IDB_ANA_IF18_04_EB1_53_READ",
-                "label_index": "56874",
+                "label_index": "@P56874@\\*53@\\*76",
                 "label_korean": "갈색 76방향 커넥터 핀 53의 입력 신호",
                 "group_id": "매핑_누락",
                 "req_frame_id": "",
@@ -460,7 +460,7 @@
             {
                 "position": 12,
                 "mnemonic": "MP_I_IDB_DIG_IF05_04_EB1_73_READ",
-                "label_index": "56874",
+                "label_index": "@P56874@\\*73@\\*76",
                 "label_korean": "갈색 76방향 커넥터 핀 73의 입력 신호",
                 "group_id": "매핑_누락",
                 "req_frame_id": "",
@@ -485,7 +485,7 @@
             {
                 "position": 13,
                 "mnemonic": "MP_I_IDB_DIG_IF05_05_EB1_74_READ",
-                "label_index": "56874",
+                "label_index": "@P56874@\\*74@\\*76",
                 "label_korean": "갈색 76방향 커넥터 핀 74의 입력 신호",
                 "group_id": "매핑_누락",
                 "req_frame_id": "",
@@ -510,7 +510,7 @@
             {
                 "position": 14,
                 "mnemonic": "MP_I_IDB_DIG_IF05_07_EM1_20_READ",
-                "label_index": "56875",
+                "label_index": "@P56875@\\*20@\\*26",
                 "label_korean": "검은색 26방향 커넥터 핀 20의 입력 신호",
                 "group_id": "매핑_누락",
                 "req_frame_id": "",
@@ -535,7 +535,7 @@
             {
                 "position": 15,
                 "mnemonic": "MP_I_IDB_DIG_IF05_08_EM1_18_READ",
-                "label_index": "56875",
+                "label_index": "@P56875@\\*18@\\*26",
                 "label_korean": "검은색 26방향 커넥터 핀 18의 입력 신호",
                 "group_id": "매핑_누락",
                 "req_frame_id": "",
@@ -560,7 +560,7 @@
             {
                 "position": 16,
                 "mnemonic": "MP_I_IDB_DIG_IF05_09_EM1_21_READ",
-                "label_index": "2019",
+                "label_index": "@TTBTSignal d&#x2019;entr�e sur la broche 21 du connecteur 26 voies noir",
                 "label_korean": "TBTSignal d&#x2019;entr�e sur la broche 21 du connecteur 26 voies noir",
                 "group_id": "매핑_누락",
                 "req_frame_id": "",
@@ -585,7 +585,7 @@
             {
                 "position": 17,
                 "mnemonic": "MP_I_IDB_DIG_IF05_10_EM1_04_READ",
-                "label_index": "56875",
+                "label_index": "@P56875@\\*4@\\*26",
                 "label_korean": "검은색 26방향 커넥터 핀 4의 입력 신호",
                 "group_id": "매핑_누락",
                 "req_frame_id": "",
@@ -610,7 +610,7 @@
             {
                 "position": 18,
                 "mnemonic": "MP_I_IDB_DIG_IF05_11_EM1_05_READ",
-                "label_index": "56875",
+                "label_index": "@P56875@\\*5@\\*26",
                 "label_korean": "검은색 26방향 커넥터 핀 5의 입력 신호",
                 "group_id": "매핑_누락",
                 "req_frame_id": "",
@@ -635,7 +635,7 @@
             {
                 "position": 19,
                 "mnemonic": "MP_I_IDB_DIG_IF05_13_EB1_68_READ",
-                "label_index": "56874",
+                "label_index": "@P56874@\\*68@\\*76",
                 "label_korean": "갈색 76방향 커넥터 핀 68의 입력 신호",
                 "group_id": "매핑_누락",
                 "req_frame_id": "",
@@ -660,7 +660,7 @@
             {
                 "position": 20,
                 "mnemonic": "MP_I_IDB_DIG_IF05_16_EB1_47_READ",
-                "label_index": "56874",
+                "label_index": "@P56874@\\*47@\\*76",
                 "label_korean": "갈색 76방향 커넥터 핀 47의 입력 신호",
                 "group_id": "매핑_누락",
                 "req_frame_id": "",
@@ -685,7 +685,7 @@
             {
                 "position": 21,
                 "mnemonic": "MP_I_IDB_DIG_IF05_17_EB1_48_READ",
-                "label_index": "56874",
+                "label_index": "@P56874@\\*48@\\*76",
                 "label_korean": "갈색 76방향 커넥터 핀 48의 입력 신호",
                 "group_id": "매핑_누락",
                 "req_frame_id": "",
@@ -710,7 +710,7 @@
             {
                 "position": 22,
                 "mnemonic": "MP_I_IDB_DIG_IF05_18_EB1_50_READ",
-                "label_index": "56874",
+                "label_index": "@P56874@\\*50@\\*76",
                 "label_korean": "갈색 76방향 커넥터 핀 50의 입력 신호",
                 "group_id": "매핑_누락",
                 "req_frame_id": "",
@@ -735,7 +735,7 @@
             {
                 "position": 23,
                 "mnemonic": "MP_I_IDB_DIG_IF05_20_PR1_03_READ",
-                "label_index": "56875",
+                "label_index": "@P56875@\\*3@\\*12",
                 "label_korean": "검은색 12방향 커넥터 핀 3의 입력 신호",
                 "group_id": "매핑_누락",
                 "req_frame_id": "",
@@ -760,7 +760,7 @@
             {
                 "position": 24,
                 "mnemonic": "MP_I_IDB_DIG_IF05_22_EB1_46_READ",
-                "label_index": "56874",
+                "label_index": "@P56874@\\*46@\\*76",
                 "label_korean": "갈색 76방향 커넥터 핀 46의 입력 신호",
                 "group_id": "매핑_누락",
                 "req_frame_id": "",
@@ -785,7 +785,7 @@
             {
                 "position": 25,
                 "mnemonic": "MP_I_IDB_DIG_IF05_15_EB1_76_READ",
-                "label_index": "56874",
+                "label_index": "@P56874@\\*76@\\*76",
                 "label_korean": "갈색 76방향 커넥터 핀 76의 입력 신호",
                 "group_id": "매핑_누락",
                 "req_frame_id": "",
@@ -810,7 +810,7 @@
             {
                 "position": 26,
                 "mnemonic": "MP_I_IDB_ANA_IF228_PR1_01_AND_PR1_08_READ",
-                "label_index": "2019",
+                "label_index": "@TTBTSignal d&#x2019;entr�e sur la broche 1 et la broche 8 du connecteur 12 voies noire",
                 "label_korean": "TBTSignal d&#x2019;entr�e sur la broche 1 et la broche 8 du connecteur 12 voies noire",
                 "group_id": "매핑_누락",
                 "req_frame_id": "",
@@ -840,7 +840,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_I_IDB_APC_PM1_02_READ",
-                "label_index": "56872",
+                "label_index": "@P56872@\\*2@\\*3",
                 "label_korean": "녹색 3방향 커넥터 핀 2의 입력 신호(키 ON)",
                 "group_id": "8739",
                 "req_frame_id": "26218",
@@ -862,7 +862,7 @@
             {
                 "position": 2,
                 "mnemonic": "MP_I_IDB_BAT_CSP_PB1_27_READ",
-                "label_index": "56873",
+                "label_index": "@P56873@\\*27@\\*28",
                 "label_korean": "파란색 28방향 커넥터 핀 27의 입력 신호",
                 "group_id": "8740",
                 "req_frame_id": "26221",
@@ -884,7 +884,7 @@
             {
                 "position": 3,
                 "mnemonic": "MP_I_MAIN_RELAY_EM1_16_READ",
-                "label_index": "56876",
+                "label_index": "@P56876@\\*16@\\*26",
                 "label_korean": "검은색 26방향 커넥터(메인 릴레이) 핀 16의 입력 신호",
                 "group_id": "8746",
                 "req_frame_id": "26239",
@@ -909,8 +909,8 @@
             {
                 "position": 4,
                 "mnemonic": "MP_I_IDB_DIG_IF26_CAN2_MICROCINPUT_EB1_66_READ",
-                "label_index": "56877",
-                "label_korean": "갈색 76방향 커넥터(CAN 릴레이) 핀 66의 입력 신호",
+                "label_index": "@P56877@\\*66@\\*76",
+                "label_korean": "갈색 76방향 커넥터(CAN+ 릴레이) 핀 66의 입력 신호",
                 "group_id": "8747",
                 "req_frame_id": "26242",
                 "resp_frame_id": "26243",
@@ -934,7 +934,7 @@
             {
                 "position": 5,
                 "mnemonic": "MP_I_IDB_ANA_IF18_01_EB1_51_READ",
-                "label_index": "56874",
+                "label_index": "@P56874@\\*51@\\*76",
                 "label_korean": "갈색 76방향 커넥터 핀 51의 입력 신호",
                 "group_id": "8758",
                 "req_frame_id": "26275",
@@ -956,7 +956,7 @@
             {
                 "position": 6,
                 "mnemonic": "MP_I_IDB_ANA_IF18_02_EB1_52_READ",
-                "label_index": "56874",
+                "label_index": "@P56874@\\*52@\\*76",
                 "label_korean": "갈색 76방향 커넥터 핀 52의 입력 신호",
                 "group_id": "8759",
                 "req_frame_id": "26278",
@@ -978,7 +978,7 @@
             {
                 "position": 7,
                 "mnemonic": "MP_I_IDB_ANA_IF18_05_EB1_54_READ",
-                "label_index": "56874",
+                "label_index": "@P56874@\\*54@\\*76",
                 "label_korean": "갈색 76방향 커넥터 핀 54의 입력 신호",
                 "group_id": "8741",
                 "req_frame_id": "26224",
@@ -1000,7 +1000,7 @@
             {
                 "position": 8,
                 "mnemonic": "MP_I_IDB_DIG_IF05_01_EM1_17_READ",
-                "label_index": "56875",
+                "label_index": "@P56875@\\*17@\\*26",
                 "label_korean": "검은색 26방향 커넥터 핀 17의 입력 신호",
                 "group_id": "8742",
                 "req_frame_id": "26227",
@@ -1025,7 +1025,7 @@
             {
                 "position": 9,
                 "mnemonic": "MP_I_IDB_DIG_IF05_02_EB1_69_READ",
-                "label_index": "56874",
+                "label_index": "@P56874@\\*69@\\*76",
                 "label_korean": "갈색 76방향 커넥터 핀 69의 입력 신호",
                 "group_id": "8760",
                 "req_frame_id": "26281",
@@ -1050,7 +1050,7 @@
             {
                 "position": 10,
                 "mnemonic": "MP_I_IDB_DIG_IF05_03_EB1_75_READ",
-                "label_index": "56874",
+                "label_index": "@P56874@\\*75@\\*76",
                 "label_korean": "갈색 76방향 커넥터 핀 75의 입력 신호",
                 "group_id": "8761",
                 "req_frame_id": "26284",
@@ -1075,7 +1075,7 @@
             {
                 "position": 11,
                 "mnemonic": "MP_I_IDB_DIG_IF05_06_EM1_19_READ",
-                "label_index": "56875",
+                "label_index": "@P56875@\\*19@\\*26",
                 "label_korean": "검은색 26방향 커넥터 핀 19의 입력 신호",
                 "group_id": "8762",
                 "req_frame_id": "26287",
@@ -1100,7 +1100,7 @@
             {
                 "position": 12,
                 "mnemonic": "MP_I_IDB_DIG_IF05_12_PR1_02_READ",
-                "label_index": "56875",
+                "label_index": "@P56875@\\*2@\\*12",
                 "label_korean": "검은색 12방향 커넥터 핀 2의 입력 신호",
                 "group_id": "8763",
                 "req_frame_id": "26290",
@@ -1125,7 +1125,7 @@
             {
                 "position": 13,
                 "mnemonic": "MP_I_IDB_DIG_IF05_14_EB1_49_READ",
-                "label_index": "56874",
+                "label_index": "@P56874@\\*49@\\*76",
                 "label_korean": "갈색 76방향 커넥터 핀 49의 입력 신호",
                 "group_id": "8743",
                 "req_frame_id": "26230",
@@ -1150,7 +1150,7 @@
             {
                 "position": 14,
                 "mnemonic": "MP_I_IDB_DIG_IF05_19_EB1_67_READ",
-                "label_index": "56874",
+                "label_index": "@P56874@\\*67@\\*76",
                 "label_korean": "갈색 76방향 커넥터 핀 67의 입력 신호",
                 "group_id": "8744",
                 "req_frame_id": "26233",
@@ -1175,7 +1175,7 @@
             {
                 "position": 15,
                 "mnemonic": "MP_I_IDB_DIG_IF05_21_EB1_56_READ",
-                "label_index": "56874",
+                "label_index": "@P56874@\\*56@\\*76",
                 "label_korean": "갈색 76방향 커넥터 핀 56의 입력 신호",
                 "group_id": "8745",
                 "req_frame_id": "26236",
@@ -1208,8 +1208,8 @@
             {
                 "position": 1,
                 "mnemonic": "MP_ETAT_ALIM_CAN_2_INTERNAL_READ",
-                "label_index": "56878",
-                "label_korean": "실내 분배 장치내부의 CAN 전원 2 공급 상태(IDB)",
+                "label_index": "@P56878@\\*2@\\*(IDB)",
+                "label_korean": "실내 분배 장치 내부의 CAN 전원 2 공급 상태(IDB)",
                 "group_id": "8748",
                 "req_frame_id": "26245",
                 "resp_frame_id": "26246",
@@ -1241,7 +1241,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_O_IDB_IF111_PR1_09_OR_EB1_01_READ",
-                "label_index": "56879",
+                "label_index": "@P56879@\\*9@\\*12@\\*1@\\*76",
                 "label_korean": "검은색 12방향 커넥터 핀 9 또는 갈색 76방향 커넥터 핀 1의 출력 신호",
                 "group_id": "8749",
                 "req_frame_id": "26248",
@@ -1263,7 +1263,7 @@
             {
                 "position": 2,
                 "mnemonic": "MP_O_IDB_IF26_02_EB1_25_READ",
-                "label_index": "56880",
+                "label_index": "@P56880@\\*25@\\*76",
                 "label_korean": "갈색 76방향 커넥터 핀 25의 출력 신호",
                 "group_id": "8750",
                 "req_frame_id": "26251",
@@ -1288,7 +1288,7 @@
             {
                 "position": 3,
                 "mnemonic": "MP_O_IDB_IF26_03_EB1_24_READ",
-                "label_index": "56880",
+                "label_index": "@P56880@\\*24@\\*76",
                 "label_korean": "갈색 76방향 커넥터 핀 24의 출력 신호",
                 "group_id": "8751",
                 "req_frame_id": "26254",
@@ -1313,7 +1313,7 @@
             {
                 "position": 4,
                 "mnemonic": "MP_O_IDB_IF26_05_EB1_06_READ",
-                "label_index": "56880",
+                "label_index": "@P56880@\\*6@\\*76",
                 "label_korean": "갈색 76방향 커넥터 핀 6의 출력 신호",
                 "group_id": "8752",
                 "req_frame_id": "26257",
@@ -1335,7 +1335,7 @@
             {
                 "position": 5,
                 "mnemonic": "MP_O_IDB_IF27_01_EB1_07_READ",
-                "label_index": "56880",
+                "label_index": "@P56880@\\*7@\\*76",
                 "label_korean": "갈색 76방향 커넥터 핀 7의 출력 신호",
                 "group_id": "8753",
                 "req_frame_id": "26260",
@@ -1360,7 +1360,7 @@
             {
                 "position": 6,
                 "mnemonic": "MP_O_IDB_IF27_02_EB1_04_READ",
-                "label_index": "56880",
+                "label_index": "@P56880@\\*4@\\*76",
                 "label_korean": "갈색 76방향 커넥터 핀 4의 출력 신호",
                 "group_id": "8754",
                 "req_frame_id": "26263",
@@ -1385,7 +1385,7 @@
             {
                 "position": 7,
                 "mnemonic": "MP_O_IDB_IF22_02_EB1_23_READ",
-                "label_index": "56880",
+                "label_index": "@P56880@\\*23@\\*76",
                 "label_korean": "갈색 76방향 커넥터 핀 23의 출력 신호",
                 "group_id": "8755",
                 "req_frame_id": "26266",
@@ -1407,7 +1407,7 @@
             {
                 "position": 8,
                 "mnemonic": "MP_O_IDB_IF22_03_EB1_05_READ",
-                "label_index": "56880",
+                "label_index": "@P56880@\\*5@\\*76",
                 "label_korean": "갈색 76방향 커넥터 핀 5의 출력 신호",
                 "group_id": "8756",
                 "req_frame_id": "26269",
@@ -1429,7 +1429,7 @@
             {
                 "position": 9,
                 "mnemonic": "MP_O_IDB_REL2_F16_PB1_15_READ",
-                "label_index": "15",
+                "label_index": "@TTBTSignal de sortie sur la broche 15 du connecteur 28 voies bleu (relais R2)",
                 "label_korean": "TBTSignal de sortie sur la broche 15 du connecteur 28 voies bleu (relais R2)",
                 "group_id": "매핑_누락",
                 "req_frame_id": "",
@@ -1454,7 +1454,7 @@
             {
                 "position": 10,
                 "mnemonic": "MP_O_IDB_IF26_04_EB1_35_READ",
-                "label_index": "56880",
+                "label_index": "@P56880@\\*35@\\*76",
                 "label_korean": "갈색 76방향 커넥터 핀 35의 출력 신호",
                 "group_id": "매핑_누락",
                 "req_frame_id": "",
@@ -1479,7 +1479,7 @@
             {
                 "position": 11,
                 "mnemonic": "MP_O_IDB_IF26_06_EB1_17_READ",
-                "label_index": "56880",
+                "label_index": "@P56880@\\*17@\\*76",
                 "label_korean": "갈색 76방향 커넥터 핀 17의 출력 신호",
                 "group_id": "매핑_누락",
                 "req_frame_id": "",
@@ -1504,7 +1504,7 @@
             {
                 "position": 12,
                 "mnemonic": "MP_O_IDB_IF26_07_EM1_07_READ",
-                "label_index": "56884",
+                "label_index": "@P56884@\\*7@\\*26",
                 "label_korean": "검은색 26방향 커넥터 핀 7의 출력 신호",
                 "group_id": "매핑_누락",
                 "req_frame_id": "",
@@ -1529,7 +1529,7 @@
             {
                 "position": 13,
                 "mnemonic": "MP_O_IDB_IF26_08_EM1_09_READ",
-                "label_index": "56884",
+                "label_index": "@P56884@\\*9@\\*26",
                 "label_korean": "검은색 26방향 커넥터 핀 9의 출력 신호",
                 "group_id": "매핑_누락",
                 "req_frame_id": "",
@@ -1554,7 +1554,7 @@
             {
                 "position": 14,
                 "mnemonic": "MP_O_IDB_IF26_09_EM1_08_READ",
-                "label_index": "56884",
+                "label_index": "@P56884@\\*8@\\*26",
                 "label_korean": "검은색 26방향 커넥터 핀 8의 출력 신호",
                 "group_id": "매핑_누락",
                 "req_frame_id": "",
@@ -1579,7 +1579,7 @@
             {
                 "position": 15,
                 "mnemonic": "MP_O_IDB_IF26_19_EM1_12_READ",
-                "label_index": "56884",
+                "label_index": "@P56884@\\*12@\\*26",
                 "label_korean": "검은색 26방향 커넥터 핀 12의 출력 신호",
                 "group_id": "매핑_누락",
                 "req_frame_id": "",
@@ -1604,7 +1604,7 @@
             {
                 "position": 16,
                 "mnemonic": "MP_O_IDB_IF26_20_EM1_10_READ",
-                "label_index": "56884",
+                "label_index": "@P56884@\\*10@\\*26",
                 "label_korean": "검은색 26방향 커넥터 핀 10의 출력 신호",
                 "group_id": "매핑_누락",
                 "req_frame_id": "",
@@ -1629,7 +1629,7 @@
             {
                 "position": 17,
                 "mnemonic": "MP_O_IDB_IF27_03_EM1_06_READ",
-                "label_index": "56884",
+                "label_index": "@P56884@\\*6@\\*26",
                 "label_korean": "검은색 26방향 커넥터 핀 6의 출력 신호",
                 "group_id": "매핑_누락",
                 "req_frame_id": "",
@@ -1654,7 +1654,7 @@
             {
                 "position": 18,
                 "mnemonic": "MP_O_IDB_IF26_01_EM1_11_READ",
-                "label_index": "56884",
+                "label_index": "@P56884@\\*11@\\*26",
                 "label_korean": "검은색 26방향 커넥터 핀 11의 출력 신호",
                 "group_id": "매핑_누락",
                 "req_frame_id": "",
@@ -1679,7 +1679,7 @@
             {
                 "position": 19,
                 "mnemonic": "MP_O_IDB_IF22_04_EB1_29_READ",
-                "label_index": "56880",
+                "label_index": "@P56880@\\*29@\\*76",
                 "label_korean": "갈색 76방향 커넥터 핀 29의 출력 신호",
                 "group_id": "매핑_누락",
                 "req_frame_id": "",
@@ -1701,7 +1701,7 @@
             {
                 "position": 20,
                 "mnemonic": "MP_O_IDB_IF22_05_EB1_30_READ",
-                "label_index": "56880",
+                "label_index": "@P56880@\\*30@\\*76",
                 "label_korean": "갈색 76방향 커넥터 핀 30의 출력 신호",
                 "group_id": "매핑_누락",
                 "req_frame_id": "",
@@ -1723,7 +1723,7 @@
             {
                 "position": 21,
                 "mnemonic": "MP_O_IDB_IF27_04_EB1_37_READ",
-                "label_index": "56880",
+                "label_index": "@P56880@\\*37@\\*76",
                 "label_korean": "갈색 76방향 커넥터 핀 37의 출력 신호",
                 "group_id": "매핑_누락",
                 "req_frame_id": "",
@@ -1748,7 +1748,7 @@
             {
                 "position": 22,
                 "mnemonic": "MP_O_IDB_IF26_10_EB1_18_READ",
-                "label_index": "56880",
+                "label_index": "@P56880@\\*18@\\*76",
                 "label_korean": "갈색 76방향 커넥터 핀 18의 출력 신호",
                 "group_id": "매핑_누락",
                 "req_frame_id": "",
@@ -1773,7 +1773,7 @@
             {
                 "position": 23,
                 "mnemonic": "MP_O_IDB_IF26_13_EB1_34_READ",
-                "label_index": "56880",
+                "label_index": "@P56880@\\*34@\\*76",
                 "label_korean": "갈색 76방향 커넥터 핀 34의 출력 신호",
                 "group_id": "매핑_누락",
                 "req_frame_id": "",
@@ -1806,7 +1806,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_O_IDB_IF111_PR1_09_OR_EB1_01_READ",
-                "label_index": "56879",
+                "label_index": "@P56879@\\*9@\\*12@\\*1@\\*76",
                 "label_korean": "검은색 12방향 커넥터 핀 9 또는 갈색 76방향 커넥터 핀 1의 출력 신호",
                 "group_id": "8749",
                 "req_frame_id": "26248",
@@ -1828,8 +1828,8 @@
             {
                 "position": 2,
                 "mnemonic": "MP_O_IDB_REL1_F12_PR1_12_READ",
-                "label_index": "56884",
-                "label_korean": "검은색 12방향 커넥터 핀 12의 출력 신호 (relay 12)",
+                "label_index": "@P56884@\\*12@\\*12@\\+@P56909@\\*R1",
+                "label_korean": "검은색 12방향 커넥터 핀 12의 출력 신호(relay 12)",
                 "group_id": "8764",
                 "req_frame_id": "26293",
                 "resp_frame_id": "26294",
@@ -1847,13 +1847,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "12, 12, R1",
-                "help_code": "56908",
+                "help_code": "@P56908@\\*&quot;F12&quot;",
                 "help_korean": "출력 신호는 퓨즈 에 의해 보호된다&quot;F12&quot;"
             },
             {
                 "position": 3,
                 "mnemonic": "MP_O_IDB_IF26_02_EB1_25_READ",
-                "label_index": "56880",
+                "label_index": "@P56880@\\*25@\\*76",
                 "label_korean": "갈색 76방향 커넥터 핀 25의 출력 신호",
                 "group_id": "8750",
                 "req_frame_id": "26251",
@@ -1878,7 +1878,7 @@
             {
                 "position": 4,
                 "mnemonic": "MP_O_IDB_IF26_03_EB1_24_READ",
-                "label_index": "56880",
+                "label_index": "@P56880@\\*24@\\*76",
                 "label_korean": "갈색 76방향 커넥터 핀 24의 출력 신호",
                 "group_id": "8751",
                 "req_frame_id": "26254",
@@ -1903,7 +1903,7 @@
             {
                 "position": 5,
                 "mnemonic": "MP_O_IDB_IF26_05_EB1_06_READ",
-                "label_index": "56880",
+                "label_index": "@P56880@\\*6@\\*76",
                 "label_korean": "갈색 76방향 커넥터 핀 6의 출력 신호",
                 "group_id": "8752",
                 "req_frame_id": "26257",
@@ -1925,7 +1925,7 @@
             {
                 "position": 6,
                 "mnemonic": "MP_O_IDB_IF26_11_EB1_11_READ",
-                "label_index": "56880",
+                "label_index": "@P56880@\\*11@\\*76",
                 "label_korean": "갈색 76방향 커넥터 핀 11의 출력 신호",
                 "group_id": "8766",
                 "req_frame_id": "26299",
@@ -1950,7 +1950,7 @@
             {
                 "position": 7,
                 "mnemonic": "MP_O_IDB_IF26_12_EM1_24_READ",
-                "label_index": "56884",
+                "label_index": "@P56884@\\*24@\\*26",
                 "label_korean": "검은색 26방향 커넥터 핀 24의 출력 신호",
                 "group_id": "8767",
                 "req_frame_id": "26302",
@@ -1975,7 +1975,7 @@
             {
                 "position": 8,
                 "mnemonic": "MP_O_IDB_IF26_14_EM1_22_READ",
-                "label_index": "56884",
+                "label_index": "@P56884@\\*22@\\*26",
                 "label_korean": "검은색 26방향 커넥터 핀 22의 출력 신호",
                 "group_id": "8769",
                 "req_frame_id": "26308",
@@ -2000,7 +2000,7 @@
             {
                 "position": 9,
                 "mnemonic": "MP_O_IDB_IF26_15_EB1_12_READ",
-                "label_index": "56880",
+                "label_index": "@P56880@\\*12@\\*76",
                 "label_korean": "갈색 76방향 커넥터 핀 12의 출력 신호",
                 "group_id": "8770",
                 "req_frame_id": "26311",
@@ -2025,7 +2025,7 @@
             {
                 "position": 10,
                 "mnemonic": "MP_O_IDB_IF26_16_EB1_08_READ",
-                "label_index": "56880",
+                "label_index": "@P56880@\\*8@\\*76",
                 "label_korean": "갈색 76방향 커넥터 핀 8의 출력 신호",
                 "group_id": "8771",
                 "req_frame_id": "26314",
@@ -2050,7 +2050,7 @@
             {
                 "position": 11,
                 "mnemonic": "MP_O_IDB_IF26_17_PR1_07_READ",
-                "label_index": "56884",
+                "label_index": "@P56884@\\*7@\\*12",
                 "label_korean": "검은색 12방향 커넥터 핀 7의 출력 신호",
                 "group_id": "8772",
                 "req_frame_id": "26317",
@@ -2075,7 +2075,7 @@
             {
                 "position": 12,
                 "mnemonic": "MP_O_IDB_IF26_18_EM1_23_READ",
-                "label_index": "56884",
+                "label_index": "@P56884@\\*23@\\*26",
                 "label_korean": "검은색 26방향 커넥터 핀 23의 출력 신호",
                 "group_id": "8773",
                 "req_frame_id": "26320",
@@ -2100,7 +2100,7 @@
             {
                 "position": 13,
                 "mnemonic": "MP_O_IDB_IF26_21_EB1_13_READ",
-                "label_index": "56880",
+                "label_index": "@P56880@\\*13@\\*76",
                 "label_korean": "갈색 76방향 커넥터 핀 13의 출력 신호",
                 "group_id": "8777",
                 "req_frame_id": "26332",
@@ -2125,7 +2125,7 @@
             {
                 "position": 14,
                 "mnemonic": "MP_O_IDB_IF26_22_EB1_09_READ",
-                "label_index": "56880",
+                "label_index": "@P56880@\\*9@\\*76",
                 "label_korean": "갈색 76방향 커넥터 핀 9의 출력 신호",
                 "group_id": "8778",
                 "req_frame_id": "26335",
@@ -2150,7 +2150,7 @@
             {
                 "position": 15,
                 "mnemonic": "MP_O_IDB_IF27_05_EM1_25_READ",
-                "label_index": "56884",
+                "label_index": "@P56884@\\*25@\\*26",
                 "label_korean": "검은색 26방향 커넥터 핀 25의 출력 신호",
                 "group_id": "8765",
                 "req_frame_id": "26296",
@@ -2172,7 +2172,7 @@
             {
                 "position": 16,
                 "mnemonic": "MP_O_IDB_IF27_06_EB1_28_READ",
-                "label_index": "56880",
+                "label_index": "@P56880@\\*28@\\*76",
                 "label_korean": "갈색 76방향 커넥터 핀 28의 출력 신호",
                 "group_id": "8768",
                 "req_frame_id": "26305",
@@ -2197,7 +2197,7 @@
             {
                 "position": 17,
                 "mnemonic": "MP_O_IDB_IF27_01_EB1_07_READ",
-                "label_index": "56880",
+                "label_index": "@P56880@\\*7@\\*76",
                 "label_korean": "갈색 76방향 커넥터 핀 7의 출력 신호",
                 "group_id": "8753",
                 "req_frame_id": "26260",
@@ -2222,7 +2222,7 @@
             {
                 "position": 18,
                 "mnemonic": "MP_O_IDB_IF27_02_EB1_04_READ",
-                "label_index": "56880",
+                "label_index": "@P56880@\\*4@\\*76",
                 "label_korean": "갈색 76방향 커넥터 핀 4의 출력 신호",
                 "group_id": "8754",
                 "req_frame_id": "26263",
@@ -2247,7 +2247,7 @@
             {
                 "position": 19,
                 "mnemonic": "MP_O_IDB_IF22_01_EB1_10_READ",
-                "label_index": "56880",
+                "label_index": "@P56880@\\*10@\\*76",
                 "label_korean": "갈색 76방향 커넥터 핀 10의 출력 신호",
                 "group_id": "8774",
                 "req_frame_id": "26323",
@@ -2269,7 +2269,7 @@
             {
                 "position": 20,
                 "mnemonic": "MP_O_IDB_IF22_02_EB1_23_READ",
-                "label_index": "56880",
+                "label_index": "@P56880@\\*23@\\*76",
                 "label_korean": "갈색 76방향 커넥터 핀 23의 출력 신호",
                 "group_id": "8755",
                 "req_frame_id": "26266",
@@ -2291,7 +2291,7 @@
             {
                 "position": 21,
                 "mnemonic": "MP_O_IDB_IF22_03_EB1_05_READ",
-                "label_index": "56880",
+                "label_index": "@P56880@\\*5@\\*76",
                 "label_korean": "갈색 76방향 커넥터 핀 5의 출력 신호",
                 "group_id": "8756",
                 "req_frame_id": "26269",
@@ -2313,7 +2313,7 @@
             {
                 "position": 22,
                 "mnemonic": "MP_O_IDB_IF22_06_EB1_26_READ",
-                "label_index": "56880",
+                "label_index": "@P56880@\\*26@\\*76",
                 "label_korean": "갈색 76방향 커넥터 핀 26의 출력 신호",
                 "group_id": "8775",
                 "req_frame_id": "26326",
@@ -2335,7 +2335,7 @@
             {
                 "position": 23,
                 "mnemonic": "MP_O_IDB_IF22_07_EB1_27_READ",
-                "label_index": "56880",
+                "label_index": "@P56880@\\*27@\\*76",
                 "label_korean": "갈색 76방향 커넥터 핀 27의 출력 신호",
                 "group_id": "8776",
                 "req_frame_id": "26329",
@@ -2365,8 +2365,8 @@
             {
                 "position": 1,
                 "mnemonic": "MP_SBC_OVT_VCC2",
-                "label_index": "56881",
-                "label_korean": "실내\n- 분배 장치4의 온도가 너무 높음(IDB) : 공간4.0",
+                "label_index": "@P56881@\\*(IDB)@\\+@T:@\\+@P5165@\\*4.0",
+                "label_korean": "실내 분배 장치4의 온도가 너무 높음(IDB):공간4.0",
                 "group_id": "8757",
                 "req_frame_id": "26272",
                 "resp_frame_id": "26273",
@@ -2390,8 +2390,8 @@
             {
                 "position": 2,
                 "mnemonic": "MP_SBC_OVT_HSS",
-                "label_index": "56881",
-                "label_korean": "실내\n- 분배 장치4의 온도가 너무 높음(IDB) : 공간4.1",
+                "label_index": "@P56881@\\*(IDB)@\\+@T:@\\+@P5165@\\*4.1",
+                "label_korean": "실내 분배 장치4의 온도가 너무 높음(IDB):공간4.1",
                 "group_id": "8757",
                 "req_frame_id": "26272",
                 "resp_frame_id": "26273",
@@ -2415,8 +2415,8 @@
             {
                 "position": 3,
                 "mnemonic": "MP_SBC_OVT_CAN",
-                "label_index": "56881",
-                "label_korean": "실내\n- 분배 장치4의 온도가 너무 높음(IDB) : 공간4.3",
+                "label_index": "@P56881@\\*(IDB)@\\+@T :@\\+@P5165@\\*4.3",
+                "label_korean": "실내 분배 장치4의 온도가 너무 높음(IDB) :공간4.3",
                 "group_id": "8757",
                 "req_frame_id": "26272",
                 "resp_frame_id": "26273",
@@ -2440,8 +2440,8 @@
             {
                 "position": 4,
                 "mnemonic": "MP_SBC_OVT_VCC1",
-                "label_index": "56882",
-                "label_korean": "실내\n- 분배 장치4의 전압이 너무 높음(IDB) : 공간4.2",
+                "label_index": "@P56882@\\*(IDB)@\\+@T:@\\+@P5165@\\*4.2",
+                "label_korean": "실내 분배 장치4의 전압이 너무 높음(IDB):공간4.2",
                 "group_id": "8757",
                 "req_frame_id": "26272",
                 "resp_frame_id": "26273",
@@ -2465,8 +2465,8 @@
             {
                 "position": 5,
                 "mnemonic": "MP_TLE75XX_VDD_UNDERVOLTAGE",
-                "label_index": "58308",
-                "label_korean": "내장\n- 배선 박스 (IDB)5의 전압이 너무 낮음(IDB) : 공간5.0",
+                "label_index": "@P58308@\\*(IDB)@\\+@T:@\\+@P5165@\\*5.0",
+                "label_korean": "내장 배선 박스 (IDB)5의 전압이 너무 낮음(IDB):공간5.0",
                 "group_id": "8757",
                 "req_frame_id": "26272",
                 "resp_frame_id": "26273",
@@ -2490,8 +2490,8 @@
             {
                 "position": 6,
                 "mnemonic": "MP_UNDERVOLTAGE_OVERVOLTAGE_DTC",
-                "label_index": "58311",
-                "label_korean": "내장 배선\n- 박스 (IDB)10의 전압이 너무 낮거나 너무 높음(IDB) : 공간10.0",
+                "label_index": "@P58311@\\*(IDB)@\\+@T:@\\+@P5165@\\*10.0",
+                "label_korean": "내장 배선 박스 (IDB)10의 전압이 너무 낮거나 너무 높음(IDB):공간10.0",
                 "group_id": "8757",
                 "req_frame_id": "26272",
                 "resp_frame_id": "26273",
@@ -2515,8 +2515,8 @@
             {
                 "position": 7,
                 "mnemonic": "MP_IDB_RESET_1",
-                "label_index": "58309",
-                "label_korean": "내장\n- 배선 박스 (IDB)6를 예기치 않게 재설정함(IDB) : 공간6.0",
+                "label_index": "@P58309@\\*(IDB)@\\+@T:@\\+@P5165@\\*6.0",
+                "label_korean": "내장 배선 박스 (IDB)6를 예기치 않게 재설정함(IDB):공간6.0",
                 "group_id": "8757",
                 "req_frame_id": "26272",
                 "resp_frame_id": "26273",
@@ -2540,8 +2540,8 @@
             {
                 "position": 8,
                 "mnemonic": "MP_IDB_RESET_2",
-                "label_index": "58309",
-                "label_korean": "내장\n- 배선 박스 (IDB)6를 예기치 않게 재설정함(IDB) : 공간6.1",
+                "label_index": "@P58309@\\*(IDB)@\\+@T:@\\+@P5165@\\*6.1",
+                "label_korean": "내장 배선 박스 (IDB)6를 예기치 않게 재설정함(IDB):공간6.1",
                 "group_id": "8757",
                 "req_frame_id": "26272",
                 "resp_frame_id": "26273",
@@ -2565,8 +2565,8 @@
             {
                 "position": 9,
                 "mnemonic": "MP_IDB_RESET_3",
-                "label_index": "58309",
-                "label_korean": "내장\n- 배선 박스 (IDB)6를 예기치 않게 재설정함(IDB) : 공간6.2",
+                "label_index": "@P58309@\\*(IDB)@\\+@T:@\\+@P5165@\\*6.2",
+                "label_korean": "내장 배선 박스 (IDB)6를 예기치 않게 재설정함(IDB):공간6.2",
                 "group_id": "8757",
                 "req_frame_id": "26272",
                 "resp_frame_id": "26273",
@@ -2590,8 +2590,8 @@
             {
                 "position": 10,
                 "mnemonic": "MP_IDB_RESET_4",
-                "label_index": "58309",
-                "label_korean": "내장\n- 배선 박스 (IDB)6를 예기치 않게 재설정함(IDB) : 공간6.3",
+                "label_index": "@P58309@\\*(IDB)@\\+@T:@\\+@P5165@\\*6.3",
+                "label_korean": "내장 배선 박스 (IDB)6를 예기치 않게 재설정함(IDB):공간6.3",
                 "group_id": "8757",
                 "req_frame_id": "26272",
                 "resp_frame_id": "26273",
@@ -2615,8 +2615,8 @@
             {
                 "position": 11,
                 "mnemonic": "MP_PERIPHERAL_RAM_ECC_ERROR",
-                "label_index": "58310",
-                "label_korean": "내장\n- 배선 박스 (IDB)7의 내부 메모리(IDB) : 공간7.0",
+                "label_index": "@P58310@\\*(IDB)@\\+@T:@\\+@P5165@\\*7.0",
+                "label_korean": "내장 배선 박스 (IDB)7의 내부 메모리(IDB):공간7.0",
                 "group_id": "8757",
                 "req_frame_id": "26272",
                 "resp_frame_id": "26273",
@@ -2640,8 +2640,8 @@
             {
                 "position": 12,
                 "mnemonic": "MP_RAM_ECC_ERROR",
-                "label_index": "58310",
-                "label_korean": "내장\n- 배선 박스 (IDB)7의 내부 메모리(IDB) : 공간7.1",
+                "label_index": "@P58310@\\*(IDB)@\\+@T:@\\+@P5165@\\*7.1",
+                "label_korean": "내장 배선 박스 (IDB)7의 내부 메모리(IDB):공간7.1",
                 "group_id": "8757",
                 "req_frame_id": "26272",
                 "resp_frame_id": "26273",
@@ -2665,8 +2665,8 @@
             {
                 "position": 13,
                 "mnemonic": "MP_CODE_FLASH_ECC_ERROR",
-                "label_index": "58310",
-                "label_korean": "내장\n- 배선 박스 (IDB)7의 내부 메모리(IDB) : 공간7.2",
+                "label_index": "@P58310@\\*(IDB)@\\+@T:@\\+@P5165@\\*7.2",
+                "label_korean": "내장 배선 박스 (IDB)7의 내부 메모리(IDB):공간7.2",
                 "group_id": "8757",
                 "req_frame_id": "26272",
                 "resp_frame_id": "26273",
@@ -2690,8 +2690,8 @@
             {
                 "position": 14,
                 "mnemonic": "MP_TLE75XX_SPI_FAILURE",
-                "label_index": "58307",
-                "label_korean": "내장\n- 배선 박스 (IDB)5의 내부 전자 카드(IDB) : 공간5.1",
+                "label_index": "@P58307@\\*(IDB)@\\+@T:@\\+@P5165@\\*5.1",
+                "label_korean": "내장 배선 박스 (IDB)5의 내부 전자 카드(IDB):공간5.1",
                 "group_id": "8757",
                 "req_frame_id": "26272",
                 "resp_frame_id": "26273",
@@ -2715,8 +2715,8 @@
             {
                 "position": 15,
                 "mnemonic": "MP_VAK_FAILURE",
-                "label_index": "58307",
-                "label_korean": "내장\n- 배선 박스 (IDB)8의 내부 전자 카드(IDB) : 공간8.0",
+                "label_index": "@P58307@\\*(IDB)@\\+@T:@\\+@P5165@\\*8.0",
+                "label_korean": "내장 배선 박스 (IDB)8의 내부 전자 카드(IDB):공간8.0",
                 "group_id": "8757",
                 "req_frame_id": "26272",
                 "resp_frame_id": "26273",
@@ -2740,8 +2740,8 @@
             {
                 "position": 16,
                 "mnemonic": "MP_VAK1_FAILURE",
-                "label_index": "58307",
-                "label_korean": "내장\n- 배선 박스 (IDB)8의 내부 전자 카드(IDB) : 공간8.1",
+                "label_index": "@P58307@\\*(IDB)@\\+@T:@\\+@P5165@\\*8.1",
+                "label_korean": "내장 배선 박스 (IDB)8의 내부 전자 카드(IDB):공간8.1",
                 "group_id": "8757",
                 "req_frame_id": "26272",
                 "resp_frame_id": "26273",
@@ -2765,8 +2765,8 @@
             {
                 "position": 17,
                 "mnemonic": "MP_VAK2_FAILURE",
-                "label_index": "58307",
-                "label_korean": "내장\n- 배선 박스 (IDB)8의 내부 전자 카드(IDB) : 공간8.2",
+                "label_index": "@P58307@\\*(IDB)@\\+@T:@\\+@P5165@\\*8.2",
+                "label_korean": "내장 배선 박스 (IDB)8의 내부 전자 카드(IDB):공간8.2",
                 "group_id": "8757",
                 "req_frame_id": "26272",
                 "resp_frame_id": "26273",
@@ -2790,8 +2790,8 @@
             {
                 "position": 18,
                 "mnemonic": "MP_VAK_WU_FAILURE",
-                "label_index": "58307",
-                "label_korean": "내장\n- 배선 박스 (IDB)8의 내부 전자 카드(IDB) : 공간8.3",
+                "label_index": "@P58307@\\*(IDB)@\\+@T:@\\+@P5165@\\*8.3",
+                "label_korean": "내장 배선 박스 (IDB)8의 내부 전자 카드(IDB):공간8.3",
                 "group_id": "8757",
                 "req_frame_id": "26272",
                 "resp_frame_id": "26273",
@@ -2815,8 +2815,8 @@
             {
                 "position": 19,
                 "mnemonic": "MP_AVCC_FAILURE",
-                "label_index": "58307",
-                "label_korean": "내장\n- 배선 박스 (IDB)9의 내부 전자 카드(IDB) : 공간9.0",
+                "label_index": "@P58307@\\*(IDB)@\\+@T:@\\+@P5165@\\*9.0",
+                "label_korean": "내장 배선 박스 (IDB)9의 내부 전자 카드(IDB):공간9.0",
                 "group_id": "8757",
                 "req_frame_id": "26272",
                 "resp_frame_id": "26273",
@@ -2840,8 +2840,8 @@
             {
                 "position": 20,
                 "mnemonic": "MP_5VREG",
-                "label_index": "58307",
-                "label_korean": "내장\n- 배선 박스 (IDB)9의 내부 전자 카드(IDB) : 공간9.1",
+                "label_index": "@P58307@\\*(IDB)@\\+@T:@\\+@P5165@\\*9.1",
+                "label_korean": "내장 배선 박스 (IDB)9의 내부 전자 카드(IDB):공간9.1",
                 "group_id": "8757",
                 "req_frame_id": "26272",
                 "resp_frame_id": "26273",
@@ -2865,7 +2865,7 @@
             {
                 "position": 21,
                 "mnemonic": "MP_CAN_BUSSOFF",
-                "label_index": "8207",
+                "label_index": "@P8207",
                 "label_korean": "CAN에서 통신",
                 "group_id": "8757",
                 "req_frame_id": "26272",
@@ -2890,7 +2890,7 @@
             {
                 "position": 22,
                 "mnemonic": "MP_CAN_ABSENT",
-                "label_index": "58319",
+                "label_index": "@P58319@\\*(VSM1)",
                 "label_korean": "CAN에서 BSI와 통신(VSM1)",
                 "group_id": "8757",
                 "req_frame_id": "26272",
@@ -2915,7 +2915,7 @@
             {
                 "position": 23,
                 "mnemonic": "MP_CAN_MUTE",
-                "label_index": "58318",
+                "label_index": "@P58318@\\*(IDB)",
                 "label_korean": "내장 배선 박스 (IDB)이 CAN에서 통신하지 않음(IDB)",
                 "group_id": "8757",
                 "req_frame_id": "26272",
@@ -2940,7 +2940,7 @@
         ]
     },
     "MESUREPARAMETRE5": {
-        "screen_title_korean": "내장 배선 박스 (IDB)입력/출력의 작동 상태(IDB)",
+        "screen_title_korean": "내장 배선 박스 (IDB) 입력/출력의 작동 상태(IDB)",
         "screen_label_index": "@P58322-POLUXDATA@\\*(IDB)",
         "ecu_name": "IDB_DEGRADE_VAR_B",
         "total_sensors": 40,
@@ -2948,7 +2948,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_OUTPUT_O_IDB_IF111_PR1_09_OR_EB1_01",
-                "label_index": "58317",
+                "label_index": "@P58317@\\*9@\\*12@\\*1@\\*76",
                 "label_korean": "검은색 12-핀 커넥터의 핀9 또는 갈색 76-핀 커넥터의 핀1의 출력의 일시적 차단(일시적 차단)",
                 "group_id": "8757",
                 "req_frame_id": "26272",
@@ -2973,7 +2973,7 @@
             {
                 "position": 2,
                 "mnemonic": "MP_OUTPUT_IF111_PR1_09_OR_EB1_01",
-                "label_index": "58312",
+                "label_index": "@P58312@\\*9@\\*12@\\*1@\\*76",
                 "label_korean": "검은색 12-핀 커넥터의 핀 9 또는 갈색 76-핀 커넥터의 핀 1의 출력의 영구적 차단(영구적 차단)",
                 "group_id": "8757",
                 "req_frame_id": "26272",
@@ -2998,7 +2998,7 @@
             {
                 "position": 3,
                 "mnemonic": "MP_OUTPUT_O_IDB_IF22_01_EB1_10",
-                "label_index": "58314",
+                "label_index": "@P58314@\\*10@\\*76",
                 "label_korean": "갈색 76-핀 커넥터 핀10의 출력의 일시적 차단",
                 "group_id": "8757",
                 "req_frame_id": "26272",
@@ -3023,7 +3023,7 @@
             {
                 "position": 4,
                 "mnemonic": "MP_OUTPUT_O_IDB_IF22_02_EB1_23",
-                "label_index": "58315",
+                "label_index": "@P58315@\\*23@\\*76",
                 "label_korean": "갈색 76-핀 커넥터 핀23의 일시적 차단",
                 "group_id": "8757",
                 "req_frame_id": "26272",
@@ -3048,7 +3048,7 @@
             {
                 "position": 5,
                 "mnemonic": "MP_OUTPUT_O_IDB_IF22_03_EB1_05",
-                "label_index": "58314",
+                "label_index": "@P58314@\\*5@\\*76",
                 "label_korean": "갈색 76-핀 커넥터 핀5의 출력의 일시적 차단",
                 "group_id": "8757",
                 "req_frame_id": "26272",
@@ -3073,7 +3073,7 @@
             {
                 "position": 6,
                 "mnemonic": "MP_OUTPUT_O_IDB_IF22_04_EB1_29",
-                "label_index": "58314",
+                "label_index": "@P58314@\\*29@\\*76",
                 "label_korean": "갈색 76-핀 커넥터 핀29의 출력의 일시적 차단",
                 "group_id": "8757",
                 "req_frame_id": "26272",
@@ -3098,7 +3098,7 @@
             {
                 "position": 7,
                 "mnemonic": "MP_OUTPUT_O_IDB_IF22_05_EB1_30",
-                "label_index": "58314",
+                "label_index": "@P58314@\\*30@\\*76",
                 "label_korean": "갈색 76-핀 커넥터 핀30의 출력의 일시적 차단",
                 "group_id": "8757",
                 "req_frame_id": "26272",
@@ -3123,7 +3123,7 @@
             {
                 "position": 8,
                 "mnemonic": "MP_OUTPUT_O_IDB_IF22_06_EB1_26",
-                "label_index": "58314",
+                "label_index": "@P58314@\\*26@\\*76",
                 "label_korean": "갈색 76-핀 커넥터 핀26의 출력의 일시적 차단",
                 "group_id": "8757",
                 "req_frame_id": "26272",
@@ -3148,7 +3148,7 @@
             {
                 "position": 9,
                 "mnemonic": "MP_OUTPUT_O_IDB_IF22_07_EB1_27",
-                "label_index": "58314",
+                "label_index": "@P58314@\\*27@\\*76",
                 "label_korean": "갈색 76-핀 커넥터 핀27의 출력의 일시적 차단",
                 "group_id": "8757",
                 "req_frame_id": "26272",
@@ -3173,7 +3173,7 @@
             {
                 "position": 10,
                 "mnemonic": "MP_OUTPUT_O_IDB_IF26_01_EM1_11",
-                "label_index": "58313",
+                "label_index": "@P58313@\\*11@\\*26",
                 "label_korean": "검은색 26-핀 커넥터 핀11의 출력의 일시적 차단",
                 "group_id": "8757",
                 "req_frame_id": "26272",
@@ -3198,7 +3198,7 @@
             {
                 "position": 11,
                 "mnemonic": "MP_OUTPUT_O_IDB_IF26_02_EB1_25",
-                "label_index": "58314",
+                "label_index": "@P58314@\\*25@\\*76",
                 "label_korean": "갈색 76-핀 커넥터 핀25의 출력의 일시적 차단",
                 "group_id": "8757",
                 "req_frame_id": "26272",
@@ -3223,7 +3223,7 @@
             {
                 "position": 12,
                 "mnemonic": "MP_OUTPUT_O_IDB_IF26_03_EB1_24",
-                "label_index": "58314",
+                "label_index": "@P58314@\\*24@\\*76",
                 "label_korean": "갈색 76-핀 커넥터 핀24의 출력의 일시적 차단",
                 "group_id": "8757",
                 "req_frame_id": "26272",
@@ -3248,7 +3248,7 @@
             {
                 "position": 13,
                 "mnemonic": "MP_OUTPUT_O_IDB_IF26_04_EB1_35",
-                "label_index": "58314",
+                "label_index": "@P58314@\\*35@\\*76",
                 "label_korean": "갈색 76-핀 커넥터 핀35의 출력의 일시적 차단",
                 "group_id": "8757",
                 "req_frame_id": "26272",
@@ -3273,7 +3273,7 @@
             {
                 "position": 14,
                 "mnemonic": "MP_OUTPUT_O_IDB_IF26_05_EB1_06",
-                "label_index": "58314",
+                "label_index": "@P58314@\\*6@\\*76",
                 "label_korean": "갈색 76-핀 커넥터 핀6의 출력의 일시적 차단",
                 "group_id": "8757",
                 "req_frame_id": "26272",
@@ -3298,7 +3298,7 @@
             {
                 "position": 15,
                 "mnemonic": "MP_OUTPUT_O_IDB_IF26_06_EB1_17",
-                "label_index": "58314",
+                "label_index": "@P58314@\\*17@\\*76",
                 "label_korean": "갈색 76-핀 커넥터 핀17의 출력의 일시적 차단",
                 "group_id": "8757",
                 "req_frame_id": "26272",
@@ -3323,7 +3323,7 @@
             {
                 "position": 16,
                 "mnemonic": "MP_OUTPUT_O_IDB_IF26_07_EM1_07",
-                "label_index": "58313",
+                "label_index": "@P58313@\\*7@\\*26",
                 "label_korean": "검은색 26-핀 커넥터 핀7의 출력의 일시적 차단",
                 "group_id": "8757",
                 "req_frame_id": "26272",
@@ -3348,7 +3348,7 @@
             {
                 "position": 17,
                 "mnemonic": "MP_OUTPUT_O_IDB_IF26_08_EM1_09",
-                "label_index": "58313",
+                "label_index": "@P58313@\\*9@\\*26",
                 "label_korean": "검은색 26-핀 커넥터 핀9의 출력의 일시적 차단",
                 "group_id": "8757",
                 "req_frame_id": "26272",
@@ -3373,7 +3373,7 @@
             {
                 "position": 18,
                 "mnemonic": "MP_OUTPUT_O_IDB_IF26_09_EM1_08",
-                "label_index": "58313",
+                "label_index": "@P58313@\\*8@\\*26",
                 "label_korean": "검은색 26-핀 커넥터 핀8의 출력의 일시적 차단",
                 "group_id": "8757",
                 "req_frame_id": "26272",
@@ -3398,7 +3398,7 @@
             {
                 "position": 19,
                 "mnemonic": "MP_OUTPUT_O_IDB_IF26_10_EB1_18",
-                "label_index": "58314",
+                "label_index": "@P58314@\\*18@\\*76",
                 "label_korean": "갈색 76-핀 커넥터 핀18의 출력의 일시적 차단",
                 "group_id": "8757",
                 "req_frame_id": "26272",
@@ -3423,7 +3423,7 @@
             {
                 "position": 20,
                 "mnemonic": "MP_OUTPUT_O_IDB_IF26_11_EB1_11",
-                "label_index": "58314",
+                "label_index": "@P58314@\\*11@\\*76",
                 "label_korean": "갈색 76-핀 커넥터 핀11의 출력의 일시적 차단",
                 "group_id": "8757",
                 "req_frame_id": "26272",
@@ -3448,7 +3448,7 @@
             {
                 "position": 21,
                 "mnemonic": "MP_OUTPUT_O_IDB_IF26_12_EM1_24",
-                "label_index": "58313",
+                "label_index": "@P58313@\\*24@\\*26",
                 "label_korean": "검은색 26-핀 커넥터 핀24의 출력의 일시적 차단",
                 "group_id": "8757",
                 "req_frame_id": "26272",
@@ -3473,7 +3473,7 @@
             {
                 "position": 22,
                 "mnemonic": "MP_OUTPUT_O_IDB_IF26_13_EB1_34",
-                "label_index": "58314",
+                "label_index": "@P58314@\\*34@\\*76",
                 "label_korean": "갈색 76-핀 커넥터 핀34의 출력의 일시적 차단",
                 "group_id": "8757",
                 "req_frame_id": "26272",
@@ -3498,7 +3498,7 @@
             {
                 "position": 23,
                 "mnemonic": "MP_OUTPUT_O_IDB_IF26_14_EM1_22",
-                "label_index": "58313",
+                "label_index": "@P58313@\\*22@\\*26",
                 "label_korean": "검은색 26-핀 커넥터 핀22의 출력의 일시적 차단",
                 "group_id": "8757",
                 "req_frame_id": "26272",
@@ -3520,7 +3520,7 @@
             {
                 "position": 24,
                 "mnemonic": "MP_OUTPUT_O_IDB_IF26_15_EB1_12",
-                "label_index": "58314",
+                "label_index": "@P58314@\\*12@\\*76",
                 "label_korean": "갈색 76-핀 커넥터 핀12의 출력의 일시적 차단",
                 "group_id": "8757",
                 "req_frame_id": "26272",
@@ -3545,7 +3545,7 @@
             {
                 "position": 25,
                 "mnemonic": "MP_OUTPUT_O_IDB_IF26_16_EB1_08",
-                "label_index": "58314",
+                "label_index": "@P58314@\\*8@\\*76",
                 "label_korean": "갈색 76-핀 커넥터 핀8의 출력의 일시적 차단",
                 "group_id": "8757",
                 "req_frame_id": "26272",
@@ -3570,7 +3570,7 @@
             {
                 "position": 26,
                 "mnemonic": "MP_OUTPUT_O_IDB_IF26_17_PR1_07",
-                "label_index": "58313",
+                "label_index": "@P58313@\\*7@\\*12",
                 "label_korean": "검은색 12-핀 커넥터 핀7의 출력의 일시적 차단",
                 "group_id": "8757",
                 "req_frame_id": "26272",
@@ -3595,7 +3595,7 @@
             {
                 "position": 27,
                 "mnemonic": "MP_OUTPUT_O_IDB_IF26_18_EM1_23",
-                "label_index": "58313",
+                "label_index": "@P58313@\\*23@\\*26",
                 "label_korean": "검은색 26-핀 커넥터 핀23의 출력의 일시적 차단",
                 "group_id": "8757",
                 "req_frame_id": "26272",
@@ -3620,7 +3620,7 @@
             {
                 "position": 28,
                 "mnemonic": "MP_OUTPUT_O_IDB_IF26_19_EM1_12",
-                "label_index": "58313",
+                "label_index": "@P58313@\\*12@\\*26",
                 "label_korean": "검은색 26-핀 커넥터 핀12의 출력의 일시적 차단",
                 "group_id": "8757",
                 "req_frame_id": "26272",
@@ -3645,7 +3645,7 @@
             {
                 "position": 29,
                 "mnemonic": "MP_OUTPUT_O_IDB_IF26_20_EM1_10",
-                "label_index": "58313",
+                "label_index": "@P58313@\\*10@\\*26",
                 "label_korean": "검은색 26-핀 커넥터 핀10의 출력의 일시적 차단",
                 "group_id": "8757",
                 "req_frame_id": "26272",
@@ -3670,7 +3670,7 @@
             {
                 "position": 30,
                 "mnemonic": "MP_OUTPUT_O_IDB_IF26_21_EB1_13",
-                "label_index": "58314",
+                "label_index": "@P58314@\\*13@\\*76",
                 "label_korean": "갈색 76-핀 커넥터 핀13의 출력의 일시적 차단",
                 "group_id": "8757",
                 "req_frame_id": "26272",
@@ -3695,7 +3695,7 @@
             {
                 "position": 31,
                 "mnemonic": "MP_OUTPUT_O_IDB_IF26_22_EB1_09",
-                "label_index": "58314",
+                "label_index": "@P58314@\\*9@\\*76",
                 "label_korean": "갈색 76-핀 커넥터 핀9의 출력의 일시적 차단",
                 "group_id": "8757",
                 "req_frame_id": "26272",
@@ -3720,7 +3720,7 @@
             {
                 "position": 32,
                 "mnemonic": "MP_OUTPUT_O_IDB_IF27_01_EB1_07",
-                "label_index": "58314",
+                "label_index": "@P58314@\\*7@\\*76",
                 "label_korean": "갈색 76-핀 커넥터 핀7의 출력의 일시적 차단",
                 "group_id": "8757",
                 "req_frame_id": "26272",
@@ -3745,7 +3745,7 @@
             {
                 "position": 33,
                 "mnemonic": "MP_OUTPUT_O_IDB_IF27_02_EB1_04",
-                "label_index": "58314",
+                "label_index": "@P58314@\\*4@\\*76",
                 "label_korean": "갈색 76-핀 커넥터 핀4의 출력의 일시적 차단",
                 "group_id": "8757",
                 "req_frame_id": "26272",
@@ -3770,7 +3770,7 @@
             {
                 "position": 34,
                 "mnemonic": "MP_OUTPUT_O_IDB_IF27_03_EM1_06",
-                "label_index": "58313",
+                "label_index": "@P58313@\\*6@\\*26",
                 "label_korean": "검은색 26-핀 커넥터 핀6의 출력의 일시적 차단",
                 "group_id": "8757",
                 "req_frame_id": "26272",
@@ -3795,7 +3795,7 @@
             {
                 "position": 35,
                 "mnemonic": "MP_OUTPUT_O_IDB_IF27_04_EB1_37",
-                "label_index": "58314",
+                "label_index": "@P58314@\\*37@\\*76",
                 "label_korean": "갈색 76-핀 커넥터 핀37의 출력의 일시적 차단",
                 "group_id": "8757",
                 "req_frame_id": "26272",
@@ -3820,7 +3820,7 @@
             {
                 "position": 36,
                 "mnemonic": "MP_OUTPUT_O_IDB_IF27_05_EM1_25",
-                "label_index": "58313",
+                "label_index": "@P58313@\\*25@\\*26",
                 "label_korean": "검은색 26-핀 커넥터 핀25의 출력의 일시적 차단",
                 "group_id": "8757",
                 "req_frame_id": "26272",
@@ -3845,7 +3845,7 @@
             {
                 "position": 37,
                 "mnemonic": "MP_OUTPUT_O_IDB_IF27_06_EB1_28",
-                "label_index": "58314",
+                "label_index": "@P58314@\\*28@\\*76",
                 "label_korean": "갈색 76-핀 커넥터 핀28의 출력의 일시적 차단",
                 "group_id": "8757",
                 "req_frame_id": "26272",
@@ -3870,8 +3870,8 @@
             {
                 "position": 38,
                 "mnemonic": "MP_OUTPUT_O_IDB_REL1_F12_PR1_12",
-                "label_index": "58313",
-                "label_korean": "검은색 12-핀 커넥터 핀12의 출력의 일시적 차단 (relay 12)",
+                "label_index": "@P58313@\\*12@\\*12@\\+@P56909@\\*R1",
+                "label_korean": "검은색 12-핀 커넥터 핀12의 출력의 일시적 차단(relay 12)",
                 "group_id": "8757",
                 "req_frame_id": "26272",
                 "resp_frame_id": "26273",
@@ -3895,8 +3895,8 @@
             {
                 "position": 39,
                 "mnemonic": "MP_OUTPUT_O_IDB_REL2_F16_PB1_15",
-                "label_index": "58316",
-                "label_korean": "파란색 28-핀 커넥터 핀15의 출력의 일시적 차단 (relay 15)",
+                "label_index": "@P58316@\\*15@\\*28@\\+@P56909@\\*R2",
+                "label_korean": "파란색 28-핀 커넥터 핀15의 출력의 일시적 차단(relay 15)",
                 "group_id": "8757",
                 "req_frame_id": "26272",
                 "resp_frame_id": "26273",
@@ -3920,7 +3920,7 @@
             {
                 "position": 40,
                 "mnemonic": "MP_OUTPUT_NON_DEFINITIVE_INHIBITION_VCC3_FAILURE",
-                "label_index": "58320",
+                "label_index": "@P58320@\\*51, 52, 53, 54, 55@\\*76@\\* 1, 8@\\*12",
                 "label_korean": "갈색 76-핀 커넥터의 핀51 및 검은색 12-핀 커넥터의 핀1의 입력의 일시적 차단, 52, 53, 54, 55, 8",
                 "group_id": "8757",
                 "req_frame_id": "26272",
@@ -3953,8 +3953,8 @@
             {
                 "position": 1,
                 "mnemonic": "MP_SBC_OVT_CAN",
-                "label_index": "56881",
-                "label_korean": "실내\n- 분배 장치4의 온도가 너무 높음(IDB) : 공간4.3",
+                "label_index": "@P56881@\\*(IDB)@\\+@T :@\\+@P5165@\\*4.3",
+                "label_korean": "실내 분배 장치4의 온도가 너무 높음(IDB) :공간4.3",
                 "group_id": "8757",
                 "req_frame_id": "26272",
                 "resp_frame_id": "26273",
@@ -3978,8 +3978,8 @@
             {
                 "position": 2,
                 "mnemonic": "MP_SBC_OVT_VCC1",
-                "label_index": "56882",
-                "label_korean": "실내\n- 분배 장치4의 전압이 너무 높음(IDB) : 공간4.2",
+                "label_index": "@P56882@\\*(IDB)@\\+@T:@\\+@P5165@\\*4.2",
+                "label_korean": "실내 분배 장치4의 전압이 너무 높음(IDB):공간4.2",
                 "group_id": "8757",
                 "req_frame_id": "26272",
                 "resp_frame_id": "26273",
@@ -4003,8 +4003,8 @@
             {
                 "position": 3,
                 "mnemonic": "MP_SBC_OVT_HSS",
-                "label_index": "56881",
-                "label_korean": "실내\n- 분배 장치4의 온도가 너무 높음(IDB) : 공간4.1",
+                "label_index": "@P56881@\\*(IDB)@\\+@T:@\\+@P5165@\\*4.1",
+                "label_korean": "실내 분배 장치4의 온도가 너무 높음(IDB):공간4.1",
                 "group_id": "8757",
                 "req_frame_id": "26272",
                 "resp_frame_id": "26273",
@@ -4028,8 +4028,8 @@
             {
                 "position": 4,
                 "mnemonic": "MP_SBC_OVT_VCC2",
-                "label_index": "56881",
-                "label_korean": "실내\n- 분배 장치4의 온도가 너무 높음(IDB) : 공간4.0",
+                "label_index": "@P56881@\\*(IDB)@\\+@T:@\\+@P5165@\\*4.0",
+                "label_korean": "실내 분배 장치4의 온도가 너무 높음(IDB):공간4.0",
                 "group_id": "8757",
                 "req_frame_id": "26272",
                 "resp_frame_id": "26273",
@@ -4053,8 +4053,8 @@
             {
                 "position": 5,
                 "mnemonic": "MP_TLE75XX_SPI_FAILURE",
-                "label_index": "58307",
-                "label_korean": "내장\n- 배선 박스 (IDB)5의 내부 전자 카드(IDB) : 공간5.1",
+                "label_index": "@P58307@\\*(IDB)@\\+@T:@\\+@P5165@\\*5.1",
+                "label_korean": "내장 배선 박스 (IDB)5의 내부 전자 카드(IDB):공간5.1",
                 "group_id": "8757",
                 "req_frame_id": "26272",
                 "resp_frame_id": "26273",
@@ -4078,8 +4078,8 @@
             {
                 "position": 6,
                 "mnemonic": "MP_TLE75XX_VDD_UNDERVOLTAGE",
-                "label_index": "58308",
-                "label_korean": "내장\n- 배선 박스 (IDB)5의 전압이 너무 낮음(IDB) : 공간5.0",
+                "label_index": "@P58308@\\*(IDB)@\\+@T:@\\+@P5165@\\*5.0",
+                "label_korean": "내장 배선 박스 (IDB)5의 전압이 너무 낮음(IDB):공간5.0",
                 "group_id": "8757",
                 "req_frame_id": "26272",
                 "resp_frame_id": "26273",
@@ -4103,8 +4103,8 @@
             {
                 "position": 7,
                 "mnemonic": "MP_IDB_RESET_4",
-                "label_index": "58309",
-                "label_korean": "내장\n- 배선 박스 (IDB)6를 예기치 않게 재설정함(IDB) : 공간6.3",
+                "label_index": "@P58309@\\*(IDB)@\\+@T:@\\+@P5165@\\*6.3",
+                "label_korean": "내장 배선 박스 (IDB)6를 예기치 않게 재설정함(IDB):공간6.3",
                 "group_id": "8757",
                 "req_frame_id": "26272",
                 "resp_frame_id": "26273",
@@ -4128,8 +4128,8 @@
             {
                 "position": 8,
                 "mnemonic": "MP_IDB_RESET_3",
-                "label_index": "58309",
-                "label_korean": "내장\n- 배선 박스 (IDB)6를 예기치 않게 재설정함(IDB) : 공간6.2",
+                "label_index": "@P58309@\\*(IDB)@\\+@T:@\\+@P5165@\\*6.2",
+                "label_korean": "내장 배선 박스 (IDB)6를 예기치 않게 재설정함(IDB):공간6.2",
                 "group_id": "8757",
                 "req_frame_id": "26272",
                 "resp_frame_id": "26273",
@@ -4153,8 +4153,8 @@
             {
                 "position": 9,
                 "mnemonic": "MP_IDB_RESET_2",
-                "label_index": "58309",
-                "label_korean": "내장\n- 배선 박스 (IDB)6를 예기치 않게 재설정함(IDB) : 공간6.1",
+                "label_index": "@P58309@\\*(IDB)@\\+@T:@\\+@P5165@\\*6.1",
+                "label_korean": "내장 배선 박스 (IDB)6를 예기치 않게 재설정함(IDB):공간6.1",
                 "group_id": "8757",
                 "req_frame_id": "26272",
                 "resp_frame_id": "26273",
@@ -4178,8 +4178,8 @@
             {
                 "position": 10,
                 "mnemonic": "MP_IDB_RESET_1",
-                "label_index": "58309",
-                "label_korean": "내장\n- 배선 박스 (IDB)6를 예기치 않게 재설정함(IDB) : 공간6.0",
+                "label_index": "@P58309@\\*(IDB)@\\+@T:@\\+@P5165@\\*6.0",
+                "label_korean": "내장 배선 박스 (IDB)6를 예기치 않게 재설정함(IDB):공간6.0",
                 "group_id": "8757",
                 "req_frame_id": "26272",
                 "resp_frame_id": "26273",
@@ -4203,8 +4203,8 @@
             {
                 "position": 11,
                 "mnemonic": "MP_CODE_FLASH_ECC_ERROR",
-                "label_index": "58310",
-                "label_korean": "내장\n- 배선 박스 (IDB)7의 내부 메모리(IDB) : 공간7.2",
+                "label_index": "@P58310@\\*(IDB)@\\+@T:@\\+@P5165@\\*7.2",
+                "label_korean": "내장 배선 박스 (IDB)7의 내부 메모리(IDB):공간7.2",
                 "group_id": "8757",
                 "req_frame_id": "26272",
                 "resp_frame_id": "26273",
@@ -4228,8 +4228,8 @@
             {
                 "position": 12,
                 "mnemonic": "MP_RAM_ECC_ERROR",
-                "label_index": "58310",
-                "label_korean": "내장\n- 배선 박스 (IDB)7의 내부 메모리(IDB) : 공간7.1",
+                "label_index": "@P58310@\\*(IDB)@\\+@T:@\\+@P5165@\\*7.1",
+                "label_korean": "내장 배선 박스 (IDB)7의 내부 메모리(IDB):공간7.1",
                 "group_id": "8757",
                 "req_frame_id": "26272",
                 "resp_frame_id": "26273",
@@ -4253,8 +4253,8 @@
             {
                 "position": 13,
                 "mnemonic": "MP_PERIPHERAL_RAM_ECC_ERROR",
-                "label_index": "58310",
-                "label_korean": "내장\n- 배선 박스 (IDB)7의 내부 메모리(IDB) : 공간7.0",
+                "label_index": "@P58310@\\*(IDB)@\\+@T:@\\+@P5165@\\*7.0",
+                "label_korean": "내장 배선 박스 (IDB)7의 내부 메모리(IDB):공간7.0",
                 "group_id": "8757",
                 "req_frame_id": "26272",
                 "resp_frame_id": "26273",
@@ -4278,8 +4278,8 @@
             {
                 "position": 14,
                 "mnemonic": "MP_VAK_WU_FAILURE",
-                "label_index": "58307",
-                "label_korean": "내장\n- 배선 박스 (IDB)8의 내부 전자 카드(IDB) : 공간8.3",
+                "label_index": "@P58307@\\*(IDB)@\\+@T:@\\+@P5165@\\*8.3",
+                "label_korean": "내장 배선 박스 (IDB)8의 내부 전자 카드(IDB):공간8.3",
                 "group_id": "8757",
                 "req_frame_id": "26272",
                 "resp_frame_id": "26273",
@@ -4303,8 +4303,8 @@
             {
                 "position": 15,
                 "mnemonic": "MP_VAK2_FAILURE",
-                "label_index": "58307",
-                "label_korean": "내장\n- 배선 박스 (IDB)8의 내부 전자 카드(IDB) : 공간8.2",
+                "label_index": "@P58307@\\*(IDB)@\\+@T:@\\+@P5165@\\*8.2",
+                "label_korean": "내장 배선 박스 (IDB)8의 내부 전자 카드(IDB):공간8.2",
                 "group_id": "8757",
                 "req_frame_id": "26272",
                 "resp_frame_id": "26273",
@@ -4328,8 +4328,8 @@
             {
                 "position": 16,
                 "mnemonic": "MP_VAK1_FAILURE",
-                "label_index": "58307",
-                "label_korean": "내장\n- 배선 박스 (IDB)8의 내부 전자 카드(IDB) : 공간8.1",
+                "label_index": "@P58307@\\*(IDB)@\\+@T:@\\+@P5165@\\*8.1",
+                "label_korean": "내장 배선 박스 (IDB)8의 내부 전자 카드(IDB):공간8.1",
                 "group_id": "8757",
                 "req_frame_id": "26272",
                 "resp_frame_id": "26273",
@@ -4353,8 +4353,8 @@
             {
                 "position": 17,
                 "mnemonic": "MP_VAK_FAILURE",
-                "label_index": "58307",
-                "label_korean": "내장\n- 배선 박스 (IDB)8의 내부 전자 카드(IDB) : 공간8.0",
+                "label_index": "@P58307@\\*(IDB)@\\+@T:@\\+@P5165@\\*8.0",
+                "label_korean": "내장 배선 박스 (IDB)8의 내부 전자 카드(IDB):공간8.0",
                 "group_id": "8757",
                 "req_frame_id": "26272",
                 "resp_frame_id": "26273",
@@ -4378,8 +4378,8 @@
             {
                 "position": 18,
                 "mnemonic": "MP_5VREG",
-                "label_index": "58307",
-                "label_korean": "내장\n- 배선 박스 (IDB)9의 내부 전자 카드(IDB) : 공간9.1",
+                "label_index": "@P58307@\\*(IDB)@\\+@T:@\\+@P5165@\\*9.1",
+                "label_korean": "내장 배선 박스 (IDB)9의 내부 전자 카드(IDB):공간9.1",
                 "group_id": "8757",
                 "req_frame_id": "26272",
                 "resp_frame_id": "26273",
@@ -4403,8 +4403,8 @@
             {
                 "position": 19,
                 "mnemonic": "MP_AVCC_FAILURE",
-                "label_index": "58307",
-                "label_korean": "내장\n- 배선 박스 (IDB)9의 내부 전자 카드(IDB) : 공간9.0",
+                "label_index": "@P58307@\\*(IDB)@\\+@T:@\\+@P5165@\\*9.0",
+                "label_korean": "내장 배선 박스 (IDB)9의 내부 전자 카드(IDB):공간9.0",
                 "group_id": "8757",
                 "req_frame_id": "26272",
                 "resp_frame_id": "26273",
@@ -4428,8 +4428,8 @@
             {
                 "position": 20,
                 "mnemonic": "MP_UNDERVOLTAGE_OVERVOLTAGE_DTC",
-                "label_index": "58311",
-                "label_korean": "내장 배선\n- 박스 (IDB)10의 전압이 너무 낮거나 너무 높음(IDB) : 공간10.0",
+                "label_index": "@P58311@\\*(IDB)@\\+@T:@\\+@P5165@\\*10.0",
+                "label_korean": "내장 배선 박스 (IDB)10의 전압이 너무 낮거나 너무 높음(IDB):공간10.0",
                 "group_id": "8757",
                 "req_frame_id": "26272",
                 "resp_frame_id": "26273",
@@ -4453,7 +4453,7 @@
             {
                 "position": 21,
                 "mnemonic": "MP_OUTPUT_IF111_PR1_09_OR_EB1_01",
-                "label_index": "58312",
+                "label_index": "@P58312@\\*9@\\*12@\\*1@\\*76",
                 "label_korean": "검은색 12-핀 커넥터의 핀 9 또는 갈색 76-핀 커넥터의 핀 1의 출력의 영구적 차단(영구적 차단)",
                 "group_id": "8757",
                 "req_frame_id": "26272",
@@ -4478,7 +4478,7 @@
             {
                 "position": 22,
                 "mnemonic": "MP_OUTPUT_O_IDB_IF26_01_EM1_11",
-                "label_index": "58313",
+                "label_index": "@P58313@\\*11@\\*26",
                 "label_korean": "검은색 26-핀 커넥터 핀11의 출력의 일시적 차단",
                 "group_id": "8757",
                 "req_frame_id": "26272",
@@ -4503,7 +4503,7 @@
             {
                 "position": 23,
                 "mnemonic": "MP_OUTPUT_O_IDB_IF22_07_EB1_27",
-                "label_index": "58314",
+                "label_index": "@P58314@\\*27@\\*76",
                 "label_korean": "갈색 76-핀 커넥터 핀27의 출력의 일시적 차단",
                 "group_id": "8757",
                 "req_frame_id": "26272",
@@ -4528,7 +4528,7 @@
             {
                 "position": 24,
                 "mnemonic": "MP_OUTPUT_O_IDB_IF22_06_EB1_26",
-                "label_index": "58314",
+                "label_index": "@P58314@\\*26@\\*76",
                 "label_korean": "갈색 76-핀 커넥터 핀26의 출력의 일시적 차단",
                 "group_id": "8757",
                 "req_frame_id": "26272",
@@ -4553,7 +4553,7 @@
             {
                 "position": 25,
                 "mnemonic": "MP_OUTPUT_O_IDB_IF22_05_EB1_30",
-                "label_index": "58314",
+                "label_index": "@P58314@\\*30@\\*76",
                 "label_korean": "갈색 76-핀 커넥터 핀30의 출력의 일시적 차단",
                 "group_id": "8757",
                 "req_frame_id": "26272",
@@ -4578,7 +4578,7 @@
             {
                 "position": 26,
                 "mnemonic": "MP_OUTPUT_O_IDB_IF22_04_EB1_29",
-                "label_index": "58314",
+                "label_index": "@P58314@\\*29@\\*76",
                 "label_korean": "갈색 76-핀 커넥터 핀29의 출력의 일시적 차단",
                 "group_id": "8757",
                 "req_frame_id": "26272",
@@ -4603,7 +4603,7 @@
             {
                 "position": 27,
                 "mnemonic": "MP_OUTPUT_O_IDB_IF22_03_EB1_05",
-                "label_index": "58314",
+                "label_index": "@P58314@\\*5@\\*76",
                 "label_korean": "갈색 76-핀 커넥터 핀5의 출력의 일시적 차단",
                 "group_id": "8757",
                 "req_frame_id": "26272",
@@ -4628,7 +4628,7 @@
             {
                 "position": 28,
                 "mnemonic": "MP_OUTPUT_O_IDB_IF22_02_EB1_23",
-                "label_index": "58315",
+                "label_index": "@P58315@\\*23@\\*76",
                 "label_korean": "갈색 76-핀 커넥터 핀23의 일시적 차단",
                 "group_id": "8757",
                 "req_frame_id": "26272",
@@ -4653,7 +4653,7 @@
             {
                 "position": 29,
                 "mnemonic": "MP_OUTPUT_O_IDB_IF22_01_EB1_10",
-                "label_index": "58314",
+                "label_index": "@P58314@\\*10@\\*76",
                 "label_korean": "갈색 76-핀 커넥터 핀10의 출력의 일시적 차단",
                 "group_id": "8757",
                 "req_frame_id": "26272",
@@ -4678,7 +4678,7 @@
             {
                 "position": 30,
                 "mnemonic": "MP_OUTPUT_O_IDB_IF26_09_EM1_08",
-                "label_index": "58313",
+                "label_index": "@P58313@\\*8@\\*26",
                 "label_korean": "검은색 26-핀 커넥터 핀8의 출력의 일시적 차단",
                 "group_id": "8757",
                 "req_frame_id": "26272",
@@ -4703,7 +4703,7 @@
             {
                 "position": 31,
                 "mnemonic": "MP_OUTPUT_O_IDB_IF26_08_EM1_09",
-                "label_index": "58313",
+                "label_index": "@P58313@\\*9@\\*26",
                 "label_korean": "검은색 26-핀 커넥터 핀9의 출력의 일시적 차단",
                 "group_id": "8757",
                 "req_frame_id": "26272",
@@ -4728,7 +4728,7 @@
             {
                 "position": 32,
                 "mnemonic": "MP_OUTPUT_O_IDB_IF26_07_EM1_07",
-                "label_index": "58313",
+                "label_index": "@P58313@\\*7@\\*26",
                 "label_korean": "검은색 26-핀 커넥터 핀7의 출력의 일시적 차단",
                 "group_id": "8757",
                 "req_frame_id": "26272",
@@ -4753,7 +4753,7 @@
             {
                 "position": 33,
                 "mnemonic": "MP_OUTPUT_O_IDB_IF26_06_EB1_17",
-                "label_index": "58314",
+                "label_index": "@P58314@\\*17@\\*76",
                 "label_korean": "갈색 76-핀 커넥터 핀17의 출력의 일시적 차단",
                 "group_id": "8757",
                 "req_frame_id": "26272",
@@ -4778,7 +4778,7 @@
             {
                 "position": 34,
                 "mnemonic": "MP_OUTPUT_O_IDB_IF26_05_EB1_06",
-                "label_index": "58314",
+                "label_index": "@P58314@\\*6@\\*76",
                 "label_korean": "갈색 76-핀 커넥터 핀6의 출력의 일시적 차단",
                 "group_id": "8757",
                 "req_frame_id": "26272",
@@ -4803,7 +4803,7 @@
             {
                 "position": 35,
                 "mnemonic": "MP_OUTPUT_O_IDB_IF26_04_EB1_35",
-                "label_index": "58314",
+                "label_index": "@P58314@\\*35@\\*76",
                 "label_korean": "갈색 76-핀 커넥터 핀35의 출력의 일시적 차단",
                 "group_id": "8757",
                 "req_frame_id": "26272",
@@ -4828,7 +4828,7 @@
             {
                 "position": 36,
                 "mnemonic": "MP_OUTPUT_O_IDB_IF26_03_EB1_24",
-                "label_index": "58314",
+                "label_index": "@P58314@\\*24@\\*76",
                 "label_korean": "갈색 76-핀 커넥터 핀24의 출력의 일시적 차단",
                 "group_id": "8757",
                 "req_frame_id": "26272",
@@ -4853,7 +4853,7 @@
             {
                 "position": 37,
                 "mnemonic": "MP_OUTPUT_O_IDB_IF26_02_EB1_25",
-                "label_index": "58314",
+                "label_index": "@P58314@\\*25@\\*76",
                 "label_korean": "갈색 76-핀 커넥터 핀25의 출력의 일시적 차단",
                 "group_id": "8757",
                 "req_frame_id": "26272",
@@ -4878,7 +4878,7 @@
             {
                 "position": 38,
                 "mnemonic": "MP_OUTPUT_O_IDB_IF26_17_PR1_07",
-                "label_index": "58313",
+                "label_index": "@P58313@\\*7@\\*12",
                 "label_korean": "검은색 12-핀 커넥터 핀7의 출력의 일시적 차단",
                 "group_id": "8757",
                 "req_frame_id": "26272",
@@ -4903,7 +4903,7 @@
             {
                 "position": 39,
                 "mnemonic": "MP_OUTPUT_O_IDB_IF26_16_EB1_08",
-                "label_index": "58314",
+                "label_index": "@P58314@\\*8@\\*76",
                 "label_korean": "갈색 76-핀 커넥터 핀8의 출력의 일시적 차단",
                 "group_id": "8757",
                 "req_frame_id": "26272",
@@ -4928,7 +4928,7 @@
             {
                 "position": 40,
                 "mnemonic": "MP_OUTPUT_O_IDB_IF26_15_EB1_12",
-                "label_index": "58314",
+                "label_index": "@P58314@\\*12@\\*76",
                 "label_korean": "갈색 76-핀 커넥터 핀12의 출력의 일시적 차단",
                 "group_id": "8757",
                 "req_frame_id": "26272",
@@ -4953,7 +4953,7 @@
             {
                 "position": 41,
                 "mnemonic": "MP_OUTPUT_O_IDB_IF26_14_EM1_22",
-                "label_index": "58313",
+                "label_index": "@P58313@\\*22@\\*26",
                 "label_korean": "검은색 26-핀 커넥터 핀22의 출력의 일시적 차단",
                 "group_id": "8757",
                 "req_frame_id": "26272",
@@ -4975,7 +4975,7 @@
             {
                 "position": 42,
                 "mnemonic": "MP_OUTPUT_O_IDB_IF26_13_EB1_34",
-                "label_index": "58314",
+                "label_index": "@P58314@\\*34@\\*76",
                 "label_korean": "갈색 76-핀 커넥터 핀34의 출력의 일시적 차단",
                 "group_id": "8757",
                 "req_frame_id": "26272",
@@ -5000,7 +5000,7 @@
             {
                 "position": 43,
                 "mnemonic": "MP_OUTPUT_O_IDB_IF26_12_EM1_24",
-                "label_index": "58313",
+                "label_index": "@P58313@\\*24@\\*26",
                 "label_korean": "검은색 26-핀 커넥터 핀24의 출력의 일시적 차단",
                 "group_id": "8757",
                 "req_frame_id": "26272",
@@ -5025,7 +5025,7 @@
             {
                 "position": 44,
                 "mnemonic": "MP_OUTPUT_O_IDB_IF26_11_EB1_11",
-                "label_index": "58314",
+                "label_index": "@P58314@\\*11@\\*76",
                 "label_korean": "갈색 76-핀 커넥터 핀11의 출력의 일시적 차단",
                 "group_id": "8757",
                 "req_frame_id": "26272",
@@ -5050,7 +5050,7 @@
             {
                 "position": 45,
                 "mnemonic": "MP_OUTPUT_O_IDB_IF26_10_EB1_18",
-                "label_index": "58314",
+                "label_index": "@P58314@\\*18@\\*76",
                 "label_korean": "갈색 76-핀 커넥터 핀18의 출력의 일시적 차단",
                 "group_id": "8757",
                 "req_frame_id": "26272",
@@ -5075,7 +5075,7 @@
             {
                 "position": 46,
                 "mnemonic": "MP_OUTPUT_O_IDB_IF27_03_EM1_06",
-                "label_index": "58313",
+                "label_index": "@P58313@\\*6@\\*26",
                 "label_korean": "검은색 26-핀 커넥터 핀6의 출력의 일시적 차단",
                 "group_id": "8757",
                 "req_frame_id": "26272",
@@ -5100,7 +5100,7 @@
             {
                 "position": 47,
                 "mnemonic": "MP_OUTPUT_O_IDB_IF27_02_EB1_04",
-                "label_index": "58314",
+                "label_index": "@P58314@\\*4@\\*76",
                 "label_korean": "갈색 76-핀 커넥터 핀4의 출력의 일시적 차단",
                 "group_id": "8757",
                 "req_frame_id": "26272",
@@ -5125,7 +5125,7 @@
             {
                 "position": 48,
                 "mnemonic": "MP_OUTPUT_O_IDB_IF27_01_EB1_07",
-                "label_index": "58314",
+                "label_index": "@P58314@\\*7@\\*76",
                 "label_korean": "갈색 76-핀 커넥터 핀7의 출력의 일시적 차단",
                 "group_id": "8757",
                 "req_frame_id": "26272",
@@ -5150,7 +5150,7 @@
             {
                 "position": 49,
                 "mnemonic": "MP_OUTPUT_O_IDB_IF26_22_EB1_09",
-                "label_index": "58314",
+                "label_index": "@P58314@\\*9@\\*76",
                 "label_korean": "갈색 76-핀 커넥터 핀9의 출력의 일시적 차단",
                 "group_id": "8757",
                 "req_frame_id": "26272",
@@ -5175,7 +5175,7 @@
             {
                 "position": 50,
                 "mnemonic": "MP_OUTPUT_O_IDB_IF26_21_EB1_13",
-                "label_index": "58314",
+                "label_index": "@P58314@\\*13@\\*76",
                 "label_korean": "갈색 76-핀 커넥터 핀13의 출력의 일시적 차단",
                 "group_id": "8757",
                 "req_frame_id": "26272",
@@ -5200,7 +5200,7 @@
             {
                 "position": 51,
                 "mnemonic": "MP_OUTPUT_O_IDB_IF26_20_EM1_10",
-                "label_index": "58313",
+                "label_index": "@P58313@\\*10@\\*26",
                 "label_korean": "검은색 26-핀 커넥터 핀10의 출력의 일시적 차단",
                 "group_id": "8757",
                 "req_frame_id": "26272",
@@ -5225,7 +5225,7 @@
             {
                 "position": 52,
                 "mnemonic": "MP_OUTPUT_O_IDB_IF26_19_EM1_12",
-                "label_index": "58313",
+                "label_index": "@P58313@\\*12@\\*26",
                 "label_korean": "검은색 26-핀 커넥터 핀12의 출력의 일시적 차단",
                 "group_id": "8757",
                 "req_frame_id": "26272",
@@ -5250,7 +5250,7 @@
             {
                 "position": 53,
                 "mnemonic": "MP_OUTPUT_O_IDB_IF26_18_EM1_23",
-                "label_index": "58313",
+                "label_index": "@P58313@\\*23@\\*26",
                 "label_korean": "검은색 26-핀 커넥터 핀23의 출력의 일시적 차단",
                 "group_id": "8757",
                 "req_frame_id": "26272",
@@ -5275,7 +5275,7 @@
             {
                 "position": 54,
                 "mnemonic": "MP_OUTPUT_NON_DEFINITIVE_INHIBITION_VCC3_FAILURE",
-                "label_index": "58320",
+                "label_index": "@P58320@\\*51, 52, 53, 54, 55@\\*76@\\* 1, 8@\\*12",
                 "label_korean": "갈색 76-핀 커넥터의 핀51 및 검은색 12-핀 커넥터의 핀1의 입력의 일시적 차단, 52, 53, 54, 55, 8",
                 "group_id": "8757",
                 "req_frame_id": "26272",
@@ -5300,8 +5300,8 @@
             {
                 "position": 55,
                 "mnemonic": "MP_OUTPUT_O_IDB_REL2_F16_PB1_15",
-                "label_index": "58316",
-                "label_korean": "파란색 28-핀 커넥터 핀15의 출력의 일시적 차단 (relay 15)",
+                "label_index": "@P58316@\\*15@\\*28@\\+@P56909@\\*R2",
+                "label_korean": "파란색 28-핀 커넥터 핀15의 출력의 일시적 차단(relay 15)",
                 "group_id": "8757",
                 "req_frame_id": "26272",
                 "resp_frame_id": "26273",
@@ -5325,8 +5325,8 @@
             {
                 "position": 56,
                 "mnemonic": "MP_OUTPUT_O_IDB_REL1_F12_PR1_12",
-                "label_index": "58313",
-                "label_korean": "검은색 12-핀 커넥터 핀12의 출력의 일시적 차단 (relay 12)",
+                "label_index": "@P58313@\\*12@\\*12@\\+@P56909@\\*R1",
+                "label_korean": "검은색 12-핀 커넥터 핀12의 출력의 일시적 차단(relay 12)",
                 "group_id": "8757",
                 "req_frame_id": "26272",
                 "resp_frame_id": "26273",
@@ -5350,7 +5350,7 @@
             {
                 "position": 57,
                 "mnemonic": "MP_OUTPUT_O_IDB_IF111_PR1_09_OR_EB1_01",
-                "label_index": "58317",
+                "label_index": "@P58317@\\*9@\\*12@\\*1@\\*76",
                 "label_korean": "검은색 12-핀 커넥터의 핀9 또는 갈색 76-핀 커넥터의 핀1의 출력의 일시적 차단(일시적 차단)",
                 "group_id": "8757",
                 "req_frame_id": "26272",
@@ -5375,7 +5375,7 @@
             {
                 "position": 58,
                 "mnemonic": "MP_OUTPUT_O_IDB_IF27_06_EB1_28",
-                "label_index": "58314",
+                "label_index": "@P58314@\\*28@\\*76",
                 "label_korean": "갈색 76-핀 커넥터 핀28의 출력의 일시적 차단",
                 "group_id": "8757",
                 "req_frame_id": "26272",
@@ -5400,7 +5400,7 @@
             {
                 "position": 59,
                 "mnemonic": "MP_OUTPUT_O_IDB_IF27_05_EM1_25",
-                "label_index": "58313",
+                "label_index": "@P58313@\\*25@\\*26",
                 "label_korean": "검은색 26-핀 커넥터 핀25의 출력의 일시적 차단",
                 "group_id": "8757",
                 "req_frame_id": "26272",
@@ -5425,7 +5425,7 @@
             {
                 "position": 60,
                 "mnemonic": "MP_OUTPUT_O_IDB_IF27_04_EB1_37",
-                "label_index": "58314",
+                "label_index": "@P58314@\\*37@\\*76",
                 "label_korean": "갈색 76-핀 커넥터 핀37의 출력의 일시적 차단",
                 "group_id": "8757",
                 "req_frame_id": "26272",
@@ -5450,7 +5450,7 @@
             {
                 "position": 61,
                 "mnemonic": "MP_CAN_MUTE",
-                "label_index": "58318",
+                "label_index": "@P58318@\\*(IDB)",
                 "label_korean": "내장 배선 박스 (IDB)이 CAN에서 통신하지 않음(IDB)",
                 "group_id": "8757",
                 "req_frame_id": "26272",
@@ -5475,7 +5475,7 @@
             {
                 "position": 62,
                 "mnemonic": "MP_CAN_ABSENT",
-                "label_index": "58319",
+                "label_index": "@P58319@\\*(VSM1)",
                 "label_korean": "CAN에서 BSI와 통신(VSM1)",
                 "group_id": "8757",
                 "req_frame_id": "26272",
@@ -5500,7 +5500,7 @@
             {
                 "position": 63,
                 "mnemonic": "MP_CAN_BUSSOFF",
-                "label_index": "8207",
+                "label_index": "@P8207",
                 "label_korean": "CAN에서 통신",
                 "group_id": "8757",
                 "req_frame_id": "26272",

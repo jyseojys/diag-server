@@ -8,7 +8,7 @@
             {
                 "position": 1,
                 "mnemonic": "ID_REFERENCE_ISO",
-                "label_index": "13988",
+                "label_index": "@P13988",
                 "label_korean": "ISO 번호",
                 "group_id": "52696",
                 "req_frame_id": "158381",
@@ -30,7 +30,7 @@
             {
                 "position": 2,
                 "mnemonic": "ID_REFERENCE_CALCULATEUR",
-                "label_index": "9463",
+                "label_index": "@P9463",
                 "label_korean": "ECU 참조",
                 "group_id": "52696",
                 "req_frame_id": "158381",
@@ -52,7 +52,7 @@
             {
                 "position": 3,
                 "mnemonic": "ID_VERSION_CALCULATEUR",
-                "label_index": "4106",
+                "label_index": "@P4106",
                 "label_korean": "ECU 버전",
                 "group_id": "52696",
                 "req_frame_id": "158381",
@@ -74,7 +74,7 @@
             {
                 "position": 4,
                 "mnemonic": "ID_REFERENCE_LOGICIEL",
-                "label_index": "4799",
+                "label_index": "@P4799@\\*",
                 "label_korean": "소프트웨어 번호",
                 "group_id": "52696",
                 "req_frame_id": "158381",
@@ -96,7 +96,7 @@
             {
                 "position": 5,
                 "mnemonic": "ID_VERSION_LOGICIEL",
-                "label_index": "8662",
+                "label_index": "@P8662",
                 "label_korean": "소프트웨어 버전",
                 "group_id": "52696",
                 "req_frame_id": "158381",
@@ -118,7 +118,7 @@
             {
                 "position": 6,
                 "mnemonic": "ID_TRACABILITE_NUMERO_DE_SERIE_PIECE",
-                "label_index": "7592",
+                "label_index": "@P7592",
                 "label_korean": "부품 일련 번호",
                 "group_id": "52696",
                 "req_frame_id": "158381",
@@ -148,7 +148,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_TOUCHE_RECHERCHE_MONTANTE",
-                "label_index": "26638",
+                "label_index": "@P26638",
                 "label_korean": "위로 검색 버튼",
                 "group_id": "52697",
                 "req_frame_id": "158384",
@@ -167,13 +167,13 @@
                 "bit_mask": 1,
                 "bit_shift": 0,
                 "dynamic_arg": "",
-                "help_code": "",
+                "help_code": "@T",
                 "help_korean": ""
             },
             {
                 "position": 2,
                 "mnemonic": "MP_TOUCHE_RECHERCHE_DESECENDANTE",
-                "label_index": "24530",
+                "label_index": "@P24530",
                 "label_korean": "아래로 검색 버튼",
                 "group_id": "52697",
                 "req_frame_id": "158384",
@@ -189,13 +189,13 @@
                 "bit_mask": 4,
                 "bit_shift": 2,
                 "dynamic_arg": "",
-                "help_code": "",
+                "help_code": "@T",
                 "help_korean": ""
             },
             {
                 "position": 3,
                 "mnemonic": "MP_B_TEL",
-                "label_index": "10379",
+                "label_index": "@P10379",
                 "label_korean": "전화 버튼",
                 "group_id": "52697",
                 "req_frame_id": "158384",
@@ -211,13 +211,13 @@
                 "bit_mask": 2,
                 "bit_shift": 1,
                 "dynamic_arg": "",
-                "help_code": "",
+                "help_code": "@T",
                 "help_korean": ""
             },
             {
                 "position": 4,
                 "mnemonic": "MP_TOUCHE_SOURCE",
-                "label_index": "8241",
+                "label_index": "@P8241",
                 "label_korean": "소스 버튼",
                 "group_id": "52697",
                 "req_frame_id": "158384",
@@ -236,13 +236,13 @@
                 "bit_mask": 8,
                 "bit_shift": 3,
                 "dynamic_arg": "",
-                "help_code": "",
+                "help_code": "@T",
                 "help_korean": ""
             },
             {
                 "position": 5,
                 "mnemonic": "MP_TOUCHE_MUTE",
-                "label_index": "18564",
+                "label_index": "@P18564@\\*MUTE",
                 "label_korean": "버튼MUTE",
                 "group_id": "52697",
                 "req_frame_id": "158384",
@@ -261,13 +261,13 @@
                 "bit_mask": 16,
                 "bit_shift": 4,
                 "dynamic_arg": "MUTE",
-                "help_code": "",
+                "help_code": "@T",
                 "help_korean": ""
             },
             {
                 "position": 6,
                 "mnemonic": "MP_TOUCHE_VOCALE",
-                "label_index": "6109",
+                "label_index": "@P6109",
                 "label_korean": "음성 버튼",
                 "group_id": "52697",
                 "req_frame_id": "158384",
@@ -283,7 +283,7 @@
                 "bit_mask": 32,
                 "bit_shift": 5,
                 "dynamic_arg": "",
-                "help_code": "",
+                "help_code": "@T",
                 "help_korean": ""
             }
         ]
@@ -297,7 +297,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_TENSION_BATTERIE_ECU",
-                "label_index": "26611",
+                "label_index": "@P26611",
                 "label_korean": "ECU의 터미널에서 읽은 전압",
                 "group_id": "52700",
                 "req_frame_id": "158393",
@@ -319,7 +319,7 @@
             {
                 "position": 2,
                 "mnemonic": "MP_TEMPERATURE_INTERNE",
-                "label_index": "23073",
+                "label_index": "@P23073",
                 "label_korean": "내부 온도",
                 "group_id": "52701",
                 "req_frame_id": "158396",
@@ -341,7 +341,7 @@
             {
                 "position": 3,
                 "mnemonic": "LANGUEINTERFAC",
-                "label_index": "13488",
+                "label_index": "@P13488",
                 "label_korean": "음성 인터페이스를 위한 언어",
                 "group_id": "52699",
                 "req_frame_id": "158390",
@@ -373,13 +373,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "",
+                "help_code": "@T",
                 "help_korean": ""
             },
             {
                 "position": 4,
                 "mnemonic": "MP_NOMBRE_REDEMARRAGE",
-                "label_index": "26862",
+                "label_index": "@P26862",
                 "label_korean": "재시작 횟수",
                 "group_id": "52698",
                 "req_frame_id": "158387",
@@ -395,13 +395,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "26748",
+                "help_code": "@P26748@\\*72",
                 "help_korean": "ECU는 72시간의 작동 후에 재 시작을 한다"
             },
             {
                 "position": 5,
                 "mnemonic": "MP_NOMBRE_APPEL_EMIS",
-                "label_index": "26635",
+                "label_index": "@P26635",
                 "label_korean": "통화 횟수",
                 "group_id": "52698",
                 "req_frame_id": "158387",
@@ -423,7 +423,7 @@
             {
                 "position": 6,
                 "mnemonic": "MP_NOMBRE_APPEL_RECU",
-                "label_index": "26420",
+                "label_index": "@P26420",
                 "label_korean": "수신된 통화 횟수",
                 "group_id": "52698",
                 "req_frame_id": "158387",
@@ -439,13 +439,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "26886",
+                "help_code": "@P26886",
                 "help_korean": "부재중 통화를 카운트한다"
             },
             {
                 "position": 7,
                 "mnemonic": "MP_INSERTION_USB",
-                "label_index": "26584",
+                "label_index": "@P26584",
                 "label_korean": "USB 스틱 삽입 횟수",
                 "group_id": "52698",
                 "req_frame_id": "158387",
@@ -467,7 +467,7 @@
             {
                 "position": 8,
                 "mnemonic": "MP_TELECHARGEMENT_USB",
-                "label_index": "26904",
+                "label_index": "@P26904",
                 "label_korean": "USB 모듈에 의한 다운로드 수",
                 "group_id": "52698",
                 "req_frame_id": "158387",
@@ -489,7 +489,7 @@
             {
                 "position": 9,
                 "mnemonic": "MP_INSERTION_IPOD",
-                "label_index": "26732",
+                "label_index": "@P26732",
                 "label_korean": "IPOD 사용 횟수",
                 "group_id": "52698",
                 "req_frame_id": "158387",
@@ -519,7 +519,7 @@
             {
                 "position": 1,
                 "mnemonic": "CA_CODE_DEFAUT",
-                "label_index": "9448",
+                "label_index": "@P9448",
                 "label_korean": "결함 코드",
                 "group_id": "매핑_누락",
                 "req_frame_id": "",
@@ -541,7 +541,7 @@
             {
                 "position": 2,
                 "mnemonic": "CA_TENSION_BORNE_ECU",
-                "label_index": "26611",
+                "label_index": "@P26611",
                 "label_korean": "ECU의 터미널에서 읽은 전압",
                 "group_id": "52705",
                 "req_frame_id": "158408",
@@ -563,7 +563,7 @@
             {
                 "position": 3,
                 "mnemonic": "CA_TEMPERATURE_INTERNE",
-                "label_index": "23073",
+                "label_index": "@P23073",
                 "label_korean": "내부 온도",
                 "group_id": "52705",
                 "req_frame_id": "158408",
@@ -585,7 +585,7 @@
             {
                 "position": 4,
                 "mnemonic": "CA_TOUCHE_ACTION",
-                "label_index": "26790",
+                "label_index": "@P26790",
                 "label_korean": "버튼 작동",
                 "group_id": "52705",
                 "req_frame_id": "158408",

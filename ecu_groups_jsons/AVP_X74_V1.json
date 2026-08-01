@@ -8,7 +8,7 @@
             {
                 "position": 1,
                 "mnemonic": "ID_NOM_DU_FOURNISSEUR",
-                "label_index": "5701",
+                "label_index": "@P5701",
                 "label_korean": "제조 업체명",
                 "group_id": "86016",
                 "req_frame_id": "258349",
@@ -38,7 +38,7 @@
             {
                 "position": 2,
                 "mnemonic": "ID_REFERENCE_MATERIEL",
-                "label_index": "1071",
+                "label_index": "@P1071",
                 "label_korean": "장치 부품 번호",
                 "group_id": "86016",
                 "req_frame_id": "258349",
@@ -60,7 +60,7 @@
             {
                 "position": 3,
                 "mnemonic": "ID_REFERENCE_COMPLEMENTAIRE_MATERIEL",
-                "label_index": "1634",
+                "label_index": "@P1634",
                 "label_korean": "장치 추가 참조 번호",
                 "group_id": "86016",
                 "req_frame_id": "258349",
@@ -82,7 +82,7 @@
             {
                 "position": 4,
                 "mnemonic": "ID_VERSION_LOGICIEL_new_1",
-                "label_index": "8662",
+                "label_index": "@P8662@\\*",
                 "label_korean": "소프트웨어 버전",
                 "group_id": "86016",
                 "req_frame_id": "258349",
@@ -104,7 +104,7 @@
             {
                 "position": 5,
                 "mnemonic": "ID_REF_CALIBRATION_new_1",
-                "label_index": "7014",
+                "label_index": "@P7014",
                 "label_korean": "캘리브레이션 버전",
                 "group_id": "86016",
                 "req_frame_id": "258349",
@@ -126,7 +126,7 @@
             {
                 "position": 6,
                 "mnemonic": "ID_MESS_DIAGNOSTIC",
-                "label_index": "2459",
+                "label_index": "@P2459",
                 "label_korean": "진단 이메일",
                 "group_id": "86016",
                 "req_frame_id": "258349",
@@ -142,13 +142,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "53130",
+                "help_code": "@P53130@\\*98.FFF.FFF.FF",
                 "help_korean": "메시지98의 값이 입력되지 않은 메시지에 해당함.FFF.FFF.FF"
             },
             {
                 "position": 7,
                 "mnemonic": "ID_80_MP_INDICE_MESS",
-                "label_index": "2225",
+                "label_index": "@P2225",
                 "label_korean": "메시지 인덱스",
                 "group_id": "86016",
                 "req_frame_id": "258349",
@@ -170,7 +170,7 @@
             {
                 "position": 8,
                 "mnemonic": "ID_TRACABILITE_DATE_FABRICATION",
-                "label_index": "14355",
+                "label_index": "@P14355",
                 "label_korean": "제조일자",
                 "group_id": "86018",
                 "req_frame_id": "258355",
@@ -192,7 +192,7 @@
             {
                 "position": 9,
                 "mnemonic": "ID_REFERENCE_LOGICIEL",
-                "label_index": "13263",
+                "label_index": "@F13263",
                 "label_korean": "소프트웨어 번호",
                 "group_id": "86017",
                 "req_frame_id": "258352",
@@ -214,7 +214,7 @@
             {
                 "position": 10,
                 "mnemonic": "ID_TRACABILITE_INDICE_EVOLUTION_EDITION",
-                "label_index": "24601",
+                "label_index": "@P24601",
                 "label_korean": "소프트웨어 버전",
                 "group_id": "86017",
                 "req_frame_id": "258352",
@@ -236,7 +236,7 @@
             {
                 "position": 11,
                 "mnemonic": "ID_DATE_TELECH",
-                "label_index": "21670",
+                "label_index": "@P21670",
                 "label_korean": "다운로딩 날짜",
                 "group_id": "86017",
                 "req_frame_id": "258352",
@@ -258,7 +258,7 @@
             {
                 "position": 12,
                 "mnemonic": "ID_NOMBRE_DE_TELECHARGEMENT",
-                "label_index": "24589",
+                "label_index": "@P24589",
                 "label_korean": "다운로드의 수",
                 "group_id": "86017",
                 "req_frame_id": "258352",
@@ -288,7 +288,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_ETAT_ACTIVATION_AVM",
-                "label_index": "48442",
+                "label_index": "@P48442",
                 "label_korean": "시각적 조작 지원 기능의 상태",
                 "group_id": "86020",
                 "req_frame_id": "258361",
@@ -313,7 +313,7 @@
             {
                 "position": 2,
                 "mnemonic": "MP_AFFICHAGE_VUE_AVM",
-                "label_index": "48443",
+                "label_index": "@P48443",
                 "label_korean": "시각적 조작 지원 기능 표시",
                 "group_id": "86020",
                 "req_frame_id": "258361",
@@ -351,7 +351,7 @@
             {
                 "position": 1,
                 "mnemonic": "PR_MP_INSTALLATION_VP2_AVANT",
-                "label_index": "48447",
+                "label_index": "@P48447",
                 "label_korean": "시각적 조작 지원 프론트 카메라 설치",
                 "group_id": "86021",
                 "req_frame_id": "258364",
@@ -373,7 +373,7 @@
             {
                 "position": 2,
                 "mnemonic": "PR_MP_AVP_VP2_AVANT_1",
-                "label_index": "48439",
+                "label_index": "@P48439",
                 "label_korean": "시각적 조작 지원 프론트 카메라",
                 "group_id": "86021",
                 "req_frame_id": "258364",
@@ -395,7 +395,7 @@
             {
                 "position": 3,
                 "mnemonic": "PR_MP_AVP_VP2_AVANT_2",
-                "label_index": "48439",
+                "label_index": "@P48439",
                 "label_korean": "시각적 조작 지원 프론트 카메라",
                 "group_id": "86021",
                 "req_frame_id": "258364",
@@ -417,7 +417,7 @@
             {
                 "position": 4,
                 "mnemonic": "PR_MP_AVP_VP2_AVANT_3",
-                "label_index": "48439",
+                "label_index": "@P48439",
                 "label_korean": "시각적 조작 지원 프론트 카메라",
                 "group_id": "86021",
                 "req_frame_id": "258364",
@@ -439,7 +439,7 @@
             {
                 "position": 5,
                 "mnemonic": "PR_MP_AVP_VP2_AVANT_4",
-                "label_index": "48439",
+                "label_index": "@P48439",
                 "label_korean": "시각적 조작 지원 프론트 카메라",
                 "group_id": "86021",
                 "req_frame_id": "258364",
@@ -461,7 +461,7 @@
             {
                 "position": 6,
                 "mnemonic": "PR_MP_AVP_VP2_AVANT_5",
-                "label_index": "48439",
+                "label_index": "@P48439",
                 "label_korean": "시각적 조작 지원 프론트 카메라",
                 "group_id": "86021",
                 "req_frame_id": "258364",
@@ -483,7 +483,7 @@
             {
                 "position": 7,
                 "mnemonic": "PR_MP_AVP_VP2_AVANT_6",
-                "label_index": "48439",
+                "label_index": "@P48439",
                 "label_korean": "시각적 조작 지원 프론트 카메라",
                 "group_id": "86021",
                 "req_frame_id": "258364",
@@ -505,7 +505,7 @@
             {
                 "position": 8,
                 "mnemonic": "PR_MP_AVP_VP2_AVANT_7",
-                "label_index": "48439",
+                "label_index": "@P48439",
                 "label_korean": "시각적 조작 지원 프론트 카메라",
                 "group_id": "86021",
                 "req_frame_id": "258364",
@@ -527,7 +527,7 @@
             {
                 "position": 9,
                 "mnemonic": "PR_MP_AVP_VP2_AVANT_8",
-                "label_index": "48439",
+                "label_index": "@P48439",
                 "label_korean": "시각적 조작 지원 프론트 카메라",
                 "group_id": "86021",
                 "req_frame_id": "258364",
@@ -549,7 +549,7 @@
             {
                 "position": 10,
                 "mnemonic": "PR_MP_AVP_VP2_AVANT_9",
-                "label_index": "48439",
+                "label_index": "@P48439",
                 "label_korean": "시각적 조작 지원 프론트 카메라",
                 "group_id": "86021",
                 "req_frame_id": "258364",
@@ -571,7 +571,7 @@
             {
                 "position": 11,
                 "mnemonic": "PR_MP_AVP_VP2_AVANT_10",
-                "label_index": "48439",
+                "label_index": "@P48439",
                 "label_korean": "시각적 조작 지원 프론트 카메라",
                 "group_id": "86021",
                 "req_frame_id": "258364",
@@ -593,7 +593,7 @@
             {
                 "position": 12,
                 "mnemonic": "PR_MP_INSTALLATION_VP2_ARRIERE",
-                "label_index": "48448",
+                "label_index": "@P48448",
                 "label_korean": "시각적 조작 지원 리어 카메라 설치",
                 "group_id": "86021",
                 "req_frame_id": "258364",
@@ -615,7 +615,7 @@
             {
                 "position": 13,
                 "mnemonic": "PR_MP_AVP_VP2_ARRIERE_1",
-                "label_index": "48438",
+                "label_index": "@P48438",
                 "label_korean": "시각적 조작 지원 리어 카메라",
                 "group_id": "86021",
                 "req_frame_id": "258364",
@@ -637,7 +637,7 @@
             {
                 "position": 14,
                 "mnemonic": "PR_MP_AVP_VP2_ARRIERE_2",
-                "label_index": "48438",
+                "label_index": "@P48438",
                 "label_korean": "시각적 조작 지원 리어 카메라",
                 "group_id": "86021",
                 "req_frame_id": "258364",
@@ -659,7 +659,7 @@
             {
                 "position": 15,
                 "mnemonic": "PR_MP_AVP_VP2_ARRIERE_3",
-                "label_index": "48438",
+                "label_index": "@P48438",
                 "label_korean": "시각적 조작 지원 리어 카메라",
                 "group_id": "86021",
                 "req_frame_id": "258364",
@@ -681,7 +681,7 @@
             {
                 "position": 16,
                 "mnemonic": "PR_MP_AVP_VP2_ARRIERE_4",
-                "label_index": "48438",
+                "label_index": "@P48438",
                 "label_korean": "시각적 조작 지원 리어 카메라",
                 "group_id": "86021",
                 "req_frame_id": "258364",
@@ -703,7 +703,7 @@
             {
                 "position": 17,
                 "mnemonic": "PR_MP_AVP_VP2_ARRIERE_5",
-                "label_index": "48438",
+                "label_index": "@P48438",
                 "label_korean": "시각적 조작 지원 리어 카메라",
                 "group_id": "86021",
                 "req_frame_id": "258364",
@@ -725,7 +725,7 @@
             {
                 "position": 18,
                 "mnemonic": "PR_MP_AVP_VP2_ARRIERE_6",
-                "label_index": "48438",
+                "label_index": "@P48438",
                 "label_korean": "시각적 조작 지원 리어 카메라",
                 "group_id": "86021",
                 "req_frame_id": "258364",
@@ -747,7 +747,7 @@
             {
                 "position": 19,
                 "mnemonic": "PR_MP_AVP_VP2_ARRIERE_7",
-                "label_index": "48438",
+                "label_index": "@P48438",
                 "label_korean": "시각적 조작 지원 리어 카메라",
                 "group_id": "86021",
                 "req_frame_id": "258364",
@@ -769,7 +769,7 @@
             {
                 "position": 20,
                 "mnemonic": "PR_MP_AVP_VP2_ARRIERE_8",
-                "label_index": "48438",
+                "label_index": "@P48438",
                 "label_korean": "시각적 조작 지원 리어 카메라",
                 "group_id": "86021",
                 "req_frame_id": "258364",
@@ -791,7 +791,7 @@
             {
                 "position": 21,
                 "mnemonic": "PR_MP_AVP_VP2_ARRIERE_9",
-                "label_index": "48438",
+                "label_index": "@P48438",
                 "label_korean": "시각적 조작 지원 리어 카메라",
                 "group_id": "86021",
                 "req_frame_id": "258364",
@@ -813,7 +813,7 @@
             {
                 "position": 22,
                 "mnemonic": "PR_MP_AVP_VP2_ARRIERE_10",
-                "label_index": "48438",
+                "label_index": "@P48438",
                 "label_korean": "시각적 조작 지원 리어 카메라",
                 "group_id": "86021",
                 "req_frame_id": "258364",

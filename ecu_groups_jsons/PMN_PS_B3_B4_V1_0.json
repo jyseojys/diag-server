@@ -8,7 +8,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_COMMUTATEUR_DEMARRAGE_MOTEUR_1",
-                "label_index": "39588",
+                "label_index": "@P39588@T-1",
                 "label_korean": "엔진 시동 스위치-1",
                 "group_id": "8215",
                 "req_frame_id": "24646",
@@ -30,7 +30,7 @@
             {
                 "position": 2,
                 "mnemonic": "MP_COMMUTATEUR_DEMARRAGE_MOTEUR_2",
-                "label_index": "39588",
+                "label_index": "@P39588@T-2",
                 "label_korean": "엔진 시동 스위치-2",
                 "group_id": "8215",
                 "req_frame_id": "24646",
@@ -52,7 +52,7 @@
             {
                 "position": 3,
                 "mnemonic": "MP_ETAT_CONTACTEUR_PEDALE_FREIN",
-                "label_index": "27824",
+                "label_index": "@P27824",
                 "label_korean": "브레이크 페달 스위치 상태",
                 "group_id": "8215",
                 "req_frame_id": "24646",
@@ -81,7 +81,7 @@
             {
                 "position": 4,
                 "mnemonic": "MP_BLOCAGE_DEBLOCAGE_VOLANT_DIRECTION",
-                "label_index": "37028",
+                "label_index": "@P37028",
                 "label_korean": "스티어링 휠 잠금/잠금 해제",
                 "group_id": "8215",
                 "req_frame_id": "24646",
@@ -97,13 +97,13 @@
                 "bit_mask": 2,
                 "bit_shift": 1,
                 "dynamic_arg": "",
-                "help_code": "40049, 43063, 23032, 26880, 38527, 43064",
-                "help_korean": "기어 레버가 위치N 에 있고 엔진을 껐을 때, 스티어링 잠금 장치는 잠금된다\n차량에 스마트 키가 있고\n- 다음 조건 중의 최소한 하나라도 만족할 때 :\n- 엔진 구동 정보 릴레이 제어 결함\n- \"액세서리 \" 위치에서 키\n- \"키 ON \" 위치에서 키\n그리고 나서 전동 스티어링 잠금장치는 잠금이 해제된다"
+                "help_code": "@P40049@\\*N@\\n@P43063@T :@\\n@T- @P23032@\\n@T- @P26880@\\n@T- @P38527@\\n@P43064",
+                "help_korean": "기어 레버가 위치N 에 있고 엔진을 껐을 때, 스티어링 잠금 장치는 잠금된다\n차량에 스마트 키가 있고 다음 조건 중의 최소한 하나라도 만족할 때 :\n- 엔진 구동 정보 릴레이 제어 결함\n- \"액세서리 +\" 위치에서 키\n- \"키 ON +\" 위치에서 키\n그리고 나서 전동 스티어링 잠금장치는 잠금이 해제된다"
             },
             {
                 "position": 5,
                 "mnemonic": "ETATLEVIERDEVITESSES",
-                "label_index": "12582",
+                "label_index": "@P12582",
                 "label_korean": "기어 레버 상태",
                 "group_id": "8215",
                 "req_frame_id": "24646",
@@ -125,7 +125,7 @@
             {
                 "position": 6,
                 "mnemonic": "MP_PRESENCE_ALIMENTATION_PLUS_ACCESSOIRE",
-                "label_index": "18203",
+                "label_index": "@P18203",
                 "label_korean": "키 액세서리 전원 존재",
                 "group_id": "8216",
                 "req_frame_id": "24649",
@@ -147,7 +147,7 @@
             {
                 "position": 7,
                 "mnemonic": "MP_ETAT_PLUS_APC",
-                "label_index": "872",
+                "label_index": "@P872",
                 "label_korean": "키 ON 상태",
                 "group_id": "8216",
                 "req_frame_id": "24649",
@@ -172,7 +172,7 @@
             {
                 "position": 8,
                 "mnemonic": "MP_ETAT_DEMANDE_DEMARREUR",
-                "label_index": "22173",
+                "label_index": "@P22173",
                 "label_korean": "시동 요청의 상태",
                 "group_id": "8216",
                 "req_frame_id": "24649",
@@ -197,7 +197,7 @@
             {
                 "position": 9,
                 "mnemonic": "MP_ETAT_MOTEUR",
-                "label_index": "21607",
+                "label_index": "@P21607",
                 "label_korean": "엔진 상태",
                 "group_id": "8217",
                 "req_frame_id": "24652",
@@ -251,7 +251,7 @@
             {
                 "position": 10,
                 "mnemonic": "MP_SIGNAL_VITESSE_VEHICULE",
-                "label_index": "30042",
+                "label_index": "@P30042",
                 "label_korean": "차량 속도 신호 결함",
                 "group_id": "8217",
                 "req_frame_id": "24652",
@@ -273,7 +273,7 @@
             {
                 "position": 11,
                 "mnemonic": "MP_ETAT_CONTACT_VEHICULE",
-                "label_index": "43062",
+                "label_index": "@P43062",
                 "label_korean": "차량 키 ON 전원 상태",
                 "group_id": "8218",
                 "req_frame_id": "24655",
@@ -295,7 +295,7 @@
             {
                 "position": 12,
                 "mnemonic": "MP_CARACT_GMP",
-                "label_index": "44544",
+                "label_index": "@P44544",
                 "label_korean": "파워 트레인의 특징",
                 "group_id": "8218",
                 "req_frame_id": "24655",
@@ -316,13 +316,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "",
+                "help_code": "@T",
                 "help_korean": ""
             },
             {
                 "position": 13,
                 "mnemonic": "MP_CONTACTEUR_DEM_MOTEUR",
-                "label_index": "39588",
+                "label_index": "@P39588",
                 "label_korean": "엔진 시동 스위치",
                 "group_id": "8219",
                 "req_frame_id": "24658",
@@ -338,13 +338,13 @@
                 "bit_mask": 32,
                 "bit_shift": 5,
                 "dynamic_arg": "",
-                "help_code": "40050, 40051",
-                "help_korean": "스위치\n- 오류 : 엔진 시동 스위치 신호 1 및 2 가 일치하지 않는다"
+                "help_code": "@P40050@T : @P40051@\\*1@\\*2",
+                "help_korean": "스위치 오류 : 엔진 시동 스위치 신호 1 및 2 가 일치하지 않는다"
             },
             {
                 "position": 14,
                 "mnemonic": "MP_ETAT_ANTIVOL_ELEC_DIRECTION",
-                "label_index": "18644",
+                "label_index": "@P18644",
                 "label_korean": "전동 스티어링 잠금장치의 상태",
                 "group_id": "8219",
                 "req_frame_id": "24658",
@@ -360,13 +360,13 @@
                 "bit_mask": 8,
                 "bit_shift": 3,
                 "dynamic_arg": "",
-                "help_code": "40053, 40054",
-                "help_korean": "결함\n- 모드 : 전동 스티어링 잠금장치의 잠금/잠금해제 결함으로 인해서 엔진 시동을 걸 수 없다"
+                "help_code": "@P40053@T : @P40054",
+                "help_korean": "결함 모드 : 전동 스티어링 잠금장치의 잠금/잠금해제 결함으로 인해서 엔진 시동을 걸 수 없다"
             },
             {
                 "position": 15,
                 "mnemonic": "MP_NOMBRE_CODES_DEFAUTS",
-                "label_index": "37030",
+                "label_index": "@P37030",
                 "label_korean": "결함 코드의 수",
                 "group_id": "8220",
                 "req_frame_id": "24661",

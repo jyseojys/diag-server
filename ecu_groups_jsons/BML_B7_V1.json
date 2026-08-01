@@ -8,7 +8,7 @@
             {
                 "position": 1,
                 "mnemonic": "ID_NOM_DU_FOURNISSEUR",
-                "label_index": "5701",
+                "label_index": "@P5701",
                 "label_korean": "제조 업체명",
                 "group_id": "104169",
                 "req_frame_id": "312852",
@@ -38,7 +38,7 @@
             {
                 "position": 2,
                 "mnemonic": "ID_REFERENCE_MATERIEL",
-                "label_index": "1071",
+                "label_index": "@P1071",
                 "label_korean": "장치 부품 번호",
                 "group_id": "104169",
                 "req_frame_id": "312852",
@@ -60,7 +60,7 @@
             {
                 "position": 3,
                 "mnemonic": "ID_REFERENCE_COMPLEMENTAIRE_MATERIEL",
-                "label_index": "1634",
+                "label_index": "@P1634",
                 "label_korean": "장치 추가 참조 번호",
                 "group_id": "104169",
                 "req_frame_id": "312852",
@@ -82,7 +82,7 @@
             {
                 "position": 4,
                 "mnemonic": "ID_ZI_FILE",
-                "label_index": "3627",
+                "label_index": "@P3627",
                 "label_korean": "캘리브레이션 파일 번호",
                 "group_id": "104170",
                 "req_frame_id": "312855",
@@ -104,7 +104,7 @@
             {
                 "position": 5,
                 "mnemonic": "ID_TRACABILITE_INDICE_EVOLUTION_EDITION_CALIBRATION",
-                "label_index": "7413",
+                "label_index": "@P7413",
                 "label_korean": "캘리브레이션 에디션",
                 "group_id": "104170",
                 "req_frame_id": "312855",
@@ -126,7 +126,7 @@
             {
                 "position": 6,
                 "mnemonic": "ID_TRACABILITE_INDICE_EVOLUTION_EDITION",
-                "label_index": "24601",
+                "label_index": "@P24601",
                 "label_korean": "소프트웨어 버전",
                 "group_id": "104169",
                 "req_frame_id": "312852",
@@ -148,7 +148,7 @@
             {
                 "position": 7,
                 "mnemonic": "ID_DATE_TELECH",
-                "label_index": "21670",
+                "label_index": "@P21670",
                 "label_korean": "다운로딩 날짜",
                 "group_id": "104170",
                 "req_frame_id": "312855",
@@ -170,7 +170,7 @@
             {
                 "position": 8,
                 "mnemonic": "ID_NOMBRE_DE_TELECHARGEMENT",
-                "label_index": "24589",
+                "label_index": "@P24589",
                 "label_korean": "다운로드의 수",
                 "group_id": "104170",
                 "req_frame_id": "312855",
@@ -192,7 +192,7 @@
             {
                 "position": 9,
                 "mnemonic": "ID_TRACABILITE_NUMERO_DE_SERIE_PIECE",
-                "label_index": "7592",
+                "label_index": "@F7592",
                 "label_korean": "부품 일련 번호",
                 "group_id": "104168",
                 "req_frame_id": "312849",
@@ -214,7 +214,7 @@
             {
                 "position": 10,
                 "mnemonic": "ID_TRACABILITE_DATE_FABRICATION",
-                "label_index": "16589",
+                "label_index": "@P16589",
                 "label_korean": "제조 일자",
                 "group_id": "104167",
                 "req_frame_id": "312846",
@@ -244,7 +244,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_TYPE_DEVERROUILLAGE_ML_EFFECTUE",
-                "label_index": "19925",
+                "label_index": "@P19925",
                 "label_korean": "진행된 핸즈-프리 잠금해제의 타입",
                 "group_id": "104171",
                 "req_frame_id": "312858",
@@ -260,7 +260,7 @@
                 "bit_mask": 224,
                 "bit_shift": 5,
                 "dynamic_arg": "",
-                "help_code": "19880",
+                "help_code": "@P19880",
                 "help_korean": "차량에서 진행된 핸즈-프리 잠금해제 타입에 해당된다"
             }
         ]
@@ -274,7 +274,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_APPUI_DEVERROUILLAGE_ML_POIGNEE_PORTE_ARD",
-                "label_index": "19802",
+                "label_index": "@P19802",
                 "label_korean": "리어 우측 도어 핸들 핸즈-프리 잠금해제 센서에서 누름",
                 "group_id": "104172",
                 "req_frame_id": "312861",
@@ -290,13 +290,13 @@
                 "bit_mask": 128,
                 "bit_shift": 7,
                 "dynamic_arg": "",
-                "help_code": "20006, 34997",
+                "help_code": "@P20006@T.@\\n@P34997",
                 "help_korean": "리어 우측 도어 잠금해제 요청 상태.\n핸즈-프리 잠금해제 변수는 도어 잠금해제 센서가 장착되어 있을 경우에만 작동한다"
             },
             {
                 "position": 2,
                 "mnemonic": "MP_APPUI_DEVERROUILLAGE_ML_POIGNEE_PORTE_ARG",
-                "label_index": "19928",
+                "label_index": "@P19928",
                 "label_korean": "리어 좌측 도어 핸들 핸즈-프리 잠금해제 센서에서 누름",
                 "group_id": "104172",
                 "req_frame_id": "312861",
@@ -312,13 +312,13 @@
                 "bit_mask": 64,
                 "bit_shift": 6,
                 "dynamic_arg": "",
-                "help_code": "19926, 34997",
+                "help_code": "@P19926@T.@\\n@P34997",
                 "help_korean": "리어 좌측 도어 잠금해제 요청 상태.\n핸즈-프리 잠금해제 변수는 도어 잠금해제 센서가 장착되어 있을 경우에만 작동한다"
             },
             {
                 "position": 3,
                 "mnemonic": "MP_APPUI_DEVERROUILLAGE_ML_POIGNEE_PORTE_AVD",
-                "label_index": "19951",
+                "label_index": "@P19951",
                 "label_korean": "프론트 우측 도어 핸들 핸즈-프리 잠금해제 센서에서 누름",
                 "group_id": "104172",
                 "req_frame_id": "312861",
@@ -334,13 +334,13 @@
                 "bit_mask": 32,
                 "bit_shift": 5,
                 "dynamic_arg": "",
-                "help_code": "19941, 34997",
+                "help_code": "@P19941@T.@\\n@P34997",
                 "help_korean": "프론트 우측 도어 잠금해제 요청 상태.\n핸즈-프리 잠금해제 변수는 도어 잠금해제 센서가 장착되어 있을 경우에만 작동한다"
             },
             {
                 "position": 4,
                 "mnemonic": "MP_APPUI_DEVERROUILLAGE_ML_POIGNEE_PORTE_AVG",
-                "label_index": "19890",
+                "label_index": "@P19890",
                 "label_korean": "프론트 좌측 도어 핸들 핸즈-프리 잠금해제 센서에서 누름",
                 "group_id": "104172",
                 "req_frame_id": "312861",
@@ -356,7 +356,7 @@
                 "bit_mask": 16,
                 "bit_shift": 4,
                 "dynamic_arg": "",
-                "help_code": "19901, 34997",
+                "help_code": "@P19901@T.@\\n@P34997",
                 "help_korean": "프론트 좌측 도어 잠금해제 요청 상태.\n핸즈-프리 잠금해제 변수는 도어 잠금해제 센서가 장착되어 있을 경우에만 작동한다"
             }
         ]
@@ -370,7 +370,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_APPUI_CAPTEUR_VERROUILLAGE_ML_POIGNEE_PORTE_ARD",
-                "label_index": "19931",
+                "label_index": "@P19931",
                 "label_korean": "리어 우측 도어 핸들 핸즈-프리 잠금 센서에서 누름",
                 "group_id": "104173",
                 "req_frame_id": "312864",
@@ -386,13 +386,13 @@
                 "bit_mask": 128,
                 "bit_shift": 7,
                 "dynamic_arg": "",
-                "help_code": "19811, 34998",
+                "help_code": "@P19811@T.@\\n@P34998",
                 "help_korean": "리어 우측 도어 잠금 요청 상태.\n핸즈-프리 잠금 변수는 도어 잠금 센서가 장착되어 있을 경우에만 작동한다"
             },
             {
                 "position": 2,
                 "mnemonic": "MP_APPUI_CAPTEUR_VERROUILLAGE_ML_POIGNEE_PORTE_ARG",
-                "label_index": "19815",
+                "label_index": "@P19815",
                 "label_korean": "리어 좌측 도어 핸들 핸즈-프리 잠금 센서에서 누름",
                 "group_id": "104173",
                 "req_frame_id": "312864",
@@ -408,13 +408,13 @@
                 "bit_mask": 64,
                 "bit_shift": 6,
                 "dynamic_arg": "",
-                "help_code": "19825, 34998",
+                "help_code": "@P19825@\\n@P34998",
                 "help_korean": "리어 좌측 도어 잠금 요청 상태\n핸즈-프리 잠금 변수는 도어 잠금 센서가 장착되어 있을 경우에만 작동한다"
             },
             {
                 "position": 3,
                 "mnemonic": "MP_APPUI_CAPTEUR_VERROUILLAGE_ML_POIGNEE_PORTE_AVD",
-                "label_index": "19748",
+                "label_index": "@P19748",
                 "label_korean": "프론트 우측 도어 핸들 핸즈-프리 잠금 센서에서 누름",
                 "group_id": "104173",
                 "req_frame_id": "312864",
@@ -430,13 +430,13 @@
                 "bit_mask": 32,
                 "bit_shift": 5,
                 "dynamic_arg": "",
-                "help_code": "20079, 34998",
+                "help_code": "@P20079@\\n@P34998",
                 "help_korean": "프론트 우측 도어 잠금 요청 상태\n핸즈-프리 잠금 변수는 도어 잠금 센서가 장착되어 있을 경우에만 작동한다"
             },
             {
                 "position": 4,
                 "mnemonic": "MP_APPUI_CAPTEUR_VERROUILLAGE_ML_POIGNEE_PORTE_AVG",
-                "label_index": "19774",
+                "label_index": "@P19774",
                 "label_korean": "프론트 좌측 도어 핸들 핸즈-프리 잠금 센서를 누른다",
                 "group_id": "104173",
                 "req_frame_id": "312864",
@@ -452,13 +452,13 @@
                 "bit_mask": 16,
                 "bit_shift": 4,
                 "dynamic_arg": "",
-                "help_code": "19792, 34998",
+                "help_code": "@P19792@\\n@P34998",
                 "help_korean": "프론트 좌측 도어 잠금 요청 상태\n핸즈-프리 잠금 변수는 도어 잠금 센서가 장착되어 있을 경우에만 작동한다"
             },
             {
                 "position": 5,
                 "mnemonic": "MP_APPUI_BOUTON_VERROUILLAGE_ML_COFFRE",
-                "label_index": "19927",
+                "label_index": "@P19927",
                 "label_korean": "트렁크 핸즈-프리 잠금 버튼을 누른다",
                 "group_id": "104173",
                 "req_frame_id": "312864",
@@ -474,7 +474,7 @@
                 "bit_mask": 8,
                 "bit_shift": 3,
                 "dynamic_arg": "",
-                "help_code": "19905, 34998",
+                "help_code": "@P19905@\\n@P34998",
                 "help_korean": "리어 스위치에서 잠금 요청 상태\n핸즈-프리 잠금 변수는 도어 잠금 센서가 장착되어 있을 경우에만 작동한다"
             }
         ]
@@ -488,7 +488,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_APPUI_VERROU_PORTE_ARD_AVEC_TELECOMMANDE_RECONNUE",
-                "label_index": "19812",
+                "label_index": "@P19812",
                 "label_korean": "핸즈-프리 리모컨이 있는 리어 우측 도어 핸들 잠금 센서에서 누름 인식됨",
                 "group_id": "104174",
                 "req_frame_id": "312867",
@@ -504,13 +504,13 @@
                 "bit_mask": 128,
                 "bit_shift": 7,
                 "dynamic_arg": "",
-                "help_code": "22131, 34998",
+                "help_code": "@P22131@T.@\\n@P34998",
                 "help_korean": "핸즈-프리 리모컨이 있는 상태에서 리어 우측 잠금 제어에서 누름 인식됨.\n핸즈-프리 잠금 변수는 도어 잠금 센서가 장착되어 있을 경우에만 작동한다"
             },
             {
                 "position": 2,
                 "mnemonic": "MP_APPUI_VERROU_PORTE_ARG_AVEC_TELECOMMANDE_RECONNUE",
-                "label_index": "19961",
+                "label_index": "@P19961",
                 "label_korean": "핸즈-프리 리모컨이 있는 리어 좌측 도어 핸들 잠금 센서에서 누름 인식됨",
                 "group_id": "104174",
                 "req_frame_id": "312867",
@@ -526,13 +526,13 @@
                 "bit_mask": 64,
                 "bit_shift": 6,
                 "dynamic_arg": "",
-                "help_code": "21927, 34998",
+                "help_code": "@P21927@T.@\\n@P34998",
                 "help_korean": "핸즈-프리 리모컨이 있는 상태에서 리어 좌측 잠금 제어에서 누름 인식됨.\n핸즈-프리 잠금 변수는 도어 잠금 센서가 장착되어 있을 경우에만 작동한다"
             },
             {
                 "position": 3,
                 "mnemonic": "MP_APPUI_VERROU_PORTE_AVD_AVEC_TELECOMMANDE_RECONNUE",
-                "label_index": "19798",
+                "label_index": "@P19798",
                 "label_korean": "핸즈-프리 리모컨이 있는 프론트 우측 도어 핸들 잠금 센서에서 누름 인식됨",
                 "group_id": "104174",
                 "req_frame_id": "312867",
@@ -548,13 +548,13 @@
                 "bit_mask": 32,
                 "bit_shift": 5,
                 "dynamic_arg": "",
-                "help_code": "19740, 34998",
+                "help_code": "@P19740@\\n@P34998",
                 "help_korean": "리모컨을 가지고 프론트 우측 잠금 제어시 누름 인식됨\n핸즈-프리 잠금 변수는 도어 잠금 센서가 장착되어 있을 경우에만 작동한다"
             },
             {
                 "position": 4,
                 "mnemonic": "MP_APPUI_VERROU_PORTE_AVG_AVEC_TELECOMMANDE_RECONNUE",
-                "label_index": "20020",
+                "label_index": "@P20020",
                 "label_korean": "핸즈-프리 리모컨이 있는 프론트 좌측 도어 핸들 잠금 센서에서 누름 인식됨",
                 "group_id": "104174",
                 "req_frame_id": "312867",
@@ -570,13 +570,13 @@
                 "bit_mask": 16,
                 "bit_shift": 4,
                 "dynamic_arg": "",
-                "help_code": "19781, 34998",
+                "help_code": "@P19781@T.@\\n@P34998",
                 "help_korean": "리모컨을 가지고 프론트 좌측 잠금 제어시 누름 인식됨.\n핸즈-프리 잠금 변수는 도어 잠금 센서가 장착되어 있을 경우에만 작동한다"
             },
             {
                 "position": 5,
                 "mnemonic": "MP_APPUI_BOUTON_VERROU_COFFRE_AVEC_TELECOMMANDEE_RECONNUE",
-                "label_index": "19795",
+                "label_index": "@P19795",
                 "label_korean": "리모컨을 가지고 트렁크 잠금 버튼 누름 인식됨",
                 "group_id": "104174",
                 "req_frame_id": "312867",
@@ -592,13 +592,13 @@
                 "bit_mask": 8,
                 "bit_shift": 3,
                 "dynamic_arg": "",
-                "help_code": "19868, 34998",
+                "help_code": "@P19868@\\n@P34998",
                 "help_korean": "리모컨을 가지고 리어 트렁크 잠금 제어시 누름 인식됨\n핸즈-프리 잠금 변수는 도어 잠금 센서가 장착되어 있을 경우에만 작동한다"
             },
             {
                 "position": 6,
                 "mnemonic": "MP_APPUI_COURT_SUR_ZONE_VERROU_ML_VEHICULE",
-                "label_index": "19779",
+                "label_index": "@P19779",
                 "label_korean": "리모컨을 가지고 차량의 도어 핸들 잠금 센서에서 짧게 누름 인식됨",
                 "group_id": "104174",
                 "req_frame_id": "312867",
@@ -614,13 +614,13 @@
                 "bit_mask": 4,
                 "bit_shift": 2,
                 "dynamic_arg": "",
-                "help_code": "19789, 34998",
+                "help_code": "@P19789@T.@\\n@P34998",
                 "help_korean": "리모컨을 가지고 잠금 제어시 누름 인식됨.\n핸즈-프리 잠금 변수는 도어 잠금 센서가 장착되어 있을 경우에만 작동한다"
             },
             {
                 "position": 7,
                 "mnemonic": "MP_APPUI_LONG_SUR_ZONE_VERROU_ML_VEHICULE",
-                "label_index": "20019",
+                "label_index": "@P20019",
                 "label_korean": "리모컨을 가지고 차량의 도어 핸들 잠금 센서에서 길게 누른 인식됨",
                 "group_id": "104174",
                 "req_frame_id": "312867",
@@ -636,13 +636,13 @@
                 "bit_mask": 2,
                 "bit_shift": 1,
                 "dynamic_arg": "",
-                "help_code": "20008, 34998",
+                "help_code": "@P20008@T.@\\n@P34998",
                 "help_korean": "리모컨으로 잠금 제어시 길게 누름 인식됨.\n핸즈-프리 잠금 변수는 도어 잠금 센서가 장착되어 있을 경우에만 작동한다"
             },
             {
                 "position": 8,
                 "mnemonic": "MP_APPUI_MAINTENU_SUR_ZONE_VERROU_ML_VEHICULE",
-                "label_index": "19851",
+                "label_index": "@P19851",
                 "label_korean": "리모컨을 가지고 차량의 도어 핸들 잠금 센서 중 하나에서 누르고 있음 인식됨",
                 "group_id": "104174",
                 "req_frame_id": "312867",
@@ -658,7 +658,7 @@
                 "bit_mask": 1,
                 "bit_shift": 0,
                 "dynamic_arg": "",
-                "help_code": "19884, 34998",
+                "help_code": "@P19884@T.@\\n@P34998",
                 "help_korean": "리모컨으로 잠금 제어시 누르고 있음 인식됨.\n핸즈-프리 잠금 변수는 도어 잠금 센서가 장착되어 있을 경우에만 작동한다"
             }
         ]

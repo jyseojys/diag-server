@@ -8,7 +8,7 @@
             {
                 "position": 1,
                 "mnemonic": "ID_NOM_DU_FOURNISSEUR",
-                "label_index": "5701",
+                "label_index": "@P5701",
                 "label_korean": "제조 업체명",
                 "group_id": "93066",
                 "req_frame_id": "279549",
@@ -38,7 +38,7 @@
             {
                 "position": 2,
                 "mnemonic": "ID_REFERENCE_MATERIEL",
-                "label_index": "1071",
+                "label_index": "@P1071",
                 "label_korean": "장치 부품 번호",
                 "group_id": "93066",
                 "req_frame_id": "279549",
@@ -60,7 +60,7 @@
             {
                 "position": 3,
                 "mnemonic": "ID_REFERENCE_COMPLEMENTAIRE_MATERIEL",
-                "label_index": "1634",
+                "label_index": "@P1634",
                 "label_korean": "장치 추가 참조 번호",
                 "group_id": "93066",
                 "req_frame_id": "279549",
@@ -82,7 +82,7 @@
             {
                 "position": 4,
                 "mnemonic": "ID_REFERENCE_LOGICIEL",
-                "label_index": "13263",
+                "label_index": "@F13263",
                 "label_korean": "소프트웨어 번호",
                 "group_id": "93067",
                 "req_frame_id": "279552",
@@ -104,7 +104,7 @@
             {
                 "position": 5,
                 "mnemonic": "ID_TRACABILITE_INDICE_EVOLUTION_EDITION",
-                "label_index": "24601",
+                "label_index": "@P24601",
                 "label_korean": "소프트웨어 버전",
                 "group_id": "93067",
                 "req_frame_id": "279552",
@@ -126,7 +126,7 @@
             {
                 "position": 6,
                 "mnemonic": "ID_DATE_TELECH",
-                "label_index": "21670",
+                "label_index": "@P21670",
                 "label_korean": "다운로딩 날짜",
                 "group_id": "93067",
                 "req_frame_id": "279552",
@@ -148,7 +148,7 @@
             {
                 "position": 7,
                 "mnemonic": "ID_NOMBRE_DE_TELECHARGEMENT",
-                "label_index": "24589",
+                "label_index": "@P24589",
                 "label_korean": "다운로드의 수",
                 "group_id": "93067",
                 "req_frame_id": "279552",
@@ -170,7 +170,7 @@
             {
                 "position": 8,
                 "mnemonic": "ID_TRACABILITE_DATE_FABRICATION",
-                "label_index": "14355",
+                "label_index": "@F14355",
                 "label_korean": "제조일자",
                 "group_id": "93068",
                 "req_frame_id": "279555",
@@ -192,7 +192,7 @@
             {
                 "position": 9,
                 "mnemonic": "MP_VIN",
-                "label_index": "3241",
+                "label_index": "@P3241",
                 "label_korean": "차량의 일련번호 - 차대번호 코드",
                 "group_id": "93072",
                 "req_frame_id": "279567",
@@ -214,7 +214,7 @@
             {
                 "position": 10,
                 "mnemonic": "MP_NUMERO_SERIE_BATTERIE_TRACTION",
-                "label_index": "56055",
+                "label_index": "@P56055",
                 "label_korean": "트랙션 배터리 일련 번호",
                 "group_id": "93070",
                 "req_frame_id": "279561",
@@ -244,7 +244,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_ETAT_DEMANDE_VENTILATION_MAXI",
-                "label_index": "55498",
+                "label_index": "@P55498",
                 "label_korean": "passenger compartment ventilation switch",
                 "group_id": "93074",
                 "req_frame_id": "279573",
@@ -266,7 +266,7 @@
             {
                 "position": 2,
                 "mnemonic": "MP_DEMANDE_CHAUFFAGE_HABITACLE",
-                "label_index": "55504",
+                "label_index": "@P55504",
                 "label_korean": "passenger compartment heating switch",
                 "group_id": "93074",
                 "req_frame_id": "279573",
@@ -291,7 +291,7 @@
             {
                 "position": 3,
                 "mnemonic": "MP_DEMANDE_DES_FEUX_DE_DETRESSE",
-                "label_index": "14752",
+                "label_index": "@P14752",
                 "label_korean": "비상등 스위치",
                 "group_id": "93074",
                 "req_frame_id": "279573",
@@ -316,8 +316,8 @@
             {
                 "position": 4,
                 "mnemonic": "MP_ETAT_BOUTON_D",
-                "label_index": "56161",
-                "label_korean": "스위치 &quot;D&quot;",
+                "label_index": "@P56161@\\+@T&quot;D&quot;",
+                "label_korean": "스위치&quot;D&quot;",
                 "group_id": "93074",
                 "req_frame_id": "279573",
                 "resp_frame_id": "279574",
@@ -341,8 +341,8 @@
             {
                 "position": 5,
                 "mnemonic": "MP_ETAT_BOUTON_N",
-                "label_index": "56161",
-                "label_korean": "스위치 &quot;N&quot;",
+                "label_index": "@P56161@\\+@T&quot;N&quot;",
+                "label_korean": "스위치&quot;N&quot;",
                 "group_id": "93074",
                 "req_frame_id": "279573",
                 "resp_frame_id": "279574",
@@ -366,8 +366,8 @@
             {
                 "position": 6,
                 "mnemonic": "MP_ETAT_BOUTON_R",
-                "label_index": "56161",
-                "label_korean": "스위치 &quot;R&quot;",
+                "label_index": "@P56161@\\+@T&quot;R&quot;",
+                "label_korean": "스위치&quot;R&quot;",
                 "group_id": "93074",
                 "req_frame_id": "279573",
                 "resp_frame_id": "279574",
@@ -391,7 +391,7 @@
             {
                 "position": 7,
                 "mnemonic": "MP_COMMANDE_CLIGNOTANT_GAUCHE",
-                "label_index": "29160",
+                "label_index": "@P29160",
                 "label_korean": "좌측 방향지시등 제어",
                 "group_id": "93077",
                 "req_frame_id": "279582",
@@ -413,7 +413,7 @@
             {
                 "position": 8,
                 "mnemonic": "MP_COMMANDE_CLIGNOTANT_DROIT",
-                "label_index": "29163",
+                "label_index": "@P29163",
                 "label_korean": "우측 방향지시등 제어",
                 "group_id": "93077",
                 "req_frame_id": "279582",
@@ -435,7 +435,7 @@
             {
                 "position": 9,
                 "mnemonic": "MP_COMMANDE_LAVAGE_PARE_BRISE",
-                "label_index": "3116",
+                "label_index": "@F3116",
                 "label_korean": "윈드스크린 와셔 작동 제어",
                 "group_id": "93079",
                 "req_frame_id": "279588",
@@ -462,7 +462,7 @@
             {
                 "position": 10,
                 "mnemonic": "MP_ETAT_COMMANDE_ESSUIE_VITRE",
-                "label_index": "54502",
+                "label_index": "@P54502",
                 "label_korean": "와이퍼 컨트롤 상태",
                 "group_id": "93081",
                 "req_frame_id": "279594",
@@ -490,7 +490,7 @@
             {
                 "position": 11,
                 "mnemonic": "MP_TENSION_COMODO_ESSUIS_VITRE",
-                "label_index": "55174",
+                "label_index": "@P55174",
                 "label_korean": "와이퍼 컨트롤 전압",
                 "group_id": "93086",
                 "req_frame_id": "279609",
@@ -520,7 +520,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_TENSION_BATTERIE_SERVITUDE",
-                "label_index": "27741",
+                "label_index": "@P27741",
                 "label_korean": "서비스 배터리 전압",
                 "group_id": "93073",
                 "req_frame_id": "279570",
@@ -542,7 +542,7 @@
             {
                 "position": 2,
                 "mnemonic": "MP_ETAT_CHARGE_BATT_TRACTION",
-                "label_index": "21178",
+                "label_index": "@P21178",
                 "label_korean": "트랙션 배터리 충전 상태",
                 "group_id": "93080",
                 "req_frame_id": "279591",
@@ -567,7 +567,7 @@
             {
                 "position": 3,
                 "mnemonic": "MP_REMOTE_CHARGE_POURCENT",
-                "label_index": "49083",
+                "label_index": "@P49083",
                 "label_korean": "트랙션 배터리 충전 비율",
                 "group_id": "93087",
                 "req_frame_id": "279612",
@@ -589,7 +589,7 @@
             {
                 "position": 4,
                 "mnemonic": "MP_ETAT_BATTERIE_TRACTION",
-                "label_index": "54095",
+                "label_index": "@P54095",
                 "label_korean": "트랙션 배터리 상태",
                 "group_id": "93082",
                 "req_frame_id": "279597",
@@ -637,7 +637,7 @@
             {
                 "position": 5,
                 "mnemonic": "MP_ETAT_FONCTIONNEL_VEH",
-                "label_index": "19734",
+                "label_index": "@P19734",
                 "label_korean": "차량의 작동 조건",
                 "group_id": "93083",
                 "req_frame_id": "279600",
@@ -659,7 +659,7 @@
             {
                 "position": 6,
                 "mnemonic": "MP_TENSION_BATTERIE_TRACTION",
-                "label_index": "19805",
+                "label_index": "@P19805",
                 "label_korean": "트랙션 배터리 전압",
                 "group_id": "93088",
                 "req_frame_id": "279615",
@@ -681,7 +681,7 @@
             {
                 "position": 7,
                 "mnemonic": "MP_COURANT_BATT_TRACTION",
-                "label_index": "22376",
+                "label_index": "@P22376",
                 "label_korean": "트랙션 배터리의 전류",
                 "group_id": "93092",
                 "req_frame_id": "279627",
@@ -703,7 +703,7 @@
             {
                 "position": 8,
                 "mnemonic": "MP_NUMERO_SERIE_BATTERIE_TRACTION",
-                "label_index": "56055",
+                "label_index": "@P56055",
                 "label_korean": "트랙션 배터리 일련 번호",
                 "group_id": "93070",
                 "req_frame_id": "279561",
@@ -733,7 +733,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_VIN",
-                "label_index": "3241",
+                "label_index": "@P3241",
                 "label_korean": "차량의 일련번호 - 차대번호 코드",
                 "group_id": "93072",
                 "req_frame_id": "279567",
@@ -755,7 +755,7 @@
             {
                 "position": 2,
                 "mnemonic": "MP_KILOMETRAGE_DU_VEHICULE",
-                "label_index": "6315",
+                "label_index": "@F6315",
                 "label_korean": "차량 주행거리",
                 "group_id": "93093",
                 "req_frame_id": "279630",
@@ -777,7 +777,7 @@
             {
                 "position": 3,
                 "mnemonic": "MP_TENSION_BATTERIE_SERVITUDE",
-                "label_index": "27741",
+                "label_index": "@P27741",
                 "label_korean": "서비스 배터리 전압",
                 "group_id": "93073",
                 "req_frame_id": "279570",
@@ -799,7 +799,7 @@
             {
                 "position": 4,
                 "mnemonic": "MP_TENSION_SIGNAL_1_ACCELERATEUR",
-                "label_index": "11630",
+                "label_index": "@P11630@\\*1",
                 "label_korean": "가속 페달로부터 신호1 전압",
                 "group_id": "93084",
                 "req_frame_id": "279603",
@@ -821,7 +821,7 @@
             {
                 "position": 5,
                 "mnemonic": "MP_TENSION_SIGNAL_2_ACCELERATEUR",
-                "label_index": "11630",
+                "label_index": "@P11630@\\*2",
                 "label_korean": "가속 페달로부터 신호2 전압",
                 "group_id": "93085",
                 "req_frame_id": "279606",
@@ -843,7 +843,7 @@
             {
                 "position": 6,
                 "mnemonic": "MP_ETAT_CONTACTEUR_SECONDAIRE_PEDALE_FREIN",
-                "label_index": "18925",
+                "label_index": "@P18925",
                 "label_korean": "백업 브레이크 페달 스위치의 상태",
                 "group_id": "93075",
                 "req_frame_id": "279576",
@@ -868,7 +868,7 @@
             {
                 "position": 7,
                 "mnemonic": "MP_ETAT_CONTACTEUR_PRINCIPAL_PEDALE_FREIN",
-                "label_index": "18935",
+                "label_index": "@P18935",
                 "label_korean": "메인 브레이크 페달 스위치의 상태",
                 "group_id": "93075",
                 "req_frame_id": "279576",
@@ -893,7 +893,7 @@
             {
                 "position": 8,
                 "mnemonic": "MP_ETAT_FREIN_STATIONNEMENT",
-                "label_index": "52497",
+                "label_index": "@P52497",
                 "label_korean": "주차 브레이크 상태",
                 "group_id": "93076",
                 "req_frame_id": "279579",
@@ -920,7 +920,7 @@
             {
                 "position": 9,
                 "mnemonic": "MP_CLE_CONTACT_POSITION_MARCHE",
-                "label_index": "38405",
+                "label_index": "@P38405",
                 "label_korean": "점화 키가 ON 위치에 있다",
                 "group_id": "93078",
                 "req_frame_id": "279585",
@@ -942,7 +942,7 @@
             {
                 "position": 10,
                 "mnemonic": "MP_CLE_CONTACT_POSITION_DEMARRAGE",
-                "label_index": "51443",
+                "label_index": "@F51443",
                 "label_korean": "시동 위치에서의 점화 키",
                 "group_id": "93078",
                 "req_frame_id": "279585",
@@ -964,7 +964,7 @@
             {
                 "position": 11,
                 "mnemonic": "MP_ETAT_FONCTIONNEL_VEH",
-                "label_index": "19734",
+                "label_index": "@P19734",
                 "label_korean": "차량의 작동 조건",
                 "group_id": "93083",
                 "req_frame_id": "279600",
@@ -994,7 +994,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_COUPLE_DEMANDE_MEL",
-                "label_index": "56056",
+                "label_index": "@P56056",
                 "label_korean": "전동 구동 머신 토크 요청됨",
                 "group_id": "93089",
                 "req_frame_id": "279618",
@@ -1016,7 +1016,7 @@
             {
                 "position": 2,
                 "mnemonic": "MP_COUPLE_EST_MEL_AR",
-                "label_index": "23019",
+                "label_index": "@P23019",
                 "label_korean": "전동 구동 머신의 추정된 토크",
                 "group_id": "93090",
                 "req_frame_id": "279621",
@@ -1038,7 +1038,7 @@
             {
                 "position": 3,
                 "mnemonic": "MP_REGIME_MACHINE_ELECTRIQUE_TRACTION",
-                "label_index": "22344",
+                "label_index": "@P22344",
                 "label_korean": "전동 트랙션 머신의 속도",
                 "group_id": "93091",
                 "req_frame_id": "279624",
@@ -1068,7 +1068,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_TENSION_BATTERIE_SERVITUDE",
-                "label_index": "27741",
+                "label_index": "@P27741",
                 "label_korean": "서비스 배터리 전압",
                 "group_id": "93073",
                 "req_frame_id": "279570",
@@ -1090,8 +1090,8 @@
             {
                 "position": 2,
                 "mnemonic": "MP_ETAT_BOUTON_R",
-                "label_index": "56161",
-                "label_korean": "스위치 &quot;R&quot;",
+                "label_index": "@P56161@\\+@T&quot;R&quot;",
+                "label_korean": "스위치&quot;R&quot;",
                 "group_id": "93074",
                 "req_frame_id": "279573",
                 "resp_frame_id": "279574",
@@ -1115,8 +1115,8 @@
             {
                 "position": 3,
                 "mnemonic": "MP_ETAT_BOUTON_N",
-                "label_index": "56161",
-                "label_korean": "스위치 &quot;N&quot;",
+                "label_index": "@P56161@\\+@T&quot;N&quot;",
+                "label_korean": "스위치&quot;N&quot;",
                 "group_id": "93074",
                 "req_frame_id": "279573",
                 "resp_frame_id": "279574",
@@ -1140,8 +1140,8 @@
             {
                 "position": 4,
                 "mnemonic": "MP_ETAT_BOUTON_D",
-                "label_index": "56161",
-                "label_korean": "스위치 &quot;D&quot;",
+                "label_index": "@P56161@\\+@T&quot;D&quot;",
+                "label_korean": "스위치&quot;D&quot;",
                 "group_id": "93074",
                 "req_frame_id": "279573",
                 "resp_frame_id": "279574",
@@ -1165,7 +1165,7 @@
             {
                 "position": 5,
                 "mnemonic": "MP_DEMANDE_DES_FEUX_DE_DETRESSE",
-                "label_index": "14752",
+                "label_index": "@P14752",
                 "label_korean": "비상등 스위치",
                 "group_id": "93074",
                 "req_frame_id": "279573",
@@ -1190,7 +1190,7 @@
             {
                 "position": 6,
                 "mnemonic": "MP_DEMANDE_CHAUFFAGE_HABITACLE",
-                "label_index": "55504",
+                "label_index": "@P55504",
                 "label_korean": "passenger compartment heating switch",
                 "group_id": "93074",
                 "req_frame_id": "279573",
@@ -1215,7 +1215,7 @@
             {
                 "position": 7,
                 "mnemonic": "MP_ETAT_DEMANDE_VENTILATION_MAXI",
-                "label_index": "55498",
+                "label_index": "@P55498",
                 "label_korean": "passenger compartment ventilation switch",
                 "group_id": "93074",
                 "req_frame_id": "279573",
@@ -1237,7 +1237,7 @@
             {
                 "position": 8,
                 "mnemonic": "MP_ETAT_CONTACTEUR_PRINCIPAL_PEDALE_FREIN",
-                "label_index": "18935",
+                "label_index": "@P18935",
                 "label_korean": "메인 브레이크 페달 스위치의 상태",
                 "group_id": "93075",
                 "req_frame_id": "279576",
@@ -1262,7 +1262,7 @@
             {
                 "position": 9,
                 "mnemonic": "MP_ETAT_CONTACTEUR_SECONDAIRE_PEDALE_FREIN",
-                "label_index": "18925",
+                "label_index": "@P18925",
                 "label_korean": "백업 브레이크 페달 스위치의 상태",
                 "group_id": "93075",
                 "req_frame_id": "279576",
@@ -1287,7 +1287,7 @@
             {
                 "position": 10,
                 "mnemonic": "MP_ETAT_FREIN_STATIONNEMENT",
-                "label_index": "52497",
+                "label_index": "@P52497",
                 "label_korean": "주차 브레이크 상태",
                 "group_id": "93076",
                 "req_frame_id": "279579",
@@ -1314,7 +1314,7 @@
             {
                 "position": 11,
                 "mnemonic": "MP_COMMANDE_CLIGNOTANT_DROIT",
-                "label_index": "29163",
+                "label_index": "@P29163",
                 "label_korean": "우측 방향지시등 제어",
                 "group_id": "93077",
                 "req_frame_id": "279582",
@@ -1336,7 +1336,7 @@
             {
                 "position": 12,
                 "mnemonic": "MP_COMMANDE_CLIGNOTANT_GAUCHE",
-                "label_index": "29160",
+                "label_index": "@P29160",
                 "label_korean": "좌측 방향지시등 제어",
                 "group_id": "93077",
                 "req_frame_id": "279582",
@@ -1358,7 +1358,7 @@
             {
                 "position": 13,
                 "mnemonic": "MP_CLE_CONTACT_POSITION_MARCHE",
-                "label_index": "38405",
+                "label_index": "@P38405",
                 "label_korean": "점화 키가 ON 위치에 있다",
                 "group_id": "93078",
                 "req_frame_id": "279585",
@@ -1380,7 +1380,7 @@
             {
                 "position": 14,
                 "mnemonic": "MP_CLE_CONTACT_POSITION_DEMARRAGE",
-                "label_index": "51443",
+                "label_index": "@F51443",
                 "label_korean": "시동 위치에서의 점화 키",
                 "group_id": "93078",
                 "req_frame_id": "279585",
@@ -1402,7 +1402,7 @@
             {
                 "position": 15,
                 "mnemonic": "MP_COMMANDE_LAVAGE_PARE_BRISE",
-                "label_index": "3116",
+                "label_index": "@F3116",
                 "label_korean": "윈드스크린 와셔 작동 제어",
                 "group_id": "93079",
                 "req_frame_id": "279588",
@@ -1429,7 +1429,7 @@
             {
                 "position": 16,
                 "mnemonic": "MP_ETAT_CHARGE_BATT_TRACTION",
-                "label_index": "21178",
+                "label_index": "@P21178",
                 "label_korean": "트랙션 배터리 충전 상태",
                 "group_id": "93080",
                 "req_frame_id": "279591",
@@ -1454,7 +1454,7 @@
             {
                 "position": 17,
                 "mnemonic": "MP_ETAT_COMMANDE_ESSUIE_VITRE",
-                "label_index": "54502",
+                "label_index": "@P54502",
                 "label_korean": "와이퍼 컨트롤 상태",
                 "group_id": "93081",
                 "req_frame_id": "279594",
@@ -1482,7 +1482,7 @@
             {
                 "position": 18,
                 "mnemonic": "MP_ETAT_BATTERIE_TRACTION",
-                "label_index": "54095",
+                "label_index": "@P54095",
                 "label_korean": "트랙션 배터리 상태",
                 "group_id": "93082",
                 "req_frame_id": "279597",
@@ -1530,7 +1530,7 @@
             {
                 "position": 19,
                 "mnemonic": "MP_ETAT_FONCTIONNEL_VEH",
-                "label_index": "19734",
+                "label_index": "@P19734",
                 "label_korean": "차량의 작동 조건",
                 "group_id": "93083",
                 "req_frame_id": "279600",
@@ -1552,7 +1552,7 @@
             {
                 "position": 20,
                 "mnemonic": "MP_TENSION_SIGNAL_1_ACCELERATEUR",
-                "label_index": "11630",
+                "label_index": "@P11630@\\*1",
                 "label_korean": "가속 페달로부터 신호1 전압",
                 "group_id": "93084",
                 "req_frame_id": "279603",
@@ -1574,7 +1574,7 @@
             {
                 "position": 21,
                 "mnemonic": "MP_TENSION_SIGNAL_2_ACCELERATEUR",
-                "label_index": "11630",
+                "label_index": "@P11630@\\*2",
                 "label_korean": "가속 페달로부터 신호2 전압",
                 "group_id": "93085",
                 "req_frame_id": "279606",
@@ -1596,7 +1596,7 @@
             {
                 "position": 22,
                 "mnemonic": "MP_TENSION_COMODO_ESSUIS_VITRE",
-                "label_index": "55174",
+                "label_index": "@P55174",
                 "label_korean": "와이퍼 컨트롤 전압",
                 "group_id": "93086",
                 "req_frame_id": "279609",
@@ -1618,7 +1618,7 @@
             {
                 "position": 23,
                 "mnemonic": "MP_REMOTE_CHARGE_POURCENT",
-                "label_index": "49083",
+                "label_index": "@P49083",
                 "label_korean": "트랙션 배터리 충전 비율",
                 "group_id": "93087",
                 "req_frame_id": "279612",
@@ -1640,7 +1640,7 @@
             {
                 "position": 24,
                 "mnemonic": "MP_TENSION_BATTERIE_TRACTION",
-                "label_index": "19805",
+                "label_index": "@P19805",
                 "label_korean": "트랙션 배터리 전압",
                 "group_id": "93088",
                 "req_frame_id": "279615",
@@ -1662,7 +1662,7 @@
             {
                 "position": 25,
                 "mnemonic": "MP_COUPLE_DEMANDE_MEL",
-                "label_index": "56056",
+                "label_index": "@P56056",
                 "label_korean": "전동 구동 머신 토크 요청됨",
                 "group_id": "93089",
                 "req_frame_id": "279618",
@@ -1684,7 +1684,7 @@
             {
                 "position": 26,
                 "mnemonic": "MP_COUPLE_EST_MEL_AR",
-                "label_index": "23019",
+                "label_index": "@P23019",
                 "label_korean": "전동 구동 머신의 추정된 토크",
                 "group_id": "93090",
                 "req_frame_id": "279621",
@@ -1706,7 +1706,7 @@
             {
                 "position": 27,
                 "mnemonic": "MP_REGIME_MACHINE_ELECTRIQUE_TRACTION",
-                "label_index": "22344",
+                "label_index": "@P22344",
                 "label_korean": "전동 트랙션 머신의 속도",
                 "group_id": "93091",
                 "req_frame_id": "279624",
@@ -1728,7 +1728,7 @@
             {
                 "position": 28,
                 "mnemonic": "MP_COURANT_BATT_TRACTION",
-                "label_index": "22376",
+                "label_index": "@P22376",
                 "label_korean": "트랙션 배터리의 전류",
                 "group_id": "93092",
                 "req_frame_id": "279627",
@@ -1750,7 +1750,7 @@
             {
                 "position": 29,
                 "mnemonic": "MP_KILOMETRAGE_DU_VEHICULE",
-                "label_index": "6315",
+                "label_index": "@F6315",
                 "label_korean": "차량 주행거리",
                 "group_id": "93093",
                 "req_frame_id": "279630",

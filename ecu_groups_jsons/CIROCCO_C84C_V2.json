@@ -8,7 +8,7 @@
             {
                 "position": 1,
                 "mnemonic": "ID_NOM_DU_FOURNISSEUR",
-                "label_index": "5701",
+                "label_index": "@P5701",
                 "label_korean": "제조 업체명",
                 "group_id": "88431",
                 "req_frame_id": "265646",
@@ -38,7 +38,7 @@
             {
                 "position": 2,
                 "mnemonic": "ID_REFERENCE_MATERIEL",
-                "label_index": "1071",
+                "label_index": "@P1071",
                 "label_korean": "장치 부품 번호",
                 "group_id": "88431",
                 "req_frame_id": "265646",
@@ -60,7 +60,7 @@
             {
                 "position": 3,
                 "mnemonic": "ID_REFERENCE_COMPLEMENTAIRE_MATERIEL",
-                "label_index": "1634",
+                "label_index": "@P1634",
                 "label_korean": "장치 추가 참조 번호",
                 "group_id": "88431",
                 "req_frame_id": "265646",
@@ -82,7 +82,7 @@
             {
                 "position": 4,
                 "mnemonic": "ID_REFERENCE_LOGICIEL",
-                "label_index": "4799",
+                "label_index": "@P4799@\\*",
                 "label_korean": "소프트웨어 번호",
                 "group_id": "88432",
                 "req_frame_id": "265649",
@@ -104,7 +104,7 @@
             {
                 "position": 5,
                 "mnemonic": "ID_TRACABILITE_INDICE_EVOLUTION_EDITION",
-                "label_index": "24601",
+                "label_index": "@P24601",
                 "label_korean": "소프트웨어 버전",
                 "group_id": "88432",
                 "req_frame_id": "265649",
@@ -126,7 +126,7 @@
             {
                 "position": 6,
                 "mnemonic": "ID_DATE_TELECH",
-                "label_index": "21670",
+                "label_index": "@P21670",
                 "label_korean": "다운로딩 날짜",
                 "group_id": "88432",
                 "req_frame_id": "265649",
@@ -148,7 +148,7 @@
             {
                 "position": 7,
                 "mnemonic": "ID_NOMBRE_DE_TELECHARGEMENT",
-                "label_index": "24589",
+                "label_index": "@P24589",
                 "label_korean": "다운로드의 수",
                 "group_id": "88432",
                 "req_frame_id": "265649",
@@ -170,7 +170,7 @@
             {
                 "position": 8,
                 "mnemonic": "ID_TRACABILITE_DATE_FABRICATION",
-                "label_index": "14355",
+                "label_index": "@P14355",
                 "label_korean": "제조일자",
                 "group_id": "88433",
                 "req_frame_id": "265652",
@@ -200,7 +200,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_ETAT_TOUCHE_AIDE_STATIONNEMENT_AR_2",
-                "label_index": "31607",
+                "label_index": "@P31607",
                 "label_korean": "반-자동 주차 지원 버튼",
                 "group_id": "88437",
                 "req_frame_id": "265664",
@@ -216,13 +216,13 @@
                 "bit_mask": 128,
                 "bit_shift": 7,
                 "dynamic_arg": "",
-                "help_code": "17035",
+                "help_code": "@P17035@T.",
                 "help_korean": "기능이 차량에 있을 경우, 변수 상태는 변해야 한다."
             },
             {
                 "position": 2,
                 "mnemonic": "MP_RAZ_DSGI",
-                "label_index": "47199",
+                "label_index": "@P47199",
                 "label_korean": "타이어 공기압 감지 기능 0으로 리셋 버튼",
                 "group_id": "88437",
                 "req_frame_id": "265664",
@@ -238,13 +238,13 @@
                 "bit_mask": 64,
                 "bit_shift": 6,
                 "dynamic_arg": "",
-                "help_code": "17035",
+                "help_code": "@P17035@T.",
                 "help_korean": "기능이 차량에 있을 경우, 변수 상태는 변해야 한다."
             },
             {
                 "position": 3,
                 "mnemonic": "MP_ETAT_TOUCHE_ESP_2",
-                "label_index": "18564",
+                "label_index": "@P18564@\\*ESP",
                 "label_korean": "버튼ESP",
                 "group_id": "88437",
                 "req_frame_id": "265664",
@@ -260,13 +260,13 @@
                 "bit_mask": 32,
                 "bit_shift": 5,
                 "dynamic_arg": "ESP",
-                "help_code": "17035",
+                "help_code": "@P17035@T.",
                 "help_korean": "기능이 차량에 있을 경우, 변수 상태는 변해야 한다."
             },
             {
                 "position": 4,
                 "mnemonic": "MP_ETAT_TOUCHE_FRANCHISSEMENT_LIGNE",
-                "label_index": "31564",
+                "label_index": "@P31564",
                 "label_korean": "차선 이탈 경고 시스템",
                 "group_id": "88437",
                 "req_frame_id": "265664",
@@ -282,13 +282,13 @@
                 "bit_mask": 16,
                 "bit_shift": 4,
                 "dynamic_arg": "",
-                "help_code": "17035",
+                "help_code": "@P17035@T.",
                 "help_korean": "기능이 차량에 있을 경우, 변수 상태는 변해야 한다."
             },
             {
                 "position": 5,
                 "mnemonic": "ETAT_TOUCHE_SYST_CONT_DESCENTE",
-                "label_index": "48957",
+                "label_index": "@P48957",
                 "label_korean": "내리막 제어 시스템 버튼",
                 "group_id": "88437",
                 "req_frame_id": "265664",
@@ -304,13 +304,13 @@
                 "bit_mask": 8,
                 "bit_shift": 3,
                 "dynamic_arg": "",
-                "help_code": "17035",
+                "help_code": "@P17035@T.",
                 "help_korean": "기능이 차량에 있을 경우, 변수 상태는 변해야 한다."
             },
             {
                 "position": 6,
                 "mnemonic": "MP_ETAT_TOUCHE_VHL_MAINTIEN_VOIE",
-                "label_index": "48887",
+                "label_index": "@P48887",
                 "label_korean": "차선 유지 지원 버튼",
                 "group_id": "88437",
                 "req_frame_id": "265664",
@@ -326,13 +326,13 @@
                 "bit_mask": 4,
                 "bit_shift": 2,
                 "dynamic_arg": "",
-                "help_code": "17035",
+                "help_code": "@P17035@T.",
                 "help_korean": "기능이 차량에 있을 경우, 변수 상태는 변해야 한다."
             },
             {
                 "position": 7,
                 "mnemonic": "MP_ETAT_TOUCHE_MAINTIEN_TRAJECT_CIRCU",
-                "label_index": "48767",
+                "label_index": "@P48767",
                 "label_korean": "차선 위치 조정 보조 버튼",
                 "group_id": "88437",
                 "req_frame_id": "265664",
@@ -348,13 +348,13 @@
                 "bit_mask": 1,
                 "bit_shift": 0,
                 "dynamic_arg": "",
-                "help_code": "17035",
+                "help_code": "@P17035@T.",
                 "help_korean": "기능이 차량에 있을 경우, 변수 상태는 변해야 한다."
             },
             {
                 "position": 8,
                 "mnemonic": "MP_ETAT_RAZ_ODOMETRE_1",
-                "label_index": "31901",
+                "label_index": "@P31901",
                 "label_korean": "주행거리계 제로 리셋 버튼",
                 "group_id": "88438",
                 "req_frame_id": "265667",
@@ -370,13 +370,13 @@
                 "bit_mask": 128,
                 "bit_shift": 7,
                 "dynamic_arg": "",
-                "help_code": "17035",
+                "help_code": "@P17035@T.",
                 "help_korean": "기능이 차량에 있을 경우, 변수 상태는 변해야 한다."
             },
             {
                 "position": 9,
                 "mnemonic": "MP_ETAT_RHEOSTAT",
-                "label_index": "47472",
+                "label_index": "@P47472",
                 "label_korean": "광도 버튼",
                 "group_id": "88438",
                 "req_frame_id": "265667",
@@ -392,13 +392,13 @@
                 "bit_mask": 64,
                 "bit_shift": 6,
                 "dynamic_arg": "",
-                "help_code": "17035",
+                "help_code": "@P17035@T.",
                 "help_korean": "기능이 차량에 있을 경우, 변수 상태는 변해야 한다."
             },
             {
                 "position": 10,
                 "mnemonic": "MP_ETAT_INPUT_WIRE_DYNAMIC_PUSH",
-                "label_index": "34799",
+                "label_index": "@P34799",
                 "label_korean": "다이내믹 주행 기능 버튼",
                 "group_id": "88437",
                 "req_frame_id": "265664",
@@ -414,7 +414,7 @@
                 "bit_mask": 2,
                 "bit_shift": 1,
                 "dynamic_arg": "",
-                "help_code": "17035",
+                "help_code": "@P17035@T.",
                 "help_korean": "기능이 차량에 있을 경우, 변수 상태는 변해야 한다."
             }
         ]
@@ -428,7 +428,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_ETAT_TOUCHE_AIDE_STATIONNEMENT_AR_2",
-                "label_index": "31607",
+                "label_index": "@P31607",
                 "label_korean": "반-자동 주차 지원 버튼",
                 "group_id": "88437",
                 "req_frame_id": "265664",
@@ -444,13 +444,13 @@
                 "bit_mask": 128,
                 "bit_shift": 7,
                 "dynamic_arg": "",
-                "help_code": "17035",
+                "help_code": "@P17035@T.",
                 "help_korean": "기능이 차량에 있을 경우, 변수 상태는 변해야 한다."
             },
             {
                 "position": 2,
                 "mnemonic": "MP_RAZ_DSGI",
-                "label_index": "47199",
+                "label_index": "@P47199",
                 "label_korean": "타이어 공기압 감지 기능 0으로 리셋 버튼",
                 "group_id": "88437",
                 "req_frame_id": "265664",
@@ -466,13 +466,13 @@
                 "bit_mask": 64,
                 "bit_shift": 6,
                 "dynamic_arg": "",
-                "help_code": "17035",
+                "help_code": "@P17035@T.",
                 "help_korean": "기능이 차량에 있을 경우, 변수 상태는 변해야 한다."
             },
             {
                 "position": 3,
                 "mnemonic": "MP_ETAT_TOUCHE_ESP_2",
-                "label_index": "18564",
+                "label_index": "@P18564@\\*ESP",
                 "label_korean": "버튼ESP",
                 "group_id": "88437",
                 "req_frame_id": "265664",
@@ -488,13 +488,13 @@
                 "bit_mask": 32,
                 "bit_shift": 5,
                 "dynamic_arg": "ESP",
-                "help_code": "17035",
+                "help_code": "@P17035@T.",
                 "help_korean": "기능이 차량에 있을 경우, 변수 상태는 변해야 한다."
             },
             {
                 "position": 4,
                 "mnemonic": "MP_ETAT_TOUCHE_FRANCHISSEMENT_LIGNE",
-                "label_index": "31564",
+                "label_index": "@P31564",
                 "label_korean": "차선 이탈 경고 시스템",
                 "group_id": "88437",
                 "req_frame_id": "265664",
@@ -510,13 +510,13 @@
                 "bit_mask": 16,
                 "bit_shift": 4,
                 "dynamic_arg": "",
-                "help_code": "17035",
+                "help_code": "@P17035@T.",
                 "help_korean": "기능이 차량에 있을 경우, 변수 상태는 변해야 한다."
             },
             {
                 "position": 5,
                 "mnemonic": "ETAT_TOUCHE_SYST_CONT_DESCENTE",
-                "label_index": "48957",
+                "label_index": "@P48957",
                 "label_korean": "내리막 제어 시스템 버튼",
                 "group_id": "88437",
                 "req_frame_id": "265664",
@@ -532,13 +532,13 @@
                 "bit_mask": 8,
                 "bit_shift": 3,
                 "dynamic_arg": "",
-                "help_code": "17035",
+                "help_code": "@P17035@T.",
                 "help_korean": "기능이 차량에 있을 경우, 변수 상태는 변해야 한다."
             },
             {
                 "position": 6,
                 "mnemonic": "MP_ETAT_TOUCHE_VHL_MAINTIEN_VOIE",
-                "label_index": "48887",
+                "label_index": "@P48887",
                 "label_korean": "차선 유지 지원 버튼",
                 "group_id": "88437",
                 "req_frame_id": "265664",
@@ -554,13 +554,13 @@
                 "bit_mask": 4,
                 "bit_shift": 2,
                 "dynamic_arg": "",
-                "help_code": "17035",
+                "help_code": "@P17035@T.",
                 "help_korean": "기능이 차량에 있을 경우, 변수 상태는 변해야 한다."
             },
             {
                 "position": 7,
                 "mnemonic": "MP_ETAT_INPUT_WIRE_DYNAMIC_PUSH",
-                "label_index": "34799",
+                "label_index": "@P34799",
                 "label_korean": "다이내믹 주행 기능 버튼",
                 "group_id": "88437",
                 "req_frame_id": "265664",
@@ -576,13 +576,13 @@
                 "bit_mask": 2,
                 "bit_shift": 1,
                 "dynamic_arg": "",
-                "help_code": "17035",
+                "help_code": "@P17035@T.",
                 "help_korean": "기능이 차량에 있을 경우, 변수 상태는 변해야 한다."
             },
             {
                 "position": 8,
                 "mnemonic": "MP_ETAT_TOUCHE_MAINTIEN_TRAJECT_CIRCU",
-                "label_index": "48767",
+                "label_index": "@P48767",
                 "label_korean": "차선 위치 조정 보조 버튼",
                 "group_id": "88437",
                 "req_frame_id": "265664",
@@ -598,13 +598,13 @@
                 "bit_mask": 1,
                 "bit_shift": 0,
                 "dynamic_arg": "",
-                "help_code": "17035",
+                "help_code": "@P17035@T.",
                 "help_korean": "기능이 차량에 있을 경우, 변수 상태는 변해야 한다."
             },
             {
                 "position": 9,
                 "mnemonic": "MP_ETAT_TOUCHE_STT",
-                "label_index": "53137",
+                "label_index": "@P53137",
                 "label_korean": "스탑 앤 스타트 버튼",
                 "group_id": "88437",
                 "req_frame_id": "265664",
@@ -623,13 +623,13 @@
                 "bit_mask": 128,
                 "bit_shift": 7,
                 "dynamic_arg": "",
-                "help_code": "17035",
+                "help_code": "@P17035@T.",
                 "help_korean": "기능이 차량에 있을 경우, 변수 상태는 변해야 한다."
             },
             {
                 "position": 10,
                 "mnemonic": "MP_ETAT_RAZ_ODOMETRE_1",
-                "label_index": "31901",
+                "label_index": "@P31901",
                 "label_korean": "주행거리계 제로 리셋 버튼",
                 "group_id": "88438",
                 "req_frame_id": "265667",
@@ -645,13 +645,13 @@
                 "bit_mask": 128,
                 "bit_shift": 7,
                 "dynamic_arg": "",
-                "help_code": "17035",
+                "help_code": "@P17035@T.",
                 "help_korean": "기능이 차량에 있을 경우, 변수 상태는 변해야 한다."
             },
             {
                 "position": 11,
                 "mnemonic": "MP_ETAT_RHEOSTAT",
-                "label_index": "47472",
+                "label_index": "@P47472",
                 "label_korean": "광도 버튼",
                 "group_id": "88438",
                 "req_frame_id": "265667",
@@ -667,13 +667,13 @@
                 "bit_mask": 64,
                 "bit_shift": 6,
                 "dynamic_arg": "",
-                "help_code": "17035",
+                "help_code": "@P17035@T.",
                 "help_korean": "기능이 차량에 있을 경우, 변수 상태는 변해야 한다."
             },
             {
                 "position": 12,
                 "mnemonic": "MP_ETAT_ECO_MODE",
-                "label_index": "19009",
+                "label_index": "@P19009",
                 "label_korean": "ECO 모드의 상태",
                 "group_id": "88437",
                 "req_frame_id": "265664",
@@ -689,7 +689,7 @@
                 "bit_mask": 1,
                 "bit_shift": 0,
                 "dynamic_arg": "",
-                "help_code": "17035",
+                "help_code": "@P17035",
                 "help_korean": "기능이 차량에 있을 경우, 변수 상태는 변해야 한다"
             }
         ]
@@ -703,7 +703,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_ETAT_ECO_MODE",
-                "label_index": "19009",
+                "label_index": "@P19009",
                 "label_korean": "ECO 모드의 상태",
                 "group_id": "88437",
                 "req_frame_id": "265664",
@@ -719,13 +719,13 @@
                 "bit_mask": 1,
                 "bit_shift": 0,
                 "dynamic_arg": "",
-                "help_code": "17035",
+                "help_code": "@P17035",
                 "help_korean": "기능이 차량에 있을 경우, 변수 상태는 변해야 한다"
             },
             {
                 "position": 2,
                 "mnemonic": "MP_ETAT_TOUCHE_AIDE_STATIONNEMENT_AR_2",
-                "label_index": "31607",
+                "label_index": "@P31607",
                 "label_korean": "반-자동 주차 지원 버튼",
                 "group_id": "88437",
                 "req_frame_id": "265664",
@@ -741,13 +741,13 @@
                 "bit_mask": 128,
                 "bit_shift": 7,
                 "dynamic_arg": "",
-                "help_code": "17035",
+                "help_code": "@P17035@T.",
                 "help_korean": "기능이 차량에 있을 경우, 변수 상태는 변해야 한다."
             },
             {
                 "position": 3,
                 "mnemonic": "MP_RAZ_DSGI",
-                "label_index": "47199",
+                "label_index": "@P47199",
                 "label_korean": "타이어 공기압 감지 기능 0으로 리셋 버튼",
                 "group_id": "88437",
                 "req_frame_id": "265664",
@@ -763,13 +763,13 @@
                 "bit_mask": 64,
                 "bit_shift": 6,
                 "dynamic_arg": "",
-                "help_code": "17035",
+                "help_code": "@P17035@T.",
                 "help_korean": "기능이 차량에 있을 경우, 변수 상태는 변해야 한다."
             },
             {
                 "position": 4,
                 "mnemonic": "MP_ETAT_TOUCHE_ESP_2",
-                "label_index": "18564",
+                "label_index": "@P18564@\\*ESP",
                 "label_korean": "버튼ESP",
                 "group_id": "88437",
                 "req_frame_id": "265664",
@@ -785,13 +785,13 @@
                 "bit_mask": 32,
                 "bit_shift": 5,
                 "dynamic_arg": "ESP",
-                "help_code": "17035",
+                "help_code": "@P17035@T.",
                 "help_korean": "기능이 차량에 있을 경우, 변수 상태는 변해야 한다."
             },
             {
                 "position": 5,
                 "mnemonic": "MP_ETAT_RHEOSTAT",
-                "label_index": "47472",
+                "label_index": "@P47472",
                 "label_korean": "광도 버튼",
                 "group_id": "88438",
                 "req_frame_id": "265667",
@@ -807,13 +807,13 @@
                 "bit_mask": 64,
                 "bit_shift": 6,
                 "dynamic_arg": "",
-                "help_code": "17035",
+                "help_code": "@P17035@T.",
                 "help_korean": "기능이 차량에 있을 경우, 변수 상태는 변해야 한다."
             },
             {
                 "position": 6,
                 "mnemonic": "MP_ETAT_INPUT_WIRE_DYNAMIC_PUSH",
-                "label_index": "34799",
+                "label_index": "@P34799",
                 "label_korean": "다이내믹 주행 기능 버튼",
                 "group_id": "88437",
                 "req_frame_id": "265664",
@@ -829,13 +829,13 @@
                 "bit_mask": 2,
                 "bit_shift": 1,
                 "dynamic_arg": "",
-                "help_code": "17035",
+                "help_code": "@P17035@T.",
                 "help_korean": "기능이 차량에 있을 경우, 변수 상태는 변해야 한다."
             },
             {
                 "position": 7,
                 "mnemonic": "MP_ETAT_TOUCHE_FRANCHISSEMENT_LIGNE",
-                "label_index": "31564",
+                "label_index": "@P31564",
                 "label_korean": "차선 이탈 경고 시스템",
                 "group_id": "88437",
                 "req_frame_id": "265664",
@@ -851,13 +851,13 @@
                 "bit_mask": 16,
                 "bit_shift": 4,
                 "dynamic_arg": "",
-                "help_code": "17035",
+                "help_code": "@P17035@T.",
                 "help_korean": "기능이 차량에 있을 경우, 변수 상태는 변해야 한다."
             },
             {
                 "position": 8,
                 "mnemonic": "MP_ETAT_TOUCHE_VHL_MAINTIEN_VOIE",
-                "label_index": "48887",
+                "label_index": "@P48887",
                 "label_korean": "차선 유지 지원 버튼",
                 "group_id": "88437",
                 "req_frame_id": "265664",
@@ -873,13 +873,13 @@
                 "bit_mask": 4,
                 "bit_shift": 2,
                 "dynamic_arg": "",
-                "help_code": "17035",
+                "help_code": "@P17035@T.",
                 "help_korean": "기능이 차량에 있을 경우, 변수 상태는 변해야 한다."
             },
             {
                 "position": 9,
                 "mnemonic": "MP_ETAT_TOUCHE_MAINTIEN_TRAJECT_CIRCU",
-                "label_index": "48767",
+                "label_index": "@P48767",
                 "label_korean": "차선 위치 조정 보조 버튼",
                 "group_id": "88437",
                 "req_frame_id": "265664",
@@ -895,13 +895,13 @@
                 "bit_mask": 1,
                 "bit_shift": 0,
                 "dynamic_arg": "",
-                "help_code": "17035",
+                "help_code": "@P17035@T.",
                 "help_korean": "기능이 차량에 있을 경우, 변수 상태는 변해야 한다."
             },
             {
                 "position": 10,
                 "mnemonic": "MP_ETAT_RAZ_ODOMETRE_1",
-                "label_index": "31901",
+                "label_index": "@P31901",
                 "label_korean": "주행거리계 제로 리셋 버튼",
                 "group_id": "88438",
                 "req_frame_id": "265667",
@@ -917,13 +917,13 @@
                 "bit_mask": 128,
                 "bit_shift": 7,
                 "dynamic_arg": "",
-                "help_code": "17035",
+                "help_code": "@P17035@T.",
                 "help_korean": "기능이 차량에 있을 경우, 변수 상태는 변해야 한다."
             },
             {
                 "position": 11,
                 "mnemonic": "MP_ETAT_TOUCHE_STT",
-                "label_index": "53137",
+                "label_index": "@P53137",
                 "label_korean": "스탑 앤 스타트 버튼",
                 "group_id": "88437",
                 "req_frame_id": "265664",
@@ -942,13 +942,13 @@
                 "bit_mask": 128,
                 "bit_shift": 7,
                 "dynamic_arg": "",
-                "help_code": "17035",
+                "help_code": "@P17035@T.",
                 "help_korean": "기능이 차량에 있을 경우, 변수 상태는 변해야 한다."
             },
             {
                 "position": 12,
                 "mnemonic": "MP_ETAT_PAS",
-                "label_index": "39544",
+                "label_index": "@P39544",
                 "label_korean": "주차 지원 버튼",
                 "group_id": "매핑_누락",
                 "req_frame_id": "",
@@ -967,13 +967,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "17035",
+                "help_code": "@P17035@T.",
                 "help_korean": "기능이 차량에 있을 경우, 변수 상태는 변해야 한다."
             },
             {
                 "position": 13,
                 "mnemonic": "ETAT_TOUCHE_SYST_CONT_DESCENTE",
-                "label_index": "48957",
+                "label_index": "@P48957",
                 "label_korean": "내리막 제어 시스템 버튼",
                 "group_id": "88437",
                 "req_frame_id": "265664",
@@ -989,7 +989,7 @@
                 "bit_mask": 8,
                 "bit_shift": 3,
                 "dynamic_arg": "",
-                "help_code": "17035",
+                "help_code": "@P17035@T.",
                 "help_korean": "기능이 차량에 있을 경우, 변수 상태는 변해야 한다."
             }
         ]

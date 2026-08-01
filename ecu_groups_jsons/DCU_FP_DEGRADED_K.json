@@ -8,7 +8,7 @@
             {
                 "position": 1,
                 "mnemonic": "ID_NOM_DU_FOURNISSEUR",
-                "label_index": "5701",
+                "label_index": "@P5701",
                 "label_korean": "제조 업체명",
                 "group_id": "39737",
                 "req_frame_id": "119509",
@@ -38,7 +38,7 @@
             {
                 "position": 2,
                 "mnemonic": "ID_REFERENCE_MATERIEL",
-                "label_index": "1071",
+                "label_index": "@P1071",
                 "label_korean": "장치 부품 번호",
                 "group_id": "39737",
                 "req_frame_id": "119509",
@@ -60,7 +60,7 @@
             {
                 "position": 3,
                 "mnemonic": "ID_REFERENCE_COMPLEMENTAIRE_MATERIEL",
-                "label_index": "1634",
+                "label_index": "@P1634",
                 "label_korean": "장치 추가 참조 번호",
                 "group_id": "39737",
                 "req_frame_id": "119509",
@@ -82,7 +82,7 @@
             {
                 "position": 4,
                 "mnemonic": "ID_REFERENCE_LOGICIEL",
-                "label_index": "13263",
+                "label_index": "@F13263",
                 "label_korean": "소프트웨어 번호",
                 "group_id": "39750",
                 "req_frame_id": "119548",
@@ -104,7 +104,7 @@
             {
                 "position": 5,
                 "mnemonic": "ID_TRACABILITE_INDICE_EVOLUTION_EDITION",
-                "label_index": "24601",
+                "label_index": "@P24601",
                 "label_korean": "소프트웨어 버전",
                 "group_id": "39737",
                 "req_frame_id": "119509",
@@ -126,7 +126,7 @@
             {
                 "position": 6,
                 "mnemonic": "ID_DATE_TELECH",
-                "label_index": "21670",
+                "label_index": "@P21670",
                 "label_korean": "다운로딩 날짜",
                 "group_id": "39750",
                 "req_frame_id": "119548",
@@ -148,7 +148,7 @@
             {
                 "position": 7,
                 "mnemonic": "ID_NOMBRE_DE_TELECHARGEMENT",
-                "label_index": "24589",
+                "label_index": "@P24589",
                 "label_korean": "다운로드의 수",
                 "group_id": "39750",
                 "req_frame_id": "119548",
@@ -170,7 +170,7 @@
             {
                 "position": 8,
                 "mnemonic": "ID_TRACABILITE_DATE_FABRICATION",
-                "label_index": "14355",
+                "label_index": "@F14355",
                 "label_korean": "제조일자",
                 "group_id": "39751",
                 "req_frame_id": "119551",
@@ -200,7 +200,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_DEMANDE_DEVERROUILLAGE_CONTACT_VERROUILLAGE_CENTRALISE",
-                "label_index": "60335",
+                "label_index": "@P60335",
                 "label_korean": "중앙 스위치에 의한 잠금 해제 요청 유형",
                 "group_id": "39739",
                 "req_frame_id": "119515",
@@ -226,7 +226,7 @@
             {
                 "position": 2,
                 "mnemonic": "MP_DEMANDE_VERROUILLAGE_CONTACT_VERROUILLAGE_CENTRALISE",
-                "label_index": "60317",
+                "label_index": "@P60317",
                 "label_korean": "중앙 스위치에 의한 잠금 요청 유형",
                 "group_id": "39739",
                 "req_frame_id": "119515",
@@ -252,7 +252,7 @@
             {
                 "position": 3,
                 "mnemonic": "MP_REGLAGE_MIRROIR_RETROVISEURS_EXTERIEURS",
-                "label_index": "57326",
+                "label_index": "@P57326@\\*",
                 "label_korean": "setting the glass in the mirrors",
                 "group_id": "39739",
                 "req_frame_id": "119515",
@@ -280,7 +280,7 @@
             {
                 "position": 4,
                 "mnemonic": "MP_COMMANDE_RABATTEMENT_RETROVISEUR_EXTERIEURS",
-                "label_index": "60332",
+                "label_index": "@P60332",
                 "label_korean": "외부 미러 폴딩 실내 컨트롤",
                 "group_id": "39739",
                 "req_frame_id": "119515",
@@ -305,7 +305,7 @@
             {
                 "position": 5,
                 "mnemonic": "MP_COMMANDE_COMMUTATEUR_RETROVISEUR_EXTERIEUR",
-                "label_index": "60320",
+                "label_index": "@P60320",
                 "label_korean": "외부 미러 스위치 상태",
                 "group_id": "39739",
                 "req_frame_id": "119515",
@@ -331,7 +331,7 @@
             {
                 "position": 6,
                 "mnemonic": "MP_COMMANDE_LV_ARRIERE_COTE_PASSAGER_AVANT",
-                "label_index": "57102",
+                "label_index": "@P57102",
                 "label_korean": "passenger rear electric window",
                 "group_id": "39739",
                 "req_frame_id": "119515",
@@ -353,13 +353,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "60500, 60501",
+                "help_code": "@L60500@\\n@L60501",
                 "help_korean": "우측 핸들 차량인 경우 리어 좌측 전동 윈도우 변수 표시\n좌측 핸들 차량인 경우 리어 우측 전동 윈도우 변수 표시"
             },
             {
                 "position": 7,
                 "mnemonic": "MP_COMMANDE_LV_AVANT_PASSAGER",
-                "label_index": "57098",
+                "label_index": "@P57098",
                 "label_korean": "front passenger's electric window command",
                 "group_id": "39739",
                 "req_frame_id": "119515",
@@ -395,7 +395,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_DEMANDE_DEVERROUILLAGE_CONTACT_VERROUILLAGE_CENTRALISE",
-                "label_index": "60335",
+                "label_index": "@P60335",
                 "label_korean": "중앙 스위치에 의한 잠금 해제 요청 유형",
                 "group_id": "39739",
                 "req_frame_id": "119515",
@@ -421,7 +421,7 @@
             {
                 "position": 2,
                 "mnemonic": "MP_DEMANDE_VERROUILLAGE_CONTACT_VERROUILLAGE_CENTRALISE",
-                "label_index": "60317",
+                "label_index": "@P60317",
                 "label_korean": "중앙 스위치에 의한 잠금 요청 유형",
                 "group_id": "39739",
                 "req_frame_id": "119515",
@@ -447,7 +447,7 @@
             {
                 "position": 3,
                 "mnemonic": "MP_REGLAGE_MIRROIR_RETROVISEURS_EXTERIEURS",
-                "label_index": "57326",
+                "label_index": "@P57326@\\*",
                 "label_korean": "setting the glass in the mirrors",
                 "group_id": "39739",
                 "req_frame_id": "119515",
@@ -475,7 +475,7 @@
             {
                 "position": 4,
                 "mnemonic": "MP_COMMANDE_RABATTEMENT_RETROVISEUR_EXTERIEURS",
-                "label_index": "60332",
+                "label_index": "@P60332",
                 "label_korean": "외부 미러 폴딩 실내 컨트롤",
                 "group_id": "39739",
                 "req_frame_id": "119515",
@@ -500,7 +500,7 @@
             {
                 "position": 5,
                 "mnemonic": "MP_COMMANDE_COMMUTATEUR_RETROVISEUR_EXTERIEUR",
-                "label_index": "60320",
+                "label_index": "@P60320",
                 "label_korean": "외부 미러 스위치 상태",
                 "group_id": "39739",
                 "req_frame_id": "119515",
@@ -526,7 +526,7 @@
             {
                 "position": 6,
                 "mnemonic": "MP_COMMANDE_LV_AVANT_PASSAGER",
-                "label_index": "57098",
+                "label_index": "@P57098",
                 "label_korean": "front passenger's electric window command",
                 "group_id": "39739",
                 "req_frame_id": "119515",
@@ -554,7 +554,7 @@
             {
                 "position": 7,
                 "mnemonic": "MP_ETAT_PORTE",
-                "label_index": "24678",
+                "label_index": "@P24678",
                 "label_korean": "도어 상태",
                 "group_id": "39739",
                 "req_frame_id": "119515",
@@ -581,7 +581,7 @@
             {
                 "position": 8,
                 "mnemonic": "MP_ETAT_CLE",
-                "label_index": "17108",
+                "label_index": "@P17108",
                 "label_korean": "키의 상태",
                 "group_id": "39739",
                 "req_frame_id": "119515",
@@ -615,7 +615,7 @@
             {
                 "position": 9,
                 "mnemonic": "MP_ETAT_VERROUILLAGE_PORTE",
-                "label_index": "59911",
+                "label_index": "@P59911",
                 "label_korean": "도어 잠금 상태",
                 "group_id": "39739",
                 "req_frame_id": "119515",
@@ -649,7 +649,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_PILOTAGE_RETRO_EXT",
-                "label_index": "32620",
+                "label_index": "@P32620",
                 "label_korean": "도어 미러 제어",
                 "group_id": "39742",
                 "req_frame_id": "119524",
@@ -677,7 +677,7 @@
             {
                 "position": 2,
                 "mnemonic": "MP_ETAT_DEGIVRAGE_RETRO_EXT",
-                "label_index": "57307",
+                "label_index": "@P57307",
                 "label_korean": "외부 미러 성에 제거 상태",
                 "group_id": "39742",
                 "req_frame_id": "119524",
@@ -702,7 +702,7 @@
             {
                 "position": 3,
                 "mnemonic": "MP_POSITION_RABATTEMENT_RETRO_EXT",
-                "label_index": "57301",
+                "label_index": "@P57301",
                 "label_korean": "외부 미러가 접힘 위치",
                 "group_id": "39742",
                 "req_frame_id": "119524",
@@ -738,7 +738,7 @@
             {
                 "position": 4,
                 "mnemonic": "MP_OBSCURCISSEMENT_RETRO_EXT_ELECTROCHOME",
-                "label_index": "20194",
+                "label_index": "@P20194",
                 "label_korean": "실내 ECU 룸미러의 감광",
                 "group_id": "39742",
                 "req_frame_id": "119524",
@@ -768,7 +768,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_ETAT_INITIALISATION_LV_CONDUCTEUR",
-                "label_index": "57068",
+                "label_index": "@P57068",
                 "label_korean": "승객석 전동 윈도우 초기화 상태",
                 "group_id": "39746",
                 "req_frame_id": "119536",
@@ -794,7 +794,7 @@
             {
                 "position": 2,
                 "mnemonic": "MP_MOUVEMENT_LV",
-                "label_index": "57284",
+                "label_index": "@P57284",
                 "label_korean": "전동 윈도우 이동",
                 "group_id": "39746",
                 "req_frame_id": "119536",
@@ -828,7 +828,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_ETAT_INITIALISATION_LV_CONDUCTEUR",
-                "label_index": "57068",
+                "label_index": "@P57068",
                 "label_korean": "승객석 전동 윈도우 초기화 상태",
                 "group_id": "39746",
                 "req_frame_id": "119536",
@@ -854,7 +854,7 @@
             {
                 "position": 2,
                 "mnemonic": "MP_INITIALISATION_LV_ARRIERE",
-                "label_index": "57066",
+                "label_index": "@P57066",
                 "label_korean": "리어 전동 윈도우 초기화",
                 "group_id": "39746",
                 "req_frame_id": "119536",
@@ -880,7 +880,7 @@
             {
                 "position": 3,
                 "mnemonic": "MP_MOUVEMENT_LV",
-                "label_index": "57284",
+                "label_index": "@P57284",
                 "label_korean": "전동 윈도우 이동",
                 "group_id": "39746",
                 "req_frame_id": "119536",
@@ -906,7 +906,7 @@
             {
                 "position": 4,
                 "mnemonic": "MP_MOUVEMENT_LV_ARRIERE",
-                "label_index": "57319",
+                "label_index": "@P57319",
                 "label_korean": "리어 전동 윈도우 이동",
                 "group_id": "39746",
                 "req_frame_id": "119536",
@@ -940,7 +940,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_TENSION_CALCULATEUR_PORTE",
-                "label_index": "57320",
+                "label_index": "@P57320",
                 "label_korean": "도어 ECU 전압",
                 "group_id": "39744",
                 "req_frame_id": "119530",
@@ -962,7 +962,7 @@
             {
                 "position": 2,
                 "mnemonic": "MP_ALIMENTATION_COMMUTATEURS_LV_AVANT",
-                "label_index": "57282",
+                "label_index": "@P57282",
                 "label_korean": "프론트 전동 윈도우 스위치 전원 공급",
                 "group_id": "39744",
                 "req_frame_id": "119530",
@@ -986,7 +986,7 @@
             {
                 "position": 3,
                 "mnemonic": "MP_ETAT_ALIMENTATION_COMMUTATEUR_LV_ARRIERE",
-                "label_index": "57105",
+                "label_index": "@P57105",
                 "label_korean": "리어 윈도우 와인더 스위치의 전원 공급",
                 "group_id": "39744",
                 "req_frame_id": "119530",
@@ -1016,7 +1016,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_TENSION_CALCULATEUR_PORTE",
-                "label_index": "57320",
+                "label_index": "@P57320",
                 "label_korean": "도어 ECU 전압",
                 "group_id": "39744",
                 "req_frame_id": "119530",
@@ -1038,7 +1038,7 @@
             {
                 "position": 2,
                 "mnemonic": "MP_ALIMENTATION_POTENTIOMETRE_POSITION_RETROVISEUR_EXTERIEUR",
-                "label_index": "57318",
+                "label_index": "@P57318",
                 "label_korean": "외부 미러 위치 포텐시오미터 전원 공급",
                 "group_id": "39744",
                 "req_frame_id": "119530",
@@ -1063,7 +1063,7 @@
             {
                 "position": 3,
                 "mnemonic": "MP_ALIMENTATION_COMMUTATEURS_LV_AVANT",
-                "label_index": "57282",
+                "label_index": "@P57282",
                 "label_korean": "프론트 전동 윈도우 스위치 전원 공급",
                 "group_id": "39744",
                 "req_frame_id": "119530",
@@ -1087,7 +1087,7 @@
             {
                 "position": 4,
                 "mnemonic": "MP_ETAT_ALIMENTATION_CAPT_POS_CMD_OUV_EXT_RETRACTABLE",
-                "label_index": "57274",
+                "label_index": "@P57274",
                 "label_korean": "접이식 외부 열림 제어 장치 위치 센서의 전원 공급 상태",
                 "group_id": "39744",
                 "req_frame_id": "119530",
@@ -1120,7 +1120,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_TEMPERATURE_EXTERIEURE",
-                "label_index": "5253",
+                "label_index": "@P5253",
                 "label_korean": "외부 온도",
                 "group_id": "39745",
                 "req_frame_id": "119533",
@@ -1142,7 +1142,7 @@
             {
                 "position": 2,
                 "mnemonic": "MP_INFORMATION_CHOC",
-                "label_index": "48811",
+                "label_index": "@P48811",
                 "label_korean": "충격 정보",
                 "group_id": "39747",
                 "req_frame_id": "119539",
@@ -1175,7 +1175,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_TEMPERATURE_EXTERIEURE",
-                "label_index": "5253",
+                "label_index": "@P5253",
                 "label_korean": "외부 온도",
                 "group_id": "39745",
                 "req_frame_id": "119533",
@@ -1197,7 +1197,7 @@
             {
                 "position": 2,
                 "mnemonic": "MP_INFORMATION_CHOC",
-                "label_index": "48811",
+                "label_index": "@P48811",
                 "label_korean": "충격 정보",
                 "group_id": "39747",
                 "req_frame_id": "119539",
@@ -1222,7 +1222,7 @@
             {
                 "position": 3,
                 "mnemonic": "MP_POSITION_COMMANDE_OUVERTURE_EXTER_RETRACTABLE",
-                "label_index": "57819",
+                "label_index": "@P57819",
                 "label_korean": "접이식 외부 열림 제어 장치 위치",
                 "group_id": "39743",
                 "req_frame_id": "119527",
@@ -1249,7 +1249,7 @@
             {
                 "position": 4,
                 "mnemonic": "MP_RAPPORT_OUVERTURE_CAPT_POSITION_CMD_OUVERTURE_EXT_RETRACTABLE",
-                "label_index": "57272",
+                "label_index": "@P57272",
                 "label_korean": "접이식 외부 열림 제어 장치 위치 센서의 열림 비율",
                 "group_id": "39748",
                 "req_frame_id": "119542",

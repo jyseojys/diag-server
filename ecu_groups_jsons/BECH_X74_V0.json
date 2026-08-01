@@ -8,7 +8,7 @@
             {
                 "position": 1,
                 "mnemonic": "ID_NOM_DU_FOURNISSEUR",
-                "label_index": "5701",
+                "label_index": "@P5701",
                 "label_korean": "제조 업체명",
                 "group_id": "28628",
                 "req_frame_id": "85889",
@@ -38,7 +38,7 @@
             {
                 "position": 2,
                 "mnemonic": "ID_REFERENCE_MATERIEL",
-                "label_index": "1071",
+                "label_index": "@P1071",
                 "label_korean": "장치 부품 번호",
                 "group_id": "28628",
                 "req_frame_id": "85889",
@@ -60,7 +60,7 @@
             {
                 "position": 3,
                 "mnemonic": "ID_REFERENCE_COMPLEMENTAIRE_MATERIEL",
-                "label_index": "1634",
+                "label_index": "@P1634",
                 "label_korean": "장치 추가 참조 번호",
                 "group_id": "28628",
                 "req_frame_id": "85889",
@@ -82,7 +82,7 @@
             {
                 "position": 4,
                 "mnemonic": "ID_TRACABILITE_INDICE_EVOLUTION_EDITION",
-                "label_index": "13235",
+                "label_index": "@P13235@\\*",
                 "label_korean": "소프트웨어 버전",
                 "group_id": "28628",
                 "req_frame_id": "85889",
@@ -104,7 +104,7 @@
             {
                 "position": 5,
                 "mnemonic": "ID_TRACABILITE_DATE_FABRICATION",
-                "label_index": "14355",
+                "label_index": "@P14355",
                 "label_korean": "제조일자",
                 "group_id": "28629",
                 "req_frame_id": "85892",
@@ -126,7 +126,7 @@
             {
                 "position": 6,
                 "mnemonic": "ID_TRACA_NUM_SERIE_ASCII",
-                "label_index": "7592",
+                "label_index": "@P7592",
                 "label_korean": "부품 일련 번호",
                 "group_id": "28630",
                 "req_frame_id": "85895",
@@ -156,7 +156,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_BECH_TYPE_CARBURANT",
-                "label_index": "35352",
+                "label_index": "@P35352",
                 "label_korean": "연료 타입",
                 "group_id": "28631",
                 "req_frame_id": "85898",
@@ -182,7 +182,7 @@
             {
                 "position": 2,
                 "mnemonic": "MP_BECH_RESISTANCE_DOIGT_INCONDESCENCE",
-                "label_index": "51429",
+                "label_index": "@P51429",
                 "label_korean": "백열 핑거의 저항",
                 "group_id": "28635",
                 "req_frame_id": "85910",
@@ -204,7 +204,7 @@
             {
                 "position": 3,
                 "mnemonic": "MP_BECH_TENSION_ALIM",
-                "label_index": "51425",
+                "label_index": "@P51425",
                 "label_korean": "추가 히팅 ECU의 공급 전압",
                 "group_id": "28635",
                 "req_frame_id": "85910",
@@ -226,7 +226,7 @@
             {
                 "position": 4,
                 "mnemonic": "MP_BECH_TEMPERATURE_EAU",
-                "label_index": "51431",
+                "label_index": "@P51431",
                 "label_korean": "추가 히팅 ECU에 의해 측정된 엔진 냉각수 온도",
                 "group_id": "28635",
                 "req_frame_id": "85910",
@@ -248,7 +248,7 @@
             {
                 "position": 5,
                 "mnemonic": "MP_BECH_ETAT_COMMANDE",
-                "label_index": "51423",
+                "label_index": "@P51423",
                 "label_korean": "냉각수 히터 켜기 제어 상태",
                 "group_id": "28635",
                 "req_frame_id": "85910",
@@ -270,7 +270,7 @@
             {
                 "position": 6,
                 "mnemonic": "MP_BECH_POSITION_ELECTROVANNE",
-                "label_index": "51432",
+                "label_index": "@P51432",
                 "label_korean": "내부 연소 엔진의 히팅 회로 솔레노이드 밸브 위치",
                 "group_id": "28632",
                 "req_frame_id": "85901",
@@ -286,13 +286,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "52490, 52489, 52580, 52581",
+                "help_code": "@P52490@\\*8@\\*30@\\n@P52489@\\*70@\\*92@\\n@P52580@\\*0@\\*8@\\n@P52581@\\*92@\\*100",
                 "help_korean": "값이 8~30% 사이일 경우 솔레노이드 밸브가 열린 것으로 간주된다\n값이 8~30% 사이일 경우 솔레노이드 밸브가 닫힌 것으로 간주된다\n값이 8~30% 사이일 때 솔레노이드 밸브의 위치 센서에서 분류되지 않은 고장이 감지되었다\n값이 8~30% 사이일 때 솔레노이드 밸브의 위치 센서에서 단락 또는 단선 고장이 감지되었다"
             },
             {
                 "position": 7,
                 "mnemonic": "MP_BECH_TEMPS_FONCTIONNEMENT",
-                "label_index": "51433",
+                "label_index": "@P51433",
                 "label_korean": "연소 중 냉각수 히터의 총 작동 시간",
                 "group_id": "28633",
                 "req_frame_id": "85904",
@@ -314,7 +314,7 @@
             {
                 "position": 8,
                 "mnemonic": "MP_BECH_NB_DEMARRAGE",
-                "label_index": "51420",
+                "label_index": "@P51420",
                 "label_korean": "냉각수 히터의 총 시동 횟수",
                 "group_id": "28633",
                 "req_frame_id": "85904",
@@ -336,7 +336,7 @@
             {
                 "position": 9,
                 "mnemonic": "MP_BECH_TPS_FONCTIONNEMENT_PAE",
-                "label_index": "51434",
+                "label_index": "@P51434",
                 "label_korean": "냉각수 히터의 냉각수 펌프 총 작동 시간",
                 "group_id": "28634",
                 "req_frame_id": "85907",
@@ -358,7 +358,7 @@
             {
                 "position": 10,
                 "mnemonic": "MP_BECH_TPS_FONCTIONNEMENT_PAE_DEPUIS_REMPLACEMENT",
-                "label_index": "51435",
+                "label_index": "@P51435",
                 "label_korean": "냉각수 히터 교체 이후 냉각수 히터의 냉각수 펌프 작동 시간",
                 "group_id": "28634",
                 "req_frame_id": "85907",
@@ -380,7 +380,7 @@
             {
                 "position": 11,
                 "mnemonic": "MP_VITESSE_TURBINE_AIR",
-                "label_index": "52583",
+                "label_index": "@P52583",
                 "label_korean": "냉각수 히터 터빈의 회전 속도",
                 "group_id": "28635",
                 "req_frame_id": "85910",
@@ -402,7 +402,7 @@
             {
                 "position": 12,
                 "mnemonic": "MP_FREQUENCE_SIGNAL_COMMANDE_POMPE_CARBURANT",
-                "label_index": "52582",
+                "label_index": "@P52582",
                 "label_korean": "냉각수 히터 연료 미터링 펌프로부터의 컨트롤 신호 주파수",
                 "group_id": "28635",
                 "req_frame_id": "85910",
@@ -424,7 +424,7 @@
             {
                 "position": 13,
                 "mnemonic": "MP_BECH_Etat_Du_chauffage",
-                "label_index": "6425",
+                "label_index": "@P6425",
                 "label_korean": "추가 히팅 상태",
                 "group_id": "28635",
                 "req_frame_id": "85910",

@@ -8,7 +8,7 @@
             {
                 "position": 1,
                 "mnemonic": "ID_TRACABILITE_NUMERO_DE_SERIE_PIECE",
-                "label_index": "13534",
+                "label_index": "@P13534",
                 "label_korean": "일련 번호",
                 "group_id": "26355",
                 "req_frame_id": "79070",
@@ -30,7 +30,7 @@
             {
                 "position": 2,
                 "mnemonic": "LIN_Part_Number_Sunroof",
-                "label_index": "7837",
+                "label_index": "@P7837",
                 "label_korean": "부품 번호",
                 "group_id": "26355",
                 "req_frame_id": "79070",
@@ -52,7 +52,7 @@
             {
                 "position": 3,
                 "mnemonic": "ID_VERSION_LOGICIEL_new_1",
-                "label_index": "8662",
+                "label_index": "@P8662@\\*",
                 "label_korean": "소프트웨어 버전",
                 "group_id": "26355",
                 "req_frame_id": "79070",
@@ -82,7 +82,7 @@
             {
                 "position": 1,
                 "mnemonic": "Lid_Position",
-                "label_index": "13311",
+                "label_index": "@P13311",
                 "label_korean": "패널의 위치",
                 "group_id": "26356",
                 "req_frame_id": "79073",
@@ -104,7 +104,7 @@
             {
                 "position": 2,
                 "mnemonic": "Lid_Position_Initial_State",
-                "label_index": "4370",
+                "label_index": "@P4370",
                 "label_korean": "선루프의 초기화",
                 "group_id": "26356",
                 "req_frame_id": "79073",
@@ -120,13 +120,13 @@
                 "bit_mask": 1,
                 "bit_shift": 0,
                 "dynamic_arg": "",
-                "help_code": "44348, 44353, 44350",
-                "help_korean": "변수가 \"진행되지 않음\"\n- 상태일 때, 다음 초기화 절차를 적용한다 :\n이 변수는 배터리 충전 상태 ECU에 의해 측정된 배터리를 순환하는 전류의 암페어를 나타낸다 변수의 상태가 \"진행됨\"일 때까지 버튼을 지속적으로 누른다"
+                "help_code": "@P44348@T :@\\n@P44353@\\+@P44350",
+                "help_korean": "변수가 \"진행되지 않음\" 상태일 때, 다음 초기화 절차를 적용한다 :\n이 변수는 배터리 충전 상태 ECU에 의해 측정된 배터리를 순환하는 전류의 암페어를 나타낸다변수의 상태가 \"진행됨\"일 때까지 버튼을 지속적으로 누른다"
             },
             {
                 "position": 3,
                 "mnemonic": "Overload_Absolute_Detection",
-                "label_index": "12256",
+                "label_index": "@P12256@\\*",
                 "label_korean": "모터의 고착에 의해 감지된 세이프티 오토-리버스",
                 "group_id": "26357",
                 "req_frame_id": "79076",
@@ -142,13 +142,13 @@
                 "bit_mask": 1,
                 "bit_shift": 0,
                 "dynamic_arg": "",
-                "help_code": "7990",
+                "help_code": "@P7990",
                 "help_korean": "작동 : 엔진 블록에서 기계적인 결함이 있다"
             },
             {
                 "position": 4,
                 "mnemonic": "Overload_Relative_Detection",
-                "label_index": "11878",
+                "label_index": "@P11878@\\*",
                 "label_korean": "전기적인 신호에 의해 감지된 세이프티 오토-리버스",
                 "group_id": "26357",
                 "req_frame_id": "79076",
@@ -164,13 +164,13 @@
                 "bit_mask": 2,
                 "bit_shift": 1,
                 "dynamic_arg": "",
-                "help_code": "14491",
+                "help_code": "@P14491",
                 "help_korean": "작동 : 패널 앞에 장애물이 감지되었다"
             },
             {
                 "position": 5,
                 "mnemonic": "Lid_State",
-                "label_index": "10561",
+                "label_index": "@P10561@\\*",
                 "label_korean": "패널 상태",
                 "group_id": "26360",
                 "req_frame_id": "79085",
@@ -197,7 +197,7 @@
             {
                 "position": 6,
                 "mnemonic": "Sleep",
-                "label_index": "14369",
+                "label_index": "@P14369@\\*",
                 "label_korean": "대기 모드",
                 "group_id": "26360",
                 "req_frame_id": "79085",
@@ -219,7 +219,7 @@
             {
                 "position": 7,
                 "mnemonic": "Motor_Active",
-                "label_index": "9768",
+                "label_index": "@P9768@\\*",
                 "label_korean": "모터 작동",
                 "group_id": "26360",
                 "req_frame_id": "79085",
@@ -249,7 +249,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_TENSION_ALIMENTATION",
-                "label_index": "7080",
+                "label_index": "@P7080",
                 "label_korean": "공급 전압",
                 "group_id": "26358",
                 "req_frame_id": "79079",
@@ -271,7 +271,7 @@
             {
                 "position": 2,
                 "mnemonic": "MP_COMMANDE_TO",
-                "label_index": "4030",
+                "label_index": "@P4030",
                 "label_korean": "선루프 제어",
                 "group_id": "26359",
                 "req_frame_id": "79082",
@@ -293,7 +293,7 @@
             {
                 "position": 3,
                 "mnemonic": "Ignition_SW",
-                "label_index": "1993",
+                "label_index": "@P1993@\\*",
                 "label_korean": "점등 제어",
                 "group_id": "26359",
                 "req_frame_id": "79082",
@@ -315,8 +315,8 @@
             {
                 "position": 4,
                 "mnemonic": "Ignition_SW_LIN",
-                "label_index": "15001",
-                "label_korean": "IGN LIN (LIN 상태)",
+                "label_index": "@P15001",
+                "label_korean": "+IGN LIN (LIN 상태)",
                 "group_id": "26359",
                 "req_frame_id": "79082",
                 "resp_frame_id": "79083",
@@ -337,7 +337,7 @@
             {
                 "position": 5,
                 "mnemonic": "Lid_OperationAccept",
-                "label_index": "5788",
+                "label_index": "@P5788",
                 "label_korean": "패널의 작동 승인",
                 "group_id": "26359",
                 "req_frame_id": "79082",
@@ -359,7 +359,7 @@
             {
                 "position": 6,
                 "mnemonic": "Multi_Close",
-                "label_index": "1732",
+                "label_index": "@P1732@\\*",
                 "label_korean": "다중 닫힘",
                 "group_id": "26359",
                 "req_frame_id": "79082",
@@ -381,7 +381,7 @@
             {
                 "position": 7,
                 "mnemonic": "Sunroof_OperationMode",
-                "label_index": "11180",
+                "label_index": "@P11180",
                 "label_korean": "선루프 작동 절차",
                 "group_id": "26359",
                 "req_frame_id": "79082",
@@ -403,7 +403,7 @@
             {
                 "position": 8,
                 "mnemonic": "MP_VITESSE_VEHICULE_c",
-                "label_index": "7997",
+                "label_index": "@P7997",
                 "label_korean": "차량 속도",
                 "group_id": "26359",
                 "req_frame_id": "79082",
@@ -437,7 +437,7 @@
             {
                 "position": 1,
                 "mnemonic": "Open_SW_1",
-                "label_index": "2886",
+                "label_index": "@P2886@\\*1",
                 "label_korean": "열림 제어1",
                 "group_id": "26361",
                 "req_frame_id": "79088",
@@ -459,7 +459,7 @@
             {
                 "position": 2,
                 "mnemonic": "Close_SW_1",
-                "label_index": "6929",
+                "label_index": "@P6929@\\*1",
                 "label_korean": "닫힘 제어1",
                 "group_id": "26361",
                 "req_frame_id": "79088",
@@ -481,7 +481,7 @@
             {
                 "position": 3,
                 "mnemonic": "Tilt_Up_1",
-                "label_index": "5817",
+                "label_index": "@P5817@\\*1",
                 "label_korean": "위로1 일부 열림",
                 "group_id": "26361",
                 "req_frame_id": "79088",
@@ -503,7 +503,7 @@
             {
                 "position": 4,
                 "mnemonic": "Multi_Close_1",
-                "label_index": "1732",
+                "label_index": "@P1732@\\*1",
                 "label_korean": "다중 닫힘1",
                 "group_id": "26361",
                 "req_frame_id": "79088",
@@ -525,7 +525,7 @@
             {
                 "position": 5,
                 "mnemonic": "Overload_Detection_1",
-                "label_index": "12591",
+                "label_index": "@P12591@\\*1",
                 "label_korean": "과부하1 감지",
                 "group_id": "26361",
                 "req_frame_id": "79088",
@@ -547,7 +547,7 @@
             {
                 "position": 6,
                 "mnemonic": "Ignition_SW_1",
-                "label_index": "1993",
+                "label_index": "@P1993@\\*1",
                 "label_korean": "점등 제어1",
                 "group_id": "26361",
                 "req_frame_id": "79088",
@@ -569,7 +569,7 @@
             {
                 "position": 7,
                 "mnemonic": "Motor_Actuate_1",
-                "label_index": "8040",
+                "label_index": "@P8040@\\*1",
                 "label_korean": "모터1의 제어",
                 "group_id": "26361",
                 "req_frame_id": "79088",
@@ -591,7 +591,7 @@
             {
                 "position": 8,
                 "mnemonic": "Window_Lock_SW_1",
-                "label_index": "8466",
+                "label_index": "@P8466@\\*1",
                 "label_korean": "윈도우 닫힘 제어1",
                 "group_id": "26361",
                 "req_frame_id": "79088",
@@ -613,7 +613,7 @@
             {
                 "position": 9,
                 "mnemonic": "Open_SW_2",
-                "label_index": "2886",
+                "label_index": "@P2886@\\*2",
                 "label_korean": "열림 제어2",
                 "group_id": "26361",
                 "req_frame_id": "79088",
@@ -635,7 +635,7 @@
             {
                 "position": 10,
                 "mnemonic": "Close_SW_2",
-                "label_index": "6929",
+                "label_index": "@P6929@\\*2",
                 "label_korean": "닫힘 제어2",
                 "group_id": "26361",
                 "req_frame_id": "79088",
@@ -657,7 +657,7 @@
             {
                 "position": 11,
                 "mnemonic": "Tilt_Up_2",
-                "label_index": "5817",
+                "label_index": "@P5817@\\*2",
                 "label_korean": "위로2 일부 열림",
                 "group_id": "26361",
                 "req_frame_id": "79088",
@@ -679,7 +679,7 @@
             {
                 "position": 12,
                 "mnemonic": "Multi_Close_2",
-                "label_index": "1732",
+                "label_index": "@P1732@\\*2",
                 "label_korean": "다중 닫힘2",
                 "group_id": "26361",
                 "req_frame_id": "79088",
@@ -701,7 +701,7 @@
             {
                 "position": 13,
                 "mnemonic": "Overload_Detection_2",
-                "label_index": "12591",
+                "label_index": "@P12591@\\*2",
                 "label_korean": "과부하2 감지",
                 "group_id": "26361",
                 "req_frame_id": "79088",
@@ -723,7 +723,7 @@
             {
                 "position": 14,
                 "mnemonic": "Ignition_SW_2",
-                "label_index": "1993",
+                "label_index": "@P1993@\\*2",
                 "label_korean": "점등 제어2",
                 "group_id": "26361",
                 "req_frame_id": "79088",
@@ -745,7 +745,7 @@
             {
                 "position": 15,
                 "mnemonic": "Motor_Actuate_2",
-                "label_index": "8040",
+                "label_index": "@P8040@\\*2",
                 "label_korean": "모터2의 제어",
                 "group_id": "26361",
                 "req_frame_id": "79088",
@@ -767,7 +767,7 @@
             {
                 "position": 16,
                 "mnemonic": "Window_Lock_SW_2",
-                "label_index": "8466",
+                "label_index": "@P8466@\\*2",
                 "label_korean": "윈도우 닫힘 제어2",
                 "group_id": "26361",
                 "req_frame_id": "79088",
@@ -789,7 +789,7 @@
             {
                 "position": 17,
                 "mnemonic": "Open_SW_3",
-                "label_index": "2886",
+                "label_index": "@P2886@\\*3",
                 "label_korean": "열림 제어3",
                 "group_id": "26361",
                 "req_frame_id": "79088",
@@ -811,7 +811,7 @@
             {
                 "position": 18,
                 "mnemonic": "Close_SW_3",
-                "label_index": "6929",
+                "label_index": "@P6929@\\*3",
                 "label_korean": "닫힘 제어3",
                 "group_id": "26361",
                 "req_frame_id": "79088",
@@ -833,7 +833,7 @@
             {
                 "position": 19,
                 "mnemonic": "Tilt_Up_3",
-                "label_index": "5817",
+                "label_index": "@P5817@\\*3",
                 "label_korean": "위로3 일부 열림",
                 "group_id": "26361",
                 "req_frame_id": "79088",
@@ -855,7 +855,7 @@
             {
                 "position": 20,
                 "mnemonic": "Multi_Close_3",
-                "label_index": "1732",
+                "label_index": "@P1732@\\*3",
                 "label_korean": "다중 닫힘3",
                 "group_id": "26361",
                 "req_frame_id": "79088",
@@ -877,7 +877,7 @@
             {
                 "position": 21,
                 "mnemonic": "Overload_Detection_3",
-                "label_index": "12591",
+                "label_index": "@P12591@\\*3",
                 "label_korean": "과부하3 감지",
                 "group_id": "26361",
                 "req_frame_id": "79088",
@@ -899,7 +899,7 @@
             {
                 "position": 22,
                 "mnemonic": "Ignition_SW_3",
-                "label_index": "1993",
+                "label_index": "@P1993@\\*3",
                 "label_korean": "점등 제어3",
                 "group_id": "26361",
                 "req_frame_id": "79088",
@@ -921,7 +921,7 @@
             {
                 "position": 23,
                 "mnemonic": "Motor_Actuate_3",
-                "label_index": "8040",
+                "label_index": "@P8040@\\*3",
                 "label_korean": "모터3의 제어",
                 "group_id": "26361",
                 "req_frame_id": "79088",
@@ -943,7 +943,7 @@
             {
                 "position": 24,
                 "mnemonic": "Window_Lock_SW_3",
-                "label_index": "8466",
+                "label_index": "@P8466@\\*3",
                 "label_korean": "윈도우 닫힘 제어3",
                 "group_id": "26361",
                 "req_frame_id": "79088",
@@ -965,7 +965,7 @@
             {
                 "position": 25,
                 "mnemonic": "Open_SW_4",
-                "label_index": "2886",
+                "label_index": "@P2886@\\*4",
                 "label_korean": "열림 제어4",
                 "group_id": "26361",
                 "req_frame_id": "79088",
@@ -987,7 +987,7 @@
             {
                 "position": 26,
                 "mnemonic": "Close_SW_4",
-                "label_index": "6929",
+                "label_index": "@P6929@\\*4",
                 "label_korean": "닫힘 제어4",
                 "group_id": "26361",
                 "req_frame_id": "79088",
@@ -1009,7 +1009,7 @@
             {
                 "position": 27,
                 "mnemonic": "Tilt_Up_4",
-                "label_index": "5817",
+                "label_index": "@P5817@\\*4",
                 "label_korean": "위로4 일부 열림",
                 "group_id": "26361",
                 "req_frame_id": "79088",
@@ -1031,7 +1031,7 @@
             {
                 "position": 28,
                 "mnemonic": "Multi_Close_4",
-                "label_index": "1732",
+                "label_index": "@P1732@\\*4",
                 "label_korean": "다중 닫힘4",
                 "group_id": "26361",
                 "req_frame_id": "79088",
@@ -1053,7 +1053,7 @@
             {
                 "position": 29,
                 "mnemonic": "Overload_Detection_4",
-                "label_index": "12591",
+                "label_index": "@P12591@\\*4",
                 "label_korean": "과부하4 감지",
                 "group_id": "26361",
                 "req_frame_id": "79088",
@@ -1075,7 +1075,7 @@
             {
                 "position": 30,
                 "mnemonic": "Ignition_SW_4",
-                "label_index": "1993",
+                "label_index": "@P1993@\\*4",
                 "label_korean": "점등 제어4",
                 "group_id": "26361",
                 "req_frame_id": "79088",
@@ -1097,7 +1097,7 @@
             {
                 "position": 31,
                 "mnemonic": "Motor_Actuate_4",
-                "label_index": "8040",
+                "label_index": "@P8040@\\*4",
                 "label_korean": "모터4의 제어",
                 "group_id": "26361",
                 "req_frame_id": "79088",
@@ -1119,7 +1119,7 @@
             {
                 "position": 32,
                 "mnemonic": "Window_Lock_SW_4",
-                "label_index": "8466",
+                "label_index": "@P8466@\\*4",
                 "label_korean": "윈도우 닫힘 제어4",
                 "group_id": "26361",
                 "req_frame_id": "79088",

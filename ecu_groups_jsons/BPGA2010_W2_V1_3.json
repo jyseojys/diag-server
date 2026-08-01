@@ -8,7 +8,7 @@
             {
                 "position": 1,
                 "mnemonic": "ID_NOM_DU_FOURNISSEUR",
-                "label_index": "5701",
+                "label_index": "@P5701",
                 "label_korean": "제조 업체명",
                 "group_id": "72808",
                 "req_frame_id": "218712",
@@ -38,7 +38,7 @@
             {
                 "position": 2,
                 "mnemonic": "ID_REFERENCE_MATERIEL",
-                "label_index": "1071",
+                "label_index": "@P1071",
                 "label_korean": "장치 부품 번호",
                 "group_id": "72808",
                 "req_frame_id": "218712",
@@ -60,7 +60,7 @@
             {
                 "position": 3,
                 "mnemonic": "ID_REFERENCE_COMPLEMENTAIRE_MATERIEL",
-                "label_index": "1634",
+                "label_index": "@P1634",
                 "label_korean": "장치 추가 참조 번호",
                 "group_id": "72808",
                 "req_frame_id": "218712",
@@ -82,7 +82,7 @@
             {
                 "position": 4,
                 "mnemonic": "ID_MESS_DIAGNOSTIC",
-                "label_index": "2459",
+                "label_index": "@P2459",
                 "label_korean": "진단 이메일",
                 "group_id": "72808",
                 "req_frame_id": "218712",
@@ -104,7 +104,7 @@
             {
                 "position": 5,
                 "mnemonic": "ID_80_MP_INDICE_MESS",
-                "label_index": "2225",
+                "label_index": "@P2225",
                 "label_korean": "메시지 인덱스",
                 "group_id": "72808",
                 "req_frame_id": "218712",
@@ -126,7 +126,7 @@
             {
                 "position": 6,
                 "mnemonic": "ID_TRACABILITE_DATE_FABRICATION",
-                "label_index": "16589",
+                "label_index": "@P16589",
                 "label_korean": "제조 일자",
                 "group_id": "72810",
                 "req_frame_id": "218718",
@@ -148,7 +148,7 @@
             {
                 "position": 7,
                 "mnemonic": "ID_TRACABILITE_NUMERO_DE_SERIE_PIECE",
-                "label_index": "7592",
+                "label_index": "@F7592",
                 "label_korean": "부품 일련 번호",
                 "group_id": "72811",
                 "req_frame_id": "218721",
@@ -178,7 +178,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_COMMANDE_RELAIS_CPC",
-                "label_index": "17298",
+                "label_index": "@P17298",
                 "label_korean": "CPC 전원 릴레이 제어 상태",
                 "group_id": "72812",
                 "req_frame_id": "218724",
@@ -194,13 +194,13 @@
                 "bit_mask": 1,
                 "bit_shift": 0,
                 "dynamic_arg": "",
-                "help_code": "17340",
+                "help_code": "@P17340@T.",
                 "help_korean": "배선에 의해 수신된 BSI 제어."
             },
             {
                 "position": 2,
                 "mnemonic": "MP_DEMANDE_MISE_CONTACT",
-                "label_index": "16986",
+                "label_index": "@P16986",
                 "label_korean": "키 ON 요청",
                 "group_id": "72813",
                 "req_frame_id": "218727",
@@ -216,13 +216,13 @@
                 "bit_mask": 1,
                 "bit_shift": 0,
                 "dynamic_arg": "",
-                "help_code": "16964",
+                "help_code": "@P16964@T.",
                 "help_korean": "요청은 엔진 시동 스위치로부터 배선에 의해 수신되거나 또는 키 스위치의 점화 위치로부터 수신된다."
             },
             {
                 "position": 3,
                 "mnemonic": "MP_ETAT_RELAIS_PRINCIPAL_CMM",
-                "label_index": "17273",
+                "label_index": "@P17273",
                 "label_korean": "엔진 ECU 메인 전원 릴레이의 상태",
                 "group_id": "72814",
                 "req_frame_id": "218730",
@@ -238,13 +238,13 @@
                 "bit_mask": 1,
                 "bit_shift": 0,
                 "dynamic_arg": "",
-                "help_code": "17289",
+                "help_code": "@P17289@T.",
                 "help_korean": "배선에 의해 수신된 상태."
             },
             {
                 "position": 4,
                 "mnemonic": "MP_ETAT_RELAIS_CPC",
-                "label_index": "17392",
+                "label_index": "@P17392",
                 "label_korean": "CPC 전원 릴레이의 상태",
                 "group_id": "72816",
                 "req_frame_id": "218736",
@@ -260,7 +260,7 @@
                 "bit_mask": 1,
                 "bit_shift": 0,
                 "dynamic_arg": "",
-                "help_code": "17433",
+                "help_code": "@P17433@T.",
                 "help_korean": "CPC 전원 릴레이의 물리적인 상태."
             }
         ]

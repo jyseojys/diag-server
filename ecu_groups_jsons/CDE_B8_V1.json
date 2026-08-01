@@ -8,7 +8,7 @@
             {
                 "position": 1,
                 "mnemonic": "ID_NOM_DU_FOURNISSEUR",
-                "label_index": "5701",
+                "label_index": "@P5701",
                 "label_korean": "제조 업체명",
                 "group_id": "110236",
                 "req_frame_id": "331053",
@@ -38,7 +38,7 @@
             {
                 "position": 2,
                 "mnemonic": "ID_REFERENCE_MATERIEL",
-                "label_index": "1071",
+                "label_index": "@P1071",
                 "label_korean": "장치 부품 번호",
                 "group_id": "110236",
                 "req_frame_id": "331053",
@@ -60,7 +60,7 @@
             {
                 "position": 3,
                 "mnemonic": "ID_REFERENCE_COMPLEMENTAIRE_MATERIEL",
-                "label_index": "1634",
+                "label_index": "@P1634",
                 "label_korean": "장치 추가 참조 번호",
                 "group_id": "110236",
                 "req_frame_id": "331053",
@@ -82,7 +82,7 @@
             {
                 "position": 4,
                 "mnemonic": "ID_ZI_FILE",
-                "label_index": "3627",
+                "label_index": "@P3627",
                 "label_korean": "캘리브레이션 파일 번호",
                 "group_id": "110237",
                 "req_frame_id": "331056",
@@ -104,7 +104,7 @@
             {
                 "position": 5,
                 "mnemonic": "ID_TRACABILITE_INDICE_EVOLUTION_EDITION_CALIBRATION",
-                "label_index": "7413",
+                "label_index": "@P7413",
                 "label_korean": "캘리브레이션 에디션",
                 "group_id": "110237",
                 "req_frame_id": "331056",
@@ -126,7 +126,7 @@
             {
                 "position": 6,
                 "mnemonic": "ID_TRACABILITE_INDICE_EVOLUTION_EDITION",
-                "label_index": "24601",
+                "label_index": "@P24601",
                 "label_korean": "소프트웨어 버전",
                 "group_id": "110236",
                 "req_frame_id": "331053",
@@ -148,7 +148,7 @@
             {
                 "position": 7,
                 "mnemonic": "ID_DATE_TELECH",
-                "label_index": "21670",
+                "label_index": "@P21670",
                 "label_korean": "다운로딩 날짜",
                 "group_id": "110237",
                 "req_frame_id": "331056",
@@ -170,7 +170,7 @@
             {
                 "position": 8,
                 "mnemonic": "ID_NOMBRE_DE_TELECHARGEMENT",
-                "label_index": "24589",
+                "label_index": "@P24589",
                 "label_korean": "다운로드의 수",
                 "group_id": "110237",
                 "req_frame_id": "331056",
@@ -192,7 +192,7 @@
             {
                 "position": 9,
                 "mnemonic": "ID_MESS_DIAGNOSTIC",
-                "label_index": "2459",
+                "label_index": "@P2459",
                 "label_korean": "진단 이메일",
                 "group_id": "110236",
                 "req_frame_id": "331053",
@@ -214,7 +214,7 @@
             {
                 "position": 10,
                 "mnemonic": "ID_80_MP_INDICE_MESS",
-                "label_index": "2225",
+                "label_index": "@P2225",
                 "label_korean": "메시지 인덱스",
                 "group_id": "110236",
                 "req_frame_id": "331053",
@@ -236,7 +236,7 @@
             {
                 "position": 11,
                 "mnemonic": "ID_TRACABILITE_DATE_FABRICATION",
-                "label_index": "14355",
+                "label_index": "@P14355",
                 "label_korean": "제조일자",
                 "group_id": "110238",
                 "req_frame_id": "331059",
@@ -258,7 +258,7 @@
             {
                 "position": 12,
                 "mnemonic": "ID_TRACABILITE_NUMERO_DE_SERIE_PIECE",
-                "label_index": "7592",
+                "label_index": "@P7592",
                 "label_korean": "부품 일련 번호",
                 "group_id": "110239",
                 "req_frame_id": "331062",
@@ -288,7 +288,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_TEMPS_UTILISATION_CD",
-                "label_index": "16886",
+                "label_index": "@P16886",
                 "label_korean": "CD 플레이어 사용 시간",
                 "group_id": "110241",
                 "req_frame_id": "331068",
@@ -310,7 +310,7 @@
             {
                 "position": 2,
                 "mnemonic": "MP_NOMBRE_RESET",
-                "label_index": "31087",
+                "label_index": "@P31087",
                 "label_korean": "CD 플레이어 리셋의 수",
                 "group_id": "110242",
                 "req_frame_id": "331071",
@@ -326,13 +326,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "31088, 31089",
-                "help_korean": "이 변수는 외부 CD 플레이어 ECU의 내부 결함 이후 리셋 횟수를 정의한다. 이 변수는 데이터 값이 255보다 높거나 또는 결함 U1F0A가 기록될 경우 0으로 리셋한다, U1F0F, U1F03."
+                "help_code": "@P31088@T.@\\+@P31089@\\*255@\\*U1F0A, U1F0F, U1F03@T.",
+                "help_korean": "이 변수는 외부 CD 플레이어 ECU의 내부 결함 이후 리셋 횟수를 정의한다.이 변수는 데이터 값이 255보다 높거나 또는 결함 U1F0A가 기록될 경우 0으로 리셋한다, U1F0F, U1F03."
             },
             {
                 "position": 3,
                 "mnemonic": "MP_IMPLANTATION_LECTEUR_Cde",
-                "label_index": "27932",
+                "label_index": "@P27932",
                 "label_korean": "CD 플레이어의 위치",
                 "group_id": "110240",
                 "req_frame_id": "331065",
@@ -348,8 +348,8 @@
                 "bit_mask": 1,
                 "bit_shift": 0,
                 "dynamic_arg": "",
-                "help_code": "31090, 31091",
-                "help_korean": "대시보드에 CD 플레이어가 설치되어 있을 경우, 재생이 안될 때 CD의 자동 추출이 승인되고 백라이트가 차단된다. CD 플레이어가 글로브박스에 설치되어 있을 경우, 재생이 안될 때 CD의 자동 추출이 승인되고 백라이트가 차단된다"
+                "help_code": "@P31090@T.@\\+@P31091",
+                "help_korean": "대시보드에 CD 플레이어가 설치되어 있을 경우, 재생이 안될 때 CD의 자동 추출이 승인되고 백라이트가 차단된다.CD 플레이어가 글로브박스에 설치되어 있을 경우, 재생이 안될 때 CD의 자동 추출이 승인되고 백라이트가 차단된다"
             }
         ]
     },
@@ -362,7 +362,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_TEMPS_UTILISATION_CD",
-                "label_index": "16886",
+                "label_index": "@P16886",
                 "label_korean": "CD 플레이어 사용 시간",
                 "group_id": "110241",
                 "req_frame_id": "331068",
@@ -384,7 +384,7 @@
             {
                 "position": 2,
                 "mnemonic": "MP_NOMBRE_RESET",
-                "label_index": "31087",
+                "label_index": "@P31087",
                 "label_korean": "CD 플레이어 리셋의 수",
                 "group_id": "110242",
                 "req_frame_id": "331071",
@@ -400,13 +400,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "31088, 31089",
-                "help_korean": "이 변수는 외부 CD 플레이어 ECU의 내부 결함 이후 리셋 횟수를 정의한다. 이 변수는 데이터 값이 255보다 높거나 또는 결함 U1F0A가 기록될 경우 0으로 리셋한다, U1F0F, U1F03."
+                "help_code": "@P31088@T.@\\+@P31089@\\*255@\\*U1F0A, U1F0F, U1F03@T.",
+                "help_korean": "이 변수는 외부 CD 플레이어 ECU의 내부 결함 이후 리셋 횟수를 정의한다.이 변수는 데이터 값이 255보다 높거나 또는 결함 U1F0A가 기록될 경우 0으로 리셋한다, U1F0F, U1F03."
             },
             {
                 "position": 3,
                 "mnemonic": "MP_IMPLANTATION_LECTEUR_Cde",
-                "label_index": "27932",
+                "label_index": "@P27932",
                 "label_korean": "CD 플레이어의 위치",
                 "group_id": "110240",
                 "req_frame_id": "331065",
@@ -422,13 +422,13 @@
                 "bit_mask": 1,
                 "bit_shift": 0,
                 "dynamic_arg": "",
-                "help_code": "31090, 31091",
-                "help_korean": "대시보드에 CD 플레이어가 설치되어 있을 경우, 재생이 안될 때 CD의 자동 추출이 승인되고 백라이트가 차단된다. CD 플레이어가 글로브박스에 설치되어 있을 경우, 재생이 안될 때 CD의 자동 추출이 승인되고 백라이트가 차단된다"
+                "help_code": "@P31090@T.@\\+@P31091",
+                "help_korean": "대시보드에 CD 플레이어가 설치되어 있을 경우, 재생이 안될 때 CD의 자동 추출이 승인되고 백라이트가 차단된다.CD 플레이어가 글로브박스에 설치되어 있을 경우, 재생이 안될 때 CD의 자동 추출이 승인되고 백라이트가 차단된다"
             },
             {
                 "position": 4,
                 "mnemonic": "MP_GESTION_REPERTOIRE_RACINE",
-                "label_index": "31092",
+                "label_index": "@P31092",
                 "label_korean": "CD에 씌여진 데이터의 터치스크린에서 표시 명령",
                 "group_id": "110240",
                 "req_frame_id": "331065",
@@ -447,13 +447,13 @@
                 "bit_mask": 2,
                 "bit_shift": 1,
                 "dynamic_arg": "",
-                "help_code": "31093",
+                "help_code": "@P31093",
                 "help_korean": "이 변수는 CD에 씌여진 터치스크린에서 표시 명령을 정의한다"
             },
             {
                 "position": 5,
                 "mnemonic": "MP_GESTION_TYPE_LISTE",
-                "label_index": "31094",
+                "label_index": "@P31094",
                 "label_korean": "관리되어야 할 리스트의 타입",
                 "group_id": "110240",
                 "req_frame_id": "331065",
@@ -472,8 +472,8 @@
                 "bit_mask": 4,
                 "bit_shift": 2,
                 "dynamic_arg": "",
-                "help_code": "31095, 31096, 31097",
-                "help_korean": "이 변수는 CD에 씌여진 데이터를 터치스크린에서 표시하는 타입을 나타낸다. 외부 CD 플레이어가 SMEG 오디오-네비게이션에 연결되어 있을 경우, 파일은 순서데로 분류된 폴더에 모아진다. 외부 CD 플레이어가 SMEG 오디오-네비게이션에 연결되어 있을 경우, 파일은 하나씩 표시된다."
+                "help_code": "@P31095@T.@\\+@P31096@T.@\\+@P31097@T.",
+                "help_korean": "이 변수는 CD에 씌여진 데이터를 터치스크린에서 표시하는 타입을 나타낸다.외부 CD 플레이어가 SMEG+ 오디오-네비게이션에 연결되어 있을 경우, 파일은 순서데로 분류된 폴더에 모아진다.외부 CD 플레이어가 SMEG+ 오디오-네비게이션에 연결되어 있을 경우, 파일은 하나씩 표시된다."
             }
         ]
     }

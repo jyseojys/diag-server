@@ -8,7 +8,7 @@
             {
                 "position": 1,
                 "mnemonic": "ID_CODE_ISO",
-                "label_index": "13988",
+                "label_index": "@P13988",
                 "label_korean": "ISO 번호",
                 "group_id": "51102",
                 "req_frame_id": "153603",
@@ -30,7 +30,7 @@
             {
                 "position": 2,
                 "mnemonic": "ID_REFERENCE_MATERIEL",
-                "label_index": "1071",
+                "label_index": "@P1071",
                 "label_korean": "장치 부품 번호",
                 "group_id": "51102",
                 "req_frame_id": "153603",
@@ -52,7 +52,7 @@
             {
                 "position": 3,
                 "mnemonic": "ID_HARD",
-                "label_index": "12954",
+                "label_index": "@P12954",
                 "label_korean": "하드웨어 버전",
                 "group_id": "51102",
                 "req_frame_id": "153603",
@@ -74,7 +74,7 @@
             {
                 "position": 4,
                 "mnemonic": "ID_REFERENCE_LOGICIEL",
-                "label_index": "13263",
+                "label_index": "@P13263",
                 "label_korean": "소프트웨어 번호",
                 "group_id": "51102",
                 "req_frame_id": "153603",
@@ -96,7 +96,7 @@
             {
                 "position": 5,
                 "mnemonic": "ID_TRACABILITE_INDICE_EVOLUTION_EDITION",
-                "label_index": "13235",
+                "label_index": "@P13235@\\*",
                 "label_korean": "소프트웨어 버전",
                 "group_id": "51102",
                 "req_frame_id": "153603",
@@ -118,7 +118,7 @@
             {
                 "position": 6,
                 "mnemonic": "ID_DATE_TELECH",
-                "label_index": "21670",
+                "label_index": "@P21670",
                 "label_korean": "다운로딩 날짜",
                 "group_id": "51103",
                 "req_frame_id": "153606",
@@ -148,7 +148,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_KILOMETRAGE_ODOMETRE",
-                "label_index": "61286",
+                "label_index": "@P61286",
                 "label_korean": "원래 VIN이 마지막으로 잠금 해제된 이후 주행한 거리(km)",
                 "group_id": "51108",
                 "req_frame_id": "153621",
@@ -164,13 +164,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "61287, 61288",
+                "help_code": "@P61287@\\*255@\\n@P61288@\\*5",
                 "help_korean": "최대 값은 255km이다\n원래 VIN은 255km 거리가 지나면 자동으로 잠긴다"
             },
             {
                 "position": 2,
                 "mnemonic": "MP_ETAT_VERROUILLAGE_VIN_ORIGINAL_ODOMETRE",
-                "label_index": "61284",
+                "label_index": "@P61284",
                 "label_korean": "주행 기록계를 기준으로 원래 VIN의 잠금 상태",
                 "group_id": "51108",
                 "req_frame_id": "153621",
@@ -197,7 +197,7 @@
             {
                 "position": 3,
                 "mnemonic": "MP_KILOMETRAGE_TOTAL",
-                "label_index": "13763",
+                "label_index": "@P13763",
                 "label_korean": "주행한 총 거리",
                 "group_id": "51110",
                 "req_frame_id": "153627",
@@ -219,7 +219,7 @@
             {
                 "position": 4,
                 "mnemonic": "MP_ETAT_VERROUILLAGE_VIN_ORIGINAL",
-                "label_index": "61282",
+                "label_index": "@P61282",
                 "label_korean": "원래 VIN 잠금 상태",
                 "group_id": "51106",
                 "req_frame_id": "153615",
@@ -253,7 +253,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_ETAT_CLE_BCM",
-                "label_index": "62400",
+                "label_index": "@P62400@\\*(BCM)",
                 "label_korean": "BSI에서 전송된 점화 스위치 켜짐 상태(BCM)",
                 "group_id": "51104",
                 "req_frame_id": "153609",
@@ -299,7 +299,7 @@
             {
                 "position": 2,
                 "mnemonic": "MP_TENSION_BATTERIE",
-                "label_index": "27741",
+                "label_index": "@P27741",
                 "label_korean": "서비스 배터리 전압",
                 "group_id": "51109",
                 "req_frame_id": "153624",
@@ -323,7 +323,7 @@
             {
                 "position": 3,
                 "mnemonic": "MP_VITESSE_VEHICULE",
-                "label_index": "9267",
+                "label_index": "@P9267",
                 "label_korean": "차량 속도",
                 "group_id": "51107",
                 "req_frame_id": "153618",
@@ -451,7 +451,7 @@
             {
                 "position": 5,
                 "mnemonic": "MP_INDICATEUR_MAINTENACE",
-                "label_index": "@TTBT�tat l'indicateur de maintenance ",
+                "label_index": "@TTBT�tat l'indicateur de maintenance",
                 "label_korean": "TBT�tat l'indicateur de maintenance",
                 "group_id": "51105",
                 "req_frame_id": "153612",
@@ -476,7 +476,7 @@
             {
                 "position": 6,
                 "mnemonic": "MP_SYSTEM_PASSIF",
-                "label_index": "62387",
+                "label_index": "@P62387",
                 "label_korean": "시스템 일시적으로 수동적",
                 "group_id": "51105",
                 "req_frame_id": "153612",
@@ -501,7 +501,7 @@
             {
                 "position": 7,
                 "mnemonic": "MP_ETAT_REMORQUE",
-                "label_index": "8399",
+                "label_index": "@P8399",
                 "label_korean": "트레일러 존재 정보",
                 "group_id": "51111",
                 "req_frame_id": "153630",
@@ -536,7 +536,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_ETAT_CLE_BCM",
-                "label_index": "62400",
+                "label_index": "@P62400@\\*(BCM)",
                 "label_korean": "BSI에서 전송된 점화 스위치 켜짐 상태(BCM)",
                 "group_id": "51104",
                 "req_frame_id": "153609",

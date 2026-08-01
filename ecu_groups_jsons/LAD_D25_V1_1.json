@@ -8,7 +8,7 @@
             {
                 "position": 1,
                 "mnemonic": "ID_REFERENCE_FOURNISSEUR",
-                "label_index": "633",
+                "label_index": "@P633",
                 "label_korean": "제조업체",
                 "group_id": "64567",
                 "req_frame_id": "193985",
@@ -34,7 +34,7 @@
             {
                 "position": 2,
                 "mnemonic": "ID_REFERENCE_PSA",
-                "label_index": "8615",
+                "label_index": "@P8615",
                 "label_korean": "PSA 부품 번호",
                 "group_id": "64567",
                 "req_frame_id": "193985",
@@ -56,7 +56,7 @@
             {
                 "position": 3,
                 "mnemonic": "ID_NUM_COMP_new_2",
-                "label_index": "5292",
+                "label_index": "@P5292",
                 "label_korean": "추가 번호",
                 "group_id": "64567",
                 "req_frame_id": "193985",
@@ -78,7 +78,7 @@
             {
                 "position": 4,
                 "mnemonic": "ID_VERSION_LOGICIEL_new_1",
-                "label_index": "8662",
+                "label_index": "@P8662@\\*",
                 "label_korean": "소프트웨어 버전",
                 "group_id": "64567",
                 "req_frame_id": "193985",
@@ -100,7 +100,7 @@
             {
                 "position": 5,
                 "mnemonic": "ID_REF_CALIBRATION_new_1",
-                "label_index": "7014",
+                "label_index": "@P7014",
                 "label_korean": "캘리브레이션 버전",
                 "group_id": "64567",
                 "req_frame_id": "193985",
@@ -122,7 +122,7 @@
             {
                 "position": 6,
                 "mnemonic": "ID_VERSION_DIAGNOSTIC_new_1",
-                "label_index": "14029",
+                "label_index": "@P14029",
                 "label_korean": "진단 버전",
                 "group_id": "64567",
                 "req_frame_id": "193985",
@@ -152,7 +152,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_VITESSE_VEHICULE_a",
-                "label_index": "7997",
+                "label_index": "@P7997@\\*",
                 "label_korean": "차량 속도",
                 "group_id": "64568",
                 "req_frame_id": "193988",
@@ -172,13 +172,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "6266",
+                "help_code": "@P6266",
                 "help_korean": "ESP ECU로부터 정보"
             },
             {
                 "position": 2,
                 "mnemonic": "MP_ASSIETTE_VEHICULE",
-                "label_index": "12496",
+                "label_index": "@P12496",
                 "label_korean": "차량 탑승 높이",
                 "group_id": "64568",
                 "req_frame_id": "193988",
@@ -194,13 +194,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "14231, 45659",
+                "help_code": "@P14231@\\n@P45659",
                 "help_korean": "방향형 헤드램프가 장착된 차량에서만 작동\n서스펜션 ECU에서 전송된 정보"
             },
             {
                 "position": 3,
                 "mnemonic": "MP_VALEUR_CORRECTION_SITE",
-                "label_index": "5846",
+                "label_index": "@P5846",
                 "label_korean": "헤드램프 높이 조정 값",
                 "group_id": "64568",
                 "req_frame_id": "193988",
@@ -216,13 +216,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "3617",
+                "help_code": "@P3617",
                 "help_korean": "높이 조정 모터로 보내진 기준 값 (수직 조정)"
             },
             {
                 "position": 4,
                 "mnemonic": "MP_VALEUR_CORRECTION_AZIMUT",
-                "label_index": "13941",
+                "label_index": "@P13941",
                 "label_korean": "방위 조정 값",
                 "group_id": "64568",
                 "req_frame_id": "193988",
@@ -238,13 +238,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "6136",
+                "help_code": "@P6136",
                 "help_korean": "방위 조정 모터로 보내진 기준 값 (\"방향형 전조등 하향\" 기능을 위한 수평 보정)"
             },
             {
                 "position": 5,
                 "mnemonic": "MP_ANGLE_VOLANT_a",
-                "label_index": "1274",
+                "label_index": "@P1274",
                 "label_korean": "스티어링 휠 앵글",
                 "group_id": "64568",
                 "req_frame_id": "193988",
@@ -262,13 +262,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "14231, 13022",
+                "help_code": "@P14231@\\n@P13022",
                 "help_korean": "방향형 헤드램프가 장착된 차량에서만 작동\n스티어링 휠 앵글 센서로부터 정보"
             },
             {
                 "position": 6,
                 "mnemonic": "MP_FCT_CODE_TOURNANT",
-                "label_index": "7351",
+                "label_index": "@P7351",
                 "label_korean": "\"방향형 헤드램프\" 기능 상태",
                 "group_id": "64568",
                 "req_frame_id": "193988",
@@ -284,13 +284,13 @@
                 "bit_mask": 1,
                 "bit_shift": 0,
                 "dynamic_arg": "",
-                "help_code": "14231",
+                "help_code": "@P14231",
                 "help_korean": "방향형 헤드램프가 장착된 차량에서만 작동"
             },
             {
                 "position": 7,
                 "mnemonic": "MP_INFORMATION_JOUR_NUIT",
-                "label_index": "7930",
+                "label_index": "@P7930",
                 "label_korean": "주간/야간 정보 상태",
                 "group_id": "64568",
                 "req_frame_id": "193988",
@@ -306,7 +306,7 @@
                 "bit_mask": 128,
                 "bit_shift": 7,
                 "dynamic_arg": "",
-                "help_code": "11005",
+                "help_code": "@P11005",
                 "help_korean": "BSI에 의해 전송된 정보"
             }
         ]
@@ -320,7 +320,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_VITESSE_VEHICULE_c",
-                "label_index": "7997",
+                "label_index": "@P7997",
                 "label_korean": "차량 속도",
                 "group_id": "64570",
                 "req_frame_id": "193994",
@@ -346,7 +346,7 @@
             {
                 "position": 2,
                 "mnemonic": "MP_TENSION_ALIMENTATION_CALCULATEUR_C0",
-                "label_index": "14064",
+                "label_index": "@P14064",
                 "label_korean": "제어 장치 공급 전압",
                 "group_id": "64570",
                 "req_frame_id": "193994",
@@ -368,7 +368,7 @@
             {
                 "position": 3,
                 "mnemonic": "MP_Designateur_Calculateur",
-                "label_index": "22743",
+                "label_index": "@P22743",
                 "label_korean": "ECU의 설계",
                 "group_id": "64570",
                 "req_frame_id": "193994",
@@ -395,7 +395,7 @@
             {
                 "position": 4,
                 "mnemonic": "ETAT_FONCTION_DE_CORRECTION",
-                "label_index": "22633",
+                "label_index": "@P22633",
                 "label_korean": "조정 기능의 상태",
                 "group_id": "64570",
                 "req_frame_id": "193994",
@@ -426,7 +426,7 @@
             {
                 "position": 5,
                 "mnemonic": "MP_ETAT_COM_CAN",
-                "label_index": "22724",
+                "label_index": "@P22724",
                 "label_korean": "CAN 통신 상태",
                 "group_id": "64570",
                 "req_frame_id": "193994",
@@ -451,7 +451,7 @@
             {
                 "position": 6,
                 "mnemonic": "MP_RISQUE_EBLOUISSEMENT",
-                "label_index": "22666",
+                "label_index": "@P22666",
                 "label_korean": "눈부심의 위험",
                 "group_id": "64570",
                 "req_frame_id": "193994",
@@ -476,7 +476,7 @@
             {
                 "position": 7,
                 "mnemonic": "Signal_capteur_Avant",
-                "label_index": "22774",
+                "label_index": "@P22774",
                 "label_korean": "프론트 센서 신호 (센서 장착의 경우)",
                 "group_id": "64570",
                 "req_frame_id": "193994",
@@ -498,7 +498,7 @@
             {
                 "position": 8,
                 "mnemonic": "Signal_capteur_Arriere",
-                "label_index": "22634",
+                "label_index": "@P22634",
                 "label_korean": "리어 센서 신호 (센서 장착의 경우)",
                 "group_id": "64570",
                 "req_frame_id": "193994",
@@ -520,7 +520,7 @@
             {
                 "position": 9,
                 "mnemonic": "MP_ASSIETTE_VEHICULE_1",
-                "label_index": "9206",
+                "label_index": "@P9206",
                 "label_korean": "차고 높이 (방향형 헤드램프와 서스펜션 ECU가 있을 경우)",
                 "group_id": "64570",
                 "req_frame_id": "193994",
@@ -542,7 +542,7 @@
             {
                 "position": 10,
                 "mnemonic": "Position_Moteur_De_Site",
-                "label_index": "22694",
+                "label_index": "@P22694",
                 "label_korean": "헤드램프 높이 조정 모터의 위치",
                 "group_id": "64570",
                 "req_frame_id": "193994",
@@ -564,7 +564,7 @@
             {
                 "position": 11,
                 "mnemonic": "POSITION_MOTEUR_AZIMIT",
-                "label_index": "22652",
+                "label_index": "@P22652",
                 "label_korean": "방위 모터의 위치",
                 "group_id": "64570",
                 "req_frame_id": "193994",
@@ -586,7 +586,7 @@
             {
                 "position": 12,
                 "mnemonic": "MP_ANGLE_VOLANT",
-                "label_index": "1274",
+                "label_index": "@P1274",
                 "label_korean": "스티어링 휠 앵글",
                 "group_id": "64570",
                 "req_frame_id": "193994",
@@ -604,7 +604,7 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "14231, 13022",
+                "help_code": "@P14231@\\n@P13022",
                 "help_korean": "방향형 헤드램프가 장착된 차량에서만 작동\n스티어링 휠 앵글 센서로부터 정보"
             }
         ]

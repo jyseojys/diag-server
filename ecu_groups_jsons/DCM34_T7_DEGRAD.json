@@ -8,7 +8,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_ID_FOURNISSEUR",
-                "label_index": "5701",
+                "label_index": "@P5701",
                 "label_korean": "제조 업체명",
                 "group_id": "31818",
                 "req_frame_id": "95737",
@@ -35,7 +35,7 @@
             {
                 "position": 2,
                 "mnemonic": "ID_REFERENCE_MATERIEL",
-                "label_index": "1071",
+                "label_index": "@P1071",
                 "label_korean": "장치 부품 번호",
                 "group_id": "31818",
                 "req_frame_id": "95737",
@@ -57,7 +57,7 @@
             {
                 "position": 3,
                 "mnemonic": "ID_REFERENCE_COMPLEMENTAIRE_MATERIEL",
-                "label_index": "1634",
+                "label_index": "@P1634",
                 "label_korean": "장치 추가 참조 번호",
                 "group_id": "31818",
                 "req_frame_id": "95737",
@@ -79,7 +79,7 @@
             {
                 "position": 4,
                 "mnemonic": "ID_REFERENCE_LOGICIEL",
-                "label_index": "13263",
+                "label_index": "@P13263",
                 "label_korean": "소프트웨어 번호",
                 "group_id": "31819",
                 "req_frame_id": "95740",
@@ -101,7 +101,7 @@
             {
                 "position": 5,
                 "mnemonic": "DIAGNOSTIC_VERSION",
-                "label_index": "2802",
+                "label_index": "@P2802",
                 "label_korean": "진단 버전",
                 "group_id": "31818",
                 "req_frame_id": "95737",
@@ -123,7 +123,7 @@
             {
                 "position": 6,
                 "mnemonic": "ID_REFERENCE_FOURNISSEUR",
-                "label_index": "633",
+                "label_index": "@P633",
                 "label_korean": "제조업체",
                 "group_id": "매핑_누락",
                 "req_frame_id": "",
@@ -149,7 +149,7 @@
             {
                 "position": 7,
                 "mnemonic": "ID_ZI_CODE_SYSTEME",
-                "label_index": "10699",
+                "label_index": "@P10699@\\*",
                 "label_korean": "시스템",
                 "group_id": "31819",
                 "req_frame_id": "95740",
@@ -171,7 +171,7 @@
             {
                 "position": 8,
                 "mnemonic": "ID_FE_APPLICATION_FE",
-                "label_index": "9135",
+                "label_index": "@P9135",
                 "label_korean": "체결",
                 "group_id": "31819",
                 "req_frame_id": "95740",
@@ -193,7 +193,7 @@
             {
                 "position": 9,
                 "mnemonic": "ID_VERSION_LOGICIEL",
-                "label_index": "8662",
+                "label_index": "@P8662",
                 "label_korean": "소프트웨어 버전",
                 "group_id": "31819",
                 "req_frame_id": "95740",
@@ -215,7 +215,7 @@
             {
                 "position": 10,
                 "mnemonic": "ID_EDITION_LOGICIEL",
-                "label_index": "24601",
+                "label_index": "@P24601",
                 "label_korean": "소프트웨어 버전",
                 "group_id": "31819",
                 "req_frame_id": "95740",
@@ -245,7 +245,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_REGIME_MOTEUR",
-                "label_index": "7917",
+                "label_index": "@P7917",
                 "label_korean": "엔진 속도",
                 "group_id": "31822",
                 "req_frame_id": "95749",
@@ -263,13 +263,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "3269",
+                "help_code": "@P3269",
                 "help_korean": "엔진 회전 속도, 분당 회전수"
             },
             {
                 "position": 2,
                 "mnemonic": "MP_DEBIT_INJECTE_MESURE",
-                "label_index": "11270",
+                "label_index": "@P11270",
                 "label_korean": "측정된 분사량",
                 "group_id": "31824",
                 "req_frame_id": "95755",
@@ -285,13 +285,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "11480",
+                "help_code": "@P11480",
                 "help_korean": "고압 라인에서 연료량"
             },
             {
                 "position": 3,
                 "mnemonic": "MP_SYNCHRONISATION_AAC_VILEBREQUIN",
-                "label_index": "11088",
+                "label_index": "@P11088",
                 "label_korean": "캠축/크랭크축 동기화",
                 "group_id": "31829",
                 "req_frame_id": "95770",
@@ -318,13 +318,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "3045",
+                "help_code": "@P3045",
                 "help_korean": "엔진 속도 정보를 취득한 후에, ECU는 동기화된 분사를 시작하기 전에 캠축 센서로부터 정보를 기다린다"
             },
             {
                 "position": 4,
                 "mnemonic": "MP_CONSIGNE_PRESSION_CARBURANT",
-                "label_index": "3458",
+                "label_index": "@P3458@\\*",
                 "label_korean": "기준 연료 압력",
                 "group_id": "31824",
                 "req_frame_id": "95755",
@@ -340,13 +340,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "12607",
+                "help_code": "@P12607",
                 "help_korean": "고압 레일에서 도달해야 할 연료 압력"
             },
             {
                 "position": 5,
                 "mnemonic": "MP_PRESSION_CARBURANT_MESURE",
-                "label_index": "13069",
+                "label_index": "@P13069",
                 "label_korean": "측정된 연료 압력",
                 "group_id": "31824",
                 "req_frame_id": "95755",
@@ -362,13 +362,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "9090",
+                "help_code": "@P9090",
                 "help_korean": "고압 레일에서 측정된 연료 압력"
             },
             {
                 "position": 6,
                 "mnemonic": "MP_ETAT_REGULATION_PRESSION_CARBURANT",
-                "label_index": "31341",
+                "label_index": "@P31341",
                 "label_korean": "연료 압력 조절 상태",
                 "group_id": "31824",
                 "req_frame_id": "95755",
@@ -390,13 +390,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "9803",
+                "help_code": "@P9803",
                 "help_korean": "연료 압력 제어가 작동하는지를 설명한다"
             },
             {
                 "position": 7,
                 "mnemonic": "MP_COURANT_REGULATEUR_DE_DEBIT",
-                "label_index": "15909",
+                "label_index": "@P15909",
                 "label_korean": "플로우 레귤레이터 전류",
                 "group_id": "31824",
                 "req_frame_id": "95755",
@@ -412,13 +412,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "7473",
+                "help_code": "@P7473",
                 "help_korean": "연료량 레귤레이터 제어 전류"
             },
             {
                 "position": 8,
                 "mnemonic": "MP_ETAT_ACTIVATION_STRATEGIES_CORRECTION_OUVERTURE_INJECTEUR",
-                "label_index": "4990",
+                "label_index": "@P4990",
                 "label_korean": "인젝터 열림 조정 프로그램 작동 상태",
                 "group_id": "31824",
                 "req_frame_id": "95755",
@@ -455,7 +455,7 @@
             {
                 "position": 9,
                 "mnemonic": "MP_ETAT_ERREUR_COMMANDE_INJECTEURS",
-                "label_index": "7984",
+                "label_index": "@P7984",
                 "label_korean": "인젝터 제어 오류 상태",
                 "group_id": "31824",
                 "req_frame_id": "95755",
@@ -471,13 +471,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "16250",
+                "help_code": "@P16250",
                 "help_korean": "ECU는 인젝터를 제어하는 파워 단계를 모니터한다"
             },
             {
                 "position": 10,
                 "mnemonic": "RCO_COMMANDE_REGULATION_DEBIT_CARBURANT_a",
-                "label_index": "6203",
+                "label_index": "@P6203",
                 "label_korean": "연료량 조절 OCR",
                 "group_id": "31824",
                 "req_frame_id": "95755",
@@ -493,13 +493,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "2070",
+                "help_code": "@P2070",
                 "help_korean": "고압 연료 펌프 연료량 조절 솔레노이드 밸브의 열림 비율"
             },
             {
                 "position": 11,
                 "mnemonic": "MP_DEBIT_CARBURANT_INJECTION__PRINCIPALE",
-                "label_index": "5225",
+                "label_index": "@P5225",
                 "label_korean": "메인 분사량",
                 "group_id": "31829",
                 "req_frame_id": "95770",
@@ -515,13 +515,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "8814",
+                "help_code": "@P8814",
                 "help_korean": "메인 분사 중 분사된 연료량"
             },
             {
                 "position": 12,
                 "mnemonic": "MP_AVANCE_PRE_INJECTION",
-                "label_index": "5082",
+                "label_index": "@P5082",
                 "label_korean": "사전 분사 진각",
                 "group_id": "31829",
                 "req_frame_id": "95770",
@@ -537,13 +537,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "16276",
+                "help_code": "@P16276@\\*1",
                 "help_korean": "피스톤의 상사점에 따라 사전 분사 (분사1)"
             },
             {
                 "position": 13,
                 "mnemonic": "MP_DUREE_PREINJECTION_1",
-                "label_index": "14884",
+                "label_index": "@P14884@\\*1",
                 "label_korean": "사전-분사1 시간",
                 "group_id": "31829",
                 "req_frame_id": "95770",
@@ -559,13 +559,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "1",
-                "help_code": "7094",
+                "help_code": "@P7094",
                 "help_korean": "첫번째 연료 사전 분사 시간 (µs)"
             },
             {
                 "position": 14,
                 "mnemonic": "MP_DEBIT_PRE_INJECTION_01",
-                "label_index": "15703",
+                "label_index": "@P15703@\\*1",
                 "label_korean": "예비 분사량1",
                 "group_id": "31829",
                 "req_frame_id": "95770",
@@ -581,13 +581,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "1",
-                "help_code": "16832",
+                "help_code": "@P16832",
                 "help_korean": "첫번째 사전-분사 중 분사된 연료량"
             },
             {
                 "position": 15,
                 "mnemonic": "MP_DUREE_PREINJECTION_2",
-                "label_index": "14884",
+                "label_index": "@P14884@\\*2",
                 "label_korean": "사전-분사2 시간",
                 "group_id": "31829",
                 "req_frame_id": "95770",
@@ -603,13 +603,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "2",
-                "help_code": "15208",
+                "help_code": "@P15208",
                 "help_korean": "두번째 연료 사전 분사 시간 (µs)"
             },
             {
                 "position": 16,
                 "mnemonic": "MP_DEBIT_PRE_INJECTION_02",
-                "label_index": "15703",
+                "label_index": "@P15703@\\*2",
                 "label_korean": "예비 분사량2",
                 "group_id": "31829",
                 "req_frame_id": "95770",
@@ -625,13 +625,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "2",
-                "help_code": "5552",
+                "help_code": "@P5552",
                 "help_korean": "2차 예비 분사 중 분사된 연료량"
             },
             {
                 "position": 17,
                 "mnemonic": "MP_DUREE_INJECTION_PRINCIPALE",
-                "label_index": "1748",
+                "label_index": "@P1748",
                 "label_korean": "메인 분사 시간",
                 "group_id": "31829",
                 "req_frame_id": "95770",
@@ -647,13 +647,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "45089, 8008",
-                "help_korean": "메인 연료 분사 기간 µS"
+                "help_code": "@P45089@\\+@P8008",
+                "help_korean": "메인 연료 분사 기간µS"
             },
             {
                 "position": 18,
                 "mnemonic": "MP_CORRECTION_DEBIT_INJECTEUR_01",
-                "label_index": "11838",
+                "label_index": "@P11838@\\*1",
                 "label_korean": "실린더 인젝터1 분사량 보정",
                 "group_id": "31824",
                 "req_frame_id": "95755",
@@ -669,13 +669,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "1",
-                "help_code": "40882, 43918",
-                "help_korean": "엔진 ECU에 의해 첫번째 실린더에 분사량 보정 비율.값이 µs 또는 µs에 도달할 경우 결함이 보고된다-500 500"
+                "help_code": "@P40882@T.@P43918@\\*-500@\\*+500",
+                "help_korean": "엔진 ECU에 의해 첫번째 실린더에 분사량 보정 비율.값이 µs 또는 µs에 도달할 경우 결함이 보고된다-500+500"
             },
             {
                 "position": 19,
                 "mnemonic": "MP_CORRECTION_DEBIT_INJECTEUR_03",
-                "label_index": "11838",
+                "label_index": "@P11838@\\*3",
                 "label_korean": "실린더 인젝터3 분사량 보정",
                 "group_id": "31824",
                 "req_frame_id": "95755",
@@ -691,13 +691,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "3",
-                "help_code": "40881, 43918",
-                "help_korean": "엔진 ECU에 의해서 실린더3의 분사량 보정 비율.값이 3µs 또는 µs에 도달할 경우 결함이 보고된다-500 500"
+                "help_code": "@P40881@\\*3@T.@P43918@\\*-500@\\*+500",
+                "help_korean": "엔진 ECU에 의해서 실린더3의 분사량 보정 비율.값이 3µs 또는 µs에 도달할 경우 결함이 보고된다-500+500"
             },
             {
                 "position": 20,
                 "mnemonic": "MP_CORRECTION_DEBIT_INJECTEUR_04",
-                "label_index": "11838",
+                "label_index": "@P11838@\\*4",
                 "label_korean": "실린더 인젝터4 분사량 보정",
                 "group_id": "31824",
                 "req_frame_id": "95755",
@@ -713,13 +713,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "4",
-                "help_code": "40881, 43918",
-                "help_korean": "엔진 ECU에 의해서 실린더4의 분사량 보정 비율.값이 4µs 또는 µs에 도달할 경우 결함이 보고된다-500 500"
+                "help_code": "@P40881@\\*4@T.@P43918@\\*-500@\\*+500",
+                "help_korean": "엔진 ECU에 의해서 실린더4의 분사량 보정 비율.값이 4µs 또는 µs에 도달할 경우 결함이 보고된다-500+500"
             },
             {
                 "position": 21,
                 "mnemonic": "MP_CORRECTION_DEBIT_INJECTEUR_02",
-                "label_index": "11838",
+                "label_index": "@P11838@\\*2",
                 "label_korean": "실린더 인젝터2 분사량 보정",
                 "group_id": "31824",
                 "req_frame_id": "95755",
@@ -735,13 +735,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "2",
-                "help_code": "40881, 43918",
-                "help_korean": "엔진 ECU에 의해서 실린더2의 분사량 보정 비율.값이 2µs 또는 µs에 도달할 경우 결함이 보고된다-500 500"
+                "help_code": "@P40881@\\*2@T.@P43918@\\*-500@\\*+500",
+                "help_korean": "엔진 ECU에 의해서 실린더2의 분사량 보정 비율.값이 2µs 또는 µs에 도달할 경우 결함이 보고된다-500+500"
             },
             {
                 "position": 22,
                 "mnemonic": "MP_TEMPEAU",
-                "label_index": "10576",
+                "label_index": "@P10576",
                 "label_korean": "냉각수 온도",
                 "group_id": "31823",
                 "req_frame_id": "95752",
@@ -757,13 +757,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "6733",
+                "help_code": "@P6733",
                 "help_korean": "허용되는 냉각수 온도 (실제 값)"
             },
             {
                 "position": 23,
                 "mnemonic": "MP_TEMPERATURE_CARBURANT_c",
-                "label_index": "3480",
+                "label_index": "@P3480@\\*",
                 "label_korean": "연료 온도",
                 "group_id": "31824",
                 "req_frame_id": "95755",
@@ -779,7 +779,7 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "11784",
+                "help_code": "@P11784",
                 "help_korean": "디젤 리턴 라인에서 연료 온도"
             }
         ]
@@ -793,7 +793,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_APPRENTISSAGE_BUTEE_HAUTE_TURBO_2",
-                "label_index": "14172",
+                "label_index": "@P14172",
                 "label_korean": "터보 상단 한계 프로그래밍",
                 "group_id": "31830",
                 "req_frame_id": "95773",
@@ -815,7 +815,7 @@
             {
                 "position": 2,
                 "mnemonic": "MP_APPRENTISSAGE_BUTEE_BASSE_TURBO_2",
-                "label_index": "14244",
+                "label_index": "@P14244",
                 "label_korean": "터보 하단 한계 프로그래밍",
                 "group_id": "31830",
                 "req_frame_id": "95773",
@@ -845,7 +845,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_APPRENTISSAGE_OFFSET_PRESSION_DIFFERENTIELLE_FAP_2",
-                "label_index": "5382",
+                "label_index": "@P5382",
                 "label_korean": "압력 차이 오프셋 프로그래밍",
                 "group_id": "31830",
                 "req_frame_id": "95773",
@@ -875,7 +875,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_REGIME_MOTEUR",
-                "label_index": "7917",
+                "label_index": "@P7917",
                 "label_korean": "엔진 속도",
                 "group_id": "31822",
                 "req_frame_id": "95749",
@@ -893,13 +893,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "3269",
+                "help_code": "@P3269",
                 "help_korean": "엔진 회전 속도, 분당 회전수"
             },
             {
                 "position": 2,
                 "mnemonic": "MP_DEBIT_AIR_MESURE",
-                "label_index": "12500",
+                "label_index": "@P12500",
                 "label_korean": "측정된 에어 플로우",
                 "group_id": "31825",
                 "req_frame_id": "95758",
@@ -915,13 +915,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "14254",
+                "help_code": "@P14254",
                 "help_korean": "EGR 밸브의 제어를 위해 측정된 공기량"
             },
             {
                 "position": 3,
                 "mnemonic": "MP_CONSIGNE_DEBIT_AIR_a",
-                "label_index": "3733",
+                "label_index": "@P3733",
                 "label_korean": "에어 플로우 세팅",
                 "group_id": "31825",
                 "req_frame_id": "95758",
@@ -937,13 +937,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "14379",
+                "help_code": "@P14379",
                 "help_korean": "EGR 밸브의 제어를 위해 흡기 매니폴드에서 도달해야 할 공기량"
             },
             {
                 "position": 4,
                 "mnemonic": "MP_RECOPIE_POSITION_VANNE_EGR",
-                "label_index": "8396",
+                "label_index": "@P8396",
                 "label_korean": "ERG 밸브 위치 복사",
                 "group_id": "31825",
                 "req_frame_id": "95758",
@@ -959,13 +959,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "13539",
+                "help_code": "@P13539",
                 "help_korean": "위치 반복 센서에 의해서 기록된 EGR 밸브 열림 값"
             },
             {
                 "position": 5,
                 "mnemonic": "MP_ETAT_DE_REGULATION_VANNE_EGR",
-                "label_index": "13809",
+                "label_index": "@P13809",
                 "label_korean": "EGR 제어 상태",
                 "group_id": "31825",
                 "req_frame_id": "95758",
@@ -981,13 +981,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "14913",
+                "help_code": "@P14913",
                 "help_korean": "엔진은 배기 가스의 추가 또는 배기 가스의 추가 없이 작동한다"
             },
             {
                 "position": 6,
                 "mnemonic": "MP_RECOPIE_POSITION_TURBO",
-                "label_index": "3421",
+                "label_index": "@P3421",
                 "label_korean": "터보 위치 복사",
                 "group_id": "31826",
                 "req_frame_id": "95761",
@@ -1003,13 +1003,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "12146",
+                "help_code": "@P12146",
                 "help_korean": "포지션 센서에 의해 기록된 터보 압력 조절 솔레노이드 밸브"
             },
             {
                 "position": 7,
                 "mnemonic": "MP_RCO_EV_PRESSION_TURBO",
-                "label_index": "10099",
+                "label_index": "@P10099",
                 "label_korean": "터보 압력 솔레노이드 밸브 OCR",
                 "group_id": "31826",
                 "req_frame_id": "95761",
@@ -1025,13 +1025,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "6993",
+                "help_code": "@P6993",
                 "help_korean": "터보를 제어하는 솔레노이드 밸브의 열림 비율"
             },
             {
                 "position": 8,
                 "mnemonic": "MP_TEMPEAU",
-                "label_index": "10576",
+                "label_index": "@P10576",
                 "label_korean": "냉각수 온도",
                 "group_id": "31823",
                 "req_frame_id": "95752",
@@ -1047,13 +1047,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "6733",
+                "help_code": "@P6733",
                 "help_korean": "허용되는 냉각수 온도 (실제 값)"
             },
             {
                 "position": 9,
                 "mnemonic": "MP_TEMPERATURE_CARBURANT_c",
-                "label_index": "3480",
+                "label_index": "@P3480@\\*",
                 "label_korean": "연료 온도",
                 "group_id": "31824",
                 "req_frame_id": "95755",
@@ -1069,13 +1069,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "11784",
+                "help_code": "@P11784",
                 "help_korean": "디젤 리턴 라인에서 연료 온도"
             },
             {
                 "position": 10,
                 "mnemonic": "MP_TEMP_ADMI_DEBITMETRE",
-                "label_index": "8962",
+                "label_index": "@P8962",
                 "label_korean": "에어 플로우 센서 공기 온도",
                 "group_id": "31825",
                 "req_frame_id": "95758",
@@ -1091,13 +1091,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "4671",
+                "help_code": "@P4671",
                 "help_korean": "에어 플로우 센서에 내장된 센서로부터 정보를 사용해서 엔진 ECU에 의해 허용되는 흡기 온도"
             },
             {
                 "position": 11,
                 "mnemonic": "MP_TEMPERATURE_AIR_COLLECTEUR",
-                "label_index": "9893",
+                "label_index": "@P9893",
                 "label_korean": "흡기 매니폴드에서 공기 온도",
                 "group_id": "31825",
                 "req_frame_id": "95758",
@@ -1113,13 +1113,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "30729, 45021, 30721",
+                "help_code": "@F30729@T.@P45021@T.@P30721",
                 "help_korean": "분진 필터가 장착된 차량.흡기 매니폴드의 센서에서 전송된 정보에 따라 엔진 ECU가 흡입하는 공기의 온도.분진 필터 재생 중 공기 온도가 너무 낮을 경우 ; ECU는 흡기 히터 드로틀을 닫고, 그리고 나서 엔진 흡기 온도를 올리기 위해서 EGR 드로틀을 일부 닫는다"
             },
             {
                 "position": 12,
                 "mnemonic": "MP_PRESSION_ATMOSPHERIQUE",
-                "label_index": "3014",
+                "label_index": "@P3014",
                 "label_korean": "대기 압력",
                 "group_id": "31826",
                 "req_frame_id": "95761",
@@ -1135,13 +1135,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "10151",
+                "help_code": "@P10151",
                 "help_korean": "ECU 내부 센서에 의해 측정된 대기 압력"
             },
             {
                 "position": 13,
                 "mnemonic": "MP_CONSIGNE_PRESSION_TURBO",
-                "label_index": "14535",
+                "label_index": "@P14535",
                 "label_korean": "터보 압력 기준 값",
                 "group_id": "31826",
                 "req_frame_id": "95761",
@@ -1157,13 +1157,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "11382",
+                "help_code": "@P11382",
                 "help_korean": "흡기 매니폴드에서 도달할 수 있는 흡기 압력"
             },
             {
                 "position": 14,
                 "mnemonic": "MP_PRESSION_TURBO_MESUREE",
-                "label_index": "8926",
+                "label_index": "@P8926",
                 "label_korean": "측정된 터보 압력",
                 "group_id": "31826",
                 "req_frame_id": "95761",
@@ -1179,13 +1179,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "13494",
+                "help_code": "@P13494",
                 "help_korean": "흡기 압력 센서에 의해 측정된 흡기 압력"
             },
             {
                 "position": 15,
                 "mnemonic": "MP_ETAT_REGULATION_PRESSION_SURALIMENTATION_AIR",
-                "label_index": "6000",
+                "label_index": "@P6000",
                 "label_korean": "터보 압력 조절 상태",
                 "group_id": "31826",
                 "req_frame_id": "95761",
@@ -1204,7 +1204,7 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "7654",
+                "help_code": "@P7654",
                 "help_korean": "터보 압력은 엔진 ECU 맵에 의해 만들어지거나 또는 흡기 압력 센서로부터 정보에 따라 정의된다"
             }
         ]
@@ -1218,7 +1218,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_REGIME_MOTEUR",
-                "label_index": "7917",
+                "label_index": "@P7917",
                 "label_korean": "엔진 속도",
                 "group_id": "31822",
                 "req_frame_id": "95749",
@@ -1236,13 +1236,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "3269",
+                "help_code": "@P3269",
                 "help_korean": "엔진 회전 속도, 분당 회전수"
             },
             {
                 "position": 2,
                 "mnemonic": "MP_TENSION_BATTERIE",
-                "label_index": "18263",
+                "label_index": "@P18263",
                 "label_korean": "배터리 전압",
                 "group_id": "31823",
                 "req_frame_id": "95752",
@@ -1260,13 +1260,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "3869",
+                "help_code": "@P3869",
                 "help_korean": "엔진 ECU에 의해 측정된 배터리 전압"
             },
             {
                 "position": 3,
                 "mnemonic": "MP_TENSION_ALIMENTATION_01",
-                "label_index": "7348",
+                "label_index": "@P7348@\\*1",
                 "label_korean": "공급 전압1",
                 "group_id": "31823",
                 "req_frame_id": "95752",
@@ -1282,13 +1282,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "1",
-                "help_code": "8391, 37290",
-                "help_korean": "센서 공급 전압(1) . 이 전압은 엔진 ECU에 의해서 제공된다."
+                "help_code": "@P8391@\\*1@\\+@T.@\\+@P37290@T.",
+                "help_korean": "센서 공급 전압(1).이 전압은 엔진 ECU에 의해서 제공된다."
             },
             {
                 "position": 4,
                 "mnemonic": "MP_TENSION_ALIMENTATION_02",
-                "label_index": "7348",
+                "label_index": "@P7348@\\*2",
                 "label_korean": "공급 전압2",
                 "group_id": "31823",
                 "req_frame_id": "95752",
@@ -1304,13 +1304,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "2",
-                "help_code": "8391, 37290",
-                "help_korean": "센서 공급 전압(2) . 이 전압은 엔진 ECU에 의해서 제공된다"
+                "help_code": "@P8391@\\*2@\\+@T.@\\+@P37290",
+                "help_korean": "센서 공급 전압(2).이 전압은 엔진 ECU에 의해서 제공된다"
             },
             {
                 "position": 5,
                 "mnemonic": "MP_COMMANDE_RELAIS_PUISSANCE",
-                "label_index": "5469",
+                "label_index": "@P5469",
                 "label_korean": "파워 릴레이 제어",
                 "group_id": "31829",
                 "req_frame_id": "95770",
@@ -1331,13 +1331,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "2400",
+                "help_code": "@P2400",
                 "help_korean": "ECU 전원 릴레이의 작동 상태"
             },
             {
                 "position": 6,
                 "mnemonic": "MP_ETAT_RELAIS_PRE_POST_CHAUFFAGE",
-                "label_index": "11447",
+                "label_index": "@P11447",
                 "label_korean": "예열 릴레이 상태",
                 "group_id": "31829",
                 "req_frame_id": "95770",
@@ -1366,13 +1366,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "43653, 43574",
+                "help_code": "@P43653@T,@P43574@\\*6",
                 "help_korean": "예열 플러그 전원 릴레이 상태,포스트 히팅은 약 6분간 지속된다"
             },
             {
                 "position": 7,
                 "mnemonic": "MP_COMMANDE_CHAUFFAGE_ADDITIONNEL_01",
-                "label_index": "15748",
+                "label_index": "@P15748@\\*1",
                 "label_korean": "추가 히팅1 명령",
                 "group_id": "31829",
                 "req_frame_id": "95770",
@@ -1393,13 +1393,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "1",
-                "help_code": "5761",
+                "help_code": "@P5761@\\*78@\\*10",
                 "help_korean": "추가 히팅은 냉각수 온도가 78도 이하이고 외부 온도가 10도 이하인 경우 작동한다"
             },
             {
                 "position": 8,
                 "mnemonic": "MP_COMMANDE_CHAUFFAGE_ADDITIONNEL_02",
-                "label_index": "15748",
+                "label_index": "@P15748@\\*2",
                 "label_korean": "추가 히팅2 명령",
                 "group_id": "31829",
                 "req_frame_id": "95770",
@@ -1420,7 +1420,7 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "2",
-                "help_code": "5761",
+                "help_code": "@P5761@\\*78@\\*10",
                 "help_korean": "추가 히팅은 냉각수 온도가 78도 이하이고 외부 온도가 10도 이하인 경우 작동한다"
             }
         ]
@@ -1434,7 +1434,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_REGIME_MOTEUR",
-                "label_index": "7917",
+                "label_index": "@P7917",
                 "label_korean": "엔진 속도",
                 "group_id": "31822",
                 "req_frame_id": "95749",
@@ -1452,13 +1452,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "3269",
+                "help_code": "@P3269",
                 "help_korean": "엔진 회전 속도, 분당 회전수"
             },
             {
                 "position": 2,
                 "mnemonic": "MP_SYNCHRONISATION_AAC_VILEBREQUIN",
-                "label_index": "11088",
+                "label_index": "@P11088",
                 "label_korean": "캠축/크랭크축 동기화",
                 "group_id": "31829",
                 "req_frame_id": "95770",
@@ -1485,13 +1485,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "3045",
+                "help_code": "@P3045",
                 "help_korean": "엔진 속도 정보를 취득한 후에, ECU는 동기화된 분사를 시작하기 전에 캠축 센서로부터 정보를 기다린다"
             },
             {
                 "position": 3,
                 "mnemonic": "MP_VITESSE_VEHICULE_a",
-                "label_index": "7997",
+                "label_index": "@P7997@\\*",
                 "label_korean": "차량 속도",
                 "group_id": "31822",
                 "req_frame_id": "95749",
@@ -1511,13 +1511,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "12198",
+                "help_code": "@P12198",
                 "help_korean": "CAN 또는 변속기에 장착된 센서에 의해 취득된 속도"
             },
             {
                 "position": 4,
                 "mnemonic": "TENSION_SIGNAL_PEDALE_ACCELERATEUR_01",
-                "label_index": "13064",
+                "label_index": "@P13064@\\*1",
                 "label_korean": "가속 페달 신호 전압1",
                 "group_id": "31822",
                 "req_frame_id": "95749",
@@ -1533,13 +1533,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "1",
-                "help_code": "4287",
+                "help_code": "@P4287@\\*1@\\*2",
                 "help_korean": "가속 페달 신호 전압1은 반드시 가속 페달 신호 전압2의 2배와 거의 동일해야 한다"
             },
             {
                 "position": 5,
                 "mnemonic": "TENSION_SIGNAL_PEDALE_ACCELERATEUR_02",
-                "label_index": "13064",
+                "label_index": "@P13064@\\*2",
                 "label_korean": "가속 페달 신호 전압2",
                 "group_id": "31822",
                 "req_frame_id": "95749",
@@ -1555,13 +1555,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "2",
-                "help_code": "4287",
+                "help_code": "@P4287@\\*1@\\*2",
                 "help_korean": "가속 페달 신호 전압1은 반드시 가속 페달 신호 전압2의 2배와 거의 동일해야 한다"
             },
             {
                 "position": 6,
                 "mnemonic": "MP_POSITION_DE_PEDALE_ACCELERATEUR",
-                "label_index": "11560",
+                "label_index": "@P11560",
                 "label_korean": "가속 페달 위치",
                 "group_id": "31822",
                 "req_frame_id": "95749",
@@ -1579,13 +1579,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "3350",
+                "help_code": "@P3350",
                 "help_korean": "가속 페달 센서에 의해 측정된 위치"
             },
             {
                 "position": 7,
                 "mnemonic": "MP_INFO_POINT_DUR",
-                "label_index": "14263",
+                "label_index": "@P14263",
                 "label_korean": "가속 페달 센서 저항점 정보",
                 "group_id": "31822",
                 "req_frame_id": "95749",
@@ -1601,13 +1601,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "16275",
+                "help_code": "@P16275",
                 "help_korean": "스피드 리미터가 장착된 차량에서 가능한 정보"
             },
             {
                 "position": 8,
                 "mnemonic": "MP_RAPPORT_BOITE_DE_VITESSES",
-                "label_index": "7135",
+                "label_index": "@P7135@\\*",
                 "label_korean": "기어비",
                 "group_id": "31822",
                 "req_frame_id": "95749",
@@ -1657,13 +1657,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "11123",
+                "help_code": "@P11123",
                 "help_korean": "엔진 속도 및 차량 속도에 따라 계산된 기어"
             },
             {
                 "position": 9,
                 "mnemonic": "MP_PEDALE_FREIN_PRINCIPAL",
-                "label_index": "8449",
+                "label_index": "@P8449",
                 "label_korean": "메인 브레이크 페달",
                 "group_id": "31822",
                 "req_frame_id": "95749",
@@ -1679,13 +1679,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "11778",
+                "help_code": "@P11778",
                 "help_korean": "브레이프 페달 센서로부터 제공된 정보(BSI로부터 정보)"
             },
             {
                 "position": 10,
                 "mnemonic": "PEDALE_FREIN_REDONDANT",
-                "label_index": "8685",
+                "label_index": "@P8685",
                 "label_korean": "백업 브레이크 페달",
                 "group_id": "31822",
                 "req_frame_id": "95749",
@@ -1701,13 +1701,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "11778",
+                "help_code": "@P11778",
                 "help_korean": "브레이프 페달 센서로부터 제공된 정보(BSI로부터 정보)"
             },
             {
                 "position": 11,
                 "mnemonic": "CONSRVV",
-                "label_index": "11343",
+                "label_index": "@P11343",
                 "label_korean": "크루즈 컨트롤 속도 셋팅",
                 "group_id": "31822",
                 "req_frame_id": "95749",
@@ -1723,13 +1723,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "16108",
+                "help_code": "@P16108",
                 "help_korean": "스티어링 휠에서 크루즈 컨트롤 스위치로부터 정보"
             },
             {
                 "position": 12,
                 "mnemonic": "MP_ETAT_REGULATION_VITESSE",
-                "label_index": "11424",
+                "label_index": "@P11424",
                 "label_korean": "크루즈 컨트롤 상태",
                 "group_id": "31822",
                 "req_frame_id": "95749",
@@ -1745,13 +1745,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "15408",
+                "help_code": "@P15408",
                 "help_korean": "크루즈 컨트롤이 장착된 차량에서 사용 가능한 정보"
             },
             {
                 "position": 13,
                 "mnemonic": "CONSLVV",
-                "label_index": "4203",
+                "label_index": "@P4203",
                 "label_korean": "스피드 리미터 기준 속도",
                 "group_id": "31822",
                 "req_frame_id": "95749",
@@ -1767,13 +1767,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "6166",
+                "help_code": "@P6166",
                 "help_korean": "스티어링 휠에서 스피드 리미터 스위치로부터 정보"
             },
             {
                 "position": 14,
                 "mnemonic": "MP_ETATLV",
-                "label_index": "11448",
+                "label_index": "@P11448",
                 "label_korean": "스피드 리미터 상태",
                 "group_id": "31822",
                 "req_frame_id": "95749",
@@ -1789,13 +1789,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "6166",
+                "help_code": "@P6166",
                 "help_korean": "스티어링 휠에서 스피드 리미터 스위치로부터 정보"
             },
             {
                 "position": 15,
                 "mnemonic": "MP_PEDALE_EMBRAYAGE",
-                "label_index": "13416",
+                "label_index": "@P13416",
                 "label_korean": "클러치 페달",
                 "group_id": "31822",
                 "req_frame_id": "95749",
@@ -1818,13 +1818,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "14512",
+                "help_code": "@P14512",
                 "help_korean": "클러치 페달 위치 센서에 의해 제공되는 정보"
             },
             {
                 "position": 16,
                 "mnemonic": "MP_ETAT_MOTEUR",
-                "label_index": "14427",
+                "label_index": "@P14427@\\*",
                 "label_korean": "엔진 상태",
                 "group_id": "31822",
                 "req_frame_id": "95749",
@@ -1872,13 +1872,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "18562",
+                "help_code": "@P18562",
                 "help_korean": "점화 OFF/차단, 준비, 의도적인 시동, 개별적인 시동, 엔진 구동, 의도적인 재시동, 개별적인 재시동"
             },
             {
                 "position": 17,
                 "mnemonic": "MP_FONCTIONNEMENT_MOTEUR",
-                "label_index": "2021",
+                "label_index": "@P2021",
                 "label_korean": "엔진 작동",
                 "group_id": "31822",
                 "req_frame_id": "95749",
@@ -1908,7 +1908,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_REGIME_MOTEUR",
-                "label_index": "7917",
+                "label_index": "@P7917",
                 "label_korean": "엔진 속도",
                 "group_id": "31822",
                 "req_frame_id": "95749",
@@ -1926,13 +1926,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "3269",
+                "help_code": "@P3269",
                 "help_korean": "엔진 회전 속도, 분당 회전수"
             },
             {
                 "position": 2,
                 "mnemonic": "MP_ETAT_DE_CHARGE_FAP_1",
-                "label_index": "3978",
+                "label_index": "@P3978",
                 "label_korean": "분진 필터 부하 상태",
                 "group_id": "31834",
                 "req_frame_id": "95785",
@@ -1953,13 +1953,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "10144",
+                "help_code": "@P10144",
                 "help_korean": "분진이 있는 분진 필터의 막힘 상태"
             },
             {
                 "position": 3,
                 "mnemonic": "MP_CHARGE_FILTRE_PARTICULES",
-                "label_index": "11457",
+                "label_index": "@P11457",
                 "label_korean": "분진 필터 부하",
                 "group_id": "31827",
                 "req_frame_id": "95764",
@@ -1981,7 +1981,7 @@
             {
                 "position": 4,
                 "mnemonic": "MP_MASSE_TOTALE_SUIE_DANS_FAP",
-                "label_index": "16099",
+                "label_index": "@P16099",
                 "label_korean": "분진 필터에 분진의 총 중량",
                 "group_id": "31851",
                 "req_frame_id": "95836",
@@ -2003,7 +2003,7 @@
             {
                 "position": 5,
                 "mnemonic": "MP_ETAT_REGENERATION",
-                "label_index": "1689",
+                "label_index": "@P1689",
                 "label_korean": "재생 상태",
                 "group_id": "31827",
                 "req_frame_id": "95764",
@@ -2022,13 +2022,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "15589",
-                "help_korean": "재생\n- 중 ECU 상태 : EGR 밸브를 닫고, 터보 압력을 높이고, EGR 드로틀을 일부 닫는다"
+                "help_code": "@P15589",
+                "help_korean": "재생 중 ECU 상태 : EGR 밸브를 닫고, 터보 압력을 높이고, EGR 드로틀을 일부 닫는다"
             },
             {
                 "position": 6,
                 "mnemonic": "MP_TEMPERATURE_AMONT_FAP",
-                "label_index": "24118",
+                "label_index": "@P24118",
                 "label_korean": "분진 필터 상단 온도",
                 "group_id": "31827",
                 "req_frame_id": "95764",
@@ -2044,13 +2044,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "10616",
+                "help_code": "@P10616",
                 "help_korean": "분진 필터 입구에서 온도"
             },
             {
                 "position": 7,
                 "mnemonic": "MP_PRESSION_DIFFERENTIELLE_FILTRE_A_PARTICULES",
-                "label_index": "1996",
+                "label_index": "@P1996",
                 "label_korean": "분진 필터 입구/출구간의 압력 차이",
                 "group_id": "31827",
                 "req_frame_id": "95764",
@@ -2066,13 +2066,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "8267",
+                "help_code": "@P8267",
                 "help_korean": "분진 필터의 입구와 출구간의 압력 차이는 필터의 최대 막힘 한계치 초과를 ECU에 알려주고 가능한 빨리 재생을 시작한다"
             },
             {
                 "position": 8,
                 "mnemonic": "MP_TEMP_ADMI_DEBITMETRE",
-                "label_index": "8962",
+                "label_index": "@P8962",
                 "label_korean": "에어 플로우 센서 공기 온도",
                 "group_id": "31825",
                 "req_frame_id": "95758",
@@ -2088,13 +2088,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "4671",
+                "help_code": "@P4671",
                 "help_korean": "에어 플로우 센서에 내장된 센서로부터 정보를 사용해서 엔진 ECU에 의해 허용되는 흡기 온도"
             },
             {
                 "position": 9,
                 "mnemonic": "MP_TEMPERATURE_AIR_COLLECTEUR",
-                "label_index": "9893",
+                "label_index": "@P9893",
                 "label_korean": "흡기 매니폴드에서 공기 온도",
                 "group_id": "31825",
                 "req_frame_id": "95758",
@@ -2110,13 +2110,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "30729, 45021, 30721",
+                "help_code": "@F30729@T.@P45021@T.@P30721",
                 "help_korean": "분진 필터가 장착된 차량.흡기 매니폴드의 센서에서 전송된 정보에 따라 엔진 ECU가 흡입하는 공기의 온도.분진 필터 재생 중 공기 온도가 너무 낮을 경우 ; ECU는 흡기 히터 드로틀을 닫고, 그리고 나서 엔진 흡기 온도를 올리기 위해서 EGR 드로틀을 일부 닫는다"
             },
             {
                 "position": 10,
                 "mnemonic": "MP_DEMANDE_ACTIVATION_CONSOMMATEURS",
-                "label_index": "3084",
+                "label_index": "@P3084",
                 "label_korean": "전원 소모 장치 작동 요청",
                 "group_id": "31827",
                 "req_frame_id": "95764",
@@ -2138,7 +2138,7 @@
             {
                 "position": 11,
                 "mnemonic": "MP_DEBIT_VOLUMIQUE_AIR",
-                "label_index": "8692",
+                "label_index": "@P8692@\\*",
                 "label_korean": "공기량 체적",
                 "group_id": "31827",
                 "req_frame_id": "95764",
@@ -2154,13 +2154,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "43861, 43862",
-                "help_korean": "엔진으로 들어가는 공기량. 분진 필터의 재생을 시작하기 위해서 최소 값이 필요하다"
+                "help_code": "@P43861@T.@\\+@P43862",
+                "help_korean": "엔진으로 들어가는 공기량.분진 필터의 재생을 시작하기 위해서 최소 값이 필요하다"
             },
             {
                 "position": 12,
                 "mnemonic": "VOLADDRESERVOIR",
-                "label_index": "107",
+                "label_index": "@P107",
                 "label_korean": "첨가제 탱크에 첨가제의 양",
                 "group_id": "31827",
                 "req_frame_id": "95764",
@@ -2182,7 +2182,7 @@
             {
                 "position": 13,
                 "mnemonic": "MP_NIVEAU_MINI_ADDITIF_ATTEINT",
-                "label_index": "9011",
+                "label_index": "@P9011",
                 "label_korean": "첨가제 레벨 낮음 도달",
                 "group_id": "31827",
                 "req_frame_id": "95764",
@@ -2198,13 +2198,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "2764",
+                "help_code": "@P2764",
                 "help_korean": "첨가제 레벨 낮음은 첨가제가 분사된 연료의 양에 따라 엔진 ECU에 의해서 계산된다"
             },
             {
                 "position": 14,
                 "mnemonic": "MP_DISTANCE_RESTANTE_AVANT_ECHANGE_FAP",
-                "label_index": "15188",
+                "label_index": "@P15188",
                 "label_korean": "분진 필터를 교환하기 전 남은 거리",
                 "group_id": "매핑_누락",
                 "req_frame_id": "",
@@ -2226,7 +2226,7 @@
             {
                 "position": 15,
                 "mnemonic": "MP_MASSTOTALADDFAP",
-                "label_index": "16492",
+                "label_index": "@P16492",
                 "label_korean": "분진 필터에 있는 첨가제의 총 중량",
                 "group_id": "31834",
                 "req_frame_id": "95785",
@@ -2248,8 +2248,8 @@
             {
                 "position": 16,
                 "mnemonic": "MP_VOLUME_RESERVOIR_ADDITIF",
-                "label_index": "14845",
-                "label_korean": "첨가제 탱크볼륨",
+                "label_index": "@P14845@\\*",
+                "label_korean": "첨가제 탱크 볼륨",
                 "group_id": "31827",
                 "req_frame_id": "95764",
                 "resp_frame_id": "95765",
@@ -2270,7 +2270,7 @@
             {
                 "position": 17,
                 "mnemonic": "MP_DISTANCE_PARCOURUE_DEPUIS_ECHANGE_FAP",
-                "label_index": "14523",
+                "label_index": "@P14523",
                 "label_korean": "분진 필터를 교환한 후 주행한 거리",
                 "group_id": "31827",
                 "req_frame_id": "95764",
@@ -2292,7 +2292,7 @@
             {
                 "position": 18,
                 "mnemonic": "MP_DISTANCE_PARCOURUE_DEPUIS_DERNIERE_REGENERATION",
-                "label_index": "2488",
+                "label_index": "@P2488",
                 "label_korean": "마지막 재생 후 주행한 거리",
                 "group_id": "31827",
                 "req_frame_id": "95764",
@@ -2308,13 +2308,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "7000",
+                "help_code": "@P7000@\\*2@\\*1900@\\*800",
                 "help_korean": "ECU는 2 재생간의 주행된 거리를 저장한다. 2 재생간의 차이는 1900km (새로운 분진 필터)에서 800km(km에서 분진 필터)일 수 있다"
             },
             {
                 "position": 19,
                 "mnemonic": "MP_DISTANCE_MOYENNE_ENTRE_5_DERNIERES_REGENERATION_FAP",
-                "label_index": "7827",
+                "label_index": "@P7827@\\*5",
                 "label_korean": "마지막 5회 재생간 평균 거리",
                 "group_id": "31827",
                 "req_frame_id": "95764",
@@ -2336,7 +2336,7 @@
             {
                 "position": 20,
                 "mnemonic": "MP_POURCENT_ROULAGE_VILLE_FROID_DERNIER_HEURE",
-                "label_index": "13551",
+                "label_index": "@P13551",
                 "label_korean": "최근 시간 동안 엔진이 냉간 상태로 주행한 퍼센트",
                 "group_id": "31827",
                 "req_frame_id": "95764",
@@ -2358,7 +2358,7 @@
             {
                 "position": 21,
                 "mnemonic": "MP_POURCENT_ROULAGE_VILLE_SEV_DERNIER_HEURE",
-                "label_index": "6755",
+                "label_index": "@P6755",
                 "label_korean": "마지막 시간 동안 가혹한 도심 주행 비율",
                 "group_id": "31827",
                 "req_frame_id": "95764",
@@ -2380,7 +2380,7 @@
             {
                 "position": 22,
                 "mnemonic": "MP_POURCENTAGE_ROULAGE_VILLE_MOYENNE_DERNIERE_HEURE",
-                "label_index": "13233",
+                "label_index": "@P13233",
                 "label_korean": "마지막 시간 동안 평균 도심 주행 비율",
                 "group_id": "31827",
                 "req_frame_id": "95764",
@@ -2402,7 +2402,7 @@
             {
                 "position": 23,
                 "mnemonic": "POURCENTAGE_ROULAGE_VILLE_RAPIDE_PENDANT_DERNIERES_HEURES",
-                "label_index": "10905",
+                "label_index": "@P10905",
                 "label_korean": "마지막 시간 동안 원활한 도심 주행 비율",
                 "group_id": "31827",
                 "req_frame_id": "95764",
@@ -2424,7 +2424,7 @@
             {
                 "position": 24,
                 "mnemonic": "MP_POURCENTAGE_ROULAGE_ROUTE_PENDANT_DERNIERE_HEURE",
-                "label_index": "3183",
+                "label_index": "@P3183",
                 "label_korean": "마지막 시간 동안 간선도로 주행 비율",
                 "group_id": "31827",
                 "req_frame_id": "95764",
@@ -2446,7 +2446,7 @@
             {
                 "position": 25,
                 "mnemonic": "MP_POURCENTAGE_ROULAGE_AUTOROUTE_PENDANT_DERNIERE_HEURE",
-                "label_index": "12388",
+                "label_index": "@P12388",
                 "label_korean": "마지막 시간 동안 고속도로 주행 비율",
                 "group_id": "31827",
                 "req_frame_id": "95764",
@@ -2468,7 +2468,7 @@
             {
                 "position": 26,
                 "mnemonic": "MP_POURCENTAGE_ROULAGE_MOTEUR_FROID",
-                "label_index": "2780",
+                "label_index": "@P2780",
                 "label_korean": "엔진 냉간시 주행 비율",
                 "group_id": "31827",
                 "req_frame_id": "95764",
@@ -2490,7 +2490,7 @@
             {
                 "position": 27,
                 "mnemonic": "MP_POURCENT_ROULAGE_VILLE_SEV_6DERNIER_HEURE",
-                "label_index": "3188",
+                "label_index": "@P3188@\\*6",
                 "label_korean": "마지막 6시간 동안 가혹한 도심 주행 비율",
                 "group_id": "31827",
                 "req_frame_id": "95764",
@@ -2512,7 +2512,7 @@
             {
                 "position": 28,
                 "mnemonic": "MP_POURCENTAGE_ROULAGE_VILLE_MOYENNE_PENDANT_6_DERNIERES_HEURES",
-                "label_index": "7389",
+                "label_index": "@P7389@\\*6",
                 "label_korean": "마지막 6시간 동안 평균 도심 주행 비율",
                 "group_id": "31827",
                 "req_frame_id": "95764",
@@ -2534,7 +2534,7 @@
             {
                 "position": 29,
                 "mnemonic": "MP_ROULAGE_VILLE_RAPIDE_6H",
-                "label_index": "9772",
+                "label_index": "@P9772@\\*6",
                 "label_korean": "마지막 6시간 동안 원활한 도심 주행 비율",
                 "group_id": "31827",
                 "req_frame_id": "95764",
@@ -2556,7 +2556,7 @@
             {
                 "position": 30,
                 "mnemonic": "POURCENTAGE_ROULAGE_ROUTE_PENDANT_6_DERNIERES_HEURES",
-                "label_index": "13996",
+                "label_index": "@P13996@\\*6",
                 "label_korean": "마지막 6시간 동안 간선도로 주행 비율",
                 "group_id": "31827",
                 "req_frame_id": "95764",
@@ -2578,7 +2578,7 @@
             {
                 "position": 31,
                 "mnemonic": "POURCENTAGE_ROULAGE_AUTOROUTE_PENDANT_6_DERNIERES_HEURES",
-                "label_index": "8295",
+                "label_index": "@P8295@\\*6",
                 "label_korean": "마지막 6시간 동안 고속도로 주행 비율",
                 "group_id": "31827",
                 "req_frame_id": "95764",
@@ -2600,7 +2600,7 @@
             {
                 "position": 32,
                 "mnemonic": "MP_INFORMATION_PREMIERE_ADDITIVATION_EFFECTUEE",
-                "label_index": "14887",
+                "label_index": "@P14887",
                 "label_korean": "첫번째 첨가제 작업 완료 정보",
                 "group_id": "31827",
                 "req_frame_id": "95764",
@@ -2616,13 +2616,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "8521",
+                "help_code": "@P8521",
                 "help_korean": "라인의 끝단에서 파이프 채움"
             },
             {
                 "position": 33,
                 "mnemonic": "MP_DEGRE_ENCRASSEMENT_FAP_EN_SUIES",
-                "label_index": "4163",
+                "label_index": "@P4163",
                 "label_korean": "분진이 쌓인 분진 필터의 막힘 정도",
                 "group_id": "31827",
                 "req_frame_id": "95764",
@@ -2638,13 +2638,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "6230",
+                "help_code": "@P6230",
                 "help_korean": "분진 필터의 분진 막힘 정도는 ECU에게 분진 필터가 재생할 필요가 있다는 것을 알려준다"
             },
             {
                 "position": 34,
                 "mnemonic": "MP_SEUIL_NETTOYAGE_FAP",
-                "label_index": "303",
+                "label_index": "@P303",
                 "label_korean": "분진 필터 크리닝 제한",
                 "group_id": "매핑_누락",
                 "req_frame_id": "",
@@ -2660,13 +2660,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "6230",
+                "help_code": "@P6230",
                 "help_korean": "분진 필터의 분진 막힘 정도는 ECU에게 분진 필터가 재생할 필요가 있다는 것을 알려준다"
             },
             {
                 "position": 35,
                 "mnemonic": "MP_DISTANCE_AVANT_NETTOYAGE_FAP",
-                "label_index": "15376",
+                "label_index": "@P15376",
                 "label_korean": "분진 필터 교환 이전 남은 거리",
                 "group_id": "31827",
                 "req_frame_id": "95764",
@@ -2682,13 +2682,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "7282",
+                "help_code": "@P7282",
                 "help_korean": "ECU는 필터를 크리닝할 때까지 남은 거리를 계산한다"
             },
             {
                 "position": 36,
                 "mnemonic": "MP_REGENERATION_FAP",
-                "label_index": "15964",
+                "label_index": "@P15964",
                 "label_korean": "분진 필터 너무 잦은 재생 정보",
                 "group_id": "31827",
                 "req_frame_id": "95764",
@@ -2704,7 +2704,7 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "16185",
+                "help_code": "@P16185@T.",
                 "help_korean": "분진 필터 재생 주기에 관한 정보."
             }
         ]
@@ -2718,7 +2718,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_REGIME_MOTEUR",
-                "label_index": "7917",
+                "label_index": "@P7917",
                 "label_korean": "엔진 속도",
                 "group_id": "31822",
                 "req_frame_id": "95749",
@@ -2736,13 +2736,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "3269",
+                "help_code": "@P3269",
                 "help_korean": "엔진 회전 속도, 분당 회전수"
             },
             {
                 "position": 2,
                 "mnemonic": "MP_TEMPERATURE_EAU_a",
-                "label_index": "11797",
+                "label_index": "@P11797",
                 "label_korean": "냉각수 온도",
                 "group_id": "31823",
                 "req_frame_id": "95752",
@@ -2758,13 +2758,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "10250",
+                "help_code": "@P10250",
                 "help_korean": "허용되는 냉각수 온도 (실제 값)"
             },
             {
                 "position": 3,
                 "mnemonic": "MP_PRESSION_CIRCUIT_CLIMATISATION_a",
-                "label_index": "14410",
+                "label_index": "@P14410@\\*",
                 "label_korean": "에어컨 라인 압력",
                 "group_id": "31823",
                 "req_frame_id": "95752",
@@ -2780,13 +2780,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "13215",
+                "help_code": "@P13215",
                 "help_korean": "엔진 ECU에 의해서 취득된 냉매 압력"
             },
             {
                 "position": 4,
                 "mnemonic": "MP_RELAIS_GMV",
-                "label_index": "10614",
+                "label_index": "@P10614",
                 "label_korean": "냉각 팬 릴레이",
                 "group_id": "31823",
                 "req_frame_id": "95752",
@@ -2805,13 +2805,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "5107",
+                "help_code": "@P5107",
                 "help_korean": "팬 장치의 저속 제어 릴레이의 작동 상태"
             },
             {
                 "position": 5,
                 "mnemonic": "MP_VITESSE_GROUPE_MOTOVENTILATEUR",
-                "label_index": "10018",
+                "label_index": "@P10018@\\*",
                 "label_korean": "냉각팬 속도",
                 "group_id": "31823",
                 "req_frame_id": "95752",
@@ -2827,13 +2827,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "9009",
+                "help_code": "@P9009",
                 "help_korean": "팬 장치 속도 (C4를 위한 고속)"
             },
             {
                 "position": 6,
                 "mnemonic": "MP_CONSIGNE_VITESSE_GMV",
-                "label_index": "15551",
+                "label_index": "@P15551",
                 "label_korean": "팬 속도 셋팅",
                 "group_id": "31823",
                 "req_frame_id": "95752",
@@ -2849,7 +2849,7 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "1774",
+                "help_code": "@P1774",
                 "help_korean": "엔진 ECU에 의해 요청된 속도"
             }
         ]
@@ -2863,7 +2863,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_ETAT_VERROUILLAGE_DEVERROUILLAGE_CALCULTATEUR",
-                "label_index": "6551",
+                "label_index": "@P6551",
                 "label_korean": "ECU 상태",
                 "group_id": "31821",
                 "req_frame_id": "95746",
@@ -2891,13 +2891,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "29082, 23833",
-                "help_korean": "ECU\n- 잠금 해제 : 엔진 작동이 승인된다.\n- ECU 잠금 : 시동 불가, 하지만 ECU 진단은 가능하다 (확인, 결함 읽기, 변수 측졍, 설정)"
+                "help_code": "@P29082@T. @P23833",
+                "help_korean": "ECU 잠금 해제 : 엔진 작동이 승인된다. ECU 잠금 : 시동 불가, 하지만 ECU 진단은 가능하다 (확인, 결함 읽기, 변수 측졍, 설정)"
             },
             {
                 "position": 2,
                 "mnemonic": "MP_ETAT_PROGRAMMATION_ANTI_DEMARRAGE",
-                "label_index": "4427",
+                "label_index": "@P4427",
                 "label_korean": "코드화된 엔진 이모빌라이저 프로그래밍 상태",
                 "group_id": "31821",
                 "req_frame_id": "95746",
@@ -2926,13 +2926,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "28732, 15380, 23919, 23919, 11924, 28662, 23987, 11924, 28662, 23987, 6693, 28662, 29711, 3191, 23938",
-                "help_korean": "점검\n- 상태 : ECU는 잠금을 할 수없다\n- 서비스 상태 : ECU를 프로그램하고 매칭한다 ;ECU를 프로그램하고 매칭한다\n- 1번 프로그램 : ECU가 잠금 되었다 ;ECU 코드를 다시 프로그램하고 나서 매칭한다\n- 1번 프로그램 : ECU가 잠금 되었다 ;ECU 코드를 다시 프로그램하고 나서 매칭한다\n- 1번 프로그램됨 : ECU가 잠금 되었다 ; BSI 액세스 코드를 프로그램한다\n- 매칭된 ECU : 엔진 이모빌라이저 기능이 작동한다"
+                "help_code": "@P28732@\\n@\\+@P15380@T : @P23919@T ;@P23919@\\n@\\+@P11924@\\*1@T : @P28662@T ;@P23987@\\n@\\+@P11924@\\*2@T : @P28662@T ;@P23987@\\n@\\+@F6693@\\*3@T :@\\+@P28662@T ;@\\+@P29711@\\n@\\+@P3191@T : @P23938",
+                "help_korean": "점검 상태 : ECU는 잠금을 할 수없다\n서비스 상태 : ECU를 프로그램하고 매칭한다 ;ECU를 프로그램하고 매칭한다\n1번 프로그램 : ECU가 잠금 되었다 ;ECU 코드를 다시 프로그램하고 나서 매칭한다\n1번 프로그램 : ECU가 잠금 되었다 ;ECU 코드를 다시 프로그램하고 나서 매칭한다\n1번 프로그램됨 :ECU가 잠금 되었다 ;BSI 액세스 코드를 프로그램한다\n매칭된 ECU : 엔진 이모빌라이저 기능이 작동한다"
             },
             {
                 "position": 3,
                 "mnemonic": "MP_PB_TRANSMISSION_CODE_DEVERROUILLAGE",
-                "label_index": "12495",
+                "label_index": "@P12495",
                 "label_korean": "잠금 해제 코드 전송 중 감지된 문제",
                 "group_id": "31821",
                 "req_frame_id": "95746",
@@ -2973,8 +2973,8 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "23015, 28663, 23887, 28665, 5724, 28666, 16510, 23829, 8292, 23945, 23882",
-                "help_korean": "BSI로\n- 부터 응답 대기 : 엔진 ECU는 BSI로부터 잠금해제 코드를 받지 못했다. 엔진 ECU와 BSI간의 CAN 연결을 점검한다. BSI가 키를 인식하는지 점검한다.\n- BSI 응답 오류 : 엔진 ECU에 프로그램된 이모빌라이저 코드가 BSI에 프로그램된 코드와 동일한지를 점검한다\n- 엔진 이모빌라이저 코드를 읽을 수 없다 :엔진 ECU 내부 문제, ECU를 교환한다\n- 코드화된 이모빌라이저 프로그램의 상태를 읽을 수 없다 : 엔진 ECU는 이모빌라이저의 프로그래밍 상태를 읽을 수 있다 . 엔진 ECU를 교환한다"
+                "help_code": "@P23015@T :@\\+@P28663@T.@\\+@P23887@T.@\\+@P28665@T.@\\n@\\+@P5724@T :@\\+@P28666@\\n@\\+@P16510@T :@P23829@\\n@\\+@P8292@T : @P23945@\\+@T.@\\+@P23882@\\*",
+                "help_korean": "BSI로 부터 응답 대기 :엔진 ECU는 BSI로부터 잠금해제 코드를 받지 못했다.엔진 ECU와 BSI간의 CAN 연결을 점검한다.BSI가 키를 인식하는지 점검한다.\nBSI 응답 오류 :엔진 ECU에 프로그램된 이모빌라이저 코드가 BSI에 프로그램된 코드와 동일한지를 점검한다\n엔진 이모빌라이저 코드를 읽을 수 없다 :엔진 ECU 내부 문제, ECU를 교환한다\n코드화된 이모빌라이저 프로그램의 상태를 읽을 수 없다 : 엔진 ECU는 이모빌라이저의 프로그래밍 상태를 읽을 수 있다.엔진 ECU를 교환한다"
             }
         ]
     },
@@ -2987,7 +2987,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_REGIME_MOTEUR",
-                "label_index": "7917",
+                "label_index": "@P7917",
                 "label_korean": "엔진 속도",
                 "group_id": "31822",
                 "req_frame_id": "95749",
@@ -3005,13 +3005,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "3269",
+                "help_code": "@P3269",
                 "help_korean": "엔진 회전 속도, 분당 회전수"
             },
             {
                 "position": 2,
                 "mnemonic": "MP_ETAT_MP_ETAT_APPRENTISSAGE_VANNE_EGR",
-                "label_index": "12328",
+                "label_index": "@P12328",
                 "label_korean": "EGR 밸브 프로그래밍 상태",
                 "group_id": "31828",
                 "req_frame_id": "95767",
@@ -3027,13 +3027,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "2768",
+                "help_code": "@P2768@T...",
                 "help_korean": "키를 OFF 했을 때 EGR 밸브 상단 및 하단 한계는 프로그램된다..."
             },
             {
                 "position": 3,
                 "mnemonic": "MP_APPRENTISSAGE_DE_LA_VANNE_EGR",
-                "label_index": "10779",
+                "label_index": "@P10779",
                 "label_korean": "EGR 밸브 프로그래밍",
                 "group_id": "31828",
                 "req_frame_id": "95767",
@@ -3049,13 +3049,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "4688",
+                "help_code": "@P4688",
                 "help_korean": "프로그래밍이 진행 중인 경우를 명시하는 정보"
             },
             {
                 "position": 4,
                 "mnemonic": "MP_TENS_APP_BUTE_HAUT_EGR",
-                "label_index": "1028",
+                "label_index": "@P1028",
                 "label_korean": "EGR 밸브 상단 한계 초기 프로그래밍 전압",
                 "group_id": "31828",
                 "req_frame_id": "95767",
@@ -3071,13 +3071,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "4836",
+                "help_code": "@P4836",
                 "help_korean": "EGR 밸브 상단 한계 프로그래밍이 진행 중일 경우를 명시하는 정보"
             },
             {
                 "position": 5,
                 "mnemonic": "MP_DERNIERE_TENT_APP_BHV_EGR",
-                "label_index": "2947",
+                "label_index": "@P2947",
                 "label_korean": "EGR 밸브 상단 한계 마지막 프로그래밍 전압",
                 "group_id": "31828",
                 "req_frame_id": "95767",
@@ -3093,13 +3093,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "13795",
+                "help_code": "@P13795",
                 "help_korean": "마지막으로 키를 OFF 한 후 최대 열림에서 EGR 밸브 위치"
             },
             {
                 "position": 6,
                 "mnemonic": "MP_TENS_APP_BUTE_BASS_EGR",
-                "label_index": "1038",
+                "label_index": "@P1038",
                 "label_korean": "EGR 밸브 하단 한계 초기 프로그래밍 전압",
                 "group_id": "31828",
                 "req_frame_id": "95767",
@@ -3115,13 +3115,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "24610, 26282",
+                "help_code": "@P24610@\\*0@T.@P26282@\\*0",
                 "help_korean": "0km 이후 최대 닫힘에서 EGR 밸브의 위치.0km에서 값과 엔진 마지막으로 off하고 저장된 값간의 위치 차이는 EGR 밸브의 마모 또는 막힘 상태를 명시한다"
             },
             {
                 "position": 7,
                 "mnemonic": "MP_DERNIERE_TENT_BASS_BHV_EGR",
-                "label_index": "16287",
+                "label_index": "@P16287",
                 "label_korean": "EGR 밸브 하단 한계 최근 프로그래밍 전압",
                 "group_id": "31828",
                 "req_frame_id": "95767",
@@ -3137,13 +3137,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "13372",
+                "help_code": "@P13372",
                 "help_korean": "마지막으로 시동을 끈 후 최대 닫힘에서 EGR 밸브의 위치"
             },
             {
                 "position": 8,
                 "mnemonic": "MP_ETAT_MP_ETAT_APPRENTISSAGE_TURBO",
-                "label_index": "7598",
+                "label_index": "@P7598",
                 "label_korean": "터보 프로그래밍 상태",
                 "group_id": "31828",
                 "req_frame_id": "95767",
@@ -3159,13 +3159,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "26006, 26007",
+                "help_code": "@P26006@T.@P26007",
                 "help_korean": "키를 OFF 했을 때 터보 하단 한계는 프로그램된다.터보 상단 한계의 프로그래밍은 엔진이 최대 부하에서 있어야 한다"
             },
             {
                 "position": 9,
                 "mnemonic": "MP_APPRENTISSAGE_TURBOCOMPRESSEUR",
-                "label_index": "5586",
+                "label_index": "@P5586",
                 "label_korean": "터보 프로그래밍",
                 "group_id": "31828",
                 "req_frame_id": "95767",
@@ -3181,13 +3181,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "4688",
+                "help_code": "@P4688",
                 "help_korean": "프로그래밍이 진행 중인 경우를 명시하는 정보"
             },
             {
                 "position": 10,
                 "mnemonic": "MP_DERNIERE_APP_BUTE_HAUT_EGR",
-                "label_index": "831",
+                "label_index": "@P831",
                 "label_korean": "터보 상단 한계 프로그래밍 최종 전압",
                 "group_id": "31828",
                 "req_frame_id": "95767",
@@ -3203,13 +3203,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "26254",
+                "help_code": "@P26254",
                 "help_korean": "사용 중 터보의 위치, 값은 엔진 부하에 따라 변한다"
             },
             {
                 "position": 11,
                 "mnemonic": "MP_DERNIERE_TENSION_APPRENTISSAGE_BUTE_BASSE_EGR",
-                "label_index": "550",
+                "label_index": "@P550",
                 "label_korean": "터보 하단 한계 프로그래밍 최종 전압",
                 "group_id": "31828",
                 "req_frame_id": "95767",
@@ -3225,7 +3225,7 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "5794",
+                "help_code": "@P5794",
                 "help_korean": "터보 엔진 공회전 위치"
             }
         ]
@@ -3239,7 +3239,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_APPRENTISSAGE_BUTEE_HAUTE_EGR_2",
-                "label_index": "9386",
+                "label_index": "@P9386",
                 "label_korean": "EGR 상단 한계 프로그래밍",
                 "group_id": "31830",
                 "req_frame_id": "95773",
@@ -3261,7 +3261,7 @@
             {
                 "position": 2,
                 "mnemonic": "MP_APPRENTISSAGE_BUTEE_BASSE_EGR_2",
-                "label_index": "7714",
+                "label_index": "@P7714",
                 "label_korean": "EGR 하단 한계 프로그래밍",
                 "group_id": "31830",
                 "req_frame_id": "95773",
@@ -3291,7 +3291,7 @@
             {
                 "position": 1,
                 "mnemonic": "CA_REGIME_MOTEUR",
-                "label_index": "7917",
+                "label_index": "@P7917",
                 "label_korean": "엔진 속도",
                 "group_id": "31835",
                 "req_frame_id": "95788",
@@ -3313,7 +3313,7 @@
             {
                 "position": 2,
                 "mnemonic": "TENSION_BAT",
-                "label_index": "18263",
+                "label_index": "@P18263",
                 "label_korean": "배터리 전압",
                 "group_id": "31835",
                 "req_frame_id": "95788",
@@ -3335,7 +3335,7 @@
             {
                 "position": 3,
                 "mnemonic": "CA_ETAT_DEMANDE_ESP",
-                "label_index": "7318",
+                "label_index": "@P7318",
                 "label_korean": "ESP 요청 상태",
                 "group_id": "31835",
                 "req_frame_id": "95788",
@@ -3360,7 +3360,7 @@
             {
                 "position": 4,
                 "mnemonic": "CA_RAPPORT_BOITE_DE_VITESSES_a",
-                "label_index": "7135",
+                "label_index": "@P7135@\\*",
                 "label_korean": "기어비",
                 "group_id": "31835",
                 "req_frame_id": "95788",
@@ -3401,13 +3401,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "11123",
+                "help_code": "@P11123",
                 "help_korean": "엔진 속도 및 차량 속도에 따라 계산된 기어"
             },
             {
                 "position": 5,
                 "mnemonic": "MP_PRESSION_CARBURANT_MESURE_a",
-                "label_index": "13069",
+                "label_index": "@P13069",
                 "label_korean": "측정된 연료 압력",
                 "group_id": "31835",
                 "req_frame_id": "95788",
@@ -3429,7 +3429,7 @@
             {
                 "position": 6,
                 "mnemonic": "CA_POSITION_DE_LA_PEDALE_ACCELERATEUR",
-                "label_index": "11560",
+                "label_index": "@P11560",
                 "label_korean": "가속 페달 위치",
                 "group_id": "31835",
                 "req_frame_id": "95788",
@@ -3445,13 +3445,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "3350",
+                "help_code": "@P3350",
                 "help_korean": "가속 페달 센서에 의해 측정된 위치"
             },
             {
                 "position": 7,
                 "mnemonic": "CA_TENSION_PEDALE_ACCELERATEUR_01",
-                "label_index": "6215",
+                "label_index": "@P6215@\\*1",
                 "label_korean": "가속 페달1 전압",
                 "group_id": "31835",
                 "req_frame_id": "95788",
@@ -3473,7 +3473,7 @@
             {
                 "position": 8,
                 "mnemonic": "CA_TENSION_PEDALE_ACCELERATEUR_02",
-                "label_index": "6215",
+                "label_index": "@P6215@\\*2",
                 "label_korean": "가속 페달2 전압",
                 "group_id": "31835",
                 "req_frame_id": "95788",
@@ -3503,7 +3503,7 @@
             {
                 "position": 1,
                 "mnemonic": "CA_REGIME_MOTEUR",
-                "label_index": "7917",
+                "label_index": "@P7917",
                 "label_korean": "엔진 속도",
                 "group_id": "31835",
                 "req_frame_id": "95788",
@@ -3525,7 +3525,7 @@
             {
                 "position": 2,
                 "mnemonic": "TENSION_BAT",
-                "label_index": "18263",
+                "label_index": "@P18263",
                 "label_korean": "배터리 전압",
                 "group_id": "31835",
                 "req_frame_id": "95788",
@@ -3547,7 +3547,7 @@
             {
                 "position": 3,
                 "mnemonic": "CA_ETAT_MOTEUR",
-                "label_index": "11481",
+                "label_index": "@P11481",
                 "label_korean": "엔진 상태",
                 "group_id": "31835",
                 "req_frame_id": "95788",
@@ -3593,7 +3593,7 @@
             {
                 "position": 4,
                 "mnemonic": "CA_TEMPERATURE_EAU",
-                "label_index": "11797",
+                "label_index": "@P11797",
                 "label_korean": "냉각수 온도",
                 "group_id": "31835",
                 "req_frame_id": "95788",
@@ -3609,13 +3609,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "10250",
+                "help_code": "@P10250",
                 "help_korean": "허용되는 냉각수 온도 (실제 값)"
             },
             {
                 "position": 5,
                 "mnemonic": "MP_PRESSION_CARBURANT_MESURE_a",
-                "label_index": "13069",
+                "label_index": "@P13069",
                 "label_korean": "측정된 연료 압력",
                 "group_id": "31835",
                 "req_frame_id": "95788",
@@ -3637,7 +3637,7 @@
             {
                 "position": 6,
                 "mnemonic": "CA_POSITION_DE_LA_PEDALE_ACCELERATEUR",
-                "label_index": "11560",
+                "label_index": "@P11560",
                 "label_korean": "가속 페달 위치",
                 "group_id": "31835",
                 "req_frame_id": "95788",
@@ -3653,13 +3653,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "3350",
+                "help_code": "@P3350",
                 "help_korean": "가속 페달 센서에 의해 측정된 위치"
             },
             {
                 "position": 7,
                 "mnemonic": "CA_TENSION_ALIMENTATION_01",
-                "label_index": "7348",
+                "label_index": "@P7348@\\*1",
                 "label_korean": "공급 전압1",
                 "group_id": "31835",
                 "req_frame_id": "95788",
@@ -3675,13 +3675,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "1",
-                "help_code": "8391, 37290",
+                "help_code": "@P8391@\\*1@T.@P37290",
                 "help_korean": "센서 공급 전압(1).이 전압은 엔진 ECU에 의해서 제공된다"
             },
             {
                 "position": 8,
                 "mnemonic": "CA_TENSION_ALIMENTATION_02",
-                "label_index": "7348",
+                "label_index": "@P7348@\\*2",
                 "label_korean": "공급 전압2",
                 "group_id": "31835",
                 "req_frame_id": "95788",
@@ -3711,7 +3711,7 @@
             {
                 "position": 1,
                 "mnemonic": "CA_REGIME_MOTEUR",
-                "label_index": "7917",
+                "label_index": "@P7917",
                 "label_korean": "엔진 속도",
                 "group_id": "31835",
                 "req_frame_id": "95788",
@@ -3733,7 +3733,7 @@
             {
                 "position": 2,
                 "mnemonic": "TENSION_BAT",
-                "label_index": "18263",
+                "label_index": "@P18263",
                 "label_korean": "배터리 전압",
                 "group_id": "31835",
                 "req_frame_id": "95788",
@@ -3755,7 +3755,7 @@
             {
                 "position": 3,
                 "mnemonic": "CA_ETAT_MOTEUR",
-                "label_index": "11481",
+                "label_index": "@P11481",
                 "label_korean": "엔진 상태",
                 "group_id": "31835",
                 "req_frame_id": "95788",
@@ -3801,7 +3801,7 @@
             {
                 "position": 4,
                 "mnemonic": "CA_VITESSE_VEHICULE",
-                "label_index": "15603",
+                "label_index": "@P15603@\\*",
                 "label_korean": "차량 속도",
                 "group_id": "31835",
                 "req_frame_id": "95788",
@@ -3825,7 +3825,7 @@
             {
                 "position": 5,
                 "mnemonic": "CA_RAPPORT_BOITE_DE_VITESSES_a",
-                "label_index": "7135",
+                "label_index": "@P7135@\\*",
                 "label_korean": "기어비",
                 "group_id": "31835",
                 "req_frame_id": "95788",
@@ -3866,13 +3866,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "11123",
+                "help_code": "@P11123",
                 "help_korean": "엔진 속도 및 차량 속도에 따라 계산된 기어"
             },
             {
                 "position": 6,
                 "mnemonic": "CA_POSITION_DE_LA_PEDALE_ACCELERATEUR",
-                "label_index": "11560",
+                "label_index": "@P11560",
                 "label_korean": "가속 페달 위치",
                 "group_id": "31835",
                 "req_frame_id": "95788",
@@ -3888,13 +3888,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "3350",
+                "help_code": "@P3350",
                 "help_korean": "가속 페달 센서에 의해 측정된 위치"
             },
             {
                 "position": 7,
                 "mnemonic": "CA_TENSION_ALIMENTATION_01",
-                "label_index": "7348",
+                "label_index": "@P7348@\\*1",
                 "label_korean": "공급 전압1",
                 "group_id": "31835",
                 "req_frame_id": "95788",
@@ -3910,13 +3910,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "1",
-                "help_code": "8391, 37290",
+                "help_code": "@P8391@\\*1@T.@P37290",
                 "help_korean": "센서 공급 전압(1).이 전압은 엔진 ECU에 의해서 제공된다"
             },
             {
                 "position": 8,
                 "mnemonic": "CA_TENSION_ALIMENTATION_02",
-                "label_index": "7348",
+                "label_index": "@P7348@\\*2",
                 "label_korean": "공급 전압2",
                 "group_id": "31835",
                 "req_frame_id": "95788",
@@ -3946,7 +3946,7 @@
             {
                 "position": 1,
                 "mnemonic": "CA_REGIME_MOTEUR",
-                "label_index": "7917",
+                "label_index": "@P7917",
                 "label_korean": "엔진 속도",
                 "group_id": "31835",
                 "req_frame_id": "95788",
@@ -3968,7 +3968,7 @@
             {
                 "position": 2,
                 "mnemonic": "TENSION_BAT",
-                "label_index": "18263",
+                "label_index": "@P18263",
                 "label_korean": "배터리 전압",
                 "group_id": "31835",
                 "req_frame_id": "95788",
@@ -3990,7 +3990,7 @@
             {
                 "position": 3,
                 "mnemonic": "CA_ETAT_MOTEUR",
-                "label_index": "11481",
+                "label_index": "@P11481",
                 "label_korean": "엔진 상태",
                 "group_id": "31835",
                 "req_frame_id": "95788",
@@ -4036,7 +4036,7 @@
             {
                 "position": 4,
                 "mnemonic": "CA_TEMPERATURE_EAU",
-                "label_index": "11797",
+                "label_index": "@P11797",
                 "label_korean": "냉각수 온도",
                 "group_id": "31835",
                 "req_frame_id": "95788",
@@ -4052,13 +4052,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "10250",
+                "help_code": "@P10250",
                 "help_korean": "허용되는 냉각수 온도 (실제 값)"
             },
             {
                 "position": 5,
                 "mnemonic": "CA_TEMPERATURE_CARBURANT",
-                "label_index": "3480",
+                "label_index": "@P3480@\\*",
                 "label_korean": "연료 온도",
                 "group_id": "31835",
                 "req_frame_id": "95788",
@@ -4074,13 +4074,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "11784",
+                "help_code": "@P11784",
                 "help_korean": "디젤 리턴 라인에서 연료 온도"
             },
             {
                 "position": 6,
                 "mnemonic": "CA_PRESSION_CARBURANT_MESUREE_BRUTE",
-                "label_index": "7166",
+                "label_index": "@P7166",
                 "label_korean": "측정된 총 연료 압력",
                 "group_id": "31835",
                 "req_frame_id": "95788",
@@ -4102,7 +4102,7 @@
             {
                 "position": 7,
                 "mnemonic": "MP_PRESSION_CARBURANT_MESURE_a",
-                "label_index": "13069",
+                "label_index": "@P13069",
                 "label_korean": "측정된 연료 압력",
                 "group_id": "31835",
                 "req_frame_id": "95788",
@@ -4124,7 +4124,7 @@
             {
                 "position": 8,
                 "mnemonic": "CA_COURANT_REGULATEUR_DEBIT_POMPE_HP",
-                "label_index": "3871",
+                "label_index": "@P3871",
                 "label_korean": "고압 펌프 플로우 레귤레이터 전류",
                 "group_id": "31835",
                 "req_frame_id": "95788",
@@ -4154,7 +4154,7 @@
             {
                 "position": 1,
                 "mnemonic": "CA_REGIME_MOTEUR",
-                "label_index": "7917",
+                "label_index": "@P7917",
                 "label_korean": "엔진 속도",
                 "group_id": "31835",
                 "req_frame_id": "95788",
@@ -4176,7 +4176,7 @@
             {
                 "position": 2,
                 "mnemonic": "TENSION_BAT",
-                "label_index": "18263",
+                "label_index": "@P18263",
                 "label_korean": "배터리 전압",
                 "group_id": "31835",
                 "req_frame_id": "95788",
@@ -4198,7 +4198,7 @@
             {
                 "position": 3,
                 "mnemonic": "CA_ETAT_MOTEUR",
-                "label_index": "11481",
+                "label_index": "@P11481",
                 "label_korean": "엔진 상태",
                 "group_id": "31835",
                 "req_frame_id": "95788",
@@ -4244,7 +4244,7 @@
             {
                 "position": 4,
                 "mnemonic": "CA_TEMPERATURE_EAU",
-                "label_index": "11797",
+                "label_index": "@P11797",
                 "label_korean": "냉각수 온도",
                 "group_id": "31835",
                 "req_frame_id": "95788",
@@ -4260,13 +4260,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "10250",
+                "help_code": "@P10250",
                 "help_korean": "허용되는 냉각수 온도 (실제 값)"
             },
             {
                 "position": 5,
                 "mnemonic": "CA_COMMANDE_GMV_PETITE_VITESSE",
-                "label_index": "12284",
+                "label_index": "@P12284",
                 "label_korean": "저속 냉각 팬 제어",
                 "group_id": "31835",
                 "req_frame_id": "95788",
@@ -4288,7 +4288,7 @@
             {
                 "position": 6,
                 "mnemonic": "CA_COMMANDE_GMV_GRANDE_VITESSE",
-                "label_index": "11696",
+                "label_index": "@P11696",
                 "label_korean": "고속 냉각팬 제어",
                 "group_id": "31835",
                 "req_frame_id": "95788",
@@ -4313,7 +4313,7 @@
             {
                 "position": 7,
                 "mnemonic": "CA_COMMANDE_CLIMATISATION",
-                "label_index": "5002",
+                "label_index": "@P5002",
                 "label_korean": "에어컨 컨트롤",
                 "group_id": "31835",
                 "req_frame_id": "95788",
@@ -4338,7 +4338,7 @@
             {
                 "position": 8,
                 "mnemonic": "CA_PRESSION_CLIMATISATION",
-                "label_index": "8794",
+                "label_index": "@P8794@\\*",
                 "label_korean": "에어컨 압력",
                 "group_id": "31835",
                 "req_frame_id": "95788",
@@ -4368,7 +4368,7 @@
             {
                 "position": 1,
                 "mnemonic": "CA_CONSIGNE_POSITION_VANNE_EGR_a",
-                "label_index": "7477",
+                "label_index": "@P7477",
                 "label_korean": "EGR 밸브 위치 기준 값",
                 "group_id": "31835",
                 "req_frame_id": "95788",
@@ -4390,7 +4390,7 @@
             {
                 "position": 2,
                 "mnemonic": "CA_RECOPIE_POSITION_VANNE_EGR",
-                "label_index": "8396",
+                "label_index": "@P8396",
                 "label_korean": "ERG 밸브 위치 복사",
                 "group_id": "31835",
                 "req_frame_id": "95788",
@@ -4406,13 +4406,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "13539",
+                "help_code": "@P13539",
                 "help_korean": "위치 반복 센서에 의해서 기록된 EGR 밸브 열림 값"
             },
             {
                 "position": 3,
                 "mnemonic": "CA_PRESSION_ATMOSPHERIQUE",
-                "label_index": "3014",
+                "label_index": "@P3014",
                 "label_korean": "대기 압력",
                 "group_id": "31835",
                 "req_frame_id": "95788",
@@ -4434,7 +4434,7 @@
             {
                 "position": 4,
                 "mnemonic": "CA_TEMPERATURE_AIR_DEBITMETRE",
-                "label_index": "8962",
+                "label_index": "@P8962",
                 "label_korean": "에어 플로우 센서 공기 온도",
                 "group_id": "31835",
                 "req_frame_id": "95788",
@@ -4456,7 +4456,7 @@
             {
                 "position": 5,
                 "mnemonic": "CA_CONSIGNE_DEBIT_AIR",
-                "label_index": "3733",
+                "label_index": "@P3733",
                 "label_korean": "에어 플로우 세팅",
                 "group_id": "31835",
                 "req_frame_id": "95788",
@@ -4472,13 +4472,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "14379",
+                "help_code": "@P14379",
                 "help_korean": "EGR 밸브의 제어를 위해 흡기 매니폴드에서 도달해야 할 공기량"
             },
             {
                 "position": 6,
                 "mnemonic": "CA_DEBIT_AIR_MESURE",
-                "label_index": "12500",
+                "label_index": "@P12500",
                 "label_korean": "측정된 에어 플로우",
                 "group_id": "31835",
                 "req_frame_id": "95788",
@@ -4494,13 +4494,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "14254",
+                "help_code": "@P14254",
                 "help_korean": "EGR 밸브의 제어를 위해 측정된 공기량"
             },
             {
                 "position": 7,
                 "mnemonic": "CA_RCO_VANNE_EGR",
-                "label_index": "6216",
+                "label_index": "@P6216",
                 "label_korean": "EGR 솔레노이드 밸브 OCR",
                 "group_id": "31835",
                 "req_frame_id": "95788",
@@ -4522,7 +4522,7 @@
             {
                 "position": 8,
                 "mnemonic": "CA_RCO_EV_PAPILLON_EGR_b",
-                "label_index": "7725",
+                "label_index": "@P7725",
                 "label_korean": "배기 가스 재순환 드로틀 솔레노이드 밸브 OCR",
                 "group_id": "31835",
                 "req_frame_id": "95788",
@@ -4552,7 +4552,7 @@
             {
                 "position": 1,
                 "mnemonic": "CA_REGIME_MOTEUR",
-                "label_index": "7917",
+                "label_index": "@P7917",
                 "label_korean": "엔진 속도",
                 "group_id": "31835",
                 "req_frame_id": "95788",
@@ -4574,7 +4574,7 @@
             {
                 "position": 2,
                 "mnemonic": "TENSION_BAT",
-                "label_index": "18263",
+                "label_index": "@P18263",
                 "label_korean": "배터리 전압",
                 "group_id": "31835",
                 "req_frame_id": "95788",
@@ -4596,7 +4596,7 @@
             {
                 "position": 3,
                 "mnemonic": "CA_ETAT_MOTEUR",
-                "label_index": "11481",
+                "label_index": "@P11481",
                 "label_korean": "엔진 상태",
                 "group_id": "31835",
                 "req_frame_id": "95788",
@@ -4642,7 +4642,7 @@
             {
                 "position": 4,
                 "mnemonic": "CA_TEMPERATURE_EAU",
-                "label_index": "11797",
+                "label_index": "@P11797",
                 "label_korean": "냉각수 온도",
                 "group_id": "31835",
                 "req_frame_id": "95788",
@@ -4658,13 +4658,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "10250",
+                "help_code": "@P10250",
                 "help_korean": "허용되는 냉각수 온도 (실제 값)"
             },
             {
                 "position": 5,
                 "mnemonic": "CA_POSITION_DE_LA_PEDALE_ACCELERATEUR",
-                "label_index": "11560",
+                "label_index": "@P11560",
                 "label_korean": "가속 페달 위치",
                 "group_id": "31835",
                 "req_frame_id": "95788",
@@ -4680,13 +4680,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "3350",
+                "help_code": "@P3350",
                 "help_korean": "가속 페달 센서에 의해 측정된 위치"
             },
             {
                 "position": 6,
                 "mnemonic": "CA_COURANT_REGULATEUR_DEBIT_POMPE_HP",
-                "label_index": "3871",
+                "label_index": "@P3871",
                 "label_korean": "고압 펌프 플로우 레귤레이터 전류",
                 "group_id": "31835",
                 "req_frame_id": "95788",
@@ -4708,7 +4708,7 @@
             {
                 "position": 7,
                 "mnemonic": "CA_TEMPERATURE_CARBURANT",
-                "label_index": "3480",
+                "label_index": "@P3480@\\*",
                 "label_korean": "연료 온도",
                 "group_id": "31835",
                 "req_frame_id": "95788",
@@ -4724,13 +4724,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "11784",
+                "help_code": "@P11784",
                 "help_korean": "디젤 리턴 라인에서 연료 온도"
             },
             {
                 "position": 8,
                 "mnemonic": "MP_PRESSION_CARBURANT_MESURE_a",
-                "label_index": "13069",
+                "label_index": "@P13069",
                 "label_korean": "측정된 연료 압력",
                 "group_id": "31835",
                 "req_frame_id": "95788",
@@ -4760,7 +4760,7 @@
             {
                 "position": 1,
                 "mnemonic": "CA_REGIME_MOTEUR",
-                "label_index": "7917",
+                "label_index": "@P7917",
                 "label_korean": "엔진 속도",
                 "group_id": "31835",
                 "req_frame_id": "95788",
@@ -4782,7 +4782,7 @@
             {
                 "position": 2,
                 "mnemonic": "TENSION_BAT",
-                "label_index": "18263",
+                "label_index": "@P18263",
                 "label_korean": "배터리 전압",
                 "group_id": "31835",
                 "req_frame_id": "95788",
@@ -4804,7 +4804,7 @@
             {
                 "position": 3,
                 "mnemonic": "CA_TEMPERATURE_EAU",
-                "label_index": "11797",
+                "label_index": "@P11797",
                 "label_korean": "냉각수 온도",
                 "group_id": "31835",
                 "req_frame_id": "95788",
@@ -4820,13 +4820,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "10250",
+                "help_code": "@P10250",
                 "help_korean": "허용되는 냉각수 온도 (실제 값)"
             },
             {
                 "position": 4,
                 "mnemonic": "CA_ETAT_REGULATION_PRESSION_SURALIMENTATION_AIR",
-                "label_index": "7033",
+                "label_index": "@P7033",
                 "label_korean": "터보 압력 조절 상태",
                 "group_id": "31835",
                 "req_frame_id": "95788",
@@ -4845,13 +4845,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "7654",
+                "help_code": "@P7654",
                 "help_korean": "터보 압력은 엔진 ECU 맵에 의해 만들어지거나 또는 흡기 압력 센서로부터 정보에 따라 정의된다"
             },
             {
                 "position": 5,
                 "mnemonic": "MP_PRESSION_CARBURANT_MESURE_a",
-                "label_index": "13069",
+                "label_index": "@P13069",
                 "label_korean": "측정된 연료 압력",
                 "group_id": "31835",
                 "req_frame_id": "95788",
@@ -4873,7 +4873,7 @@
             {
                 "position": 6,
                 "mnemonic": "CA_PRESSION_ADMISSION_NOTE_P2",
-                "label_index": "9580",
+                "label_index": "@F9580",
                 "label_korean": "흡기 압력",
                 "group_id": "31835",
                 "req_frame_id": "95788",
@@ -4895,7 +4895,7 @@
             {
                 "position": 7,
                 "mnemonic": "CA_CONSIGNE_PRESSION_TURBO",
-                "label_index": "14535",
+                "label_index": "@P14535",
                 "label_korean": "터보 압력 기준 값",
                 "group_id": "31835",
                 "req_frame_id": "95788",
@@ -4917,7 +4917,7 @@
             {
                 "position": 8,
                 "mnemonic": "CA_DEBIT_AIR_MESURE",
-                "label_index": "12500",
+                "label_index": "@P12500",
                 "label_korean": "측정된 에어 플로우",
                 "group_id": "31835",
                 "req_frame_id": "95788",
@@ -4933,7 +4933,7 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "14254",
+                "help_code": "@P14254",
                 "help_korean": "EGR 밸브의 제어를 위해 측정된 공기량"
             }
         ]
@@ -4947,7 +4947,7 @@
             {
                 "position": 1,
                 "mnemonic": "CA_ETAT_DE_CHARGE_FAP",
-                "label_index": "3978",
+                "label_index": "@P3978",
                 "label_korean": "분진 필터 부하 상태",
                 "group_id": "31835",
                 "req_frame_id": "95788",
@@ -4967,13 +4967,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "10144",
+                "help_code": "@P10144",
                 "help_korean": "분진이 있는 분진 필터의 막힘 상태"
             },
             {
                 "position": 2,
                 "mnemonic": "CA_REGIME_MOTEUR",
-                "label_index": "7917",
+                "label_index": "@P7917",
                 "label_korean": "엔진 속도",
                 "group_id": "31835",
                 "req_frame_id": "95788",
@@ -4995,7 +4995,7 @@
             {
                 "position": 3,
                 "mnemonic": "CA_DEBIT_VOLUMIQUE_FAP",
-                "label_index": "37295",
+                "label_index": "@P37295",
                 "label_korean": "분진 필터량",
                 "group_id": "31835",
                 "req_frame_id": "95788",
@@ -5017,7 +5017,7 @@
             {
                 "position": 4,
                 "mnemonic": "CA_PRESSION_ADMISSION_NOTE_P2",
-                "label_index": "9580",
+                "label_index": "@F9580",
                 "label_korean": "흡기 압력",
                 "group_id": "31835",
                 "req_frame_id": "95788",
@@ -5039,7 +5039,7 @@
             {
                 "position": 5,
                 "mnemonic": "CA_TEMPERATURE_AIR_DEBITMETRE",
-                "label_index": "8962",
+                "label_index": "@P8962",
                 "label_korean": "에어 플로우 센서 공기 온도",
                 "group_id": "31835",
                 "req_frame_id": "95788",
@@ -5061,7 +5061,7 @@
             {
                 "position": 6,
                 "mnemonic": "CA_DEBIT_AIR_MESURE",
-                "label_index": "12500",
+                "label_index": "@P12500",
                 "label_korean": "측정된 에어 플로우",
                 "group_id": "31835",
                 "req_frame_id": "95788",
@@ -5077,13 +5077,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "14254",
+                "help_code": "@P14254",
                 "help_korean": "EGR 밸브의 제어를 위해 측정된 공기량"
             },
             {
                 "position": 7,
                 "mnemonic": "CA_DISTANCE_PARCOURUE_DEPUIS_DERNIERE_REGENERATION",
-                "label_index": "2488",
+                "label_index": "@P2488",
                 "label_korean": "마지막 재생 후 주행한 거리",
                 "group_id": "31835",
                 "req_frame_id": "95788",
@@ -5105,7 +5105,7 @@
             {
                 "position": 8,
                 "mnemonic": "CA_PRESSION_DIFFERENTIELLE_FAP_a",
-                "label_index": "17946",
+                "label_index": "@P17946",
                 "label_korean": "분진 필터 압력 차이",
                 "group_id": "31835",
                 "req_frame_id": "95788",
@@ -5135,7 +5135,7 @@
             {
                 "position": 1,
                 "mnemonic": "CA_REGIME_MOTEUR",
-                "label_index": "7917",
+                "label_index": "@P7917",
                 "label_korean": "엔진 속도",
                 "group_id": "31835",
                 "req_frame_id": "95788",
@@ -5157,7 +5157,7 @@
             {
                 "position": 2,
                 "mnemonic": "TENSION_BAT",
-                "label_index": "18263",
+                "label_index": "@P18263",
                 "label_korean": "배터리 전압",
                 "group_id": "31835",
                 "req_frame_id": "95788",
@@ -5179,7 +5179,7 @@
             {
                 "position": 3,
                 "mnemonic": "CA_ETAT_MOTEUR",
-                "label_index": "11481",
+                "label_index": "@P11481",
                 "label_korean": "엔진 상태",
                 "group_id": "31835",
                 "req_frame_id": "95788",
@@ -5225,7 +5225,7 @@
             {
                 "position": 4,
                 "mnemonic": "CA_TEMPERATURE_EAU",
-                "label_index": "11797",
+                "label_index": "@P11797",
                 "label_korean": "냉각수 온도",
                 "group_id": "31835",
                 "req_frame_id": "95788",
@@ -5241,13 +5241,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "10250",
+                "help_code": "@P10250",
                 "help_korean": "허용되는 냉각수 온도 (실제 값)"
             },
             {
                 "position": 5,
                 "mnemonic": "CA_COURANT_REGULATEUR_DEBIT_POMPE_HP",
-                "label_index": "3871",
+                "label_index": "@P3871",
                 "label_korean": "고압 펌프 플로우 레귤레이터 전류",
                 "group_id": "31835",
                 "req_frame_id": "95788",
@@ -5269,7 +5269,7 @@
             {
                 "position": 6,
                 "mnemonic": "MP_PRESSION_CARBURANT_MESURE_a",
-                "label_index": "13069",
+                "label_index": "@P13069",
                 "label_korean": "측정된 연료 압력",
                 "group_id": "31835",
                 "req_frame_id": "95788",
@@ -5291,7 +5291,7 @@
             {
                 "position": 7,
                 "mnemonic": "CA_ETAT_DE_CHARGE_FAP",
-                "label_index": "3978",
+                "label_index": "@P3978",
                 "label_korean": "분진 필터 부하 상태",
                 "group_id": "31835",
                 "req_frame_id": "95788",
@@ -5311,7 +5311,7 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "10144",
+                "help_code": "@P10144",
                 "help_korean": "분진이 있는 분진 필터의 막힘 상태"
             }
         ]
@@ -5325,7 +5325,7 @@
             {
                 "position": 1,
                 "mnemonic": "CA_REGIME_MOTEUR",
-                "label_index": "7917",
+                "label_index": "@P7917",
                 "label_korean": "엔진 속도",
                 "group_id": "31835",
                 "req_frame_id": "95788",
@@ -5347,7 +5347,7 @@
             {
                 "position": 2,
                 "mnemonic": "TENSION_BAT",
-                "label_index": "18263",
+                "label_index": "@P18263",
                 "label_korean": "배터리 전압",
                 "group_id": "31835",
                 "req_frame_id": "95788",
@@ -5369,7 +5369,7 @@
             {
                 "position": 3,
                 "mnemonic": "CA_CONSIGNE_POSITION_VANNE_EGR_a",
-                "label_index": "7477",
+                "label_index": "@P7477",
                 "label_korean": "EGR 밸브 위치 기준 값",
                 "group_id": "31835",
                 "req_frame_id": "95788",
@@ -5391,7 +5391,7 @@
             {
                 "position": 4,
                 "mnemonic": "CA_RECOPIE_POSITION_VANNE_EGR",
-                "label_index": "8396",
+                "label_index": "@P8396",
                 "label_korean": "ERG 밸브 위치 복사",
                 "group_id": "31835",
                 "req_frame_id": "95788",
@@ -5407,13 +5407,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "13539",
+                "help_code": "@P13539",
                 "help_korean": "위치 반복 센서에 의해서 기록된 EGR 밸브 열림 값"
             },
             {
                 "position": 5,
                 "mnemonic": "CA_PRESSION_ADMISSION_NOTE_P2",
-                "label_index": "9580",
+                "label_index": "@F9580",
                 "label_korean": "흡기 압력",
                 "group_id": "31835",
                 "req_frame_id": "95788",
@@ -5435,7 +5435,7 @@
             {
                 "position": 6,
                 "mnemonic": "CA_RCO_VANNE_EGR",
-                "label_index": "6216",
+                "label_index": "@P6216",
                 "label_korean": "EGR 솔레노이드 밸브 OCR",
                 "group_id": "31835",
                 "req_frame_id": "95788",
@@ -5457,7 +5457,7 @@
             {
                 "position": 7,
                 "mnemonic": "CA_DEBIT_AIR_MESURE",
-                "label_index": "12500",
+                "label_index": "@P12500",
                 "label_korean": "측정된 에어 플로우",
                 "group_id": "31835",
                 "req_frame_id": "95788",
@@ -5473,13 +5473,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "14254",
+                "help_code": "@P14254",
                 "help_korean": "EGR 밸브의 제어를 위해 측정된 공기량"
             },
             {
                 "position": 8,
                 "mnemonic": "CA_CONSIGNE_DEBIT_AIR",
-                "label_index": "3733",
+                "label_index": "@P3733",
                 "label_korean": "에어 플로우 세팅",
                 "group_id": "31835",
                 "req_frame_id": "95788",
@@ -5495,7 +5495,7 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "14379",
+                "help_code": "@P14379",
                 "help_korean": "EGR 밸브의 제어를 위해 흡기 매니폴드에서 도달해야 할 공기량"
             }
         ]

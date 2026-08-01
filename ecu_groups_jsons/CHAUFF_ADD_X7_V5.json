@@ -8,7 +8,7 @@
             {
                 "position": 1,
                 "mnemonic": "ID_REFERENCE_FOURNISSEUR",
-                "label_index": "633",
+                "label_index": "@P633",
                 "label_korean": "제조업체",
                 "group_id": "25905",
                 "req_frame_id": "77720",
@@ -34,7 +34,7 @@
             {
                 "position": 2,
                 "mnemonic": "ID_REFERENCE_PSA",
-                "label_index": "8615",
+                "label_index": "@P8615",
                 "label_korean": "PSA 부품 번호",
                 "group_id": "25905",
                 "req_frame_id": "77720",
@@ -56,7 +56,7 @@
             {
                 "position": 3,
                 "mnemonic": "ID_NUM_COMP_new_2",
-                "label_index": "5292",
+                "label_index": "@P5292",
                 "label_korean": "추가 번호",
                 "group_id": "25905",
                 "req_frame_id": "77720",
@@ -78,7 +78,7 @@
             {
                 "position": 4,
                 "mnemonic": "ID_INDICE_EVOLUTION_CALIBRATION",
-                "label_index": "10680",
+                "label_index": "@P10680@\\*",
                 "label_korean": "캘리브레이션 변경 인덱스",
                 "group_id": "25905",
                 "req_frame_id": "77720",
@@ -100,7 +100,7 @@
             {
                 "position": 5,
                 "mnemonic": "ID_VERSION_LOGICIEL_new_1",
-                "label_index": "8662",
+                "label_index": "@P8662@\\*",
                 "label_korean": "소프트웨어 버전",
                 "group_id": "25905",
                 "req_frame_id": "77720",
@@ -122,7 +122,7 @@
             {
                 "position": 6,
                 "mnemonic": "ID_MESS_DIAGNOSTIC",
-                "label_index": "2459",
+                "label_index": "@P2459",
                 "label_korean": "진단 이메일",
                 "group_id": "25905",
                 "req_frame_id": "77720",
@@ -144,7 +144,7 @@
             {
                 "position": 7,
                 "mnemonic": "ID_INDICE_MESS_DIAGNOSTIC",
-                "label_index": "11894",
+                "label_index": "@P11894",
                 "label_korean": "진단 메시지 시스템 인덱스 (변경)",
                 "group_id": "25905",
                 "req_frame_id": "77720",
@@ -174,7 +174,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_TEMPERATURE_EAU_a",
-                "label_index": "11797",
+                "label_index": "@P11797",
                 "label_korean": "냉각수 온도",
                 "group_id": "25906",
                 "req_frame_id": "77723",
@@ -190,13 +190,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "7933",
+                "help_code": "@P7933",
                 "help_korean": "ECU에 의해 보여지는 냉각수 온도"
             },
             {
                 "position": 2,
                 "mnemonic": "MP_TENSIONGEP_C1",
-                "label_index": "7080",
+                "label_index": "@P7080",
                 "label_korean": "공급 전압",
                 "group_id": "25906",
                 "req_frame_id": "77723",
@@ -212,13 +212,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "10959",
+                "help_code": "@P10959",
                 "help_korean": "ECU에 의해 보여지는 공급 전압"
             },
             {
                 "position": 3,
                 "mnemonic": "REGIME_TURBINE_A_AIR",
-                "label_index": "10981",
+                "label_index": "@P10981@\\*",
                 "label_korean": "공기 임펠러 비율",
                 "group_id": "25906",
                 "req_frame_id": "77723",
@@ -234,13 +234,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "3466",
+                "help_code": "@P3466",
                 "help_korean": "공기 터빈 속도 (연소 공기)"
             },
             {
                 "position": 4,
                 "mnemonic": "REGIME_POMPE_DOSEUSE",
-                "label_index": "6146",
+                "label_index": "@P6146",
                 "label_korean": "배수 펌프 속도",
                 "group_id": "25906",
                 "req_frame_id": "77723",
@@ -256,13 +256,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "13270",
+                "help_code": "@P13270",
                 "help_korean": "미터링 펌프 속도 (연료)"
             },
             {
                 "position": 5,
                 "mnemonic": "REGIMEDIC",
-                "label_index": "4026",
+                "label_index": "@P4026",
                 "label_korean": "플러그 속도",
                 "group_id": "25906",
                 "req_frame_id": "77723",
@@ -278,8 +278,8 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "43137, 43285",
-                "help_korean": "예열 작동 속도 / 점화 컨트롤러"
+                "help_code": "@P43137@\\+@T /@\\+@P43285",
+                "help_korean": "예열 작동 속도 /점화 컨트롤러"
             }
         ]
     },
@@ -292,7 +292,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_ETAT_CHAUFFAGE_ADDITIONNEL",
-                "label_index": "6425",
+                "label_index": "@P6425",
                 "label_korean": "추가 히팅 상태",
                 "group_id": "25906",
                 "req_frame_id": "77723",
@@ -310,13 +310,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "44338, 44339, 44340, 44341",
-                "help_korean": "\"안전 모드로 전환됨\" 상태는 보일러에 결함이 감지되었고 손상을 방지하기 위해서 잠금되었다는 것을 나타낸다.\n히터를 잠금해제 하기 위해서, 결함을 삭제하고 나서 액츄에이터 테스트 \" 추가 히팅 제어\"를 시작한다.\n- 보일러가 작동하지 않을 경우 : 보고된 결함에 해당된 결함을 수리하고 나서 결함을 삭제한다.\n모든 결함의 삭제만이 히터의 잠금을 해제할 수 있다."
+                "help_code": "@P44338@T.@\\n@P44339@T.@\\n@P44340@T.@\\n@P44341@T.",
+                "help_korean": "\"안전 모드로 전환됨\" 상태는 보일러에 결함이 감지되었고 손상을 방지하기 위해서 잠금되었다는 것을 나타낸다.\n히터를 잠금해제 하기 위해서, 결함을 삭제하고 나서 액츄에이터 테스트 \" 추가 히팅 제어\"를 시작한다.\n보일러가 작동하지 않을 경우 : 보고된 결함에 해당된 결함을 수리하고 나서 결함을 삭제한다.\n모든 결함의 삭제만이 히터의 잠금을 해제할 수 있다."
             },
             {
                 "position": 2,
                 "mnemonic": "MP_MODE_DE_FONCTIONNEMENT_CHAUDIERE",
-                "label_index": "11907",
+                "label_index": "@P11907",
                 "label_korean": "보일러 작동 모드",
                 "group_id": "25907",
                 "req_frame_id": "77726",
@@ -340,7 +340,7 @@
             {
                 "position": 3,
                 "mnemonic": "MP_PRESENCE_FLAMME_CHAUDIERE",
-                "label_index": "9934",
+                "label_index": "@P9934",
                 "label_korean": "화염의 존재",
                 "group_id": "25907",
                 "req_frame_id": "77726",
@@ -362,7 +362,7 @@
             {
                 "position": 4,
                 "mnemonic": "MP_ETAT_DOIGT_INCANDESCENT_CHAUDIERE",
-                "label_index": "10967",
+                "label_index": "@P10967",
                 "label_korean": "백열 핑거의 상태",
                 "group_id": "25907",
                 "req_frame_id": "77726",
@@ -384,7 +384,7 @@
             {
                 "position": 5,
                 "mnemonic": "MP_ETAT_POMPE_A_CARBURANT_CHAUDIERE",
-                "label_index": "8765",
+                "label_index": "@P8765",
                 "label_korean": "연료 펌프 상태",
                 "group_id": "25907",
                 "req_frame_id": "77726",
@@ -409,7 +409,7 @@
             {
                 "position": 6,
                 "mnemonic": "TURBINE_A_AIR",
-                "label_index": "2531",
+                "label_index": "@P2531@\\*",
                 "label_korean": "공기 임펠러",
                 "group_id": "25907",
                 "req_frame_id": "77726",
@@ -431,7 +431,7 @@
             {
                 "position": 7,
                 "mnemonic": "POMPE_A_EAU",
-                "label_index": "1722",
+                "label_index": "@P1722",
                 "label_korean": "냉각수 펌프",
                 "group_id": "25907",
                 "req_frame_id": "77726",
@@ -461,7 +461,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_VALEUR_GAZ_CO2_2",
-                "label_index": "3890",
+                "label_index": "@P3890",
                 "label_korean": "CO2 읽기",
                 "group_id": "25908",
                 "req_frame_id": "77729",
@@ -477,7 +477,7 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "6310",
+                "help_code": "@P6310",
                 "help_korean": "이 값은 CO2 값에 해당하지 않지만 가스 분석 장치에서 읽은 CO2 값을 조정하는 데 사용한다"
             }
         ]
@@ -491,7 +491,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_NOMBRE_HEURES_DE_FONCTIONNEMENT",
-                "label_index": "13297",
+                "label_index": "@P13297",
                 "label_korean": "작동 시간",
                 "group_id": "25909",
                 "req_frame_id": "77732",
@@ -507,13 +507,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "13492",
+                "help_code": "@P13492",
                 "help_korean": "각 보일러를 켠 후 0으로 리셋 작동 시간"
             },
             {
                 "position": 2,
                 "mnemonic": "MP_COMPTEUR_NOMBRE_MINUTES_DE_FONCTIONNEMENT",
-                "label_index": "2082",
+                "label_index": "@P2082",
                 "label_korean": "작동 분",
                 "group_id": "25909",
                 "req_frame_id": "77732",
@@ -529,13 +529,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "13492",
+                "help_code": "@P13492",
                 "help_korean": "각 보일러를 켠 후 0으로 리셋 작동 시간"
             },
             {
                 "position": 3,
                 "mnemonic": "MP_NOMBRE_HEURES_DE_FONCTIONNEMENT_GLOBAL",
-                "label_index": "5502",
+                "label_index": "@P5502",
                 "label_korean": "총 작업 시간",
                 "group_id": "25910",
                 "req_frame_id": "77735",
@@ -557,7 +557,7 @@
             {
                 "position": 4,
                 "mnemonic": "MP_COMPTEUR_NOMBRE_MINUTES_DE_FONCTIONNEMENT_GLOBAL",
-                "label_index": "6888",
+                "label_index": "@P6888",
                 "label_korean": "총 작업 분",
                 "group_id": "25910",
                 "req_frame_id": "77735",
@@ -579,7 +579,7 @@
             {
                 "position": 5,
                 "mnemonic": "MP_COMPTEUR_GLOBAL_ALLUMAGE_CHAUDIERE",
-                "label_index": "7818",
+                "label_index": "@P7818",
                 "label_korean": "총 보일러 작동 카운터",
                 "group_id": "25911",
                 "req_frame_id": "77738",
@@ -609,7 +609,7 @@
             {
                 "position": 1,
                 "mnemonic": "TYPE_DE_CHAUDIERE",
-                "label_index": "13519",
+                "label_index": "@P13519",
                 "label_korean": "보일러 타입",
                 "group_id": "25912",
                 "req_frame_id": "77741",
@@ -639,7 +639,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_VALEUR_GAZ_CO2_2",
-                "label_index": "22081",
+                "label_index": "@P22081",
                 "label_korean": "CO2 조정 값 읽기",
                 "group_id": "25908",
                 "req_frame_id": "77729",
@@ -669,7 +669,7 @@
             {
                 "position": 1,
                 "mnemonic": "CA_TEMPERATURE_EAU",
-                "label_index": "11797",
+                "label_index": "@P11797",
                 "label_korean": "냉각수 온도",
                 "group_id": "25898",
                 "req_frame_id": "77699",
@@ -685,13 +685,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "7933",
+                "help_code": "@P7933",
                 "help_korean": "ECU에 의해 보여지는 냉각수 온도"
             },
             {
                 "position": 2,
                 "mnemonic": "CA_TENSION_ALIMENTATION",
-                "label_index": "7080",
+                "label_index": "@P7080",
                 "label_korean": "공급 전압",
                 "group_id": "25898",
                 "req_frame_id": "77699",
@@ -707,13 +707,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "10959",
+                "help_code": "@P10959",
                 "help_korean": "ECU에 의해 보여지는 공급 전압"
             },
             {
                 "position": 3,
                 "mnemonic": "CA_MODE_DE_FONCTIONNEMENT_CHAUDIERE",
-                "label_index": "11907",
+                "label_index": "@P11907",
                 "label_korean": "보일러 작동 모드",
                 "group_id": "25898",
                 "req_frame_id": "77699",
@@ -735,7 +735,7 @@
             {
                 "position": 4,
                 "mnemonic": "CA_PRESENCE_FLAMME_CHAUDIERE",
-                "label_index": "9934",
+                "label_index": "@P9934",
                 "label_korean": "화염의 존재",
                 "group_id": "25898",
                 "req_frame_id": "77699",
@@ -757,7 +757,7 @@
             {
                 "position": 5,
                 "mnemonic": "CA_COMMANDE_POMPE_DOSEUSE_DE_CARBURANT",
-                "label_index": "5546",
+                "label_index": "@P5546",
                 "label_korean": "연료 미터링 펌프 제어",
                 "group_id": "25898",
                 "req_frame_id": "77699",
@@ -781,8 +781,8 @@
             {
                 "position": 6,
                 "mnemonic": "CA_COMMANDE_POMPE_A_EAU_NOT_SELON_VEHICULE",
-                "label_index": "2971",
-                "label_korean": "냉각수 펌프 제어 ( 차종에 따라 )",
+                "label_index": "@P2971@\\+@T (@\\+@P45768@\\+@T)",
+                "label_korean": "냉각수 펌프 제어 (차종에 따라)",
                 "group_id": "25898",
                 "req_frame_id": "77699",
                 "resp_frame_id": "77700",
@@ -803,7 +803,7 @@
             {
                 "position": 7,
                 "mnemonic": "CA_DOIGT_INCANDESCENCE",
-                "label_index": "14568",
+                "label_index": "@P14568",
                 "label_korean": "백열 부품",
                 "group_id": "25898",
                 "req_frame_id": "77699",
@@ -825,7 +825,7 @@
             {
                 "position": 8,
                 "mnemonic": "CA_COMMANDE_TURBINE_A_AIR_COMBUSTION",
-                "label_index": "2391",
+                "label_index": "@P2391",
                 "label_korean": "연소 공기 터빈 제어",
                 "group_id": "25898",
                 "req_frame_id": "77699",

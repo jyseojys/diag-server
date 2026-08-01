@@ -8,7 +8,7 @@
             {
                 "position": 1,
                 "mnemonic": "ID_NOM_DU_FOURNISSEUR",
-                "label_index": "5701",
+                "label_index": "@P5701",
                 "label_korean": "제조 업체명",
                 "group_id": "48619",
                 "req_frame_id": "146156",
@@ -38,7 +38,7 @@
             {
                 "position": 2,
                 "mnemonic": "ID_REFERENCE_MATERIEL",
-                "label_index": "1071",
+                "label_index": "@P1071",
                 "label_korean": "장치 부품 번호",
                 "group_id": "48619",
                 "req_frame_id": "146156",
@@ -60,7 +60,7 @@
             {
                 "position": 3,
                 "mnemonic": "ID_REFERENCE_COMPLEMENTAIRE_MATERIEL",
-                "label_index": "1634",
+                "label_index": "@P1634",
                 "label_korean": "장치 추가 참조 번호",
                 "group_id": "48619",
                 "req_frame_id": "146156",
@@ -82,7 +82,7 @@
             {
                 "position": 4,
                 "mnemonic": "ID_VERSION_LOGICIEL_new_1",
-                "label_index": "8662",
+                "label_index": "@P8662@\\*",
                 "label_korean": "소프트웨어 버전",
                 "group_id": "48619",
                 "req_frame_id": "146156",
@@ -104,7 +104,7 @@
             {
                 "position": 5,
                 "mnemonic": "ID_REF_CALIBRATION_new_1",
-                "label_index": "7014",
+                "label_index": "@P7014",
                 "label_korean": "캘리브레이션 버전",
                 "group_id": "48619",
                 "req_frame_id": "146156",
@@ -126,7 +126,7 @@
             {
                 "position": 6,
                 "mnemonic": "ID_MESS_DIAGNOSTIC",
-                "label_index": "2459",
+                "label_index": "@P2459",
                 "label_korean": "진단 이메일",
                 "group_id": "48619",
                 "req_frame_id": "146156",
@@ -148,7 +148,7 @@
             {
                 "position": 7,
                 "mnemonic": "ID_80_MP_INDICE_MESS",
-                "label_index": "2225",
+                "label_index": "@P2225",
                 "label_korean": "메시지 인덱스",
                 "group_id": "48619",
                 "req_frame_id": "146156",
@@ -170,7 +170,7 @@
             {
                 "position": 8,
                 "mnemonic": "ID_TRACABILITE_DATE_FABRICATION",
-                "label_index": "16589",
+                "label_index": "@P16589",
                 "label_korean": "제조 일자",
                 "group_id": "48621",
                 "req_frame_id": "146162",
@@ -192,7 +192,7 @@
             {
                 "position": 9,
                 "mnemonic": "ID_TRACABILITE_NUMERO_DE_SERIE_PIECE",
-                "label_index": "7592",
+                "label_index": "@P7592",
                 "label_korean": "부품 일련 번호",
                 "group_id": "48622",
                 "req_frame_id": "146165",
@@ -222,7 +222,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_TEMPERATURE_EVAPORATEUR_CLIMATISATION",
-                "label_index": "3339",
+                "label_index": "@P3339",
                 "label_korean": "증발기 센서 온도",
                 "group_id": "48623",
                 "req_frame_id": "146168",
@@ -238,13 +238,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "31869, 31870, 31871, 31872",
-                "help_korean": "에어 컨디셔닝 장치에 위치한 증발기 센서에 의해 측정된 온도.\n- 일반적인 값 :\n-\n- 15분 이상 에어컨 컴프레서 꺼짐 : 측정된 온도가 실내 온도에 가깝다.\n- 에어컨 컴프레서가 작동하면, 온도가 0과 6도 사이의 값에 도달하기 위해서 점진적으로 내려간다(외부 온도 약 20도에서)."
+                "help_code": "@P31869@T. @P31870@T :@\\n@T- @P31871@T.@\\n@T- @P31872@\\*0@\\*6@\\*20@T.",
+                "help_korean": "에어 컨디셔닝 장치에 위치한 증발기 센서에 의해 측정된 온도. 일반적인 값 :\n- 15분 이상 에어컨 컴프레서 꺼짐 : 측정된 온도가 실내 온도에 가깝다.\n- 에어컨 컴프레서가 작동하면, 온도가 0과 6도 사이의 값에 도달하기 위해서 점진적으로 내려간다(외부 온도 약 20도에서)."
             },
             {
                 "position": 2,
                 "mnemonic": "MP_TENSION_PULSEUR_AIR_HABITACLE",
-                "label_index": "1298",
+                "label_index": "@P1298",
                 "label_korean": "실내 에어 블로어 공급 전압",
                 "group_id": "48623",
                 "req_frame_id": "146168",
@@ -260,13 +260,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "1305",
+                "help_code": "@P1305",
                 "help_korean": "프론트 블로어 모터의 단자에서 전압 값"
             },
             {
                 "position": 3,
                 "mnemonic": "MP_CONSIGNE_PULSEUR_AIR_HABITACLE",
-                "label_index": "1605",
+                "label_index": "@P1605",
                 "label_korean": "실내 에어 블로어 기준 값",
                 "group_id": "48624",
                 "req_frame_id": "146171",
@@ -282,7 +282,7 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "1669",
+                "help_code": "@P1669",
                 "help_korean": "실내 블로어 제어 기준 값"
             }
         ]
@@ -296,7 +296,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_TEMPERATURE_EVAPORATEUR_CLIMATISATION",
-                "label_index": "3339",
+                "label_index": "@P3339",
                 "label_korean": "증발기 센서 온도",
                 "group_id": "48623",
                 "req_frame_id": "146168",
@@ -312,13 +312,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "31869, 31870, 31871, 31872",
-                "help_korean": "에어 컨디셔닝 장치에 위치한 증발기 센서에 의해 측정된 온도.\n- 일반적인 값 :\n-\n- 15분 이상 에어컨 컴프레서 꺼짐 : 측정된 온도가 실내 온도에 가깝다.\n- 에어컨 컴프레서가 작동하면, 온도가 0과 6도 사이의 값에 도달하기 위해서 점진적으로 내려간다(외부 온도 약 20도에서)."
+                "help_code": "@P31869@T. @P31870@T :@\\n@T- @P31871@T.@\\n@T- @P31872@\\*0@\\*6@\\*20@T.",
+                "help_korean": "에어 컨디셔닝 장치에 위치한 증발기 센서에 의해 측정된 온도. 일반적인 값 :\n- 15분 이상 에어컨 컴프레서 꺼짐 : 측정된 온도가 실내 온도에 가깝다.\n- 에어컨 컴프레서가 작동하면, 온도가 0과 6도 사이의 값에 도달하기 위해서 점진적으로 내려간다(외부 온도 약 20도에서)."
             },
             {
                 "position": 2,
                 "mnemonic": "MP_TENSION_PULSEUR_AIR_HABITACLE",
-                "label_index": "1298",
+                "label_index": "@P1298",
                 "label_korean": "실내 에어 블로어 공급 전압",
                 "group_id": "48623",
                 "req_frame_id": "146168",
@@ -334,7 +334,7 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "1305",
+                "help_code": "@P1305",
                 "help_korean": "프론트 블로어 모터의 단자에서 전압 값"
             }
         ]
@@ -348,7 +348,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_TEMPERATURE_EVAPORATEUR_CLIMATISATION",
-                "label_index": "3339",
+                "label_index": "@P3339",
                 "label_korean": "증발기 센서 온도",
                 "group_id": "48623",
                 "req_frame_id": "146168",
@@ -364,13 +364,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "31869, 31870, 31871, 31872",
-                "help_korean": "에어 컨디셔닝 장치에 위치한 증발기 센서에 의해 측정된 온도.\n- 일반적인 값 :\n-\n- 15분 이상 에어컨 컴프레서 꺼짐 : 측정된 온도가 실내 온도에 가깝다.\n- 에어컨 컴프레서가 작동하면, 온도가 0과 6도 사이의 값에 도달하기 위해서 점진적으로 내려간다(외부 온도 약 20도에서)."
+                "help_code": "@P31869@T. @P31870@T :@\\n@T- @P31871@T.@\\n@T- @P31872@\\*0@\\*6@\\*20@T.",
+                "help_korean": "에어 컨디셔닝 장치에 위치한 증발기 센서에 의해 측정된 온도. 일반적인 값 :\n- 15분 이상 에어컨 컴프레서 꺼짐 : 측정된 온도가 실내 온도에 가깝다.\n- 에어컨 컴프레서가 작동하면, 온도가 0과 6도 사이의 값에 도달하기 위해서 점진적으로 내려간다(외부 온도 약 20도에서)."
             },
             {
                 "position": 2,
                 "mnemonic": "MP_SONDE_ENSOLEILLEMENT_GAUCHE",
-                "label_index": "12527",
+                "label_index": "@P12527",
                 "label_korean": "좌측에서 일광 센서의 값",
                 "group_id": "48623",
                 "req_frame_id": "146168",
@@ -386,13 +386,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "31873, 31874",
+                "help_code": "@P31873@T.@\\n@P31874@\\*30@\\*50@T.",
                 "help_korean": "에어컨 일광 센서에 의해 실내에서 측정된 밝기 레벨'.\n서비스 센터에서, 손전등에 노출되면 밝기는 30에서 50% 사이에서 변한다."
             },
             {
                 "position": 3,
                 "mnemonic": "MP_SONDE_ENSOLEILLEMENT_DROITE",
-                "label_index": "6069",
+                "label_index": "@P6069",
                 "label_korean": "우측에서 일광 센서 값",
                 "group_id": "48623",
                 "req_frame_id": "146168",
@@ -408,13 +408,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "31873, 31874",
+                "help_code": "@P31873@T.@\\n@P31874@\\*30@\\*50@T.",
                 "help_korean": "에어컨 일광 센서에 의해 실내에서 측정된 밝기 레벨'.\n서비스 센터에서, 손전등에 노출되면 밝기는 30에서 50% 사이에서 변한다."
             },
             {
                 "position": 4,
                 "mnemonic": "MP_TENSION_PULSEUR_AIR_HABITACLE",
-                "label_index": "1298",
+                "label_index": "@P1298",
                 "label_korean": "실내 에어 블로어 공급 전압",
                 "group_id": "48623",
                 "req_frame_id": "146168",
@@ -430,7 +430,7 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "1305",
+                "help_code": "@P1305",
                 "help_korean": "프론트 블로어 모터의 단자에서 전압 값"
             }
         ]
@@ -444,7 +444,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_TEMPERATURE_EVAPORATEUR_CLIMATISATION",
-                "label_index": "3339",
+                "label_index": "@P3339",
                 "label_korean": "증발기 센서 온도",
                 "group_id": "48623",
                 "req_frame_id": "146168",
@@ -460,13 +460,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "31869, 31870, 31871, 31872",
-                "help_korean": "에어 컨디셔닝 장치에 위치한 증발기 센서에 의해 측정된 온도.\n- 일반적인 값 :\n-\n- 15분 이상 에어컨 컴프레서 꺼짐 : 측정된 온도가 실내 온도에 가깝다.\n- 에어컨 컴프레서가 작동하면, 온도가 0과 6도 사이의 값에 도달하기 위해서 점진적으로 내려간다(외부 온도 약 20도에서)."
+                "help_code": "@P31869@T. @P31870@T :@\\n@T- @P31871@T.@\\n@T- @P31872@\\*0@\\*6@\\*20@T.",
+                "help_korean": "에어 컨디셔닝 장치에 위치한 증발기 센서에 의해 측정된 온도. 일반적인 값 :\n- 15분 이상 에어컨 컴프레서 꺼짐 : 측정된 온도가 실내 온도에 가깝다.\n- 에어컨 컴프레서가 작동하면, 온도가 0과 6도 사이의 값에 도달하기 위해서 점진적으로 내려간다(외부 온도 약 20도에서)."
             },
             {
                 "position": 2,
                 "mnemonic": "MP_SONDE_ENSOLEILLEMENT_GAUCHE",
-                "label_index": "12527",
+                "label_index": "@P12527",
                 "label_korean": "좌측에서 일광 센서의 값",
                 "group_id": "48623",
                 "req_frame_id": "146168",
@@ -482,13 +482,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "31873, 31874",
+                "help_code": "@P31873@T.@\\n@P31874@\\*30@\\*50@T.",
                 "help_korean": "에어컨 일광 센서에 의해 실내에서 측정된 밝기 레벨'.\n서비스 센터에서, 손전등에 노출되면 밝기는 30에서 50% 사이에서 변한다."
             },
             {
                 "position": 3,
                 "mnemonic": "MP_SONDE_ENSOLEILLEMENT_DROITE",
-                "label_index": "6069",
+                "label_index": "@P6069",
                 "label_korean": "우측에서 일광 센서 값",
                 "group_id": "48623",
                 "req_frame_id": "146168",
@@ -504,13 +504,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "31873, 31874",
+                "help_code": "@P31873@T.@\\n@P31874@\\*30@\\*50@T.",
                 "help_korean": "에어컨 일광 센서에 의해 실내에서 측정된 밝기 레벨'.\n서비스 센터에서, 손전등에 노출되면 밝기는 30에서 50% 사이에서 변한다."
             },
             {
                 "position": 4,
                 "mnemonic": "MP_VALEUR_SONDE_AQS_CO",
-                "label_index": "21938",
+                "label_index": "@P21938",
                 "label_korean": "공기 품질 센서로부터 값 (일산화탄소)",
                 "group_id": "48623",
                 "req_frame_id": "146168",
@@ -526,13 +526,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "30551",
+                "help_code": "@P30551",
                 "help_korean": "외부 공기에 존재하고 AC 필터의 상단에서 측정된 일산화탄소의 농도"
             },
             {
                 "position": 5,
                 "mnemonic": "MP_VALEUR_SONDE_AQS_NO",
-                "label_index": "21587",
+                "label_index": "@P21587",
                 "label_korean": "공기 품질 센서로부터 값 (질소)",
                 "group_id": "48623",
                 "req_frame_id": "146168",
@@ -548,13 +548,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "30550",
+                "help_code": "@P30550",
                 "help_korean": "분진 필터의 상단에서 측정 및 외부 공기에 존재하는 질소의 농도"
             },
             {
                 "position": 6,
                 "mnemonic": "MP_TEMP_AIR_ARG",
-                "label_index": "13179",
+                "label_index": "@P13179",
                 "label_korean": "리어 좌측 블로어 공기 온도",
                 "group_id": "48623",
                 "req_frame_id": "146168",
@@ -570,13 +570,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "33668",
+                "help_code": "@P33668",
                 "help_korean": "리어 좌측 블로어 공기 온도 센서에 의해 측정된 값"
             },
             {
                 "position": 7,
                 "mnemonic": "MP_TEMP_AIR_ARD",
-                "label_index": "2695",
+                "label_index": "@P2695",
                 "label_korean": "리어 우측 블로어 공기 온도",
                 "group_id": "48623",
                 "req_frame_id": "146168",
@@ -592,13 +592,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "33667",
+                "help_code": "@P33667",
                 "help_korean": "리어 우측 블로어 공기 온도 센서에 의해 측정된 값"
             },
             {
                 "position": 8,
                 "mnemonic": "MP_TENSION_PULSEUR_AIR_HABITACLE",
-                "label_index": "1298",
+                "label_index": "@P1298",
                 "label_korean": "실내 에어 블로어 공급 전압",
                 "group_id": "48623",
                 "req_frame_id": "146168",
@@ -614,13 +614,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "1305",
+                "help_code": "@P1305",
                 "help_korean": "프론트 블로어 모터의 단자에서 전압 값"
             },
             {
                 "position": 9,
                 "mnemonic": "MP_TENSION_PULSEUR_AIR_HABITACLE_ARR",
-                "label_index": "33674",
+                "label_index": "@P33674",
                 "label_korean": "리어 에어 블로어 공급 전압",
                 "group_id": "48623",
                 "req_frame_id": "146168",
@@ -636,13 +636,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "21622",
+                "help_code": "@P21622",
                 "help_korean": "리어 블로어 모터의 단자에서 전압 값"
             }
         ]
     },
     "MESUREPARAMETRE2": {
-        "screen_title_korean": "액츄에이터상태",
+        "screen_title_korean": "액츄에이터 상태",
         "screen_label_index": "@P4101-POLUXDATA@\\*",
         "ecu_name": "CLIM_REG_UDS_W2_DegradedMode_V1",
         "total_sensors": 5,
@@ -650,7 +650,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_MOTEUR_ENTREE_AIR_RECY",
-                "label_index": "1631",
+                "label_index": "@P1631",
                 "label_korean": "흡기 및 재순환 모터의 위치",
                 "group_id": "48625",
                 "req_frame_id": "146174",
@@ -666,13 +666,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "17557",
+                "help_code": "@P17557",
                 "help_korean": "실내 공기 재순환 모터의 위치"
             },
             {
                 "position": 2,
                 "mnemonic": "MP_POSITION_MOTEUR_MIXAGE_AVG",
-                "label_index": "1456",
+                "label_index": "@P1456",
                 "label_korean": "프론트 좌측 믹싱 모터의 위치",
                 "group_id": "48625",
                 "req_frame_id": "146174",
@@ -688,13 +688,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "1456, 31875",
+                "help_code": "@P1456@\\+@\\n@F31875",
                 "help_korean": "프론트 좌측 믹싱 모터의 위치\n온도 세팅이 최대 값에서 최소 값으로 변할 때 믹싱 상태가 최대로 뜨거운 상태에서 최대로 차가운 상태로 변하는지 점검한다"
             },
             {
                 "position": 3,
                 "mnemonic": "MP_POSITION_MOTEUR_MIXAGE_AVD",
-                "label_index": "1397",
+                "label_index": "@P1397",
                 "label_korean": "프론트 우측 믹싱 모터의 위치",
                 "group_id": "48625",
                 "req_frame_id": "146174",
@@ -710,13 +710,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "1397, 31875",
+                "help_code": "@P1397@\\+@\\n@F31875",
                 "help_korean": "프론트 우측 믹싱 모터의 위치\n온도 세팅이 최대 값에서 최소 값으로 변할 때 믹싱 상태가 최대로 뜨거운 상태에서 최대로 차가운 상태로 변하는지 점검한다"
             },
             {
                 "position": 4,
                 "mnemonic": "MP_POSITION_MOTEUR_DISTRI_PIEDS_DEGI",
-                "label_index": "1451",
+                "label_index": "@P1451",
                 "label_korean": "발바닥/성에 제거 분배 모터의 위치",
                 "group_id": "48625",
                 "req_frame_id": "146174",
@@ -732,13 +732,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "1451",
+                "help_code": "@P1451",
                 "help_korean": "발바닥/성에 제거 분배 모터의 위치"
             },
             {
                 "position": 5,
                 "mnemonic": "MP_POSITION_MOTEUR_DISTRI_AERATION",
-                "label_index": "1549",
+                "label_index": "@P1549",
                 "label_korean": "환기 분배 모터의 위치",
                 "group_id": "48625",
                 "req_frame_id": "146174",
@@ -754,13 +754,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "1549",
+                "help_code": "@P1549",
                 "help_korean": "환기 분배 모터의 위치"
             }
         ]
     },
     "MESUREPARAMETRE2A": {
-        "screen_title_korean": "액츄에이터상태",
+        "screen_title_korean": "액츄에이터 상태",
         "screen_label_index": "@P4101-POLUXDATA@\\*",
         "ecu_name": "CLIM_REG_UDS_W2_DegradedMode_V1",
         "total_sensors": 3,
@@ -768,7 +768,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_MOTEUR_ENTREE_AIR_RECY",
-                "label_index": "1631",
+                "label_index": "@P1631",
                 "label_korean": "흡기 및 재순환 모터의 위치",
                 "group_id": "48625",
                 "req_frame_id": "146174",
@@ -784,13 +784,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "17557",
+                "help_code": "@P17557",
                 "help_korean": "실내 공기 재순환 모터의 위치"
             },
             {
                 "position": 2,
                 "mnemonic": "MP_POSITION_MOTEUR_MIXAGE",
-                "label_index": "108",
+                "label_index": "@P108",
                 "label_korean": "믹싱 모터 위치",
                 "group_id": "48625",
                 "req_frame_id": "146174",
@@ -806,13 +806,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "108, 31875",
+                "help_code": "@P108@\\+@\\n@F31875",
                 "help_korean": "믹싱 모터 위치\n온도 세팅이 최대 값에서 최소 값으로 변할 때 믹싱 상태가 최대로 뜨거운 상태에서 최대로 차가운 상태로 변하는지 점검한다"
             },
             {
                 "position": 3,
                 "mnemonic": "MP_POSITION_MOTEUR_DISTRI",
-                "label_index": "12860",
+                "label_index": "@P12860",
                 "label_korean": "분배 모터 위치",
                 "group_id": "48625",
                 "req_frame_id": "146174",
@@ -828,13 +828,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "12860, 961",
-                "help_korean": "분배 모터 위치 프론트 좌측"
+                "help_code": "@P12860@\\+@P961",
+                "help_korean": "분배 모터 위치프론트 좌측"
             }
         ]
     },
     "MESUREPARAMETRE2B": {
-        "screen_title_korean": "액츄에이터상태",
+        "screen_title_korean": "액츄에이터 상태",
         "screen_label_index": "@P4101-POLUXDATA@\\*",
         "ecu_name": "CLIM_REG_UDS_W2_DegradedMode_V1",
         "total_sensors": 1,
@@ -842,7 +842,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_MOTEUR_ENTREE_AIR_RECY",
-                "label_index": "1631",
+                "label_index": "@P1631",
                 "label_korean": "흡기 및 재순환 모터의 위치",
                 "group_id": "48625",
                 "req_frame_id": "146174",
@@ -858,13 +858,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "17557",
+                "help_code": "@P17557",
                 "help_korean": "실내 공기 재순환 모터의 위치"
             }
         ]
     },
     "MESUREPARAMETRE2C": {
-        "screen_title_korean": "액츄에이터상태",
+        "screen_title_korean": "액츄에이터 상태",
         "screen_label_index": "@P4101-POLUXDATA@\\*",
         "ecu_name": "CLIM_REG_UDS_W2_DegradedMode_V1",
         "total_sensors": 5,
@@ -872,7 +872,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_MOTEUR_ENTREE_AIR_RECY",
-                "label_index": "1631",
+                "label_index": "@P1631",
                 "label_korean": "흡기 및 재순환 모터의 위치",
                 "group_id": "48625",
                 "req_frame_id": "146174",
@@ -888,13 +888,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "17557",
+                "help_code": "@P17557",
                 "help_korean": "실내 공기 재순환 모터의 위치"
             },
             {
                 "position": 2,
                 "mnemonic": "MP_POSITION_MOTEUR_MIXAGE_AVG",
-                "label_index": "1456",
+                "label_index": "@P1456",
                 "label_korean": "프론트 좌측 믹싱 모터의 위치",
                 "group_id": "48625",
                 "req_frame_id": "146174",
@@ -910,13 +910,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "1456, 31875",
+                "help_code": "@P1456@\\+@\\n@F31875",
                 "help_korean": "프론트 좌측 믹싱 모터의 위치\n온도 세팅이 최대 값에서 최소 값으로 변할 때 믹싱 상태가 최대로 뜨거운 상태에서 최대로 차가운 상태로 변하는지 점검한다"
             },
             {
                 "position": 3,
                 "mnemonic": "MP_POSITION_MOTEUR_MIXAGE_AVD",
-                "label_index": "1397",
+                "label_index": "@P1397",
                 "label_korean": "프론트 우측 믹싱 모터의 위치",
                 "group_id": "48625",
                 "req_frame_id": "146174",
@@ -932,14 +932,14 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "1397, 31875",
+                "help_code": "@P1397@\\+@\\n@F31875",
                 "help_korean": "프론트 우측 믹싱 모터의 위치\n온도 세팅이 최대 값에서 최소 값으로 변할 때 믹싱 상태가 최대로 뜨거운 상태에서 최대로 차가운 상태로 변하는지 점검한다"
             },
             {
                 "position": 4,
                 "mnemonic": "MP_POSITION_MOTEUR_DISTRI_AVG",
-                "label_index": "12860",
-                "label_korean": "분배 모터 위치 프론트 좌측",
+                "label_index": "@P12860@\\+@P961",
+                "label_korean": "분배 모터 위치프론트 좌측",
                 "group_id": "48625",
                 "req_frame_id": "146174",
                 "resp_frame_id": "146175",
@@ -954,14 +954,14 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "12860, 961",
-                "help_korean": "분배 모터 위치 프론트 좌측"
+                "help_code": "@P12860@\\+@P961",
+                "help_korean": "분배 모터 위치프론트 좌측"
             },
             {
                 "position": 5,
                 "mnemonic": "MP_POSITION_MOTEUR_DISTRI_AVD",
-                "label_index": "12860",
-                "label_korean": "분배 모터 위치 프론트 우측",
+                "label_index": "@P12860@\\+@P948",
+                "label_korean": "분배 모터 위치프론트 우측",
                 "group_id": "48625",
                 "req_frame_id": "146174",
                 "resp_frame_id": "146175",
@@ -976,13 +976,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "12860, 948",
-                "help_korean": "분배 모터 위치 프론트 우측"
+                "help_code": "@P12860@\\+@P948",
+                "help_korean": "분배 모터 위치프론트 우측"
             }
         ]
     },
     "MESUREPARAMETRE2D": {
-        "screen_title_korean": "액츄에이터상태",
+        "screen_title_korean": "액츄에이터 상태",
         "screen_label_index": "@P4101-POLUXDATA@\\*",
         "ecu_name": "CLIM_REG_UDS_W2_DegradedMode_V1",
         "total_sensors": 9,
@@ -990,7 +990,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_MOTEUR_ENTREE_AIR_RECY",
-                "label_index": "1631",
+                "label_index": "@P1631",
                 "label_korean": "흡기 및 재순환 모터의 위치",
                 "group_id": "48625",
                 "req_frame_id": "146174",
@@ -1006,13 +1006,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "17557",
+                "help_code": "@P17557",
                 "help_korean": "실내 공기 재순환 모터의 위치"
             },
             {
                 "position": 2,
                 "mnemonic": "MP_POSITION_MOTEUR_MIXAGE_AVG",
-                "label_index": "1456",
+                "label_index": "@P1456",
                 "label_korean": "프론트 좌측 믹싱 모터의 위치",
                 "group_id": "48625",
                 "req_frame_id": "146174",
@@ -1028,13 +1028,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "1456, 31875",
+                "help_code": "@P1456@\\+@\\n@F31875",
                 "help_korean": "프론트 좌측 믹싱 모터의 위치\n온도 세팅이 최대 값에서 최소 값으로 변할 때 믹싱 상태가 최대로 뜨거운 상태에서 최대로 차가운 상태로 변하는지 점검한다"
             },
             {
                 "position": 3,
                 "mnemonic": "MP_POSITION_MOTEUR_MIXAGE_AVD",
-                "label_index": "1397",
+                "label_index": "@P1397",
                 "label_korean": "프론트 우측 믹싱 모터의 위치",
                 "group_id": "48625",
                 "req_frame_id": "146174",
@@ -1050,14 +1050,14 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "1397, 31875",
+                "help_code": "@P1397@\\+@\\n@F31875",
                 "help_korean": "프론트 우측 믹싱 모터의 위치\n온도 세팅이 최대 값에서 최소 값으로 변할 때 믹싱 상태가 최대로 뜨거운 상태에서 최대로 차가운 상태로 변하는지 점검한다"
             },
             {
                 "position": 4,
                 "mnemonic": "MP_POSITION_MOTEUR_DISTRI_AVG",
-                "label_index": "12860",
-                "label_korean": "분배 모터 위치 프론트 좌측",
+                "label_index": "@P12860@\\+@P961",
+                "label_korean": "분배 모터 위치프론트 좌측",
                 "group_id": "48625",
                 "req_frame_id": "146174",
                 "resp_frame_id": "146175",
@@ -1072,14 +1072,14 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "12860, 961",
-                "help_korean": "분배 모터 위치 프론트 좌측"
+                "help_code": "@P12860@\\+@P961",
+                "help_korean": "분배 모터 위치프론트 좌측"
             },
             {
                 "position": 5,
                 "mnemonic": "MP_POSITION_MOTEUR_DISTRI_AVD",
-                "label_index": "12860",
-                "label_korean": "분배 모터 위치 프론트 우측",
+                "label_index": "@P12860@\\+@P948",
+                "label_korean": "분배 모터 위치프론트 우측",
                 "group_id": "48625",
                 "req_frame_id": "146174",
                 "resp_frame_id": "146175",
@@ -1094,14 +1094,14 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "12860, 948",
-                "help_korean": "분배 모터 위치 프론트 우측"
+                "help_code": "@P12860@\\+@P948",
+                "help_korean": "분배 모터 위치프론트 우측"
             },
             {
                 "position": 6,
                 "mnemonic": "MP_POSITION_MOTEUR_MIXAGE_ARG",
-                "label_index": "3070",
-                "label_korean": "리어 믹싱 모터 위치 좌측",
+                "label_index": "@P3070@\\+@P5286",
+                "label_korean": "리어 믹싱 모터 위치좌측",
                 "group_id": "48625",
                 "req_frame_id": "146174",
                 "resp_frame_id": "146175",
@@ -1116,14 +1116,14 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "3070, 5286, 31875",
-                "help_korean": "리어 믹싱 모터 위치 좌측\n온도 세팅이 최대 값에서 최소 값으로 변할 때 믹싱 상태가 최대로 뜨거운 상태에서 최대로 차가운 상태로 변하는지 점검한다."
+                "help_code": "@P3070@\\+@P5286@\\n@P31875@T.",
+                "help_korean": "리어 믹싱 모터 위치좌측\n온도 세팅이 최대 값에서 최소 값으로 변할 때 믹싱 상태가 최대로 뜨거운 상태에서 최대로 차가운 상태로 변하는지 점검한다."
             },
             {
                 "position": 7,
                 "mnemonic": "MP_POSITION_MOTEUR_MIXAGE_ARD",
-                "label_index": "3070",
-                "label_korean": "리어 믹싱 모터 위치 우측",
+                "label_index": "@P3070@\\+@P2803",
+                "label_korean": "리어 믹싱 모터 위치우측",
                 "group_id": "48625",
                 "req_frame_id": "146174",
                 "resp_frame_id": "146175",
@@ -1138,14 +1138,14 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "3070, 2803, 31875",
-                "help_korean": "리어 믹싱 모터 위치 우측\n온도 세팅이 최대 값에서 최소 값으로 변할 때 믹싱 상태가 최대로 뜨거운 상태에서 최대로 차가운 상태로 변하는지 점검한다."
+                "help_code": "@P3070@\\+@P2803@\\n@P31875@T.",
+                "help_korean": "리어 믹싱 모터 위치우측\n온도 세팅이 최대 값에서 최소 값으로 변할 때 믹싱 상태가 최대로 뜨거운 상태에서 최대로 차가운 상태로 변하는지 점검한다."
             },
             {
                 "position": 8,
                 "mnemonic": "MP_POSITION_MOTEUR_DISTRI_ARG",
-                "label_index": "12860",
-                "label_korean": "분배 모터 위치 리어 좌측",
+                "label_index": "@P12860@\\+@P639",
+                "label_korean": "분배 모터 위치리어 좌측",
                 "group_id": "48625",
                 "req_frame_id": "146174",
                 "resp_frame_id": "146175",
@@ -1160,14 +1160,14 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "12860, 639",
-                "help_korean": "분배 모터 위치 리어 좌측"
+                "help_code": "@P12860@\\+@P639",
+                "help_korean": "분배 모터 위치리어 좌측"
             },
             {
                 "position": 9,
                 "mnemonic": "MP_POSITION_MOTEUR_DISTRI_ARD",
-                "label_index": "12860",
-                "label_korean": "분배 모터 위치 리어 좌측",
+                "label_index": "@P12860@\\+@P876",
+                "label_korean": "분배 모터 위치리어 좌측",
                 "group_id": "48625",
                 "req_frame_id": "146174",
                 "resp_frame_id": "146175",
@@ -1182,13 +1182,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "12860, 876",
-                "help_korean": "분배 모터 위치 리어 좌측"
+                "help_code": "@P12860@\\+@P876",
+                "help_korean": "분배 모터 위치리어 좌측"
             }
         ]
     },
     "MESUREPARAMETRE3": {
-        "screen_title_korean": "ECU설정",
+        "screen_title_korean": "ECU 설정",
         "screen_label_index": "@P12641-POLUXDATA@\\*",
         "ecu_name": "CLIM_REG_UDS_W2_DegradedMode_V1",
         "total_sensors": 21,
@@ -1196,7 +1196,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_ETAT_SONDE_EVAPO_AVT",
-                "label_index": "1674",
+                "label_index": "@P1674",
                 "label_korean": "프론트 증발기 센서의 상태",
                 "group_id": "48626",
                 "req_frame_id": "146177",
@@ -1212,13 +1212,13 @@
                 "bit_mask": 128,
                 "bit_shift": 7,
                 "dynamic_arg": "",
-                "help_code": "17542",
+                "help_code": "@P17542",
                 "help_korean": "에어컨의 재질 설정을 나타낸다"
             },
             {
                 "position": 2,
                 "mnemonic": "MP_ETAT_SONDE_ENSO",
-                "label_index": "1621",
+                "label_index": "@P1621",
                 "label_korean": "일광 센서의 상태",
                 "group_id": "48626",
                 "req_frame_id": "146177",
@@ -1234,13 +1234,13 @@
                 "bit_mask": 2,
                 "bit_shift": 1,
                 "dynamic_arg": "",
-                "help_code": "17542",
+                "help_code": "@P17542",
                 "help_korean": "에어컨의 재질 설정을 나타낸다"
             },
             {
                 "position": 3,
                 "mnemonic": "MP_ETAT_PULSEUR_AIR_HABITACLE",
-                "label_index": "1427",
+                "label_index": "@P1427",
                 "label_korean": "실내 에어 블로어의 상태",
                 "group_id": "48626",
                 "req_frame_id": "146177",
@@ -1260,13 +1260,13 @@
                 "bit_mask": 128,
                 "bit_shift": 7,
                 "dynamic_arg": "",
-                "help_code": "17542",
+                "help_code": "@P17542",
                 "help_korean": "에어컨의 재질 설정을 나타낸다"
             },
             {
                 "position": 4,
                 "mnemonic": "MP_ETAT_MOTEUR1",
-                "label_index": "1656",
+                "label_index": "@P1656@\\*1",
                 "label_korean": "모터1의 배정",
                 "group_id": "48626",
                 "req_frame_id": "146177",
@@ -1282,13 +1282,13 @@
                 "bit_mask": 240,
                 "bit_shift": 4,
                 "dynamic_arg": "1",
-                "help_code": "1510",
+                "help_code": "@P1510@\\*1",
                 "help_korean": "모터1의 배정을 나타낸다"
             },
             {
                 "position": 4,
                 "mnemonic": "MP_ETAT_MOTEUR1",
-                "label_index": "1656",
+                "label_index": "@P1656@\\*1",
                 "label_korean": "모터1의 배정",
                 "group_id": "48626",
                 "req_frame_id": "146177",
@@ -1304,13 +1304,13 @@
                 "bit_mask": 240,
                 "bit_shift": 4,
                 "dynamic_arg": "1",
-                "help_code": "1510",
+                "help_code": "@P1510@\\*1",
                 "help_korean": "모터1의 배정을 나타낸다"
             },
             {
                 "position": 5,
                 "mnemonic": "MP_ETAT_MOTEUR2",
-                "label_index": "1656",
+                "label_index": "@P1656@\\*2",
                 "label_korean": "모터2의 배정",
                 "group_id": "48626",
                 "req_frame_id": "146177",
@@ -1326,13 +1326,13 @@
                 "bit_mask": 15,
                 "bit_shift": 0,
                 "dynamic_arg": "2",
-                "help_code": "1510",
+                "help_code": "@P1510@\\*2",
                 "help_korean": "모터2의 배정을 나타낸다"
             },
             {
                 "position": 5,
                 "mnemonic": "MP_ETAT_MOTEUR2",
-                "label_index": "1656",
+                "label_index": "@P1656@\\*2",
                 "label_korean": "모터2의 배정",
                 "group_id": "48626",
                 "req_frame_id": "146177",
@@ -1348,13 +1348,13 @@
                 "bit_mask": 15,
                 "bit_shift": 0,
                 "dynamic_arg": "2",
-                "help_code": "1510",
+                "help_code": "@P1510@\\*2",
                 "help_korean": "모터2의 배정을 나타낸다"
             },
             {
                 "position": 6,
                 "mnemonic": "MP_ETAT_MOTEUR3",
-                "label_index": "1656",
+                "label_index": "@P1656@\\*3",
                 "label_korean": "모터3의 배정",
                 "group_id": "48626",
                 "req_frame_id": "146177",
@@ -1370,13 +1370,13 @@
                 "bit_mask": 240,
                 "bit_shift": 4,
                 "dynamic_arg": "3",
-                "help_code": "1510",
+                "help_code": "@P1510@\\*3",
                 "help_korean": "모터3의 배정을 나타낸다"
             },
             {
                 "position": 6,
                 "mnemonic": "MP_ETAT_MOTEUR3",
-                "label_index": "1656",
+                "label_index": "@P1656@\\*3",
                 "label_korean": "모터3의 배정",
                 "group_id": "48626",
                 "req_frame_id": "146177",
@@ -1392,13 +1392,13 @@
                 "bit_mask": 240,
                 "bit_shift": 4,
                 "dynamic_arg": "3",
-                "help_code": "1510",
+                "help_code": "@P1510@\\*3",
                 "help_korean": "모터3의 배정을 나타낸다"
             },
             {
                 "position": 7,
                 "mnemonic": "MP_ETAT_MOTEUR4",
-                "label_index": "1656",
+                "label_index": "@P1656@\\*4",
                 "label_korean": "모터4의 배정",
                 "group_id": "48626",
                 "req_frame_id": "146177",
@@ -1414,13 +1414,13 @@
                 "bit_mask": 15,
                 "bit_shift": 0,
                 "dynamic_arg": "4",
-                "help_code": "1510",
+                "help_code": "@P1510@\\*4",
                 "help_korean": "모터4의 배정을 나타낸다"
             },
             {
                 "position": 7,
                 "mnemonic": "MP_ETAT_MOTEUR4",
-                "label_index": "1656",
+                "label_index": "@P1656@\\*4",
                 "label_korean": "모터4의 배정",
                 "group_id": "48626",
                 "req_frame_id": "146177",
@@ -1436,13 +1436,13 @@
                 "bit_mask": 15,
                 "bit_shift": 0,
                 "dynamic_arg": "4",
-                "help_code": "1510",
+                "help_code": "@P1510@\\*4",
                 "help_korean": "모터4의 배정을 나타낸다"
             },
             {
                 "position": 8,
                 "mnemonic": "MP_ETAT_MOTEUR5",
-                "label_index": "1656",
+                "label_index": "@P1656@\\*5",
                 "label_korean": "모터5의 배정",
                 "group_id": "48626",
                 "req_frame_id": "146177",
@@ -1458,13 +1458,13 @@
                 "bit_mask": 240,
                 "bit_shift": 4,
                 "dynamic_arg": "5",
-                "help_code": "1510",
+                "help_code": "@P1510@\\*5",
                 "help_korean": "모터5의 배정을 나타낸다"
             },
             {
                 "position": 8,
                 "mnemonic": "MP_ETAT_MOTEUR5",
-                "label_index": "1656",
+                "label_index": "@P1656@\\*5",
                 "label_korean": "모터5의 배정",
                 "group_id": "48626",
                 "req_frame_id": "146177",
@@ -1480,13 +1480,13 @@
                 "bit_mask": 240,
                 "bit_shift": 4,
                 "dynamic_arg": "5",
-                "help_code": "1510",
+                "help_code": "@P1510@\\*5",
                 "help_korean": "모터5의 배정을 나타낸다"
             },
             {
                 "position": 9,
                 "mnemonic": "MP_ETAT_MOTEUR6",
-                "label_index": "1656",
+                "label_index": "@P1656@\\*6",
                 "label_korean": "모터6의 배정",
                 "group_id": "48626",
                 "req_frame_id": "146177",
@@ -1502,13 +1502,13 @@
                 "bit_mask": 15,
                 "bit_shift": 0,
                 "dynamic_arg": "6",
-                "help_code": "1510",
+                "help_code": "@P1510@\\*6",
                 "help_korean": "모터6의 배정을 나타낸다"
             },
             {
                 "position": 9,
                 "mnemonic": "MP_ETAT_MOTEUR6",
-                "label_index": "1656",
+                "label_index": "@P1656@\\*6",
                 "label_korean": "모터6의 배정",
                 "group_id": "48626",
                 "req_frame_id": "146177",
@@ -1524,13 +1524,13 @@
                 "bit_mask": 15,
                 "bit_shift": 0,
                 "dynamic_arg": "6",
-                "help_code": "1510",
+                "help_code": "@P1510@\\*6",
                 "help_korean": "모터6의 배정을 나타낸다"
             },
             {
                 "position": 10,
                 "mnemonic": "MP_ETAT_MOTEUR7",
-                "label_index": "1656",
+                "label_index": "@P1656@\\*7",
                 "label_korean": "모터7의 배정",
                 "group_id": "48626",
                 "req_frame_id": "146177",
@@ -1546,13 +1546,13 @@
                 "bit_mask": 240,
                 "bit_shift": 4,
                 "dynamic_arg": "7",
-                "help_code": "1510",
+                "help_code": "@P1510@\\*7",
                 "help_korean": "모터7의 배정을 나타낸다"
             },
             {
                 "position": 10,
                 "mnemonic": "MP_ETAT_MOTEUR7",
-                "label_index": "1656",
+                "label_index": "@P1656@\\*7",
                 "label_korean": "모터7의 배정",
                 "group_id": "48626",
                 "req_frame_id": "146177",
@@ -1568,13 +1568,13 @@
                 "bit_mask": 240,
                 "bit_shift": 4,
                 "dynamic_arg": "7",
-                "help_code": "1510",
+                "help_code": "@P1510@\\*7",
                 "help_korean": "모터7의 배정을 나타낸다"
             },
             {
                 "position": 11,
                 "mnemonic": "MP_ETAT_MOTEUR8",
-                "label_index": "1656",
+                "label_index": "@P1656@\\*8",
                 "label_korean": "모터8의 배정",
                 "group_id": "48626",
                 "req_frame_id": "146177",
@@ -1590,13 +1590,13 @@
                 "bit_mask": 15,
                 "bit_shift": 0,
                 "dynamic_arg": "8",
-                "help_code": "1510",
+                "help_code": "@P1510@\\*8",
                 "help_korean": "모터8의 배정을 나타낸다"
             },
             {
                 "position": 11,
                 "mnemonic": "MP_ETAT_MOTEUR8",
-                "label_index": "1656",
+                "label_index": "@P1656@\\*8",
                 "label_korean": "모터8의 배정",
                 "group_id": "48626",
                 "req_frame_id": "146177",
@@ -1612,13 +1612,13 @@
                 "bit_mask": 15,
                 "bit_shift": 0,
                 "dynamic_arg": "8",
-                "help_code": "1510",
+                "help_code": "@P1510@\\*8",
                 "help_korean": "모터8의 배정을 나타낸다"
             },
             {
                 "position": 12,
                 "mnemonic": "MP_ETAT_MOTEUR9",
-                "label_index": "1656",
+                "label_index": "@P1656@\\*9",
                 "label_korean": "모터9의 배정",
                 "group_id": "48626",
                 "req_frame_id": "146177",
@@ -1634,13 +1634,13 @@
                 "bit_mask": 240,
                 "bit_shift": 4,
                 "dynamic_arg": "9",
-                "help_code": "1510",
+                "help_code": "@P1510@\\*9",
                 "help_korean": "모터9의 배정을 나타낸다"
             },
             {
                 "position": 12,
                 "mnemonic": "MP_ETAT_MOTEUR9",
-                "label_index": "1656",
+                "label_index": "@P1656@\\*9",
                 "label_korean": "모터9의 배정",
                 "group_id": "48626",
                 "req_frame_id": "146177",
@@ -1656,13 +1656,13 @@
                 "bit_mask": 240,
                 "bit_shift": 4,
                 "dynamic_arg": "9",
-                "help_code": "1510",
+                "help_code": "@P1510@\\*9",
                 "help_korean": "모터9의 배정을 나타낸다"
             }
         ]
     },
     "MESUREPARAMETRE3A": {
-        "screen_title_korean": "ECU설정",
+        "screen_title_korean": "ECU 설정",
         "screen_label_index": "@P12641-POLUXDATA@\\*",
         "ecu_name": "CLIM_REG_UDS_W2_DegradedMode_V1",
         "total_sensors": 11,
@@ -1670,7 +1670,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_ETAT_SONDE_EVAPO_AVT",
-                "label_index": "1674",
+                "label_index": "@P1674",
                 "label_korean": "프론트 증발기 센서의 상태",
                 "group_id": "48626",
                 "req_frame_id": "146177",
@@ -1686,13 +1686,13 @@
                 "bit_mask": 128,
                 "bit_shift": 7,
                 "dynamic_arg": "",
-                "help_code": "17542",
+                "help_code": "@P17542",
                 "help_korean": "에어컨의 재질 설정을 나타낸다"
             },
             {
                 "position": 2,
                 "mnemonic": "MP_ETAT_PULSEUR_AIR_HABITACLE",
-                "label_index": "1427",
+                "label_index": "@P1427",
                 "label_korean": "실내 에어 블로어의 상태",
                 "group_id": "48626",
                 "req_frame_id": "146177",
@@ -1712,13 +1712,13 @@
                 "bit_mask": 128,
                 "bit_shift": 7,
                 "dynamic_arg": "",
-                "help_code": "17542",
+                "help_code": "@P17542",
                 "help_korean": "에어컨의 재질 설정을 나타낸다"
             },
             {
                 "position": 3,
                 "mnemonic": "MP_ETAT_MOTEUR1",
-                "label_index": "1656",
+                "label_index": "@P1656@\\*1",
                 "label_korean": "모터1의 배정",
                 "group_id": "48626",
                 "req_frame_id": "146177",
@@ -1734,13 +1734,13 @@
                 "bit_mask": 240,
                 "bit_shift": 4,
                 "dynamic_arg": "1",
-                "help_code": "1510",
+                "help_code": "@P1510@\\*1",
                 "help_korean": "모터1의 배정을 나타낸다"
             },
             {
                 "position": 4,
                 "mnemonic": "MP_ETAT_MOTEUR2",
-                "label_index": "1656",
+                "label_index": "@P1656@\\*2",
                 "label_korean": "모터2의 배정",
                 "group_id": "48626",
                 "req_frame_id": "146177",
@@ -1756,13 +1756,13 @@
                 "bit_mask": 15,
                 "bit_shift": 0,
                 "dynamic_arg": "2",
-                "help_code": "1510",
+                "help_code": "@P1510@\\*2",
                 "help_korean": "모터2의 배정을 나타낸다"
             },
             {
                 "position": 5,
                 "mnemonic": "MP_ETAT_MOTEUR3",
-                "label_index": "1656",
+                "label_index": "@P1656@\\*3",
                 "label_korean": "모터3의 배정",
                 "group_id": "48626",
                 "req_frame_id": "146177",
@@ -1778,13 +1778,13 @@
                 "bit_mask": 240,
                 "bit_shift": 4,
                 "dynamic_arg": "3",
-                "help_code": "1510",
+                "help_code": "@P1510@\\*3",
                 "help_korean": "모터3의 배정을 나타낸다"
             },
             {
                 "position": 6,
                 "mnemonic": "MP_ETAT_MOTEUR4",
-                "label_index": "1656",
+                "label_index": "@P1656@\\*4",
                 "label_korean": "모터4의 배정",
                 "group_id": "48626",
                 "req_frame_id": "146177",
@@ -1800,13 +1800,13 @@
                 "bit_mask": 15,
                 "bit_shift": 0,
                 "dynamic_arg": "4",
-                "help_code": "1510",
+                "help_code": "@P1510@\\*4",
                 "help_korean": "모터4의 배정을 나타낸다"
             },
             {
                 "position": 7,
                 "mnemonic": "MP_ETAT_MOTEUR5",
-                "label_index": "1656",
+                "label_index": "@P1656@\\*5",
                 "label_korean": "모터5의 배정",
                 "group_id": "48626",
                 "req_frame_id": "146177",
@@ -1822,13 +1822,13 @@
                 "bit_mask": 240,
                 "bit_shift": 4,
                 "dynamic_arg": "5",
-                "help_code": "1510",
+                "help_code": "@P1510@\\*5",
                 "help_korean": "모터5의 배정을 나타낸다"
             },
             {
                 "position": 8,
                 "mnemonic": "MP_ETAT_MOTEUR6",
-                "label_index": "1656",
+                "label_index": "@P1656@\\*6",
                 "label_korean": "모터6의 배정",
                 "group_id": "48626",
                 "req_frame_id": "146177",
@@ -1844,13 +1844,13 @@
                 "bit_mask": 15,
                 "bit_shift": 0,
                 "dynamic_arg": "6",
-                "help_code": "1510",
+                "help_code": "@P1510@\\*6",
                 "help_korean": "모터6의 배정을 나타낸다"
             },
             {
                 "position": 9,
                 "mnemonic": "MP_ETAT_MOTEUR7",
-                "label_index": "1656",
+                "label_index": "@P1656@\\*7",
                 "label_korean": "모터7의 배정",
                 "group_id": "48626",
                 "req_frame_id": "146177",
@@ -1866,13 +1866,13 @@
                 "bit_mask": 240,
                 "bit_shift": 4,
                 "dynamic_arg": "7",
-                "help_code": "1510",
+                "help_code": "@P1510@\\*7",
                 "help_korean": "모터7의 배정을 나타낸다"
             },
             {
                 "position": 10,
                 "mnemonic": "MP_ETAT_MOTEUR8",
-                "label_index": "1656",
+                "label_index": "@P1656@\\*8",
                 "label_korean": "모터8의 배정",
                 "group_id": "48626",
                 "req_frame_id": "146177",
@@ -1888,13 +1888,13 @@
                 "bit_mask": 15,
                 "bit_shift": 0,
                 "dynamic_arg": "8",
-                "help_code": "1510",
+                "help_code": "@P1510@\\*8",
                 "help_korean": "모터8의 배정을 나타낸다"
             },
             {
                 "position": 11,
                 "mnemonic": "MP_ETAT_MOTEUR9",
-                "label_index": "1656",
+                "label_index": "@P1656@\\*9",
                 "label_korean": "모터9의 배정",
                 "group_id": "48626",
                 "req_frame_id": "146177",
@@ -1910,13 +1910,13 @@
                 "bit_mask": 240,
                 "bit_shift": 4,
                 "dynamic_arg": "9",
-                "help_code": "1510",
+                "help_code": "@P1510@\\*9",
                 "help_korean": "모터9의 배정을 나타낸다"
             }
         ]
     },
     "MESUREPARAMETRE3B": {
-        "screen_title_korean": "ECU설정",
+        "screen_title_korean": "ECU 설정",
         "screen_label_index": "@P12641-POLUXDATA@\\*",
         "ecu_name": "CLIM_REG_UDS_W2_DegradedMode_V1",
         "total_sensors": 2,
@@ -1924,7 +1924,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_ETAT_SONDE_EVAPO_AVT",
-                "label_index": "1674",
+                "label_index": "@P1674",
                 "label_korean": "프론트 증발기 센서의 상태",
                 "group_id": "48626",
                 "req_frame_id": "146177",
@@ -1940,13 +1940,13 @@
                 "bit_mask": 128,
                 "bit_shift": 7,
                 "dynamic_arg": "",
-                "help_code": "17542",
+                "help_code": "@P17542",
                 "help_korean": "에어컨의 재질 설정을 나타낸다"
             },
             {
                 "position": 2,
                 "mnemonic": "MP_ETAT_PULSEUR_AIR_HABITACLE",
-                "label_index": "1427",
+                "label_index": "@P1427",
                 "label_korean": "실내 에어 블로어의 상태",
                 "group_id": "48626",
                 "req_frame_id": "146177",
@@ -1966,13 +1966,13 @@
                 "bit_mask": 128,
                 "bit_shift": 7,
                 "dynamic_arg": "",
-                "help_code": "17542",
+                "help_code": "@P17542",
                 "help_korean": "에어컨의 재질 설정을 나타낸다"
             }
         ]
     },
     "MESUREPARAMETRE3C": {
-        "screen_title_korean": "ECU설정",
+        "screen_title_korean": "ECU 설정",
         "screen_label_index": "@P12641-POLUXDATA@\\*",
         "ecu_name": "CLIM_REG_UDS_W2_DegradedMode_V1",
         "total_sensors": 13,
@@ -1980,7 +1980,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_ETAT_SONDE_EVAPO_AVT",
-                "label_index": "1674",
+                "label_index": "@P1674",
                 "label_korean": "프론트 증발기 센서의 상태",
                 "group_id": "48626",
                 "req_frame_id": "146177",
@@ -1996,13 +1996,13 @@
                 "bit_mask": 128,
                 "bit_shift": 7,
                 "dynamic_arg": "",
-                "help_code": "17542",
+                "help_code": "@P17542",
                 "help_korean": "에어컨의 재질 설정을 나타낸다"
             },
             {
                 "position": 2,
                 "mnemonic": "MP_ETAT_PULSEUR_AIR_HABITACLE",
-                "label_index": "1427",
+                "label_index": "@P1427",
                 "label_korean": "실내 에어 블로어의 상태",
                 "group_id": "48626",
                 "req_frame_id": "146177",
@@ -2022,13 +2022,13 @@
                 "bit_mask": 128,
                 "bit_shift": 7,
                 "dynamic_arg": "",
-                "help_code": "17542",
+                "help_code": "@P17542",
                 "help_korean": "에어컨의 재질 설정을 나타낸다"
             },
             {
                 "position": 3,
                 "mnemonic": "MP_ETAT_SONDE_ENSO_GAUCHE",
-                "label_index": "30854",
+                "label_index": "@P30854",
                 "label_korean": "좌측에서 일광 센서의 상태",
                 "group_id": "48626",
                 "req_frame_id": "146177",
@@ -2044,13 +2044,13 @@
                 "bit_mask": 2,
                 "bit_shift": 1,
                 "dynamic_arg": "",
-                "help_code": "17542",
+                "help_code": "@P17542",
                 "help_korean": "에어컨의 재질 설정을 나타낸다"
             },
             {
                 "position": 4,
                 "mnemonic": "MP_ETAT_SONDE_ENSO_DROIT",
-                "label_index": "31730",
+                "label_index": "@P31730",
                 "label_korean": "우측에서 일광 센서의 상태",
                 "group_id": "48626",
                 "req_frame_id": "146177",
@@ -2066,13 +2066,13 @@
                 "bit_mask": 1,
                 "bit_shift": 0,
                 "dynamic_arg": "",
-                "help_code": "17542",
+                "help_code": "@P17542",
                 "help_korean": "에어컨의 재질 설정을 나타낸다"
             },
             {
                 "position": 5,
                 "mnemonic": "MP_ETAT_MOTEUR1",
-                "label_index": "1656",
+                "label_index": "@P1656@\\*1",
                 "label_korean": "모터1의 배정",
                 "group_id": "48626",
                 "req_frame_id": "146177",
@@ -2088,13 +2088,13 @@
                 "bit_mask": 240,
                 "bit_shift": 4,
                 "dynamic_arg": "1",
-                "help_code": "1510",
+                "help_code": "@P1510@\\*1",
                 "help_korean": "모터1의 배정을 나타낸다"
             },
             {
                 "position": 6,
                 "mnemonic": "MP_ETAT_MOTEUR2",
-                "label_index": "1656",
+                "label_index": "@P1656@\\*2",
                 "label_korean": "모터2의 배정",
                 "group_id": "48626",
                 "req_frame_id": "146177",
@@ -2110,13 +2110,13 @@
                 "bit_mask": 15,
                 "bit_shift": 0,
                 "dynamic_arg": "2",
-                "help_code": "1510",
+                "help_code": "@P1510@\\*2",
                 "help_korean": "모터2의 배정을 나타낸다"
             },
             {
                 "position": 7,
                 "mnemonic": "MP_ETAT_MOTEUR3",
-                "label_index": "1656",
+                "label_index": "@P1656@\\*3",
                 "label_korean": "모터3의 배정",
                 "group_id": "48626",
                 "req_frame_id": "146177",
@@ -2132,13 +2132,13 @@
                 "bit_mask": 240,
                 "bit_shift": 4,
                 "dynamic_arg": "3",
-                "help_code": "1510",
+                "help_code": "@P1510@\\*3",
                 "help_korean": "모터3의 배정을 나타낸다"
             },
             {
                 "position": 8,
                 "mnemonic": "MP_ETAT_MOTEUR4",
-                "label_index": "1656",
+                "label_index": "@P1656@\\*4",
                 "label_korean": "모터4의 배정",
                 "group_id": "48626",
                 "req_frame_id": "146177",
@@ -2154,13 +2154,13 @@
                 "bit_mask": 15,
                 "bit_shift": 0,
                 "dynamic_arg": "4",
-                "help_code": "1510",
+                "help_code": "@P1510@\\*4",
                 "help_korean": "모터4의 배정을 나타낸다"
             },
             {
                 "position": 9,
                 "mnemonic": "MP_ETAT_MOTEUR5",
-                "label_index": "1656",
+                "label_index": "@P1656@\\*5",
                 "label_korean": "모터5의 배정",
                 "group_id": "48626",
                 "req_frame_id": "146177",
@@ -2176,13 +2176,13 @@
                 "bit_mask": 240,
                 "bit_shift": 4,
                 "dynamic_arg": "5",
-                "help_code": "1510",
+                "help_code": "@P1510@\\*5",
                 "help_korean": "모터5의 배정을 나타낸다"
             },
             {
                 "position": 10,
                 "mnemonic": "MP_ETAT_MOTEUR6",
-                "label_index": "1656",
+                "label_index": "@P1656@\\*6",
                 "label_korean": "모터6의 배정",
                 "group_id": "48626",
                 "req_frame_id": "146177",
@@ -2198,13 +2198,13 @@
                 "bit_mask": 15,
                 "bit_shift": 0,
                 "dynamic_arg": "6",
-                "help_code": "1510",
+                "help_code": "@P1510@\\*6",
                 "help_korean": "모터6의 배정을 나타낸다"
             },
             {
                 "position": 11,
                 "mnemonic": "MP_ETAT_MOTEUR7",
-                "label_index": "1656",
+                "label_index": "@P1656@\\*7",
                 "label_korean": "모터7의 배정",
                 "group_id": "48626",
                 "req_frame_id": "146177",
@@ -2220,13 +2220,13 @@
                 "bit_mask": 240,
                 "bit_shift": 4,
                 "dynamic_arg": "7",
-                "help_code": "1510",
+                "help_code": "@P1510@\\*7",
                 "help_korean": "모터7의 배정을 나타낸다"
             },
             {
                 "position": 12,
                 "mnemonic": "MP_ETAT_MOTEUR8",
-                "label_index": "1656",
+                "label_index": "@P1656@\\*8",
                 "label_korean": "모터8의 배정",
                 "group_id": "48626",
                 "req_frame_id": "146177",
@@ -2242,13 +2242,13 @@
                 "bit_mask": 15,
                 "bit_shift": 0,
                 "dynamic_arg": "8",
-                "help_code": "1510",
+                "help_code": "@P1510@\\*8",
                 "help_korean": "모터8의 배정을 나타낸다"
             },
             {
                 "position": 13,
                 "mnemonic": "MP_ETAT_MOTEUR9",
-                "label_index": "1656",
+                "label_index": "@P1656@\\*9",
                 "label_korean": "모터9의 배정",
                 "group_id": "48626",
                 "req_frame_id": "146177",
@@ -2264,13 +2264,13 @@
                 "bit_mask": 240,
                 "bit_shift": 4,
                 "dynamic_arg": "9",
-                "help_code": "1510",
+                "help_code": "@P1510@\\*9",
                 "help_korean": "모터9의 배정을 나타낸다"
             }
         ]
     },
     "MESUREPARAMETRE3D": {
-        "screen_title_korean": "ECU설정",
+        "screen_title_korean": "ECU 설정",
         "screen_label_index": "@P12641-POLUXDATA@\\*",
         "ecu_name": "CLIM_REG_UDS_W2_DegradedMode_V1",
         "total_sensors": 19,
@@ -2278,7 +2278,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_ETAT_SONDE_EVAPO_AVT",
-                "label_index": "1674",
+                "label_index": "@P1674",
                 "label_korean": "프론트 증발기 센서의 상태",
                 "group_id": "48626",
                 "req_frame_id": "146177",
@@ -2294,13 +2294,13 @@
                 "bit_mask": 128,
                 "bit_shift": 7,
                 "dynamic_arg": "",
-                "help_code": "17542",
+                "help_code": "@P17542",
                 "help_korean": "에어컨의 재질 설정을 나타낸다"
             },
             {
                 "position": 2,
                 "mnemonic": "MP_ETAT_SONDE_EVAPO_ARR",
-                "label_index": "22256",
+                "label_index": "@P22256",
                 "label_korean": "리어 증발기 센서의 상태",
                 "group_id": "48626",
                 "req_frame_id": "146177",
@@ -2316,13 +2316,13 @@
                 "bit_mask": 64,
                 "bit_shift": 6,
                 "dynamic_arg": "",
-                "help_code": "17542",
+                "help_code": "@P17542",
                 "help_korean": "에어컨의 재질 설정을 나타낸다"
             },
             {
                 "position": 3,
                 "mnemonic": "MP_ETAT_AIR_SOUFFLE_ARR_GAUCHE",
-                "label_index": "22165",
+                "label_index": "@P22165",
                 "label_korean": "리어 좌측 블로어 공기 센서의 상태",
                 "group_id": "48626",
                 "req_frame_id": "146177",
@@ -2338,13 +2338,13 @@
                 "bit_mask": 8,
                 "bit_shift": 3,
                 "dynamic_arg": "",
-                "help_code": "17542",
+                "help_code": "@P17542",
                 "help_korean": "에어컨의 재질 설정을 나타낸다"
             },
             {
                 "position": 4,
                 "mnemonic": "MP_ETAT_AIR_SOUFFLE_ARR_DROIT",
-                "label_index": "21783",
+                "label_index": "@P21783",
                 "label_korean": "리어 우측 블로어 공기 센서의 상태",
                 "group_id": "48626",
                 "req_frame_id": "146177",
@@ -2360,13 +2360,13 @@
                 "bit_mask": 4,
                 "bit_shift": 2,
                 "dynamic_arg": "",
-                "help_code": "17542",
+                "help_code": "@P17542",
                 "help_korean": "에어컨의 재질 설정을 나타낸다"
             },
             {
                 "position": 5,
                 "mnemonic": "MP_ETAT_SONDE_ENSO_GAUCHE",
-                "label_index": "30854",
+                "label_index": "@P30854",
                 "label_korean": "좌측에서 일광 센서의 상태",
                 "group_id": "48626",
                 "req_frame_id": "146177",
@@ -2382,13 +2382,13 @@
                 "bit_mask": 2,
                 "bit_shift": 1,
                 "dynamic_arg": "",
-                "help_code": "17542",
+                "help_code": "@P17542",
                 "help_korean": "에어컨의 재질 설정을 나타낸다"
             },
             {
                 "position": 6,
                 "mnemonic": "MP_ETAT_SONDE_ENSO_DROIT",
-                "label_index": "31730",
+                "label_index": "@P31730",
                 "label_korean": "우측에서 일광 센서의 상태",
                 "group_id": "48626",
                 "req_frame_id": "146177",
@@ -2404,13 +2404,13 @@
                 "bit_mask": 1,
                 "bit_shift": 0,
                 "dynamic_arg": "",
-                "help_code": "17542",
+                "help_code": "@P17542",
                 "help_korean": "에어컨의 재질 설정을 나타낸다"
             },
             {
                 "position": 7,
                 "mnemonic": "MP_ETAT_SONDE_AQS_CO",
-                "label_index": "22143",
+                "label_index": "@P22143",
                 "label_korean": "공기 품질 (일산화 탄소의 포화도) 센서의 상태",
                 "group_id": "48626",
                 "req_frame_id": "146177",
@@ -2426,13 +2426,13 @@
                 "bit_mask": 128,
                 "bit_shift": 7,
                 "dynamic_arg": "",
-                "help_code": "17542",
+                "help_code": "@P17542",
                 "help_korean": "에어컨의 재질 설정을 나타낸다"
             },
             {
                 "position": 8,
                 "mnemonic": "MP_ETAT_SONDE_AQS_NO",
-                "label_index": "22178",
+                "label_index": "@P22178",
                 "label_korean": "공기 품질 (일산화 질소의 포화도) 센서의 상태",
                 "group_id": "48626",
                 "req_frame_id": "146177",
@@ -2448,13 +2448,13 @@
                 "bit_mask": 64,
                 "bit_shift": 6,
                 "dynamic_arg": "",
-                "help_code": "17542",
+                "help_code": "@P17542",
                 "help_korean": "에어컨의 재질 설정을 나타낸다"
             },
             {
                 "position": 9,
                 "mnemonic": "MP_ETAT_PULSEUR_AIR_HABITACLE",
-                "label_index": "1427",
+                "label_index": "@P1427",
                 "label_korean": "실내 에어 블로어의 상태",
                 "group_id": "48626",
                 "req_frame_id": "146177",
@@ -2474,13 +2474,13 @@
                 "bit_mask": 128,
                 "bit_shift": 7,
                 "dynamic_arg": "",
-                "help_code": "17542",
+                "help_code": "@P17542",
                 "help_korean": "에어컨의 재질 설정을 나타낸다"
             },
             {
                 "position": 10,
                 "mnemonic": "MP_ETAT_PULSEUR_AIR_HABITACLE_ARR",
-                "label_index": "33673",
+                "label_index": "@P33673",
                 "label_korean": "리어 에어 블로어의 상태",
                 "group_id": "48626",
                 "req_frame_id": "146177",
@@ -2496,13 +2496,13 @@
                 "bit_mask": 64,
                 "bit_shift": 6,
                 "dynamic_arg": "",
-                "help_code": "17542",
+                "help_code": "@P17542",
                 "help_korean": "에어컨의 재질 설정을 나타낸다"
             },
             {
                 "position": 11,
                 "mnemonic": "MP_ETAT_MOTEUR1",
-                "label_index": "1656",
+                "label_index": "@P1656@\\*1",
                 "label_korean": "모터1의 배정",
                 "group_id": "48626",
                 "req_frame_id": "146177",
@@ -2518,13 +2518,13 @@
                 "bit_mask": 240,
                 "bit_shift": 4,
                 "dynamic_arg": "1",
-                "help_code": "1510",
+                "help_code": "@P1510@\\*1",
                 "help_korean": "모터1의 배정을 나타낸다"
             },
             {
                 "position": 12,
                 "mnemonic": "MP_ETAT_MOTEUR2",
-                "label_index": "1656",
+                "label_index": "@P1656@\\*2",
                 "label_korean": "모터2의 배정",
                 "group_id": "48626",
                 "req_frame_id": "146177",
@@ -2540,13 +2540,13 @@
                 "bit_mask": 15,
                 "bit_shift": 0,
                 "dynamic_arg": "2",
-                "help_code": "1510",
+                "help_code": "@P1510@\\*2",
                 "help_korean": "모터2의 배정을 나타낸다"
             },
             {
                 "position": 13,
                 "mnemonic": "MP_ETAT_MOTEUR3",
-                "label_index": "1656",
+                "label_index": "@P1656@\\*3",
                 "label_korean": "모터3의 배정",
                 "group_id": "48626",
                 "req_frame_id": "146177",
@@ -2562,13 +2562,13 @@
                 "bit_mask": 240,
                 "bit_shift": 4,
                 "dynamic_arg": "3",
-                "help_code": "1510",
+                "help_code": "@P1510@\\*3",
                 "help_korean": "모터3의 배정을 나타낸다"
             },
             {
                 "position": 14,
                 "mnemonic": "MP_ETAT_MOTEUR4",
-                "label_index": "1656",
+                "label_index": "@P1656@\\*4",
                 "label_korean": "모터4의 배정",
                 "group_id": "48626",
                 "req_frame_id": "146177",
@@ -2584,13 +2584,13 @@
                 "bit_mask": 15,
                 "bit_shift": 0,
                 "dynamic_arg": "4",
-                "help_code": "1510",
+                "help_code": "@P1510@\\*4",
                 "help_korean": "모터4의 배정을 나타낸다"
             },
             {
                 "position": 15,
                 "mnemonic": "MP_ETAT_MOTEUR5",
-                "label_index": "1656",
+                "label_index": "@P1656@\\*5",
                 "label_korean": "모터5의 배정",
                 "group_id": "48626",
                 "req_frame_id": "146177",
@@ -2606,13 +2606,13 @@
                 "bit_mask": 240,
                 "bit_shift": 4,
                 "dynamic_arg": "5",
-                "help_code": "1510",
+                "help_code": "@P1510@\\*5",
                 "help_korean": "모터5의 배정을 나타낸다"
             },
             {
                 "position": 16,
                 "mnemonic": "MP_ETAT_MOTEUR6",
-                "label_index": "1656",
+                "label_index": "@P1656@\\*6",
                 "label_korean": "모터6의 배정",
                 "group_id": "48626",
                 "req_frame_id": "146177",
@@ -2628,13 +2628,13 @@
                 "bit_mask": 15,
                 "bit_shift": 0,
                 "dynamic_arg": "6",
-                "help_code": "1510",
+                "help_code": "@P1510@\\*6",
                 "help_korean": "모터6의 배정을 나타낸다"
             },
             {
                 "position": 17,
                 "mnemonic": "MP_ETAT_MOTEUR7",
-                "label_index": "1656",
+                "label_index": "@P1656@\\*7",
                 "label_korean": "모터7의 배정",
                 "group_id": "48626",
                 "req_frame_id": "146177",
@@ -2650,13 +2650,13 @@
                 "bit_mask": 240,
                 "bit_shift": 4,
                 "dynamic_arg": "7",
-                "help_code": "1510",
+                "help_code": "@P1510@\\*7",
                 "help_korean": "모터7의 배정을 나타낸다"
             },
             {
                 "position": 18,
                 "mnemonic": "MP_ETAT_MOTEUR8",
-                "label_index": "1656",
+                "label_index": "@P1656@\\*8",
                 "label_korean": "모터8의 배정",
                 "group_id": "48626",
                 "req_frame_id": "146177",
@@ -2672,13 +2672,13 @@
                 "bit_mask": 15,
                 "bit_shift": 0,
                 "dynamic_arg": "8",
-                "help_code": "1510",
+                "help_code": "@P1510@\\*8",
                 "help_korean": "모터8의 배정을 나타낸다"
             },
             {
                 "position": 19,
                 "mnemonic": "MP_ETAT_MOTEUR9",
-                "label_index": "1656",
+                "label_index": "@P1656@\\*9",
                 "label_korean": "모터9의 배정",
                 "group_id": "48626",
                 "req_frame_id": "146177",
@@ -2694,7 +2694,7 @@
                 "bit_mask": 240,
                 "bit_shift": 4,
                 "dynamic_arg": "9",
-                "help_code": "1510",
+                "help_code": "@P1510@\\*9",
                 "help_korean": "모터9의 배정을 나타낸다"
             }
         ]

@@ -24,7 +24,7 @@
                 "bit_mask": 240,
                 "bit_shift": 4,
                 "dynamic_arg": "",
-                "help_code": "",
+                "help_code": "@T",
                 "help_korean": ""
             },
             {
@@ -46,7 +46,7 @@
                 "bit_mask": 15,
                 "bit_shift": 0,
                 "dynamic_arg": "",
-                "help_code": "",
+                "help_code": "@T",
                 "help_korean": ""
             },
             {
@@ -68,7 +68,7 @@
                 "bit_mask": 240,
                 "bit_shift": 4,
                 "dynamic_arg": "",
-                "help_code": "",
+                "help_code": "@T",
                 "help_korean": ""
             },
             {
@@ -90,7 +90,7 @@
                 "bit_mask": 15,
                 "bit_shift": 0,
                 "dynamic_arg": "",
-                "help_code": "",
+                "help_code": "@T",
                 "help_korean": ""
             },
             {
@@ -112,7 +112,7 @@
                 "bit_mask": 32,
                 "bit_shift": 5,
                 "dynamic_arg": "",
-                "help_code": "",
+                "help_code": "@T",
                 "help_korean": ""
             },
             {
@@ -134,7 +134,7 @@
                 "bit_mask": 128,
                 "bit_shift": 7,
                 "dynamic_arg": "",
-                "help_code": "",
+                "help_code": "@T",
                 "help_korean": ""
             },
             {
@@ -156,7 +156,7 @@
                 "bit_mask": 1,
                 "bit_shift": 0,
                 "dynamic_arg": "",
-                "help_code": "",
+                "help_code": "@T",
                 "help_korean": ""
             },
             {
@@ -178,7 +178,7 @@
                 "bit_mask": 128,
                 "bit_shift": 7,
                 "dynamic_arg": "",
-                "help_code": "",
+                "help_code": "@T",
                 "help_korean": ""
             }
         ]
@@ -192,7 +192,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_PRESENCE_PLUS_APRES_CONTACT",
-                "label_index": "28381",
+                "label_index": "@P28381",
                 "label_korean": "키 ON 존재",
                 "group_id": "120201",
                 "req_frame_id": "360948",
@@ -217,7 +217,7 @@
             {
                 "position": 2,
                 "mnemonic": "MP_CLE_RECONNUE",
-                "label_index": "15851",
+                "label_index": "@P15851",
                 "label_korean": "키 인식",
                 "group_id": "120202",
                 "req_frame_id": "360951",
@@ -233,13 +233,13 @@
                 "bit_mask": 1,
                 "bit_shift": 0,
                 "dynamic_arg": "",
-                "help_code": "701, 36969, 16961, 36970",
-                "help_korean": "예 : 점화 키가 엔진 ECU에 의해서 인식되고 엔진의 시동을 허가한다.\n- 아니오 : 점화 키가 스티어링 잠금 장치에 삽입되지 않거나 또는 삽입된 키는 엔진의 시동을 허가하지 않는다."
+                "help_code": "@P701@T : @P36969@T.@\\n@P16961@T : @P36970@T.",
+                "help_korean": "예 : 점화 키가 엔진 ECU에 의해서 인식되고 엔진의 시동을 허가한다.\n아니오 : 점화 키가 스티어링 잠금 장치에 삽입되지 않거나 또는 삽입된 키는 엔진의 시동을 허가하지 않는다."
             },
             {
                 "position": 3,
                 "mnemonic": "MP_NBRE_CLE_APPRISE",
-                "label_index": "265",
+                "label_index": "@P265",
                 "label_korean": "프로그램된 키의 수",
                 "group_id": "120203",
                 "req_frame_id": "360954",
@@ -261,7 +261,7 @@
             {
                 "position": 4,
                 "mnemonic": "MP_CODE_TRANSPONDEUR_INTEGRE_CLE",
-                "label_index": "5731",
+                "label_index": "@P5731",
                 "label_korean": "키에 내장된 트랜스폰더의 코드",
                 "group_id": "120206",
                 "req_frame_id": "360963",
@@ -280,13 +280,13 @@
                 "bit_mask": 60,
                 "bit_shift": 2,
                 "dynamic_arg": "",
-                "help_code": "23438, 23606",
+                "help_code": "@P23438@T.@\\n@P23606@T.",
                 "help_korean": "키에 내장된 트랜스폰더가 정확하게 프로그램되었는지 명시한다.\n이 변수는 키가 점화 스위치에 삽입되었을 경우에만 고려된다."
             },
             {
                 "position": 5,
                 "mnemonic": "MP_TYPE_CLE",
-                "label_index": "10726",
+                "label_index": "@P10726",
                 "label_korean": "키 타입",
                 "group_id": "120206",
                 "req_frame_id": "360963",
@@ -302,13 +302,13 @@
                 "bit_mask": 192,
                 "bit_shift": 6,
                 "dynamic_arg": "",
-                "help_code": "16532",
+                "help_code": "@P16532@T.",
                 "help_korean": "키 타입은 반드시 \"마스터 키\" 값을 가져야 한다."
             },
             {
                 "position": 6,
                 "mnemonic": "MP_REPONSE_TRANSPONDEUR_INTEGRE_CLE",
-                "label_index": "12686",
+                "label_index": "@P12686",
                 "label_korean": "키에 내장된 트랜스폰더로부터 응답",
                 "group_id": "120206",
                 "req_frame_id": "360963",
@@ -324,13 +324,13 @@
                 "bit_mask": 1,
                 "bit_shift": 0,
                 "dynamic_arg": "",
-                "help_code": "701, 36971, 16961, 36972, 23606",
-                "help_korean": "예 : 이모빌라이저 ECU는 키에 내장된 트랜스폰더로부터 응답을 수신한다.\n- 아니오 : 이모빌라이저 ECU는 키에 내장된 트랜스폰더로부터 응답을 수신하지 못한다.\n이 변수는 키가 점화 스위치에 삽입되었을 경우에만 고려된다."
+                "help_code": "@P701@T : @P36971@T.@\\n@P16961@T : @P36972@T.@\\n@P23606@T.",
+                "help_korean": "예 : 이모빌라이저 ECU는 키에 내장된 트랜스폰더로부터 응답을 수신한다.\n아니오 : 이모빌라이저 ECU는 키에 내장된 트랜스폰더로부터 응답을 수신하지 못한다.\n이 변수는 키가 점화 스위치에 삽입되었을 경우에만 고려된다."
             },
             {
                 "position": 7,
                 "mnemonic": "MP_ETAT_REPONSE_TRANSPONDEUR_INTEGRE_CLE",
-                "label_index": "2523",
+                "label_index": "@P2523",
                 "label_korean": "키에 내장된 트랜스폰더로부터 응답 상태",
                 "group_id": "120206",
                 "req_frame_id": "360963",
@@ -346,13 +346,13 @@
                 "bit_mask": 2,
                 "bit_shift": 1,
                 "dynamic_arg": "",
-                "help_code": "8393, 23454, 23539, 23647, 23606",
-                "help_korean": "정상 : 키에 내장된 트랜스폰더로부터 메시지는 정상이다.\n- 부정확 : 키에 내장된 트랜스폰더로부터 오는 메시지가 틀리다.\n이 변수는 키가 점화 스위치에 삽입되었을 경우에만 고려된다."
+                "help_code": "@P8393@T : @P23454@T.@\\n@P23539@T : @P23647@T.@\\n@P23606@T.@\\n",
+                "help_korean": "정상 : 키에 내장된 트랜스폰더로부터 메시지는 정상이다.\n부정확 : 키에 내장된 트랜스폰더로부터 오는 메시지가 틀리다.\n이 변수는 키가 점화 스위치에 삽입되었을 경우에만 고려된다."
             },
             {
                 "position": 8,
                 "mnemonic": "MP_POSSIBILITE_ENREGISTRER_NOUVELLE_CLE",
-                "label_index": "36973",
+                "label_index": "@P36973",
                 "label_korean": "새로운 키의 등록 가능성",
                 "group_id": "120206",
                 "req_frame_id": "360963",
@@ -368,13 +368,13 @@
                 "bit_mask": 128,
                 "bit_shift": 7,
                 "dynamic_arg": "",
-                "help_code": "36974",
+                "help_code": "@P36974@T.",
                 "help_korean": "이 변수는 이모빌라이저 ECU에 새로운 키를 등록하는 것이 가능 또는 불가능한지를 나타낸다."
             },
             {
                 "position": 9,
                 "mnemonic": "MP_ETAT_BOBINE_TRANSPONDEUR",
-                "label_index": "36975",
+                "label_index": "@P36975",
                 "label_korean": "스티어링 잠금장치 트랜스폰더 코일의 상태",
                 "group_id": "120201",
                 "req_frame_id": "360948",
@@ -390,7 +390,7 @@
                 "bit_mask": 8,
                 "bit_shift": 3,
                 "dynamic_arg": "",
-                "help_code": "23276, 23501",
+                "help_code": "@P23276@T.@\\n@P23501",
                 "help_korean": "트랜스폰더 안테나의 상태를 정의한다.\n변수가 \"결함\"이면, 트랜스폰터 안테나 코일에서 단선 또는 단락이다"
             }
         ]

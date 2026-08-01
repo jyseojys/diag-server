@@ -8,7 +8,7 @@
             {
                 "position": 1,
                 "mnemonic": "ID_NOM_DU_FOURNISSEUR",
-                "label_index": "5701",
+                "label_index": "@P5701",
                 "label_korean": "제조 업체명",
                 "group_id": "107038",
                 "req_frame_id": "321461",
@@ -38,7 +38,7 @@
             {
                 "position": 2,
                 "mnemonic": "ID_REFERENCE_MATERIEL",
-                "label_index": "1071",
+                "label_index": "@P1071",
                 "label_korean": "장치 부품 번호",
                 "group_id": "107038",
                 "req_frame_id": "321461",
@@ -60,7 +60,7 @@
             {
                 "position": 3,
                 "mnemonic": "ID_REFERENCE_COMPLEMENTAIRE_MATERIEL",
-                "label_index": "1634",
+                "label_index": "@P1634",
                 "label_korean": "장치 추가 참조 번호",
                 "group_id": "107038",
                 "req_frame_id": "321461",
@@ -82,7 +82,7 @@
             {
                 "position": 4,
                 "mnemonic": "ID_REFERENCE_LOGICIEL",
-                "label_index": "39786",
+                "label_index": "@P39786",
                 "label_korean": "소프트웨어 번호",
                 "group_id": "107039",
                 "req_frame_id": "321464",
@@ -104,7 +104,7 @@
             {
                 "position": 5,
                 "mnemonic": "ID_TRACABILITE_INDICE_EVOLUTION_EDITION",
-                "label_index": "24601",
+                "label_index": "@P24601",
                 "label_korean": "소프트웨어 버전",
                 "group_id": "107038",
                 "req_frame_id": "321461",
@@ -126,7 +126,7 @@
             {
                 "position": 6,
                 "mnemonic": "ID_TRACABILITE_DATE_FABRICATION",
-                "label_index": "14355",
+                "label_index": "@F14355",
                 "label_korean": "제조일자",
                 "group_id": "107040",
                 "req_frame_id": "321467",
@@ -156,7 +156,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_TENSION_ALIMENTATION_CALCULATEUR",
-                "label_index": "14064",
+                "label_index": "@P14064",
                 "label_korean": "제어 장치 공급 전압",
                 "group_id": "107042",
                 "req_frame_id": "321473",
@@ -180,7 +180,7 @@
             {
                 "position": 2,
                 "mnemonic": "MP_ANGLE_CORRECTION_DE_SITE",
-                "label_index": "53332",
+                "label_index": "@P53332",
                 "label_korean": "헤드램프 높이 조정 각도",
                 "group_id": "107042",
                 "req_frame_id": "321473",
@@ -196,13 +196,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "29891, 9606",
-                "help_korean": "엔진의 수직 보정.\n과 도사이의 값-6� 6�"
+                "help_code": "@P29891@T.@\\n@F9606@\\*-6�@\\*+6�",
+                "help_korean": "엔진의 수직 보정.\n과 도사이의 값-6�+6�"
             },
             {
                 "position": 3,
                 "mnemonic": "MP_ETAT_ACTIONNEUR_REGLAGE_DE_SITE",
-                "label_index": "53329",
+                "label_index": "@P53329",
                 "label_korean": "헤드램프에 통합된 높이 조정 액추에이터의 상태",
                 "group_id": "107042",
                 "req_frame_id": "321473",
@@ -227,7 +227,7 @@
             {
                 "position": 4,
                 "mnemonic": "MP_DEFAUT_ELEC_THERM_ACTIONNEUR_REGLAGE_DE_SITE",
-                "label_index": "53330",
+                "label_index": "@P53330",
                 "label_korean": "헤드램프에 통합된 높이 조정 액추에이터에 전기적 또는 열적 결함이 있는 경우",
                 "group_id": "107042",
                 "req_frame_id": "321473",
@@ -249,7 +249,7 @@
             {
                 "position": 5,
                 "mnemonic": "MP_COMMUNICATION_AVEC_ACTIONNEUR_REGLAGE_DE_SITE",
-                "label_index": "53338",
+                "label_index": "@P53338",
                 "label_korean": "헤드램프에 통합된 높이 조정 액추에이터와 통신 문제",
                 "group_id": "107042",
                 "req_frame_id": "321473",
@@ -271,7 +271,7 @@
             {
                 "position": 6,
                 "mnemonic": "MP_DEFAUT_POSITION_ACTIONNEUR_REGLAGE_DE_SITE",
-                "label_index": "53331",
+                "label_index": "@P53331",
                 "label_korean": "헤드램프에 통합된 높이 조정 액추에이터의 위치 또는 이동 방향에 문제가 있다",
                 "group_id": "107042",
                 "req_frame_id": "321473",
@@ -301,7 +301,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_ETAT_FEU_CROISEMENT",
-                "label_index": "53339",
+                "label_index": "@P53339",
                 "label_korean": "하향 빔 헤드램프 상태",
                 "group_id": "107043",
                 "req_frame_id": "321476",
@@ -326,7 +326,7 @@
             {
                 "position": 2,
                 "mnemonic": "MP_ETAT_FEU_ROUTE",
-                "label_index": "53389",
+                "label_index": "@P53389",
                 "label_korean": "메인 빔 헤드램프 상태",
                 "group_id": "107043",
                 "req_frame_id": "321476",
@@ -351,7 +351,7 @@
             {
                 "position": 3,
                 "mnemonic": "MP_ETAT_FEU_DIURNE",
-                "label_index": "56823",
+                "label_index": "@P56823",
                 "label_korean": "주간 전조등 상태",
                 "group_id": "107043",
                 "req_frame_id": "321476",
@@ -376,7 +376,7 @@
             {
                 "position": 4,
                 "mnemonic": "MP_ETAT_FEU_POSITION",
-                "label_index": "56826",
+                "label_index": "@P56826",
                 "label_korean": "사이드 램프 상태",
                 "group_id": "107043",
                 "req_frame_id": "321476",
@@ -401,7 +401,7 @@
             {
                 "position": 5,
                 "mnemonic": "MP_ETAT_FEU_INDICATEUR_DIRECTION",
-                "label_index": "53327",
+                "label_index": "@P53327",
                 "label_korean": "방향 지시등 상태",
                 "group_id": "107043",
                 "req_frame_id": "321476",
@@ -453,7 +453,7 @@
             {
                 "position": 7,
                 "mnemonic": "MP_DIAG_FEU_INDICATEUR_DIRECTION",
-                "label_index": "53340",
+                "label_index": "@P53340",
                 "label_korean": "방향 지시등 진단 상태",
                 "group_id": "107043",
                 "req_frame_id": "321476",
@@ -478,7 +478,7 @@
             {
                 "position": 8,
                 "mnemonic": "MP_DIAG_VENTILATEUR",
-                "label_index": "53341",
+                "label_index": "@P53341",
                 "label_korean": "헤드램프에 통합된 팬의 진단 상태",
                 "group_id": "107043",
                 "req_frame_id": "321476",
@@ -503,7 +503,7 @@
             {
                 "position": 9,
                 "mnemonic": "MP_DIAG_FEU_ECLAIRAGE_EXTERIEUR_SELECTIF",
-                "label_index": "53342",
+                "label_index": "@P53342",
                 "label_korean": "선택적 외부 라이트의 진단 상태",
                 "group_id": "107043",
                 "req_frame_id": "321476",
@@ -525,7 +525,7 @@
             {
                 "position": 10,
                 "mnemonic": "MP_DIAG_FEU_CROISEMENT",
-                "label_index": "53334",
+                "label_index": "@P53334",
                 "label_korean": "하향 빔 헤드램프의 진단 상태",
                 "group_id": "107043",
                 "req_frame_id": "321476",
@@ -554,7 +554,7 @@
             {
                 "position": 11,
                 "mnemonic": "MP_DIAG_FEU_ROUTE",
-                "label_index": "53343",
+                "label_index": "@P53343",
                 "label_korean": "메인 빔 헤드램프의 진단 상태",
                 "group_id": "107043",
                 "req_frame_id": "321476",
@@ -591,7 +591,7 @@
             {
                 "position": 1,
                 "mnemonic": "CA_TENSION_ALIMENTATION_CALCULATEUR",
-                "label_index": "14064",
+                "label_index": "@P14064",
                 "label_korean": "제어 장치 공급 전압",
                 "group_id": "107047",
                 "req_frame_id": "321488",
@@ -613,7 +613,7 @@
             {
                 "position": 2,
                 "mnemonic": "CA_ANGLE_CORRECTION_DE_SITE",
-                "label_index": "53332",
+                "label_index": "@P53332",
                 "label_korean": "헤드램프 높이 조정 각도",
                 "group_id": "107047",
                 "req_frame_id": "321488",
@@ -635,7 +635,7 @@
             {
                 "position": 3,
                 "mnemonic": "CA_ETAT_ACTIONNEUR_REGLAGE_DE_SITE",
-                "label_index": "53329",
+                "label_index": "@P53329",
                 "label_korean": "헤드램프에 통합된 높이 조정 액추에이터의 상태",
                 "group_id": "107047",
                 "req_frame_id": "321488",
@@ -660,7 +660,7 @@
             {
                 "position": 4,
                 "mnemonic": "CA_DEFAUT_ELEC_THERM_ACTIONNEUR_REGLAGE_DE_SITE",
-                "label_index": "53330",
+                "label_index": "@P53330",
                 "label_korean": "헤드램프에 통합된 높이 조정 액추에이터에 전기적 또는 열적 결함이 있는 경우",
                 "group_id": "107047",
                 "req_frame_id": "321488",
@@ -682,7 +682,7 @@
             {
                 "position": 5,
                 "mnemonic": "CA_COMMUNICATION_AVEC_ACTIONNEUR_REGLAGE_DE_SITE",
-                "label_index": "53338",
+                "label_index": "@P53338",
                 "label_korean": "헤드램프에 통합된 높이 조정 액추에이터와 통신 문제",
                 "group_id": "107047",
                 "req_frame_id": "321488",
@@ -704,7 +704,7 @@
             {
                 "position": 6,
                 "mnemonic": "CA_DEFAUT_POSITION_ACTIONNEUR_REGLAGE_DE_SITE",
-                "label_index": "53331",
+                "label_index": "@P53331",
                 "label_korean": "헤드램프에 통합된 높이 조정 액추에이터의 위치 또는 이동 방향에 문제가 있다",
                 "group_id": "107047",
                 "req_frame_id": "321488",
@@ -726,7 +726,7 @@
             {
                 "position": 7,
                 "mnemonic": "CA_ETAT_FEU_CROISEMENT",
-                "label_index": "53339",
+                "label_index": "@P53339",
                 "label_korean": "하향 빔 헤드램프 상태",
                 "group_id": "107047",
                 "req_frame_id": "321488",
@@ -751,7 +751,7 @@
             {
                 "position": 8,
                 "mnemonic": "CA_ETAT_FEU_ROUTE",
-                "label_index": "53389",
+                "label_index": "@P53389",
                 "label_korean": "메인 빔 헤드램프 상태",
                 "group_id": "107047",
                 "req_frame_id": "321488",
@@ -776,7 +776,7 @@
             {
                 "position": 9,
                 "mnemonic": "CA_ETAT_FEU_DIURNE",
-                "label_index": "56823",
+                "label_index": "@P56823",
                 "label_korean": "주간 전조등 상태",
                 "group_id": "107047",
                 "req_frame_id": "321488",
@@ -801,7 +801,7 @@
             {
                 "position": 10,
                 "mnemonic": "CA_ETAT_FEU_POSITION",
-                "label_index": "56826",
+                "label_index": "@P56826",
                 "label_korean": "사이드 램프 상태",
                 "group_id": "107047",
                 "req_frame_id": "321488",
@@ -826,7 +826,7 @@
             {
                 "position": 11,
                 "mnemonic": "CA_ETAT_FEU_INDICATEUR_DIRECTION",
-                "label_index": "53327",
+                "label_index": "@P53327",
                 "label_korean": "방향 지시등 상태",
                 "group_id": "107047",
                 "req_frame_id": "321488",
@@ -878,7 +878,7 @@
             {
                 "position": 13,
                 "mnemonic": "CA_DIAG_FEU_INDICATEUR_DIRECTION",
-                "label_index": "53340",
+                "label_index": "@P53340",
                 "label_korean": "방향 지시등 진단 상태",
                 "group_id": "107047",
                 "req_frame_id": "321488",
@@ -900,7 +900,7 @@
             {
                 "position": 14,
                 "mnemonic": "CA_DIAG_VENTILATEUR",
-                "label_index": "53341",
+                "label_index": "@P53341",
                 "label_korean": "헤드램프에 통합된 팬의 진단 상태",
                 "group_id": "107047",
                 "req_frame_id": "321488",
@@ -922,7 +922,7 @@
             {
                 "position": 15,
                 "mnemonic": "CA_DIAG_FEU_ECLAIRAGE_EXTERIEUR_SELECTIF",
-                "label_index": "53342",
+                "label_index": "@P53342",
                 "label_korean": "선택적 외부 라이트의 진단 상태",
                 "group_id": "107047",
                 "req_frame_id": "321488",
@@ -944,7 +944,7 @@
             {
                 "position": 16,
                 "mnemonic": "CA_DIAG_FEU_CROISEMENT",
-                "label_index": "53334",
+                "label_index": "@P53334",
                 "label_korean": "하향 빔 헤드램프의 진단 상태",
                 "group_id": "107047",
                 "req_frame_id": "321488",
@@ -966,7 +966,7 @@
             {
                 "position": 17,
                 "mnemonic": "CA_DIAG_FEU_ROUTE",
-                "label_index": "53343",
+                "label_index": "@P53343",
                 "label_korean": "메인 빔 헤드램프의 진단 상태",
                 "group_id": "107047",
                 "req_frame_id": "321488",

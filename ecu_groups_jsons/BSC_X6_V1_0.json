@@ -8,7 +8,7 @@
             {
                 "position": 1,
                 "mnemonic": "ID_NOM_DU_FOURNISSEUR",
-                "label_index": "5701",
+                "label_index": "@P5701",
                 "label_korean": "제조 업체명",
                 "group_id": "147796",
                 "req_frame_id": "443726",
@@ -38,7 +38,7 @@
             {
                 "position": 2,
                 "mnemonic": "ID_REFERENCE_MATERIEL",
-                "label_index": "1071",
+                "label_index": "@P1071",
                 "label_korean": "장치 부품 번호",
                 "group_id": "147812",
                 "req_frame_id": "443774",
@@ -60,7 +60,7 @@
             {
                 "position": 3,
                 "mnemonic": "ID_REFERENCE_COMPLEMENTAIRE_MATERIEL_BSC",
-                "label_index": "1634",
+                "label_index": "@P1634",
                 "label_korean": "장치 추가 참조 번호",
                 "group_id": "147812",
                 "req_frame_id": "443774",
@@ -90,7 +90,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_CMDE_ECLAIRAGE_FEUX_BROUILLARD_ARRIERES_VEHICULE_ET_REMORQUE",
-                "label_index": "10859",
+                "label_index": "@P10859@\\*",
                 "label_korean": "차량 및 트레일러 리어 안개등 점등 제어",
                 "group_id": "147799",
                 "req_frame_id": "443735",
@@ -106,13 +106,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "28793, 28812, 45041",
-                "help_korean": "트레일러 릴레이 장치는 장착되어 있을 경우 트레일러의 리어 안개등 점등을 제어한다.\n- 참고 : 안개등을 점등하기 위해서 반드시 전조등 하향 헤드램프를 켜야 한다.\n트렁크 릴레이 장치는 차량의 리어 안개등 점등을 제어한다."
+                "help_code": "@P28793@T.@\\n@P28812@T.@\\n@P45041@\\*@T.",
+                "help_korean": "트레일러 릴레이 장치는 장착되어 있을 경우 트레일러의 리어 안개등 점등을 제어한다.\n참고 : 안개등을 점등하기 위해서 반드시 전조등 하향 헤드램프를 켜야 한다.\n트렁크 릴레이 장치는 차량의 리어 안개등 점등을 제어한다."
             },
             {
                 "position": 2,
                 "mnemonic": "MP_CDE_CLIGNO_DT_VEH_ET_REMORQUE",
-                "label_index": "8722",
+                "label_index": "@P8722@\\*@\\*",
                 "label_korean": "차량 및 트레일러 우측 방향지시등 점등 제어",
                 "group_id": "147799",
                 "req_frame_id": "443735",
@@ -128,13 +128,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "28248, 28216, 45042",
+                "help_code": "@P28248@T.@\\n@P28216@T.@\\n@P45042@\\*@T.",
                 "help_korean": "엔진 릴레이 장치는 프론트 우측 방향지시등의 점등을 제어한다.\n트레일러 릴레이 장치는 트레일러가 차량에 연결되었을 때 트레일러의 리어 우측 방향지시등 점등을 제어한다.\n트렁크 릴레이 장치는 차량의 리어 RH 인디케이터 점등을 제어한다."
             },
             {
                 "position": 3,
                 "mnemonic": "MP_CDE_CLIGNO_GH_VEH_ET_REMORQUE",
-                "label_index": "1961",
+                "label_index": "@P1961@\\*@\\*",
                 "label_korean": "차량 및 트레일러 좌측 방향지시등 점등 제어",
                 "group_id": "147799",
                 "req_frame_id": "443735",
@@ -150,13 +150,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "28221, 28216, 45043",
+                "help_code": "@P28221@T.@\\n@P28216@T.@\\n@P45043@\\*@T.",
                 "help_korean": "엔진 릴레이 장치는 프론트 좌측 방향지시등 점등을 제어한다.\n트레일러 릴레이 장치는 트레일러가 차량에 연결되었을 때 트레일러의 리어 우측 방향지시등 점등을 제어한다.\n트렁크 릴레이 장치는 차량의 리어 LH 인디케이터 점등을 제어한다."
             },
             {
                 "position": 4,
                 "mnemonic": "MP_COMMANDE_ECLAIRAGE_COFFRE",
-                "label_index": "12625",
+                "label_index": "@P12625",
                 "label_korean": "트렁크 라이트 제어",
                 "group_id": "147799",
                 "req_frame_id": "443735",
@@ -172,13 +172,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "45055",
+                "help_code": "@\\+@P45055",
                 "help_korean": "트렁크 릴레이 장치(BRC)는 트렁크 라이트를 제어한다"
             },
             {
                 "position": 5,
                 "mnemonic": "MP_CDE_FEUX_POSITION_DROIT_VEH_ET_REMORQUE",
-                "label_index": "14926",
+                "label_index": "@P14926@\\*@\\*",
                 "label_korean": "차량 및 트레일러 우측 미등 점등 제어",
                 "group_id": "147799",
                 "req_frame_id": "443735",
@@ -194,13 +194,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "28245, 28234, 45044",
+                "help_code": "@P28245@T.@\\n@P28234@T.@\\n@P45044@\\*@T.",
                 "help_korean": "엔진 퓨즈 박스는 프론트 우측 미등 점등을 제어한다.\n트레일러 릴레이 장치는 트레일러가 차량에 연결되었을 때 트레일러의 리어 우측 미등 점등을 제어한다.\n트렁크 릴레이 장치는 차량의 리어 RH 사이드 램프 점등을 제어한다."
             },
             {
                 "position": 6,
                 "mnemonic": "MP_CDE_FEUX_POSITION_GAUCHE_VEH_ET_REMORQUE",
-                "label_index": "25744",
+                "label_index": "@P25744",
                 "label_korean": "전압 및 트레일러 좌측 미등 점등 제어",
                 "group_id": "147799",
                 "req_frame_id": "443735",
@@ -216,13 +216,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "28180, 28195, 45045",
+                "help_code": "@P28180@T.@\\n@P28195@T.@\\n@P45045@\\*@T.",
                 "help_korean": "엔진 릴레이 장치는 프론트 좌측 미등의 점등을 제어한다.\n트레일러 릴레이 장치는 차량에 연결되어 있을 때 트레일러의 리어 좌측 미등 점등을 제어한다.\n트렁크 릴레이 장치는 차량의 리어 LH 사이드 램프 점등을 제어한다."
             },
             {
                 "position": 7,
                 "mnemonic": "MP_COMMANDE_ECLAIRAGE_FEUX_DE_RECUL",
-                "label_index": "16572",
+                "label_index": "@P16572",
                 "label_korean": "차량 및 트레일러 후진등 점등 제어",
                 "group_id": "147799",
                 "req_frame_id": "443735",
@@ -238,13 +238,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "11108, 45056",
+                "help_code": "@\\+@P11108@\\n@P45056",
                 "help_korean": "트레일러 릴레이 장치는 트레일러가 있을 때 트레일러의 후진등 점등을 제어한다\n트렁크 릴레이 장치는 차량의 후미등 점등을 제어한다"
             },
             {
                 "position": 8,
                 "mnemonic": "MP_COMMANDE_ECLAIRAGE_FEUX_STOP",
-                "label_index": "3168",
+                "label_index": "@P3168",
                 "label_korean": "트레일러와 차량에서 제동등 점등 명령",
                 "group_id": "147799",
                 "req_frame_id": "443735",
@@ -260,13 +260,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "15567, 45057",
+                "help_code": "@P15567@\\n@\\+@P45057",
                 "help_korean": "트레일러 릴레이 장치는 트레일러가 있을 때 트레일러의 제동등 점등을 제어한다\n트렁크 릴레이 장치는 차량의 정지등 점등을 제어한다"
             },
             {
                 "position": 9,
                 "mnemonic": "MP_COMMANDE_ECLAIRAGE_FEUX_PLAQUE_POLICE",
-                "label_index": "3655",
+                "label_index": "@P3655",
                 "label_korean": "번호판 점등 제어",
                 "group_id": "147799",
                 "req_frame_id": "443735",
@@ -282,7 +282,7 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "45116, 45117",
+                "help_code": "@\\+@P45116@T.@\\n@\\+@P45117@T.",
                 "help_korean": "트레일러 릴레이 장치는 트레일러 보드 번호판 조명(장착된 경우)을 제어한다.\n트렁크 릴레이 장치는 번호판 조명을 제어한다."
             }
         ]
@@ -296,7 +296,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_COMMANDE_OUVERTURE_COFFRE",
-                "label_index": "14255",
+                "label_index": "@P14255@\\*",
                 "label_korean": "트렁크 열림 명령",
                 "group_id": "147800",
                 "req_frame_id": "443738",
@@ -312,7 +312,7 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "41363",
+                "help_code": "@P41363@\\*@T.",
                 "help_korean": "트렁크 릴레이 장치는 차량 트렁크의 열림을 제어한다."
             }
         ]
@@ -326,7 +326,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_COMMANDE_DEGIVRAGE_3",
-                "label_index": "3483",
+                "label_index": "@P3483@\\*",
                 "label_korean": "리어 스크린 성에-제거 스위치",
                 "group_id": "147801",
                 "req_frame_id": "443741",
@@ -342,7 +342,7 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "41362",
+                "help_code": "@P41362@\\*@T.",
                 "help_korean": "트렁크 릴레이 장치는 리어 스크린의 성에-제거를 제어한다."
             }
         ]

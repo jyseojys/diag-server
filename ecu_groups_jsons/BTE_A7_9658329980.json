@@ -8,7 +8,7 @@
             {
                 "position": 1,
                 "mnemonic": "ID_REFERENCE_FOURNISSEUR",
-                "label_index": "633",
+                "label_index": "@P633",
                 "label_korean": "제조업체",
                 "group_id": "105799",
                 "req_frame_id": "317743",
@@ -34,8 +34,8 @@
             {
                 "position": 2,
                 "mnemonic": "ID_REF_PSA_new_1",
-                "label_index": "9417",
-                "label_korean": "하드부품 번호",
+                "label_index": "@P9417@\\*",
+                "label_korean": "하드 부품 번호",
                 "group_id": "105799",
                 "req_frame_id": "317743",
                 "resp_frame_id": "317744",
@@ -56,7 +56,7 @@
             {
                 "position": 3,
                 "mnemonic": "ID_NUM_COMP_new_2",
-                "label_index": "5292",
+                "label_index": "@P5292",
                 "label_korean": "추가 번호",
                 "group_id": "105799",
                 "req_frame_id": "317743",
@@ -78,7 +78,7 @@
             {
                 "position": 4,
                 "mnemonic": "ID_VERSION_LOGICIEL_new_1",
-                "label_index": "8662",
+                "label_index": "@P8662@\\*",
                 "label_korean": "소프트웨어 버전",
                 "group_id": "105799",
                 "req_frame_id": "317743",
@@ -100,7 +100,7 @@
             {
                 "position": 5,
                 "mnemonic": "ID_REF_CALIBRATION_new_1",
-                "label_index": "7014",
+                "label_index": "@P7014",
                 "label_korean": "캘리브레이션 버전",
                 "group_id": "105799",
                 "req_frame_id": "317743",
@@ -122,7 +122,7 @@
             {
                 "position": 6,
                 "mnemonic": "ID_80_MP_INDICE_MESS",
-                "label_index": "2225",
+                "label_index": "@P2225",
                 "label_korean": "메시지 인덱스",
                 "group_id": "105799",
                 "req_frame_id": "317743",
@@ -152,7 +152,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_SEUIL_VIT",
-                "label_index": "12285",
+                "label_index": "@P12285",
                 "label_korean": "루프의 작동 승인을 위한 속도 한계치",
                 "group_id": "105804",
                 "req_frame_id": "317758",
@@ -168,13 +168,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "10902",
+                "help_code": "@P10902",
                 "help_korean": "접이식 루프의 작동을 더 이상 승인하지 않는 차량 속도"
             },
             {
                 "position": 2,
                 "mnemonic": "MP_OUV_TE_D",
-                "label_index": "14200",
+                "label_index": "@P14200",
                 "label_korean": "잠금 해제시 접이식 루프 열림",
                 "group_id": "105805",
                 "req_frame_id": "317761",
@@ -190,13 +190,13 @@
                 "bit_mask": 32,
                 "bit_shift": 5,
                 "dynamic_arg": "",
-                "help_code": "3032",
+                "help_code": "@P3032",
                 "help_korean": "변경 불가한 설정"
             },
             {
                 "position": 3,
                 "mnemonic": "MP_FERM_TE_C",
-                "label_index": "4584",
+                "label_index": "@P4584",
                 "label_korean": "잠금시 접이식 루프 닫힘",
                 "group_id": "105805",
                 "req_frame_id": "317761",
@@ -212,13 +212,13 @@
                 "bit_mask": 16,
                 "bit_shift": 4,
                 "dynamic_arg": "",
-                "help_code": "3032",
+                "help_code": "@P3032",
                 "help_korean": "변경 불가한 설정"
             }
         ]
     },
     "MESUREPARAMETRE2": {
-        "screen_title_korean": "전동 윈도우작동",
+        "screen_title_korean": "전동 윈도우 작동",
         "screen_label_index": "@P3251-POLUXDATA@\\*",
         "ecu_name": "BTE_A7_9658329980",
         "total_sensors": 15,
@@ -226,7 +226,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_FONCTIONNEMENT_TOIT_ESCAMOTABLE",
-                "label_index": "12261",
+                "label_index": "@P12261",
                 "label_korean": "접이식 루프의 작동",
                 "group_id": "105802",
                 "req_frame_id": "317752",
@@ -242,13 +242,13 @@
                 "bit_mask": 2,
                 "bit_shift": 1,
                 "dynamic_arg": "",
-                "help_code": "6293",
+                "help_code": "@P6293",
                 "help_korean": "접이식 루프가 작동할 때, 윈도우 작동은 더 이상 승인되지 않는다"
             },
             {
                 "position": 2,
                 "mnemonic": "MP_AUTORISATION_FONCTIONNEMENT_LEVE_VITRE_PAR_BSI",
-                "label_index": "14452",
+                "label_index": "@P14452",
                 "label_korean": "전동 윈도우의 BSI 작동 승인",
                 "group_id": "105802",
                 "req_frame_id": "317752",
@@ -264,13 +264,13 @@
                 "bit_mask": 16,
                 "bit_shift": 4,
                 "dynamic_arg": "",
-                "help_code": "8830",
+                "help_code": "@P8830",
                 "help_korean": "BSI와 루프 ECU에서 전동 윈도우 작동 승인 상태"
             },
             {
                 "position": 3,
                 "mnemonic": "MP_ALIMENTATION_INTERRUPTEURS_DE_LEVE_VITRE_ARRIERE_a",
-                "label_index": "2371",
+                "label_index": "@P2371",
                 "label_korean": "리어 윈도우 스위치 전원",
                 "group_id": "105803",
                 "req_frame_id": "317755",
@@ -286,13 +286,13 @@
                 "bit_mask": 32,
                 "bit_shift": 5,
                 "dynamic_arg": "",
-                "help_code": "40496, 41056",
+                "help_code": "@P40496@T.@\\n@P41056",
                 "help_korean": "ECU 출력 제어 상태를 나타낸다.\n스위치는 라이트가 켜질 때 전원이 공급된다"
             },
             {
                 "position": 4,
                 "mnemonic": "MP_CONTACTEUR_VITRE_CONDUCTEUR",
-                "label_index": "2522",
+                "label_index": "@P2522",
                 "label_korean": "운전석 윈도우 스위치",
                 "group_id": "105802",
                 "req_frame_id": "317752",
@@ -308,13 +308,13 @@
                 "bit_mask": 240,
                 "bit_shift": 4,
                 "dynamic_arg": "",
-                "help_code": "6504",
+                "help_code": "@P6504@\\*15",
                 "help_korean": "\"고착\" 상태는 스위치가 해제된 것이 아닌 상태에서 15초 이상 고착된 상태로 남아 있는 것을 나타낸다"
             },
             {
                 "position": 5,
                 "mnemonic": "MP_CONTACTEUR_VITRE_PASSAGER_COTE_CONDUCTEUR",
-                "label_index": "44020",
+                "label_index": "@P44020@\\+@T (@P21761@T)",
                 "label_korean": "승객석 윈도우 스위치 (운전석쪽)",
                 "group_id": "105802",
                 "req_frame_id": "317752",
@@ -330,13 +330,13 @@
                 "bit_mask": 240,
                 "bit_shift": 4,
                 "dynamic_arg": "",
-                "help_code": "6504",
+                "help_code": "@P6504@\\*15",
                 "help_korean": "\"고착\" 상태는 스위치가 해제된 것이 아닌 상태에서 15초 이상 고착된 상태로 남아 있는 것을 나타낸다"
             },
             {
                 "position": 6,
                 "mnemonic": "MP_CONTACTEUR_VITRE_PASSAGER_COTE_PASSAGER",
-                "label_index": "44020",
+                "label_index": "@P44020@\\+@T (@P21845@T)",
                 "label_korean": "승객석 윈도우 스위치 (승객쪽)",
                 "group_id": "105802",
                 "req_frame_id": "317752",
@@ -352,13 +352,13 @@
                 "bit_mask": 15,
                 "bit_shift": 0,
                 "dynamic_arg": "",
-                "help_code": "6504",
+                "help_code": "@P6504@\\*15",
                 "help_korean": "\"고착\" 상태는 스위치가 해제된 것이 아닌 상태에서 15초 이상 고착된 상태로 남아 있는 것을 나타낸다"
             },
             {
                 "position": 7,
                 "mnemonic": "MP_CONTACTEUR_DE_COMMANDE_DES_VITRES",
-                "label_index": "8436",
+                "label_index": "@P8436",
                 "label_korean": "모든 윈도우 제어 스위치",
                 "group_id": "105802",
                 "req_frame_id": "317752",
@@ -374,13 +374,13 @@
                 "bit_mask": 15,
                 "bit_shift": 0,
                 "dynamic_arg": "",
-                "help_code": "6504",
+                "help_code": "@P6504@\\*15",
                 "help_korean": "\"고착\" 상태는 스위치가 해제된 것이 아닌 상태에서 15초 이상 고착된 상태로 남아 있는 것을 나타낸다"
             },
             {
                 "position": 8,
                 "mnemonic": "MP_PILOTAGE_MOTEUR_VITRE_AVANT_CONDUCTEUR",
-                "label_index": "6197",
+                "label_index": "@P6197",
                 "label_korean": "운전석 프론트 윈도우 모터 제어",
                 "group_id": "105803",
                 "req_frame_id": "317755",
@@ -396,13 +396,13 @@
                 "bit_mask": 51,
                 "bit_shift": 0,
                 "dynamic_arg": "",
-                "help_code": "7622",
+                "help_code": "@P7622",
                 "help_korean": "BSI에 의해 명령된 윈도우 제어 타입을 나타낸다"
             },
             {
                 "position": 9,
                 "mnemonic": "MP_POSITION_VITRE_AVANT_CONDUCTEUR",
-                "label_index": "2832",
+                "label_index": "@P2832",
                 "label_korean": "운전석 프론트 윈도우 위치",
                 "group_id": "105802",
                 "req_frame_id": "317752",
@@ -418,13 +418,13 @@
                 "bit_mask": 32,
                 "bit_shift": 5,
                 "dynamic_arg": "",
-                "help_code": "44179, 44022",
+                "help_code": "@P44179@T.@\\n@P44022",
                 "help_korean": "네트워크로부터 수신된 정보.\n윈도우가 하단 스탑이 아닐 때, 상태는 \"명확하지 않거나 또는 이동중\"이다"
             },
             {
                 "position": 10,
                 "mnemonic": "MP_PILOTAGE_MOTEUR_VITRE_AVANT_PASSAGER",
-                "label_index": "9705",
+                "label_index": "@P9705",
                 "label_korean": "승객석 프론트 윈도우 모터 제어",
                 "group_id": "105803",
                 "req_frame_id": "317755",
@@ -440,13 +440,13 @@
                 "bit_mask": 204,
                 "bit_shift": 2,
                 "dynamic_arg": "",
-                "help_code": "7622",
+                "help_code": "@P7622",
                 "help_korean": "BSI에 의해 명령된 윈도우 제어 타입을 나타낸다"
             },
             {
                 "position": 11,
                 "mnemonic": "MP_POSITION_VITRE_AVANT_PASSAGER",
-                "label_index": "5242",
+                "label_index": "@P5242",
                 "label_korean": "승객석 프론트 윈도우 위치",
                 "group_id": "105802",
                 "req_frame_id": "317752",
@@ -462,13 +462,13 @@
                 "bit_mask": 16,
                 "bit_shift": 4,
                 "dynamic_arg": "",
-                "help_code": "44179, 44022",
+                "help_code": "@P44179@T.@\\n@P44022",
                 "help_korean": "네트워크로부터 수신된 정보.\n윈도우가 하단 스탑이 아닐 때, 상태는 \"명확하지 않거나 또는 이동중\"이다"
             },
             {
                 "position": 12,
                 "mnemonic": "MP_PILOTAGE_MOTEUR_VITRE_ARRIERE_CONDUCTEUR",
-                "label_index": "9066",
+                "label_index": "@P9066",
                 "label_korean": "운전석 리어 윈도우 모터 제어",
                 "group_id": "105803",
                 "req_frame_id": "317755",
@@ -484,13 +484,13 @@
                 "bit_mask": 52,
                 "bit_shift": 2,
                 "dynamic_arg": "",
-                "help_code": "8160",
+                "help_code": "@P8160",
                 "help_korean": "루프 ECU에 의해 이뤄진 제어 타입을 나타낸다"
             },
             {
                 "position": 13,
                 "mnemonic": "MP_POSITION_VITRE_ARRIERE_CONDUCTEUR",
-                "label_index": "10124",
+                "label_index": "@P10124",
                 "label_korean": "운전석 리어 윈도우의 위치",
                 "group_id": "105802",
                 "req_frame_id": "317752",
@@ -506,13 +506,13 @@
                 "bit_mask": 12,
                 "bit_shift": 2,
                 "dynamic_arg": "",
-                "help_code": "8461",
+                "help_code": "@P8461",
                 "help_korean": "윈도우를 상단 또는 하단 스탑이 아닐 때, 상태는 \"명확하지 않거나 또는 이동중\"이다"
             },
             {
                 "position": 14,
                 "mnemonic": "MP_PILOTAGE_MOTEUR_VITRE_ARRIERE_PASSAGER",
-                "label_index": "2313",
+                "label_index": "@P2313",
                 "label_korean": "승객석 리어 윈도우 모터 제어",
                 "group_id": "105803",
                 "req_frame_id": "317755",
@@ -528,13 +528,13 @@
                 "bit_mask": 200,
                 "bit_shift": 3,
                 "dynamic_arg": "",
-                "help_code": "8160",
+                "help_code": "@P8160",
                 "help_korean": "루프 ECU에 의해 이뤄진 제어 타입을 나타낸다"
             },
             {
                 "position": 15,
                 "mnemonic": "MP_POSITION_VITRE_ARRIERE_PASSAGER",
-                "label_index": "5103",
+                "label_index": "@P5103",
                 "label_korean": "승객석 리어 윈도우의 위치",
                 "group_id": "105802",
                 "req_frame_id": "317752",
@@ -550,7 +550,7 @@
                 "bit_mask": 3,
                 "bit_shift": 0,
                 "dynamic_arg": "",
-                "help_code": "8461",
+                "help_code": "@P8461",
                 "help_korean": "윈도우를 상단 또는 하단 스탑이 아닐 때, 상태는 \"명확하지 않거나 또는 이동중\"이다"
             }
         ]
@@ -564,7 +564,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_ETAT_ELECTRIQUE_VEHICULE",
-                "label_index": "31753",
+                "label_index": "@P31753",
                 "label_korean": "차량의 전기적인 상태",
                 "group_id": "105802",
                 "req_frame_id": "317752",
@@ -580,13 +580,13 @@
                 "bit_mask": 32,
                 "bit_shift": 5,
                 "dynamic_arg": "",
-                "help_code": "11047",
+                "help_code": "@P11047",
                 "help_korean": "BSI로부터 정보"
             },
             {
                 "position": 2,
                 "mnemonic": "MP_ETAT_COFFRE_A_BAGAGES",
-                "label_index": "5130",
+                "label_index": "@P5130",
                 "label_korean": "트렁크의 상태",
                 "group_id": "105802",
                 "req_frame_id": "317752",
@@ -602,13 +602,13 @@
                 "bit_mask": 8,
                 "bit_shift": 3,
                 "dynamic_arg": "",
-                "help_code": "11047",
+                "help_code": "@P11047",
                 "help_korean": "BSI로부터 정보"
             },
             {
                 "position": 3,
                 "mnemonic": "MP_SER_COFFREB",
-                "label_index": "44589",
+                "label_index": "@P44589@\\+@T (@P441@T)",
                 "label_korean": "트렁크 점검 금지 (접이식 루프)",
                 "group_id": "105802",
                 "req_frame_id": "317752",
@@ -624,13 +624,13 @@
                 "bit_mask": 4,
                 "bit_shift": 2,
                 "dynamic_arg": "",
-                "help_code": "10078",
+                "help_code": "@P10078",
                 "help_korean": "루프 ECU에서 BSI에 보내진 요청"
             },
             {
                 "position": 4,
                 "mnemonic": "MP_ETAT_SER_COFFREB",
-                "label_index": "44709",
+                "label_index": "@P44709@\\+@T (@P15433@\\*@T)",
                 "label_korean": "트렁크 잠금 금지 상태 (BSI)",
                 "group_id": "105802",
                 "req_frame_id": "317752",
@@ -646,13 +646,13 @@
                 "bit_mask": 2,
                 "bit_shift": 1,
                 "dynamic_arg": "",
-                "help_code": "12730",
+                "help_code": "@P12730",
                 "help_korean": "이 변수는 BSI가 트렁크 잠금 장치 열림 차단 요청을 고려하는지를 확인할 수 있도록 한다"
             },
             {
                 "position": 5,
                 "mnemonic": "MP_VALIDITE_INFORMATION_VITESSE_VEHICULE_MULTIPLEXEE",
-                "label_index": "8819",
+                "label_index": "@P8819",
                 "label_korean": "멀티플렉스 차량 속도 정보 유효",
                 "group_id": "105802",
                 "req_frame_id": "317752",
@@ -668,13 +668,13 @@
                 "bit_mask": 16,
                 "bit_shift": 4,
                 "dynamic_arg": "",
-                "help_code": "6338",
+                "help_code": "@P6338",
                 "help_korean": "접이식 루프 ECU가 CAN으로부터 수신된 차량 정보를 사용하는지를 나타내기 위해 BSI에 의해 보내진 상태"
             },
             {
                 "position": 6,
                 "mnemonic": "MP_ETAT_SERRAGE_FREIN_A_AMIN",
-                "label_index": "10188",
+                "label_index": "@P10188",
                 "label_korean": "주차브레이크 상태",
                 "group_id": "105802",
                 "req_frame_id": "317752",
@@ -693,13 +693,13 @@
                 "bit_mask": 128,
                 "bit_shift": 7,
                 "dynamic_arg": "",
-                "help_code": "8943",
+                "help_code": "@P8943",
                 "help_korean": "주차 브레이크 스위치의 위치로부터 유추된 상태 (배선으로 연결된 케이블)"
             },
             {
                 "position": 7,
                 "mnemonic": "MP_AUTORISATION_VITESSE",
-                "label_index": "12385",
+                "label_index": "@P12385",
                 "label_korean": "배선에 의한 차량 속도 승인",
                 "group_id": "105802",
                 "req_frame_id": "317752",
@@ -715,13 +715,13 @@
                 "bit_mask": 96,
                 "bit_shift": 5,
                 "dynamic_arg": "",
-                "help_code": "44180, 44181, 44182",
-                "help_korean": "이 승인이 \"작동\"일 때 (유선에 의한 차량의 속도는 11km/h 또는 그 이하이어야 한다), 유압 장치의 작동이 승인되었다"
+                "help_code": "@P44180@T (@P44181@\\*11@T),@\\+@P44182",
+                "help_korean": "이 승인이 \"작동\"일 때 (유선에 의한 차량의 속도는 11km/h 또는 그 이하이어야 한다),유압 장치의 작동이 승인되었다"
             },
             {
                 "position": 8,
                 "mnemonic": "MP_FONCTIONNEMENT_TOIT_ESCAMOTABLE",
-                "label_index": "12261",
+                "label_index": "@P12261",
                 "label_korean": "접이식 루프의 작동",
                 "group_id": "105802",
                 "req_frame_id": "317752",
@@ -737,13 +737,13 @@
                 "bit_mask": 2,
                 "bit_shift": 1,
                 "dynamic_arg": "",
-                "help_code": "6293",
+                "help_code": "@P6293",
                 "help_korean": "접이식 루프가 작동할 때, 윈도우 작동은 더 이상 승인되지 않는다"
             },
             {
                 "position": 9,
                 "mnemonic": "MP_SEUIL_TEMP_MOT",
-                "label_index": "13739",
+                "label_index": "@P13739",
                 "label_korean": "유압 펌프 모터의 한계 온도",
                 "group_id": "105802",
                 "req_frame_id": "317752",
@@ -765,7 +765,7 @@
             {
                 "position": 10,
                 "mnemonic": "MP_AUTORISATION_FONCTIONNEMENT_TOIT_OUVRANT",
-                "label_index": "6207",
+                "label_index": "@P6207",
                 "label_korean": "루프의 작동 승인",
                 "group_id": "105802",
                 "req_frame_id": "317752",
@@ -781,8 +781,8 @@
                 "bit_mask": 12,
                 "bit_shift": 2,
                 "dynamic_arg": "",
-                "help_code": "44183, 44184, 44185, 44186",
-                "help_korean": "엔진을 구동하지\n- 않고 키를 ON한 상태에서, 루프는 작동이 승인된다 :\n- 쿠페 위치로부터, 2번의 열림 사이클 및 2번의 닫힘 사이클.\n- 컨버터블 위치로부터, 3번의 닫힘 사이클 및 2번의 열림 사이클.\n이 사이클 숫자에 도달할 때, 정확한 배터리 전압을 유지하기 위해서, 루프의 작동은 더 이상 승인되지 않는다"
+                "help_code": "@P44183@T :@\\n@T-@\\+@P44184@T.@\\n@T-@\\+@P44185@T.@\\n@P44186",
+                "help_korean": "엔진을 구동하지 않고 키를 ON한 상태에서, 루프는 작동이 승인된다 :\n-쿠페 위치로부터, 2번의 열림 사이클 및 2번의 닫힘 사이클.\n-컨버터블 위치로부터, 3번의 닫힘 사이클 및 2번의 열림 사이클.\n이 사이클 숫자에 도달할 때, 정확한 배터리 전압을 유지하기 위해서, 루프의 작동은 더 이상 승인되지 않는다"
             }
         ]
     },
@@ -795,7 +795,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_CONTACTEUR_TENDELET_TIRE",
-                "label_index": "4941",
+                "label_index": "@P4941",
                 "label_korean": "트레이 펼침 스위치",
                 "group_id": "105802",
                 "req_frame_id": "317752",
@@ -811,13 +811,13 @@
                 "bit_mask": 48,
                 "bit_shift": 4,
                 "dynamic_arg": "",
-                "help_code": "43843, 43913",
+                "help_code": "@P43843@T.@\\n@P43913",
                 "help_korean": "트렁크 스크린의 위치를 결정하는 스위치.\n스위치는 스크린이 펼쳐질 때 닫힌다"
             },
             {
                 "position": 2,
                 "mnemonic": "MP_CONTACTEUR_TABLETTE_RANGEE",
-                "label_index": "8558",
+                "label_index": "@P8558",
                 "label_korean": "뒷 선반 접힘 스위치",
                 "group_id": "105802",
                 "req_frame_id": "317752",
@@ -833,13 +833,13 @@
                 "bit_mask": 192,
                 "bit_shift": 6,
                 "dynamic_arg": "",
-                "help_code": "44187, 44188",
+                "help_code": "@P44187@T.@\\n@P44188",
                 "help_korean": "루프의 좌측 힌지에 위치한 스위치.\n스위치는 선반이 접힐 때 닫힌다"
             },
             {
                 "position": 3,
                 "mnemonic": "MP_CONTACTEUR_TABLETTE_SORTIE",
-                "label_index": "3961",
+                "label_index": "@P3961",
                 "label_korean": "뒷 선반 펼침 스위치",
                 "group_id": "105802",
                 "req_frame_id": "317752",
@@ -855,13 +855,13 @@
                 "bit_mask": 48,
                 "bit_shift": 4,
                 "dynamic_arg": "",
-                "help_code": "44187, 44189",
+                "help_code": "@P44187@T.@\\n@P44189",
                 "help_korean": "루프의 좌측 힌지에 위치한 스위치.\n스위치는 선반이 펼쳐질 때 닫힌다"
             },
             {
                 "position": 4,
                 "mnemonic": "MP_CONTACTEUR_ACCOSTAGE_DE_TOIT_GAUCHE",
-                "label_index": "12635",
+                "label_index": "@P12635",
                 "label_korean": "좌측 루프 라이닝 업 스위치",
                 "group_id": "105802",
                 "req_frame_id": "317752",
@@ -877,13 +877,13 @@
                 "bit_mask": 48,
                 "bit_shift": 4,
                 "dynamic_arg": "",
-                "help_code": "44193, 44194",
+                "help_code": "@P44193@T.@\\n@P44194",
                 "help_korean": "윈드스크린 쪽 및 좌측에서 루프 스트라이커에 위치한 스위치.\n스위치는 차량이 쿠페 위치일 때 닫힌다"
             },
             {
                 "position": 5,
                 "mnemonic": "MP_CONTACTEUR_TOIT_VERROUILLE_DROIT",
-                "label_index": "3317",
+                "label_index": "@P3317",
                 "label_korean": "우측 루프 잠금 스위치",
                 "group_id": "105802",
                 "req_frame_id": "317752",
@@ -899,13 +899,13 @@
                 "bit_mask": 12,
                 "bit_shift": 2,
                 "dynamic_arg": "",
-                "help_code": "44195, 44194",
+                "help_code": "@P44195@T.@\\n@P44194",
                 "help_korean": "윈드스크린 쪽 및 우측에서 루프 스트라이커에 위치한 스위치.\n스위치는 차량이 쿠페 위치일 때 닫힌다"
             },
             {
                 "position": 6,
                 "mnemonic": "MP_CONTACTEUR_TOIT_VERROUILLE_PLATINE_CENTRALE",
-                "label_index": "43939",
+                "label_index": "@P43939@\\+@T (@P43912@T)",
                 "label_korean": "루프 잠금 스위치 (중앙 플레이트)",
                 "group_id": "105802",
                 "req_frame_id": "317752",
@@ -921,13 +921,13 @@
                 "bit_mask": 3,
                 "bit_shift": 0,
                 "dynamic_arg": "",
-                "help_code": "44196, 44197",
+                "help_code": "@P44196@T.@\\n@P44197",
                 "help_korean": "중앙 루프 잠금/잠금해제 플레이트에 위치한 스위치.\n스위치는 차량이 쿠페 또는 컨버터블 위치일 때 닫힌다"
             },
             {
                 "position": 7,
                 "mnemonic": "MP_CONTACTEUR_DE_TOIT_VERROUILLE_PLATINE_CENTRALE",
-                "label_index": "44023",
+                "label_index": "@P44023@\\+@T (@P43912@T)",
                 "label_korean": "루프 잠금해제 스위치 (중앙 플레이트)",
                 "group_id": "105802",
                 "req_frame_id": "317752",
@@ -943,13 +943,13 @@
                 "bit_mask": 12,
                 "bit_shift": 2,
                 "dynamic_arg": "",
-                "help_code": "44196, 44192",
+                "help_code": "@P44196@T.@\\n@P44192",
                 "help_korean": "중앙 루프 잠금/잠금해제 플레이트에 위치한 스위치.\n스위치는 차량이 쿠페 또는 컨버터블 위치일 때 열린다"
             },
             {
                 "position": 8,
                 "mnemonic": "MP_CONTACTEUR_TOIT_OUVERT",
-                "label_index": "12846",
+                "label_index": "@P12846",
                 "label_korean": "루프 열림 스위치",
                 "group_id": "105802",
                 "req_frame_id": "317752",
@@ -965,13 +965,13 @@
                 "bit_mask": 192,
                 "bit_shift": 6,
                 "dynamic_arg": "",
-                "help_code": "44231, 43895, 44191",
+                "help_code": "@P44231@T.@\\n@P43895@T(@P44191@T)",
                 "help_korean": "리어 선반의 좌측 메커니즘에 위치한 스위치.\n스위치는 루프가 닫힐 때 닫힌다(상태 역전됨)"
             },
             {
                 "position": 9,
                 "mnemonic": "MP_CONTACTEUR_DE_COFFRE_DE_TOIT_OUVERT",
-                "label_index": "8268",
+                "label_index": "@P8268",
                 "label_korean": "트렁크 열림 스위치",
                 "group_id": "105802",
                 "req_frame_id": "317752",
@@ -987,13 +987,13 @@
                 "bit_mask": 12,
                 "bit_shift": 2,
                 "dynamic_arg": "",
-                "help_code": "44190, 44024, 44191",
+                "help_code": "@P44190@T.@\\n@P44024@T(@P44191@T)",
                 "help_korean": "스위치는 트렁크에 위치해 있고 좌측 루프 액츄에이터 가까이에 있다.\n스위치는 트렁크가 닫힐 때 닫힌다(상태 역전됨)"
             },
             {
                 "position": 10,
                 "mnemonic": "MP_CONTACTEUR_DE_COFFRE_DE_TOIT_VERROUILLE_GAUCHE",
-                "label_index": "8858",
+                "label_index": "@P8858",
                 "label_korean": "좌측 트렁크 잠금 스위치",
                 "group_id": "105802",
                 "req_frame_id": "317752",
@@ -1009,13 +1009,13 @@
                 "bit_mask": 3,
                 "bit_shift": 0,
                 "dynamic_arg": "",
-                "help_code": "44025, 44029",
+                "help_code": "@P44025@T.@\\n@P44029",
                 "help_korean": "스위치는 좌측 트렁크 잠금장치에 위치해 있다.\n스위치는 트렁크가 잠금될 때 닫힌다"
             },
             {
                 "position": 11,
                 "mnemonic": "MP_CONTACTEUR_DE_COFFRE_DE_TOIT_VERROUILLE_DROIT",
-                "label_index": "9115",
+                "label_index": "@P9115",
                 "label_korean": "우측 트렁크 잠금 스위치",
                 "group_id": "105802",
                 "req_frame_id": "317752",
@@ -1031,7 +1031,7 @@
                 "bit_mask": 192,
                 "bit_shift": 6,
                 "dynamic_arg": "",
-                "help_code": "44030, 44029",
+                "help_code": "@P44030@T.@\\n@P44029",
                 "help_korean": "스위치는 우측 트렁크 잠금장치에 위치해 있다.\n스위치는 트렁크가 잠금될 때 닫힌다"
             }
         ]
@@ -1045,7 +1045,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_CONTACTEUR_DE_COMMANDE_DU_TOIT",
-                "label_index": "13177",
+                "label_index": "@P13177",
                 "label_korean": "루프 제어 스위치",
                 "group_id": "105802",
                 "req_frame_id": "317752",
@@ -1061,13 +1061,13 @@
                 "bit_mask": 960,
                 "bit_shift": 6,
                 "dynamic_arg": "",
-                "help_code": "14074",
+                "help_code": "@P14074",
                 "help_korean": "접이식 루프 실내 제어 스위치 상태"
             },
             {
                 "position": 2,
                 "mnemonic": "MP_AUTORISATION_ALIMENTATION_INTERRUPTEUR_COMMANDE_TOIT",
-                "label_index": "6501",
+                "label_index": "@P6501",
                 "label_korean": "루프 컨트롤 스위치 전원(승인)",
                 "group_id": "105803",
                 "req_frame_id": "317755",
@@ -1083,13 +1083,13 @@
                 "bit_mask": 128,
                 "bit_shift": 7,
                 "dynamic_arg": "",
-                "help_code": "40496, 44178",
+                "help_code": "@P40496@T.@\\n@P44178",
                 "help_korean": "ECU 출력 제어 상태를 나타낸다.\n스위치는 라이트가 켜질 때 전원이 공급된다"
             },
             {
                 "position": 3,
                 "mnemonic": "MP_ALIMENTATION_RELAIS_POMPE_HYDRAULIQUE",
-                "label_index": "6923",
+                "label_index": "@P6923",
                 "label_korean": "유압 펌프 릴레이 전원 공급",
                 "group_id": "105803",
                 "req_frame_id": "317755",
@@ -1105,13 +1105,13 @@
                 "bit_mask": 64,
                 "bit_shift": 6,
                 "dynamic_arg": "",
-                "help_code": "5323",
+                "help_code": "@P5323",
                 "help_korean": "루프가 제어될 때에만 전원이 작동한다"
             },
             {
                 "position": 4,
                 "mnemonic": "MP_ALIMENTATION_CONTACTEURS_POSITION",
-                "label_index": "2105",
+                "label_index": "@P2105",
                 "label_korean": "포지션 스위치 전원",
                 "group_id": "105803",
                 "req_frame_id": "317755",
@@ -1127,13 +1127,13 @@
                 "bit_mask": 2,
                 "bit_shift": 1,
                 "dynamic_arg": "",
-                "help_code": "5323",
+                "help_code": "@P5323",
                 "help_korean": "루프가 제어될 때에만 전원이 작동한다"
             },
             {
                 "position": 5,
                 "mnemonic": "MP_PIL_ELEC",
-                "label_index": "13445",
+                "label_index": "@P13445",
                 "label_korean": "유압 블록 솔레노이드 밸브 제어",
                 "group_id": "105803",
                 "req_frame_id": "317755",
@@ -1149,13 +1149,13 @@
                 "bit_mask": 16,
                 "bit_shift": 4,
                 "dynamic_arg": "",
-                "help_code": "1821",
+                "help_code": "@P1821",
                 "help_korean": "유압 블록에 장착된 솔레노이드 밸브"
             },
             {
                 "position": 6,
                 "mnemonic": "MP_COMMANDE_RELAIS_01_POMPE_HYDRAULIQUE",
-                "label_index": "7716",
+                "label_index": "@P7716@\\*1@\\*L",
                 "label_korean": "유압 펌프 릴레이1(L) 제어",
                 "group_id": "105803",
                 "req_frame_id": "317755",
@@ -1171,13 +1171,13 @@
                 "bit_mask": 8,
                 "bit_shift": 3,
                 "dynamic_arg": "1, L",
-                "help_code": "44215, 44051, 44046",
+                "help_code": "@P44215@T.@\\n@P44051@\\*1@T.@\\n@P44046",
                 "help_korean": "펌프 모터쪽에 위치한 릴레이.\n유압 장치 내부의 릴레이1의 제어 상태.\n이 릴레이는 루프 닫힘 종료시 및 열림 시작시 제어된다"
             },
             {
                 "position": 7,
                 "mnemonic": "MP_COMMANDE_RELAIS_02_POMPE_HYDRAULIQUE",
-                "label_index": "7716",
+                "label_index": "@P7716@\\*2@\\*R",
                 "label_korean": "유압 펌프 릴레이2(R) 제어",
                 "group_id": "105803",
                 "req_frame_id": "317755",
@@ -1193,7 +1193,7 @@
                 "bit_mask": 4,
                 "bit_shift": 2,
                 "dynamic_arg": "2, R",
-                "help_code": "44198, 44051, 44199",
+                "help_code": "@P44198@T.@\\n@P44051@\\*2@T.@\\n@P44199",
                 "help_korean": "탱크쪽에 위치한 릴레이.\n유압 장치 내부의 릴레이2의 제어 상태.\n이 릴레이는 루프의 닫힘 시작시 및 열림 종료시 제어된다"
             }
         ]
@@ -1207,7 +1207,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_CONTACTEUR_TENDELET_TIRE",
-                "label_index": "4941",
+                "label_index": "@P4941",
                 "label_korean": "트레이 펼침 스위치",
                 "group_id": "105802",
                 "req_frame_id": "317752",
@@ -1229,7 +1229,7 @@
             {
                 "position": 2,
                 "mnemonic": "MP_CONTACTEUR_TABLETTE_RANGEE",
-                "label_index": "8558",
+                "label_index": "@P8558",
                 "label_korean": "뒷 선반 접힘 스위치",
                 "group_id": "105802",
                 "req_frame_id": "317752",
@@ -1251,7 +1251,7 @@
             {
                 "position": 3,
                 "mnemonic": "MP_CONTACTEUR_TABLETTE_SORTIE",
-                "label_index": "3961",
+                "label_index": "@P3961",
                 "label_korean": "뒷 선반 펼침 스위치",
                 "group_id": "105802",
                 "req_frame_id": "317752",
@@ -1273,7 +1273,7 @@
             {
                 "position": 4,
                 "mnemonic": "MP_CONTACTEUR_ACCOSTAGE_DE_TOIT_GAUCHE",
-                "label_index": "12635",
+                "label_index": "@P12635",
                 "label_korean": "좌측 루프 라이닝 업 스위치",
                 "group_id": "105802",
                 "req_frame_id": "317752",
@@ -1295,7 +1295,7 @@
             {
                 "position": 5,
                 "mnemonic": "MP_CONTACTEUR_TOIT_VERROUILLE_DROIT",
-                "label_index": "3317",
+                "label_index": "@P3317",
                 "label_korean": "우측 루프 잠금 스위치",
                 "group_id": "105802",
                 "req_frame_id": "317752",
@@ -1317,7 +1317,7 @@
             {
                 "position": 6,
                 "mnemonic": "MP_CONTACTEUR_TOIT_VERROUILLE_PLATINE_CENTRALE",
-                "label_index": "43939",
+                "label_index": "@P43939@\\+@T (@P43912@T)",
                 "label_korean": "루프 잠금 스위치 (중앙 플레이트)",
                 "group_id": "105802",
                 "req_frame_id": "317752",
@@ -1339,7 +1339,7 @@
             {
                 "position": 7,
                 "mnemonic": "MP_CONTACTEUR_DE_TOIT_VERROUILLE_PLATINE_CENTRALE",
-                "label_index": "44023",
+                "label_index": "@P44023@\\+@T (@P43912@T)",
                 "label_korean": "루프 잠금해제 스위치 (중앙 플레이트)",
                 "group_id": "105802",
                 "req_frame_id": "317752",
@@ -1361,7 +1361,7 @@
             {
                 "position": 8,
                 "mnemonic": "MP_CONTACTEUR_TOIT_OUVERT",
-                "label_index": "12846",
+                "label_index": "@P12846",
                 "label_korean": "루프 열림 스위치",
                 "group_id": "105802",
                 "req_frame_id": "317752",
@@ -1383,7 +1383,7 @@
             {
                 "position": 9,
                 "mnemonic": "MP_CONTACTEUR_DE_COFFRE_DE_TOIT_OUVERT",
-                "label_index": "8268",
+                "label_index": "@P8268",
                 "label_korean": "트렁크 열림 스위치",
                 "group_id": "105802",
                 "req_frame_id": "317752",
@@ -1405,7 +1405,7 @@
             {
                 "position": 10,
                 "mnemonic": "MP_CONTACTEUR_DE_COFFRE_DE_TOIT_VERROUILLE_GAUCHE",
-                "label_index": "8858",
+                "label_index": "@P8858",
                 "label_korean": "좌측 트렁크 잠금 스위치",
                 "group_id": "105802",
                 "req_frame_id": "317752",
@@ -1427,7 +1427,7 @@
             {
                 "position": 11,
                 "mnemonic": "MP_CONTACTEUR_DE_COFFRE_DE_TOIT_VERROUILLE_DROIT",
-                "label_index": "9115",
+                "label_index": "@P9115",
                 "label_korean": "우측 트렁크 잠금 스위치",
                 "group_id": "105802",
                 "req_frame_id": "317752",
@@ -1457,7 +1457,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_CONTACTEUR_TENDELET_TIRE",
-                "label_index": "4941",
+                "label_index": "@P4941",
                 "label_korean": "트레이 펼침 스위치",
                 "group_id": "105802",
                 "req_frame_id": "317752",
@@ -1473,13 +1473,13 @@
                 "bit_mask": 48,
                 "bit_shift": 4,
                 "dynamic_arg": "",
-                "help_code": "43843, 43913",
+                "help_code": "@P43843@T.@\\n@P43913",
                 "help_korean": "트렁크 스크린의 위치를 결정하는 스위치.\n스위치는 스크린이 펼쳐질 때 닫힌다"
             },
             {
                 "position": 2,
                 "mnemonic": "MP_CONTACTEUR_TABLETTE_RANGEE",
-                "label_index": "8558",
+                "label_index": "@P8558",
                 "label_korean": "뒷 선반 접힘 스위치",
                 "group_id": "105802",
                 "req_frame_id": "317752",
@@ -1495,13 +1495,13 @@
                 "bit_mask": 192,
                 "bit_shift": 6,
                 "dynamic_arg": "",
-                "help_code": "44187, 44188",
+                "help_code": "@P44187@T.@\\n@P44188",
                 "help_korean": "루프의 좌측 힌지에 위치한 스위치.\n스위치는 선반이 접힐 때 닫힌다"
             },
             {
                 "position": 3,
                 "mnemonic": "MP_CONTACTEUR_TABLETTE_SORTIE",
-                "label_index": "3961",
+                "label_index": "@P3961",
                 "label_korean": "뒷 선반 펼침 스위치",
                 "group_id": "105802",
                 "req_frame_id": "317752",
@@ -1517,13 +1517,13 @@
                 "bit_mask": 48,
                 "bit_shift": 4,
                 "dynamic_arg": "",
-                "help_code": "44187, 44189",
+                "help_code": "@P44187@T.@\\n@P44189",
                 "help_korean": "루프의 좌측 힌지에 위치한 스위치.\n스위치는 선반이 펼쳐질 때 닫힌다"
             },
             {
                 "position": 4,
                 "mnemonic": "MP_CONTACTEUR_ACCOSTAGE_DE_TOIT_GAUCHE",
-                "label_index": "12635",
+                "label_index": "@P12635",
                 "label_korean": "좌측 루프 라이닝 업 스위치",
                 "group_id": "105802",
                 "req_frame_id": "317752",
@@ -1539,13 +1539,13 @@
                 "bit_mask": 48,
                 "bit_shift": 4,
                 "dynamic_arg": "",
-                "help_code": "44193, 44194",
+                "help_code": "@P44193@T.@\\n@P44194",
                 "help_korean": "윈드스크린 쪽 및 좌측에서 루프 스트라이커에 위치한 스위치.\n스위치는 차량이 쿠페 위치일 때 닫힌다"
             },
             {
                 "position": 5,
                 "mnemonic": "MP_CONTACTEUR_TOIT_VERROUILLE_DROIT",
-                "label_index": "3317",
+                "label_index": "@P3317",
                 "label_korean": "우측 루프 잠금 스위치",
                 "group_id": "105802",
                 "req_frame_id": "317752",
@@ -1561,13 +1561,13 @@
                 "bit_mask": 12,
                 "bit_shift": 2,
                 "dynamic_arg": "",
-                "help_code": "44195, 44194",
+                "help_code": "@P44195@T.@\\n@P44194",
                 "help_korean": "윈드스크린 쪽 및 우측에서 루프 스트라이커에 위치한 스위치.\n스위치는 차량이 쿠페 위치일 때 닫힌다"
             },
             {
                 "position": 6,
                 "mnemonic": "MP_CONTACTEUR_TOIT_VERROUILLE_PLATINE_CENTRALE",
-                "label_index": "43939",
+                "label_index": "@P43939@\\+@T (@P43912@T)",
                 "label_korean": "루프 잠금 스위치 (중앙 플레이트)",
                 "group_id": "105802",
                 "req_frame_id": "317752",
@@ -1583,13 +1583,13 @@
                 "bit_mask": 3,
                 "bit_shift": 0,
                 "dynamic_arg": "",
-                "help_code": "44196, 44197",
+                "help_code": "@P44196@T.@\\n@P44197",
                 "help_korean": "중앙 루프 잠금/잠금해제 플레이트에 위치한 스위치.\n스위치는 차량이 쿠페 또는 컨버터블 위치일 때 닫힌다"
             },
             {
                 "position": 7,
                 "mnemonic": "MP_CONTACTEUR_DE_TOIT_VERROUILLE_PLATINE_CENTRALE",
-                "label_index": "44023",
+                "label_index": "@P44023@\\+@T (@P43912@T)",
                 "label_korean": "루프 잠금해제 스위치 (중앙 플레이트)",
                 "group_id": "105802",
                 "req_frame_id": "317752",
@@ -1605,13 +1605,13 @@
                 "bit_mask": 12,
                 "bit_shift": 2,
                 "dynamic_arg": "",
-                "help_code": "44196, 44192",
+                "help_code": "@P44196@T.@\\n@P44192",
                 "help_korean": "중앙 루프 잠금/잠금해제 플레이트에 위치한 스위치.\n스위치는 차량이 쿠페 또는 컨버터블 위치일 때 열린다"
             },
             {
                 "position": 8,
                 "mnemonic": "MP_CONTACTEUR_TOIT_OUVERT",
-                "label_index": "12846",
+                "label_index": "@P12846",
                 "label_korean": "루프 열림 스위치",
                 "group_id": "105802",
                 "req_frame_id": "317752",
@@ -1627,13 +1627,13 @@
                 "bit_mask": 192,
                 "bit_shift": 6,
                 "dynamic_arg": "",
-                "help_code": "44187, 44190, 43895, 44191",
-                "help_korean": "루프의 좌측 힌지에 위치한 스위치.\n스위치는 트렁크에 위치해 있고 좌측 루프 액츄에이터 가까이에 있다 스위치는 루프가 닫힐 때 닫힌다(상태 역전됨)"
+                "help_code": "@P44187@T.@\\n@\\+@P44190@\\+@P43895@T(@P44191@T)",
+                "help_korean": "루프의 좌측 힌지에 위치한 스위치.\n스위치는 트렁크에 위치해 있고 좌측 루프 액츄에이터 가까이에 있다스위치는 루프가 닫힐 때 닫힌다(상태 역전됨)"
             },
             {
                 "position": 9,
                 "mnemonic": "MP_CONTACTEUR_DE_COFFRE_DE_TOIT_OUVERT",
-                "label_index": "8268",
+                "label_index": "@P8268",
                 "label_korean": "트렁크 열림 스위치",
                 "group_id": "105802",
                 "req_frame_id": "317752",
@@ -1649,13 +1649,13 @@
                 "bit_mask": 12,
                 "bit_shift": 2,
                 "dynamic_arg": "",
-                "help_code": "44190, 44024, 44191",
+                "help_code": "@P44190@T.@\\n@P44024@T(@P44191@T)",
                 "help_korean": "스위치는 트렁크에 위치해 있고 좌측 루프 액츄에이터 가까이에 있다.\n스위치는 트렁크가 닫힐 때 닫힌다(상태 역전됨)"
             },
             {
                 "position": 10,
                 "mnemonic": "MP_CONTACTEUR_DE_COFFRE_DE_TOIT_VERROUILLE_GAUCHE",
-                "label_index": "8858",
+                "label_index": "@P8858",
                 "label_korean": "좌측 트렁크 잠금 스위치",
                 "group_id": "105802",
                 "req_frame_id": "317752",
@@ -1671,13 +1671,13 @@
                 "bit_mask": 3,
                 "bit_shift": 0,
                 "dynamic_arg": "",
-                "help_code": "44025, 44029",
+                "help_code": "@P44025@T.@\\n@P44029",
                 "help_korean": "스위치는 좌측 트렁크 잠금장치에 위치해 있다.\n스위치는 트렁크가 잠금될 때 닫힌다"
             },
             {
                 "position": 11,
                 "mnemonic": "MP_CONTACTEUR_DE_COFFRE_DE_TOIT_VERROUILLE_DROIT",
-                "label_index": "9115",
+                "label_index": "@P9115",
                 "label_korean": "우측 트렁크 잠금 스위치",
                 "group_id": "105802",
                 "req_frame_id": "317752",
@@ -1693,7 +1693,7 @@
                 "bit_mask": 192,
                 "bit_shift": 6,
                 "dynamic_arg": "",
-                "help_code": "44030, 44029",
+                "help_code": "@P44030@T.@\\n@P44029",
                 "help_korean": "스위치는 우측 트렁크 잠금장치에 위치해 있다.\n스위치는 트렁크가 잠금될 때 닫힌다"
             }
         ]

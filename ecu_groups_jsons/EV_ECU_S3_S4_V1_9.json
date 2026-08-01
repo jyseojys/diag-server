@@ -8,7 +8,7 @@
             {
                 "position": 1,
                 "mnemonic": "ID_NOM_DU_FOURNISSEUR",
-                "label_index": "5701",
+                "label_index": "@P5701",
                 "label_korean": "제조 업체명",
                 "group_id": "6971",
                 "req_frame_id": "20911",
@@ -38,7 +38,7 @@
             {
                 "position": 2,
                 "mnemonic": "ID_REF_CALCULATEUR",
-                "label_index": "9463",
+                "label_index": "@P9463",
                 "label_korean": "ECU 참조",
                 "group_id": "6971",
                 "req_frame_id": "20911",
@@ -60,7 +60,7 @@
             {
                 "position": 3,
                 "mnemonic": "ID_REFERENCE_LOGICIEL",
-                "label_index": "13263",
+                "label_index": "@P13263",
                 "label_korean": "소프트웨어 번호",
                 "group_id": "6975",
                 "req_frame_id": "20923",
@@ -82,7 +82,7 @@
             {
                 "position": 4,
                 "mnemonic": "ID_HARD",
-                "label_index": "12954",
+                "label_index": "@P12954",
                 "label_korean": "하드웨어 버전",
                 "group_id": "6971",
                 "req_frame_id": "20911",
@@ -104,7 +104,7 @@
             {
                 "position": 5,
                 "mnemonic": "ID_VERSION_DU_LOGICIEL",
-                "label_index": "8662",
+                "label_index": "@P8662",
                 "label_korean": "소프트웨어 버전",
                 "group_id": "6975",
                 "req_frame_id": "20923",
@@ -126,7 +126,7 @@
             {
                 "position": 6,
                 "mnemonic": "ID_VERSION_DIAGNOSTIC_new_1",
-                "label_index": "14029",
+                "label_index": "@P14029",
                 "label_korean": "진단 버전",
                 "group_id": "6975",
                 "req_frame_id": "20923",
@@ -148,7 +148,7 @@
             {
                 "position": 7,
                 "mnemonic": "ID_DATE_TELECH",
-                "label_index": "21670",
+                "label_index": "@P21670",
                 "label_korean": "다운로딩 날짜",
                 "group_id": "6974",
                 "req_frame_id": "20920",
@@ -170,7 +170,7 @@
             {
                 "position": 8,
                 "mnemonic": "ID_NOMBRE_DE_TELECHARGEMENT",
-                "label_index": "24589",
+                "label_index": "@P24589",
                 "label_korean": "다운로드의 수",
                 "group_id": "6976",
                 "req_frame_id": "20926",
@@ -192,7 +192,7 @@
             {
                 "position": 9,
                 "mnemonic": "NUMERO_VIN_ORIGINAL",
-                "label_index": "31757",
+                "label_index": "@P31757",
                 "label_korean": "원래 차대번호",
                 "group_id": "6972",
                 "req_frame_id": "20914",
@@ -214,7 +214,7 @@
             {
                 "position": 10,
                 "mnemonic": "NUMERO_VIN_COURANT",
-                "label_index": "31756",
+                "label_index": "@P31756",
                 "label_korean": "현재 차대번호",
                 "group_id": "6973",
                 "req_frame_id": "20917",
@@ -244,7 +244,7 @@
             {
                 "position": 1,
                 "mnemonic": "ID_NOM_DU_FOURNISSEUR",
-                "label_index": "5701",
+                "label_index": "@P5701",
                 "label_korean": "제조 업체명",
                 "group_id": "6971",
                 "req_frame_id": "20911",
@@ -274,7 +274,7 @@
             {
                 "position": 2,
                 "mnemonic": "ID_REFERENCE_LOGICIEL",
-                "label_index": "13263",
+                "label_index": "@P13263",
                 "label_korean": "소프트웨어 번호",
                 "group_id": "6975",
                 "req_frame_id": "20923",
@@ -296,7 +296,7 @@
             {
                 "position": 3,
                 "mnemonic": "ID_VERSION_DU_LOGICIEL",
-                "label_index": "8662",
+                "label_index": "@P8662",
                 "label_korean": "소프트웨어 버전",
                 "group_id": "6975",
                 "req_frame_id": "20923",
@@ -318,7 +318,7 @@
             {
                 "position": 4,
                 "mnemonic": "ID_DATE_TELECH",
-                "label_index": "21670",
+                "label_index": "@P21670",
                 "label_korean": "다운로딩 날짜",
                 "group_id": "6974",
                 "req_frame_id": "20920",
@@ -340,7 +340,7 @@
             {
                 "position": 5,
                 "mnemonic": "ID_NOMBRE_DE_TELECHARGEMENT",
-                "label_index": "24589",
+                "label_index": "@P24589",
                 "label_korean": "다운로드의 수",
                 "group_id": "6976",
                 "req_frame_id": "20926",
@@ -370,7 +370,7 @@
             {
                 "position": 1,
                 "mnemonic": "S3S4_EV_ECU_MP_11",
-                "label_index": "33079",
+                "label_index": "@P33079",
                 "label_korean": "에어컨디셔닝 컴프레서 전원 릴레이",
                 "group_id": "6977",
                 "req_frame_id": "20929",
@@ -386,13 +386,13 @@
                 "bit_mask": 8,
                 "bit_shift": 3,
                 "dynamic_arg": "",
-                "help_code": "33080",
+                "help_code": "@P33080@\\*10",
                 "help_korean": "이 변수는 준비 표시등이 점등될 때 키를 ON 한 후에 10초 동안 \"닫힘\" 상태로 된다"
             },
             {
                 "position": 2,
                 "mnemonic": "S3S4_EV_ECU_MP_12",
-                "label_index": "33081",
+                "label_index": "@P33081",
                 "label_korean": "온보드 충전장치 전원 릴레이",
                 "group_id": "6977",
                 "req_frame_id": "20929",
@@ -408,13 +408,13 @@
                 "bit_mask": 16,
                 "bit_shift": 4,
                 "dynamic_arg": "",
-                "help_code": "33082",
+                "help_code": "@P33082",
                 "help_korean": "이 변수는 트랙션 배터리가 정상적으로 충전될 때 \"닫힘\" 상태로 된다"
             },
             {
                 "position": 3,
                 "mnemonic": "S3S4_EV_ECU_MP_15",
-                "label_index": "33086",
+                "label_index": "@P33086",
                 "label_korean": "트랙션 배터리 선충전 릴레이 상태",
                 "group_id": "6977",
                 "req_frame_id": "20929",
@@ -430,13 +430,13 @@
                 "bit_mask": 128,
                 "bit_shift": 7,
                 "dynamic_arg": "",
-                "help_code": "33087",
+                "help_code": "@P33087",
                 "help_korean": "이 변수는 준비 표시등과 충전 표시등이 켜지기 직전에 \"닫힘\" 상태로 된다"
             },
             {
                 "position": 4,
                 "mnemonic": "S3S4_EV_ECU_MP_20",
-                "label_index": "33088",
+                "label_index": "@P33088",
                 "label_korean": "정상적인 충전 진행 중",
                 "group_id": "6977",
                 "req_frame_id": "20929",
@@ -458,7 +458,7 @@
             {
                 "position": 5,
                 "mnemonic": "S3S4_EV_ECU_MP_21",
-                "label_index": "33089",
+                "label_index": "@P33089",
                 "label_korean": "급충전 진행 중",
                 "group_id": "6977",
                 "req_frame_id": "20929",
@@ -480,7 +480,7 @@
             {
                 "position": 6,
                 "mnemonic": "S3S4_EV_ECU_MP_23",
-                "label_index": "21140",
+                "label_index": "@P21140",
                 "label_korean": "급속 충전 연결 정보",
                 "group_id": "6977",
                 "req_frame_id": "20929",
@@ -502,7 +502,7 @@
             {
                 "position": 7,
                 "mnemonic": "S3S4_EV_ECU_MP_37",
-                "label_index": "33746",
+                "label_index": "@P33746",
                 "label_korean": "트랙션 배터리 메인 릴레이 - 제어",
                 "group_id": "6978",
                 "req_frame_id": "20932",
@@ -518,14 +518,14 @@
                 "bit_mask": 16,
                 "bit_shift": 4,
                 "dynamic_arg": "",
-                "help_code": "36223",
+                "help_code": "@P36223",
                 "help_korean": "이 변수는 준비 표시등 또는 충전 표시등이 켜질 때 \"릴레이 닫힘\"으로 변한다"
             },
             {
                 "position": 8,
                 "mnemonic": "S3S4_EV_ECU_MP_38",
-                "label_index": "33747",
-                "label_korean": "트랙션 배터리 메인 릴레이 제어",
+                "label_index": "@P33747",
+                "label_korean": "트랙션 배터리 메인 릴레이 + 제어",
                 "group_id": "6978",
                 "req_frame_id": "20932",
                 "resp_frame_id": "20933",
@@ -540,13 +540,13 @@
                 "bit_mask": 32,
                 "bit_shift": 5,
                 "dynamic_arg": "",
-                "help_code": "36223",
+                "help_code": "@P36223",
                 "help_korean": "이 변수는 준비 표시등 또는 충전 표시등이 켜질 때 \"릴레이 닫힘\"으로 변한다"
             },
             {
                 "position": 9,
                 "mnemonic": "S3S4_EV_ECU_MP_39",
-                "label_index": "33158",
+                "label_index": "@P33158",
                 "label_korean": "트랙션 배터리 선충전 릴레이 제어",
                 "group_id": "6978",
                 "req_frame_id": "20932",
@@ -562,13 +562,13 @@
                 "bit_mask": 64,
                 "bit_shift": 6,
                 "dynamic_arg": "",
-                "help_code": "33096",
+                "help_code": "@P33096",
                 "help_korean": "이 변수는 \"준비\" 표시등과 충전 표시등이 켜지기 직전에 \"Open\" 상태로 바뀐다"
             },
             {
                 "position": 10,
                 "mnemonic": "S3S4_EV_ECU_MP_44",
-                "label_index": "33159",
+                "label_index": "@P33159@\\*2",
                 "label_korean": "2급속 충전 릴레이 제어",
                 "group_id": "6978",
                 "req_frame_id": "20932",
@@ -584,13 +584,13 @@
                 "bit_mask": 8,
                 "bit_shift": 3,
                 "dynamic_arg": "2",
-                "help_code": "33160",
-                "help_korean": "( ) 라인에 하나의 릴레이가 있고 (-) 라인에 하나의 릴레이가 있다"
+                "help_code": "@P33160",
+                "help_korean": "(+) 라인에 하나의 릴레이가 있고 (-) 라인에 하나의 릴레이가 있다"
             },
             {
                 "position": 11,
                 "mnemonic": "S3S4_EV_ECU_MP_47",
-                "label_index": "21224",
+                "label_index": "@P21224",
                 "label_korean": "트랙션 배터리 내장형 충전장치 전원 릴레이",
                 "group_id": "6978",
                 "req_frame_id": "20932",
@@ -606,13 +606,13 @@
                 "bit_mask": 64,
                 "bit_shift": 6,
                 "dynamic_arg": "",
-                "help_code": "33142",
+                "help_code": "@P33142",
                 "help_korean": "정상적인 충전 중에, 이 변수는 \"닫힘\" 상태이다"
             },
             {
                 "position": 12,
                 "mnemonic": "S3S4_EV_ECU_MP_49",
-                "label_index": "21503",
+                "label_index": "@P21503",
                 "label_korean": "급속 충전 승인",
                 "group_id": "6978",
                 "req_frame_id": "20932",
@@ -634,7 +634,7 @@
             {
                 "position": 13,
                 "mnemonic": "S3S4_EV_ECU_MP_142",
-                "label_index": "33150",
+                "label_index": "@P33150",
                 "label_korean": "트랙션 배터리 온보드 충전 장치 신호 전압",
                 "group_id": "6984",
                 "req_frame_id": "20950",
@@ -650,13 +650,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "33140, 33151, 33152",
+                "help_code": "@P33140@\\*4,24@\\*4,65@\\n@\\n@P33151@\\*1,25@\\*1,91@\\n@\\n@P33152@\\*2,42@\\*3,10",
                 "help_korean": "정상 충전 케이블이 연결되지 않았을 때, 전압은 4과 4V 사이에 있어야 한다,24,65\n정상 충전 케이블이 연결되고 트리거를 누르면, 전압은 4과 4V 사이에 있어야 한다,25,91\n정상 충전 케이블이 연결되고 트리거를 놓으면, 전압은 4과 4V 사이에 있어야 한다,42,10"
             },
             {
                 "position": 14,
                 "mnemonic": "S3S4_EV_ECU_MP_163",
-                "label_index": "40119",
+                "label_index": "@P40119",
                 "label_korean": "교류로 트랙션 배터리의 충전을 위한 기능",
                 "group_id": "6984",
                 "req_frame_id": "20950",
@@ -678,7 +678,7 @@
             {
                 "position": 15,
                 "mnemonic": "S3S4_EV_ECU_MP_143",
-                "label_index": "33167",
+                "label_index": "@P33167",
                 "label_korean": "트랙션 배터리 온보드 충전장치 신호 상태",
                 "group_id": "6984",
                 "req_frame_id": "20950",
@@ -694,7 +694,7 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "33171",
+                "help_code": "@P33171",
                 "help_korean": "정상 충전 케이블이 연결되지 않았을 때 이 변수는 유효하지 않다"
             }
         ]
@@ -708,7 +708,7 @@
             {
                 "position": 1,
                 "mnemonic": "S3S4_EV_ECU_MP_11",
-                "label_index": "33079",
+                "label_index": "@P33079",
                 "label_korean": "에어컨디셔닝 컴프레서 전원 릴레이",
                 "group_id": "6977",
                 "req_frame_id": "20929",
@@ -724,13 +724,13 @@
                 "bit_mask": 8,
                 "bit_shift": 3,
                 "dynamic_arg": "",
-                "help_code": "33080",
+                "help_code": "@P33080@\\*10",
                 "help_korean": "이 변수는 준비 표시등이 점등될 때 키를 ON 한 후에 10초 동안 \"닫힘\" 상태로 된다"
             },
             {
                 "position": 2,
                 "mnemonic": "S3S4_EV_ECU_MP_12",
-                "label_index": "33081",
+                "label_index": "@P33081",
                 "label_korean": "온보드 충전장치 전원 릴레이",
                 "group_id": "6977",
                 "req_frame_id": "20929",
@@ -746,13 +746,13 @@
                 "bit_mask": 16,
                 "bit_shift": 4,
                 "dynamic_arg": "",
-                "help_code": "33082",
+                "help_code": "@P33082",
                 "help_korean": "이 변수는 트랙션 배터리가 정상적으로 충전될 때 \"닫힘\" 상태로 된다"
             },
             {
                 "position": 3,
                 "mnemonic": "S3S4_EV_ECU_MP_15",
-                "label_index": "33086",
+                "label_index": "@P33086",
                 "label_korean": "트랙션 배터리 선충전 릴레이 상태",
                 "group_id": "6977",
                 "req_frame_id": "20929",
@@ -768,13 +768,13 @@
                 "bit_mask": 128,
                 "bit_shift": 7,
                 "dynamic_arg": "",
-                "help_code": "33087",
+                "help_code": "@P33087",
                 "help_korean": "이 변수는 준비 표시등과 충전 표시등이 켜지기 직전에 \"닫힘\" 상태로 된다"
             },
             {
                 "position": 4,
                 "mnemonic": "S3S4_EV_ECU_MP_20",
-                "label_index": "33088",
+                "label_index": "@P33088",
                 "label_korean": "정상적인 충전 진행 중",
                 "group_id": "6977",
                 "req_frame_id": "20929",
@@ -796,7 +796,7 @@
             {
                 "position": 5,
                 "mnemonic": "S3S4_EV_ECU_MP_21",
-                "label_index": "33089",
+                "label_index": "@P33089",
                 "label_korean": "급충전 진행 중",
                 "group_id": "6977",
                 "req_frame_id": "20929",
@@ -818,7 +818,7 @@
             {
                 "position": 6,
                 "mnemonic": "S3S4_EV_ECU_MP_23",
-                "label_index": "21140",
+                "label_index": "@P21140",
                 "label_korean": "급속 충전 연결 정보",
                 "group_id": "6977",
                 "req_frame_id": "20929",
@@ -840,7 +840,7 @@
             {
                 "position": 7,
                 "mnemonic": "S3S4_EV_ECU_MP_37",
-                "label_index": "33746",
+                "label_index": "@P33746",
                 "label_korean": "트랙션 배터리 메인 릴레이 - 제어",
                 "group_id": "6978",
                 "req_frame_id": "20932",
@@ -856,14 +856,14 @@
                 "bit_mask": 16,
                 "bit_shift": 4,
                 "dynamic_arg": "",
-                "help_code": "36223",
+                "help_code": "@P36223",
                 "help_korean": "이 변수는 준비 표시등 또는 충전 표시등이 켜질 때 \"릴레이 닫힘\"으로 변한다"
             },
             {
                 "position": 8,
                 "mnemonic": "S3S4_EV_ECU_MP_38",
-                "label_index": "33747",
-                "label_korean": "트랙션 배터리 메인 릴레이 제어",
+                "label_index": "@P33747",
+                "label_korean": "트랙션 배터리 메인 릴레이 + 제어",
                 "group_id": "6978",
                 "req_frame_id": "20932",
                 "resp_frame_id": "20933",
@@ -878,13 +878,13 @@
                 "bit_mask": 32,
                 "bit_shift": 5,
                 "dynamic_arg": "",
-                "help_code": "36223",
+                "help_code": "@P36223",
                 "help_korean": "이 변수는 준비 표시등 또는 충전 표시등이 켜질 때 \"릴레이 닫힘\"으로 변한다"
             },
             {
                 "position": 9,
                 "mnemonic": "S3S4_EV_ECU_MP_39",
-                "label_index": "33158",
+                "label_index": "@P33158",
                 "label_korean": "트랙션 배터리 선충전 릴레이 제어",
                 "group_id": "6978",
                 "req_frame_id": "20932",
@@ -900,13 +900,13 @@
                 "bit_mask": 64,
                 "bit_shift": 6,
                 "dynamic_arg": "",
-                "help_code": "33096",
+                "help_code": "@P33096",
                 "help_korean": "이 변수는 \"준비\" 표시등과 충전 표시등이 켜지기 직전에 \"Open\" 상태로 바뀐다"
             },
             {
                 "position": 10,
                 "mnemonic": "S3S4_EV_ECU_MP_47",
-                "label_index": "21224",
+                "label_index": "@P21224",
                 "label_korean": "트랙션 배터리 내장형 충전장치 전원 릴레이",
                 "group_id": "6978",
                 "req_frame_id": "20932",
@@ -922,13 +922,13 @@
                 "bit_mask": 64,
                 "bit_shift": 6,
                 "dynamic_arg": "",
-                "help_code": "33142",
+                "help_code": "@P33142",
                 "help_korean": "정상적인 충전 중에, 이 변수는 \"닫힘\" 상태이다"
             },
             {
                 "position": 11,
                 "mnemonic": "S3S4_EV_ECU_MP_49",
-                "label_index": "21503",
+                "label_index": "@P21503",
                 "label_korean": "급속 충전 승인",
                 "group_id": "6978",
                 "req_frame_id": "20932",
@@ -950,7 +950,7 @@
             {
                 "position": 12,
                 "mnemonic": "S3S4_EV_ECU_MP_142",
-                "label_index": "33150",
+                "label_index": "@P33150",
                 "label_korean": "트랙션 배터리 온보드 충전 장치 신호 전압",
                 "group_id": "6984",
                 "req_frame_id": "20950",
@@ -966,13 +966,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "33140, 33151, 33152",
+                "help_code": "@P33140@\\*4,24@\\*4,65@\\n@\\n@P33151@\\*1,25@\\*1,91@\\n@\\n@P33152@\\*2,42@\\*3,10",
                 "help_korean": "정상 충전 케이블이 연결되지 않았을 때, 전압은 4과 4V 사이에 있어야 한다,24,65\n정상 충전 케이블이 연결되고 트리거를 누르면, 전압은 4과 4V 사이에 있어야 한다,25,91\n정상 충전 케이블이 연결되고 트리거를 놓으면, 전압은 4과 4V 사이에 있어야 한다,42,10"
             },
             {
                 "position": 13,
                 "mnemonic": "S3S4_EV_ECU_MP_163",
-                "label_index": "40119",
+                "label_index": "@P40119",
                 "label_korean": "교류로 트랙션 배터리의 충전을 위한 기능",
                 "group_id": "6984",
                 "req_frame_id": "20950",
@@ -994,7 +994,7 @@
             {
                 "position": 14,
                 "mnemonic": "S3S4_EV_ECU_MP_143",
-                "label_index": "33167",
+                "label_index": "@P33167",
                 "label_korean": "트랙션 배터리 온보드 충전장치 신호 상태",
                 "group_id": "6984",
                 "req_frame_id": "20950",
@@ -1010,13 +1010,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "33171",
+                "help_code": "@P33171",
                 "help_korean": "정상 충전 케이블이 연결되지 않았을 때 이 변수는 유효하지 않다"
             },
             {
                 "position": 15,
                 "mnemonic": "S3S4_EV_ECU_MP_161",
-                "label_index": "40120",
+                "label_index": "@P40120@\\*N",
                 "label_korean": "급속 충전 포지션 스위치N",
                 "group_id": "매핑_누락",
                 "req_frame_id": "",
@@ -1038,7 +1038,7 @@
             {
                 "position": 16,
                 "mnemonic": "S3S4_EV_ECU_MP_162",
-                "label_index": "40120",
+                "label_index": "@P40120@\\*P",
                 "label_korean": "급속 충전 포지션 스위치P",
                 "group_id": "매핑_누락",
                 "req_frame_id": "",
@@ -1068,8 +1068,8 @@
             {
                 "position": 1,
                 "mnemonic": "S3S4_EV_ECU_MP_24",
-                "label_index": "459",
-                "label_korean": "위치R에 기어 레버 (백업 스위치)",
+                "label_index": "@P459@\\*R@\\+@T(@P26581@T)",
+                "label_korean": "위치R에 기어 레버(백업 스위치)",
                 "group_id": "6977",
                 "req_frame_id": "20929",
                 "resp_frame_id": "20930",
@@ -1090,8 +1090,8 @@
             {
                 "position": 2,
                 "mnemonic": "S3S4_EV_ECU_MP_25",
-                "label_index": "459",
-                "label_korean": "위치P에 기어 레버 (백업 스위치)",
+                "label_index": "@P459@\\*P@\\+@T(@P26581@T)",
+                "label_korean": "위치P에 기어 레버(백업 스위치)",
                 "group_id": "6977",
                 "req_frame_id": "20929",
                 "resp_frame_id": "20930",
@@ -1112,8 +1112,8 @@
             {
                 "position": 3,
                 "mnemonic": "S3S4_EV_ECU_MP_26",
-                "label_index": "459",
-                "label_korean": "위치D에 기어 레버 (메인 스위치)",
+                "label_index": "@P459@\\*D@\\+@T(@P26806@T)",
+                "label_korean": "위치D에 기어 레버(메인 스위치)",
                 "group_id": "6977",
                 "req_frame_id": "20929",
                 "resp_frame_id": "20930",
@@ -1134,8 +1134,8 @@
             {
                 "position": 4,
                 "mnemonic": "S3S4_EV_ECU_MP_27",
-                "label_index": "459",
-                "label_korean": "위치N에 기어 레버 (메인 스위치)",
+                "label_index": "@P459@\\*N@\\+@T(@P26806@T)",
+                "label_korean": "위치N에 기어 레버(메인 스위치)",
                 "group_id": "6977",
                 "req_frame_id": "20929",
                 "resp_frame_id": "20930",
@@ -1156,8 +1156,8 @@
             {
                 "position": 5,
                 "mnemonic": "S3S4_EV_ECU_MP_28",
-                "label_index": "459",
-                "label_korean": "위치R에 기어 레버 (메인 스위치)",
+                "label_index": "@P459@\\*R@\\+@T(@P26806@T)",
+                "label_korean": "위치R에 기어 레버(메인 스위치)",
                 "group_id": "6977",
                 "req_frame_id": "20929",
                 "resp_frame_id": "20930",
@@ -1178,8 +1178,8 @@
             {
                 "position": 6,
                 "mnemonic": "S3S4_EV_ECU_MP_29",
-                "label_index": "459",
-                "label_korean": "위치P에 기어 레버 (메인 스위치)",
+                "label_index": "@P459@\\*P@\\+@T(@P26806@T)",
+                "label_korean": "위치P에 기어 레버(메인 스위치)",
                 "group_id": "6977",
                 "req_frame_id": "20929",
                 "resp_frame_id": "20930",
@@ -1200,8 +1200,8 @@
             {
                 "position": 7,
                 "mnemonic": "S3S4_EV_ECU_MP_31",
-                "label_index": "459",
-                "label_korean": "위치D에 기어 레버 (백업 스위치)",
+                "label_index": "@P459@\\*D@\\+@T(@P26581@T)",
+                "label_korean": "위치D에 기어 레버(백업 스위치)",
                 "group_id": "6977",
                 "req_frame_id": "20929",
                 "resp_frame_id": "20930",
@@ -1222,8 +1222,8 @@
             {
                 "position": 8,
                 "mnemonic": "S3S4_EV_ECU_MP_32",
-                "label_index": "459",
-                "label_korean": "위치N에 기어 레버 (백업 스위치)",
+                "label_index": "@P459@\\*N@\\+@T(@P26581@T)",
+                "label_korean": "위치N에 기어 레버(백업 스위치)",
                 "group_id": "6977",
                 "req_frame_id": "20929",
                 "resp_frame_id": "20930",
@@ -1252,7 +1252,7 @@
             {
                 "position": 1,
                 "mnemonic": "S3S4_EV_ECU_MP_3",
-                "label_index": "22495",
+                "label_index": "@P22495",
                 "label_korean": "서킷 브레이커의 상태",
                 "group_id": "6977",
                 "req_frame_id": "20929",
@@ -1274,7 +1274,7 @@
             {
                 "position": 2,
                 "mnemonic": "S3S4_EV_ECU_MP_4",
-                "label_index": "33451",
+                "label_index": "@P33451",
                 "label_korean": "서비스 배터리 충전",
                 "group_id": "6977",
                 "req_frame_id": "20929",
@@ -1296,7 +1296,7 @@
             {
                 "position": 3,
                 "mnemonic": "S3S4_EV_ECU_MP_5",
-                "label_index": "33398",
+                "label_index": "@P33398",
                 "label_korean": "주차브레이크 체결됨",
                 "group_id": "6977",
                 "req_frame_id": "20929",
@@ -1318,7 +1318,7 @@
             {
                 "position": 4,
                 "mnemonic": "S3S4_EV_ECU_MP_7",
-                "label_index": "33075",
+                "label_index": "@P33075",
                 "label_korean": "시동 위치의 점화 키",
                 "group_id": "6977",
                 "req_frame_id": "20929",
@@ -1340,7 +1340,7 @@
             {
                 "position": 5,
                 "mnemonic": "S3S4_EV_ECU_MP_8",
-                "label_index": "33076",
+                "label_index": "@P33076",
                 "label_korean": "키 ON 또는 시동 위치의 점화 키",
                 "group_id": "6977",
                 "req_frame_id": "20929",
@@ -1362,7 +1362,7 @@
             {
                 "position": 6,
                 "mnemonic": "S3S4_EV_ECU_MP_9",
-                "label_index": "33077",
+                "label_index": "@P33077",
                 "label_korean": "ESP 차단 버튼 상태",
                 "group_id": "6977",
                 "req_frame_id": "20929",
@@ -1384,7 +1384,7 @@
             {
                 "position": 7,
                 "mnemonic": "S3S4_EV_ECU_MP_10",
-                "label_index": "21116",
+                "label_index": "@F21116",
                 "label_korean": "후진등 릴레이",
                 "group_id": "6977",
                 "req_frame_id": "20929",
@@ -1400,13 +1400,13 @@
                 "bit_mask": 4,
                 "bit_shift": 2,
                 "dynamic_arg": "",
-                "help_code": "33078",
+                "help_code": "@P33078@\\*R",
                 "help_korean": "이 변수는 기어 레버가 R위치일 때 \"닫힘\" 상태로 된다"
             },
             {
                 "position": 8,
                 "mnemonic": "S3S4_EV_ECU_MP_30",
-                "label_index": "21124",
+                "label_index": "@P21124",
                 "label_korean": "에어백 충격 신호",
                 "group_id": "6977",
                 "req_frame_id": "20929",
@@ -1422,13 +1422,13 @@
                 "bit_mask": 8,
                 "bit_shift": 3,
                 "dynamic_arg": "",
-                "help_code": "34822",
+                "help_code": "@P34822",
                 "help_korean": "이 변수는 에어백이 작동할 때 \"수신\" 상태로 바뀐다"
             },
             {
                 "position": 9,
                 "mnemonic": "S3S4_EV_ECU_MP_45",
-                "label_index": "21986",
+                "label_index": "@P21986",
                 "label_korean": "후진등 제어",
                 "group_id": "6978",
                 "req_frame_id": "20932",
@@ -1444,13 +1444,13 @@
                 "bit_mask": 16,
                 "bit_shift": 4,
                 "dynamic_arg": "",
-                "help_code": "33141",
+                "help_code": "@P33141@\\*R",
                 "help_korean": "이 변수는 기어 레버가 R위치일 때 \"ON\"이다"
             },
             {
                 "position": 10,
                 "mnemonic": "S3S4_EV_ECU_MP_46",
-                "label_index": "29359",
+                "label_index": "@P29359",
                 "label_korean": "에어컨 컴프레서 전원 릴레이 제어",
                 "group_id": "6978",
                 "req_frame_id": "20932",
@@ -1466,13 +1466,13 @@
                 "bit_mask": 32,
                 "bit_shift": 5,
                 "dynamic_arg": "",
-                "help_code": "33080",
+                "help_code": "@P33080@\\*10",
                 "help_korean": "이 변수는 준비 표시등이 점등될 때 키를 ON 한 후에 10초 동안 \"닫힘\" 상태로 된다"
             },
             {
                 "position": 11,
                 "mnemonic": "S3S4_EV_ECU_MP_50",
-                "label_index": "33169",
+                "label_index": "@P33169@\\*1",
                 "label_korean": "가속 페달 위치 센서1 공급 전압",
                 "group_id": "6979",
                 "req_frame_id": "20935",
@@ -1488,13 +1488,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "1",
-                "help_code": "33720",
+                "help_code": "@P33720@\\*4,9@\\*5,1",
                 "help_korean": "전압은 반드시 4과 5V 사이에 있어야 한다,9,1"
             },
             {
                 "position": 12,
                 "mnemonic": "S3S4_EV_ECU_MP_51",
-                "label_index": "33169",
+                "label_index": "@P33169@\\*2",
                 "label_korean": "가속 페달 위치 센서2 공급 전압",
                 "group_id": "6979",
                 "req_frame_id": "20935",
@@ -1510,13 +1510,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "2",
-                "help_code": "33720",
+                "help_code": "@P33720@\\*4,9@\\*5,1",
                 "help_korean": "전압은 반드시 4과 5V 사이에 있어야 한다,9,1"
             },
             {
                 "position": 13,
                 "mnemonic": "S3S4_EV_ECU_MP_53",
-                "label_index": "758",
+                "label_index": "@P758@\\*1",
                 "label_korean": "가속 페달 위치 센서1 전압",
                 "group_id": "6979",
                 "req_frame_id": "20935",
@@ -1532,13 +1532,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "1",
-                "help_code": "24336, 27311, 24336, 2556",
-                "help_korean": "0V에서\n- 1V,8,2 :\n- 페달 해제\n0V에서 1V,0,8 : 페달 누름"
+                "help_code": "@P24336@\\*0,8@\\*1,2@T : @F27311@\\n@P24336@\\*4,0@\\*4,8@T : @F2556",
+                "help_korean": "0V에서 1V,8,2 : 페달 해제\n0V에서 1V,0,8 : 페달 누름"
             },
             {
                 "position": 14,
                 "mnemonic": "S3S4_EV_ECU_MP_54",
-                "label_index": "758",
+                "label_index": "@P758@\\*2",
                 "label_korean": "가속 페달 위치 센서2 전압",
                 "group_id": "6979",
                 "req_frame_id": "20935",
@@ -1554,13 +1554,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "2",
-                "help_code": "24336, 27311, 24336, 2556",
-                "help_korean": "0V에서\n- 1V,8,2 :\n- 페달 해제\n0V에서 1V,0,8 : 페달 누름"
+                "help_code": "@P24336@\\*0,8@\\*1,2@T : @F27311@\\n@P24336@\\*4,0@\\*4,8@T : @F2556",
+                "help_korean": "0V에서 1V,8,2 : 페달 해제\n0V에서 1V,0,8 : 페달 누름"
             },
             {
                 "position": 15,
                 "mnemonic": "S3S4_EV_ECU_MP_63",
-                "label_index": "7997",
+                "label_index": "@P7997",
                 "label_korean": "차량 속도",
                 "group_id": "6980",
                 "req_frame_id": "20938",
@@ -1582,7 +1582,7 @@
             {
                 "position": 16,
                 "mnemonic": "S3S4_EV_ECU_MP_64",
-                "label_index": "12882",
+                "label_index": "@F12882@\\*",
                 "label_korean": "작동 모드",
                 "group_id": "6980",
                 "req_frame_id": "20938",
@@ -1611,7 +1611,7 @@
             {
                 "position": 17,
                 "mnemonic": "S3S4_EV_ECU_MP_68",
-                "label_index": "31969",
+                "label_index": "@P31969",
                 "label_korean": "전기차 ECU 공급 전압",
                 "group_id": "6980",
                 "req_frame_id": "20938",
@@ -1627,14 +1627,14 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "33720",
+                "help_code": "@P33720@\\*8@\\*16",
                 "help_korean": "전압은 반드시 8과 16V 사이에 있어야 한다"
             },
             {
                 "position": 18,
                 "mnemonic": "S3S4_EV_ECU_MP_83",
-                "label_index": "34394",
-                "label_korean": "가속 페달 (점검 값)",
+                "label_index": "@F34394@\\+@T(@P34395@T)",
+                "label_korean": "가속 페달(점검 값)",
                 "group_id": "6982",
                 "req_frame_id": "20944",
                 "resp_frame_id": "20945",
@@ -1655,7 +1655,7 @@
             {
                 "position": 19,
                 "mnemonic": "S3S4_EV_ECU_MP_146",
-                "label_index": "21212",
+                "label_index": "@P21212",
                 "label_korean": "제동등 상태",
                 "group_id": "6988",
                 "req_frame_id": "20962",
@@ -1677,7 +1677,7 @@
             {
                 "position": 20,
                 "mnemonic": "S3S4_EV_ECU_MP_147",
-                "label_index": "33176",
+                "label_index": "@P33176",
                 "label_korean": "혼 작동",
                 "group_id": "6988",
                 "req_frame_id": "20962",
@@ -1699,7 +1699,7 @@
             {
                 "position": 21,
                 "mnemonic": "S3S4_EV_ECU_MP_149",
-                "label_index": "33178",
+                "label_index": "@P33178@\\*2",
                 "label_korean": "전동 진공 펌프 2차 릴레이2의 상태",
                 "group_id": "6988",
                 "req_frame_id": "20962",
@@ -1721,7 +1721,7 @@
             {
                 "position": 22,
                 "mnemonic": "S3S4_EV_ECU_MP_150",
-                "label_index": "33178",
+                "label_index": "@P33178@\\*1",
                 "label_korean": "전동 진공 펌프 2차 릴레이1의 상태",
                 "group_id": "6988",
                 "req_frame_id": "20962",
@@ -1743,7 +1743,7 @@
             {
                 "position": 23,
                 "mnemonic": "S3S4_EV_ECU_MP_151",
-                "label_index": "762",
+                "label_index": "@P762",
                 "label_korean": "메인 릴레이 상태",
                 "group_id": "6988",
                 "req_frame_id": "20962",
@@ -1773,7 +1773,7 @@
             {
                 "position": 1,
                 "mnemonic": "S3S4_EV_ECU_MP_3",
-                "label_index": "22495",
+                "label_index": "@P22495",
                 "label_korean": "서킷 브레이커의 상태",
                 "group_id": "6977",
                 "req_frame_id": "20929",
@@ -1795,7 +1795,7 @@
             {
                 "position": 2,
                 "mnemonic": "S3S4_EV_ECU_MP_4",
-                "label_index": "33451",
+                "label_index": "@P33451",
                 "label_korean": "서비스 배터리 충전",
                 "group_id": "6977",
                 "req_frame_id": "20929",
@@ -1817,7 +1817,7 @@
             {
                 "position": 3,
                 "mnemonic": "S3S4_EV_ECU_MP_5",
-                "label_index": "33398",
+                "label_index": "@P33398",
                 "label_korean": "주차브레이크 체결됨",
                 "group_id": "6977",
                 "req_frame_id": "20929",
@@ -1839,7 +1839,7 @@
             {
                 "position": 4,
                 "mnemonic": "S3S4_EV_ECU_MP_7",
-                "label_index": "33075",
+                "label_index": "@P33075",
                 "label_korean": "시동 위치의 점화 키",
                 "group_id": "6977",
                 "req_frame_id": "20929",
@@ -1861,7 +1861,7 @@
             {
                 "position": 5,
                 "mnemonic": "S3S4_EV_ECU_MP_8",
-                "label_index": "33076",
+                "label_index": "@P33076",
                 "label_korean": "키 ON 또는 시동 위치의 점화 키",
                 "group_id": "6977",
                 "req_frame_id": "20929",
@@ -1883,7 +1883,7 @@
             {
                 "position": 6,
                 "mnemonic": "S3S4_EV_ECU_MP_9",
-                "label_index": "33077",
+                "label_index": "@P33077",
                 "label_korean": "ESP 차단 버튼 상태",
                 "group_id": "6977",
                 "req_frame_id": "20929",
@@ -1905,7 +1905,7 @@
             {
                 "position": 7,
                 "mnemonic": "S3S4_EV_ECU_MP_10",
-                "label_index": "21116",
+                "label_index": "@F21116",
                 "label_korean": "후진등 릴레이",
                 "group_id": "6977",
                 "req_frame_id": "20929",
@@ -1921,13 +1921,13 @@
                 "bit_mask": 4,
                 "bit_shift": 2,
                 "dynamic_arg": "",
-                "help_code": "33078",
+                "help_code": "@P33078@\\*R",
                 "help_korean": "이 변수는 기어 레버가 R위치일 때 \"닫힘\" 상태로 된다"
             },
             {
                 "position": 8,
                 "mnemonic": "S3S4_EV_ECU_MP_45",
-                "label_index": "21986",
+                "label_index": "@P21986",
                 "label_korean": "후진등 제어",
                 "group_id": "6978",
                 "req_frame_id": "20932",
@@ -1943,13 +1943,13 @@
                 "bit_mask": 16,
                 "bit_shift": 4,
                 "dynamic_arg": "",
-                "help_code": "33141",
+                "help_code": "@P33141@\\*R",
                 "help_korean": "이 변수는 기어 레버가 R위치일 때 \"ON\"이다"
             },
             {
                 "position": 9,
                 "mnemonic": "S3S4_EV_ECU_MP_46",
-                "label_index": "29359",
+                "label_index": "@P29359",
                 "label_korean": "에어컨 컴프레서 전원 릴레이 제어",
                 "group_id": "6978",
                 "req_frame_id": "20932",
@@ -1965,13 +1965,13 @@
                 "bit_mask": 32,
                 "bit_shift": 5,
                 "dynamic_arg": "",
-                "help_code": "33080",
+                "help_code": "@P33080@\\*10",
                 "help_korean": "이 변수는 준비 표시등이 점등될 때 키를 ON 한 후에 10초 동안 \"닫힘\" 상태로 된다"
             },
             {
                 "position": 10,
                 "mnemonic": "S3S4_EV_ECU_MP_50",
-                "label_index": "33169",
+                "label_index": "@P33169@\\*1",
                 "label_korean": "가속 페달 위치 센서1 공급 전압",
                 "group_id": "6979",
                 "req_frame_id": "20935",
@@ -1987,13 +1987,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "1",
-                "help_code": "33720",
+                "help_code": "@P33720@\\*4,9@\\*5,1",
                 "help_korean": "전압은 반드시 4과 5V 사이에 있어야 한다,9,1"
             },
             {
                 "position": 11,
                 "mnemonic": "S3S4_EV_ECU_MP_51",
-                "label_index": "33169",
+                "label_index": "@P33169@\\*2",
                 "label_korean": "가속 페달 위치 센서2 공급 전압",
                 "group_id": "6979",
                 "req_frame_id": "20935",
@@ -2009,13 +2009,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "2",
-                "help_code": "33720",
+                "help_code": "@P33720@\\*4,9@\\*5,1",
                 "help_korean": "전압은 반드시 4과 5V 사이에 있어야 한다,9,1"
             },
             {
                 "position": 12,
                 "mnemonic": "S3S4_EV_ECU_MP_53",
-                "label_index": "758",
+                "label_index": "@P758@\\*1",
                 "label_korean": "가속 페달 위치 센서1 전압",
                 "group_id": "6979",
                 "req_frame_id": "20935",
@@ -2031,13 +2031,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "1",
-                "help_code": "24336, 27311, 24336, 2556",
-                "help_korean": "0V에서\n- 1V,8,2 :\n- 페달 해제\n0V에서 1V,0,8 : 페달 누름"
+                "help_code": "@P24336@\\*0,8@\\*1,2@T : @F27311@\\n@P24336@\\*4,0@\\*4,8@T : @F2556",
+                "help_korean": "0V에서 1V,8,2 : 페달 해제\n0V에서 1V,0,8 : 페달 누름"
             },
             {
                 "position": 13,
                 "mnemonic": "S3S4_EV_ECU_MP_54",
-                "label_index": "758",
+                "label_index": "@P758@\\*2",
                 "label_korean": "가속 페달 위치 센서2 전압",
                 "group_id": "6979",
                 "req_frame_id": "20935",
@@ -2053,13 +2053,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "2",
-                "help_code": "24336, 27311, 24336, 2556",
-                "help_korean": "0V에서\n- 1V,8,2 :\n- 페달 해제\n0V에서 1V,0,8 : 페달 누름"
+                "help_code": "@P24336@\\*0,8@\\*1,2@T : @F27311@\\n@P24336@\\*4,0@\\*4,8@T : @F2556",
+                "help_korean": "0V에서 1V,8,2 : 페달 해제\n0V에서 1V,0,8 : 페달 누름"
             },
             {
                 "position": 14,
                 "mnemonic": "S3S4_EV_ECU_MP_63",
-                "label_index": "7997",
+                "label_index": "@P7997",
                 "label_korean": "차량 속도",
                 "group_id": "6980",
                 "req_frame_id": "20938",
@@ -2081,7 +2081,7 @@
             {
                 "position": 15,
                 "mnemonic": "S3S4_EV_ECU_MP_64",
-                "label_index": "12882",
+                "label_index": "@F12882@\\*",
                 "label_korean": "작동 모드",
                 "group_id": "6980",
                 "req_frame_id": "20938",
@@ -2110,7 +2110,7 @@
             {
                 "position": 16,
                 "mnemonic": "S3S4_EV_ECU_MP_68",
-                "label_index": "31969",
+                "label_index": "@P31969",
                 "label_korean": "전기차 ECU 공급 전압",
                 "group_id": "6980",
                 "req_frame_id": "20938",
@@ -2126,14 +2126,14 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "33720",
+                "help_code": "@P33720@\\*8@\\*16",
                 "help_korean": "전압은 반드시 8과 16V 사이에 있어야 한다"
             },
             {
                 "position": 17,
                 "mnemonic": "S3S4_EV_ECU_MP_83",
-                "label_index": "34394",
-                "label_korean": "가속 페달 (점검 값)",
+                "label_index": "@F34394@\\+@T(@P34395@T)",
+                "label_korean": "가속 페달(점검 값)",
                 "group_id": "6982",
                 "req_frame_id": "20944",
                 "resp_frame_id": "20945",
@@ -2154,7 +2154,7 @@
             {
                 "position": 18,
                 "mnemonic": "S3S4_EV_ECU_MP_146",
-                "label_index": "21212",
+                "label_index": "@P21212",
                 "label_korean": "제동등 상태",
                 "group_id": "6988",
                 "req_frame_id": "20962",
@@ -2176,7 +2176,7 @@
             {
                 "position": 19,
                 "mnemonic": "S3S4_EV_ECU_MP_147",
-                "label_index": "33176",
+                "label_index": "@P33176",
                 "label_korean": "혼 작동",
                 "group_id": "6988",
                 "req_frame_id": "20962",
@@ -2198,7 +2198,7 @@
             {
                 "position": 20,
                 "mnemonic": "S3S4_EV_ECU_MP_149",
-                "label_index": "33178",
+                "label_index": "@P33178@\\*2",
                 "label_korean": "전동 진공 펌프 2차 릴레이2의 상태",
                 "group_id": "6988",
                 "req_frame_id": "20962",
@@ -2220,7 +2220,7 @@
             {
                 "position": 21,
                 "mnemonic": "S3S4_EV_ECU_MP_150",
-                "label_index": "33178",
+                "label_index": "@P33178@\\*1",
                 "label_korean": "전동 진공 펌프 2차 릴레이1의 상태",
                 "group_id": "6988",
                 "req_frame_id": "20962",
@@ -2242,7 +2242,7 @@
             {
                 "position": 22,
                 "mnemonic": "S3S4_EV_ECU_MP_151",
-                "label_index": "762",
+                "label_index": "@P762",
                 "label_korean": "메인 릴레이 상태",
                 "group_id": "6988",
                 "req_frame_id": "20962",
@@ -2272,7 +2272,7 @@
             {
                 "position": 1,
                 "mnemonic": "S3S4_EV_ECU_MP_13",
-                "label_index": "33083",
+                "label_index": "@P33083",
                 "label_korean": "트랙션 배터리 메인 릴레이(접지)",
                 "group_id": "6977",
                 "req_frame_id": "20929",
@@ -2288,13 +2288,13 @@
                 "bit_mask": 32,
                 "bit_shift": 5,
                 "dynamic_arg": "",
-                "help_code": "33084",
+                "help_code": "@P33084",
                 "help_korean": "이 변수는 준비 표시등과 충전 표시등이 켜질 때 \"닫힘\" 상태로 된다"
             },
             {
                 "position": 2,
                 "mnemonic": "S3S4_EV_ECU_MP_14",
-                "label_index": "33085",
+                "label_index": "@P33085",
                 "label_korean": "트랙션 배터리 메인 릴레이 (전원)",
                 "group_id": "6977",
                 "req_frame_id": "20929",
@@ -2310,7 +2310,7 @@
                 "bit_mask": 64,
                 "bit_shift": 6,
                 "dynamic_arg": "",
-                "help_code": "33084",
+                "help_code": "@P33084",
                 "help_korean": "이 변수는 준비 표시등과 충전 표시등이 켜질 때 \"닫힘\" 상태로 된다"
             }
         ]
@@ -2324,7 +2324,7 @@
             {
                 "position": 1,
                 "mnemonic": "S3S4_EV_ECU_MP_35",
-                "label_index": "33092",
+                "label_index": "@P33092",
                 "label_korean": "보조 배터리 충전 제어",
                 "group_id": "6978",
                 "req_frame_id": "20932",
@@ -2346,7 +2346,7 @@
             {
                 "position": 2,
                 "mnemonic": "S3S4_EV_ECU_MP_36",
-                "label_index": "33093",
+                "label_index": "@P33093",
                 "label_korean": "전동 구동 머신 인버터 제어",
                 "group_id": "6978",
                 "req_frame_id": "20932",
@@ -2362,13 +2362,13 @@
                 "bit_mask": 8,
                 "bit_shift": 3,
                 "dynamic_arg": "",
-                "help_code": "33094",
+                "help_code": "@P33094@\\*R@\\*D",
                 "help_korean": "이 변수는 기어 레버가 R위치 또는 D이고 준비 표시등이 켜질 때 \"ON\"으로 바뀐다"
             },
             {
                 "position": 3,
                 "mnemonic": "S3S4_EV_ECU_MP_82",
-                "label_index": "34381",
+                "label_index": "@P34381",
                 "label_korean": "전동 머신 속도",
                 "group_id": "6982",
                 "req_frame_id": "20944",
@@ -2384,13 +2384,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "33153",
+                "help_code": "@P33153@\\*-10000@\\*10000",
                 "help_korean": "값은 반드시 10000과 rpm 사이에 있어야 한다-10000"
             },
             {
                 "position": 4,
                 "mnemonic": "S3S4_EV_ECU_MP_148",
-                "label_index": "33177",
+                "label_index": "@P33177",
                 "label_korean": "전동 진공 펌프 작동",
                 "group_id": "6988",
                 "req_frame_id": "20962",
@@ -2420,7 +2420,7 @@
             {
                 "position": 1,
                 "mnemonic": "S3S4_EV_ECU_MP_1",
-                "label_index": "34391",
+                "label_index": "@P34391",
                 "label_korean": "팬 장치 고속 릴레이",
                 "group_id": "6977",
                 "req_frame_id": "20929",
@@ -2442,7 +2442,7 @@
             {
                 "position": 2,
                 "mnemonic": "S3S4_EV_ECU_MP_2",
-                "label_index": "34392",
+                "label_index": "@P34392",
                 "label_korean": "팬 장치 저속 릴레이",
                 "group_id": "6977",
                 "req_frame_id": "20929",
@@ -2464,7 +2464,7 @@
             {
                 "position": 3,
                 "mnemonic": "S3S4_EV_ECU_MP_33",
-                "label_index": "30007",
+                "label_index": "@P30007",
                 "label_korean": "팬 어셈블리 고속 제어",
                 "group_id": "6978",
                 "req_frame_id": "20932",
@@ -2486,7 +2486,7 @@
             {
                 "position": 4,
                 "mnemonic": "S3S4_EV_ECU_MP_34",
-                "label_index": "29994",
+                "label_index": "@P29994",
                 "label_korean": "팬 장치 저속 제어",
                 "group_id": "6978",
                 "req_frame_id": "20932",
@@ -2502,13 +2502,13 @@
                 "bit_mask": 2,
                 "bit_shift": 1,
                 "dynamic_arg": "",
-                "help_code": "33091",
+                "help_code": "@P33091",
                 "help_korean": "이 변수는 팬 어셈블리가 작동할 때, \"닫힘\" 상태로 바뀐다"
             },
             {
                 "position": 5,
                 "mnemonic": "S3S4_EV_ECU_MP_48",
-                "label_index": "21324",
+                "label_index": "@P21324",
                 "label_korean": "냉각수 펌프 릴레이",
                 "group_id": "6978",
                 "req_frame_id": "20932",
@@ -2530,7 +2530,7 @@
             {
                 "position": 6,
                 "mnemonic": "S3S4_EV_ECU_MP_57",
-                "label_index": "33172",
+                "label_index": "@P33172",
                 "label_korean": "전동 구동 기계 냉각수 온도 센서 출력 전압",
                 "group_id": "6979",
                 "req_frame_id": "20935",
@@ -2546,13 +2546,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "33143, 33144",
+                "help_code": "@P33143@\\*100@\\*0,5@\\n@P33144@\\*-30@\\*4,2",
                 "help_korean": "냉각수 온도가 100°C 일 때, 전압은 0 V 또는 더 낮다,5\n냉각수 온도가 100°C 일 때, 전압은 0 V 또는 더 높다-30,2"
             },
             {
                 "position": 7,
                 "mnemonic": "S3S4_EV_ECU_MP_140",
-                "label_index": "21473",
+                "label_index": "@P21473",
                 "label_korean": "냉각수 온도",
                 "group_id": "6984",
                 "req_frame_id": "20950",
@@ -2574,7 +2574,7 @@
             {
                 "position": 8,
                 "mnemonic": "S3S4_EV_ECU_MP_141",
-                "label_index": "21155",
+                "label_index": "@P21155",
                 "label_korean": "냉각수 펌프 회전 속도",
                 "group_id": "6984",
                 "req_frame_id": "20950",
@@ -2590,8 +2590,8 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "34396, 14078, 15968, 27739",
-                "help_korean": "정차시 :\n- 0 Rpm\n작동 : 1000에서 5000rpm"
+                "help_code": "@P34396@T : 0 @F14078@\\n@P15968@T : @P27739@\\*1000@\\*5000",
+                "help_korean": "정차시 : 0 Rpm\n작동 : 1000에서 5000rpm"
             }
         ]
     },
@@ -2604,7 +2604,7 @@
             {
                 "position": 1,
                 "mnemonic": "S3S4_EV_ECU_MP_6",
-                "label_index": "27824",
+                "label_index": "@P27824",
                 "label_korean": "브레이크 페달 스위치 상태",
                 "group_id": "6977",
                 "req_frame_id": "20929",
@@ -2626,7 +2626,7 @@
             {
                 "position": 2,
                 "mnemonic": "S3S4_EV_ECU_MP_41",
-                "label_index": "21269",
+                "label_index": "@P21269@\\*2",
                 "label_korean": "진공 펌프2 릴레이",
                 "group_id": "6978",
                 "req_frame_id": "20932",
@@ -2642,13 +2642,13 @@
                 "bit_mask": 1,
                 "bit_shift": 0,
                 "dynamic_arg": "2",
-                "help_code": "33097",
+                "help_code": "@P33097",
                 "help_korean": "이 변수는 진공 펌프가 작동할 때 \"Open\" 상태로 바뀐다"
             },
             {
                 "position": 3,
                 "mnemonic": "S3S4_EV_ECU_MP_42",
-                "label_index": "21269",
+                "label_index": "@P21269@\\*1",
                 "label_korean": "진공 펌프1 릴레이",
                 "group_id": "6978",
                 "req_frame_id": "20932",
@@ -2670,7 +2670,7 @@
             {
                 "position": 4,
                 "mnemonic": "S3S4_EV_ECU_MP_43",
-                "label_index": "21171",
+                "label_index": "@P21171",
                 "label_korean": "진공 펌프 세이프티 릴레이",
                 "group_id": "6978",
                 "req_frame_id": "20932",
@@ -2692,7 +2692,7 @@
             {
                 "position": 5,
                 "mnemonic": "S3S4_EV_ECU_MP_55",
-                "label_index": "34393",
+                "label_index": "@F34393",
                 "label_korean": "제동 라인 압력 센서 출력 신호",
                 "group_id": "6979",
                 "req_frame_id": "20935",
@@ -2714,7 +2714,7 @@
             {
                 "position": 6,
                 "mnemonic": "S3S4_EV_ECU_MP_56",
-                "label_index": "33170",
+                "label_index": "@P33170",
                 "label_korean": "전동 진공 펌프 압력 센서 공급 전압",
                 "group_id": "6979",
                 "req_frame_id": "20935",
@@ -2730,13 +2730,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "33720",
+                "help_code": "@P33720@\\*4,74@\\*5",
                 "help_korean": "전압은 반드시 4과 5V 사이에 있어야 한다,74"
             },
             {
                 "position": 7,
                 "mnemonic": "S3S4_EV_ECU_MP_60",
-                "label_index": "33145",
+                "label_index": "@P33145",
                 "label_korean": "브레이크 페달 이동거리 센서 출력 전압",
                 "group_id": "6979",
                 "req_frame_id": "20935",
@@ -2752,13 +2752,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "27311, 33720, 7974, 33146",
-                "help_korean": "페달\n- 해제 : 전압은 반드시\n- 1과 3V 사이에 있어야 한다,4,3\n페달 누름 : 최대 전압은 1V 이다,6"
+                "help_code": "@P27311@T : @F33720@\\*1,4@\\*3,3@\\n@L7974@T : @F33146@\\*4,6",
+                "help_korean": "페달 해제 : 전압은 반드시 1과 3V 사이에 있어야 한다,4,3\n페달 누름 : 최대 전압은 1V 이다,6"
             },
             {
                 "position": 8,
                 "mnemonic": "S3S4_EV_ECU_MP_61",
-                "label_index": "21532",
+                "label_index": "@P21532",
                 "label_korean": "브레이크 페달 이동거리 센서 전원",
                 "group_id": "6979",
                 "req_frame_id": "20935",
@@ -2774,13 +2774,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "33720",
+                "help_code": "@P33720@\\*4,9@\\*5,1",
                 "help_korean": "전압은 반드시 4과 5V 사이에 있어야 한다,9,1"
             },
             {
                 "position": 9,
                 "mnemonic": "S3S4_EV_ECU_MP_62",
-                "label_index": "21526",
+                "label_index": "@P21526",
                 "label_korean": "브레이크 센서 이동거리 값",
                 "group_id": "6979",
                 "req_frame_id": "20935",
@@ -2802,7 +2802,7 @@
             {
                 "position": 10,
                 "mnemonic": "S3S4_EV_ECU_MP_65",
-                "label_index": "25096",
+                "label_index": "@P25096",
                 "label_korean": "제동 토크",
                 "group_id": "6980",
                 "req_frame_id": "20938",
@@ -2824,7 +2824,7 @@
             {
                 "position": 11,
                 "mnemonic": "S3S4_EV_ECU_MP_145",
-                "label_index": "33173",
+                "label_index": "@P33173",
                 "label_korean": "브레이크 서보 장치 압력 센서 출력 전압",
                 "group_id": "6988",
                 "req_frame_id": "20962",
@@ -2840,13 +2840,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "33174, 33175",
+                "help_code": "@P33174@\\*0,2@\\*1,7@\\n@P33175",
                 "help_korean": "전동 진공 펌프가 작동하지 않을 때, 전압은 0에서 1V 사이에 있어야 한다,2,7\n전동 진공 펌프가 작동할 때, 전압은 진공이 증가함에 따라 값이 줄어든다"
             },
             {
                 "position": 12,
                 "mnemonic": "S3S4_EV_ECU_MP_153",
-                "label_index": "33179",
+                "label_index": "@P33179",
                 "label_korean": "마스터 실린더 압력 센서 출력 전압",
                 "group_id": "6988",
                 "req_frame_id": "20962",
@@ -2876,7 +2876,7 @@
             {
                 "position": 1,
                 "mnemonic": "S3S4_EV_ECU_MP_6",
-                "label_index": "27824",
+                "label_index": "@P27824",
                 "label_korean": "브레이크 페달 스위치 상태",
                 "group_id": "6977",
                 "req_frame_id": "20929",
@@ -2898,7 +2898,7 @@
             {
                 "position": 2,
                 "mnemonic": "S3S4_EV_ECU_MP_41",
-                "label_index": "21269",
+                "label_index": "@P21269@\\*2",
                 "label_korean": "진공 펌프2 릴레이",
                 "group_id": "6978",
                 "req_frame_id": "20932",
@@ -2914,13 +2914,13 @@
                 "bit_mask": 1,
                 "bit_shift": 0,
                 "dynamic_arg": "2",
-                "help_code": "33097",
+                "help_code": "@P33097",
                 "help_korean": "이 변수는 진공 펌프가 작동할 때 \"Open\" 상태로 바뀐다"
             },
             {
                 "position": 3,
                 "mnemonic": "S3S4_EV_ECU_MP_42",
-                "label_index": "21269",
+                "label_index": "@P21269@\\*1",
                 "label_korean": "진공 펌프1 릴레이",
                 "group_id": "6978",
                 "req_frame_id": "20932",
@@ -2942,7 +2942,7 @@
             {
                 "position": 4,
                 "mnemonic": "S3S4_EV_ECU_MP_43",
-                "label_index": "21171",
+                "label_index": "@P21171",
                 "label_korean": "진공 펌프 세이프티 릴레이",
                 "group_id": "6978",
                 "req_frame_id": "20932",
@@ -2964,7 +2964,7 @@
             {
                 "position": 5,
                 "mnemonic": "S3S4_EV_ECU_MP_55",
-                "label_index": "34393",
+                "label_index": "@F34393",
                 "label_korean": "제동 라인 압력 센서 출력 신호",
                 "group_id": "6979",
                 "req_frame_id": "20935",
@@ -2986,7 +2986,7 @@
             {
                 "position": 6,
                 "mnemonic": "S3S4_EV_ECU_MP_56",
-                "label_index": "33170",
+                "label_index": "@P33170",
                 "label_korean": "전동 진공 펌프 압력 센서 공급 전압",
                 "group_id": "6979",
                 "req_frame_id": "20935",
@@ -3002,13 +3002,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "33720",
+                "help_code": "@P33720@\\*4,74@\\*5",
                 "help_korean": "전압은 반드시 4과 5V 사이에 있어야 한다,74"
             },
             {
                 "position": 7,
                 "mnemonic": "S3S4_EV_ECU_MP_60",
-                "label_index": "33145",
+                "label_index": "@P33145",
                 "label_korean": "브레이크 페달 이동거리 센서 출력 전압",
                 "group_id": "6979",
                 "req_frame_id": "20935",
@@ -3024,13 +3024,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "27311, 33720, 7974, 33146",
-                "help_korean": "페달\n- 해제 : 전압은 반드시\n- 1과 3V 사이에 있어야 한다,4,3\n페달 누름 : 최대 전압은 1V 이다,6"
+                "help_code": "@P27311@T : @F33720@\\*1,4@\\*3,3@\\n@L7974@T : @F33146@\\*4,6",
+                "help_korean": "페달 해제 : 전압은 반드시 1과 3V 사이에 있어야 한다,4,3\n페달 누름 : 최대 전압은 1V 이다,6"
             },
             {
                 "position": 8,
                 "mnemonic": "S3S4_EV_ECU_MP_61",
-                "label_index": "21532",
+                "label_index": "@P21532",
                 "label_korean": "브레이크 페달 이동거리 센서 전원",
                 "group_id": "6979",
                 "req_frame_id": "20935",
@@ -3046,13 +3046,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "33720",
+                "help_code": "@P33720@\\*4,9@\\*5,1",
                 "help_korean": "전압은 반드시 4과 5V 사이에 있어야 한다,9,1"
             },
             {
                 "position": 9,
                 "mnemonic": "S3S4_EV_ECU_MP_62",
-                "label_index": "21526",
+                "label_index": "@P21526",
                 "label_korean": "브레이크 센서 이동거리 값",
                 "group_id": "6979",
                 "req_frame_id": "20935",
@@ -3074,7 +3074,7 @@
             {
                 "position": 10,
                 "mnemonic": "S3S4_EV_ECU_MP_65",
-                "label_index": "25096",
+                "label_index": "@P25096",
                 "label_korean": "제동 토크",
                 "group_id": "6980",
                 "req_frame_id": "20938",
@@ -3096,7 +3096,7 @@
             {
                 "position": 11,
                 "mnemonic": "S3S4_EV_ECU_MP_156",
-                "label_index": "29046",
+                "label_index": "@P29046",
                 "label_korean": "브레이크 오일 압력 센서에 결함 존재",
                 "group_id": "6986",
                 "req_frame_id": "20956",
@@ -3118,7 +3118,7 @@
             {
                 "position": 12,
                 "mnemonic": "S3S4_EV_ECU_MP_145",
-                "label_index": "33173",
+                "label_index": "@P33173",
                 "label_korean": "브레이크 서보 장치 압력 센서 출력 전압",
                 "group_id": "6988",
                 "req_frame_id": "20962",
@@ -3134,13 +3134,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "33174, 33175",
+                "help_code": "@P33174@\\*0,2@\\*1,7@\\n@P33175",
                 "help_korean": "전동 진공 펌프가 작동하지 않을 때, 전압은 0에서 1V 사이에 있어야 한다,2,7\n전동 진공 펌프가 작동할 때, 전압은 진공이 증가함에 따라 값이 줄어든다"
             },
             {
                 "position": 13,
                 "mnemonic": "S3S4_EV_ECU_MP_153",
-                "label_index": "33179",
+                "label_index": "@P33179",
                 "label_korean": "마스터 실린더 압력 센서 출력 전압",
                 "group_id": "6988",
                 "req_frame_id": "20962",
@@ -3170,7 +3170,7 @@
             {
                 "position": 1,
                 "mnemonic": "S3S4_EV_ECU_MP_6",
-                "label_index": "27824",
+                "label_index": "@P27824",
                 "label_korean": "브레이크 페달 스위치 상태",
                 "group_id": "6977",
                 "req_frame_id": "20929",
@@ -3192,7 +3192,7 @@
             {
                 "position": 2,
                 "mnemonic": "S3S4_EV_ECU_MP_41",
-                "label_index": "21269",
+                "label_index": "@P21269@\\*2",
                 "label_korean": "진공 펌프2 릴레이",
                 "group_id": "6978",
                 "req_frame_id": "20932",
@@ -3208,13 +3208,13 @@
                 "bit_mask": 1,
                 "bit_shift": 0,
                 "dynamic_arg": "2",
-                "help_code": "33097",
+                "help_code": "@P33097",
                 "help_korean": "이 변수는 진공 펌프가 작동할 때 \"Open\" 상태로 바뀐다"
             },
             {
                 "position": 3,
                 "mnemonic": "S3S4_EV_ECU_MP_42",
-                "label_index": "21269",
+                "label_index": "@P21269@\\*1",
                 "label_korean": "진공 펌프1 릴레이",
                 "group_id": "6978",
                 "req_frame_id": "20932",
@@ -3236,7 +3236,7 @@
             {
                 "position": 4,
                 "mnemonic": "S3S4_EV_ECU_MP_43",
-                "label_index": "21171",
+                "label_index": "@P21171",
                 "label_korean": "진공 펌프 세이프티 릴레이",
                 "group_id": "6978",
                 "req_frame_id": "20932",
@@ -3258,7 +3258,7 @@
             {
                 "position": 5,
                 "mnemonic": "S3S4_EV_ECU_MP_55",
-                "label_index": "34393",
+                "label_index": "@F34393",
                 "label_korean": "제동 라인 압력 센서 출력 신호",
                 "group_id": "6979",
                 "req_frame_id": "20935",
@@ -3280,7 +3280,7 @@
             {
                 "position": 6,
                 "mnemonic": "S3S4_EV_ECU_MP_56",
-                "label_index": "33170",
+                "label_index": "@P33170",
                 "label_korean": "전동 진공 펌프 압력 센서 공급 전압",
                 "group_id": "6979",
                 "req_frame_id": "20935",
@@ -3296,13 +3296,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "33720",
+                "help_code": "@P33720@\\*4,74@\\*5",
                 "help_korean": "전압은 반드시 4과 5V 사이에 있어야 한다,74"
             },
             {
                 "position": 7,
                 "mnemonic": "S3S4_EV_ECU_MP_60",
-                "label_index": "33145",
+                "label_index": "@P33145",
                 "label_korean": "브레이크 페달 이동거리 센서 출력 전압",
                 "group_id": "6979",
                 "req_frame_id": "20935",
@@ -3318,13 +3318,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "27311, 33720, 7974, 33146",
-                "help_korean": "페달\n- 해제 : 전압은 반드시\n- 1과 3V 사이에 있어야 한다,4,3\n페달 누름 : 최대 전압은 1V 이다,6"
+                "help_code": "@P27311@T : @F33720@\\*1,4@\\*3,3@\\n@L7974@T : @F33146@\\*4,6",
+                "help_korean": "페달 해제 : 전압은 반드시 1과 3V 사이에 있어야 한다,4,3\n페달 누름 : 최대 전압은 1V 이다,6"
             },
             {
                 "position": 8,
                 "mnemonic": "S3S4_EV_ECU_MP_61",
-                "label_index": "21532",
+                "label_index": "@P21532",
                 "label_korean": "브레이크 페달 이동거리 센서 전원",
                 "group_id": "6979",
                 "req_frame_id": "20935",
@@ -3340,13 +3340,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "33720",
+                "help_code": "@P33720@\\*4,9@\\*5,1",
                 "help_korean": "전압은 반드시 4과 5V 사이에 있어야 한다,9,1"
             },
             {
                 "position": 9,
                 "mnemonic": "S3S4_EV_ECU_MP_62",
-                "label_index": "21526",
+                "label_index": "@P21526",
                 "label_korean": "브레이크 센서 이동거리 값",
                 "group_id": "6979",
                 "req_frame_id": "20935",
@@ -3368,7 +3368,7 @@
             {
                 "position": 10,
                 "mnemonic": "S3S4_EV_ECU_MP_67",
-                "label_index": "29076",
+                "label_index": "@P29076",
                 "label_korean": "브레이크 센서 압력 값",
                 "group_id": "6979",
                 "req_frame_id": "20935",
@@ -3390,7 +3390,7 @@
             {
                 "position": 11,
                 "mnemonic": "S3S4_EV_ECU_MP_65",
-                "label_index": "25096",
+                "label_index": "@P25096",
                 "label_korean": "제동 토크",
                 "group_id": "6980",
                 "req_frame_id": "20938",
@@ -3412,7 +3412,7 @@
             {
                 "position": 12,
                 "mnemonic": "S3S4_EV_ECU_MP_156",
-                "label_index": "29046",
+                "label_index": "@P29046",
                 "label_korean": "브레이크 오일 압력 센서에 결함 존재",
                 "group_id": "6986",
                 "req_frame_id": "20956",
@@ -3434,7 +3434,7 @@
             {
                 "position": 13,
                 "mnemonic": "S3S4_EV_ECU_MP_145",
-                "label_index": "33173",
+                "label_index": "@P33173",
                 "label_korean": "브레이크 서보 장치 압력 센서 출력 전압",
                 "group_id": "6988",
                 "req_frame_id": "20962",
@@ -3450,13 +3450,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "33174, 33175",
+                "help_code": "@P33174@\\*0,2@\\*1,7@\\n@P33175",
                 "help_korean": "전동 진공 펌프가 작동하지 않을 때, 전압은 0에서 1V 사이에 있어야 한다,2,7\n전동 진공 펌프가 작동할 때, 전압은 진공이 증가함에 따라 값이 줄어든다"
             },
             {
                 "position": 14,
                 "mnemonic": "S3S4_EV_ECU_MP_153",
-                "label_index": "33179",
+                "label_index": "@P33179",
                 "label_korean": "마스터 실린더 압력 센서 출력 전압",
                 "group_id": "6988",
                 "req_frame_id": "20962",
@@ -3486,7 +3486,7 @@
             {
                 "position": 1,
                 "mnemonic": "S3S4_EV_ECU_MP_157",
-                "label_index": "33748",
+                "label_index": "@P33748",
                 "label_korean": "차량 제한 속도 변경",
                 "group_id": "6984",
                 "req_frame_id": "20950",
@@ -3508,7 +3508,7 @@
             {
                 "position": 2,
                 "mnemonic": "S3S4_EV_ECU_MP_158",
-                "label_index": "33749",
+                "label_index": "@P33749",
                 "label_korean": "트랙션 배터리 충전 한계 제한",
                 "group_id": "6984",
                 "req_frame_id": "20950",
@@ -3530,7 +3530,7 @@
             {
                 "position": 3,
                 "mnemonic": "S3S4_EV_ECU_MP_159",
-                "label_index": "33750",
+                "label_index": "@P33750",
                 "label_korean": "트랙션 배터리 충전 한계",
                 "group_id": "6985",
                 "req_frame_id": "20953",
@@ -3552,7 +3552,7 @@
             {
                 "position": 4,
                 "mnemonic": "S3S4_EV_ECU_MP_160",
-                "label_index": "33026",
+                "label_index": "@P33026",
                 "label_korean": "차량 속도 제한 값",
                 "group_id": "6987",
                 "req_frame_id": "20959",
@@ -3587,7 +3587,7 @@
             {
                 "position": 1,
                 "mnemonic": "CA_KILOMETRAGE",
-                "label_index": "7845",
+                "label_index": "@P7845",
                 "label_korean": "주행거리",
                 "group_id": "7031",
                 "req_frame_id": "21091",
@@ -3611,7 +3611,7 @@
             {
                 "position": 2,
                 "mnemonic": "CA_DUREEFONCTIONNEMENT",
-                "label_index": "7397",
+                "label_index": "@P7397@T.",
                 "label_korean": "작동 시간.",
                 "group_id": "7031",
                 "req_frame_id": "21091",
@@ -3633,7 +3633,7 @@
             {
                 "position": 3,
                 "mnemonic": "CA_NBRCYCLESFONCTIONNEMENT",
-                "label_index": "3761",
+                "label_index": "@P3761@T.",
                 "label_korean": "작동 사이클 수.",
                 "group_id": "7031",
                 "req_frame_id": "21091",
@@ -3655,7 +3655,7 @@
             {
                 "position": 4,
                 "mnemonic": "CA_DUREEECOULEE",
-                "label_index": "20781",
+                "label_index": "@P20781",
                 "label_korean": "경과된 시간",
                 "group_id": "7031",
                 "req_frame_id": "21091",
@@ -3677,7 +3677,7 @@
             {
                 "position": 5,
                 "mnemonic": "CA_COMPTEUR_BLOCAGE_LEVIER_VITESSE",
-                "label_index": "21283",
+                "label_index": "@P21283",
                 "label_korean": "기어 레버 포지션 잠금 카운터",
                 "group_id": "매핑_누락",
                 "req_frame_id": "",
@@ -3699,7 +3699,7 @@
             {
                 "position": 6,
                 "mnemonic": "CA_CAPACITE_RESTANTE_BATTERIE",
-                "label_index": "19937",
+                "label_index": "@P19937",
                 "label_korean": "배터리의 남은 용량",
                 "group_id": "7031",
                 "req_frame_id": "21091",
@@ -3721,7 +3721,7 @@
             {
                 "position": 7,
                 "mnemonic": "CA_MODE_CALCULATEUR_CONTROLE_EV",
-                "label_index": "26544",
+                "label_index": "@P26544",
                 "label_korean": "전기 차량 제어 ECU 모드",
                 "group_id": "7031",
                 "req_frame_id": "21091",
@@ -3743,7 +3743,7 @@
             {
                 "position": 8,
                 "mnemonic": "CA_SOUS_MODE1_CALCULATEUR_CONTROLE_EV",
-                "label_index": "21176",
+                "label_index": "@P21176@\\*1",
                 "label_korean": "전기 차량 제어 ECU의 모드1하에서",
                 "group_id": "7031",
                 "req_frame_id": "21091",
@@ -3765,7 +3765,7 @@
             {
                 "position": 9,
                 "mnemonic": "CA_ORDRE_PRIORITE_TRANSFERT_MODE",
-                "label_index": "25275",
+                "label_index": "@P25275",
                 "label_korean": "모드 스위치 우선 순위",
                 "group_id": "7031",
                 "req_frame_id": "21091",
@@ -3787,7 +3787,7 @@
             {
                 "position": 10,
                 "mnemonic": "COUPLEMOTEUR",
-                "label_index": "13664",
+                "label_index": "@P13664",
                 "label_korean": "엔진 토크",
                 "group_id": "7031",
                 "req_frame_id": "21091",
@@ -3809,7 +3809,7 @@
             {
                 "position": 11,
                 "mnemonic": "CA_VITESSE_MOTEUR",
-                "label_index": "7350",
+                "label_index": "@P7350",
                 "label_korean": "모터 속도",
                 "group_id": "7031",
                 "req_frame_id": "21091",
@@ -3831,7 +3831,7 @@
             {
                 "position": 12,
                 "mnemonic": "CA_CONTROLE_CAPTEUR_PEDALE_ACCELERATION",
-                "label_index": "21427",
+                "label_index": "@P21427",
                 "label_korean": "가속 페달 위치 센서 점검",
                 "group_id": "7031",
                 "req_frame_id": "21091",
@@ -3853,7 +3853,7 @@
             {
                 "position": 13,
                 "mnemonic": "MP_VITESSE_VEHICULE_e",
-                "label_index": "7997",
+                "label_index": "@P7997@\\*",
                 "label_korean": "차량 속도",
                 "group_id": "매핑_누락",
                 "req_frame_id": "",
@@ -3879,7 +3879,7 @@
             {
                 "position": 14,
                 "mnemonic": "TENSION_BAT",
-                "label_index": "18263",
+                "label_index": "@P18263",
                 "label_korean": "배터리 전압",
                 "group_id": "7031",
                 "req_frame_id": "21091",
@@ -3901,7 +3901,7 @@
             {
                 "position": 15,
                 "mnemonic": "CA_TENSION_DU_CONDENSATEUR",
-                "label_index": "21270",
+                "label_index": "@P21270",
                 "label_korean": "콘덴서 전압",
                 "group_id": "7031",
                 "req_frame_id": "21091",
@@ -3923,7 +3923,7 @@
             {
                 "position": 16,
                 "mnemonic": "CA_POSITION_DU_LEVIER",
-                "label_index": "25138",
+                "label_index": "@P25138",
                 "label_korean": "레버 위치",
                 "group_id": "7031",
                 "req_frame_id": "21091",
@@ -3945,7 +3945,7 @@
             {
                 "position": 17,
                 "mnemonic": "CA_VAL_CAPT_PRESSION_FREIN",
-                "label_index": "21090",
+                "label_index": "@P21090",
                 "label_korean": "브레이크 압력 센서 값",
                 "group_id": "7031",
                 "req_frame_id": "21091",
@@ -3967,7 +3967,7 @@
             {
                 "position": 18,
                 "mnemonic": "CA_CAPT1_PRESSION_NEGATIVE",
-                "label_index": "21132",
+                "label_index": "@P21132@\\*1",
                 "label_korean": "부압 센서1",
                 "group_id": "7031",
                 "req_frame_id": "21091",
@@ -3989,7 +3989,7 @@
             {
                 "position": 19,
                 "mnemonic": "CA_TENSION_ALIM_ELECT_CAPT1_ACCEl",
-                "label_index": "21471",
+                "label_index": "@P21471@\\*1",
                 "label_korean": "가속 페달 센서1 공급 전압",
                 "group_id": "7031",
                 "req_frame_id": "21091",
@@ -4011,7 +4011,7 @@
             {
                 "position": 20,
                 "mnemonic": "CA_TENSION_ALIM_ELECT_CAPT2_ACCEl",
-                "label_index": "21471",
+                "label_index": "@P21471@\\*2",
                 "label_korean": "가속 페달 센서2 공급 전압",
                 "group_id": "7031",
                 "req_frame_id": "21091",
@@ -4033,7 +4033,7 @@
             {
                 "position": 21,
                 "mnemonic": "CA_TENSION_ALIM_ELECT_CAPT_PRESSION_FREIN",
-                "label_index": "21553",
+                "label_index": "@P21553",
                 "label_korean": "제동 압력 센서 공급 전압",
                 "group_id": "7031",
                 "req_frame_id": "21091",
@@ -4055,7 +4055,7 @@
             {
                 "position": 22,
                 "mnemonic": "CA_TENSION_CAPT1_ACCEL",
-                "label_index": "21184",
+                "label_index": "@P21184@\\*1",
                 "label_korean": "가속 페달 센서1의 전압",
                 "group_id": "7031",
                 "req_frame_id": "21091",
@@ -4077,7 +4077,7 @@
             {
                 "position": 23,
                 "mnemonic": "CA_TENSION_CAPT2_ACCEL",
-                "label_index": "21184",
+                "label_index": "@P21184@\\*2",
                 "label_korean": "가속 페달 센서2의 전압",
                 "group_id": "7031",
                 "req_frame_id": "21091",
@@ -4099,7 +4099,7 @@
             {
                 "position": 24,
                 "mnemonic": "CA_TENSION_CAPT1_PRESSION_FREIN",
-                "label_index": "21313",
+                "label_index": "@P21313@\\*1",
                 "label_korean": "제동 압력 센서1의 전압",
                 "group_id": "7031",
                 "req_frame_id": "21091",
@@ -4121,7 +4121,7 @@
             {
                 "position": 25,
                 "mnemonic": "CA_CONTROLE_ALIM_ENERGIE",
-                "label_index": "21293",
+                "label_index": "@P21293@\\+@T (@P26538@T)",
                 "label_korean": "전원 공급 점검 (하드웨어 값)",
                 "group_id": "7031",
                 "req_frame_id": "21091",
@@ -4143,7 +4143,7 @@
             {
                 "position": 26,
                 "mnemonic": "CA_SOUS_MODE2_CALC_CONTROLE_VEH_ELECT",
-                "label_index": "21176",
+                "label_index": "@P21176@\\*2",
                 "label_korean": "전기 차량 제어 ECU의 모드2하에서",
                 "group_id": "7031",
                 "req_frame_id": "21091",
@@ -4165,7 +4165,7 @@
             {
                 "position": 27,
                 "mnemonic": "CA_TEM_EAU_LIQUIDE_REFROIDISSEUR",
-                "label_index": "21412",
+                "label_index": "@P21412",
                 "label_korean": "쿨러 냉매 온도",
                 "group_id": "7031",
                 "req_frame_id": "21091",
@@ -4187,7 +4187,7 @@
             {
                 "position": 28,
                 "mnemonic": "CA_TENSION_CELL_MAX",
-                "label_index": "21247",
+                "label_index": "@P21247",
                 "label_korean": "최대 셀 전압",
                 "group_id": "7031",
                 "req_frame_id": "21091",
@@ -4209,7 +4209,7 @@
             {
                 "position": 29,
                 "mnemonic": "CA_TENSION_CELL_MIN",
-                "label_index": "21549",
+                "label_index": "@P21549",
                 "label_korean": "최소 셀 전압",
                 "group_id": "7031",
                 "req_frame_id": "21091",
@@ -4231,7 +4231,7 @@
             {
                 "position": 30,
                 "mnemonic": "CA_COURANT_CHARGE_RAPIDE_S3S4",
-                "label_index": "21190",
+                "label_index": "@P21190",
                 "label_korean": "급속 충전 전류",
                 "group_id": "7031",
                 "req_frame_id": "21091",
@@ -4253,7 +4253,7 @@
             {
                 "position": 31,
                 "mnemonic": "CA_TENSION_CHARGE_RAPIDE_PRESENT",
-                "label_index": "21558",
+                "label_index": "@P21558",
                 "label_korean": "급속 충전 전압 존재",
                 "group_id": "7031",
                 "req_frame_id": "21091",
@@ -4275,7 +4275,7 @@
             {
                 "position": 32,
                 "mnemonic": "CA_COURANT_CHARGE_RAPIDE_PRESENT",
-                "label_index": "21130",
+                "label_index": "@P21130",
                 "label_korean": "급속 충전 전류 존재",
                 "group_id": "7031",
                 "req_frame_id": "21091",
@@ -4297,7 +4297,7 @@
             {
                 "position": 33,
                 "mnemonic": "CA_ETAT_RELAIS_VENT2_RADIATEUR",
-                "label_index": "21126",
+                "label_index": "@P21126@\\*2",
                 "label_korean": "라디에터 팬2 릴레이의 상태",
                 "group_id": "7031",
                 "req_frame_id": "21091",
@@ -4319,7 +4319,7 @@
             {
                 "position": 34,
                 "mnemonic": "CA_ETAT_RELAIS_VENT1_RADIATEUR",
-                "label_index": "21126",
+                "label_index": "@P21126@\\*1",
                 "label_korean": "라디에터 팬1 릴레이의 상태",
                 "group_id": "7031",
                 "req_frame_id": "21091",
@@ -4341,7 +4341,7 @@
             {
                 "position": 35,
                 "mnemonic": "CA_CONTACT_INTER_VERROUILLAGE",
-                "label_index": "21392",
+                "label_index": "@P21392",
                 "label_korean": "인터록 스위치",
                 "group_id": "7031",
                 "req_frame_id": "21091",
@@ -4363,7 +4363,7 @@
             {
                 "position": 36,
                 "mnemonic": "CA_SIGNAL_12V_COURANT_CONTINU",
-                "label_index": "25081",
+                "label_index": "@P25081@\\*12",
                 "label_korean": "12V 직류 신호",
                 "group_id": "7031",
                 "req_frame_id": "21091",
@@ -4385,7 +4385,7 @@
             {
                 "position": 37,
                 "mnemonic": "CA_COMMUTATEUR_FREIN_A_MAIN",
-                "label_index": "21199",
+                "label_index": "@P21199",
                 "label_korean": "주차브레이크 스위치",
                 "group_id": "7031",
                 "req_frame_id": "21091",
@@ -4407,7 +4407,7 @@
             {
                 "position": 38,
                 "mnemonic": "CA_COMMUTATEUR_DE_FREIN",
-                "label_index": "21564",
+                "label_index": "@P21564",
                 "label_korean": "브레이크 스위치",
                 "group_id": "7031",
                 "req_frame_id": "21091",
@@ -4429,8 +4429,8 @@
             {
                 "position": 39,
                 "mnemonic": "CA_SIGANL_ST",
-                "label_index": "18823",
-                "label_korean": "신호 ST",
+                "label_index": "@P18823@\\+@TST",
+                "label_korean": "신호ST",
                 "group_id": "매핑_누락",
                 "req_frame_id": "",
                 "resp_frame_id": "",
@@ -4451,8 +4451,8 @@
             {
                 "position": 40,
                 "mnemonic": "CA_SIGNAL_IGSW",
-                "label_index": "18823",
-                "label_korean": "신호 IGSW",
+                "label_index": "@P18823@\\+@TIGSW",
+                "label_korean": "신호IGSW",
                 "group_id": "매핑_누락",
                 "req_frame_id": "",
                 "resp_frame_id": "",
@@ -4473,7 +4473,7 @@
             {
                 "position": 41,
                 "mnemonic": "CA_SIGNAL_ALIM_ENERGIE_CHARGEUR_RAPIDE",
-                "label_index": "21508",
+                "label_index": "@P21508",
                 "label_korean": "급속 충전장치 전원 신호",
                 "group_id": "7031",
                 "req_frame_id": "21091",
@@ -4495,7 +4495,7 @@
             {
                 "position": 42,
                 "mnemonic": "CA_CONNECTION_CHARGE_RAPIDE",
-                "label_index": "21476",
+                "label_index": "@P21476",
                 "label_korean": "급속 충전 연결",
                 "group_id": "7031",
                 "req_frame_id": "21091",
@@ -4517,7 +4517,7 @@
             {
                 "position": 43,
                 "mnemonic": "CA_INFO_RACC_CHARGE_RAPIDE",
-                "label_index": "21140",
+                "label_index": "@P21140",
                 "label_korean": "급속 충전 연결 정보",
                 "group_id": "7031",
                 "req_frame_id": "21091",
@@ -4539,7 +4539,7 @@
             {
                 "position": 44,
                 "mnemonic": "CA_RELAIS_APPROVISIONNEMENT_COURANT_ALTERNATIF",
-                "label_index": "21569",
+                "label_index": "@P21569",
                 "label_korean": "교류 공급 릴레이",
                 "group_id": "7031",
                 "req_frame_id": "21091",
@@ -4561,7 +4561,7 @@
             {
                 "position": 45,
                 "mnemonic": "CA_DIAG_INETEGRE_RELAIS_ALIM_ENERGIE_CHARG_CONV",
-                "label_index": "26437",
+                "label_index": "@P26437",
                 "label_korean": "충전장치-변환장치 전원 공급 릴레이 통합 진단",
                 "group_id": "7031",
                 "req_frame_id": "21091",
@@ -4583,7 +4583,7 @@
             {
                 "position": 46,
                 "mnemonic": "CA_CONTACTEUR_PRINCIPAL_MOINS_DIAG",
-                "label_index": "25308",
+                "label_index": "@P25308",
                 "label_korean": "메인 스위치[-](생산)",
                 "group_id": "7031",
                 "req_frame_id": "21091",
@@ -4605,8 +4605,8 @@
             {
                 "position": 47,
                 "mnemonic": "CA_CONTACTEUR_PRINCIPAL_PLUS_DIAG",
-                "label_index": "25292",
-                "label_korean": "메인 스위치 [ ] (생산)",
+                "label_index": "@P25292",
+                "label_korean": "메인 스위치 [+] (생산)",
                 "group_id": "7031",
                 "req_frame_id": "21091",
                 "resp_frame_id": "21092",
@@ -4627,7 +4627,7 @@
             {
                 "position": 48,
                 "mnemonic": "CA_DIAG_CONTACTEUR_CHARGE",
-                "label_index": "25045",
+                "label_index": "@P25045",
                 "label_korean": "부하 스위치 진단",
                 "group_id": "7031",
                 "req_frame_id": "21091",
@@ -4649,8 +4649,8 @@
             {
                 "position": 49,
                 "mnemonic": "CA_CONTACTEUR_PRINCIPAL_PLUS_PRODUIT",
-                "label_index": "25292",
-                "label_korean": "메인 스위치 [ ] (생산)",
+                "label_index": "@P25292",
+                "label_korean": "메인 스위치 [+] (생산)",
                 "group_id": "7031",
                 "req_frame_id": "21091",
                 "resp_frame_id": "21092",
@@ -4671,7 +4671,7 @@
             {
                 "position": 50,
                 "mnemonic": "CA_PRODUCTION_CONTACTEUR_CHARGE",
-                "label_index": "25426",
+                "label_index": "@P25426",
                 "label_korean": "충전 스위치 생산",
                 "group_id": "7031",
                 "req_frame_id": "21091",
@@ -4693,7 +4693,7 @@
             {
                 "position": 51,
                 "mnemonic": "CA_INFO_RESERVATION_CHRONOMETREUR",
-                "label_index": "21422",
+                "label_index": "@P21422",
                 "label_korean": "타임키퍼 예약 정보",
                 "group_id": "매핑_누락",
                 "req_frame_id": "",
@@ -4715,7 +4715,7 @@
             {
                 "position": 52,
                 "mnemonic": "CA_INFO_PRE_CLIMATISATION",
-                "label_index": "21355",
+                "label_index": "@P21355",
                 "label_korean": "사전 에어컨 조정 정보",
                 "group_id": "매핑_누락",
                 "req_frame_id": "",
@@ -4737,7 +4737,7 @@
             {
                 "position": 53,
                 "mnemonic": "CA_INFO_CHARGE_MINUTERIE",
-                "label_index": "21216",
+                "label_index": "@P21216",
                 "label_korean": "충전 시간 정보",
                 "group_id": "매핑_누락",
                 "req_frame_id": "",
@@ -4759,7 +4759,7 @@
             {
                 "position": 54,
                 "mnemonic": "CA_INFO_RACCORDEMENT_CHARGE_INTEGREE",
-                "label_index": "21478",
+                "label_index": "@P21478",
                 "label_korean": "통합된 충전 연결 정보",
                 "group_id": "7031",
                 "req_frame_id": "21091",
@@ -4781,7 +4781,7 @@
             {
                 "position": 55,
                 "mnemonic": "CA_SIGNAL_DEPART_INTEGRE_CHARGEUR_CONVERT",
-                "label_index": "21565",
+                "label_index": "@P21565",
                 "label_korean": "충전 장치 컨버터 통합된 시동 신호",
                 "group_id": "7031",
                 "req_frame_id": "21091",
@@ -4803,7 +4803,7 @@
             {
                 "position": 56,
                 "mnemonic": "CA_SIGNAL_DEPART_RAPIDE_CHARGE",
-                "label_index": "21566",
+                "label_index": "@P21566",
                 "label_korean": "급속 충전 작동 신호",
                 "group_id": "7031",
                 "req_frame_id": "21091",
@@ -4825,7 +4825,7 @@
             {
                 "position": 57,
                 "mnemonic": "CA_RELAIS_ALIMENT_COMPRESS_CLIMAT",
-                "label_index": "21299",
+                "label_index": "@P21299",
                 "label_korean": "에어컨 컴프레서 전원 릴레이",
                 "group_id": "7031",
                 "req_frame_id": "21091",
@@ -4847,7 +4847,7 @@
             {
                 "position": 58,
                 "mnemonic": "CA_RELAIS_INTEGRE_ALIMENT_ENERGIE_CHARGEUR_CONVERT",
-                "label_index": "21431",
+                "label_index": "@P21431",
                 "label_korean": "충전 장치 컨버터 전원 공급 통합 릴레이",
                 "group_id": "7031",
                 "req_frame_id": "21091",
@@ -4869,7 +4869,7 @@
             {
                 "position": 59,
                 "mnemonic": "CA_RELAIS_POMPE_EAU",
-                "label_index": "21324",
+                "label_index": "@P21324",
                 "label_korean": "냉각수 펌프 릴레이",
                 "group_id": "7031",
                 "req_frame_id": "21091",
@@ -4891,7 +4891,7 @@
             {
                 "position": 60,
                 "mnemonic": "CA_RELAIS_VENTILATEUR_RADIATEUR2",
-                "label_index": "21169",
+                "label_index": "@P21169@\\*2",
                 "label_korean": "라디에터 팬 릴레이2",
                 "group_id": "7031",
                 "req_frame_id": "21091",
@@ -4913,7 +4913,7 @@
             {
                 "position": 61,
                 "mnemonic": "CA_RELAIS_VENTILATEUR_RADIATEUR1",
-                "label_index": "21169",
+                "label_index": "@P21169@\\*1",
                 "label_korean": "라디에터 팬 릴레이1",
                 "group_id": "7031",
                 "req_frame_id": "21091",
@@ -4935,7 +4935,7 @@
             {
                 "position": 62,
                 "mnemonic": "CA_ARRET_CONVERTISSEUR_12V_COURANT_CONTINU",
-                "label_index": "21546",
+                "label_index": "@P21546@\\*12",
                 "label_korean": "12V 직류 컨버터 중단",
                 "group_id": "7031",
                 "req_frame_id": "21091",
@@ -4957,7 +4957,7 @@
             {
                 "position": 63,
                 "mnemonic": "CA_ARRET_INVERSEUR_MOTEUR",
-                "label_index": "21143",
+                "label_index": "@P21143",
                 "label_korean": "모터 리저버 멈춤",
                 "group_id": "7031",
                 "req_frame_id": "21091",
@@ -4979,7 +4979,7 @@
             {
                 "position": 64,
                 "mnemonic": "CA_CONTACTEUR_PRINCIPAL_MOINS_PRODUIT",
-                "label_index": "25308",
+                "label_index": "@P25308",
                 "label_korean": "메인 스위치[-](생산)",
                 "group_id": "7031",
                 "req_frame_id": "21091",
@@ -5001,7 +5001,7 @@
             {
                 "position": 65,
                 "mnemonic": "CA_INFO_READY",
-                "label_index": "21368",
+                "label_index": "@P21368@\\*READY",
                 "label_korean": "정보READY",
                 "group_id": "7031",
                 "req_frame_id": "21091",
@@ -5023,7 +5023,7 @@
             {
                 "position": 66,
                 "mnemonic": "CA_SIGNAL_AUTORISATION_CHARGEUR_RAPIDE",
-                "label_index": "21375",
+                "label_index": "@P21375",
                 "label_korean": "급속 충전 승인 신호",
                 "group_id": "7031",
                 "req_frame_id": "21091",
@@ -5045,7 +5045,7 @@
             {
                 "position": 67,
                 "mnemonic": "CA_RELAIS_POMPE_VIDE2",
-                "label_index": "21269",
+                "label_index": "@P21269@\\*2",
                 "label_korean": "진공 펌프2 릴레이",
                 "group_id": "7031",
                 "req_frame_id": "21091",
@@ -5067,7 +5067,7 @@
             {
                 "position": 68,
                 "mnemonic": "CA_RELAIS_POMPE_VIDE1",
-                "label_index": "21269",
+                "label_index": "@P21269@\\*1",
                 "label_korean": "진공 펌프1 릴레이",
                 "group_id": "7031",
                 "req_frame_id": "21091",
@@ -5089,7 +5089,7 @@
             {
                 "position": 69,
                 "mnemonic": "CA_RELAIS_SECURITE_POMPE_VIDE",
-                "label_index": "21171",
+                "label_index": "@P21171",
                 "label_korean": "진공 펌프 세이프티 릴레이",
                 "group_id": "7031",
                 "req_frame_id": "21091",
@@ -5111,7 +5111,7 @@
             {
                 "position": 70,
                 "mnemonic": "CA_RELAIS_CONTROLE_CONTACTEUR_CHARGEUR_RAPIDE",
-                "label_index": "21362",
+                "label_index": "@P21362",
                 "label_korean": "급손 충전장치 스위치 제어 릴레이",
                 "group_id": "7031",
                 "req_frame_id": "21091",
@@ -5133,7 +5133,7 @@
             {
                 "position": 71,
                 "mnemonic": "CA_TEMP_CELLULES_HAUTE",
-                "label_index": "25165",
+                "label_index": "@P25165",
                 "label_korean": "높은 셀 온도",
                 "group_id": "7031",
                 "req_frame_id": "21091",
@@ -5155,7 +5155,7 @@
             {
                 "position": 72,
                 "mnemonic": "CA_EXECUTION_PROTECTION_CELLULES_TENS_MAX",
-                "label_index": "25307",
+                "label_index": "@P25307",
                 "label_korean": "셀 보호(최대 전압) 실행",
                 "group_id": "7031",
                 "req_frame_id": "21091",
@@ -5177,7 +5177,7 @@
             {
                 "position": 73,
                 "mnemonic": "CA_CONTROLE_DIMINUTION_TENSION_ALIMENTATION_ELEC",
-                "label_index": "21416",
+                "label_index": "@P21416",
                 "label_korean": "공급 전압의 감소 점검",
                 "group_id": "7031",
                 "req_frame_id": "21091",
@@ -5199,7 +5199,7 @@
             {
                 "position": 74,
                 "mnemonic": "CA_HIST_REALISATION_CHARGEUR_CONVERT",
-                "label_index": "21481",
+                "label_index": "@P21481",
                 "label_korean": "충전장치 컨버터 제조 내역 기록",
                 "group_id": "7031",
                 "req_frame_id": "21091",
@@ -5221,7 +5221,7 @@
             {
                 "position": 75,
                 "mnemonic": "CA_HISTORIQUE_REALISATION_CHARGEUR_RAPIDE",
-                "label_index": "21159",
+                "label_index": "@P21159",
                 "label_korean": "급속 충전장치 제조 내역 기록",
                 "group_id": "7031",
                 "req_frame_id": "21091",
@@ -5243,7 +5243,7 @@
             {
                 "position": 76,
                 "mnemonic": "CA_AUTORIASATION_CHARGEUR_CONVERT",
-                "label_index": "21462",
+                "label_index": "@P21462",
                 "label_korean": "충전장치 컨버터 승인",
                 "group_id": "7031",
                 "req_frame_id": "21091",
@@ -5265,7 +5265,7 @@
             {
                 "position": 77,
                 "mnemonic": "CA_AUTORISATION_CHARGEUR_RAPIDE",
-                "label_index": "21238",
+                "label_index": "@P21238",
                 "label_korean": "급속 충전 장치의 승인",
                 "group_id": "7031",
                 "req_frame_id": "21091",
@@ -5287,7 +5287,7 @@
             {
                 "position": 78,
                 "mnemonic": "CA_AUTORISATION_DE_CHARGE",
-                "label_index": "21274",
+                "label_index": "@P21274",
                 "label_korean": "충전 승인",
                 "group_id": "7031",
                 "req_frame_id": "21091",
@@ -5309,7 +5309,7 @@
             {
                 "position": 79,
                 "mnemonic": "CA_DEMANDE_DECHARGE",
-                "label_index": "21244",
+                "label_index": "@P21244",
                 "label_korean": "방전 요청",
                 "group_id": "7031",
                 "req_frame_id": "21091",
@@ -5331,7 +5331,7 @@
             {
                 "position": 80,
                 "mnemonic": "CA_ETAT_CALC_MOTEUR_ELECT",
-                "label_index": "21255",
+                "label_index": "@P21255",
                 "label_korean": "전동 모터 ECU의 상태",
                 "group_id": "7031",
                 "req_frame_id": "21091",
@@ -5353,7 +5353,7 @@
             {
                 "position": 81,
                 "mnemonic": "CA_DEMANDE_ALIMENT_COMPRESSEUR_CLIMAT",
-                "label_index": "21168",
+                "label_index": "@P21168",
                 "label_korean": "에어컨 컴프레서 전원 요청",
                 "group_id": "7031",
                 "req_frame_id": "21091",
@@ -5375,7 +5375,7 @@
             {
                 "position": 82,
                 "mnemonic": "CA_INFO_JUGEMENT_BLOCAGE_MOTEUR",
-                "label_index": "21450",
+                "label_index": "@P21450",
                 "label_korean": "모터 잠금 평가 정보",
                 "group_id": "7031",
                 "req_frame_id": "21091",
@@ -5397,7 +5397,7 @@
             {
                 "position": 83,
                 "mnemonic": "CA_INFO_JUGEMENT_ARRET_CHARGEUR_CONVERT",
-                "label_index": "21174",
+                "label_index": "@P21174",
                 "label_korean": "충전장치 컨버터 중단 평가 정보",
                 "group_id": "7031",
                 "req_frame_id": "21091",
@@ -5419,7 +5419,7 @@
             {
                 "position": 84,
                 "mnemonic": "CA_INFO_JUGEMENT_ARRET_DE_CHARGEUR_RAPIDE",
-                "label_index": "21220",
+                "label_index": "@P21220",
                 "label_korean": "급속 충전장치 중단 평가 정보",
                 "group_id": "7031",
                 "req_frame_id": "21091",
@@ -5441,7 +5441,7 @@
             {
                 "position": 85,
                 "mnemonic": "CA_INFO_JUGEMENT_ARRET_DU_CHARGEUR_RAPIDE",
-                "label_index": "21220",
+                "label_index": "@P21220",
                 "label_korean": "급속 충전장치 중단 평가 정보",
                 "group_id": "7031",
                 "req_frame_id": "21091",
@@ -5463,8 +5463,8 @@
             {
                 "position": 86,
                 "mnemonic": "CA_INFO_ELIMINATION_COUPLE_BATTERIE",
-                "label_index": "26625",
-                "label_korean": "토크 제거 정보(배터리) (배터리)",
+                "label_index": "@P26625@\\+@T(@P2669@T)",
+                "label_korean": "토크 제거 정보(배터리)(배터리)",
                 "group_id": "7031",
                 "req_frame_id": "21091",
                 "resp_frame_id": "21092",
@@ -5485,7 +5485,7 @@
             {
                 "position": 87,
                 "mnemonic": "CA_DEMANDE_REFROIDISSEMENT_CHARGEUR_CONVERT",
-                "label_index": "21424",
+                "label_index": "@P21424",
                 "label_korean": "충전장치 컨버터 냉각 요청",
                 "group_id": "7031",
                 "req_frame_id": "21091",
@@ -5507,7 +5507,7 @@
             {
                 "position": 88,
                 "mnemonic": "CA_ACTIVATION_CHARGEUR_CONVERT",
-                "label_index": "21160",
+                "label_index": "@P21160",
                 "label_korean": "충전장치 컨버터의 작동",
                 "group_id": "7031",
                 "req_frame_id": "21091",
@@ -5529,7 +5529,7 @@
             {
                 "position": 89,
                 "mnemonic": "CA_DEMANDE_ALIMENTATION_CALC_BATTERIE_TRACTION",
-                "label_index": "21148",
+                "label_index": "@P21148",
                 "label_korean": "트랙션 배터리 ECU 지원 요청",
                 "group_id": "7031",
                 "req_frame_id": "21091",
@@ -5551,7 +5551,7 @@
             {
                 "position": 90,
                 "mnemonic": "CA_ACTIVATION_EQUILBREUR",
-                "label_index": "21133",
+                "label_index": "@P21133",
                 "label_korean": "이퀄라이저의 작동",
                 "group_id": "7031",
                 "req_frame_id": "21091",
@@ -5573,7 +5573,7 @@
             {
                 "position": 91,
                 "mnemonic": "CA_DEMANDE_REFROIDISSEMENT_BATTERIE",
-                "label_index": "21085",
+                "label_index": "@P21085",
                 "label_korean": "배터리 냉각 요청",
                 "group_id": "7031",
                 "req_frame_id": "21091",
@@ -5595,7 +5595,7 @@
             {
                 "position": 92,
                 "mnemonic": "CA_CALC_BATTERIE_TRACTION",
-                "label_index": "25120",
+                "label_index": "@P25120",
                 "label_korean": "트랙션 배터리 제어 ECU 준비",
                 "group_id": "7031",
                 "req_frame_id": "21091",
@@ -5617,7 +5617,7 @@
             {
                 "position": 93,
                 "mnemonic": "CA_DEMANDE_ALIMENT_CALC_MOTEUR_ELECT",
-                "label_index": "21507",
+                "label_index": "@P21507",
                 "label_korean": "전동 모터 ECU 전원 요청",
                 "group_id": "7031",
                 "req_frame_id": "21091",
@@ -5639,7 +5639,7 @@
             {
                 "position": 94,
                 "mnemonic": "CA_POSITION_LEVIER_VITESSE_D",
-                "label_index": "393",
+                "label_index": "@P393@\\*D",
                 "label_korean": "위치D에 기어 레버",
                 "group_id": "7031",
                 "req_frame_id": "21091",
@@ -5661,7 +5661,7 @@
             {
                 "position": 95,
                 "mnemonic": "CA_POSITION_LEVIER_VITESSE_N",
-                "label_index": "393",
+                "label_index": "@P393@\\*N",
                 "label_korean": "위치N에 기어 레버",
                 "group_id": "7031",
                 "req_frame_id": "21091",
@@ -5683,7 +5683,7 @@
             {
                 "position": 96,
                 "mnemonic": "CA_POSITION_LEVIER_VITESSE_R",
-                "label_index": "393",
+                "label_index": "@P393@\\*R",
                 "label_korean": "위치R에 기어 레버",
                 "group_id": "7031",
                 "req_frame_id": "21091",
@@ -5705,7 +5705,7 @@
             {
                 "position": 97,
                 "mnemonic": "CA_POSITION_LEVIER_VITESSE_P",
-                "label_index": "393",
+                "label_index": "@P393@\\*P",
                 "label_korean": "위치P에 기어 레버",
                 "group_id": "7031",
                 "req_frame_id": "21091",
@@ -5727,7 +5727,7 @@
             {
                 "position": 98,
                 "mnemonic": "CA_ACTIVATION_MODE_PRECLIMATISATION",
-                "label_index": "21257",
+                "label_index": "@P21257",
                 "label_korean": "사전 에어컨 조정 모드 작동",
                 "group_id": "7031",
                 "req_frame_id": "21091",
@@ -5749,7 +5749,7 @@
             {
                 "position": 99,
                 "mnemonic": "CA_DEMANDE_ALIMENTATION_CHARGEUR_CONVERTISSEUR",
-                "label_index": "21571",
+                "label_index": "@P21571",
                 "label_korean": "충전장치 컨버터 전원 요청",
                 "group_id": "7031",
                 "req_frame_id": "21091",
@@ -5771,7 +5771,7 @@
             {
                 "position": 100,
                 "mnemonic": "CA_ETAT_TEMPERATURE_MOTEUR",
-                "label_index": "21377",
+                "label_index": "@P21377",
                 "label_korean": "모터 온도 상태",
                 "group_id": "7031",
                 "req_frame_id": "21091",
@@ -5793,7 +5793,7 @@
             {
                 "position": 101,
                 "mnemonic": "CA_BLOCAGE_LEVIER_POSITION_D",
-                "label_index": "21556",
+                "label_index": "@P21556@\\*D",
                 "label_korean": "위치D에서 레버 잠금",
                 "group_id": "7031",
                 "req_frame_id": "21091",
@@ -5815,7 +5815,7 @@
             {
                 "position": 102,
                 "mnemonic": "CA_BLOCAGE_LEVIER_POSITION_N",
-                "label_index": "21556",
+                "label_index": "@P21556@\\*N",
                 "label_korean": "위치N에서 레버 잠금",
                 "group_id": "7031",
                 "req_frame_id": "21091",
@@ -5837,7 +5837,7 @@
             {
                 "position": 103,
                 "mnemonic": "CA_BLOCAGE_LEVIER_POSITION_R",
-                "label_index": "21556",
+                "label_index": "@P21556@\\*R",
                 "label_korean": "위치R에서 레버 잠금",
                 "group_id": "7031",
                 "req_frame_id": "21091",
@@ -5859,7 +5859,7 @@
             {
                 "position": 104,
                 "mnemonic": "CA_BLOCAGE_LEVIER_POSITION_P",
-                "label_index": "21556",
+                "label_index": "@P21556@\\*P",
                 "label_korean": "위치P에서 레버 잠금",
                 "group_id": "7031",
                 "req_frame_id": "21091",
@@ -5881,7 +5881,7 @@
             {
                 "position": 105,
                 "mnemonic": "CA_INFO_JUGEMENT_ARRET_CHARGEUR_CONVERT_new",
-                "label_index": "21174",
+                "label_index": "@P21174",
                 "label_korean": "충전장치 컨버터 중단 평가 정보",
                 "group_id": "7031",
                 "req_frame_id": "21091",
@@ -5903,7 +5903,7 @@
             {
                 "position": 106,
                 "mnemonic": "CA_INFO_JUGEMENT_CHARGE_MAX_CHARGEUR_CONVERT",
-                "label_index": "21541",
+                "label_index": "@P21541",
                 "label_korean": "충전장치 컨버터 최대 충전 평가 정보",
                 "group_id": "7031",
                 "req_frame_id": "21091",
@@ -5925,7 +5925,7 @@
             {
                 "position": 107,
                 "mnemonic": "CA_INFO_JUGEMENT_ARRET_COURANT_CHARGE_CHARGEUR_RAPIDE",
-                "label_index": "21127",
+                "label_index": "@P21127",
                 "label_korean": "급속 충전장치 충전 전류 중단 평가 정보",
                 "group_id": "7031",
                 "req_frame_id": "21091",
@@ -5947,7 +5947,7 @@
             {
                 "position": 108,
                 "mnemonic": "CA_INFO_JUGEMENT_CHARGEUR_MAX_CHARGEUR_RAPIDE",
-                "label_index": "21434",
+                "label_index": "@P21434",
                 "label_korean": "급속 충전장치 최대 충전 평가 정보",
                 "group_id": "7031",
                 "req_frame_id": "21091",
@@ -5969,7 +5969,7 @@
             {
                 "position": 109,
                 "mnemonic": "CA_REFROIDISSEMENT_BATTERIE_ACTIVE",
-                "label_index": "21407",
+                "label_index": "@P21407",
                 "label_korean": "배터리 냉각 작동됨",
                 "group_id": "7031",
                 "req_frame_id": "21091",
@@ -5991,7 +5991,7 @@
             {
                 "position": 110,
                 "mnemonic": "CA_INFO_JUGEMENT_BLOC_ACCIDENT",
-                "label_index": "21152",
+                "label_index": "@P21152",
                 "label_korean": "사고 블록의 평가 정보",
                 "group_id": "7031",
                 "req_frame_id": "21091",
@@ -6013,7 +6013,7 @@
             {
                 "position": 111,
                 "mnemonic": "CA_DEMANDE_DECHARGE_CONDENSATEUR",
-                "label_index": "21297",
+                "label_index": "@P21297",
                 "label_korean": "축전지 방전 요청",
                 "group_id": "7031",
                 "req_frame_id": "21091",
@@ -6035,7 +6035,7 @@
             {
                 "position": 112,
                 "mnemonic": "CA_ACCORD_CONTROLE_IMMOBILISATEUR",
-                "label_index": "21164",
+                "label_index": "@P21164",
                 "label_korean": "이모빌라이저 점검 동의",
                 "group_id": "7031",
                 "req_frame_id": "21091",
@@ -6057,7 +6057,7 @@
             {
                 "position": 113,
                 "mnemonic": "CA_ECRITURE_VIN_REALISE",
-                "label_index": "21548",
+                "label_index": "@P21548",
                 "label_korean": "차대번호 쓰기 완료됨",
                 "group_id": "7031",
                 "req_frame_id": "21091",
@@ -6079,7 +6079,7 @@
             {
                 "position": 114,
                 "mnemonic": "CA_ACCORD_CONTROLE_VIN",
-                "label_index": "21086",
+                "label_index": "@P21086",
                 "label_korean": "차대번호 점검 동의",
                 "group_id": "7031",
                 "req_frame_id": "21091",
@@ -6101,7 +6101,7 @@
             {
                 "position": 115,
                 "mnemonic": "CA_TENSION_SIGNAL_CONNECTEUR_CHARGEUR_CONVERT",
-                "label_index": "21533",
+                "label_index": "@P21533",
                 "label_korean": "충전장치 컨버터 커넥터 신호 전압",
                 "group_id": "7031",
                 "req_frame_id": "21091",
@@ -6123,8 +6123,8 @@
             {
                 "position": 116,
                 "mnemonic": "CA_ETAT_FEUX_STOP_FREIN",
-                "label_index": "21212",
-                "label_korean": "제동등 상태 (브레이크 )",
+                "label_index": "@P21212@\\+@T (@P45926@\\*@T)",
+                "label_korean": "제동등 상태 (브레이크)",
                 "group_id": "7031",
                 "req_frame_id": "21091",
                 "resp_frame_id": "21092",
@@ -6145,7 +6145,7 @@
             {
                 "position": 117,
                 "mnemonic": "CA_ETAT_AVERTISSEUR_SONORE",
-                "label_index": "21338",
+                "label_index": "@P21338",
                 "label_korean": "혼의 상태",
                 "group_id": "7031",
                 "req_frame_id": "21091",
@@ -6167,7 +6167,7 @@
             {
                 "position": 118,
                 "mnemonic": "MP_ETATMOTEUR_31",
-                "label_index": "7332",
+                "label_index": "@P7332",
                 "label_korean": "엔진 상태",
                 "group_id": "7031",
                 "req_frame_id": "21091",
@@ -6193,7 +6193,7 @@
             {
                 "position": 119,
                 "mnemonic": "CA_ETAT_RELAIS_CONTROLE_2",
-                "label_index": "21536",
+                "label_index": "@P21536@\\*2",
                 "label_korean": "컨트롤 릴레이2의 상태",
                 "group_id": "7031",
                 "req_frame_id": "21091",
@@ -6215,7 +6215,7 @@
             {
                 "position": 120,
                 "mnemonic": "CA_ETAT_RELAIS_CONTROLE_1",
-                "label_index": "21536",
+                "label_index": "@P21536@\\*1",
                 "label_korean": "컨트롤 릴레이1의 상태",
                 "group_id": "7031",
                 "req_frame_id": "21091",
@@ -6237,7 +6237,7 @@
             {
                 "position": 121,
                 "mnemonic": "CA_MONITEUR_SECURITE_RELAIS",
-                "label_index": "25266",
+                "label_index": "@P25266",
                 "label_korean": "릴레이 세이프티 모니터",
                 "group_id": "7031",
                 "req_frame_id": "21091",
@@ -6259,7 +6259,7 @@
             {
                 "position": 122,
                 "mnemonic": "CA_CAPTEUR_VITESSE_VEHICULE",
-                "label_index": "23150",
+                "label_index": "@P23150",
                 "label_korean": "차량 속도 센서",
                 "group_id": "7031",
                 "req_frame_id": "21091",
@@ -6281,7 +6281,7 @@
             {
                 "position": 123,
                 "mnemonic": "CA_CAPTEUR_MAITRE_CYLINDRE_FREIN",
-                "label_index": "21428",
+                "label_index": "@P21428",
                 "label_korean": "브레이크 마스터 실린더 센서",
                 "group_id": "7031",
                 "req_frame_id": "21091",
@@ -6303,7 +6303,7 @@
             {
                 "position": 124,
                 "mnemonic": "CA_CONTACTEUR_POSITION_N_CHARGEUR_RAPIDE",
-                "label_index": "40120",
+                "label_index": "@P40120@\\*N",
                 "label_korean": "급속 충전 포지션 스위치N",
                 "group_id": "매핑_누락",
                 "req_frame_id": "",
@@ -6325,7 +6325,7 @@
             {
                 "position": 125,
                 "mnemonic": "CA_CONTACTEUR_POSITION_P_CHARGEUR_RAPIDE",
-                "label_index": "40120",
+                "label_index": "@P40120@\\*P",
                 "label_korean": "급속 충전 포지션 스위치P",
                 "group_id": "매핑_누락",
                 "req_frame_id": "",

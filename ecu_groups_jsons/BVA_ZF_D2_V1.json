@@ -8,7 +8,7 @@
             {
                 "position": 1,
                 "mnemonic": "ID_REFERENCE_FOURNISSEUR",
-                "label_index": "633",
+                "label_index": "@P633",
                 "label_korean": "제조업체",
                 "group_id": "105099",
                 "req_frame_id": "315643",
@@ -34,7 +34,7 @@
             {
                 "position": 2,
                 "mnemonic": "ID_REFERENCE_PSA",
-                "label_index": "8615",
+                "label_index": "@P8615",
                 "label_korean": "PSA 부품 번호",
                 "group_id": "105099",
                 "req_frame_id": "315643",
@@ -56,7 +56,7 @@
             {
                 "position": 3,
                 "mnemonic": "ID_REFSUP",
-                "label_index": "10004",
+                "label_index": "@P10004@\\*",
                 "label_korean": "추가 번호",
                 "group_id": "105099",
                 "req_frame_id": "315643",
@@ -78,7 +78,7 @@
             {
                 "position": 4,
                 "mnemonic": "ID_REFERENCE_LOGICIEL",
-                "label_index": "4799",
+                "label_index": "@P4799@\\*",
                 "label_korean": "소프트웨어 번호",
                 "group_id": "105100",
                 "req_frame_id": "315646",
@@ -100,7 +100,7 @@
             {
                 "position": 5,
                 "mnemonic": "ID_EDITION_LOGICIEL",
-                "label_index": "3274",
+                "label_index": "@P3274",
                 "label_korean": "소프트웨어 버전",
                 "group_id": "105100",
                 "req_frame_id": "315646",
@@ -122,7 +122,7 @@
             {
                 "position": 6,
                 "mnemonic": "ID_80_MP_INDICE_MESS",
-                "label_index": "2225",
+                "label_index": "@P2225",
                 "label_korean": "메시지 인덱스",
                 "group_id": "105099",
                 "req_frame_id": "315643",
@@ -152,7 +152,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_REGIME_MOTEUR",
-                "label_index": "7917",
+                "label_index": "@P7917",
                 "label_korean": "엔진 속도",
                 "group_id": "105101",
                 "req_frame_id": "315649",
@@ -170,13 +170,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "41235",
+                "help_code": "@P41235@T.",
                 "help_korean": "엔진 ECU로부터 제공되며 CAN을 통해서 전달된다."
             },
             {
                 "position": 2,
                 "mnemonic": "MP_VITESSE_ENTREE_BVA_a",
-                "label_index": "13474",
+                "label_index": "@P13474",
                 "label_korean": "AUTO 입력 속도",
                 "group_id": "105101",
                 "req_frame_id": "315649",
@@ -192,13 +192,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "3816",
+                "help_code": "@P3816",
                 "help_korean": "컨버터의 위치에 따라, 이는 엔진 속도와 동일하거나 또는 약간 적어야 한다"
             },
             {
                 "position": 3,
                 "mnemonic": "MP_VITESSE_SORTIE_BVA_a",
-                "label_index": "5832",
+                "label_index": "@P5832",
                 "label_korean": "AUTO 출력 속도",
                 "group_id": "105101",
                 "req_frame_id": "315649",
@@ -214,13 +214,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "12465",
+                "help_code": "@P12465@T.",
                 "help_korean": "이 속도는 차량이 정차할 때 0이어야 하고 가속함에 따라 증가한다."
             },
             {
                 "position": 4,
                 "mnemonic": "MP_ENFONCEMENT_PEDALE",
-                "label_index": "11568",
+                "label_index": "@P11568",
                 "label_korean": "페달 아래로 누름",
                 "group_id": "105101",
                 "req_frame_id": "315649",
@@ -236,13 +236,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "41235, 43822",
-                "help_korean": "엔진 ECU로부터 제공되며 CAN을 통해서 전달된다 반드시 0에서 100% 사이에 있어야 한다."
+                "help_code": "@P41235@\\+@P43822@\\*0@\\*100@T.",
+                "help_korean": "엔진 ECU로부터 제공되며 CAN을 통해서 전달된다반드시 0에서 100% 사이에 있어야 한다."
             },
             {
                 "position": 5,
                 "mnemonic": "MP_TEMPERATURE_HUILE_b",
-                "label_index": "11459",
+                "label_index": "@P11459",
                 "label_korean": "오일 온도",
                 "group_id": "105101",
                 "req_frame_id": "315649",
@@ -258,7 +258,7 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "41236",
+                "help_code": "@P41236@T.",
                 "help_korean": "자동변속기 내부에 센서로 부터 제공되며 시간이 지나면서 증가되어야 한다."
             }
         ]
@@ -272,7 +272,7 @@
             {
                 "position": 1,
                 "mnemonic": "REGULATEUR_NUMERO_03",
-                "label_index": "12039",
+                "label_index": "@P12039@\\*3",
                 "label_korean": "레귤레이터 번호3",
                 "group_id": "105102",
                 "req_frame_id": "315652",
@@ -288,13 +288,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "3",
-                "help_code": "43805, 43806",
-                "help_korean": "압력 레귤레이터 No3(비례형 타입)은 컨버터를 제어한다.\n- 주행 중 작동된다 (작동 :\n- 약 3mA 차단 : 약 800에서 50mA)."
+                "help_code": "@P43805@\\*3@T.@\\n@P43806@\\*800@\\*50@\\*150@T.",
+                "help_korean": "압력 레귤레이터 No3(비례형 타입)은 컨버터를 제어한다.\n주행 중 작동된다 (작동 : 약 3mA 차단 : 약 800에서 50mA)."
             },
             {
                 "position": 2,
                 "mnemonic": "REGULATEUR_NUMERO_04",
-                "label_index": "12039",
+                "label_index": "@P12039@\\*4",
                 "label_korean": "레귤레이터 번호4",
                 "group_id": "105102",
                 "req_frame_id": "315652",
@@ -310,13 +310,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "4",
-                "help_code": "29552",
-                "help_korean": "엔진 구동 및 차량 정차 상태에서, 레귤레이터는 R을\n- 제외한 선택된 모드 기어에서 작동되어야 한다 (작동 :\n- 약 800mA 및 차단 : 약 150에서 mA)."
+                "help_code": "@P29552@\\*800@\\*50@\\*150@T.",
+                "help_korean": "엔진 구동 및 차량 정차 상태에서, 레귤레이터는 R을 제외한 선택된 모드 기어에서 작동되어야 한다 (작동 : 약 800mA 및 차단 : 약 150에서 mA)."
             },
             {
                 "position": 3,
                 "mnemonic": "REGULATEUR_NUMERO_05",
-                "label_index": "12039",
+                "label_index": "@P12039@\\*5",
                 "label_korean": "레귤레이터 번호5",
                 "group_id": "105102",
                 "req_frame_id": "315652",
@@ -332,13 +332,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "5",
-                "help_code": "29516",
-                "help_korean": "엔진 구동 및 차량 정차 상태에서, 레귤레이터는\n- D와 M 그리고 3,2,1에서 작동해야 한다 (작동 :\n- 약 250에서 800mA 및 차단 : 50에서 150mA)."
+                "help_code": "@P29516@\\*250@\\*800@\\*50@\\*150@T.",
+                "help_korean": "엔진 구동 및 차량 정차 상태에서, 레귤레이터는 D와 M 그리고 3,2,1에서 작동해야 한다 (작동 : 약 250에서 800mA 및 차단 : 50에서 150mA)."
             },
             {
                 "position": 4,
                 "mnemonic": "REGULATEUR_NUMERO_06",
-                "label_index": "12039",
+                "label_index": "@P12039@\\*6",
                 "label_korean": "레귤레이터 번호6",
                 "group_id": "105102",
                 "req_frame_id": "315652",
@@ -354,8 +354,8 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "6",
-                "help_code": "29519",
-                "help_korean": "엔진 구동 및 차량 정차 상태에서, 레귤레이터는 스노우 위치에서\n- 2을 제외하고 모든 기어에서 작동해야 한다 (작동 :\n- 약 800mA 및 차단 : 약 50에서 150mA)."
+                "help_code": "@P29519@\\*2@\\*800@\\*50@\\*150@T.",
+                "help_korean": "엔진 구동 및 차량 정차 상태에서, 레귤레이터는 스노우 위치에서 2을 제외하고 모든 기어에서 작동해야 한다 (작동 : 약 800mA 및 차단 : 약 50에서 150mA)."
             }
         ]
     },
@@ -368,7 +368,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_POSITION_SELECTEUR",
-                "label_index": "6285",
+                "label_index": "@P6285@\\*",
                 "label_korean": "셀렉터 위치",
                 "group_id": "105103",
                 "req_frame_id": "315655",
@@ -384,13 +384,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "43807, 43808",
+                "help_code": "@P43807@T.@\\n@P43808@\\*M@\\*D@T.",
                 "help_korean": "기어 레버의 실제 위치.\n푸시 스위치의 경우, 위치M이 D표시된다."
             },
             {
                 "position": 2,
                 "mnemonic": "MP_POSITION_PROGRAMME",
-                "label_index": "5518",
+                "label_index": "@P5518@\\*",
                 "label_korean": "프로그램 위치",
                 "group_id": "105103",
                 "req_frame_id": "315655",
@@ -406,13 +406,13 @@
                 "bit_mask": 3,
                 "bit_shift": 0,
                 "dynamic_arg": "",
-                "help_code": "41529",
+                "help_code": "@P41529@T.",
                 "help_korean": "이 측정은 푸시 스위치 위치를 위해 (차량에 따라) 스포츠, 스노우 또는 수동 프로그램이 선택되지 않았을 경우 ECO를 표시해야 한다."
             },
             {
                 "position": 3,
                 "mnemonic": "MP_ETAT_KICKDOWN_BVA",
-                "label_index": "12654",
+                "label_index": "@P12654",
                 "label_korean": "킥다운",
                 "group_id": "105103",
                 "req_frame_id": "315655",
@@ -428,14 +428,14 @@
                 "bit_mask": 2,
                 "bit_shift": 1,
                 "dynamic_arg": "",
-                "help_code": "45552, 29546",
-                "help_korean": "완전 충전 스위치의 상태 차량 및 연식에 따라, 스위치로부터 계산할 수 있다."
+                "help_code": "@P45552@\\+@P29546@T.",
+                "help_korean": "완전 충전 스위치의 상태차량 및 연식에 따라, 스위치로부터 계산할 수 있다."
             },
             {
                 "position": 4,
                 "mnemonic": "MP_COMMANDE_IMPULSIONNELLE_PLUS",
-                "label_index": "5218",
-                "label_korean": "푸시 스위치",
+                "label_index": "@P5218@\\*+",
+                "label_korean": "푸시 스위치+",
                 "group_id": "105103",
                 "req_frame_id": "315655",
                 "resp_frame_id": "315656",
@@ -453,13 +453,13 @@
                 "bit_mask": 4,
                 "bit_shift": 2,
                 "dynamic_arg": "",
-                "help_code": "43809, 43810",
-                "help_korean": "푸시 스위치 뿐만 아니라 위치P과 M가 없을 경우 작동이다;R;N;D T.\n레버가 P 또는 M일 경우 차단이다-."
+                "help_code": "@P43809@\\*P;R;N;D@\\*+@T.@\\n@P43810@\\*M@\\*-@T.",
+                "help_korean": "푸시 스위치 뿐만 아니라 위치P과 M가 없을 경우 작동이다;R;N;D+.\n레버가 P 또는 M일 경우 차단이다-."
             },
             {
                 "position": 5,
                 "mnemonic": "MP_COMMANDE_IMPULSIONNELLE_MOINS",
-                "label_index": "5218",
+                "label_index": "@P5218@\\*-",
                 "label_korean": "푸시 스위치-",
                 "group_id": "105103",
                 "req_frame_id": "315655",
@@ -478,14 +478,14 @@
                 "bit_mask": 8,
                 "bit_shift": 3,
                 "dynamic_arg": "",
-                "help_code": "43809, 43810",
-                "help_korean": "푸시 스위치 뿐만 아니라 위치P과 M가 없을 경우 작동이다;R;N;D-.\n레버가 P 또는 M일 경우 차단이다 T."
+                "help_code": "@P43809@\\*P;R;N;D@\\*-@T.@\\n@P43810@\\*M@\\*+@T.",
+                "help_korean": "푸시 스위치 뿐만 아니라 위치P과 M가 없을 경우 작동이다;R;N;D-.\n레버가 P 또는 M일 경우 차단이다+."
             },
             {
                 "position": 6,
                 "mnemonic": "MP_SHIFTLOCK_1",
-                "label_index": "43790",
-                "label_korean": "레버 해제 ( 시프트-록 )",
+                "label_index": "@P43790@\\+@T (@\\+@P22946@\\+@T)",
+                "label_korean": "레버 해제 (시프트-록)",
                 "group_id": "105103",
                 "req_frame_id": "315655",
                 "resp_frame_id": "315656",
@@ -500,13 +500,13 @@
                 "bit_mask": 8,
                 "bit_shift": 3,
                 "dynamic_arg": "",
-                "help_code": "41995",
+                "help_code": "@P41995@\\*P@T.",
                 "help_korean": "위치P에서는 작동이고 다른 위치에서는 차단이다 (연식 및 판매 국가에 따라)."
             },
             {
                 "position": 7,
                 "mnemonic": "MP_KEYLOCK_1",
-                "label_index": "41393",
+                "label_index": "@P41393",
                 "label_korean": "키 블로킹 액추에이터",
                 "group_id": "105103",
                 "req_frame_id": "315655",
@@ -522,13 +522,13 @@
                 "bit_mask": 16,
                 "bit_shift": 4,
                 "dynamic_arg": "",
-                "help_code": "41316",
+                "help_code": "@P41316@T.",
                 "help_korean": "차량에 존재하지 않을 경우, 측정은 영구적으로 작동이다 (연식 및 판매 국가에 따라)."
             },
             {
                 "position": 8,
                 "mnemonic": "MV1",
-                "label_index": "34298",
+                "label_index": "@P34298@\\*MV1",
                 "label_korean": "MV1 솔레노이드 밸브",
                 "group_id": "105103",
                 "req_frame_id": "315655",
@@ -544,13 +544,13 @@
                 "bit_mask": 32,
                 "bit_shift": 5,
                 "dynamic_arg": "MV1",
-                "help_code": "41933, 43072",
+                "help_code": "@P41933@T.@\\n@P43072@T.",
                 "help_korean": "2 제어 압력을 가능하게 하는 ON/OFF 타입의 솔레노이드 밸브.\n공회전시 차량이 정차 상태에서, 선택된 모든 기어에서 반드시 작동이어야 한다."
             },
             {
                 "position": 9,
                 "mnemonic": "MV2",
-                "label_index": "34298",
+                "label_index": "@P34298@\\*MV2",
                 "label_korean": "MV2 솔레노이드 밸브",
                 "group_id": "105103",
                 "req_frame_id": "315655",
@@ -566,7 +566,7 @@
                 "bit_mask": 64,
                 "bit_shift": 6,
                 "dynamic_arg": "MV2",
-                "help_code": "29544, 8560",
+                "help_code": "@P29544@T.@\\n@P8560@\\*D@\\*3@\\*2@T.",
                 "help_korean": "클러치 중의 하나를 제어하는 2-포지션 솔레노이드 밸브의 상태.\n차량이 정차 상태에서 공회전시, 2-포지션 솔레노이드 밸브는 D, 3 및 2에서 스노우 포지션을 제외한 모든 기어에서 작동해야 한다."
             }
         ]
@@ -580,7 +580,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_TENSION_BATTERIE1",
-                "label_index": "18263",
+                "label_index": "@P18263",
                 "label_korean": "배터리 전압",
                 "group_id": "105111",
                 "req_frame_id": "315679",
@@ -602,7 +602,7 @@
             {
                 "position": 2,
                 "mnemonic": "MP_TEMPERATUREHUILE",
-                "label_index": "11459",
+                "label_index": "@P11459@T BVA",
                 "label_korean": "오일 온도 BVA",
                 "group_id": "105111",
                 "req_frame_id": "315679",
@@ -624,7 +624,7 @@
             {
                 "position": 3,
                 "mnemonic": "CONTACTNEIGE",
-                "label_index": "2255",
+                "label_index": "@P2255",
                 "label_korean": "스노우 스위치",
                 "group_id": "105111",
                 "req_frame_id": "315679",
@@ -646,7 +646,7 @@
             {
                 "position": 4,
                 "mnemonic": "CONTACTSPORT",
-                "label_index": "12794",
+                "label_index": "@P12794",
                 "label_korean": "스포츠 스위치",
                 "group_id": "105111",
                 "req_frame_id": "315679",
@@ -668,7 +668,7 @@
             {
                 "position": 5,
                 "mnemonic": "CONTACTL4",
-                "label_index": "11163",
+                "label_index": "@P11163@\\*4",
                 "label_korean": "스위치 L4",
                 "group_id": "105111",
                 "req_frame_id": "315679",
@@ -684,13 +684,13 @@
                 "bit_mask": 16,
                 "bit_shift": 4,
                 "dynamic_arg": "4",
-                "help_code": "43816, 43817",
+                "help_code": "@P43816@\\*(1600)@\\n@P43817@\\*4@\\*9@\\*R-3-2-1",
                 "help_korean": "다기능 스위치4는 4 포지션 스위치를 포함하고 있다(1600)\nL4(핀9)은 셀렉터가 위치R에서 작동이다-3-2-1"
             },
             {
                 "position": 6,
                 "mnemonic": "CONTACTL3",
-                "label_index": "11163",
+                "label_index": "@P11163@\\*3",
                 "label_korean": "스위치 L3",
                 "group_id": "105111",
                 "req_frame_id": "315679",
@@ -706,13 +706,13 @@
                 "bit_mask": 32,
                 "bit_shift": 5,
                 "dynamic_arg": "3",
-                "help_code": "43816, 43817",
+                "help_code": "@P43816@\\*(1600)@\\n@P43817@\\*3@\\*37@\\*P-D-M-2-1",
                 "help_korean": "다기능 스위치3는 4 포지션 스위치를 포함하고 있다(1600)\nL3(핀37)은 셀렉터가 위치P에서 작동이다-D-M-2-1"
             },
             {
                 "position": 7,
                 "mnemonic": "CONTACTL2",
-                "label_index": "11163",
+                "label_index": "@P11163@\\*2",
                 "label_korean": "스위치 L2",
                 "group_id": "105111",
                 "req_frame_id": "315679",
@@ -728,13 +728,13 @@
                 "bit_mask": 64,
                 "bit_shift": 6,
                 "dynamic_arg": "2",
-                "help_code": "43816, 43817",
+                "help_code": "@P43816@\\*(1600)@\\n@P43817@\\*2@\\*8@\\*N-D-M-3-1",
                 "help_korean": "다기능 스위치2는 4 포지션 스위치를 포함하고 있다(1600)\nL2(핀8)은 셀렉터가 위치N에서 작동이다-D-M-3-1"
             },
             {
                 "position": 8,
                 "mnemonic": "CONTACTL1",
-                "label_index": "11163",
+                "label_index": "@P11163@\\*1",
                 "label_korean": "스위치 L1",
                 "group_id": "105111",
                 "req_frame_id": "315679",
@@ -750,13 +750,13 @@
                 "bit_mask": 128,
                 "bit_shift": 7,
                 "dynamic_arg": "1",
-                "help_code": "43816, 43817",
+                "help_code": "@P43816@\\*(1600)@\\n@P43817@\\*1@\\*36@\\*D-M-3-1",
                 "help_korean": "다기능 스위치1는 4 포지션 스위치를 포함하고 있다(1600)\nL1(핀36)은 셀렉터가 위치D에서 작동이다-M-3-1"
             },
             {
                 "position": 9,
                 "mnemonic": "CA_REGIME_MOTEUR",
-                "label_index": "7917",
+                "label_index": "@P7917",
                 "label_korean": "엔진 속도",
                 "group_id": "105111",
                 "req_frame_id": "315679",
@@ -772,13 +772,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "41235",
+                "help_code": "@P41235@T.",
                 "help_korean": "엔진 ECU로부터 제공되며 CAN을 통해서 전달된다."
             },
             {
                 "position": 10,
                 "mnemonic": "REGIMESORTIE",
-                "label_index": "12163",
+                "label_index": "@P12163",
                 "label_korean": "출력 속도",
                 "group_id": "105111",
                 "req_frame_id": "315679",
@@ -794,13 +794,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "6390",
+                "help_code": "@P6390",
                 "help_korean": "차량이 정차 상태일 때는 0이고 가속할 때 증가한다"
             },
             {
                 "position": 11,
                 "mnemonic": "KEYLOCK",
-                "label_index": "22963",
+                "label_index": "@P22963",
                 "label_korean": "키-록",
                 "group_id": "105111",
                 "req_frame_id": "315679",
@@ -816,13 +816,13 @@
                 "bit_mask": 1,
                 "bit_shift": 0,
                 "dynamic_arg": "",
-                "help_code": "41316",
+                "help_code": "@P41316@T.",
                 "help_korean": "차량에 존재하지 않을 경우, 측정은 영구적으로 작동이다 (연식 및 판매 국가에 따라)."
             },
             {
                 "position": 12,
                 "mnemonic": "SHIFTLOCK",
-                "label_index": "22946",
+                "label_index": "@P22946",
                 "label_korean": "시프트-록",
                 "group_id": "105111",
                 "req_frame_id": "315679",
@@ -838,13 +838,13 @@
                 "bit_mask": 2,
                 "bit_shift": 1,
                 "dynamic_arg": "",
-                "help_code": "41995",
+                "help_code": "@P41995@\\*P@T.",
                 "help_korean": "위치P에서는 작동이고 다른 위치에서는 차단이다 (연식 및 판매 국가에 따라)."
             },
             {
                 "position": 13,
                 "mnemonic": "ELECTROVANNEMV2",
-                "label_index": "34298",
+                "label_index": "@P34298@\\*MV2",
                 "label_korean": "MV2 솔레노이드 밸브",
                 "group_id": "105111",
                 "req_frame_id": "315679",
@@ -860,13 +860,13 @@
                 "bit_mask": 64,
                 "bit_shift": 6,
                 "dynamic_arg": "MV2",
-                "help_code": "6444",
+                "help_code": "@P6444",
                 "help_korean": "2-포지션 솔레노이드 밸브는, 차량이 정차 상태에서 공회전시, 선택된 모든 기어에서 작동해야 한다"
             },
             {
                 "position": 14,
                 "mnemonic": "ELECTROVANNEMV1",
-                "label_index": "34298",
+                "label_index": "@P34298@\\*MV1",
                 "label_korean": "MV1 솔레노이드 밸브",
                 "group_id": "105111",
                 "req_frame_id": "315679",
@@ -882,7 +882,7 @@
                 "bit_mask": 128,
                 "bit_shift": 7,
                 "dynamic_arg": "MV1",
-                "help_code": "8560",
+                "help_code": "@P8560@\\*D@\\*3@\\*2",
                 "help_korean": "차량이 정차 상태에서 공회전시, 2-포지션 솔레노이드 밸브는 D, 3 및 2에서 스노우 포지션을 제외한 모든 기어에서 작동해야 한다"
             }
         ]
@@ -896,7 +896,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_TENSION_BATTERIE1",
-                "label_index": "18263",
+                "label_index": "@P18263",
                 "label_korean": "배터리 전압",
                 "group_id": "105111",
                 "req_frame_id": "315679",
@@ -918,7 +918,7 @@
             {
                 "position": 2,
                 "mnemonic": "KEYLOCK",
-                "label_index": "22963",
+                "label_index": "@P22963",
                 "label_korean": "키-록",
                 "group_id": "105111",
                 "req_frame_id": "315679",
@@ -934,13 +934,13 @@
                 "bit_mask": 1,
                 "bit_shift": 0,
                 "dynamic_arg": "",
-                "help_code": "41316",
+                "help_code": "@P41316@T.",
                 "help_korean": "차량에 존재하지 않을 경우, 측정은 영구적으로 작동이다 (연식 및 판매 국가에 따라)."
             },
             {
                 "position": 3,
                 "mnemonic": "SHIFTLOCK",
-                "label_index": "22946",
+                "label_index": "@P22946",
                 "label_korean": "시프트-록",
                 "group_id": "105111",
                 "req_frame_id": "315679",
@@ -956,13 +956,13 @@
                 "bit_mask": 2,
                 "bit_shift": 1,
                 "dynamic_arg": "",
-                "help_code": "41995",
+                "help_code": "@P41995@\\*P@T.",
                 "help_korean": "위치P에서는 작동이고 다른 위치에서는 차단이다 (연식 및 판매 국가에 따라)."
             },
             {
                 "position": 4,
                 "mnemonic": "ELECTROVANNEMV2",
-                "label_index": "34298",
+                "label_index": "@P34298@\\*MV2",
                 "label_korean": "MV2 솔레노이드 밸브",
                 "group_id": "105111",
                 "req_frame_id": "315679",
@@ -978,13 +978,13 @@
                 "bit_mask": 64,
                 "bit_shift": 6,
                 "dynamic_arg": "MV2",
-                "help_code": "6444",
+                "help_code": "@P6444",
                 "help_korean": "2-포지션 솔레노이드 밸브는, 차량이 정차 상태에서 공회전시, 선택된 모든 기어에서 작동해야 한다"
             },
             {
                 "position": 5,
                 "mnemonic": "ELECTROVANNEMV1",
-                "label_index": "34298",
+                "label_index": "@P34298@\\*MV1",
                 "label_korean": "MV1 솔레노이드 밸브",
                 "group_id": "105111",
                 "req_frame_id": "315679",
@@ -1000,13 +1000,13 @@
                 "bit_mask": 128,
                 "bit_shift": 7,
                 "dynamic_arg": "MV1",
-                "help_code": "8560",
+                "help_code": "@P8560@\\*D@\\*3@\\*2",
                 "help_korean": "차량이 정차 상태에서 공회전시, 2-포지션 솔레노이드 밸브는 D, 3 및 2에서 스노우 포지션을 제외한 모든 기어에서 작동해야 한다"
             },
             {
                 "position": 6,
                 "mnemonic": "CA_RAPPORTPASSAGE",
-                "label_index": "2604",
+                "label_index": "@P2604",
                 "label_korean": "기어 또는 기어 변속",
                 "group_id": "105111",
                 "req_frame_id": "315679",
@@ -1022,13 +1022,13 @@
                 "bit_mask": 31,
                 "bit_shift": 0,
                 "dynamic_arg": "",
-                "help_code": "43818, 43838",
+                "help_code": "@P43818@\\n@P43838",
                 "help_korean": "기어 체결됨 또는 체결 중\n위치 1M은 펄스 모드에서 1단 기어에 해당된다"
             },
             {
                 "position": 7,
                 "mnemonic": "CA_CONVERTISSEUR",
-                "label_index": "8826",
+                "label_index": "@P8826",
                 "label_korean": "컨버터",
                 "group_id": "105111",
                 "req_frame_id": "315679",
@@ -1047,13 +1047,13 @@
                 "bit_mask": 96,
                 "bit_shift": 5,
                 "dynamic_arg": "",
-                "help_code": "43819, 43820, 43821",
+                "help_code": "@P43819@\\n@P43820@\\n@P43821",
                 "help_korean": "컨버터가 연결되지 않았을 때, 기존의 컨버터와 동일한 방법으로 작동한다\n연결되었을 때, 엔진과 변속기를 직접 연결한다\n제어된 슬라이딩 모드는 컨버터의 중간 상태에 해당되며 엔진과 변속기의 연결을 점검하도록 한다"
             },
             {
                 "position": 8,
                 "mnemonic": "CA_MODEFONCTION",
-                "label_index": "12882",
+                "label_index": "@P12882@\\*",
                 "label_korean": "작동 모드",
                 "group_id": "105111",
                 "req_frame_id": "315679",
@@ -1069,13 +1069,13 @@
                 "bit_mask": 128,
                 "bit_shift": 7,
                 "dynamic_arg": "",
-                "help_code": "6162",
+                "help_code": "@P6162",
                 "help_korean": "주행은 상단 기어 변속 단계에 해당되고 변속 다운은 하단 기어 변속 단계에 해당된다"
             },
             {
                 "position": 9,
                 "mnemonic": "CA_REGIME_MOTEUR",
-                "label_index": "7917",
+                "label_index": "@P7917",
                 "label_korean": "엔진 속도",
                 "group_id": "105111",
                 "req_frame_id": "315679",
@@ -1091,13 +1091,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "41235",
+                "help_code": "@P41235@T.",
                 "help_korean": "엔진 ECU로부터 제공되며 CAN을 통해서 전달된다."
             },
             {
                 "position": 10,
                 "mnemonic": "REGIMESORTIE",
-                "label_index": "12163",
+                "label_index": "@P12163",
                 "label_korean": "출력 속도",
                 "group_id": "105111",
                 "req_frame_id": "315679",
@@ -1113,13 +1113,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "6390",
+                "help_code": "@P6390",
                 "help_korean": "차량이 정차 상태일 때는 0이고 가속할 때 증가한다"
             },
             {
                 "position": 11,
                 "mnemonic": "REGIMETURBINE",
-                "label_index": "14418",
+                "label_index": "@P14418",
                 "label_korean": "터빈 속도",
                 "group_id": "105111",
                 "req_frame_id": "315679",
@@ -1149,7 +1149,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_TENSION_BATTERIE1",
-                "label_index": "18263",
+                "label_index": "@P18263",
                 "label_korean": "배터리 전압",
                 "group_id": "105111",
                 "req_frame_id": "315679",
@@ -1171,7 +1171,7 @@
             {
                 "position": 2,
                 "mnemonic": "MP_TEMPERATUREHUILE",
-                "label_index": "11459",
+                "label_index": "@P11459@T BVA",
                 "label_korean": "오일 온도 BVA",
                 "group_id": "105111",
                 "req_frame_id": "315679",
@@ -1193,7 +1193,7 @@
             {
                 "position": 3,
                 "mnemonic": "CA_RAPPORTPASSAGE",
-                "label_index": "2604",
+                "label_index": "@P2604",
                 "label_korean": "기어 또는 기어 변속",
                 "group_id": "105111",
                 "req_frame_id": "315679",
@@ -1209,13 +1209,13 @@
                 "bit_mask": 31,
                 "bit_shift": 0,
                 "dynamic_arg": "",
-                "help_code": "43818, 43838",
+                "help_code": "@P43818@\\n@P43838",
                 "help_korean": "기어 체결됨 또는 체결 중\n위치 1M은 펄스 모드에서 1단 기어에 해당된다"
             },
             {
                 "position": 4,
                 "mnemonic": "CA_CONVERTISSEUR",
-                "label_index": "8826",
+                "label_index": "@P8826",
                 "label_korean": "컨버터",
                 "group_id": "105111",
                 "req_frame_id": "315679",
@@ -1234,13 +1234,13 @@
                 "bit_mask": 96,
                 "bit_shift": 5,
                 "dynamic_arg": "",
-                "help_code": "43819, 43820, 43821",
+                "help_code": "@P43819@\\n@P43820@\\n@P43821",
                 "help_korean": "컨버터가 연결되지 않았을 때, 기존의 컨버터와 동일한 방법으로 작동한다\n연결되었을 때, 엔진과 변속기를 직접 연결한다\n제어된 슬라이딩 모드는 컨버터의 중간 상태에 해당되며 엔진과 변속기의 연결을 점검하도록 한다"
             },
             {
                 "position": 5,
                 "mnemonic": "CA_MODEFONCTION",
-                "label_index": "12882",
+                "label_index": "@P12882@\\*",
                 "label_korean": "작동 모드",
                 "group_id": "105111",
                 "req_frame_id": "315679",
@@ -1256,13 +1256,13 @@
                 "bit_mask": 128,
                 "bit_shift": 7,
                 "dynamic_arg": "",
-                "help_code": "6162",
+                "help_code": "@P6162",
                 "help_korean": "주행은 상단 기어 변속 단계에 해당되고 변속 다운은 하단 기어 변속 단계에 해당된다"
             },
             {
                 "position": 6,
                 "mnemonic": "CA_REGIME_MOTEUR",
-                "label_index": "7917",
+                "label_index": "@P7917",
                 "label_korean": "엔진 속도",
                 "group_id": "105111",
                 "req_frame_id": "315679",
@@ -1278,13 +1278,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "41235",
+                "help_code": "@P41235@T.",
                 "help_korean": "엔진 ECU로부터 제공되며 CAN을 통해서 전달된다."
             },
             {
                 "position": 7,
                 "mnemonic": "COUPLEMOTEUR",
-                "label_index": "13664",
+                "label_index": "@P13664",
                 "label_korean": "엔진 토크",
                 "group_id": "105111",
                 "req_frame_id": "315679",
@@ -1306,7 +1306,7 @@
             {
                 "position": 8,
                 "mnemonic": "REGIMETURBINE",
-                "label_index": "14418",
+                "label_index": "@P14418",
                 "label_korean": "터빈 속도",
                 "group_id": "105111",
                 "req_frame_id": "315679",
@@ -1336,7 +1336,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_TENSION_BATTERIE1",
-                "label_index": "18263",
+                "label_index": "@P18263",
                 "label_korean": "배터리 전압",
                 "group_id": "105111",
                 "req_frame_id": "315679",
@@ -1358,7 +1358,7 @@
             {
                 "position": 2,
                 "mnemonic": "MP_TEMPERATUREHUILE",
-                "label_index": "11459",
+                "label_index": "@P11459@T BVA",
                 "label_korean": "오일 온도 BVA",
                 "group_id": "105111",
                 "req_frame_id": "315679",
@@ -1380,7 +1380,7 @@
             {
                 "position": 3,
                 "mnemonic": "CA_ENFONCEMENTPEDALE",
-                "label_index": "11568",
+                "label_index": "@P11568",
                 "label_korean": "페달 아래로 누름",
                 "group_id": "105111",
                 "req_frame_id": "315679",
@@ -1402,7 +1402,7 @@
             {
                 "position": 4,
                 "mnemonic": "CA_REGIME_MOTEUR",
-                "label_index": "7917",
+                "label_index": "@P7917",
                 "label_korean": "엔진 속도",
                 "group_id": "105111",
                 "req_frame_id": "315679",
@@ -1418,13 +1418,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "41235",
+                "help_code": "@P41235@T.",
                 "help_korean": "엔진 ECU로부터 제공되며 CAN을 통해서 전달된다."
             },
             {
                 "position": 5,
                 "mnemonic": "REGIMESORTIE",
-                "label_index": "12163",
+                "label_index": "@P12163",
                 "label_korean": "출력 속도",
                 "group_id": "105111",
                 "req_frame_id": "315679",
@@ -1440,13 +1440,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "6390",
+                "help_code": "@P6390",
                 "help_korean": "차량이 정차 상태일 때는 0이고 가속할 때 증가한다"
             },
             {
                 "position": 6,
                 "mnemonic": "CA_RAPPORTPASSAGE",
-                "label_index": "2604",
+                "label_index": "@P2604",
                 "label_korean": "기어 또는 기어 변속",
                 "group_id": "105111",
                 "req_frame_id": "315679",
@@ -1462,13 +1462,13 @@
                 "bit_mask": 31,
                 "bit_shift": 0,
                 "dynamic_arg": "",
-                "help_code": "43818, 43838",
+                "help_code": "@P43818@\\n@P43838",
                 "help_korean": "기어 체결됨 또는 체결 중\n위치 1M은 펄스 모드에서 1단 기어에 해당된다"
             },
             {
                 "position": 7,
                 "mnemonic": "CA_CONVERTISSEUR",
-                "label_index": "8826",
+                "label_index": "@P8826",
                 "label_korean": "컨버터",
                 "group_id": "105111",
                 "req_frame_id": "315679",
@@ -1487,13 +1487,13 @@
                 "bit_mask": 96,
                 "bit_shift": 5,
                 "dynamic_arg": "",
-                "help_code": "43819, 43820, 43821",
+                "help_code": "@P43819@\\n@P43820@\\n@P43821",
                 "help_korean": "컨버터가 연결되지 않았을 때, 기존의 컨버터와 동일한 방법으로 작동한다\n연결되었을 때, 엔진과 변속기를 직접 연결한다\n제어된 슬라이딩 모드는 컨버터의 중간 상태에 해당되며 엔진과 변속기의 연결을 점검하도록 한다"
             },
             {
                 "position": 8,
                 "mnemonic": "CA_MODEFONCTION",
-                "label_index": "12882",
+                "label_index": "@P12882@\\*",
                 "label_korean": "작동 모드",
                 "group_id": "105111",
                 "req_frame_id": "315679",
@@ -1509,7 +1509,7 @@
                 "bit_mask": 128,
                 "bit_shift": 7,
                 "dynamic_arg": "",
-                "help_code": "6162",
+                "help_code": "@P6162",
                 "help_korean": "주행은 상단 기어 변속 단계에 해당되고 변속 다운은 하단 기어 변속 단계에 해당된다"
             }
         ]
@@ -1523,7 +1523,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_TENSION_BATTERIE1",
-                "label_index": "18263",
+                "label_index": "@P18263",
                 "label_korean": "배터리 전압",
                 "group_id": "105111",
                 "req_frame_id": "315679",
@@ -1545,7 +1545,7 @@
             {
                 "position": 2,
                 "mnemonic": "MP_TEMPERATUREHUILE",
-                "label_index": "11459",
+                "label_index": "@P11459@T BVA",
                 "label_korean": "오일 온도 BVA",
                 "group_id": "105111",
                 "req_frame_id": "315679",
@@ -1567,7 +1567,7 @@
             {
                 "position": 3,
                 "mnemonic": "CA_RAPPORTPASSAGE",
-                "label_index": "2604",
+                "label_index": "@P2604",
                 "label_korean": "기어 또는 기어 변속",
                 "group_id": "105111",
                 "req_frame_id": "315679",
@@ -1583,13 +1583,13 @@
                 "bit_mask": 31,
                 "bit_shift": 0,
                 "dynamic_arg": "",
-                "help_code": "43818, 43838",
+                "help_code": "@P43818@\\n@P43838",
                 "help_korean": "기어 체결됨 또는 체결 중\n위치 1M은 펄스 모드에서 1단 기어에 해당된다"
             },
             {
                 "position": 4,
                 "mnemonic": "CA_CONVERTISSEUR",
-                "label_index": "8826",
+                "label_index": "@P8826",
                 "label_korean": "컨버터",
                 "group_id": "105111",
                 "req_frame_id": "315679",
@@ -1608,13 +1608,13 @@
                 "bit_mask": 96,
                 "bit_shift": 5,
                 "dynamic_arg": "",
-                "help_code": "43819, 43820, 43821",
+                "help_code": "@P43819@\\n@P43820@\\n@P43821",
                 "help_korean": "컨버터가 연결되지 않았을 때, 기존의 컨버터와 동일한 방법으로 작동한다\n연결되었을 때, 엔진과 변속기를 직접 연결한다\n제어된 슬라이딩 모드는 컨버터의 중간 상태에 해당되며 엔진과 변속기의 연결을 점검하도록 한다"
             },
             {
                 "position": 5,
                 "mnemonic": "CA_MODEFONCTION",
-                "label_index": "12882",
+                "label_index": "@P12882@\\*",
                 "label_korean": "작동 모드",
                 "group_id": "105111",
                 "req_frame_id": "315679",
@@ -1630,13 +1630,13 @@
                 "bit_mask": 128,
                 "bit_shift": 7,
                 "dynamic_arg": "",
-                "help_code": "6162",
+                "help_code": "@P6162",
                 "help_korean": "주행은 상단 기어 변속 단계에 해당되고 변속 다운은 하단 기어 변속 단계에 해당된다"
             },
             {
                 "position": 6,
                 "mnemonic": "TENSIONREGULATEURS",
-                "label_index": "2169",
+                "label_index": "@P2169",
                 "label_korean": "레귤레이터 및 솔레노이드 밸브 전압",
                 "group_id": "105111",
                 "req_frame_id": "315679",
@@ -1652,13 +1652,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "4900",
+                "help_code": "@P4900",
                 "help_korean": "배터리 전압과 동일해야 한다"
             },
             {
                 "position": 7,
                 "mnemonic": "CONTACTNEIGE",
-                "label_index": "2255",
+                "label_index": "@P2255",
                 "label_korean": "스노우 스위치",
                 "group_id": "105111",
                 "req_frame_id": "315679",
@@ -1680,7 +1680,7 @@
             {
                 "position": 8,
                 "mnemonic": "CONTACTSPORT",
-                "label_index": "12794",
+                "label_index": "@P12794",
                 "label_korean": "스포츠 스위치",
                 "group_id": "105111",
                 "req_frame_id": "315679",
@@ -1702,7 +1702,7 @@
             {
                 "position": 9,
                 "mnemonic": "CONTACTL4",
-                "label_index": "11163",
+                "label_index": "@P11163@\\*4",
                 "label_korean": "스위치 L4",
                 "group_id": "105111",
                 "req_frame_id": "315679",
@@ -1718,13 +1718,13 @@
                 "bit_mask": 16,
                 "bit_shift": 4,
                 "dynamic_arg": "4",
-                "help_code": "43816, 43817",
+                "help_code": "@P43816@\\*(1600)@\\n@P43817@\\*4@\\*9@\\*R-3-2-1",
                 "help_korean": "다기능 스위치4는 4 포지션 스위치를 포함하고 있다(1600)\nL4(핀9)은 셀렉터가 위치R에서 작동이다-3-2-1"
             },
             {
                 "position": 10,
                 "mnemonic": "CONTACTL3",
-                "label_index": "11163",
+                "label_index": "@P11163@\\*3",
                 "label_korean": "스위치 L3",
                 "group_id": "105111",
                 "req_frame_id": "315679",
@@ -1740,13 +1740,13 @@
                 "bit_mask": 32,
                 "bit_shift": 5,
                 "dynamic_arg": "3",
-                "help_code": "43816, 43817",
+                "help_code": "@P43816@\\*(1600)@\\n@P43817@\\*3@\\*37@\\*P-D-M-2-1",
                 "help_korean": "다기능 스위치3는 4 포지션 스위치를 포함하고 있다(1600)\nL3(핀37)은 셀렉터가 위치P에서 작동이다-D-M-2-1"
             },
             {
                 "position": 11,
                 "mnemonic": "CONTACTL2",
-                "label_index": "11163",
+                "label_index": "@P11163@\\*2",
                 "label_korean": "스위치 L2",
                 "group_id": "105111",
                 "req_frame_id": "315679",
@@ -1762,13 +1762,13 @@
                 "bit_mask": 64,
                 "bit_shift": 6,
                 "dynamic_arg": "2",
-                "help_code": "43816, 43817",
+                "help_code": "@P43816@\\*(1600)@\\n@P43817@\\*2@\\*8@\\*N-D-M-3-1",
                 "help_korean": "다기능 스위치2는 4 포지션 스위치를 포함하고 있다(1600)\nL2(핀8)은 셀렉터가 위치N에서 작동이다-D-M-3-1"
             },
             {
                 "position": 12,
                 "mnemonic": "CONTACTL1",
-                "label_index": "11163",
+                "label_index": "@P11163@\\*1",
                 "label_korean": "스위치 L1",
                 "group_id": "105111",
                 "req_frame_id": "315679",
@@ -1784,13 +1784,13 @@
                 "bit_mask": 128,
                 "bit_shift": 7,
                 "dynamic_arg": "1",
-                "help_code": "43816, 43817",
+                "help_code": "@P43816@\\*(1600)@\\n@P43817@\\*1@\\*36@\\*D-M-3-1",
                 "help_korean": "다기능 스위치1는 4 포지션 스위치를 포함하고 있다(1600)\nL1(핀36)은 셀렉터가 위치D에서 작동이다-M-3-1"
             },
             {
                 "position": 13,
                 "mnemonic": "KEYLOCK",
-                "label_index": "22963",
+                "label_index": "@P22963",
                 "label_korean": "키-록",
                 "group_id": "105111",
                 "req_frame_id": "315679",
@@ -1806,13 +1806,13 @@
                 "bit_mask": 1,
                 "bit_shift": 0,
                 "dynamic_arg": "",
-                "help_code": "41316",
+                "help_code": "@P41316@T.",
                 "help_korean": "차량에 존재하지 않을 경우, 측정은 영구적으로 작동이다 (연식 및 판매 국가에 따라)."
             },
             {
                 "position": 14,
                 "mnemonic": "SHIFTLOCK",
-                "label_index": "22946",
+                "label_index": "@P22946",
                 "label_korean": "시프트-록",
                 "group_id": "105111",
                 "req_frame_id": "315679",
@@ -1828,13 +1828,13 @@
                 "bit_mask": 2,
                 "bit_shift": 1,
                 "dynamic_arg": "",
-                "help_code": "41995",
+                "help_code": "@P41995@\\*P@T.",
                 "help_korean": "위치P에서는 작동이고 다른 위치에서는 차단이다 (연식 및 판매 국가에 따라)."
             },
             {
                 "position": 15,
                 "mnemonic": "ELECTROVANNEMV2",
-                "label_index": "34298",
+                "label_index": "@P34298@\\*MV2",
                 "label_korean": "MV2 솔레노이드 밸브",
                 "group_id": "105111",
                 "req_frame_id": "315679",
@@ -1850,13 +1850,13 @@
                 "bit_mask": 64,
                 "bit_shift": 6,
                 "dynamic_arg": "MV2",
-                "help_code": "6444",
+                "help_code": "@P6444",
                 "help_korean": "2-포지션 솔레노이드 밸브는, 차량이 정차 상태에서 공회전시, 선택된 모든 기어에서 작동해야 한다"
             },
             {
                 "position": 16,
                 "mnemonic": "ELECTROVANNEMV1",
-                "label_index": "34298",
+                "label_index": "@P34298@\\*MV1",
                 "label_korean": "MV1 솔레노이드 밸브",
                 "group_id": "105111",
                 "req_frame_id": "315679",
@@ -1872,7 +1872,7 @@
                 "bit_mask": 128,
                 "bit_shift": 7,
                 "dynamic_arg": "MV1",
-                "help_code": "8560",
+                "help_code": "@P8560@\\*D@\\*3@\\*2",
                 "help_korean": "차량이 정차 상태에서 공회전시, 2-포지션 솔레노이드 밸브는 D, 3 및 2에서 스노우 포지션을 제외한 모든 기어에서 작동해야 한다"
             }
         ]
@@ -1886,7 +1886,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_TENSION_BATTERIE1",
-                "label_index": "18263",
+                "label_index": "@P18263",
                 "label_korean": "배터리 전압",
                 "group_id": "105111",
                 "req_frame_id": "315679",
@@ -1908,7 +1908,7 @@
             {
                 "position": 2,
                 "mnemonic": "MP_TEMPERATUREHUILE",
-                "label_index": "11459",
+                "label_index": "@P11459@T BVA",
                 "label_korean": "오일 온도 BVA",
                 "group_id": "105111",
                 "req_frame_id": "315679",
@@ -1930,7 +1930,7 @@
             {
                 "position": 3,
                 "mnemonic": "CA_ENFONCEMENTPEDALE",
-                "label_index": "11568",
+                "label_index": "@P11568",
                 "label_korean": "페달 아래로 누름",
                 "group_id": "105111",
                 "req_frame_id": "315679",
@@ -1952,7 +1952,7 @@
             {
                 "position": 4,
                 "mnemonic": "CA_REGIME_MOTEUR",
-                "label_index": "7917",
+                "label_index": "@P7917",
                 "label_korean": "엔진 속도",
                 "group_id": "105111",
                 "req_frame_id": "315679",
@@ -1968,13 +1968,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "41235",
+                "help_code": "@P41235@T.",
                 "help_korean": "엔진 ECU로부터 제공되며 CAN을 통해서 전달된다."
             },
             {
                 "position": 5,
                 "mnemonic": "REGIMESORTIE",
-                "label_index": "12163",
+                "label_index": "@P12163",
                 "label_korean": "출력 속도",
                 "group_id": "105111",
                 "req_frame_id": "315679",
@@ -1990,13 +1990,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "6390",
+                "help_code": "@P6390",
                 "help_korean": "차량이 정차 상태일 때는 0이고 가속할 때 증가한다"
             },
             {
                 "position": 6,
                 "mnemonic": "KEYLOCK",
-                "label_index": "22963",
+                "label_index": "@P22963",
                 "label_korean": "키-록",
                 "group_id": "105111",
                 "req_frame_id": "315679",
@@ -2012,13 +2012,13 @@
                 "bit_mask": 1,
                 "bit_shift": 0,
                 "dynamic_arg": "",
-                "help_code": "41316",
+                "help_code": "@P41316@T.",
                 "help_korean": "차량에 존재하지 않을 경우, 측정은 영구적으로 작동이다 (연식 및 판매 국가에 따라)."
             },
             {
                 "position": 7,
                 "mnemonic": "SHIFTLOCK",
-                "label_index": "22946",
+                "label_index": "@P22946",
                 "label_korean": "시프트-록",
                 "group_id": "105111",
                 "req_frame_id": "315679",
@@ -2034,13 +2034,13 @@
                 "bit_mask": 2,
                 "bit_shift": 1,
                 "dynamic_arg": "",
-                "help_code": "41995",
+                "help_code": "@P41995@\\*P@T.",
                 "help_korean": "위치P에서는 작동이고 다른 위치에서는 차단이다 (연식 및 판매 국가에 따라)."
             },
             {
                 "position": 8,
                 "mnemonic": "ELECTROVANNEMV2",
-                "label_index": "34298",
+                "label_index": "@P34298@\\*MV2",
                 "label_korean": "MV2 솔레노이드 밸브",
                 "group_id": "105111",
                 "req_frame_id": "315679",
@@ -2056,13 +2056,13 @@
                 "bit_mask": 64,
                 "bit_shift": 6,
                 "dynamic_arg": "MV2",
-                "help_code": "6444",
+                "help_code": "@P6444",
                 "help_korean": "2-포지션 솔레노이드 밸브는, 차량이 정차 상태에서 공회전시, 선택된 모든 기어에서 작동해야 한다"
             },
             {
                 "position": 9,
                 "mnemonic": "ELECTROVANNEMV1",
-                "label_index": "34298",
+                "label_index": "@P34298@\\*MV1",
                 "label_korean": "MV1 솔레노이드 밸브",
                 "group_id": "105111",
                 "req_frame_id": "315679",
@@ -2078,7 +2078,7 @@
                 "bit_mask": 128,
                 "bit_shift": 7,
                 "dynamic_arg": "MV1",
-                "help_code": "8560",
+                "help_code": "@P8560@\\*D@\\*3@\\*2",
                 "help_korean": "차량이 정차 상태에서 공회전시, 2-포지션 솔레노이드 밸브는 D, 3 및 2에서 스노우 포지션을 제외한 모든 기어에서 작동해야 한다"
             }
         ]
@@ -2092,7 +2092,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_TENSION_BATTERIE1",
-                "label_index": "18263",
+                "label_index": "@P18263",
                 "label_korean": "배터리 전압",
                 "group_id": "105111",
                 "req_frame_id": "315679",
@@ -2114,7 +2114,7 @@
             {
                 "position": 2,
                 "mnemonic": "MP_TEMPERATUREHUILE",
-                "label_index": "11459",
+                "label_index": "@P11459@T BVA",
                 "label_korean": "오일 온도 BVA",
                 "group_id": "105111",
                 "req_frame_id": "315679",
@@ -2136,7 +2136,7 @@
             {
                 "position": 3,
                 "mnemonic": "CA_ENFONCEMENTPEDALE",
-                "label_index": "11568",
+                "label_index": "@P11568",
                 "label_korean": "페달 아래로 누름",
                 "group_id": "105111",
                 "req_frame_id": "315679",
@@ -2158,7 +2158,7 @@
             {
                 "position": 4,
                 "mnemonic": "CA_REGIME_MOTEUR",
-                "label_index": "7917",
+                "label_index": "@P7917",
                 "label_korean": "엔진 속도",
                 "group_id": "105111",
                 "req_frame_id": "315679",
@@ -2174,13 +2174,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "41235",
+                "help_code": "@P41235@T.",
                 "help_korean": "엔진 ECU로부터 제공되며 CAN을 통해서 전달된다."
             },
             {
                 "position": 5,
                 "mnemonic": "REGIMESORTIE",
-                "label_index": "12163",
+                "label_index": "@P12163",
                 "label_korean": "출력 속도",
                 "group_id": "105111",
                 "req_frame_id": "315679",
@@ -2196,7 +2196,7 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "6390",
+                "help_code": "@P6390",
                 "help_korean": "차량이 정차 상태일 때는 0이고 가속할 때 증가한다"
             }
         ]
@@ -2210,7 +2210,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_TENSION_BATTERIE1",
-                "label_index": "18263",
+                "label_index": "@P18263",
                 "label_korean": "배터리 전압",
                 "group_id": "105111",
                 "req_frame_id": "315679",
@@ -2232,7 +2232,7 @@
             {
                 "position": 2,
                 "mnemonic": "COUPLEMOTEUR",
-                "label_index": "13664",
+                "label_index": "@P13664",
                 "label_korean": "엔진 토크",
                 "group_id": "105111",
                 "req_frame_id": "315679",
@@ -2254,7 +2254,7 @@
             {
                 "position": 3,
                 "mnemonic": "REGIMETURBINE",
-                "label_index": "14418",
+                "label_index": "@P14418",
                 "label_korean": "터빈 속도",
                 "group_id": "105111",
                 "req_frame_id": "315679",
@@ -2276,7 +2276,7 @@
             {
                 "position": 4,
                 "mnemonic": "CA_REGIME_MOTEUR",
-                "label_index": "7917",
+                "label_index": "@P7917",
                 "label_korean": "엔진 속도",
                 "group_id": "105111",
                 "req_frame_id": "315679",
@@ -2292,13 +2292,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "41235",
+                "help_code": "@P41235@T.",
                 "help_korean": "엔진 ECU로부터 제공되며 CAN을 통해서 전달된다."
             },
             {
                 "position": 5,
                 "mnemonic": "REGIMESORTIE",
-                "label_index": "12163",
+                "label_index": "@P12163",
                 "label_korean": "출력 속도",
                 "group_id": "105111",
                 "req_frame_id": "315679",
@@ -2314,13 +2314,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "6390",
+                "help_code": "@P6390",
                 "help_korean": "차량이 정차 상태일 때는 0이고 가속할 때 증가한다"
             },
             {
                 "position": 6,
                 "mnemonic": "CA_RAPPORTPASSAGE",
-                "label_index": "2604",
+                "label_index": "@P2604",
                 "label_korean": "기어 또는 기어 변속",
                 "group_id": "105111",
                 "req_frame_id": "315679",
@@ -2336,13 +2336,13 @@
                 "bit_mask": 31,
                 "bit_shift": 0,
                 "dynamic_arg": "",
-                "help_code": "43818, 43838",
+                "help_code": "@P43818@\\n@P43838",
                 "help_korean": "기어 체결됨 또는 체결 중\n위치 1M은 펄스 모드에서 1단 기어에 해당된다"
             },
             {
                 "position": 7,
                 "mnemonic": "CA_CONVERTISSEUR",
-                "label_index": "8826",
+                "label_index": "@P8826",
                 "label_korean": "컨버터",
                 "group_id": "105111",
                 "req_frame_id": "315679",
@@ -2361,13 +2361,13 @@
                 "bit_mask": 96,
                 "bit_shift": 5,
                 "dynamic_arg": "",
-                "help_code": "43819, 43820, 43821",
+                "help_code": "@P43819@\\n@P43820@\\n@P43821",
                 "help_korean": "컨버터가 연결되지 않았을 때, 기존의 컨버터와 동일한 방법으로 작동한다\n연결되었을 때, 엔진과 변속기를 직접 연결한다\n제어된 슬라이딩 모드는 컨버터의 중간 상태에 해당되며 엔진과 변속기의 연결을 점검하도록 한다"
             },
             {
                 "position": 8,
                 "mnemonic": "CA_MODEFONCTION",
-                "label_index": "12882",
+                "label_index": "@P12882@\\*",
                 "label_korean": "작동 모드",
                 "group_id": "105111",
                 "req_frame_id": "315679",
@@ -2383,7 +2383,7 @@
                 "bit_mask": 128,
                 "bit_shift": 7,
                 "dynamic_arg": "",
-                "help_code": "6162",
+                "help_code": "@P6162",
                 "help_korean": "주행은 상단 기어 변속 단계에 해당되고 변속 다운은 하단 기어 변속 단계에 해당된다"
             }
         ]
@@ -2397,7 +2397,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_TENSION_BATTERIE1",
-                "label_index": "18263",
+                "label_index": "@P18263",
                 "label_korean": "배터리 전압",
                 "group_id": "105111",
                 "req_frame_id": "315679",
@@ -2419,7 +2419,7 @@
             {
                 "position": 2,
                 "mnemonic": "MP_TEMPERATUREHUILE",
-                "label_index": "11459",
+                "label_index": "@P11459@T BVA",
                 "label_korean": "오일 온도 BVA",
                 "group_id": "105111",
                 "req_frame_id": "315679",
@@ -2441,7 +2441,7 @@
             {
                 "position": 3,
                 "mnemonic": "TENSIONREGULATEURS",
-                "label_index": "2169",
+                "label_index": "@P2169",
                 "label_korean": "레귤레이터 및 솔레노이드 밸브 전압",
                 "group_id": "105111",
                 "req_frame_id": "315679",
@@ -2457,13 +2457,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "4900",
+                "help_code": "@P4900",
                 "help_korean": "배터리 전압과 동일해야 한다"
             },
             {
                 "position": 4,
                 "mnemonic": "CA_REGIME_MOTEUR",
-                "label_index": "7917",
+                "label_index": "@P7917",
                 "label_korean": "엔진 속도",
                 "group_id": "105111",
                 "req_frame_id": "315679",
@@ -2479,13 +2479,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "41235",
+                "help_code": "@P41235@T.",
                 "help_korean": "엔진 ECU로부터 제공되며 CAN을 통해서 전달된다."
             },
             {
                 "position": 5,
                 "mnemonic": "CONTACTNEIGE",
-                "label_index": "2255",
+                "label_index": "@P2255",
                 "label_korean": "스노우 스위치",
                 "group_id": "105111",
                 "req_frame_id": "315679",
@@ -2507,7 +2507,7 @@
             {
                 "position": 6,
                 "mnemonic": "CONTACTSPORT",
-                "label_index": "12794",
+                "label_index": "@P12794",
                 "label_korean": "스포츠 스위치",
                 "group_id": "105111",
                 "req_frame_id": "315679",
@@ -2529,7 +2529,7 @@
             {
                 "position": 7,
                 "mnemonic": "CONTACTL4",
-                "label_index": "11163",
+                "label_index": "@P11163@\\*4",
                 "label_korean": "스위치 L4",
                 "group_id": "105111",
                 "req_frame_id": "315679",
@@ -2545,13 +2545,13 @@
                 "bit_mask": 16,
                 "bit_shift": 4,
                 "dynamic_arg": "4",
-                "help_code": "43816, 43817",
+                "help_code": "@P43816@\\*(1600)@\\n@P43817@\\*4@\\*9@\\*R-3-2-1",
                 "help_korean": "다기능 스위치4는 4 포지션 스위치를 포함하고 있다(1600)\nL4(핀9)은 셀렉터가 위치R에서 작동이다-3-2-1"
             },
             {
                 "position": 8,
                 "mnemonic": "CONTACTL3",
-                "label_index": "11163",
+                "label_index": "@P11163@\\*3",
                 "label_korean": "스위치 L3",
                 "group_id": "105111",
                 "req_frame_id": "315679",
@@ -2567,13 +2567,13 @@
                 "bit_mask": 32,
                 "bit_shift": 5,
                 "dynamic_arg": "3",
-                "help_code": "43816, 43817",
+                "help_code": "@P43816@\\*(1600)@\\n@P43817@\\*3@\\*37@\\*P-D-M-2-1",
                 "help_korean": "다기능 스위치3는 4 포지션 스위치를 포함하고 있다(1600)\nL3(핀37)은 셀렉터가 위치P에서 작동이다-D-M-2-1"
             },
             {
                 "position": 9,
                 "mnemonic": "CONTACTL2",
-                "label_index": "11163",
+                "label_index": "@P11163@\\*2",
                 "label_korean": "스위치 L2",
                 "group_id": "105111",
                 "req_frame_id": "315679",
@@ -2589,13 +2589,13 @@
                 "bit_mask": 64,
                 "bit_shift": 6,
                 "dynamic_arg": "2",
-                "help_code": "43816, 43817",
+                "help_code": "@P43816@\\*(1600)@\\n@P43817@\\*2@\\*8@\\*N-D-M-3-1",
                 "help_korean": "다기능 스위치2는 4 포지션 스위치를 포함하고 있다(1600)\nL2(핀8)은 셀렉터가 위치N에서 작동이다-D-M-3-1"
             },
             {
                 "position": 10,
                 "mnemonic": "CONTACTL1",
-                "label_index": "11163",
+                "label_index": "@P11163@\\*1",
                 "label_korean": "스위치 L1",
                 "group_id": "105111",
                 "req_frame_id": "315679",
@@ -2611,13 +2611,13 @@
                 "bit_mask": 128,
                 "bit_shift": 7,
                 "dynamic_arg": "1",
-                "help_code": "43816, 43817",
+                "help_code": "@P43816@\\*(1600)@\\n@P43817@\\*1@\\*36@\\*D-M-3-1",
                 "help_korean": "다기능 스위치1는 4 포지션 스위치를 포함하고 있다(1600)\nL1(핀36)은 셀렉터가 위치D에서 작동이다-M-3-1"
             },
             {
                 "position": 11,
                 "mnemonic": "CA_RAPPORTPASSAGE",
-                "label_index": "2604",
+                "label_index": "@P2604",
                 "label_korean": "기어 또는 기어 변속",
                 "group_id": "105111",
                 "req_frame_id": "315679",
@@ -2633,13 +2633,13 @@
                 "bit_mask": 31,
                 "bit_shift": 0,
                 "dynamic_arg": "",
-                "help_code": "43818, 43838",
+                "help_code": "@P43818@\\n@P43838",
                 "help_korean": "기어 체결됨 또는 체결 중\n위치 1M은 펄스 모드에서 1단 기어에 해당된다"
             },
             {
                 "position": 12,
                 "mnemonic": "CA_CONVERTISSEUR",
-                "label_index": "8826",
+                "label_index": "@P8826",
                 "label_korean": "컨버터",
                 "group_id": "105111",
                 "req_frame_id": "315679",
@@ -2658,13 +2658,13 @@
                 "bit_mask": 96,
                 "bit_shift": 5,
                 "dynamic_arg": "",
-                "help_code": "43819, 43820, 43821",
+                "help_code": "@P43819@\\n@P43820@\\n@P43821",
                 "help_korean": "컨버터가 연결되지 않았을 때, 기존의 컨버터와 동일한 방법으로 작동한다\n연결되었을 때, 엔진과 변속기를 직접 연결한다\n제어된 슬라이딩 모드는 컨버터의 중간 상태에 해당되며 엔진과 변속기의 연결을 점검하도록 한다"
             },
             {
                 "position": 13,
                 "mnemonic": "CA_MODEFONCTION",
-                "label_index": "12882",
+                "label_index": "@P12882@\\*",
                 "label_korean": "작동 모드",
                 "group_id": "105111",
                 "req_frame_id": "315679",
@@ -2680,7 +2680,7 @@
                 "bit_mask": 128,
                 "bit_shift": 7,
                 "dynamic_arg": "",
-                "help_code": "6162",
+                "help_code": "@P6162",
                 "help_korean": "주행은 상단 기어 변속 단계에 해당되고 변속 다운은 하단 기어 변속 단계에 해당된다"
             }
         ]
@@ -2694,7 +2694,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_TENSION_BATTERIE1",
-                "label_index": "18263",
+                "label_index": "@P18263",
                 "label_korean": "배터리 전압",
                 "group_id": "105111",
                 "req_frame_id": "315679",
@@ -2716,7 +2716,7 @@
             {
                 "position": 2,
                 "mnemonic": "MP_TEMPERATUREHUILE",
-                "label_index": "11459",
+                "label_index": "@P11459@T BVA",
                 "label_korean": "오일 온도 BVA",
                 "group_id": "105111",
                 "req_frame_id": "315679",
@@ -2738,7 +2738,7 @@
             {
                 "position": 3,
                 "mnemonic": "CONTACTNEIGE",
-                "label_index": "2255",
+                "label_index": "@P2255",
                 "label_korean": "스노우 스위치",
                 "group_id": "105111",
                 "req_frame_id": "315679",
@@ -2760,7 +2760,7 @@
             {
                 "position": 4,
                 "mnemonic": "CONTACTSPORT",
-                "label_index": "12794",
+                "label_index": "@P12794",
                 "label_korean": "스포츠 스위치",
                 "group_id": "105111",
                 "req_frame_id": "315679",
@@ -2782,7 +2782,7 @@
             {
                 "position": 5,
                 "mnemonic": "CONTACTL4",
-                "label_index": "11163",
+                "label_index": "@P11163@\\*4",
                 "label_korean": "스위치 L4",
                 "group_id": "105111",
                 "req_frame_id": "315679",
@@ -2798,13 +2798,13 @@
                 "bit_mask": 16,
                 "bit_shift": 4,
                 "dynamic_arg": "4",
-                "help_code": "43816, 43817",
+                "help_code": "@P43816@\\*(1600)@\\n@P43817@\\*4@\\*9@\\*R-3-2-1",
                 "help_korean": "다기능 스위치4는 4 포지션 스위치를 포함하고 있다(1600)\nL4(핀9)은 셀렉터가 위치R에서 작동이다-3-2-1"
             },
             {
                 "position": 6,
                 "mnemonic": "CONTACTL3",
-                "label_index": "11163",
+                "label_index": "@P11163@\\*3",
                 "label_korean": "스위치 L3",
                 "group_id": "105111",
                 "req_frame_id": "315679",
@@ -2820,13 +2820,13 @@
                 "bit_mask": 32,
                 "bit_shift": 5,
                 "dynamic_arg": "3",
-                "help_code": "43816, 43817",
+                "help_code": "@P43816@\\*(1600)@\\n@P43817@\\*3@\\*37@\\*P-D-M-2-1",
                 "help_korean": "다기능 스위치3는 4 포지션 스위치를 포함하고 있다(1600)\nL3(핀37)은 셀렉터가 위치P에서 작동이다-D-M-2-1"
             },
             {
                 "position": 7,
                 "mnemonic": "CONTACTL2",
-                "label_index": "11163",
+                "label_index": "@P11163@\\*2",
                 "label_korean": "스위치 L2",
                 "group_id": "105111",
                 "req_frame_id": "315679",
@@ -2842,13 +2842,13 @@
                 "bit_mask": 64,
                 "bit_shift": 6,
                 "dynamic_arg": "2",
-                "help_code": "43816, 43817",
+                "help_code": "@P43816@\\*(1600)@\\n@P43817@\\*2@\\*8@\\*N-D-M-3-1",
                 "help_korean": "다기능 스위치2는 4 포지션 스위치를 포함하고 있다(1600)\nL2(핀8)은 셀렉터가 위치N에서 작동이다-D-M-3-1"
             },
             {
                 "position": 8,
                 "mnemonic": "CONTACTL1",
-                "label_index": "11163",
+                "label_index": "@P11163@\\*1",
                 "label_korean": "스위치 L1",
                 "group_id": "105111",
                 "req_frame_id": "315679",
@@ -2864,13 +2864,13 @@
                 "bit_mask": 128,
                 "bit_shift": 7,
                 "dynamic_arg": "1",
-                "help_code": "43816, 43817",
+                "help_code": "@P43816@\\*(1600)@\\n@P43817@\\*1@\\*36@\\*D-M-3-1",
                 "help_korean": "다기능 스위치1는 4 포지션 스위치를 포함하고 있다(1600)\nL1(핀36)은 셀렉터가 위치D에서 작동이다-M-3-1"
             },
             {
                 "position": 9,
                 "mnemonic": "CA_REGIME_MOTEUR",
-                "label_index": "7917",
+                "label_index": "@P7917",
                 "label_korean": "엔진 속도",
                 "group_id": "105111",
                 "req_frame_id": "315679",
@@ -2886,13 +2886,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "41235",
+                "help_code": "@P41235@T.",
                 "help_korean": "엔진 ECU로부터 제공되며 CAN을 통해서 전달된다."
             },
             {
                 "position": 10,
                 "mnemonic": "REGIMESORTIE",
-                "label_index": "12163",
+                "label_index": "@P12163",
                 "label_korean": "출력 속도",
                 "group_id": "105111",
                 "req_frame_id": "315679",
@@ -2908,13 +2908,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "6390",
+                "help_code": "@P6390",
                 "help_korean": "차량이 정차 상태일 때는 0이고 가속할 때 증가한다"
             },
             {
                 "position": 11,
                 "mnemonic": "CA_RAPPORTPASSAGE",
-                "label_index": "2604",
+                "label_index": "@P2604",
                 "label_korean": "기어 또는 기어 변속",
                 "group_id": "105111",
                 "req_frame_id": "315679",
@@ -2930,13 +2930,13 @@
                 "bit_mask": 31,
                 "bit_shift": 0,
                 "dynamic_arg": "",
-                "help_code": "43818, 43838",
+                "help_code": "@P43818@\\n@P43838",
                 "help_korean": "기어 체결됨 또는 체결 중\n위치 1M은 펄스 모드에서 1단 기어에 해당된다"
             },
             {
                 "position": 12,
                 "mnemonic": "CA_CONVERTISSEUR",
-                "label_index": "8826",
+                "label_index": "@P8826",
                 "label_korean": "컨버터",
                 "group_id": "105111",
                 "req_frame_id": "315679",
@@ -2955,13 +2955,13 @@
                 "bit_mask": 96,
                 "bit_shift": 5,
                 "dynamic_arg": "",
-                "help_code": "43819, 43820, 43821",
+                "help_code": "@P43819@\\n@P43820@\\n@P43821",
                 "help_korean": "컨버터가 연결되지 않았을 때, 기존의 컨버터와 동일한 방법으로 작동한다\n연결되었을 때, 엔진과 변속기를 직접 연결한다\n제어된 슬라이딩 모드는 컨버터의 중간 상태에 해당되며 엔진과 변속기의 연결을 점검하도록 한다"
             },
             {
                 "position": 13,
                 "mnemonic": "CA_MODEFONCTION",
-                "label_index": "12882",
+                "label_index": "@P12882@\\*",
                 "label_korean": "작동 모드",
                 "group_id": "105111",
                 "req_frame_id": "315679",
@@ -2977,7 +2977,7 @@
                 "bit_mask": 128,
                 "bit_shift": 7,
                 "dynamic_arg": "",
-                "help_code": "6162",
+                "help_code": "@P6162",
                 "help_korean": "주행은 상단 기어 변속 단계에 해당되고 변속 다운은 하단 기어 변속 단계에 해당된다"
             }
         ]
@@ -2991,7 +2991,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_TENSION_BATTERIE1",
-                "label_index": "18263",
+                "label_index": "@P18263",
                 "label_korean": "배터리 전압",
                 "group_id": "105111",
                 "req_frame_id": "315679",
@@ -3013,7 +3013,7 @@
             {
                 "position": 2,
                 "mnemonic": "MP_TEMPERATUREHUILE",
-                "label_index": "11459",
+                "label_index": "@P11459@T BVA",
                 "label_korean": "오일 온도 BVA",
                 "group_id": "105111",
                 "req_frame_id": "315679",
@@ -3035,7 +3035,7 @@
             {
                 "position": 3,
                 "mnemonic": "CA_REGIME_MOTEUR",
-                "label_index": "7917",
+                "label_index": "@P7917",
                 "label_korean": "엔진 속도",
                 "group_id": "105111",
                 "req_frame_id": "315679",
@@ -3051,13 +3051,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "41235",
+                "help_code": "@P41235@T.",
                 "help_korean": "엔진 ECU로부터 제공되며 CAN을 통해서 전달된다."
             },
             {
                 "position": 4,
                 "mnemonic": "CONTACTNEIGE",
-                "label_index": "2255",
+                "label_index": "@P2255",
                 "label_korean": "스노우 스위치",
                 "group_id": "105111",
                 "req_frame_id": "315679",
@@ -3079,7 +3079,7 @@
             {
                 "position": 5,
                 "mnemonic": "CONTACTSPORT",
-                "label_index": "12794",
+                "label_index": "@P12794",
                 "label_korean": "스포츠 스위치",
                 "group_id": "105111",
                 "req_frame_id": "315679",
@@ -3101,7 +3101,7 @@
             {
                 "position": 6,
                 "mnemonic": "CONTACTL4",
-                "label_index": "11163",
+                "label_index": "@P11163@\\*4",
                 "label_korean": "스위치 L4",
                 "group_id": "105111",
                 "req_frame_id": "315679",
@@ -3117,13 +3117,13 @@
                 "bit_mask": 16,
                 "bit_shift": 4,
                 "dynamic_arg": "4",
-                "help_code": "43816, 43817",
+                "help_code": "@P43816@\\*(1600)@\\n@P43817@\\*4@\\*9@\\*R-3-2-1",
                 "help_korean": "다기능 스위치4는 4 포지션 스위치를 포함하고 있다(1600)\nL4(핀9)은 셀렉터가 위치R에서 작동이다-3-2-1"
             },
             {
                 "position": 7,
                 "mnemonic": "CONTACTL3",
-                "label_index": "11163",
+                "label_index": "@P11163@\\*3",
                 "label_korean": "스위치 L3",
                 "group_id": "105111",
                 "req_frame_id": "315679",
@@ -3139,13 +3139,13 @@
                 "bit_mask": 32,
                 "bit_shift": 5,
                 "dynamic_arg": "3",
-                "help_code": "43816, 43817",
+                "help_code": "@P43816@\\*(1600)@\\n@P43817@\\*3@\\*37@\\*P-D-M-2-1",
                 "help_korean": "다기능 스위치3는 4 포지션 스위치를 포함하고 있다(1600)\nL3(핀37)은 셀렉터가 위치P에서 작동이다-D-M-2-1"
             },
             {
                 "position": 8,
                 "mnemonic": "CONTACTL2",
-                "label_index": "11163",
+                "label_index": "@P11163@\\*2",
                 "label_korean": "스위치 L2",
                 "group_id": "105111",
                 "req_frame_id": "315679",
@@ -3161,13 +3161,13 @@
                 "bit_mask": 64,
                 "bit_shift": 6,
                 "dynamic_arg": "2",
-                "help_code": "43816, 43817",
+                "help_code": "@P43816@\\*(1600)@\\n@P43817@\\*2@\\*8@\\*N-D-M-3-1",
                 "help_korean": "다기능 스위치2는 4 포지션 스위치를 포함하고 있다(1600)\nL2(핀8)은 셀렉터가 위치N에서 작동이다-D-M-3-1"
             },
             {
                 "position": 9,
                 "mnemonic": "CONTACTL1",
-                "label_index": "11163",
+                "label_index": "@P11163@\\*1",
                 "label_korean": "스위치 L1",
                 "group_id": "105111",
                 "req_frame_id": "315679",
@@ -3183,13 +3183,13 @@
                 "bit_mask": 128,
                 "bit_shift": 7,
                 "dynamic_arg": "1",
-                "help_code": "43816, 43817",
+                "help_code": "@P43816@\\*(1600)@\\n@P43817@\\*1@\\*36@\\*D-M-3-1",
                 "help_korean": "다기능 스위치1는 4 포지션 스위치를 포함하고 있다(1600)\nL1(핀36)은 셀렉터가 위치D에서 작동이다-M-3-1"
             },
             {
                 "position": 10,
                 "mnemonic": "CA_RAPPORTPASSAGE",
-                "label_index": "2604",
+                "label_index": "@P2604",
                 "label_korean": "기어 또는 기어 변속",
                 "group_id": "105111",
                 "req_frame_id": "315679",
@@ -3205,13 +3205,13 @@
                 "bit_mask": 31,
                 "bit_shift": 0,
                 "dynamic_arg": "",
-                "help_code": "43818, 43838",
+                "help_code": "@P43818@\\n@P43838",
                 "help_korean": "기어 체결됨 또는 체결 중\n위치 1M은 펄스 모드에서 1단 기어에 해당된다"
             },
             {
                 "position": 11,
                 "mnemonic": "CA_CONVERTISSEUR",
-                "label_index": "8826",
+                "label_index": "@P8826",
                 "label_korean": "컨버터",
                 "group_id": "105111",
                 "req_frame_id": "315679",
@@ -3230,13 +3230,13 @@
                 "bit_mask": 96,
                 "bit_shift": 5,
                 "dynamic_arg": "",
-                "help_code": "43819, 43820, 43821",
+                "help_code": "@P43819@\\n@P43820@\\n@P43821",
                 "help_korean": "컨버터가 연결되지 않았을 때, 기존의 컨버터와 동일한 방법으로 작동한다\n연결되었을 때, 엔진과 변속기를 직접 연결한다\n제어된 슬라이딩 모드는 컨버터의 중간 상태에 해당되며 엔진과 변속기의 연결을 점검하도록 한다"
             },
             {
                 "position": 12,
                 "mnemonic": "CA_MODEFONCTION",
-                "label_index": "12882",
+                "label_index": "@P12882@\\*",
                 "label_korean": "작동 모드",
                 "group_id": "105111",
                 "req_frame_id": "315679",
@@ -3252,7 +3252,7 @@
                 "bit_mask": 128,
                 "bit_shift": 7,
                 "dynamic_arg": "",
-                "help_code": "6162",
+                "help_code": "@P6162",
                 "help_korean": "주행은 상단 기어 변속 단계에 해당되고 변속 다운은 하단 기어 변속 단계에 해당된다"
             }
         ]
@@ -3266,7 +3266,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_TENSION_BATTERIE1",
-                "label_index": "18263",
+                "label_index": "@P18263",
                 "label_korean": "배터리 전압",
                 "group_id": "105111",
                 "req_frame_id": "315679",
@@ -3288,7 +3288,7 @@
             {
                 "position": 2,
                 "mnemonic": "MP_TEMPERATUREHUILE",
-                "label_index": "11459",
+                "label_index": "@P11459@T BVA",
                 "label_korean": "오일 온도 BVA",
                 "group_id": "105111",
                 "req_frame_id": "315679",
@@ -3310,7 +3310,7 @@
             {
                 "position": 3,
                 "mnemonic": "REGIMETURBINE",
-                "label_index": "14418",
+                "label_index": "@P14418",
                 "label_korean": "터빈 속도",
                 "group_id": "105111",
                 "req_frame_id": "315679",
@@ -3332,7 +3332,7 @@
             {
                 "position": 4,
                 "mnemonic": "CA_REGIME_MOTEUR",
-                "label_index": "7917",
+                "label_index": "@P7917",
                 "label_korean": "엔진 속도",
                 "group_id": "105111",
                 "req_frame_id": "315679",
@@ -3348,13 +3348,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "41235",
+                "help_code": "@P41235@T.",
                 "help_korean": "엔진 ECU로부터 제공되며 CAN을 통해서 전달된다."
             },
             {
                 "position": 5,
                 "mnemonic": "REGIMESORTIE",
-                "label_index": "12163",
+                "label_index": "@P12163",
                 "label_korean": "출력 속도",
                 "group_id": "105111",
                 "req_frame_id": "315679",
@@ -3370,13 +3370,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "6390",
+                "help_code": "@P6390",
                 "help_korean": "차량이 정차 상태일 때는 0이고 가속할 때 증가한다"
             },
             {
                 "position": 6,
                 "mnemonic": "CA_RAPPORTPASSAGE",
-                "label_index": "2604",
+                "label_index": "@P2604",
                 "label_korean": "기어 또는 기어 변속",
                 "group_id": "105111",
                 "req_frame_id": "315679",
@@ -3392,13 +3392,13 @@
                 "bit_mask": 31,
                 "bit_shift": 0,
                 "dynamic_arg": "",
-                "help_code": "43818, 43838",
+                "help_code": "@P43818@\\n@P43838",
                 "help_korean": "기어 체결됨 또는 체결 중\n위치 1M은 펄스 모드에서 1단 기어에 해당된다"
             },
             {
                 "position": 7,
                 "mnemonic": "CA_CONVERTISSEUR",
-                "label_index": "8826",
+                "label_index": "@P8826",
                 "label_korean": "컨버터",
                 "group_id": "105111",
                 "req_frame_id": "315679",
@@ -3417,13 +3417,13 @@
                 "bit_mask": 96,
                 "bit_shift": 5,
                 "dynamic_arg": "",
-                "help_code": "43819, 43820, 43821",
+                "help_code": "@P43819@\\n@P43820@\\n@P43821",
                 "help_korean": "컨버터가 연결되지 않았을 때, 기존의 컨버터와 동일한 방법으로 작동한다\n연결되었을 때, 엔진과 변속기를 직접 연결한다\n제어된 슬라이딩 모드는 컨버터의 중간 상태에 해당되며 엔진과 변속기의 연결을 점검하도록 한다"
             },
             {
                 "position": 8,
                 "mnemonic": "CA_MODEFONCTION",
-                "label_index": "12882",
+                "label_index": "@P12882@\\*",
                 "label_korean": "작동 모드",
                 "group_id": "105111",
                 "req_frame_id": "315679",
@@ -3439,7 +3439,7 @@
                 "bit_mask": 128,
                 "bit_shift": 7,
                 "dynamic_arg": "",
-                "help_code": "6162",
+                "help_code": "@P6162",
                 "help_korean": "주행은 상단 기어 변속 단계에 해당되고 변속 다운은 하단 기어 변속 단계에 해당된다"
             }
         ]
@@ -3453,7 +3453,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_TENSION_BATTERIE1",
-                "label_index": "18263",
+                "label_index": "@P18263",
                 "label_korean": "배터리 전압",
                 "group_id": "105111",
                 "req_frame_id": "315679",
@@ -3475,7 +3475,7 @@
             {
                 "position": 2,
                 "mnemonic": "MP_TEMPERATUREHUILE",
-                "label_index": "11459",
+                "label_index": "@P11459@T BVA",
                 "label_korean": "오일 온도 BVA",
                 "group_id": "105111",
                 "req_frame_id": "315679",
@@ -3497,7 +3497,7 @@
             {
                 "position": 3,
                 "mnemonic": "CA_ENFONCEMENTPEDALE",
-                "label_index": "11568",
+                "label_index": "@P11568",
                 "label_korean": "페달 아래로 누름",
                 "group_id": "105111",
                 "req_frame_id": "315679",
@@ -3519,7 +3519,7 @@
             {
                 "position": 4,
                 "mnemonic": "CA_REGIME_MOTEUR",
-                "label_index": "7917",
+                "label_index": "@P7917",
                 "label_korean": "엔진 속도",
                 "group_id": "105111",
                 "req_frame_id": "315679",
@@ -3535,13 +3535,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "41235",
+                "help_code": "@P41235@T.",
                 "help_korean": "엔진 ECU로부터 제공되며 CAN을 통해서 전달된다."
             },
             {
                 "position": 5,
                 "mnemonic": "CONTACTNEIGE",
-                "label_index": "2255",
+                "label_index": "@P2255",
                 "label_korean": "스노우 스위치",
                 "group_id": "105111",
                 "req_frame_id": "315679",
@@ -3563,7 +3563,7 @@
             {
                 "position": 6,
                 "mnemonic": "CONTACTSPORT",
-                "label_index": "12794",
+                "label_index": "@P12794",
                 "label_korean": "스포츠 스위치",
                 "group_id": "105111",
                 "req_frame_id": "315679",
@@ -3585,7 +3585,7 @@
             {
                 "position": 7,
                 "mnemonic": "CONTACTL4",
-                "label_index": "11163",
+                "label_index": "@P11163@\\*4",
                 "label_korean": "스위치 L4",
                 "group_id": "105111",
                 "req_frame_id": "315679",
@@ -3601,13 +3601,13 @@
                 "bit_mask": 16,
                 "bit_shift": 4,
                 "dynamic_arg": "4",
-                "help_code": "43816, 43817",
+                "help_code": "@P43816@\\*(1600)@\\n@P43817@\\*4@\\*9@\\*R-3-2-1",
                 "help_korean": "다기능 스위치4는 4 포지션 스위치를 포함하고 있다(1600)\nL4(핀9)은 셀렉터가 위치R에서 작동이다-3-2-1"
             },
             {
                 "position": 8,
                 "mnemonic": "CONTACTL3",
-                "label_index": "11163",
+                "label_index": "@P11163@\\*3",
                 "label_korean": "스위치 L3",
                 "group_id": "105111",
                 "req_frame_id": "315679",
@@ -3623,13 +3623,13 @@
                 "bit_mask": 32,
                 "bit_shift": 5,
                 "dynamic_arg": "3",
-                "help_code": "43816, 43817",
+                "help_code": "@P43816@\\*(1600)@\\n@P43817@\\*3@\\*37@\\*P-D-M-2-1",
                 "help_korean": "다기능 스위치3는 4 포지션 스위치를 포함하고 있다(1600)\nL3(핀37)은 셀렉터가 위치P에서 작동이다-D-M-2-1"
             },
             {
                 "position": 9,
                 "mnemonic": "CONTACTL2",
-                "label_index": "11163",
+                "label_index": "@P11163@\\*2",
                 "label_korean": "스위치 L2",
                 "group_id": "105111",
                 "req_frame_id": "315679",
@@ -3645,13 +3645,13 @@
                 "bit_mask": 64,
                 "bit_shift": 6,
                 "dynamic_arg": "2",
-                "help_code": "43816, 43817",
+                "help_code": "@P43816@\\*(1600)@\\n@P43817@\\*2@\\*8@\\*N-D-M-3-1",
                 "help_korean": "다기능 스위치2는 4 포지션 스위치를 포함하고 있다(1600)\nL2(핀8)은 셀렉터가 위치N에서 작동이다-D-M-3-1"
             },
             {
                 "position": 10,
                 "mnemonic": "CONTACTL1",
-                "label_index": "11163",
+                "label_index": "@P11163@\\*1",
                 "label_korean": "스위치 L1",
                 "group_id": "105111",
                 "req_frame_id": "315679",
@@ -3667,13 +3667,13 @@
                 "bit_mask": 128,
                 "bit_shift": 7,
                 "dynamic_arg": "1",
-                "help_code": "43816, 43817",
+                "help_code": "@P43816@\\*(1600)@\\n@P43817@\\*1@\\*36@\\*D-M-3-1",
                 "help_korean": "다기능 스위치1는 4 포지션 스위치를 포함하고 있다(1600)\nL1(핀36)은 셀렉터가 위치D에서 작동이다-M-3-1"
             },
             {
                 "position": 11,
                 "mnemonic": "CA_RAPPORTPASSAGE",
-                "label_index": "2604",
+                "label_index": "@P2604",
                 "label_korean": "기어 또는 기어 변속",
                 "group_id": "105111",
                 "req_frame_id": "315679",
@@ -3689,13 +3689,13 @@
                 "bit_mask": 31,
                 "bit_shift": 0,
                 "dynamic_arg": "",
-                "help_code": "43818, 43838",
+                "help_code": "@P43818@\\n@P43838",
                 "help_korean": "기어 체결됨 또는 체결 중\n위치 1M은 펄스 모드에서 1단 기어에 해당된다"
             },
             {
                 "position": 12,
                 "mnemonic": "CA_CONVERTISSEUR",
-                "label_index": "8826",
+                "label_index": "@P8826",
                 "label_korean": "컨버터",
                 "group_id": "105111",
                 "req_frame_id": "315679",
@@ -3714,13 +3714,13 @@
                 "bit_mask": 96,
                 "bit_shift": 5,
                 "dynamic_arg": "",
-                "help_code": "43819, 43820, 43821",
+                "help_code": "@P43819@\\n@P43820@\\n@P43821",
                 "help_korean": "컨버터가 연결되지 않았을 때, 기존의 컨버터와 동일한 방법으로 작동한다\n연결되었을 때, 엔진과 변속기를 직접 연결한다\n제어된 슬라이딩 모드는 컨버터의 중간 상태에 해당되며 엔진과 변속기의 연결을 점검하도록 한다"
             },
             {
                 "position": 13,
                 "mnemonic": "CA_MODEFONCTION",
-                "label_index": "12882",
+                "label_index": "@P12882@\\*",
                 "label_korean": "작동 모드",
                 "group_id": "105111",
                 "req_frame_id": "315679",
@@ -3736,7 +3736,7 @@
                 "bit_mask": 128,
                 "bit_shift": 7,
                 "dynamic_arg": "",
-                "help_code": "6162",
+                "help_code": "@P6162",
                 "help_korean": "주행은 상단 기어 변속 단계에 해당되고 변속 다운은 하단 기어 변속 단계에 해당된다"
             }
         ]

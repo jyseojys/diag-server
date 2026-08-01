@@ -8,7 +8,7 @@
             {
                 "position": 1,
                 "mnemonic": "ID_REF_FOURNISSEUR",
-                "label_index": "633",
+                "label_index": "@P633",
                 "label_korean": "제조업체",
                 "group_id": "16348",
                 "req_frame_id": "49046",
@@ -30,7 +30,7 @@
             {
                 "position": 1,
                 "mnemonic": "ID_REF_FOURNISSEUR",
-                "label_index": "15320",
+                "label_index": "@P15320@\\*@\\*",
                 "label_korean": "제조업체",
                 "group_id": "16348",
                 "req_frame_id": "49046",
@@ -52,7 +52,7 @@
             {
                 "position": 2,
                 "mnemonic": "ID_REFERENCE_PSA",
-                "label_index": "8615",
+                "label_index": "@P8615",
                 "label_korean": "PSA 부품 번호",
                 "group_id": "16348",
                 "req_frame_id": "49046",
@@ -74,8 +74,8 @@
             {
                 "position": 3,
                 "mnemonic": "ID_VERSION_LOGICIEL",
-                "label_index": "9765",
-                "label_korean": "소프트웨어 개발 인덱스 번호- 부품\\*BSI로 부터 예상치 못한 재초기화 결함",
+                "label_index": "@P9765@\\*@T- @\\+@P34261@\\*@T1",
+                "label_korean": "소프트웨어 개발 인덱스 번호- 부품1",
                 "group_id": "16348",
                 "req_frame_id": "49046",
                 "resp_frame_id": "49047",
@@ -96,7 +96,7 @@
             {
                 "position": 3,
                 "mnemonic": "ID_VERSION_LOGICIEL",
-                "label_index": "7885",
+                "label_index": "@P7885@\\*",
                 "label_korean": "소프트웨어 버전",
                 "group_id": "16348",
                 "req_frame_id": "49046",
@@ -118,7 +118,7 @@
             {
                 "position": 3,
                 "mnemonic": "ID_VERSION_LOGICIEL",
-                "label_index": "10624",
+                "label_index": "@P10624@\\*",
                 "label_korean": "진단 변경 인덱스",
                 "group_id": "16348",
                 "req_frame_id": "49046",
@@ -140,7 +140,7 @@
             {
                 "position": 3,
                 "mnemonic": "ID_VERSION_LOGICIEL",
-                "label_index": "2358",
+                "label_index": "@P2358",
                 "label_korean": "소프트웨어 버전",
                 "group_id": "16348",
                 "req_frame_id": "49046",
@@ -162,7 +162,7 @@
             {
                 "position": 3,
                 "mnemonic": "ID_VERSION_LOGICIEL",
-                "label_index": "9765",
+                "label_index": "@P9765@\\*",
                 "label_korean": "소프트웨어 개발 인덱스 번호",
                 "group_id": "16348",
                 "req_frame_id": "49046",
@@ -184,7 +184,7 @@
             {
                 "position": 3,
                 "mnemonic": "ID_VERSION_LOGICIEL",
-                "label_index": "2358",
+                "label_index": "@P2358",
                 "label_korean": "소프트웨어 버전",
                 "group_id": "16348",
                 "req_frame_id": "49046",
@@ -206,7 +206,7 @@
             {
                 "position": 4,
                 "mnemonic": "ID_INDICE_EVOL_DIAGNOSTIC",
-                "label_index": "6739",
+                "label_index": "@P6739",
                 "label_korean": "진단 버전 인덱스",
                 "group_id": "16348",
                 "req_frame_id": "49046",
@@ -228,7 +228,7 @@
             {
                 "position": 5,
                 "mnemonic": "MP_TYPE_DIRECTION",
-                "label_index": "3209",
+                "label_index": "@P3209",
                 "label_korean": "스티어링 타입",
                 "group_id": "16350",
                 "req_frame_id": "49052",
@@ -254,13 +254,13 @@
                 "bit_mask": 1,
                 "bit_shift": 0,
                 "dynamic_arg": "",
-                "help_code": "14429",
+                "help_code": "@P14429",
                 "help_korean": "변수들은 설정 메뉴에서 세팅할 수 있다"
             },
             {
                 "position": 5,
                 "mnemonic": "MP_TYPE_DIRECTION",
-                "label_index": "3209",
+                "label_index": "@P3209",
                 "label_korean": "스티어링 타입",
                 "group_id": "16350",
                 "req_frame_id": "49052",
@@ -286,13 +286,13 @@
                 "bit_mask": 1,
                 "bit_shift": 0,
                 "dynamic_arg": "",
-                "help_code": "",
+                "help_code": "@T",
                 "help_korean": ""
             },
             {
                 "position": 6,
                 "mnemonic": "MOTORHDI",
-                "label_index": "11229",
+                "label_index": "@P11229@\\*",
                 "label_korean": "HDI engines",
                 "group_id": "16350",
                 "req_frame_id": "49052",
@@ -311,13 +311,13 @@
                 "bit_mask": 16,
                 "bit_shift": 4,
                 "dynamic_arg": "",
-                "help_code": "14429",
+                "help_code": "@P14429",
                 "help_korean": "변수들은 설정 메뉴에서 세팅할 수 있다"
             },
             {
                 "position": 6,
                 "mnemonic": "MOTORHDI",
-                "label_index": "11229",
+                "label_index": "@P11229@\\*",
                 "label_korean": "HDI engines",
                 "group_id": "16350",
                 "req_frame_id": "49052",
@@ -336,7 +336,7 @@
                 "bit_mask": 16,
                 "bit_shift": 4,
                 "dynamic_arg": "",
-                "help_code": "",
+                "help_code": "@T",
                 "help_korean": ""
             }
         ]
@@ -350,8 +350,8 @@
             {
                 "position": 1,
                 "mnemonic": "TENSIONBATTERIE",
-                "label_index": "3047",
-                "label_korean": "VAN 전원",
+                "label_index": "@P3047",
+                "label_korean": "+ VAN 전원",
                 "group_id": "16351",
                 "req_frame_id": "49055",
                 "resp_frame_id": "49056",
@@ -372,7 +372,7 @@
             {
                 "position": 2,
                 "mnemonic": "TEMPERATUREINTER",
-                "label_index": "23073",
+                "label_index": "@P23073",
                 "label_korean": "내부 온도",
                 "group_id": "16351",
                 "req_frame_id": "49055",
@@ -394,8 +394,8 @@
             {
                 "position": 3,
                 "mnemonic": "TENSIONCALCPULSEUR",
-                "label_index": "8696",
-                "label_korean": "값 블로어",
+                "label_index": "@P8696@\\*@\\+@P4807",
+                "label_korean": "값블로어",
                 "group_id": "16351",
                 "req_frame_id": "49055",
                 "resp_frame_id": "49056",
@@ -410,13 +410,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "8696, 4807, 45775",
-                "help_korean": "값0\n- 블로어 : 에어컨 패널이 블로워 제어 모듈로 전송하는 명령에 따라 계산된 블로워 전압(0 - 15V)"
+                "help_code": "@P8696@\\*@\\+@P4807@T : @P45775@\\*0@\\*15",
+                "help_korean": "값0블로어 : 에어컨 패널이 블로워 제어 모듈로 전송하는 명령에 따라 계산된 블로워 전압(0 - 15V)"
             }
         ]
     },
     "MESUREPARAMETRE2": {
-        "screen_title_korean": "액츄에이터상태",
+        "screen_title_korean": "액츄에이터 상태",
         "screen_label_index": "@P4101-POLUXDATA@\\*",
         "ecu_name": "CLIM_REGULEE_T3_V1",
         "total_sensors": 3,
@@ -424,7 +424,7 @@
             {
                 "position": 1,
                 "mnemonic": "ETATVOLETMIX_NEW",
-                "label_index": "5269",
+                "label_index": "@P5269@\\*",
                 "label_korean": "믹싱 상태",
                 "group_id": "16352",
                 "req_frame_id": "49058",
@@ -446,7 +446,7 @@
             {
                 "position": 2,
                 "mnemonic": "ETATDISTRIBUTION",
-                "label_index": "10384",
+                "label_index": "@P10384",
                 "label_korean": "분배 상태",
                 "group_id": "16352",
                 "req_frame_id": "49058",
@@ -468,7 +468,7 @@
             {
                 "position": 3,
                 "mnemonic": "ETATVOLETRECYC_NEW",
-                "label_index": "11886",
+                "label_index": "@P11886",
                 "label_korean": "재순환 상태",
                 "group_id": "16352",
                 "req_frame_id": "49058",
@@ -498,8 +498,8 @@
             {
                 "position": 1,
                 "mnemonic": "CONSTEMPERATUREP",
-                "label_index": "24439",
-                "label_korean": "이 테스트는 도어와 윈도우를 닫고 차량 내부에 앉아서 진행한다",
+                "label_index": "@P24439@\\+@T+",
+                "label_korean": "이 테스트는 도어와 윈도우를 닫고 차량 내부에 앉아서 진행한다+",
                 "group_id": "16353",
                 "req_frame_id": "49061",
                 "resp_frame_id": "49062",
@@ -520,8 +520,8 @@
             {
                 "position": 2,
                 "mnemonic": "CONSTEMPERATUREM",
-                "label_index": "24439",
-                "label_korean": "이 테스트는 도어와 윈도우를 닫고 차량 내부에 앉아서 진행한다 -",
+                "label_index": "@P24439@\\+@T-",
+                "label_korean": "이 테스트는 도어와 윈도우를 닫고 차량 내부에 앉아서 진행한다-",
                 "group_id": "16353",
                 "req_frame_id": "49061",
                 "resp_frame_id": "49062",
@@ -542,7 +542,7 @@
             {
                 "position": 3,
                 "mnemonic": "MP_DEMANDE_VENTILATION_PLUS",
-                "label_index": "4014",
+                "label_index": "@P4014",
                 "label_korean": "풍향 증가 요청",
                 "group_id": "16353",
                 "req_frame_id": "49061",
@@ -564,7 +564,7 @@
             {
                 "position": 4,
                 "mnemonic": "CONSIGNEPULSEURM",
-                "label_index": "13872",
+                "label_index": "@P13872",
                 "label_korean": "환기 요청 (-)",
                 "group_id": "16353",
                 "req_frame_id": "49061",
@@ -586,7 +586,7 @@
             {
                 "position": 5,
                 "mnemonic": "CONSIGNEDISTRI",
-                "label_index": "9003",
+                "label_index": "@P9003",
                 "label_korean": "분배 요청",
                 "group_id": "16353",
                 "req_frame_id": "49061",
@@ -608,7 +608,7 @@
             {
                 "position": 6,
                 "mnemonic": "MP_DEMANDE_DE_RECYCLAGE",
-                "label_index": "5471",
+                "label_index": "@P5471",
                 "label_korean": "재순환 요청",
                 "group_id": "16353",
                 "req_frame_id": "49061",
@@ -633,7 +633,7 @@
             {
                 "position": 7,
                 "mnemonic": "AUTRESTOUCHES",
-                "label_index": "14223",
+                "label_index": "@P14223",
                 "label_korean": "에어컨 패널에서 다른 버튼의 누름",
                 "group_id": "16353",
                 "req_frame_id": "49061",

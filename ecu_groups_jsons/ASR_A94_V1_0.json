@@ -8,7 +8,7 @@
             {
                 "position": 1,
                 "mnemonic": "ID_NOM_DU_FOURNISSEUR",
-                "label_index": "5701",
+                "label_index": "@P5701",
                 "label_korean": "제조 업체명",
                 "group_id": "17569",
                 "req_frame_id": "52709",
@@ -38,7 +38,7 @@
             {
                 "position": 2,
                 "mnemonic": "ID_REFERENCE_MATERIEL",
-                "label_index": "1071",
+                "label_index": "@P1071",
                 "label_korean": "장치 부품 번호",
                 "group_id": "17569",
                 "req_frame_id": "52709",
@@ -60,7 +60,7 @@
             {
                 "position": 3,
                 "mnemonic": "ID_REFERENCE_COMPLEMENTAIRE_MATERIEL",
-                "label_index": "1634",
+                "label_index": "@P1634",
                 "label_korean": "장치 추가 참조 번호",
                 "group_id": "17569",
                 "req_frame_id": "52709",
@@ -82,7 +82,7 @@
             {
                 "position": 4,
                 "mnemonic": "ID_TRACABILITE_INDICE_EVOLUTION_EDITION",
-                "label_index": "13235",
+                "label_index": "@P13235@\\*",
                 "label_korean": "소프트웨어 버전",
                 "group_id": "17569",
                 "req_frame_id": "52709",
@@ -112,7 +112,7 @@
             {
                 "position": 1,
                 "mnemonic": "COMPTEUR_DE_MOLETTE",
-                "label_index": "15328",
+                "label_index": "@P15328",
                 "label_korean": "카운터 제어",
                 "group_id": "17570",
                 "req_frame_id": "52712",
@@ -128,8 +128,8 @@
                 "bit_mask": 63,
                 "bit_shift": 0,
                 "dynamic_arg": "",
-                "help_code": "44437, 44438, 44439",
-                "help_korean": "스위치를 시계 방향으로 한 단계 움직일 때, 제어 카운터 값은 한 단계씩 증가한다 .\n스위치를 반시계 방향으로 한 단계 움직일 때, 제어 카운터 값은 한 단계식 감소한다 .\n값이 0 이하이고 이상일 때, 제어 카운터는 으로 변한다-31 31 ."
+                "help_code": "@P44437@\\+@T.@\\n@\\+@P44438@\\+@T.@\\n@\\+@P44439@\\*-31@\\*+31@\\*0@\\+@T.",
+                "help_korean": "스위치를 시계 방향으로 한 단계 움직일 때, 제어 카운터 값은 한 단계씩 증가한다.\n스위치를 반시계 방향으로 한 단계 움직일 때, 제어 카운터 값은 한 단계식 감소한다.\n값이 0 이하이고 이상일 때, 제어 카운터는 으로 변한다-31+31."
             }
         ]
     }

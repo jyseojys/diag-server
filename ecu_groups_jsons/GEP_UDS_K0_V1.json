@@ -8,7 +8,7 @@
             {
                 "position": 1,
                 "mnemonic": "ID_NOM_DU_FOURNISSEUR",
-                "label_index": "5701",
+                "label_index": "@P5701",
                 "label_korean": "제조 업체명",
                 "group_id": "130925",
                 "req_frame_id": "393118",
@@ -38,7 +38,7 @@
             {
                 "position": 2,
                 "mnemonic": "ID_REFERENCE_MATERIEL",
-                "label_index": "1071",
+                "label_index": "@P1071",
                 "label_korean": "장치 부품 번호",
                 "group_id": "130925",
                 "req_frame_id": "393118",
@@ -60,7 +60,7 @@
             {
                 "position": 3,
                 "mnemonic": "ID_REFERENCE_COMPLEMENTAIRE_MATERIEL",
-                "label_index": "1634",
+                "label_index": "@P1634",
                 "label_korean": "장치 추가 참조 번호",
                 "group_id": "130925",
                 "req_frame_id": "393118",
@@ -82,7 +82,7 @@
             {
                 "position": 4,
                 "mnemonic": "ID_ZI_FILE",
-                "label_index": "3627",
+                "label_index": "@P3627",
                 "label_korean": "캘리브레이션 파일 번호",
                 "group_id": "130926",
                 "req_frame_id": "393121",
@@ -104,7 +104,7 @@
             {
                 "position": 5,
                 "mnemonic": "ID_TRACABILITE_INDICE_EVOLUTION_EDITION_CALIBRATION",
-                "label_index": "7413",
+                "label_index": "@P7413",
                 "label_korean": "캘리브레이션 에디션",
                 "group_id": "130926",
                 "req_frame_id": "393121",
@@ -126,7 +126,7 @@
             {
                 "position": 6,
                 "mnemonic": "ID_TRACABILITE_INDICE_EVOLUTION_EDITION",
-                "label_index": "24601",
+                "label_index": "@P24601",
                 "label_korean": "소프트웨어 버전",
                 "group_id": "130925",
                 "req_frame_id": "393118",
@@ -148,7 +148,7 @@
             {
                 "position": 7,
                 "mnemonic": "ID_DATE_TELECH",
-                "label_index": "21670",
+                "label_index": "@P21670",
                 "label_korean": "다운로딩 날짜",
                 "group_id": "130926",
                 "req_frame_id": "393121",
@@ -170,7 +170,7 @@
             {
                 "position": 8,
                 "mnemonic": "ID_NOMBRE_DE_TELECHARGEMENT",
-                "label_index": "24589",
+                "label_index": "@P24589",
                 "label_korean": "다운로드의 수",
                 "group_id": "130926",
                 "req_frame_id": "393121",
@@ -200,7 +200,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_VITESSE_VEHICULE",
-                "label_index": "9267",
+                "label_index": "@F9267",
                 "label_korean": "차량 속도",
                 "group_id": "130928",
                 "req_frame_id": "393127",
@@ -226,7 +226,7 @@
             {
                 "position": 2,
                 "mnemonic": "MP_VITES_DE_ROTATION_DU_CAPTEUR_ANGLE_VOLANT",
-                "label_index": "43",
+                "label_index": "@P43",
                 "label_korean": "스티어링 휠 앵글 센서의 회전 속도",
                 "group_id": "130929",
                 "req_frame_id": "393130",
@@ -250,7 +250,7 @@
             {
                 "position": 3,
                 "mnemonic": "MP_TENSION_BATTERIE",
-                "label_index": "18263",
+                "label_index": "@P18263",
                 "label_korean": "배터리 전압",
                 "group_id": "130930",
                 "req_frame_id": "393133",
@@ -274,8 +274,8 @@
             {
                 "position": 4,
                 "mnemonic": "MP_TEMPERATURE",
-                "label_index": "6717",
-                "label_korean": "ECU온도",
+                "label_index": "@P6717@\\*",
+                "label_korean": "ECU 온도",
                 "group_id": "130931",
                 "req_frame_id": "393136",
                 "resp_frame_id": "393137",
@@ -298,7 +298,7 @@
             {
                 "position": 5,
                 "mnemonic": "MP_REGIME_MOTEUR_DA",
-                "label_index": "47253",
+                "label_index": "@P47253",
                 "label_korean": "파워 스티어링 매커니즘 모터의 속도",
                 "group_id": "130932",
                 "req_frame_id": "393139",
@@ -322,7 +322,7 @@
             {
                 "position": 6,
                 "mnemonic": "MP_INTENSITE_MESUREE_C1",
-                "label_index": "11852",
+                "label_index": "@P11852",
                 "label_korean": "측정된 전류",
                 "group_id": "130933",
                 "req_frame_id": "393142",
@@ -346,7 +346,7 @@
             {
                 "position": 7,
                 "mnemonic": "MP_ETAT_FONCTIONNEMENT_MOTEUR_THERMIQUE",
-                "label_index": "20794",
+                "label_index": "@P20794",
                 "label_korean": "내연 기관 작동 상태",
                 "group_id": "130934",
                 "req_frame_id": "393145",
@@ -389,7 +389,7 @@
             {
                 "position": 8,
                 "mnemonic": "MP_ETAT_PLUS_APC",
-                "label_index": "872",
+                "label_index": "@P872",
                 "label_korean": "키 ON 상태",
                 "group_id": "130935",
                 "req_frame_id": "393148",
@@ -414,7 +414,7 @@
             {
                 "position": 9,
                 "mnemonic": "MP_ETAT_ASSIST_DA",
-                "label_index": "46867",
+                "label_index": "@P46867",
                 "label_korean": "파워 스티어링 지원 상태",
                 "group_id": "130936",
                 "req_frame_id": "393151",
@@ -444,7 +444,7 @@
             {
                 "position": 10,
                 "mnemonic": "MP_DERATING_TEMP_ON_OFF",
-                "label_index": "33278",
+                "label_index": "@P33278",
                 "label_korean": "백업 모드",
                 "group_id": "130937",
                 "req_frame_id": "393154",
@@ -463,13 +463,13 @@
                 "bit_mask": 128,
                 "bit_shift": 7,
                 "dynamic_arg": "",
-                "help_code": "46872, 46873",
-                "help_korean": "다운그레이드 모드는 전자 펌프 어셈블리 온도가 높을 때 작동된다. 전자 펌프 어셈블리가 냉각되면 다운그레이드 모드가 차단된다"
+                "help_code": "@P46872@T.@\\+@P46873",
+                "help_korean": "다운그레이드 모드는 전자 펌프 어셈블리 온도가 높을 때 작동된다.전자 펌프 어셈블리가 냉각되면 다운그레이드 모드가 차단된다"
             },
             {
                 "position": 11,
                 "mnemonic": "MP_ETAT_DA",
-                "label_index": "46868",
+                "label_index": "@P46868",
                 "label_korean": "전동 스티어링 상태",
                 "group_id": "130938",
                 "req_frame_id": "393157",
@@ -503,7 +503,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_VITESSE_VEHICULE",
-                "label_index": "9267",
+                "label_index": "@F9267",
                 "label_korean": "차량 속도",
                 "group_id": "130928",
                 "req_frame_id": "393127",
@@ -529,7 +529,7 @@
             {
                 "position": 2,
                 "mnemonic": "MP_VITES_DE_ROTATION_DU_CAPTEUR_ANGLE_VOLANT",
-                "label_index": "43",
+                "label_index": "@P43",
                 "label_korean": "스티어링 휠 앵글 센서의 회전 속도",
                 "group_id": "130929",
                 "req_frame_id": "393130",
@@ -553,7 +553,7 @@
             {
                 "position": 3,
                 "mnemonic": "MP_TENSION_BATTERIE",
-                "label_index": "18263",
+                "label_index": "@P18263",
                 "label_korean": "배터리 전압",
                 "group_id": "130930",
                 "req_frame_id": "393133",
@@ -577,8 +577,8 @@
             {
                 "position": 4,
                 "mnemonic": "MP_TEMPERATURE",
-                "label_index": "6717",
-                "label_korean": "ECU온도",
+                "label_index": "@P6717@\\*",
+                "label_korean": "ECU 온도",
                 "group_id": "130931",
                 "req_frame_id": "393136",
                 "resp_frame_id": "393137",
@@ -601,7 +601,7 @@
             {
                 "position": 5,
                 "mnemonic": "MP_REGIME_MOTEUR_DA",
-                "label_index": "47253",
+                "label_index": "@P47253",
                 "label_korean": "파워 스티어링 매커니즘 모터의 속도",
                 "group_id": "130932",
                 "req_frame_id": "393139",
@@ -625,7 +625,7 @@
             {
                 "position": 6,
                 "mnemonic": "MP_INTENSITE_MESUREE_C1",
-                "label_index": "11852",
+                "label_index": "@P11852",
                 "label_korean": "측정된 전류",
                 "group_id": "130933",
                 "req_frame_id": "393142",
@@ -649,7 +649,7 @@
             {
                 "position": 7,
                 "mnemonic": "MP_ETAT_FONCTIONNEMENT_MOTEUR_THERMIQUE_CA",
-                "label_index": "20794",
+                "label_index": "@P20794",
                 "label_korean": "내연 기관 작동 상태",
                 "group_id": "130923",
                 "req_frame_id": "393112",
@@ -688,7 +688,7 @@
             {
                 "position": 8,
                 "mnemonic": "MP_ETAT_PLUS_APC_2",
-                "label_index": "872",
+                "label_index": "@P872",
                 "label_korean": "키 ON 상태",
                 "group_id": "130923",
                 "req_frame_id": "393112",
@@ -713,7 +713,7 @@
             {
                 "position": 9,
                 "mnemonic": "MP_ETAT_ASSIST_DA_CA",
-                "label_index": "46867",
+                "label_index": "@P46867",
                 "label_korean": "파워 스티어링 지원 상태",
                 "group_id": "130923",
                 "req_frame_id": "393112",
@@ -744,7 +744,7 @@
             {
                 "position": 10,
                 "mnemonic": "MP_DERATING_TEMP_ON_OFF_CA",
-                "label_index": "33278",
+                "label_index": "@P33278",
                 "label_korean": "백업 모드",
                 "group_id": "130923",
                 "req_frame_id": "393112",
@@ -763,13 +763,13 @@
                 "bit_mask": 1,
                 "bit_shift": 0,
                 "dynamic_arg": "",
-                "help_code": "46872, 46873",
-                "help_korean": "다운그레이드 모드는 전자 펌프 어셈블리 온도가 높을 때 작동된다. 전자 펌프 어셈블리가 냉각되면 다운그레이드 모드가 차단된다"
+                "help_code": "@P46872@T.@\\+@P46873",
+                "help_korean": "다운그레이드 모드는 전자 펌프 어셈블리 온도가 높을 때 작동된다.전자 펌프 어셈블리가 냉각되면 다운그레이드 모드가 차단된다"
             },
             {
                 "position": 11,
                 "mnemonic": "MP_ETAT_DA_CA",
-                "label_index": "46868",
+                "label_index": "@P46868",
                 "label_korean": "전동 스티어링 상태",
                 "group_id": "130923",
                 "req_frame_id": "393112",
@@ -796,7 +796,7 @@
             {
                 "position": 12,
                 "mnemonic": "MP_KILOMETRAGE_DU_VEHICULE",
-                "label_index": "6315",
+                "label_index": "@F6315",
                 "label_korean": "차량 주행거리",
                 "group_id": "130923",
                 "req_frame_id": "393112",
@@ -818,7 +818,7 @@
             {
                 "position": 13,
                 "mnemonic": "MP_COM_BSI_GEP",
-                "label_index": "46869",
+                "label_index": "@P46869",
                 "label_korean": "BSI(Built-in Systems Interface) 감시 정보",
                 "group_id": "130923",
                 "req_frame_id": "393112",
@@ -843,7 +843,7 @@
             {
                 "position": 14,
                 "mnemonic": "MP_COM_CMM_GEP",
-                "label_index": "46870",
+                "label_index": "@P46870",
                 "label_korean": "엔진 상태 정보",
                 "group_id": "130923",
                 "req_frame_id": "393112",
@@ -868,7 +868,7 @@
             {
                 "position": 15,
                 "mnemonic": "MP_ETAT_REVEIL_CMD_DISTANCE",
-                "label_index": "16191",
+                "label_index": "@P16191",
                 "label_korean": "원격 제어 웨이크-업 상태",
                 "group_id": "130923",
                 "req_frame_id": "393112",

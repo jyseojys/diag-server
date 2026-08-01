@@ -8,7 +8,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_HAUT_REF_AV_INIT",
-                "label_index": "15919",
+                "label_index": "@P15919",
                 "label_korean": "초기 프론트 기준 높이",
                 "group_id": "86389",
                 "req_frame_id": "259516",
@@ -24,13 +24,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "40068, 42859, 42860, 42861, 42862, 42863",
+                "help_code": "@P40068@\\n@P42859@\\*128@\\*120@T.@\\n@\\+@F42860@\\n@P42861@\\n@P42862@\\n@P42863@T.",
                 "help_korean": "초기 위치는 ECU에 영구적으로 입력된 높이 (프론트/리어)이므로, 이 높이는 변하지 않고 변경할 수 없다\n이들 높이는 프론트에서 128 단계 및 리어에서 120단계와 동일해야 한다.\n기준 높이 프로그래밍 절차가 진행되지 않는 한 이 값들이 기준으로 작동한다\n차량 기준 높이를 세팅할 때 프로그램된 높이(프론트/리어)는 ECU에 프로그램 된다\n표시된 값들은 이전에 세팅된 기준 높이다\n차량의 기준 높이 계산을 위한 기준으로 이 높이를 사용한다."
             },
             {
                 "position": 2,
                 "mnemonic": "MP_HAUT_REF_AR_INIT",
-                "label_index": "5558",
+                "label_index": "@P5558",
                 "label_korean": "초기 리어 기준 높이",
                 "group_id": "86389",
                 "req_frame_id": "259516",
@@ -46,13 +46,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "40068, 42859, 42860, 42861, 42862, 42863",
+                "help_code": "@P40068@\\n@P42859@\\*128@\\*120@T.@\\n@\\+@F42860@\\n@P42861@\\n@P42862@\\n@P42863@T.",
                 "help_korean": "초기 위치는 ECU에 영구적으로 입력된 높이 (프론트/리어)이므로, 이 높이는 변하지 않고 변경할 수 없다\n이들 높이는 프론트에서 128 단계 및 리어에서 120단계와 동일해야 한다.\n기준 높이 프로그래밍 절차가 진행되지 않는 한 이 값들이 기준으로 작동한다\n차량 기준 높이를 세팅할 때 프로그램된 높이(프론트/리어)는 ECU에 프로그램 된다\n표시된 값들은 이전에 세팅된 기준 높이다\n차량의 기준 높이 계산을 위한 기준으로 이 높이를 사용한다."
             },
             {
                 "position": 3,
                 "mnemonic": "MP_HAUT_REF_AV_PR",
-                "label_index": "13318",
+                "label_index": "@P13318",
                 "label_korean": "프론트 기준 높이 프로그램",
                 "group_id": "86389",
                 "req_frame_id": "259516",
@@ -68,13 +68,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "40068, 42859, 42860, 42861, 42862, 42863",
+                "help_code": "@P40068@\\n@P42859@\\*128@\\*120@T.@\\n@\\+@F42860@\\n@P42861@\\n@P42862@\\n@P42863@T.",
                 "help_korean": "초기 위치는 ECU에 영구적으로 입력된 높이 (프론트/리어)이므로, 이 높이는 변하지 않고 변경할 수 없다\n이들 높이는 프론트에서 128 단계 및 리어에서 120단계와 동일해야 한다.\n기준 높이 프로그래밍 절차가 진행되지 않는 한 이 값들이 기준으로 작동한다\n차량 기준 높이를 세팅할 때 프로그램된 높이(프론트/리어)는 ECU에 프로그램 된다\n표시된 값들은 이전에 세팅된 기준 높이다\n차량의 기준 높이 계산을 위한 기준으로 이 높이를 사용한다."
             },
             {
                 "position": 4,
                 "mnemonic": "MP_HAUT_REF_AR_PR",
-                "label_index": "5514",
+                "label_index": "@P5514",
                 "label_korean": "프로그램된 리어 기준 높이",
                 "group_id": "86389",
                 "req_frame_id": "259516",
@@ -90,7 +90,7 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "40068, 42859, 42860, 42861, 42862, 42863",
+                "help_code": "@P40068@\\n@P42859@\\*128@\\*120@T.@\\n@\\+@F42860@\\n@P42861@\\n@P42862@\\n@P42863@T.",
                 "help_korean": "초기 위치는 ECU에 영구적으로 입력된 높이 (프론트/리어)이므로, 이 높이는 변하지 않고 변경할 수 없다\n이들 높이는 프론트에서 128 단계 및 리어에서 120단계와 동일해야 한다.\n기준 높이 프로그래밍 절차가 진행되지 않는 한 이 값들이 기준으로 작동한다\n차량 기준 높이를 세팅할 때 프로그램된 높이(프론트/리어)는 ECU에 프로그램 된다\n표시된 값들은 이전에 세팅된 기준 높이다\n차량의 기준 높이 계산을 위한 기준으로 이 높이를 사용한다."
             }
         ]
@@ -104,7 +104,7 @@
             {
                 "position": 1,
                 "mnemonic": "ID_NOM_DU_FOURNISSEUR",
-                "label_index": "5701",
+                "label_index": "@P5701",
                 "label_korean": "제조 업체명",
                 "group_id": "86382",
                 "req_frame_id": "259495",
@@ -134,7 +134,7 @@
             {
                 "position": 2,
                 "mnemonic": "ID_REFERENCE_MATERIEL",
-                "label_index": "1071",
+                "label_index": "@P1071",
                 "label_korean": "장치 부품 번호",
                 "group_id": "86382",
                 "req_frame_id": "259495",
@@ -156,7 +156,7 @@
             {
                 "position": 3,
                 "mnemonic": "ID_REFERENCE_LOGICIEL",
-                "label_index": "13263",
+                "label_index": "@P13263",
                 "label_korean": "소프트웨어 번호",
                 "group_id": "86383",
                 "req_frame_id": "259498",
@@ -178,7 +178,7 @@
             {
                 "position": 4,
                 "mnemonic": "ID_EDITION_LOGICIEL",
-                "label_index": "3274",
+                "label_index": "@P3274",
                 "label_korean": "소프트웨어 버전",
                 "group_id": "86382",
                 "req_frame_id": "259495",
@@ -200,7 +200,7 @@
             {
                 "position": 5,
                 "mnemonic": "DIAGNOSTIC_VERSION",
-                "label_index": "2802",
+                "label_index": "@P2802",
                 "label_korean": "진단 버전",
                 "group_id": "86382",
                 "req_frame_id": "259495",
@@ -230,7 +230,7 @@
             {
                 "position": 1,
                 "mnemonic": "DEBATTAV",
-                "label_index": "10059",
+                "label_index": "@P10059",
                 "label_korean": "프론트 이동",
                 "group_id": "86384",
                 "req_frame_id": "259501",
@@ -246,13 +246,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "15444",
+                "help_code": "@P15444",
                 "help_korean": "프론트 차고 높이 센서에 의해 측정된 차량의 프론트에서 움직임"
             },
             {
                 "position": 2,
                 "mnemonic": "VITDEBATTAV",
-                "label_index": "4266",
+                "label_index": "@P4266",
                 "label_korean": "프론트 이동 속도",
                 "group_id": "86384",
                 "req_frame_id": "259501",
@@ -262,19 +262,19 @@
                 "endian": "",
                 "factor": "1.0",
                 "offset": "-128.0",
-                "unit": "mm\\*s",
+                "unit": "mm s/",
                 "req_frame_hex": "21C08001",
                 "states": {},
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "4528",
+                "help_code": "@P4528",
                 "help_korean": "차량 전면의 이동 속도"
             },
             {
                 "position": 3,
                 "mnemonic": "MP_ACCELERATION_LONGITUDINALE",
-                "label_index": "3354",
+                "label_index": "@P3354",
                 "label_korean": "종가속도",
                 "group_id": "86384",
                 "req_frame_id": "259501",
@@ -292,13 +292,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "15858",
+                "help_code": "@P15858",
                 "help_korean": "차량의 종가속도 (주행시에만 보임)"
             },
             {
                 "position": 4,
                 "mnemonic": "MP_ACCELERATION_LATERALE",
-                "label_index": "12933",
+                "label_index": "@P12933",
                 "label_korean": "측면 가속도",
                 "group_id": "86384",
                 "req_frame_id": "259501",
@@ -314,13 +314,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "6831",
+                "help_code": "@P6831",
                 "help_korean": "차량의 횡가속도 (주행시에만 보임)"
             },
             {
                 "position": 5,
                 "mnemonic": "MP_REGIME_MOTEUR",
-                "label_index": "7917",
+                "label_index": "@P7917",
                 "label_korean": "엔진 속도",
                 "group_id": "86384",
                 "req_frame_id": "259501",
@@ -338,13 +338,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "8204",
+                "help_code": "@P8204",
                 "help_korean": "분당 회전수로 엔진의 회전 속도"
             },
             {
                 "position": 6,
                 "mnemonic": "VITESSEVOLANT",
-                "label_index": "5478",
+                "label_index": "@P5478",
                 "label_korean": "스티어링 휠 속도",
                 "group_id": "86384",
                 "req_frame_id": "259501",
@@ -354,19 +354,19 @@
                 "endian": "",
                 "factor": "10.0",
                 "offset": "",
-                "unit": "seconds�",
+                "unit": "seconds�/",
                 "req_frame_hex": "21C08001",
                 "states": {},
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "13956",
+                "help_code": "@P13956",
                 "help_korean": "스티어링 휠 회전 속도"
             },
             {
                 "position": 7,
                 "mnemonic": "MP_ANGLE_VOLANT",
-                "label_index": "1274",
+                "label_index": "@P1274",
                 "label_korean": "스티어링 휠 앵글",
                 "group_id": "86384",
                 "req_frame_id": "259501",
@@ -384,13 +384,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "42856, 42857",
-                "help_korean": "스티어링 휠 회전 각도. 주행시에만 고려되어야 한다."
+                "help_code": "@P42856@T.@\\+@P42857@T.",
+                "help_korean": "스티어링 휠 회전 각도.주행시에만 고려되어야 한다."
             },
             {
                 "position": 8,
                 "mnemonic": "SPORTROULIS",
-                "label_index": "12518",
+                "label_index": "@P12518",
                 "label_korean": "롤 스포티",
                 "group_id": "86384",
                 "req_frame_id": "259501",
@@ -406,13 +406,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "42848, 42849",
-                "help_korean": "차량의 측면 가속도를 이용해서 운전자의 스포티한 주행을 분석 (스티어링 휠 조작) (0% : 스포티하지 않은 주행에 해당되는 롤 - 100% : 스포티한 드라이빙에 해당되는 롤)"
+                "help_code": "@P42848@\\+@P42849",
+                "help_korean": "차량의 측면 가속도를 이용해서 운전자의 스포티한 주행을 분석 (스티어링 휠 조작)(0% : 스포티하지 않은 주행에 해당되는 롤 - 100% : 스포티한 드라이빙에 해당되는 롤)"
             },
             {
                 "position": 9,
                 "mnemonic": "SPORTPOMP",
-                "label_index": "5881",
+                "label_index": "@P5881",
                 "label_korean": "스포티한 펌핑",
                 "group_id": "86384",
                 "req_frame_id": "259501",
@@ -428,13 +428,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "42850, 42851",
-                "help_korean": "롤 및 피치 스포티한 값으로부터 계산된 값 (0% : 스포티하지 않은 주행에 해당되는 요잉 - 100% : 스포티한 드라이빙에 해당되는 요잉)"
+                "help_code": "@P42850@\\+@P42851",
+                "help_korean": "롤 및 피치 스포티한 값으로부터 계산된 값(0% : 스포티하지 않은 주행에 해당되는 요잉 - 100% : 스포티한 드라이빙에 해당되는 요잉)"
             },
             {
                 "position": 10,
                 "mnemonic": "SPORTTANG",
-                "label_index": "8813",
+                "label_index": "@P8813",
                 "label_korean": "스포티한 피칭",
                 "group_id": "86384",
                 "req_frame_id": "259501",
@@ -450,13 +450,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "42852, 42853",
-                "help_korean": "차량의 종가속도를 사용해서 운전자의 스포티함 분석 (스티어링 휠 조작) (0% : 스포티하지 않은 주행에 해당되는 피칭 - 100% : 스포티한 주행에 해당되는 피칭)"
+                "help_code": "@P42852@\\+@P42853",
+                "help_korean": "차량의 종가속도를 사용해서 운전자의 스포티함 분석 (스티어링 휠 조작)(0% : 스포티하지 않은 주행에 해당되는 피칭 - 100% : 스포티한 주행에 해당되는 피칭)"
             },
             {
                 "position": 11,
                 "mnemonic": "ETATHYDRA",
-                "label_index": "15465",
+                "label_index": "@P15465",
                 "label_korean": "하이드랙티브 상태",
                 "group_id": "86384",
                 "req_frame_id": "259501",
@@ -475,13 +475,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "16348",
+                "help_code": "@P16348",
                 "help_korean": "하이드랙비트 솔레노이드 밸브 제어 상태 (딱딱함 = 제어됨 또는 소프트 = 제어되지 않음)"
             },
             {
                 "position": 12,
                 "mnemonic": "VITESSEAPPUIPEDALEACCEL",
-                "label_index": "9370",
+                "label_index": "@P9370",
                 "label_korean": "가속 페달에서 누름 속도",
                 "group_id": "86384",
                 "req_frame_id": "259501",
@@ -497,13 +497,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "11963",
+                "help_code": "@P11963",
                 "help_korean": "가속 페달 누름 속도"
             },
             {
                 "position": 13,
                 "mnemonic": "PASSFERSOU",
-                "label_index": "3394",
+                "label_index": "@P3394",
                 "label_korean": "딱딱하거나 부드러운 상태로 전환을 유발한다",
                 "group_id": "86384",
                 "req_frame_id": "259501",
@@ -528,13 +528,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "42854, 42855",
+                "help_code": "@P42854@\\n@P42855",
                 "help_korean": "하이드로액티브 상태에서 변화 원인 (딱딱함 또는 부드러움)\n포지티브 이동, 네거티브 이동, 스티어링 휠 앵글, 스티어링 휠 속도, 가속 페달 눌러짐, 가속 페달 해제됨, 가속 , 감속"
             },
             {
                 "position": 14,
                 "mnemonic": "MP_ETAT_ROUTE",
-                "label_index": "6990",
+                "label_index": "@P6990",
                 "label_korean": "도로 상태",
                 "group_id": "86384",
                 "req_frame_id": "259501",
@@ -554,13 +554,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "45193, 12090, 15270, 15808",
+                "help_code": "@P45193@\\+@\\n@P12090@T, @P15270@T, @P15808",
                 "help_korean": "도로 상태 측정\n일반 도로, poor road, 휠에서 충격"
             },
             {
                 "position": 15,
                 "mnemonic": "ETATCORRHAUT",
-                "label_index": "4556",
+                "label_index": "@P4556",
                 "label_korean": "높이 조정 상태",
                 "group_id": "86384",
                 "req_frame_id": "259501",
@@ -579,7 +579,7 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "45194, 45195",
+                "help_code": "@P45194@\\n@\\+@F45195@T.",
                 "help_korean": "높이 조정 상태를 읽는다 (높이 조정이 진행중이 아니라면 공회전, 올라가거나 내려가는 솔레노이드 밸브가 제어되면 제어)\n하이드라액티브가 단단한 상태에 있으면 높이 조정은 실행 될 수 없다."
             }
         ]
@@ -593,7 +593,7 @@
             {
                 "position": 1,
                 "mnemonic": "ETATOUVR",
-                "label_index": "15710",
+                "label_index": "@P15710",
                 "label_korean": "열림 부분의 위치",
                 "group_id": "86385",
                 "req_frame_id": "259504",
@@ -613,13 +613,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "42455",
+                "help_code": "@P42455",
                 "help_korean": "서스펜션 ECU로 전압을 보내는 액세스 타입"
             },
             {
                 "position": 2,
                 "mnemonic": "MP_ANGLE_VOLANT_a",
-                "label_index": "1274",
+                "label_index": "@P1274",
                 "label_korean": "스티어링 휠 앵글",
                 "group_id": "86385",
                 "req_frame_id": "259504",
@@ -637,13 +637,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "42856, 42857, 42858",
-                "help_korean": "스티어링 휠 회전 각도. 주행시에만 고려되어야 한다.\n(현재 높이 보정 버전에서 사용하지 않음)"
+                "help_code": "@P42856@T.@\\+@P42857@T.@\\n@P42858",
+                "help_korean": "스티어링 휠 회전 각도.주행시에만 고려되어야 한다.\n(현재 높이 보정 버전에서 사용하지 않음)"
             },
             {
                 "position": 3,
                 "mnemonic": "MP_ETAT_HYDRACTIVE",
-                "label_index": "15465",
+                "label_index": "@P15465",
                 "label_korean": "하이드랙티브 상태",
                 "group_id": "86385",
                 "req_frame_id": "259504",
@@ -662,13 +662,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "15465, 45195",
+                "help_code": "@P15465@\\n@P45195@T.",
                 "help_korean": "하이드랙티브 상태\n하이드라액티브가 단단한 상태에 있으면 높이 조정은 실행 될 수 없다."
             },
             {
                 "position": 4,
                 "mnemonic": "CONSIGAV",
-                "label_index": "15831",
+                "label_index": "@P15831",
                 "label_korean": "프론트 세팅 높이",
                 "group_id": "86385",
                 "req_frame_id": "259504",
@@ -684,13 +684,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "42868, 42869, 42870, 42871, 42872",
-                "help_korean": "이는 차량이 반드시 달성해야 할 높이(프론트)이다.\n정상 및 중간 위치만. 높고 낮은 위치를 위해서, 범프 스탑이 압축될 때까지 제어가 이뤄진다 하이 및 로우 위치를 위해 명시된 값들은 반드시 초과되어야 하는 높이지만, 이 기준 값들은 제어 목적으로는 사용하지 않는다.\n이 높이는 운전자가 선택한 (하이, 트랙, 일반 또는 로우) 위치에 따라 변한다.\n운전자가 정상 위치를 선택할 때, 기준 높이는 프로그램된 기준 높이와 동일하다."
+                "help_code": "@P42868@T.@\\n@P42869@\\+@P42870@T.@\\n@P42871@T.@\\n@P42872@T.",
+                "help_korean": "이는 차량이 반드시 달성해야 할 높이(프론트)이다.\n정상 및 중간 위치만. 높고 낮은 위치를 위해서, 범프 스탑이 압축될 때까지 제어가 이뤄진다하이 및 로우 위치를 위해 명시된 값들은 반드시 초과되어야 하는 높이지만, 이 기준 값들은 제어 목적으로는 사용하지 않는다.\n이 높이는 운전자가 선택한 (하이, 트랙, 일반 또는 로우) 위치에 따라 변한다.\n운전자가 정상 위치를 선택할 때, 기준 높이는 프로그램된 기준 높이와 동일하다."
             },
             {
                 "position": 5,
                 "mnemonic": "CONSIGAR",
-                "label_index": "14745",
+                "label_index": "@P14745",
                 "label_korean": "리어 세팅 높이",
                 "group_id": "86385",
                 "req_frame_id": "259504",
@@ -706,13 +706,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "42873, 42869, 42870, 42871, 42872",
-                "help_korean": "이는 차량이 반드시 달성해야 할 높이(리어)이다\n정상 및 중간 위치만. 높고 낮은 위치를 위해서, 범프 스탑이 압축될 때까지 제어가 이뤄진다 하이 및 로우 위치를 위해 명시된 값들은 반드시 초과되어야 하는 높이지만, 이 기준 값들은 제어 목적으로는 사용하지 않는다.\n이 높이는 운전자가 선택한 (하이, 트랙, 일반 또는 로우) 위치에 따라 변한다.\n운전자가 정상 위치를 선택할 때, 기준 높이는 프로그램된 기준 높이와 동일하다."
+                "help_code": "@P42873@\\n@P42869@\\+@P42870@T.@\\n@P42871@T.@\\n@P42872@T.",
+                "help_korean": "이는 차량이 반드시 달성해야 할 높이(리어)이다\n정상 및 중간 위치만. 높고 낮은 위치를 위해서, 범프 스탑이 압축될 때까지 제어가 이뤄진다하이 및 로우 위치를 위해 명시된 값들은 반드시 초과되어야 하는 높이지만, 이 기준 값들은 제어 목적으로는 사용하지 않는다.\n이 높이는 운전자가 선택한 (하이, 트랙, 일반 또는 로우) 위치에 따라 변한다.\n운전자가 정상 위치를 선택할 때, 기준 높이는 프로그램된 기준 높이와 동일하다."
             },
             {
                 "position": 6,
                 "mnemonic": "HAUTFILTAV",
-                "label_index": "16098",
+                "label_index": "@P16098",
                 "label_korean": "프론트 필터된 높이",
                 "group_id": "86385",
                 "req_frame_id": "259504",
@@ -728,13 +728,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "16780",
+                "help_code": "@P16780@\\*7",
                 "help_korean": "차량의 실제 현재 높이 (프론트) (이 높이는 7Hz에서 걸러진다, 그러므로 차량의 움직임은 볼 수 없다)"
             },
             {
                 "position": 7,
                 "mnemonic": "HAUTFILTAR",
-                "label_index": "2991",
+                "label_index": "@P2991",
                 "label_korean": "리어 필터링된 높이",
                 "group_id": "86385",
                 "req_frame_id": "259504",
@@ -750,13 +750,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "7412",
+                "help_code": "@P7412@\\*7",
                 "help_korean": "차량의 실제 현재 높이 (리어) (이 높이는 7Hz에서 걸러진다, 그러므로 차량의 움직임은 볼 수 없다)"
             },
             {
                 "position": 8,
                 "mnemonic": "HAUTREFAV",
-                "label_index": "13318",
+                "label_index": "@P13318",
                 "label_korean": "프론트 기준 높이 프로그램",
                 "group_id": "86385",
                 "req_frame_id": "259504",
@@ -772,13 +772,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "42874, 42876",
+                "help_code": "@P42874@\\n@P42876",
                 "help_korean": "차량의 기준 높이를 조정할 때 ECU에 프로그램된 높이 (프론트)\n이 높이는 차량의 기준 높이 계산을 위해 참고로서 제공된다"
             },
             {
                 "position": 9,
                 "mnemonic": "HAUTREFAR",
-                "label_index": "5514",
+                "label_index": "@P5514",
                 "label_korean": "프로그램된 리어 기준 높이",
                 "group_id": "86385",
                 "req_frame_id": "259504",
@@ -794,13 +794,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "42875, 42876",
+                "help_code": "@P42875@\\n@P42876",
                 "help_korean": "차량의 기준 높이를 조정할 때 ECU에 프로그램된 높이 (리어)\n이 높이는 차량의 기준 높이 계산을 위해 참고로서 제공된다"
             },
             {
                 "position": 10,
                 "mnemonic": "HAUTREFAVINIT",
-                "label_index": "15919",
+                "label_index": "@P15919",
                 "label_korean": "초기 프론트 기준 높이",
                 "group_id": "86385",
                 "req_frame_id": "259504",
@@ -816,13 +816,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "42877, 42878, 42879, 42880",
-                "help_korean": "ECU의 영구적인 메모리에 기록된 높이(프론트). 이 높이는 변하지 않으며 변경할 수 없다.\n프론트에서 항상 128단계와 동일해야 한다 (C5 Carlsson을 위한 128).\n기준 높이 프로그래밍 절차가 진행되지 않는 한 기준 값으로 활용한다"
+                "help_code": "@P42877@T.@\\n@P42878@\\*128@\\+@P42879@\\*115@T.@\\n@P42880",
+                "help_korean": "ECU의 영구적인 메모리에 기록된 높이(프론트). 이 높이는 변하지 않으며 변경할 수 없다.\n프론트에서 항상 128단계와 동일해야 한다(C5 Carlsson을 위한 128).\n기준 높이 프로그래밍 절차가 진행되지 않는 한 기준 값으로 활용한다"
             },
             {
                 "position": 11,
                 "mnemonic": "HAUTREFARINIT",
-                "label_index": "5558",
+                "label_index": "@P5558",
                 "label_korean": "초기 리어 기준 높이",
                 "group_id": "86385",
                 "req_frame_id": "259504",
@@ -838,13 +838,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "42881, 42882, 42879, 42880",
-                "help_korean": "ECU의 영구적인 메모리에 기록된 높이(리어). 이 높이는 변하지 않으며 변경할 수 없다.\n리어에서 항상 120단계와 동일해야 한다 (C5 Carlsson을 위한 120).\n기준 높이 프로그래밍 절차가 진행되지 않는 한 기준 값으로 활용한다"
+                "help_code": "@P42881@T.@\\n@P42882@\\*120@\\+@P42879@\\*110@T.@\\n@P42880",
+                "help_korean": "ECU의 영구적인 메모리에 기록된 높이(리어). 이 높이는 변하지 않으며 변경할 수 없다.\n리어에서 항상 120단계와 동일해야 한다(C5 Carlsson을 위한 120).\n기준 높이 프로그래밍 절차가 진행되지 않는 한 기준 값으로 활용한다"
             },
             {
                 "position": 12,
                 "mnemonic": "ETATFREINAPP",
-                "label_index": "5050",
+                "label_index": "@P5050",
                 "label_korean": "브레이크 상태",
                 "group_id": "86385",
                 "req_frame_id": "259504",
@@ -863,13 +863,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "45196, 25652, 45197",
+                "help_code": "@P45196@\\n@P25652@\\n@F45197@\\*30@T.",
                 "help_korean": "브레이크 페달 작동 상태 (브레이크 페달리 눌려지면 작동, 브레이크 페달이 해제되면 차단)\n참고\n30km/h 이하면, 브레이크 정보가 작동하는 동안 높이 조정이 되지 않는다."
             },
             {
                 "position": 13,
                 "mnemonic": "MP_VITESSE_VEHICULE_a",
-                "label_index": "7997",
+                "label_index": "@P7997@\\*",
                 "label_korean": "차량 속도",
                 "group_id": "86385",
                 "req_frame_id": "259504",
@@ -889,13 +889,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "11138",
+                "help_code": "@P11138",
                 "help_korean": "차량 속도"
             },
             {
                 "position": 14,
                 "mnemonic": "SELECTHAUT",
-                "label_index": "8185",
+                "label_index": "@P8185",
                 "label_korean": "높이 셀렉터",
                 "group_id": "86385",
                 "req_frame_id": "259504",
@@ -916,13 +916,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "40764",
+                "help_code": "@P40764",
                 "help_korean": "높이 선택 레버의 위치"
             },
             {
                 "position": 15,
                 "mnemonic": "MP_PLUS_APC",
-                "label_index": "4622",
+                "label_index": "@P4622",
                 "label_korean": "키 ON",
                 "group_id": "86385",
                 "req_frame_id": "259504",
@@ -947,7 +947,7 @@
             {
                 "position": 16,
                 "mnemonic": "MP_TENSION_BATTERIE",
-                "label_index": "18263",
+                "label_index": "@P18263",
                 "label_korean": "배터리 전압",
                 "group_id": "86385",
                 "req_frame_id": "259504",
@@ -965,13 +965,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "11082",
+                "help_code": "@P11082",
                 "help_korean": "서스펜션 ECU에 의해 읽은 배터리 전압"
             },
             {
                 "position": 17,
                 "mnemonic": "MP_ALIMENTATION_CAPTEURS_5V",
-                "label_index": "5351",
+                "label_index": "@P5351@\\*(5V)",
                 "label_korean": "센서 전원(5V)",
                 "group_id": "86385",
                 "req_frame_id": "259504",
@@ -987,8 +987,8 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "8391",
-                "help_korean": "센서 공급 전압()"
+                "help_code": "@P8391@\\*",
+                "help_korean": "센서 공급 전압"
             }
         ]
     },
@@ -1001,7 +1001,7 @@
             {
                 "position": 1,
                 "mnemonic": "HAUTAV",
-                "label_index": "16098",
+                "label_index": "@P16098",
                 "label_korean": "프론트 필터된 높이",
                 "group_id": "86386",
                 "req_frame_id": "259507",
@@ -1017,13 +1017,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "16780",
+                "help_code": "@P16780@\\*7",
                 "help_korean": "차량의 실제 현재 높이 (프론트) (이 높이는 7Hz에서 걸러진다, 그러므로 차량의 움직임은 볼 수 없다)"
             },
             {
                 "position": 2,
                 "mnemonic": "HAUTAR",
-                "label_index": "2991",
+                "label_index": "@P2991",
                 "label_korean": "리어 필터링된 높이",
                 "group_id": "86386",
                 "req_frame_id": "259507",
@@ -1039,13 +1039,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "7412",
+                "help_code": "@P7412@\\*7",
                 "help_korean": "차량의 실제 현재 높이 (리어) (이 높이는 7Hz에서 걸러진다, 그러므로 차량의 움직임은 볼 수 없다)"
             },
             {
                 "position": 3,
                 "mnemonic": "MP_ACC_LONGITUDINALE2",
-                "label_index": "3354",
+                "label_index": "@P3354",
                 "label_korean": "종가속도",
                 "group_id": "86386",
                 "req_frame_id": "259507",
@@ -1061,13 +1061,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "15858",
+                "help_code": "@P15858",
                 "help_korean": "차량의 종가속도 (주행시에만 보임)"
             },
             {
                 "position": 4,
                 "mnemonic": "CONSRABATT",
-                "label_index": "15315",
+                "label_index": "@P15315",
                 "label_korean": "굴절 기준",
                 "group_id": "86386",
                 "req_frame_id": "259507",
@@ -1083,7 +1083,7 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "11740",
+                "help_code": "@P11740",
                 "help_korean": "서스펜션 ECU에 의해 헤드램프로 보내진 세팅 값"
             }
         ]
@@ -1097,7 +1097,7 @@
             {
                 "position": 1,
                 "mnemonic": "CA_TENSION_BATTERIE",
-                "label_index": "18263",
+                "label_index": "@P18263",
                 "label_korean": "배터리 전압",
                 "group_id": "86387",
                 "req_frame_id": "259510",
@@ -1119,7 +1119,7 @@
             {
                 "position": 2,
                 "mnemonic": "CA_VITESSE_VEHICULE",
-                "label_index": "15603",
+                "label_index": "@P15603@\\*",
                 "label_korean": "차량 속도",
                 "group_id": "86387",
                 "req_frame_id": "259510",
@@ -1143,7 +1143,7 @@
             {
                 "position": 3,
                 "mnemonic": "CA_REGIME_MOTEUR_a",
-                "label_index": "7917",
+                "label_index": "@P7917",
                 "label_korean": "엔진 속도",
                 "group_id": "86387",
                 "req_frame_id": "259510",
@@ -1165,7 +1165,7 @@
             {
                 "position": 4,
                 "mnemonic": "CA_ALIMENTATION_CAPTEURS_5_V",
-                "label_index": "5351",
+                "label_index": "@P5351@\\*(5V)",
                 "label_korean": "센서 전원(5V)",
                 "group_id": "86387",
                 "req_frame_id": "259510",
@@ -1190,7 +1190,7 @@
             {
                 "position": 5,
                 "mnemonic": "CA_APRES_CONTACT",
-                "label_index": "10860",
+                "label_index": "@P10860",
                 "label_korean": "키 ON 이후",
                 "group_id": "86387",
                 "req_frame_id": "259510",
@@ -1215,7 +1215,7 @@
             {
                 "position": 6,
                 "mnemonic": "CA_ETAT_ROUTE",
-                "label_index": "6990",
+                "label_index": "@P6990",
                 "label_korean": "도로 상태",
                 "group_id": "86387",
                 "req_frame_id": "259510",
@@ -1242,7 +1242,7 @@
             {
                 "position": 7,
                 "mnemonic": "CA_ETAT_MOTEUR_GROUPE_ELECTRO_POMPE",
-                "label_index": "29749",
+                "label_index": "@P29749",
                 "label_korean": "전동 펌프 어셈블리 모터의 상태",
                 "group_id": "86387",
                 "req_frame_id": "259510",

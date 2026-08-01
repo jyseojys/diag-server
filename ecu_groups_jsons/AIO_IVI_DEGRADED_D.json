@@ -8,7 +8,7 @@
             {
                 "position": 1,
                 "mnemonic": "ID_NOM_DU_FOURNISSEUR",
-                "label_index": "5701",
+                "label_index": "@P5701",
                 "label_korean": "제조 업체명",
                 "group_id": "75190",
                 "req_frame_id": "225857",
@@ -38,7 +38,7 @@
             {
                 "position": 2,
                 "mnemonic": "ID_REFERENCE_MATERIEL",
-                "label_index": "1071",
+                "label_index": "@P1071",
                 "label_korean": "장치 부품 번호",
                 "group_id": "75190",
                 "req_frame_id": "225857",
@@ -60,7 +60,7 @@
             {
                 "position": 3,
                 "mnemonic": "ID_REFERENCE_COMPLEMENTAIRE_MATERIEL",
-                "label_index": "1634",
+                "label_index": "@P1634",
                 "label_korean": "장치 추가 참조 번호",
                 "group_id": "75190",
                 "req_frame_id": "225857",
@@ -82,7 +82,7 @@
             {
                 "position": 4,
                 "mnemonic": "ID_REFERENCE_LOGICIEL",
-                "label_index": "13263",
+                "label_index": "@F13263",
                 "label_korean": "소프트웨어 번호",
                 "group_id": "75194",
                 "req_frame_id": "225869",
@@ -104,7 +104,7 @@
             {
                 "position": 5,
                 "mnemonic": "ID_REFERENCE_CALIBRATION",
-                "label_index": "14489",
+                "label_index": "@P14489",
                 "label_korean": "캘리브레이션 번호",
                 "group_id": "75191",
                 "req_frame_id": "225860",
@@ -126,7 +126,7 @@
             {
                 "position": 6,
                 "mnemonic": "ID_TRACABILITE_INDICE_EVOLUTION_EDITION_CALIBRATION",
-                "label_index": "7413",
+                "label_index": "@P7413",
                 "label_korean": "캘리브레이션 에디션",
                 "group_id": "75191",
                 "req_frame_id": "225860",
@@ -148,7 +148,7 @@
             {
                 "position": 7,
                 "mnemonic": "ID_DATE_TELECH",
-                "label_index": "21670",
+                "label_index": "@P21670",
                 "label_korean": "다운로딩 날짜",
                 "group_id": "75191",
                 "req_frame_id": "225860",
@@ -170,7 +170,7 @@
             {
                 "position": 8,
                 "mnemonic": "ID_NOMBRE_DE_TELECHARGEMENT",
-                "label_index": "24589",
+                "label_index": "@P24589",
                 "label_korean": "다운로드의 수",
                 "group_id": "75191",
                 "req_frame_id": "225860",
@@ -192,7 +192,7 @@
             {
                 "position": 9,
                 "mnemonic": "ID_TRACABILITE_DATE_FABRICATION",
-                "label_index": "16589",
+                "label_index": "@F16589",
                 "label_korean": "제조 일자",
                 "group_id": "75192",
                 "req_frame_id": "225863",
@@ -222,7 +222,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_VIN",
-                "label_index": "3241",
+                "label_index": "@F3241",
                 "label_korean": "차량의 일련번호 - 차대번호 코드",
                 "group_id": "75213",
                 "req_frame_id": "225926",
@@ -252,7 +252,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_ETAT_PRISE_USB",
-                "label_index": "56716",
+                "label_index": "@P56716",
                 "label_korean": "USB 소켓의 상태",
                 "group_id": "75197",
                 "req_frame_id": "225878",
@@ -281,7 +281,7 @@
             {
                 "position": 2,
                 "mnemonic": "MP_ETAT_PRISE_USB_VARJ",
-                "label_index": "56716",
+                "label_index": "@P56716",
                 "label_korean": "USB 소켓의 상태",
                 "group_id": "매핑_누락",
                 "req_frame_id": "",
@@ -305,7 +305,7 @@
             {
                 "position": 3,
                 "mnemonic": "MP_ETAT_TOUCHE_RACCROCHER",
-                "label_index": "56890",
+                "label_index": "@F56890",
                 "label_korean": "아래쪽 화살표/끊기 버튼의 상태",
                 "group_id": "75198",
                 "req_frame_id": "225881",
@@ -331,7 +331,7 @@
             {
                 "position": 4,
                 "mnemonic": "MP_ETAT_TOUCHE_DECROCHER",
-                "label_index": "56892",
+                "label_index": "@P56892",
                 "label_korean": "위쪽 화살표/픽업 버튼의 상태",
                 "group_id": "75198",
                 "req_frame_id": "225881",
@@ -357,8 +357,8 @@
             {
                 "position": 5,
                 "mnemonic": "MP_ETAT_TOUCHE_AUGMENTER_VOLUME",
-                "label_index": "56789",
-                "label_korean": "버튼 상태볼륨",
+                "label_index": "@P56789@\\*@P28263@\\*+",
+                "label_korean": "버튼 상태볼륨+",
                 "group_id": "75198",
                 "req_frame_id": "225881",
                 "resp_frame_id": "225882",
@@ -383,7 +383,7 @@
             {
                 "position": 6,
                 "mnemonic": "MP_ETAT_TOUCHE_DIMINUER_VOLUME",
-                "label_index": "56789",
+                "label_index": "@P56789@\\*@P28263@\\*-",
                 "label_korean": "버튼 상태볼륨-",
                 "group_id": "75198",
                 "req_frame_id": "225881",
@@ -409,7 +409,7 @@
             {
                 "position": 7,
                 "mnemonic": "MP_ETAT_TOUCHE_RECONNAISSANCE_VOCALE",
-                "label_index": "10891",
+                "label_index": "@F10891",
                 "label_korean": "음성 인식 버튼 상태",
                 "group_id": "75198",
                 "req_frame_id": "225881",
@@ -435,7 +435,7 @@
             {
                 "position": 8,
                 "mnemonic": "MP_ETAT_TOUCHE_SOURCE",
-                "label_index": "56789",
+                "label_index": "@P56789@\\*SRC",
                 "label_korean": "SRC 버튼 상태",
                 "group_id": "75198",
                 "req_frame_id": "225881",
@@ -461,7 +461,7 @@
             {
                 "position": 9,
                 "mnemonic": "MP_NOMBRE_APPAREILS_CONNECTES_EN_BLUETOOTH",
-                "label_index": "47959",
+                "label_index": "@P47959",
                 "label_korean": "블루투스로 연결된 장치 수",
                 "group_id": "75199",
                 "req_frame_id": "225884",
@@ -483,7 +483,7 @@
             {
                 "position": 10,
                 "mnemonic": "MP_FONCTION_APPAIRAGE_BLUETOOTH",
-                "label_index": "27202",
+                "label_index": "@P27202",
                 "label_korean": "블루투스 페어링 기능",
                 "group_id": "75199",
                 "req_frame_id": "225884",
@@ -509,7 +509,7 @@
             {
                 "position": 11,
                 "mnemonic": "MP_FONCTION_APPAIRAGE_BLUETOOTH_VARJ",
-                "label_index": "27202",
+                "label_index": "@P27202",
                 "label_korean": "블루투스 페어링 기능",
                 "group_id": "매핑_누락",
                 "req_frame_id": "",
@@ -533,7 +533,7 @@
             {
                 "position": 12,
                 "mnemonic": "MP_VOLUME_SONORE",
-                "label_index": "39198",
+                "label_index": "@P39198",
                 "label_korean": "오디오 시스템 볼륨",
                 "group_id": "75200",
                 "req_frame_id": "225887",
@@ -555,7 +555,7 @@
             {
                 "position": 13,
                 "mnemonic": "MP_ETAT_FEUX_STATIONNEMENT",
-                "label_index": "59226",
+                "label_index": "@F59226",
                 "label_korean": "주차등",
                 "group_id": "75201",
                 "req_frame_id": "225890",
@@ -581,7 +581,7 @@
             {
                 "position": 14,
                 "mnemonic": "MP_ETAT_BOITE_VITESSES",
-                "label_index": "22749",
+                "label_index": "@P22749",
                 "label_korean": "변속기 상태",
                 "group_id": "75202",
                 "req_frame_id": "225893",
@@ -607,7 +607,7 @@
             {
                 "position": 15,
                 "mnemonic": "MP_SOURCE_ACTIVE",
-                "label_index": "56894",
+                "label_index": "@P56894",
                 "label_korean": "source active",
                 "group_id": "75203",
                 "req_frame_id": "225896",
@@ -637,7 +637,7 @@
             {
                 "position": 16,
                 "mnemonic": "MP_VITESSE_VEHICULE",
-                "label_index": "45619",
+                "label_index": "@P45619",
                 "label_korean": "차량 속도",
                 "group_id": "75204",
                 "req_frame_id": "225899",
@@ -663,7 +663,7 @@
             {
                 "position": 17,
                 "mnemonic": "MP_TENSION_ALIMENTATION",
-                "label_index": "51370",
+                "label_index": "@P51370",
                 "label_korean": "전기 공급 전압",
                 "group_id": "75205",
                 "req_frame_id": "225902",
@@ -685,7 +685,7 @@
             {
                 "position": 18,
                 "mnemonic": "MP_ETAT_FEUX_DIURNES",
-                "label_index": "3025",
+                "label_index": "@F3025",
                 "label_korean": "주간 전조등",
                 "group_id": "75206",
                 "req_frame_id": "225905",
@@ -710,7 +710,7 @@
             {
                 "position": 19,
                 "mnemonic": "MP_NIVEAU_SIGNAL_RADIO",
-                "label_index": "48769",
+                "label_index": "@P48769",
                 "label_korean": "라디오 신호 레벨",
                 "group_id": "75207",
                 "req_frame_id": "225908",
@@ -732,7 +732,7 @@
             {
                 "position": 20,
                 "mnemonic": "MP_DEMANDE_ACTIVATION_VOLUME_SONORE_DU_BCCM",
-                "label_index": "60478",
+                "label_index": "@P60478@\\*IVI@\\*(BCCM)",
                 "label_korean": "차체 클러스터 컨트롤 모듈를 통해 IVI 오디오-네비게이션 시스템 볼륨을 점검한다(BCCM)",
                 "group_id": "75208",
                 "req_frame_id": "225911",
@@ -758,7 +758,7 @@
             {
                 "position": 21,
                 "mnemonic": "MP_NOMBRE_KILOMETRES_PARCOURUS",
-                "label_index": "51447",
+                "label_index": "@P51447",
                 "label_korean": "distance covered",
                 "group_id": "75209",
                 "req_frame_id": "225914",
@@ -780,7 +780,7 @@
             {
                 "position": 22,
                 "mnemonic": "MP_NIVEAU_LUMINOSITE",
-                "label_index": "2776",
+                "label_index": "@F2776",
                 "label_korean": "밝기 레벨",
                 "group_id": "75212",
                 "req_frame_id": "225923",
@@ -802,7 +802,7 @@
             {
                 "position": 23,
                 "mnemonic": "MP_PUISSANCE_SIGNAL_GPS",
-                "label_index": "47897",
+                "label_index": "@P47897@\\*GPS",
                 "label_korean": "GPS 신호의 전원",
                 "group_id": "75210",
                 "req_frame_id": "225917",
@@ -824,7 +824,7 @@
             {
                 "position": 24,
                 "mnemonic": "MP_ETAT_WIFI",
-                "label_index": "59891",
+                "label_index": "@P59891@\\*WIFI",
                 "label_korean": "WIFI 상태",
                 "group_id": "75211",
                 "req_frame_id": "225920",
@@ -850,7 +850,7 @@
             {
                 "position": 25,
                 "mnemonic": "MP_ETAT_WIFI_VARJ",
-                "label_index": "59891",
+                "label_index": "@P59891@\\*WIFI",
                 "label_korean": "WIFI 상태",
                 "group_id": "매핑_누락",
                 "req_frame_id": "",
@@ -874,7 +874,7 @@
             {
                 "position": 26,
                 "mnemonic": "Mute",
-                "label_index": "36690",
+                "label_index": "@P36690",
                 "label_korean": "소리끔 버튼",
                 "group_id": "매핑_누락",
                 "req_frame_id": "",
@@ -898,8 +898,8 @@
             {
                 "position": 27,
                 "mnemonic": "MP_RECEPTION_GNSS",
-                "label_index": "65041",
-                "label_korean": "[미번역_P65041]",
+                "label_index": "@P65041",
+                "label_korean": "65041",
                 "group_id": "매핑_누락",
                 "req_frame_id": "",
                 "resp_frame_id": "",
@@ -920,8 +920,8 @@
             {
                 "position": 28,
                 "mnemonic": "Current_source_of_audio",
-                "label_index": "65043",
-                "label_korean": "[미번역_P65043]",
+                "label_index": "@P65043",
+                "label_korean": "65043",
                 "group_id": "매핑_누락",
                 "req_frame_id": "",
                 "resp_frame_id": "",
@@ -944,8 +944,8 @@
             {
                 "position": 29,
                 "mnemonic": "Current_source_of_audio_VARJ",
-                "label_index": "65043",
-                "label_korean": "[미번역_P65043]",
+                "label_index": "@P65043",
+                "label_korean": "65043",
                 "group_id": "매핑_누락",
                 "req_frame_id": "",
                 "resp_frame_id": "",
@@ -968,7 +968,7 @@
             {
                 "position": 30,
                 "mnemonic": "Current_system_volume",
-                "label_index": "39198",
+                "label_index": "@P39198",
                 "label_korean": "오디오 시스템 볼륨",
                 "group_id": "매핑_누락",
                 "req_frame_id": "",
@@ -990,7 +990,7 @@
             {
                 "position": 31,
                 "mnemonic": "Type_of_Audio_source01",
-                "label_index": "10282",
+                "label_index": "@P10282",
                 "label_korean": "오디오 시스템 타입",
                 "group_id": "매핑_누락",
                 "req_frame_id": "",
@@ -1014,8 +1014,8 @@
             {
                 "position": 32,
                 "mnemonic": "Pilot_frequency_in_hertz01_VARJ",
-                "label_index": "65054",
-                "label_korean": "[미번역_P65054]",
+                "label_index": "@P65054",
+                "label_korean": "65054",
                 "group_id": "매핑_누락",
                 "req_frame_id": "",
                 "resp_frame_id": "",
@@ -1036,8 +1036,8 @@
             {
                 "position": 33,
                 "mnemonic": "Frequency_of_Tuner01",
-                "label_index": "65044",
-                "label_korean": "[미번역_P65044]",
+                "label_index": "@P65044",
+                "label_korean": "65044",
                 "group_id": "매핑_누락",
                 "req_frame_id": "",
                 "resp_frame_id": "",
@@ -1058,8 +1058,8 @@
             {
                 "position": 34,
                 "mnemonic": "Left_Right_Sound_Distribution01",
-                "label_index": "65048",
-                "label_korean": "[미번역_P65048]",
+                "label_index": "@P65048",
+                "label_korean": "65048",
                 "group_id": "매핑_누락",
                 "req_frame_id": "",
                 "resp_frame_id": "",
@@ -1082,8 +1082,8 @@
             {
                 "position": 35,
                 "mnemonic": "DAB_Radio_channel01",
-                "label_index": "65052",
-                "label_korean": "[미번역_P65052]",
+                "label_index": "@P65052",
+                "label_korean": "65052",
                 "group_id": "매핑_누락",
                 "req_frame_id": "",
                 "resp_frame_id": "",
@@ -1106,8 +1106,8 @@
             {
                 "position": 36,
                 "mnemonic": "Front_Rear_Sound_Distribution01",
-                "label_index": "65049",
-                "label_korean": "[미번역_P65049]",
+                "label_index": "@P65049",
+                "label_korean": "65049",
                 "group_id": "매핑_누락",
                 "req_frame_id": "",
                 "resp_frame_id": "",
@@ -1130,7 +1130,7 @@
             {
                 "position": 37,
                 "mnemonic": "Sound_Level01",
-                "label_index": "37866",
+                "label_index": "@P37866@\\*01",
                 "label_korean": "볼륨01",
                 "group_id": "매핑_누락",
                 "req_frame_id": "",
@@ -1152,8 +1152,8 @@
             {
                 "position": 38,
                 "mnemonic": "Speaker_selected_for_test01",
-                "label_index": "64243",
-                "label_korean": "[미번역_P64243]",
+                "label_index": "@P64243",
+                "label_korean": "64243",
                 "group_id": "매핑_누락",
                 "req_frame_id": "",
                 "resp_frame_id": "",
@@ -1180,8 +1180,8 @@
             {
                 "position": 39,
                 "mnemonic": "Pilot_frequency_in_hertz01",
-                "label_index": "65054",
-                "label_korean": "[미번역_P65054]",
+                "label_index": "@P65054",
+                "label_korean": "65054",
                 "group_id": "매핑_누락",
                 "req_frame_id": "",
                 "resp_frame_id": "",
@@ -1210,7 +1210,7 @@
             {
                 "position": 40,
                 "mnemonic": "Sound_Level02",
-                "label_index": "37866",
+                "label_index": "@P37866@\\*02",
                 "label_korean": "볼륨02",
                 "group_id": "매핑_누락",
                 "req_frame_id": "",
@@ -1232,8 +1232,8 @@
             {
                 "position": 41,
                 "mnemonic": "Rear_USB_connection_Status",
-                "label_index": "65056",
-                "label_korean": "[미번역_P65056]",
+                "label_index": "@P65056",
+                "label_korean": "65056",
                 "group_id": "매핑_누락",
                 "req_frame_id": "",
                 "resp_frame_id": "",
@@ -1256,8 +1256,8 @@
             {
                 "position": 42,
                 "mnemonic": "Rear_USB_connection_Status_VARJ",
-                "label_index": "65056",
-                "label_korean": "[미번역_P65056]",
+                "label_index": "@P65056",
+                "label_korean": "65056",
                 "group_id": "매핑_누락",
                 "req_frame_id": "",
                 "resp_frame_id": "",
@@ -1280,7 +1280,7 @@
             {
                 "position": 43,
                 "mnemonic": "Number_of_Speakers_connected",
-                "label_index": "7403",
+                "label_index": "@P7403",
                 "label_korean": "스피커의 수",
                 "group_id": "매핑_누락",
                 "req_frame_id": "",
@@ -1304,7 +1304,7 @@
             {
                 "position": 44,
                 "mnemonic": "System_Mode",
-                "label_index": "5563",
+                "label_index": "@P5563",
                 "label_korean": "시스템 작동 모드",
                 "group_id": "매핑_누락",
                 "req_frame_id": "",
@@ -1328,8 +1328,8 @@
             {
                 "position": 45,
                 "mnemonic": "MP_RVC_Status",
-                "label_index": "34296",
-                "label_korean": "상태 [미번역_P65062]",
+                "label_index": "@P34296@\\+@P65062",
+                "label_korean": "상태65062",
                 "group_id": "매핑_누락",
                 "req_frame_id": "",
                 "resp_frame_id": "",
@@ -1434,7 +1434,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_VITESSE_VEHICULE",
-                "label_index": "45619",
+                "label_index": "@P45619",
                 "label_korean": "차량 속도",
                 "group_id": "75204",
                 "req_frame_id": "225899",
@@ -1460,7 +1460,7 @@
             {
                 "position": 2,
                 "mnemonic": "MP_TENSION_ALIMENTATION",
-                "label_index": "51370",
+                "label_index": "@P51370",
                 "label_korean": "전기 공급 전압",
                 "group_id": "75205",
                 "req_frame_id": "225902",
@@ -1482,7 +1482,7 @@
             {
                 "position": 3,
                 "mnemonic": "MP_NOMBRE_KILOMETRES_PARCOURUS",
-                "label_index": "51447",
+                "label_index": "@P51447",
                 "label_korean": "distance covered",
                 "group_id": "75209",
                 "req_frame_id": "225914",

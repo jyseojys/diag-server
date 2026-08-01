@@ -8,7 +8,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_ID_FOURNISSEUR",
-                "label_index": "5701",
+                "label_index": "@P5701",
                 "label_korean": "제조 업체명",
                 "group_id": "124475",
                 "req_frame_id": "373768",
@@ -35,7 +35,7 @@
             {
                 "position": 2,
                 "mnemonic": "ID_REFERENCE_MATERIEL",
-                "label_index": "1071",
+                "label_index": "@P1071",
                 "label_korean": "장치 부품 번호",
                 "group_id": "124475",
                 "req_frame_id": "373768",
@@ -57,7 +57,7 @@
             {
                 "position": 3,
                 "mnemonic": "ID_REFERENCE_COMPLEMENTAIRE_MATERIEL",
-                "label_index": "1634",
+                "label_index": "@P1634",
                 "label_korean": "장치 추가 참조 번호",
                 "group_id": "124475",
                 "req_frame_id": "373768",
@@ -79,7 +79,7 @@
             {
                 "position": 4,
                 "mnemonic": "ID_VERSION_LOGICIEL_new_1",
-                "label_index": "8662",
+                "label_index": "@P8662@\\*",
                 "label_korean": "소프트웨어 버전",
                 "group_id": "124475",
                 "req_frame_id": "373768",
@@ -101,7 +101,7 @@
             {
                 "position": 5,
                 "mnemonic": "ID_MESS_DIAGNOSTIC",
-                "label_index": "2459",
+                "label_index": "@P2459",
                 "label_korean": "진단 이메일",
                 "group_id": "124475",
                 "req_frame_id": "373768",
@@ -123,7 +123,7 @@
             {
                 "position": 6,
                 "mnemonic": "ID_80_MP_INDICE_MESS",
-                "label_index": "2225",
+                "label_index": "@P2225",
                 "label_korean": "메시지 인덱스",
                 "group_id": "124475",
                 "req_frame_id": "373768",
@@ -153,7 +153,7 @@
             {
                 "position": 1,
                 "mnemonic": "ETCONOUVVOL",
-                "label_index": "15938",
+                "label_index": "@P15938",
                 "label_korean": "테일게이트 열림 스위치 상태",
                 "group_id": "124479",
                 "req_frame_id": "373780",
@@ -169,13 +169,13 @@
                 "bit_mask": 192,
                 "bit_shift": 6,
                 "dynamic_arg": "",
-                "help_code": "13727",
+                "help_code": "@P13727",
                 "help_korean": "전동 테일게이트 열림 스위치의 상태를 보는데 사용한다"
             },
             {
                 "position": 2,
                 "mnemonic": "ETCONFERMVOL",
-                "label_index": "5895",
+                "label_index": "@P5895",
                 "label_korean": "테일게이트 닫힘 스위치 상태",
                 "group_id": "124479",
                 "req_frame_id": "373780",
@@ -191,13 +191,13 @@
                 "bit_mask": 48,
                 "bit_shift": 4,
                 "dynamic_arg": "",
-                "help_code": "13719",
+                "help_code": "@P13719",
                 "help_korean": "전동 테일게이트 닫힘 스위치의 상태를 보는데 사용한다(테일게이트 모서리에 스위치)"
             },
             {
                 "position": 3,
                 "mnemonic": "ETCOMMANPLIP",
-                "label_index": "2107",
+                "label_index": "@P2107",
                 "label_korean": "리모컨 열림/닫힘 스위치 상태",
                 "group_id": "124479",
                 "req_frame_id": "373780",
@@ -213,13 +213,13 @@
                 "bit_mask": 8,
                 "bit_shift": 3,
                 "dynamic_arg": "",
-                "help_code": "13248",
+                "help_code": "@P13248",
                 "help_korean": "리모컨으로부터 전동 테일게이트 열림 또는 닫힘 제어 상태를 보는데 사용한다"
             },
             {
                 "position": 4,
                 "mnemonic": "ETINFORMTRRES",
-                "label_index": "21790",
+                "label_index": "@P21790",
                 "label_korean": "고주파 리모컨에 의해서 전송된 정보의 상태",
                 "group_id": "124479",
                 "req_frame_id": "373780",
@@ -235,13 +235,13 @@
                 "bit_mask": 4,
                 "bit_shift": 2,
                 "dynamic_arg": "",
-                "help_code": "39935",
+                "help_code": "@P39935",
                 "help_korean": "이 변수는 CAN 네트워크를 통한 리모컨 전동 테일게이트로 부터 정보 흐름을 볼 수 있게 한다"
             },
             {
                 "position": 5,
                 "mnemonic": "MP_ET_TRAME_HF_BML",
-                "label_index": "22032",
+                "label_index": "@P22032",
                 "label_korean": "핸즈-프리 제어 장치에 의해 전송되는 정보의 상태",
                 "group_id": "124479",
                 "req_frame_id": "373780",
@@ -257,13 +257,13 @@
                 "bit_mask": 2,
                 "bit_shift": 1,
                 "dynamic_arg": "",
-                "help_code": "22167",
+                "help_code": "@P22167@T.",
                 "help_korean": "CAN 네트워크를 통해서 핸즈-프리 제어 장치로부터 전동 테일게이트 제어 장치로 정보의 전송을 표시한다."
             },
             {
                 "position": 6,
                 "mnemonic": "MP_ET_TRAME_HF_RHF",
-                "label_index": "21816",
+                "label_index": "@P21816",
                 "label_korean": "일본 리모컨에 의해서 전송된 정보의 상태",
                 "group_id": "124479",
                 "req_frame_id": "373780",
@@ -279,13 +279,13 @@
                 "bit_mask": 1,
                 "bit_shift": 0,
                 "dynamic_arg": "",
-                "help_code": "36722",
+                "help_code": "@P36722",
                 "help_korean": "이 변수는 일본 고주파 리모컨에서 CAN을 통해서 전동 트렁크 ECU까지 정보 전송을 표시하도록 한다"
             },
             {
                 "position": 7,
                 "mnemonic": "MP_ET_TRAME_ETAT_BRQ",
-                "label_index": "21936",
+                "label_index": "@P21936",
                 "label_korean": "트레일러 존재로 인해 전송되는 정보의 상태",
                 "group_id": "124479",
                 "req_frame_id": "373780",
@@ -301,13 +301,13 @@
                 "bit_mask": 1,
                 "bit_shift": 0,
                 "dynamic_arg": "",
-                "help_code": "21892",
+                "help_code": "@P21892",
                 "help_korean": "트레일러의 장착으로부터 오는 정보의 전송을 표시한다"
             },
             {
                 "position": 8,
                 "mnemonic": "ETSERRURVOL",
-                "label_index": "5948",
+                "label_index": "@P5948",
                 "label_korean": "테일게이트 잠금장치 상태",
                 "group_id": "124479",
                 "req_frame_id": "373780",
@@ -323,13 +323,13 @@
                 "bit_mask": 4,
                 "bit_shift": 2,
                 "dynamic_arg": "",
-                "help_code": "9710",
+                "help_code": "@P9710",
                 "help_korean": "전동 테일게이트 잠금 장치의 상태를 보는데 사용한다"
             },
             {
                 "position": 8,
                 "mnemonic": "ETSERRURVOL",
-                "label_index": "5948",
+                "label_index": "@P5948",
                 "label_korean": "테일게이트 잠금장치 상태",
                 "group_id": "124479",
                 "req_frame_id": "373780",
@@ -351,7 +351,7 @@
             {
                 "position": 9,
                 "mnemonic": "MP_ET_CMSV",
-                "label_index": "22045",
+                "label_index": "@P22045",
                 "label_korean": "전동 테일게이트 닫힘 어시스턴스 모듈 스위치의 상태",
                 "group_id": "124479",
                 "req_frame_id": "373780",
@@ -367,13 +367,13 @@
                 "bit_mask": 64,
                 "bit_shift": 6,
                 "dynamic_arg": "",
-                "help_code": "22034",
+                "help_code": "@P22034",
                 "help_korean": "전동 테일게이트 닫힘 어시스턴스 모듈 스위치의 상태를 표시한다"
             },
             {
                 "position": 10,
                 "mnemonic": "MP_ET_CVO",
-                "label_index": "21669",
+                "label_index": "@P21669",
                 "label_korean": "전동 테일게이트 열림 스위치 상태",
                 "group_id": "124479",
                 "req_frame_id": "373780",
@@ -389,7 +389,7 @@
                 "bit_mask": 32,
                 "bit_shift": 5,
                 "dynamic_arg": "",
-                "help_code": "21775",
+                "help_code": "@P21775",
                 "help_korean": "전동 테일게이트 열림 스위치의 상태를 표시한다"
             }
         ]
@@ -403,7 +403,7 @@
             {
                 "position": 1,
                 "mnemonic": "ETVOLETMOTOR",
-                "label_index": "7536",
+                "label_index": "@P7536",
                 "label_korean": "전동 테일게이트 이동",
                 "group_id": "124479",
                 "req_frame_id": "373780",
@@ -419,13 +419,13 @@
                 "bit_mask": 192,
                 "bit_shift": 6,
                 "dynamic_arg": "",
-                "help_code": "11705",
+                "help_code": "@P11705",
                 "help_korean": "전동 테일게이트의 이동 상태를 보는데 사용한다"
             },
             {
                 "position": 2,
                 "mnemonic": "ETMODEVOLET",
-                "label_index": "15312",
+                "label_index": "@P15312",
                 "label_korean": "테일게이트 작동 모드",
                 "group_id": "124479",
                 "req_frame_id": "373780",
@@ -441,13 +441,13 @@
                 "bit_mask": 6,
                 "bit_shift": 1,
                 "dynamic_arg": "",
-                "help_code": "4189",
+                "help_code": "@P4189",
                 "help_korean": "테일게이트의 작동 모드를 보는데 사용한다"
             },
             {
                 "position": 3,
                 "mnemonic": "ETAUTOVOLET",
-                "label_index": "16362",
+                "label_index": "@P16362",
                 "label_korean": "테일게이트 작동 승인",
                 "group_id": "124479",
                 "req_frame_id": "373780",
@@ -463,13 +463,13 @@
                 "bit_mask": 32,
                 "bit_shift": 5,
                 "dynamic_arg": "",
-                "help_code": "43623, 43624",
+                "help_code": "@P43623@\\n@P43624",
                 "help_korean": "전동 테일게이트의 작동 승인 상태를 보는 데 사용한다\n차량이 잠금/주행할 때 승인되지 않는다"
             },
             {
                 "position": 4,
                 "mnemonic": "VALANGVOLET",
-                "label_index": "8770",
+                "label_index": "@P8770",
                 "label_korean": "테일게이트 열림 각도 보기",
                 "group_id": "124479",
                 "req_frame_id": "373780",
@@ -485,13 +485,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "7805",
+                "help_code": "@P7805",
                 "help_korean": "전동 테일게이트 열림 각도 값 표시를 허가한다"
             },
             {
                 "position": 5,
                 "mnemonic": "ETHAUTVOLET",
-                "label_index": "13140",
+                "label_index": "@P13140",
                 "label_korean": "테일게이트 최대 열림 위치",
                 "group_id": "124479",
                 "req_frame_id": "373780",
@@ -507,13 +507,13 @@
                 "bit_mask": 8,
                 "bit_shift": 3,
                 "dynamic_arg": "",
-                "help_code": "12479",
+                "help_code": "@P12479",
                 "help_korean": "전동 테일게이트의 최대 높이 값을 보는데 사용한다"
             },
             {
                 "position": 6,
                 "mnemonic": "ETDETECOBST",
-                "label_index": "6997",
+                "label_index": "@P6997",
                 "label_korean": "장애물 감지",
                 "group_id": "124479",
                 "req_frame_id": "373780",
@@ -529,13 +529,13 @@
                 "bit_mask": 192,
                 "bit_shift": 6,
                 "dynamic_arg": "",
-                "help_code": "43675, 43625, 43626",
+                "help_code": "@P43675@\\n@P43625@\\n@P43626",
                 "help_korean": "장애물 감지 작동을 보는데 사용한다\n직접감지는 민감한 씰에 의해서 이뤄진다\n전동 테일게이트 속도 변화에 의해서 간접 감지가 이뤄진다 (예. 이동 중 전동 테일게이트의 갑작스런 중단)"
             },
             {
                 "position": 7,
                 "mnemonic": "ETMVTOBST",
-                "label_index": "11315",
+                "label_index": "@P11315",
                 "label_korean": "장애물 감지 후 전동 이동 감지",
                 "group_id": "124479",
                 "req_frame_id": "373780",
@@ -551,13 +551,13 @@
                 "bit_mask": 16,
                 "bit_shift": 4,
                 "dynamic_arg": "",
-                "help_code": "10749",
+                "help_code": "@P10749",
                 "help_korean": "장애물 또는 안티-핀티 상황이 감지될 경우 전동 테일게이트의 움직임을 보는데 사용한다"
             },
             {
                 "position": 8,
                 "mnemonic": "ETMANVOLET",
-                "label_index": "1746",
+                "label_index": "@P1746",
                 "label_korean": "사용자에 의한 테일게이트 수동 이동",
                 "group_id": "124479",
                 "req_frame_id": "373780",
@@ -573,13 +573,13 @@
                 "bit_mask": 8,
                 "bit_shift": 3,
                 "dynamic_arg": "",
-                "help_code": "11824",
+                "help_code": "@P11824",
                 "help_korean": "사용자에 의해 전동 테일게이트의 수동 움직임을 보는데 사용한다"
             },
             {
                 "position": 9,
                 "mnemonic": "ETDEMAMOT",
-                "label_index": "2804",
+                "label_index": "@P2804",
                 "label_korean": "차량 엔진 시동",
                 "group_id": "124479",
                 "req_frame_id": "373780",
@@ -595,13 +595,13 @@
                 "bit_mask": 4,
                 "bit_shift": 2,
                 "dynamic_arg": "",
-                "help_code": "14470",
+                "help_code": "@P14470",
                 "help_korean": "차량 엔진의 시동 상태를 보는데 사용한다"
             },
             {
                 "position": 10,
                 "mnemonic": "ETEMBMOT",
-                "label_index": "1987",
+                "label_index": "@P1987",
                 "label_korean": "모터의 클러치",
                 "group_id": "124479",
                 "req_frame_id": "373780",
@@ -617,13 +617,13 @@
                 "bit_mask": 2,
                 "bit_shift": 1,
                 "dynamic_arg": "",
-                "help_code": "1960",
+                "help_code": "@P1960",
                 "help_korean": "전동 테일게이트의 클러치 위치를 보는데 사용한다"
             },
             {
                 "position": 11,
                 "mnemonic": "ETAPPRENVOLET",
-                "label_index": "15817",
+                "label_index": "@P15817",
                 "label_korean": "테일게이트 프로그래밍",
                 "group_id": "124479",
                 "req_frame_id": "373780",
@@ -639,13 +639,13 @@
                 "bit_mask": 3,
                 "bit_shift": 0,
                 "dynamic_arg": "",
-                "help_code": "3135",
+                "help_code": "@P3135",
                 "help_korean": "전동 테일게이트의 프로그래밍 상태를 보는데 사용한다"
             },
             {
                 "position": 12,
                 "mnemonic": "ETPROTHERMOT",
-                "label_index": "7556",
+                "label_index": "@P7556",
                 "label_korean": "모터 과열 보호",
                 "group_id": "124479",
                 "req_frame_id": "373780",
@@ -661,13 +661,13 @@
                 "bit_mask": 16,
                 "bit_shift": 4,
                 "dynamic_arg": "",
-                "help_code": "14498",
+                "help_code": "@P14498",
                 "help_korean": "모터 과열 보호의 작동 상태를 보는데 사용한다"
             },
             {
                 "position": 13,
                 "mnemonic": "VALPROTHERMOT",
-                "label_index": "4979",
+                "label_index": "@P4979",
                 "label_korean": "모터 과열 보호 카운터의 값",
                 "group_id": "124479",
                 "req_frame_id": "373780",
@@ -683,13 +683,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "43627, 43628",
+                "help_code": "@P43627@\\n@P43628@\\*100",
                 "help_korean": "모터 과열 보호 카운터를 퍼센트로 값을 표시하는 데 사용한다\n값이 100%에 도달했을 때, 모터는 강제로 중단된다"
             },
             {
                 "position": 14,
                 "mnemonic": "MP_ET_PROTEC_SERRURE",
-                "label_index": "22247",
+                "label_index": "@P22247",
                 "label_korean": "전동 테일게이트 닫힘 어시스턴스 모듈의 과열 보호",
                 "group_id": "124479",
                 "req_frame_id": "373780",
@@ -705,13 +705,13 @@
                 "bit_mask": 128,
                 "bit_shift": 7,
                 "dynamic_arg": "",
-                "help_code": "21609",
+                "help_code": "@P21609",
                 "help_korean": "전동 테일게이트 닫힘 어시스턴스 모듈의 과열 보호 작동 상태를 표시한다"
             },
             {
                 "position": 15,
                 "mnemonic": "MP_VAL_CPT_PROTEC_SERRURE",
-                "label_index": "22207",
+                "label_index": "@P22207",
                 "label_korean": "전동 테일게이트 닫힘 어시스턴스 모듈의 과열 보호 카운터 값",
                 "group_id": "124479",
                 "req_frame_id": "373780",
@@ -727,13 +727,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "26883, 43628",
+                "help_code": "@P26883@\\n@P43628@\\*100",
                 "help_korean": "전동 트렁크 리드 닫힘 지원 모듈 과열 보호 카운터의 값을 퍼센트로 표시한다\n값이 100%에 도달했을 때, 모터는 강제로 중단된다"
             },
             {
                 "position": 16,
                 "mnemonic": "ETCAPTPOS",
-                "label_index": "3373",
+                "label_index": "@P3373",
                 "label_korean": "포지션 센서 작동 상태",
                 "group_id": "124479",
                 "req_frame_id": "373780",
@@ -749,7 +749,7 @@
                 "bit_mask": 1,
                 "bit_shift": 0,
                 "dynamic_arg": "",
-                "help_code": "3366",
+                "help_code": "@P3366",
                 "help_korean": "포지션 센서의 작동 상태 또는 결함"
             }
         ]
@@ -763,7 +763,7 @@
             {
                 "position": 1,
                 "mnemonic": "VALANGLOUVDEF",
-                "label_index": "11960",
+                "label_index": "@P11960",
                 "label_korean": "테일게이트 최대 열림 각도 보기",
                 "group_id": "124479",
                 "req_frame_id": "373780",
@@ -779,13 +779,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "2498",
+                "help_code": "@P2498",
                 "help_korean": "기본 전동 테일게이트 최대 열림 각도 값을 표시하는데 사용한다"
             },
             {
                 "position": 2,
                 "mnemonic": "VALANGLOUVPERS",
-                "label_index": "12526",
+                "label_index": "@P12526",
                 "label_korean": "테일게이트의 사용자 지정 열림 각도를 보는데 사용한다",
                 "group_id": "124479",
                 "req_frame_id": "373780",
@@ -801,7 +801,7 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "13775",
+                "help_code": "@P13775",
                 "help_korean": "고객에 의해 프로그램된 사용자 지정 전동 테일게이트 열림 각도 값을 표시하는 데 사용한다"
             }
         ]
@@ -815,7 +815,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_ET_CMSV",
-                "label_index": "22045",
+                "label_index": "@P22045",
                 "label_korean": "전동 테일게이트 닫힘 어시스턴스 모듈 스위치의 상태",
                 "group_id": "124479",
                 "req_frame_id": "373780",
@@ -837,7 +837,7 @@
             {
                 "position": 2,
                 "mnemonic": "ETSERRURVOL",
-                "label_index": "5948",
+                "label_index": "@P5948",
                 "label_korean": "테일게이트 잠금장치 상태",
                 "group_id": "124479",
                 "req_frame_id": "373780",
@@ -859,7 +859,7 @@
             {
                 "position": 3,
                 "mnemonic": "ETAPPRENVOLET",
-                "label_index": "15817",
+                "label_index": "@P15817",
                 "label_korean": "테일게이트 프로그래밍",
                 "group_id": "124479",
                 "req_frame_id": "373780",
@@ -889,7 +889,7 @@
             {
                 "position": 1,
                 "mnemonic": "ETAPPRENVOLET",
-                "label_index": "15817",
+                "label_index": "@P15817",
                 "label_korean": "테일게이트 프로그래밍",
                 "group_id": "124479",
                 "req_frame_id": "373780",

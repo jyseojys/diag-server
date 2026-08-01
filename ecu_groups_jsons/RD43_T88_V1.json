@@ -8,7 +8,7 @@
             {
                 "position": 1,
                 "mnemonic": "ID_NOM_DU_FOURNISSEUR",
-                "label_index": "5701",
+                "label_index": "@P5701",
                 "label_korean": "제조 업체명",
                 "group_id": "36389",
                 "req_frame_id": "109464",
@@ -38,7 +38,7 @@
             {
                 "position": 2,
                 "mnemonic": "ID_REFERENCE_MATERIEL",
-                "label_index": "1071",
+                "label_index": "@P1071",
                 "label_korean": "장치 부품 번호",
                 "group_id": "36389",
                 "req_frame_id": "109464",
@@ -60,7 +60,7 @@
             {
                 "position": 3,
                 "mnemonic": "ID_REFERENCE_COMPLEMENTAIRE_MATERIEL",
-                "label_index": "1634",
+                "label_index": "@P1634",
                 "label_korean": "장치 추가 참조 번호",
                 "group_id": "36389",
                 "req_frame_id": "109464",
@@ -82,7 +82,7 @@
             {
                 "position": 4,
                 "mnemonic": "ID_TRACABILITE_INDICE_EVOLUTION_EDITION",
-                "label_index": "24601",
+                "label_index": "@P24601",
                 "label_korean": "소프트웨어 버전",
                 "group_id": "36389",
                 "req_frame_id": "109464",
@@ -104,7 +104,7 @@
             {
                 "position": 5,
                 "mnemonic": "ID_MESS_DIAGNOSTIC",
-                "label_index": "2459",
+                "label_index": "@P2459",
                 "label_korean": "진단 이메일",
                 "group_id": "36389",
                 "req_frame_id": "109464",
@@ -126,7 +126,7 @@
             {
                 "position": 6,
                 "mnemonic": "ID_80_MP_INDICE_MESS",
-                "label_index": "2225",
+                "label_index": "@P2225",
                 "label_korean": "메시지 인덱스",
                 "group_id": "36389",
                 "req_frame_id": "109464",
@@ -156,7 +156,7 @@
             {
                 "position": 1,
                 "mnemonic": "CFG_MPVERIFCODEVIN",
-                "label_index": "4873",
+                "label_index": "@P4873",
                 "label_korean": "차대번호 점검",
                 "group_id": "36393",
                 "req_frame_id": "109476",
@@ -172,13 +172,13 @@
                 "bit_mask": 1,
                 "bit_shift": 0,
                 "dynamic_arg": "",
-                "help_code": "30107",
+                "help_code": "@P30107@T.",
                 "help_korean": "BSI의 차대번호와 오디오 시스템의 차대번호가 일치하는지 점검하는 데 사용한다]."
             },
             {
                 "position": 2,
                 "mnemonic": "MP_ENREGISTREMENT_VIN",
-                "label_index": "31340",
+                "label_index": "@P31340",
                 "label_korean": "차대번호 코드 등록",
                 "group_id": "36393",
                 "req_frame_id": "109476",
@@ -197,13 +197,13 @@
                 "bit_mask": 2,
                 "bit_shift": 1,
                 "dynamic_arg": "",
-                "help_code": "30089",
+                "help_code": "@P30089",
                 "help_korean": "이 변수는 저장된 차대번호를 점검하는 데 사용한다"
             },
             {
                 "position": 3,
                 "mnemonic": "MP_VIN",
-                "label_index": "3241",
+                "label_index": "@P3241",
                 "label_korean": "차량의 일련번호 - 차대번호 코드",
                 "group_id": "36390",
                 "req_frame_id": "109467",
@@ -219,7 +219,7 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "11080",
+                "help_code": "@P11080@T.",
                 "help_korean": "오디오 시스템에 입력된 차대번호를 읽는다 (BSI에 입력된 차대번호와 반드시 동일해야 한다)."
             }
         ]
@@ -233,7 +233,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_VIN",
-                "label_index": "3241",
+                "label_index": "@P3241",
                 "label_korean": "차량의 일련번호 - 차대번호 코드",
                 "group_id": "36390",
                 "req_frame_id": "109467",
@@ -249,7 +249,7 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "11080",
+                "help_code": "@P11080@T.",
                 "help_korean": "오디오 시스템에 입력된 차대번호를 읽는다 (BSI에 입력된 차대번호와 반드시 동일해야 한다)."
             }
         ]
@@ -263,7 +263,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_NOMBRE_ANTENNE",
-                "label_index": "10138",
+                "label_index": "@P10138",
                 "label_korean": "안테나의 수",
                 "group_id": "36393",
                 "req_frame_id": "109476",
@@ -281,13 +281,13 @@
                 "bit_mask": 128,
                 "bit_shift": 7,
                 "dynamic_arg": "",
-                "help_code": "",
+                "help_code": "@T",
                 "help_korean": ""
             },
             {
                 "position": 2,
                 "mnemonic": "MP_CONFIG_TYPE_ANTENNE_1",
-                "label_index": "30070",
+                "label_index": "@P30070@\\*1",
                 "label_korean": "안테나1 타입 설정",
                 "group_id": "36393",
                 "req_frame_id": "109476",
@@ -306,13 +306,13 @@
                 "bit_mask": 64,
                 "bit_shift": 6,
                 "dynamic_arg": "1",
-                "help_code": "",
+                "help_code": "@T",
                 "help_korean": ""
             },
             {
                 "position": 3,
                 "mnemonic": "MP_QUALITE_RECEPTION_ANTENNE_1",
-                "label_index": "30048",
+                "label_index": "@P30048@\\*1",
                 "label_korean": "1안테나로부터 라디오 수신 품질",
                 "group_id": "36391",
                 "req_frame_id": "109470",
@@ -328,13 +328,13 @@
                 "bit_mask": 15,
                 "bit_shift": 0,
                 "dynamic_arg": "1",
-                "help_code": "15745",
+                "help_code": "@P15745@\\*4@T.",
                 "help_korean": "라디오 수신 품질을 정의한다 (4부터 정확한 수신)."
             },
             {
                 "position": 4,
                 "mnemonic": "MP_NIVEAU_SIGNAL_RADIO_FM1_AM",
-                "label_index": "30082",
+                "label_index": "@P30082@\\*FM1@\\*AM",
                 "label_korean": "FM1 또는 AM로부터 들어오는 라디오 신호 레벨",
                 "group_id": "36391",
                 "req_frame_id": "109470",
@@ -350,7 +350,7 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "FM1, AM",
-                "help_code": "15743",
+                "help_code": "@P15743@T.",
                 "help_korean": "라디오 수신 레벨을 정의한다 (값이 높을 수록, 수신이 좋다)."
             }
         ]
@@ -364,7 +364,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_PRESENCE_AAS",
-                "label_index": "21579",
+                "label_index": "@P21579",
                 "label_korean": "주차 지원 장착",
                 "group_id": "36393",
                 "req_frame_id": "109476",
@@ -383,13 +383,13 @@
                 "bit_mask": 4,
                 "bit_shift": 2,
                 "dynamic_arg": "",
-                "help_code": "",
+                "help_code": "@T",
                 "help_korean": ""
             },
             {
                 "position": 2,
                 "mnemonic": "MP_ZONE_GEOGRAPHIQUE_UTILISATION",
-                "label_index": "4998",
+                "label_index": "@P4998",
                 "label_korean": "지정학적 사용 지역",
                 "group_id": "36393",
                 "req_frame_id": "109476",
@@ -413,13 +413,13 @@
                 "bit_mask": 112,
                 "bit_shift": 4,
                 "dynamic_arg": "",
-                "help_code": "",
+                "help_code": "@T",
                 "help_korean": ""
             },
             {
                 "position": 3,
                 "mnemonic": "MP_ENTREE_AUX_1",
-                "label_index": "14245",
+                "label_index": "@P14245@\\*1",
                 "label_korean": "외부 입력 n° 1",
                 "group_id": "36393",
                 "req_frame_id": "109476",
@@ -440,13 +440,13 @@
                 "bit_mask": 192,
                 "bit_shift": 6,
                 "dynamic_arg": "1",
-                "help_code": "29870, 14975, 30086, 30104, 30055, 30126, 30045, 11137, 29871, 30058, 30103",
-                "help_korean": "외부\n- 입력 장치 n1의 작동 상태를 정의한다 :\n-\n- 없음 : 오디오 시스템 외부 입력이 차단되었다\n-\n- 사용자 : 사용자는\n- 외부 입력 소스를 오디오 시스템에 연결한다 (보기 : DVD 리더...)\n-\n- 외부 뮤트 장착 :\n- 외부 뮤트를 필요로 하는 소스 (예 : 네비게이션)\n- 핸즈-프리 키트 \"뮤트\" : 오디오 시스템 외부 입력은 핸즈-프리 키드 또는 휴대 전화를 사용할 때 대기로 전환한다"
+                "help_code": "@P29870@\\*1@T : @\\n@T-@\\+@P14975@T : @P30086@\\n@T-@\\+@P30104@T : @P30055@T (@P30126@T : @P30045@T...)@\\n@T-@\\+@P11137@T : @P29871@\\n@T-@\\+@P30058@T : @P30103",
+                "help_korean": "외부 입력 장치 n1의 작동 상태를 정의한다 :\n-없음 : 오디오 시스템 외부 입력이 차단되었다\n-사용자 : 사용자는 외부 입력 소스를 오디오 시스템에 연결한다 (보기 : DVD 리더...)\n-외부 뮤트 장착 : 외부 뮤트를 필요로 하는 소스 (예 : 네비게이션)\n-핸즈-프리 키트 \"뮤트\" : 오디오 시스템 외부 입력은 핸즈-프리 키드 또는 휴대 전화를 사용할 때 대기로 전환한다"
             },
             {
                 "position": 4,
                 "mnemonic": "MP_ENTREE_AUX_2",
-                "label_index": "14245",
+                "label_index": "@P14245@\\*2",
                 "label_korean": "외부 입력 n° 2",
                 "group_id": "36393",
                 "req_frame_id": "109476",
@@ -462,13 +462,13 @@
                 "bit_mask": 48,
                 "bit_shift": 4,
                 "dynamic_arg": "2",
-                "help_code": "29870, 14975, 30086, 30104, 30055, 30126, 30045, 11137, 29871, 30058, 30103",
-                "help_korean": "외부\n- 입력 장치 n2의 작동 상태를 정의한다 :\n-\n- 없음 : 오디오 시스템 외부 입력이 차단되었다\n-\n- 사용자 : 사용자는\n- 외부 입력 소스를 오디오 시스템에 연결한다 (보기 : DVD 리더...)\n-\n- 외부 뮤트 장착 :\n- 외부 뮤트를 필요로 하는 소스 (예 : 네비게이션)\n- 핸즈-프리 키트 \"뮤트\" : 오디오 시스템 외부 입력은 핸즈-프리 키드 또는 휴대 전화를 사용할 때 대기로 전환한다"
+                "help_code": "@P29870@\\*2@T : @\\n@T-@\\+@P14975@T : @P30086@\\n@T-@\\+@P30104@T : @P30055@T (@P30126@T : @P30045@T...)@\\n@T-@\\+@P11137@T : @P29871@\\n@T-@\\+@P30058@T : @P30103",
+                "help_korean": "외부 입력 장치 n2의 작동 상태를 정의한다 :\n-없음 : 오디오 시스템 외부 입력이 차단되었다\n-사용자 : 사용자는 외부 입력 소스를 오디오 시스템에 연결한다 (보기 : DVD 리더...)\n-외부 뮤트 장착 : 외부 뮤트를 필요로 하는 소스 (예 : 네비게이션)\n-핸즈-프리 키트 \"뮤트\" : 오디오 시스템 외부 입력은 핸즈-프리 키드 또는 휴대 전화를 사용할 때 대기로 전환한다"
             },
             {
                 "position": 5,
                 "mnemonic": "MP_FONCTION_FADER",
-                "label_index": "13957",
+                "label_index": "@P13957",
                 "label_korean": "페이더 기능",
                 "group_id": "36393",
                 "req_frame_id": "109476",
@@ -487,13 +487,13 @@
                 "bit_mask": 4,
                 "bit_shift": 2,
                 "dynamic_arg": "",
-                "help_code": "29411, 31759, 31269",
-                "help_korean": "차량에 음을\n- 분배하기 위해서 사용 가능한 스피커의 수를 정의한다 :\n-\n- 페이더 기능 작동 : 4 스피커(2프론트/2리어)\n-\n- 페이더 기능 차단 : 4스피커 (2프론트)"
+                "help_code": "@P29411@T :@\\n@T-@\\+@P31759@\\*4@\\*2@\\*2@\\n@T-@\\+@P31269@\\*2@\\*2",
+                "help_korean": "차량에 음을 분배하기 위해서 사용 가능한 스피커의 수를 정의한다 :\n-페이더 기능 작동 : 4 스피커(2프론트/2리어)\n-페이더 기능 차단 : 4스피커 (2프론트)"
             },
             {
                 "position": 6,
                 "mnemonic": "MP_BANDE_FREQUENCE_AM",
-                "label_index": "13331",
+                "label_index": "@P13331",
                 "label_korean": "AM 웨이브밴드",
                 "group_id": "36393",
                 "req_frame_id": "109476",
@@ -512,7 +512,7 @@
                 "bit_mask": 2,
                 "bit_shift": 1,
                 "dynamic_arg": "",
-                "help_code": "13006, 29872",
+                "help_code": "@P13006@T.@\\n@P29872@T.",
                 "help_korean": "AM 주파수 밴드의 작동 상태를 정의한다.\n전기 차량에서, 이 변수는 반드시 차단되어야 한다."
             }
         ]

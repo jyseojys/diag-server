@@ -8,7 +8,7 @@
             {
                 "position": 1,
                 "mnemonic": "ID_NOM_DU_FOURNISSEUR",
-                "label_index": "5701",
+                "label_index": "@P5701",
                 "label_korean": "제조 업체명",
                 "group_id": "87217",
                 "req_frame_id": "262000",
@@ -38,7 +38,7 @@
             {
                 "position": 2,
                 "mnemonic": "ID_REFERENCE_MATERIEL",
-                "label_index": "1071",
+                "label_index": "@P1071",
                 "label_korean": "장치 부품 번호",
                 "group_id": "87217",
                 "req_frame_id": "262000",
@@ -60,7 +60,7 @@
             {
                 "position": 3,
                 "mnemonic": "ID_REFERENCE_COMPLEMENTAIRE_MATERIEL",
-                "label_index": "1634",
+                "label_index": "@P1634",
                 "label_korean": "장치 추가 참조 번호",
                 "group_id": "87217",
                 "req_frame_id": "262000",
@@ -82,7 +82,7 @@
             {
                 "position": 4,
                 "mnemonic": "ID_REFERENCE_LOGICIEL",
-                "label_index": "13263",
+                "label_index": "@F13263",
                 "label_korean": "소프트웨어 번호",
                 "group_id": "87219",
                 "req_frame_id": "262006",
@@ -104,7 +104,7 @@
             {
                 "position": 5,
                 "mnemonic": "ID_TRACABILITE_INDICE_EVOLUTION_EDITION",
-                "label_index": "24601",
+                "label_index": "@P24601",
                 "label_korean": "소프트웨어 버전",
                 "group_id": "87219",
                 "req_frame_id": "262006",
@@ -126,7 +126,7 @@
             {
                 "position": 6,
                 "mnemonic": "ID_DATE_TELECH",
-                "label_index": "21670",
+                "label_index": "@P21670",
                 "label_korean": "다운로딩 날짜",
                 "group_id": "87219",
                 "req_frame_id": "262006",
@@ -148,7 +148,7 @@
             {
                 "position": 7,
                 "mnemonic": "ID_NOMBRE_DE_TELECHARGEMENT",
-                "label_index": "24589",
+                "label_index": "@P24589",
                 "label_korean": "다운로드의 수",
                 "group_id": "87219",
                 "req_frame_id": "262006",
@@ -170,7 +170,7 @@
             {
                 "position": 8,
                 "mnemonic": "ID_TRACA_NUM_SERIE_ASCII",
-                "label_index": "7592",
+                "label_index": "@P7592",
                 "label_korean": "부품 일련 번호",
                 "group_id": "87223",
                 "req_frame_id": "262018",
@@ -192,7 +192,7 @@
             {
                 "position": 9,
                 "mnemonic": "ID_TRACABILITE_DATE_FABRICATION",
-                "label_index": "14355",
+                "label_index": "@F14355",
                 "label_korean": "제조일자",
                 "group_id": "87222",
                 "req_frame_id": "262015",
@@ -222,8 +222,8 @@
             {
                 "position": 1,
                 "mnemonic": "BAT_VOLTAGE",
-                "label_index": "53493",
-                "label_korean": "서비스 배터리12 전압 V",
+                "label_index": "@P53493@\\*12@\\+@P20054",
+                "label_korean": "서비스 배터리12 전압V",
                 "group_id": "87212",
                 "req_frame_id": "261985",
                 "resp_frame_id": "261986",
@@ -238,13 +238,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "12",
-                "help_code": "",
+                "help_code": "@T",
                 "help_korean": ""
             },
             {
                 "position": 2,
                 "mnemonic": "P1_CURRENT_VALUE",
-                "label_index": "1",
+                "label_index": "@TTBTvaleur de l'intensit� de la phase 1 du disjoncteur du circuit de servitude 12 V",
                 "label_korean": "TBTvaleur de l'intensit� de la phase 1 du disjoncteur du circuit de servitude 12 V",
                 "group_id": "87188",
                 "req_frame_id": "261913",
@@ -260,13 +260,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "",
+                "help_code": "@T",
                 "help_korean": ""
             },
             {
                 "position": 3,
                 "mnemonic": "P1_VOLTAGE_VALUE",
-                "label_index": "1",
+                "label_index": "@TTBTvaleur de la tension de la phase 1 du disjoncteur du circuit de servitude 12 V",
                 "label_korean": "TBTvaleur de la tension de la phase 1 du disjoncteur du circuit de servitude 12 V",
                 "group_id": "87189",
                 "req_frame_id": "261916",
@@ -282,13 +282,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "",
+                "help_code": "@T",
                 "help_korean": ""
             },
             {
                 "position": 4,
                 "mnemonic": "INT_SUPPLY_1",
-                "label_index": "1",
+                "label_index": "@TTBTvaleur de la tension d'alimentation 1 du disjoncteur du circuit de servitude 12 V",
                 "label_korean": "TBTvaleur de la tension d'alimentation 1 du disjoncteur du circuit de servitude 12 V",
                 "group_id": "87202",
                 "req_frame_id": "261955",
@@ -304,13 +304,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "",
+                "help_code": "@T",
                 "help_korean": ""
             },
             {
                 "position": 5,
                 "mnemonic": "P2_CURRENT_VALUE",
-                "label_index": "2",
+                "label_index": "@TTBTvaleur de l'intensit� de la phase 2 du disjoncteur du circuit de servitude 12 V",
                 "label_korean": "TBTvaleur de l'intensit� de la phase 2 du disjoncteur du circuit de servitude 12 V",
                 "group_id": "87187",
                 "req_frame_id": "261910",
@@ -326,13 +326,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "",
+                "help_code": "@T",
                 "help_korean": ""
             },
             {
                 "position": 6,
                 "mnemonic": "P2_VOLTAGE_VALUE",
-                "label_index": "2",
+                "label_index": "@TTBTvaleur de la tension de la phase 2 du disjoncteur du circuit de servitude 12 V",
                 "label_korean": "TBTvaleur de la tension de la phase 2 du disjoncteur du circuit de servitude 12 V",
                 "group_id": "87190",
                 "req_frame_id": "261919",
@@ -348,13 +348,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "",
+                "help_code": "@T",
                 "help_korean": ""
             },
             {
                 "position": 7,
                 "mnemonic": "INT_SUPPLY_2",
-                "label_index": "2",
+                "label_index": "@TTBTvaleur de la tension d'alimentation 2 du disjoncteur du circuit de servitude 12 V",
                 "label_korean": "TBTvaleur de la tension d'alimentation 2 du disjoncteur du circuit de servitude 12 V",
                 "group_id": "87203",
                 "req_frame_id": "261958",
@@ -370,13 +370,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "",
+                "help_code": "@T",
                 "help_korean": ""
             },
             {
                 "position": 8,
                 "mnemonic": "P3_VOLTAGE_VALUE",
-                "label_index": "3",
+                "label_index": "@TTBTvaleur de la tension de la phase 3 du disjoncteur du circuit de servitude 12 V",
                 "label_korean": "TBTvaleur de la tension de la phase 3 du disjoncteur du circuit de servitude 12 V",
                 "group_id": "87175",
                 "req_frame_id": "261874",
@@ -392,7 +392,7 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "",
+                "help_code": "@T",
                 "help_korean": ""
             }
         ]
@@ -406,7 +406,7 @@
             {
                 "position": 1,
                 "mnemonic": "INTERNAL_TEMP_MAX_VALUE",
-                "label_index": "12",
+                "label_index": "@TTBTvaleur maximale de la temp�rature interne du disjoncteur du circuit de servitude 12 V",
                 "label_korean": "TBTvaleur maximale de la temp�rature interne du disjoncteur du circuit de servitude 12 V",
                 "group_id": "87180",
                 "req_frame_id": "261889",
@@ -422,13 +422,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "",
+                "help_code": "@T",
                 "help_korean": ""
             },
             {
                 "position": 2,
                 "mnemonic": "ECB_TEMPERATURE_STATUS",
-                "label_index": "12",
+                "label_index": "@TTBT�tat de la temp�rature du disjoncteur du circuit de servitude 12 V",
                 "label_korean": "TBT�tat de la temp�rature du disjoncteur du circuit de servitude 12 V",
                 "group_id": "87176",
                 "req_frame_id": "261877",
@@ -474,7 +474,7 @@
             {
                 "position": 4,
                 "mnemonic": "FAILURE_COUNTER",
-                "label_index": "12",
+                "label_index": "@TTBTnombre d'activations du disjoncteur du circuit de servitude 12 V",
                 "label_korean": "TBTnombre d'activations du disjoncteur du circuit de servitude 12 V",
                 "group_id": "87195",
                 "req_frame_id": "261934",
@@ -518,7 +518,7 @@
             {
                 "position": 6,
                 "mnemonic": "ECB_VARIANT",
-                "label_index": "12",
+                "label_index": "@TTBTtype de variantes du disjoncteur du circuit de servitude 12 V",
                 "label_korean": "TBTtype de variantes du disjoncteur du circuit de servitude 12 V",
                 "group_id": "87204",
                 "req_frame_id": "261961",
@@ -542,8 +542,8 @@
             {
                 "position": 7,
                 "mnemonic": "BAT_DIAG_ECB_REQ",
-                "label_index": "64674",
-                "label_korean": "[미번역_P64674] V",
+                "label_index": "@P64674@\\*12 V",
+                "label_korean": "64674 V",
                 "group_id": "87192",
                 "req_frame_id": "261925",
                 "resp_frame_id": "261926",
@@ -566,7 +566,7 @@
             {
                 "position": 8,
                 "mnemonic": "VITESSE_VEHICULE_ROUES",
-                "label_index": "9267",
+                "label_index": "@P9267",
                 "label_korean": "차량 속도",
                 "group_id": "87213",
                 "req_frame_id": "261988",
@@ -582,13 +582,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "",
+                "help_code": "@T",
                 "help_korean": ""
             },
             {
                 "position": 9,
                 "mnemonic": "CPT_TEMPOREL",
-                "label_index": "18510",
+                "label_index": "@P18510",
                 "label_korean": "차량 시간 카운터",
                 "group_id": "87214",
                 "req_frame_id": "261991",
@@ -604,13 +604,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "",
+                "help_code": "@T",
                 "help_korean": ""
             },
             {
                 "position": 10,
                 "mnemonic": "KILOMETRAGE_DEH",
-                "label_index": "14658",
+                "label_index": "@P14658",
                 "label_korean": "차량 주행거리",
                 "group_id": "87215",
                 "req_frame_id": "261994",
@@ -626,13 +626,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "",
+                "help_code": "@T",
                 "help_korean": ""
             },
             {
                 "position": 11,
                 "mnemonic": "ECU_ELEC_STATE_RCD",
-                "label_index": "57490",
+                "label_index": "@P57490",
                 "label_korean": "작동 컨트롤 상태",
                 "group_id": "87216",
                 "req_frame_id": "261997",
@@ -656,7 +656,7 @@
             {
                 "position": 12,
                 "mnemonic": "ETAT_PRINCIP_SEV",
-                "label_index": "27252",
+                "label_index": "@P27252",
                 "label_korean": "차량 상태",
                 "group_id": "87191",
                 "req_frame_id": "261922",
@@ -680,7 +680,7 @@
             {
                 "position": 13,
                 "mnemonic": "RCD_LINE_STATE",
-                "label_index": "33773",
+                "label_index": "@P33773",
                 "label_korean": "웨이크-온-랜 라인의 상태",
                 "group_id": "87211",
                 "req_frame_id": "261982",
@@ -712,7 +712,7 @@
             {
                 "position": 1,
                 "mnemonic": "ECB_STATUS",
-                "label_index": "12",
+                "label_index": "@TTBT�tat du disjoncteur du circuit de servitude 12 V",
                 "label_korean": "TBT�tat du disjoncteur du circuit de servitude 12 V",
                 "group_id": "87181",
                 "req_frame_id": "261892",
@@ -736,7 +736,7 @@
             {
                 "position": 2,
                 "mnemonic": "ECB_SUPPLY_STATUS",
-                "label_index": "12",
+                "label_index": "@TTBT�tat d'alimentation du disjoncteur du circuit de servitude 12 V",
                 "label_korean": "TBT�tat d'alimentation du disjoncteur du circuit de servitude 12 V",
                 "group_id": "87184",
                 "req_frame_id": "261901",
@@ -760,7 +760,7 @@
             {
                 "position": 3,
                 "mnemonic": "ECB_GROUND_STATUS",
-                "label_index": "12",
+                "label_index": "@TTBT�tat de la masse du disjoncteur du circuit de servitude 12 V",
                 "label_korean": "TBT�tat de la masse du disjoncteur du circuit de servitude 12 V",
                 "group_id": "87186",
                 "req_frame_id": "261907",
@@ -784,8 +784,8 @@
             {
                 "position": 4,
                 "mnemonic": "SHORT_CIRCUIT_FAILURE",
-                "label_index": "64673",
-                "label_korean": "[미번역_P64673]",
+                "label_index": "@P64673",
+                "label_korean": "64673",
                 "group_id": "87177",
                 "req_frame_id": "261880",
                 "resp_frame_id": "261881",
@@ -808,7 +808,7 @@
             {
                 "position": 5,
                 "mnemonic": "K1_SWITCHING_CAPACITY",
-                "label_index": "1",
+                "label_index": "@TTBT�tat de la capacit� de commutation de court-circuit du contacteur 1",
                 "label_korean": "TBT�tat de la capacit� de commutation de court-circuit du contacteur 1",
                 "group_id": "87182",
                 "req_frame_id": "261895",
@@ -832,7 +832,7 @@
             {
                 "position": 6,
                 "mnemonic": "K2_SWITCHING_CAPACITY",
-                "label_index": "2",
+                "label_index": "@TTBT�tat de la capacit� de commutation de court-circuit du contacteur 2",
                 "label_korean": "TBT�tat de la capacit� de commutation de court-circuit du contacteur 2",
                 "group_id": "87183",
                 "req_frame_id": "261898",
@@ -856,7 +856,7 @@
             {
                 "position": 7,
                 "mnemonic": "K3_SWITCHING_CAPACITY",
-                "label_index": "3",
+                "label_index": "@TTBT�tat de la capacit� de commutation de court-circuit du contacteur 3",
                 "label_korean": "TBT�tat de la capacit� de commutation de court-circuit du contacteur 3",
                 "group_id": "87178",
                 "req_frame_id": "261883",
@@ -880,7 +880,7 @@
             {
                 "position": 8,
                 "mnemonic": "K1_SWITCH_MOS_POS",
-                "label_index": "1",
+                "label_index": "@TTBTposition du contacteur 1 du disjoncteur du circuit de servitude 12 V",
                 "label_korean": "TBTposition du contacteur 1 du disjoncteur du circuit de servitude 12 V",
                 "group_id": "87199",
                 "req_frame_id": "261946",
@@ -904,7 +904,7 @@
             {
                 "position": 9,
                 "mnemonic": "K2_SWITCH_POSITION",
-                "label_index": "2",
+                "label_index": "@TTBTposition du contacteur 2 du disjoncteur du circuit de servitude 12 V",
                 "label_korean": "TBTposition du contacteur 2 du disjoncteur du circuit de servitude 12 V",
                 "group_id": "87198",
                 "req_frame_id": "261943",
@@ -928,7 +928,7 @@
             {
                 "position": 10,
                 "mnemonic": "K3_SWITCH_POSITION",
-                "label_index": "3",
+                "label_index": "@TTBTposition du contacteur 3 du disjoncteur du circuit de servitude 12 V",
                 "label_korean": "TBTposition du contacteur 3 du disjoncteur du circuit de servitude 12 V",
                 "group_id": "87196",
                 "req_frame_id": "261937",
@@ -952,7 +952,7 @@
             {
                 "position": 11,
                 "mnemonic": "Q_DIODE_POSITION",
-                "label_index": "12",
+                "label_index": "@TTBTposition de la diode de puissance 12 V",
                 "label_korean": "TBTposition de la diode de puissance 12 V",
                 "group_id": "87197",
                 "req_frame_id": "261940",
@@ -974,7 +974,7 @@
             {
                 "position": 12,
                 "mnemonic": "ECB_STAT_GND_1",
-                "label_index": "1",
+                "label_index": "@TTBTmasse 1 du disjoncteur du circuit de servitude 12 V",
                 "label_korean": "TBTmasse 1 du disjoncteur du circuit de servitude 12 V",
                 "group_id": "87207",
                 "req_frame_id": "261970",
@@ -998,7 +998,7 @@
             {
                 "position": 13,
                 "mnemonic": "ECB_STAT_GND_2",
-                "label_index": "2",
+                "label_index": "@TTBTmasse 2 du disjoncteur du circuit de servitude 12 V",
                 "label_korean": "TBTmasse 2 du disjoncteur du circuit de servitude 12 V",
                 "group_id": "87208",
                 "req_frame_id": "261973",
@@ -1022,7 +1022,7 @@
             {
                 "position": 14,
                 "mnemonic": "P1_CONNECTION_STATUS",
-                "label_index": "1",
+                "label_index": "@TTBT�tat du branchement de la phase 1 du disjoncteur du circuit de servitude 12 V avec le bo�tier fusibles relais moteur",
                 "label_korean": "TBT�tat du branchement de la phase 1 du disjoncteur du circuit de servitude 12 V avec le bo�tier fusibles relais moteur",
                 "group_id": "87179",
                 "req_frame_id": "261886",
@@ -1046,7 +1046,7 @@
             {
                 "position": 15,
                 "mnemonic": "P4_CONNECTION_STATUS",
-                "label_index": "4",
+                "label_index": "@TTBT�tat du branchement de la phase 4 du disjoncteur du circuit de servitude 12 V avec le bo�tier fusibles relais moteur",
                 "label_korean": "TBT�tat du branchement de la phase 4 du disjoncteur du circuit de servitude 12 V avec le bo�tier fusibles relais moteur",
                 "group_id": "87194",
                 "req_frame_id": "261931",
@@ -1094,7 +1094,7 @@
             {
                 "position": 17,
                 "mnemonic": "OVERVOLTAGE_FAILURE",
-                "label_index": "14708",
+                "label_index": "@P14708",
                 "label_korean": "과도한 전압 결함",
                 "group_id": "87185",
                 "req_frame_id": "261904",
@@ -1118,7 +1118,7 @@
             {
                 "position": 18,
                 "mnemonic": "CURR_LEAK_TEST",
-                "label_index": "21120",
+                "label_index": "@P21120",
                 "label_korean": "누출 전류 결함",
                 "group_id": "87210",
                 "req_frame_id": "261979",
@@ -1142,7 +1142,7 @@
             {
                 "position": 19,
                 "mnemonic": "FIRST_CLOSE_ECB_AUTH",
-                "label_index": "12",
+                "label_index": "@TTBTautorisation de fermeture du disjoncteur du circuit de servitude 12 V lors de la premi�re application de courant apr�s la d�connexion de batterie servitude",
                 "label_korean": "TBTautorisation de fermeture du disjoncteur du circuit de servitude 12 V lors de la premi�re application de courant apr�s la d�connexion de batterie servitude",
                 "group_id": "87193",
                 "req_frame_id": "261928",
@@ -1174,8 +1174,8 @@
             {
                 "position": 1,
                 "mnemonic": "BAT_VOLTAGE",
-                "label_index": "53493",
-                "label_korean": "서비스 배터리12 전압 V",
+                "label_index": "@P53493@\\*12@\\+@P20054",
+                "label_korean": "서비스 배터리12 전압V",
                 "group_id": "87212",
                 "req_frame_id": "261985",
                 "resp_frame_id": "261986",
@@ -1190,13 +1190,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "12",
-                "help_code": "",
+                "help_code": "@T",
                 "help_korean": ""
             },
             {
                 "position": 2,
                 "mnemonic": "VITESSE_VEHICULE_ROUES",
-                "label_index": "9267",
+                "label_index": "@P9267",
                 "label_korean": "차량 속도",
                 "group_id": "87213",
                 "req_frame_id": "261988",
@@ -1212,13 +1212,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "",
+                "help_code": "@T",
                 "help_korean": ""
             },
             {
                 "position": 3,
                 "mnemonic": "CPT_TEMPOREL",
-                "label_index": "18510",
+                "label_index": "@P18510",
                 "label_korean": "차량 시간 카운터",
                 "group_id": "87214",
                 "req_frame_id": "261991",
@@ -1234,13 +1234,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "",
+                "help_code": "@T",
                 "help_korean": ""
             },
             {
                 "position": 4,
                 "mnemonic": "KILOMETRAGE_DEH",
-                "label_index": "14658",
+                "label_index": "@P14658",
                 "label_korean": "차량 주행거리",
                 "group_id": "87215",
                 "req_frame_id": "261994",
@@ -1256,13 +1256,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "",
+                "help_code": "@T",
                 "help_korean": ""
             },
             {
                 "position": 5,
                 "mnemonic": "ECU_ELEC_STATE_RCD",
-                "label_index": "57490",
+                "label_index": "@P57490",
                 "label_korean": "작동 컨트롤 상태",
                 "group_id": "87216",
                 "req_frame_id": "261997",

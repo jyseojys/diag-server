@@ -8,7 +8,7 @@
             {
                 "position": 1,
                 "mnemonic": "ID_NOM_DU_FOURNISSEUR",
-                "label_index": "5701",
+                "label_index": "@P5701",
                 "label_korean": "제조 업체명",
                 "group_id": "70262",
                 "req_frame_id": "211070",
@@ -38,7 +38,7 @@
             {
                 "position": 2,
                 "mnemonic": "ID_REFERENCE_MATERIEL",
-                "label_index": "1071",
+                "label_index": "@P1071",
                 "label_korean": "장치 부품 번호",
                 "group_id": "70262",
                 "req_frame_id": "211070",
@@ -60,7 +60,7 @@
             {
                 "position": 3,
                 "mnemonic": "ID_REFERENCE_COMPLEMENTAIRE_MATERIEL",
-                "label_index": "1634",
+                "label_index": "@P1634",
                 "label_korean": "장치 추가 참조 번호",
                 "group_id": "70262",
                 "req_frame_id": "211070",
@@ -82,7 +82,7 @@
             {
                 "position": 4,
                 "mnemonic": "ID_TRACABILITE_INDICE_EVOLUTION_EDITION",
-                "label_index": "24601",
+                "label_index": "@P24601",
                 "label_korean": "소프트웨어 버전",
                 "group_id": "70262",
                 "req_frame_id": "211070",
@@ -112,7 +112,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_TENSION_ALIMENTATION_CALCULATEUR_C0",
-                "label_index": "14064",
+                "label_index": "@P14064",
                 "label_korean": "제어 장치 공급 전압",
                 "group_id": "70264",
                 "req_frame_id": "211076",
@@ -128,13 +128,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "12642",
+                "help_code": "@P12642",
                 "help_korean": "키를 ON한 때부터 ECU에 전원을 공급한다"
             },
             {
                 "position": 2,
                 "mnemonic": "MP_TENSION_CAPTEUR_HAUTEUR_CAISSE_AVANT",
-                "label_index": "4808",
+                "label_index": "@P4808",
                 "label_korean": "프론트 차고 높이 센서 신호 전압",
                 "group_id": "70264",
                 "req_frame_id": "211076",
@@ -150,13 +150,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "8455, 21884",
+                "help_code": "@P8455@\\*0@\\*5@T. @P21884",
                 "help_korean": "0에서 5V 사이의 전압. 센서가 없을 때, 표시되는 전압은 \"유효하지 않은 값\"이다"
             },
             {
                 "position": 3,
                 "mnemonic": "MP_TENSION_CAPTEUR_HAUTEUR_CAISSE_ARRIERE",
-                "label_index": "29592",
+                "label_index": "@P29592",
                 "label_korean": "리어 또는 리어 좌측 차고 높이 센서 신호 전압",
                 "group_id": "70264",
                 "req_frame_id": "211076",
@@ -172,13 +172,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "8455, 21884",
+                "help_code": "@P8455@\\*0@\\*5@T. @P21884",
                 "help_korean": "0에서 5V 사이의 전압. 센서가 없을 때, 표시되는 전압은 \"유효하지 않은 값\"이다"
             },
             {
                 "position": 4,
                 "mnemonic": "MP_TENSION_CAL_CAPTEUR_HAUTEUR_CAISSE_AV",
-                "label_index": "3410",
+                "label_index": "@P3410",
                 "label_korean": "프론트 차고 높이 센서 캘리브레이션 전압",
                 "group_id": "70264",
                 "req_frame_id": "211076",
@@ -194,13 +194,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "21982",
+                "help_code": "@F21982@T.",
                 "help_korean": "캘리브레이션 절차 중 ECU에 의해 저장된 기준 전압."
             },
             {
                 "position": 5,
                 "mnemonic": "MP_TENSION_CALIBRATION_CAPTEUR_HAUTEUR_CAISSE_AR",
-                "label_index": "22005",
+                "label_index": "@P22005",
                 "label_korean": "리어 차고 높이 센서 캘리브레이션 전압",
                 "group_id": "70264",
                 "req_frame_id": "211076",
@@ -216,13 +216,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "21982",
+                "help_code": "@F21982@T.",
                 "help_korean": "캘리브레이션 절차 중 ECU에 의해 저장된 기준 전압."
             },
             {
                 "position": 6,
                 "mnemonic": "MPETATCORRECTSITE",
-                "label_index": "4602",
+                "label_index": "@P4602",
                 "label_korean": "수직 보정 상태",
                 "group_id": "70264",
                 "req_frame_id": "211076",
@@ -238,7 +238,7 @@
                 "bit_mask": 3,
                 "bit_shift": 0,
                 "dynamic_arg": "",
-                "help_code": "5868",
+                "help_code": "@P5868",
                 "help_korean": "결함인 경우, 결함을 읽는다"
             }
         ]
@@ -252,7 +252,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_TENSION_ALIMENTATION_CALCULATEUR_C0",
-                "label_index": "14064",
+                "label_index": "@P14064",
                 "label_korean": "제어 장치 공급 전압",
                 "group_id": "70264",
                 "req_frame_id": "211076",
@@ -268,13 +268,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "12642",
+                "help_code": "@P12642",
                 "help_korean": "키를 ON한 때부터 ECU에 전원을 공급한다"
             },
             {
                 "position": 2,
                 "mnemonic": "MP_TENSION_CAPTEUR_HAUTEUR_CAISSE_AVANT",
-                "label_index": "4808",
+                "label_index": "@P4808",
                 "label_korean": "프론트 차고 높이 센서 신호 전압",
                 "group_id": "70264",
                 "req_frame_id": "211076",
@@ -290,13 +290,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "8455, 21884",
+                "help_code": "@P8455@\\*0@\\*5@T. @P21884",
                 "help_korean": "0에서 5V 사이의 전압. 센서가 없을 때, 표시되는 전압은 \"유효하지 않은 값\"이다"
             },
             {
                 "position": 3,
                 "mnemonic": "MP_TENSION_CAPTEUR_HAUTEUR_CAISSE_ARRIERE",
-                "label_index": "29592",
+                "label_index": "@P29592",
                 "label_korean": "리어 또는 리어 좌측 차고 높이 센서 신호 전압",
                 "group_id": "70264",
                 "req_frame_id": "211076",
@@ -312,13 +312,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "8455, 21884",
+                "help_code": "@P8455@\\*0@\\*5@T. @P21884",
                 "help_korean": "0에서 5V 사이의 전압. 센서가 없을 때, 표시되는 전압은 \"유효하지 않은 값\"이다"
             },
             {
                 "position": 4,
                 "mnemonic": "MP_TENSION_CAL_CAPTEUR_HAUTEUR_CAISSE_AV",
-                "label_index": "3410",
+                "label_index": "@P3410",
                 "label_korean": "프론트 차고 높이 센서 캘리브레이션 전압",
                 "group_id": "70264",
                 "req_frame_id": "211076",
@@ -334,13 +334,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "21982",
+                "help_code": "@F21982@T.",
                 "help_korean": "캘리브레이션 절차 중 ECU에 의해 저장된 기준 전압."
             },
             {
                 "position": 5,
                 "mnemonic": "MP_TENSION_CALIBRATION_CAPTEUR_HAUTEUR_CAISSE_AR",
-                "label_index": "22005",
+                "label_index": "@P22005",
                 "label_korean": "리어 차고 높이 센서 캘리브레이션 전압",
                 "group_id": "70264",
                 "req_frame_id": "211076",
@@ -356,13 +356,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "21982",
+                "help_code": "@F21982@T.",
                 "help_korean": "캘리브레이션 절차 중 ECU에 의해 저장된 기준 전압."
             },
             {
                 "position": 6,
                 "mnemonic": "MPETATCORRECTSITE",
-                "label_index": "4602",
+                "label_index": "@P4602",
                 "label_korean": "수직 보정 상태",
                 "group_id": "70264",
                 "req_frame_id": "211076",
@@ -378,13 +378,13 @@
                 "bit_mask": 3,
                 "bit_shift": 0,
                 "dynamic_arg": "",
-                "help_code": "5868",
+                "help_code": "@P5868",
                 "help_korean": "결함인 경우, 결함을 읽는다"
             },
             {
                 "position": 7,
                 "mnemonic": "MP_ETAT_CORRECT_AZIMUT_1",
-                "label_index": "5506",
+                "label_index": "@P5506",
                 "label_korean": "수평 보정 상태",
                 "group_id": "70264",
                 "req_frame_id": "211076",
@@ -411,7 +411,7 @@
             {
                 "position": 8,
                 "mnemonic": "MP_ETAT_CORRECTION_DYNAMIQUE_PROJECTEURS",
-                "label_index": "31953",
+                "label_index": "@P31953",
                 "label_korean": "다이내믹 헤드램프의 조정 상태",
                 "group_id": "70264",
                 "req_frame_id": "211076",
@@ -446,7 +446,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_ANGLE_DE_CORRECTION_SITE_G",
-                "label_index": "2813",
+                "label_index": "@P2813",
                 "label_korean": "수직 보정 각도",
                 "group_id": "70265",
                 "req_frame_id": "211079",
@@ -462,13 +462,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "29891, 9606",
-                "help_korean": "엔진의 수직 보정.\n과 도사이의 값-6� 6�"
+                "help_code": "@P29891@T.@\\n@F9606@\\*-6�@\\*+6�",
+                "help_korean": "엔진의 수직 보정.\n과 도사이의 값-6�+6�"
             },
             {
                 "position": 2,
                 "mnemonic": "MP_DEFAUT_ELEC_THERM_MOT_CORR_DE_SITE_G",
-                "label_index": "20939",
+                "label_index": "@P20939@\\*1",
                 "label_korean": "높이 조정 결함1",
                 "group_id": "70265",
                 "req_frame_id": "211079",
@@ -484,13 +484,13 @@
                 "bit_mask": 4,
                 "bit_shift": 2,
                 "dynamic_arg": "1",
-                "help_code": "21039",
+                "help_code": "@P21039",
                 "help_korean": "높이 조정 모터에서 전기적인 또는 과열 결함"
             },
             {
                 "position": 3,
                 "mnemonic": "MP_DEFAUT_COMM_MOT_DE_SITE_G",
-                "label_index": "20939",
+                "label_index": "@P20939@\\*2",
                 "label_korean": "높이 조정 결함2",
                 "group_id": "70265",
                 "req_frame_id": "211079",
@@ -506,13 +506,13 @@
                 "bit_mask": 2,
                 "bit_shift": 1,
                 "dynamic_arg": "2",
-                "help_code": "20925",
+                "help_code": "@P20925",
                 "help_korean": "높이 조정 모터에서 통신 결함"
             },
             {
                 "position": 4,
                 "mnemonic": "MP_DEFAUT_PERTE_PAS_OU_POS_MOT_CORR_SITE_G",
-                "label_index": "20939",
+                "label_index": "@P20939@\\*3",
                 "label_korean": "높이 조정 결함3",
                 "group_id": "70265",
                 "req_frame_id": "211079",
@@ -528,13 +528,13 @@
                 "bit_mask": 1,
                 "bit_shift": 0,
                 "dynamic_arg": "3",
-                "help_code": "20865",
+                "help_code": "@P20865",
                 "help_korean": "결함 : 높이 조정 모터의 방향, 또는 위치, 단계 상실"
             },
             {
                 "position": 5,
                 "mnemonic": "MP_ACTIVE_VERTICAL_MOTOR_G",
-                "label_index": "47293",
+                "label_index": "@P47293",
                 "label_korean": "헤드램프 높이 조정 장치 LH 모터 상태",
                 "group_id": "70265",
                 "req_frame_id": "211079",
@@ -556,7 +556,7 @@
             {
                 "position": 6,
                 "mnemonic": "MP_ETAT_CROISEMENT_G",
-                "label_index": "47470",
+                "label_index": "@P47470",
                 "label_korean": "LH 하향 전조등 상태",
                 "group_id": "70265",
                 "req_frame_id": "211079",
@@ -578,7 +578,7 @@
             {
                 "position": 7,
                 "mnemonic": "MP_ETAT_ROUTE_G",
-                "label_index": "47380",
+                "label_index": "@P47380",
                 "label_korean": "LH 메인 빔 헤드램프의 상태",
                 "group_id": "매핑_누락",
                 "req_frame_id": "",
@@ -600,7 +600,7 @@
             {
                 "position": 8,
                 "mnemonic": "MP_ETAT_FEU_DIURNE_G",
-                "label_index": "46782",
+                "label_index": "@P46782",
                 "label_korean": "좌측 주간 주행등의 상태",
                 "group_id": "70265",
                 "req_frame_id": "211079",
@@ -622,7 +622,7 @@
             {
                 "position": 9,
                 "mnemonic": "MP_FEU_POS_G",
-                "label_index": "46783",
+                "label_index": "@P46783",
                 "label_korean": "좌측 사이드 램프의 상태",
                 "group_id": "70265",
                 "req_frame_id": "211079",
@@ -644,7 +644,7 @@
             {
                 "position": 10,
                 "mnemonic": "MP_ETAT_IND_DIR_G",
-                "label_index": "47473",
+                "label_index": "@P47473",
                 "label_korean": "LH 방향 지시등 상태",
                 "group_id": "70265",
                 "req_frame_id": "211079",
@@ -666,7 +666,7 @@
             {
                 "position": 11,
                 "mnemonic": "MP_DIAG_CROISEMENT_G",
-                "label_index": "46784",
+                "label_index": "@P46784",
                 "label_korean": "좌측 하향등 헤드램프 진단",
                 "group_id": "70265",
                 "req_frame_id": "211079",
@@ -688,7 +688,7 @@
             {
                 "position": 12,
                 "mnemonic": "MP_FEU_ROUTE_G",
-                "label_index": "46785",
+                "label_index": "@P46785",
                 "label_korean": "좌측 상향등 헤드램프 진단",
                 "group_id": "매핑_누락",
                 "req_frame_id": "",
@@ -710,7 +710,7 @@
             {
                 "position": 13,
                 "mnemonic": "MP_FEU_DIURNE_G",
-                "label_index": "46786",
+                "label_index": "@P46786",
                 "label_korean": "좌측 주간 주행등 진단",
                 "group_id": "70265",
                 "req_frame_id": "211079",
@@ -732,7 +732,7 @@
             {
                 "position": 14,
                 "mnemonic": "MP_DIAG_POS_G",
-                "label_index": "46787",
+                "label_index": "@P46787",
                 "label_korean": "좌측 사이드 램프 진단",
                 "group_id": "70265",
                 "req_frame_id": "211079",
@@ -754,7 +754,7 @@
             {
                 "position": 15,
                 "mnemonic": "MP_DIAG_IND_DIR_G",
-                "label_index": "47239",
+                "label_index": "@P47239",
                 "label_korean": "LH 방향 지시등 진단",
                 "group_id": "70265",
                 "req_frame_id": "211079",
@@ -776,7 +776,7 @@
             {
                 "position": 16,
                 "mnemonic": "MP_DIAG_VENTILATEUR",
-                "label_index": "47296",
+                "label_index": "@P47296",
                 "label_korean": "헤드램프 높이 조정 장치 ECU 팬 진단",
                 "group_id": "70265",
                 "req_frame_id": "211079",
@@ -809,7 +809,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_ANGLE_DE_CORRECTION_SITE_G",
-                "label_index": "2813",
+                "label_index": "@P2813",
                 "label_korean": "수직 보정 각도",
                 "group_id": "70265",
                 "req_frame_id": "211079",
@@ -825,13 +825,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "29891, 9606",
-                "help_korean": "엔진의 수직 보정.\n과 도사이의 값-6� 6�"
+                "help_code": "@P29891@T.@\\n@F9606@\\*-6�@\\*+6�",
+                "help_korean": "엔진의 수직 보정.\n과 도사이의 값-6�+6�"
             },
             {
                 "position": 2,
                 "mnemonic": "MP_DEFAUT_ELEC_THERM_MOT_CORR_DE_SITE_G",
-                "label_index": "20939",
+                "label_index": "@P20939@\\*1",
                 "label_korean": "높이 조정 결함1",
                 "group_id": "70265",
                 "req_frame_id": "211079",
@@ -847,13 +847,13 @@
                 "bit_mask": 4,
                 "bit_shift": 2,
                 "dynamic_arg": "1",
-                "help_code": "21039",
+                "help_code": "@P21039",
                 "help_korean": "높이 조정 모터에서 전기적인 또는 과열 결함"
             },
             {
                 "position": 3,
                 "mnemonic": "MP_DEFAUT_COMM_MOT_DE_SITE_G",
-                "label_index": "20939",
+                "label_index": "@P20939@\\*2",
                 "label_korean": "높이 조정 결함2",
                 "group_id": "70265",
                 "req_frame_id": "211079",
@@ -869,13 +869,13 @@
                 "bit_mask": 2,
                 "bit_shift": 1,
                 "dynamic_arg": "2",
-                "help_code": "20925",
+                "help_code": "@P20925",
                 "help_korean": "높이 조정 모터에서 통신 결함"
             },
             {
                 "position": 4,
                 "mnemonic": "MP_DEFAUT_PERTE_PAS_OU_POS_MOT_CORR_SITE_G",
-                "label_index": "20939",
+                "label_index": "@P20939@\\*3",
                 "label_korean": "높이 조정 결함3",
                 "group_id": "70265",
                 "req_frame_id": "211079",
@@ -891,13 +891,13 @@
                 "bit_mask": 1,
                 "bit_shift": 0,
                 "dynamic_arg": "3",
-                "help_code": "20865",
+                "help_code": "@P20865",
                 "help_korean": "결함 : 높이 조정 모터의 방향, 또는 위치, 단계 상실"
             },
             {
                 "position": 5,
                 "mnemonic": "MP_ACTIVE_VERTICAL_MOTOR_G",
-                "label_index": "47293",
+                "label_index": "@P47293",
                 "label_korean": "헤드램프 높이 조정 장치 LH 모터 상태",
                 "group_id": "70265",
                 "req_frame_id": "211079",
@@ -919,7 +919,7 @@
             {
                 "position": 6,
                 "mnemonic": "MP_ETAT_CROISEMENT_G",
-                "label_index": "47470",
+                "label_index": "@P47470",
                 "label_korean": "LH 하향 전조등 상태",
                 "group_id": "70265",
                 "req_frame_id": "211079",
@@ -941,7 +941,7 @@
             {
                 "position": 7,
                 "mnemonic": "MP_ETAT_FEU_DIURNE_G",
-                "label_index": "46782",
+                "label_index": "@P46782",
                 "label_korean": "좌측 주간 주행등의 상태",
                 "group_id": "70265",
                 "req_frame_id": "211079",
@@ -963,7 +963,7 @@
             {
                 "position": 8,
                 "mnemonic": "MP_FEU_POS_G",
-                "label_index": "46783",
+                "label_index": "@P46783",
                 "label_korean": "좌측 사이드 램프의 상태",
                 "group_id": "70265",
                 "req_frame_id": "211079",
@@ -985,7 +985,7 @@
             {
                 "position": 9,
                 "mnemonic": "MP_ETAT_IND_DIR_G",
-                "label_index": "47473",
+                "label_index": "@P47473",
                 "label_korean": "LH 방향 지시등 상태",
                 "group_id": "70265",
                 "req_frame_id": "211079",
@@ -1007,7 +1007,7 @@
             {
                 "position": 10,
                 "mnemonic": "MP_DIAG_CROISEMENT_G",
-                "label_index": "46784",
+                "label_index": "@P46784",
                 "label_korean": "좌측 하향등 헤드램프 진단",
                 "group_id": "70265",
                 "req_frame_id": "211079",
@@ -1029,7 +1029,7 @@
             {
                 "position": 11,
                 "mnemonic": "MP_FEU_DIURNE_G",
-                "label_index": "46786",
+                "label_index": "@P46786",
                 "label_korean": "좌측 주간 주행등 진단",
                 "group_id": "70265",
                 "req_frame_id": "211079",
@@ -1051,7 +1051,7 @@
             {
                 "position": 12,
                 "mnemonic": "MP_DIAG_POS_G",
-                "label_index": "46787",
+                "label_index": "@P46787",
                 "label_korean": "좌측 사이드 램프 진단",
                 "group_id": "70265",
                 "req_frame_id": "211079",
@@ -1073,7 +1073,7 @@
             {
                 "position": 13,
                 "mnemonic": "MP_DIAG_IND_DIR_G",
-                "label_index": "47239",
+                "label_index": "@P47239",
                 "label_korean": "LH 방향 지시등 진단",
                 "group_id": "70265",
                 "req_frame_id": "211079",
@@ -1095,7 +1095,7 @@
             {
                 "position": 14,
                 "mnemonic": "MP_DIAG_VENTILATEUR",
-                "label_index": "47296",
+                "label_index": "@P47296",
                 "label_korean": "헤드램프 높이 조정 장치 ECU 팬 진단",
                 "group_id": "70265",
                 "req_frame_id": "211079",
@@ -1120,7 +1120,7 @@
             {
                 "position": 15,
                 "mnemonic": "MP_ANGLE_DE_CORRECTION_AZIMUT_G",
-                "label_index": "9153",
+                "label_index": "@P9153",
                 "label_korean": "수평 조정 각도",
                 "group_id": "70265",
                 "req_frame_id": "211079",
@@ -1136,13 +1136,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "29892, 9606",
-                "help_korean": "엔진 수평 보정과 도사이의 값-15� 15�"
+                "help_code": "@P29892@P9606@\\*-15�@\\*+15�",
+                "help_korean": "엔진 수평 보정과 도사이의 값-15�+15�"
             },
             {
                 "position": 16,
                 "mnemonic": "MP_ETAT_MOTEUR_AZIMUT_G",
-                "label_index": "42659",
+                "label_index": "@P42659",
                 "label_korean": "방위 조정 모터의 상태",
                 "group_id": "70265",
                 "req_frame_id": "211079",
@@ -1167,7 +1167,7 @@
             {
                 "position": 17,
                 "mnemonic": "MP_DEFAUT_ELEC_THERM_MOT_CORR_AZIMUT_G",
-                "label_index": "20984",
+                "label_index": "@P20984@\\*1",
                 "label_korean": "방위 조정 결함1",
                 "group_id": "70265",
                 "req_frame_id": "211079",
@@ -1186,13 +1186,13 @@
                 "bit_mask": 64,
                 "bit_shift": 6,
                 "dynamic_arg": "1",
-                "help_code": "20749",
+                "help_code": "@P20749",
                 "help_korean": "방위 조정 모터에서 전기적인 또는 과열 결함"
             },
             {
                 "position": 18,
                 "mnemonic": "MP_DEFAUT_COMM_MOT_AZIMUT_G",
-                "label_index": "20984",
+                "label_index": "@P20984@\\*2",
                 "label_korean": "방위 조정 결함2",
                 "group_id": "70265",
                 "req_frame_id": "211079",
@@ -1211,13 +1211,13 @@
                 "bit_mask": 32,
                 "bit_shift": 5,
                 "dynamic_arg": "2",
-                "help_code": "20819",
+                "help_code": "@P20819",
                 "help_korean": "방위 조정 모터와 통신 결함"
             },
             {
                 "position": 19,
                 "mnemonic": "MP_DEFAUT_PERTE_PAS_OU_POS_MOT_CORR_AZIMUT_G",
-                "label_index": "20984",
+                "label_index": "@P20984@\\*3",
                 "label_korean": "방위 조정 결함3",
                 "group_id": "70265",
                 "req_frame_id": "211079",
@@ -1236,7 +1236,7 @@
                 "bit_mask": 16,
                 "bit_shift": 4,
                 "dynamic_arg": "3",
-                "help_code": "22040",
+                "help_code": "@P22040",
                 "help_korean": "결함 : 방위 조정 모터의 방향 또는 위치, 단계 상실"
             }
         ]
@@ -1250,7 +1250,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_ANGLE_DE_CORRECTION_SITE_D",
-                "label_index": "2813",
+                "label_index": "@P2813",
                 "label_korean": "수직 보정 각도",
                 "group_id": "70266",
                 "req_frame_id": "211082",
@@ -1266,13 +1266,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "29891, 9606",
-                "help_korean": "엔진의 수직 보정.\n과 도사이의 값-6� 6�"
+                "help_code": "@P29891@T.@\\n@F9606@\\*-6�@\\*+6�",
+                "help_korean": "엔진의 수직 보정.\n과 도사이의 값-6�+6�"
             },
             {
                 "position": 2,
                 "mnemonic": "MP_DEFAUT_ELEC_THERM_MOT_CORR_DE_SITE_D",
-                "label_index": "20939",
+                "label_index": "@P20939@\\*1",
                 "label_korean": "높이 조정 결함1",
                 "group_id": "70266",
                 "req_frame_id": "211082",
@@ -1288,13 +1288,13 @@
                 "bit_mask": 4,
                 "bit_shift": 2,
                 "dynamic_arg": "1",
-                "help_code": "21039",
+                "help_code": "@P21039",
                 "help_korean": "높이 조정 모터에서 전기적인 또는 과열 결함"
             },
             {
                 "position": 3,
                 "mnemonic": "MP_DEFAUT_COMM_MOT_DE_SITE_D",
-                "label_index": "20939",
+                "label_index": "@P20939@\\*2",
                 "label_korean": "높이 조정 결함2",
                 "group_id": "70266",
                 "req_frame_id": "211082",
@@ -1310,13 +1310,13 @@
                 "bit_mask": 2,
                 "bit_shift": 1,
                 "dynamic_arg": "2",
-                "help_code": "20925",
+                "help_code": "@P20925",
                 "help_korean": "높이 조정 모터에서 통신 결함"
             },
             {
                 "position": 4,
                 "mnemonic": "MP_DEFAUT_PERTE_PAS_OU_POS_MOT_CORR_SITE_D",
-                "label_index": "20939",
+                "label_index": "@P20939@\\*3",
                 "label_korean": "높이 조정 결함3",
                 "group_id": "70266",
                 "req_frame_id": "211082",
@@ -1332,13 +1332,13 @@
                 "bit_mask": 1,
                 "bit_shift": 0,
                 "dynamic_arg": "3",
-                "help_code": "20865",
+                "help_code": "@P20865",
                 "help_korean": "결함 : 높이 조정 모터의 방향, 또는 위치, 단계 상실"
             },
             {
                 "position": 5,
                 "mnemonic": "MP_ACTIVE_VERTICAL_MOTOR_D",
-                "label_index": "47294",
+                "label_index": "@P47294",
                 "label_korean": "헤드램프 높이 조정 장치 RH 모터 상태",
                 "group_id": "70266",
                 "req_frame_id": "211082",
@@ -1363,7 +1363,7 @@
             {
                 "position": 6,
                 "mnemonic": "MP_ETAT_CROISEMENT_D",
-                "label_index": "47240",
+                "label_index": "@P47240",
                 "label_korean": "RH 하향 전조등 상태",
                 "group_id": "70266",
                 "req_frame_id": "211082",
@@ -1388,7 +1388,7 @@
             {
                 "position": 7,
                 "mnemonic": "MP_ETAT_ROUTE_D",
-                "label_index": "47295",
+                "label_index": "@P47295",
                 "label_korean": "RH 메인 빔 헤드램프 상태",
                 "group_id": "매핑_누락",
                 "req_frame_id": "",
@@ -1410,7 +1410,7 @@
             {
                 "position": 8,
                 "mnemonic": "MP_ETAT_FEU_DIURNE_D",
-                "label_index": "46788",
+                "label_index": "@P46788",
                 "label_korean": "우측 주간 주행등의 상태",
                 "group_id": "70266",
                 "req_frame_id": "211082",
@@ -1432,7 +1432,7 @@
             {
                 "position": 9,
                 "mnemonic": "MP_FEU_POS_D",
-                "label_index": "46789",
+                "label_index": "@P46789",
                 "label_korean": "우측 사이드 램프의 상태",
                 "group_id": "70266",
                 "req_frame_id": "211082",
@@ -1454,7 +1454,7 @@
             {
                 "position": 10,
                 "mnemonic": "MP_ETAT_IND_DIR_D",
-                "label_index": "47474",
+                "label_index": "@P47474",
                 "label_korean": "RH 방향 지시등 상태",
                 "group_id": "70266",
                 "req_frame_id": "211082",
@@ -1476,7 +1476,7 @@
             {
                 "position": 11,
                 "mnemonic": "MP_DIAG_CROISEMENT_D",
-                "label_index": "46790",
+                "label_index": "@P46790",
                 "label_korean": "우측 하향등 헤드램프 진단",
                 "group_id": "70266",
                 "req_frame_id": "211082",
@@ -1502,7 +1502,7 @@
             {
                 "position": 12,
                 "mnemonic": "MP_FEU_ROUTE_D",
-                "label_index": "46791",
+                "label_index": "@P46791",
                 "label_korean": "우측 상향등 헤드램프 진단",
                 "group_id": "매핑_누락",
                 "req_frame_id": "",
@@ -1524,7 +1524,7 @@
             {
                 "position": 13,
                 "mnemonic": "MP_FEU_DIURNE_D",
-                "label_index": "46792",
+                "label_index": "@P46792",
                 "label_korean": "우측 주간 주행등 진단",
                 "group_id": "70266",
                 "req_frame_id": "211082",
@@ -1546,7 +1546,7 @@
             {
                 "position": 14,
                 "mnemonic": "MP_DIAG_POS_D",
-                "label_index": "46793",
+                "label_index": "@P46793",
                 "label_korean": "우측 사이드 램프 진단",
                 "group_id": "70266",
                 "req_frame_id": "211082",
@@ -1568,7 +1568,7 @@
             {
                 "position": 15,
                 "mnemonic": "MP_DIAG_IND_DIR_D",
-                "label_index": "47381",
+                "label_index": "@P47381",
                 "label_korean": "RH 방향 지시등 진단",
                 "group_id": "70266",
                 "req_frame_id": "211082",
@@ -1590,7 +1590,7 @@
             {
                 "position": 16,
                 "mnemonic": "MP_DIAG_VENTILATEUR",
-                "label_index": "47296",
+                "label_index": "@P47296",
                 "label_korean": "헤드램프 높이 조정 장치 ECU 팬 진단",
                 "group_id": "70265",
                 "req_frame_id": "211079",
@@ -1623,7 +1623,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_ANGLE_DE_CORRECTION_SITE_D",
-                "label_index": "2813",
+                "label_index": "@P2813",
                 "label_korean": "수직 보정 각도",
                 "group_id": "70266",
                 "req_frame_id": "211082",
@@ -1639,13 +1639,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "29891, 9606",
-                "help_korean": "엔진의 수직 보정.\n과 도사이의 값-6� 6�"
+                "help_code": "@P29891@T.@\\n@F9606@\\*-6�@\\*+6�",
+                "help_korean": "엔진의 수직 보정.\n과 도사이의 값-6�+6�"
             },
             {
                 "position": 2,
                 "mnemonic": "MP_DEFAUT_ELEC_THERM_MOT_CORR_DE_SITE_D",
-                "label_index": "20939",
+                "label_index": "@P20939@\\*1",
                 "label_korean": "높이 조정 결함1",
                 "group_id": "70266",
                 "req_frame_id": "211082",
@@ -1661,13 +1661,13 @@
                 "bit_mask": 4,
                 "bit_shift": 2,
                 "dynamic_arg": "1",
-                "help_code": "21039",
+                "help_code": "@P21039",
                 "help_korean": "높이 조정 모터에서 전기적인 또는 과열 결함"
             },
             {
                 "position": 3,
                 "mnemonic": "MP_DEFAUT_COMM_MOT_DE_SITE_D",
-                "label_index": "20939",
+                "label_index": "@P20939@\\*2",
                 "label_korean": "높이 조정 결함2",
                 "group_id": "70266",
                 "req_frame_id": "211082",
@@ -1683,13 +1683,13 @@
                 "bit_mask": 2,
                 "bit_shift": 1,
                 "dynamic_arg": "2",
-                "help_code": "20925",
+                "help_code": "@P20925",
                 "help_korean": "높이 조정 모터에서 통신 결함"
             },
             {
                 "position": 4,
                 "mnemonic": "MP_DEFAUT_PERTE_PAS_OU_POS_MOT_CORR_SITE_D",
-                "label_index": "20939",
+                "label_index": "@P20939@\\*3",
                 "label_korean": "높이 조정 결함3",
                 "group_id": "70266",
                 "req_frame_id": "211082",
@@ -1705,13 +1705,13 @@
                 "bit_mask": 1,
                 "bit_shift": 0,
                 "dynamic_arg": "3",
-                "help_code": "20865",
+                "help_code": "@P20865",
                 "help_korean": "결함 : 높이 조정 모터의 방향, 또는 위치, 단계 상실"
             },
             {
                 "position": 5,
                 "mnemonic": "MP_ACTIVE_VERTICAL_MOTOR_D",
-                "label_index": "47294",
+                "label_index": "@P47294",
                 "label_korean": "헤드램프 높이 조정 장치 RH 모터 상태",
                 "group_id": "70266",
                 "req_frame_id": "211082",
@@ -1736,7 +1736,7 @@
             {
                 "position": 6,
                 "mnemonic": "MP_ETAT_CROISEMENT_D",
-                "label_index": "47240",
+                "label_index": "@P47240",
                 "label_korean": "RH 하향 전조등 상태",
                 "group_id": "70266",
                 "req_frame_id": "211082",
@@ -1761,7 +1761,7 @@
             {
                 "position": 7,
                 "mnemonic": "MP_ETAT_FEU_DIURNE_D",
-                "label_index": "46788",
+                "label_index": "@P46788",
                 "label_korean": "우측 주간 주행등의 상태",
                 "group_id": "70266",
                 "req_frame_id": "211082",
@@ -1783,7 +1783,7 @@
             {
                 "position": 8,
                 "mnemonic": "MP_FEU_POS_D",
-                "label_index": "46789",
+                "label_index": "@P46789",
                 "label_korean": "우측 사이드 램프의 상태",
                 "group_id": "70266",
                 "req_frame_id": "211082",
@@ -1805,7 +1805,7 @@
             {
                 "position": 9,
                 "mnemonic": "MP_ETAT_IND_DIR_D",
-                "label_index": "47474",
+                "label_index": "@P47474",
                 "label_korean": "RH 방향 지시등 상태",
                 "group_id": "70266",
                 "req_frame_id": "211082",
@@ -1827,7 +1827,7 @@
             {
                 "position": 10,
                 "mnemonic": "MP_DIAG_CROISEMENT_D",
-                "label_index": "46790",
+                "label_index": "@P46790",
                 "label_korean": "우측 하향등 헤드램프 진단",
                 "group_id": "70266",
                 "req_frame_id": "211082",
@@ -1853,7 +1853,7 @@
             {
                 "position": 11,
                 "mnemonic": "MP_FEU_DIURNE_D",
-                "label_index": "46792",
+                "label_index": "@P46792",
                 "label_korean": "우측 주간 주행등 진단",
                 "group_id": "70266",
                 "req_frame_id": "211082",
@@ -1875,7 +1875,7 @@
             {
                 "position": 12,
                 "mnemonic": "MP_DIAG_POS_D",
-                "label_index": "46793",
+                "label_index": "@P46793",
                 "label_korean": "우측 사이드 램프 진단",
                 "group_id": "70266",
                 "req_frame_id": "211082",
@@ -1897,7 +1897,7 @@
             {
                 "position": 13,
                 "mnemonic": "MP_DIAG_IND_DIR_D",
-                "label_index": "47381",
+                "label_index": "@P47381",
                 "label_korean": "RH 방향 지시등 진단",
                 "group_id": "70266",
                 "req_frame_id": "211082",
@@ -1919,7 +1919,7 @@
             {
                 "position": 14,
                 "mnemonic": "MP_DIAG_VENTILATEUR",
-                "label_index": "47296",
+                "label_index": "@P47296",
                 "label_korean": "헤드램프 높이 조정 장치 ECU 팬 진단",
                 "group_id": "70265",
                 "req_frame_id": "211079",
@@ -1944,7 +1944,7 @@
             {
                 "position": 15,
                 "mnemonic": "MP_ANGLE_DE_CORRECTION_AZIMUT_D",
-                "label_index": "9153",
+                "label_index": "@P9153",
                 "label_korean": "수평 조정 각도",
                 "group_id": "70266",
                 "req_frame_id": "211082",
@@ -1960,13 +1960,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "29892, 9606",
-                "help_korean": "엔진 수평 보정과 도사이의 값-15� 15�"
+                "help_code": "@P29892@P9606@\\*-15�@\\*+15�",
+                "help_korean": "엔진 수평 보정과 도사이의 값-15�+15�"
             },
             {
                 "position": 16,
                 "mnemonic": "MP_ETAT_MOTEUR_AZIMUT_D",
-                "label_index": "42659",
+                "label_index": "@P42659",
                 "label_korean": "방위 조정 모터의 상태",
                 "group_id": "70266",
                 "req_frame_id": "211082",
@@ -1991,7 +1991,7 @@
             {
                 "position": 17,
                 "mnemonic": "MP_DEFAUT_ELEC_THERM_MOT_CORR_AZIMUT_D",
-                "label_index": "20984",
+                "label_index": "@P20984@\\*1",
                 "label_korean": "방위 조정 결함1",
                 "group_id": "70266",
                 "req_frame_id": "211082",
@@ -2010,13 +2010,13 @@
                 "bit_mask": 64,
                 "bit_shift": 6,
                 "dynamic_arg": "1",
-                "help_code": "20749",
+                "help_code": "@P20749",
                 "help_korean": "방위 조정 모터에서 전기적인 또는 과열 결함"
             },
             {
                 "position": 18,
                 "mnemonic": "MP_DEFAUT_COMM_MOT_AZIMUT_D",
-                "label_index": "20984",
+                "label_index": "@P20984@\\*2",
                 "label_korean": "방위 조정 결함2",
                 "group_id": "70266",
                 "req_frame_id": "211082",
@@ -2035,13 +2035,13 @@
                 "bit_mask": 32,
                 "bit_shift": 5,
                 "dynamic_arg": "2",
-                "help_code": "20819",
+                "help_code": "@P20819",
                 "help_korean": "방위 조정 모터와 통신 결함"
             },
             {
                 "position": 19,
                 "mnemonic": "MP_DEFAUT_PERTE_PAS_OU_POS_MOT_CORR_AZIMUT_D",
-                "label_index": "20984",
+                "label_index": "@P20984@\\*3",
                 "label_korean": "방위 조정 결함3",
                 "group_id": "70266",
                 "req_frame_id": "211082",
@@ -2060,7 +2060,7 @@
                 "bit_mask": 16,
                 "bit_shift": 4,
                 "dynamic_arg": "3",
-                "help_code": "22040",
+                "help_code": "@P22040",
                 "help_korean": "결함 : 방위 조정 모터의 방향 또는 위치, 단계 상실"
             }
         ]
@@ -2074,7 +2074,7 @@
             {
                 "position": 1,
                 "mnemonic": "CFG_____BVPR",
-                "label_index": "14682",
+                "label_index": "@P14682",
                 "label_korean": "변속기",
                 "group_id": "매핑_누락",
                 "req_frame_id": "",
@@ -2101,7 +2101,7 @@
             {
                 "position": 2,
                 "mnemonic": "CFG____CPR_NEW_1",
-                "label_index": "4339",
+                "label_index": "@P4339",
                 "label_korean": "차체 타입",
                 "group_id": "매핑_누락",
                 "req_frame_id": "",
@@ -2131,7 +2131,7 @@
             {
                 "position": 1,
                 "mnemonic": "CA_TENSION_BATTERIE",
-                "label_index": "18263",
+                "label_index": "@P18263",
                 "label_korean": "배터리 전압",
                 "group_id": "70268",
                 "req_frame_id": "211088",
@@ -2153,7 +2153,7 @@
             {
                 "position": 2,
                 "mnemonic": "CA_ETAT_MOTEUR",
-                "label_index": "11481",
+                "label_index": "@P11481",
                 "label_korean": "엔진 상태",
                 "group_id": "70268",
                 "req_frame_id": "211088",
@@ -2199,7 +2199,7 @@
             {
                 "position": 3,
                 "mnemonic": "CA_FEUX_DE_CROISEMENT",
-                "label_index": "11810",
+                "label_index": "@P11810",
                 "label_korean": "전조등 하향",
                 "group_id": "70268",
                 "req_frame_id": "211088",
@@ -2224,7 +2224,7 @@
             {
                 "position": 4,
                 "mnemonic": "CA_VITESSE_VEHICULE",
-                "label_index": "15603",
+                "label_index": "@P15603@\\*",
                 "label_korean": "차량 속도",
                 "group_id": "70268",
                 "req_frame_id": "211088",
@@ -2248,7 +2248,7 @@
             {
                 "position": 5,
                 "mnemonic": "CA_TENSION_CAPTEUR_HAUTEUR_CAISSE_AVANT",
-                "label_index": "4808",
+                "label_index": "@P4808",
                 "label_korean": "프론트 차고 높이 센서 신호 전압",
                 "group_id": "70268",
                 "req_frame_id": "211088",
@@ -2270,7 +2270,7 @@
             {
                 "position": 6,
                 "mnemonic": "CA_TENSION_CAPTEUR_HAUTEUR_CAISSE_ARRIERE",
-                "label_index": "29592",
+                "label_index": "@P29592",
                 "label_korean": "리어 또는 리어 좌측 차고 높이 센서 신호 전압",
                 "group_id": "70268",
                 "req_frame_id": "211088",
@@ -2292,7 +2292,7 @@
             {
                 "position": 7,
                 "mnemonic": "CA_ANGLE_CORRECTION_SITE",
-                "label_index": "2813",
+                "label_index": "@P2813",
                 "label_korean": "수직 보정 각도",
                 "group_id": "70268",
                 "req_frame_id": "211088",
@@ -2317,7 +2317,7 @@
             {
                 "position": 8,
                 "mnemonic": "MP_ANGLE_DU_VOLANT",
-                "label_index": "51260",
+                "label_index": "@P51260",
                 "label_korean": "스티어링 휠 앵글",
                 "group_id": "70268",
                 "req_frame_id": "211088",
@@ -2339,7 +2339,7 @@
             {
                 "position": 9,
                 "mnemonic": "MP_ANGLE_DE_CORRECTION_AZIMUT_PROJECTEUR_GAUCHE",
-                "label_index": "22200",
+                "label_index": "@P22200",
                 "label_korean": "좌측 방위 조정 각도",
                 "group_id": "70268",
                 "req_frame_id": "211088",
@@ -2355,13 +2355,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "9606",
-                "help_korean": "과 도사이의 값-15� 15�"
+                "help_code": "@P9606@\\*-15�@\\*+15�",
+                "help_korean": "과 도사이의 값-15�+15�"
             },
             {
                 "position": 10,
                 "mnemonic": "MP_ANGLE_DE_CORRECTION_AZIMUT_PROJECTEUR_DROIT",
-                "label_index": "22230",
+                "label_index": "@P22230",
                 "label_korean": "우측 방위 조정 각도",
                 "group_id": "70268",
                 "req_frame_id": "211088",
@@ -2377,8 +2377,8 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "9606",
-                "help_korean": "과 도사이의 값-15� 15�"
+                "help_code": "@P9606@\\*-15�@\\*+15�",
+                "help_korean": "과 도사이의 값-15�+15�"
             }
         ]
     }

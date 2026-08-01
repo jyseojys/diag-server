@@ -8,7 +8,7 @@
             {
                 "position": 1,
                 "mnemonic": "ID_NOM_DU_FOURNISSEUR",
-                "label_index": "5701",
+                "label_index": "@P5701",
                 "label_korean": "제조 업체명",
                 "group_id": "151922",
                 "req_frame_id": "456109",
@@ -38,7 +38,7 @@
             {
                 "position": 2,
                 "mnemonic": "ID_REFERENCE_MATERIEL",
-                "label_index": "1071",
+                "label_index": "@P1071",
                 "label_korean": "장치 부품 번호",
                 "group_id": "151922",
                 "req_frame_id": "456109",
@@ -60,7 +60,7 @@
             {
                 "position": 3,
                 "mnemonic": "ID_REFERENCE_COMPLEMENTAIRE_MATERIEL_BSM",
-                "label_index": "1634",
+                "label_index": "@P1634",
                 "label_korean": "장치 추가 참조 번호",
                 "group_id": "151922",
                 "req_frame_id": "456109",
@@ -90,7 +90,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_COMMANDE_COMPRESSEUR_REFRIGERATION",
-                "label_index": "15609",
+                "label_index": "@P15609",
                 "label_korean": "에어컨 컴프레셔 제어",
                 "group_id": "151925",
                 "req_frame_id": "456118",
@@ -109,13 +109,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "28217",
+                "help_code": "@P28217",
                 "help_korean": "엔진 릴레이 장치는 에어컨 컴프레셔의 체결을 제어한다"
             },
             {
                 "position": 2,
                 "mnemonic": "MP_COMMANDE_SORTIE_AUTORISATION_COMPRESSEUR",
-                "label_index": "10093",
+                "label_index": "@P10093",
                 "label_korean": "컴프레셔 승인 출력 제어",
                 "group_id": "151925",
                 "req_frame_id": "456118",
@@ -131,13 +131,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "6394",
+                "help_code": "@P6394",
                 "help_korean": "엔진 릴레이 장치는 에어컨의 켜짐에 관여한다"
             },
             {
                 "position": 3,
                 "mnemonic": "MP_COMMANDE_ALLUMAGE_CTP1_ET_CPT2",
-                "label_index": "14851",
+                "label_index": "@P14851@\\*",
                 "label_korean": "레지스터가 있는 추가 히팅",
                 "group_id": "151925",
                 "req_frame_id": "456118",
@@ -153,13 +153,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "6986",
+                "help_code": "@P6986",
                 "help_korean": "엔진 릴레이 장치는 레지스터가 있는 추가 히팅 장치를 켠다"
             },
             {
                 "position": 4,
                 "mnemonic": "MP_COMMANDE_PULSEUR_CLIMATISATION_PAR_CAN",
-                "label_index": "9113",
+                "label_index": "@P9113",
                 "label_korean": "CAN에 에어 컨디셔닝 블로어 장치 명령",
                 "group_id": "151925",
                 "req_frame_id": "456118",
@@ -175,8 +175,8 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "313, 289, 318, 330, 355, 28187",
-                "help_korean": "엔진\n- 구동 상태에서:\nECU는 에어컨 블로어를 위해 필요한 전원을 제공한다\n에어컨 ECU는 블로어 속도를 제어한다\n0%에서, 에어컨 블로어는 꺼진다\n0%에서 에어컨 블로어는 최대 속도로 작동한다.\n이 변수 측정은 자동 에어컨에서만 작동한다."
+                "help_code": "@P313@\\n@\\+@P289@\\n@\\+@P318@\\n@\\+@P330@\\*0@\\n@\\+@F355@\\*100@T.@\\n@F28187@T.",
+                "help_korean": "엔진 구동 상태에서:\nECU는 에어컨 블로어를 위해 필요한 전원을 제공한다\n에어컨 ECU는 블로어 속도를 제어한다\n0%에서, 에어컨 블로어는 꺼진다\n0%에서 에어컨 블로어는 최대 속도로 작동한다.\n이 변수 측정은 자동 에어컨에서만 작동한다."
             }
         ]
     },
@@ -189,7 +189,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_COMMANDE_COMPRESSEUR_REFRIGERATION",
-                "label_index": "15609",
+                "label_index": "@P15609",
                 "label_korean": "에어컨 컴프레셔 제어",
                 "group_id": "151925",
                 "req_frame_id": "456118",
@@ -208,13 +208,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "28217",
+                "help_code": "@P28217",
                 "help_korean": "엔진 릴레이 장치는 에어컨 컴프레셔의 체결을 제어한다"
             },
             {
                 "position": 2,
                 "mnemonic": "MP_COMMANDE_SORTIE_AUTORISATION_COMPRESSEUR",
-                "label_index": "10093",
+                "label_index": "@P10093",
                 "label_korean": "컴프레셔 승인 출력 제어",
                 "group_id": "151925",
                 "req_frame_id": "456118",
@@ -230,13 +230,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "6394",
+                "help_code": "@P6394",
                 "help_korean": "엔진 릴레이 장치는 에어컨의 켜짐에 관여한다"
             },
             {
                 "position": 3,
                 "mnemonic": "MP_COMMANDE_ALLUMAGE_CTP1_ET_CPT2",
-                "label_index": "14851",
+                "label_index": "@P14851@\\*",
                 "label_korean": "레지스터가 있는 추가 히팅",
                 "group_id": "151925",
                 "req_frame_id": "456118",
@@ -252,13 +252,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "6986",
+                "help_code": "@P6986",
                 "help_korean": "엔진 릴레이 장치는 레지스터가 있는 추가 히팅 장치를 켠다"
             },
             {
                 "position": 4,
                 "mnemonic": "MP_COMMANDE_POMPE_A_EAU_POUR_RTE",
-                "label_index": "26681",
+                "label_index": "@P26681",
                 "label_korean": "실내 히팅을 위해 배기 가스 히팅 회수를 위한 워터 펌프 제어",
                 "group_id": "151924",
                 "req_frame_id": "456115",
@@ -274,13 +274,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "312",
+                "help_code": "@P312",
                 "help_korean": "엔진 릴레이 장치는 실내 히팅을 위해 배기 가스 열 회수를 위한 워터 펌프를 작동하기 위한 이 명령에 관여한다"
             },
             {
                 "position": 5,
                 "mnemonic": "MP_POMPE_AEROTHERME",
-                "label_index": "15162",
+                "label_index": "@P15162",
                 "label_korean": "히터 쿨러 워터 펌프 명령",
                 "group_id": "151924",
                 "req_frame_id": "456115",
@@ -296,13 +296,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "28808",
+                "help_code": "@P28808",
                 "help_korean": "엔진 퓨즈 박스는 히터 코어 냉각수 펌프를 제어하는 역할을 한다"
             },
             {
                 "position": 6,
                 "mnemonic": "MP_COMMANDE_PULSEUR_CLIMATISATION_PAR_CAN",
-                "label_index": "9113",
+                "label_index": "@P9113",
                 "label_korean": "CAN에 에어 컨디셔닝 블로어 장치 명령",
                 "group_id": "151925",
                 "req_frame_id": "456118",
@@ -318,13 +318,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "313, 289, 318, 330, 355, 28187",
-                "help_korean": "엔진\n- 구동 상태에서:\nECU는 에어컨 블로어를 위해 필요한 전원을 제공한다\n에어컨 ECU는 블로어 속도를 제어한다\n0%에서, 에어컨 블로어는 꺼진다\n0%에서 에어컨 블로어는 최대 속도로 작동한다.\n이 변수 측정은 자동 에어컨에서만 작동한다."
+                "help_code": "@P313@\\n@\\+@P289@\\n@\\+@P318@\\n@\\+@P330@\\*0@\\n@\\+@F355@\\*100@T.@\\n@F28187@T.",
+                "help_korean": "엔진 구동 상태에서:\nECU는 에어컨 블로어를 위해 필요한 전원을 제공한다\n에어컨 ECU는 블로어 속도를 제어한다\n0%에서, 에어컨 블로어는 꺼진다\n0%에서 에어컨 블로어는 최대 속도로 작동한다.\n이 변수 측정은 자동 에어컨에서만 작동한다."
             }
         ]
     },
     "MESUREPARAMETRE2": {
-        "screen_title_korean": "정보로만 주행",
+        "screen_title_korean": "정보로만주행",
         "screen_label_index": "@P25891-POLUXDATA@\\+@P2249-POLUXDATA",
         "ecu_name": "BSM_B58_V1",
         "total_sensors": 4,
@@ -332,7 +332,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_INFORMATION_MARCHE_ARRIERE",
-                "label_index": "11845",
+                "label_index": "@P11845@\\*",
                 "label_korean": "후진 기어 정보",
                 "group_id": "151926",
                 "req_frame_id": "456121",
@@ -348,13 +348,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "28243, 45049",
+                "help_code": "@P28243@\\n@\\+@P45049",
                 "help_korean": "수동 변속기에서, 후진 기어 스위치는 엔진 퓨즈 박스에 직접 연결되어 있다\n자동 변속기는, 후진 기어 체결 정보가 멀티플렉스 네트워크에 의해 전송된다"
             },
             {
                 "position": 2,
                 "mnemonic": "MP_BVA_EN_POSITION_PARKING",
-                "label_index": "5338",
+                "label_index": "@P5338@\\*",
                 "label_korean": "주차 위치에서 자동 변속기",
                 "group_id": "151926",
                 "req_frame_id": "456121",
@@ -370,13 +370,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "25766",
+                "help_code": "@P25766",
                 "help_korean": "이 변수는 자동 변속기 셀렉터가 주차 위치인지를 확인하는 데 사용한다"
             },
             {
                 "position": 3,
                 "mnemonic": "MP_POSITION_CLE",
-                "label_index": "6016",
+                "label_index": "@P6016",
                 "label_korean": "점화 키 위치",
                 "group_id": "151936",
                 "req_frame_id": "456151",
@@ -417,7 +417,7 @@
             {
                 "position": 4,
                 "mnemonic": "MP_POSITION_LEVIER_BVA_BVMP_1",
-                "label_index": "8069",
+                "label_index": "@P8069",
                 "label_korean": "엔진 릴레이 장치에 의해 확인된 자동/센소드라이브 변속기 레버 위치",
                 "group_id": "151936",
                 "req_frame_id": "456151",
@@ -433,13 +433,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "7931",
+                "help_code": "@P7931",
                 "help_korean": "이 변수는 브레이크 페달을 밟을 때에만 변한다"
             }
         ]
     },
     "MESUREPARAMETRE21": {
-        "screen_title_korean": "정보로만 주행",
+        "screen_title_korean": "정보로만주행",
         "screen_label_index": "@P25891-POLUXDATA@\\+@P2249-POLUXDATA",
         "ecu_name": "BSM_B58_V1",
         "total_sensors": 3,
@@ -447,7 +447,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_INFORMATION_MARCHE_ARRIERE",
-                "label_index": "11845",
+                "label_index": "@P11845@\\*",
                 "label_korean": "후진 기어 정보",
                 "group_id": "151926",
                 "req_frame_id": "456121",
@@ -463,13 +463,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "28243, 45049",
+                "help_code": "@P28243@\\n@\\+@P45049",
                 "help_korean": "수동 변속기에서, 후진 기어 스위치는 엔진 퓨즈 박스에 직접 연결되어 있다\n자동 변속기는, 후진 기어 체결 정보가 멀티플렉스 네트워크에 의해 전송된다"
             },
             {
                 "position": 2,
                 "mnemonic": "MP_POSITION_CLE",
-                "label_index": "6016",
+                "label_index": "@P6016",
                 "label_korean": "점화 키 위치",
                 "group_id": "151936",
                 "req_frame_id": "456151",
@@ -510,7 +510,7 @@
             {
                 "position": 3,
                 "mnemonic": "MP_POSITION_LEVIER_BVA_BVMP_1",
-                "label_index": "8069",
+                "label_index": "@P8069",
                 "label_korean": "엔진 릴레이 장치에 의해 확인된 자동/센소드라이브 변속기 레버 위치",
                 "group_id": "151936",
                 "req_frame_id": "456151",
@@ -526,7 +526,7 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "7931",
+                "help_code": "@P7931",
                 "help_korean": "이 변수는 브레이크 페달을 밟을 때에만 변한다"
             }
         ]
@@ -540,7 +540,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_COMMANDE_FEUX_DE_BROUILLARD_AVANT_13",
-                "label_index": "6891",
+                "label_index": "@P6891@\\*",
                 "label_korean": "프론트 안개등 점등 제어",
                 "group_id": "151927",
                 "req_frame_id": "456124",
@@ -556,13 +556,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "45136, 28812",
-                "help_korean": "엔진 퓨즈 박스는 프론트 안개등 점등을 제어한다\n- 참고 : 안개등을 점등하기 위해서 반드시 전조등 하향 헤드램프를 켜야 한다."
+                "help_code": "@P45136@\\*@\\n@\\+@P28812@T.",
+                "help_korean": "엔진 퓨즈 박스는 프론트 안개등 점등을 제어한다\n참고 : 안개등을 점등하기 위해서 반드시 전조등 하향 헤드램프를 켜야 한다."
             },
             {
                 "position": 2,
                 "mnemonic": "MP_CDE_CLIGNO_DRT_15_1",
-                "label_index": "8722",
+                "label_index": "@P8722@\\*@\\*",
                 "label_korean": "차량 및 트레일러 우측 방향지시등 점등 제어",
                 "group_id": "151927",
                 "req_frame_id": "456124",
@@ -578,13 +578,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "45025, 28174, 28216",
+                "help_code": "@P45025@\\*@T.@\\n@P28174@\\*@T.@\\n@P28216@T.",
                 "help_korean": "엔진 릴레이 장치는 인디케이터 점등을 제어한다.\nBSI는 리어 좌측 방향지시등의 점등을 제어한다.\n트레일러 릴레이 장치는 트레일러가 차량에 연결되었을 때 트레일러의 리어 우측 방향지시등 점등을 제어한다."
             },
             {
                 "position": 3,
                 "mnemonic": "MP_CDE_CLIGNO_GH_16_1",
-                "label_index": "3160",
+                "label_index": "@P3160@\\*",
                 "label_korean": "차량 및 트레일러 좌측 방향지시등 점등 제어",
                 "group_id": "151927",
                 "req_frame_id": "456124",
@@ -600,13 +600,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "45026, 28189, 28213",
+                "help_code": "@P45026@\\*@T.@\\n@\\+@P28189@T.@\\n@\\+@P28213@T.",
                 "help_korean": "엔진 릴레이 장치는 LH 인디케이터 점등을 제어한다.\nBSI는 리어 좌측 방향 지시등의 점등을 제어한다.\n트레일러 릴레이 장치는 트레일러가 차량에 연결되었을 때 트레일러의 리어 좌측 방향지시등 점등을 제어한다."
             },
             {
                 "position": 4,
                 "mnemonic": "MP_COMMANDE_AVERTISSEUR_SONORE",
-                "label_index": "8227",
+                "label_index": "@P8227",
                 "label_korean": "혼 제어",
                 "group_id": "151927",
                 "req_frame_id": "456124",
@@ -625,13 +625,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "40674",
+                "help_code": "@P40674",
                 "help_korean": "엔진 퓨즈 박스는 혼을 제어한다"
             },
             {
                 "position": 5,
                 "mnemonic": "MP_COMMANDE_FEUX_DE_CROISEMENT_20_1",
-                "label_index": "15263",
+                "label_index": "@P15263@\\*",
                 "label_korean": "전조등 하향 점등 제어",
                 "group_id": "151927",
                 "req_frame_id": "456124",
@@ -647,13 +647,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "42151",
+                "help_code": "@P42151@\\*",
                 "help_korean": "엔진 릴레이 장치는 헤드램프의 와셔를 제어한다"
             },
             {
                 "position": 6,
                 "mnemonic": "MP_COMMANDE_ECLAIRAGE_FEUX_DE_ROUTE_1",
-                "label_index": "7053",
+                "label_index": "@P7053@\\*",
                 "label_korean": "메인 빔 점등 제어",
                 "group_id": "151927",
                 "req_frame_id": "456124",
@@ -669,13 +669,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "40675",
+                "help_code": "@P40675",
                 "help_korean": "엔진 퓨즈 박스는 전조등 상향을 제어한다"
             },
             {
                 "position": 7,
                 "mnemonic": "MP_COMMANDE_LANTERNES_DROITES_55_1",
-                "label_index": "15907",
+                "label_index": "@P15907@\\*",
                 "label_korean": "차량 및 트레일러 우측 미등 점등 제어",
                 "group_id": "151927",
                 "req_frame_id": "456124",
@@ -691,13 +691,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "28245, 28204, 28781",
+                "help_code": "@P28245@T.@\\n@\\+@P28204@T.@\\n@\\+@F28781@T.",
                 "help_korean": "엔진 퓨즈 박스는 프론트 우측 미등 점등을 제어한다.\nBSI는 리어 우측 방향 지시등의 점등을 제어한다.\n트레일러 퓨즈 박스는 트레일러 리어 우측 미등의 점등을 제어한다."
             },
             {
                 "position": 8,
                 "mnemonic": "MP_COMMANDE_LANTERNES_GAUCHES_56_1",
-                "label_index": "16346",
+                "label_index": "@P16346@\\*",
                 "label_korean": "차량 및 트레일러 좌측 미등 점등 제어",
                 "group_id": "151927",
                 "req_frame_id": "456124",
@@ -713,7 +713,7 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "28180, 28225, 28767",
+                "help_code": "@P28180@T.@\\n@\\+@P28225@T.@\\n@\\+@\\+@F28767@T.",
                 "help_korean": "엔진 릴레이 장치는 프론트 좌측 미등의 점등을 제어한다.\nBSI는 리어 좌측 미등의 점등을 제어한다.\n트레일러 퓨즈 박스는 트레일러 리어 좌측 미등의 점등을 제어한다."
             }
         ]
@@ -727,7 +727,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_ALERTE_NIVEAU_EAU_MOTEUR",
-                "label_index": "11367",
+                "label_index": "@P11367",
                 "label_korean": "엔진 냉각수 레벨 경고",
                 "group_id": "151931",
                 "req_frame_id": "456136",
@@ -743,13 +743,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "8874, 42975",
+                "help_code": "@P8874@\\n@\\+@P42975",
                 "help_korean": "차량 장치에 따라 작동하는 변수\n이 정보는 엔진 퓨즈 박스에 의해서 얻어진다"
             },
             {
                 "position": 2,
                 "mnemonic": "MP_NIVEAU_HUILE_MOTEUR_MESURE",
-                "label_index": "1701",
+                "label_index": "@P1701",
                 "label_korean": "측정된 오일 레벨",
                 "group_id": "151931",
                 "req_frame_id": "456136",
@@ -774,13 +774,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "42974, 42975",
+                "help_code": "@P42974@\\n@\\+@P42975",
                 "help_korean": "오일 레벨은 키를 ON할 때 측정된다\n이 정보는 엔진 퓨즈 박스에 의해서 얻어진다"
             },
             {
                 "position": 3,
                 "mnemonic": "MP_TEMPERATURE_HUILE_MOTEUR",
-                "label_index": "4658",
+                "label_index": "@P4658",
                 "label_korean": "오일 온도",
                 "group_id": "151931",
                 "req_frame_id": "456136",
@@ -799,13 +799,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "42976, 42975",
+                "help_code": "@P42976@\\n@\\+@P42975",
                 "help_korean": "이 변수를 변경하기위해서, 엔진을 구동한다\n이 정보는 엔진 퓨즈 박스에 의해서 얻어진다"
             },
             {
                 "position": 4,
                 "mnemonic": "MP_ALERTE_PRESSION_HUILE_MOTEUR_a",
-                "label_index": "20269",
+                "label_index": "@P20269",
                 "label_korean": "오일 압력 경고",
                 "group_id": "151931",
                 "req_frame_id": "456136",
@@ -835,7 +835,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_COMMANDE_ESSUYAGE_PARE_BRISE",
-                "label_index": "4685",
+                "label_index": "@P4685",
                 "label_korean": "윈드스크린 와이퍼 제어",
                 "group_id": "151935",
                 "req_frame_id": "456148",
@@ -867,13 +867,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "14755",
+                "help_code": "@P14755@\\*",
                 "help_korean": "은 엔진 릴레이 장치가 제어에 관여했다는 것을 의미한다"
             },
             {
                 "position": 2,
                 "mnemonic": "MP_COMMANDE_LAVAGE_LUNETTE_ARRIERE",
-                "label_index": "13060",
+                "label_index": "@P13060",
                 "label_korean": "리어 스크린 와셔 작동 제어",
                 "group_id": "151935",
                 "req_frame_id": "456148",
@@ -892,13 +892,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "28182, 28226, 28205",
-                "help_korean": "엔진 릴레이 장치는 BSI로 부터 명령이 있으면 전기적으로 와셔 펌프를 제어한다.\n단 하나의 워셔 펌프만 스크린 와셔 목적으로 사용된다.\n이 펌프는 윈드스크린 와셔를 작동하기 위해서 전압이 제공된다."
+                "help_code": "@P28182@T.@\\n@\\+@P28226@T.@\\n@\\+@P28205@T.",
+                "help_korean": "엔진 릴레이 장치는 BSI로 부터 명령이 있으면 전기적으로 와셔 펌프를 제어한다.\n단 하나의 워셔 펌프만 스크린 와셔 목적으로 사용된다.\n이 펌프는 윈드스크린 와셔를 작동하기 위해서 + 전압이 제공된다."
             },
             {
                 "position": 3,
                 "mnemonic": "MP_COMMANDE_LAVAGE_PARE_BRISE",
-                "label_index": "3116",
+                "label_index": "@P3116@\\*",
                 "label_korean": "윈드스크린 와셔 작동 제어",
                 "group_id": "151935",
                 "req_frame_id": "456148",
@@ -919,13 +919,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "28182, 28226, 26601",
+                "help_code": "@P28182@T.@\\n@\\+@P28226@T.@\\n@\\+@\\+@P26601@T.",
                 "help_korean": "엔진 릴레이 장치는 BSI로 부터 명령이 있으면 전기적으로 와셔 펌프를 제어한다.\n단 하나의 워셔 펌프만 스크린 와셔 목적으로 사용된다.\n이 펌프는 윈드스크린 와셔 작동을 위해 - 전압이 제공된다."
             },
             {
                 "position": 4,
                 "mnemonic": "MP_COMMANDE_LAVAGE_PROJECTEUR",
-                "label_index": "28739",
+                "label_index": "@P28739",
                 "label_korean": "헤드램프 와셔 제어 또는 엔진 구동 출력",
                 "group_id": "151935",
                 "req_frame_id": "456148",
@@ -941,13 +941,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "42151",
+                "help_code": "@P42151@\\*@T.",
                 "help_korean": "엔진 릴레이 장치는 헤드램프의 와셔를 제어한다."
             },
             {
                 "position": 5,
                 "mnemonic": "MP_INFORMATION_ARRET_FIXE_ESSUIE_VITRE_AVANT",
-                "label_index": "16164",
+                "label_index": "@P16164",
                 "label_korean": "프론트 윈드스크린 와이퍼 파크 정보",
                 "group_id": "151935",
                 "req_frame_id": "456148",
@@ -980,7 +980,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_COMMANDE_ESSUYAGE_PARE_BRISE_EV_LIN",
-                "label_index": "315",
+                "label_index": "@P315",
                 "label_korean": "윈드스크린 와이퍼 명령 (LIN 네트워크에 의해)",
                 "group_id": "151935",
                 "req_frame_id": "456148",
@@ -1003,13 +1003,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "18317, 45123",
+                "help_code": "@P18317@T.@\\n@F45123",
                 "help_korean": "CV00로부터 요청에 따라 와이퍼 모터에 보내지는 BSI 명령.\nLIN 윈드스크린 와이퍼가 장착된 차량에서만 장동함"
             },
             {
                 "position": 2,
                 "mnemonic": "MP_COMMANDE_LAVAGE_LUNETTE_ARRIERE",
-                "label_index": "13060",
+                "label_index": "@P13060",
                 "label_korean": "리어 스크린 와셔 작동 제어",
                 "group_id": "151935",
                 "req_frame_id": "456148",
@@ -1028,13 +1028,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "28182, 28226, 28205",
-                "help_korean": "엔진 릴레이 장치는 BSI로 부터 명령이 있으면 전기적으로 와셔 펌프를 제어한다.\n단 하나의 워셔 펌프만 스크린 와셔 목적으로 사용된다.\n이 펌프는 윈드스크린 와셔를 작동하기 위해서 전압이 제공된다."
+                "help_code": "@P28182@T.@\\n@\\+@P28226@T.@\\n@\\+@P28205@T.",
+                "help_korean": "엔진 릴레이 장치는 BSI로 부터 명령이 있으면 전기적으로 와셔 펌프를 제어한다.\n단 하나의 워셔 펌프만 스크린 와셔 목적으로 사용된다.\n이 펌프는 윈드스크린 와셔를 작동하기 위해서 + 전압이 제공된다."
             },
             {
                 "position": 3,
                 "mnemonic": "MP_COMMANDE_LAVAGE_PARE_BRISE",
-                "label_index": "3116",
+                "label_index": "@P3116@\\*",
                 "label_korean": "윈드스크린 와셔 작동 제어",
                 "group_id": "151935",
                 "req_frame_id": "456148",
@@ -1055,13 +1055,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "28182, 28226, 26601",
+                "help_code": "@P28182@T.@\\n@\\+@P28226@T.@\\n@\\+@\\+@P26601@T.",
                 "help_korean": "엔진 릴레이 장치는 BSI로 부터 명령이 있으면 전기적으로 와셔 펌프를 제어한다.\n단 하나의 워셔 펌프만 스크린 와셔 목적으로 사용된다.\n이 펌프는 윈드스크린 와셔 작동을 위해 - 전압이 제공된다."
             },
             {
                 "position": 4,
                 "mnemonic": "MP_COMMANDE_LAVAGE_PROJECTEUR",
-                "label_index": "28739",
+                "label_index": "@P28739",
                 "label_korean": "헤드램프 와셔 제어 또는 엔진 구동 출력",
                 "group_id": "151935",
                 "req_frame_id": "456148",
@@ -1077,13 +1077,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "42151",
+                "help_code": "@P42151@\\*@T.",
                 "help_korean": "엔진 릴레이 장치는 헤드램프의 와셔를 제어한다."
             },
             {
                 "position": 5,
                 "mnemonic": "MP_INFORMATION_ARRET_FIXE_ESSUIE_VITRE_AVANT",
-                "label_index": "16164",
+                "label_index": "@P16164",
                 "label_korean": "프론트 윈드스크린 와이퍼 파크 정보",
                 "group_id": "151935",
                 "req_frame_id": "456148",

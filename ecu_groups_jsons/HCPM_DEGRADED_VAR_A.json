@@ -8,7 +8,7 @@
             {
                 "position": 1,
                 "mnemonic": "CFG_MCA21_TYPE_DIRECTION",
-                "label_index": "23130",
+                "label_index": "@P23130",
                 "label_korean": "차량 주행 타입",
                 "group_id": "7079",
                 "req_frame_id": "21239",
@@ -33,7 +33,7 @@
             {
                 "position": 2,
                 "mnemonic": "CFG_MCA21_TYPE_CLIMATISATION",
-                "label_index": "13225",
+                "label_index": "@P13225",
                 "label_korean": "에어컨 타입",
                 "group_id": "7079",
                 "req_frame_id": "21239",
@@ -59,7 +59,7 @@
             {
                 "position": 3,
                 "mnemonic": "CFG_MCA21_DEF_STRATEGY",
-                "label_index": "62605",
+                "label_index": "@P62605",
                 "label_korean": "윈드스크린 성에 제거",
                 "group_id": "7079",
                 "req_frame_id": "21239",
@@ -84,7 +84,7 @@
             {
                 "position": 4,
                 "mnemonic": "CFG_MCA21_RRM_VP_LEVEL",
-                "label_index": "34702",
+                "label_index": "@P34702",
                 "label_korean": "라디오 수신 레벨",
                 "group_id": "7079",
                 "req_frame_id": "21239",
@@ -114,7 +114,7 @@
             {
                 "position": 5,
                 "mnemonic": "CFG_MCA21_ZONE_CLIM",
-                "label_index": "424",
+                "label_index": "@P424",
                 "label_korean": "에어 컨디셔닝",
                 "group_id": "7079",
                 "req_frame_id": "21239",
@@ -141,7 +141,7 @@
             {
                 "position": 6,
                 "mnemonic": "CFG_MCA21_CLIMATE_TYPE",
-                "label_index": "62618",
+                "label_index": "@P62618",
                 "label_korean": "에어컨 제어 패널 타입",
                 "group_id": "7079",
                 "req_frame_id": "21239",
@@ -180,7 +180,7 @@
             {
                 "position": 1,
                 "mnemonic": "ID_CODE_ISO",
-                "label_index": "13988",
+                "label_index": "@P13988",
                 "label_korean": "ISO 번호",
                 "group_id": "7064",
                 "req_frame_id": "21194",
@@ -202,7 +202,7 @@
             {
                 "position": 2,
                 "mnemonic": "ID_REFERENCE_MATERIEL",
-                "label_index": "1071",
+                "label_index": "@P1071",
                 "label_korean": "장치 부품 번호",
                 "group_id": "7064",
                 "req_frame_id": "21194",
@@ -224,7 +224,7 @@
             {
                 "position": 3,
                 "mnemonic": "ID_HARD",
-                "label_index": "12954",
+                "label_index": "@P12954",
                 "label_korean": "하드웨어 버전",
                 "group_id": "7064",
                 "req_frame_id": "21194",
@@ -246,7 +246,7 @@
             {
                 "position": 4,
                 "mnemonic": "ID_REFERENCE_LOGICIEL",
-                "label_index": "13263",
+                "label_index": "@P13263",
                 "label_korean": "소프트웨어 번호",
                 "group_id": "7064",
                 "req_frame_id": "21194",
@@ -268,7 +268,7 @@
             {
                 "position": 5,
                 "mnemonic": "ID_TRACABILITE_INDICE_EVOLUTION_EDITION",
-                "label_index": "24601",
+                "label_index": "@P24601",
                 "label_korean": "소프트웨어 버전",
                 "group_id": "7064",
                 "req_frame_id": "21194",
@@ -290,7 +290,7 @@
             {
                 "position": 6,
                 "mnemonic": "ID_DATE_TELECH",
-                "label_index": "21670",
+                "label_index": "@P21670",
                 "label_korean": "다운로딩 날짜",
                 "group_id": "7065",
                 "req_frame_id": "21197",
@@ -320,7 +320,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_KILOMETRAGE_ODOMETRE",
-                "label_index": "61286",
+                "label_index": "@P61286",
                 "label_korean": "원래 VIN이 마지막으로 잠금 해제된 이후 주행한 거리(km)",
                 "group_id": "7071",
                 "req_frame_id": "21215",
@@ -336,13 +336,13 @@
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
-                "help_code": "61287, 61288",
+                "help_code": "@P61287@\\*255@\\n@P61288@\\*5",
                 "help_korean": "최대 값은 255km이다\n원래 VIN은 255km 거리가 지나면 자동으로 잠긴다"
             },
             {
                 "position": 2,
                 "mnemonic": "MP_VIN_ODOMETRE",
-                "label_index": "61284",
+                "label_index": "@P61284",
                 "label_korean": "주행 기록계를 기준으로 원래 VIN의 잠금 상태",
                 "group_id": "7071",
                 "req_frame_id": "21215",
@@ -367,7 +367,7 @@
             {
                 "position": 3,
                 "mnemonic": "MP_TENSION_ALIMENTATION",
-                "label_index": "3663",
+                "label_index": "@P3663",
                 "label_korean": "ECU 공급 전압",
                 "group_id": "7077",
                 "req_frame_id": "21233",
@@ -389,7 +389,7 @@
             {
                 "position": 4,
                 "mnemonic": "MP_TENSION_BATTERIE",
-                "label_index": "60977",
+                "label_index": "@P60977",
                 "label_korean": "배터리 전압",
                 "group_id": "7076",
                 "req_frame_id": "21230",
@@ -413,8 +413,8 @@
             {
                 "position": 5,
                 "mnemonic": "MP_LUMINOSITE_SYMBOLS",
-                "label_index": "64552",
-                "label_korean": "[미번역_P64552]",
+                "label_index": "@P64552",
+                "label_korean": "64552",
                 "group_id": "7078",
                 "req_frame_id": "21236",
                 "resp_frame_id": "21237",
@@ -435,7 +435,7 @@
             {
                 "position": 6,
                 "mnemonic": "MP_LUMINOSITE_BOUTON_TEMPERATURE_UP",
-                "label_index": "61369",
+                "label_index": "@P61369",
                 "label_korean": "실내 온도 증가 스위치의 백라이트 비율",
                 "group_id": "7078",
                 "req_frame_id": "21236",
@@ -457,7 +457,7 @@
             {
                 "position": 7,
                 "mnemonic": "MP_LUMINOSITE_BOUTON_TEMPERATURE_DOWN",
-                "label_index": "61371",
+                "label_index": "@P61371",
                 "label_korean": "실내 온도 감소 스위치의 백라이트 비율",
                 "group_id": "7078",
                 "req_frame_id": "21236",
@@ -479,7 +479,7 @@
             {
                 "position": 8,
                 "mnemonic": "MP_LUMINOSITE_BOUTON_BLOWER_UP",
-                "label_index": "61368",
+                "label_index": "@P61368",
                 "label_korean": "에어 블로어 저속 컨트롤 스위치의 백라이트 비율",
                 "group_id": "7078",
                 "req_frame_id": "21236",
@@ -501,7 +501,7 @@
             {
                 "position": 9,
                 "mnemonic": "MP_LUMINOSITE_BOUTON_BLOWER_DOWN",
-                "label_index": "61367",
+                "label_index": "@P61367",
                 "label_korean": "에어 블로어 고속 컨트롤 스위치의 백라이트 비율",
                 "group_id": "7078",
                 "req_frame_id": "21236",
@@ -523,8 +523,8 @@
             {
                 "position": 10,
                 "mnemonic": "MP_LUMINOSITE_LEDS",
-                "label_index": "64553",
-                "label_korean": "[미번역_P64553]",
+                "label_index": "@P64553",
+                "label_korean": "64553",
                 "group_id": "7078",
                 "req_frame_id": "21236",
                 "resp_frame_id": "21237",
@@ -545,7 +545,7 @@
             {
                 "position": 11,
                 "mnemonic": "MP_NIVEAU_LUMINOSITE",
-                "label_index": "12088",
+                "label_index": "@P12088",
                 "label_korean": "외부 라이팅 레벨",
                 "group_id": "7078",
                 "req_frame_id": "21236",
@@ -567,7 +567,7 @@
             {
                 "position": 12,
                 "mnemonic": "MP_NIVEAU_RETROECLAIRAGE",
-                "label_index": "61362",
+                "label_index": "@P61362",
                 "label_korean": "백-라이트 레벨",
                 "group_id": "7078",
                 "req_frame_id": "21236",
@@ -589,7 +589,7 @@
             {
                 "position": 13,
                 "mnemonic": "MP_KILOMETRAGE_TOTAL",
-                "label_index": "13763",
+                "label_index": "@P13763",
                 "label_korean": "주행한 총 거리",
                 "group_id": "7069",
                 "req_frame_id": "21209",
@@ -611,7 +611,7 @@
             {
                 "position": 14,
                 "mnemonic": "MP_ETAT_VIN",
-                "label_index": "61282",
+                "label_index": "@P61282",
                 "label_korean": "원래 VIN 잠금 상태",
                 "group_id": "7073",
                 "req_frame_id": "21221",
@@ -637,7 +637,7 @@
             {
                 "position": 15,
                 "mnemonic": "MP_ETAT_CLE_HCPM",
-                "label_index": "61372",
+                "label_index": "@P61372@\\*(HCPM)",
                 "label_korean": "에어컨 컨트롤 패널에서 점화 스위치 ON 상태 전송(HCPM)",
                 "group_id": "7075",
                 "req_frame_id": "21227",
@@ -673,8 +673,8 @@
             {
                 "position": 1,
                 "mnemonic": "MP_UP_TEMPERATURE",
-                "label_index": "61364",
-                "label_korean": "temperature selection",
+                "label_index": "@P61364",
+                "label_korean": "temperature selection +",
                 "group_id": "7066",
                 "req_frame_id": "21200",
                 "resp_frame_id": "21201",
@@ -698,7 +698,7 @@
             {
                 "position": 2,
                 "mnemonic": "MP_DOWN_TEMPERATURE",
-                "label_index": "61352",
+                "label_index": "@P61352",
                 "label_korean": "temperature selection -",
                 "group_id": "7066",
                 "req_frame_id": "21200",
@@ -723,7 +723,7 @@
             {
                 "position": 3,
                 "mnemonic": "MP_TOUCHE_AC",
-                "label_index": "61353",
+                "label_index": "@P61353@\\*AC",
                 "label_korean": "AC버튼",
                 "group_id": "7066",
                 "req_frame_id": "21200",
@@ -748,7 +748,7 @@
             {
                 "position": 4,
                 "mnemonic": "MP_TOUCHE_MAX_AC",
-                "label_index": "61353",
+                "label_index": "@P61353@\\*MAX AC",
                 "label_korean": "MAX버튼 AC",
                 "group_id": "7066",
                 "req_frame_id": "21200",
@@ -773,7 +773,7 @@
             {
                 "position": 5,
                 "mnemonic": "MP_TOUCHE_RECIRCULATION_AIR",
-                "label_index": "37898",
+                "label_index": "@P37898",
                 "label_korean": "공기 재순환 버튼",
                 "group_id": "7066",
                 "req_frame_id": "21200",
@@ -798,7 +798,7 @@
             {
                 "position": 6,
                 "mnemonic": "MP_BOUTON_VITESSE_PULSEUR_HAUTE",
-                "label_index": "61370",
+                "label_index": "@P61370",
                 "label_korean": "에어 블로어 고속 컨트롤 스위치의 상태",
                 "group_id": "7066",
                 "req_frame_id": "21200",
@@ -823,7 +823,7 @@
             {
                 "position": 7,
                 "mnemonic": "MP_BOUTON_VITESSE_PULSEUR_BASSE",
-                "label_index": "61366",
+                "label_index": "@P61366",
                 "label_korean": "에어 블로어 저속 컨트롤 스위치의 상태",
                 "group_id": "7066",
                 "req_frame_id": "21200",
@@ -848,7 +848,7 @@
             {
                 "position": 8,
                 "mnemonic": "MP_BOUTON_OFF",
-                "label_index": "61361",
+                "label_index": "@P61361",
                 "label_korean": "버튼 꺼짐",
                 "group_id": "7066",
                 "req_frame_id": "21200",
@@ -873,7 +873,7 @@
             {
                 "position": 9,
                 "mnemonic": "MP_BOUTON_AUTO",
-                "label_index": "8468",
+                "label_index": "@P8468@\\*AUTO",
                 "label_korean": "AUTO버튼",
                 "group_id": "7066",
                 "req_frame_id": "21200",
@@ -898,7 +898,7 @@
             {
                 "position": 10,
                 "mnemonic": "MP_BOUTON_MODE",
-                "label_index": "7448",
+                "label_index": "@P7448",
                 "label_korean": "오프셋 제어의 모드 버튼",
                 "group_id": "7066",
                 "req_frame_id": "21200",
@@ -923,7 +923,7 @@
             {
                 "position": 11,
                 "mnemonic": "MP_BOUTON_MAX_DEFROST",
-                "label_index": "61355",
+                "label_index": "@P61355",
                 "label_korean": "성에 제거 버튼",
                 "group_id": "7066",
                 "req_frame_id": "21200",
@@ -948,7 +948,7 @@
             {
                 "position": 12,
                 "mnemonic": "MP_TEMOIN_AC",
-                "label_index": "61365",
+                "label_index": "@P61365",
                 "label_korean": "air con. warning lamp",
                 "group_id": "7070",
                 "req_frame_id": "21212",
@@ -973,7 +973,7 @@
             {
                 "position": 13,
                 "mnemonic": "MP_TEMOIN_MAX_DEFROST",
-                "label_index": "5160",
+                "label_index": "@P5160@\\*MAX",
                 "label_korean": "서리제거 표시등MAX",
                 "group_id": "7070",
                 "req_frame_id": "21212",
@@ -998,7 +998,7 @@
             {
                 "position": 14,
                 "mnemonic": "MP_TEMOIN_RECIRCULATION_AIR",
-                "label_index": "23581",
+                "label_index": "@P23581",
                 "label_korean": "공기 재순환 표시등",
                 "group_id": "7070",
                 "req_frame_id": "21212",
@@ -1023,7 +1023,7 @@
             {
                 "position": 15,
                 "mnemonic": "MP_TEMOIN_MAX_AC",
-                "label_index": "55966",
+                "label_index": "@P55966@\\*MAX AC",
                 "label_korean": "MAX 표시등 AC",
                 "group_id": "7070",
                 "req_frame_id": "21212",
@@ -1048,7 +1048,7 @@
             {
                 "position": 16,
                 "mnemonic": "MP_TEMOIN_AUTO",
-                "label_index": "55966",
+                "label_index": "@P55966@\\*AUTO",
                 "label_korean": "AUTO 표시등",
                 "group_id": "7070",
                 "req_frame_id": "21212",
@@ -1081,7 +1081,7 @@
             {
                 "position": 1,
                 "mnemonic": "CA_ETAT_CLE_HCPM",
-                "label_index": "61372",
+                "label_index": "@P61372@\\*(HCPM)",
                 "label_korean": "에어컨 컨트롤 패널에서 점화 스위치 ON 상태 전송(HCPM)",
                 "group_id": "7081",
                 "req_frame_id": "21245",
@@ -1103,7 +1103,7 @@
             {
                 "position": 2,
                 "mnemonic": "CA_TENSION_ALIMENTATION",
-                "label_index": "3663",
+                "label_index": "@P3663",
                 "label_korean": "ECU 공급 전압",
                 "group_id": "7081",
                 "req_frame_id": "21245",
@@ -1125,7 +1125,7 @@
             {
                 "position": 3,
                 "mnemonic": "CA_TENSION_BATTERIE",
-                "label_index": "60977",
+                "label_index": "@P60977",
                 "label_korean": "배터리 전압",
                 "group_id": "7081",
                 "req_frame_id": "21245",
@@ -1147,8 +1147,8 @@
             {
                 "position": 4,
                 "mnemonic": "CA_UP_TEMPERATURE",
-                "label_index": "61364",
-                "label_korean": "temperature selection",
+                "label_index": "@P61364",
+                "label_korean": "temperature selection +",
                 "group_id": "7081",
                 "req_frame_id": "21245",
                 "resp_frame_id": "21246",
@@ -1169,7 +1169,7 @@
             {
                 "position": 5,
                 "mnemonic": "CA_DOWN_TEMPERATURE",
-                "label_index": "61352",
+                "label_index": "@P61352",
                 "label_korean": "temperature selection -",
                 "group_id": "7081",
                 "req_frame_id": "21245",
@@ -1191,7 +1191,7 @@
             {
                 "position": 6,
                 "mnemonic": "CA_TOUCHE_AC",
-                "label_index": "61353",
+                "label_index": "@P61353@\\*AC",
                 "label_korean": "AC버튼",
                 "group_id": "7081",
                 "req_frame_id": "21245",
@@ -1213,7 +1213,7 @@
             {
                 "position": 7,
                 "mnemonic": "CA_TOUCHE_MAX_AC",
-                "label_index": "61353",
+                "label_index": "@P61353@\\*MAX AC",
                 "label_korean": "MAX버튼 AC",
                 "group_id": "7081",
                 "req_frame_id": "21245",
@@ -1235,7 +1235,7 @@
             {
                 "position": 8,
                 "mnemonic": "CA_TOUCHE_RECIRCULATION_AIR",
-                "label_index": "37898",
+                "label_index": "@P37898",
                 "label_korean": "공기 재순환 버튼",
                 "group_id": "7081",
                 "req_frame_id": "21245",
@@ -1257,7 +1257,7 @@
             {
                 "position": 9,
                 "mnemonic": "CA_BOUTON_VITESSE_PULSEUR_HAUTE",
-                "label_index": "61370",
+                "label_index": "@P61370",
                 "label_korean": "에어 블로어 고속 컨트롤 스위치의 상태",
                 "group_id": "7081",
                 "req_frame_id": "21245",
@@ -1279,7 +1279,7 @@
             {
                 "position": 10,
                 "mnemonic": "CA_BOUTON_VITESSE_PULSEUR_BASSE",
-                "label_index": "61366",
+                "label_index": "@P61366",
                 "label_korean": "에어 블로어 저속 컨트롤 스위치의 상태",
                 "group_id": "7081",
                 "req_frame_id": "21245",
@@ -1301,7 +1301,7 @@
             {
                 "position": 11,
                 "mnemonic": "CA_BOUTON_OFF",
-                "label_index": "61361",
+                "label_index": "@P61361",
                 "label_korean": "버튼 꺼짐",
                 "group_id": "7081",
                 "req_frame_id": "21245",
@@ -1323,7 +1323,7 @@
             {
                 "position": 12,
                 "mnemonic": "CA_BOUTON_AUTO",
-                "label_index": "8468",
+                "label_index": "@P8468@\\*AUTO",
                 "label_korean": "AUTO버튼",
                 "group_id": "7081",
                 "req_frame_id": "21245",
@@ -1345,7 +1345,7 @@
             {
                 "position": 13,
                 "mnemonic": "CA_BOUTON_MODE",
-                "label_index": "7448",
+                "label_index": "@P7448",
                 "label_korean": "오프셋 제어의 모드 버튼",
                 "group_id": "7081",
                 "req_frame_id": "21245",
@@ -1367,7 +1367,7 @@
             {
                 "position": 14,
                 "mnemonic": "CA_BOUTON_MAX_DEFROST",
-                "label_index": "61355",
+                "label_index": "@P61355",
                 "label_korean": "성에 제거 버튼",
                 "group_id": "7081",
                 "req_frame_id": "21245",

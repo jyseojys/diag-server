@@ -8,7 +8,7 @@
             {
                 "position": 1,
                 "mnemonic": "ID_NOM_DU_FOURNISSEUR",
-                "label_index": "5701",
+                "label_index": "@P5701",
                 "label_korean": "제조 업체명",
                 "group_id": "85007",
                 "req_frame_id": "255322",
@@ -38,7 +38,7 @@
             {
                 "position": 2,
                 "mnemonic": "ID_REFERENCE_MATERIEL",
-                "label_index": "1071",
+                "label_index": "@P1071",
                 "label_korean": "장치 부품 번호",
                 "group_id": "85007",
                 "req_frame_id": "255322",
@@ -60,7 +60,7 @@
             {
                 "position": 3,
                 "mnemonic": "ID_REFERENCE_COMPLEMENTAIRE_MATERIEL",
-                "label_index": "1634",
+                "label_index": "@P1634",
                 "label_korean": "장치 추가 참조 번호",
                 "group_id": "85007",
                 "req_frame_id": "255322",
@@ -82,7 +82,7 @@
             {
                 "position": 4,
                 "mnemonic": "ID_TRACABILITE_INDICE_EVOLUTION_EDITION",
-                "label_index": "24601",
+                "label_index": "@P24601",
                 "label_korean": "소프트웨어 버전",
                 "group_id": "85007",
                 "req_frame_id": "255322",
@@ -104,7 +104,7 @@
             {
                 "position": 5,
                 "mnemonic": "ID_MESS_DIAGNOSTIC",
-                "label_index": "2459",
+                "label_index": "@P2459",
                 "label_korean": "진단 이메일",
                 "group_id": "85007",
                 "req_frame_id": "255322",
@@ -126,7 +126,7 @@
             {
                 "position": 6,
                 "mnemonic": "ID_80_MP_INDICE_MESS",
-                "label_index": "2225",
+                "label_index": "@P2225",
                 "label_korean": "메시지 인덱스",
                 "group_id": "85007",
                 "req_frame_id": "255322",
@@ -148,7 +148,7 @@
             {
                 "position": 7,
                 "mnemonic": "ID_TRACABILITE_DATE_FABRICATION",
-                "label_index": "14355",
+                "label_index": "@P14355",
                 "label_korean": "제조일자",
                 "group_id": "85008",
                 "req_frame_id": "255325",
@@ -170,7 +170,7 @@
             {
                 "position": 8,
                 "mnemonic": "ID_TRACABILITE_NUMERO_DE_SERIE_PIECE",
-                "label_index": "7592",
+                "label_index": "@P7592",
                 "label_korean": "부품 일련 번호",
                 "group_id": "85009",
                 "req_frame_id": "255328",
@@ -200,7 +200,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_AUGMENTATION_VOLUME_SONORE",
-                "label_index": "3956",
+                "label_index": "@P3956",
                 "label_korean": "볼륨 증가",
                 "group_id": "85032",
                 "req_frame_id": "255397",
@@ -222,7 +222,7 @@
             {
                 "position": 2,
                 "mnemonic": "MP_DIMINUTION_VOLUME_SONORE",
-                "label_index": "1541",
+                "label_index": "@P1541",
                 "label_korean": "볼륨 감소",
                 "group_id": "85033",
                 "req_frame_id": "255400",
@@ -244,7 +244,7 @@
             {
                 "position": 3,
                 "mnemonic": "MP_COMMANDE_RECONNAISSANCE_VOCALE",
-                "label_index": "4859",
+                "label_index": "@P4859",
                 "label_korean": "음성 인식 제어",
                 "group_id": "85034",
                 "req_frame_id": "255403",
@@ -266,7 +266,7 @@
             {
                 "position": 4,
                 "mnemonic": "MP_TOUCHE_LISTE_1",
-                "label_index": "11746",
+                "label_index": "@P11746",
                 "label_korean": "리스트 버튼",
                 "group_id": "85035",
                 "req_frame_id": "255406",
@@ -291,7 +291,7 @@
             {
                 "position": 5,
                 "mnemonic": "MP_TOUCHE_SOURCE",
-                "label_index": "8241",
+                "label_index": "@P8241",
                 "label_korean": "소스 버튼",
                 "group_id": "85036",
                 "req_frame_id": "255409",
@@ -316,7 +316,7 @@
             {
                 "position": 6,
                 "mnemonic": "MP_TOUCHE_TEL",
-                "label_index": "10379",
+                "label_index": "@P10379",
                 "label_korean": "전화 버튼",
                 "group_id": "85037",
                 "req_frame_id": "255412",
@@ -338,7 +338,7 @@
             {
                 "position": 7,
                 "mnemonic": "MP_PUSH_MOLETTE_NAVIGATION_COMBINE",
-                "label_index": "18807",
+                "label_index": "@P18807",
                 "label_korean": "계기판 네비게이션 제어 확인 버튼",
                 "group_id": "85038",
                 "req_frame_id": "255415",
@@ -360,7 +360,7 @@
             {
                 "position": 8,
                 "mnemonic": "MP_VALID_MOLETTE_RADIO",
-                "label_index": "17166",
+                "label_index": "@P17166",
                 "label_korean": "라디오 컨트롤 확인 버튼",
                 "group_id": "85039",
                 "req_frame_id": "255418",
@@ -376,13 +376,13 @@
                 "bit_mask": 64,
                 "bit_shift": 6,
                 "dynamic_arg": "",
-                "help_code": "26298, 34411",
+                "help_code": "@P26298@T.@\\n@P34411@T.",
                 "help_korean": "라디오 다이얼 확인 버튼은 라디오 메뉴에서 선택을 하는데 사용한다.\n라디오 다이얼 확인 버튼은 VCI의 우측 모듈에 위치해 있다."
             },
             {
                 "position": 9,
                 "mnemonic": "MP_MOLETTE_NAVIGATION_COMBINE",
-                "label_index": "18812",
+                "label_index": "@P18812",
                 "label_korean": "계기판 네비게이션 다이얼",
                 "group_id": "85040",
                 "req_frame_id": "255421",
@@ -404,7 +404,7 @@
             {
                 "position": 10,
                 "mnemonic": "MP_MOLETTE_RADIO",
-                "label_index": "17252",
+                "label_index": "@P17252",
                 "label_korean": "라디오 컨트롤 다이얼",
                 "group_id": "85041",
                 "req_frame_id": "255424",
@@ -426,7 +426,7 @@
             {
                 "position": 11,
                 "mnemonic": "MP_AUGMENTATION_CONSIGNE_DE_VITESSE",
-                "label_index": "13767",
+                "label_index": "@P13767",
                 "label_korean": "속도 기준 값 올림",
                 "group_id": "85026",
                 "req_frame_id": "255379",
@@ -448,7 +448,7 @@
             {
                 "position": 12,
                 "mnemonic": "MP_REGULATION_DE_VITESSE_MOINS",
-                "label_index": "8074",
+                "label_index": "@P8074",
                 "label_korean": "속도 기준 값 내림",
                 "group_id": "85027",
                 "req_frame_id": "255382",
@@ -470,7 +470,7 @@
             {
                 "position": 13,
                 "mnemonic": "MP_REGUL_ON_OFF",
-                "label_index": "13502",
+                "label_index": "@P13502",
                 "label_korean": "스피드 리미터/크루즈 컨트롤 대기",
                 "group_id": "85028",
                 "req_frame_id": "255385",
@@ -500,7 +500,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_AUGMENTATION_VOLUME_SONORE",
-                "label_index": "3956",
+                "label_index": "@P3956",
                 "label_korean": "볼륨 증가",
                 "group_id": "85032",
                 "req_frame_id": "255397",
@@ -522,7 +522,7 @@
             {
                 "position": 2,
                 "mnemonic": "MP_DIMINUTION_VOLUME_SONORE",
-                "label_index": "1541",
+                "label_index": "@P1541",
                 "label_korean": "볼륨 감소",
                 "group_id": "85033",
                 "req_frame_id": "255400",
@@ -544,7 +544,7 @@
             {
                 "position": 3,
                 "mnemonic": "MP_TOUCHE_TEL",
-                "label_index": "10379",
+                "label_index": "@P10379",
                 "label_korean": "전화 버튼",
                 "group_id": "85037",
                 "req_frame_id": "255412",
@@ -566,7 +566,7 @@
             {
                 "position": 4,
                 "mnemonic": "MP_COMMANDE_RECONNAISSANCE_VOCALE",
-                "label_index": "4859",
+                "label_index": "@P4859",
                 "label_korean": "음성 인식 제어",
                 "group_id": "85034",
                 "req_frame_id": "255403",
@@ -588,7 +588,7 @@
             {
                 "position": 5,
                 "mnemonic": "MP_VALID_MOLETTE_RADIO",
-                "label_index": "17166",
+                "label_index": "@P17166",
                 "label_korean": "라디오 컨트롤 확인 버튼",
                 "group_id": "85039",
                 "req_frame_id": "255418",
@@ -604,7 +604,7 @@
                 "bit_mask": 64,
                 "bit_shift": 6,
                 "dynamic_arg": "",
-                "help_code": "26298, 34411",
+                "help_code": "@P26298@T.@\\n@P34411@T.",
                 "help_korean": "라디오 다이얼 확인 버튼은 라디오 메뉴에서 선택을 하는데 사용한다.\n라디오 다이얼 확인 버튼은 VCI의 우측 모듈에 위치해 있다."
             }
         ]
@@ -618,7 +618,7 @@
             {
                 "position": 1,
                 "mnemonic": "MP_VALID_RVV_LVV",
-                "label_index": "56126",
+                "label_index": "@P56126",
                 "label_korean": "크루즈 컨트롤/스피드 리미터 기능 유효성 확인 버튼",
                 "group_id": "매핑_누락",
                 "req_frame_id": "",
@@ -640,7 +640,7 @@
             {
                 "position": 2,
                 "mnemonic": "MP_REGUL_ON_OFF",
-                "label_index": "13502",
+                "label_index": "@P13502",
                 "label_korean": "스피드 리미터/크루즈 컨트롤 대기",
                 "group_id": "85028",
                 "req_frame_id": "255385",
@@ -662,7 +662,7 @@
             {
                 "position": 3,
                 "mnemonic": "MP_ACTIVATION_RVV",
-                "label_index": "43054",
+                "label_index": "@P43054",
                 "label_korean": "크루즈 컨트롤 작동",
                 "group_id": "85023",
                 "req_frame_id": "255370",
@@ -684,7 +684,7 @@
             {
                 "position": 4,
                 "mnemonic": "MP_ACTIVATION_LVV",
-                "label_index": "43053",
+                "label_index": "@P43053",
                 "label_korean": "스피드 리미터 작동",
                 "group_id": "85022",
                 "req_frame_id": "255367",
@@ -706,7 +706,7 @@
             {
                 "position": 5,
                 "mnemonic": "MP_REGLAGE_TIV",
-                "label_index": "51797",
+                "label_index": "@P51797",
                 "label_korean": "차량간 시간 주기 조정 버튼",
                 "group_id": "매핑_누락",
                 "req_frame_id": "",
@@ -728,7 +728,7 @@
             {
                 "position": 6,
                 "mnemonic": "MP_MOLETTE_XVV",
-                "label_index": "17120",
+                "label_index": "@P17120",
                 "label_korean": "크루즈 컨트롤/스피드 리미터를 위한 3-포지션 스위치",
                 "group_id": "85015",
                 "req_frame_id": "255346",
@@ -744,7 +744,7 @@
                 "bit_mask": 96,
                 "bit_shift": 5,
                 "dynamic_arg": "",
-                "help_code": "34412",
+                "help_code": "@P34412",
                 "help_korean": "크루즈 컨트롤 모듈을 사용해서 크루즈 컨트롤 또는 스피드 리미터의 켜짐 또는 꺼짐 요청에 해당한다"
             }
         ]
