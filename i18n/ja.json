@@ -128,5 +128,20 @@
   "scan.err_no_clear_cmd": "このモジュールの故障消去コマンドがDBに存在しません。",
   "scan.err_wizard_session_fail": "セッション接続に失敗したため、消去ウィザードを開始できません。",
   "scan.err_no_comm_address": "このモジュールの通信アドレス情報がありません。",
-  "scan.err_cannot_open_tunnel": "このECUとの通信トンネルを開けません。"
+  "scan.err_cannot_open_tunnel": "このECUとの通信トンネルを開けません。",
+  "scan.status_syncing_db": "データベースを同期中...",
+  "scan.status_waiting": "待機中...",
+  "scan.status_load_failed": "データの読み込みに失敗しました",
+  "scan.status_init_obd": "OBDを初期化中...",
+  "scan.status_init_failed": "初期化に失敗しました",
+  "scan.popup_conn_fail_title": "接続失敗",
+  "scan.popup_conn_fail_body": "OBDスキャナーの初期化に失敗しました。",
+  "scan.sw_connecting": "セッション接続中...",
+  "scan.sw_retrying": "再試行中 ({})...",
+  "scan.sw_searching": "検索中... ({})",
+  "scan.sw_skipped_unequipped": "未装着モジュール (スキップ)",
+  "scan.sw_id_failed": "識別失敗",
+  "scan.sw_lost_connection": "再接続失敗 (断線/電源オフ)",
+  "scan.sw_no_response": "応答なし (未装着)",
+  "scan.sw_internal_error": "内部ロジックエラー"
 }

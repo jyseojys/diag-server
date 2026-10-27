@@ -128,5 +128,20 @@
   "scan.err_no_clear_cmd": "数据库中不存在该模块的故障清除指令。",
   "scan.err_wizard_session_fail": "会话连接失败，无法启动故障清除向导。",
   "scan.err_no_comm_address": "缺少该模块的通信地址信息。",
-  "scan.err_cannot_open_tunnel": "无法打开与该 ECU 的通信通道。"
+  "scan.err_cannot_open_tunnel": "无法打开与该 ECU 的通信通道。",
+  "scan.status_syncing_db": "正在同步数据库...",
+  "scan.status_waiting": "等待中...",
+  "scan.status_load_failed": "数据加载失败",
+  "scan.status_init_obd": "正在初始化 OBD...",
+  "scan.status_init_failed": "初始化失败",
+  "scan.popup_conn_fail_title": "连接失败",
+  "scan.popup_conn_fail_body": "OBD 扫描仪初始化失败。",
+  "scan.sw_connecting": "正在连接会话...",
+  "scan.sw_retrying": "正在重试 ({})...",
+  "scan.sw_searching": "正在搜索... ({})",
+  "scan.sw_skipped_unequipped": "未配备模块 (已跳过)",
+  "scan.sw_id_failed": "识别失败",
+  "scan.sw_lost_connection": "重新连接失败 (断开/断电)",
+  "scan.sw_no_response": "无响应 (未配备)",
+  "scan.sw_internal_error": "内部逻辑错误"
 }
