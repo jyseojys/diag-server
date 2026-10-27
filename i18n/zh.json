@@ -117,10 +117,16 @@
   "wifi.no_devices_found": "未找到可连接的Wi-Fi OBD。",
   "wifi.turn_on_wifi_and_try_scanning": "请在智能手机设置中连接到可用的 Wi-Fi 网络（OBD）。",
   "menu.sensor_count": "{}传感器",
-  "scan.pro_adapter_required": "连接 PRO 扩展接头后可用",
-  "scan.pro_dialog_title": "解锁全车深度诊断",
-  "scan.pro_dialog_body": "将专用 PRO 扩展接头连接到车载 OBD 扫描仪，即可无限制地诊断和管理包括 [{}] 以及 BSI 在内的所有车辆深层模块。",
+  "scan.pro_adapter_required": "连接 PRO 扩展转接头后激活",
+  "scan.pro_dialog_title": "解锁全车 ECU 深度诊断",
+  "scan.pro_dialog_body": "将专用 PRO 扩展转接头连接到车上安装的 OBD 扫描仪，即可无限制地诊断和管理包括 [{}] 以及 BSI 在内的全车所有深层控制模块。",
   "scan.pro_dialog_close": "关闭",
   "scan.pro_dialog_store": "前往商店",
-  "scan.pro_store_preparing": "商店页面正在准备中。"
+  "scan.pro_store_preparing": "商店页面正在筹备中。",
+  "scan.tap_for_details": "点击查看详情",
+  "scan.hint_tap_fault_circle": "点击左侧圆圈查看故障详情",
+  "scan.err_no_clear_cmd": "数据库中不存在该模块的故障清除指令。",
+  "scan.err_wizard_session_fail": "会话连接失败，无法启动故障清除向导。",
+  "scan.err_no_comm_address": "缺少该模块的通信地址信息。",
+  "scan.err_cannot_open_tunnel": "无法打开与该 ECU 的通信通道。"
 }

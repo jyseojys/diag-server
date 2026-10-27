@@ -117,10 +117,16 @@
   "wifi.no_devices_found": "Nem található csatlakoztatható Wi-Fi OBD.",
   "wifi.turn_on_wifi_and_try_scanning": "Kérjük, csatlakozzon egy elérhető Wi-Fi hálózathoz (OBD) az okostelefon beállításaiban.",
   "menu.sensor_count": "{} érzékelő",
-  "scan.pro_adapter_required": "PRO bővítő csatlakozóval érhető el",
-  "scan.pro_dialog_title": "Teljes járműdiagnosztika feloldása",
-  "scan.pro_dialog_body": "Csatlakoztassa a dedikált PRO bővítő csatlakozót a járművébe szerelt OBD-szkennerhez, hogy korlátozás nélkül diagnosztizálhassa és kezelhesse nemcsak a(z) [{}] modult, hanem a BSI-t és a jármű összes többi mélyebb modulját is.",
+  "scan.pro_adapter_required": "PRO bővítőcsatlakozóval érhető el",
+  "scan.pro_dialog_title": "Teljes ECU diagnosztika feloldása",
+  "scan.pro_dialog_body": "Csatlakoztassa a dedikált PRO bővítőcsatlakozót a járműbe szerelt OBD szkennerhez, hogy korlátozás nélkül diagnosztizálhassa és kezelhesse nemcsak a(z) [{}] modult, hanem a BSI-t és a jármű összes többi mélyebb modulját is.",
   "scan.pro_dialog_close": "Bezárás",
   "scan.pro_dialog_store": "Áruház megnyitása",
-  "scan.pro_store_preparing": "Az áruház oldala előkészítés alatt áll."
+  "scan.pro_store_preparing": "Az áruház oldala előkészítés alatt áll.",
+  "scan.tap_for_details": "Érintse meg a részletekért",
+  "scan.hint_tap_fault_circle": "Érintse meg a bal oldali kört a hibák részleteiért",
+  "scan.err_no_clear_cmd": "Nem található hibakód-törlési parancs az adatbázisban ehhez a modulhoz.",
+  "scan.err_wizard_session_fail": "A munkamenet csatlakozása sikertelen. A törlési varázsló nem indítható el.",
+  "scan.err_no_comm_address": "Hiányoznak a modul kommunikációs címadatai.",
+  "scan.err_cannot_open_tunnel": "Nem nyitható meg a kommunikációs alagút ezzel az ECU-val."
 }

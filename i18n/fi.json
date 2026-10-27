@@ -118,9 +118,15 @@
   "wifi.turn_on_wifi_and_try_scanning": "Yhdistä käytettävissä olevaan Wi-Fi-verkkoon (OBD) älypuhelimesi asetuksissa.",
   "menu.sensor_count": "{} anturia",
   "scan.pro_adapter_required": "Saatavilla PRO-laajennusliittimellä",
-  "scan.pro_dialog_title": "Avaa täysi ajoneuvodiagnostiikka",
-  "scan.pro_dialog_body": "Yhdistä erillinen PRO-laajennusliitin ajoneuvoosi asennettuun OBD-skanneriin diagnosoidaksesi ja hallitaksesi rajoituksetta [{}]-yksikön lisäksi myös BSI-yksikköä ja kaikkia muita ajoneuvon syviä moduuleja.",
+  "scan.pro_dialog_title": "Avaa täysi ECU-diagnostiikka",
+  "scan.pro_dialog_body": "Yhdistä erillinen PRO-laajennusliitin ajoneuvoosi asennettuun OBD-skanneriin diagnosoidaksesi ja hallitaksesi rajoituksetta [{}]-ohjainlaitteen lisäksi myös BSI-moduulia ja kaikkia muita ajoneuvon syvämoduuleja.",
   "scan.pro_dialog_close": "Sulje",
   "scan.pro_dialog_store": "Siirry kauppaan",
-  "scan.pro_store_preparing": "Kauppasivua valmistellaan."
+  "scan.pro_store_preparing": "Kauppasivua valmistellaan.",
+  "scan.tap_for_details": "Napauta nähdäksesi tiedot",
+  "scan.hint_tap_fault_circle": "Napauta vasenta ympyrää nähdäksesi vikatiedot",
+  "scan.err_no_clear_cmd": "Tälle ohjainlaitteelle ei löytynyt vikakoodien tyhjennyskäskyä tietokannasta.",
+  "scan.err_wizard_session_fail": "Istunnon muodostaminen epäonnistui. Poistotoimintoa ei voi käynnistää.",
+  "scan.err_no_comm_address": "Tämän ohjainlaitteen yhteysosoitetiedot puuttuvat.",
+  "scan.err_cannot_open_tunnel": "Yhteystunnelia tähän ECU-ohjainlaitteeseen ei voida avata."
 }
