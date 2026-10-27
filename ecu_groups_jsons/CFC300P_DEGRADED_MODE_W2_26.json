@@ -4,165 +4,20 @@
         "DYNAMIC_TEXT_REQUIRED": 0,
         "MAPPING_MISSING": 0
     },
-    "ETIQUETTECEM": {
-        "screen_title_korean": "EMC 라벨",
-        "screen_label_index": "@P9861-POLUXDATA",
-        "ecu_name": "CFC300P_DEGRADED_MODE_W2_26",
-        "total_sensors": 4,
-        "sensors": [
-            {
-                "position": 1,
-                "mnemonic": "MP_ID_FOURNISSEUR",
-                "label_index": "@P5701-POLUXDATA",
-                "label_korean": "제조 업체명",
-                "group_id": "121138",
-                "req_frame_id": "363759",
-                "resp_frame_id": "363760",
-                "start_byte": "8",
-                "byte_length": "2",
-                "endian": "LittleEndian",
-                "data_type": "0",
-                "is_signed": false,
-                "format": "",
-                "factor": "1.0",
-                "offset": "None",
-                "unit": "",
-                "req_frame_hex": "2180",
-                "states": {
-                    "1": "@TP.S.A",
-                    "3": "@P24218-POLUXDATA",
-                    "4": "@TSIEMENS",
-                    "5": "@TSAGEM",
-                    "6": "@P10107-POLUXDATA",
-                    "7": "@TZ.F.",
-                    "8": "@TBENDIX",
-                    "9": "@TTEVES",
-                    "10": "@TLUCAS",
-                    "11": "@THELLA",
-                    "12": "@TBITRON",
-                    "13": "@TVDO",
-                    "14": "@TAUTOLIV",
-                    "15": "@TTRW",
-                    "16": "@TTEMIC",
-                    "17": "@THEULIEZ",
-                    "18": "@P14028-POLUXDATA",
-                    "19": "@TDELPHI",
-                    "20": "@TPHILIPS",
-                    "22": "@TWEBASTO",
-                    "23": "@TEBERSPACHER",
-                    "24": "@TITT",
-                    "25": "@TBEHR",
-                    "26": "@TDAV",
-                    "27": "@TBRC",
-                    "28": "@THPI",
-                    "29": "@TEATON",
-                    "30": "@TSC2N",
-                    "31": "@TMARWAL",
-                    "32": "@TINALFA",
-                    "33": "@TSMI",
-                    "35": "@TCTS",
-                    "38": "@TVISTEON",
-                    "39": "@TFICOSA",
-                    "40": "@TBROSE",
-                    "43": "@TPANASONIC",
-                    "44": "@TJCAE",
-                    "46": "@TBORG",
-                    "21": "@TCLARION",
-                    "254": "@TNIPPON@\\+@TDENSO",
-                    "36": "@TKOSTAL",
-                    "37": "@TCONTROL@\\+@TDEVICES",
-                    "41": "@TNIPPON@\\+@TSEIKI",
-                    "42": "@TAUTOMOTIVE@\\+@TLIGHTING",
-                    "45": "@TFAURECIA",
-                    "47": "@TSTABILUS",
-                    "48": "@P662-POLUXDATA@\\*AISIN@\\+@TWARNER",
-                    "DEFAULT": "@P8038-POLUXDATA",
-                    "2": "@TSMI"
-                },
-                "bit_mask": null,
-                "bit_shift": null,
-                "dynamic_arg": "",
-                "help_code": "",
-                "help_korean": ""
-            },
-            {
-                "position": 2,
-                "mnemonic": "ID_8F_CALCULATEUR",
-                "label_index": "@P14829-POLUXDATA@",
-                "label_korean": "제어 장치*1",
-                "group_id": "121139",
-                "req_frame_id": "363762",
-                "resp_frame_id": "363763",
-                "start_byte": "4",
-                "byte_length": "5",
-                "endian": "LittleEndian",
-                "data_type": "0",
-                "is_signed": false,
-                "format": "",
-                "factor": "1.0",
-                "offset": "None",
-                "unit": "",
-                "req_frame_hex": "218F",
-                "states": {},
-                "bit_mask": null,
-                "bit_shift": null,
-                "dynamic_arg": "",
-                "help_code": "",
-                "help_korean": ""
-            },
-            {
-                "position": 3,
-                "mnemonic": "ID_8F_CHLIBRE",
-                "label_index": "@P8264-POLUXDATA",
-                "label_korean": "비어 있는 필드",
-                "group_id": "121139",
-                "req_frame_id": "363762",
-                "resp_frame_id": "363763",
-                "start_byte": "9",
-                "byte_length": "16",
-                "endian": "LittleEndian",
-                "data_type": "0",
-                "is_signed": false,
-                "format": "",
-                "factor": "1.0",
-                "offset": "None",
-                "unit": "",
-                "req_frame_hex": "218F",
-                "states": {},
-                "bit_mask": null,
-                "bit_shift": null,
-                "dynamic_arg": "",
-                "help_code": "",
-                "help_korean": ""
-            },
-            {
-                "position": 4,
-                "mnemonic": "ID_8F_INDICECEM",
-                "label_index": "@P11830-POLUXDATA",
-                "label_korean": "CEM 인덱스",
-                "group_id": "121139",
-                "req_frame_id": "363762",
-                "resp_frame_id": "363763",
-                "start_byte": "25",
-                "byte_length": "1",
-                "endian": "",
-                "data_type": "0",
-                "is_signed": false,
-                "format": "",
-                "factor": "1.0",
-                "offset": "None",
-                "unit": "",
-                "req_frame_hex": "218F",
-                "states": {},
-                "bit_mask": null,
-                "bit_shift": null,
-                "dynamic_arg": "",
-                "help_code": "",
-                "help_korean": ""
-            }
-        ]
+    "connection_profile": {
+        "init_req": "81",
+        "init_res_ok": "C1D08F",
+        "init_res_ko": "7F81",
+        "reco_req": "21FE",
+        "reco_res_ok": "61FE",
+        "reco_res_ko": "7F21",
+        "close_req": "82",
+        "close_res_ok": "C2",
+        "close_res_ko": "7F82"
     },
-    "IDENTIFICATION": {
+    "31920": {
+        "scrid": "31920",
+        "screen_id": "IDENTIFICATION",
         "screen_title_korean": "ECU ID 확인",
         "screen_label_index": "@P6915-POLUXDATA",
         "ecu_name": "CFC300P_DEGRADED_MODE_W2_26",
@@ -234,9 +89,10 @@
                     "45": "@TFAURECIA",
                     "47": "@TSTABILUS",
                     "48": "@P662-POLUXDATA@\\*AISIN@\\+@TWARNER",
-                    "DEFAULT": "@P8038-POLUXDATA",
                     "2": "@TSMI"
                 },
+                "valid_min": null,
+                "valid_max": null,
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
@@ -262,6 +118,8 @@
                 "unit": "",
                 "req_frame_hex": "2180",
                 "states": {},
+                "valid_min": null,
+                "valid_max": null,
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
@@ -287,6 +145,8 @@
                 "unit": "",
                 "req_frame_hex": "2180",
                 "states": {},
+                "valid_min": null,
+                "valid_max": null,
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
@@ -312,6 +172,8 @@
                 "unit": "",
                 "req_frame_hex": "21FE",
                 "states": {},
+                "valid_min": null,
+                "valid_max": null,
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
@@ -337,6 +199,8 @@
                 "unit": "",
                 "req_frame_hex": "21FE",
                 "states": {},
+                "valid_min": null,
+                "valid_max": null,
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
@@ -362,6 +226,8 @@
                 "unit": "",
                 "req_frame_hex": "21FE",
                 "states": {},
+                "valid_min": null,
+                "valid_max": null,
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
@@ -387,6 +253,8 @@
                 "unit": "",
                 "req_frame_hex": "2180",
                 "states": {},
+                "valid_min": null,
+                "valid_max": null,
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
@@ -395,7 +263,176 @@
             }
         ]
     },
-    "MESUREPARAMETRE1": {
+    "31921": {
+        "scrid": "31921",
+        "screen_id": "ETIQUETTECEM",
+        "screen_title_korean": "EMC 라벨",
+        "screen_label_index": "@P9861-POLUXDATA",
+        "ecu_name": "CFC300P_DEGRADED_MODE_W2_26",
+        "total_sensors": 4,
+        "sensors": [
+            {
+                "position": 1,
+                "mnemonic": "MP_ID_FOURNISSEUR",
+                "label_index": "@P5701-POLUXDATA",
+                "label_korean": "제조 업체명",
+                "group_id": "121138",
+                "req_frame_id": "363759",
+                "resp_frame_id": "363760",
+                "start_byte": "8",
+                "byte_length": "2",
+                "endian": "LittleEndian",
+                "data_type": "0",
+                "is_signed": false,
+                "format": "",
+                "factor": "1.0",
+                "offset": "None",
+                "unit": "",
+                "req_frame_hex": "2180",
+                "states": {
+                    "1": "@TP.S.A",
+                    "3": "@P24218-POLUXDATA",
+                    "4": "@TSIEMENS",
+                    "5": "@TSAGEM",
+                    "6": "@P10107-POLUXDATA",
+                    "7": "@TZ.F.",
+                    "8": "@TBENDIX",
+                    "9": "@TTEVES",
+                    "10": "@TLUCAS",
+                    "11": "@THELLA",
+                    "12": "@TBITRON",
+                    "13": "@TVDO",
+                    "14": "@TAUTOLIV",
+                    "15": "@TTRW",
+                    "16": "@TTEMIC",
+                    "17": "@THEULIEZ",
+                    "18": "@P14028-POLUXDATA",
+                    "19": "@TDELPHI",
+                    "20": "@TPHILIPS",
+                    "22": "@TWEBASTO",
+                    "23": "@TEBERSPACHER",
+                    "24": "@TITT",
+                    "25": "@TBEHR",
+                    "26": "@TDAV",
+                    "27": "@TBRC",
+                    "28": "@THPI",
+                    "29": "@TEATON",
+                    "30": "@TSC2N",
+                    "31": "@TMARWAL",
+                    "32": "@TINALFA",
+                    "33": "@TSMI",
+                    "35": "@TCTS",
+                    "38": "@TVISTEON",
+                    "39": "@TFICOSA",
+                    "40": "@TBROSE",
+                    "43": "@TPANASONIC",
+                    "44": "@TJCAE",
+                    "46": "@TBORG",
+                    "21": "@TCLARION",
+                    "254": "@TNIPPON@\\+@TDENSO",
+                    "36": "@TKOSTAL",
+                    "37": "@TCONTROL@\\+@TDEVICES",
+                    "41": "@TNIPPON@\\+@TSEIKI",
+                    "42": "@TAUTOMOTIVE@\\+@TLIGHTING",
+                    "45": "@TFAURECIA",
+                    "47": "@TSTABILUS",
+                    "48": "@P662-POLUXDATA@\\*AISIN@\\+@TWARNER",
+                    "2": "@TSMI"
+                },
+                "valid_min": null,
+                "valid_max": null,
+                "bit_mask": null,
+                "bit_shift": null,
+                "dynamic_arg": "",
+                "help_code": "",
+                "help_korean": ""
+            },
+            {
+                "position": 2,
+                "mnemonic": "ID_8F_CALCULATEUR",
+                "label_index": "@P14829-POLUXDATA@",
+                "label_korean": "제어 장치*1",
+                "group_id": "121139",
+                "req_frame_id": "363762",
+                "resp_frame_id": "363763",
+                "start_byte": "4",
+                "byte_length": "5",
+                "endian": "LittleEndian",
+                "data_type": "0",
+                "is_signed": false,
+                "format": "",
+                "factor": "1.0",
+                "offset": "None",
+                "unit": "",
+                "req_frame_hex": "218F",
+                "states": {},
+                "valid_min": null,
+                "valid_max": null,
+                "bit_mask": null,
+                "bit_shift": null,
+                "dynamic_arg": "",
+                "help_code": "",
+                "help_korean": ""
+            },
+            {
+                "position": 3,
+                "mnemonic": "ID_8F_CHLIBRE",
+                "label_index": "@P8264-POLUXDATA",
+                "label_korean": "비어 있는 필드",
+                "group_id": "121139",
+                "req_frame_id": "363762",
+                "resp_frame_id": "363763",
+                "start_byte": "9",
+                "byte_length": "16",
+                "endian": "LittleEndian",
+                "data_type": "0",
+                "is_signed": false,
+                "format": "",
+                "factor": "1.0",
+                "offset": "None",
+                "unit": "",
+                "req_frame_hex": "218F",
+                "states": {},
+                "valid_min": null,
+                "valid_max": null,
+                "bit_mask": null,
+                "bit_shift": null,
+                "dynamic_arg": "",
+                "help_code": "",
+                "help_korean": ""
+            },
+            {
+                "position": 4,
+                "mnemonic": "ID_8F_INDICECEM",
+                "label_index": "@P11830-POLUXDATA",
+                "label_korean": "CEM 인덱스",
+                "group_id": "121139",
+                "req_frame_id": "363762",
+                "resp_frame_id": "363763",
+                "start_byte": "25",
+                "byte_length": "1",
+                "endian": "",
+                "data_type": "0",
+                "is_signed": false,
+                "format": "",
+                "factor": "1.0",
+                "offset": "None",
+                "unit": "",
+                "req_frame_hex": "218F",
+                "states": {},
+                "valid_min": null,
+                "valid_max": null,
+                "bit_mask": null,
+                "bit_shift": null,
+                "dynamic_arg": "",
+                "help_code": "",
+                "help_korean": ""
+            }
+        ]
+    },
+    "31922": {
+        "scrid": "31922",
+        "screen_id": "MESUREPARAMETRE1",
         "screen_title_korean": "변속기 변수",
         "screen_label_index": "@P22726-POLUXDATA",
         "ecu_name": "CFC300P_DEGRADED_MODE_W2_26",
@@ -422,6 +459,8 @@
                 "states": {
                     "DEFAULT": "@V"
                 },
+                "valid_min": 0.0,
+                "valid_max": 8191.875,
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
@@ -449,6 +488,8 @@
                 "states": {
                     "DEFAULT": "@V"
                 },
+                "valid_min": 0.0,
+                "valid_max": 6553.5,
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
@@ -474,10 +515,11 @@
                 "unit": "",
                 "req_frame_hex": "21C58001",
                 "states": {
-                    "DEFAULT": "@P8038-POLUXDATA",
                     "0": "@P12710-POLUXDATA",
                     "1": "@P21573-POLUXDATA"
                 },
+                "valid_min": null,
+                "valid_max": null,
                 "bit_mask": 1,
                 "bit_shift": 0,
                 "dynamic_arg": "",
@@ -509,10 +551,11 @@
                     "3": "@P6674-POLUXDATA",
                     "4": "@P12314-POLUXDATA",
                     "6": "@P11177-POLUXDATA",
-                    "DEFAULT": "@P3612-POLUXDATA",
                     "2": "@P3612-POLUXDATA",
                     "0": "@P3612-POLUXDATA"
                 },
+                "valid_min": null,
+                "valid_max": null,
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
@@ -540,6 +583,8 @@
                 "states": {
                     "DEFAULT": "@V"
                 },
+                "valid_min": 0.0,
+                "valid_max": 65535.0,
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
@@ -567,6 +612,8 @@
                 "states": {
                     "DEFAULT": "@V"
                 },
+                "valid_min": 0.0,
+                "valid_max": 655.3499755859375,
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
@@ -596,6 +643,8 @@
                     "0": "@P16961-POLUXDATA",
                     "255": "@P548-POLUXDATA"
                 },
+                "valid_min": null,
+                "valid_max": null,
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
@@ -625,6 +674,8 @@
                     "0": "@P4778-POLUXDATA@\\+@T (@P24045-POLUXDATA@T)",
                     "1": "@P1953-POLUXDATA@\\+@T (@P25502-POLUXDATA@T)"
                 },
+                "valid_min": null,
+                "valid_max": null,
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
@@ -633,7 +684,9 @@
             }
         ]
     },
-    "MESUREPARAMETRE2": {
+    "31923": {
+        "scrid": "31923",
+        "screen_id": "MESUREPARAMETRE2",
         "screen_title_korean": "변속기 상태",
         "screen_label_index": "@P22749-POLUXDATA",
         "ecu_name": "CFC300P_DEGRADED_MODE_W2_26",
@@ -664,6 +717,8 @@
                     "3": "@P860-POLUXDATA",
                     "255": "@P548-POLUXDATA"
                 },
+                "valid_min": null,
+                "valid_max": null,
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
@@ -691,6 +746,8 @@
                 "states": {
                     "DEFAULT": "@V"
                 },
+                "valid_min": 0.0,
+                "valid_max": 255.0,
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
@@ -718,6 +775,8 @@
                 "states": {
                     "DEFAULT": "@V"
                 },
+                "valid_min": 0.0,
+                "valid_max": 5327.990234375,
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
@@ -745,6 +804,8 @@
                 "states": {
                     "DEFAULT": "@V"
                 },
+                "valid_min": 0.0,
+                "valid_max": 5327.990234375,
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
@@ -772,6 +833,8 @@
                 "states": {
                     "DEFAULT": "@V"
                 },
+                "valid_min": 0.0,
+                "valid_max": 3807.58349609375,
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
@@ -799,6 +862,8 @@
                 "states": {
                     "DEFAULT": "@V"
                 },
+                "valid_min": 0.0,
+                "valid_max": 3807.58349609375,
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
@@ -826,6 +891,8 @@
                 "states": {
                     "DEFAULT": "@V"
                 },
+                "valid_min": 0.0,
+                "valid_max": 1151.43994140625,
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
@@ -853,6 +920,8 @@
                 "states": {
                     "DEFAULT": "@V"
                 },
+                "valid_min": 0.0,
+                "valid_max": 1151.43994140625,
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
@@ -880,6 +949,8 @@
                 "states": {
                     "DEFAULT": "@V"
                 },
+                "valid_min": 0.0,
+                "valid_max": 1151.43994140625,
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
@@ -907,6 +978,8 @@
                 "states": {
                     "DEFAULT": "@V"
                 },
+                "valid_min": 0.0,
+                "valid_max": 1151.43994140625,
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
@@ -915,7 +988,9 @@
             }
         ]
     },
-    "MESUREPARAMETRE3": {
+    "31924": {
+        "scrid": "31924",
+        "screen_id": "MESUREPARAMETRE3",
         "screen_title_korean": "엔진 및 변속기 연결",
         "screen_label_index": "@P7284-POLUXDATA",
         "ecu_name": "CFC300P_DEGRADED_MODE_W2_26",
@@ -953,6 +1028,8 @@
                     "6": "@T+",
                     "10": "@T-"
                 },
+                "valid_min": null,
+                "valid_max": null,
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
@@ -982,6 +1059,8 @@
                     "0": "@P16961-POLUXDATA",
                     "255": "@P548-POLUXDATA"
                 },
+                "valid_min": null,
+                "valid_max": null,
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
@@ -1021,6 +1100,8 @@
                     "10": "@P2836-POLUXDATA",
                     "11": "@P2836-POLUXDATA"
                 },
+                "valid_min": null,
+                "valid_max": null,
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
@@ -1048,6 +1129,8 @@
                 "states": {
                     "DEFAULT": "@V"
                 },
+                "valid_min": 0.0,
+                "valid_max": 320.2690124511719,
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "1",
@@ -1075,6 +1158,8 @@
                 "states": {
                     "DEFAULT": "@V"
                 },
+                "valid_min": 0.0,
+                "valid_max": 320.2690124511719,
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "2",
@@ -1102,6 +1187,8 @@
                 "states": {
                     "DEFAULT": "@V"
                 },
+                "valid_min": 0.0,
+                "valid_max": 320.2690124511719,
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "3",
@@ -1129,6 +1216,8 @@
                 "states": {
                     "DEFAULT": "@V"
                 },
+                "valid_min": 0.0,
+                "valid_max": 320.2690124511719,
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "4",
@@ -1154,10 +1243,11 @@
                 "unit": "",
                 "req_frame_hex": "21C08001",
                 "states": {
-                    "DEFAULT": "@P8038-POLUXDATA",
                     "0": "@P10152-POLUXDATA",
                     "1": "@P3564-POLUXDATA"
                 },
+                "valid_min": null,
+                "valid_max": null,
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
@@ -1183,10 +1273,11 @@
                 "unit": "",
                 "req_frame_hex": "21C08001",
                 "states": {
-                    "DEFAULT": "@P8038-POLUXDATA",
                     "0": "@P10152-POLUXDATA",
                     "1": "@P3564-POLUXDATA"
                 },
+                "valid_min": null,
+                "valid_max": null,
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
@@ -1212,9 +1303,11 @@
                 "unit": "",
                 "req_frame_hex": "21C58001",
                 "states": {
-                    "DEFAULT": "@V",
-                    "255": "@P548-POLUXDATA"
+                    "255": "@P548-POLUXDATA",
+                    "DEFAULT": "@V"
                 },
+                "valid_min": 0.0,
+                "valid_max": 320.2690124511719,
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "1",
@@ -1240,9 +1333,11 @@
                 "unit": "",
                 "req_frame_hex": "21C58001",
                 "states": {
-                    "DEFAULT": "@V",
-                    "255": "@P548-POLUXDATA"
+                    "255": "@P548-POLUXDATA",
+                    "DEFAULT": "@V"
                 },
+                "valid_min": 0.0,
+                "valid_max": 320.2690124511719,
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "2",
@@ -1269,9 +1364,10 @@
                 "req_frame_hex": "21C58001",
                 "states": {
                     "1": "@P701-POLUXDATA",
-                    "0": "@P16961-POLUXDATA",
-                    "DEFAULT": "@P8038-POLUXDATA"
+                    "0": "@P16961-POLUXDATA"
                 },
+                "valid_min": null,
+                "valid_max": null,
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
@@ -1301,6 +1397,8 @@
                     "1": "@P7737-POLUXDATA",
                     "0": "@P670-POLUXDATA"
                 },
+                "valid_min": null,
+                "valid_max": null,
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
@@ -1309,7 +1407,9 @@
             }
         ]
     },
-    "MESUREPARAMETRE4": {
+    "31925": {
+        "scrid": "31925",
+        "screen_id": "MESUREPARAMETRE4",
         "screen_title_korean": "엔진 정보",
         "screen_label_index": "@P22779-POLUXDATA",
         "ecu_name": "CFC300P_DEGRADED_MODE_W2_26",
@@ -1336,6 +1436,8 @@
                 "states": {
                     "DEFAULT": "@V"
                 },
+                "valid_min": 0.0,
+                "valid_max": 8191.875,
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
@@ -1363,6 +1465,8 @@
                 "states": {
                     "DEFAULT": "@V"
                 },
+                "valid_min": -100.0,
+                "valid_max": 410.0,
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
@@ -1390,6 +1494,8 @@
                 "states": {
                     "DEFAULT": "@V"
                 },
+                "valid_min": -100.0,
+                "valid_max": 410.0,
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
@@ -1417,6 +1523,8 @@
                 "states": {
                     "DEFAULT": "@V"
                 },
+                "valid_min": 0.0,
+                "valid_max": 127.5,
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
@@ -1444,6 +1552,8 @@
                 "states": {
                     "DEFAULT": "@V"
                 },
+                "valid_min": -40.0,
+                "valid_max": 215.0,
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
@@ -1473,6 +1583,8 @@
                     "1": "@P7737-POLUXDATA",
                     "0": "@P670-POLUXDATA"
                 },
+                "valid_min": null,
+                "valid_max": null,
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
@@ -1502,6 +1614,8 @@
                     "1": "@P15755-POLUXDATA",
                     "255": "@P548-POLUXDATA"
                 },
+                "valid_min": null,
+                "valid_max": null,
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
@@ -1510,7 +1624,9 @@
             }
         ]
     },
-    "MESUREPARAMETRE5": {
+    "31926": {
+        "scrid": "31926",
+        "screen_id": "MESUREPARAMETRE5",
         "screen_title_korean": "프로그램된 값",
         "screen_label_index": "@P5084-POLUXDATA",
         "ecu_name": "CFC300P_DEGRADED_MODE_W2_26",
@@ -1537,6 +1653,8 @@
                 "states": {
                     "DEFAULT": "@V"
                 },
+                "valid_min": 0.0,
+                "valid_max": 3807.580078125,
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "R",
@@ -1564,6 +1682,8 @@
                 "states": {
                     "DEFAULT": "@V"
                 },
+                "valid_min": 0.0,
+                "valid_max": 3807.580078125,
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "N",
@@ -1591,6 +1711,8 @@
                 "states": {
                     "DEFAULT": "@V"
                 },
+                "valid_min": 0.0,
+                "valid_max": 3807.580078125,
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "1",
@@ -1618,6 +1740,8 @@
                 "states": {
                     "DEFAULT": "@V"
                 },
+                "valid_min": 0.0,
+                "valid_max": 3807.580078125,
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "2",
@@ -1645,6 +1769,8 @@
                 "states": {
                     "DEFAULT": "@V"
                 },
+                "valid_min": 0.0,
+                "valid_max": 3807.580078125,
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "3",
@@ -1672,6 +1798,8 @@
                 "states": {
                     "DEFAULT": "@V"
                 },
+                "valid_min": 0.0,
+                "valid_max": 3807.580078125,
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "4",
@@ -1699,6 +1827,8 @@
                 "states": {
                     "DEFAULT": "@V"
                 },
+                "valid_min": 0.0,
+                "valid_max": 3807.580078125,
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "5",
@@ -1726,6 +1856,8 @@
                 "states": {
                     "DEFAULT": "@V"
                 },
+                "valid_min": 0.0,
+                "valid_max": 3807.580078125,
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "6",
@@ -1753,6 +1885,8 @@
                 "states": {
                     "DEFAULT": "@V"
                 },
+                "valid_min": 0.0,
+                "valid_max": 5327.990234375,
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
@@ -1780,6 +1914,8 @@
                 "states": {
                     "DEFAULT": "@V"
                 },
+                "valid_min": 0.0,
+                "valid_max": 5327.990234375,
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "1, 2",
@@ -1807,6 +1943,8 @@
                 "states": {
                     "DEFAULT": "@V"
                 },
+                "valid_min": 0.0,
+                "valid_max": 5327.990234375,
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "3, 4",
@@ -1834,6 +1972,8 @@
                 "states": {
                     "DEFAULT": "@V"
                 },
+                "valid_min": 0.0,
+                "valid_max": 5327.990234375,
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "5, 6",
@@ -1842,7 +1982,9 @@
             }
         ]
     },
-    "MESUREPARAMETRE6": {
+    "31927": {
+        "scrid": "31927",
+        "screen_id": "MESUREPARAMETRE6",
         "screen_title_korean": "학습 상태",
         "screen_label_index": "@P6210-POLUXDATA",
         "ecu_name": "CFC300P_DEGRADED_MODE_W2_26",
@@ -1867,6 +2009,8 @@
                 "unit": "",
                 "req_frame_hex": "21C58001",
                 "states": {},
+                "valid_min": null,
+                "valid_max": null,
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
@@ -1892,6 +2036,8 @@
                 "unit": "",
                 "req_frame_hex": "21C68001",
                 "states": {},
+                "valid_min": null,
+                "valid_max": null,
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
@@ -1919,6 +2065,8 @@
                 "states": {
                     "DEFAULT": "@V"
                 },
+                "valid_min": 0.0,
+                "valid_max": 255.0,
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "1",
@@ -1946,6 +2094,8 @@
                 "states": {
                     "DEFAULT": "@V"
                 },
+                "valid_min": 0.0,
+                "valid_max": 255.0,
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "2",
@@ -1973,6 +2123,8 @@
                 "states": {
                     "DEFAULT": "@V"
                 },
+                "valid_min": 0.0,
+                "valid_max": 255.0,
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
@@ -2002,6 +2154,8 @@
                     "1": "@P13466-POLUXDATA",
                     "0": "@P9987-POLUXDATA"
                 },
+                "valid_min": null,
+                "valid_max": null,
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
@@ -2029,6 +2183,8 @@
                 "states": {
                     "DEFAULT": "@V"
                 },
+                "valid_min": 0.0,
+                "valid_max": 65535.0,
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
@@ -2037,7 +2193,9 @@
             }
         ]
     },
-    "VA1": {
+    "31928": {
+        "scrid": "31928",
+        "screen_id": "VA1",
         "screen_title_korean": "TRAME_VA_CFC300P",
         "screen_label_index": "@TTRAME_VA_CFC300P",
         "ecu_name": "CFC300P_DEGRADED_MODE_W2_26",
@@ -2062,6 +2220,8 @@
                 "unit": "V",
                 "req_frame_hex": "2187",
                 "states": {},
+                "valid_min": null,
+                "valid_max": null,
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
@@ -2090,9 +2250,10 @@
                     "0": "@P7004-POLUXDATA",
                     "1": "@P7072-POLUXDATA",
                     "2": "@P13275-POLUXDATA",
-                    "3": "@P860-POLUXDATA",
-                    "DEFAULT": "@P869-POLUXDATA"
+                    "3": "@P860-POLUXDATA"
                 },
+                "valid_min": null,
+                "valid_max": null,
                 "bit_mask": 3,
                 "bit_shift": 0,
                 "dynamic_arg": "",
@@ -2126,9 +2287,10 @@
                     "6": "@P5208-POLUXDATA@\\*6",
                     "9": "@P9919-POLUXDATA",
                     "10": "@P8645-POLUXDATA",
-                    "15": "@P4493-POLUXDATA",
-                    "DEFAULT": "@P869-POLUXDATA"
+                    "15": "@P4493-POLUXDATA"
                 },
+                "valid_min": null,
+                "valid_max": null,
                 "bit_mask": 15,
                 "bit_shift": 0,
                 "dynamic_arg": "",
@@ -2162,9 +2324,10 @@
                     "12": "@P5208-POLUXDATA@\\*6",
                     "1": "@P9919-POLUXDATA",
                     "2": "@P8645-POLUXDATA",
-                    "15": "@P4493-POLUXDATA",
-                    "DEFAULT": "@P869-POLUXDATA"
+                    "15": "@P4493-POLUXDATA"
                 },
+                "valid_min": null,
+                "valid_max": null,
                 "bit_mask": 15,
                 "bit_shift": 0,
                 "dynamic_arg": "",
@@ -2204,9 +2367,10 @@
                     "19": "@P3612-POLUXDATA",
                     "20": "@P3612-POLUXDATA",
                     "21": "@P3612-POLUXDATA",
-                    "2": "@P3612-POLUXDATA",
-                    "DEFAULT": "@P869-POLUXDATA"
+                    "2": "@P3612-POLUXDATA"
                 },
+                "valid_min": null,
+                "valid_max": null,
                 "bit_mask": 15,
                 "bit_shift": 0,
                 "dynamic_arg": "",
@@ -2233,9 +2397,10 @@
                 "req_frame_hex": "2187",
                 "states": {
                     "1": "@P701-POLUXDATA",
-                    "0": "@P16961-POLUXDATA",
-                    "DEFAULT": "@P869-POLUXDATA"
+                    "0": "@P16961-POLUXDATA"
                 },
+                "valid_min": null,
+                "valid_max": null,
                 "bit_mask": 1,
                 "bit_shift": 0,
                 "dynamic_arg": "",
@@ -2261,8 +2426,10 @@
                 "unit": "rpm",
                 "req_frame_hex": "2187",
                 "states": {
-                    "DEFAULT": "@P8038-POLUXDATA"
+                    "DEFAULT": "@V"
                 },
+                "valid_min": null,
+                "valid_max": null,
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
@@ -2290,6 +2457,8 @@
                 "states": {
                     "DEFAULT": "@V"
                 },
+                "valid_min": null,
+                "valid_max": null,
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
@@ -2315,6 +2484,8 @@
                 "unit": "rpm",
                 "req_frame_hex": "2187",
                 "states": {},
+                "valid_min": null,
+                "valid_max": null,
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
@@ -2340,6 +2511,8 @@
                 "unit": "rpm",
                 "req_frame_hex": "2187",
                 "states": {},
+                "valid_min": null,
+                "valid_max": null,
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
@@ -2367,6 +2540,8 @@
                 "states": {
                     "DEFAULT": "@V"
                 },
+                "valid_min": null,
+                "valid_max": null,
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
@@ -2393,9 +2568,10 @@
                 "req_frame_hex": "2187",
                 "states": {
                     "0": "@P790-POLUXDATA",
-                    "1": "@P15755-POLUXDATA",
-                    "DEFAULT": "@P869-POLUXDATA"
+                    "1": "@P15755-POLUXDATA"
                 },
+                "valid_min": null,
+                "valid_max": null,
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
@@ -2432,9 +2608,10 @@
                     "4": "@P2836-POLUXDATA",
                     "8": "@P2836-POLUXDATA",
                     "6": "@T+",
-                    "10": "@T-",
-                    "DEFAULT": "@P869-POLUXDATA"
+                    "10": "@T-"
                 },
+                "valid_min": null,
+                "valid_max": null,
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
@@ -2460,6 +2637,8 @@
                 "unit": "bar",
                 "req_frame_hex": "2187",
                 "states": {},
+                "valid_min": null,
+                "valid_max": null,
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
@@ -2488,6 +2667,8 @@
                     "DEFAULT": "@V",
                     "1677721.5": "@P548-POLUXDATA"
                 },
+                "valid_min": null,
+                "valid_max": null,
                 "bit_mask": null,
                 "bit_shift": null,
                 "dynamic_arg": "",
