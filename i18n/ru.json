@@ -116,7 +116,7 @@
   "wifi.device_list": "Список устройств Wi-Fi",
   "wifi.no_devices_found": "Не обнаружено доступных для подключения устройств Wi-Fi OBD.",
   "wifi.turn_on_wifi_and_try_scanning": "Пожалуйста, подключитесь к доступной сети Wi-Fi (OBD) в настройках вашего смартфона.",
-  "menu.sensor_count": "датчики",
+  "menu.sensor_count": "{} датчики",
   "scan.pro_adapter_required": "Доступно с расширительным разъемом PRO",
   "scan.pro_dialog_title": "Разблокировать полную диагностику ЭБУ",
   "scan.pro_dialog_body": "Подключите специальный расширительный разъем PRO к установленному в автомобиле OBD-сканеру, чтобы без ограничений диагностировать и обслуживать не только [{}], но и BSI, а также все остальные глубинные блоки автомобиля.",
@@ -154,5 +154,14 @@
   "scan.ecu_data_offline_error": "Нужен интернет для данных ошибок",
   "scan.offline_notice_close": "Закрыть",
   "sensor.select_all": "Выбрать все",
-  "sensor.btn_view_graph": "Показать график"
+  "sensor.btn_view_graph": "Показать график",
+  "scan.unmapped_support_title": "Запрос поддержки незарегистрированного ЭБУ",
+  "scan.unmapped_support_body": "Обнаружено новых версий ПО ЭБУ: {}.\\n({})\\n\\nОтправьте журнал диагностики, чтобы мы добавили поддержку в ближайшем обновлении.",
+  "scan.unmapped_ecu_summary_multi": "{} и ещё {}",
+  "scan.unmapped_btn_later": "Позже",
+  "scan.unmapped_btn_send": "Отправить запрос",
+  "scan.unmapped_sent_ok_title": "Успешно отправлено",
+  "scan.unmapped_sent_ok_body": "Журнал запроса поддержки успешно отправлен.",
+  "scan.unmapped_sent_fail_title": "Ошибка отправки",
+  "scan.unmapped_sent_fail_body": "Проверьте подключение к сети или статус входа и повторите попытку через меню."
 }
