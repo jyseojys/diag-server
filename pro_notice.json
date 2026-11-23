@@ -1,11 +1,14 @@
 {
   "is_active": true,
-  "notice_id": "20261123_pro_hw_news_v1",
+  "notice_id": "20261123_pro_hw_news_v2",
   "type": "promo",
   "repeat_policy": "always",
   "duration_sec": 0,
-  "image_url": "images/pro_banner.jpg",
-  "image_fit": "cover",
+  "image_urls": [
+    "images/pro_banner_cad.jpg",
+    "images/pro_banner_real.jpg"
+  ],
+  "image_fit": "fit_width",
   "show_action": false,
   "action_urls": {
     "ko": "https://smartstore.naver.com/",
