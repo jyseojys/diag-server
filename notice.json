@@ -1,19 +1,22 @@
 {
-  "is_active": true,
-  "notice_id": "20261123_pro_connector_v2",
-  "type": "promo",
+  "is_active": false,
+  "notice_id": "20261123_urgent_notice_v1",
+  "type": "urgent",
   "repeat_policy": "once",
   "min_app_version": "",
   "max_app_version": "",
-  "duration_sec": 10,
+  "duration_sec": 0,
+  "image_url": "",
+  "image_fit": "cover",
   "show_action": false,
-  "action_url": "",
-  "action_labels": {
-    "ko": "자세히 보기",
-    "en": "Learn More"
+  "action_urls": {},
+  "action_labels": {},
+  "titles": {
+    "ko": "중요 안내",
+    "en": "IMPORTANT"
   },
   "messages": {
-    "ko": "푸조·시트로엥 전 모듈 진단을 지원하는 PRO 확장 젠더가 곧 출시됩니다.",
-    "en": "The PRO Expansion Connector for full Peugeot & Citroën module diagnostics is coming soon."
+    "ko": "안정적인 ECU 통신을 위해 최신 버전 유지를 권장합니다. 진단 중에는 차량 전원을 유지해 주세요.",
+    "en": "Please keep the app updated for stable ECU communication and maintain vehicle ignition during diagnostics."
   }
 }
