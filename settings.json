@@ -1,0 +1,39 @@
+{
+  "schema_version": 1,
+  "updated_at": "2026-11-25",
+  "lk_auth_config": {
+    "sequence": [
+      "ATSP2",
+      "ATSP1",
+      "ATSP5"
+    ],
+    "timeouts": {
+      "j1850": {
+        "min_ms": 350,
+        "max_ms": 1000
+      },
+      "kline": {
+        "min_ms": 600,
+        "max_ms": 1500
+      }
+    }
+  },
+  "ecu_connection": {
+    "atz_timeout_ms": 2500,
+    "init_cmd_timeout_ms": 1000,
+    "post_atz_delay_ms": 30,
+    "retry_delay_ms": 50,
+    "ecu_switch_delay_ms": 20,
+    "ecu_probe_timeout_ms": 1500,
+    "ecu_probe_max_retries": 1,
+    "default_atst_hex": "32"
+  },
+  "sensor_polling": {
+    "command_timeout_ms": 800,
+    "inter_pid_delay_ms": 10,
+    "cycle_delay_ms": 30,
+    "atat_mode": 2,
+    "atst_hex": "19",
+    "max_consecutive_timeouts": 3
+  }
+}
