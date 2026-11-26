@@ -1,6 +1,6 @@
 {
-  "schema_version": 1,
-  "updated_at": "2026-11-25",
+  "schema_version": 2,
+  "updated_at": "2026-11-26",
   "lk_auth_config": {
     "sequence": [
       "ATSP2",
@@ -24,16 +24,26 @@
     "post_atz_delay_ms": 30,
     "retry_delay_ms": 50,
     "ecu_switch_delay_ms": 20,
-    "ecu_probe_timeout_ms": 1500,
-    "ecu_probe_max_retries": 1,
-    "default_atst_hex": "32"
+    "ecu_probe_timeout_ms": 1200,
+    "ecu_probe_max_retries": 2,
+    "default_atst_hex": "32",
+    "dtc_scan_timeout_ms": 7000,
+    "dtc_retry_delay_ms": 300,
+    "error_recovery_delay_ms": 200,
+    "buffer_full_delay_ms": 800,
+    "force_all_dtc_atst_ff": false,
+    "slow_dtc_ecu_models": [
+      "CMM_DCM71"
+    ]
   },
   "sensor_polling": {
     "command_timeout_ms": 800,
-    "inter_pid_delay_ms": 10,
-    "cycle_delay_ms": 30,
+    "inter_pid_delay_ms": 0,
+    "cycle_delay_ms": 0,
     "atat_mode": 2,
-    "atst_hex": "19",
-    "max_consecutive_timeouts": 3
+    "atst_hex": "64",
+    "max_consecutive_timeouts": 3,
+    "auto_step_up_delay_ms": 20,
+    "heavy_sensor_cooldown_ms": 5000
   }
 }
